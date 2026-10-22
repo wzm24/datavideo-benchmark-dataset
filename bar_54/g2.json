@@ -16,117 +16,79 @@
   "required_data_rows": 46,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "share_or_composition",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "complete_mark_set",
    "required_marks": [
     "Poorest | Income taxes | share_of_income",
+    "2nd | Income taxes | share_of_income",
+    "3rd | Income taxes | share_of_income",
+    "4th | Income taxes | share_of_income",
+    "5th | Income taxes | share_of_income",
+    "6th | Income taxes | share_of_income",
+    "7th | Income taxes | share_of_income",
+    "8th | Income taxes | share_of_income",
+    "9th | Income taxes | share_of_income",
     "10th | Income taxes | share_of_income",
     "Richest | Income taxes | share_of_income",
     "Poorest | Corporate and property taxes | share_of_income",
+    "2nd | Corporate and property taxes | share_of_income",
+    "3rd | Corporate and property taxes | share_of_income",
+    "4th | Corporate and property taxes | share_of_income",
+    "5th | Corporate and property taxes | share_of_income",
+    "6th | Corporate and property taxes | share_of_income",
+    "7th | Corporate and property taxes | share_of_income",
+    "8th | Corporate and property taxes | share_of_income",
+    "9th | Corporate and property taxes | share_of_income",
     "10th | Corporate and property taxes | share_of_income",
     "Richest | Corporate and property taxes | share_of_income",
     "10th | Estate taxes | share_of_income",
     "Richest | Estate taxes | share_of_income",
     "Poorest | Payroll taxes | share_of_income",
+    "2nd | Payroll taxes | share_of_income",
+    "3rd | Payroll taxes | share_of_income",
+    "4th | Payroll taxes | share_of_income",
+    "5th | Payroll taxes | share_of_income",
+    "6th | Payroll taxes | share_of_income",
+    "7th | Payroll taxes | share_of_income",
+    "8th | Payroll taxes | share_of_income",
+    "9th | Payroll taxes | share_of_income",
     "10th | Payroll taxes | share_of_income",
     "Richest | Payroll taxes | share_of_income",
     "Poorest | Consumption taxes | share_of_income",
+    "2nd | Consumption taxes | share_of_income",
+    "3rd | Consumption taxes | share_of_income",
+    "4th | Consumption taxes | share_of_income",
+    "5th | Consumption taxes | share_of_income",
+    "6th | Consumption taxes | share_of_income",
+    "7th | Consumption taxes | share_of_income",
+    "8th | Consumption taxes | share_of_income",
+    "9th | Consumption taxes | share_of_income",
     "10th | Consumption taxes | share_of_income",
     "Richest | Consumption taxes | share_of_income"
    ],
    "assertion": {
-    "compositions": [
-     {
-      "entity": "Poorest",
-      "segments": [
-       {
-        "mark": "Poorest | Income taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "Poorest | Corporate and property taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "Poorest | Payroll taxes | share_of_income",
-        "value": 10.6
-       },
-       {
-        "mark": "Poorest | Consumption taxes | share_of_income",
-        "value": 12.5
-       }
-      ],
-      "total": 25.1
-     },
-     {
-      "entity": "10th",
-      "segments": [
-       {
-        "mark": "10th | Income taxes | share_of_income",
-        "value": 18.0
-       },
-       {
-        "mark": "10th | Corporate and property taxes | share_of_income",
-        "value": 9.2
-       },
-       {
-        "mark": "10th | Estate taxes | share_of_income",
-        "value": 0.3
-       },
-       {
-        "mark": "10th | Payroll taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "10th | Consumption taxes | share_of_income",
-        "value": 3.0
-       }
-      ],
-      "total": 31.5
-     },
-     {
-      "entity": "Richest",
-      "segments": [
-       {
-        "mark": "Richest | Income taxes | share_of_income",
-        "value": 10.0
-       },
-       {
-        "mark": "Richest | Corporate and property taxes | share_of_income",
-        "value": 10.5
-       },
-       {
-        "mark": "Richest | Estate taxes | share_of_income",
-        "value": 0.8
-       },
-       {
-        "mark": "Richest | Payroll taxes | share_of_income",
-        "value": 0.4
-       },
-       {
-        "mark": "Richest | Consumption taxes | share_of_income",
-        "value": 2.0
-       }
-      ],
-      "total": 23.7
-     }
-    ],
-    "expected_total": 100,
-    "tolerance": 0.05
+    "required_data_rows": 46,
+    "mode": "static_all_at_once",
+    "required_states": [],
+    "required_marks_per_state": {},
+    "all_required_marks_must_be_present": true
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "geometry"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
@@ -240,67 +202,109 @@
    "needs_review": false
   },
   {
-   "unit_id": "U_COMPLETE",
-   "unit_kind": "visual_completeness",
+   "unit_id": "U3",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
+   "evidence_type": "complete_composition",
    "required_marks": [
     "Poorest | Income taxes | share_of_income",
-    "2nd | Income taxes | share_of_income",
-    "3rd | Income taxes | share_of_income",
-    "4th | Income taxes | share_of_income",
-    "5th | Income taxes | share_of_income",
-    "6th | Income taxes | share_of_income",
-    "7th | Income taxes | share_of_income",
-    "8th | Income taxes | share_of_income",
-    "9th | Income taxes | share_of_income",
     "10th | Income taxes | share_of_income",
     "Richest | Income taxes | share_of_income",
     "Poorest | Corporate and property taxes | share_of_income",
-    "2nd | Corporate and property taxes | share_of_income",
-    "3rd | Corporate and property taxes | share_of_income",
-    "4th | Corporate and property taxes | share_of_income",
-    "5th | Corporate and property taxes | share_of_income",
-    "6th | Corporate and property taxes | share_of_income",
-    "7th | Corporate and property taxes | share_of_income",
-    "8th | Corporate and property taxes | share_of_income",
-    "9th | Corporate and property taxes | share_of_income",
     "10th | Corporate and property taxes | share_of_income",
     "Richest | Corporate and property taxes | share_of_income",
     "10th | Estate taxes | share_of_income",
     "Richest | Estate taxes | share_of_income",
     "Poorest | Payroll taxes | share_of_income",
-    "2nd | Payroll taxes | share_of_income",
-    "3rd | Payroll taxes | share_of_income",
-    "4th | Payroll taxes | share_of_income",
-    "5th | Payroll taxes | share_of_income",
-    "6th | Payroll taxes | share_of_income",
-    "7th | Payroll taxes | share_of_income",
-    "8th | Payroll taxes | share_of_income",
-    "9th | Payroll taxes | share_of_income",
     "10th | Payroll taxes | share_of_income",
     "Richest | Payroll taxes | share_of_income",
     "Poorest | Consumption taxes | share_of_income",
-    "2nd | Consumption taxes | share_of_income",
-    "3rd | Consumption taxes | share_of_income",
-    "4th | Consumption taxes | share_of_income",
-    "5th | Consumption taxes | share_of_income",
-    "6th | Consumption taxes | share_of_income",
-    "7th | Consumption taxes | share_of_income",
-    "8th | Consumption taxes | share_of_income",
-    "9th | Consumption taxes | share_of_income",
     "10th | Consumption taxes | share_of_income",
     "Richest | Consumption taxes | share_of_income"
    ],
    "assertion": {
-    "required_data_rows": 46,
-    "mode": "static_all_at_once",
-    "required_states": [],
-    "required_marks_per_state": {},
-    "all_required_marks_must_be_present": true
+    "compositions": [
+     {
+      "entity": "Poorest",
+      "segments": [
+       {
+        "mark": "Poorest | Income taxes | share_of_income",
+        "value": 1.0
+       },
+       {
+        "mark": "Poorest | Corporate and property taxes | share_of_income",
+        "value": 1.0
+       },
+       {
+        "mark": "Poorest | Payroll taxes | share_of_income",
+        "value": 10.6
+       },
+       {
+        "mark": "Poorest | Consumption taxes | share_of_income",
+        "value": 12.5
+       }
+      ],
+      "total": 25.1
+     },
+     {
+      "entity": "10th",
+      "segments": [
+       {
+        "mark": "10th | Income taxes | share_of_income",
+        "value": 18.0
+       },
+       {
+        "mark": "10th | Corporate and property taxes | share_of_income",
+        "value": 9.2
+       },
+       {
+        "mark": "10th | Estate taxes | share_of_income",
+        "value": 0.3
+       },
+       {
+        "mark": "10th | Payroll taxes | share_of_income",
+        "value": 1.0
+       },
+       {
+        "mark": "10th | Consumption taxes | share_of_income",
+        "value": 3.0
+       }
+      ],
+      "total": 31.5
+     },
+     {
+      "entity": "Richest",
+      "segments": [
+       {
+        "mark": "Richest | Income taxes | share_of_income",
+        "value": 10.0
+       },
+       {
+        "mark": "Richest | Corporate and property taxes | share_of_income",
+        "value": 10.5
+       },
+       {
+        "mark": "Richest | Estate taxes | share_of_income",
+        "value": 0.8
+       },
+       {
+        "mark": "Richest | Payroll taxes | share_of_income",
+        "value": 0.4
+       },
+       {
+        "mark": "Richest | Consumption taxes | share_of_income",
+        "value": 2.0
+       }
+      ],
+      "total": 23.7
+     }
+    ],
+    "expected_total": 100,
+    "tolerance": 0.05
    },
    "accepted_routes": [
-    "geometry"
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

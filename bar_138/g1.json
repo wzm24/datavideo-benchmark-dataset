@@ -1,38 +1,14 @@
 {
  "clip_id": "bar_138",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "To illustrate the surge in imported COVID-19 cases in Taiwan during March 2020, which occurred while local community spread remained low, thereby explaining the need for new strategies.",
  "requirements": [
   {
    "id": "R1",
-   "question": "Must the video show the rising imported trend across multiple March dates?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "Must the video state or show that local cases remained low?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Must the video directly compare imported and local counts in late March?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -40,163 +16,36 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "Must the video show the rising imported trend across multiple March dates?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "Must the video state or show that local cases remained low?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  },
+  {
+   "id": "R4",
+   "question": "Must the video directly compare imported and local counts in late March?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "Imported cases rose sharply across March, from low single digits to late-March peaks in the 20s.",
-   "basis": [
-    {
-     "entity": "27 Feb 20",
-     "x": "27 Feb 20-Imported",
-     "field": "value",
-     "value": 2,
-     "note": "max imported in section"
-    },
-    {
-     "entity": "09 Mar 20",
-     "x": "09 Mar 20-Imported",
-     "field": "value",
-     "value": 8,
-     "note": "max imported in section"
-    },
-    {
-     "entity": "17 Mar 20",
-     "x": "17 Mar 20-Imported",
-     "field": "value",
-     "value": 27,
-     "note": "max imported in section"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Imported",
-     "field": "value",
-     "value": 29,
-     "note": "max imported in section"
-    }
-   ],
-   "accept": [
-    "Imported cases jumped from 2 in late Feb to 29 by late March.",
-    "March imported cases climbed from single digits to 20s.",
-    "Imported bar heights rise sharply across March 2020.",
-    "Imported cases surged to peaks of 27 and 29 in late March."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "Imported bars visibly grow from low early values to 27 and 29 in late March."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "key_value_extreme",
-   "must_be_visualized": true,
-   "claim": "Local community cases remained low throughout, with the highest local bar only 8.",
-   "basis": [
-    {
-     "entity": "09 Mar 20",
-     "x": "09 Mar 20-Local",
-     "field": "value",
-     "value": 1,
-     "note": "low local bar"
-    },
-    {
-     "entity": "09 Mar 20",
-     "x": "09 Mar 20-Local",
-     "field": "value",
-     "value": 3,
-     "note": "low local bar"
-    },
-    {
-     "entity": "17 Mar 20",
-     "x": "17 Mar 20-Local",
-     "field": "value",
-     "value": 2,
-     "note": "low local bar"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Local",
-     "field": "value",
-     "value": 8,
-     "note": "highest local bar"
-    }
-   ],
-   "accept": [
-    "Local cases stayed low, peaking at only 8.",
-    "Community spread remained low, with local bars mostly 1 to 3.",
-    "The tallest local bar reaches just 8.",
-    "Local case counts remain small while imported counts rise."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "Local bars stay low and never exceed height 8 on the chart."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "In the 25 Mar section, imported cases far outnumbered local cases: 72 imported vs 11 local.",
-   "basis": [
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Imported",
-     "field": "value",
-     "value": 19,
-     "note": "imported bar"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Imported",
-     "field": "value",
-     "value": 29,
-     "note": "imported bar"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Imported",
-     "field": "value",
-     "value": 24,
-     "note": "imported bar"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Local",
-     "field": "value",
-     "value": 8,
-     "note": "local bar"
-    },
-    {
-     "entity": "25 Mar 20",
-     "x": "25 Mar 20-Local",
-     "field": "value",
-     "value": 3,
-     "note": "local bar"
-    }
-   ],
-   "accept": [
-    "In the 25 Mar section, imported cases were 72 vs 11 local.",
-    "Late-March imported cases outnumbered local about 6.5 to 1.",
-    "Imported bars dwarf local bars in the 25 Mar section.",
-    "25 Mar section shows 72 imported and 11 local cases."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "In the 25 Mar section, imported bars are much taller than the local bars."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 32 required bar marks or stacked segments appear in the final chart.",
@@ -491,16 +340,166 @@
     }
    ],
    "accept": [
-    "all 32 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
+    "all 32 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend_or_order",
+   "must_be_visualized": true,
+   "claim": "Imported cases rose sharply across March, from low single digits to late-March peaks in the 20s.",
+   "basis": [
+    {
+     "entity": "27 Feb 20",
+     "x": "27 Feb 20-Imported",
+     "field": "value",
+     "value": 2,
+     "note": "max imported in section"
+    },
+    {
+     "entity": "09 Mar 20",
+     "x": "09 Mar 20-Imported",
+     "field": "value",
+     "value": 8,
+     "note": "max imported in section"
+    },
+    {
+     "entity": "17 Mar 20",
+     "x": "17 Mar 20-Imported",
+     "field": "value",
+     "value": 27,
+     "note": "max imported in section"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Imported",
+     "field": "value",
+     "value": 29,
+     "note": "max imported in section"
+    }
+   ],
+   "accept": [
+    "Imported cases jumped from 2 in late Feb to 29 by late March.",
+    "March imported cases climbed from single digits to 20s.",
+    "Imported bar heights rise sharply across March 2020.",
+    "Imported cases surged to peaks of 27 and 29 in late March."
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "Imported bars visibly grow from low early values to 27 and 29 in late March."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "claim": "Local community cases remained low throughout, with the highest local bar only 8.",
+   "basis": [
+    {
+     "entity": "09 Mar 20",
+     "x": "09 Mar 20-Local",
+     "field": "value",
+     "value": 1,
+     "note": "low local bar"
+    },
+    {
+     "entity": "09 Mar 20",
+     "x": "09 Mar 20-Local",
+     "field": "value",
+     "value": 3,
+     "note": "low local bar"
+    },
+    {
+     "entity": "17 Mar 20",
+     "x": "17 Mar 20-Local",
+     "field": "value",
+     "value": 2,
+     "note": "low local bar"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Local",
+     "field": "value",
+     "value": 8,
+     "note": "highest local bar"
+    }
+   ],
+   "accept": [
+    "Local cases stayed low, peaking at only 8.",
+    "Community spread remained low, with local bars mostly 1 to 3.",
+    "The tallest local bar reaches just 8.",
+    "Local case counts remain small while imported counts rise."
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "Local bars stay low and never exceed height 8 on the chart."
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "In the 25 Mar section, imported cases far outnumbered local cases: 72 imported vs 11 local.",
+   "basis": [
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Imported",
+     "field": "value",
+     "value": 19,
+     "note": "imported bar"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Imported",
+     "field": "value",
+     "value": 29,
+     "note": "imported bar"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Imported",
+     "field": "value",
+     "value": 24,
+     "note": "imported bar"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Local",
+     "field": "value",
+     "value": 8,
+     "note": "local bar"
+    },
+    {
+     "entity": "25 Mar 20",
+     "x": "25 Mar 20-Local",
+     "field": "value",
+     "value": 3,
+     "note": "local bar"
+    }
+   ],
+   "accept": [
+    "In the 25 Mar section, imported cases were 72 vs 11 local.",
+    "Late-March imported cases outnumbered local about 6.5 to 1.",
+    "Imported bars dwarf local bars in the 25 Mar section.",
+    "25 Mar section shows 72 imported and 11 local cases."
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "In the 25 Mar section, imported bars are much taller than the local bars."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -508,7 +507,7 @@
   "U1": 0.25,
   "U2": 0.25,
   "U3": 0.25,
-  "U_COMPLETE": 0.25
+  "U4": 0.25
  },
  "optional_valid": [
   "Mention specific date labels such as 17 Mar 20 and 25 Mar 20.",
@@ -523,17 +522,21 @@
   "required_data_rows": 32,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",

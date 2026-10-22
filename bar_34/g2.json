@@ -16,18 +16,22 @@
   "required_data_rows": 8,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "comparison",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "complete_mark_set",
    "required_marks": [
     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
     "Germany | skipped_prescriptions_or_doses_due_to_cost",
@@ -39,30 +43,14 @@
     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost"
    ],
    "assertion": {
-    "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-    "greater_value": 33.453,
-    "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
-    "lesser_value": 2.137,
-    "delta": 31.316,
-    "ratio": 15.654188,
-    "expected_order": [
-     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Canada | skipped_prescriptions_or_doses_due_to_cost",
-     "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
-     "Australia | skipped_prescriptions_or_doses_due_to_cost",
-     "France | skipped_prescriptions_or_doses_due_to_cost",
-     "Germany | skipped_prescriptions_or_doses_due_to_cost",
-     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "required_data_rows": 8,
+    "mode": "static_all_at_once",
+    "required_states": [],
+    "required_marks_per_state": {},
+    "all_required_marks_must_be_present": true
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "geometry"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
@@ -112,10 +100,10 @@
    "needs_review": false
   },
   {
-   "unit_id": "U_COMPLETE",
-   "unit_kind": "visual_completeness",
+   "unit_id": "U3",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
+   "evidence_type": "ranked_comparison",
    "required_marks": [
     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
     "Germany | skipped_prescriptions_or_doses_due_to_cost",
@@ -127,14 +115,30 @@
     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost"
    ],
    "assertion": {
-    "required_data_rows": 8,
-    "mode": "static_all_at_once",
-    "required_states": [],
-    "required_marks_per_state": {},
-    "all_required_marks_must_be_present": true
+    "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+    "greater_value": 33.453,
+    "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
+    "lesser_value": 2.137,
+    "delta": 31.316,
+    "ratio": 15.654188,
+    "expected_order": [
+     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+     "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
+     "Canada | skipped_prescriptions_or_doses_due_to_cost",
+     "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
+     "Australia | skipped_prescriptions_or_doses_due_to_cost",
+     "France | skipped_prescriptions_or_doses_due_to_cost",
+     "Germany | skipped_prescriptions_or_doses_due_to_cost",
+     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
+    ],
+    "tolerance": {
+     "value": 0.02,
+     "ratio": 0.05
+    }
    },
    "accepted_routes": [
-    "geometry"
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

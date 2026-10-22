@@ -14,7 +14,7 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 8,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "state_sequence",
   "required_states": [
@@ -27,11 +27,76 @@
   },
   "check_full_timeline": true,
   "final_frame_only_sufficient": false,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_mark_set",
+   "required_marks": [
+    "Sub-Saharan Africa | 1960 | births_per_woman",
+    "East Asia | 1960 | births_per_woman",
+    "North America | 1960 | births_per_woman",
+    "European Union | 1960 | births_per_woman"
+   ],
+   "assertion": {
+    "required_data_rows": 8,
+    "mode": "state_sequence",
+    "required_states": [
+     "1960",
+     "2017"
+    ],
+    "required_marks_per_state": {
+     "1960": 4,
+     "2017": 4
+    },
+    "all_required_marks_must_be_present": true
+   },
+   "accepted_routes": [
+    "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_mark_set",
+   "required_marks": [
+    "Sub-Saharan Africa | 2017 | births_per_woman",
+    "East Asia | 2017 | births_per_woman",
+    "North America | 2017 | births_per_woman",
+    "European Union | 2017 | births_per_woman"
+   ],
+   "assertion": {
+    "required_data_rows": 8,
+    "mode": "state_sequence",
+    "required_states": [
+     "1960",
+     "2017"
+    ],
+    "required_marks_per_state": {
+     "1960": 4,
+     "2017": 4
+    },
+    "all_required_marks_must_be_present": true
+   },
+   "accepted_routes": [
+    "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
    "unit_kind": "change_or_rate",
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
@@ -65,7 +130,7 @@
    "needs_review": false
   },
   {
-   "unit_id": "U2",
+   "unit_id": "U4",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
@@ -96,40 +161,6 @@
    "accepted_routes": [
     "geometry",
     "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
-   "required_marks": [
-    "Sub-Saharan Africa | 1960 | births_per_woman",
-    "East Asia | 1960 | births_per_woman",
-    "North America | 1960 | births_per_woman",
-    "European Union | 1960 | births_per_woman",
-    "Sub-Saharan Africa | 2017 | births_per_woman",
-    "East Asia | 2017 | births_per_woman",
-    "North America | 2017 | births_per_woman",
-    "European Union | 2017 | births_per_woman"
-   ],
-   "assertion": {
-    "required_data_rows": 8,
-    "mode": "state_sequence",
-    "required_states": [
-     "1960",
-     "2017"
-    ],
-    "required_marks_per_state": {
-     "1960": 4,
-     "2017": 4
-    },
-    "all_required_marks_must_be_present": true
-   },
-   "accepted_routes": [
-    "geometry"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_78",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show the trend in Regus's profit and contrast it with WeWork's much higher valuation.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What trend does Regus's profit follow from 2013 to 2017?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "How is Regus contrasted with WeWork?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,12 +16,82 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "What trend does Regus's profit follow from 2013 to 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How is Regus contrasted with WeWork?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 5 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "100.000",
+     "unit": "million USD",
+     "entity": "2013",
+     "metric": "regus_profit"
+    },
+    {
+     "field": "value",
+     "value": "130.000",
+     "unit": "million USD",
+     "entity": "2014",
+     "metric": "regus_profit"
+    },
+    {
+     "field": "value",
+     "value": "200.000",
+     "unit": "million USD",
+     "entity": "2015",
+     "metric": "regus_profit"
+    },
+    {
+     "field": "value",
+     "value": "190.000",
+     "unit": "million USD",
+     "entity": "2016",
+     "metric": "regus_profit"
+    },
+    {
+     "field": "value",
+     "value": "200.000",
+     "unit": "million USD",
+     "entity": "2017",
+     "metric": "regus_profit"
+    }
+   ],
+   "accept": [
+    "all 5 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "claim": "Regus profit rises from about 100 million in 2013 to 200 million in 2015, dips in 2016, and returns to 200 million in 2017.",
@@ -86,8 +140,8 @@
    "evidence": "The selected keyframe and plotted marks encode this relation."
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U3",
+   "requirement_id": "R3",
    "unit_kind": "narrative_claim",
    "must_be_visualized": false,
    "claim": "The narration contrasts Regus's profitability with WeWork's much larger valuation.",
@@ -103,68 +157,13 @@
    "evidence": "Narration-only context; do not invent a chart mark for it.",
    "hardcase": true,
    "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 5 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "100.000",
-     "unit": "million USD",
-     "entity": "2013",
-     "metric": "regus_profit"
-    },
-    {
-     "field": "value",
-     "value": "130.000",
-     "unit": "million USD",
-     "entity": "2014",
-     "metric": "regus_profit"
-    },
-    {
-     "field": "value",
-     "value": "200.000",
-     "unit": "million USD",
-     "entity": "2015",
-     "metric": "regus_profit"
-    },
-    {
-     "field": "value",
-     "value": "190.000",
-     "unit": "million USD",
-     "entity": "2016",
-     "metric": "regus_profit"
-    },
-    {
-     "field": "value",
-     "value": "200.000",
-     "unit": "million USD",
-     "entity": "2017",
-     "metric": "regus_profit"
-    }
-   ],
-   "accept": [
-    "all 5 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -174,11 +173,15 @@
   "required_data_rows": 5,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": true,
@@ -187,14 +190,14 @@
  },
  "hardcases": [
   {
-   "unit_id": "U2",
+   "unit_id": "U3",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false; preserve the point through narration."
   }
  ],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",

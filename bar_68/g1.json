@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_68",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that the annual financial loss caused by piracy fell over time, with the 2018 value lower than in the previous piracy-cost chart because ransoms were paid.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How do the inferred annual piracy losses change through 2018?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "Why is the 2018 loss lower than in the preceding piracy-cost chart?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,87 +16,28 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "How do the inferred annual piracy losses change through 2018?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "Why is the 2018 loss lower than in the preceding piracy-cost chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Using $8.3B for 2013 and $4.9B for 2018, the inferred annual losses decline across the displayed years.",
-   "basis": [
-    {
-     "entity": "2013",
-     "field": "annual_piracy_cost",
-     "value": 8.3,
-     "unit": "billion USD"
-    },
-    {
-     "entity": "2014",
-     "field": "annual_piracy_cost",
-     "value": 7.9,
-     "unit": "billion USD"
-    },
-    {
-     "entity": "2015",
-     "field": "annual_piracy_cost",
-     "value": 7.6,
-     "unit": "billion USD"
-    },
-    {
-     "entity": "2016",
-     "field": "annual_piracy_cost",
-     "value": 6.5,
-     "unit": "billion USD"
-    },
-    {
-     "entity": "2017",
-     "field": "annual_piracy_cost",
-     "value": 6.1,
-     "unit": "billion USD"
-    },
-    {
-     "entity": "2018",
-     "field": "annual_piracy_cost",
-     "value": 4.9,
-     "unit": "billion USD"
-    }
-   ],
-   "accept": [
-    "six yearly monetary bars are present",
-    "2013 is $8.3B",
-    "2018 is $4.9B and is the minimum"
-   ],
-   "reject": [
-    "leaving the table entirely relative",
-    "adding a 2018 rebound",
-    "reversing the endpoints"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "The 2018 loss falls from about $5.8B in bar_67 to about $4.9B in bar_68 because ransoms were paid.",
-   "basis": [],
-   "accept": [
-    "the 2018 cross-chart decrease is stated",
-    "paid ransoms are given as the explanation"
-   ],
-   "reject": [
-    "claiming this chart alone displays both 2018 values",
-    "reversing which value is lower"
-   ],
-   "evidence": "Narration-only context; do not invent a chart mark for it.",
-   "hardcase": true,
-   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 6 required bar marks or stacked segments appear in the final chart.",
@@ -167,23 +92,97 @@
     }
    ],
    "accept": [
-    "all 6 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 6 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Using $8.3B for 2013 and $4.9B for 2018, the inferred annual losses decline across the displayed years.",
+   "basis": [
+    {
+     "entity": "2013",
+     "field": "annual_piracy_cost",
+     "value": 8.3,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "2014",
+     "field": "annual_piracy_cost",
+     "value": 7.9,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "2015",
+     "field": "annual_piracy_cost",
+     "value": 7.6,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "2016",
+     "field": "annual_piracy_cost",
+     "value": 6.5,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "2017",
+     "field": "annual_piracy_cost",
+     "value": 6.1,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "2018",
+     "field": "annual_piracy_cost",
+     "value": 4.9,
+     "unit": "billion USD"
+    }
+   ],
+   "accept": [
+    "six yearly monetary bars are present",
+    "2013 is $8.3B",
+    "2018 is $4.9B and is the minimum"
+   ],
+   "reject": [
+    "leaving the table entirely relative",
+    "adding a 2018 rebound",
+    "reversing the endpoints"
+   ],
+   "evidence": "The selected keyframe and plotted marks encode this relation."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "narrative_claim",
+   "must_be_visualized": false,
+   "claim": "The 2018 loss falls from about $5.8B in bar_67 to about $4.9B in bar_68 because ransoms were paid.",
+   "basis": [],
+   "accept": [
+    "the 2018 cross-chart decrease is stated",
+    "paid ransoms are given as the explanation"
+   ],
+   "reject": [
+    "claiming this chart alone displays both 2018 values",
+    "reversing which value is lower"
+   ],
+   "evidence": "Narration-only context; do not invent a chart mark for it.",
+   "hardcase": true,
+   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -193,11 +192,15 @@
   "required_data_rows": 6,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": true,
@@ -206,14 +209,14 @@
  },
  "hardcases": [
   {
-   "unit_id": "U2",
+   "unit_id": "U3",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false; preserve the point through narration."
   }
  ],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",

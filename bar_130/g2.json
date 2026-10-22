@@ -16,157 +16,19 @@
   "required_data_rows": 44,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "DISARMAMENT | 1990 | relative_value",
-    "DISARMAMENT | 1995 | relative_value",
-    "DISARMAMENT | 2000 | relative_value",
-    "DISARMAMENT | 2005 | relative_value",
-    "DISARMAMENT | 2010 | relative_value",
-    "DISARMAMENT | 2015 | relative_value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "DISARMAMENT | 1990 | relative_value",
-      "value": 0.192
-     },
-     {
-      "mark": "DISARMAMENT | 1995 | relative_value",
-      "value": 0.36
-     },
-     {
-      "mark": "DISARMAMENT | 2000 | relative_value",
-      "value": 0.49
-     },
-     {
-      "mark": "DISARMAMENT | 2005 | relative_value",
-      "value": 0.5701
-     },
-     {
-      "mark": "DISARMAMENT | 2010 | relative_value",
-      "value": 0.6501
-     },
-     {
-      "mark": "DISARMAMENT | 2015 | relative_value",
-      "value": 0.7301
-     }
-    ],
-    "direction": "increasing",
-    "start_value": 0.192,
-    "end_value": 0.7301,
-    "delta": 0.5381,
-    "ratio": 3.802604,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U2",
-   "unit_kind": "threshold_or_crossing",
-   "must_be_visualized": true,
-   "evidence_type": "threshold_marks",
-   "required_marks": [
-    "Russia | 1990 | relative_value",
-    "DISARMAMENT | 1990 | relative_value",
-    "DISARMAMENT | 2015 | relative_value",
-    "Russia | 2015 | relative_value"
-   ],
-   "assertion": {
-    "marks": [
-     {
-      "mark": "Russia | 1990 | relative_value",
-      "value": 0.6,
-      "label": ""
-     },
-     {
-      "mark": "DISARMAMENT | 1990 | relative_value",
-      "value": 0.192,
-      "label": ""
-     },
-     {
-      "mark": "DISARMAMENT | 2015 | relative_value",
-      "value": 0.7301,
-      "label": ""
-     },
-     {
-      "mark": "Russia | 2015 | relative_value",
-      "value": 0.1296,
-      "label": ""
-     }
-    ],
-    "relation": "distinguish values on opposite sides of the stated thresholds",
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": true
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "USA | 1990 | relative_value",
-    "Russia | 1990 | relative_value",
-    "USA | 2015 | relative_value",
-    "Russia | 2015 | relative_value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "USA | 1990 | relative_value",
-      "value": 0.2
-     },
-     {
-      "mark": "Russia | 1990 | relative_value",
-      "value": 0.6
-     },
-     {
-      "mark": "USA | 2015 | relative_value",
-      "value": 0.135
-     },
-     {
-      "mark": "Russia | 2015 | relative_value",
-      "value": 0.1296
-     }
-    ],
-    "direction": "decreasing",
-    "start_value": 0.2,
-    "end_value": 0.1296,
-    "delta": -0.0704,
-    "ratio": 0.648,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "evidence_type": "complete_mark_set",
@@ -225,6 +87,148 @@
    },
    "accepted_routes": [
     "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "DISARMAMENT | 1990 | relative_value",
+    "DISARMAMENT | 1995 | relative_value",
+    "DISARMAMENT | 2000 | relative_value",
+    "DISARMAMENT | 2005 | relative_value",
+    "DISARMAMENT | 2010 | relative_value",
+    "DISARMAMENT | 2015 | relative_value"
+   ],
+   "assertion": {
+    "sequence": [
+     {
+      "mark": "DISARMAMENT | 1990 | relative_value",
+      "value": 0.192
+     },
+     {
+      "mark": "DISARMAMENT | 1995 | relative_value",
+      "value": 0.36
+     },
+     {
+      "mark": "DISARMAMENT | 2000 | relative_value",
+      "value": 0.49
+     },
+     {
+      "mark": "DISARMAMENT | 2005 | relative_value",
+      "value": 0.5701
+     },
+     {
+      "mark": "DISARMAMENT | 2010 | relative_value",
+      "value": 0.6501
+     },
+     {
+      "mark": "DISARMAMENT | 2015 | relative_value",
+      "value": 0.7301
+     }
+    ],
+    "direction": "increasing",
+    "start_value": 0.192,
+    "end_value": 0.7301,
+    "delta": 0.5381,
+    "ratio": 3.802604,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_marks",
+   "required_marks": [
+    "Russia | 1990 | relative_value",
+    "DISARMAMENT | 1990 | relative_value",
+    "DISARMAMENT | 2015 | relative_value",
+    "Russia | 2015 | relative_value"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Russia | 1990 | relative_value",
+      "value": 0.6,
+      "label": ""
+     },
+     {
+      "mark": "DISARMAMENT | 1990 | relative_value",
+      "value": 0.192,
+      "label": ""
+     },
+     {
+      "mark": "DISARMAMENT | 2015 | relative_value",
+      "value": 0.7301,
+      "label": ""
+     },
+     {
+      "mark": "Russia | 2015 | relative_value",
+      "value": 0.1296,
+      "label": ""
+     }
+    ],
+    "relation": "distinguish values on opposite sides of the stated thresholds",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": true
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "USA | 1990 | relative_value",
+    "Russia | 1990 | relative_value",
+    "USA | 2015 | relative_value",
+    "Russia | 2015 | relative_value"
+   ],
+   "assertion": {
+    "sequence": [
+     {
+      "mark": "USA | 1990 | relative_value",
+      "value": 0.2
+     },
+     {
+      "mark": "Russia | 1990 | relative_value",
+      "value": 0.6
+     },
+     {
+      "mark": "USA | 2015 | relative_value",
+      "value": 0.135
+     },
+     {
+      "mark": "Russia | 2015 | relative_value",
+      "value": 0.1296
+     }
+    ],
+    "direction": "decreasing",
+    "start_value": 0.2,
+    "end_value": 0.1296,
+    "delta": -0.0704,
+    "ratio": 0.648,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

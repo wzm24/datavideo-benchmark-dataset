@@ -1,30 +1,15 @@
 {
  "clip_id": "bar_13",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show how the initial population projection overshot the actual level, and convey the uncertainty in the forecasts.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How did the population projection differ from the actual level?",
-   "relation": "single",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "all_of",
    "unit_ids": [
-    "U1"
-   ],
-   "scope": {
-    "entities": [
-     "Population projection",
-     "Actual population"
-    ],
-    "measure": "population in billions",
-    "time": "projection vs actual"
-   }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
+    "U1",
+    "U2"
    ],
    "scope": {
     "selection": "all data rows (table has no role column)",
@@ -38,12 +23,82 @@
      "Actual": 1
     }
    }
+  },
+  {
+   "id": "R2",
+   "question": "How did the population projection differ from the actual level?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "entities": [
+     "Population projection",
+     "Actual population"
+    ],
+    "measure": "population in billions",
+    "time": "projection vs actual"
+   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state Initial projection.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "5.6",
+     "unit": "billion",
+     "x": "Initial projection",
+     "metric": "population",
+     "label": "above 5 billion"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state Initial projection",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state Initial projection are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state Actual.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "3.2",
+     "unit": "billion",
+     "x": "Actual",
+     "metric": "population",
+     "label": "around 3 billion"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state Actual",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state Actual are visible and identifiable."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
    "claim": "The initial population projection reached about 5.6 billion, while the actual level was about 3.2 billion - a gap of 2.4 billion.",
    "accept": [
     "about 5.6 billion vs about 3.2 billion",
@@ -78,48 +133,13 @@
      "label": "around 3 billion"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "Every declared state shows all required bar marks or stacked segments: Initial projection=1, Actual=1.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "5.6",
-     "unit": "billion",
-     "x": "Initial projection",
-     "metric": "population",
-     "label": "above 5 billion"
-    },
-    {
-     "field": "value",
-     "value": "3.2",
-     "unit": "billion",
-     "x": "Actual",
-     "metric": "population",
-     "label": "around 3 billion"
-    }
-   ],
-   "accept": [
-    "all 2 required data marks are visible",
-    "every required bar is present",
-    "every declared state shows its complete required mark set"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [
   "The narration's 'it's complicated' explanation is not a table fact."
@@ -131,7 +151,7 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 2,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "state_sequence",
   "required_states": [
@@ -144,10 +164,16 @@
   },
   "check_full_timeline": true,
   "final_frame_only_sufficient": false,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

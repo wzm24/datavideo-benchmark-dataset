@@ -16,15 +16,51 @@
   "required_data_rows": 12,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_mark_set",
+   "required_marks": [
+    "Less than $23,000 | DIDN'T ATTEND COLLEGE | value",
+    "Less than $23,000 | ATTENDED COLLEGE | value",
+    "$23,000 to $42,000 | DIDN'T ATTEND COLLEGE | value",
+    "$23,000 to $42,000 | ATTENDED COLLEGE | value",
+    "$42,000 to $68,000 | DIDN'T ATTEND COLLEGE | value",
+    "$42,000 to $68,000 | ATTENDED COLLEGE | value",
+    "$68,000 to $111,000 | ATTENDED COLLEGE | value",
+    "$68,000 to $111,000 | DIDN'T ATTEND COLLEGE | value",
+    "$111,000 to $176,000 | ATTENDED COLLEGE | value",
+    "$111,000 to $176,000 | DIDN'T ATTEND COLLEGE | value",
+    "More than $176,000 | ATTENDED COLLEGE | value",
+    "More than $176,000 | DIDN'T ATTEND COLLEGE | value"
+   ],
+   "assertion": {
+    "required_data_rows": 12,
+    "mode": "static_all_at_once",
+    "required_states": [],
+    "required_marks_per_state": {},
+    "all_required_marks_must_be_present": true
+   },
+   "accepted_routes": [
+    "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
@@ -140,7 +176,7 @@
    "needs_review": false
   },
   {
-   "unit_id": "U2",
+   "unit_id": "U3",
    "unit_kind": "narrative_claim",
    "must_be_visualized": false,
    "evidence_type": "not_required",
@@ -151,38 +187,6 @@
    },
    "accepted_routes": [
     "narration"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
-   "required_marks": [
-    "Less than $23,000 | DIDN'T ATTEND COLLEGE | value",
-    "Less than $23,000 | ATTENDED COLLEGE | value",
-    "$23,000 to $42,000 | DIDN'T ATTEND COLLEGE | value",
-    "$23,000 to $42,000 | ATTENDED COLLEGE | value",
-    "$42,000 to $68,000 | DIDN'T ATTEND COLLEGE | value",
-    "$42,000 to $68,000 | ATTENDED COLLEGE | value",
-    "$68,000 to $111,000 | ATTENDED COLLEGE | value",
-    "$68,000 to $111,000 | DIDN'T ATTEND COLLEGE | value",
-    "$111,000 to $176,000 | ATTENDED COLLEGE | value",
-    "$111,000 to $176,000 | DIDN'T ATTEND COLLEGE | value",
-    "More than $176,000 | ATTENDED COLLEGE | value",
-    "More than $176,000 | DIDN'T ATTEND COLLEGE | value"
-   ],
-   "assertion": {
-    "required_data_rows": 12,
-    "mode": "static_all_at_once",
-    "required_states": [],
-    "required_marks_per_state": {},
-    "all_required_marks_must_be_present": true
-   },
-   "accepted_routes": [
-    "geometry"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

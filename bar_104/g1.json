@@ -1,15 +1,21 @@
 {
  "clip_id": "bar_104",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that the 400 richest paid a lower effective tax rate than $100k–$200k earners in 2008, and that their rate fell after 2001.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What does the selected chart show?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
+   ],
+   "scope": {
+    "selection": "all role=bar rows",
+    "required_data_rows": 3,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
   },
   {
    "id": "R2",
@@ -20,87 +26,18 @@
    ]
   },
   {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
+   "id": "R3",
+   "question": "What does the selected chart show?",
    "relation": "single",
    "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all role=bar rows",
-    "required_data_rows": 3,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "In 2008, the 400 richest paid an effective tax rate of 18.1%, below the 25% paid by $100k–$200k earners.",
-   "basis": [
-    {
-     "entity": "400 richest tax rate",
-     "field": "value",
-     "value": "18.1",
-     "unit": "%"
-    },
-    {
-     "entity": "$100k-$200k earners tax rate",
-     "field": "value",
-     "value": "25",
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "18.1% and25% are shown for2008",
-    "18.1 is lower than25"
-   ],
-   "reject": [
-    "reversing the groups",
-    "using the2001 rate for2008"
-   ],
-   "evidence": "The two 2008 marks are present."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "claim": "The 400 richest effective tax rate fell from23% in2001 to18.1% in2008.",
-   "basis": [
-    {
-     "entity": "400 richest tax rate",
-     "x": "2001",
-     "field": "value",
-     "value": "23",
-     "unit": "%"
-    },
-    {
-     "entity": "400 richest tax rate",
-     "x": "2008",
-     "field": "value",
-     "value": "18.1",
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "23% is attached to2001",
-    "18.1% is attached to2008",
-    "the rate falls"
-   ],
-   "reject": [
-    "reversing the years",
-    "claiming the rate rose"
-   ],
-   "evidence": "Both year-coded marks are present."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 3 required bar marks or stacked segments appear in the final chart.",
@@ -131,23 +68,85 @@
     }
    ],
    "accept": [
-    "all 3 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 3 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "In 2008, the 400 richest paid an effective tax rate of 18.1%, below the 25% paid by $100k–$200k earners.",
+   "basis": [
+    {
+     "entity": "400 richest tax rate",
+     "field": "value",
+     "value": "18.1",
+     "unit": "%"
+    },
+    {
+     "entity": "$100k-$200k earners tax rate",
+     "field": "value",
+     "value": "25",
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "18.1% and25% are shown for2008",
+    "18.1 is lower than25"
+   ],
+   "reject": [
+    "reversing the groups",
+    "using the2001 rate for2008"
+   ],
+   "evidence": "The two 2008 marks are present."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "claim": "The 400 richest effective tax rate fell from23% in2001 to18.1% in2008.",
+   "basis": [
+    {
+     "entity": "400 richest tax rate",
+     "x": "2001",
+     "field": "value",
+     "value": "23",
+     "unit": "%"
+    },
+    {
+     "entity": "400 richest tax rate",
+     "x": "2008",
+     "field": "value",
+     "value": "18.1",
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "23% is attached to2001",
+    "18.1% is attached to2008",
+    "the rate falls"
+   ],
+   "reject": [
+    "reversing the years",
+    "claiming the rate rose"
+   ],
+   "evidence": "Both year-coded marks are present."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -157,11 +156,15 @@
   "required_data_rows": 3,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": true,
@@ -181,7 +184,7 @@
  ],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,

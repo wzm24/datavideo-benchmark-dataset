@@ -1,38 +1,14 @@
 {
  "clip_id": "bar_35",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "To validate the use of objective standards in pretrial decisions by presenting encouraging data on defendant compliance and public safety.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What share of defendants was released pretrial?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "Among released defendants, what share returned for every court date?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Among released defendants, what share was not arrested pretrial?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -40,90 +16,36 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "What share of defendants was released pretrial?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "Among released defendants, what share returned for every court date?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  },
+  {
+   "id": "R4",
+   "question": "Among released defendants, what share was not arrested pretrial?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "claim": "The release rate: 94% of defendants were released pretrial.",
-   "basis": [
-    {
-     "entity": "Released Pretrial",
-     "x": "released-pretrial",
-     "field": "value",
-     "value": 94.0,
-     "note": "Table value is 94; narration supplies the percent sign."
-    }
-   ],
-   "accept": [
-    "94% of defendants were released pretrial",
-    "the pretrial release rate was 94%",
-    "about 94 out of every 100 defendants were released pretrial"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "A bar or label for Released Pretrial must be visible with value 94 or 94%."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "claim": "Among released defendants, 88% returned for every court date.",
-   "basis": [
-    {
-     "entity": "Returned for Every Court Date",
-     "x": "returned-for-every-court-date",
-     "field": "value",
-     "value": 88.0,
-     "note": "Table value is 88; narration indicates the denominator is released pretrial defendants."
-    }
-   ],
-   "accept": [
-    "88% of released defendants returned for every court date",
-    "of those released pretrial, 88% made every court date",
-    "nearly nine in ten released defendants returned for every court date"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The chart must show Returned for Every Court Date with 88 or 88% and, if possible, label it as conditional on released defendants."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "claim": "Among released defendants, 86% were not arrested pretrial.",
-   "basis": [
-    {
-     "entity": "Not Arrested Pretrial",
-     "x": "not-arrested-pretrial",
-     "field": "value",
-     "value": 86.0,
-     "note": "Table value is 86; narration links the no-arrest period to released defendants."
-    }
-   ],
-   "accept": [
-    "86% of released defendants were not arrested pretrial",
-    "86% were not arrested during the pretrial period",
-    "about 86% of released defendants avoided pretrial arrest"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The chart must show Not Arrested Pretrial with 86 or 86% and avoid implying it is a rate for all defendants unless stated."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 3 required bar marks or stacked segments appear in the final chart.",
@@ -154,16 +76,93 @@
     }
    ],
    "accept": [
-    "all 3 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 3 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "claim": "The release rate: 94% of defendants were released pretrial.",
+   "basis": [
+    {
+     "entity": "Released Pretrial",
+     "x": "released-pretrial",
+     "field": "value",
+     "value": 94.0,
+     "note": "Table value is 94; narration supplies the percent sign."
+    }
+   ],
+   "accept": [
+    "94% of defendants were released pretrial",
+    "the pretrial release rate was 94%",
+    "about 94 out of every 100 defendants were released pretrial"
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "A bar or label for Released Pretrial must be visible with value 94 or 94%."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "claim": "Among released defendants, 88% returned for every court date.",
+   "basis": [
+    {
+     "entity": "Returned for Every Court Date",
+     "x": "returned-for-every-court-date",
+     "field": "value",
+     "value": 88.0,
+     "note": "Table value is 88; narration indicates the denominator is released pretrial defendants."
+    }
+   ],
+   "accept": [
+    "88% of released defendants returned for every court date",
+    "of those released pretrial, 88% made every court date",
+    "nearly nine in ten released defendants returned for every court date"
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "The chart must show Returned for Every Court Date with 88 or 88% and, if possible, label it as conditional on released defendants."
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "claim": "Among released defendants, 86% were not arrested pretrial.",
+   "basis": [
+    {
+     "entity": "Not Arrested Pretrial",
+     "x": "not-arrested-pretrial",
+     "field": "value",
+     "value": 86.0,
+     "note": "Table value is 86; narration links the no-arrest period to released defendants."
+    }
+   ],
+   "accept": [
+    "86% of released defendants were not arrested pretrial",
+    "86% were not arrested during the pretrial period",
+    "about 86% of released defendants avoided pretrial arrest"
+   ],
+   "reject": [
+    "omitting the required fact",
+    "reversing the direction or values"
+   ],
+   "evidence": "The chart must show Not Arrested Pretrial with 86 or 86% and avoid implying it is a rate for all defendants unless stated."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -171,7 +170,7 @@
   "U1": 0.25,
   "U2": 0.25,
   "U3": 0.25,
-  "U_COMPLETE": 0.25
+  "U4": 0.25
  },
  "optional_valid": [
   "The video may note that all three displayed rates are high or encouraging.",
@@ -185,19 +184,24 @@
   "required_data_rows": 3,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "legacy_g1_migrated",
   "semantic_reaudit_required",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "hardcases": []
 }

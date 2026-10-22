@@ -1,22 +1,14 @@
 {
  "clip_id": "bar_143",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "To demonstrate that partisan polarization in presidential approval ratings has been a persistent and growing phenomenon in American politics long before the Trump presidency.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How large is the partisan gap in presidential approval?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -24,200 +16,20 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "How large is the partisan gap in presidential approval?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Democratic and Republican approval diverge sharply across presidents, with Trump and Obama showing especially large opposite-party gaps.",
-   "basis": [
-    {
-     "entity": "Trump",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 7,
-     "unit": "%"
-    },
-    {
-     "entity": "Trump",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 84,
-     "unit": "%"
-    },
-    {
-     "entity": "Obama",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 81,
-     "unit": "%"
-    },
-    {
-     "entity": "Obama",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 14,
-     "unit": "%"
-    },
-    {
-     "entity": "G.W. Bush",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 23,
-     "unit": "%"
-    },
-    {
-     "entity": "G.W. Bush",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 81,
-     "unit": "%"
-    },
-    {
-     "entity": "Clinton",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 80,
-     "unit": "%"
-    },
-    {
-     "entity": "Clinton",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 27,
-     "unit": "%"
-    },
-    {
-     "entity": "G.H.W. Bush",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 44,
-     "unit": "%"
-    },
-    {
-     "entity": "G.H.W. Bush",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 82,
-     "unit": "%"
-    },
-    {
-     "entity": "Reagan",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 31,
-     "unit": "%"
-    },
-    {
-     "entity": "Reagan",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 83,
-     "unit": "%"
-    },
-    {
-     "entity": "Carter",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 57,
-     "unit": "%"
-    },
-    {
-     "entity": "Carter",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 30,
-     "unit": "%"
-    },
-    {
-     "entity": "Ford",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 36,
-     "unit": "%"
-    },
-    {
-     "entity": "Ford",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 67,
-     "unit": "%"
-    },
-    {
-     "entity": "Nixon",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 34,
-     "unit": "%"
-    },
-    {
-     "entity": "Nixon",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 75,
-     "unit": "%"
-    },
-    {
-     "entity": "Johnson",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 70,
-     "unit": "%"
-    },
-    {
-     "entity": "Johnson",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 40,
-     "unit": "%"
-    },
-    {
-     "entity": "Kennedy",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 49,
-     "unit": "%"
-    },
-    {
-     "entity": "Kennedy",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 84,
-     "unit": "%"
-    },
-    {
-     "entity": "Eisenhower",
-     "series": "Democrats",
-     "field": "presidential_approval",
-     "value": 49,
-     "unit": "%"
-    },
-    {
-     "entity": "Eisenhower",
-     "series": "Republicans",
-     "field": "presidential_approval",
-     "value": 88,
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "all twelve presidents have both party values",
-    "Trump is about 7% Democratic and 84% Republican",
-    "Obama is about 81% Democratic and 14% Republican"
-   ],
-   "reject": [
-    "omitting one party",
-    "reversing the party labels",
-    "showing no partisan gap"
-   ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 24 required bar marks or stacked segments appear in the final chart.",
@@ -440,22 +252,209 @@
     }
    ],
    "accept": [
-    "all 24 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
+    "all 24 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Democratic and Republican approval diverge sharply across presidents, with Trump and Obama showing especially large opposite-party gaps.",
+   "basis": [
+    {
+     "entity": "Trump",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 7,
+     "unit": "%"
+    },
+    {
+     "entity": "Trump",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 84,
+     "unit": "%"
+    },
+    {
+     "entity": "Obama",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 81,
+     "unit": "%"
+    },
+    {
+     "entity": "Obama",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 14,
+     "unit": "%"
+    },
+    {
+     "entity": "G.W. Bush",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 23,
+     "unit": "%"
+    },
+    {
+     "entity": "G.W. Bush",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 81,
+     "unit": "%"
+    },
+    {
+     "entity": "Clinton",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 80,
+     "unit": "%"
+    },
+    {
+     "entity": "Clinton",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 27,
+     "unit": "%"
+    },
+    {
+     "entity": "G.H.W. Bush",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 44,
+     "unit": "%"
+    },
+    {
+     "entity": "G.H.W. Bush",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 82,
+     "unit": "%"
+    },
+    {
+     "entity": "Reagan",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 31,
+     "unit": "%"
+    },
+    {
+     "entity": "Reagan",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 83,
+     "unit": "%"
+    },
+    {
+     "entity": "Carter",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 57,
+     "unit": "%"
+    },
+    {
+     "entity": "Carter",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 30,
+     "unit": "%"
+    },
+    {
+     "entity": "Ford",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 36,
+     "unit": "%"
+    },
+    {
+     "entity": "Ford",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 67,
+     "unit": "%"
+    },
+    {
+     "entity": "Nixon",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 34,
+     "unit": "%"
+    },
+    {
+     "entity": "Nixon",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 75,
+     "unit": "%"
+    },
+    {
+     "entity": "Johnson",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 70,
+     "unit": "%"
+    },
+    {
+     "entity": "Johnson",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 40,
+     "unit": "%"
+    },
+    {
+     "entity": "Kennedy",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 49,
+     "unit": "%"
+    },
+    {
+     "entity": "Kennedy",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 84,
+     "unit": "%"
+    },
+    {
+     "entity": "Eisenhower",
+     "series": "Democrats",
+     "field": "presidential_approval",
+     "value": 49,
+     "unit": "%"
+    },
+    {
+     "entity": "Eisenhower",
+     "series": "Republicans",
+     "field": "presidential_approval",
+     "value": 88,
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "all twelve presidents have both party values",
+    "Trump is about 7% Democratic and 84% Republican",
+    "Obama is about 81% Democratic and 14% Republican"
+   ],
+   "reject": [
+    "omitting one party",
+    "reversing the party labels",
+    "showing no partisan gap"
+   ],
+   "evidence": "The selected keyframe and plotted data encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -465,11 +464,15 @@
   "required_data_rows": 24,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -479,7 +482,7 @@
  "hardcases": [],
  "review_flags": [
   "strict_reaudit_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "status": "approved",
  "approved_by": "human",

@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_45",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that the 400 richest Americans pay a lower income-tax rate than the richest 10%, while income-tax rates rise across the preceding income groups.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How does the 400 richest group's income-tax rate compare with the richest 10%?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "How do income-tax rates change across the remaining ten groups?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,124 +16,28 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "How does the 400 richest group's income-tax rate compare with the richest 10%?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How do income-tax rates change across the remaining ten groups?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "The 400 Richest pay a lower income-tax rate (about 10%) than the richest 10% (about 18%).",
-   "basis": [
-    {
-     "entity": "Richest 10%",
-     "field": "income_tax_rate",
-     "value": 18,
-     "unit": "%"
-    },
-    {
-     "entity": "400 Richest",
-     "field": "income_tax_rate",
-     "value": 10,
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "the 400 Richest bar is present",
-    "the richest 10% is about 18%",
-    "the 400 Richest is about 10% and visibly lower than the richest 10%"
-   ],
-   "reject": [
-    "omitting the 400 Richest bar",
-    "reversing the comparison",
-    "making the 400 Richest equal to the richest 10%"
-   ],
-   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "Across the ten income deciles, the income-tax rate rises from about 1% for the poorest group to about 18% for the richest 10%.",
-   "basis": [
-    {
-     "entity": "Poorest 10%",
-     "field": "income_tax_rate",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "Second 10%",
-     "field": "income_tax_rate",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "Third 10%",
-     "field": "income_tax_rate",
-     "value": 3,
-     "unit": "%"
-    },
-    {
-     "entity": "Fourth 10%",
-     "field": "income_tax_rate",
-     "value": 4,
-     "unit": "%"
-    },
-    {
-     "entity": "Fifth 10%",
-     "field": "income_tax_rate",
-     "value": 6,
-     "unit": "%"
-    },
-    {
-     "entity": "Sixth 10%",
-     "field": "income_tax_rate",
-     "value": 7,
-     "unit": "%"
-    },
-    {
-     "entity": "Seventh 10%",
-     "field": "income_tax_rate",
-     "value": 8,
-     "unit": "%"
-    },
-    {
-     "entity": "Eighth 10%",
-     "field": "income_tax_rate",
-     "value": 10,
-     "unit": "%"
-    },
-    {
-     "entity": "Ninth 10%",
-     "field": "income_tax_rate",
-     "value": 12,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest 10%",
-     "field": "income_tax_rate",
-     "value": 18,
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "the ten decile bars are ordered from poorest to richest",
-    "the sequence is nondecreasing",
-    "the richest 10% is the highest of the ten"
-   ],
-   "reject": [
-    "omitting a decile",
-    "reversing the trend",
-    "making a lower-income group the maximum"
-   ],
-   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 11 required bar marks or stacked segments appear in the final chart.",
@@ -236,23 +124,134 @@
     }
    ],
    "accept": [
-    "all 11 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 11 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "The 400 Richest pay a lower income-tax rate (about 10%) than the richest 10% (about 18%).",
+   "basis": [
+    {
+     "entity": "Richest 10%",
+     "field": "income_tax_rate",
+     "value": 18,
+     "unit": "%"
+    },
+    {
+     "entity": "400 Richest",
+     "field": "income_tax_rate",
+     "value": 10,
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "the 400 Richest bar is present",
+    "the richest 10% is about 18%",
+    "the 400 Richest is about 10% and visibly lower than the richest 10%"
+   ],
+   "reject": [
+    "omitting the 400 Richest bar",
+    "reversing the comparison",
+    "making the 400 Richest equal to the richest 10%"
+   ],
+   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend_or_order",
+   "must_be_visualized": true,
+   "claim": "Across the ten income deciles, the income-tax rate rises from about 1% for the poorest group to about 18% for the richest 10%.",
+   "basis": [
+    {
+     "entity": "Poorest 10%",
+     "field": "income_tax_rate",
+     "value": 1,
+     "unit": "%"
+    },
+    {
+     "entity": "Second 10%",
+     "field": "income_tax_rate",
+     "value": 1,
+     "unit": "%"
+    },
+    {
+     "entity": "Third 10%",
+     "field": "income_tax_rate",
+     "value": 3,
+     "unit": "%"
+    },
+    {
+     "entity": "Fourth 10%",
+     "field": "income_tax_rate",
+     "value": 4,
+     "unit": "%"
+    },
+    {
+     "entity": "Fifth 10%",
+     "field": "income_tax_rate",
+     "value": 6,
+     "unit": "%"
+    },
+    {
+     "entity": "Sixth 10%",
+     "field": "income_tax_rate",
+     "value": 7,
+     "unit": "%"
+    },
+    {
+     "entity": "Seventh 10%",
+     "field": "income_tax_rate",
+     "value": 8,
+     "unit": "%"
+    },
+    {
+     "entity": "Eighth 10%",
+     "field": "income_tax_rate",
+     "value": 10,
+     "unit": "%"
+    },
+    {
+     "entity": "Ninth 10%",
+     "field": "income_tax_rate",
+     "value": 12,
+     "unit": "%"
+    },
+    {
+     "entity": "Richest 10%",
+     "field": "income_tax_rate",
+     "value": 18,
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "the ten decile bars are ordered from poorest to richest",
+    "the sequence is nondecreasing",
+    "the richest 10% is the highest of the ten"
+   ],
+   "reject": [
+    "omitting a decile",
+    "reversing the trend",
+    "making a lower-income group the maximum"
+   ],
+   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -262,11 +261,15 @@
   "required_data_rows": 11,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -276,7 +279,7 @@
  "hardcases": [],
  "review_flags": [
   "percent_bars_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",

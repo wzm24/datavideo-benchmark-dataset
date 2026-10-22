@@ -1,15 +1,29 @@
 {
  "clip_id": "bar_11",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that cycling's fatality risk per distance is about as low as walking's and far below motorcycling's.",
  "requirements": [
   {
    "id": "R1",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "selection": "all data rows (table has no role column)",
+    "required_data_rows": 4,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
+  },
+  {
+   "id": "R2",
    "question": "How does cycling's fatality risk compare with walking and motorcycling?",
    "relation": "all_of",
    "unit_ids": [
-    "U1",
-    "U2"
+    "U2",
+    "U3"
    ],
    "scope": {
     "entities": [
@@ -20,94 +34,12 @@
     "measure": "relative fatality risk per distance",
     "time": "the plotted snapshot"
    }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all data rows (table has no role column)",
-    "required_data_rows": 4,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "claim": "Cycling's relative fatality risk (0.33) is close to walking's (0.40).",
-   "accept": [
-    "0.33 vs 0.40",
-    "cyclists and walkers are close / about as safe",
-    "0.07 lower / 17.5% lower"
-   ],
-   "reject": [
-    "cycling is much riskier than walking",
-    "missing walkers",
-    "wrong relative values"
-   ],
-   "evidence": "The cyclist and walker bars are close in length.",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "basis": [
-    {
-     "field": "value",
-     "value": "0.40",
-     "unit": "relative",
-     "entity": "Walkers",
-     "metric": "relative_fatality_rate"
-    },
-    {
-     "field": "value",
-     "value": "0.33",
-     "unit": "relative",
-     "entity": "Cyclists",
-     "metric": "relative_fatality_rate"
-    }
-   ]
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R1",
-   "claim": "Cycling's relative fatality risk (0.33) is far below motorcycling's (1.00), about one-third.",
-   "accept": [
-    "0.33 vs 1.00",
-    "about one-third",
-    "67% lower"
-   ],
-   "reject": [
-    "missing motorcyclists",
-    "saying cyclists are higher",
-    "wrong relative values"
-   ],
-   "evidence": "The motorcyclist bar is about three times the cyclist bar.",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "basis": [
-    {
-     "field": "value",
-     "value": "1.00",
-     "unit": "relative",
-     "entity": "Motorcyclists",
-     "metric": "relative_fatality_rate"
-    },
-    {
-     "field": "value",
-     "value": "0.33",
-     "unit": "relative",
-     "entity": "Cyclists",
-     "metric": "relative_fatality_rate"
-    }
-   ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 4 required bar marks or stacked segments appear in the final chart.",
@@ -142,23 +74,90 @@
     }
    ],
    "accept": [
-    "all 4 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 4 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "claim": "Cycling's relative fatality risk (0.33) is close to walking's (0.40).",
+   "accept": [
+    "0.33 vs 0.40",
+    "cyclists and walkers are close / about as safe",
+    "0.07 lower / 17.5% lower"
+   ],
+   "reject": [
+    "cycling is much riskier than walking",
+    "missing walkers",
+    "wrong relative values"
+   ],
+   "evidence": "The cyclist and walker bars are close in length.",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "basis": [
+    {
+     "field": "value",
+     "value": "0.40",
+     "unit": "relative",
+     "entity": "Walkers",
+     "metric": "relative_fatality_rate"
+    },
+    {
+     "field": "value",
+     "value": "0.33",
+     "unit": "relative",
+     "entity": "Cyclists",
+     "metric": "relative_fatality_rate"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "claim": "Cycling's relative fatality risk (0.33) is far below motorcycling's (1.00), about one-third.",
+   "accept": [
+    "0.33 vs 1.00",
+    "about one-third",
+    "67% lower"
+   ],
+   "reject": [
+    "missing motorcyclists",
+    "saying cyclists are higher",
+    "wrong relative values"
+   ],
+   "evidence": "The motorcyclist bar is about three times the cyclist bar.",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "basis": [
+    {
+     "field": "value",
+     "value": "1.00",
+     "unit": "relative",
+     "entity": "Motorcyclists",
+     "metric": "relative_fatality_rate"
+    },
+    {
+     "field": "value",
+     "value": "0.33",
+     "unit": "relative",
+     "entity": "Cyclists",
+     "metric": "relative_fatality_rate"
+    }
+   ]
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [
   "Car drivers are the lowest at 0.05 (optional context)."
@@ -170,17 +169,22 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 4,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "static_all_at_once",
   "required_states": [],
   "required_marks_per_state": {},
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

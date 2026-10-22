@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_75",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Using a stacked bar chart, show the shift in recorded-music formats from physical media to digital ownership between 1982 and 2013.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How did physical music formats shift between 1982 and 2013?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "When did digital formats overtake CD?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,1605 +16,28 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "How did physical music formats shift between 1982 and 2013?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "When did digital formats overtake CD?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "CD overtakes cassette in the late 1980s, peaks at the end of the 1990s, and then declines as digital formats grow.",
-   "basis": [
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.0317,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.4048,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.5635,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.0413,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.4958,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.4629,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.0651,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.5449,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.39,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.124,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.566,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.31,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.2439,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.5321,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.2241,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.3769,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.48,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.1431,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.4671,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.4488,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.0841,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.5426,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.4175,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.0398,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.5951,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.385,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.0199,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.667,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.3189,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.0141,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.7339,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.2591,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.007,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.787,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.2069,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.0061,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.8282,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.1668,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.005,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.8699,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.1272,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.0029,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.904,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.093,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.003,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.9369,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.061,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.0021,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.96,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.037,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.002,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.9209,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.026,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.052,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.8808,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.0201,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.098,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.8382,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.016,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.1448,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.793,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.0109,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.1951,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.7337,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.0081,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.002,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.2563,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.6641,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.0059,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.0029,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.3271,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.583,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.005,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.004,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.408,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.5058,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.0042,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.0051,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.485,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.4349,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.003,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.006,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.5561,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.373,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.0021,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.009,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.6159,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.325,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.0118,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.6621,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.2839,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.0012,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.0171,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.6978,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.2509,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.0008,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.0228,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.7254,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.225,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.0009,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.0277,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.7464,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.2001,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.0362,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.7637,
-     "unit": "relative",
-     "series": "Digital"
-    }
-   ],
-   "accept": [
-    "the multi-year timeline is complete",
-    "CD, cassette, LP/EP/8-track, and digital are present",
-    "CD peaks near 1998 and then falls"
-   ],
-   "reject": [
-    "omitting digital",
-    "ending the timeline before 2013",
-    "showing physical formats rising through the end"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Digital becomes larger than CD in the late 2000s and continues to grow through 2013.",
-   "basis": [
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.0317,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.4048,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1982",
-     "field": "value",
-     "value": 0.5635,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.0413,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.4958,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1983",
-     "field": "value",
-     "value": 0.4629,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.0651,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.5449,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1984",
-     "field": "value",
-     "value": 0.39,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.124,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.566,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1985",
-     "field": "value",
-     "value": 0.31,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.2439,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.5321,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1986",
-     "field": "value",
-     "value": 0.2241,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.3769,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.48,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1987",
-     "field": "value",
-     "value": 0.1431,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.4671,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.4488,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1988",
-     "field": "value",
-     "value": 0.0841,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.5426,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.4175,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1989",
-     "field": "value",
-     "value": 0.0398,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.5951,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.385,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1990",
-     "field": "value",
-     "value": 0.0199,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.667,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.3189,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1991",
-     "field": "value",
-     "value": 0.0141,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.7339,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.2591,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1992",
-     "field": "value",
-     "value": 0.007,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.787,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.2069,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1993",
-     "field": "value",
-     "value": 0.0061,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.8282,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.1668,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1994",
-     "field": "value",
-     "value": 0.005,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.8699,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.1272,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1995",
-     "field": "value",
-     "value": 0.0029,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.904,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.093,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1996",
-     "field": "value",
-     "value": 0.003,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.9369,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.061,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1997",
-     "field": "value",
-     "value": 0.0021,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.96,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.037,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1998",
-     "field": "value",
-     "value": 0.002,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.9209,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.026,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "1999",
-     "field": "value",
-     "value": 0.052,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.8808,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.0201,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2000",
-     "field": "value",
-     "value": 0.098,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.8382,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.016,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2001",
-     "field": "value",
-     "value": 0.1448,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.793,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.0109,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.001,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2002",
-     "field": "value",
-     "value": 0.1951,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.7337,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.0081,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.002,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2003",
-     "field": "value",
-     "value": 0.2563,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.6641,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.0059,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.0029,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2004",
-     "field": "value",
-     "value": 0.3271,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.583,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.005,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.004,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2005",
-     "field": "value",
-     "value": 0.408,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.5058,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.0042,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.0051,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2006",
-     "field": "value",
-     "value": 0.485,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.4349,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.003,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.006,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2007",
-     "field": "value",
-     "value": 0.5561,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.373,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.0021,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.009,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2008",
-     "field": "value",
-     "value": 0.6159,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.325,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.0011,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.0118,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2009",
-     "field": "value",
-     "value": 0.6621,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.2839,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.0012,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.0171,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2010",
-     "field": "value",
-     "value": 0.6978,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.2509,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.0008,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.0228,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2011",
-     "field": "value",
-     "value": 0.7254,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.225,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.0009,
-     "unit": "relative",
-     "series": "Cassette"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.0277,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2012",
-     "field": "value",
-     "value": 0.7464,
-     "unit": "relative",
-     "series": "Digital"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.2001,
-     "unit": "relative",
-     "series": "CD"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.0362,
-     "unit": "relative",
-     "series": "LP/EP/8-Track"
-    },
-    {
-     "entity": "2013",
-     "field": "value",
-     "value": 0.7637,
-     "unit": "relative",
-     "series": "Digital"
-    }
-   ],
-   "accept": [
-    "digital appears before it overtakes CD",
-    "digital exceeds CD after 2006",
-    "digital is largest by 2013"
-   ],
-   "reject": [
-    "claiming digital is present from 1982",
-    "showing CD overtaking digital after 2007"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 111 required bar marks or stacked segments appear in the final chart.",
@@ -2525,23 +932,1615 @@
     }
    ],
    "accept": [
-    "all 111 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
+    "all 111 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "CD overtakes cassette in the late 1980s, peaks at the end of the 1990s, and then declines as digital formats grow.",
+   "basis": [
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.0317,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.4048,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.5635,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.0413,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.4958,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.4629,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.0651,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.5449,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.39,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.124,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.566,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.31,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.2439,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.5321,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.2241,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.3769,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.48,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.1431,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.4671,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.4488,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.0841,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.5426,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.4175,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.0398,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.5951,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.385,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.0199,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.667,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.3189,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.0141,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.7339,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.2591,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.007,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.787,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.2069,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.0061,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.8282,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.1668,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.005,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.8699,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.1272,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.0029,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.904,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.093,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.003,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.9369,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.061,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.0021,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.96,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.037,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.002,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.9209,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.026,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.052,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.8808,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.0201,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.098,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.8382,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.016,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.1448,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.793,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.0109,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.1951,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.7337,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.0081,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.002,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.2563,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.6641,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.0059,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.0029,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.3271,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.583,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.005,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.004,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.408,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.5058,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.0042,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.0051,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.485,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.4349,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.003,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.006,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.5561,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.373,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.0021,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.009,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.6159,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.325,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.0118,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.6621,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.2839,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.0012,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.0171,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.6978,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.2509,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.0008,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.0228,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.7254,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.225,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.0009,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.0277,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.7464,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.2001,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.0362,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.7637,
+     "unit": "relative",
+     "series": "Digital"
+    }
+   ],
+   "accept": [
+    "the multi-year timeline is complete",
+    "CD, cassette, LP/EP/8-track, and digital are present",
+    "CD peaks near 1998 and then falls"
+   ],
+   "reject": [
+    "omitting digital",
+    "ending the timeline before 2013",
+    "showing physical formats rising through the end"
+   ],
+   "evidence": "The selected keyframe and plotted marks encode this relation."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Digital becomes larger than CD in the late 2000s and continues to grow through 2013.",
+   "basis": [
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.0317,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.4048,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1982",
+     "field": "value",
+     "value": 0.5635,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.0413,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.4958,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1983",
+     "field": "value",
+     "value": 0.4629,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.0651,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.5449,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1984",
+     "field": "value",
+     "value": 0.39,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.124,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.566,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1985",
+     "field": "value",
+     "value": 0.31,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.2439,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.5321,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1986",
+     "field": "value",
+     "value": 0.2241,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.3769,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.48,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1987",
+     "field": "value",
+     "value": 0.1431,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.4671,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.4488,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1988",
+     "field": "value",
+     "value": 0.0841,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.5426,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.4175,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1989",
+     "field": "value",
+     "value": 0.0398,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.5951,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.385,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1990",
+     "field": "value",
+     "value": 0.0199,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.667,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.3189,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1991",
+     "field": "value",
+     "value": 0.0141,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.7339,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.2591,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1992",
+     "field": "value",
+     "value": 0.007,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.787,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.2069,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1993",
+     "field": "value",
+     "value": 0.0061,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.8282,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.1668,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1994",
+     "field": "value",
+     "value": 0.005,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.8699,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.1272,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1995",
+     "field": "value",
+     "value": 0.0029,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.904,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.093,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1996",
+     "field": "value",
+     "value": 0.003,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.9369,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.061,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1997",
+     "field": "value",
+     "value": 0.0021,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.96,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.037,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1998",
+     "field": "value",
+     "value": 0.002,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.9209,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.026,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "1999",
+     "field": "value",
+     "value": 0.052,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.8808,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.0201,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2000",
+     "field": "value",
+     "value": 0.098,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.8382,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.016,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2001",
+     "field": "value",
+     "value": 0.1448,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.793,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.0109,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.001,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2002",
+     "field": "value",
+     "value": 0.1951,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.7337,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.0081,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.002,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2003",
+     "field": "value",
+     "value": 0.2563,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.6641,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.0059,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.0029,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2004",
+     "field": "value",
+     "value": 0.3271,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.583,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.005,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.004,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2005",
+     "field": "value",
+     "value": 0.408,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.5058,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.0042,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.0051,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2006",
+     "field": "value",
+     "value": 0.485,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.4349,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.003,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.006,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2007",
+     "field": "value",
+     "value": 0.5561,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.373,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.0021,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.009,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2008",
+     "field": "value",
+     "value": 0.6159,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.325,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.0011,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.0118,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2009",
+     "field": "value",
+     "value": 0.6621,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.2839,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.0012,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.0171,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2010",
+     "field": "value",
+     "value": 0.6978,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.2509,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.0008,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.0228,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2011",
+     "field": "value",
+     "value": 0.7254,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.225,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.0009,
+     "unit": "relative",
+     "series": "Cassette"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.0277,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2012",
+     "field": "value",
+     "value": 0.7464,
+     "unit": "relative",
+     "series": "Digital"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.2001,
+     "unit": "relative",
+     "series": "CD"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.0362,
+     "unit": "relative",
+     "series": "LP/EP/8-Track"
+    },
+    {
+     "entity": "2013",
+     "field": "value",
+     "value": 0.7637,
+     "unit": "relative",
+     "series": "Digital"
+    }
+   ],
+   "accept": [
+    "digital appears before it overtakes CD",
+    "digital exceeds CD after 2006",
+    "digital is largest by 2013"
+   ],
+   "reject": [
+    "claiming digital is present from 1982",
+    "showing CD overtaking digital after 2007"
+   ],
+   "evidence": "The selected keyframe and plotted marks encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -2551,11 +2550,15 @@
   "required_data_rows": 111,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -2565,7 +2568,7 @@
  "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",

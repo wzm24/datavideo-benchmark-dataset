@@ -1,22 +1,14 @@
 {
  "clip_id": "bar_129",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "To demonstrate the correlation between the escalating nuclear arms race and the corresponding increase in potential casualties during a worst-case scenario.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What does the selected chart show?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -24,178 +16,20 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "What does the selected chart show?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "In 1985, the USA and Russia dominated the displayed nuclear stockpile, with the Other group much smaller.",
-   "basis": [
-    {
-     "entity": "1950",
-     "field": "nuclear_warheads",
-     "value": "1175",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1955",
-     "field": "nuclear_warheads",
-     "value": "2609",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1955",
-     "field": "nuclear_warheads",
-     "value": "325",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1960",
-     "field": "nuclear_warheads",
-     "value": "18399",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1960",
-     "field": "nuclear_warheads",
-     "value": "1627",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1960",
-     "field": "nuclear_warheads",
-     "value": "544",
-     "unit": "warheads",
-     "series": "Other"
-    },
-    {
-     "entity": "1965",
-     "field": "nuclear_warheads",
-     "value": "25190",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1965",
-     "field": "nuclear_warheads",
-     "value": "5039",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1965",
-     "field": "nuclear_warheads",
-     "value": "916",
-     "unit": "warheads",
-     "series": "Other"
-    },
-    {
-     "entity": "1970",
-     "field": "nuclear_warheads",
-     "value": "20316",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1970",
-     "field": "nuclear_warheads",
-     "value": "16253",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1970",
-     "field": "nuclear_warheads",
-     "value": "1627",
-     "unit": "warheads",
-     "series": "Other"
-    },
-    {
-     "entity": "1975",
-     "field": "nuclear_warheads",
-     "value": "14281",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1975",
-     "field": "nuclear_warheads",
-     "value": "30940",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1975",
-     "field": "nuclear_warheads",
-     "value": "2377",
-     "unit": "warheads",
-     "series": "Other"
-    },
-    {
-     "entity": "1980",
-     "field": "nuclear_warheads",
-     "value": "21884",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1980",
-     "field": "nuclear_warheads",
-     "value": "35131",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1980",
-     "field": "nuclear_warheads",
-     "value": "578",
-     "unit": "warheads",
-     "series": "Other"
-    },
-    {
-     "entity": "1985",
-     "field": "nuclear_warheads",
-     "value": "22182",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1985",
-     "field": "nuclear_warheads",
-     "value": "35543",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1985",
-     "field": "nuclear_warheads",
-     "value": "1036",
-     "unit": "warheads",
-     "series": "Other"
-    }
-   ],
-   "accept": [
-    "all three 1985 groups are present",
-    "Russia is largest and Other is smallest"
-   ],
-   "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
-   ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 21 required bar marks or stacked segments appear in the final chart.",
@@ -370,22 +204,187 @@
     }
    ],
    "accept": [
-    "all 21 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
+    "all 21 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "In 1985, the USA and Russia dominated the displayed nuclear stockpile, with the Other group much smaller.",
+   "basis": [
+    {
+     "entity": "1950",
+     "field": "nuclear_warheads",
+     "value": "1175",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1955",
+     "field": "nuclear_warheads",
+     "value": "2609",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1955",
+     "field": "nuclear_warheads",
+     "value": "325",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1960",
+     "field": "nuclear_warheads",
+     "value": "18399",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1960",
+     "field": "nuclear_warheads",
+     "value": "1627",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1960",
+     "field": "nuclear_warheads",
+     "value": "544",
+     "unit": "warheads",
+     "series": "Other"
+    },
+    {
+     "entity": "1965",
+     "field": "nuclear_warheads",
+     "value": "25190",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1965",
+     "field": "nuclear_warheads",
+     "value": "5039",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1965",
+     "field": "nuclear_warheads",
+     "value": "916",
+     "unit": "warheads",
+     "series": "Other"
+    },
+    {
+     "entity": "1970",
+     "field": "nuclear_warheads",
+     "value": "20316",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1970",
+     "field": "nuclear_warheads",
+     "value": "16253",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1970",
+     "field": "nuclear_warheads",
+     "value": "1627",
+     "unit": "warheads",
+     "series": "Other"
+    },
+    {
+     "entity": "1975",
+     "field": "nuclear_warheads",
+     "value": "14281",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1975",
+     "field": "nuclear_warheads",
+     "value": "30940",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1975",
+     "field": "nuclear_warheads",
+     "value": "2377",
+     "unit": "warheads",
+     "series": "Other"
+    },
+    {
+     "entity": "1980",
+     "field": "nuclear_warheads",
+     "value": "21884",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1980",
+     "field": "nuclear_warheads",
+     "value": "35131",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1980",
+     "field": "nuclear_warheads",
+     "value": "578",
+     "unit": "warheads",
+     "series": "Other"
+    },
+    {
+     "entity": "1985",
+     "field": "nuclear_warheads",
+     "value": "22182",
+     "unit": "warheads",
+     "series": "USA"
+    },
+    {
+     "entity": "1985",
+     "field": "nuclear_warheads",
+     "value": "35543",
+     "unit": "warheads",
+     "series": "Russia"
+    },
+    {
+     "entity": "1985",
+     "field": "nuclear_warheads",
+     "value": "1036",
+     "unit": "warheads",
+     "series": "Other"
+    }
+   ],
+   "accept": [
+    "all three 1985 groups are present",
+    "Russia is largest and Other is smallest"
+   ],
+   "reject": [
+    "omitting a required series",
+    "reversing the values",
+    "using fabricated values"
+   ],
+   "evidence": "The selected keyframe and plotted data encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -395,11 +394,15 @@
   "required_data_rows": 21,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -409,7 +412,7 @@
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,

@@ -1,29 +1,18 @@
 {
  "clip_id": "bar_4",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show how Africa's childhood mortality changed from 1950 to 2017, and convey that Africa made considerable progress in reducing it over time.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How did Africa's childhood mortality change from 1950 to 2017?",
-   "relation": "single",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "all_of",
    "unit_ids": [
-    "U1"
-   ],
-   "scope": {
-    "entities": [
-     "Africa"
-    ],
-    "measure": "childhood mortality rate",
-    "time": "1950-2017"
-   }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5"
    ],
    "scope": {
     "selection": "all data rows (table has no role column)",
@@ -43,12 +32,162 @@
      "2017": 1
     }
    }
+  },
+  {
+   "id": "R2",
+   "question": "How did Africa's childhood mortality change from 1950 to 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U6"
+   ],
+   "scope": {
+    "entities": [
+     "Africa"
+    ],
+    "measure": "childhood mortality rate",
+    "time": "1950-2017"
+   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state 1950.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "32.0",
+     "unit": "%",
+     "x": "1950",
+     "metric": "childhood_mortality",
+     "label": "32%"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state 1950",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 1950 are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state 1954.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "30.3",
+     "unit": "%",
+     "x": "1954",
+     "metric": "childhood_mortality",
+     "label": "30.3%"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state 1954",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 1954 are visible and identifiable."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state 1992.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "16.5",
+     "unit": "%",
+     "x": "1992",
+     "metric": "childhood_mortality",
+     "label": "16.5%"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state 1992",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 1992 are visible and identifiable."
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state 2012.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "9.1",
+     "unit": "%",
+     "x": "2012",
+     "metric": "childhood_mortality",
+     "label": "9.1%"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state 2012",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 2012 are visible and identifiable."
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state 2017.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "7.5",
+     "unit": "%",
+     "x": "2017",
+     "metric": "childhood_mortality",
+     "label": "7.5%"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state 2017",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 2017 are visible and identifiable."
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R2",
    "claim": "Africa's childhood mortality fell from 32.0% in 1950 to 7.5% in 2017 - a 24.5-percentage-point (77%) reduction, showing considerable progress.",
    "accept": [
     "32.0% in 1950 and 7.5% in 2017",
@@ -106,72 +245,16 @@
      "label": "7.5%"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "Every declared state shows all required bar marks or stacked segments: 1950=1, 1954=1, 1992=1, 2012=1, 2017=1.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "32.0",
-     "unit": "%",
-     "x": "1950",
-     "metric": "childhood_mortality",
-     "label": "32%"
-    },
-    {
-     "field": "value",
-     "value": "30.3",
-     "unit": "%",
-     "x": "1954",
-     "metric": "childhood_mortality",
-     "label": "30.3%"
-    },
-    {
-     "field": "value",
-     "value": "16.5",
-     "unit": "%",
-     "x": "1992",
-     "metric": "childhood_mortality",
-     "label": "16.5%"
-    },
-    {
-     "field": "value",
-     "value": "9.1",
-     "unit": "%",
-     "x": "2012",
-     "metric": "childhood_mortality",
-     "label": "9.1%"
-    },
-    {
-     "field": "value",
-     "value": "7.5",
-     "unit": "%",
-     "x": "2017",
-     "metric": "childhood_mortality",
-     "label": "7.5%"
-    }
-   ],
-   "accept": [
-    "all 5 required data marks are visible",
-    "every required bar is present",
-    "every declared state shows its complete required mark set"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U1": 0.1666666667,
+  "U2": 0.1666666667,
+  "U3": 0.1666666667,
+  "U4": 0.1666666667,
+  "U5": 0.1666666667,
+  "U6": 0.1666666667
  },
  "optional_valid": [
   "Intermediate values 30.3% (1954), 16.5% (1992), 9.1% (2012)"
@@ -183,7 +266,7 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 5,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "state_sequence",
   "required_states": [
@@ -202,10 +285,19 @@
   },
   "check_full_timeline": true,
   "final_frame_only_sufficient": false,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3",
+   "U4",
+   "U5"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

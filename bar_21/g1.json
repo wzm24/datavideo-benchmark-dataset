@@ -1,16 +1,30 @@
 {
  "clip_id": "bar_21",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that a potential source of government revenue could fully cover free public college and food assistance several times, while nearly meeting the higher cost of an ambitious child-poverty reduction plan.",
  "requirements": [
   {
    "id": "R1",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "selection": "all role=bar rows",
+    "required_data_rows": 3,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
+  },
+  {
+   "id": "R2",
    "question": "How far could about $200 billion go toward funding each of the three policy goals?",
    "relation": "all_of",
    "unit_ids": [
-    "U1",
     "U2",
-    "U3"
+    "U3",
+    "U4"
    ],
    "scope": {
     "entities": [
@@ -23,11 +37,11 @@
    }
   },
   {
-   "id": "R2",
+   "id": "R3",
    "question": "Which policy requires the most spending, and which requires the least?",
    "relation": "single",
    "unit_ids": [
-    "U4"
+    "U5"
    ],
    "scope": {
     "entities": [
@@ -37,26 +51,55 @@
     ],
     "measure": "relative spending cost"
    }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all role=bar rows",
-    "required_data_rows": 3,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "1.0",
+     "unit": "relative",
+     "entity": "Free public college",
+     "series": "Sanders plan",
+     "metric": "spending_cost_relative_to_college"
+    },
+    {
+     "field": "value",
+     "value": "1.5",
+     "unit": "relative",
+     "entity": "Food assistance",
+     "series": "Like food stamps",
+     "metric": "spending_cost_relative_to_college"
+    },
+    {
+     "field": "value",
+     "value": "4.5",
+     "unit": "relative",
+     "entity": "Cut child poverty 60%",
+     "series": "Bennet-Brown plan",
+     "metric": "spending_cost_relative_to_college"
+    }
+   ],
+   "accept": [
+    "all 3 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "claim": "About $200 billion would cover the free public college plan roughly three times over.",
    "accept": [
     "the revenue covers free public college about 3 times",
@@ -99,8 +142,8 @@
    ]
   },
   {
-   "id": "U2",
-   "requirement_id": "R1",
+   "id": "U3",
+   "requirement_id": "R2",
    "claim": "About $200 billion would cover federal food assistance roughly two times over.",
    "accept": [
     "the revenue covers food assistance about 2 times",
@@ -142,8 +185,8 @@
    ]
   },
   {
-   "id": "U3",
-   "requirement_id": "R1",
+   "id": "U4",
+   "requirement_id": "R2",
    "claim": "About $200 billion would cover nearly all, but not the full, cost of the plan to cut child poverty by 60%.",
    "accept": [
     "the revenue gets close to the full cost of cutting child poverty by 60%",
@@ -178,8 +221,8 @@
    ]
   },
   {
-   "id": "U4",
-   "requirement_id": "R2",
+   "id": "U5",
+   "requirement_id": "R3",
    "claim": "The child-poverty plan requires the most spending, food assistance is second, and free public college requires the least.",
    "accept": [
     "Cut child poverty 60% is the most expensive, followed by food assistance, then free public college",
@@ -219,50 +262,6 @@
      "metric": "spending_cost_relative_to_college"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 3 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "1.0",
-     "unit": "relative",
-     "entity": "Free public college",
-     "series": "Sanders plan",
-     "metric": "spending_cost_relative_to_college"
-    },
-    {
-     "field": "value",
-     "value": "1.5",
-     "unit": "relative",
-     "entity": "Food assistance",
-     "series": "Like food stamps",
-     "metric": "spending_cost_relative_to_college"
-    },
-    {
-     "field": "value",
-     "value": "4.5",
-     "unit": "relative",
-     "entity": "Cut child poverty 60%",
-     "series": "Bennet-Brown plan",
-     "metric": "spending_cost_relative_to_college"
-    }
-   ],
-   "accept": [
-    "all 3 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -271,7 +270,7 @@
   "U2": 0.2,
   "U3": 0.2,
   "U4": 0.2,
-  "U_COMPLETE": 0.2
+  "U5": 0.2
  },
  "optional_valid": [
   "The charts may omit the word 'federal' from Food assistance.",
@@ -284,17 +283,22 @@
   "required": true,
   "selection": "all role=bar rows",
   "required_data_rows": 3,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "static_all_at_once",
   "required_states": [],
   "required_marks_per_state": {},
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

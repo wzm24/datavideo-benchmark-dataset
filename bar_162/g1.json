@@ -1,38 +1,14 @@
 {
  "clip_id": "bar_162",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "To illustrate the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
  "requirements": [
   {
    "id": "R1",
-   "question": "Must the 2009 baseline (14%) be explicitly conveyed?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "Must the 2013 endpoint (31%) be explicitly conveyed?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Is the upward direction required as a separate unit, or is it implied by the two endpoint values?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -40,12 +16,69 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "Must the 2009 baseline (14%) be explicitly conveyed?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "Must the 2013 endpoint (31%) be explicitly conveyed?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  },
+  {
+   "id": "R4",
+   "question": "Is the upward direction required as a separate unit, or is it implied by the two endpoint values?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "14",
+     "unit": "%",
+     "entity": "2009",
+     "metric": "value"
+    },
+    {
+     "field": "value",
+     "value": "31",
+     "unit": "%",
+     "entity": "2013",
+     "metric": "value"
+    }
+   ],
+   "accept": [
+    "all 2 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "unit_kind": "key_value_endpoint",
    "must_be_visualized": true,
    "claim": "In 2009, 14% of adult internet users posted online video.",
@@ -70,8 +103,8 @@
    "evidence": "The 2009 value 14% must be visible or labeled."
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U3",
+   "requirement_id": "R3",
    "unit_kind": "key_value_endpoint",
    "must_be_visualized": true,
    "claim": "In 2013, 31% of adult internet users posted online video.",
@@ -96,8 +129,8 @@
    "evidence": "The 2013 value 31% must be visible or labeled."
   },
   {
-   "id": "U3",
-   "requirement_id": "R3",
+   "id": "U4",
+   "requirement_id": "R4",
    "unit_kind": "trend_or_order",
    "must_be_visualized": true,
    "claim": "The proportion posting online video increased from 2009 to 2013; 2013 is higher than 2009.",
@@ -127,40 +160,6 @@
     "reversing the direction or values"
    ],
    "evidence": "The visual encoding must make clear that the 2013 value exceeds the 2009 value."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 2 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "14",
-     "unit": "%",
-     "entity": "2009",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "31",
-     "unit": "%",
-     "entity": "2013",
-     "metric": "value"
-    }
-   ],
-   "accept": [
-    "all 2 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -168,7 +167,7 @@
   "U1": 0.25,
   "U2": 0.25,
   "U3": 0.25,
-  "U_COMPLETE": 0.25
+  "U4": 0.25
  },
  "optional_valid": [
   "The time span is four years: 2013 - 2009 = 4.",
@@ -181,17 +180,21 @@
   "required_data_rows": 2,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",

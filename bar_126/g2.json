@@ -16,105 +16,19 @@
   "required_data_rows": 61,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "1950 | 158.5 | value",
-    "2010 | 1171.5 | value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "1950 | 158.5 | value",
-      "value": 150.9
-     },
-     {
-      "mark": "2010 | 1171.5 | value",
-      "value": 823.5
-     }
-    ],
-    "direction": "increasing",
-    "start_value": 150.9,
-    "end_value": 823.5,
-    "delta": 672.6,
-    "ratio": 5.457256,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U2",
-   "unit_kind": "key_value_extreme",
-   "must_be_visualized": true,
-   "evidence_type": "extremum_mark",
-   "required_marks": [
-    "2010 | 1171.5 | value"
-   ],
-   "assertion": {
-    "mark": "2010 | 1171.5 | value",
-    "extreme": "max",
-    "expected": 823.5,
-    "compared_set": "all numeric data rows",
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "2000 | 1019.5 | value",
-    "2010 | 1171.5 | value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "2000 | 1019.5 | value",
-      "value": 456.0
-     },
-     {
-      "mark": "2010 | 1171.5 | value",
-      "value": 823.5
-     }
-    ],
-    "direction": "increasing",
-    "start_value": 456.0,
-    "end_value": 823.5,
-    "delta": 367.5,
-    "ratio": 1.805921,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "evidence_type": "complete_mark_set",
@@ -190,6 +104,96 @@
    },
    "accepted_routes": [
     "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "1950 | 158.5 | value",
+    "2010 | 1171.5 | value"
+   ],
+   "assertion": {
+    "sequence": [
+     {
+      "mark": "1950 | 158.5 | value",
+      "value": 150.9
+     },
+     {
+      "mark": "2010 | 1171.5 | value",
+      "value": 823.5
+     }
+    ],
+    "direction": "increasing",
+    "start_value": 150.9,
+    "end_value": 823.5,
+    "delta": 672.6,
+    "ratio": 5.457256,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "evidence_type": "extremum_mark",
+   "required_marks": [
+    "2010 | 1171.5 | value"
+   ],
+   "assertion": {
+    "mark": "2010 | 1171.5 | value",
+    "extreme": "max",
+    "expected": 823.5,
+    "compared_set": "all numeric data rows",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "2000 | 1019.5 | value",
+    "2010 | 1171.5 | value"
+   ],
+   "assertion": {
+    "sequence": [
+     {
+      "mark": "2000 | 1019.5 | value",
+      "value": 456.0
+     },
+     {
+      "mark": "2010 | 1171.5 | value",
+      "value": 823.5
+     }
+    ],
+    "direction": "increasing",
+    "start_value": 456.0,
+    "end_value": 823.5,
+    "delta": 367.5,
+    "ratio": 1.805921,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

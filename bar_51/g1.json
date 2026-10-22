@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_51",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that payroll taxes are capped, so lower- and middle-income groups pay a much larger share of income than the richest groups.",
  "requirements": [
   {
    "id": "R1",
-   "question": "Where does the payroll-tax rate drop sharply?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "Why do the richest groups pay a lower share?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,69 +16,28 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "Where does the payroll-tax rate drop sharply?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "Why do the richest groups pay a lower share?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "The first nine groups pay about 9.8–10.9%, while the final two groups drop to about 1% and 0.4%.",
-   "basis": [
-    {
-     "entity": "9th",
-     "field": "payroll_tax_rate",
-     "value": 9.8,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "field": "payroll_tax_rate",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "field": "payroll_tax_rate",
-     "value": 0.4,
-     "unit": "%"
-    }
-   ],
-   "accept": [
-    "eleven bars are present",
-    "the first nine remain around 10%",
-    "the final two collapse to about 1% and 0.4%"
-   ],
-   "reject": [
-    "showing a flat rate through the richest group",
-    "omitting either of the final two bars",
-    "reversing the drop"
-   ],
-   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
-  },
-  {
-   "id": "U2",
-   "requirement_id": "R2",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "Payroll taxes are capped, so the richest groups pay a much smaller portion of their income toward them.",
-   "basis": [],
-   "accept": [
-    "the cap is stated as the reason for the drop",
-    "the richest groups are described as paying a smaller share"
-   ],
-   "reject": [
-    "saying payroll taxes are progressive without a cap",
-    "claiming the richest groups pay the highest share"
-   ],
-   "evidence": "Narration-only explanation; do not invent a visual mark for this causal statement.",
-   "hardcase": true,
-   "hardcase_reason": "The causal explanation is present in narration but not encoded as a chart mark."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 11 required bar marks or stacked segments appear in the final chart.",
@@ -180,23 +123,79 @@
     }
    ],
    "accept": [
-    "all 11 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
+    "all 11 required data marks are visible in the final chart state",
+    "every required bar is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "The first nine groups pay about 9.8–10.9%, while the final two groups drop to about 1% and 0.4%.",
+   "basis": [
+    {
+     "entity": "9th",
+     "field": "payroll_tax_rate",
+     "value": 9.8,
+     "unit": "%"
+    },
+    {
+     "entity": "10th",
+     "field": "payroll_tax_rate",
+     "value": 1,
+     "unit": "%"
+    },
+    {
+     "entity": "Richest",
+     "field": "payroll_tax_rate",
+     "value": 0.4,
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "eleven bars are present",
+    "the first nine remain around 10%",
+    "the final two collapse to about 1% and 0.4%"
+   ],
+   "reject": [
+    "showing a flat rate through the richest group",
+    "omitting either of the final two bars",
+    "reversing the drop"
+   ],
+   "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "narrative_claim",
+   "must_be_visualized": false,
+   "claim": "Payroll taxes are capped, so the richest groups pay a much smaller portion of their income toward them.",
+   "basis": [],
+   "accept": [
+    "the cap is stated as the reason for the drop",
+    "the richest groups are described as paying a smaller share"
+   ],
+   "reject": [
+    "saying payroll taxes are progressive without a cap",
+    "claiming the richest groups pay the highest share"
+   ],
+   "evidence": "Narration-only explanation; do not invent a visual mark for this causal statement.",
+   "hardcase": true,
+   "hardcase_reason": "The causal explanation is present in narration but not encoded as a chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -206,11 +205,15 @@
   "required_data_rows": 11,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": true,
@@ -219,14 +222,14 @@
  },
  "hardcases": [
   {
-   "unit_id": "U2",
+   "unit_id": "U3",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false; preserve the explanation through narration."
   }
  ],
  "review_flags": [
   "percent_bars_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",

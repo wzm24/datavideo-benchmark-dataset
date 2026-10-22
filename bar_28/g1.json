@@ -1,58 +1,15 @@
 {
  "clip_id": "bar_28",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Explain how Warren's proposed wealth tax rises across wealth thresholds while affecting only the wealthiest Americans and raising substantial federal revenue.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How do the wealth-tax rates change across wealth thresholds?",
-   "relation": "single",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "all_of",
    "unit_ids": [
-    "U1"
-   ],
-   "scope": {
-    "entities": [
-     "Wealth above $60 million",
-     "Wealth above $1 billion"
-    ],
-    "measure": "annual wealth-tax rate"
-   }
-  },
-  {
-   "id": "R2",
-   "question": "How narrow is the tax base?",
-   "relation": "single",
-   "unit_ids": [
+    "U1",
     "U2"
-   ],
-   "scope": {
-    "entities": [
-     "US population"
-    ],
-    "measure": "share paying the wealth tax"
-   }
-  },
-  {
-   "id": "R3",
-   "question": "How much revenue could the tax raise?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ],
-   "scope": {
-    "entities": [
-     "US federal government"
-    ],
-    "time": "2016",
-    "measure": "potential annual revenue"
-   }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -66,12 +23,112 @@
      "Final state": 1
     }
    }
+  },
+  {
+   "id": "R2",
+   "question": "How do the wealth-tax rates change across wealth thresholds?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "entities": [
+     "Wealth above $60 million",
+     "Wealth above $1 billion"
+    ],
+    "measure": "annual wealth-tax rate"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How narrow is the tax base?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "entities": [
+     "US population"
+    ],
+    "measure": "share paying the wealth tax"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How much revenue could the tax raise?",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {
+    "entities": [
+     "US federal government"
+    ],
+    "time": "2016",
+    "measure": "potential annual revenue"
+   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state Initial state.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "0.06",
+     "unit": "billion USD",
+     "entity": "Illustrative wealth",
+     "x": "Initial state",
+     "metric": "wealth_level",
+     "label": "$60 million"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state Initial state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state Initial state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in state Final state.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "1.9",
+     "unit": "billion USD",
+     "entity": "Illustrative wealth",
+     "x": "Final state",
+     "metric": "wealth_level",
+     "label": "$1.9 billion"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in state Final state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state Final state are visible and identifiable."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
    "unit_kind": "threshold_or_crossing",
    "must_be_visualized": true,
    "claim": "An illustrative wealth bar spans the $60 million and $1 billion thresholds, showing a 2% tax rate at $60 million and a higher 3% rate at $1 billion.",
@@ -126,8 +183,8 @@
    ]
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U4",
+   "requirement_id": "R3",
    "unit_kind": "narrative_claim",
    "must_be_visualized": false,
    "hardcase": true,
@@ -155,8 +212,8 @@
    ]
   },
   {
-   "id": "U3",
-   "requirement_id": "R3",
+   "id": "U5",
+   "requirement_id": "R4",
    "unit_kind": "narrative_claim",
    "must_be_visualized": false,
    "hardcase": true,
@@ -183,52 +240,15 @@
      "label": "$200 billion"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "Every declared state shows all required bar marks or stacked segments: Initial state=1, Final state=1.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "0.06",
-     "unit": "billion USD",
-     "entity": "Illustrative wealth",
-     "x": "Initial state",
-     "metric": "wealth_level",
-     "label": "$60 million"
-    },
-    {
-     "field": "value",
-     "value": "1.9",
-     "unit": "billion USD",
-     "entity": "Illustrative wealth",
-     "x": "Final state",
-     "metric": "wealth_level",
-     "label": "$1.9 billion"
-    }
-   ],
-   "accept": [
-    "all 2 required data marks are visible",
-    "every required bar is present",
-    "every declared state shows its complete required mark set"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U_COMPLETE": 0.25
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -244,20 +264,25 @@
    "Initial state": 1,
    "Final state": 1
   },
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": true,
   "final_frame_only_sufficient": false,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
  },
  "hardcases": [
   {
-   "unit_id": "U2",
+   "unit_id": "U4",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false; do not invent a population mark from the chart."
   },
   {
-   "unit_id": "U3",
+   "unit_id": "U5",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false; do not invent a revenue mark from the chart."
   }
@@ -272,6 +297,6 @@
  "approved_at": "2026-10-22",
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ]
 }

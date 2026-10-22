@@ -1,15 +1,29 @@
 {
  "clip_id": "bar_22",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that a wealth tax could finance programs helping millions because wealth is extremely concentrated among the ultra-rich, while ordinary occupations have little or negative net worth.",
  "requirements": [
   {
    "id": "R1",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "selection": "all role=bar rows",
+    "required_data_rows": 6,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
+  },
+  {
+   "id": "R2",
    "question": "What wealth inequality does the chart make visually evident?",
    "relation": "all_of",
    "unit_ids": [
-    "U1",
-    "U2"
+    "U2",
+    "U3"
    ],
    "scope": {
     "entities": [
@@ -26,11 +40,11 @@
    }
   },
   {
-   "id": "R2",
+   "id": "R3",
    "question": "What policy conclusion does the wealth inequality support?",
    "relation": "single",
    "unit_ids": [
-    "U3"
+    "U4"
    ],
    "scope": {
     "entities": [
@@ -38,26 +52,79 @@
     ],
     "measure": "wealth-tax target and potential program funding"
    }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all role=bar rows",
-    "required_data_rows": 6,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 6 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "-4000",
+     "unit": "USD",
+     "entity": "Cashier",
+     "metric": "net_worth",
+     "label": "Net worth: -$4,000"
+    },
+    {
+     "field": "value",
+     "value": "1000",
+     "unit": "USD",
+     "entity": "Working mom",
+     "metric": "net_worth",
+     "label": "Net worth: $1,000"
+    },
+    {
+     "field": "value",
+     "value": "2000",
+     "unit": "USD",
+     "entity": "Office clerk",
+     "metric": "net_worth",
+     "label": "Net worth: $2,000"
+    },
+    {
+     "field": "value",
+     "value": "26000",
+     "unit": "USD",
+     "entity": "Nurse",
+     "metric": "net_worth",
+     "label": "Net worth: $26,000"
+    },
+    {
+     "field": "value",
+     "value": "32000",
+     "unit": "USD",
+     "entity": "Teacher",
+     "metric": "net_worth",
+     "label": "Net worth: $32,000"
+    },
+    {
+     "field": "value",
+     "value": "110000",
+     "unit": "USD",
+     "entity": "Accountant",
+     "metric": "net_worth",
+     "label": "Net worth: $110,000"
+    }
+   ],
+   "accept": [
+    "all 6 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "claim": "The six named occupations range from -$4,000 for Cashier to $110,000 for Accountant, with Cashier the only negative value and Accountant the highest.",
@@ -125,8 +192,8 @@
    ]
   },
   {
-   "id": "U2",
-   "requirement_id": "R1",
+   "id": "U3",
+   "requirement_id": "R2",
    "unit_kind": "key_value_extreme",
    "must_be_visualized": true,
    "claim": "At the far right, the wealth-distribution tail represents ultra-rich households whose net worth rises far beyond the displayed scale.",
@@ -154,8 +221,8 @@
    ]
   },
   {
-   "id": "U3",
-   "requirement_id": "R2",
+   "id": "U4",
+   "requirement_id": "R3",
    "unit_kind": "narrative_claim",
    "must_be_visualized": false,
    "hardcase": true,
@@ -182,74 +249,6 @@
      "label": "net worth far beyond the displayed axis"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 6 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "-4000",
-     "unit": "USD",
-     "entity": "Cashier",
-     "metric": "net_worth",
-     "label": "Net worth: -$4,000"
-    },
-    {
-     "field": "value",
-     "value": "1000",
-     "unit": "USD",
-     "entity": "Working mom",
-     "metric": "net_worth",
-     "label": "Net worth: $1,000"
-    },
-    {
-     "field": "value",
-     "value": "2000",
-     "unit": "USD",
-     "entity": "Office clerk",
-     "metric": "net_worth",
-     "label": "Net worth: $2,000"
-    },
-    {
-     "field": "value",
-     "value": "26000",
-     "unit": "USD",
-     "entity": "Nurse",
-     "metric": "net_worth",
-     "label": "Net worth: $26,000"
-    },
-    {
-     "field": "value",
-     "value": "32000",
-     "unit": "USD",
-     "entity": "Teacher",
-     "metric": "net_worth",
-     "label": "Net worth: $32,000"
-    },
-    {
-     "field": "value",
-     "value": "110000",
-     "unit": "USD",
-     "entity": "Accountant",
-     "metric": "net_worth",
-     "label": "Net worth: $110,000"
-    }
-   ],
-   "accept": [
-    "all 6 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -257,14 +256,14 @@
   "U1": 0.25,
   "U2": 0.25,
   "U3": 0.25,
-  "U_COMPLETE": 0.25
+  "U4": 0.25
  },
  "optional_valid": [
   "Do not invent an exact value for the ultra-rich group; the source only shows that its wealth is far beyond the displayed scale."
  ],
  "hardcases": [
   {
-   "unit_id": "U3",
+   "unit_id": "U4",
    "type": "required_narrative_without_source_visual",
    "handling": "must_be_visualized=false by default; a generated callout may support the unit but is not required."
   }
@@ -276,17 +275,21 @@
   "required": true,
   "selection": "all role=bar rows",
   "required_data_rows": 6,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "static_all_at_once",
   "required_states": [],
   "required_marks_per_state": {},
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ]
 }

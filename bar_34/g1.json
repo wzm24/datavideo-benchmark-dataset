@@ -1,14 +1,28 @@
 {
  "clip_id": "bar_34",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that uninsured Americans are most likely to skip medication because of cost, while even insured Americans rank second and above every other compared country.",
  "requirements": [
   {
    "id": "R1",
-   "question": "Which group is most likely to skip medication because of cost?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
+   ],
+   "scope": {
+    "selection": "all data rows (table has no role column)",
+    "required_data_rows": 8,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Which group is most likely to skip medication because of cost?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
    ],
    "scope": {
     "entities": [
@@ -25,11 +39,11 @@
    }
   },
   {
-   "id": "R2",
+   "id": "R3",
    "question": "How does the insured U.S. rate compare with the other countries?",
    "relation": "single",
    "unit_ids": [
-    "U2"
+    "U3"
    ],
    "scope": {
     "entities": [
@@ -43,26 +57,87 @@
     ],
     "measure": "share skipping prescriptions or doses because of cost"
    }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all data rows (table has no role column)",
-    "required_data_rows": 8,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 8 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "2.137",
+     "unit": "%",
+     "entity": "United Kingdom",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "3.155",
+     "unit": "%",
+     "entity": "Germany",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "4.173",
+     "unit": "%",
+     "entity": "France",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "6.107",
+     "unit": "%",
+     "entity": "Australia",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "9.059",
+     "unit": "%",
+     "entity": "Switzerland",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "10.076",
+     "unit": "%",
+     "entity": "Canada",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "20.051",
+     "unit": "%",
+     "entity": "Insured United States",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    },
+    {
+     "field": "value",
+     "value": "33.453",
+     "unit": "%",
+     "entity": "Uninsured United States",
+     "metric": "skipped_prescriptions_or_doses_due_to_cost"
+    }
+   ],
+   "accept": [
+    "all 8 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "claim": "Uninsured Americans have the highest rate at about 33.5%, exceeding insured Americans at about 20.1% and every comparison country at 10.1% or less.",
@@ -138,8 +213,8 @@
    ]
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U3",
+   "requirement_id": "R3",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "claim": "Insured Americans rank second at about 20.1%, still above Canada's highest comparison-country rate of about 10.1%.",
@@ -213,89 +288,13 @@
      "metric": "skipped_prescriptions_or_doses_due_to_cost"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 8 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "2.137",
-     "unit": "%",
-     "entity": "United Kingdom",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "3.155",
-     "unit": "%",
-     "entity": "Germany",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "4.173",
-     "unit": "%",
-     "entity": "France",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "6.107",
-     "unit": "%",
-     "entity": "Australia",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "9.059",
-     "unit": "%",
-     "entity": "Switzerland",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "10.076",
-     "unit": "%",
-     "entity": "Canada",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "20.051",
-     "unit": "%",
-     "entity": "Insured United States",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "33.453",
-     "unit": "%",
-     "entity": "Uninsured United States",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    }
-   ],
-   "accept": [
-    "all 8 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [
   "The chart concerns cost-related skipping of prescriptions or doses, not all medication nonadherence."
@@ -307,17 +306,22 @@
   "required_data_rows": 8,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "status": "approved",
  "approved_by": "human",
  "approved_at": "2026-10-22",
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

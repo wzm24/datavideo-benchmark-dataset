@@ -65,10 +65,10 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
    不等式（`relation=">"`, `value=33.3`, `unit=percent`），G1 里把编造的绝对人数或精确值
    列入 reject。**只要图上有刻度线或坐标轴，就按轴尺度从几何推出具体值并写进表**（provenance
    里标 `estimated/geometry`）；数据表是唯一事实来源。
-9. **bar 完整性是必需 G1 单元 `U_COMPLETE`。** G0 由 `role=bar` 定义必须出现的数据标记，
-   G2 检查图元是否存在，G1 中每条 bar 都必须有且只有一个 `U_COMPLETE`。
-   普通/分组/堆叠柱缺任意一根柱或段都使 `U_COMPLETE=0`。`time_behavior=frame` 时必须
-   逐状态检查完整时间线，不能只看末帧。
+9. **bar 完整性放在固定 `R1` 下。** R1 问“这个视频是怎么展现这些 bar 的？”；
+   单状态图用一个 U 列出全部必需柱/段，`state_sequence` 图每个状态各用一个 U。
+   G0 定义必需数据标记，G2 检查对应图元，完整性 U 与其他 U 等权进入 G1。
+   `time_behavior=frame` 时必须逐状态检查，不能只看末帧。
 
 ## 3. intent
 

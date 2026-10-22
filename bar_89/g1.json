@@ -1,22 +1,14 @@
 {
  "clip_id": "bar_89",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show Ethiopia's young age structure and large base of children and young adults.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What demographic shape does Ethiopia have?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -24,311 +16,20 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "What demographic shape does Ethiopia have?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "claim": "Ethiopia's population pyramid has a broad base of children and young adults and narrows sharply at older ages.",
-   "basis": [
-    {
-     "entity": "95-99",
-     "field": "ethiopia",
-     "value": 0.0083,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "95-99",
-     "field": "ethiopia",
-     "value": 0.008715,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "90-95",
-     "field": "ethiopia",
-     "value": 0.0248,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "90-95",
-     "field": "ethiopia",
-     "value": 0.028245,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "85-89",
-     "field": "ethiopia",
-     "value": 0.0455,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "85-89",
-     "field": "ethiopia",
-     "value": 0.049875,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "80-84",
-     "field": "ethiopia",
-     "value": 0.0703,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "80-84",
-     "field": "ethiopia",
-     "value": 0.073815,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "75-79",
-     "field": "ethiopia",
-     "value": 0.0992,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "75-79",
-     "field": "ethiopia",
-     "value": 0.10416,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "70-74",
-     "field": "ethiopia",
-     "value": 0.1323,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "70-74",
-     "field": "ethiopia",
-     "value": 0.138915,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "65-69",
-     "field": "ethiopia",
-     "value": 0.1695,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "65-69",
-     "field": "ethiopia",
-     "value": 0.177975,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "60-64",
-     "field": "ethiopia",
-     "value": 0.2109,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "60-64",
-     "field": "ethiopia",
-     "value": 0.221445,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "55-59",
-     "field": "ethiopia",
-     "value": 0.2522,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "55-59",
-     "field": "ethiopia",
-     "value": 0.267015,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "50-54",
-     "field": "ethiopia",
-     "value": 0.2977,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "50-54",
-     "field": "ethiopia",
-     "value": 0.31689,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "45-49",
-     "field": "ethiopia",
-     "value": 0.3473,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "45-49",
-     "field": "ethiopia",
-     "value": 0.36897,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "40-44",
-     "field": "ethiopia",
-     "value": 0.3969,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "40-44",
-     "field": "ethiopia",
-     "value": 0.421155,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "35-39",
-     "field": "ethiopia",
-     "value": 0.4643,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "35-39",
-     "field": "ethiopia",
-     "value": 0.49182,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "30-34",
-     "field": "ethiopia",
-     "value": 0.5351,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "30-34",
-     "field": "ethiopia",
-     "value": 0.566265,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "25-29",
-     "field": "ethiopia",
-     "value": 0.6119,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "25-29",
-     "field": "ethiopia",
-     "value": 0.646905,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "20-24",
-     "field": "ethiopia",
-     "value": 0.6946,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "20-24",
-     "field": "ethiopia",
-     "value": 0.73374,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "15-19",
-     "field": "ethiopia",
-     "value": 0.7832,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "15-19",
-     "field": "ethiopia",
-     "value": 0.82677,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "10-14",
-     "field": "ethiopia",
-     "value": 0.8777,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "10-14",
-     "field": "ethiopia",
-     "value": 0.925995,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "5-9",
-     "field": "ethiopia",
-     "value": 0.9545,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "5-9",
-     "field": "ethiopia",
-     "value": 1.00663,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "0-4",
-     "field": "ethiopia",
-     "value": 0.9959,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "0-4",
-     "field": "ethiopia",
-     "value": 1.05,
-     "unit": "relative",
-     "series": "Female"
-    }
-   ],
-   "accept": [
-    "both genders are present",
-    "the base is widest",
-    "older bands are much smaller"
-   ],
-   "reject": [
-    "showing an old-age-heavy pyramid",
-    "omitting the youngest bands"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "claim": "All 40 required bar marks or stacked segments appear in the final chart.",
@@ -695,22 +396,320 @@
     }
    ],
    "accept": [
-    "all 40 required data marks are visible",
-    "every grouped bar and every stacked segment is present",
-    "the complete required mark set is present in the final chart"
+    "all 40 required data marks are visible in the final chart state",
+    "every grouped bar and every stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "claim": "Ethiopia's population pyramid has a broad base of children and young adults and narrows sharply at older ages.",
+   "basis": [
+    {
+     "entity": "95-99",
+     "field": "ethiopia",
+     "value": 0.0083,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "95-99",
+     "field": "ethiopia",
+     "value": 0.008715,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "90-95",
+     "field": "ethiopia",
+     "value": 0.0248,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "90-95",
+     "field": "ethiopia",
+     "value": 0.028245,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "85-89",
+     "field": "ethiopia",
+     "value": 0.0455,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "85-89",
+     "field": "ethiopia",
+     "value": 0.049875,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "80-84",
+     "field": "ethiopia",
+     "value": 0.0703,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "80-84",
+     "field": "ethiopia",
+     "value": 0.073815,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "75-79",
+     "field": "ethiopia",
+     "value": 0.0992,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "75-79",
+     "field": "ethiopia",
+     "value": 0.10416,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "70-74",
+     "field": "ethiopia",
+     "value": 0.1323,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "70-74",
+     "field": "ethiopia",
+     "value": 0.138915,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "65-69",
+     "field": "ethiopia",
+     "value": 0.1695,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "65-69",
+     "field": "ethiopia",
+     "value": 0.177975,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "60-64",
+     "field": "ethiopia",
+     "value": 0.2109,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "60-64",
+     "field": "ethiopia",
+     "value": 0.221445,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "55-59",
+     "field": "ethiopia",
+     "value": 0.2522,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "55-59",
+     "field": "ethiopia",
+     "value": 0.267015,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "50-54",
+     "field": "ethiopia",
+     "value": 0.2977,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "50-54",
+     "field": "ethiopia",
+     "value": 0.31689,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "45-49",
+     "field": "ethiopia",
+     "value": 0.3473,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "45-49",
+     "field": "ethiopia",
+     "value": 0.36897,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "40-44",
+     "field": "ethiopia",
+     "value": 0.3969,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "40-44",
+     "field": "ethiopia",
+     "value": 0.421155,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "35-39",
+     "field": "ethiopia",
+     "value": 0.4643,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "35-39",
+     "field": "ethiopia",
+     "value": 0.49182,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "30-34",
+     "field": "ethiopia",
+     "value": 0.5351,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "30-34",
+     "field": "ethiopia",
+     "value": 0.566265,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "25-29",
+     "field": "ethiopia",
+     "value": 0.6119,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "25-29",
+     "field": "ethiopia",
+     "value": 0.646905,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "20-24",
+     "field": "ethiopia",
+     "value": 0.6946,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "20-24",
+     "field": "ethiopia",
+     "value": 0.73374,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "15-19",
+     "field": "ethiopia",
+     "value": 0.7832,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "15-19",
+     "field": "ethiopia",
+     "value": 0.82677,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "10-14",
+     "field": "ethiopia",
+     "value": 0.8777,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "10-14",
+     "field": "ethiopia",
+     "value": 0.925995,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "5-9",
+     "field": "ethiopia",
+     "value": 0.9545,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "5-9",
+     "field": "ethiopia",
+     "value": 1.00663,
+     "unit": "relative",
+     "series": "Female"
+    },
+    {
+     "entity": "0-4",
+     "field": "ethiopia",
+     "value": 0.9959,
+     "unit": "relative",
+     "series": "Male"
+    },
+    {
+     "entity": "0-4",
+     "field": "ethiopia",
+     "value": 1.05,
+     "unit": "relative",
+     "series": "Female"
+    }
+   ],
+   "accept": [
+    "both genders are present",
+    "the base is widest",
+    "older bands are much smaller"
+   ],
+   "reject": [
+    "showing an old-age-heavy pyramid",
+    "omitting the youngest bands"
+   ],
+   "evidence": "The selected keyframe and plotted marks encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -720,11 +719,15 @@
   "required_data_rows": 40,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -734,7 +737,7 @@
  "hardcases": [],
  "review_flags": [
   "batch_84_105_reviewed_candidate",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",

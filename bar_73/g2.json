@@ -16,15 +16,41 @@
   "required_data_rows": 2,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_mark_set",
+   "required_marks": [
+    "Filler | value",
+    "Actual content | value"
+   ],
+   "assertion": {
+    "required_data_rows": 2,
+    "mode": "static_all_at_once",
+    "required_states": [],
+    "required_marks_per_state": {},
+    "all_required_marks_must_be_present": true
+   },
+   "accepted_routes": [
+    "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "evidence_type": "pair_comparison",
@@ -51,28 +77,6 @@
    "accepted_routes": [
     "geometry",
     "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
-   "required_marks": [
-    "Filler | value",
-    "Actual content | value"
-   ],
-   "assertion": {
-    "required_data_rows": 2,
-    "mode": "static_all_at_once",
-    "required_states": [],
-    "required_marks_per_state": {},
-    "all_required_marks_must_be_present": true
-   },
-   "accepted_routes": [
-    "geometry"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

@@ -1,30 +1,14 @@
 {
  "clip_id": "bar_39",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show how the proposed wealth tax rises across wealth brackets and estimate the tax due on a $2 billion estate.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How do the wealth-tax rates rise across wealth brackets?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
-   ]
-  },
-  {
-   "id": "R2",
-   "question": "What tax is due on the $2 billion estate?",
-   "relation": "single",
-   "unit_ids": [
-    "U2"
-   ]
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all role=bar rows",
@@ -32,12 +16,56 @@
     "required_states": [],
     "required_marks_per_state": {}
    }
+  },
+  {
+   "id": "R2",
+   "question": "How do the wealth-tax rates rise across wealth brackets?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "What tax is due on the $2 billion estate?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "2",
+     "unit": "billion USD",
+     "entity": "$2 billion estate",
+     "x": "Illustrative wealth",
+     "metric": "wealth_level",
+     "label": "$2 billion"
+    }
+   ],
+   "accept": [
+    "all 1 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "unit_kind": "threshold_or_crossing",
    "must_be_visualized": true,
    "claim": "The wealth tax is 0% on the first $50 million, 2% from $50 million to $1 billion, and 3% above $1 billion.",
@@ -70,8 +98,8 @@
    "evidence": "A single wealth-scale bar shows the $50 million and $1 billion thresholds with the corresponding 0%, 2%, and 3% rate annotations."
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U3",
+   "requirement_id": "R3",
    "unit_kind": "key_value_endpoint",
    "must_be_visualized": true,
    "claim": "The tax due on a $2 billion estate is about $49 million.",
@@ -92,42 +120,13 @@
     "treating $49 million as the tax rate"
    ],
    "evidence": "In the final chart state, a white comparison swatch and the text $49 million appear beside the $2 billion scale; narration also states the amount."
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 1 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "2",
-     "unit": "billion USD",
-     "entity": "$2 billion estate",
-     "x": "Illustrative wealth",
-     "metric": "wealth_level",
-     "label": "$2 billion"
-    }
-   ],
-   "accept": [
-    "all 1 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.3333333333,
   "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -137,11 +136,15 @@
   "required_data_rows": 1,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "clip_hardcase": {
   "is_hardcase": false,
@@ -152,7 +155,7 @@
  "review_flags": [
   "legacy_intent_migrated",
   "custom_threshold_diagram",
-  "completeness_as_g1_unit_2026-10-22"
+  "state_level_completeness_r1_2026-10-22"
  ],
  "draft_source": "manual_review_draft_2026-10-22",
  "status": "approved",

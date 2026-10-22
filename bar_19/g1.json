@@ -1,14 +1,28 @@
 {
  "clip_id": "bar_19",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show the extreme temperature range on Mercury, driven by its lack of atmosphere and orbital dynamics.",
  "requirements": [
   {
    "id": "R1",
-   "question": "What is Mercury's surface temperature range?",
+   "question": "How does the video present the required bars in this chart?",
    "relation": "single",
    "unit_ids": [
     "U1"
+   ],
+   "scope": {
+    "selection": "all data rows (table has no role column)",
+    "required_data_rows": 2,
+    "required_states": [],
+    "required_marks_per_state": {}
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is Mercury's surface temperature range?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
    ],
    "scope": {
     "entities": [
@@ -17,26 +31,47 @@
     "measure": "surface temperature range",
     "time": "snapshot"
    }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
-   ],
-   "scope": {
-    "selection": "all data rows (table has no role column)",
-    "required_data_rows": 2,
-    "required_states": [],
-    "required_marks_per_state": {}
-   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required bar marks or stacked segments appear in the final chart.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "-173",
+     "unit": "°C",
+     "entity": "Mercury",
+     "metric": "minimum_temperature",
+     "label": "-173 °C"
+    },
+    {
+     "field": "value",
+     "value": "437",
+     "unit": "°C",
+     "entity": "Mercury",
+     "metric": "maximum_temperature",
+     "label": "437 °C"
+    }
+   ],
+   "accept": [
+    "all 2 required data marks are visible in the final chart state",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
    "claim": "Mercury's temperature ranges from -173°C to 437°C, a 610°C span, with 0°C in between.",
    "accept": [
     "the range -173°C to 437°C",
@@ -70,48 +105,12 @@
      "label": "437 °C"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "All 2 required bar marks or stacked segments appear in the final chart.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "-173",
-     "unit": "°C",
-     "entity": "Mercury",
-     "metric": "minimum_temperature",
-     "label": "-173 °C"
-    },
-    {
-     "field": "value",
-     "value": "437",
-     "unit": "°C",
-     "entity": "Mercury",
-     "metric": "maximum_temperature",
-     "label": "437 °C"
-    }
-   ],
-   "accept": [
-    "all 2 required data marks are visible",
-    "every required bar is present",
-    "the complete required mark set is present in the final chart"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
   "U1": 0.5,
-  "U_COMPLETE": 0.5
+  "U2": 0.5
  },
  "optional_valid": [
   "The narration's causes (no atmosphere, no moon, orbital dynamics) are not in the table."
@@ -123,17 +122,22 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 2,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "static_all_at_once",
   "required_states": [],
   "required_marks_per_state": {},
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }

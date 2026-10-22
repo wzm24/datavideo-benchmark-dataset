@@ -16,122 +16,19 @@
   "required_data_rows": 32,
   "required_states": [],
   "required_marks_per_state": {},
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "check_full_timeline": false,
   "final_frame_only_sufficient": true,
   "missing_any_fails_visual_completeness": true,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "monotonic_order",
-   "required_marks": [
-    "27 Feb 20 | 27 Feb 20-Imported | value",
-    "09 Mar 20 | 09 Mar 20-Imported | value",
-    "17 Mar 20 | 17 Mar 20-Imported | value",
-    "25 Mar 20 | 25 Mar 20-Imported | value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "27 Feb 20 | 27 Feb 20-Imported | value",
-      "value": 2.0
-     },
-     {
-      "mark": "09 Mar 20 | 09 Mar 20-Imported | value",
-      "value": 8.0
-     },
-     {
-      "mark": "17 Mar 20 | 17 Mar 20-Imported | value",
-      "value": 27.0
-     },
-     {
-      "mark": "25 Mar 20 | 25 Mar 20-Imported | value",
-      "value": 29.0
-     }
-    ],
-    "direction": "increasing",
-    "start_value": 2.0,
-    "end_value": 29.0,
-    "delta": 27.0,
-    "ratio": 14.5,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U2",
-   "unit_kind": "key_value_extreme",
-   "must_be_visualized": true,
-   "evidence_type": "extremum_mark",
-   "required_marks": [
-    "09 Mar 20 | 09 Mar 20-Local | value #1",
-    "09 Mar 20 | 09 Mar 20-Local | value #2",
-    "17 Mar 20 | 17 Mar 20-Local | value",
-    "25 Mar 20 | 25 Mar 20-Local | value"
-   ],
-   "assertion": {
-    "mark": "09 Mar 20 | 09 Mar 20-Local | value",
-    "extreme": "min",
-    "expected": 1.0,
-    "compared_set": "all numeric data rows",
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
-   "required_marks": [
-    "25 Mar 20 | 25 Mar 20-Imported | value #1",
-    "25 Mar 20 | 25 Mar 20-Imported | value #2",
-    "25 Mar 20 | 25 Mar 20-Imported | value #3",
-    "25 Mar 20 | 25 Mar 20-Local | value #1",
-    "25 Mar 20 | 25 Mar 20-Local | value #2"
-   ],
-   "assertion": {
-    "greater": "25 Mar 20 | 25 Mar 20-Imported | value",
-    "greater_value": 29.0,
-    "lesser": "25 Mar 20 | 25 Mar 20-Local | value",
-    "lesser_value": 3.0,
-    "delta": 26.0,
-    "ratio": 9.666667,
-    "expected_order": [
-     "25 Mar 20 | 25 Mar 20-Imported | value",
-     "25 Mar 20 | 25 Mar 20-Imported | value",
-     "25 Mar 20 | 25 Mar 20-Imported | value",
-     "25 Mar 20 | 25 Mar 20-Local | value",
-     "25 Mar 20 | 25 Mar 20-Local | value"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U_COMPLETE",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
    "evidence_type": "complete_mark_set",
@@ -178,6 +75,113 @@
    },
    "accepted_routes": [
     "geometry"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend_or_order",
+   "must_be_visualized": true,
+   "evidence_type": "monotonic_order",
+   "required_marks": [
+    "27 Feb 20 | 27 Feb 20-Imported | value",
+    "09 Mar 20 | 09 Mar 20-Imported | value",
+    "17 Mar 20 | 17 Mar 20-Imported | value",
+    "25 Mar 20 | 25 Mar 20-Imported | value"
+   ],
+   "assertion": {
+    "sequence": [
+     {
+      "mark": "27 Feb 20 | 27 Feb 20-Imported | value",
+      "value": 2.0
+     },
+     {
+      "mark": "09 Mar 20 | 09 Mar 20-Imported | value",
+      "value": 8.0
+     },
+     {
+      "mark": "17 Mar 20 | 17 Mar 20-Imported | value",
+      "value": 27.0
+     },
+     {
+      "mark": "25 Mar 20 | 25 Mar 20-Imported | value",
+      "value": 29.0
+     }
+    ],
+    "direction": "increasing",
+    "start_value": 2.0,
+    "end_value": 29.0,
+    "delta": 27.0,
+    "ratio": 14.5,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "evidence_type": "extremum_mark",
+   "required_marks": [
+    "09 Mar 20 | 09 Mar 20-Local | value #1",
+    "09 Mar 20 | 09 Mar 20-Local | value #2",
+    "17 Mar 20 | 17 Mar 20-Local | value",
+    "25 Mar 20 | 25 Mar 20-Local | value"
+   ],
+   "assertion": {
+    "mark": "09 Mar 20 | 09 Mar 20-Local | value",
+    "extreme": "min",
+    "expected": 1.0,
+    "compared_set": "all numeric data rows",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "ranked_comparison",
+   "required_marks": [
+    "25 Mar 20 | 25 Mar 20-Imported | value #1",
+    "25 Mar 20 | 25 Mar 20-Imported | value #2",
+    "25 Mar 20 | 25 Mar 20-Imported | value #3",
+    "25 Mar 20 | 25 Mar 20-Local | value #1",
+    "25 Mar 20 | 25 Mar 20-Local | value #2"
+   ],
+   "assertion": {
+    "greater": "25 Mar 20 | 25 Mar 20-Imported | value",
+    "greater_value": 29.0,
+    "lesser": "25 Mar 20 | 25 Mar 20-Local | value",
+    "lesser_value": 3.0,
+    "delta": 26.0,
+    "ratio": 9.666667,
+    "expected_order": [
+     "25 Mar 20 | 25 Mar 20-Imported | value",
+     "25 Mar 20 | 25 Mar 20-Imported | value",
+     "25 Mar 20 | 25 Mar 20-Imported | value",
+     "25 Mar 20 | 25 Mar 20-Local | value",
+     "25 Mar 20 | 25 Mar 20-Local | value"
+    ],
+    "tolerance": {
+     "value": 0.02,
+     "ratio": 0.05
+    }
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

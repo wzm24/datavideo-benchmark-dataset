@@ -1,13 +1,15 @@
 # Bar G2/G3 generation status
 
 - Clips: 153
-- G1 units: 369, including one required `U_COMPLETE` unit in each of 153 clips
-- Visual units: 355
+- G1 units: 380
+- Completeness units under fixed `R1`: 164 (one per static clip; one per declared
+  state for state-sequence clips)
+- Visual units: 366
 - Narrative-only units: 14
 - G2 files generated: 153
 - G3 files generated: 153
 - G2 units marked `needs_review=true`: 31
-- G2 units directly machine-checkable: 338
+- G2 units directly machine-checkable: 349
 
 ## Format normalization
 

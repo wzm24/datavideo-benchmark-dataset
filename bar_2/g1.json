@@ -1,50 +1,15 @@
 {
  "clip_id": "bar_2",
- "version": "g1_r_u_v3",
+ "version": "g1_r_u_v4",
  "intent": "Show that between 1990 and 2017, Sub-Saharan Africa's illiteracy rate fell more slowly, in proportional terms, than in Latin America & Caribbean, East Asia & Pacific, and the European Union.",
  "requirements": [
   {
    "id": "R1",
-   "question": "How did the illiteracy rate change from 1990 to 2017 in the four regions?",
-   "relation": "single",
+   "question": "How does the video present the required bars in this chart?",
+   "relation": "all_of",
    "unit_ids": [
-    "U1"
-   ],
-   "scope": {
-    "entities": [
-     "Sub-Saharan Africa",
-     "Latin America & Caribbean",
-     "East Asia & Pacific",
-     "European Union"
-    ],
-    "measure": "illiteracy rate",
-    "time": "1990-2017"
-   }
-  },
-  {
-   "id": "R2",
-   "question": "Which region improved least in relative terms?",
-   "relation": "single",
-   "unit_ids": [
+    "U1",
     "U2"
-   ],
-   "scope": {
-    "entities": [
-     "Sub-Saharan Africa",
-     "Latin America & Caribbean",
-     "East Asia & Pacific",
-     "European Union"
-    ],
-    "measure": "illiteracy rate",
-    "time": "1990-2017"
-   }
-  },
-  {
-   "id": "R_COMPLETE",
-   "question": "Are all data marks declared by G0 present in the required state or states?",
-   "relation": "single",
-   "unit_ids": [
-    "U_COMPLETE"
    ],
    "scope": {
     "selection": "all data rows (table has no role column)",
@@ -58,12 +23,158 @@
      "2017": 4
     }
    }
+  },
+  {
+   "id": "R2",
+   "question": "How did the illiteracy rate change from 1990 to 2017 in the four regions?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "entities": [
+     "Sub-Saharan Africa",
+     "Latin America & Caribbean",
+     "East Asia & Pacific",
+     "European Union"
+    ],
+    "measure": "illiteracy rate",
+    "time": "1990-2017"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "Which region improved least in relative terms?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "entities": [
+     "Sub-Saharan Africa",
+     "Latin America & Caribbean",
+     "East Asia & Pacific",
+     "European Union"
+    ],
+    "measure": "illiteracy rate",
+    "time": "1990-2017"
+   }
   }
  ],
  "units": [
   {
    "id": "U1",
    "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 4 required bar marks or stacked segments appear in state 1990.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "48",
+     "unit": "%",
+     "entity": "Sub-Saharan Africa",
+     "x": "1990",
+     "metric": "illiteracy_rate",
+     "label": "48%"
+    },
+    {
+     "field": "value",
+     "value": "15.5",
+     "unit": "%",
+     "entity": "Latin America & Caribbean",
+     "x": "1990",
+     "metric": "illiteracy_rate",
+     "label": "15.5%"
+    },
+    {
+     "field": "value",
+     "value": "18",
+     "unit": "%",
+     "entity": "East Asia & Pacific",
+     "x": "1990",
+     "metric": "illiteracy_rate",
+     "label": "18%"
+    },
+    {
+     "field": "value",
+     "value": "2",
+     "unit": "%",
+     "entity": "European Union",
+     "x": "1990",
+     "metric": "illiteracy_rate",
+     "label": "2%"
+    }
+   ],
+   "accept": [
+    "all 4 required data marks are visible in state 1990",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 1990 are visible and identifiable."
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 4 required bar marks or stacked segments appear in state 2017.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "36.1",
+     "unit": "%",
+     "entity": "Sub-Saharan Africa",
+     "x": "2017",
+     "metric": "illiteracy_rate",
+     "label": "36.1%"
+    },
+    {
+     "field": "value",
+     "value": "6.9",
+     "unit": "%",
+     "entity": "Latin America & Caribbean",
+     "x": "2017",
+     "metric": "illiteracy_rate",
+     "label": "6.9%"
+    },
+    {
+     "field": "value",
+     "value": "5.1",
+     "unit": "%",
+     "entity": "East Asia & Pacific",
+     "x": "2017",
+     "metric": "illiteracy_rate",
+     "label": "5.1%"
+    },
+    {
+     "field": "value",
+     "value": "1",
+     "unit": "%",
+     "entity": "European Union",
+     "x": "2017",
+     "metric": "illiteracy_rate",
+     "label": "1%"
+    }
+   ],
+   "accept": [
+    "all 4 required data marks are visible in state 2017",
+    "every required bar is present"
+   ],
+   "reject": [
+    "omitting any required bar or stacked segment",
+    "showing only selected endpoint bars",
+    "replacing missing marks with a summary total or subtitle"
+   ],
+   "evidence": "All G0-required marks for state 2017 are visible and identifiable."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
    "claim": "From 1990 to 2017 the illiteracy rate fell in all four regions: Sub-Saharan Africa 48%→36.1%, Latin America & Caribbean 15.5%→6.9%, East Asia & Pacific 18%→5.1%, European Union 2%→1%.",
    "accept": [
     "all four endpoint pairs",
@@ -154,8 +265,8 @@
    ]
   },
   {
-   "id": "U2",
-   "requirement_id": "R2",
+   "id": "U4",
+   "requirement_id": "R3",
    "claim": "Sub-Saharan Africa's proportional decline is the smallest (about 25%), below Latin America & Caribbean (55%), the European Union (50%) and East Asia & Pacific (72%), so its illiteracy rate improved more slowly.",
    "accept": [
     "relative-decline ranking: East Asia & Pacific > Latin America & Caribbean > European Union > Sub-Saharan Africa",
@@ -244,105 +355,14 @@
      "label": "1%"
     }
    ]
-  },
-  {
-   "id": "U_COMPLETE",
-   "requirement_id": "R_COMPLETE",
-   "unit_kind": "visual_completeness",
-   "must_be_visualized": true,
-   "claim": "Every declared state shows all required bar marks or stacked segments: 1990=4, 2017=4.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "48",
-     "unit": "%",
-     "entity": "Sub-Saharan Africa",
-     "x": "1990",
-     "metric": "illiteracy_rate",
-     "label": "48%"
-    },
-    {
-     "field": "value",
-     "value": "15.5",
-     "unit": "%",
-     "entity": "Latin America & Caribbean",
-     "x": "1990",
-     "metric": "illiteracy_rate",
-     "label": "15.5%"
-    },
-    {
-     "field": "value",
-     "value": "18",
-     "unit": "%",
-     "entity": "East Asia & Pacific",
-     "x": "1990",
-     "metric": "illiteracy_rate",
-     "label": "18%"
-    },
-    {
-     "field": "value",
-     "value": "2",
-     "unit": "%",
-     "entity": "European Union",
-     "x": "1990",
-     "metric": "illiteracy_rate",
-     "label": "2%"
-    },
-    {
-     "field": "value",
-     "value": "36.1",
-     "unit": "%",
-     "entity": "Sub-Saharan Africa",
-     "x": "2017",
-     "metric": "illiteracy_rate",
-     "label": "36.1%"
-    },
-    {
-     "field": "value",
-     "value": "6.9",
-     "unit": "%",
-     "entity": "Latin America & Caribbean",
-     "x": "2017",
-     "metric": "illiteracy_rate",
-     "label": "6.9%"
-    },
-    {
-     "field": "value",
-     "value": "5.1",
-     "unit": "%",
-     "entity": "East Asia & Pacific",
-     "x": "2017",
-     "metric": "illiteracy_rate",
-     "label": "5.1%"
-    },
-    {
-     "field": "value",
-     "value": "1",
-     "unit": "%",
-     "entity": "European Union",
-     "x": "2017",
-     "metric": "illiteracy_rate",
-     "label": "1%"
-    }
-   ],
-   "accept": [
-    "all 8 required data marks are visible",
-    "every required bar is present",
-    "every declared state shows its complete required mark set"
-   ],
-   "reject": [
-    "omitting any required bar or stacked segment",
-    "showing only selected endpoint bars",
-    "replacing missing marks with a summary total or subtitle"
-   ],
-   "evidence": "G0 data-row coverage is rendered as a complete set of identifiable bar marks."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U_COMPLETE": 0.3333333333
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
  },
  "status": "approved",
  "approved_by": "human",
@@ -351,7 +371,7 @@
   "required": true,
   "selection": "all data rows (table has no role column)",
   "required_data_rows": 8,
-  "evaluated_in": "G1_U_COMPLETE_and_G2_mark_presence",
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
   "missing_any_fails_visual_completeness": true,
   "mode": "state_sequence",
   "required_states": [
@@ -364,10 +384,16 @@
   },
   "check_full_timeline": true,
   "final_frame_only_sufficient": false,
-  "g1_unit_id": "U_COMPLETE"
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "completeness_as_g1_unit_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22"
+ ],
+ "hardcases": []
 }
