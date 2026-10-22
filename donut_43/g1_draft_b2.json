@@ -12,7 +12,7 @@
    "meaning": "Cat owners have a 17% higher likelihood of holding a graduate degree than the baseline/comparison group.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.2,
+   "weight_actual": 1.0,
    "required_candidate": true,
    "basis": [
     {
@@ -39,145 +39,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U2",
-   "meaning": "The association is positive: cat owners are more likely, not less likely, to hold a graduate degree.",
-   "unit_kind": "trend_or_order",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "more likely to have a graduate degree",
-     "x": "0",
-     "field": "value",
-     "value": 17.0,
-     "note": "entity phrasing encodes positive direction"
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "Cat owners are more likely to have a graduate degree",
-    "The relationship is positive",
-    "The likelihood is higher for cat owners",
-    "There is a positive association between cat ownership and graduate degree"
-   ],
-   "visual_evidence_rule": "The wording, arrow, or position must indicate 'more likely' or 'higher', not 'less likely'.",
-   "temporal_anchor": "more likely to have a graduate degree",
-   "reviewer_question": "Is the positive direction required to be explicit, or is it implied by the 17% value?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U3",
-   "meaning": "The outcome being compared is holding a graduate degree.",
-   "unit_kind": "identity_or_series",
-   "weight_template": 0.15,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "more likely to have a graduate degree",
-     "x": "0",
-     "field": "value",
-     "value": 17.0,
-     "note": "entity names the outcome as graduate degree"
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "graduate degree",
-    "holding a graduate degree",
-    "having a graduate degree",
-    "completed graduate education"
-   ],
-   "visual_evidence_rule": "The chart or label must mention graduate degree, not another education level or unrelated outcome.",
-   "temporal_anchor": "graduate degree",
-   "reviewer_question": "Must the exact educational outcome be stated, or can it be visually implied?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "The 17% is a relative likelihood difference, not an absolute percentage-point gap or a share of cat owners.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "more likely to have a graduate degree",
-     "x": "0",
-     "field": "value",
-     "value": 17.0,
-     "note": "unit=percent"
-    },
-    {
-     "entity": "more likely to have a graduate degree",
-     "x": "0",
-     "field": "relative_value",
-     "value": 0.17,
-     "note": "same 17% expressed as proportion"
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "17% more likely",
-    "17% higher likelihood",
-    "relative likelihood increase of 17%",
-    "0.17 relative increase"
-   ],
-   "visual_evidence_rule": "The label must use 'more likely' or 'higher likelihood' and avoid '17 percentage points' or '17% of cat owners'.",
-   "temporal_anchor": "17 % more likely",
-   "reviewer_question": "Must the video explicitly disambiguate relative likelihood from share/percentage points?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "The 17% higher likelihood is relative to a comparison group, such as non-cat owners or a baseline.",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "more likely to have a graduate degree",
-     "x": "0",
-     "field": "value",
-     "value": 17.0,
-     "note": "'more likely' implies a comparator, but the table does not name the baseline"
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "than non-cat owners",
-    "than people without cats",
-    "compared with the baseline group",
-    "relative to those who do not own cats"
-   ],
-   "visual_evidence_rule": "If shown, the chart should identify or label the comparison group; otherwise the wording must imply a baseline.",
-   "temporal_anchor": "Cat owners are 17 % more likely...",
-   "reviewer_question": "Must the baseline/non-cat-owner group be explicit, or is 'more likely' sufficient?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -198,7 +59,7 @@
  "notes": "Only one numeric datum (17%, relative_value 0.1700) is available; the main ambiguities are whether 17% is a relative likelihood rather than a share and whether the non-cat-owner baseline must be explicit. Keep the visual and narration focused on the cat-owner/graduate-degree comparison.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 1,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.15
  },
@@ -226,5 +87,19 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1"
+  ],
+  "dropped": [
+   "U2",
+   "U3",
+   "U4",
+   "U5"
+  ],
+  "merged": [],
+  "reason": "人工逐条指定：删除/合并",
+  "at": "2026-10-23"
+ }
 }

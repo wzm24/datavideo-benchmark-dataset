@@ -1,0 +1,120 @@
+{
+ "clip_id": "donut_23",
+ "family": "donut",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "donut_23",
+  "family": "donut",
+  "sub_type": "partial_ring",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
+  "required_data_rows": 2,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "electricity generated (left) | share_of_electricity_generated"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "electricity generated (left) | share_of_electricity_generated",
+        "value": 10.6
+       }
+      ],
+      "total": 100.0,
+      "note": "single highlighted arc on a 100% ring; the remainder is the track"
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "electricity generated (right) | share_of_electricity_generated"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "electricity generated (right) | share_of_electricity_generated",
+        "value": 6.3
+       }
+      ],
+      "total": 100.0,
+      "note": "single highlighted arc on a 100% ring; the remainder is the track"
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "pair_comparison",
+   "required_marks": [
+    "electricity generated (left) | share_of_electricity_generated",
+    "electricity generated (right) | share_of_electricity_generated"
+   ],
+   "assertion": {
+    "greater": "electricity generated (left) | share_of_electricity_generated",
+    "greater_value": 10.6,
+    "lesser": "electricity generated (right) | share_of_electricity_generated",
+    "lesser_value": 6.3,
+    "delta": 4.3,
+    "ratio": 1.68254,
+    "expected_order": [
+     "electricity generated (left) | share_of_electricity_generated",
+     "electricity generated (right) | share_of_electricity_generated"
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}
