@@ -1,0 +1,67 @@
+{
+ "model": "deepseek-flash",
+ "spec": "Draw this as a bar chart, sub-type simple, orientation vertical, 1 series, 6 categories. Do not substitute another chart form.",
+ "narration": {
+  "text": [
+   {
+    "start": 0.0,
+    "end": 7.958,
+    "text": "The chart is a vertical bar chart comparing net worth across six categories, with an annotation for ultra-rich households."
+   },
+   {
+    "start": 8.258,
+    "end": 14.091,
+    "text": "Starting at the bottom, the cashier’s net worth is -$4,000."
+   },
+   {
+    "start": 14.391,
+    "end": 20.499,
+    "text": "The next bars show a working mom at $1,000 and an office clerk at $2,000."
+   },
+   {
+    "start": 20.799,
+    "end": 27.978,
+    "text": "Further up, a nurse has a net worth of $26,000 and a teacher has $32,000."
+   },
+   {
+    "start": 28.278,
+    "end": 35.071,
+    "text": "The accountant’s net worth is $110,000, the highest value displayed on the axis."
+   },
+   {
+    "start": 35.371,
+    "end": 42.894,
+    "text": "The ultra-rich households annotation has no displayed bar value because its net worth is far beyond the displayed axis."
+   },
+   {
+    "start": 43.194,
+    "end": 50.926,
+    "text": "The resulting contrast is modest or negative net worth for ordinary occupations versus wealth concentrated at the ultra-rich end."
+   },
+   {
+    "start": 51.226,
+    "end": 57.794,
+    "text": "That contrast is the basis for showing how a wealth tax could target ultra-rich wealth to finance programs."
+   }
+  ],
+  "sec": 10.4,
+  "usage": {
+   "prompt_tokens": 346,
+   "completion_tokens": 1990,
+   "reasoning_tokens": 1808,
+   "total_tokens": 2336
+  },
+  "finish_reason": "stop"
+ },
+ "html": {
+  "chars": 20847,
+  "sec": 133.0,
+  "usage": {
+   "prompt_tokens": 1117,
+   "completion_tokens": 36705,
+   "reasoning_tokens": 30175,
+   "total_tokens": 37822
+  },
+  "finish_reason": "stop"
+ }
+}

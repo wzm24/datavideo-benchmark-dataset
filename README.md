@@ -145,3 +145,5 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 - 协议：`benchmark_draft/gt/evaluation_protocol.md`、`CHART_SPEC.md`
 - bar 全量审核索引：`BAR_REVIEW_INDEX.csv`
 - `bar_84`–`bar_163` 严格审核记录：`BAR84_163_STRICT_AUDIT.csv`、`BAR84_163_STRICT_AUDIT.md`
+- `bar_1`–`bar_163` 合并审核页：`reviews/2026-10-22/bar_1_163_full_review.html`
+- `bar_22` hardcase baseline 报告：`reviews/2026-10-22/bar22_hardcase.html`

@@ -1,0 +1,108 @@
+{
+ "clip_id": "bar_22",
+ "system": "independent_v1_deepseek_flash",
+ "judging_method": "manual narration/PLAN review plus VLM frame review",
+ "units": [
+  {
+   "unit_id": "U1",
+   "weight": 0.3333333333,
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "hardcase": false,
+   "C": true,
+   "V": true,
+   "T": true,
+   "content_evidence": [
+    "sentence 2: Cashier -$4,000",
+    "sentence 3: Working mom $1,000 and Office clerk $2,000",
+    "sentence 4: Nurse $26,000 and Teacher $32,000",
+    "sentence 5: Accountant $110,000 and highest"
+   ],
+   "visual_evidence": [
+    "shot_14_5.png",
+    "shot_29.png",
+    "shot_43_5.png"
+   ],
+   "timing_evidence": [
+    "Cashier bar grows during sentence 2",
+    "Working mom and Office clerk bars grow during sentence 3",
+    "Nurse and Teacher bars grow during sentence 4",
+    "Accountant bar grows during sentence 5"
+   ],
+   "reason": "All six values are correctly spoken while the corresponding bars are visible."
+  },
+  {
+   "unit_id": "U2",
+   "weight": 0.3333333333,
+   "unit_kind": "extreme_value",
+   "must_be_visualized": true,
+   "hardcase": false,
+   "C": true,
+   "V": true,
+   "T": true,
+   "content_evidence": [
+    "sentence 6: ultra-rich annotation has no bar value and is far beyond the displayed axis"
+   ],
+   "visual_evidence": [
+    "shot_43_5.png"
+   ],
+   "timing_evidence": [
+    "sentence 6 window 35.371-42.894; annotation pulse runs 35.70-42.50"
+   ],
+   "reason": "The ultra-rich point is explicitly spoken while an off-scale arrow and annotation are emphasized; no numeric value is invented."
+  },
+  {
+   "unit_id": "U3",
+   "weight": 0.3333333334,
+   "unit_kind": "narrative_claim",
+   "must_be_visualized": false,
+   "hardcase": true,
+   "C": true,
+   "V": null,
+   "T": null,
+   "content_evidence": [
+    "sentence 8: a wealth tax could target ultra-rich wealth to finance programs"
+   ],
+   "optional_visual_evidence": [
+    "shot_55.png shows a green 'Wealth tax target' callout attached to the off-scale arrow"
+   ],
+   "reason": "The narrative claim is correctly stated. must_be_visualized=false, so V/T are not included in the visual or joint denominators.",
+   "optional_visual_pass": true
+  }
+ ],
+ "metrics": {
+  "ContentCompletion": 1.0,
+  "VisualCompletion": 1.0,
+  "JointCompletion": 1.0
+ },
+ "quality_diagnostics": {
+  "duration_seconds": 58.09,
+  "sentence_count": 8,
+  "pure_restatement_sentences": [
+   2,
+   3,
+   4
+  ],
+  "pure_restatement_rate_strict": 0.375,
+  "low_information_including_chart_form_sentence": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "low_information_rate_including_chart_form": 0.5,
+  "layout": {
+   "14.5s": "ok",
+   "29s": "ok",
+   "43.5s": "ok",
+   "55s": "ok",
+   "clipped_text_count": 0,
+   "overlap_count": 0
+  }
+ },
+ "interpretation": [
+  "GT1 completion is 1.0 because every required semantic unit is correctly expressed.",
+  "The output is nevertheless narration-heavy: three of eight sentences are strict data restatements.",
+  "U3 is a hardcase narrative claim and is excluded from the visual and joint denominators."
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "clip_id": "bar_22",
+ "system": "independent_v1_deepseek_flash",
+ "scored_with": "current g1_r_u_v4 + g2 + g3",
+ "units": [
+  {
+   "unit_id": "U1",
+   "requirement_id": "R1",
+   "kind": "visual_completeness",
+   "weight": 0.25,
+   "C": true,
+   "V": true,
+   "T": true,
+   "reason": "All six occupation bars are present and identifiable."
+  },
+  {
+   "unit_id": "U2",
+   "requirement_id": "R2",
+   "kind": "comparison",
+   "weight": 0.25,
+   "C": true,
+   "V": true,
+   "T": true,
+   "reason": "The six occupation values and their ordering are spoken while the corresponding bars are visible."
+  },
+  {
+   "unit_id": "U3",
+   "requirement_id": "R2",
+   "kind": "key_value_extreme",
+   "weight": 0.25,
+   "C": true,
+   "V": true,
+   "T": true,
+   "reason": "The off-scale ultra-rich tail and annotation are emphasized during the matching narration."
+  },
+  {
+   "unit_id": "U4",
+   "requirement_id": "R3",
+   "kind": "narrative_claim",
+   "weight": 0.25,
+   "C": true,
+   "V": null,
+   "T": null,
+   "reason": "The wealth-tax conclusion is stated correctly; this narration-only hardcase is excluded from the visual denominator."
+  }
+ ],
+ "metrics": {
+  "ContentCompletion": 1.0,
+  "VisualCompletion": 1.0,
+  "JointCompletion": 1.0
+ },
+ "diagnostics": {
+  "duration_seconds": 58.09,
+  "sentence_count": 8,
+  "pure_restatement_rate": 0.375,
+  "low_information_rate_including_chart_form": 0.5,
+  "clipped_text_count": 0,
+  "overlap_count": 0,
+  "narration_tokens": 2336,
+  "html_tokens": 37822
+ }
+}
