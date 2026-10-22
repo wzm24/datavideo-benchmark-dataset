@@ -1,0 +1,111 @@
+{
+ "clip_id": "pie_3",
+ "family": "pie",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "pie_3",
+  "family": "pie",
+  "sub_type": "full_pie",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
+  "required_data_rows": 7,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "evidence_type": "extremum_mark",
+   "required_marks": [
+    "Drive alone | share_of_commute_modes"
+   ],
+   "assertion": {
+    "mark": "Drive alone | share_of_commute_modes",
+    "extreme": "max",
+    "expected": 76.3,
+    "compared_set": "all numeric rows in the same composition",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "Public transportation | share_of_commute_modes",
+    "Drive alone | share_of_commute_modes",
+    "Taxi, motorcycle, or other | share_of_commute_modes",
+    "Work at home | share_of_commute_modes",
+    "Walk | share_of_commute_modes",
+    "Carpool | share_of_commute_modes",
+    "Bicycle | share_of_commute_modes"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "Public transportation | share_of_commute_modes",
+        "value": 5.2
+       },
+       {
+        "mark": "Drive alone | share_of_commute_modes",
+        "value": 76.3
+       },
+       {
+        "mark": "Taxi, motorcycle, or other | share_of_commute_modes",
+        "value": 1.7
+       },
+       {
+        "mark": "Work at home | share_of_commute_modes",
+        "value": 5.1
+       },
+       {
+        "mark": "Walk | share_of_commute_modes",
+        "value": 2.5
+       },
+       {
+        "mark": "Carpool | share_of_commute_modes",
+        "value": 8.2
+       },
+       {
+        "mark": "Bicycle | share_of_commute_modes",
+        "value": 1.0
+       }
+      ],
+      "total": 100.0
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

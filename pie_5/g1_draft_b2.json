@@ -8,64 +8,11 @@
  "intent": "To explain the sources of public transit funding in the United States and emphasize the importance of local and state elections for transit policy.",
  "units": [
   {
-   "id": "U1",
-   "meaning": "The funding breakdown has four listed source categories: Federal, Fares, Local government, and State.",
-   "unit_kind": "identity_or_series",
-   "weight_template": 0.15,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "Federal",
-     "x": "0",
-     "field": "value",
-     "value": 6,
-     "note": "Federal listed at 6%."
-    },
-    {
-     "entity": "Fares",
-     "x": "1",
-     "field": "value",
-     "value": 26,
-     "note": "Fares listed at 26%."
-    },
-    {
-     "entity": "Local government",
-     "x": "2",
-     "field": "value",
-     "value": 36,
-     "note": "Local government listed at 36%."
-    },
-    {
-     "entity": "State",
-     "x": "3",
-     "field": "value",
-     "value": 21,
-     "note": "State listed at 21%."
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "Federal, fares, local government, and state are the four listed funding sources.",
-    "The chart breaks transit funding into Federal (6%), Fares (26%), Local government (36%), and State (21%).",
-    "Listed sources: federal, fares, local government, state."
-   ],
-   "visual_evidence_rule": "All four category labels or slices are present in the chart.",
-   "temporal_anchor": "This chart shows how public transit gets funded in the U.S.",
-   "reviewer_question": "Must all four source labels appear, or can some be omitted if the ranking is shown?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
    "id": "U2",
    "meaning": "Local government is the largest single listed funding source at 36%.",
    "unit_kind": "key_value_extreme",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -114,64 +61,11 @@
    }
   },
   {
-   "id": "U3",
-   "meaning": "Ranking of listed funding sources by value: Local government (36%) > Fares (26%) > State (21%) > Federal (6%).",
-   "unit_kind": "trend_or_order",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "Local government",
-     "x": "2",
-     "field": "value",
-     "value": 36,
-     "note": "Local government is 36%."
-    },
-    {
-     "entity": "Fares",
-     "x": "1",
-     "field": "value",
-     "value": 26,
-     "note": "Fares is 26%."
-    },
-    {
-     "entity": "State",
-     "x": "3",
-     "field": "value",
-     "value": 21,
-     "note": "State is 21%."
-    },
-    {
-     "entity": "Federal",
-     "x": "0",
-     "field": "value",
-     "value": 6,
-     "note": "Federal is 6%."
-    }
-   ],
-   "computation": "rank by value: 36 > 26 > 21 > 6",
-   "accepted_routes": [
-    "Local government is first at 36%, then fares 26%, state 21%, and federal 6%.",
-    "Funding order: local > fares > state > federal (36%, 26%, 21%, 6%).",
-    "From largest to smallest: local government, fares, state, federal."
-   ],
-   "visual_evidence_rule": "The chart or labels make the descending order clear, either by slice size or a labeled ranking.",
-   "temporal_anchor": "mostly by local and state governments, and by the fairest people paid to ride; federal smallest",
-   "reviewer_question": "Must the video explicitly show the full descending order, or is a subset comparison enough?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
    "id": "U4",
    "meaning": "Local government and state together account for 57 percentage points, more than the combined Fares and Federal listed shares (32 percentage points).",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -221,43 +115,43 @@
   },
   {
    "id": "U5",
-   "meaning": "Federal is the smallest listed source at 6%, 15 percentage points below State (21%) and 30 points below Local government (36%).",
-   "unit_kind": "key_value_extreme",
+   "meaning": "State accounts for 21% of transit funding, the third-largest listed source after local government (36%) and fares (26%).",
+   "unit_kind": "trend_or_order",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
-   "required_candidate": false,
+   "weight_actual": 0.3334,
+   "required_candidate": true,
    "basis": [
     {
-     "entity": "Federal",
-     "x": "0",
+     "entity": "Local government",
+     "x": "2",
      "field": "value",
-     "value": 6,
-     "note": "Federal is 6%."
+     "value": 36,
+     "note": "Table value 36%."
+    },
+    {
+     "entity": "Fares",
+     "x": "1",
+     "field": "value",
+     "value": 26,
+     "note": "Table value 26%."
     },
     {
      "entity": "State",
      "x": "3",
      "field": "value",
      "value": 21,
-     "note": "State is 21%."
-    },
-    {
-     "entity": "Local government",
-     "x": "2",
-     "field": "value",
-     "value": 36,
-     "note": "Local government is 36%."
+     "note": "Table value 21%."
     }
    ],
-   "computation": "21 - 6 = 15; 36 - 6 = 30",
+   "computation": "Ordering 36 > 26 > 21 > 6; State sits third at 21%.",
    "accepted_routes": [
-    "Federal is the smallest source at 6%, 15 points below state.",
-    "Federal funding is only 6%, the smallest slice; state is 21% and local is 36%.",
-    "Federal trails all other listed sources, at 6%."
+    "State accounts for 21% of transit funding.",
+    "State is the third-largest listed source at 21%, behind local government (36%) and fares (26%).",
+    "At 21%, state funding trails local government and fares."
    ],
-   "visual_evidence_rule": "Federal slice is labeled 6% and shown as smallest; optional gap labels to state/local.",
-   "temporal_anchor": "Right now, the federal government contributes the smallest part",
-   "reviewer_question": "Is federal being smallest and/or its gap to state required, or is it optional context?",
+   "visual_evidence_rule": "The State slice must be labeled 21% and be visibly smaller than both the Local government (36%) and Fares (26%) slices.",
+   "temporal_anchor": "mostly by local and state governments",
+   "reviewer_question": "Must the video state State's 21% share explicitly, or is the printed label enough?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -279,7 +173,7 @@
  "notes": "Core units should cover all four listed sources, the local > fares > state > federal order, and the combined local+state total. Federal-smallest and fare-specific comparisons are valid but can be optional.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.06
  },
@@ -307,5 +201,21 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U2",
+   "U4",
+   "U5"
+  ],
+  "dropped": [
+   "U1",
+   "U3"
+  ],
+  "added": [
+   "U5"
+  ],
+  "reason": "人工指定：留 U2/U4，新增 State 21% 排名条",
+  "at": "2026-10-23"
+ }
 }

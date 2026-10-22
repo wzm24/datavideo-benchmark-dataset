@@ -1,0 +1,86 @@
+{
+ "clip_id": "pie_13",
+ "family": "pie",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "pie_13",
+  "family": "pie",
+  "sub_type": "full_pie",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
+  "required_data_rows": 2,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "evidence_type": "extremum_mark",
+   "required_marks": [
+    "He | share_of_composition"
+   ],
+   "assertion": {
+    "mark": "He | share_of_composition",
+    "extreme": "max",
+    "expected": 89.6,
+    "compared_set": "all numeric rows in the same composition",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "He | share_of_composition",
+    "H | share_of_composition"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "He | share_of_composition",
+        "value": 89.6
+       },
+       {
+        "mark": "H | share_of_composition",
+        "value": 10.4
+       }
+      ],
+      "total": 100.0
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}
