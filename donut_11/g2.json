@@ -1,0 +1,89 @@
+{
+ "clip_id": "donut_11",
+ "family": "donut",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "donut_11",
+  "family": "donut",
+  "sub_type": "partial_ring",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
+  "required_data_rows": 2,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U3"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "AWS | share_of_operating_profit"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "AWS | share_of_operating_profit",
+        "value": 58.0
+       }
+      ],
+      "total": 100.0,
+      "note": "single highlighted arc on a 100% ring; the remainder is the track"
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "pair_comparison",
+   "required_marks": [
+    "AWS | share_of_operating_profit",
+    "total (all other business) | share_of_operating_profit"
+   ],
+   "assertion": {
+    "greater": "AWS | share_of_operating_profit",
+    "greater_value": 58.0,
+    "lesser": "total (all other business) | share_of_operating_profit",
+    "lesser_value": 42.0,
+    "delta": 16.0,
+    "ratio": 1.380952,
+    "expected_order": [
+     "AWS | share_of_operating_profit",
+     "total (all other business) | share_of_operating_profit"
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

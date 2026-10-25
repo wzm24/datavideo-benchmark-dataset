@@ -12,11 +12,11 @@
    "meaning": "In the United States, 42% of surveyed people have tried marijuana at least once.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "US flag circle",
+     "entity": "US",
      "x": "x_px=0",
      "field": "value",
      "value": 42.0,
@@ -45,11 +45,11 @@
    "meaning": "In the Netherlands, 20% of surveyed people have tried marijuana at least once.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "Netherlands flag circle",
+     "entity": "Netherlands",
      "x": "x_px=1",
      "field": "value",
      "value": 20.0,
@@ -78,18 +78,18 @@
    "meaning": "The US marijuana usage rate is higher than the Netherlands rate: 42% vs 20%.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "US flag circle",
+     "entity": "US",
      "x": "x_px=0",
      "field": "value",
      "value": 42.0,
      "note": "US endpoint used in the cross-entity comparison."
     },
     {
-     "entity": "Netherlands flag circle",
+     "entity": "Netherlands",
      "x": "x_px=1",
      "field": "value",
      "value": 20.0,
@@ -106,86 +106,6 @@
    "visual_evidence_rule": "Both US and Netherlands marks/segments must appear in the same chart so their order 42 > 20 is visually discernible.",
    "temporal_anchor": "The 'In contrast' transition after both endpoints are introduced.",
    "reviewer_question": "Must the video explicitly compare the two countries rather than only showing isolated values?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "The US rate is 22 percentage points higher than the Netherlands rate.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "US flag circle",
-     "x": "x_px=0",
-     "field": "value",
-     "value": 42.0,
-     "note": "Minuend in difference calculation."
-    },
-    {
-     "entity": "Netherlands flag circle",
-     "x": "x_px=1",
-     "field": "value",
-     "value": 20.0,
-     "note": "Subtrahend in difference calculation."
-    }
-   ],
-   "computation": "42 - 20 = 22 percentage points",
-   "accepted_routes": [
-    "US rate is 22 percentage points higher than the Netherlands rate.",
-    "Netherlands rate is 22 percentage points lower than the US rate.",
-    "The gap is 22 percentage points: 42% minus 20%.",
-    "42% vs 20% leaves a 22-point difference."
-   ],
-   "visual_evidence_rule": "A gap/difference annotation of 22 percentage points, or a visible bracket/gap between 42% and 20%, must be shown if this unit is conveyed.",
-   "temporal_anchor": "Optional summary after both 42% and 20% have been shown.",
-   "reviewer_question": "Is the 22-percentage-point gap required, or is it optional elaboration on the comparison?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "The US usage rate is about 2.1 times the Netherlands rate; equivalently, the Netherlands rate is about 48% of the US rate.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "US flag circle",
-     "x": "x_px=0",
-     "field": "value",
-     "value": 42.0,
-     "note": "Numerator in ratio calculation."
-    },
-    {
-     "entity": "Netherlands flag circle",
-     "x": "x_px=1",
-     "field": "value",
-     "value": 20.0,
-     "note": "Denominator in ratio calculation."
-    }
-   ],
-   "computation": "42 / 20 = 2.1; 20 / 42 = 0.476 ≈ 48%",
-   "accepted_routes": [
-    "US usage rate is 2.1 times the Netherlands rate.",
-    "The Netherlands rate is about 48% of the US rate.",
-    "US marijuana usage is about double the Netherlands'.",
-    "42% is roughly 2.1 times 20%."
-   ],
-   "visual_evidence_rule": "A ratio/multiplier annotation such as '2.1x' or 'about double' or '48% of US' must be visible if this unit is conveyed.",
-   "temporal_anchor": "Optional summary after both country rates are shown.",
-   "reviewer_question": "Should the video include the relative-rate multiplier, or is that optional beyond the basic comparison?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -210,7 +130,7 @@
  "notes": "Core G1 content is US 42%, Netherlands 20%, and US > Netherlands. The 22-point difference and 2.1x ratio are useful optional derived units; legalization causality and the 38-year figure are not supported by the table.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.15
  },
@@ -238,5 +158,19 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "dropped": [
+   "U4",
+   "U5"
+  ],
+  "merged": [],
+  "reason": "清理 required_candidate=false 的单元",
+  "at": "2026-10-23"
+ }
 }

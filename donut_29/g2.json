@@ -1,0 +1,95 @@
+{
+ "clip_id": "donut_29",
+ "family": "donut",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "donut_29",
+  "family": "donut",
+  "sub_type": "partial_ring",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
+  "required_data_rows": 1,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "VEGAN POPULATION IN US (2008) | vegan_population_share"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "VEGAN POPULATION IN US (2008) | vegan_population_share",
+        "value": 0.5
+       }
+      ],
+      "total": 100.0,
+      "note": "single highlighted arc on a 100% ring; the remainder is the track"
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "identity_or_series",
+   "must_be_visualized": true,
+   "evidence_type": "not_required",
+   "required_marks": [
+    "VEGAN POPULATION IN US (2008) | vegan_population_share"
+   ],
+   "assertion": {
+    "reason": "口径/身份说明，视觉层没有可独立判定的图元；该单元由 G3 按旁白锚点判定"
+   },
+   "accepted_routes": [
+    "none"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": true
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "identity_or_series",
+   "must_be_visualized": true,
+   "evidence_type": "not_required",
+   "required_marks": [
+    "VEGAN POPULATION IN US (2008) | vegan_population_share"
+   ],
+   "assertion": {
+    "reason": "口径/身份说明，视觉层没有可独立判定的图元；该单元由 G3 按旁白锚点判定"
+   },
+   "accepted_routes": [
+    "none"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": true
+  }
+ ]
+}

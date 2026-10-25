@@ -1,0 +1,104 @@
+{
+ "clip_id": "donut_27",
+ "family": "donut",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "donut_27",
+  "family": "donut",
+  "sub_type": "partial_ring",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
+  "required_data_rows": 2,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "key_value_endpoint",
+   "must_be_visualized": true,
+   "evidence_type": "mark_value",
+   "required_marks": [
+    "left share | fatality_risk"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "left share | fatality_risk",
+      "expected": 9.0
+     }
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "key_value_endpoint",
+   "must_be_visualized": true,
+   "evidence_type": "mark_value",
+   "required_marks": [
+    "right share | fatality_risk"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "right share | fatality_risk",
+      "expected": 2.0
+     }
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "right share | fatality_risk",
+    "left share | fatality_risk"
+   ],
+   "assertion": {
+    "low": "right share | fatality_risk",
+    "low_value": 2.0,
+    "high": "left share | fatality_risk",
+    "high_value": 9.0,
+    "delta": 7.0,
+    "ratio": 4.5,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

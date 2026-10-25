@@ -1,0 +1,161 @@
+{
+ "clip_id": "donut_2",
+ "family": "donut",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "donut_2",
+  "family": "donut",
+  "sub_type": "full_ring",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
+  "required_data_rows": 3,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3",
+   "U4"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "Physical | share_of_music_sales",
+    "Digital | share_of_music_sales",
+    "(unlabeled) | share_of_music_sales"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "Physical | share_of_music_sales",
+        "value": 75.0
+       },
+       {
+        "mark": "Digital | share_of_music_sales",
+        "value": 18.0
+       },
+       {
+        "mark": "(unlabeled) | share_of_music_sales",
+        "value": 7.0
+       }
+      ],
+      "total": 100.0
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "Physical | share_of_music_sales",
+    "Digital | share_of_music_sales",
+    "(unlabeled) | share_of_music_sales"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "Physical | share_of_music_sales",
+        "value": 75.0
+       },
+       {
+        "mark": "Digital | share_of_music_sales",
+        "value": 18.0
+       },
+       {
+        "mark": "(unlabeled) | share_of_music_sales",
+        "value": 7.0
+       }
+      ],
+      "total": 100.0
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change_or_rate",
+   "must_be_visualized": true,
+   "evidence_type": "endpoint_change",
+   "required_marks": [
+    "Digital | share_of_music_sales",
+    "Physical | share_of_music_sales"
+   ],
+   "assertion": {
+    "low": "Digital | share_of_music_sales",
+    "low_value": 18.0,
+    "high": "Physical | share_of_music_sales",
+    "high_value": 75.0,
+    "delta": 57.0,
+    "ratio": 4.166667,
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_marks",
+   "required_marks": [
+    "Physical | share_of_music_sales"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Physical | share_of_music_sales",
+      "value": 75.0
+     }
+    ],
+    "threshold": 50.0,
+    "relation": "above",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

@@ -12,11 +12,11 @@
    "meaning": "Among all American voters, 77% support the gun licensing system.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "all american voters",
+     "entity": "All American voters",
      "x": "1",
      "field": "value",
      "value": 77,
@@ -42,14 +42,14 @@
   },
   {
    "id": "U2",
-   "meaning": "Among voters who live in a house with a gun, 68% support the gun licensing system.",
+   "meaning": "Among voters who Live in a house with a gun, 68% support the gun licensing system.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "live in a house with a gun",
+     "entity": "Live in a house with a gun",
      "x": "0",
      "field": "value",
      "value": 68,
@@ -58,120 +58,14 @@
    ],
    "computation": "none",
    "accepted_routes": [
-    "68% of voters who live in a house with a gun support it.",
+    "68% of voters who Live in a house with a gun support it.",
     "Among gun-household voters, 68% think it is a good idea.",
     "More than two-thirds (68%) of gun-household voters support it.",
     "Gun-household support is 68%."
    ],
-   "visual_evidence_rule": "The chart must visibly label the 'live in a house with a gun' category with 68% or an equivalent text annotation.",
-   "temporal_anchor": "The clause 'Among voters who live in a house with a gun...'",
+   "visual_evidence_rule": "The chart must visibly label the 'Live in a house with a gun' category with 68% or an equivalent text annotation.",
+   "temporal_anchor": "The clause 'Among voters who Live in a house with a gun...'",
    "reviewer_question": "Is the 68% gun-household endpoint required, or is the qualitative 'more than two-thirds' enough?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U3",
-   "meaning": "Support in gun households is above the two-thirds threshold.",
-   "unit_kind": "threshold_or_crossing",
-   "weight_template": 0.2,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "live in a house with a gun",
-     "x": "0",
-     "field": "value",
-     "value": 68,
-     "note": "68% is greater than two-thirds (66.67%)."
-    }
-   ],
-   "computation": "two-thirds = 100 * 2 / 3 = 66.67; 68 > 66.67",
-   "accepted_routes": [
-    "In gun households, more than two-thirds support it.",
-    "Gun-household support is above the two-thirds mark (68% vs 66.7%).",
-    "68% is greater than two-thirds.",
-    "More than two out of three gun-household voters support it."
-   ],
-   "visual_evidence_rule": "The chart or text annotation must make 68% interpretable against a two-thirds reference, or explicitly say 'more than two-thirds'.",
-   "temporal_anchor": "The clause 'more than two-thirds think that it's a good idea.'",
-   "reviewer_question": "Should the video explicitly convey the two-thirds threshold, or is the raw 68% value sufficient?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "Overall voter support is above the three-quarters threshold.",
-   "unit_kind": "threshold_or_crossing",
-   "weight_template": 0.2,
-   "weight_actual": 0.2,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "all american voters",
-     "x": "1",
-     "field": "value",
-     "value": 77,
-     "note": "77% is greater than three-quarters (75%)."
-    }
-   ],
-   "computation": "three-quarters = 100 * 3 / 4 = 75; 77 > 75",
-   "accepted_routes": [
-    "Overall support is above three-quarters.",
-    "More than three-quarters (77%) of all American voters support it.",
-    "77% exceeds the three-quarters threshold.",
-    "More than 3 in 4 all American voters support it."
-   ],
-   "visual_evidence_rule": "The chart or text annotation must make 77% interpretable against a three-quarters reference, or explicitly say 'more than three-quarters'.",
-   "temporal_anchor": "The clause 'more than three-quarters support it.'",
-   "reviewer_question": "Should the overall three-quarters threshold be required, or is the 77% value sufficient?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "Overall voter support is 9 percentage points higher than support among gun-household voters (77% vs 68%).",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "all american voters",
-     "x": "1",
-     "field": "value",
-     "value": 77,
-     "note": "Overall voter support."
-    },
-    {
-     "entity": "live in a house with a gun",
-     "x": "0",
-     "field": "value",
-     "value": 68,
-     "note": "Gun-household voter support."
-    }
-   ],
-   "computation": "77 - 68 = 9 percentage points",
-   "accepted_routes": [
-    "All-voter support exceeds gun-household support by 9 points.",
-    "The overall figure is 9 percentage points above the gun-household figure.",
-    "77% is 9 points higher than 68%.",
-    "There is a 9-point gap between overall and gun-household support."
-   ],
-   "visual_evidence_rule": "Both 77% and 68% must be visible, or the 9-percentage-point gap must be annotated/labeled.",
-   "temporal_anchor": "The 'Ask all Americans...' clause, as the contrast against the prior gun-household clause.",
-   "reviewer_question": "Is the 9-point gap between overall and gun-household support required, or optional?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -197,7 +91,7 @@
  "notes": "The table gives two separate group percentages, not a composition; 68% and 77% are overlapping populations. The strongest required elements are the two endpoint figures plus the two explicit thresholds in the narration.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 2,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.05
  },
@@ -225,5 +119,19 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2"
+  ],
+  "dropped": [
+   "U3",
+   "U4",
+   "U5"
+  ],
+  "merged": [],
+  "reason": "人工逐条指定：删除/合并",
+  "at": "2026-10-23"
+ }
 }

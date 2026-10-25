@@ -12,7 +12,7 @@
    "meaning": "Only 14% of people given bail were able to pay at their initial hearing.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -44,7 +44,7 @@
    "meaning": "86% of people given bail were unable to pay at their initial hearing, making nonpayment the majority outcome.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -70,123 +70,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U3",
-   "meaning": "The unable-to-pay share is 72 percentage points higher than the able-to-pay share (86% vs 14%).",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "unable to pay bail",
-     "x": "other",
-     "field": "value",
-     "value": 86.0,
-     "note": "Used as minuend."
-    },
-    {
-     "entity": "able to pay bail",
-     "x": "bail",
-     "field": "value",
-     "value": 14.0,
-     "note": "Used as subtrahend."
-    }
-   ],
-   "computation": "86 - 14 = 72 percentage points",
-   "accepted_routes": [
-    "The unable-to-pay share exceeds the able-to-pay share by 72 percentage points.",
-    "The gap is 72 points: 86% unable versus 14% able.",
-    "86% is 72 points higher than 14%."
-   ],
-   "visual_evidence_rule": "Either both 86% and 14% labels must be visible, or a difference annotation must show 72 percentage points.",
-   "temporal_anchor": "After the narration's 14% clause, when contrasting inability with ability.",
-   "reviewer_question": "Should the 72-percentage-point gap be required, or is showing the two shares side by side enough?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "The unable-to-pay group is about 6.1 times as common as the able-to-pay group (86% / 14%).",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "unable to pay bail",
-     "x": "other",
-     "field": "value",
-     "value": 86.0,
-     "note": "Numerator for ratio."
-    },
-    {
-     "entity": "able to pay bail",
-     "x": "bail",
-     "field": "value",
-     "value": 14.0,
-     "note": "Denominator for ratio."
-    }
-   ],
-   "computation": "86 / 14 = 6.142857..., about 6.1x",
-   "accepted_routes": [
-    "Unable-to-pay is about 6.1 times as common as able-to-pay.",
-    "There were roughly 6 times as many unable-to-pay cases as able-to-pay cases.",
-    "The 86% unable group is more than six times the 14% able group."
-   ],
-   "visual_evidence_rule": "A ratio annotation or both percentage labels must be visible so the 86:14 comparison can be read.",
-   "temporal_anchor": "Optional emphasis after the 14% and 86% shares are established.",
-   "reviewer_question": "Is the about-6x ratio worth requiring as a derived comparison, or is it optional enrichment?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "The able-to-pay and unable-to-pay shares sum to 100% of people given bail (14% + 86%).",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "able to pay bail",
-     "x": "bail",
-     "field": "value",
-     "value": 14.0,
-     "note": "First share."
-    },
-    {
-     "entity": "unable to pay bail",
-     "x": "other",
-     "field": "value",
-     "value": 86.0,
-     "note": "Second share."
-    }
-   ],
-   "computation": "14 + 86 = 100%",
-   "accepted_routes": [
-    "Together, 14% able and 86% unable account for 100% of people given bail.",
-    "The two bail outcomes sum to the full 100%: 14% plus 86%.",
-    "The composition is complete: 14% able, 86% unable."
-   ],
-   "visual_evidence_rule": "The chart must show both shares as parts of a whole, such as a donut or 100% stacked bar.",
-   "temporal_anchor": "When the donut composition is displayed, after both share labels appear.",
-   "reviewer_question": "Must the video make the 100% whole or complete partition explicit, or is that only a chart-design convention?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -206,7 +89,7 @@
  "notes": "Core required content is the 14% able and 86% unable shares; derived gap, ratio, and 100% sum are optional but valid. Avoid the narration's untabled numeric and geographic details.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 2,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.16
  },
@@ -234,5 +117,19 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2"
+  ],
+  "dropped": [
+   "U3",
+   "U4",
+   "U5"
+  ],
+  "merged": [],
+  "reason": "清理 required_candidate=false 的单元",
+  "at": "2026-10-23"
+ }
 }
