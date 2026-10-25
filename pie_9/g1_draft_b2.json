@@ -19,7 +19,7 @@
    "meaning": "Pearl industry is the dominant segment of the shown economic composition, at 91.7%.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.25,
    "required_candidate": true,
    "basis": [
     {
@@ -51,7 +51,7 @@
    "meaning": "The non-pearl/Other segment is small, at 8.3% of the composition.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.25,
    "required_candidate": true,
    "basis": [
     {
@@ -83,7 +83,7 @@
    "meaning": "Pearl industry's share is about 11 times the Other share, or exceeds it by about 83.4 percentage points.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.2,
+   "weight_actual": 0.25,
    "required_candidate": true,
    "basis": [
     {
@@ -122,7 +122,7 @@
    "meaning": "The two shown segments sum to the whole composition: Pearl industry 91.7% plus Other 8.3% equals 100%.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.25,
    "required_candidate": true,
    "basis": [
     {
@@ -155,45 +155,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U5",
-   "meaning": "Pearl industry is ranked first and Other second: Pearl industry is the largest segment, and Other is the smaller one.",
-   "unit_kind": "trend_or_order",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Pearl industry",
-     "x": "Pearl industry",
-     "field": "value",
-     "value": 91.7,
-     "note": "Higher value."
-    },
-    {
-     "entity": "Other",
-     "x": "Other",
-     "field": "value",
-     "value": 8.3,
-     "note": "Lower value."
-    }
-   ],
-   "computation": "91.7 > 8.3",
-   "accepted_routes": [
-    "Pearl industry is the largest segment; Other is the smaller segment.",
-    "Pearl industry ranks above Other in the composition.",
-    "The order is Pearl industry, then Other."
-   ],
-   "visual_evidence_rule": "The chart must allow viewers to identify Pearl industry as the larger segment and Other as the smaller segment.",
-   "temporal_anchor": "The clause summarizing the single-resource dependence.",
-   "reviewer_question": "Is stating the rank order necessary, or is it redundant with the share values?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -212,7 +173,7 @@
  "notes": "The table is a two-segment percentage composition; all numeric claims must stay at 91.7%, 8.3%, or arithmetic combinations such as 100%, about 11x, and 83.4 percentage points. Oil and diversification can be narrative context only, not table-quantified data.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 4,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.16
  },
@@ -233,5 +194,18 @@
   }
  },
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3",
+   "U4"
+  ],
+  "dropped": [
+   "U5"
+  ],
+  "reason": "required_candidate=false，非 intent 必须承担的命题",
+  "at": "2026-10-23"
+ }
 }

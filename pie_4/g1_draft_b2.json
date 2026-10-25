@@ -12,7 +12,7 @@
    "meaning": "Public transportation accounts for 5.2% of commuters in the baseline pie.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -44,7 +44,7 @@
    "meaning": "Drive alone is the largest commute mode, at 76.3%.",
    "unit_kind": "key_value_extreme",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -76,7 +76,7 @@
    "meaning": "The drive-alone share exceeds public transportation by 71.1 percentage points, and is about 14.7 times the public transit share.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
@@ -110,126 +110,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U4",
-   "meaning": "All non-drive-alone commute modes combined sum to 23.7%, representing the total non-drive-alone share in the baseline.",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Public transportation",
-     "x": "mode share",
-     "field": "value",
-     "value": 5.2,
-     "note": "non-drive-alone component"
-    },
-    {
-     "entity": "Taxi, motorcycle, or other",
-     "x": "mode share",
-     "field": "value",
-     "value": 1.7,
-     "note": "non-drive-alone component"
-    },
-    {
-     "entity": "Work at home",
-     "x": "mode share",
-     "field": "value",
-     "value": 5.1,
-     "note": "non-drive-alone component"
-    },
-    {
-     "entity": "Walk",
-     "x": "mode share",
-     "field": "value",
-     "value": 2.5,
-     "note": "non-drive-alone component"
-    },
-    {
-     "entity": "Carpool",
-     "x": "mode share",
-     "field": "value",
-     "value": 8.2,
-     "note": "non-drive-alone component"
-    },
-    {
-     "entity": "Bicycle",
-     "x": "mode share",
-     "field": "value",
-     "value": 1.0,
-     "note": "non-drive-alone component"
-    }
-   ],
-   "computation": "sum of all non-drive-alone values = 5.2 + 1.7 + 5.1 + 2.5 + 8.2 + 1.0 = 23.7; equivalently 100 - 76.3 = 23.7",
-   "accepted_routes": [
-    "All other modes together are 23.7% of commuters.",
-    "Non-drive-alone modes make up about 24% combined.",
-    "If drive alone is 76.3%, the remaining modes sum to 23.7%."
-   ],
-   "visual_evidence_rule": "The chart must show the non-drive-alone slices as a group or a callout stating their combined 23.7% share.",
-   "temporal_anchor": "The narration clause about shrinking the drive-alone part of the chart / alternatives to driving.",
-   "reviewer_question": "Should the video explicitly group all non-drive-alone modes into their 23.7% combined share?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "Public transportation is the third-largest mode at 5.2%, behind drive alone (76.3%) and carpool (8.2%), slightly ahead of work at home (5.1%).",
-   "unit_kind": "trend_or_order",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Drive alone",
-     "x": "mode share",
-     "field": "value",
-     "value": 76.3,
-     "note": "rank 1"
-    },
-    {
-     "entity": "Carpool",
-     "x": "mode share",
-     "field": "value",
-     "value": 8.2,
-     "note": "rank 2"
-    },
-    {
-     "entity": "Public transportation",
-     "x": "mode share",
-     "field": "value",
-     "value": 5.2,
-     "note": "rank 3"
-    },
-    {
-     "entity": "Work at home",
-     "x": "mode share",
-     "field": "value",
-     "value": 5.1,
-     "note": "rank 4"
-    }
-   ],
-   "computation": "rank order: 76.3 > 8.2 > 5.2 > 5.1",
-   "accepted_routes": [
-    "Public transit is the third-biggest commute mode, after drive alone and carpool.",
-    "Public transportation ranks third at 5.2%, just above work at home at 5.1%.",
-    "Carpool is second at 8.2%, public transit third at 5.2%."
-   ],
-   "visual_evidence_rule": "The chart or labels must make the ranking among the top modes visible, especially public transit vs carpool and work at home.",
-   "temporal_anchor": "The narration clause introducing public transit's current position in the overall composition.",
-   "reviewer_question": "Must the video establish public transit's rank relative to carpool and work at home, or is that optional context?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -249,7 +129,7 @@
  "notes": "The core baseline is a 100% commute-mode pie where drive alone is 76.3% and public transit is 5.2%; any 'what would it take' must be framed as a hypothetical because the table has no scenario targets. Optional context includes mode ranking and combined shares.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.14
  },
@@ -277,5 +157,18 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "dropped": [
+   "U4",
+   "U5"
+  ],
+  "reason": "required_candidate=false，非 intent 必须承担的命题",
+  "at": "2026-10-23"
+ }
 }

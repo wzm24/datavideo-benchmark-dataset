@@ -1,0 +1,95 @@
+{
+ "clip_id": "pie_20",
+ "family": "pie",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "pie_20",
+  "family": "pie",
+  "sub_type": "multi_pie",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
+  "required_data_rows": 4,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_marks",
+   "required_marks": [
+    "< minimum wage | Minimum wage | share_of_drivers_below_min_wage",
+    "at or above minimum wage | Minimum wage | share_of_drivers_below_min_wage"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "< minimum wage | Minimum wage | share_of_drivers_below_min_wage",
+      "value": 54.2
+     },
+     {
+      "mark": "at or above minimum wage | Minimum wage | share_of_drivers_below_min_wage",
+      "value": 45.8
+     }
+    ],
+    "threshold": 50.0,
+    "relation": "above",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": true
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
+   "evidence_type": "complete_composition",
+   "required_marks": [
+    "Other income | Other income | share_of_drivers_with_other_income",
+    "No other income | Other income | share_of_drivers_with_other_income"
+   ],
+   "assertion": {
+    "compositions": [
+     {
+      "segments": [
+       {
+        "mark": "Other income | Other income | share_of_drivers_with_other_income",
+        "value": 60.4
+       },
+       {
+        "mark": "No other income | Other income | share_of_drivers_with_other_income",
+        "value": 39.6
+       }
+      ],
+      "total": 100.0
+     }
+    ],
+    "tolerance": 0.5
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

@@ -19,7 +19,7 @@
    "meaning": "Arable land is an extremely small share of all land: 0.3% arable versus 99.7% other land.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -58,7 +58,7 @@
    "meaning": "The 33.3% irrigation figure is a share of arable land, not a share of all land.",
    "unit_kind": "identity_or_series",
    "weight_template": 0.15,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -97,7 +97,7 @@
    "meaning": "Within arable land, irrigated arable land is about one-third and not irrigated arable land is about two-thirds.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
@@ -130,84 +130,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U4",
-   "meaning": "Other land is more than 300 times larger than arable land, emphasizing arable scarcity.",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Other land",
-     "x": "",
-     "field": "value",
-     "value": 99.7,
-     "note": "Other land share of total land."
-    },
-    {
-     "entity": "Arable land",
-     "x": "",
-     "field": "value",
-     "value": 0.3,
-     "note": "Arable land share of total land."
-    }
-   ],
-   "computation": "99.7 / 0.3 ≈ 332.3",
-   "accepted_routes": [
-    "Other land is over 300 times arable land.",
-    "Arable land is roughly 1/332 the size of other land.",
-    "Other land is vastly larger than arable land, by a factor of more than 300."
-   ],
-   "visual_evidence_rule": "If the ratio is expressed, the chart must allow comparing other land to arable land so that other land is visibly more than 300 times larger.",
-   "temporal_anchor": "Because less than 1 % of the country's land is arable",
-   "reviewer_question": "Is the ratio comparison worth including, or does the 0.3% / 99.7% split already convey the scarcity?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "Combining the two shares, irrigated arable land is only about 0.1% of all land.",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Irrigated arable land",
-     "x": "",
-     "field": "value",
-     "value": 33.3,
-     "note": "Irrigated share within arable land."
-    },
-    {
-     "entity": "Arable land",
-     "x": "",
-     "field": "value",
-     "value": 0.3,
-     "note": "Arable share of all land."
-    }
-   ],
-   "computation": "33.3% × 0.3% = 0.0999%, about 0.1%",
-   "accepted_routes": [
-    "Irrigated arable land is about 0.1% of all land.",
-    "Only about one-tenth of one percent of land is both arable and irrigated.",
-    "The combined share of irrigated arable land is roughly 0.1% of total land."
-   ],
-   "visual_evidence_rule": "If shown, the chart must allow the viewer to combine the 0.3% arable share and the 33.3% irrigation share into a total-land share of about 0.1%.",
-   "temporal_anchor": "whole sentence, derived from both clauses",
-   "reviewer_question": "Is the derived 0.1% total-land share required, or is it an optional synthesis of the two table compositions?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -226,7 +148,7 @@
  "notes": "The table has two nested share comparisons: arable/other land and irrigated/not irrigated within arable. The key risk is misassigning the 33.3% irrigation share to total land rather than to arable land.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.06
  },
@@ -247,5 +169,18 @@
   }
  },
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "dropped": [
+   "U4",
+   "U5"
+  ],
+  "reason": "required_candidate=false，非 intent 必须承担的命题",
+  "at": "2026-10-23"
+ }
 }

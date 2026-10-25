@@ -12,7 +12,7 @@
    "meaning": "Expats make up 83.3% of the UAE population, the dominant share.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -45,7 +45,7 @@
    "meaning": "Native citizens make up the remaining 16.7% of the UAE population.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -78,7 +78,7 @@
    "meaning": "Expats outnumber native citizens by roughly five to one.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.2,
+   "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
@@ -112,86 +112,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U4",
-   "meaning": "Expats exceed 80% and native citizens are below 20%, crossing the four-fifths threshold.",
-   "unit_kind": "threshold_or_crossing",
-   "weight_template": 0.2,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Expats",
-     "x": "0",
-     "field": "value",
-     "value": 83.3,
-     "note": "83.3 is above the 80% threshold."
-    },
-    {
-     "entity": "Native citizens",
-     "x": "1",
-     "field": "value",
-     "value": 16.7,
-     "note": "16.7 is below the 20% threshold."
-    }
-   ],
-   "computation": "Compare table values to thresholds: 83.3 > 80 and 16.7 < 20.",
-   "accepted_routes": [
-    "More than 4 in 5 UAE residents are expats.",
-    "Expat share exceeds 80% of the population.",
-    "Native citizens are less than one-fifth of the population.",
-    "The split is over 80% expat and under 20% native citizen."
-   ],
-   "visual_evidence_rule": "A threshold line at 80%/20% or an annotation such as 'over 80%' / 'under 20%' must be visible if this unit is conveyed.",
-   "temporal_anchor": "The opening claim about expats dominating the population.",
-   "reviewer_question": "Does the video need an explicit 80/20 threshold cue, or is the exact 83.3/16.7 split enough?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U5",
-   "meaning": "Expats and native citizens together account for 100% of the population shown, with no other category.",
-   "unit_kind": "identity_or_series",
-   "weight_template": 0.15,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "Expats",
-     "x": "0",
-     "field": "relative_value",
-     "value": 0.833,
-     "note": "Relative share for Expats."
-    },
-    {
-     "entity": "Native citizens",
-     "x": "1",
-     "field": "relative_value",
-     "value": 0.167,
-     "note": "Relative share for Native citizens."
-    }
-   ],
-   "computation": "0.8330 + 0.1670 = 1.0000 (100%); equivalently 83.3 + 16.7 = 100.0.",
-   "accepted_routes": [
-    "Together the two slices total 100% of the UAE population.",
-    "Expats and native citizens are the only two groups shown in the pie.",
-    "The chart partitions the whole population into expats and native citizens.",
-    "The two categories sum to 100%."
-   ],
-   "visual_evidence_rule": "The chart must show exactly two categories partitioning the whole, or include a 100% total label.",
-   "temporal_anchor": "Throughout the pie display, especially when both slices are introduced.",
-   "reviewer_question": "Must the video explicitly state the pie totals 100%/no other groups, or is a two-category pie self-evident?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -209,7 +129,7 @@
  "notes": "The table contains only UAE expat and native-citizen shares (83.3% and 16.7%), so all numeric claims must be based on these or derived ratios/sums. The narration's 85% and America's 14% are not table-supported and should be treated as unsupported or corrected.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.04
  },
@@ -237,5 +157,18 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "dropped": [
+   "U4",
+   "U5"
+  ],
+  "reason": "required_candidate=false，非 intent 必须承担的命题",
+  "at": "2026-10-23"
+ }
 }
