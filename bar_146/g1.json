@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_146",
  "version": "g1_r_u_v4",
- "intent": "To compare the number of vaccine doses procured per person across different countries, highlighting that Canada secured a significantly higher amount relative to its population than the United States as of March 2021.",
+ "intent": "Analyze how many vaccine doses per person various countries procured as of March 2021, and determine how Canada compares with the United States and the other listed entities.",
  "requirements": [
   {
    "id": "R1",
@@ -199,5 +199,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

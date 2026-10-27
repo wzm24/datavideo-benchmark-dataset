@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_108",
  "version": "g1_r_u_v4",
- "intent": "To inform viewers about the recommended timing for receiving COVID-19 booster shots based on the specific vaccine type and the time required for full effectiveness.",
+ "intent": "Compare recommended booster waiting periods and time to full effectiveness across the listed vaccine types.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Is the exact 2-month value required, or is conveying that it is shorter than the mRNA vaccines enough?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   },
   {
@@ -139,7 +131,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Pfizer/BioNTech and Moderna both require a 6-month wait after the last shot before receiving a booster.",
+   "claim": "Pfizer, Moderna, and AstraZeneca require a 6-month wait before a booster, while Johnson & Johnson requires 2 months.",
    "basis": [
     {
      "entity": "Pfizer/BioNTech",
@@ -154,26 +146,7 @@
      "field": "value",
      "value": 6.0,
      "note": "Recommended wait before booster"
-    }
-   ],
-   "accept": [
-    "Pfizer and Moderna: wait 6 months after last shot",
-    "Both Pfizer/BioNTech and Moderna have a 6-month booster interval",
-    "6 months for Pfizer or Moderna"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The chart must display the value 6 months for Pfizer/BioNTech and Moderna on the months-since-last-shot measure."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "key_value_endpoint",
-   "must_be_visualized": true,
-   "claim": "Johnson & Johnson requires a 2-month wait after the last shot before receiving a booster.",
-   "basis": [
+    },
     {
      "entity": "Johnson & Johnson",
      "x": "Months since last shot",
@@ -183,6 +156,9 @@
     }
    ],
    "accept": [
+    "Pfizer and Moderna: wait 6 months after last shot",
+    "Both Pfizer/BioNTech and Moderna have a 6-month booster interval",
+    "6 months for Pfizer or Moderna",
     "Johnson & Johnson: wait 2 months",
     "J&J booster interval is 2 months",
     "Two months after Johnson & Johnson shot"
@@ -191,12 +167,12 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must display the value 2 months for Johnson & Johnson on the months-since-last-shot measure."
+   "evidence": "The chart must display the value 6 months for Pfizer/BioNTech and Moderna on the months-since-last-shot measure. The chart must display the value 2 months for Johnson & Johnson on the months-since-last-shot measure."
   },
   {
    "id": "U4",
    "requirement_id": "R4",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "claim": "After the booster, full effectiveness takes about two weeks, shown in the table as 0.55 months for Pfizer/BioNTech, Moderna, and AstraZeneca, and 0.7 months for Johnson & Johnson.",
    "basis": [
@@ -243,10 +219,9 @@
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U4": 0.3333333333
  },
  "optional_valid": [
   "AstraZeneca's 6-month wait, if the video chooses to include all vaccine types present in the table",
@@ -274,7 +249,10 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "merged_U2_U3_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -282,9 +260,9 @@
  "approved_at": "2026-10-22",
  "clip_hardcase": {
   "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
+  "type": "complex_chart",
   "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [
   {
@@ -292,5 +270,15 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "grouped"
+  ],
+  "chart_sub_type": "grouped",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

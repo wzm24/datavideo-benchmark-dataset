@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_73",
  "version": "g1_r_u_v4",
- "intent": "Show that filler takes up most of a book, leaving only a small portion as actual content.",
+ "intent": "Analyze how a book is divided between actual content and filler, and determine which portion makes up the larger share of the whole.",
  "requirements": [
   {
    "id": "R1",
@@ -129,5 +129,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

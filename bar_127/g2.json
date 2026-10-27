@@ -7,7 +7,8 @@
   "clip_id": "bar_127",
   "family": "bar",
   "sub_type": "stacked",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,9 +54,9 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "composition",
    "required_marks": [
     "Hiroshima | Killed | atomic_bomb_casualties",
     "Hiroshima | Survived | atomic_bomb_casualties",
@@ -63,21 +64,24 @@
     "Nagasaki | Survived | atomic_bomb_casualties"
    ],
    "assertion": {
-    "greater": "Hiroshima | Survived | atomic_bomb_casualties",
-    "greater_value": 240.0,
-    "lesser": "Nagasaki | Killed | atomic_bomb_casualties",
-    "lesser_value": 65.0,
-    "delta": 175.0,
-    "ratio": 3.692308,
-    "expected_order": [
-     "Hiroshima | Survived | atomic_bomb_casualties",
-     "Nagasaki | Survived | atomic_bomb_casualties",
-     "Hiroshima | Killed | atomic_bomb_casualties",
-     "Nagasaki | Killed | atomic_bomb_casualties"
-    ],
+    "killed_share": {
+     "Hiroshima": 0.2941,
+     "Nagasaki": 0.2471
+    },
+    "killed": {
+     "Hiroshima": 100,
+     "Nagasaki": 65
+    },
+    "survived": {
+     "Hiroshima": 240,
+     "Nagasaki": 198
+    },
+    "totals": {
+     "Hiroshima": 340,
+     "Nagasaki": 263
+    },
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0.01
     }
    },
    "accepted_routes": [

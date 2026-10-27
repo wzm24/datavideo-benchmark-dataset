@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_118",
- "intent_en": "To demonstrate the widespread public support for various proposed reforms to policing practices in the United States.",
- "previous_intent": "To demonstrate the broad public support for various policing policy proposals, highlighting the overwhelming backing for requiring training in nonviolent alternatives to deadly force.",
+ "intent_en": "Analyze public support for proposed policing reforms by comparing strong and somewhat support across each proposal, and determine which reforms draw the most backing.",
  "narration_support": "we found a broad base of support for a number of proposals about policing",
  "chart_support": "Horizontal bar chart showing the percentage of respondents favoring five different policing policy proposals, indicating high overall favorability across all categories.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate the widespread public support for various proposed reforms to policing practices in the United States.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze public support for proposed policing reforms by comparing strong and somewhat support across each proposal, and determine which reforms draw the most backing.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

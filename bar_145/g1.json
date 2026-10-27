@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_145",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the unequal distribution of vaccine doses globally, highlighting that high-income countries acquired the majority of supplies while lower-income countries received very few.",
+ "intent": "Analyze confirmed vaccine-dose purchases by income group and determine how unevenly the doses were distributed across the groups.",
  "requirements": [
   {
    "id": "R1",
@@ -157,5 +157,6 @@
  ],
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

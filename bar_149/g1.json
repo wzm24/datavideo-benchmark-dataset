@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_149",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the projected tax revenue of Biden's proposal over a ten-year period, highlighting a range of estimates from different organizations.",
+ "intent": "Analyze the projected ten-year revenue estimates from the listed organizations and determine how their projections compare.",
  "requirements": [
   {
    "id": "R1",
@@ -157,5 +157,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

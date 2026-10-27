@@ -7,7 +7,8 @@
   "clip_id": "bar_21",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -54,125 +55,89 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "cost_coverage_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "Free public college | Sanders plan | spending_cost_relative_to_college",
     "Government revenue | available_revenue",
-    "Free public college | Sanders plan | coverage_multiple"
-   ],
-   "assertion": {
-    "relative_costs": [
-     {
-      "entity": "Free public college",
-      "value": 1.0
-     }
-    ],
-    "available_revenue_billion_usd": 200.0,
-    "coverage_multiple": 3.0,
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "cost_coverage_comparison",
-   "required_marks": [
+    "Free public college | Sanders plan | coverage_multiple",
     "Food assistance | Like food stamps | spending_cost_relative_to_college",
-    "Government revenue | available_revenue",
-    "Food assistance | Like food stamps | coverage_multiple"
-   ],
-   "assertion": {
-    "relative_costs": [
-     {
-      "entity": "Food assistance",
-      "value": 1.5
-     }
-    ],
-    "available_revenue_billion_usd": 200.0,
-    "coverage_multiple": 2.0,
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U4",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "cost_coverage_comparison",
-   "required_marks": [
-    "Cut child poverty 60% | Bennet-Brown plan | spending_cost_relative_to_college",
-    "Government revenue | available_revenue"
-   ],
-   "assertion": {
-    "relative_costs": [
-     {
-      "entity": "Cut child poverty 60%",
-      "value": 4.5
-     }
-    ],
-    "available_revenue_billion_usd": 200.0,
-    "coverage_multiple": null,
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": true
-  },
-  {
-   "unit_id": "U5",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_spending_comparison",
-   "required_marks": [
-    "Free public college | Sanders plan | spending_cost_relative_to_college",
-    "Food assistance | Like food stamps | spending_cost_relative_to_college",
+    "Food assistance | Like food stamps | coverage_multiple",
     "Cut child poverty 60% | Bennet-Brown plan | spending_cost_relative_to_college"
    ],
    "assertion": {
-    "relative_costs": [
-     {
-      "entity": "Free public college",
-      "value": 1.0
-     },
-     {
-      "entity": "Food assistance",
-      "value": 1.5
-     },
-     {
-      "entity": "Cut child poverty 60%",
-      "value": 4.5
-     }
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3",
+     "U4",
+     "U5"
     ],
-    "available_revenue_billion_usd": null,
-    "coverage_multiple": null,
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "relative_costs": [
+       {
+        "entity": "Free public college",
+        "value": 1.0
+       }
+      ],
+      "available_revenue_billion_usd": 200.0,
+      "coverage_multiple": 3.0,
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "relative_costs": [
+       {
+        "entity": "Food assistance",
+        "value": 1.5
+       }
+      ],
+      "available_revenue_billion_usd": 200.0,
+      "coverage_multiple": 2.0,
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "relative_costs": [
+       {
+        "entity": "Cut child poverty 60%",
+        "value": 4.5
+       }
+      ],
+      "available_revenue_billion_usd": 200.0,
+      "coverage_multiple": null,
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "relative_costs": [
+       {
+        "entity": "Free public college",
+        "value": 1.0
+       },
+       {
+        "entity": "Food assistance",
+        "value": 1.5
+       },
+       {
+        "entity": "Cut child poverty 60%",
+        "value": 4.5
+       }
+      ],
+      "available_revenue_billion_usd": null,
+      "coverage_multiple": null,
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

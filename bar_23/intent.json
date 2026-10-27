@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_23",
- "intent_en": "Present the 2016 presidential election results for all 50 states as vote-share distributions among Clinton, Trump, and other candidates.",
- "previous_intent": "To present the 2016 election outcomes for each US state, illustrating the distribution of votes among candidates across different regions.",
+ "intent_en": "Analyze the 2016 presidential vote shares across all fifty states, comparing Clinton, Trump, and other candidates, and determine how the composition varies by state.",
  "narration_support": "These are the results of the 2016 election by state.",
  "chart_support": "Stacked bar chart titled '2016 election results by state' with states on the x-axis and colored segments (blue, grey, red) representing vote shares, overlaid with a horizontal reference line.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To present the 2016 election outcomes for each US state, illustrating the distribution of votes among candidates across different regions.",
+ "narrative_goal": "Present the 2016 presidential election results for all 50 states as vote-share distributions among Clinton, Trump, and other candidates.",
  "intent_machine": "To present the US election results by state, visualizing the proportional vote share distribution among parties across different regions.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze the 2016 presidential vote shares across all fifty states, comparing Clinton, Trump, and other candidates, and determine how the composition varies by state.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_154",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the increasing trend of very unfavorable attitudes between Democrats and Republicans towards each other from 1994 to 2016.",
+ "intent": "Describe separately how very unfavorable partisan attitudes changed among Democrats and Republicans from 1994 to 2016.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do very unfavorable attitudes change among Democrats?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How do very unfavorable attitudes change among Republicans?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -121,65 +129,37 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "Very unfavorable partisan attitudes rise in both parties from1994 to2016.",
+   "claim": "Among Democrats, very unfavorable attitudes rise from 16% in 1994 to 55% in 2016.",
    "basis": [
     {
      "entity": "1994",
+     "series": "Democrats",
      "field": "very_unfavorable_attitude",
-     "value": "16",
-     "unit": "%",
-     "series": "Democrats"
+     "value": 16,
+     "unit": "%"
     },
     {
      "entity": "2008",
+     "series": "Democrats",
      "field": "very_unfavorable_attitude",
-     "value": "37",
-     "unit": "%",
-     "series": "Democrats"
+     "value": 37,
+     "unit": "%"
     },
     {
      "entity": "2014",
+     "series": "Democrats",
      "field": "very_unfavorable_attitude",
-     "value": "43",
-     "unit": "%",
-     "series": "Democrats"
+     "value": 43,
+     "unit": "%"
     },
     {
      "entity": "2016",
+     "series": "Democrats",
      "field": "very_unfavorable_attitude",
-     "value": "55",
-     "unit": "%",
-     "series": "Democrats"
-    },
-    {
-     "entity": "1994",
-     "field": "very_unfavorable_attitude",
-     "value": "17",
-     "unit": "%",
-     "series": "Republicans"
-    },
-    {
-     "entity": "2008",
-     "field": "very_unfavorable_attitude",
-     "value": "32",
-     "unit": "%",
-     "series": "Republicans"
-    },
-    {
-     "entity": "2014",
-     "field": "very_unfavorable_attitude",
-     "value": "46",
-     "unit": "%",
-     "series": "Republicans"
-    },
-    {
-     "entity": "2016",
-     "field": "very_unfavorable_attitude",
-     "value": "58",
-     "unit": "%",
-     "series": "Republicans"
+     "value": 55,
+     "unit": "%"
     }
    ],
    "accept": [
@@ -192,12 +172,59 @@
     "using fabricated values"
    ],
    "evidence": "The selected keyframe and plotted data encode this relation."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "claim": "Among Republicans, very unfavorable attitudes rise from 17% in 1994 to 58% in 2016.",
+   "basis": [
+    {
+     "entity": "1994",
+     "series": "Republicans",
+     "field": "very_unfavorable_attitude",
+     "value": 17,
+     "unit": "%"
+    },
+    {
+     "entity": "2008",
+     "series": "Republicans",
+     "field": "very_unfavorable_attitude",
+     "value": 32,
+     "unit": "%"
+    },
+    {
+     "entity": "2014",
+     "series": "Republicans",
+     "field": "very_unfavorable_attitude",
+     "value": 46,
+     "unit": "%"
+    },
+    {
+     "entity": "2016",
+     "series": "Republicans",
+     "field": "very_unfavorable_attitude",
+     "value": 58,
+     "unit": "%"
+    }
+   ],
+   "accept": [
+    "all four Republican values are visible",
+    "the trend increases from 17% to 58%"
+   ],
+   "reject": [
+    "omitting the Republican series",
+    "reversing the direction"
+   ],
+   "evidence": "The Republican series rises across all four displayed years."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -229,5 +256,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

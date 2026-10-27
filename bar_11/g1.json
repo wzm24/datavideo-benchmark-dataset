@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_11",
  "version": "g1_r_u_v4",
- "intent": "Show that cycling's fatality risk per distance is about as low as walking's and far below motorcycling's.",
+ "intent": "Compare the relative fatality risk per distance of cyclists, walkers, and motorcyclists, and determine how cycling's risk relates to the other two.",
  "requirements": [
   {
    "id": "R1",
@@ -186,5 +186,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

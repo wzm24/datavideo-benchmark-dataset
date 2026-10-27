@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_20",
  "version": "g1_r_u_v4",
- "intent": "Show that letting families choose their number of children would substantially reduce the projected 2100 population.",
+ "intent": "Compare the projected 2100 population under the baseline projection with the projection under family choice, and determine how the two scenarios differ.",
  "requirements": [
   {
    "id": "R1",
@@ -111,7 +111,7 @@
     "wrong endpoints or percentage"
    ],
    "evidence": "The dot matrix shrinks from about 400 dots to about 280.",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -171,7 +171,24 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "pictograph"
+  ],
+  "chart_sub_type": "pictograph",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ },
+ "clip_hardcase": {
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

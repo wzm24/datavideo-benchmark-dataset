@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_34",
  "version": "g1_r_u_v4",
- "intent": "Show that uninsured Americans are most likely to skip medication because of cost, while even insured Americans rank second and above every other compared country.",
+ "intent": "Rank the groups shown by the share who skip medication because of cost.",
  "requirements": [
   {
    "id": "R1",
@@ -34,26 +34,6 @@
      "Canada",
      "Insured United States",
      "Uninsured United States"
-    ],
-    "measure": "share skipping prescriptions or doses because of cost"
-   }
-  },
-  {
-   "id": "R3",
-   "question": "How does the insured U.S. rate compare with the other countries?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ],
-   "scope": {
-    "entities": [
-     "United Kingdom",
-     "Germany",
-     "France",
-     "Australia",
-     "Switzerland",
-     "Canada",
-     "Insured United States"
     ],
     "measure": "share skipping prescriptions or doses because of cost"
    }
@@ -138,98 +118,28 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Uninsured Americans have the highest rate at about 33.5%, exceeding insured Americans at about 20.1% and every comparison country at 10.1% or less.",
+   "claim": "Uninsured Americans are highest at about 33.5%; insured Americans rank second at about 20.1%, above every comparison country at 10.1% or less.",
    "accept": [
     "the uninsured U.S. bar is the tallest",
     "uninsured Americans rank first at about 33.5%",
-    "the uninsured rate is higher than both insured Americans and every comparison country"
-   ],
-   "reject": [
-    "another group ranks first",
-    "insured Americans are described as higher than uninsured Americans",
-    "the U.S. groups are omitted",
-    "the comparison is presented without the cost-related condition"
-   ],
-   "evidence": "Eight bars share a percentage scale; the Uninsured United States bar is visibly the tallest.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "2.137",
-     "unit": "%",
-     "entity": "United Kingdom",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "3.155",
-     "unit": "%",
-     "entity": "Germany",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "4.173",
-     "unit": "%",
-     "entity": "France",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "6.107",
-     "unit": "%",
-     "entity": "Australia",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "9.059",
-     "unit": "%",
-     "entity": "Switzerland",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "10.076",
-     "unit": "%",
-     "entity": "Canada",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "20.051",
-     "unit": "%",
-     "entity": "Insured United States",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    },
-    {
-     "field": "value",
-     "value": "33.453",
-     "unit": "%",
-     "entity": "Uninsured United States",
-     "metric": "skipped_prescriptions_or_doses_due_to_cost"
-    }
-   ]
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Insured Americans rank second at about 20.1%, still above Canada's highest comparison-country rate of about 10.1%.",
-   "accept": [
+    "the uninsured rate is higher than both insured Americans and every comparison country",
     "the insured U.S. bar is second only to the uninsured U.S. bar",
     "insured Americans are about 20.1%",
     "insured Americans have a higher rate than every non-U.S. country"
    ],
    "reject": [
+    "another group ranks first",
+    "insured Americans are described as higher than uninsured Americans",
+    "the U.S. groups are omitted",
+    "the comparison is presented without the cost-related condition",
     "insured Americans are below any comparison country",
     "insured Americans are described as the highest group",
     "Canada or another comparison country is omitted",
     "the 20.1% value is assigned to the uninsured group"
    ],
-   "evidence": "The insured U.S. bar is the second-tallest and remains about twice as high as Canada's comparison bar.",
+   "evidence": "Eight bars share a percentage scale; the Uninsured United States bar is visibly the tallest. The insured U.S. bar is the second-tallest and remains about twice as high as Canada's comparison bar.",
    "basis": [
     {
      "field": "value",
@@ -292,9 +202,8 @@
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "The chart concerns cost-related skipping of prescriptions or doses, not all medication nonadherence."
@@ -321,7 +230,9 @@
  "approved_at": "2026-10-22",
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

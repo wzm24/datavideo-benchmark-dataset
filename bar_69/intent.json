@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_69",
- "intent_en": "Compare the nominal GDP of the United States, the European Union as a 28-country aggregate, China, and Japan.",
+ "intent_en": "Compare nominal GDP across the United States, European Union, China, and Japan, and determine whether the European Union is a single country or an aggregate.",
  "narration_support": "Don't forget to subscribe and click the bell button so that you can be part of our notification squad. The USA has the world's highest GDP of around $18 .5 trillion. It's followed by China with a nominal GDP of $11 .8 trillion, and then Japan with a GDP of around $4 .8 trillion. The European Union would take second place, but the EU is a combination of 28 states. While China has experienced economic prosperity in recent years, it's per capita GDP...",
  "chart_support": "GDP (NOMINAL)",
  "supported_by_narration": true,
@@ -15,13 +15,31 @@
  "draft_by": "manual_batch_review_2026-10-22",
  "confirmed_by": null,
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
- "review_flags": [],
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
+ ],
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Compare the nominal GDP of the United States, the European Union as a 28-country aggregate, China, and Japan.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare nominal GDP across the United States, European Union, China, and Japan, and determine whether the European Union is a single country or an aggregate.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_approved_at": "2026-10-27"
 }

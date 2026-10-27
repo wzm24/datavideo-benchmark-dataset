@@ -7,7 +7,8 @@
   "clip_id": "bar_60",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -56,9 +57,9 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "combined_ranking",
    "required_marks": [
     "Dubai | 2016_international_visitor_spending",
     "London | 2016_international_visitor_spending",
@@ -69,67 +70,55 @@
     "Tokyo | 2016_international_visitor_spending"
    ],
    "assertion": {
-    "greater": "Dubai | 2016_international_visitor_spending",
-    "greater_value": 1.0,
-    "lesser": "Tokyo | 2016_international_visitor_spending",
-    "lesser_value": 0.39,
-    "delta": 0.61,
-    "ratio": 2.564103,
-    "expected_order": [
-     "Dubai | 2016_international_visitor_spending",
-     "London | 2016_international_visitor_spending",
-     "NY | 2016_international_visitor_spending",
-     "Singapore | 2016_international_visitor_spending",
-     "Bangkok | 2016_international_visitor_spending",
-     "Paris | 2016_international_visitor_spending",
-     "Tokyo | 2016_international_visitor_spending"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
-   "required_marks": [
-    "Dubai | 2016_international_visitor_spending",
-    "London | 2016_international_visitor_spending",
-    "NY | 2016_international_visitor_spending",
-    "Singapore | 2016_international_visitor_spending",
-    "Bangkok | 2016_international_visitor_spending",
-    "Paris | 2016_international_visitor_spending",
-    "Tokyo | 2016_international_visitor_spending"
-   ],
-   "assertion": {
-    "greater": "Dubai | 2016_international_visitor_spending",
-    "greater_value": 1.0,
-    "lesser": "Tokyo | 2016_international_visitor_spending",
-    "lesser_value": 0.39,
-    "delta": 0.61,
-    "ratio": 2.564103,
-    "expected_order": [
-     "Dubai | 2016_international_visitor_spending",
-     "London | 2016_international_visitor_spending",
-     "NY | 2016_international_visitor_spending",
-     "Singapore | 2016_international_visitor_spending",
-     "Bangkok | 2016_international_visitor_spending",
-     "Paris | 2016_international_visitor_spending",
-     "Tokyo | 2016_international_visitor_spending"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "Dubai | 2016_international_visitor_spending",
+      "greater_value": 1.0,
+      "lesser": "Tokyo | 2016_international_visitor_spending",
+      "lesser_value": 0.39,
+      "delta": 0.61,
+      "ratio": 2.564103,
+      "expected_order": [
+       "Dubai | 2016_international_visitor_spending",
+       "London | 2016_international_visitor_spending",
+       "NY | 2016_international_visitor_spending",
+       "Singapore | 2016_international_visitor_spending",
+       "Bangkok | 2016_international_visitor_spending",
+       "Paris | 2016_international_visitor_spending",
+       "Tokyo | 2016_international_visitor_spending"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "greater": "Dubai | 2016_international_visitor_spending",
+      "greater_value": 1.0,
+      "lesser": "Tokyo | 2016_international_visitor_spending",
+      "lesser_value": 0.39,
+      "delta": 0.61,
+      "ratio": 2.564103,
+      "expected_order": [
+       "Dubai | 2016_international_visitor_spending",
+       "London | 2016_international_visitor_spending",
+       "NY | 2016_international_visitor_spending",
+       "Singapore | 2016_international_visitor_spending",
+       "Bangkok | 2016_international_visitor_spending",
+       "Paris | 2016_international_visitor_spending",
+       "Tokyo | 2016_international_visitor_spending"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

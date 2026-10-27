@@ -7,7 +7,8 @@
   "clip_id": "bar_77",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -55,7 +56,7 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "In-N-Out | us_locations",
     "Whataburger | us_locations",
@@ -63,58 +64,49 @@
     "McDonald's | us_locations"
    ],
    "assertion": {
-    "greater": "McDonald's | us_locations",
-    "greater_value": 13880.0,
-    "lesser": "In-N-Out | us_locations",
-    "lesser_value": 347.0,
-    "delta": 13533.0,
-    "ratio": 40.0,
-    "expected_order": [
-     "McDonald's | us_locations",
-     "Five Guys | us_locations",
-     "Whataburger | us_locations",
-     "In-N-Out | us_locations"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
-   "required_marks": [
-    "In-N-Out | us_locations",
-    "Whataburger | us_locations",
-    "Five Guys | us_locations",
-    "McDonald's | us_locations"
-   ],
-   "assertion": {
-    "greater": "McDonald's | us_locations",
-    "greater_value": 13880.0,
-    "lesser": "In-N-Out | us_locations",
-    "lesser_value": 347.0,
-    "delta": 13533.0,
-    "ratio": 40.0,
-    "expected_order": [
-     "McDonald's | us_locations",
-     "Five Guys | us_locations",
-     "Whataburger | us_locations",
-     "In-N-Out | us_locations"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "McDonald's | us_locations",
+      "greater_value": 13880.0,
+      "lesser": "In-N-Out | us_locations",
+      "lesser_value": 347.0,
+      "delta": 13533.0,
+      "ratio": 40.0,
+      "expected_order": [
+       "McDonald's | us_locations",
+       "Five Guys | us_locations",
+       "Whataburger | us_locations",
+       "In-N-Out | us_locations"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "greater": "McDonald's | us_locations",
+      "greater_value": 13880.0,
+      "lesser": "In-N-Out | us_locations",
+      "lesser_value": 347.0,
+      "delta": 13533.0,
+      "ratio": 40.0,
+      "expected_order": [
+       "McDonald's | us_locations",
+       "Five Guys | us_locations",
+       "Whataburger | us_locations",
+       "In-N-Out | us_locations"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

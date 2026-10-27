@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_1",
  "version": "g1_r_u_v4",
- "intent": "Compare the travel time to the Moon by car, Boeing 747, and spacecraft: report each duration and how the three compare.",
+ "intent": "Analyze the available Moon travel times for a car, a commercial airplane, and a spacecraft, reporting each duration or descriptive label.",
  "requirements": [
   {
    "id": "R1",
@@ -25,23 +25,6 @@
     "U2",
     "U3",
     "U4"
-   ],
-   "scope": {
-    "entities": [
-     "CAR",
-     "BOING 747",
-     "SPACESHIP"
-    ],
-    "measure": "travel time",
-    "time": "one trip to the Moon"
-   }
-  },
-  {
-   "id": "R3",
-   "question": "How do the three travel times compare?",
-   "relation": "single",
-   "unit_ids": [
-    "U5"
    ],
    "scope": {
     "entities": [
@@ -109,7 +92,7 @@
     "Inventing a numeric number of days for CAR"
    ],
    "evidence": "The CAR row/label shows 'a lot of time'.",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "basis": [
     {
@@ -134,7 +117,7 @@
     "Any other value"
    ],
    "evidence": "The BOING 747 row/label shows 28 days.",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "basis": [
     {
@@ -159,7 +142,7 @@
     "Any other value"
    ],
    "evidence": "The SPACESHIP row/label shows 2 days.",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "basis": [
     {
@@ -171,7 +154,43 @@
      "label": "two full days"
     }
    ]
-  },
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-20",
+ "g0_data_completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 3,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "review_flags": [
+  "human_confirmed_semantics_auto_format_backfill_2026-10-22",
+  "state_level_completeness_r1_2026-10-22",
+  "v1_order_downgraded_to_optional_valid_2026-10-27",
+  "car_value_is_qualitative_a_lot_of_time"
+ ],
+ "hardcases": [],
+ "optional_units": [
   {
    "id": "U5",
    "requirement_id": "R3",
@@ -187,7 +206,7 @@
     "Saying CAR is the fastest"
    ],
    "evidence": "Bar lengths or a written comparison support the full order.",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "basis": [
     {
@@ -214,40 +233,33 @@
      "metric": "travel_days",
      "label": "two full days"
     }
-   ]
+   ],
+   "status": "optional_valid",
+   "optional_reason": "V1 provides only 'a lot of time' for CAR and no numeric duration. The table supports reporting each listed duration but does not strictly establish the complete CAR > BOEING 747 > SPACESHIP order."
   }
  ],
- "weight_mode": "uniform_over_units",
- "unit_weights": {
-  "U1": 0.2,
-  "U2": 0.2,
-  "U3": 0.2,
-  "U4": 0.2,
-  "U5": 0.2
- },
- "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-20",
- "g0_data_completeness": {
-  "required": true,
-  "selection": "all data rows (table has no role column)",
-  "required_data_rows": 3,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
-  "missing_any_fails_visual_completeness": true,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_id": "U_COMPLETE",
-  "g1_requirement_id": "R1",
-  "g1_unit_ids": [
-   "U1"
-  ]
- },
- "review_flags": [
-  "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+ "optional_valid": [
+  "A full three-way travel-time ranking is valid if supported visually, but is not required under V1 because CAR has no numeric table value."
  ],
- "hardcases": []
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "How do the three travel times compare?",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {
+    "entities": [
+     "CAR",
+     "BOING 747",
+     "SPACESHIP"
+    ],
+    "measure": "travel time",
+    "time": "one trip to the Moon"
+   }
+  }
+ ],
+ "revision_note_2026_10_27": "U5 is optional for V1. The data table has no numeric CAR travel time, so the complete three-way ordering is not derivable from the public V1 input. Reporting each available duration remains required.",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

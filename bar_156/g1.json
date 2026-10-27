@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_156",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the financial risk of relying on high returns from reported assets to cover the gap between those assets and actual liabilities.",
+ "intent": "Compare reported pension assets with actual liabilities and identify the unfunded gap.",
  "requirements": [
   {
    "id": "R1",
@@ -12,17 +12,25 @@
    ],
    "scope": {
     "selection": "all role=bar rows",
-    "required_data_rows": 3,
+    "required_data_rows": 2,
     "required_states": [],
     "required_marks_per_state": {}
    }
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do reported assets compare with actual liabilities and the unfunded gap?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "What is the unfunded gap between actual liabilities and reported assets?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -32,36 +40,24 @@
    "requirement_id": "R1",
    "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "claim": "All 3 required bar marks or stacked segments appear in the final chart.",
+   "claim": "All 2 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "3.6",
-     "unit": "trillion USD",
      "entity": "Reported assets",
-     "metric": "pension_assets",
-     "label": "$3.6tr"
+     "field": "pension_assets",
+     "value": 3.6,
+     "unit": "trillion USD"
     },
     {
-     "field": "value",
-     "value": "4.8",
-     "unit": "trillion USD",
-     "entity": "Reported liabilities",
-     "metric": "pension_liabilities",
-     "label": "$4.8tr"
-    },
-    {
-     "field": "value",
-     "value": "7.0",
-     "unit": "trillion USD",
      "entity": "Actual liabilities",
-     "metric": "pension_liabilities",
-     "label": "$7.0tr"
+     "field": "pension_liabilities",
+     "value": 7,
+     "unit": "trillion USD"
     }
    ],
    "accept": [
-    "all 3 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "all 2 required data marks are visible in the final chart state",
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -75,50 +71,82 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The simplified pension chart contrasts $3.6T reported assets with $7.0T actual liabilities, using the same underlying values as bar_155.",
+   "claim": "Reported assets are $3.6T against $7.0T of actual liabilities.",
    "basis": [
     {
      "entity": "Reported assets",
      "field": "pension_assets",
-     "value": "3.6",
-     "unit": "trillion USD"
-    },
-    {
-     "entity": "Reported liabilities",
-     "field": "pension_liabilities",
-     "value": "4.8",
+     "value": 3.6,
      "unit": "trillion USD"
     },
     {
      "entity": "Actual liabilities",
      "field": "pension_liabilities",
-     "value": "7.0",
+     "value": 7.0,
+     "unit": "trillion USD"
+    }
+   ],
+   "computation": "gap = actual liabilities - reported assets",
+   "accept": [
+    "assets and actual liabilities are both visible",
+    "the gap is identified as 3.4T",
+    "7.0 - 3.6 = 3.4"
+   ],
+   "reject": [
+    "using the absent 4.8T reported-liability value",
+    "claiming the gap is 7.0T"
+   ],
+   "evidence": "The paired bars and annotation encode assets, actual liabilities, and their gap."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": true,
+   "claim": "The unfunded gap is 3.4T, calculated as 7.0T actual liabilities minus 3.6T reported assets.",
+   "basis": [
+    {
+     "entity": "Reported assets",
+     "field": "pension_assets",
+     "value": 3.6,
+     "unit": "trillion USD"
+    },
+    {
+     "entity": "Actual liabilities",
+     "field": "pension_liabilities",
+     "value": 7.0,
+     "unit": "trillion USD"
+    },
+    {
+     "entity": "Unfunded gap",
+     "field": "pension_gap",
+     "value": 3.4,
      "unit": "trillion USD"
     }
    ],
    "accept": [
-    "all values are present",
-    "reported assets are not treated as the full liability"
+    "the gap mark or annotation is visible as $3.4T",
+    "7.0 - 3.6 = 3.4"
    ],
    "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
+    "omitting the gap annotation",
+    "using a different asset or liability basis"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "The unfunded-gap annotation connects actual liabilities to reported assets."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
   "selection": "all role=bar rows",
-  "required_data_rows": 3,
+  "required_data_rows": 2,
   "required_states": [],
   "required_marks_per_state": {},
   "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
@@ -132,16 +160,81 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
+  {
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "change",
+    "must_be_visualized": true,
+    "claim": "Reported assets are $3.6T against $7.0T of actual liabilities, leaving a $3.4T unfunded gap.",
+    "basis": [
+     {
+      "entity": "Reported assets",
+      "field": "pension_assets",
+      "value": 3.6,
+      "unit": "trillion USD"
+     },
+     {
+      "entity": "Actual liabilities",
+      "field": "pension_liabilities",
+      "value": 7.0,
+      "unit": "trillion USD"
+     },
+     {
+      "entity": "Unfunded gap",
+      "field": "pension_gap",
+      "value": 3.4,
+      "unit": "trillion USD"
+     }
+    ],
+    "computation": "gap = actual liabilities - reported assets",
+    "accept": [
+     "assets and actual liabilities are both visible",
+     "the gap is identified as 3.4T",
+     "7.0 - 3.6 = 3.4"
+    ],
+    "reject": [
+     "using the absent 4.8T reported-liability value",
+     "claiming the gap is 7.0T"
+    ],
+    "evidence": "The paired bars and annotation encode assets, actual liabilities, and their gap."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do reported assets compare with actual liabilities and the unfunded gap?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "overlay_bar"
+  ],
+  "chart_sub_type": "overlay_bar",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

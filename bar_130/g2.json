@@ -7,7 +7,8 @@
   "clip_id": "bar_130",
   "family": "bar",
   "sub_type": "grouped",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -93,138 +94,35 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
+   "evidence_type": "composition_shift",
    "required_marks": [
-    "DISARMAMENT | 1990 | relative_value",
-    "DISARMAMENT | 1995 | relative_value",
-    "DISARMAMENT | 2000 | relative_value",
-    "DISARMAMENT | 2005 | relative_value",
-    "DISARMAMENT | 2010 | relative_value",
-    "DISARMAMENT | 2015 | relative_value"
+    "1990 | USA | value",
+    "1990 | Russia | value",
+    "1990 | Other | value",
+    "1990 | DISARMAMENT | value",
+    "2015 | USA | value",
+    "2015 | Russia | value",
+    "2015 | Other | value",
+    "2015 | DISARMAMENT | value"
    ],
    "assertion": {
-    "sequence": [
-     {
-      "mark": "DISARMAMENT | 1990 | relative_value",
-      "value": 0.192
-     },
-     {
-      "mark": "DISARMAMENT | 1995 | relative_value",
-      "value": 0.36
-     },
-     {
-      "mark": "DISARMAMENT | 2000 | relative_value",
-      "value": 0.49
-     },
-     {
-      "mark": "DISARMAMENT | 2005 | relative_value",
-      "value": 0.5701
-     },
-     {
-      "mark": "DISARMAMENT | 2010 | relative_value",
-      "value": 0.6501
-     },
-     {
-      "mark": "DISARMAMENT | 2015 | relative_value",
-      "value": 0.7301
-     }
-    ],
-    "direction": "increasing",
-    "start_value": 0.192,
-    "end_value": 0.7301,
-    "delta": 0.5381,
-    "ratio": 3.802604,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "threshold_or_crossing",
-   "must_be_visualized": true,
-   "evidence_type": "threshold_marks",
-   "required_marks": [
-    "Russia | 1990 | relative_value",
-    "DISARMAMENT | 1990 | relative_value",
-    "DISARMAMENT | 2015 | relative_value",
-    "Russia | 2015 | relative_value"
-   ],
-   "assertion": {
-    "marks": [
-     {
-      "mark": "Russia | 1990 | relative_value",
-      "value": 0.6,
-      "label": ""
-     },
-     {
-      "mark": "DISARMAMENT | 1990 | relative_value",
-      "value": 0.192,
-      "label": ""
-     },
-     {
-      "mark": "DISARMAMENT | 2015 | relative_value",
-      "value": 0.7301,
-      "label": ""
-     },
-     {
-      "mark": "Russia | 2015 | relative_value",
-      "value": 0.1296,
-      "label": ""
-     }
-    ],
-    "relation": "distinguish values on opposite sides of the stated thresholds",
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": true
-  },
-  {
-   "unit_id": "U4",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "USA | 1990 | relative_value",
-    "Russia | 1990 | relative_value",
-    "USA | 2015 | relative_value",
-    "Russia | 2015 | relative_value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "USA | 1990 | relative_value",
-      "value": 0.2
-     },
-     {
-      "mark": "Russia | 1990 | relative_value",
-      "value": 0.6
-     },
-     {
-      "mark": "USA | 2015 | relative_value",
-      "value": 0.135
-     },
-     {
-      "mark": "Russia | 2015 | relative_value",
-      "value": 0.1296
-     }
-    ],
-    "direction": "decreasing",
-    "start_value": 0.2,
-    "end_value": 0.1296,
-    "delta": -0.0704,
-    "ratio": 0.648,
-    "tolerance": 0.02
+    "start_year": 1990,
+    "end_year": 2015,
+    "USA_Russia_combined": {
+     "1990": 0.8,
+     "2015": 0.2646
+    },
+    "DISARMAMENT": {
+     "1990": 0.192,
+     "2015": 0.7301
+    },
+    "Other_max": 0.011,
+    "largest_2015": "DISARMAMENT",
+    "tolerance": {
+     "value": 0.001
+    }
    },
    "accepted_routes": [
     "geometry",

@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_57",
- "intent_en": "Show that combining income, corporate/property, and estate taxes produces a much heavier burden on the richest groups than on the poorest.",
+ "intent_en": "Analyze how the combined income, corporate and property, and estate tax burdens compare across income groups, and determine how large the total burden is for the richest groups.",
  "narration_support": "Add these back onto the income taxes, and it looks like the rich really do pay way more than the poor. But now let's talk about another tax.",
  "chart_support": "",
  "supported_by_narration": true,
@@ -23,5 +23,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that combining income, corporate/property, and estate taxes produces a much heavier burden on the richest groups than on the poorest.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the combined income, corporate and property, and estate tax burdens compare across income groups, and determine how large the total burden is for the richest groups.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

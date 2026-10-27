@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_45",
  "version": "g1_r_u_v4",
- "intent": "Show that the 400 richest Americans pay a lower income-tax rate than the richest 10%, while income-tax rates rise across the preceding income groups.",
+ "intent": "Compare the income-tax rate of the top wealth group with the richest tenth, and determine how rates change across the other ten income groups.",
  "requirements": [
   {
    "id": "R1",
@@ -169,7 +169,7 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "Across the ten income deciles, the income-tax rate rises from about 1% for the poorest group to about 18% for the richest 10%.",
    "basis": [
@@ -284,5 +284,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

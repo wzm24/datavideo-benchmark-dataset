@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_80",
  "version": "g1_r_u_v4",
- "intent": "Show the demographic distribution of millennials across age bands and genders.",
+ "intent": "Analyze the millennial cohort across age bands and genders, identify the included bands, and compare male and female values within each band.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "Which age bands define the millennial cohort in the pyramid?",
+   "question": "Which age bands belong to the millennial cohort?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How do male and female relative values compare within each millennial band?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -409,308 +417,159 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "identity",
    "must_be_visualized": true,
-   "claim": "The highlighted millennial cohort spans the 20–24 through 35–39 age bands, with male and female sides shown separately.",
+   "claim": "The millennial cohort consists of the 20–24, 25–29, 30–34, and 35–39 age bands, shown separately for males and females.",
    "basis": [
     {
-     "entity": "95-99",
-     "field": "millennials",
-     "value": 0.031,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "95-99",
-     "field": "millennials",
-     "value": 0.041,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "90-95",
-     "field": "millennials",
-     "value": 0.083,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "90-95",
-     "field": "millennials",
-     "value": 0.093,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "85-89",
-     "field": "millennials",
-     "value": 0.165,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "85-89",
-     "field": "millennials",
-     "value": 0.175,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "80-84",
-     "field": "millennials",
-     "value": 0.289,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "80-84",
-     "field": "millennials",
-     "value": 0.299,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "75-79",
-     "field": "millennials",
-     "value": 0.443,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "75-79",
-     "field": "millennials",
-     "value": 0.454,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "70-74",
-     "field": "millennials",
-     "value": 0.598,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "70-74",
-     "field": "millennials",
-     "value": 0.608,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "65-69",
-     "field": "millennials",
-     "value": 0.753,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "65-69",
-     "field": "millennials",
-     "value": 0.768,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "60-64",
-     "field": "millennials",
-     "value": 0.866,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "60-64",
-     "field": "millennials",
-     "value": 0.887,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "55-59",
-     "field": "millennials",
-     "value": 0.969,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "55-59",
-     "field": "millennials",
-     "value": 1.0,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "50-54",
-     "field": "millennials",
-     "value": 0.907,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "50-54",
-     "field": "millennials",
-     "value": 0.959,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "45-49",
-     "field": "millennials",
-     "value": 0.804,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "45-49",
-     "field": "millennials",
-     "value": 0.845,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "40-44",
-     "field": "millennials",
-     "value": 0.763,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "40-44",
-     "field": "millennials",
-     "value": 0.794,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "35-39",
-     "field": "millennials",
-     "value": 0.763,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "35-39",
-     "field": "millennials",
-     "value": 0.804,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "30-34",
-     "field": "millennials",
-     "value": 0.814,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "30-34",
-     "field": "millennials",
-     "value": 0.845,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "25-29",
-     "field": "millennials",
-     "value": 0.866,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "25-29",
-     "field": "millennials",
-     "value": 0.887,
-     "unit": "relative",
-     "series": "Female"
+     "entity": "20-24",
+     "series": "Male",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
      "entity": "20-24",
-     "field": "millennials",
-     "value": 0.866,
-     "unit": "relative",
-     "series": "Male"
+     "series": "Female",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "20-24",
-     "field": "millennials",
-     "value": 0.897,
-     "unit": "relative",
-     "series": "Female"
+     "entity": "25-29",
+     "series": "Male",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "15-19",
-     "field": "millennials",
-     "value": 0.724,
-     "unit": "relative",
-     "series": "Male"
+     "entity": "25-29",
+     "series": "Female",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "15-19",
-     "field": "millennials",
-     "value": 0.751,
-     "unit": "relative",
-     "series": "Female"
+     "entity": "30-34",
+     "series": "Male",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "10-14",
-     "field": "millennials",
-     "value": 0.677,
-     "unit": "relative",
-     "series": "Male"
+     "entity": "30-34",
+     "series": "Female",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "10-14",
-     "field": "millennials",
-     "value": 0.705,
-     "unit": "relative",
-     "series": "Female"
+     "entity": "35-39",
+     "series": "Male",
+     "field": "cohort",
+     "value": "millennial"
     },
     {
-     "entity": "5-9",
-     "field": "millennials",
-     "value": 0.631,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "5-9",
-     "field": "millennials",
-     "value": 0.659,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "0-4",
-     "field": "millennials",
-     "value": 0.585,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "0-4",
-     "field": "millennials",
-     "value": 0.612,
-     "unit": "relative",
-     "series": "Female"
+     "entity": "35-39",
+     "series": "Female",
+     "field": "cohort",
+     "value": "millennial"
     }
    ],
    "accept": [
-    "the pyramid contains paired male/female age bands",
-    "20–24 through 35–39 are highlighted",
-    "40–44 and all younger/older bands remain unhighlighted"
+    "the table-backed cohort label is preserved",
+    "20–24, 25–29, 30–34, and 35–39 are identified as the cohort",
+    "both male and female sides are shown"
    ],
    "reject": [
-    "collapsing the two genders",
-    "omitting age bands",
-    "highlighting only a single age"
+    "treating every age band as millennial",
+    "including 15–19 or 40–44 in the cohort",
+    "collapsing the two gender sides"
    ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
+   "evidence": "The cohort field and paired age-band marks identify the millennial bands."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Within every millennial age band, the female relative value is higher than the male value: 20–24 0.897 vs 0.866, 25–29 0.887 vs 0.866, 30–34 0.845 vs 0.814, and 35–39 0.804 vs 0.763.",
+   "basis": [
+    {
+     "entity": "20-24",
+     "series": "Male",
+     "field": "millennials",
+     "value": 0.866,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "20-24",
+     "series": "Female",
+     "field": "millennials",
+     "value": 0.897,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "25-29",
+     "series": "Male",
+     "field": "millennials",
+     "value": 0.866,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "25-29",
+     "series": "Female",
+     "field": "millennials",
+     "value": 0.887,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "30-34",
+     "series": "Male",
+     "field": "millennials",
+     "value": 0.814,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "30-34",
+     "series": "Female",
+     "field": "millennials",
+     "value": 0.845,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "35-39",
+     "series": "Male",
+     "field": "millennials",
+     "value": 0.763,
+     "unit": "relative",
+     "cohort": "millennial"
+    },
+    {
+     "entity": "35-39",
+     "series": "Female",
+     "field": "millennials",
+     "value": 0.804,
+     "unit": "relative",
+     "cohort": "millennial"
+    }
+   ],
+   "accept": [
+    "all four millennial age bands show paired male/female bars",
+    "the female side is larger in every paired band"
+   ],
+   "reject": [
+    "omitting a millennial band",
+    "collapsing gender into one bar"
+   ],
+   "evidence": "Paired pyramid bars show the female side above the male side in all four millennial bands."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -731,17 +590,31 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "population_pyramid"
+  ],
+  "chart_sub_type": "population_pyramid",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

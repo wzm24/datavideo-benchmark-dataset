@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_32",
  "version": "g1_r_u_v4",
- "intent": "Show that the monthly price of the cholesterol drug Crestor is higher in the United States than in six other developed countries.",
+ "intent": "Compare the monthly Crestor price in the United States with that in six other developed countries, and determine how the United States compares with the rest.",
  "requirements": [
   {
    "id": "R1",
@@ -208,5 +208,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

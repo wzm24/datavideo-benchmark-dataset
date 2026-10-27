@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_51",
  "version": "g1_r_u_v4",
- "intent": "Show that payroll taxes are capped, so lower- and middle-income groups pay a much larger share of income than the richest groups.",
+ "intent": "Compare payroll tax rates across the income groups and identify where the largest change occurs.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Why do the richest groups pay a lower share?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -138,8 +130,56 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The first nine groups pay about 9.8–10.9%, while the final two groups drop to about 1% and 0.4%.",
+   "claim": "The first nine groups pay about 9.8–10.9%, while the final two drop to 1.0% and 0.4%; the largest change is the 0.6-point drop from the 10th group to the Richest.",
    "basis": [
+    {
+     "entity": "Poorest",
+     "field": "payroll_tax_rate",
+     "value": 10.6,
+     "unit": "%"
+    },
+    {
+     "entity": "2nd",
+     "field": "payroll_tax_rate",
+     "value": 10.9,
+     "unit": "%"
+    },
+    {
+     "entity": "3rd",
+     "field": "payroll_tax_rate",
+     "value": 10.9,
+     "unit": "%"
+    },
+    {
+     "entity": "4th",
+     "field": "payroll_tax_rate",
+     "value": 10.4,
+     "unit": "%"
+    },
+    {
+     "entity": "5th",
+     "field": "payroll_tax_rate",
+     "value": 10.4,
+     "unit": "%"
+    },
+    {
+     "entity": "6th",
+     "field": "payroll_tax_rate",
+     "value": 10.4,
+     "unit": "%"
+    },
+    {
+     "entity": "7th",
+     "field": "payroll_tax_rate",
+     "value": 10.4,
+     "unit": "%"
+    },
+    {
+     "entity": "8th",
+     "field": "payroll_tax_rate",
+     "value": 10.4,
+     "unit": "%"
+    },
     {
      "entity": "9th",
      "field": "payroll_tax_rate",
@@ -149,7 +189,7 @@
     {
      "entity": "10th",
      "field": "payroll_tax_rate",
-     "value": 1,
+     "value": 1.0,
      "unit": "%"
     },
     {
@@ -170,34 +210,16 @@
     "reversing the drop"
    ],
    "evidence": "Use the corresponding visible bars/segments in the selected keyframe."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "Payroll taxes are capped, so the richest groups pay a much smaller portion of their income toward them.",
-   "basis": [],
-   "accept": [
-    "the cap is stated as the reason for the drop",
-    "the richest groups are described as paying a smaller share"
-   ],
-   "reject": [
-    "saying payroll taxes are progressive without a cap",
-    "claiming the richest groups pay the highest share"
-   ],
-   "evidence": "Narration-only explanation; do not invent a visual mark for this causal statement.",
-   "hardcase": true,
-   "hardcase_reason": "The causal explanation is present in narration but not encoded as a chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
- "optional_valid": [],
+ "optional_valid": [
+  "U3 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
+ ],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -229,10 +251,45 @@
  ],
  "review_flags": [
   "percent_bars_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "u3_downgraded_to_optional_valid_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "optional_units": [
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": false,
+   "claim": "Payroll taxes are capped, so the richest groups pay a much smaller portion of their income toward them.",
+   "basis": [],
+   "accept": [
+    "the cap is stated as the reason for the drop",
+    "the richest groups are described as paying a smaller share"
+   ],
+   "reject": [
+    "saying payroll taxes are progressive without a cap",
+    "claiming the richest groups pay the highest share"
+   ],
+   "evidence": "Narration-only explanation; do not invent a visual mark for this causal statement.",
+   "hardcase": true,
+   "hardcase_reason": "The causal explanation is present in narration but not encoded as a chart mark.",
+   "status": "optional_valid",
+   "optional_reason": "U3 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "Why do the richest groups pay a lower share?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_104",
  "version": "g1_r_u_v4",
- "intent": "Show that the 400 richest paid a lower effective tax rate than $100k–$200k earners in 2008, and that their rate fell after 2001.",
+ "intent": "Compare the effective tax rates of the listed wealthy group and the middle-income earners in the later year, and show how the wealthy group's rate changed over time.",
  "requirements": [
   {
    "id": "R1",
@@ -111,7 +111,7 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "claim": "The 400 richest effective tax rate fell from23% in2001 to18.1% in2008.",
    "basis": [
@@ -168,12 +168,12 @@
  },
  "clip_hardcase": {
   "is_hardcase": true,
-  "type": "multi_year_overlay_comparison",
+  "type": "complex_chart",
   "unit_ids": [
    "U1",
    "U2"
   ],
-  "reason": "The clip compares two groups in 2008 while also carrying a second time point for the richest group from 2001."
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [
   {
@@ -184,9 +184,21 @@
  ],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "overlay_bar"
+  ],
+  "chart_sub_type": "overlay_bar",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

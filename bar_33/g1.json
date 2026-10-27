@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_33",
  "version": "g1_r_u_v4",
- "intent": "Show that the United States has the highest per-capita retail prescription drug spending among the ten compared countries.",
+ "intent": "Analyze per-capita retail prescription drug spending across the ten compared countries and identify which country has the highest value.",
  "requirements": [
   {
    "id": "R1",
@@ -255,5 +255,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

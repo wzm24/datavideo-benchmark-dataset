@@ -7,7 +7,8 @@
   "clip_id": "bar_80",
   "family": "bar",
   "sub_type": "population_pyramid",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -89,103 +90,65 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "identity",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "cohort_binding",
    "required_marks": [
-    "95-99 | Male | millennials",
-    "95-99 | Female | millennials",
-    "90-95 | Male | millennials",
-    "90-95 | Female | millennials",
-    "85-89 | Male | millennials",
-    "85-89 | Female | millennials",
-    "80-84 | Male | millennials",
-    "80-84 | Female | millennials",
-    "75-79 | Male | millennials",
-    "75-79 | Female | millennials",
-    "70-74 | Male | millennials",
-    "70-74 | Female | millennials",
-    "65-69 | Male | millennials",
-    "65-69 | Female | millennials",
-    "60-64 | Male | millennials",
-    "60-64 | Female | millennials",
-    "55-59 | Male | millennials",
-    "55-59 | Female | millennials",
-    "50-54 | Male | millennials",
-    "50-54 | Female | millennials",
-    "45-49 | Male | millennials",
-    "45-49 | Female | millennials",
-    "40-44 | Male | millennials",
-    "40-44 | Female | millennials",
-    "35-39 | Male | millennials",
-    "35-39 | Female | millennials",
-    "30-34 | Male | millennials",
-    "30-34 | Female | millennials",
-    "25-29 | Male | millennials",
-    "25-29 | Female | millennials",
     "20-24 | Male | millennials",
     "20-24 | Female | millennials",
-    "15-19 | Male | millennials",
-    "15-19 | Female | millennials",
-    "10-14 | Male | millennials",
-    "10-14 | Female | millennials",
-    "5-9 | Male | millennials",
-    "5-9 | Female | millennials",
-    "0-4 | Male | millennials",
-    "0-4 | Female | millennials"
+    "25-29 | Male | millennials",
+    "25-29 | Female | millennials",
+    "30-34 | Male | millennials",
+    "30-34 | Female | millennials",
+    "35-39 | Male | millennials",
+    "35-39 | Female | millennials"
    ],
    "assertion": {
-    "greater": "55-59 | Female | millennials",
-    "greater_value": 1.0,
-    "lesser": "95-99 | Male | millennials",
-    "lesser_value": 0.031,
-    "delta": 0.969,
-    "ratio": 32.258065,
-    "expected_order": [
-     "55-59 | Female | millennials",
-     "55-59 | Male | millennials",
-     "50-54 | Female | millennials",
-     "50-54 | Male | millennials",
-     "20-24 | Female | millennials",
-     "60-64 | Female | millennials",
-     "25-29 | Female | millennials",
-     "60-64 | Male | millennials",
-     "25-29 | Male | millennials",
-     "20-24 | Male | millennials",
-     "45-49 | Female | millennials",
-     "30-34 | Female | millennials",
-     "30-34 | Male | millennials",
-     "45-49 | Male | millennials",
-     "35-39 | Female | millennials",
-     "40-44 | Female | millennials",
-     "65-69 | Female | millennials",
-     "40-44 | Male | millennials",
-     "35-39 | Male | millennials",
-     "65-69 | Male | millennials",
-     "15-19 | Female | millennials",
-     "15-19 | Male | millennials",
-     "10-14 | Female | millennials",
-     "10-14 | Male | millennials",
-     "5-9 | Female | millennials",
-     "5-9 | Male | millennials",
-     "0-4 | Female | millennials",
-     "70-74 | Female | millennials",
-     "70-74 | Male | millennials",
-     "0-4 | Male | millennials",
-     "75-79 | Female | millennials",
-     "75-79 | Male | millennials",
-     "80-84 | Female | millennials",
-     "80-84 | Male | millennials",
-     "85-89 | Female | millennials",
-     "85-89 | Male | millennials",
-     "90-95 | Female | millennials",
-     "90-95 | Male | millennials",
-     "95-99 | Female | millennials",
-     "95-99 | Male | millennials"
+    "expected_cohort": "millennial",
+    "expected_age_bands": [
+     "20-24",
+     "25-29",
+     "30-34",
+     "35-39"
+    ],
+    "expected_series": [
+     "Male",
+     "Female"
+    ],
+    "all_paired_marks_must_be_present": true
+   },
+   "accepted_routes": [
+    "readable_label",
+    "highlight"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "paired_series_comparison",
+   "required_marks": [
+    "20-24 | Male | millennials",
+    "20-24 | Female | millennials",
+    "25-29 | Male | millennials",
+    "25-29 | Female | millennials",
+    "30-34 | Male | millennials",
+    "30-34 | Female | millennials",
+    "35-39 | Male | millennials",
+    "35-39 | Female | millennials"
+   ],
+   "assertion": {
+    "expected_relation": "female > male in each of four bands",
+    "paired_bands": [
+     "20-24",
+     "25-29",
+     "30-34",
+     "35-39"
     ],
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0
     }
    },
    "accepted_routes": [
@@ -193,7 +156,7 @@
     "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
-   "needs_review": true
+   "needs_review": false
   }
  ]
 }

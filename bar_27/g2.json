@@ -7,7 +7,8 @@
   "clip_id": "bar_27",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -56,7 +57,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "evidence_type": "monotonic_order",
    "required_marks": [

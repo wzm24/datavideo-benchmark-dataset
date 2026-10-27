@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_121",
  "version": "g1_r_u_v4",
- "intent": "To illustrate that before the 2020 election, voters had higher confidence in in-person voting than in mail-in voting, supporting the narration's point about unfamiliarity with mail-in methods.",
+ "intent": "Compare voters' confidence in votes being counted for in-person polling places versus absentee or mail-in ballots before the 2020 election, and determine how the two methods differ.",
  "requirements": [
   {
    "id": "R1",
@@ -150,16 +150,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

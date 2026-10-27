@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_112",
  "version": "g1_r_u_v4",
- "intent": "Putri's hardship represents a much wider low-income population, showing that disadvantage extends well beyond Indonesia's poorest decile.",
+ "intent": "Compare the top household-share group with the lowest-income group, and compare the three groups immediately above the lowest group with that lowest group.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How does the Top 10% household share compare with the Bottom 10%?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -27,18 +27,10 @@
   },
   {
    "id": "R3",
-   "question": "What does the selected chart show?",
+   "question": "How do the three Bottom 40% household shares compare with the Bottom 10%?",
    "relation": "single",
    "unit_ids": [
     "U3"
-   ]
-  },
-  {
-   "id": "R4",
-   "question": "What does the selected chart show?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
    ]
   }
  ],
@@ -188,7 +180,7 @@
    "requirement_id": "R3",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "The bottom-40% groups remain clustered near the lowest values, so hardship extends beyond the poorest decile.",
+   "claim": "The three Bottom 40% groups have shares between 0.0375 and 0.0625, staying close to the Bottom 10% group's 0.0375.",
    "basis": [
     {
      "entity": "Bottom 40% group 7",
@@ -216,41 +208,26 @@
     }
    ],
    "accept": [
-    "all four bottom-40% bars are present",
-    "the bottom-40% bars remain close to the bottom-decile bar"
+    "all three Bottom 40% marks are visible",
+    "their shares remain between 0.0375 and 0.0625",
+    "the Bottom 10% comparison remains visible"
    ],
    "reject": [
-    "showing only the bottom decile",
-    "making the bottom-40% groups look substantially better off"
+    "showing only the Bottom 10% group",
+    "making the Bottom 40% groups look close to the Top 10% group"
    ],
    "evidence": "The four adjacent low bars at the right encode the broader low-income group."
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R4",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "About 68 million Indonesians in the bottom 40% are not much better off than Putri's household.",
-   "basis": [],
-   "accept": [
-    "the broader population is identified as about 68 million",
-    "the claim is limited to the bottom 40%"
-   ],
-   "reject": [
-    "treating hardship as limited to the bottom decile",
-    "fabricating a different population count"
-   ],
-   "evidence": "The population count comes from narration; the chart supplies the bottom-40% visual grouping."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
- "optional_valid": [],
+ "optional_valid": [
+  "U4 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+ ],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -269,28 +246,59 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "narration_only_context",
-  "reason": "A required conclusion is not directly encoded by a chart mark."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
-  {
-   "unit_id": "U4",
-   "type": "required_narrative_without_source_visual",
-   "handling": "must_be_visualized=false; preserve through narration."
-  }
- ],
+ "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "u4_downgraded_to_optional_valid_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "sequence_context": "Across this sequence, household income inequality places Dewi's family far above Putri's, translates into unequal access to clean water, and affects a broader low-income population than the poorest decile alone.",
  "related_clips": [
   "bar_110",
   "bar_111",
   "bar_112"
- ]
+ ],
+ "optional_units": [
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "identity",
+   "must_be_visualized": false,
+   "claim": "About 68 million Indonesians in the bottom 40% are not much better off than Putri's household.",
+   "basis": [],
+   "accept": [
+    "the broader population is identified as about 68 million",
+    "the claim is limited to the bottom 40%"
+   ],
+   "reject": [
+    "treating hardship as limited to the bottom decile",
+    "fabricating a different population count"
+   ],
+   "evidence": "The population count comes from narration; the chart supplies the bottom-40% visual grouping.",
+   "status": "optional_valid",
+   "optional_reason": "U4 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R4",
+   "question": "What does the selected chart show?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ]
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

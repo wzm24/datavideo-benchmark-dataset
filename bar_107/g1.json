@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_107",
  "version": "g1_r_u_v4",
- "intent": "To contextualize the massive financial impact of increased tax cheating by comparing lost tax revenue to the Department of Education's annual budget.",
+ "intent": "Compare the Department of Education's annual budget with the tax revenue lost under a scenario of increased cheating, and determine how the two amounts relate.",
  "requirements": [
   {
    "id": "R1",
@@ -129,5 +129,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

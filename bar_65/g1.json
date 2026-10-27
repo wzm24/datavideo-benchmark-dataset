@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_65",
  "version": "g1_r_u_v4",
- "intent": "Show that the General Motors CEO received unusually high compensation in 2018 compared with her counterparts at Volkswagen and Toyota.",
+ "intent": "Compare the 2018 CEO compensation at General Motors, Volkswagen, and Toyota, and determine how the three levels rank against one another.",
  "requirements": [
   {
    "id": "R1",
@@ -145,5 +145,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

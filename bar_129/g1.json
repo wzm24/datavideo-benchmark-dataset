@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_129",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the correlation between the escalating nuclear arms race and the corresponding increase in potential casualties during a worst-case scenario.",
+ "intent": "Compare the USA, Russian, and other nuclear stockpile trajectories from 1950 through 1985.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do USA, Russian, and other stockpiles change from 1950 through 1985?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -35,177 +35,156 @@
    "claim": "All 21 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "1175",
-     "unit": "warheads",
      "entity": "1950",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 1175,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "2609",
-     "unit": "warheads",
      "entity": "1955",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 2609,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "325",
-     "unit": "warheads",
      "entity": "1955",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 325,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "18399",
-     "unit": "warheads",
      "entity": "1960",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 18399,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "1627",
-     "unit": "warheads",
      "entity": "1960",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 1627,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "544",
-     "unit": "warheads",
      "entity": "1960",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 544,
+     "unit": "warheads",
+     "series": "Other"
     },
     {
-     "field": "value",
-     "value": "25190",
-     "unit": "warheads",
      "entity": "1965",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 25190,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "5039",
-     "unit": "warheads",
      "entity": "1965",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 5039,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "916",
-     "unit": "warheads",
      "entity": "1965",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 916,
+     "unit": "warheads",
+     "series": "Other"
     },
     {
-     "field": "value",
-     "value": "20316",
-     "unit": "warheads",
      "entity": "1970",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 20316,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "16253",
-     "unit": "warheads",
      "entity": "1970",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 16253,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "1627",
-     "unit": "warheads",
      "entity": "1970",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 1627,
+     "unit": "warheads",
+     "series": "Other"
     },
     {
-     "field": "value",
-     "value": "14281",
-     "unit": "warheads",
      "entity": "1975",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 14281,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "30940",
-     "unit": "warheads",
      "entity": "1975",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 30940,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "2377",
-     "unit": "warheads",
      "entity": "1975",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 2377,
+     "unit": "warheads",
+     "series": "Other"
     },
     {
-     "field": "value",
-     "value": "21884",
-     "unit": "warheads",
      "entity": "1980",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 21884,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "35131",
-     "unit": "warheads",
      "entity": "1980",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 35131,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "578",
-     "unit": "warheads",
      "entity": "1980",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 578,
+     "unit": "warheads",
+     "series": "Other"
     },
     {
-     "field": "value",
-     "value": "22182",
-     "unit": "warheads",
      "entity": "1985",
-     "series": "USA",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 22182,
+     "unit": "warheads",
+     "series": "USA"
     },
     {
-     "field": "value",
-     "value": "35543",
-     "unit": "warheads",
      "entity": "1985",
-     "series": "Russia",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 35543,
+     "unit": "warheads",
+     "series": "Russia"
     },
     {
-     "field": "value",
-     "value": "1036",
-     "unit": "warheads",
      "entity": "1985",
-     "series": "Other",
-     "metric": "nuclear_warheads"
+     "field": "nuclear_warheads",
+     "value": 1036,
+     "unit": "warheads",
+     "series": "Other"
     }
    ],
    "accept": [
     "all 21 required data marks are visible in the final chart state",
-    "every grouped bar and every stacked segment is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -217,168 +196,107 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "In 1985, the USA and Russia dominated the displayed nuclear stockpile, with the Other group much smaller.",
+   "claim": "USA peaks at 25,190 in 1965 and falls to 22,182 by 1985; Russia rises from 325 in 1955 to 35,543 in 1985; Other peaks at 2,377 in 1975 and remains below 2,400.",
    "basis": [
     {
      "entity": "1950",
+     "series": "USA",
      "field": "nuclear_warheads",
-     "value": "1175",
-     "unit": "warheads",
-     "series": "USA"
+     "value": 1175,
+     "unit": "warheads"
     },
     {
      "entity": "1955",
+     "series": "USA",
      "field": "nuclear_warheads",
-     "value": "2609",
-     "unit": "warheads",
-     "series": "USA"
+     "value": 2609,
+     "unit": "warheads"
     },
     {
      "entity": "1955",
+     "series": "Russia",
      "field": "nuclear_warheads",
-     "value": "325",
-     "unit": "warheads",
-     "series": "Russia"
+     "value": 325,
+     "unit": "warheads"
     },
     {
      "entity": "1960",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "18399",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1960",
-     "field": "nuclear_warheads",
-     "value": "1627",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1960",
-     "field": "nuclear_warheads",
-     "value": "544",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 544,
+     "unit": "warheads"
     },
     {
      "entity": "1965",
+     "series": "USA",
      "field": "nuclear_warheads",
-     "value": "25190",
-     "unit": "warheads",
-     "series": "USA"
+     "value": 25190,
+     "unit": "warheads"
     },
     {
      "entity": "1965",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "5039",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1965",
-     "field": "nuclear_warheads",
-     "value": "916",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 916,
+     "unit": "warheads"
     },
     {
      "entity": "1970",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "20316",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1970",
-     "field": "nuclear_warheads",
-     "value": "16253",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1970",
-     "field": "nuclear_warheads",
-     "value": "1627",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 1627,
+     "unit": "warheads"
     },
     {
      "entity": "1975",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "14281",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1975",
-     "field": "nuclear_warheads",
-     "value": "30940",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1975",
-     "field": "nuclear_warheads",
-     "value": "2377",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 2377,
+     "unit": "warheads"
     },
     {
      "entity": "1980",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "21884",
-     "unit": "warheads",
-     "series": "USA"
-    },
-    {
-     "entity": "1980",
-     "field": "nuclear_warheads",
-     "value": "35131",
-     "unit": "warheads",
-     "series": "Russia"
-    },
-    {
-     "entity": "1980",
-     "field": "nuclear_warheads",
-     "value": "578",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 578,
+     "unit": "warheads"
     },
     {
      "entity": "1985",
+     "series": "USA",
      "field": "nuclear_warheads",
-     "value": "22182",
-     "unit": "warheads",
-     "series": "USA"
+     "value": 22182,
+     "unit": "warheads"
     },
     {
      "entity": "1985",
+     "series": "Russia",
      "field": "nuclear_warheads",
-     "value": "35543",
-     "unit": "warheads",
-     "series": "Russia"
+     "value": 35543,
+     "unit": "warheads"
     },
     {
      "entity": "1985",
+     "series": "Other",
      "field": "nuclear_warheads",
-     "value": "1036",
-     "unit": "warheads",
-     "series": "Other"
+     "value": 1036,
+     "unit": "warheads"
     }
    ],
+   "computation": "",
    "accept": [
-    "all three 1985 groups are present",
-    "Russia is largest and Other is smallest"
+    "USA peaks in 1965 then declines",
+    "Russia reaches its maximum in 1985",
+    "Other remains far smaller"
    ],
    "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
+    "claiming USA keeps rising through 1985",
+    "omitting Russia's rise",
+    "attributing casualty counts to the table"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "The three series trajectories encode the stockpile comparison."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -405,16 +323,150 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
+  {
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "trend",
+    "must_be_visualized": true,
+    "claim": "USA peaks at 25,190 in 1965 and falls to 22,182 by 1985; Russia rises from 325 in 1955 to 35,543 in 1985; Other peaks at 2,377 in 1975 and remains below 2,400.",
+    "basis": [
+     {
+      "entity": "1950",
+      "series": "USA",
+      "field": "nuclear_warheads",
+      "value": 1175,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1955",
+      "series": "USA",
+      "field": "nuclear_warheads",
+      "value": 2609,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1955",
+      "series": "Russia",
+      "field": "nuclear_warheads",
+      "value": 325,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1960",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 544,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1965",
+      "series": "USA",
+      "field": "nuclear_warheads",
+      "value": 25190,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1965",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 916,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1970",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 1627,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1975",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 2377,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1980",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 578,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1985",
+      "series": "USA",
+      "field": "nuclear_warheads",
+      "value": 22182,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1985",
+      "series": "Russia",
+      "field": "nuclear_warheads",
+      "value": 35543,
+      "unit": "warheads"
+     },
+     {
+      "entity": "1985",
+      "series": "Other",
+      "field": "nuclear_warheads",
+      "value": 1036,
+      "unit": "warheads"
+     }
+    ],
+    "computation": "",
+    "accept": [
+     "USA peaks in 1965 then declines",
+     "Russia reaches its maximum in 1985",
+     "Other remains far smaller"
+    ],
+    "reject": [
+     "claiming USA keeps rising through 1985",
+     "omitting Russia's rise",
+     "attributing casualty counts to the table"
+    ],
+    "evidence": "The three series trajectories encode the stockpile comparison."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do USA, Russian, and other stockpiles change from 1950 through 1985?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

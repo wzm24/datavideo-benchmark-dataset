@@ -7,7 +7,8 @@
   "clip_id": "bar_34",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -57,9 +58,9 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "combined_ranking",
    "required_marks": [
     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
     "Germany | skipped_prescriptions_or_doses_due_to_cost",
@@ -71,70 +72,57 @@
     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost"
    ],
    "assertion": {
-    "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-    "greater_value": 33.453,
-    "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
-    "lesser_value": 2.137,
-    "delta": 31.316,
-    "ratio": 15.654188,
-    "expected_order": [
-     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Canada | skipped_prescriptions_or_doses_due_to_cost",
-     "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
-     "Australia | skipped_prescriptions_or_doses_due_to_cost",
-     "France | skipped_prescriptions_or_doses_due_to_cost",
-     "Germany | skipped_prescriptions_or_doses_due_to_cost",
-     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
-   "required_marks": [
-    "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
-    "Germany | skipped_prescriptions_or_doses_due_to_cost",
-    "France | skipped_prescriptions_or_doses_due_to_cost",
-    "Australia | skipped_prescriptions_or_doses_due_to_cost",
-    "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
-    "Canada | skipped_prescriptions_or_doses_due_to_cost",
-    "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
-    "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost"
-   ],
-   "assertion": {
-    "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-    "greater_value": 33.453,
-    "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
-    "lesser_value": 2.137,
-    "delta": 31.316,
-    "ratio": 15.654188,
-    "expected_order": [
-     "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
-     "Canada | skipped_prescriptions_or_doses_due_to_cost",
-     "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
-     "Australia | skipped_prescriptions_or_doses_due_to_cost",
-     "France | skipped_prescriptions_or_doses_due_to_cost",
-     "Germany | skipped_prescriptions_or_doses_due_to_cost",
-     "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+      "greater_value": 33.453,
+      "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
+      "lesser_value": 2.137,
+      "delta": 31.316,
+      "ratio": 15.654188,
+      "expected_order": [
+       "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+       "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
+       "Canada | skipped_prescriptions_or_doses_due_to_cost",
+       "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
+       "Australia | skipped_prescriptions_or_doses_due_to_cost",
+       "France | skipped_prescriptions_or_doses_due_to_cost",
+       "Germany | skipped_prescriptions_or_doses_due_to_cost",
+       "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "greater": "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+      "greater_value": 33.453,
+      "lesser": "United Kingdom | skipped_prescriptions_or_doses_due_to_cost",
+      "lesser_value": 2.137,
+      "delta": 31.316,
+      "ratio": 15.654188,
+      "expected_order": [
+       "Uninsured United States | skipped_prescriptions_or_doses_due_to_cost",
+       "Insured United States | skipped_prescriptions_or_doses_due_to_cost",
+       "Canada | skipped_prescriptions_or_doses_due_to_cost",
+       "Switzerland | skipped_prescriptions_or_doses_due_to_cost",
+       "Australia | skipped_prescriptions_or_doses_due_to_cost",
+       "France | skipped_prescriptions_or_doses_due_to_cost",
+       "Germany | skipped_prescriptions_or_doses_due_to_cost",
+       "United Kingdom | skipped_prescriptions_or_doses_due_to_cost"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

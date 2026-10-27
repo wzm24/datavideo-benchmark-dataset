@@ -1,0 +1,572 @@
+{
+  "clips": 45,
+  "by_sub_type": {
+    "grouped": 10,
+    "pictograph": 4,
+    "range_bar": 1,
+    "stacked_100": 4,
+    "stacked": 16,
+    "population_pyramid": 7,
+    "overlay_bar": 3
+  },
+  "semantic_units": 60,
+  "coverage_ok": true,
+  "hardcase_ok": true,
+  "rows": [
+    {
+      "clip": "bar_6",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "comparison"
+      ],
+      "table_bar_marks": 8,
+      "r1_basis_marks": 8,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_18",
+      "sub_type": "pictograph",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "change"
+      ],
+      "table_bar_marks": 2,
+      "r1_basis_marks": 2,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_19",
+      "sub_type": "range_bar",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "extreme"
+      ],
+      "table_bar_marks": 2,
+      "r1_basis_marks": 2,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_20",
+      "sub_type": "pictograph",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "change"
+      ],
+      "table_bar_marks": 2,
+      "r1_basis_marks": 2,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_23",
+      "sub_type": "stacked_100",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 150,
+      "r1_basis_marks": 150,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_41",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 8,
+      "r1_basis_marks": 8,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_43",
+      "sub_type": "stacked_100",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 4,
+      "r1_basis_marks": 4,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_49",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 13,
+      "r1_basis_marks": 13,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_52",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 35,
+      "r1_basis_marks": 35,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_54",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 46,
+      "r1_basis_marks": 46,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_57",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 24,
+      "r1_basis_marks": 24,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_62",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 15,
+      "r1_basis_marks": 15,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_64",
+      "sub_type": "stacked_100",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 2,
+      "r1_basis_marks": 2,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_71",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 16,
+      "r1_basis_marks": 16,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_75",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "trend"
+      ],
+      "table_bar_marks": 111,
+      "r1_basis_marks": 111,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_76",
+      "sub_type": "stacked_100",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 5,
+      "r1_basis_marks": 5,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_80",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "identity",
+        "comparison"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_88",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_89",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_90",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_91",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_101",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 40,
+      "r1_basis_marks": 40,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_104",
+      "sub_type": "overlay_bar",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "change"
+      ],
+      "table_bar_marks": 3,
+      "r1_basis_marks": 3,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_105",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 12,
+      "r1_basis_marks": 12,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_108",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "identity"
+      ],
+      "table_bar_marks": 8,
+      "r1_basis_marks": 8,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_109",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 5,
+      "unit_types": [
+        "comparison",
+        "comparison",
+        "comparison",
+        "comparison",
+        "comparison"
+      ],
+      "table_bar_marks": 16,
+      "r1_basis_marks": 16,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_118",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 10,
+      "r1_basis_marks": 10,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_119",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 10,
+      "r1_basis_marks": 10,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_120",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "ranking",
+        "ranking"
+      ],
+      "table_bar_marks": 10,
+      "r1_basis_marks": 10,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_121",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 4,
+      "r1_basis_marks": 4,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_122",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 8,
+      "r1_basis_marks": 8,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_127",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 4,
+      "r1_basis_marks": 4,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_128",
+      "sub_type": "pictograph",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 6,
+      "r1_basis_marks": 6,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_129",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "trend"
+      ],
+      "table_bar_marks": 21,
+      "r1_basis_marks": 21,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_130",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "share_or_composition"
+      ],
+      "table_bar_marks": 44,
+      "r1_basis_marks": 44,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_132",
+      "sub_type": "pictograph",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "change"
+      ],
+      "table_bar_marks": 96,
+      "r1_basis_marks": 96,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_133",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "extreme"
+      ],
+      "table_bar_marks": 38,
+      "r1_basis_marks": 38,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_138",
+      "sub_type": "grouped",
+      "orientation": "vertical",
+      "semantic_units": 3,
+      "unit_types": [
+        "trend",
+        "extreme",
+        "comparison"
+      ],
+      "table_bar_marks": 32,
+      "r1_basis_marks": 32,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_141",
+      "sub_type": "grouped",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 6,
+      "r1_basis_marks": 6,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_148",
+      "sub_type": "grouped",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 12,
+      "r1_basis_marks": 12,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_150",
+      "sub_type": "stacked",
+      "orientation": "horizontal",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 16,
+      "r1_basis_marks": 16,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_151",
+      "sub_type": "stacked",
+      "orientation": "vertical",
+      "semantic_units": 1,
+      "unit_types": [
+        "comparison"
+      ],
+      "table_bar_marks": 36,
+      "r1_basis_marks": 36,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_155",
+      "sub_type": "overlay_bar",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "identity"
+      ],
+      "table_bar_marks": 3,
+      "r1_basis_marks": 3,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_156",
+      "sub_type": "overlay_bar",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "identity"
+      ],
+      "table_bar_marks": 2,
+      "r1_basis_marks": 2,
+      "hardcase": true
+    },
+    {
+      "clip": "bar_163",
+      "sub_type": "population_pyramid",
+      "orientation": "horizontal",
+      "semantic_units": 2,
+      "unit_types": [
+        "comparison",
+        "trend"
+      ],
+      "table_bar_marks": 200,
+      "r1_basis_marks": 200,
+      "hardcase": true
+    }
+  ]
+}

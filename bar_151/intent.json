@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_151",
- "intent_en": "To demonstrate that the recent increase in public confidence in scientists is uneven, driven primarily by Democrats while Republican confidence has remained stagnant or declined, highlighting a widening political divide.",
- "previous_intent": "To demonstrate the widening political divide in trust toward scientists, highlighting that Democrats have experienced a growing sense of confidence while Republicans have remained relatively stagnant.",
+ "intent_en": "Analyze public confidence in medical scientists and scientists across the three survey waves, comparing U.S. adults overall with Republican and Democratic leaners, and determine how the partisan groups differ over time.",
  "narration_support": "public confidence has ticked up but there's a big caveat to that and that the uptick has not been uniform across Americans. We're seeing primarily Democrats have a growing sense of confidence in scientists to act in the best interests of the public whereas Republicans have stayed about the same.",
  "chart_support": "Grouped stacked bar chart displaying confidence levels in scientists and medical scientists for U.S. adults, Republicans, and Democrats across three time points, illustrating a divergence where Democratic confidence (especially 'great deal') increases significantly while Republican confidence decreases or stays flat.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate that the recent increase in public confidence in scientists is uneven, driven primarily by Democrats while Republican confidence has remained stagnant or declined, highlighting a widening political divide.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze public confidence in medical scientists and scientists across the three survey waves, comparing U.S. adults overall with Republican and Democratic leaners, and determine how the partisan groups differ over time.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

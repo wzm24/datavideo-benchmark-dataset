@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_94",
  "version": "g1_r_u_v4",
- "intent": "Compare research-and-development spending as a share of GDP and show Israel ranking just below South Korea.",
+ "intent": "Rank R&D spending as a share of GDP across the four listed entities.",
  "requirements": [
   {
    "id": "R1",
@@ -77,9 +77,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Israel is shown just below South Korea and above Japan and Finland; the narration gives Israel about 4.5% of GDP.",
+   "claim": "South Korea ranks first, Israel second, Japan third, and Finland fourth in the displayed relative R&D measure.",
    "basis": [
     {
      "entity": "South Korea",
@@ -155,5 +155,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

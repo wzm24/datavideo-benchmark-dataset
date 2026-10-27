@@ -7,7 +7,8 @@
   "clip_id": "bar_54",
   "family": "bar",
   "sub_type": "stacked",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -95,9 +96,9 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "share_or_composition",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "Poorest | Income taxes | share_of_income",
     "10th | Income taxes | share_of_income",
@@ -115,192 +116,173 @@
     "Richest | Consumption taxes | share_of_income"
    ],
    "assertion": {
-    "compositions": [
-     {
-      "entity": "Poorest",
-      "segments": [
-       {
-        "mark": "Poorest | Income taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "Poorest | Corporate and property taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "Poorest | Payroll taxes | share_of_income",
-        "value": 10.6
-       },
-       {
-        "mark": "Poorest | Consumption taxes | share_of_income",
-        "value": 12.5
-       }
-      ],
-      "total": 25.1
-     },
-     {
-      "entity": "10th",
-      "segments": [
-       {
-        "mark": "10th | Income taxes | share_of_income",
-        "value": 18.0
-       },
-       {
-        "mark": "10th | Corporate and property taxes | share_of_income",
-        "value": 9.2
-       },
-       {
-        "mark": "10th | Estate taxes | share_of_income",
-        "value": 0.3
-       },
-       {
-        "mark": "10th | Payroll taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "10th | Consumption taxes | share_of_income",
-        "value": 3.0
-       }
-      ],
-      "total": 31.5
-     },
-     {
-      "entity": "Richest",
-      "segments": [
-       {
-        "mark": "Richest | Income taxes | share_of_income",
-        "value": 10.0
-       },
-       {
-        "mark": "Richest | Corporate and property taxes | share_of_income",
-        "value": 10.5
-       },
-       {
-        "mark": "Richest | Estate taxes | share_of_income",
-        "value": 0.8
-       },
-       {
-        "mark": "Richest | Payroll taxes | share_of_income",
-        "value": 0.4
-       },
-       {
-        "mark": "Richest | Consumption taxes | share_of_income",
-        "value": 2.0
-       }
-      ],
-      "total": 23.7
-     }
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "expected_total": 100,
-    "tolerance": 0.05
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "evidence_type": "complete_composition",
-   "required_marks": [
-    "Poorest | Income taxes | share_of_income",
-    "10th | Income taxes | share_of_income",
-    "Richest | Income taxes | share_of_income",
-    "Poorest | Corporate and property taxes | share_of_income",
-    "10th | Corporate and property taxes | share_of_income",
-    "Richest | Corporate and property taxes | share_of_income",
-    "10th | Estate taxes | share_of_income",
-    "Richest | Estate taxes | share_of_income",
-    "Poorest | Payroll taxes | share_of_income",
-    "10th | Payroll taxes | share_of_income",
-    "Richest | Payroll taxes | share_of_income",
-    "Poorest | Consumption taxes | share_of_income",
-    "10th | Consumption taxes | share_of_income",
-    "Richest | Consumption taxes | share_of_income"
-   ],
-   "assertion": {
-    "compositions": [
+    "component_assertions": [
      {
-      "entity": "Poorest",
-      "segments": [
+      "compositions": [
        {
-        "mark": "Poorest | Income taxes | share_of_income",
-        "value": 1.0
+        "entity": "Poorest",
+        "segments": [
+         {
+          "mark": "Poorest | Income taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "Poorest | Corporate and property taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "Poorest | Payroll taxes | share_of_income",
+          "value": 10.6
+         },
+         {
+          "mark": "Poorest | Consumption taxes | share_of_income",
+          "value": 12.5
+         }
+        ],
+        "total": 25.1
        },
        {
-        "mark": "Poorest | Corporate and property taxes | share_of_income",
-        "value": 1.0
+        "entity": "10th",
+        "segments": [
+         {
+          "mark": "10th | Income taxes | share_of_income",
+          "value": 18.0
+         },
+         {
+          "mark": "10th | Corporate and property taxes | share_of_income",
+          "value": 9.2
+         },
+         {
+          "mark": "10th | Estate taxes | share_of_income",
+          "value": 0.3
+         },
+         {
+          "mark": "10th | Payroll taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "10th | Consumption taxes | share_of_income",
+          "value": 3.0
+         }
+        ],
+        "total": 31.5
        },
        {
-        "mark": "Poorest | Payroll taxes | share_of_income",
-        "value": 10.6
-       },
-       {
-        "mark": "Poorest | Consumption taxes | share_of_income",
-        "value": 12.5
+        "entity": "Richest",
+        "segments": [
+         {
+          "mark": "Richest | Income taxes | share_of_income",
+          "value": 10.0
+         },
+         {
+          "mark": "Richest | Corporate and property taxes | share_of_income",
+          "value": 10.5
+         },
+         {
+          "mark": "Richest | Estate taxes | share_of_income",
+          "value": 0.8
+         },
+         {
+          "mark": "Richest | Payroll taxes | share_of_income",
+          "value": 0.4
+         },
+         {
+          "mark": "Richest | Consumption taxes | share_of_income",
+          "value": 2.0
+         }
+        ],
+        "total": 23.7
        }
       ],
-      "total": 25.1
+      "expected_total": 100,
+      "tolerance": 0.05
      },
      {
-      "entity": "10th",
-      "segments": [
+      "compositions": [
        {
-        "mark": "10th | Income taxes | share_of_income",
-        "value": 18.0
+        "entity": "Poorest",
+        "segments": [
+         {
+          "mark": "Poorest | Income taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "Poorest | Corporate and property taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "Poorest | Payroll taxes | share_of_income",
+          "value": 10.6
+         },
+         {
+          "mark": "Poorest | Consumption taxes | share_of_income",
+          "value": 12.5
+         }
+        ],
+        "total": 25.1
        },
        {
-        "mark": "10th | Corporate and property taxes | share_of_income",
-        "value": 9.2
+        "entity": "10th",
+        "segments": [
+         {
+          "mark": "10th | Income taxes | share_of_income",
+          "value": 18.0
+         },
+         {
+          "mark": "10th | Corporate and property taxes | share_of_income",
+          "value": 9.2
+         },
+         {
+          "mark": "10th | Estate taxes | share_of_income",
+          "value": 0.3
+         },
+         {
+          "mark": "10th | Payroll taxes | share_of_income",
+          "value": 1.0
+         },
+         {
+          "mark": "10th | Consumption taxes | share_of_income",
+          "value": 3.0
+         }
+        ],
+        "total": 31.5
        },
        {
-        "mark": "10th | Estate taxes | share_of_income",
-        "value": 0.3
-       },
-       {
-        "mark": "10th | Payroll taxes | share_of_income",
-        "value": 1.0
-       },
-       {
-        "mark": "10th | Consumption taxes | share_of_income",
-        "value": 3.0
+        "entity": "Richest",
+        "segments": [
+         {
+          "mark": "Richest | Income taxes | share_of_income",
+          "value": 10.0
+         },
+         {
+          "mark": "Richest | Corporate and property taxes | share_of_income",
+          "value": 10.5
+         },
+         {
+          "mark": "Richest | Estate taxes | share_of_income",
+          "value": 0.8
+         },
+         {
+          "mark": "Richest | Payroll taxes | share_of_income",
+          "value": 0.4
+         },
+         {
+          "mark": "Richest | Consumption taxes | share_of_income",
+          "value": 2.0
+         }
+        ],
+        "total": 23.7
        }
       ],
-      "total": 31.5
-     },
-     {
-      "entity": "Richest",
-      "segments": [
-       {
-        "mark": "Richest | Income taxes | share_of_income",
-        "value": 10.0
-       },
-       {
-        "mark": "Richest | Corporate and property taxes | share_of_income",
-        "value": 10.5
-       },
-       {
-        "mark": "Richest | Estate taxes | share_of_income",
-        "value": 0.8
-       },
-       {
-        "mark": "Richest | Payroll taxes | share_of_income",
-        "value": 0.4
-       },
-       {
-        "mark": "Richest | Consumption taxes | share_of_income",
-        "value": 2.0
-       }
-      ],
-      "total": 23.7
+      "expected_total": 100,
+      "tolerance": 0.05
      }
-    ],
-    "expected_total": 100,
-    "tolerance": 0.05
+    ]
    },
    "accepted_routes": [
     "geometry",

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_13",
  "version": "g1_r_u_v4",
- "intent": "Show how the initial population projection overshot the actual level, and convey the uncertainty in the forecasts.",
+ "intent": "Compare the initial population projection with the actual population level and determine how the two figures differ.",
  "requirements": [
   {
    "id": "R1",
@@ -175,5 +175,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_12",
  "version": "g1_r_u_v4",
- "intent": "Show how much UKIP membership surged between July and August 2018.",
+ "intent": "Analyze UKIP membership between July and August 2018 and determine how much it changed over that one-month period.",
  "requirements": [
   {
    "id": "R1",
@@ -87,7 +87,7 @@
     "wrong months"
    ],
    "evidence": "The August bar is 15% taller than July, and the +15% / 3,200 callout is visible.",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -151,5 +151,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

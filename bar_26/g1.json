@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_26",
  "version": "g1_r_u_v4",
- "intent": "Show that the share of colleges giving considerable importance to SAT scores increased between 1993 and 2005.",
+ "intent": "Analyze how the share of colleges giving considerable importance to SAT scores changed between 1993 and 2005, and determine the direction of that change.",
  "requirements": [
   {
    "id": "R1",
@@ -77,7 +77,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "claim": "The share of colleges giving considerable importance to SAT scores rises from 46% in 1993 to 59% in 2005, a 13-percentage-point increase.",
    "accept": [
@@ -145,5 +145,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

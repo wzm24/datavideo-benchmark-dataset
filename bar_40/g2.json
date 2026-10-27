@@ -7,7 +7,8 @@
   "clip_id": "bar_40",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,49 +54,48 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "MY WEALTH | wealth_level",
-    "FRIEND'S WEALTH | wealth_level"
-   ],
-   "assertion": {
-    "greater": "FRIEND'S WEALTH | wealth_level",
-    "greater_value": 1.0,
-    "lesser": "MY WEALTH | wealth_level",
-    "lesser_value": 0.235,
-    "delta": 0.765,
-    "ratio": 4.255319,
-    "expected_order": [
-     "FRIEND'S WEALTH | wealth_level",
-     "MY WEALTH | wealth_level"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "evidence_type": "not_required",
-   "required_marks": [
+    "FRIEND'S WEALTH | wealth_level",
     "MY WEALTH | income_tax_burden",
     "FRIEND'S WEALTH | income_tax_burden"
    ],
    "assertion": {
-    "required": false,
-    "reason": "narrative-only unit"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
+    ],
+    "component_assertions": [
+     {
+      "greater": "FRIEND'S WEALTH | wealth_level",
+      "greater_value": 1.0,
+      "lesser": "MY WEALTH | wealth_level",
+      "lesser_value": 0.235,
+      "delta": 0.765,
+      "ratio": 4.255319,
+      "expected_order": [
+       "FRIEND'S WEALTH | wealth_level",
+       "MY WEALTH | wealth_level"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "expected_equal": true,
+      "values": {
+       "MY WEALTH": 1.0,
+       "FRIEND'S WEALTH": 1.0
+      }
+     }
+    ]
    },
    "accepted_routes": [
-    "narration"
+    "geometry",
+    "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

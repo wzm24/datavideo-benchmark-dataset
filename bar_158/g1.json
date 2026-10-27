@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_158",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the timeline and expiration of key US-Russia nuclear treaties, providing context for the reassessment of arms control and the potential for new arms races.",
+ "intent": "Compare the active periods of five US-Russia nuclear treaties using their start and end years.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "Should the video explicitly show equal relative values, or may it omit them?",
+   "question": "How do the active periods of the five treaties compare?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -35,44 +35,39 @@
    "claim": "All 5 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "0.0333",
-     "unit": "relative",
-     "entity": "US-Russia Nuclear Treaties",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0333",
-     "unit": "relative",
      "entity": "ANTI-BALLISTIC MISSILE TREATY",
-     "metric": "value"
+     "field": "active_period",
+     "value": 30,
+     "unit": "years"
     },
     {
-     "field": "value",
-     "value": "0.0333",
-     "unit": "relative",
      "entity": "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY",
-     "metric": "value"
+     "field": "active_period",
+     "value": 32,
+     "unit": "years"
     },
     {
-     "field": "value",
-     "value": "0.0333",
-     "unit": "relative",
      "entity": "START I",
-     "metric": "value"
+     "field": "active_period",
+     "value": 18,
+     "unit": "years"
     },
     {
-     "field": "value",
-     "value": "0.0333",
-     "unit": "relative",
      "entity": "SORT",
-     "metric": "value"
+     "field": "active_period",
+     "value": 10,
+     "unit": "years"
+    },
+    {
+     "entity": "NEW START",
+     "field": "active_period",
+     "value": 11,
+     "unit": "years"
     }
    ],
    "accept": [
     "all 5 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -84,55 +79,62 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "All listed entities share the same relative_value (0.0333), so no entity is ranked or sized above another in this data field.",
+   "claim": "The treaty periods are 1972–2002, 1987–2019, 1991–2009, 2002–2012, and 2010–2021; NEW START ends latest and SORT is shortest at 10 years.",
    "basis": [
     {
-     "entity": "US-Russia Nuclear Treaties",
-     "x": "n/a",
-     "field": "relative_value",
-     "value": 0.0333,
-     "note": "same relative_value as all other listed entities"
-    },
-    {
      "entity": "ANTI-BALLISTIC MISSILE TREATY",
-     "x": "n/a",
-     "field": "relative_value",
-     "value": 0.0333,
-     "note": "same relative_value as all other listed entities"
+     "field": "active_period",
+     "start_year": 1972,
+     "end_year": 2002,
+     "value": 30,
+     "unit": "years"
     },
     {
      "entity": "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY",
-     "x": "n/a",
-     "field": "relative_value",
-     "value": 0.0333,
-     "note": "same relative_value as all other listed entities"
+     "field": "active_period",
+     "start_year": 1987,
+     "end_year": 2019,
+     "value": 32,
+     "unit": "years"
     },
     {
      "entity": "START I",
-     "x": "n/a",
-     "field": "relative_value",
-     "value": 0.0333,
-     "note": "same relative_value as all other listed entities"
+     "field": "active_period",
+     "start_year": 1991,
+     "end_year": 2009,
+     "value": 18,
+     "unit": "years"
     },
     {
      "entity": "SORT",
-     "x": "n/a",
-     "field": "relative_value",
-     "value": 0.0333,
-     "note": "same relative_value as all other listed entities"
+     "field": "active_period",
+     "start_year": 2002,
+     "end_year": 2012,
+     "value": 10,
+     "unit": "years"
+    },
+    {
+     "entity": "NEW START",
+     "field": "active_period",
+     "start_year": 2010,
+     "end_year": 2021,
+     "value": 11,
+     "unit": "years"
     }
    ],
+   "computation": "duration = end_year - start_year; compare starts, ends, and durations",
    "accept": [
-    "Every listed entity has the same relative_value, so none is larger than another.",
-    "The relative_value is identical across all listed entities."
+    "all five interval bars are present",
+    "NEW START ends latest",
+    "SORT lasts 10 years"
    ],
    "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
+    "using the old equal relative values",
+    "calling US-Russia Nuclear Treaties a separate sixth treaty"
    ],
-   "evidence": "The relative_value encoding for all listed entities must be equal (same height/length/size if encoded)."
+   "evidence": "Timeline bar starts and ends encode the active-period comparison."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -140,10 +142,7 @@
   "U1": 0.5,
   "U2": 0.5
  },
- "optional_valid": [
-  "The listed relative_values are not shares of a whole and should not be rendered as percentages (0.0333 each; sum is 0.1665).",
-  "The video may note that the intent's timeline/expiration context is not represented in this table."
- ],
+ "optional_valid": [],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -165,23 +164,94 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
-  "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
+ "hardcases": [],
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
   {
-   "unit_id": null,
-   "type": "no_explicit_bar_mark_in_reference_svg",
-   "handling": "Requires human visual inspection before semantic scoring."
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "comparison",
+    "must_be_visualized": true,
+    "claim": "The treaty periods are 1972–2002, 1987–2019, 1991–2009, 2002–2012, and 2010–2021; NEW START ends latest and SORT is shortest at 10 years.",
+    "basis": [
+     {
+      "entity": "ANTI-BALLISTIC MISSILE TREATY",
+      "field": "active_period",
+      "start_year": 1972,
+      "end_year": 2002,
+      "value": 30,
+      "unit": "years"
+     },
+     {
+      "entity": "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY",
+      "field": "active_period",
+      "start_year": 1987,
+      "end_year": 2019,
+      "value": 32,
+      "unit": "years"
+     },
+     {
+      "entity": "START I",
+      "field": "active_period",
+      "start_year": 1991,
+      "end_year": 2009,
+      "value": 18,
+      "unit": "years"
+     },
+     {
+      "entity": "SORT",
+      "field": "active_period",
+      "start_year": 2002,
+      "end_year": 2012,
+      "value": 10,
+      "unit": "years"
+     },
+     {
+      "entity": "NEW START",
+      "field": "active_period",
+      "start_year": 2010,
+      "end_year": 2021,
+      "value": 11,
+      "unit": "years"
+     }
+    ],
+    "computation": "duration = end_year - start_year; compare starts, ends, and durations",
+    "accept": [
+     "all five interval bars are present",
+     "NEW START ends latest",
+     "SORT lasts 10 years"
+    ],
+    "reject": [
+     "using the old equal relative values",
+     "calling US-Russia Nuclear Treaties a separate sixth treaty"
+    ],
+    "evidence": "Timeline bar starts and ends encode the active-period comparison."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do the active periods of the five treaties compare?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

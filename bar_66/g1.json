@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_66",
  "version": "g1_r_u_v4",
- "intent": "Show the corporate tax rate falling from 37% to 21%, and the expectation that workers would benefit from reinvestment.",
+ "intent": "Compare the corporate tax rate before and after the tax cut and describe the change.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "What did supporters predict would happen after the tax cut?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -105,34 +97,16 @@
     "treating the rates as dollar amounts"
    ],
    "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "Supporters expected corporations to reinvest the savings and workers to benefit most.",
-   "basis": [],
-   "accept": [
-    "the reinvestment expectation is stated",
-    "workers are described as the main intended beneficiaries"
-   ],
-   "reject": [
-    "claiming the chart proves the prediction already occurred",
-    "claiming workers received the tax cut directly"
-   ],
-   "evidence": "Narration-only context; do not invent a chart mark for it.",
-   "hardcase": true,
-   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
- "optional_valid": [],
+ "optional_valid": [
+  "U3 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
+ ],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -164,10 +138,45 @@
  ],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "u3_downgraded_to_optional_valid_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "optional_units": [
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": false,
+   "claim": "Supporters expected corporations to reinvest the savings and workers to benefit most.",
+   "basis": [],
+   "accept": [
+    "the reinvestment expectation is stated",
+    "workers are described as the main intended beneficiaries"
+   ],
+   "reject": [
+    "claiming the chart proves the prediction already occurred",
+    "claiming workers received the tax cut directly"
+   ],
+   "evidence": "Narration-only context; do not invent a chart mark for it.",
+   "hardcase": true,
+   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark.",
+   "status": "optional_valid",
+   "optional_reason": "U3 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "What did supporters predict would happen after the tax cut?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

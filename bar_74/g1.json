@@ -24,14 +24,6 @@
    "unit_ids": [
     "U2"
    ]
-  },
-  {
-   "id": "R3",
-   "question": "What point does Subway's scale make?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
   }
  ],
  "units": [
@@ -85,9 +77,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "The ranking is Subway > McDonald's > Starbucks > KFC, with about 43,000, 37,000, 30,000, and 20,000 locations.",
+   "claim": "Subway ranks first with about 43,000 locations, followed by McDonald's 37,000, Starbucks 30,000, and KFC 20,000.",
    "basis": [
     {
      "entity": "KFC",
@@ -117,63 +109,24 @@
    "accept": [
     "all four chains are present",
     "the lengths preserve the four counts",
-    "Subway is the largest"
-   ],
-   "reject": [
-    "reversing the ranking",
-    "omitting Subway",
-    "using revenue instead of locations"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Subway's roughly 43,000 locations make it the largest network shown, noticeably ahead of McDonald's.",
-   "basis": [
-    {
-     "entity": "KFC",
-     "field": "global_locations",
-     "value": 20000.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "Starbucks",
-     "field": "global_locations",
-     "value": 30000.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "McDonald's",
-     "field": "global_locations",
-     "value": 37000.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "Subway",
-     "field": "global_locations",
-     "value": 43000.0,
-     "unit": "locations"
-    }
-   ],
-   "accept": [
+    "Subway is the largest",
     "Subway is explicitly identified as the largest",
     "McDonald's is visible as the next-largest bar"
    ],
    "reject": [
+    "reversing the ranking",
+    "omitting Subway",
+    "using revenue instead of locations",
     "omitting the highest bar",
     "claiming Subway is smaller than McDonald's"
    ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
+   "evidence": "The selected keyframe and plotted marks encode this relation. The selected keyframe and plotted marks encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -201,10 +154,12 @@
  "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

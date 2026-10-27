@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_61",
  "version": "g1_r_u_v4",
- "intent": "Show that US annual job creation declined sharply from the 1960s through the 2000s.",
+ "intent": "Analyze how annual job creation in the US changed across the decades from the 1960s through the 2000s, and determine the direction of the trend.",
  "requirements": [
   {
    "id": "R1",
@@ -97,7 +97,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "Job creation declines from about 30% of the y-axis scale in the 1960s to about 1% in the 2000s.",
    "basis": [
@@ -187,5 +187,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

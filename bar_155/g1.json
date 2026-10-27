@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_155",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the substantial unfunded pension liability gap by contrasting reported financial figures with actual liability estimates.",
+ "intent": "Compare reported pension assets and liabilities with actual liabilities and determine the unfunded gap.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do reported assets and liabilities compare with actual liabilities and the unfunded gap?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "What is the unfunded gap between actual liabilities and reported assets?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -75,24 +83,24 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Reported pension assets are $3.6T versus reported liabilities $4.8T, while actual liabilities reach $7.0T.",
+   "claim": "Reported assets are $3.6T, reported liabilities $4.8T, and actual liabilities $7.0T.",
    "basis": [
     {
      "entity": "Reported assets",
      "field": "pension_assets",
-     "value": "3.6",
+     "value": 3.6,
      "unit": "trillion USD"
     },
     {
      "entity": "Reported liabilities",
      "field": "pension_liabilities",
-     "value": "4.8",
+     "value": 4.8,
      "unit": "trillion USD"
     },
     {
      "entity": "Actual liabilities",
      "field": "pension_liabilities",
-     "value": "7.0",
+     "value": 7.0,
      "unit": "trillion USD"
     }
    ],
@@ -106,12 +114,49 @@
     "using fabricated values"
    ],
    "evidence": "The selected keyframe and plotted data encode this relation."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": true,
+   "claim": "The unfunded gap is 3.4T, calculated as 7.0T actual liabilities minus 3.6T reported assets.",
+   "basis": [
+    {
+     "entity": "Reported assets",
+     "field": "pension_assets",
+     "value": 3.6,
+     "unit": "trillion USD"
+    },
+    {
+     "entity": "Actual liabilities",
+     "field": "pension_liabilities",
+     "value": 7.0,
+     "unit": "trillion USD"
+    },
+    {
+     "entity": "Unfunded gap",
+     "field": "pension_gap",
+     "value": 3.4,
+     "unit": "trillion USD"
+    }
+   ],
+   "accept": [
+    "the gap mark or annotation is visible as $3.4T",
+    "7.0 - 3.6 = 3.4"
+   ],
+   "reject": [
+    "omitting the gap annotation",
+    "using a different asset or liability basis"
+   ],
+   "evidence": "The unfunded-gap annotation connects actual liabilities to reported assets."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -132,9 +177,9 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
@@ -143,5 +188,15 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "overlay_bar"
+  ],
+  "chart_sub_type": "overlay_bar",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

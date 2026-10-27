@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_83",
  "version": "g1_r_u_v4",
- "intent": "Show how much larger the beer market is than the cannabis market, explaining alcohol-industry opposition to marijuana.",
+ "intent": "Compare cannabis and beer revenue and describe the difference in their market sizes.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Why does the alcohol industry oppose marijuana?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -73,7 +65,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Beer revenue is much larger than the small cannabis bar.",
+   "claim": "Beer revenue is about 20 times cannabis revenue.",
    "basis": [
     {
      "entity": "Cannabis",
@@ -90,8 +82,8 @@
    ],
    "accept": [
     "both categories are present",
-    "Beer is much taller",
-    "Cannabis is a small fraction of Beer"
+    "Beer is shown as much larger than Cannabis",
+    "the magnitude is consistent with roughly 20 times"
    ],
    "reject": [
     "reversing the comparison",
@@ -99,34 +91,16 @@
     "claiming the bars are equal"
    ],
    "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "The narration frames cannabis as a serious threat to alcohol sales.",
-   "basis": [],
-   "accept": [
-    "alcohol is described as opposing marijuana",
-    "the threat to sales is stated"
-   ],
-   "reject": [
-    "claiming the chart proves causation by itself",
-    "reversing the industry positions"
-   ],
-   "evidence": "Narration-only context; do not invent a chart mark for it.",
-   "hardcase": true,
-   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
- "optional_valid": [],
+ "optional_valid": [
+  "U3 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+ ],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -145,23 +119,56 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "narration_only_context",
-  "reason": "At least one required claim is not directly represented by a chart mark."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
-  {
-   "unit_id": "U3",
-   "type": "required_narrative_without_source_visual",
-   "handling": "must_be_visualized=false; preserve the point through narration."
-  }
- ],
+ "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "u3_downgraded_to_optional_valid_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-27",
+ "optional_units": [
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": false,
+   "claim": "The narration frames cannabis as a serious threat to alcohol sales.",
+   "basis": [],
+   "accept": [
+    "alcohol is described as opposing marijuana",
+    "the threat to sales is stated"
+   ],
+   "reject": [
+    "claiming the chart proves causation by itself",
+    "reversing the industry positions"
+   ],
+   "evidence": "Narration-only context; do not invent a chart mark for it.",
+   "hardcase": true,
+   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark.",
+   "status": "optional_valid",
+   "optional_reason": "U3 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "Why does the alcohol industry oppose marijuana?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

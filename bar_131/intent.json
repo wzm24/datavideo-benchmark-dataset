@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_131",
- "intent_en": "To illustrate the massive scale of global nuclear arsenals that poses a threat of nuclear winter.",
- "previous_intent": "To illustrate the global distribution of nuclear warheads, highlighting the overwhelming dominance of the United States and Russia in arsenal size compared to other nations, thereby supporting the narration's assertion about sufficient destructive capacity.",
+ "intent_en": "Compare the nuclear warhead counts of the nine listed countries.",
  "narration_support": "But there are still enough bombs today to kill hundreds of millions of people, and more than enough to create the conditions of a nuclear winter.",
  "chart_support": "Chart with a horizontal bar and list showing nuclear warhead counts by country, with the United States and Russia having the longest bar segments.",
  "supported_by_narration": true,
@@ -25,10 +24,36 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
+ "status": "approved",
  "review_flags": [
-  "legacy_intent_needs_semantic_reaudit"
+  "legacy_intent_needs_semantic_reaudit",
+  "final_v1_public_intent_approved_2026_10_27",
+  "final_v1_public_intent_approved_2026_10_27",
+  "final_v1_public_intent_approved_2026_10_27",
+  "final_v1_public_intent_approved_2026_10_27"
  ],
- "approved_by": null,
- "approved_at": null
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "narrative_goal": "To illustrate the massive scale of global nuclear arsenals that poses a threat of nuclear winter.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "reviewed",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the nuclear warhead counts of the nine listed countries.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

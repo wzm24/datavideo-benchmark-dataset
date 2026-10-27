@@ -7,7 +7,8 @@
   "clip_id": "bar_142",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -33,11 +34,11 @@
    "must_be_visualized": true,
    "evidence_type": "complete_mark_set",
    "required_marks": [
-    "66% | value",
-    "62% | value",
-    "52% | value",
-    "46% | value",
-    "13% | value"
+    "The federal govt. | responsibility_share",
+    "Large businesses/corporations | responsibility_share",
+    "State governments | responsibility_share",
+    "Wealthy individuals | responsibility_share",
+    "Churches and other religious organizations | responsibility_share"
    ],
    "assertion": {
     "required_data_rows": 5,
@@ -54,67 +55,41 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "monotonic_order",
-   "required_marks": [
-    "66 | relative_value",
-    "62 | relative_value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "66 | relative_value",
-      "value": 0.3197
-     },
-     {
-      "mark": "62 | relative_value",
-      "value": 0.3003
-     }
-    ],
-    "direction": "decreasing",
-    "start_value": 0.3197,
-    "end_value": 0.3003,
-    "delta": -0.0194,
-    "ratio": 0.939318,
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
-    "66 | relative_value",
-    "62 | relative_value",
-    "52 | relative_value",
-    "46 | relative_value",
-    "13 | relative_value"
+    "The federal govt. | responsibility_share",
+    "Large businesses/corporations | responsibility_share",
+    "State governments | responsibility_share",
+    "Wealthy individuals | responsibility_share",
+    "Churches and other religious organizations | responsibility_share"
    ],
    "assertion": {
-    "greater": "66 | relative_value",
-    "greater_value": 0.3197,
-    "lesser": "13 | relative_value",
-    "lesser_value": 0.063,
-    "delta": 0.2567,
-    "ratio": 5.074603,
     "expected_order": [
-     "66 | relative_value",
-     "62 | relative_value",
-     "52 | relative_value",
-     "46 | relative_value",
-     "13 | relative_value"
+     {
+      "entity": "The federal govt.",
+      "value": 66
+     },
+     {
+      "entity": "Large businesses/corporations",
+      "value": 62
+     },
+     {
+      "entity": "State governments",
+      "value": 52
+     },
+     {
+      "entity": "Wealthy individuals",
+      "value": 46
+     },
+     {
+      "entity": "Churches and other religious organizations",
+      "value": 13
+     }
     ],
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0
     }
    },
    "accepted_routes": [

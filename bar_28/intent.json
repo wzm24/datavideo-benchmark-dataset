@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_28",
- "intent_en": "Explain how Warren's proposed wealth tax rises across wealth thresholds while affecting only the wealthiest Americans and raising substantial federal revenue.",
- "previous_intent": "To explain the tax structure and revenue potential of Senator Warren's proposed wealth tax.",
+ "intent_en": "Compare the wealth-tax rates at the two wealth thresholds and report the affected population share and potential federal revenue.",
  "narration_support": "So what would happen if we imposed Senator Warren's tax? Well, only the richest 0 .05 % of Americans would pay this tax. But in 2016, the government could have raised about $200 billion from it.",
  "chart_support": "Bar chart displaying tax rates (2%, 3%) corresponding to wealth thresholds ($60 million, $1 billion) with a value of $1.9 billion.",
  "supported_by_narration": true,
@@ -25,13 +24,32 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To explain the tax structure and revenue potential of Senator Warren's proposed wealth tax.",
+ "narrative_goal": "Explain how Warren's proposed wealth tax rises across wealth thresholds while affecting only the wealthiest Americans and raising substantial federal revenue.",
  "intent_machine": "To demonstrate the potential revenue and narrow tax base of Senator Warren's proposed wealth tax.",
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the wealth-tax rates at the two wealth thresholds and report the affected population share and potential federal revenue.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_approved_at": "2026-10-27",
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
  ]
 }

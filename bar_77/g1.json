@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_77",
  "version": "g1_r_u_v4",
- "intent": "Show that In-N-Out's 347 US locations are dwarfed by roughly 694 Whataburger, 1,388 Five Guys, and 13,880 McDonald's locations.",
+ "intent": "Compare US location counts for In-N-Out, Whataburger, Five Guys, and McDonald's.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "How extreme is McDonald's location count?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -91,7 +83,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The inferred counts are In-N-Out 347, Whataburger about 694, Five Guys about 1,388, and McDonald's about 13,880.",
+   "claim": "In-N-Out has 347 locations, Whataburger about 694, Five Guys about 1,388, and McDonald's about 13,880, about 40 times In-N-Out.",
    "basis": [
     {
      "entity": "In-N-Out",
@@ -121,63 +113,24 @@
    "accept": [
     "all four chains are present",
     "In-N-Out is 347",
-    "the other counts follow the narrated 2×, 4×, and 40× relationships"
-   ],
-   "reject": [
-    "leaving the table relative-only",
-    "reversing the ranking",
-    "treating the values as revenue"
-   ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "McDonald's has about 40 times as many US locations as In-N-Out, so its bar extends far beyond the other chains.",
-   "basis": [
-    {
-     "entity": "In-N-Out",
-     "field": "us_locations",
-     "value": 347.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "Whataburger",
-     "field": "us_locations",
-     "value": 694.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "Five Guys",
-     "field": "us_locations",
-     "value": 1388.0,
-     "unit": "locations"
-    },
-    {
-     "entity": "McDonald's",
-     "field": "us_locations",
-     "value": 13880.0,
-     "unit": "locations"
-    }
-   ],
-   "accept": [
+    "the other counts follow the narrated 2×, 4×, and 40× relationships",
     "McDonald's is visibly the largest",
     "the bar is allowed to overflow the plot to signal its scale"
    ],
    "reject": [
+    "leaving the table relative-only",
+    "reversing the ranking",
+    "treating the values as revenue",
     "scaling McDonald's down to make it comparable",
     "omitting the overflow cue"
    ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
+   "evidence": "The selected keyframe and plotted marks encode this relation. The selected keyframe and plotted marks encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -205,10 +158,12 @@
  "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

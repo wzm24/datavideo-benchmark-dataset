@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_162",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
+ "intent": "Describe the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
  "requirements": [
   {
    "id": "R1",
@@ -23,22 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Must the 2013 endpoint (31%) be explicitly conveyed?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R4",
-   "question": "Is the upward direction required as a separate unit, or is it implied by the two endpoint values?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
    ]
   }
  ],
@@ -79,9 +63,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "change",
    "must_be_visualized": true,
-   "claim": "In 2009, 14% of adult internet users posted online video.",
+   "claim": "The proportion of adult internet users posting online video rises from 14% in 2009 to 31% in 2013.",
    "basis": [
     {
      "entity": "2009",
@@ -89,52 +73,14 @@
      "field": "value",
      "value": 14,
      "note": "Table row for 2009 gives value=14 and unit=%."
-    }
-   ],
-   "accept": [
-    "14% of adult internet users posted online video in 2009.",
-    "The 2009 baseline was 14%.",
-    "In 2009, the share was 14 percent."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The 2009 value 14% must be visible or labeled."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "key_value_endpoint",
-   "must_be_visualized": true,
-   "claim": "In 2013, 31% of adult internet users posted online video.",
-   "basis": [
+    },
     {
      "entity": "2013",
      "x": "2013",
      "field": "value",
      "value": 31,
      "note": "Table row for 2013 gives value=31 and unit=%."
-    }
-   ],
-   "accept": [
-    "31% of adult internet users posted online video in 2013.",
-    "The 2013 value was 31%.",
-    "By 2013, the share had reached 31 percent."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The 2013 value 31% must be visible or labeled."
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R4",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "The proportion posting online video increased from 2009 to 2013; 2013 is higher than 2009.",
-   "basis": [
+    },
     {
      "entity": "2009",
      "x": "2009",
@@ -151,6 +97,12 @@
     }
    ],
    "accept": [
+    "14% of adult internet users posted online video in 2009.",
+    "The 2009 baseline was 14%.",
+    "In 2009, the share was 14 percent.",
+    "31% of adult internet users posted online video in 2013.",
+    "The 2013 value was 31%.",
+    "By 2013, the share had reached 31 percent.",
     "The share rose from 14% in 2009 to 31% in 2013.",
     "2013 was higher than 2009.",
     "There was an upward change over the period."
@@ -159,15 +111,13 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The visual encoding must make clear that the 2013 value exceeds the 2009 value."
+   "evidence": "The 2009 value 14% must be visible or labeled. The 2013 value 31% must be visible or labeled. The visual encoding must make clear that the 2013 value exceeds the 2009 value."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "The time span is four years: 2013 - 2009 = 4.",
@@ -194,7 +144,8 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_U4_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -212,5 +163,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

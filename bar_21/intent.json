@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_21",
- "intent_en": "Show that a potential source of government revenue could fully cover free public college and food assistance several times, while nearly meeting the higher cost of an ambitious child-poverty reduction plan.",
- "previous_intent": "To demonstrate the potential social impact of a hypothetical government revenue source by comparing the costs of free public college, food assistance, and child poverty reduction programs.",
+ "intent_en": "Compare how far the available government revenue covers the three listed policy costs and rank their spending needs.",
  "narration_support": "the government could have raised about $200 billion from it. That could pay for a plan that makes public college tuition free three times over. It could pay for all federal food assistance programs, like food stamps, two times over. It could get close to cutting child poverty by 60%.",
  "chart_support": "Horizontal bar chart comparing the relative funding requirements for free public college, food assistance, and child poverty reduction, indicating that poverty reduction requires the largest share of resources.",
  "supported_by_narration": true,
@@ -25,14 +24,33 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate the substantial social benefits and purchasing power that could be achieved with a hypothetical government revenue source.",
+ "narrative_goal": "Show that a potential source of government revenue could fully cover free public college and food assistance several times, while nearly meeting the higher cost of an ambitious child-poverty reduction plan.",
  "intent_machine": "To illustrate the substantial social benefits and purchasing power that could be achieved with a hypothetical government revenue source.",
  "chart_semantics_note": "The three bars encode relative policy spending costs. The $200 billion figure is a shared revenue baseline; three-times and two-times describe coverage, while 60% is the child-poverty reduction target, not a bar value.",
  "approved_by": "human",
- "approved_at": "2026-10-21",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare how far the available government revenue covers the three listed policy costs and rank their spending needs.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_approved_at": "2026-10-27",
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
  ]
 }

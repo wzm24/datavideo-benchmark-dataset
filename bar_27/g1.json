@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_27",
  "version": "g1_r_u_v4",
- "intent": "Show that median SAT scores rise steadily as family income increases across the seven income brackets.",
+ "intent": "Analyze how median SAT scores vary across the seven family-income brackets and determine the pattern of change from lowest to highest income.",
  "requirements": [
   {
    "id": "R1",
@@ -117,7 +117,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "Median SAT scores rise at every successive income bracket.",
    "accept": [
@@ -222,5 +222,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

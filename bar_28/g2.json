@@ -91,7 +91,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "threshold_or_crossing",
+   "unit_kind": "threshold",
    "must_be_visualized": true,
    "evidence_type": "threshold_marks",
    "required_marks": [
@@ -136,15 +136,18 @@
   },
   {
    "unit_id": "U4",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": false,
-   "evidence_type": "not_required",
+   "evidence_type": "annotation_value",
    "required_marks": [
     "Top 0.05% of Americans | population_share"
    ],
    "assertion": {
-    "required": false,
-    "reason": "narrative-only unit"
+    "expected_value": 0.05,
+    "unit": "%",
+    "tolerance": {
+     "value": 0
+    }
    },
    "accepted_routes": [
     "narration"
@@ -154,15 +157,18 @@
   },
   {
    "unit_id": "U5",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "identity",
    "must_be_visualized": false,
-   "evidence_type": "not_required",
+   "evidence_type": "annotation_value",
    "required_marks": [
     "Federal revenue | potential_revenue"
    ],
    "assertion": {
-    "required": false,
-    "reason": "narrative-only unit"
+    "expected_value": 200,
+    "unit": "billion USD",
+    "tolerance": {
+     "value": 1
+    }
    },
    "accepted_routes": [
     "narration"

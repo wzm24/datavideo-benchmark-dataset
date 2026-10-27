@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_143",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that partisan polarization in presidential approval ratings has been a persistent and growing phenomenon in American politics long before the Trump presidency.",
+ "intent": "Analyze presidential approval by party across administrations from Eisenhower through Trump, and determine how the partisan gap compares across presidents.",
  "requirements": [
   {
    "id": "R1",
@@ -486,5 +486,6 @@
  ],
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

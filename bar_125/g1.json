@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_125",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the historical trend of annual military spending and highlight the significant peak reached in 1985.",
+ "intent": "Describe the long-term trend in US defense spending from 1950 through 2010, including its major turning points.",
  "requirements": [
   {
    "id": "R1",
@@ -19,34 +19,10 @@
   },
   {
    "id": "R2",
-   "question": "Should the 1985 value be the highlighted 615.4?",
+   "question": "What major turning points define US defense spending from 1950 to 2010?",
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Is the local peak based on 656.1 rather than 615.4?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R4",
-   "question": "Must the video show the post-1985 decline?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
-   ]
-  },
-  {
-   "id": "R5",
-   "question": "Is the full 1950-2010 trend required?",
-   "relation": "single",
-   "unit_ids": [
-    "U5"
    ]
   }
  ],
@@ -59,437 +35,375 @@
    "claim": "All 61 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "150.9",
-     "unit": "billion USD",
      "entity": "1950",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 150.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "323.0",
-     "unit": "billion USD",
      "entity": "1951",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 323,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "455.0",
-     "unit": "billion USD",
      "entity": "1952",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 455,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "468.4",
-     "unit": "billion USD",
      "entity": "1953",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 468.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "404.2",
-     "unit": "billion USD",
      "entity": "1954",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 404.2,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "382.6",
-     "unit": "billion USD",
      "entity": "1955",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 382.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "387.6",
-     "unit": "billion USD",
      "entity": "1956",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 387.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "398.7",
-     "unit": "billion USD",
      "entity": "1957",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 398.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "396.3",
-     "unit": "billion USD",
      "entity": "1958",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 396.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "399.1",
-     "unit": "billion USD",
      "entity": "1959",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 399.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "389.3",
-     "unit": "billion USD",
      "entity": "1960",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 389.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "405.7",
-     "unit": "billion USD",
      "entity": "1961",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 405.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "439.6",
-     "unit": "billion USD",
      "entity": "1962",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 439.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "433.6",
-     "unit": "billion USD",
      "entity": "1963",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 433.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "419.1",
-     "unit": "billion USD",
      "entity": "1964",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 419.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "421.0",
-     "unit": "billion USD",
      "entity": "1965",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 421,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "497.8",
-     "unit": "billion USD",
      "entity": "1966",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 497.8,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "571.5",
-     "unit": "billion USD",
      "entity": "1967",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 571.5,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "589.9",
-     "unit": "billion USD",
      "entity": "1968",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 589.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "563.9",
-     "unit": "billion USD",
      "entity": "1969",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 563.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "522.6",
-     "unit": "billion USD",
      "entity": "1970",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 522.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "470.3",
-     "unit": "billion USD",
      "entity": "1971",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 470.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "469.5",
-     "unit": "billion USD",
      "entity": "1972",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 469.5,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "446.2",
-     "unit": "billion USD",
      "entity": "1973",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 446.2,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "440.4",
-     "unit": "billion USD",
      "entity": "1974",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 440.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "416.2",
-     "unit": "billion USD",
      "entity": "1975",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 416.2,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "404.9",
-     "unit": "billion USD",
      "entity": "1976",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 404.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "420.2",
-     "unit": "billion USD",
      "entity": "1977",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 420.2,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "422.8",
-     "unit": "billion USD",
      "entity": "1978",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 422.8,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "425.3",
-     "unit": "billion USD",
      "entity": "1979",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 425.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "424.3",
-     "unit": "billion USD",
      "entity": "1980",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 424.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "472.6",
-     "unit": "billion USD",
      "entity": "1981",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 472.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "558.9",
-     "unit": "billion USD",
      "entity": "1982",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 558.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "545.8",
-     "unit": "billion USD",
      "entity": "1983",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 545.8,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "574.1",
-     "unit": "billion USD",
      "entity": "1984",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 574.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "615.4",
-     "unit": "billion USD",
      "entity": "1985",
-     "metric": "us_defense_spending",
-     "label": "$615.4 billion"
+     "field": "us_defense_spending",
+     "value": 615.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "656.1",
-     "unit": "billion USD",
      "entity": "1986",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 656.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "650.7",
-     "unit": "billion USD",
      "entity": "1987",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 650.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "637.1",
-     "unit": "billion USD",
      "entity": "1988",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 637.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "631.7",
-     "unit": "billion USD",
      "entity": "1989",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 631.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "605.4",
-     "unit": "billion USD",
      "entity": "1990",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 605.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "534.9",
-     "unit": "billion USD",
      "entity": "1991",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 534.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "563.6",
-     "unit": "billion USD",
      "entity": "1992",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 563.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "533.4",
-     "unit": "billion USD",
      "entity": "1993",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 533.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "505.7",
-     "unit": "billion USD",
      "entity": "1994",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 505.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "472.4",
-     "unit": "billion USD",
      "entity": "1995",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 472.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "446.7",
-     "unit": "billion USD",
      "entity": "1996",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 446.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "444.4",
-     "unit": "billion USD",
      "entity": "1997",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 444.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "434.3",
-     "unit": "billion USD",
      "entity": "1998",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 434.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "435.4",
-     "unit": "billion USD",
      "entity": "1999",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 435.4,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "452.3",
-     "unit": "billion USD",
      "entity": "2000",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 452.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "456.0",
-     "unit": "billion USD",
      "entity": "2001",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 456,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "511.9",
-     "unit": "billion USD",
      "entity": "2002",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 511.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "582.7",
-     "unit": "billion USD",
      "entity": "2003",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 582.7,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "635.1",
-     "unit": "billion USD",
      "entity": "2004",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 635.1,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "664.3",
-     "unit": "billion USD",
      "entity": "2005",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 664.3,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "673.9",
-     "unit": "billion USD",
      "entity": "2006",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 673.9,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "691.8",
-     "unit": "billion USD",
      "entity": "2007",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 691.8,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "742.2",
-     "unit": "billion USD",
      "entity": "2008",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 742.2,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "800.6",
-     "unit": "billion USD",
      "entity": "2009",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 800.6,
+     "unit": "billion USD"
     },
     {
-     "field": "value",
-     "value": "823.5",
-     "unit": "billion USD",
      "entity": "2010",
-     "metric": "us_defense_spending"
+     "field": "us_defense_spending",
+     "value": 823.5,
+     "unit": "billion USD"
     }
    ],
    "accept": [
     "all 61 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -501,156 +415,79 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "The highlighted 1985 bar has value 615.4.",
-   "basis": [
-    {
-     "entity": "1985",
-     "x": "1985",
-     "field": "value",
-     "value": 615.4,
-     "note": "row color #2f7dff"
-    }
-   ],
-   "accept": [
-    "1985 highlighted value is 615.4",
-    "blue 1985 bar shows 615.4",
-    "the 1985 peak is about 615"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "Blue 1985 bar is labeled or tooltip shows 615.4."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "1985 full-series value 656.1 is a local peak above 1980 and 1990.",
-   "basis": [
-    {
-     "entity": "1985",
-     "x": "1985",
-     "field": "value",
-     "value": 656.1,
-     "note": "rel_value 1.0"
-    },
-    {
-     "entity": "1980",
-     "x": "1980",
-     "field": "value",
-     "value": 472.6,
-     "note": "rel_value 1.0"
-    },
-    {
-     "entity": "1990",
-     "x": "1990",
-     "field": "value",
-     "value": 631.7,
-     "note": "rel_value 1.0"
-    }
-   ],
-   "accept": [
-    "1985 peak at 656.1 tops 1980 and 1990",
-    "spending peaks in 1985 before easing",
-    "1985 is higher than adjacent years"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "1985 bar appears taller than 1980 and 1990 bars."
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R4",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "After 1985 the main series declines: 656.1, 631.7, 505.7 by 1995.",
-   "basis": [
-    {
-     "entity": "1985",
-     "x": "1985",
-     "field": "value",
-     "value": 656.1,
-     "note": "rel_value 1.0"
-    },
-    {
-     "entity": "1990",
-     "x": "1990",
-     "field": "value",
-     "value": 631.7,
-     "note": "rel_value 1.0"
-    },
-    {
-     "entity": "1995",
-     "x": "1995",
-     "field": "value",
-     "value": 505.7,
-     "note": "rel_value 1.0"
-    }
-   ],
-   "accept": [
-    "Spending falls after the 1985 peak",
-    "1990 to 1995 decline is 631.7 to 505.7",
-    "post-1985 downward trend"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "Sequence after 1985 visibly descends to 1995."
-  },
-  {
-   "id": "U5",
-   "requirement_id": "R5",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "claim": "Long-term main series rises from 323.0 in 1950 to 823.5 in 2010.",
+   "claim": "Spending rises from $150.9B in 1950 to a local high of $656.1B in 1986, falls to $434.3B in 1998, then rises to $823.5B in 2010.",
    "basis": [
     {
      "entity": "1950",
-     "x": "1950",
-     "field": "value",
-     "value": 323.0,
-     "note": "rel_value 1.0"
+     "field": "us_defense_spending",
+     "value": 150.9,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1985",
+     "field": "us_defense_spending",
+     "value": 615.4,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1986",
+     "field": "us_defense_spending",
+     "value": 656.1,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1987",
+     "field": "us_defense_spending",
+     "value": 650.7,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1997",
+     "field": "us_defense_spending",
+     "value": 444.4,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1998",
+     "field": "us_defense_spending",
+     "value": 434.3,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "1999",
+     "field": "us_defense_spending",
+     "value": 435.4,
+     "unit": "billion USD"
     },
     {
      "entity": "2010",
-     "x": "2010",
-     "field": "value",
+     "field": "us_defense_spending",
      "value": 823.5,
-     "note": "rel_value 1.0"
+     "unit": "billion USD"
     }
    ],
+   "computation": "local extrema compare adjacent years: 1985<1986>1987 and 1997>1998<1999",
    "accept": [
-    "1950 to 2010 grows from 323.0 to 823.5",
-    "overall increase of 500.5",
-    "about 2.55 times higher by 2010"
+    "all four phases are visible",
+    "1986 is a local high and 1998 is a local low",
+    "2010 is the final high point"
    ],
    "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
+    "calling 1985 the 656.1 peak",
+    "omitting the post-1986 decline",
+    "extending the series past 2010"
    ],
-   "evidence": "First and last main bars are labeled 323.0 and 823.5."
+   "evidence": "The annual bar sequence establishes the trend and its local turning points."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.2,
-  "U2": 0.2,
-  "U3": 0.2,
-  "U4": 0.2,
-  "U5": 0.2
+  "U1": 0.5,
+  "U2": 0.5
  },
- "optional_valid": [
-  "1985 highlighted row has relative_value 0.9380.",
-  "1985 bar-58 row value 691.8 if that series is used.",
-  "2010 main value 823.5 is overall maximum."
- ],
+ "optional_valid": [],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -672,23 +509,103 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
-  "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
+ "hardcases": [],
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
   {
-   "unit_id": null,
-   "type": "no_explicit_bar_mark_in_reference_svg",
-   "handling": "Requires human visual inspection before semantic scoring."
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "trend",
+    "must_be_visualized": true,
+    "claim": "Spending rises from $150.9B in 1950 to a local high of $656.1B in 1986, falls to $434.3B in 1998, then rises to $823.5B in 2010.",
+    "basis": [
+     {
+      "entity": "1950",
+      "field": "us_defense_spending",
+      "value": 150.9,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1985",
+      "field": "us_defense_spending",
+      "value": 615.4,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1986",
+      "field": "us_defense_spending",
+      "value": 656.1,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1987",
+      "field": "us_defense_spending",
+      "value": 650.7,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1997",
+      "field": "us_defense_spending",
+      "value": 444.4,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1998",
+      "field": "us_defense_spending",
+      "value": 434.3,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "1999",
+      "field": "us_defense_spending",
+      "value": 435.4,
+      "unit": "billion USD"
+     },
+     {
+      "entity": "2010",
+      "field": "us_defense_spending",
+      "value": 823.5,
+      "unit": "billion USD"
+     }
+    ],
+    "computation": "local extrema compare adjacent years: 1985<1986>1987 and 1997>1998<1999",
+    "accept": [
+     "all four phases are visible",
+     "1986 is a local high and 1998 is a local low",
+     "2010 is the final high point"
+    ],
+    "reject": [
+     "calling 1985 the 656.1 peak",
+     "omitting the post-1986 decline",
+     "extending the series past 2010"
+    ],
+    "evidence": "The annual bar sequence establishes the trend and its local turning points."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "What major turning points define US defense spending from 1950 to 2010?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_138",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the surge in imported COVID-19 cases in Taiwan during March 2020, which occurred while local community spread remained low, thereby explaining the need for new strategies.",
+ "intent": "Analyze how imported and local COVID-19 case counts compare across the March 2020 dates, tracking the imported trend over time and determining whether local cases stayed low through late March.",
  "requirements": [
   {
    "id": "R1",
@@ -353,7 +353,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "Imported cases rose sharply across March, from low single digits to late-March peaks in the 20s.",
    "basis": [
@@ -401,7 +401,7 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "claim": "Local community cases remained low throughout, with the highest local bar only 8.",
    "basis": [
@@ -536,7 +536,9 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -544,9 +546,9 @@
  "approved_at": "2026-10-22",
  "clip_hardcase": {
   "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
+  "type": "complex_chart",
   "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [
   {
@@ -554,5 +556,15 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "grouped"
+  ],
+  "chart_sub_type": "grouped",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

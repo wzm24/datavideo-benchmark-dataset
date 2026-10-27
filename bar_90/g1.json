@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_90",
  "version": "g1_r_u_v4",
- "intent": "Show Israel's population structure, emphasizing its relatively large young population and growth potential.",
+ "intent": "Analyze Israel's population distribution by age group and sex, and determine what the overall structure reveals about the share of younger versus older age groups.",
  "requirements": [
   {
    "id": "R1",
@@ -729,17 +729,29 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "batch_84_105_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "population_pyramid"
+  ],
+  "chart_sub_type": "population_pyramid",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

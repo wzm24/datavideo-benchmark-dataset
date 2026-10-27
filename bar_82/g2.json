@@ -7,7 +7,8 @@
   "clip_id": "bar_82",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,7 +54,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
@@ -86,10 +87,12 @@
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
-  },
+  }
+ ],
+ "optional_unit_evidence": [
   {
    "unit_id": "U3",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "comparison",
    "must_be_visualized": false,
    "evidence_type": "not_required",
    "required_marks": [],

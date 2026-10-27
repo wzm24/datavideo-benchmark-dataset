@@ -6,8 +6,9 @@
  "chart_input": {
   "clip_id": "bar_155",
   "family": "bar",
-  "sub_type": "stacked",
-  "orientation": "horizontal"
+  "sub_type": "overlay_bar",
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -61,20 +62,39 @@
     "Actual liabilities | pension_liabilities"
    ],
    "assertion": {
-    "greater": "Actual liabilities | pension_liabilities",
-    "greater_value": 7.0,
-    "lesser": "Reported assets | pension_assets",
-    "lesser_value": 3.6,
-    "delta": 3.4,
-    "ratio": 1.944444,
-    "expected_order": [
-     "Actual liabilities | pension_liabilities",
-     "Reported liabilities | pension_liabilities",
-     "Reported assets | pension_assets"
+    "ordered_values": [
+     3.6,
+     4.8,
+     7.0
     ],
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0.05
+    }
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "identity",
+   "must_be_visualized": true,
+   "evidence_type": "computed_gap",
+   "required_marks": [
+    "Reported assets | pension_assets",
+    "Actual liabilities | pension_liabilities",
+    "Unfunded gap | pension_gap"
+   ],
+   "assertion": {
+    "assets": 3.6,
+    "actual_liabilities": 7.0,
+    "expected_gap": 3.4,
+    "computation": "7.0 - 3.6 = 3.4",
+    "tolerance": {
+     "value": 0.05
     }
    },
    "accepted_routes": [

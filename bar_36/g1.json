@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_36",
  "version": "g1_r_u_v4",
- "intent": "Show that among Southern Black residents, those with some college had the highest net migration rate by education level.",
+ "intent": "Analyze net migration rates among Southern Black residents by education level and identify which education group had the highest rate.",
  "requirements": [
   {
    "id": "R1",
@@ -81,7 +81,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "claim": "Some college has the highest net migration rate at 27%, ahead of College graduate at 20%, High school graduate at 9%, and Less than high school at 3%.",
    "basis": [
@@ -155,5 +155,6 @@
  "status": "approved",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_139",
- "intent_en": "To demonstrate the substantial income disparity between high-earning and low-earning U.S. households in 2019.",
- "previous_intent": "To demonstrate the large income gap across U.S. households, highlighting the significant disparity between the lowest and highest income percentiles.",
+ "intent_en": "Analyze U.S. household income by percentile group in 2019 and determine how the lowest- and highest-income groups compare.",
  "narration_support": "In 2019, the incomes of families who ranked the 10th highest on this list was 13 times as much as the income of families who ranked the 10th lowest.",
  "chart_support": "Bar chart titled 'There is a large gap in income across U.S. households' showing household income at selected percentiles in 2019, with income rising sharply from the 10th to the 90th percentile.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate the substantial income disparity between high-earning and low-earning U.S. households in 2019.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze U.S. household income by percentile group in 2019 and determine how the lowest- and highest-income groups compare.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

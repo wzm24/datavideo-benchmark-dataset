@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_109",
  "version": "g1_r_u_v4",
- "intent": "To question the policy priority of vaccine boosters in high-income countries given the severe inequality in initial vaccine distribution across global income groups.",
+ "intent": "Compare booster, full-vaccination, partial-vaccination, and unvaccinated shares across the four income groups, focusing on high-income booster rollout against low-income initial vaccination.",
  "requirements": [
   {
    "id": "R1",
@@ -48,6 +48,14 @@
    "unit_ids": [
     "U5"
    ]
+  },
+  {
+   "id": "R6",
+   "question": "How do partially vaccinated shares compare across the four income groups?",
+   "relation": "single",
+   "unit_ids": [
+    "U6"
+   ]
   }
  ],
  "units": [
@@ -59,137 +67,121 @@
    "claim": "All 16 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "0.1608",
-     "unit": "relative",
      "entity": "High-income countries",
-     "series": "Boosters",
-     "metric": "value"
+     "field": "value",
+     "value": 0.1608,
+     "unit": "relative",
+     "series": "Boosters"
     },
     {
-     "field": "value",
-     "value": "0.2182",
-     "unit": "relative",
-     "entity": "Share of population vaccinated",
-     "series": "Fully vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0287",
-     "unit": "relative",
-     "entity": "Boosters",
-     "series": "Partially vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.1666",
-     "unit": "relative",
-     "entity": "Fully vaccinated",
-     "series": "Not vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0689",
-     "unit": "relative",
-     "entity": "Upper-middle income",
-     "series": "Boosters",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.3101",
-     "unit": "relative",
-     "entity": "Upper-middle income",
-     "series": "Fully vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0345",
-     "unit": "relative",
-     "entity": "Partially vaccinated",
-     "series": "Partially vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.1608",
-     "unit": "relative",
-     "entity": "Not vaccinated",
-     "series": "Not vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0057",
-     "unit": "relative",
-     "entity": "Lower-middle income",
-     "series": "Boosters",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.2239",
-     "unit": "relative",
-     "entity": "Lower-middle income",
-     "series": "Fully vaccinated",
-     "metric": "value"
-    },
-    {
-     "field": "value",
-     "value": "0.0574",
-     "unit": "relative",
      "entity": "High-income countries",
-     "series": "Partially vaccinated",
-     "metric": "value"
+     "field": "value",
+     "value": 0.2182,
+     "unit": "relative",
+     "series": "Fully vaccinated"
     },
     {
+     "entity": "High-income countries",
      "field": "value",
-     "value": "0.2871",
+     "value": 0.0287,
      "unit": "relative",
+     "series": "Partially vaccinated"
+    },
+    {
+     "entity": "High-income countries",
+     "field": "value",
+     "value": 0.1666,
+     "unit": "relative",
+     "series": "Not vaccinated"
+    },
+    {
      "entity": "Upper-middle income",
-     "series": "Not vaccinated",
-     "metric": "value"
+     "field": "value",
+     "value": 0.0689,
+     "unit": "relative",
+     "series": "Boosters"
     },
     {
+     "entity": "Upper-middle income",
      "field": "value",
-     "value": "0.0115",
+     "value": 0.3101,
      "unit": "relative",
-     "entity": "Low-income countries",
-     "series": "Boosters",
-     "metric": "value"
+     "series": "Fully vaccinated"
     },
     {
+     "entity": "Upper-middle income",
      "field": "value",
-     "value": "0.0115",
+     "value": 0.0345,
      "unit": "relative",
-     "entity": "Low-income countries",
-     "series": "Fully vaccinated",
-     "metric": "value"
+     "series": "Partially vaccinated"
     },
     {
+     "entity": "Upper-middle income",
      "field": "value",
-     "value": "0.0173",
+     "value": 0.1608,
      "unit": "relative",
-     "entity": "Low-income countries",
-     "series": "Partially vaccinated",
-     "metric": "value"
+     "series": "Not vaccinated"
     },
     {
+     "entity": "Lower-middle income",
      "field": "value",
-     "value": "0.5340",
+     "value": 0.0057,
      "unit": "relative",
+     "series": "Boosters"
+    },
+    {
+     "entity": "Lower-middle income",
+     "field": "value",
+     "value": 0.2239,
+     "unit": "relative",
+     "series": "Fully vaccinated"
+    },
+    {
+     "entity": "Lower-middle income",
+     "field": "value",
+     "value": 0.0574,
+     "unit": "relative",
+     "series": "Partially vaccinated"
+    },
+    {
+     "entity": "Lower-middle income",
+     "field": "value",
+     "value": 0.2871,
+     "unit": "relative",
+     "series": "Not vaccinated"
+    },
+    {
      "entity": "Low-income countries",
-     "series": "Not vaccinated",
-     "metric": "value"
+     "field": "value",
+     "value": 0.0115,
+     "unit": "relative",
+     "series": "Boosters"
+    },
+    {
+     "entity": "Low-income countries",
+     "field": "value",
+     "value": 0.0115,
+     "unit": "relative",
+     "series": "Fully vaccinated"
+    },
+    {
+     "entity": "Low-income countries",
+     "field": "value",
+     "value": 0.0173,
+     "unit": "relative",
+     "series": "Partially vaccinated"
+    },
+    {
+     "entity": "Low-income countries",
+     "field": "value",
+     "value": 0.534,
+     "unit": "relative",
+     "series": "Not vaccinated"
     }
    ],
    "accept": [
     "all 16 required data marks are visible in the final chart state",
-    "every grouped bar and every stacked segment is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -250,28 +242,35 @@
    "requirement_id": "R3",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Initial full vaccination is highly unequal across income groups: Upper-middle income has the highest fully vaccinated relative value (0.3101), Lower-middle income is next (0.2239), and Low-income countries is the lowest (0.0115), about 1/27 of Upper-middle and about 1/19 of Lower-middle.",
+   "claim": "Full vaccination is unequal across income groups: Upper-middle income is 0.3101, Lower-middle 0.2239, High-income 0.2182, and Low-income countries only 0.0115.",
    "basis": [
     {
+     "entity": "High-income countries",
+     "series": "Fully vaccinated",
+     "field": "value",
+     "value": 0.2182,
+     "unit": "relative"
+    },
+    {
      "entity": "Upper-middle income",
-     "x": "Fully vaccinated",
-     "field": "relative_value",
+     "series": "Fully vaccinated",
+     "field": "value",
      "value": 0.3101,
-     "note": "series Fully vaccinated"
+     "unit": "relative"
     },
     {
      "entity": "Lower-middle income",
-     "x": "Fully vaccinated",
-     "field": "relative_value",
+     "series": "Fully vaccinated",
+     "field": "value",
      "value": 0.2239,
-     "note": "series Fully vaccinated"
+     "unit": "relative"
     },
     {
      "entity": "Low-income countries",
-     "x": "Fully vaccinated",
-     "field": "relative_value",
+     "series": "Fully vaccinated",
+     "field": "value",
      "value": 0.0115,
-     "note": "series Fully vaccinated"
+     "unit": "relative"
     }
    ],
    "accept": [
@@ -290,21 +289,35 @@
    "requirement_id": "R4",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Low-income countries' Not vaccinated relative value (0.5340) is the largest among Not vaccinated entries, nearly twice Upper-middle income (0.2871).",
+   "claim": "Not-vaccinated shares are High-income 0.1666, Upper-middle 0.1608, Lower-middle 0.2871, and Low-income 0.5340; Low-income is highest.",
    "basis": [
     {
-     "entity": "Low-income countries",
-     "x": "Not vaccinated",
-     "field": "relative_value",
-     "value": 0.534,
-     "note": "series Not vaccinated"
+     "entity": "High-income countries",
+     "series": "Not vaccinated",
+     "field": "value",
+     "value": 0.1666,
+     "unit": "relative"
     },
     {
      "entity": "Upper-middle income",
-     "x": "Not vaccinated",
-     "field": "relative_value",
+     "series": "Not vaccinated",
+     "field": "value",
+     "value": 0.1608,
+     "unit": "relative"
+    },
+    {
+     "entity": "Lower-middle income",
+     "series": "Not vaccinated",
+     "field": "value",
      "value": 0.2871,
-     "note": "series Not vaccinated"
+     "unit": "relative"
+    },
+    {
+     "entity": "Low-income countries",
+     "series": "Not vaccinated",
+     "field": "value",
+     "value": 0.534,
+     "unit": "relative"
     }
    ],
    "accept": [
@@ -357,15 +370,62 @@
     "reversing the direction or values"
    ],
    "evidence": "The chart must show High-income countries' booster relative and Low-income countries' fully/partially vaccinated relative in a comparable way, so the high-income booster value visibly exceeds the low-income initial-dose values."
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R6",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Partially vaccinated shares are Lower-middle 0.0574, Upper-middle 0.0345, High-income 0.0287, and Low-income 0.0173.",
+   "basis": [
+    {
+     "entity": "High-income countries",
+     "series": "Partially vaccinated",
+     "field": "value",
+     "value": 0.0287,
+     "unit": "relative"
+    },
+    {
+     "entity": "Upper-middle income",
+     "series": "Partially vaccinated",
+     "field": "value",
+     "value": 0.0345,
+     "unit": "relative"
+    },
+    {
+     "entity": "Lower-middle income",
+     "series": "Partially vaccinated",
+     "field": "value",
+     "value": 0.0574,
+     "unit": "relative"
+    },
+    {
+     "entity": "Low-income countries",
+     "series": "Partially vaccinated",
+     "field": "value",
+     "value": 0.0173,
+     "unit": "relative"
+    }
+   ],
+   "accept": [
+    "all four partial-vaccination marks are identifiable",
+    "Lower-middle income is highest at 0.0574"
+   ],
+   "reject": [
+    "omitting an income group",
+    "confusing partial vaccination with boosters"
+   ],
+   "evidence": "The purple partial-vaccination segments encode all four groups."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.2,
-  "U2": 0.2,
-  "U3": 0.2,
-  "U4": 0.2,
-  "U5": 0.2
+  "U1": 0.1666666667,
+  "U2": 0.1666666667,
+  "U3": 0.1666666667,
+  "U4": 0.1666666667,
+  "U5": 0.1666666667,
+  "U6": 0.1666666667
  },
  "optional_valid": [
   "Upper-middle income has the highest Fully vaccinated relative value (0.3101) among Fully vaccinated entries.",
@@ -393,7 +453,10 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -401,9 +464,9 @@
  "approved_at": "2026-10-22",
  "clip_hardcase": {
   "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
+  "type": "complex_chart",
   "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [
   {
@@ -411,5 +474,15 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "grouped"
+  ],
+  "chart_sub_type": "grouped",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

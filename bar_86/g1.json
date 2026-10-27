@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_86",
  "version": "g1_r_u_v4",
- "intent": "Show British public opinion on whether house prices should rise, stay the same, fall, or remain uncertain.",
+ "intent": "Analyze the house-price poll and determine how British public opinion splits across the response options.",
  "requirements": [
   {
    "id": "R1",
@@ -77,7 +77,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
    "claim": "Fall is the largest response at 42%, followed by stay at 29%, unsure at 22%, and rise at 7%.",
    "basis": [
@@ -154,5 +154,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_14",
- "intent_en": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than East Asia, North America, and the European Union.",
- "previous_intent": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than other regions.",
+ "intent_en": "Analyze how Sub-Saharan Africa's births per woman changed from 1960 to 2017 and determine how it compares with East Asia, North America, and the European Union in 2017.",
  "narration_support": "Although its growth rate has slowed down in the last few decades, it's still much higher than in the rest of the world.",
  "chart_support": "Icon bar chart titled 'Births Per Woman in 2017' showing Sub-Saharan Africa has a much higher value than East Asia, North America, and the European Union.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than other regions.",
+ "narrative_goal": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than East Asia, North America, and the European Union.",
  "intent_machine": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than other regions.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how Sub-Saharan Africa's births per woman changed from 1960 to 2017 and determine how it compares with East Asia, North America, and the European Union in 2017.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

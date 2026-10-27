@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_68",
  "version": "g1_r_u_v4",
- "intent": "Show that the annual financial loss caused by piracy fell over time, with the 2018 value lower than in the previous piracy-cost chart because ransoms were paid.",
+ "intent": "Trace the inferred annual piracy losses from 2013 through 2018 and describe their overall trend.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Why is the 2018 loss lower than in the preceding piracy-cost chart?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -105,9 +97,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "Using $8.3B for 2013 and $4.9B for 2018, the inferred annual losses decline across the displayed years.",
+   "claim": "Annual piracy losses decline from $8.3B in 2013 to $4.9B in 2018; the six displayed yearly values decrease monotonically.",
    "basis": [
     {
      "entity": "2013",
@@ -157,34 +149,16 @@
     "reversing the endpoints"
    ],
    "evidence": "The selected keyframe and plotted marks encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "The 2018 loss falls from about $5.8B in bar_67 to about $4.9B in bar_68 because ransoms were paid.",
-   "basis": [],
-   "accept": [
-    "the 2018 cross-chart decrease is stated",
-    "paid ransoms are given as the explanation"
-   ],
-   "reject": [
-    "claiming this chart alone displays both 2018 values",
-    "reversing which value is lower"
-   ],
-   "evidence": "Narration-only context; do not invent a chart mark for it.",
-   "hardcase": true,
-   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
- "optional_valid": [],
+ "optional_valid": [
+  "U3 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+ ],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -203,23 +177,57 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "narration_only_context",
-  "reason": "At least one required claim is not directly represented by a chart mark."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
-  {
-   "unit_id": "U3",
-   "type": "required_narrative_without_source_visual",
-   "handling": "must_be_visualized=false; preserve the point through narration."
-  }
- ],
+ "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "u3_downgraded_to_optional_valid_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "must_be_visualized": false,
+   "claim": "The 2018 loss falls from about $5.8B in bar_67 to about $4.9B in bar_68 because ransoms were paid.",
+   "basis": [],
+   "accept": [
+    "the 2018 cross-chart decrease is stated",
+    "paid ransoms are given as the explanation"
+   ],
+   "reject": [
+    "claiming this chart alone displays both 2018 values",
+    "reversing which value is lower"
+   ],
+   "evidence": "Narration-only context; do not invent a chart mark for it.",
+   "hardcase": true,
+   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark.",
+   "status": "optional_valid",
+   "optional_reason": "U3 is optional for V1 because the supporting entity, quantity, or causal interpretation is not present in data_table.csv."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "Why is the 2018 loss lower than in the preceding piracy-cost chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ]
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_39",
  "version": "g1_r_u_v4",
- "intent": "Show how the proposed wealth tax rises across wealth brackets and estimate the tax due on a $2 billion estate.",
+ "intent": "Analyze how the wealth-tax rates rise across wealth brackets and determine the tax due on a two-billion-dollar estate.",
  "requirements": [
   {
    "id": "R1",
@@ -66,7 +66,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "threshold_or_crossing",
+   "unit_kind": "threshold",
    "must_be_visualized": true,
    "claim": "The wealth tax is 0% on the first $50 million, 2% from $50 million to $1 billion, and 3% above $1 billion.",
    "basis": [
@@ -100,7 +100,7 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "claim": "The tax due on a $2 billion estate is about $49 million.",
    "basis": [
@@ -160,5 +160,6 @@
  "draft_source": "manual_review_draft_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

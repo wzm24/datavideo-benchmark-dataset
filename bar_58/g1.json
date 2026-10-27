@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_58",
  "version": "g1_r_u_v4",
- "intent": "Show that eyewitness misinterpretation is the most frequently cited cause of wrongful convictions, followed by improper forensics, false confessions, and informants.",
+ "intent": "Analyze the cited causes of wrongful convictions and determine which cause is most frequently cited.",
  "requirements": [
   {
    "id": "R1",
@@ -159,5 +159,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

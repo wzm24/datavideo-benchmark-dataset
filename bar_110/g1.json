@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_110",
  "version": "g1_r_u_v4",
- "intent": "Dewi's top-10% household has far more income than Putri's bottom-10% household, illustrating Indonesia's severe household income inequality.",
+ "intent": "Compare household income shares across the nine displayed groups, focusing on top-decile and bottom-decile households.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "What does the selected chart show?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -140,7 +132,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Dewi's top-10% household has the highest household share, while Putri's bottom-10% household has the lowest.",
+   "claim": "The nine displayed household groups decline from Dewi's top-decile group to Putri's bottom-decile group; the top group has the highest share and the bottom group the lowest.",
    "basis": [
     {
      "entity": "Top 10% (Dewi's Family)",
@@ -152,31 +144,6 @@
      "entity": "Bottom 10% (Putri's Family)",
      "field": "value",
      "value": "0.0896",
-     "unit": "relative"
-    }
-   ],
-   "accept": [
-    "Dewi's family is highest",
-    "Putri's family is lowest",
-    "the comparison direction is not reversed"
-   ],
-   "reject": [
-    "reversing the endpoints",
-    "omitting one endpoint"
-   ],
-   "evidence": "The labeled endpoint bars encode the comparison."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "The nine displayed household groups decline from Dewi's top-decile group to Putri's bottom-decile group.",
-   "basis": [
-    {
-     "entity": "Top 10% (Dewi's Family)",
-     "field": "value",
-     "value": "0.5972",
      "unit": "relative"
     },
     {
@@ -220,30 +187,28 @@
      "field": "value",
      "value": "0.1493",
      "unit": "relative"
-    },
-    {
-     "entity": "Bottom 10% (Putri's Family)",
-     "field": "value",
-     "value": "0.0896",
-     "unit": "relative"
     }
    ],
    "accept": [
+    "Dewi's family is highest",
+    "Putri's family is lowest",
+    "the comparison direction is not reversed",
     "all nine groups are present",
     "the bars decline from high to low"
    ],
    "reject": [
+    "reversing the endpoints",
+    "omitting one endpoint",
     "reordering the income groups",
     "omitting intermediate groups"
    ],
-   "evidence": "All nine ordered bars are visible."
+   "evidence": "The labeled endpoint bars encode the comparison. All nine ordered bars are visible."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -271,7 +236,8 @@
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
@@ -281,5 +247,6 @@
   "bar_110",
   "bar_111",
   "bar_112"
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

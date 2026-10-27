@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_30",
- "intent_en": "Show that the monthly price of the hepatitis C drug Sovaldi is higher in the United States than in five other developed countries.",
- "previous_intent": "To demonstrate that the monthly price of the hepatitis C drug Sovaldi is higher in the United States than in other countries.",
+ "intent_en": "Compare the monthly Sovaldi price in the United States with the five other developed countries and determine how they rank.",
  "narration_support": "Sevaldi, for hepatitis C, yep, cost more in the U .S.",
  "chart_support": "Bar chart comparing the monthly price of Sovaldi across six countries, showing the United States has the highest price.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": true,
- "narrative_goal": "To demonstrate that the monthly price of the hepatitis C drug Sovaldi is higher in the United States than in other countries.",
+ "narrative_goal": "Show that the monthly price of the hepatitis C drug Sovaldi is higher in the United States than in five other developed countries.",
  "intent_machine": "To compare the monthly price of the hepatitis C drug Sovaldi across several countries, highlighting that the cost in the United States is substantially higher than in Norway, Canada, France, the United Kingdom, and Germany.",
  "approved_by": "human",
  "approved_at": "2026-10-22",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the monthly Sovaldi price in the United States with the five other developed countries and determine how they rank.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

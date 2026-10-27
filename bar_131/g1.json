@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_131",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the massive scale of global nuclear arsenals that poses a threat of nuclear winter.",
+ "intent": "Compare the nuclear warhead counts of the nine listed countries.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do the nine countries rank by nuclear warhead count?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -35,81 +35,63 @@
    "claim": "All 9 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "7800",
-     "unit": "warheads",
      "entity": "Russia",
-     "metric": "nuclear_warheads",
-     "label": "7,800"
+     "field": "nuclear_warheads",
+     "value": 7800,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "7100",
-     "unit": "warheads",
      "entity": "United States",
-     "metric": "nuclear_warheads",
-     "label": "7,100"
+     "field": "nuclear_warheads",
+     "value": 7100,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "300",
-     "unit": "warheads",
      "entity": "France",
-     "metric": "nuclear_warheads",
-     "label": "300"
+     "field": "nuclear_warheads",
+     "value": 300,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "260",
-     "unit": "warheads",
      "entity": "China",
-     "metric": "nuclear_warheads",
-     "label": "260"
+     "field": "nuclear_warheads",
+     "value": 260,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "215",
-     "unit": "warheads",
      "entity": "United Kingdom",
-     "metric": "nuclear_warheads",
-     "label": "215"
+     "field": "nuclear_warheads",
+     "value": 215,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "120",
-     "unit": "warheads",
      "entity": "Pakistan",
-     "metric": "nuclear_warheads",
-     "label": "120"
+     "field": "nuclear_warheads",
+     "value": 120,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "115",
-     "unit": "warheads",
      "entity": "India",
-     "metric": "nuclear_warheads",
-     "label": "115"
+     "field": "nuclear_warheads",
+     "value": 115,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "80",
-     "unit": "warheads",
      "entity": "Israel",
-     "metric": "nuclear_warheads",
-     "label": "80"
+     "field": "nuclear_warheads",
+     "value": 80,
+     "unit": "warheads"
     },
     {
-     "field": "value",
-     "value": "7",
-     "unit": "warheads",
      "entity": "North Korea",
-     "metric": "nuclear_warheads",
-     "label": "7"
+     "field": "nuclear_warheads",
+     "value": 7,
+     "unit": "warheads"
     }
    ],
    "accept": [
     "all 9 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -121,75 +103,77 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Russia and the United States dominate the 2015 nuclear arsenal, while the other seven countries hold much smaller totals.",
+   "claim": "Russia (7,800) and United States (7,100) rank first and second; France at 300 leads the remaining seven countries, all at 300 or fewer.",
    "basis": [
     {
      "entity": "Russia",
      "field": "nuclear_warheads",
-     "value": "7800",
+     "value": 7800,
      "unit": "warheads"
     },
     {
      "entity": "United States",
      "field": "nuclear_warheads",
-     "value": "7100",
+     "value": 7100,
      "unit": "warheads"
     },
     {
      "entity": "France",
      "field": "nuclear_warheads",
-     "value": "300",
+     "value": 300,
      "unit": "warheads"
     },
     {
      "entity": "China",
      "field": "nuclear_warheads",
-     "value": "260",
+     "value": 260,
      "unit": "warheads"
     },
     {
      "entity": "United Kingdom",
      "field": "nuclear_warheads",
-     "value": "215",
+     "value": 215,
      "unit": "warheads"
     },
     {
      "entity": "Pakistan",
      "field": "nuclear_warheads",
-     "value": "120",
+     "value": 120,
      "unit": "warheads"
     },
     {
      "entity": "India",
      "field": "nuclear_warheads",
-     "value": "115",
+     "value": 115,
      "unit": "warheads"
     },
     {
      "entity": "Israel",
      "field": "nuclear_warheads",
-     "value": "80",
+     "value": 80,
      "unit": "warheads"
     },
     {
      "entity": "North Korea",
      "field": "nuclear_warheads",
-     "value": "7",
+     "value": 7,
      "unit": "warheads"
     }
    ],
+   "computation": "",
    "accept": [
     "all nine countries are present",
-    "Russia and USA are largest"
+    "Russia and United States are the top two",
+    "France is the highest of the rest"
    ],
    "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
+    "reversing Russia and United States",
+    "omitting small arsenals",
+    "adding a 2015 claim absent from the table"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "The ordered country bars establish the full arsenal ranking."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -223,9 +207,102 @@
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
+  {
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "ranking",
+    "must_be_visualized": true,
+    "claim": "Russia (7,800) and United States (7,100) rank first and second; France at 300 leads the remaining seven countries, all at 300 or fewer.",
+    "basis": [
+     {
+      "entity": "Russia",
+      "field": "nuclear_warheads",
+      "value": 7800,
+      "unit": "warheads"
+     },
+     {
+      "entity": "United States",
+      "field": "nuclear_warheads",
+      "value": 7100,
+      "unit": "warheads"
+     },
+     {
+      "entity": "France",
+      "field": "nuclear_warheads",
+      "value": 300,
+      "unit": "warheads"
+     },
+     {
+      "entity": "China",
+      "field": "nuclear_warheads",
+      "value": 260,
+      "unit": "warheads"
+     },
+     {
+      "entity": "United Kingdom",
+      "field": "nuclear_warheads",
+      "value": 215,
+      "unit": "warheads"
+     },
+     {
+      "entity": "Pakistan",
+      "field": "nuclear_warheads",
+      "value": 120,
+      "unit": "warheads"
+     },
+     {
+      "entity": "India",
+      "field": "nuclear_warheads",
+      "value": 115,
+      "unit": "warheads"
+     },
+     {
+      "entity": "Israel",
+      "field": "nuclear_warheads",
+      "value": 80,
+      "unit": "warheads"
+     },
+     {
+      "entity": "North Korea",
+      "field": "nuclear_warheads",
+      "value": 7,
+      "unit": "warheads"
+     }
+    ],
+    "computation": "",
+    "accept": [
+     "all nine countries are present",
+     "Russia and United States are the top two",
+     "France is the highest of the rest"
+    ],
+    "reject": [
+     "reversing Russia and United States",
+     "omitting small arsenals",
+     "adding a 2015 claim absent from the table"
+    ],
+    "evidence": "The ordered country bars establish the full arsenal ranking."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do the nine countries rank by nuclear warhead count?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

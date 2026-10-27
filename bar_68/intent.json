@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_68",
- "intent_en": "Show that the annual financial loss caused by piracy fell over time, with the 2018 value lower than in the previous piracy-cost chart because ransoms were paid.",
+ "intent_en": "Trace the inferred annual piracy losses from 2013 through 2018 and describe their overall trend.",
  "narration_support": "if no one paid ransoms, but it's always in each company's best interests to pay them. All of these solutions reduce piracy, but none of them solve it.",
  "chart_support": "PIRATE ATTACKS",
  "supported_by_narration": true,
@@ -15,13 +15,41 @@
  "draft_by": "manual_batch_review_2026-10-22",
  "confirmed_by": null,
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
- "review_flags": [],
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "review_flags": [
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27"
+ ],
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that the annual financial loss caused by piracy fell over time, with the 2018 value lower than in the previous piracy-cost chart because ransoms were paid.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "reviewed",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Trace the inferred annual piracy losses from 2013 through 2018 and describe their overall trend.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

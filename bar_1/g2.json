@@ -7,7 +7,8 @@
   "clip_id": "bar_1",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -52,7 +53,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "evidence_type": "value_or_readable_label",
    "required_marks": [
@@ -78,7 +79,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
@@ -102,7 +103,7 @@
   },
   {
    "unit_id": "U4",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
@@ -123,10 +124,12 @@
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
-  },
+  }
+ ],
+ "optional_unit_evidence": [
   {
    "unit_id": "U5",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "evidence_type": "ordered_marks_with_readable_label",
    "required_marks": [
@@ -153,5 +156,6 @@
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
   }
- ]
+ ],
+ "revision_note_2026_10_27": "U5 is optional for V1. The data table has no numeric CAR travel time, so the complete three-way ordering is not derivable from the public V1 input. Reporting each available duration remains required."
 }

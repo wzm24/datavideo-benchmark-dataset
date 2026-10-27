@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_132",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the historical expansion and subsequent long-term stability of the number of countries possessing nuclear weapons.",
+ "intent": "Analyze the table to trace how many countries possessed nuclear weapons from 1945 to 2015, and determine how that count changed over time.",
  "requirements": [
   {
    "id": "R1",
@@ -817,7 +817,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "claim": "The number of nuclear-armed countries rises from one in 1945 to a peak of ten in 1990, then stabilizes at nine.",
    "basis": [
@@ -1435,16 +1435,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "pictograph"
+  ],
+  "chart_sub_type": "pictograph",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

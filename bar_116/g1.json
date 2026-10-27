@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_116",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that Black men are far more likely than Black women to report being unfairly stopped by police due to their race or ethnicity.",
+ "intent": "Compare unfair-stop rates for Black men, Black women, and Black adults overall.",
  "requirements": [
   {
    "id": "R1",
@@ -75,24 +75,24 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Black men report being unfairly stopped far more often than Black women.",
+   "claim": "Black men report being unfairly stopped at 64%, above Black adults overall at 45% and Black women at 32%.",
    "basis": [
     {
      "entity": "Black men",
      "field": "unfairly_stopped",
-     "value": "64",
+     "value": 64,
      "unit": "%"
     },
     {
      "entity": "Black women",
      "field": "unfairly_stopped",
-     "value": "32",
+     "value": 32,
      "unit": "%"
     },
     {
      "entity": "Black adults",
      "field": "unfairly_stopped",
-     "value": "45",
+     "value": 45,
      "unit": "%"
     }
    ],
@@ -143,5 +143,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

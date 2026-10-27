@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_152",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the increasing trend of reported rape cases in India from 2008 to 2016.",
+ "intent": "Analyze the reported rape cases in India across the years from 2008 to 2016 and determine what trend they follow over that period.",
  "requirements": [
   {
    "id": "R1",
@@ -112,7 +112,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "Reported rape cases rise from about 19,600 in 2008 to about 37,500 in 2016.",
    "basis": [
@@ -219,5 +219,6 @@
  ],
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

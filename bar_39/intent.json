@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_39",
- "intent_en": "Show how the proposed wealth tax rises across wealth brackets and estimate the tax due on a $2 billion estate.",
- "previous_intent": "To demonstrate how a progressive wealth tax is calculated across different asset levels, illustrating that moderate wealth incurs no cost while extreme wealth is taxed at marginal rates.",
+ "intent_en": "Analyze how the wealth-tax rates rise across wealth brackets and determine the tax due on a two-billion-dollar estate.",
  "narration_support": "So if you have forty million dollars, you'd pay nothing. If you have sixty million dollars, you'd pay nothing on your first fifty million, but two percent on the ten million after that... And if you have two billion dollars, you'd pay about forty nine million dollars.",
  "chart_support": "Vertical wealth-scale diagram showing 0% up to $50 million, 2% from $50 million to $1 billion, and 3% above $1 billion for a $2 billion estate, followed by a $49 million comparison mark.",
  "supported_by_narration": true,
@@ -29,11 +28,25 @@
  "review_flags": [],
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "narrative_goal": "To demonstrate how a progressive wealth tax is calculated across different asset levels, illustrating that moderate wealth incurs no cost while extreme wealth is taxed at marginal rates.",
+ "narrative_goal": "Show how the proposed wealth tax rises across wealth brackets and estimate the tax due on a $2 billion estate.",
  "intent_machine": "To demonstrate the progressive calculation of a wealth tax, illustrating how tax liability increases from zero for lower amounts to substantial sums for higher wealth based on tiered percentage rates.",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the wealth-tax rates rise across wealth brackets and determine the tax due on a two-billion-dollar estate.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

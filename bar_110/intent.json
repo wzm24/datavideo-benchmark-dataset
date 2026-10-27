@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_110",
- "intent_en": "Dewi's top-10% household has far more income than Putri's bottom-10% household, illustrating Indonesia's severe household income inequality.",
- "previous_intent": "To illustrate income inequality in Indonesia by contrasting the high income of Dewi's family in the top tier with the low income of Putri's family in the bottom tier of the household distribution.",
+ "intent_en": "Compare household income shares across the nine displayed groups, focusing on top-decile and bottom-decile households.",
  "narration_support": "Dewey's family is rich and belongs to the top 10 % of households in terms of income. Putri's family is not as fortunate.",
  "chart_support": "Bar chart displaying a descending series of bars representing income distribution, contrasting a tall bar for Dewi's Family with a short bar for Putri's Family above a map of Indonesia.",
  "supported_by_narration": true,
@@ -25,16 +24,33 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
+ "status": "approved",
  "review_flags": [
-  "manual_sequence_reaudit_2026-10-22"
+  "manual_sequence_reaudit_2026-10-22",
+  "full_g1_repair_public_intent_2026_10_27"
  ],
- "approved_by": null,
- "approved_at": null,
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "sequence_context": "Across this sequence, household income inequality places Dewi's family far above Putri's, translates into unequal access to clean water, and affects a broader low-income population than the poorest decile alone.",
  "related_clips": [
   "bar_110",
   "bar_111",
   "bar_112"
- ]
+ ],
+ "narrative_goal": "Dewi's top-10% household has far more income than Putri's bottom-10% household, illustrating Indonesia's severe household income inequality.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare household income shares across the nine displayed groups, focusing on top-decile and bottom-decile households.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_approved_at": "2026-10-27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_100",
  "version": "g1_r_u_v4",
- "intent": "Show the shift in civil-war endings from military force toward negotiated settlements.",
+ "intent": "Compare how civil wars ended before 1989 versus now, and determine the shift between endings by military force and by negotiated settlement.",
  "requirements": [
   {
    "id": "R1",
@@ -166,5 +166,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

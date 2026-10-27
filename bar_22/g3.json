@@ -42,7 +42,9 @@
    "ordering": "no_additional_order_requirement",
    "identity": "entity_and_series_binding_must_remain_stable",
    "transition": "ignore_mid_animation_geometry; judge_completed_marks"
-  },
+  }
+ ],
+ "optional_units": [
   {
    "unit_id": "U4",
    "applies": false,

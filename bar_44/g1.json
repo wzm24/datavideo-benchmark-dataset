@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_44",
  "version": "g1_r_u_v4",
- "intent": "Explain progressive income taxation by showing that higher-income groups pay a larger share of their income in taxes than lower-income groups.",
+ "intent": "Analyze how the effective income-tax rate varies across income groups from poorest to richest, and determine the pattern of change.",
  "requirements": [
   {
    "id": "R1",
@@ -188,5 +188,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

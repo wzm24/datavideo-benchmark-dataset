@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_60",
  "version": "g1_r_u_v4",
- "intent": "Show that Dubai led the world in international visitor spending in 2016 and was substantially ahead of London and New York.",
+ "intent": "Rank the seven cities by 2016 international visitor spending and compare Dubai with London and New York.",
  "requirements": [
   {
    "id": "R1",
@@ -19,18 +19,10 @@
   },
   {
    "id": "R2",
-   "question": "Which city led international visitor spending in 2016?",
+   "question": "How do the seven cities rank, and how does Dubai compare with London and New York?",
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "How far ahead of London and New York is Dubai?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -113,9 +105,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Dubai is the highest bar among the seven listed cities.",
+   "claim": "Dubai is highest at 1.000, followed by London 0.628, NY 0.581, Singapore 0.549, Bangkok 0.502, Paris 0.437, and Tokyo 0.390 relative to Dubai.",
    "basis": [
     {
      "entity": "Dubai",
@@ -162,81 +154,24 @@
    ],
    "accept": [
     "all seven cities are shown",
-    "Dubai is unambiguously first"
-   ],
-   "reject": [
-    "making London the top bar",
-    "omitting cities",
-    "inventing numeric axis values"
-   ],
-   "evidence": "The selected keyframe and the plotted bars/segments encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "claim": "Dubai is substantially taller than both London and New York, the two comparison cities named in the narration.",
-   "basis": [
-    {
-     "entity": "Dubai",
-     "field": "2016_international_visitor_spending",
-     "value": 1.0,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "London",
-     "field": "2016_international_visitor_spending",
-     "value": 0.628,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "NY",
-     "field": "2016_international_visitor_spending",
-     "value": 0.581,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "Singapore",
-     "field": "2016_international_visitor_spending",
-     "value": 0.549,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "Bangkok",
-     "field": "2016_international_visitor_spending",
-     "value": 0.502,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "Paris",
-     "field": "2016_international_visitor_spending",
-     "value": 0.437,
-     "unit": "relative_to_Dubai"
-    },
-    {
-     "entity": "Tokyo",
-     "field": "2016_international_visitor_spending",
-     "value": 0.39,
-     "unit": "relative_to_Dubai"
-    }
-   ],
-   "accept": [
+    "Dubai is unambiguously first",
     "London and New York are present",
     "the Dubai bar is substantially taller than both"
    ],
    "reject": [
+    "making London the top bar",
+    "omitting cities",
+    "inventing numeric axis values",
     "making London or New York higher than Dubai",
     "showing Dubai only marginally above them"
    ],
-   "evidence": "The selected keyframe and the plotted bars/segments encode this relation."
+   "evidence": "The selected keyframe and the plotted bars/segments encode this relation. The selected keyframe and the plotted bars/segments encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -264,10 +199,12 @@
  "hardcases": [],
  "review_flags": [
   "batch_52_63_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

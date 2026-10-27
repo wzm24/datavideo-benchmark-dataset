@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_160",
- "intent_en": "To demonstrate that in comparable international contexts, teachers earn a pay ratio close to that of college graduates, contrasting with the lower ratio in the United States.",
- "previous_intent": "To illustrate the pay ratio between teachers and college graduates in OECD countries, highlighting high parity in nations like Finland and Germany, and contrasting this with the lower ratio in the United States despite higher per-student spending.",
+ "intent_en": "Compare the teacher-to-college-graduate pay ratio across the listed countries and the OECD average, and determine how the United States compares with the other contexts.",
  "narration_support": "That's on par with the pay ratio between teachers and college graduates in similar countries.",
  "chart_support": "Bar chart showing 'Pay ratio: teachers vs. college grads' for OECD countries in 2019, displaying high ratios (near parity) for nations like Finland and Germany compared to the OECD average.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate that in comparable international contexts, teachers earn a pay ratio close to that of college graduates, contrasting with the lower ratio in the United States.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the teacher-to-college-graduate pay ratio across the listed countries and the OECD average, and determine how the United States compares with the other contexts.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

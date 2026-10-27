@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_19",
  "version": "g1_r_u_v4",
- "intent": "Show the extreme temperature range on Mercury, driven by its lack of atmosphere and orbital dynamics.",
+ "intent": "Analyze Mercury's surface temperature extremes and determine the full range between its minimum and maximum values.",
  "requirements": [
   {
    "id": "R1",
@@ -85,7 +85,7 @@
     "treating 0°C as a data point"
    ],
    "evidence": "One range bar spans from -173°C to 437°C with a 0°C reference.",
-   "unit_kind": "range_or_span",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "basis": [
     {
@@ -137,7 +137,24 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "range_bar"
+  ],
+  "chart_sub_type": "range_bar",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ },
+ "clip_hardcase": {
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

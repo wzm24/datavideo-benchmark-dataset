@@ -97,9 +97,9 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "trend_or_change",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "four_series_endpoint_changes",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "Sub-Saharan Africa | 1990 | illiteracy_rate",
     "Latin America & Caribbean | 1990 | illiteracy_rate",
@@ -111,99 +111,86 @@
     "European Union | 2017 | illiteracy_rate"
    ],
    "assertion": {
-    "changes": [
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U3",
+     "U4"
+    ],
+    "component_assertions": [
      {
-      "entity": "Sub-Saharan Africa",
-      "start_value": 48.0,
-      "end_value": 36.1,
-      "absolute_decline": 11.9,
-      "relative_decline": 0.247917
+      "changes": [
+       {
+        "entity": "Sub-Saharan Africa",
+        "start_value": 48.0,
+        "end_value": 36.1,
+        "absolute_decline": 11.9,
+        "relative_decline": 0.247917
+       },
+       {
+        "entity": "Latin America & Caribbean",
+        "start_value": 15.5,
+        "end_value": 6.9,
+        "absolute_decline": 8.6,
+        "relative_decline": 0.554839
+       },
+       {
+        "entity": "East Asia & Pacific",
+        "start_value": 18.0,
+        "end_value": 5.1,
+        "absolute_decline": 12.9,
+        "relative_decline": 0.716667
+       },
+       {
+        "entity": "European Union",
+        "start_value": 2.0,
+        "end_value": 1.0,
+        "absolute_decline": 1.0,
+        "relative_decline": 0.5
+       }
+      ],
+      "tolerance": 0.02
      },
      {
-      "entity": "Latin America & Caribbean",
-      "start_value": 15.5,
-      "end_value": 6.9,
-      "absolute_decline": 8.6,
-      "relative_decline": 0.554839
-     },
-     {
-      "entity": "East Asia & Pacific",
-      "start_value": 18.0,
-      "end_value": 5.1,
-      "absolute_decline": 12.9,
-      "relative_decline": 0.716667
-     },
-     {
-      "entity": "European Union",
-      "start_value": 2.0,
-      "end_value": 1.0,
-      "absolute_decline": 1.0,
-      "relative_decline": 0.5
+      "ranking": [
+       "East Asia & Pacific",
+       "Latin America & Caribbean",
+       "European Union",
+       "Sub-Saharan Africa"
+      ],
+      "lowest_relative_decline": "Sub-Saharan Africa",
+      "changes": [
+       {
+        "entity": "Sub-Saharan Africa",
+        "start_value": 48.0,
+        "end_value": 36.1,
+        "absolute_decline": 11.9,
+        "relative_decline": 0.247917
+       },
+       {
+        "entity": "Latin America & Caribbean",
+        "start_value": 15.5,
+        "end_value": 6.9,
+        "absolute_decline": 8.6,
+        "relative_decline": 0.554839
+       },
+       {
+        "entity": "East Asia & Pacific",
+        "start_value": 18.0,
+        "end_value": 5.1,
+        "absolute_decline": 12.9,
+        "relative_decline": 0.716667
+       },
+       {
+        "entity": "European Union",
+        "start_value": 2.0,
+        "end_value": 1.0,
+        "absolute_decline": 1.0,
+        "relative_decline": 0.5
+       }
+      ],
+      "tolerance": 0.02
      }
-    ],
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U4",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "relative_decline_ranking",
-   "required_marks": [
-    "Sub-Saharan Africa | 1990 | illiteracy_rate",
-    "Latin America & Caribbean | 1990 | illiteracy_rate",
-    "East Asia & Pacific | 1990 | illiteracy_rate",
-    "European Union | 1990 | illiteracy_rate",
-    "Sub-Saharan Africa | 2017 | illiteracy_rate",
-    "Latin America & Caribbean | 2017 | illiteracy_rate",
-    "East Asia & Pacific | 2017 | illiteracy_rate",
-    "European Union | 2017 | illiteracy_rate"
-   ],
-   "assertion": {
-    "ranking": [
-     "East Asia & Pacific",
-     "Latin America & Caribbean",
-     "European Union",
-     "Sub-Saharan Africa"
-    ],
-    "lowest_relative_decline": "Sub-Saharan Africa",
-    "changes": [
-     {
-      "entity": "Sub-Saharan Africa",
-      "start_value": 48.0,
-      "end_value": 36.1,
-      "absolute_decline": 11.9,
-      "relative_decline": 0.247917
-     },
-     {
-      "entity": "Latin America & Caribbean",
-      "start_value": 15.5,
-      "end_value": 6.9,
-      "absolute_decline": 8.6,
-      "relative_decline": 0.554839
-     },
-     {
-      "entity": "East Asia & Pacific",
-      "start_value": 18.0,
-      "end_value": 5.1,
-      "absolute_decline": 12.9,
-      "relative_decline": 0.716667
-     },
-     {
-      "entity": "European Union",
-      "start_value": 2.0,
-      "end_value": 1.0,
-      "absolute_decline": 1.0,
-      "relative_decline": 0.5
-     }
-    ],
-    "tolerance": 0.02
+    ]
    },
    "accepted_routes": [
     "geometry",

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_153",
- "intent_en": "To illustrate the increasing proportion of voters residing in landslide counties from 1976 to 2016.",
- "previous_intent": "To demonstrate the substantial increase in the proportion of voters living in landslide counties over the decades, highlighting the growing concentration of the electorate in areas with decisive electoral margins.",
+ "intent_en": "Analyze how the share of voters residing in landslide counties changed across the years shown, and determine the direction of the trend.",
  "narration_support": "In 1976, roughly 28 % of voters lived in what are called landslide counties. In 2012, that number increased to about 50%. And now, in 2016, 60 % of voters live in landslide counties.",
  "chart_support": "Bar chart displaying the percentage of voters in landslide counties for the years 1976, 2012, and 2016, showing a clear upward trend with increasing bar heights.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To illustrate the increasing proportion of voters residing in landslide counties from 1976 to 2016.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the share of voters residing in landslide counties changed across the years shown, and determine the direction of the trend.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

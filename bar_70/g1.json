@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_70",
  "version": "g1_r_u_v4",
- "intent": "Show that Ikea's Stichting Ingka foundation ranks among the world's largest charities and is only about 30% smaller than the Bill & Melinda Gates Foundation.",
+ "intent": "Compare the listed charities by endowment and determine Stichting Ingka's rank and its percentage gap from the Bill & Melinda Gates Foundation.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "Where does Ikea's foundation rank among the shown charities?",
+   "question": "Where does Stichting Ingka rank among the four charities?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "What percentage smaller is Stichting Ingka's endowment than the Bill & Melinda Gates Foundation's?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -77,9 +85,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Stichting Ingka is third among the four shown charities and is only about 30% smaller than the Bill & Melinda Gates Foundation.",
+   "claim": "Stichting Ingka ranks third among the four shown charities.",
    "basis": [
     {
      "entity": "BILL & MELINDA GATES",
@@ -107,22 +115,52 @@
     }
    ],
    "accept": [
-    "all four charities are present",
-    "Stichting Ingka is third",
-    "the sidebar compares Stichting Ingka with the Gates Foundation and shows the roughly 30% gap"
+    "all four charities are visible with identifiable labels",
+    "Gates is first, Novo Nordisk is second, Stichting Ingka is third"
    ],
    "reject": [
-    "listing Stichting Ingka first",
-    "omitting the Bill & Melinda Gates Foundation",
+    "listing Stichting Ingka first or second",
+    "omitting a comparator needed to establish the ranking"
+   ],
+   "evidence": "The ordered bars encode the four-charity ranking."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "Stichting Ingka's endowment is about 30% smaller than the Bill & Melinda Gates Foundation's.",
+   "basis": [
+    {
+     "entity": "BILL & MELINDA GATES",
+     "field": "largest_charities",
+     "value": 51.6,
+     "unit": "billion USD"
+    },
+    {
+     "entity": "STICHTING INGKA",
+     "field": "largest_charities",
+     "value": 36.0,
+     "unit": "billion USD"
+    }
+   ],
+   "computation": "(51.6 - 36.0) / 51.6 = 0.3023, about 30% smaller",
+   "accept": [
+    "both Gates and Stichting Ingka are visible",
+    "the comparison or readable labels establish the roughly 30% gap"
+   ],
+   "reject": [
+    "reversing which foundation is larger",
     "changing billion to million"
    ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
+   "evidence": "The two comparable bars establish the relative gap."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -150,10 +188,15 @@
  "hardcases": [],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

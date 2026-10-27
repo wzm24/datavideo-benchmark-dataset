@@ -7,7 +7,8 @@
   "clip_id": "bar_91",
   "family": "bar",
   "sub_type": "population_pyramid",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -91,341 +92,46 @@
    "unit_id": "U2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "group_comparison",
    "required_marks": [
-    "95-99 | Male | japan",
-    "95-99 | Female | japan",
-    "90-95 | Male | japan",
-    "90-95 | Female | japan",
-    "85-89 | Male | japan",
-    "85-89 | Female | japan",
-    "80-84 | Male | japan",
-    "80-84 | Female | japan",
-    "75-79 | Male | japan",
-    "75-79 | Female | japan",
-    "70-74 | Male | japan",
-    "70-74 | Female | japan",
-    "65-69 | Male | japan",
-    "65-69 | Female | japan",
-    "60-64 | Male | japan",
-    "60-64 | Female | japan",
-    "55-59 | Male | japan",
-    "55-59 | Female | japan",
-    "50-54 | Male | japan",
-    "50-54 | Female | japan",
     "45-49 | Male | japan",
     "45-49 | Female | japan",
-    "40-44 | Male | japan",
-    "40-44 | Female | japan",
-    "35-39 | Male | japan",
-    "35-39 | Female | japan",
-    "30-34 | Male | japan",
-    "30-34 | Female | japan",
-    "25-29 | Male | japan",
-    "25-29 | Female | japan",
-    "20-24 | Male | japan",
-    "20-24 | Female | japan",
-    "15-19 | Male | japan",
-    "15-19 | Female | japan",
-    "10-14 | Male | japan",
-    "10-14 | Female | japan",
-    "5-9 | Male | japan",
-    "5-9 | Female | japan",
-    "0-4 | Male | japan",
-    "0-4 | Female | japan"
+    "65-69 | Male | japan",
+    "65-69 | Female | japan",
+    "70-74 | Male | japan",
+    "70-74 | Female | japan"
    ],
    "assertion": {
-    "compositions": [
-     {
-      "entity": "95-99",
-      "segments": [
-       {
-        "mark": "95-99 | Male | japan",
-        "value": 0.0455
-       },
-       {
-        "mark": "95-99 | Female | japan",
-        "value": 0.047775
-       }
-      ],
-      "total": 0.093275
-     },
-     {
-      "entity": "90-95",
-      "segments": [
-       {
-        "mark": "90-95 | Male | japan",
-        "value": 0.1364
-       },
-       {
-        "mark": "90-95 | Female | japan",
-        "value": 0.14322
-       }
-      ],
-      "total": 0.27962
-     },
-     {
-      "entity": "85-89",
-      "segments": [
-       {
-        "mark": "85-89 | Male | japan",
-        "value": 0.2727
-       },
-       {
-        "mark": "85-89 | Female | japan",
-        "value": 0.286335
-       }
-      ],
-      "total": 0.559035
-     },
-     {
-      "entity": "80-84",
-      "segments": [
-       {
-        "mark": "80-84 | Male | japan",
-        "value": 0.4318
-       },
-       {
-        "mark": "80-84 | Female | japan",
-        "value": 0.45339
-       }
-      ],
-      "total": 0.88519
-     },
-     {
-      "entity": "75-79",
-      "segments": [
-       {
-        "mark": "75-79 | Male | japan",
-        "value": 0.6136
-       },
-       {
-        "mark": "75-79 | Female | japan",
-        "value": 0.64428
-       }
-      ],
-      "total": 1.25788
-     },
-     {
-      "entity": "70-74",
-      "segments": [
-       {
-        "mark": "70-74 | Male | japan",
-        "value": 0.8409
-       },
-       {
-        "mark": "70-74 | Female | japan",
-        "value": 0.882945
-       }
-      ],
-      "total": 1.723845
-     },
-     {
-      "entity": "65-69",
-      "segments": [
-       {
-        "mark": "65-69 | Male | japan",
-        "value": 0.7955
-       },
-       {
-        "mark": "65-69 | Female | japan",
-        "value": 0.835275
-       }
-      ],
-      "total": 1.630775
-     },
-     {
-      "entity": "60-64",
-      "segments": [
-       {
-        "mark": "60-64 | Male | japan",
-        "value": 0.7045
-       },
-       {
-        "mark": "60-64 | Female | japan",
-        "value": 0.739725
-       }
-      ],
-      "total": 1.444225
-     },
-     {
-      "entity": "55-59",
-      "segments": [
-       {
-        "mark": "55-59 | Male | japan",
-        "value": 0.75
-       },
-       {
-        "mark": "55-59 | Female | japan",
-        "value": 0.7875
-       }
-      ],
-      "total": 1.5375
-     },
-     {
-      "entity": "50-54",
-      "segments": [
-       {
-        "mark": "50-54 | Male | japan",
-        "value": 0.8636
-       },
-       {
-        "mark": "50-54 | Female | japan",
-        "value": 0.90678
-       }
-      ],
-      "total": 1.77038
-     },
-     {
-      "entity": "45-49",
-      "segments": [
-       {
-        "mark": "45-49 | Male | japan",
-        "value": 1.0
-       },
-       {
-        "mark": "45-49 | Female | japan",
-        "value": 1.05
-       }
-      ],
-      "total": 2.05
-     },
-     {
-      "entity": "40-44",
-      "segments": [
-       {
-        "mark": "40-44 | Male | japan",
-        "value": 0.8864
-       },
-       {
-        "mark": "40-44 | Female | japan",
-        "value": 0.93072
-       }
-      ],
-      "total": 1.81712
-     },
-     {
-      "entity": "35-39",
-      "segments": [
-       {
-        "mark": "35-39 | Male | japan",
-        "value": 0.8182
-       },
-       {
-        "mark": "35-39 | Female | japan",
-        "value": 0.85911
-       }
-      ],
-      "total": 1.67731
-     },
-     {
-      "entity": "30-34",
-      "segments": [
-       {
-        "mark": "30-34 | Male | japan",
-        "value": 0.7727
-       },
-       {
-        "mark": "30-34 | Female | japan",
-        "value": 0.811335
-       }
-      ],
-      "total": 1.584035
-     },
-     {
-      "entity": "25-29",
-      "segments": [
-       {
-        "mark": "25-29 | Male | japan",
-        "value": 0.7159
-       },
-       {
-        "mark": "25-29 | Female | japan",
-        "value": 0.751695
-       }
-      ],
-      "total": 1.467595
-     },
-     {
-      "entity": "20-24",
-      "segments": [
-       {
-        "mark": "20-24 | Male | japan",
-        "value": 0.6477
-       },
-       {
-        "mark": "20-24 | Female | japan",
-        "value": 0.680085
-       }
-      ],
-      "total": 1.327785
-     },
-     {
-      "entity": "15-19",
-      "segments": [
-       {
-        "mark": "15-19 | Male | japan",
-        "value": 0.5227
-       },
-       {
-        "mark": "15-19 | Female | japan",
-        "value": 0.548835
-       }
-      ],
-      "total": 1.071535
-     },
-     {
-      "entity": "10-14",
-      "segments": [
-       {
-        "mark": "10-14 | Male | japan",
-        "value": 0.5227
-       },
-       {
-        "mark": "10-14 | Female | japan",
-        "value": 0.548835
-       }
-      ],
-      "total": 1.071535
-     },
-     {
-      "entity": "5-9",
-      "segments": [
-       {
-        "mark": "5-9 | Male | japan",
-        "value": 0.5227
-       },
-       {
-        "mark": "5-9 | Female | japan",
-        "value": 0.548835
-       }
-      ],
-      "total": 1.071535
-     },
-     {
-      "entity": "0-4",
-      "segments": [
-       {
-        "mark": "0-4 | Male | japan",
-        "value": 0.5227
-       },
-       {
-        "mark": "0-4 | Female | japan",
-        "value": 0.548835
-       }
-      ],
-      "total": 1.071535
-     }
+    "peak_band": "45-49",
+    "peak_values": {
+     "Male": 1.0,
+     "Female": 1.05
+    },
+    "older_bands": [
+     "65-69",
+     "70-74"
     ],
-    "expected_total": null,
-    "tolerance": 0.05
+    "older_to_peak_ratio_min": 0.7955,
+    "older_to_peak_ratio_max": 0.8409,
+    "expected_order": [
+     "45-49",
+     "70-74",
+     "65-69"
+    ],
+    "required_series": [
+     "Male",
+     "Female"
+    ],
+    "tolerance": {
+     "ratio": 0.05
+    }
    },
    "accepted_routes": [
     "geometry",
     "readable_label"
    ],
    "completeness_ref": "g0_data_completeness",
-   "needs_review": true
+   "needs_review": false
   }
  ]
 }

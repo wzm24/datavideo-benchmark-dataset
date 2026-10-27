@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_18",
  "version": "g1_r_u_v4",
- "intent": "Show that sub-Saharan Africa's population could quadruple between 2021 and 2100.",
+ "intent": "Analyze how sub-Saharan Africa's population in billions changes between 2021 and 2100, and determine the scale of the projected shift.",
  "requirements": [
   {
    "id": "R1",
@@ -86,7 +86,7 @@
     "treating the value as 4 million"
    ],
    "evidence": "The dot matrix grows from 100 dots to 400 dots (each dot = 10 million).",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -139,7 +139,24 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "pictograph"
+  ],
+  "chart_sub_type": "pictograph",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ },
+ "clip_hardcase": {
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

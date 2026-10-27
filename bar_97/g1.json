@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_97",
  "version": "g1_r_u_v4",
- "intent": "Show the sectarian and ethnic composition of Iraq, including the Shia majority, Sunni minority, and Sunni Kurds.",
+ "intent": "Compare the displayed Shia, Sunni, and Sunni Kurd shares in Iraq.",
  "requirements": [
   {
    "id": "R1",
@@ -70,9 +70,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Iraq is shown as about 63% Shia, 20% Sunni, and 17% Sunni Kurds.",
+   "claim": "Iraq is shown as 63% Shia, 20% Sunni, and 17% Sunni Kurds.",
    "basis": [
     {
      "entity": "SUNNI",
@@ -141,5 +141,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

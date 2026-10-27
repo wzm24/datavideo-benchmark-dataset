@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_54",
  "version": "g1_r_u_v4",
- "intent": "Show that, after combining five major tax types, the overall US tax burden is much flatter than income taxes alone, and the richest group pays a smaller share than the poorest.",
+ "intent": "Compare income-tax-only and five-tax total burdens across income groups, including the richest and poorest endpoints.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Does the richest group still pay the highest overall share?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -427,9 +419,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "share_or_composition",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The combined burden is much flatter than income taxes alone: the first nine groups remain roughly between 24% and 31%.",
+   "claim": "The five-tax total is flatter than income taxes alone; the richest 400 group's 23.7% total is below the poorest group's 25.1%.",
    "basis": [
     {
      "entity": "Poorest",
@@ -532,138 +524,25 @@
    ],
    "accept": [
     "five stacked components are present",
-    "the first nine totals are much flatter than the income-tax-only trend"
-   ],
-   "reject": [
-    "showing only income taxes",
-    "omitting payroll or consumption taxes",
-    "describing the income-tax-only steep rise as the combined result"
-   ],
-   "evidence": "The selected keyframe and the plotted bars/segments encode this relation."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
-   "claim": "No: the 400 Richest total is about 23.7%, below the poorest group's total of about 25.1%.",
-   "basis": [
-    {
-     "entity": "Poorest",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 18,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 10,
-     "unit": "%"
-    },
-    {
-     "entity": "Poorest",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 9.2,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 10.5,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Estate taxes",
-     "field": "share_of_income",
-     "value": 0.3,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Estate taxes",
-     "field": "share_of_income",
-     "value": 0.8,
-     "unit": "%"
-    },
-    {
-     "entity": "Poorest",
-     "series": "Payroll taxes",
-     "field": "share_of_income",
-     "value": 10.6,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Payroll taxes",
-     "field": "share_of_income",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Payroll taxes",
-     "field": "share_of_income",
-     "value": 0.4,
-     "unit": "%"
-    },
-    {
-     "entity": "Poorest",
-     "series": "Consumption taxes",
-     "field": "share_of_income",
-     "value": 12.5,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Consumption taxes",
-     "field": "share_of_income",
-     "value": 3,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Consumption taxes",
-     "field": "share_of_income",
-     "value": 2,
-     "unit": "%"
-    }
-   ],
-   "accept": [
+    "the first nine totals are much flatter than the income-tax-only trend",
     "the final Richest stack is slightly below the Poorest stack",
     "both endpoint totals are visible"
    ],
    "reject": [
+    "showing only income taxes",
+    "omitting payroll or consumption taxes",
+    "describing the income-tax-only steep rise as the combined result",
     "claiming the Richest has the highest total",
     "reversing the two endpoint totals",
     "omitting the Richest stack"
    ],
-   "evidence": "The selected keyframe and the plotted bars/segments encode this relation."
+   "evidence": "The selected keyframe and the plotted bars/segments encode this relation. The selected keyframe and the plotted bars/segments encode this relation."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -684,17 +563,30 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "batch_52_63_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "merged_U2_U3_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

@@ -6,14 +6,15 @@
  "chart_input": {
   "clip_id": "bar_156",
   "family": "bar",
-  "sub_type": "stacked",
-  "orientation": "horizontal"
+  "sub_type": "overlay_bar",
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
   "mode": "static_all_at_once",
   "selection": "all role=bar rows",
-  "required_data_rows": 3,
+  "required_data_rows": 2,
   "required_states": [],
   "required_marks_per_state": {},
   "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
@@ -34,11 +35,10 @@
    "evidence_type": "complete_mark_set",
    "required_marks": [
     "Reported assets | pension_assets",
-    "Reported liabilities | pension_liabilities",
     "Actual liabilities | pension_liabilities"
    ],
    "assertion": {
-    "required_data_rows": 3,
+    "required_data_rows": 2,
     "mode": "static_all_at_once",
     "required_states": [],
     "required_marks_per_state": {},
@@ -54,27 +54,44 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "comparison_with_annotation",
    "required_marks": [
     "Reported assets | pension_assets",
-    "Reported liabilities | pension_liabilities",
     "Actual liabilities | pension_liabilities"
    ],
    "assertion": {
-    "greater": "Actual liabilities | pension_liabilities",
+    "greater": "Actual liabilities",
     "greater_value": 7.0,
-    "lesser": "Reported assets | pension_assets",
+    "lesser": "Reported assets",
     "lesser_value": 3.6,
-    "delta": 3.4,
-    "ratio": 1.944444,
-    "expected_order": [
-     "Actual liabilities | pension_liabilities",
-     "Reported liabilities | pension_liabilities",
-     "Reported assets | pension_assets"
-    ],
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0.05
+    }
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "identity",
+   "must_be_visualized": true,
+   "evidence_type": "computed_gap",
+   "required_marks": [
+    "Reported assets | pension_assets",
+    "Actual liabilities | pension_liabilities",
+    "Unfunded gap | pension_gap"
+   ],
+   "assertion": {
+    "assets": 3.6,
+    "actual_liabilities": 7.0,
+    "expected_gap": 3.4,
+    "computation": "7.0 - 3.6 = 3.4",
+    "tolerance": {
+     "value": 0.05
     }
    },
    "accepted_routes": [

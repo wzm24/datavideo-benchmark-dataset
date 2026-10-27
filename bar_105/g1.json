@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_105",
  "version": "g1_r_u_v4",
- "intent": "Show that adults without college education are concentrated in lower income brackets, making student-debt cancellation less relevant to them.",
+ "intent": "Compare the shares of adults with and without college education across the six income brackets and identify where the without-college share is highest.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "What does the selected chart show?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -155,7 +147,7 @@
    "requirement_id": "R2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Adults without college education make up the largest share of the lowest income brackets and a shrinking share at higher incomes.",
+   "claim": "Adults without college education are the largest share in the lowest income bracket at 75% and decline to 5% in the highest bracket.",
    "basis": [
     {
      "entity": "Less than $23,000",
@@ -252,30 +244,12 @@
     "omitting the lower brackets"
    ],
    "evidence": "The stacked bars show both education shares by income."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "claim": "Because this group is concentrated at lower incomes and less likely to hold student debt, broad student-debt cancellation is less relevant to them.",
-   "basis": [],
-   "accept": [
-    "the policy relevance limitation is stated",
-    "it is linked to the non-college lower-income concentration"
-   ],
-   "reject": [
-    "claiming cancellation primarily benefits non-college adults",
-    "ignoring the chart's income composition"
-   ],
-   "evidence": "Narration-only causal conclusion."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -297,8 +271,8 @@
  },
  "clip_hardcase": {
   "is_hardcase": true,
-  "type": "narration_only_context",
-  "reason": "A required conclusion is not directly encoded by a chart mark."
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [
   {
@@ -309,9 +283,21 @@
  ],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

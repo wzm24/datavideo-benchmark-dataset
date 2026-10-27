@@ -89,7 +89,7 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "USA | 1965 | relative_value",
     "Russia | 1990 | relative_value",
@@ -97,22 +97,49 @@
     "Russia | 2015 | relative_value"
    ],
    "assertion": {
-    "greater": "Russia | 1990 | relative_value",
-    "greater_value": 0.4504,
-    "lesser": "Russia | 2015 | relative_value",
-    "lesser_value": 0.0927,
-    "delta": 0.3577,
-    "ratio": 4.858684,
-    "expected_order": [
-     "Russia | 1990 | relative_value",
-     "USA | 1965 | relative_value",
-     "USA | 2015 | relative_value",
-     "Russia | 2015 | relative_value"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U4"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "Russia | 1990 | relative_value",
+      "greater_value": 0.4504,
+      "lesser": "Russia | 2015 | relative_value",
+      "lesser_value": 0.0927,
+      "delta": 0.3577,
+      "ratio": 4.858684,
+      "expected_order": [
+       "Russia | 1990 | relative_value",
+       "USA | 1965 | relative_value",
+       "USA | 2015 | relative_value",
+       "Russia | 2015 | relative_value"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "sequence": [
+       {
+        "mark": "Russia | 1990 | relative_value",
+        "value": 0.4504
+       },
+       {
+        "mark": "Russia | 2015 | relative_value",
+        "value": 0.0927
+       }
+      ],
+      "direction": "decreasing",
+      "start_value": 0.4504,
+      "end_value": 0.0927,
+      "delta": -0.3577,
+      "ratio": 0.205817,
+      "tolerance": 0.02
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",
@@ -123,7 +150,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "evidence_type": "extremum_mark",
    "required_marks": [
@@ -134,40 +161,6 @@
     "extreme": "max",
     "expected": 0.4504,
     "compared_set": "all numeric data rows",
-    "tolerance": 0.02
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U4",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
-   "required_marks": [
-    "Russia | 1990 | relative_value",
-    "Russia | 2015 | relative_value"
-   ],
-   "assertion": {
-    "sequence": [
-     {
-      "mark": "Russia | 1990 | relative_value",
-      "value": 0.4504
-     },
-     {
-      "mark": "Russia | 2015 | relative_value",
-      "value": 0.0927
-     }
-    ],
-    "direction": "decreasing",
-    "start_value": 0.4504,
-    "end_value": 0.0927,
-    "delta": -0.3577,
-    "ratio": 0.205817,
     "tolerance": 0.02
    },
    "accepted_routes": [

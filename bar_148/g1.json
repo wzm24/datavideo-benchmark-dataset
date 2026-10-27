@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_148",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that high-income earners rely primarily on investment income taxed at lower rates, whereas the majority of the population relies on labor income taxed at higher rates, highlighting a disparity in tax treatment based on income source.",
+ "intent": "Compare how labor and investment income shares differ across income groups, and determine how the composition shifts between ordinary workers and the highest-income group.",
  "requirements": [
   {
    "id": "R1",
@@ -271,16 +271,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "strict_reaudit_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "grouped"
+  ],
+  "chart_sub_type": "grouped",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

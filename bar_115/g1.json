@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_115",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the deep partisan divide in public confidence in police officers, demonstrating that Republicans are significantly more likely to have high confidence than Democrats.",
+ "intent": "Compare the shares of Republicans and Democrats expressing a great deal of confidence in police officers and identify which partisan group reports higher confidence.",
  "requirements": [
   {
    "id": "R1",
@@ -129,5 +129,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

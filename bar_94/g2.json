@@ -7,7 +7,8 @@
   "clip_id": "bar_94",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,7 +54,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
@@ -63,22 +64,12 @@
     "Finland | %_gdp_r_d_top_4"
    ],
    "assertion": {
-    "greater": "South Korea | %_gdp_r_d_top_4",
-    "greater_value": 0.95,
-    "lesser": "Finland | %_gdp_r_d_top_4",
-    "lesser_value": 0.65,
-    "delta": 0.3,
-    "ratio": 1.461538,
     "expected_order": [
-     "South Korea | %_gdp_r_d_top_4",
-     "Israel | %_gdp_r_d_top_4",
-     "Japan | %_gdp_r_d_top_4",
-     "Finland | %_gdp_r_d_top_4"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+     "South Korea",
+     "Israel",
+     "Japan",
+     "Finland"
+    ]
    },
    "accepted_routes": [
     "geometry",

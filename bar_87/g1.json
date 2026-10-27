@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_87",
  "version": "g1_r_u_v4",
- "intent": "Show that overweight cats are common while only a small fraction of owners are aware of it.",
+ "intent": "Analyze how common overweight cats are among household cats and how many owners are aware their cat is overweight, then determine how these two shares compare.",
  "requirements": [
   {
    "id": "R1",
@@ -129,5 +129,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

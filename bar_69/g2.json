@@ -7,7 +7,8 @@
   "clip_id": "bar_69",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -89,13 +90,18 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "identity",
    "must_be_visualized": false,
-   "evidence_type": "not_required",
-   "required_marks": [],
+   "evidence_type": "mark_value",
+   "required_marks": [
+    "European Union | member_count"
+   ],
    "assertion": {
-    "required": false,
-    "reason": "narrative-only unit"
+    "expected_value": 28,
+    "unit": "countries",
+    "tolerance": {
+     "value": 0
+    }
    },
    "accepted_routes": [
     "narration"

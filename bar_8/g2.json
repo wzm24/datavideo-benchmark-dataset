@@ -7,7 +7,8 @@
   "clip_id": "bar_8",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,26 +54,43 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "School fees | annual_amount",
     "Average income | annual_amount"
    ],
    "assertion": {
-    "greater": "Average income | annual_amount",
-    "greater_value": 28400.0,
-    "lesser": "School fees | annual_amount",
-    "lesser_value": 16000.0,
-    "delta": 12400.0,
-    "ratio": 1.775,
-    "expected_order": [
-     "Average income | annual_amount",
-     "School fees | annual_amount"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "Average income | annual_amount",
+      "greater_value": 28400.0,
+      "lesser": "School fees | annual_amount",
+      "lesser_value": 16000.0,
+      "delta": 12400.0,
+      "ratio": 1.775,
+      "expected_order": [
+       "Average income | annual_amount",
+       "School fees | annual_amount"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "numerator": 16000,
+      "denominator": 28400,
+      "expected_share": 0.5634,
+      "tolerance": {
+       "value": 0.02
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_57",
  "version": "g1_r_u_v4",
- "intent": "Show that combining income, corporate/property, and estate taxes produces a much heavier burden on the richest groups than on the poorest.",
+ "intent": "Analyze how the combined income, corporate and property, and estate tax burdens compare across income groups, and determine how large the total burden is for the richest groups.",
  "requirements": [
   {
    "id": "R1",
@@ -245,62 +245,72 @@
    "requirement_id": "R2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "The richest 10% reaches about 27.5% and the 400 Richest about 21.3%, versus about 2% for the poorest group.",
+   "claim": "Combined tax burdens rise from about 2.0% for the Poorest through 15.7% for the 9th group, peak at 27.5% for the 10th group, and fall to 21.3% for the 400 Richest.",
    "basis": [
     {
      "entity": "Poorest",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 1,
+     "field": "combined_share_of_income",
+     "value": 2.0,
+     "unit": "%"
+    },
+    {
+     "entity": "2nd",
+     "field": "combined_share_of_income",
+     "value": 2.3,
+     "unit": "%"
+    },
+    {
+     "entity": "3rd",
+     "field": "combined_share_of_income",
+     "value": 4.5,
+     "unit": "%"
+    },
+    {
+     "entity": "4th",
+     "field": "combined_share_of_income",
+     "value": 6.0,
+     "unit": "%"
+    },
+    {
+     "entity": "5th",
+     "field": "combined_share_of_income",
+     "value": 8.2,
+     "unit": "%"
+    },
+    {
+     "entity": "6th",
+     "field": "combined_share_of_income",
+     "value": 9.6,
+     "unit": "%"
+    },
+    {
+     "entity": "7th",
+     "field": "combined_share_of_income",
+     "value": 11.0,
+     "unit": "%"
+    },
+    {
+     "entity": "8th",
+     "field": "combined_share_of_income",
+     "value": 13.2,
+     "unit": "%"
+    },
+    {
+     "entity": "9th",
+     "field": "combined_share_of_income",
+     "value": 15.7,
      "unit": "%"
     },
     {
      "entity": "10th",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 18,
+     "field": "combined_share_of_income",
+     "value": 27.5,
      "unit": "%"
     },
     {
      "entity": "Richest",
-     "series": "Income taxes",
-     "field": "share_of_income",
-     "value": 10,
-     "unit": "%"
-    },
-    {
-     "entity": "Poorest",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 1,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 9.2,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Corporate and property taxes",
-     "field": "share_of_income",
-     "value": 10.5,
-     "unit": "%"
-    },
-    {
-     "entity": "10th",
-     "series": "Estate taxes",
-     "field": "share_of_income",
-     "value": 0.3,
-     "unit": "%"
-    },
-    {
-     "entity": "Richest",
-     "series": "Estate taxes",
-     "field": "share_of_income",
-     "value": 0.8,
+     "field": "combined_share_of_income",
+     "value": 21.3,
      "unit": "%"
     }
    ],
@@ -341,17 +351,29 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "batch_52_63_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

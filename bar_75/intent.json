@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_75",
- "intent_en": "Using a stacked bar chart, show the shift in recorded-music formats from physical media to digital ownership between 1982 and 2013.",
+ "intent_en": "Describe the shift in recorded-music formats from physical media to digital formats between 1982 and 2013.",
  "narration_support": "In other words, the music industry has a head start. This graph of music revenue over time adjusted for inflation tells the story pretty well. Earnings peaked in 1999, and they've been down ever since. Like, really, really down. Now, I'd argue this period was somewhat artificially high. If we zoom out a little, it looks more like an anomaly, a 10 -year spike in the long history of recorded music. People spent so much because they had to. Their choices were buy music a whole album at a time, or don't listen at all. But then the numbers just start falling. If we break it down by format, first LPs, EPs, and 8 tracks, then cassettes, CDs, and later digital, you can see this time is different. Nothing replaces the CD. At least not immediately. You'd think people just stopped listening, busy wondering why the world didn't end, or something.",
  "chart_support": "MUSIC REVENUE BY FORMAT",
  "supported_by_narration": true,
@@ -15,13 +15,31 @@
  "draft_by": "manual_batch_review_2026-10-22",
  "confirmed_by": null,
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
- "review_flags": [],
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
+ ],
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Using a stacked bar chart, show the shift in recorded-music formats from physical media to digital ownership between 1982 and 2013.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Describe the shift in recorded-music formats from physical media to digital formats between 1982 and 2013.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_approved_at": "2026-10-27"
 }

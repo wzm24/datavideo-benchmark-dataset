@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_13",
- "intent_en": "Show how the initial population projection overshot the actual level, and convey the uncertainty in the forecasts.",
- "previous_intent": "To explain the factors causing the significant variance in future population projections and the complexities involved.",
+ "intent_en": "Compare the initial population projection with the actual population level and determine how the two figures differ.",
  "narration_support": "And why do the projections vary by 2 .4 billion people? As always, it's complicated.",
  "chart_support": "A map of Africa with warning icons overlaid on a heatmap, alongside a vertical gauge labeled 'Population in Billion' ranging from 1 to 5.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To explain the factors causing the significant variance in future population projections and the complexities involved.",
+ "narrative_goal": "Show how the initial population projection overshot the actual level, and convey the uncertainty in the forecasts.",
  "intent_machine": "To explain the factors causing the significant variance in future population projections and the complexities involved.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the initial population projection with the actual population level and determine how the two figures differ.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

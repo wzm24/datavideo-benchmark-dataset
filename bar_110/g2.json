@@ -7,7 +7,8 @@
   "clip_id": "bar_110",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -60,95 +61,88 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "combined_trend",
    "required_marks": [
     "Top 10% (Dewi's Family) | household share | value",
-    "Bottom 10% (Putri's Family) | household share | value"
-   ],
-   "assertion": {
-    "greater": "Top 10% (Dewi's Family) | household share | value",
-    "greater_value": 0.5972,
-    "lesser": "Bottom 10% (Putri's Family) | household share | value",
-    "lesser_value": 0.0896,
-    "delta": 0.5076,
-    "ratio": 6.665179,
-    "expected_order": [
-     "Top 10% (Dewi's Family) | household share | value",
-     "Bottom 10% (Putri's Family) | household share | value"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "monotonic_order",
-   "required_marks": [
-    "Top 10% (Dewi's Family) | household share | value",
+    "Bottom 10% (Putri's Family) | household share | value",
     "Income group 2 (descending) | household share | value",
     "Income group 3 (descending) | household share | value",
     "Income group 4 (descending) | household share | value",
     "Income group 5 (descending) | household share | value",
     "Income group 6 (descending) | household share | value",
     "Income group 7 (descending) | household share | value",
-    "Income group 8 (descending) | household share | value",
-    "Bottom 10% (Putri's Family) | household share | value"
+    "Income group 8 (descending) | household share | value"
    ],
    "assertion": {
-    "sequence": [
-     {
-      "mark": "Top 10% (Dewi's Family) | household share | value",
-      "value": 0.5972
-     },
-     {
-      "mark": "Income group 2 (descending) | household share | value",
-      "value": 0.4778
-     },
-     {
-      "mark": "Income group 3 (descending) | household share | value",
-      "value": 0.3882
-     },
-     {
-      "mark": "Income group 4 (descending) | household share | value",
-      "value": 0.3285
-     },
-     {
-      "mark": "Income group 5 (descending) | household share | value",
-      "value": 0.2986
-     },
-     {
-      "mark": "Income group 6 (descending) | household share | value",
-      "value": 0.2389
-     },
-     {
-      "mark": "Income group 7 (descending) | household share | value",
-      "value": 0.209
-     },
-     {
-      "mark": "Income group 8 (descending) | household share | value",
-      "value": 0.1493
-     },
-     {
-      "mark": "Bottom 10% (Putri's Family) | household share | value",
-      "value": 0.0896
-     }
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "direction": "decreasing",
-    "start_value": 0.5972,
-    "end_value": 0.0896,
-    "delta": -0.5076,
-    "ratio": 0.150033,
-    "tolerance": 0.02
+    "component_assertions": [
+     {
+      "greater": "Top 10% (Dewi's Family) | household share | value",
+      "greater_value": 0.5972,
+      "lesser": "Bottom 10% (Putri's Family) | household share | value",
+      "lesser_value": 0.0896,
+      "delta": 0.5076,
+      "ratio": 6.665179,
+      "expected_order": [
+       "Top 10% (Dewi's Family) | household share | value",
+       "Bottom 10% (Putri's Family) | household share | value"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "sequence": [
+       {
+        "mark": "Top 10% (Dewi's Family) | household share | value",
+        "value": 0.5972
+       },
+       {
+        "mark": "Income group 2 (descending) | household share | value",
+        "value": 0.4778
+       },
+       {
+        "mark": "Income group 3 (descending) | household share | value",
+        "value": 0.3882
+       },
+       {
+        "mark": "Income group 4 (descending) | household share | value",
+        "value": 0.3285
+       },
+       {
+        "mark": "Income group 5 (descending) | household share | value",
+        "value": 0.2986
+       },
+       {
+        "mark": "Income group 6 (descending) | household share | value",
+        "value": 0.2389
+       },
+       {
+        "mark": "Income group 7 (descending) | household share | value",
+        "value": 0.209
+       },
+       {
+        "mark": "Income group 8 (descending) | household share | value",
+        "value": 0.1493
+       },
+       {
+        "mark": "Bottom 10% (Putri's Family) | household share | value",
+        "value": 0.0896
+       }
+      ],
+      "direction": "decreasing",
+      "start_value": 0.5972,
+      "end_value": 0.0896,
+      "delta": -0.5076,
+      "ratio": 0.150033,
+      "tolerance": 0.02
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

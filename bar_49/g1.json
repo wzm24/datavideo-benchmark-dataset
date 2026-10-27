@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_49",
  "version": "g1_r_u_v4",
- "intent": "Show that adding estate taxes to corporate and property taxes makes the combined tax burden much heavier for the richest groups.",
+ "intent": "Compare the corporate and property tax burdens of the top two income groups with their totals after adding estate taxes.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What happens to the total tax burden when estate taxes are added?",
+   "question": "How do the top two groups' corporate/property burdens change after estate taxes are added?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -158,34 +158,32 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The richest 10% reach about 9.5% and the 400 richest reach about 11.3% after adding estate taxes, versus about 1% for the poorest 10%.",
+   "claim": "The Richest 10% rises from 9.2% to 9.5% after adding estate taxes, while the 400 Richest rises from 10.5% to 11.3%.",
    "basis": [
     {
-     "entity": "Poorest 10%",
-     "field": "tax_burden",
-     "value": 1,
-     "unit": "%"
-    },
-    {
      "entity": "Richest 10%",
+     "series": "Corporate and property taxes",
      "field": "tax_burden",
      "value": 9.2,
      "unit": "%"
     },
     {
      "entity": "Richest 10%",
+     "series": "Estate taxes",
      "field": "tax_burden",
      "value": 0.3,
      "unit": "%"
     },
     {
      "entity": "400 Richest",
+     "series": "Corporate and property taxes",
      "field": "tax_burden",
      "value": 10.5,
      "unit": "%"
     },
     {
      "entity": "400 Richest",
+     "series": "Estate taxes",
      "field": "tax_burden",
      "value": 0.8,
      "unit": "%"
@@ -229,17 +227,29 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "stacked_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_98",
  "version": "g1_r_u_v4",
- "intent": "Show that cats outnumber dogs as pets in the United States.",
+ "intent": "Compare the pet populations of cats and dogs in the United States and determine which animal is more common as a pet.",
  "requirements": [
   {
    "id": "R1",
@@ -130,5 +130,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

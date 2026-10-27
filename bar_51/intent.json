@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_51",
- "intent_en": "Show that payroll taxes are capped, so lower- and middle-income groups pay a much larger share of income than the richest groups.",
+ "intent_en": "Compare payroll tax rates across the income groups and identify where the largest change occurs.",
  "narration_support": "It's capped. That means the rich pay a really small portion of their income toward payroll taxes. And poor people in the middle class pay way more.",
  "chart_support": "Payroll taxes",
  "supported_by_narration": true,
@@ -23,5 +23,27 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that payroll taxes are capped, so lower- and middle-income groups pay a much larger share of income than the richest groups.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare payroll tax rates across the income groups and identify where the largest change occurs.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

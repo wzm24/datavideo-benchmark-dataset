@@ -7,10 +7,9 @@
 
 当前进度：
 
-- bar 家族共 153 条，全部完成 R/U + G0/G2 完整性格式迁移。
-- 当前 100 条为人工审核通过，53 条为待人工复核；具体状态以
-  `BAR_REVIEW_INDEX.csv` 为准。
-- 其中 28 条带 hardcase 标记。
+- bar 家族共 153 条，全部完成 V1 的 intent/GT1/G2/G3 统一与审计。
+- 153 条公开 intent 均通过数值泄露检查、协议检查和盲往返检查。
+- 45 条复杂图标记为 `complex_chart` hardcase，R1 图元覆盖检查全部通过。
 - 完整索引见根目录 `BAR_REVIEW_INDEX.csv`。
 
 | 文件 | 作用 |
@@ -21,7 +20,7 @@
 | `g2.json` | G2：逐 U 的机器可检查视觉证据条件；bar 全量已生成 |
 | `g3.json` | G3：绑定生成旁白的时间政策；bar 全量已生成草稿 |
 | `chart_spec.json` | 完整图型 spec，供 review、G2、审计使用 |
-| `input_spec.json` | 精简 spec，只给生成模型：family / sub_type / orientation（动画图多一个 time_behavior） |
+| `input_spec.json` | 精简 spec，只给生成模型：family / sub_type / orientation / time_behavior；不含行列数和答案提示 |
 | `narration.jsonl` | ASR 句子与时间戳 |
 | `semantic.svg` | 视觉参考 |
 | `keyframe.png` | 参考关键帧 |
@@ -72,8 +71,9 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 
 ## 3. intent
 
-输入是四样：**叙事目标（现有 intent_en）+ narration + data_table + semantic.svg**。
-不用关键帧。
+标注端可以使用 narration、data_table 和 semantic.svg 还原内部叙事目标，
+但 V1 生成端只收到 **公开 intent + data_table + input_spec**。
+公开 intent 不得泄露表中的数值答案或方向结论。
 
 写法：
 
@@ -105,8 +105,8 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 
 - **R**：作品必须回答的问题；`all_of` 表示每个 U 都要，`any_of` 表示任选，`single` 表示一个 U 内部有多种可接受写法。
 - **U**：可独立判定的一项内容。`accept` 是合法表达，`reject` 是常见错误，`evidence` 是视觉证据。
-- **一个纯数值变化 = 一个 U**（bar_1、bar_2、bar_4）。
-- 多个子答案都必须出现时，可以合并成一个 U（bar_2 的四个地区、bar_6 的三种非汽车方式）。
+- **一个 intent 槽 = 一个 U**；同槽内多个证据路线写入 `accepted_routes`，不重复拆 U。
+- 多个子答案都必须出现时按 intent 的独立槽计数；同一命题的端点、差值、比值和排序不重复计分。
 - 权重按 U 均分。
 - hardcase：必需命题由 intent/table 支持、但原参考图没有明确视觉标记时，保留 G1，
   默认设置 `must_be_visualized=false`，并在 `HARDCASES.md` 记录。
@@ -132,18 +132,22 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 | bar_5 | 0% vs 100% + £105m annotation | 说明征税差异与额外收入 | 2 U：0/100 对比 + £105m |
 | bar_6 | 四种方式 × 全国/TOD | TOD 少开车、多公交/骑车/步行 | 2 U：汽车更低 + 三种方式更高 |
 
-## 7. 已知问题
+## 7. 当前限制
 
-- bar_3 的 narration 说 “any other time”，但表里只有 cyclists vs drivers；已在该 clip 的 `intent.json` 加 `narration_scope_note`。
-- 部分表是 relative-only（没有绝对值），不要补造。
-- 其余 334 条仍待按本流程审核。
+- G3 的 `1.0s / 1.5s / 0.8s` 是待 G4 校准的草稿值。
+- 26 条历史 requirement question 文案仍较泛，但 claim、basis 和 unit type 均可判定。
+- 当前 V1 审计只覆盖 bar；line/area/donut/pie 仍待按同一契约迁移。
+- 复杂图评分会比旧版更严格，因为完整 bar/segment/paired mark 现在进入 R1 固定分母。
 
 ## 8. 相关文件
 
 - 完整 spec：`chart_spec.json`
 - 生成输入 spec：`input_spec.json`
 - 协议：`benchmark_draft/gt/evaluation_protocol.md`、`CHART_SPEC.md`
+- V1 bar 流水线：`docs/V1_BAR_PIPELINE.md`
+- 最新 bar 审计：`audits/bar_v1_20261027/summary.json`
+- 复杂图 hardcase：`audits/bar_v1_20261027/complex_hardcases.md`
 - bar 全量审核索引：`BAR_REVIEW_INDEX.csv`
 - `bar_84`–`bar_163` 严格审核记录：`BAR84_163_STRICT_AUDIT.csv`、`BAR84_163_STRICT_AUDIT.md`
-- `bar_1`–`bar_163` 合并审核页：`reviews/2026-10-22/bar_1_163_full_review.html`
+- `bar_1`–`bar_163` 合并审核页：`reviews/2026-10-28/bar_1_163_full_review.html`
 - `bar_22` hardcase baseline 报告：`reviews/2026-10-22/bar22_hardcase.html`

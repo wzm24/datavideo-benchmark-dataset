@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_163",
- "intent_en": "To explain the construction and structure of a population pyramid by organizing a population by age and separating it by gender.",
- "previous_intent": "To illustrate the structure and concept of a population pyramid by visualizing population distribution across age groups separated by gender.",
+ "intent_en": "Compare male and female counts by single year of age and describe the overall age distribution.",
  "narration_support": "arrange the living by their age. Doing so creates what's called a population pyramid, though it's usually shown the other way around and separated by gender.",
  "chart_support": "Population pyramid chart displaying Age on the vertical axis with distinct sections for male and female symbols.",
  "supported_by_narration": true,
@@ -25,10 +24,35 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
+ "status": "approved",
  "review_flags": [
-  "legacy_intent_needs_semantic_reaudit"
+  "legacy_intent_needs_semantic_reaudit",
+  "final_v1_public_intent_approved_2026_10_27",
+  "final_v1_public_intent_approved_2026_10_27",
+  "final_v1_public_intent_approved_2026_10_27"
  ],
- "approved_by": null,
- "approved_at": null
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "narrative_goal": "To explain the construction and structure of a population pyramid by organizing a population by age and separating it by gender.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "reviewed",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare male and female counts by single year of age and describe the overall age distribution.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

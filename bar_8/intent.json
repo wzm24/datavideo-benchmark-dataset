@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_8",
- "intent_en": "Show that annual private school fees take about half of an average earner's annual income, making private schooling hard to afford.",
- "previous_intent": "Show that private school fees take about half of an average earner's income, making private schooling hard to afford.",
+ "intent_en": "Compare annual private school fees with average annual income and determine what share of a typical earner's income those fees represent.",
  "narration_support": "Rising school fees now amount to 50 % of an average earner's wage",
  "chart_support": "Bar chart comparing school fees and average income, illustrating that fees represent a significant fraction of total earnings.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "Show that private school fees take about half of an average earner's income, making private schooling hard to afford.",
+ "narrative_goal": "Show that annual private school fees take about half of an average earner's annual income, making private schooling hard to afford.",
  "intent_machine": "Show that private school fees take about half of an average earner's income, making private schooling hard to afford.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare annual private school fees with average annual income and determine what share of a typical earner's income those fees represent.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

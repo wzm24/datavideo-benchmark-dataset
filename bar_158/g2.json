@@ -7,7 +7,8 @@
   "clip_id": "bar_158",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -33,11 +34,11 @@
    "must_be_visualized": true,
    "evidence_type": "complete_mark_set",
    "required_marks": [
-    "US-Russia Nuclear Treaties | value",
-    "ANTI-BALLISTIC MISSILE TREATY | value",
-    "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY | value",
-    "START I | value",
-    "SORT | value"
+    "ANTI-BALLISTIC MISSILE TREATY | active_period",
+    "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY | active_period",
+    "START I | active_period",
+    "SORT | active_period",
+    "NEW START | active_period"
    ],
    "assertion": {
     "required_data_rows": 5,
@@ -54,45 +55,60 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "trend_or_order",
+   "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "monotonic_order",
+   "evidence_type": "interval_comparison",
    "required_marks": [
-    "US-Russia Nuclear Treaties | n/a | relative_value",
-    "ANTI-BALLISTIC MISSILE TREATY | n/a | relative_value",
-    "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY | n/a | relative_value",
-    "START I | n/a | relative_value",
-    "SORT | n/a | relative_value"
+    "ANTI-BALLISTIC MISSILE TREATY | active_period",
+    "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY | active_period",
+    "START I | active_period",
+    "SORT | active_period",
+    "NEW START | active_period"
    ],
    "assertion": {
-    "sequence": [
+    "intervals": [
      {
-      "mark": "US-Russia Nuclear Treaties | n/a | relative_value",
-      "value": 0.0333
+      "entity": "ANTI-BALLISTIC MISSILE TREATY",
+      "start": 1972,
+      "end": 2002,
+      "duration": 30
      },
      {
-      "mark": "ANTI-BALLISTIC MISSILE TREATY | n/a | relative_value",
-      "value": 0.0333
+      "entity": "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY",
+      "start": 1987,
+      "end": 2019,
+      "duration": 32
      },
      {
-      "mark": "INTERMEDIATE-RANGE NUCLEAR FORCES TREATY | n/a | relative_value",
-      "value": 0.0333
+      "entity": "START I",
+      "start": 1991,
+      "end": 2009,
+      "duration": 18
      },
      {
-      "mark": "START I | n/a | relative_value",
-      "value": 0.0333
+      "entity": "SORT",
+      "start": 2002,
+      "end": 2012,
+      "duration": 10
      },
      {
-      "mark": "SORT | n/a | relative_value",
-      "value": 0.0333
+      "entity": "NEW START",
+      "start": 2010,
+      "end": 2021,
+      "duration": 11
      }
     ],
-    "direction": "flat",
-    "start_value": 0.0333,
-    "end_value": 0.0333,
-    "delta": 0.0,
-    "ratio": 1.0,
-    "tolerance": 0.02
+    "latest_end": {
+     "entity": "NEW START",
+     "year": 2021
+    },
+    "shortest": {
+     "entity": "SORT",
+     "years": 10
+    },
+    "tolerance": {
+     "years": 1
+    }
    },
    "accepted_routes": [
     "geometry",

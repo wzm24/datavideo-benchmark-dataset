@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_22",
  "version": "g1_r_u_v4",
- "intent": "Show that a wealth tax could finance programs helping millions because wealth is extremely concentrated among the ultra-rich, while ordinary occupations have little or negative net worth.",
+ "intent": "Compare net worth across the listed occupations and identify how the separate ultra-rich annotation extends beyond the displayed scale.",
  "requirements": [
   {
    "id": "R1",
@@ -37,20 +37,6 @@
     ],
     "measure": "net worth",
     "pattern": "extreme concentration at the top"
-   }
-  },
-  {
-   "id": "R3",
-   "question": "What policy conclusion does the wealth inequality support?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
-   ],
-   "scope": {
-    "entities": [
-     "Ultra-rich households"
-    ],
-    "measure": "wealth-tax target and potential program funding"
    }
   }
  ],
@@ -194,9 +180,9 @@
   {
    "id": "U3",
    "requirement_id": "R2",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
-   "claim": "At the far right, the wealth-distribution tail represents ultra-rich households whose net worth rises far beyond the displayed scale.",
+   "claim": "The ultra-rich households are represented by a separate annotation whose net worth extends far beyond the displayed occupation scale.",
    "accept": [
     "the far-right distribution curve rises extremely steeply and goes far above the displayed scale",
     "an off-scale tail or callout labels the ultra-rich",
@@ -219,47 +205,17 @@
      "label": "net worth far beyond the displayed axis"
     }
    ]
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "hardcase": true,
-   "hardcase_reason": "The source chart has no direct visual mark for the wealth-tax policy conclusion; it is supported by the public intent and the ultra-rich concentration but defaults to content-only scoring.",
-   "claim": "The extreme concentration of wealth among the ultra-rich is the rationale for a wealth tax that could help finance programs benefiting millions.",
-   "accept": [
-    "wealth is concentrated at the very top, so a wealth tax targets the ultra-rich",
-    "taxing ultra-rich wealth could help fund large programs for millions of people",
-    "the policy conclusion follows from the contrast between ordinary occupations and the ultra-rich"
-   ],
-   "reject": [
-    "the wealth tax primarily targets ordinary workers",
-    "the named occupations carry the main tax burden",
-    "wealth concentration is irrelevant to the proposed tax"
-   ],
-   "evidence": "This is a narrative conclusion supported by the intent and the ultra-rich concentration shown in the chart. The source chart has no direct tax visual, so it belongs to content completion but not the visual-completion denominator.",
-   "basis": [
-    {
-     "field": "value",
-     "value": "",
-     "unit": "USD",
-     "entity": "Ultra-rich households",
-     "metric": "net_worth",
-     "label": "net worth far beyond the displayed axis"
-    }
-   ]
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [
-  "Do not invent an exact value for the ultra-rich group; the source only shows that its wealth is far beyond the displayed scale."
+  "Do not invent an exact value for the ultra-rich group; the source only shows that its wealth is far beyond the displayed scale.",
+  "U4 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
  ],
  "hardcases": [
   {
@@ -290,6 +246,58 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
- ]
+  "state_level_completeness_r1_2026-10-22",
+  "u4_downgraded_to_optional_valid_2026_10_27"
+ ],
+ "optional_units": [
+  {
+   "id": "U4",
+   "requirement_id": "R3",
+   "unit_kind": "identity",
+   "must_be_visualized": false,
+   "hardcase": true,
+   "hardcase_reason": "The source chart has no direct visual mark for the wealth-tax policy conclusion; it is supported by the public intent and the ultra-rich concentration but defaults to content-only scoring.",
+   "claim": "The extreme concentration of wealth among the ultra-rich is the rationale for a wealth tax that could help finance programs benefiting millions.",
+   "accept": [
+    "wealth is concentrated at the very top, so a wealth tax targets the ultra-rich",
+    "taxing ultra-rich wealth could help fund large programs for millions of people",
+    "the policy conclusion follows from the contrast between ordinary occupations and the ultra-rich"
+   ],
+   "reject": [
+    "the wealth tax primarily targets ordinary workers",
+    "the named occupations carry the main tax burden",
+    "wealth concentration is irrelevant to the proposed tax"
+   ],
+   "evidence": "This is a narrative conclusion supported by the intent and the ultra-rich concentration shown in the chart. The source chart has no direct tax visual, so it belongs to content completion but not the visual-completion denominator.",
+   "basis": [
+    {
+     "field": "value",
+     "value": "",
+     "unit": "USD",
+     "entity": "Ultra-rich households",
+     "metric": "net_worth",
+     "label": "net worth far beyond the displayed axis"
+    }
+   ],
+   "status": "optional_valid",
+   "optional_reason": "U4 is optional for V1 because its supporting fact is not present in data_table.csv and would require narration or external context."
+  }
+ ],
+ "optional_requirements": [
+  {
+   "id": "R3",
+   "question": "What policy conclusion does the wealth inequality support?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "entities": [
+     "Ultra-rich households"
+    ],
+    "measure": "wealth-tax target and potential program funding"
+   }
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

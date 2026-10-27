@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_16",
  "version": "g1_r_u_v4",
- "intent": "Show that the human population quadrupled over the century before 2019.",
+ "intent": "Analyze how the human population in billions changed between 1919 and 2019, and determine the overall comparison across that century.",
  "requirements": [
   {
    "id": "R1",
@@ -112,7 +112,7 @@
     "a multiplier other than about 4"
    ],
    "evidence": "The single bar grows from about 1.9 to 7.7 on the 1-8 axis.",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -174,5 +174,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

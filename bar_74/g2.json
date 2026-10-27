@@ -7,7 +7,8 @@
   "clip_id": "bar_74",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,9 +54,9 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "combined_ranking",
    "required_marks": [
     "KFC | global_locations",
     "Starbucks | global_locations",
@@ -63,58 +64,49 @@
     "Subway | global_locations"
    ],
    "assertion": {
-    "greater": "Subway | global_locations",
-    "greater_value": 43000.0,
-    "lesser": "KFC | global_locations",
-    "lesser_value": 20000.0,
-    "delta": 23000.0,
-    "ratio": 2.15,
-    "expected_order": [
-     "Subway | global_locations",
-     "McDonald's | global_locations",
-     "Starbucks | global_locations",
-     "KFC | global_locations"
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
-   "required_marks": [
-    "KFC | global_locations",
-    "Starbucks | global_locations",
-    "McDonald's | global_locations",
-    "Subway | global_locations"
-   ],
-   "assertion": {
-    "greater": "Subway | global_locations",
-    "greater_value": 43000.0,
-    "lesser": "KFC | global_locations",
-    "lesser_value": 20000.0,
-    "delta": 23000.0,
-    "ratio": 2.15,
-    "expected_order": [
-     "Subway | global_locations",
-     "McDonald's | global_locations",
-     "Starbucks | global_locations",
-     "KFC | global_locations"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "component_assertions": [
+     {
+      "greater": "Subway | global_locations",
+      "greater_value": 43000.0,
+      "lesser": "KFC | global_locations",
+      "lesser_value": 20000.0,
+      "delta": 23000.0,
+      "ratio": 2.15,
+      "expected_order": [
+       "Subway | global_locations",
+       "McDonald's | global_locations",
+       "Starbucks | global_locations",
+       "KFC | global_locations"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "greater": "Subway | global_locations",
+      "greater_value": 43000.0,
+      "lesser": "KFC | global_locations",
+      "lesser_value": 20000.0,
+      "delta": 23000.0,
+      "ratio": 2.15,
+      "expected_order": [
+       "Subway | global_locations",
+       "McDonald's | global_locations",
+       "Starbucks | global_locations",
+       "KFC | global_locations"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",

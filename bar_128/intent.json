@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_128",
- "intent_en": "To explain the timeline of casualties from the atomic bombings of Hiroshima and Nagasaki, emphasizing that the vast majority of deaths occurred in the weeks following the event rather than instantly or decades later.",
- "previous_intent": "To demonstrate the distribution of deaths in Hiroshima and Nagasaki over time, highlighting that the vast majority occurred within the short term, with only a minority resulting from the blast or long-term radiation effects.",
+ "intent_en": "Analyze the casualty timeline for the atomic bombings of Hiroshima and Nagasaki, and determine how deaths were distributed across the immediate aftermath, the following weeks, and later periods.",
  "narration_support": "90 % of deaths occurred within the first three weeks",
  "chart_support": "Dot matrix visualization comparing the distribution of deaths by time period (instantly, within weeks, 3+ weeks) for Hiroshima and Nagasaki, showing the middle period is the largest segment",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To explain the timeline of casualties from the atomic bombings of Hiroshima and Nagasaki, emphasizing that the vast majority of deaths occurred in the weeks following the event rather than instantly or decades later.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze the casualty timeline for the atomic bombings of Hiroshima and Nagasaki, and determine how deaths were distributed across the immediate aftermath, the following weeks, and later periods.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

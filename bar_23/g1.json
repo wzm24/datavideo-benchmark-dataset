@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_23",
  "version": "g1_r_u_v4",
- "intent": "Present the 2016 presidential election results for all 50 states as vote-share distributions among Clinton, Trump, and other candidates.",
+ "intent": "Analyze the 2016 presidential vote shares across all fifty states, comparing Clinton, Trump, and other candidates, and determine how the composition varies by state.",
  "requirements": [
   {
    "id": "R1",
@@ -2505,7 +2505,24 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked_100"
+  ],
+  "chart_sub_type": "stacked_100",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ },
+ "clip_hardcase": {
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

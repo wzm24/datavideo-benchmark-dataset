@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_14",
  "version": "g1_r_u_v4",
- "intent": "Show that Sub-Saharan Africa's birth rate has fallen since 1960 but remains much higher than East Asia, North America, and the European Union.",
+ "intent": "Analyze how Sub-Saharan Africa's births per woman changed from 1960 to 2017 and determine how it compares with East Asia, North America, and the European Union in 2017.",
  "requirements": [
   {
    "id": "R1",
@@ -170,7 +170,7 @@
     "wrong endpoint values"
    ],
    "evidence": "The Sub-Saharan Africa bar falls from 6.6 to 4.7 across the two frames.",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -292,5 +292,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

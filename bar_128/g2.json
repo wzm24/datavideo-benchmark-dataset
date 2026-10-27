@@ -6,8 +6,9 @@
  "chart_input": {
   "clip_id": "bar_128",
   "family": "bar",
-  "sub_type": "dot_matrix",
-  "orientation": "horizontal"
+  "sub_type": "pictograph",
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,

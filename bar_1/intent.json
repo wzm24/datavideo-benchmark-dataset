@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_1",
- "intent_en": "Compare the travel time to the Moon by car, Boeing 747, and spacecraft: report each duration and how the three compare.",
- "previous_intent": "To illustrate the vast distance to the moon by comparing the travel times required for a car, a commercial airplane, and a spaceship.",
+ "intent_en": "Analyze the available Moon travel times for a car, a commercial airplane, and a spacecraft, reporting each duration or descriptive label.",
  "narration_support": "Pretty far away, right? ... And in a car, a lot of time.",
  "chart_support": "Horizontal bar chart titled 'FLY ME TO THE MOON' comparing travel duration for a car, Boeing 747, and spaceship, showing the car takes the longest and the spaceship the shortest.",
  "supported_by_narration": true,
@@ -33,5 +32,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Compare the travel time to the Moon by car, Boeing 747, and spacecraft: report each duration and how the three compare.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze the available Moon travel times for a car, a commercial airplane, and a spacecraft, reporting each duration or descriptive label.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

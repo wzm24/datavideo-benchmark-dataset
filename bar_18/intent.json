@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_18",
- "intent_en": "Show that sub-Saharan Africa's population could quadruple between 2021 and 2100.",
- "previous_intent": "To illustrate the projected future population scale of sub-Saharan Africa by the end of the century.",
+ "intent_en": "Analyze how sub-Saharan Africa's population in billions changes between 2021 and 2100, and determine the scale of the projected shift.",
  "narration_support": "If population growth continues at its present rate, then sub -Saharan Africa could grow to more than 4 billion people by 2100.",
  "chart_support": "A dot matrix chart displaying a population total labeled 4 billion for the year 2099.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate the projected future population scale of sub-Saharan Africa by the end of the century.",
+ "narrative_goal": "Show that sub-Saharan Africa's population could quadruple between 2021 and 2100.",
  "intent_machine": "To illustrate the projected future population scale of sub-Saharan Africa by the end of the century.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how sub-Saharan Africa's population in billions changes between 2021 and 2100, and determine the scale of the projected shift.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

@@ -7,7 +7,8 @@
   "clip_id": "bar_116",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -61,21 +62,16 @@
     "Black adults | unfairly_stopped"
    ],
    "assertion": {
-    "greater": "Black men | unfairly_stopped",
-    "greater_value": 64.0,
-    "lesser": "Black women | unfairly_stopped",
-    "lesser_value": 32.0,
-    "delta": 32.0,
-    "ratio": 2.0,
     "expected_order": [
-     "Black men | unfairly_stopped",
-     "Black adults | unfairly_stopped",
-     "Black women | unfairly_stopped"
+     "Black men",
+     "Black adults",
+     "Black women"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "expected_values": [
+     64,
+     45,
+     32
+    ]
    },
    "accepted_routes": [
     "geometry",

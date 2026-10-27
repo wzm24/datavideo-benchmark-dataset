@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_88",
- "intent_en": "Show Japan's aging population and comparatively small younger age bands.",
+ "intent_en": "Compare the relative sizes of Japan's older and younger age bands in its population pyramid.",
  "narration_support": "which can either act as a free economic multiplier or a bleak and costly undoing. Japan's population may be large, but it takes an unfortunate shape, far too many old people for not enough young. Unless millions of Japanese suddenly change their mind and start having children tomorrow, the land of the rising sun will slowly set, as Africa grows into the next major consumer market.",
  "chart_support": "JAPAN",
  "supported_by_narration": true,
@@ -15,13 +15,40 @@
  "draft_by": "manual_batch_review_2026-10-22",
  "confirmed_by": null,
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
- "review_flags": [],
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "review_flags": [
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27"
+ ],
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show Japan's aging population and comparatively small younger age bands.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "reviewed",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the relative sizes of Japan's older and younger age bands in its population pyramid.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

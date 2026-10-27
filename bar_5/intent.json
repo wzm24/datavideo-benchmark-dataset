@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_5",
- "intent_en": "Compare private and state schools on paying business rates, and convey the potential annual revenue from requiring private schools to pay as state schools do.",
- "previous_intent": "To illustrate the potential additional annual revenue that could be generated if private schools were required to pay business rates at the same level as state schools.",
+ "intent_en": "Compare private and state schools on paying business rates, then determine the potential annual revenue from requiring private schools to pay as state schools do.",
  "narration_support": "getting them to pay the full WAC, which is something state schools already have to do, could bring in an extra £105 million per year.",
  "chart_support": "A bar chart comparing private and state schools under the title 'business rates', featuring a large monetary figure overlay to indicate potential revenue.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate the potential additional annual revenue that could be generated if private schools were required to pay business rates at the same level as state schools.",
+ "narrative_goal": "Compare private and state schools on paying business rates, and convey the potential annual revenue from requiring private schools to pay as state schools do.",
  "intent_machine": "To illustrate the potential additional annual revenue that could be generated if private schools were required to pay business rates at the same level as state schools.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare private and state schools on paying business rates, then determine the potential annual revenue from requiring private schools to pay as state schools do.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_117",
- "intent_en": "To demonstrate that Black adults are significantly more likely than other racial or ethnic groups to report being unfairly stopped by the police due to their race or ethnicity.",
- "previous_intent": "To demonstrate the significant disparity in the likelihood of U.S. adults reporting unfair police stops due to race or ethnicity, highlighting that Black adults are much more likely to experience this than Hispanic or White adults.",
+ "intent_en": "Analyze the reported rates of unfair police stops attributed to race or ethnicity across racial and ethnic groups, and determine how the groups compare.",
  "narration_support": "And by comparison, 19 % of Hispanic adults and only 9 % of white adults said that this has happened to them.",
  "chart_support": "Bar chart displaying the percentage of U.S. adults who say they have been unfairly stopped by police because of their race or ethnicity, showing Black adults at the highest level compared to Hispanic, Asian, and White adults.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate that Black adults are significantly more likely than other racial or ethnic groups to report being unfairly stopped by the police due to their race or ethnicity.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze the reported rates of unfair police stops attributed to race or ethnicity across racial and ethnic groups, and determine how the groups compare.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

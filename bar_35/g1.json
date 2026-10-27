@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_35",
  "version": "g1_r_u_v4",
- "intent": "To validate the use of objective standards in pretrial decisions by presenting encouraging data on defendant compliance and public safety.",
+ "intent": "Analyze the pretrial release outcomes by determining what share of defendants was released pretrial, what share of released defendants returned for every court date, and what share was not arrested pretrial.",
  "requirements": [
   {
    "id": "R1",
@@ -203,5 +203,6 @@
  "status": "approved",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

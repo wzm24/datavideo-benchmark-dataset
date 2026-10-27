@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_28",
  "version": "g1_r_u_v4",
- "intent": "Explain how Warren's proposed wealth tax rises across wealth thresholds while affecting only the wealthiest Americans and raising substantial federal revenue.",
+ "intent": "Compare the wealth-tax rates at the two wealth thresholds and report the affected population share and potential federal revenue.",
  "requirements": [
   {
    "id": "R1",
@@ -129,7 +129,7 @@
   {
    "id": "U3",
    "requirement_id": "R2",
-   "unit_kind": "threshold_or_crossing",
+   "unit_kind": "threshold",
    "must_be_visualized": true,
    "claim": "An illustrative wealth bar spans the $60 million and $1 billion thresholds, showing a 2% tax rate at $60 million and a higher 3% rate at $1 billion.",
    "accept": [
@@ -185,8 +185,8 @@
   {
    "id": "U4",
    "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
+   "unit_kind": "share_or_composition",
+   "must_be_visualized": true,
    "hardcase": true,
    "hardcase_reason": "The source chart has no direct visual mark for the share of Americans paying the tax.",
    "claim": "Only the richest 0.05% of Americans would pay the proposed wealth tax.",
@@ -214,8 +214,8 @@
   {
    "id": "U5",
    "requirement_id": "R4",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
+   "unit_kind": "identity",
+   "must_be_visualized": true,
    "hardcase": true,
    "hardcase_reason": "The source chart labels tax thresholds and rates but does not show the total potential revenue.",
    "claim": "The tax could have raised about $200 billion in federal revenue in 2016.",
@@ -298,5 +298,6 @@
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

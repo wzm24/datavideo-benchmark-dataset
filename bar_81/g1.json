@@ -65,7 +65,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The Congolese death bar is larger than the Belgian-population comparison bar.",
+   "claim": "The Congolese death bar is 1.000 versus 0.740 for Belgium's 1890 population, so the deaths are about 35% larger.",
    "basis": [
     {
      "entity": "CONGOLESE DEATHS",
@@ -129,5 +129,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

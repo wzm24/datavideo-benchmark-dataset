@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_126",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the historical trend of U.S. defense spending and the substantial increase in costs during the Bush administration, peaking in 2010.",
+ "intent": "Describe U.S. defense spending from 1950 to 2010, including the late-2000s rise and the 2010 peak.",
  "requirements": [
   {
    "id": "R1",
@@ -23,22 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Is the 2010 maximum (823.5) required as an explicit endpoint value?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R4",
-   "question": "Must the video quantify the Bush-era increase (367.5 or ~81%), or just show the rise?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
    ]
   }
  ],
@@ -493,9 +477,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "U.S. defense spending rose substantially over the historical period, from 150.9 in 1950 to 823.5 in 2010, an increase of 672.6 (about 5.5 times the 1950 level).",
+   "claim": "U.S. defense spending rises from 150.9 in 1950 to 823.5 in 2010; within the late-2000s phase it rises from 456.0 in 2001 to 800.6 in 2009 and then reaches the 2010 peak of 823.5.",
    "basis": [
     {
      "entity": "1950",
@@ -510,52 +494,14 @@
      "field": "value",
      "value": 823.5,
      "note": "last series value"
-    }
-   ],
-   "accept": [
-    "Spending climbed from about $151B in 1950 to over $823B in 2010.",
-    "The series increased more than fivefold between 1950 and 2010.",
-    "From 150.9 to 823.5, a gain of 672.6."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "First bar/point (1950) is near 151 and last bar/point (2010) is near 824, with a clear overall rise."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "key_value_extreme",
-   "must_be_visualized": true,
-   "claim": "2010 is the peak year, with the maximum value 823.5.",
-   "basis": [
+    },
     {
      "entity": "2010",
      "x": "1171.5",
      "field": "value",
      "value": 823.5,
      "note": "maximum value in table"
-    }
-   ],
-   "accept": [
-    "The highest point is 823.5 in 2010.",
-    "Spending peaks at about $824B at the 2010 endpoint.",
-    "The maximum is 823.5, labeled 2010."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The final 2010 bar/point is the tallest and labeled with 823.5 (or rounded to 824)."
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R4",
-   "unit_kind": "change_or_rate",
-   "must_be_visualized": true,
-   "claim": "During the Bush administration period (2000 to 2010), defense spending rose from 456.0 to 823.5, an increase of 367.5 (about 80.6% or 1.81x).",
-   "basis": [
+    },
     {
      "entity": "2000",
      "x": "1019.5",
@@ -572,6 +518,12 @@
     }
    ],
    "accept": [
+    "Spending climbed from about $151B in 1950 to over $823B in 2010.",
+    "The series increased more than fivefold between 1950 and 2010.",
+    "From 150.9 to 823.5, a gain of 672.6.",
+    "The highest point is 823.5 in 2010.",
+    "Spending peaks at about $824B at the 2010 endpoint.",
+    "The maximum is 823.5, labeled 2010.",
     "From 2000 to 2010, spending increased by 367.5, or about 81%.",
     "The 2010 level is roughly 1.8 times the 2000 level.",
     "A Bush-era rise of about $368B from 456.0 to 823.5."
@@ -580,15 +532,13 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "A visible steep rise between the 2000 bar (~456) and the 2010 bar (~824)."
+   "evidence": "First bar/point (1950) is near 151 and last bar/point (2010) is near 824, with a clear overall rise. The final 2010 bar/point is the tallest and labeled with 823.5 (or rounded to 824). A visible steep rise between the 2000 bar (~456) and the 2010 bar (~824)."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "Showing fluctuations across the 1970s–1990s, such as the 1985 high of 656.1 and the 2000 dip of 456.0.",
@@ -615,7 +565,8 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_U4_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -633,5 +584,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

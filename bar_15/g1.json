@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_15",
  "version": "g1_r_u_v4",
- "intent": "Show that the number of people flagged for far-right activity rose by more than a third between 2016-17 and 2017-18.",
+ "intent": "Analyze how the number of people flagged for far-right activity changed between 2016-17 and 2017-18, and determine the relative change over that period.",
  "requirements": [
   {
    "id": "R1",
@@ -88,7 +88,7 @@
     "missing one of the two periods"
    ],
    "evidence": "Two bars: 2017-18 is at least one-third taller than 2016-17.",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "basis": [
     {
@@ -144,5 +144,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

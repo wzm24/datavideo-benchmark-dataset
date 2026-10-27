@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_92",
- "intent_en": "Compare life expectancy in Ivory Coast, Nigeria, Somalia, and Mozambique, highlighting Somalia's low value.",
+ "intent_en": "Rank Ivory Coast, Nigeria, Somalia, and Mozambique by life expectancy.",
  "narration_support": "The result is a 55 year life expectancy, one of the lowest in the world, and a GDP that makes Ghana and Madagascar look rich.",
  "chart_support": "LIFE EXPECTANCY",
  "supported_by_narration": true,
@@ -16,12 +16,39 @@
  "confirmed_by": "human",
  "needs_video_escalation": false,
  "status": "approved",
- "review_flags": [],
+ "review_flags": [
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27",
+  "v1_public_intent_approved_2026_10_27"
+ ],
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Compare life expectancy in Ivory Coast, Nigeria, Somalia, and Mozambique, highlighting Somalia's low value.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "reviewed",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Rank Ivory Coast, Nigeria, Somalia, and Mozambique by life expectancy.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

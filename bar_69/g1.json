@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_69",
  "version": "g1_r_u_v4",
- "intent": "Compare the nominal GDP of the United States, the European Union as a 28-country aggregate, China, and Japan.",
+ "intent": "Compare nominal GDP across the United States, European Union, China, and Japan, and determine whether the European Union is a single country or an aggregate.",
  "requirements": [
   {
    "id": "R1",
@@ -130,10 +130,17 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
+   "unit_kind": "identity",
+   "must_be_visualized": true,
    "claim": "The European Union's second-place bar represents an aggregate of 28 countries, not one national economy.",
-   "basis": [],
+   "basis": [
+    {
+     "entity": "European Union",
+     "field": "member_count",
+     "value": 28,
+     "unit": "countries"
+    }
+   ],
    "accept": [
     "the EU is described as a 28-country aggregate"
    ],
@@ -189,5 +196,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

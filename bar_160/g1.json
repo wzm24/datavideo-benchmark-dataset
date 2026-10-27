@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_160",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that in comparable international contexts, teachers earn a pay ratio close to that of college graduates, contrasting with the lower ratio in the United States.",
+ "intent": "Compare the teacher-to-college-graduate pay ratio across the listed countries and the OECD average, and determine how the United States compares with the other contexts.",
  "requirements": [
   {
    "id": "R1",
@@ -213,5 +213,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_88",
  "version": "g1_r_u_v4",
- "intent": "Show Japan's aging population and comparatively small younger age bands.",
+ "intent": "Compare the relative sizes of Japan's older and younger age bands in its population pyramid.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What demographic shape does Japan have?",
+   "question": "How do the 65–69 and 70–74 age bands compare with the 0–19 age bands?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -411,299 +411,102 @@
    "requirement_id": "R2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Japan's population pyramid is top-heavy: older age bands are proportionally large while younger age bands are narrower.",
+   "claim": "The 65–69 and 70–74 age bands have larger relative values than every 0–19 age band, making the upper part of the pyramid visibly larger.",
    "basis": [
     {
-     "entity": "95-99",
-     "field": "japan",
-     "value": 0.0421,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "95-99",
-     "field": "japan",
-     "value": 0.0737,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "90-95",
-     "field": "japan",
-     "value": 0.1158,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "90-95",
-     "field": "japan",
-     "value": 0.1474,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "85-89",
-     "field": "japan",
-     "value": 0.2632,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "85-89",
-     "field": "japan",
-     "value": 0.3053,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "80-84",
-     "field": "japan",
-     "value": 0.4316,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "80-84",
-     "field": "japan",
-     "value": 0.4737,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "75-79",
-     "field": "japan",
-     "value": 0.6,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "75-79",
-     "field": "japan",
-     "value": 0.6421,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "70-74",
-     "field": "japan",
-     "value": 0.8211,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "70-74",
-     "field": "japan",
-     "value": 0.8632,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
      "entity": "65-69",
+     "series": "Male",
      "field": "japan",
      "value": 0.8,
-     "unit": "relative",
-     "series": "Male"
+     "unit": "relative"
     },
     {
      "entity": "65-69",
+     "series": "Female",
      "field": "japan",
      "value": 0.8421,
-     "unit": "relative",
-     "series": "Female"
+     "unit": "relative"
     },
     {
-     "entity": "60-64",
-     "field": "japan",
-     "value": 0.7053,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "60-64",
-     "field": "japan",
-     "value": 0.7368,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "55-59",
-     "field": "japan",
-     "value": 0.6842,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "55-59",
-     "field": "japan",
-     "value": 0.7158,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "50-54",
-     "field": "japan",
-     "value": 0.7789,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "50-54",
+     "entity": "70-74",
+     "series": "Male",
      "field": "japan",
      "value": 0.8211,
-     "unit": "relative",
-     "series": "Female"
+     "unit": "relative"
     },
     {
-     "entity": "45-49",
+     "entity": "70-74",
+     "series": "Female",
      "field": "japan",
-     "value": 0.9579,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "45-49",
-     "field": "japan",
-     "value": 1.0,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "40-44",
-     "field": "japan",
-     "value": 0.8105,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "40-44",
-     "field": "japan",
-     "value": 0.8526,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "35-39",
-     "field": "japan",
-     "value": 0.7474,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "35-39",
-     "field": "japan",
-     "value": 0.7789,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "30-34",
-     "field": "japan",
-     "value": 0.7053,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "30-34",
-     "field": "japan",
-     "value": 0.7368,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "25-29",
-     "field": "japan",
-     "value": 0.6421,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "25-29",
-     "field": "japan",
-     "value": 0.6737,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "20-24",
-     "field": "japan",
-     "value": 0.6,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "20-24",
-     "field": "japan",
-     "value": 0.6316,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "15-19",
-     "field": "japan",
-     "value": 0.5789,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "15-19",
-     "field": "japan",
-     "value": 0.6105,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "10-14",
-     "field": "japan",
-     "value": 0.5579,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "10-14",
-     "field": "japan",
-     "value": 0.5895,
-     "unit": "relative",
-     "series": "Female"
-    },
-    {
-     "entity": "5-9",
-     "field": "japan",
-     "value": 0.5368,
-     "unit": "relative",
-     "series": "Male"
-    },
-    {
-     "entity": "5-9",
-     "field": "japan",
-     "value": 0.5684,
-     "unit": "relative",
-     "series": "Female"
+     "value": 0.8632,
+     "unit": "relative"
     },
     {
      "entity": "0-4",
+     "series": "Male",
      "field": "japan",
      "value": 0.4947,
-     "unit": "relative",
-     "series": "Male"
+     "unit": "relative"
     },
     {
      "entity": "0-4",
+     "series": "Female",
      "field": "japan",
      "value": 0.5263,
-     "unit": "relative",
-     "series": "Female"
+     "unit": "relative"
+    },
+    {
+     "entity": "5-9",
+     "series": "Male",
+     "field": "japan",
+     "value": 0.5368,
+     "unit": "relative"
+    },
+    {
+     "entity": "5-9",
+     "series": "Female",
+     "field": "japan",
+     "value": 0.5684,
+     "unit": "relative"
+    },
+    {
+     "entity": "10-14",
+     "series": "Male",
+     "field": "japan",
+     "value": 0.5579,
+     "unit": "relative"
+    },
+    {
+     "entity": "10-14",
+     "series": "Female",
+     "field": "japan",
+     "value": 0.5895,
+     "unit": "relative"
+    },
+    {
+     "entity": "15-19",
+     "series": "Male",
+     "field": "japan",
+     "value": 0.5789,
+     "unit": "relative"
+    },
+    {
+     "entity": "15-19",
+     "series": "Female",
+     "field": "japan",
+     "value": 0.6105,
+     "unit": "relative"
     }
    ],
    "accept": [
-    "both male and female age bands are shown",
-    "older bands are proportionally large",
-    "younger bands are visibly narrower"
+    "the compared age bands are visible",
+    "The 65–69 and 70–74 age bands have larger relative values than every 0–19 age band, making the upper part of the pyramid visibly larger."
    ],
    "reject": [
-    "showing a youth-heavy pyramid",
-    "omitting the older population"
+    "reversing the older-younger or working-age relation",
+    "omitting a sex side"
    ],
-   "evidence": "The selected keyframe and plotted marks encode this relation."
+   "evidence": "The paired age-band geometry and labels encode the comparison."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -730,17 +533,33 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "batch_84_105_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "population_pyramid"
+  ],
+  "chart_sub_type": "population_pyramid",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

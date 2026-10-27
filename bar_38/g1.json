@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_38",
  "version": "g1_r_u_v4",
- "intent": "Show that a small projected fertility gap would lead to hundreds of millions fewer people and a lower global population in 2100.",
+ "intent": "Analyze the projected world population for 2100 and the projected reduction, then determine how their magnitudes compare.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What does the small projected gap imply for global population in 2100?",
+   "question": "How do the projected 2100 population and projected reduction compare in magnitude?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -67,7 +67,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "The projected 2100 global population is 3.6 billion, and a 0.4 billion gap represents 400 million fewer people against the 4.0 billion reference total.",
+   "claim": "The projected 2100 population is 3.6 billion versus a 0.4 billion reduction; the reduction is about 11.1% of the projected population.",
    "basis": [
     {
      "entity": "World population in 2100",
@@ -101,7 +101,8 @@
  },
  "optional_valid": [
   "The 0.4 billion reduction is about one-ninth of the 3.6 billion projected population.",
-  "The chart's 4.0 billion bracket is a comparison total, not the final 2100 population."
+  "The chart's 4.0 billion bracket is a comparison total, not the final 2100 population.",
+  "Whether the 0.4 billion reduction should be characterized as small is an interpretive judgment, not a required fact."
  ],
  "g0_data_completeness": {
   "required": true,
@@ -123,11 +124,14 @@
  "review_flags": [
   "legacy_intent_migrated",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "small_gap_judgment_downgraded_2026_10_27"
  ],
  "draft_source": "manual_review_draft_2026-10-22",
  "status": "approved",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "hardcases": []
+ "hardcases": [],
+ "revision_note_2026_10_27": "The derived 0.4 billion reduction is required; the adjective small is optional. The 4.0 billion reference total is a computed sum of 3.6 + 0.4.",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -7,7 +7,8 @@
   "clip_id": "bar_70",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,7 +54,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
@@ -63,22 +64,38 @@
     "WELLCOME TRUST | largest_charities"
    ],
    "assertion": {
-    "greater": "BILL & MELINDA GATES | largest_charities",
-    "greater_value": 51.6,
-    "lesser": "WELLCOME TRUST | largest_charities",
-    "lesser_value": 32.9,
-    "delta": 18.7,
-    "ratio": 1.568389,
     "expected_order": [
      "BILL & MELINDA GATES | largest_charities",
      "NOVO NORDISK | largest_charities",
      "STICHTING INGKA | largest_charities",
      "WELLCOME TRUST | largest_charities"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "target_mark": "STICHTING INGKA | largest_charities",
+    "target_rank": 3
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "relative_comparison",
+   "required_marks": [
+    "BILL & MELINDA GATES | largest_charities",
+    "STICHTING INGKA | largest_charities"
+   ],
+   "assertion": {
+    "greater": "BILL & MELINDA GATES | largest_charities",
+    "greater_value": 51.6,
+    "lesser": "STICHTING INGKA | largest_charities",
+    "lesser_value": 36.0,
+    "relative_gap": 0.3023,
+    "tolerance": 0.05
    },
    "accepted_routes": [
     "geometry",

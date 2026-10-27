@@ -7,7 +7,8 @@
   "clip_id": "bar_93",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -51,7 +52,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
    "evidence_type": "pair_comparison",
    "required_marks": [

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_72",
  "version": "g1_r_u_v4",
- "intent": "Show that longer books often contain much more filler than actual content.",
+ "intent": "Analyze how a longer book splits between useful content and unnecessary material, and determine which portion dominates.",
  "requirements": [
   {
    "id": "R1",
@@ -135,5 +135,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

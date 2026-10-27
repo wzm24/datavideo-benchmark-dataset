@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_67",
  "version": "g1_r_u_v4",
- "intent": "Show the annual financial loss caused by piracy, using $8.3 billion as the 2013 maximum and $4.9 billion as the 2017 minimum.",
+ "intent": "Analyze the annual financial loss caused by piracy from 2013 to 2018 and determine how the yearly values compare across the period.",
  "requirements": [
   {
    "id": "R1",
@@ -187,5 +187,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

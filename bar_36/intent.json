@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_36",
- "intent_en": "Show that among Southern Black residents, those with some college had the highest net migration rate by education level.",
- "previous_intent": "To illustrate the relationship between educational attainment and Black migration rates from the South, highlighting the significance of 'some college' education in this trend since the 1960s.",
+ "intent_en": "Analyze net migration rates among Southern Black residents by education level and identify which education group had the highest rate.",
  "narration_support": "We now do have an opportunity to get advanced education, at least some college",
  "chart_support": "Horizontal bar chart titled 'Black migration rates by education' showing net migration per 1,000 Southern black residents, with the 'Some college' category highlighted in yellow",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": true,
- "narrative_goal": "To illustrate the relationship between educational attainment and Black migration rates from the South, highlighting the significance of 'some college' education in this trend since the 1960s.",
+ "narrative_goal": "Show that among Southern Black residents, those with some college had the highest net migration rate by education level.",
  "intent_machine": "To demonstrate that net migration rates among Southern Black residents were highest for those with some college education, highlighting the relationship between educational attainment and migration patterns.",
  "status": "agent_draft_pending_human_review",
  "review_flags": [
@@ -33,5 +32,23 @@
  ],
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "review_order": ["data_table","intent","g1"]
+ "review_order": [
+  "data_table",
+  "intent",
+  "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze net migration rates among Southern Black residents by education level and identify which education group had the highest rate.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

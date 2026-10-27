@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_85",
  "version": "g1_r_u_v4",
- "intent": "Show Mercury's orbital and rotation periods and explain how its slow day relates to its short year.",
+ "intent": "Compare Mercury's orbital and rotation periods and identify which is longer.",
  "requirements": [
   {
    "id": "R1",
@@ -65,7 +65,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "Mercury's orbital period is about 88 days and its rotation period about 59 days; its solar day is much longer.",
+   "claim": "Mercury's orbital period is 88 days and its rotation period is 59 days, so the orbital period is longer.",
    "basis": [
     {
      "entity": "Orbital period",
@@ -127,5 +127,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_31",
- "intent_en": "Show that the monthly price of the arthritis drug Humira is higher in the United States than in six other developed countries.",
- "previous_intent": "To illustrate the monthly price of the arthritis drug Humira across different countries.",
+ "intent_en": "Compare the monthly Humira price in the United States with that in six other developed countries and determine how they rank.",
  "narration_support": "Humera for arthritis?",
  "chart_support": "Bar chart displaying the monthly price of Humira for Norway, France, United Kingdom, Canada, Australia, Germany, and the United States.",
  "supported_by_narration": true,
@@ -25,10 +24,28 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": true,
- "narrative_goal": "To illustrate the monthly price of the arthritis drug Humira across different countries.",
+ "narrative_goal": "Show that the monthly price of the arthritis drug Humira is higher in the United States than in six other developed countries.",
  "intent_machine": "To demonstrate the significant variation in monthly prices of the arthritis drug Humira across different countries, highlighting the exceptionally high cost in the United States compared to other developed nations.",
  "scope_note": "The chart covers Humira prices across seven countries. The ASR spelling 'Humera' is corrected to Humira from the chart title.",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "review_order": ["data_table","intent","g1"]
+ "review_order": [
+  "data_table",
+  "intent",
+  "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the monthly Humira price in the United States with that in six other developed countries and determine how they rank.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

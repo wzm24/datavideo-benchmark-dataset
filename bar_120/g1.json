@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_120",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that police reform proposals enjoy substantial support among Republicans and white Americans, even though Democrats and black Americans exhibit higher levels of favorability and intensity.",
+ "intent": "Compare Republican support for five police reform proposals and distinguish strong support from partial support.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do total Republican support levels rank across the five proposals?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How does strong Republican support compare across the five proposals?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -35,89 +43,79 @@
    "claim": "All 10 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "55",
-     "unit": "%",
      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
-     "series": "Strongly",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 55,
+     "unit": "%",
+     "series": "Strongly"
     },
     {
-     "field": "value",
-     "value": "36",
-     "unit": "%",
      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
-     "series": "Somewhat",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 36,
+     "unit": "%",
+     "series": "Somewhat"
     },
     {
-     "field": "value",
-     "value": "44",
-     "unit": "%",
      "entity": "Create a federal government database to track officers accused of misconduct",
-     "series": "Strongly",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 44,
+     "unit": "%",
+     "series": "Strongly"
     },
     {
-     "field": "value",
-     "value": "41",
-     "unit": "%",
      "entity": "Create a federal government database to track officers accused of misconduct",
-     "series": "Somewhat",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 41,
+     "unit": "%",
+     "series": "Somewhat"
     },
     {
-     "field": "value",
-     "value": "19",
-     "unit": "%",
      "entity": "Give civilian oversight boards power to investigate and discipline officers",
-     "series": "Strongly",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 19,
+     "unit": "%",
+     "series": "Strongly"
     },
     {
-     "field": "value",
-     "value": "39",
-     "unit": "%",
      "entity": "Give civilian oversight boards power to investigate and discipline officers",
-     "series": "Somewhat",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 39,
+     "unit": "%",
+     "series": "Somewhat"
     },
     {
-     "field": "value",
-     "value": "26",
-     "unit": "%",
      "entity": "Make it a crime for police to use chokeholds or strangleholds",
-     "series": "Strongly",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 26,
+     "unit": "%",
+     "series": "Strongly"
     },
     {
-     "field": "value",
-     "value": "31",
-     "unit": "%",
      "entity": "Make it a crime for police to use chokeholds or strangleholds",
-     "series": "Somewhat",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 31,
+     "unit": "%",
+     "series": "Somewhat"
     },
     {
-     "field": "value",
-     "value": "27",
-     "unit": "%",
      "entity": "Require officers to live in the cities or towns they police",
-     "series": "Strongly",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 27,
+     "unit": "%",
+     "series": "Strongly"
     },
     {
-     "field": "value",
-     "value": "41",
-     "unit": "%",
      "entity": "Require officers to live in the cities or towns they police",
-     "series": "Somewhat",
-     "metric": "support_for_police_reform"
+     "field": "support_for_police_reform",
+     "value": 41,
+     "unit": "%",
+     "series": "Somewhat"
     }
    ],
    "accept": [
     "all 10 required data marks are visible in the final chart state",
-    "every grouped bar and every stacked segment is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -129,97 +127,152 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "Republicans also show majority support for most proposals, but lower intensity than Democrats.",
+   "claim": "Total support is 91% for nonviolent training, 85% for a misconduct database, 68% for officer residency, 58% for civilian oversight, and 57% for chokehold restrictions.",
    "basis": [
     {
      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+     "series": "Strongly",
      "field": "support_for_police_reform",
-     "value": "55",
-     "unit": "%",
-     "series": "Strongly"
+     "value": 55,
+     "unit": "%"
     },
     {
      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+     "series": "Somewhat",
      "field": "support_for_police_reform",
-     "value": "36",
-     "unit": "%",
-     "series": "Somewhat"
+     "value": 36,
+     "unit": "%"
     },
     {
      "entity": "Create a federal government database to track officers accused of misconduct",
+     "series": "Strongly",
      "field": "support_for_police_reform",
-     "value": "44",
-     "unit": "%",
-     "series": "Strongly"
+     "value": 44,
+     "unit": "%"
     },
     {
      "entity": "Create a federal government database to track officers accused of misconduct",
+     "series": "Somewhat",
      "field": "support_for_police_reform",
-     "value": "41",
-     "unit": "%",
-     "series": "Somewhat"
+     "value": 41,
+     "unit": "%"
     },
     {
      "entity": "Give civilian oversight boards power to investigate and discipline officers",
+     "series": "Strongly",
      "field": "support_for_police_reform",
-     "value": "19",
-     "unit": "%",
-     "series": "Strongly"
+     "value": 19,
+     "unit": "%"
     },
     {
      "entity": "Give civilian oversight boards power to investigate and discipline officers",
+     "series": "Somewhat",
      "field": "support_for_police_reform",
-     "value": "39",
-     "unit": "%",
-     "series": "Somewhat"
+     "value": 39,
+     "unit": "%"
     },
     {
      "entity": "Make it a crime for police to use chokeholds or strangleholds",
+     "series": "Strongly",
      "field": "support_for_police_reform",
-     "value": "26",
-     "unit": "%",
-     "series": "Strongly"
+     "value": 26,
+     "unit": "%"
     },
     {
      "entity": "Make it a crime for police to use chokeholds or strangleholds",
+     "series": "Somewhat",
      "field": "support_for_police_reform",
-     "value": "31",
-     "unit": "%",
-     "series": "Somewhat"
+     "value": 31,
+     "unit": "%"
     },
     {
      "entity": "Require officers to live in the cities or towns they police",
+     "series": "Strongly",
      "field": "support_for_police_reform",
-     "value": "27",
-     "unit": "%",
-     "series": "Strongly"
+     "value": 27,
+     "unit": "%"
     },
     {
      "entity": "Require officers to live in the cities or towns they police",
+     "series": "Somewhat",
      "field": "support_for_police_reform",
-     "value": "41",
-     "unit": "%",
-     "series": "Somewhat"
+     "value": 41,
+     "unit": "%"
     }
    ],
+   "computation": "totals = Strongly + Somewhat for each proposal",
    "accept": [
-    "all five proposals are present",
-    "both response segments are present"
+    "all ten Strongly/Somewhat segments are present",
+    "the five proposal totals follow the listed rank"
    ],
    "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
+    "omitting a proposal",
+    "treating Strongly and Somewhat as different proposals"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "Stacked segment lengths and printed totals establish the five-proposal ranking."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "ranking",
+   "must_be_visualized": true,
+   "claim": "Strong support is highest for nonviolent training at 55% and lowest for civilian oversight at 19%.",
+   "basis": [
+    {
+     "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+     "series": "Strongly",
+     "field": "support_for_police_reform",
+     "value": 55,
+     "unit": "%"
+    },
+    {
+     "entity": "Create a federal government database to track officers accused of misconduct",
+     "series": "Strongly",
+     "field": "support_for_police_reform",
+     "value": 44,
+     "unit": "%"
+    },
+    {
+     "entity": "Give civilian oversight boards power to investigate and discipline officers",
+     "series": "Strongly",
+     "field": "support_for_police_reform",
+     "value": 19,
+     "unit": "%"
+    },
+    {
+     "entity": "Make it a crime for police to use chokeholds or strangleholds",
+     "series": "Strongly",
+     "field": "support_for_police_reform",
+     "value": 26,
+     "unit": "%"
+    },
+    {
+     "entity": "Require officers to live in the cities or towns they police",
+     "series": "Strongly",
+     "field": "support_for_police_reform",
+     "value": 27,
+     "unit": "%"
+    }
+   ],
+   "computation": "",
+   "accept": [
+    "the five Strongly segments are present",
+    "training is highest and civilian oversight is lowest"
+   ],
+   "reject": [
+    "using total support as strong support",
+    "reversing the endpoints"
+   ],
+   "evidence": "The dark-red Strongly segments establish the intensity ranking."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -240,16 +293,199 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
+  {
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "ranking",
+    "must_be_visualized": true,
+    "claim": "Total support is 91% for nonviolent training, 85% for a misconduct database, 68% for officer residency, 58% for civilian oversight, and 57% for chokehold restrictions.",
+    "basis": [
+     {
+      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 55,
+      "unit": "%"
+     },
+     {
+      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+      "series": "Somewhat",
+      "field": "support_for_police_reform",
+      "value": 36,
+      "unit": "%"
+     },
+     {
+      "entity": "Create a federal government database to track officers accused of misconduct",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 44,
+      "unit": "%"
+     },
+     {
+      "entity": "Create a federal government database to track officers accused of misconduct",
+      "series": "Somewhat",
+      "field": "support_for_police_reform",
+      "value": 41,
+      "unit": "%"
+     },
+     {
+      "entity": "Give civilian oversight boards power to investigate and discipline officers",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 19,
+      "unit": "%"
+     },
+     {
+      "entity": "Give civilian oversight boards power to investigate and discipline officers",
+      "series": "Somewhat",
+      "field": "support_for_police_reform",
+      "value": 39,
+      "unit": "%"
+     },
+     {
+      "entity": "Make it a crime for police to use chokeholds or strangleholds",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 26,
+      "unit": "%"
+     },
+     {
+      "entity": "Make it a crime for police to use chokeholds or strangleholds",
+      "series": "Somewhat",
+      "field": "support_for_police_reform",
+      "value": 31,
+      "unit": "%"
+     },
+     {
+      "entity": "Require officers to live in the cities or towns they police",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 27,
+      "unit": "%"
+     },
+     {
+      "entity": "Require officers to live in the cities or towns they police",
+      "series": "Somewhat",
+      "field": "support_for_police_reform",
+      "value": 41,
+      "unit": "%"
+     }
+    ],
+    "computation": "totals = Strongly + Somewhat for each proposal",
+    "accept": [
+     "all ten Strongly/Somewhat segments are present",
+     "the five proposal totals follow the listed rank"
+    ],
+    "reject": [
+     "omitting a proposal",
+     "treating Strongly and Somewhat as different proposals"
+    ],
+    "evidence": "Stacked segment lengths and printed totals establish the five-proposal ranking."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do total Republican support levels rank across the five proposals?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  },
+  {
+   "unit": {
+    "id": "U3",
+    "requirement_id": "R3",
+    "unit_kind": "ranking",
+    "must_be_visualized": true,
+    "claim": "Strong support is highest for nonviolent training at 55% and lowest for civilian oversight at 19%.",
+    "basis": [
+     {
+      "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 55,
+      "unit": "%"
+     },
+     {
+      "entity": "Create a federal government database to track officers accused of misconduct",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 44,
+      "unit": "%"
+     },
+     {
+      "entity": "Give civilian oversight boards power to investigate and discipline officers",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 19,
+      "unit": "%"
+     },
+     {
+      "entity": "Make it a crime for police to use chokeholds or strangleholds",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 26,
+      "unit": "%"
+     },
+     {
+      "entity": "Require officers to live in the cities or towns they police",
+      "series": "Strongly",
+      "field": "support_for_police_reform",
+      "value": 27,
+      "unit": "%"
+     }
+    ],
+    "computation": "",
+    "accept": [
+     "the five Strongly segments are present",
+     "training is highest and civilian oversight is lowest"
+    ],
+    "reject": [
+     "using total support as strong support",
+     "reversing the endpoints"
+    ],
+    "evidence": "The dark-red Strongly segments establish the intensity ranking."
+   },
+   "requirement": {
+    "id": "R3",
+    "question": "How does strong Republican support compare across the five proposals?",
+    "relation": "single",
+    "unit_ids": [
+     "U3"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_40",
  "version": "g1_r_u_v4",
- "intent": "Show that two people can have the same job and similar income, yet one has far more accumulated wealth, making equal income taxation an incomplete picture.",
+ "intent": "Compare the two people's accumulated wealth and shown income-tax burdens.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Why is equal income taxation insufficient despite the wealth gap?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -75,7 +67,7 @@
    "requirement_id": "R2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "claim": "MY WEALTH is much smaller than FRIEND'S WEALTH; the friend's labeled bar is more than four times as tall.",
+   "claim": "MY WEALTH is 0.235 versus FRIEND'S WEALTH at 1.000, while both shown income-tax burdens are 1.000.",
    "basis": [
     {
      "entity": "MY WEALTH",
@@ -88,29 +80,7 @@
      "field": "wealth_level",
      "value": 1,
      "unit": "relative"
-    }
-   ],
-   "accept": [
-    "both MY WEALTH and FRIEND'S WEALTH are shown as labeled bars",
-    "FRIEND'S WEALTH is clearly and substantially taller than MY WEALTH",
-    "the visual gap is roughly four times or more"
-   ],
-   "reject": [
-    "omitting either bar or either label",
-    "reversing the two bars",
-    "showing the two wealth levels as equal"
-   ],
-   "evidence": "Two axis-free labeled bars: MY WEALTH is about 104 px tall and FRIEND'S WEALTH about 442 px tall in the clean source frame."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "hardcase": true,
-   "hardcase_reason": "The chart directly visualizes only the wealth gap; the similar job, income, and income-tax treatment are supplied by the narration.",
-   "claim": "The two people have similar income and therefore similar income-tax burdens, even though their accumulated wealth differs sharply.",
-   "basis": [
+    },
     {
      "entity": "MY WEALTH",
      "field": "income_tax_burden",
@@ -125,23 +95,28 @@
     }
    ],
    "accept": [
+    "both MY WEALTH and FRIEND'S WEALTH are shown as labeled bars",
+    "FRIEND'S WEALTH is clearly and substantially taller than MY WEALTH",
+    "the visual gap is roughly four times or more",
     "the two people have the same job and about the same income",
     "their income is taxed about the same",
     "their accumulated wealth remains sharply unequal despite the similar income tax"
    ],
    "reject": [
+    "omitting either bar or either label",
+    "reversing the two bars",
+    "showing the two wealth levels as equal",
     "saying the friend pays much more income tax solely because of greater accumulated wealth",
     "saying the two people have equal wealth",
     "omitting the wealth gap when making the income-tax point"
    ],
-   "evidence": "Narration-only context. Do not invent a visual income bar or a tax-rate mark that is absent from the source chart."
+   "evidence": "Two axis-free labeled bars: MY WEALTH is about 104 px tall and FRIEND'S WEALTH about 442 px tall in the clean source frame. Narration-only context. Do not invent a visual income bar or a tax-rate mark that is absent from the source chart."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -175,10 +150,12 @@
  ],
  "review_flags": [
   "custom_illustrative_bar_chart",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "manual_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

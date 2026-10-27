@@ -7,7 +7,8 @@
   "clip_id": "bar_104",
   "family": "bar",
   "sub_type": "overlay_bar",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -84,7 +85,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
    "required_marks": [

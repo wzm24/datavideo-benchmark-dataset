@@ -1,6 +1,6 @@
-entity,metric,value,unit,label,role
-US-Russia Nuclear Treaties,value,0.0333,relative,,bar
-ANTI-BALLISTIC MISSILE TREATY,value,0.0333,relative,,bar
-INTERMEDIATE-RANGE NUCLEAR FORCES TREATY,value,0.0333,relative,,bar
-START I,value,0.0333,relative,,bar
-SORT,value,0.0333,relative,,bar
+entity,metric,start_year,end_year,value,unit,label,role
+ANTI-BALLISTIC MISSILE TREATY,active_period,1972,2002,30,years,1972–2002,bar
+INTERMEDIATE-RANGE NUCLEAR FORCES TREATY,active_period,1987,2019,32,years,1987–2019,bar
+START I,active_period,1991,2009,18,years,1991–2009,bar
+SORT,active_period,2002,2012,10,years,2002–2012,bar
+NEW START,active_period,2010,2021,11,years,2010–2021,bar

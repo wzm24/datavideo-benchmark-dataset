@@ -55,7 +55,9 @@
    "ordering": "no_additional_order_requirement",
    "identity": "entity_and_series_binding_must_remain_stable",
    "transition": "ignore_mid_animation_geometry; judge_completed_marks"
-  },
+  }
+ ],
+ "optional_units": [
   {
    "unit_id": "U5",
    "applies": true,
@@ -69,5 +71,6 @@
    "identity": "entity_and_series_binding_must_remain_stable",
    "transition": "ignore_mid_animation_geometry; judge_completed_marks"
   }
- ]
+ ],
+ "revision_note_2026_10_27": "U5 is optional for V1. The data table has no numeric CAR travel time, so the complete three-way ordering is not derivable from the public V1 input. Reporting each available duration remains required."
 }

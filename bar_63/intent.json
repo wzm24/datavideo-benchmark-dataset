@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_63",
- "intent_en": "Compare estimated marijuana sales volumes for medical marijuana and recreational dispensaries.",
+ "intent_en": "Compare estimated marijuana sales volumes for medical and recreational dispensaries and determine how the two categories compare.",
  "narration_support": "medical marijuana, which has been legal since 2000 and whose tax rate is 78 % lower. Estimated pot sales are 55 tons of medical pot and 18 .4 tons of recreational pot.",
  "chart_support": "",
  "supported_by_narration": true,
@@ -23,5 +23,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Compare estimated marijuana sales volumes for medical marijuana and recreational dispensaries.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare estimated marijuana sales volumes for medical and recreational dispensaries and determine how the two categories compare.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

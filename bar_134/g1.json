@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_134",
  "version": "g1_r_u_v4",
- "intent": "To illustrate how the presence of peacekeepers significantly reduces the likelihood of war reoccurring during the period 1989-2004.",
+ "intent": "Report the likelihood of war reoccurring shown in the single-row table.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "Must the video state the 24% likelihood, or can it omit the exact value?",
+   "question": "What likelihood of war reoccurring is shown?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -35,16 +35,15 @@
    "claim": "All 1 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "24",
-     "unit": "%",
      "entity": "Likelihood of war reoccurring",
-     "metric": "value"
+     "field": "value",
+     "value": 24,
+     "unit": "%"
     }
    ],
    "accept": [
     "all 1 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -56,28 +55,27 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "claim": "The likelihood of war reoccurring is 24%.",
    "basis": [
     {
      "entity": "Likelihood of war reoccurring",
-     "x": "",
      "field": "value",
-     "value": 24.0,
-     "note": "Table value is 24 with unit %."
+     "value": 24,
+     "unit": "%"
     }
    ],
+   "computation": "",
    "accept": [
-    "24%",
-    "24 percent",
-    "a 24-percent likelihood"
+    "the single endpoint is shown",
+    "the value is 24%"
    ],
    "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
+    "adding an absent comparator",
+    "claiming a 1989-2004 comparison"
    ],
-   "evidence": "A visible numeral 24% (or 24 percent) is shown as the likelihood of war reoccurring."
+   "evidence": "The single table value is the required endpoint."
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -85,11 +83,7 @@
   "U1": 0.5,
   "U2": 0.5
  },
- "optional_valid": [
-  "The video may note that war recurrence is not eliminated; a 24% likelihood remains.",
-  "The video may frame the value as about a quarter, as in the narration.",
-  "The video may include the historical period as context, but it is not a table data value."
- ],
+ "optional_valid": [],
  "g0_data_completeness": {
   "required": true,
   "mode": "static_all_at_once",
@@ -111,23 +105,59 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "clip_hardcase": {
-  "is_hardcase": true,
-  "type": "no_explicit_bar_mark_in_reference_svg",
-  "unit_ids": [],
-  "reason": "The reference SVG has no explicit data-role=bar mark, so visual-unit reconstruction needs manual review."
+  "is_hardcase": false,
+  "type": "",
+  "reason": ""
  },
- "hardcases": [
+ "hardcases": [],
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
   {
-   "unit_id": null,
-   "type": "no_explicit_bar_mark_in_reference_svg",
-   "handling": "Requires human visual inspection before semantic scoring."
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "identity",
+    "must_be_visualized": true,
+    "claim": "The likelihood of war reoccurring is 24%.",
+    "basis": [
+     {
+      "entity": "Likelihood of war reoccurring",
+      "field": "value",
+      "value": 24,
+      "unit": "%"
+     }
+    ],
+    "computation": "",
+    "accept": [
+     "the single endpoint is shown",
+     "the value is 24%"
+    ],
+    "reject": [
+     "adding an absent comparator",
+     "claiming a 1989-2004 comparison"
+    ],
+    "evidence": "The single table value is the required endpoint."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "What likelihood of war reoccurring is shown?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

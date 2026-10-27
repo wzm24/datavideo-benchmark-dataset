@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_104",
- "intent_en": "Show that the 400 richest paid a lower effective tax rate than $100k–$200k earners in 2008, and that their rate fell after 2001.",
+ "intent_en": "Compare the effective tax rates of the listed wealthy group and the middle-income earners in the later year, and show how the wealthy group's rate changed over time.",
  "narration_support": "If you earn between $100 ,000 and $200 ,000, you will be paying up to 25 % effective tax rate, and that's before payroll taxes kick in. The 400 richest tax returns surveyed by the IRS paid just 18 .1 % in 2008, and it's got better for them. In 2001, as George W. Bush became president, that rate was 23%. So is it 99 % versus 1 %?",
  "chart_support": "EFFECTIVE TAX RATE",
  "supported_by_narration": true,
@@ -23,5 +23,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that the 400 richest paid a lower effective tax rate than $100k–$200k earners in 2008, and that their rate fell after 2001.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the effective tax rates of the listed wealthy group and the middle-income earners in the later year, and show how the wealthy group's rate changed over time.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

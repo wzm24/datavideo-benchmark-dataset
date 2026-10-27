@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_9",
  "version": "g1_r_u_v4",
- "intent": "Show that Bangladesh's per capita income is among the lowest in the world, far below the United States and South Korea.",
+ "intent": "Compare GDP per capita across Bangladesh, South Korea, and the United States for the plotted snapshot, and determine how Bangladesh's level relates to the other two.",
  "requirements": [
   {
    "id": "R1",
@@ -150,5 +150,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_45",
- "intent_en": "Show that the 400 richest Americans pay a lower income-tax rate than the richest 10%, while income-tax rates rise across the preceding income groups.",
+ "intent_en": "Compare the income-tax rate of the top wealth group with the richest tenth, and determine how rates change across the other ten income groups.",
  "narration_support": "Billionaires. Billionaires don't make most of their money through typical income, so their income actually gets taxed at lower rates than these less rich people. Now you might be thinking, don't billionaires pay taxes in other ways? And the answer is yes. This is just the income tax, and there are lots of other kinds of taxes in America.",
  "chart_support": "Income taxes",
  "supported_by_narration": true,
@@ -23,5 +23,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that the 400 richest Americans pay a lower income-tax rate than the richest 10%, while income-tax rates rise across the preceding income groups.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the income-tax rate of the top wealth group with the richest tenth, and determine how rates change across the other ten income groups.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_92",
  "version": "g1_r_u_v4",
- "intent": "Compare life expectancy in Ivory Coast, Nigeria, Somalia, and Mozambique, highlighting Somalia's low value.",
+ "intent": "Rank Ivory Coast, Nigeria, Somalia, and Mozambique by life expectancy.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "How low is Somalia's life expectancy relative to the three comparison countries?",
+   "question": "How do Ivory Coast, Nigeria, Somalia, and Mozambique rank by life expectancy?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -77,9 +77,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "The shown life expectancies are Ivory Coast 53, Nigeria 54, Somalia 55, and Mozambique 57 years, placing Somalia near the low end of this comparison.",
+   "claim": "Life expectancy is Mozambique 57, Somalia 55, Nigeria 54, and Ivory Coast 53 years; Somalia is second-lowest among the four.",
    "basis": [
     {
      "entity": "Ivory Coast",
@@ -108,11 +108,12 @@
    ],
    "accept": [
     "all four countries are present",
-    "Somalia is 55 years",
-    "Somalia is the second-lowest among the four"
+    "the values are 53, 54, 55, and 57 years",
+    "the order is Mozambique, Somalia, Nigeria, Ivory Coast"
    ],
    "reject": [
-    "making Somalia the highest",
+    "calling Somalia the lowest",
+    "reversing Somalia and Nigeria",
     "using months or percentages"
    ],
    "evidence": "The selected keyframe and plotted marks encode this relation."
@@ -149,10 +150,15 @@
  "hardcases": [],
  "review_flags": [
   "batch_84_105_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27",
+  "v1_intent_approved_2026_10_27"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-27",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_29",
- "intent_en": "Show that the monthly price of the Advair asthma inhaler is much higher in the United States than in six other developed countries.",
- "previous_intent": "To demonstrate that the monthly price of the Advair asthma inhaler is significantly higher in the United States compared to other developed nations.",
+ "intent_en": "Compare the monthly Advair price in the United States with the six other listed countries and determine how they differ.",
  "narration_support": "AdVare, a brand name Asmenehaler, more expensive in the U .S.",
  "chart_support": "Bar chart displaying the monthly price of Advair asthma inhaler across seven countries, revealing that the United States has a much higher price than Norway, Australia, France, Germany, the United Kingdom, and Canada.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": true,
- "narrative_goal": "To demonstrate that the monthly price of the Advair asthma inhaler is significantly higher in the United States compared to other developed nations.",
+ "narrative_goal": "Show that the monthly price of the Advair asthma inhaler is much higher in the United States than in six other developed countries.",
  "intent_machine": "To demonstrate the significant price disparity of the Advair asthma inhaler across different countries, highlighting that the monthly cost in the United States is substantially higher than in other developed nations.",
  "scope_note": "The chart covers Advair prices across seven countries; the narration's reference to five top-selling drugs is broader context and is not a unit of this chart.",
  "approved_by": "human",
@@ -34,5 +33,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the monthly Advair price in the United States with the six other listed countries and determine how they differ.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

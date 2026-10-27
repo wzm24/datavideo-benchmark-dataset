@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_25",
  "version": "g1_r_u_v4",
- "intent": "Show that the average highest mathematics course completed by high school graduates was higher in 2004 than in 1982.",
+ "intent": "Analyze how the average highest mathematics course completed by high school graduates changed between 1982 and 2004, and determine how the two years compare.",
  "requirements": [
   {
    "id": "R1",
@@ -139,5 +139,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

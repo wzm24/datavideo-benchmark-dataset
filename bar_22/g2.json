@@ -7,7 +7,8 @@
   "clip_id": "bar_22",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -95,7 +96,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "evidence_type": "value_or_readable_label",
    "required_marks": [
@@ -118,10 +119,12 @@
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
-  },
+  }
+ ],
+ "optional_unit_evidence": [
   {
    "unit_id": "U4",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "identity",
    "must_be_visualized": false,
    "evidence_type": "not_required",
    "required_marks": [

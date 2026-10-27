@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_99",
  "version": "g1_r_u_v4",
- "intent": "Show that wars between democratic nations are a small minority of state-on-state wars.",
+ "intent": "Analyze state-on-state wars from 1900 to 2000 and determine how rare wars between democratic nations are compared with other wars.",
  "requirements": [
   {
    "id": "R1",
@@ -129,5 +129,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_141",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the partisan divide in perceptions of the U.S. economic system's fairness, demonstrating that Republicans are more likely than Democrats to view it as generally fair.",
+ "intent": "Analyze how Republicans and Democrats compare with all adults on whether the economic system is generally fair or unfairly favors powerful interests, and determine the partisan divide.",
  "requirements": [
   {
    "id": "R1",
@@ -180,16 +180,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "grouped"
+  ],
+  "chart_sub_type": "grouped",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

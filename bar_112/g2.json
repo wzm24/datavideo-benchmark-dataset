@@ -7,7 +7,8 @@
   "clip_id": "bar_112",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -93,7 +94,7 @@
    "unit_id": "U3",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "group_comparison",
    "required_marks": [
     "Bottom 40% group 7 | household share | value",
     "Bottom 40% group 8 | household share | value",
@@ -101,50 +102,18 @@
     "Bottom 10% (Putri's Family) | household share | value"
    ],
    "assertion": {
-    "compositions": [
-     {
-      "entity": "Bottom 40% group 7",
-      "segments": [
-       {
-        "mark": "Bottom 40% group 7 | household share | value",
-        "value": 0.0625
-       }
-      ],
-      "total": 0.0625
-     },
-     {
-      "entity": "Bottom 40% group 8",
-      "segments": [
-       {
-        "mark": "Bottom 40% group 8 | household share | value",
-        "value": 0.05
-       }
-      ],
-      "total": 0.05
-     },
-     {
-      "entity": "Bottom 40% group 9",
-      "segments": [
-       {
-        "mark": "Bottom 40% group 9 | household share | value",
-        "value": 0.0375
-       }
-      ],
-      "total": 0.0375
-     },
-     {
-      "entity": "Bottom 10% (Putri's Family)",
-      "segments": [
-       {
-        "mark": "Bottom 10% (Putri's Family) | household share | value",
-        "value": 0.0375
-       }
-      ],
-      "total": 0.0375
-     }
+    "group_marks": [
+     "Bottom 40% group 7 | household share | value",
+     "Bottom 40% group 8 | household share | value",
+     "Bottom 40% group 9 | household share | value"
     ],
-    "expected_total": null,
-    "tolerance": 0.05
+    "comparison_mark": "Bottom 10% (Putri's Family) | household share | value",
+    "expected_min": 0.0375,
+    "expected_max": 0.0625,
+    "expected_relation": "the three group marks remain near the Bottom 10% mark",
+    "tolerance": {
+     "value": 0.02
+    }
    },
    "accepted_routes": [
     "geometry",
@@ -152,10 +121,12 @@
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false
-  },
+  }
+ ],
+ "optional_unit_evidence": [
   {
    "unit_id": "U4",
-   "unit_kind": "narrative_claim",
+   "unit_kind": "identity",
    "must_be_visualized": false,
    "evidence_type": "not_required",
    "required_marks": [],

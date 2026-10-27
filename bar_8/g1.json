@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_8",
  "version": "g1_r_u_v4",
- "intent": "Show that annual private school fees take about half of an average earner's annual income, making private schooling hard to afford.",
+ "intent": "Compare annual private school fees with average annual income and determine what share of a typical earner's income those fees represent.",
  "requirements": [
   {
    "id": "R1",
@@ -73,21 +73,25 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "claim": "Private school fees are about half of average annual income: £16,000 vs £28,400 (about 56%, roughly half).",
+   "claim": "Private school fees are about half of average annual income: £16,000 vs £28,400, about 56%.",
    "accept": [
     "about half",
     "50%",
     "50-56%",
     "£16,000 vs £28,400",
-    "the fee bar is roughly half the income bar"
+    "the fee bar is roughly half the income bar",
+    "both amounts are visible",
+    "16,000 / 28,400 is about 56%"
    ],
    "reject": [
     "fees are a small fraction of income",
     "fees exceed income",
     "wrong endpoint values",
-    "the income bar is the smaller one"
+    "the income bar is the smaller one",
+    "omitting one amount",
+    "calling the fee share the income share"
    ],
-   "evidence": "Two bars: School fees about half the length of Average income.",
+   "evidence": "Two bars: School fees about half the length of Average income. The fee and income bars support the proportional share.",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "basis": [
@@ -106,6 +110,18 @@
      "entity": "Average income",
      "metric": "annual_amount",
      "label": "£28,400"
+    },
+    {
+     "entity": "School fees",
+     "field": "annual_amount",
+     "value": 16000,
+     "unit": "pounds"
+    },
+    {
+     "entity": "Average income",
+     "field": "annual_amount",
+     "value": 28400,
+     "unit": "pounds"
     }
    ]
   }
@@ -140,7 +156,9 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

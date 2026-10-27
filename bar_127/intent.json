@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_127",
- "intent_en": "To illustrate the significant proportion of the population killed in Hiroshima and Nagasaki.",
- "previous_intent": "To illustrate the similar proportion of population loss in Hiroshima and Nagasaki, emphasizing that a substantial portion of the population in both cities was killed.",
+ "intent_en": "Compare killed and survived totals for Hiroshima and Nagasaki and report the killed share in each city.",
  "narration_support": "About a third of the population of both cities were killed.",
  "chart_support": "Horizontal bar chart displaying the total population and the breakdown of killed versus survived individuals for Hiroshima and Nagasaki.",
  "supported_by_narration": true,
@@ -25,10 +24,27 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
+ "status": "approved",
  "review_flags": [
-  "legacy_intent_needs_semantic_reaudit"
+  "legacy_intent_needs_semantic_reaudit",
+  "full_g1_repair_public_intent_2026_10_27"
  ],
- "approved_by": null,
- "approved_at": null
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "narrative_goal": "To illustrate the significant proportion of the population killed in Hiroshima and Nagasaki.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare killed and survived totals for Hiroshima and Nagasaki and report the killed share in each city.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_approved_at": "2026-10-27"
 }

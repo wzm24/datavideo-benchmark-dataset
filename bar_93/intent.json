@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_93",
- "intent_en": "Show the global Muslim population split between Sunni and Shia Muslims.",
+ "intent_en": "Analyze how the global Muslim population is divided between Sunni and Shia Muslims and determine the share each group represents.",
  "narration_support": "Sunnis make up about 80 % of the Muslim world and Shia about 20%. And the hardliners on both sides don't like each other very much.",
  "chart_support": "MUSLIM POPULATION",
  "supported_by_narration": true,
@@ -23,5 +23,20 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show the global Muslim population split between Sunni and Shia Muslims.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the global Muslim population is divided between Sunni and Shia Muslims and determine the share each group represents.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

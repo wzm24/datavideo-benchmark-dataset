@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_24",
- "intent_en": "Show how the number of students taking the SAT increased dramatically from 1941 to the present.",
- "previous_intent": "To demonstrate the dramatic increase in the number of students taking the SAT from 1941 to the present day.",
+ "intent_en": "Analyze how the number of students taking the SAT changed across the listed years from 1941 to the present and determine the overall growth pattern.",
  "narration_support": "In 1941, just 10,000 students took the SAT. By 1950, 80,000 students took the exam. By 1960, 800,000 students took the SAT. By the next decade, it rose to a million. And now, more than 2 million students take the exam.",
  "chart_support": "Bar chart showing the number of students taking the SAT increasing from 1941 to the present, with bars growing significantly taller over time.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To demonstrate the dramatic increase in the number of students taking the SAT from 1941 to the present day.",
+ "narrative_goal": "Show how the number of students taking the SAT increased dramatically from 1941 to the present.",
  "intent_machine": "To illustrate the dramatic surge in the number of students taking the SAT over the decades, highlighting the link between growing test participation and intensifying college competition.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the number of students taking the SAT changed across the listed years from 1941 to the present and determine the overall growth pattern.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

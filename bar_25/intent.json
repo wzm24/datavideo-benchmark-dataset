@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_25",
- "intent_en": "Show that the average highest mathematics course completed by high school graduates was higher in 2004 than in 1982.",
- "previous_intent": "To compare the highest level of mathematics taken by high school graduates in 1982 and 2004, highlighting a discrepancy between the narrative of increasing rigor and the visual data.",
+ "intent_en": "Analyze how the average highest mathematics course completed by high school graduates changed between 1982 and 2004, and determine how the two years compare.",
  "narration_support": "In 1982, the average high school graduate completed algebra, or maybe algebra 2. By 2004, the average student was closer to trigonometry.",
  "chart_support": "Bar chart titled 'Highest level of math taken' showing the 2004 level near Trigonometry/Algebra III and higher than the 1982 level between Algebra I and Algebra II.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To compare the highest level of mathematics taken by high school graduates in 1982 and 2004, highlighting a discrepancy between the narrative of increasing rigor and the visual data.",
+ "narrative_goal": "Show that the average highest mathematics course completed by high school graduates was higher in 2004 than in 1982.",
  "intent_machine": "To compare the highest level of mathematics taken by students in 1982 and 2004, highlighting the divergence between rising curriculum expectations (towards trigonometry) and the actual decline in average student achievement (from algebra II to algebra I).",
  "chart_semantics_note": "The chart shows 1982 at about 2.7 on the ordinal math-level scale and 2004 at about 3.65, so the 2004 bar is higher and close to Trigonometry/Algebra III.",
  "approved_by": "human",
@@ -34,5 +33,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the average highest mathematics course completed by high school graduates changed between 1982 and 2004, and determine how the two years compare.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

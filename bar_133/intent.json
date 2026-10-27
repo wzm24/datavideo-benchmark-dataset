@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_133",
- "intent_en": "To illustrate that the perceived risk of full-scale war is currently lower than it was during the Cold War.",
- "previous_intent": "To demonstrate the assertion that the risk of full-scale war is lower today than at the height of the Cold War, highlighting the historical trend where risk levels were significantly higher during the Cold War period compared to recent times.",
+ "intent_en": "Compare the USA and Russia series over the full time span, identify when Russia's value peaked during the Cold War era, and determine how the most recent values compare with that peak.",
  "narration_support": "risk of a full -scale war is less today than it was at the height of the Cold War",
  "chart_support": "Horizontal stacked bar chart with blue and red segments across multiple rows, showing a peak in total bar length in the middle rows and significantly shorter bars in the bottom rows, visually supporting the comparison between a high-risk period (Cold War) and the present.",
  "supported_by_narration": true,
@@ -27,8 +26,25 @@
  "needs_video_escalation": false,
  "status": "approved",
  "review_flags": [
-  "legacy_intent_needs_semantic_reaudit"
+  "legacy_intent_needs_semantic_reaudit",
+  "full_g1_repair_public_intent_2026_10_27"
  ],
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-27",
+ "narrative_goal": "To illustrate that the perceived risk of full-scale war is currently lower than it was during the Cold War.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the USA and Russia series over the full time span, identify when Russia's value peaked during the Cold War era, and determine how the most recent values compare with that peak.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_approved_at": "2026-10-27"
 }

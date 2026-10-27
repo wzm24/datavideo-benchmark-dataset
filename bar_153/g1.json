@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_153",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the increasing proportion of voters residing in landslide counties from 1976 to 2016.",
+ "intent": "Analyze how the share of voters residing in landslide counties changed across the years shown, and determine the direction of the trend.",
  "requirements": [
   {
    "id": "R1",
@@ -143,5 +143,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

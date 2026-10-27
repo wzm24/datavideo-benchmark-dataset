@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_96",
  "version": "g1_r_u_v4",
- "intent": "Show the Shia majority and Sunni minority in Iraq after the power transition.",
+ "intent": "Compare the Shia and Sunni shares shown for Iraq.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What was the main sectarian division in Iraq after power changed hands?",
+   "question": "What are the Shia and Sunni shares shown for Iraq?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -63,9 +63,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Shia Muslims make up about 63% and Sunni Muslims about 20%; the Shia majority took power after the transition.",
+   "claim": "Shia Muslims are shown at 63% and Sunni Muslims at 20%.",
    "basis": [
     {
      "entity": "SHIA",
@@ -128,5 +128,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

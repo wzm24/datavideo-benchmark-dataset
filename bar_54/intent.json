@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_54",
- "intent_en": "Show that, after combining five major tax types, the overall US tax burden is much flatter than income taxes alone, and the richest group pays a smaller share than the poorest.",
+ "intent_en": "Compare income-tax-only and five-tax total burdens across income groups, including the richest and poorest endpoints.",
  "narration_support": "When we put these taxes together, suddenly we see a big change. The chart shows us that this line from before is a lie. That America's tax system as a whole isn't very progressive. Instead, it's mostly flat. Poor people pay about the same portion of their income in taxes as rich people. And this guy, this billionaire, is paying a smaller portion than everyone else, even the poorest. If you just look at certain types of taxes, it's natural to assume that rich people pay a bigger tax burden in the U .S. and that poor people aren't exactly paying their fair share. But a more complete look at the bigger picture challenges that. And it suggests that if we're looking for a group that isn't paying their fair share, we might be looking on the wrong end.",
  "chart_support": "",
  "supported_by_narration": true,
@@ -16,12 +16,36 @@
  "confirmed_by": "human",
  "needs_video_escalation": false,
  "status": "approved",
- "review_flags": [],
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
+ ],
  "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that, after combining five major tax types, the overall US tax burden is much flatter than income taxes alone, and the richest group pays a smaller share than the poorest.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare income-tax-only and five-tax total burdens across income groups, including the richest and poorest endpoints.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27"
 }

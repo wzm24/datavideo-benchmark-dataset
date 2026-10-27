@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_33",
- "intent_en": "Show that the United States has the highest per-capita retail prescription drug spending among the ten compared countries.",
- "previous_intent": "To illustrate that the United States has the highest per capita spending on retail prescription drugs compared to other nations.",
+ "intent_en": "Analyze per-capita retail prescription drug spending across the ten compared countries and identify which country has the highest value.",
  "narration_support": "Americans spend more on prescription drugs than anyone else in the world.",
  "chart_support": "Bar chart displaying retail prescription drug spending per capita across multiple countries, with the United States showing the highest spending level.",
  "supported_by_narration": true,
@@ -25,10 +24,28 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate that the United States has the highest per capita spending on retail prescription drugs compared to other nations.",
+ "narrative_goal": "Show that the United States has the highest per-capita retail prescription drug spending among the ten compared countries.",
  "intent_machine": "To demonstrate that the United States has the highest per capita retail prescription drug spending among the compared developed nations.",
  "scope_note": "The narration says 'anyone else in the world', but the chart provides only ten-country evidence; the intent is limited to the compared countries.",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "review_order": ["data_table","intent","g1"]
+ "review_order": [
+  "data_table",
+  "intent",
+  "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze per-capita retail prescription drug spending across the ten compared countries and identify which country has the highest value.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

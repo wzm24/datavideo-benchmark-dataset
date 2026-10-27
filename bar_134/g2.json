@@ -7,7 +7,8 @@
   "clip_id": "bar_134",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -50,20 +51,18 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
     "Likelihood of war reoccurring | value"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Likelihood of war reoccurring | value",
-      "expected": 24.0
-     }
-    ],
-    "tolerance": 0.02
+    "expected_value": 24,
+    "unit": "%",
+    "tolerance": {
+     "value": 0
+    }
    },
    "accepted_routes": [
     "geometry",

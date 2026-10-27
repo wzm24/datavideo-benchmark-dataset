@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_144",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that the vast majority of vaccine doses scheduled for production in 2021 have already been purchased.",
+ "intent": "Report the share of 2021 scheduled vaccine doses already purchased.",
  "requirements": [
   {
    "id": "R1",
@@ -56,9 +56,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "The relative value for the 2021 row is 0.1250, the only endpoint in the data.",
+   "claim": "About 12.5% of the vaccine doses scheduled for 2021 had already been purchased, equivalent to roughly one-eighth.",
    "basis": [
     {
      "entity": "2021",
@@ -129,5 +129,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

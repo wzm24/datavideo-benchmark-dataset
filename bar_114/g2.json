@@ -7,7 +7,8 @@
   "clip_id": "bar_114",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,7 +54,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
@@ -63,22 +64,18 @@
     "Black adults | great_deal_confidence_in_police"
    ],
    "assertion": {
-    "greater": "White adults | great_deal_confidence_in_police",
-    "greater_value": 32.0,
-    "lesser": "Black adults | great_deal_confidence_in_police",
-    "lesser_value": 10.0,
-    "delta": 22.0,
-    "ratio": 3.2,
     "expected_order": [
-     "White adults | great_deal_confidence_in_police",
-     "Hispanic adults | great_deal_confidence_in_police",
-     "Asian adults* | great_deal_confidence_in_police",
-     "Black adults | great_deal_confidence_in_police"
+     "White adults",
+     "Hispanic adults",
+     "Asian adults*",
+     "Black adults"
     ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
+    "expected_values": [
+     32,
+     18,
+     16,
+     10
+    ]
    },
    "accepted_routes": [
     "geometry",

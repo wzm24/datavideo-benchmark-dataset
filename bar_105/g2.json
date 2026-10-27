@@ -7,7 +7,8 @@
   "clip_id": "bar_105",
   "family": "bar",
   "sub_type": "stacked",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -171,22 +172,6 @@
    "accepted_routes": [
     "geometry",
     "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "narrative_claim",
-   "must_be_visualized": false,
-   "evidence_type": "not_required",
-   "required_marks": [],
-   "assertion": {
-    "required": false,
-    "reason": "narrative-only unit"
-   },
-   "accepted_routes": [
-    "narration"
    ],
    "completeness_ref": "g0_data_completeness",
    "needs_review": false

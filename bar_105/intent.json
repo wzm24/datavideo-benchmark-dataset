@@ -1,6 +1,6 @@
 {
  "clip_id": "bar_105",
- "intent_en": "Show that adults without college education are concentrated in lower income brackets, making student-debt cancellation less relevant to them.",
+ "intent_en": "Compare the shares of adults with and without college education across the six income brackets and identify where the without-college share is highest.",
  "narration_support": "Canceling the country's student debt won't help them at all. But for Sanders and Warren, this is part of a larger belief about what America should be. Right now we have an economy in the 21st century that basically says you're going to need some post -high school training.",
  "chart_support": "EDUCATION AND INCOME",
  "supported_by_narration": true,
@@ -15,13 +15,31 @@
  "draft_by": "manual_batch_review_2026-10-22",
  "confirmed_by": null,
  "needs_video_escalation": false,
- "status": "agent_draft_pending_human_review",
- "review_flags": [],
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
+ ],
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal": "Show that adults without college education are concentrated in lower income brackets, making student-debt cancellation less relevant to them.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the shares of adults with and without college education across the six income brackets and identify where the without-college share is highest.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review",
+ "public_intent_approved_at": "2026-10-27"
 }

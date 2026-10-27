@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_127",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the significant proportion of the population killed in Hiroshima and Nagasaki.",
+ "intent": "Compare killed and survived totals for Hiroshima and Nagasaki and report the killed share in each city.",
  "requirements": [
   {
    "id": "R1",
@@ -19,7 +19,7 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do killed and survived totals compare for Hiroshima and Nagasaki, and what killed share does each total imply?",
    "relation": "single",
    "unit_ids": [
     "U2"
@@ -85,9 +85,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Hiroshima and Nagasaki populations were mostly composed of survivors, with smaller killed segments.",
+   "claim": "Hiroshima records 100,000 killed versus 240,000 survived, a 29.4% killed share; Nagasaki records 65,000 killed versus 198,000 survived, a 24.7% killed share.",
    "basis": [
     {
      "entity": "Hiroshima",
@@ -154,9 +154,9 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
@@ -165,5 +165,15 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

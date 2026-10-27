@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_128",
  "version": "g1_r_u_v4",
- "intent": "To explain the timeline of casualties from the atomic bombings of Hiroshima and Nagasaki, emphasizing that the vast majority of deaths occurred in the weeks following the event rather than instantly or decades later.",
+ "intent": "Analyze the casualty timeline for the atomic bombings of Hiroshima and Nagasaki, and determine how deaths were distributed across the immediate aftermath, the following weeks, and later periods.",
  "requirements": [
   {
    "id": "R1",
@@ -174,16 +174,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "pictograph"
+  ],
+  "chart_sub_type": "pictograph",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

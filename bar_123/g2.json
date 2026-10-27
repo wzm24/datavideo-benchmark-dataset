@@ -7,7 +7,8 @@
   "clip_id": "bar_123",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -113,7 +114,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
    "required_marks": [
@@ -147,7 +148,7 @@
   },
   {
    "unit_id": "U3",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "evidence_type": "extremum_mark",
    "required_marks": [
@@ -169,7 +170,7 @@
   },
   {
    "unit_id": "U4",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
    "required_marks": [

@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_151",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that the recent increase in public confidence in scientists is uneven, driven primarily by Democrats while Republican confidence has remained stagnant or declined, highlighting a widening political divide.",
+ "intent": "Analyze public confidence in medical scientists and scientists across the three survey waves, comparing U.S. adults overall with Republican and Democratic leaners, and determine how the partisan groups differ over time.",
  "requirements": [
   {
    "id": "R1",
@@ -666,16 +666,28 @@
   ]
  },
  "clip_hardcase": {
-  "is_hardcase": false,
-  "type": "",
-  "reason": ""
+  "is_hardcase": true,
+  "type": "complex_chart",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
  },
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "complex_chart_hardcase_2026_10_27",
+  "complex_chart_hardcase_2026_10_27"
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "hardcase_meta": {
+  "is_hardcase": true,
+  "classes": [
+   "complex_chart",
+   "stacked"
+  ],
+  "chart_sub_type": "stacked",
+  "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
+ }
 }

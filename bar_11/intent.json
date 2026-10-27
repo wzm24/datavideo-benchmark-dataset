@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_11",
- "intent_en": "Show that cycling's fatality risk per distance is about as low as walking's and far below motorcycling's.",
- "previous_intent": "To demonstrate that cycling is a relatively safe mode of transport, with a fatality risk comparable to walking when measured by distance.",
+ "intent_en": "Compare the relative fatality risk per distance of cyclists, walkers, and motorcyclists, and determine how cycling's risk relates to the other two.",
  "narration_support": "In fact, it's about as safe as walking.",
  "chart_support": "Bar chart displaying deaths per million miles for various transport modes, showing that the risk for Cyclists is similar in magnitude to Walkers and significantly lower than Motorcyclists.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To demonstrate that cycling is a relatively safe mode of transport, with a fatality risk comparable to walking when measured by distance.",
+ "narrative_goal": "Show that cycling's fatality risk per distance is about as low as walking's and far below motorcycling's.",
  "intent_machine": "To demonstrate that cycling is a relatively safe mode of transport, with a fatality risk comparable to walking when measured by distance.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the relative fatality risk per distance of cyclists, walkers, and motorcyclists, and determine how cycling's risk relates to the other two.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

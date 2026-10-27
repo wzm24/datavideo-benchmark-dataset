@@ -9,7 +9,8 @@
   "sub_type": "pictograph",
   "orientation": "horizontal",
   "unit_mark": "dot",
-  "icon_value": "10 million"
+  "icon_value": "10 million",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -53,7 +54,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
    "required_marks": [

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_148",
- "intent_en": "To demonstrate that high-income earners rely primarily on investment income taxed at lower rates, whereas the majority of the population relies on labor income taxed at higher rates, highlighting a disparity in tax treatment based on income source.",
- "previous_intent": "To illustrate the divergence in income composition between the middle class and the wealthy, showing that the top earners rely heavily on investments taxed at lower rates while the majority rely on labor income taxed at higher rates.",
+ "intent_en": "Compare how labor and investment income shares differ across income groups, and determine how the composition shifts between ordinary workers and the highest-income group.",
  "narration_support": "Most people have a normal job. They get a paycheck and pay income tax... But people like Morris, they make a lot of their income from investments... These investments are taxed as capital gains and things like long -term stock have a maximum tax rate of just 20%.",
  "chart_support": "Stacked bar chart titled 'Type of income' showing that 'Labor income' constitutes the vast majority of income for the bottom four fifths of earners, while the 'Top 1%' has a significantly smaller share of labor income and a larger share of the remaining category (implying non-labor/investment income), illustrating the shift in income sources.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "narrative_goal": "To demonstrate that high-income earners rely primarily on investment income taxed at lower rates, whereas the majority of the population relies on labor income taxed at higher rates, highlighting a disparity in tax treatment based on income source.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare how labor and investment income shares differ across income groups, and determine how the composition shifts between ordinary workers and the highest-income group.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

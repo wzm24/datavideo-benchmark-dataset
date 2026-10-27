@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_113",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that a majority of U.S. adults expressed at least some confidence in police officers to act in the public's best interests in late 2020.",
+ "intent": "Compare the shares reporting a great deal and a fair amount of confidence and determine whether together they form a majority.",
  "requirements": [
   {
    "id": "R1",
@@ -23,22 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Must the exact 26% great-deal value be shown?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
-   ]
-  },
-  {
-   "id": "R4",
-   "question": "Must the exact 48% fair-amount value be shown even though the narration does not name it?",
-   "relation": "single",
-   "unit_ids": [
-    "U4"
    ]
   }
  ],
@@ -85,7 +69,7 @@
    "requirement_id": "R2",
    "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "claim": "Combining the two reported confidence levels, 74% of U.S. adults expressed at least some confidence in police to act in the public's best interests.",
+   "claim": "Among U.S. adults, 26% report a great deal of confidence and 48% a fair amount; together they total 74% and form a majority.",
    "basis": [
     {
      "entity": "A great deal",
@@ -100,52 +84,14 @@
      "field": "value",
      "value": 48.0,
      "note": "Fair-amount share"
-    }
-   ],
-   "accept": [
-    "74% had at least some confidence",
-    "about three-quarters said a great deal or a fair amount",
-    "26% great deal plus 48% fair amount equals 74% at least some confidence"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The chart must show both the 26% and 48% components or a combined 74% 'at least some' segment."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "key_value_endpoint",
-   "must_be_visualized": true,
-   "claim": "26% of U.S. adults said they had a great deal of confidence in police to act in the public's best interests.",
-   "basis": [
+    },
     {
      "entity": "A great deal",
      "x": "a-great-deal",
      "field": "value",
      "value": 26.0,
      "note": "Printed great-deal percentage"
-    }
-   ],
-   "accept": [
-    "26% said a great deal",
-    "about one-quarter reported a great deal of confidence",
-    "26 percent had a great deal"
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The 'A great deal' bar/segment must be labeled or readable as 26%."
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R4",
-   "unit_kind": "key_value_endpoint",
-   "must_be_visualized": true,
-   "claim": "48% of U.S. adults said they had a fair amount of confidence in police to act in the public's best interests.",
-   "basis": [
+    },
     {
      "entity": "A fair amount",
      "x": "a-fair-amount",
@@ -155,6 +101,12 @@
     }
    ],
    "accept": [
+    "74% had at least some confidence",
+    "about three-quarters said a great deal or a fair amount",
+    "26% great deal plus 48% fair amount equals 74% at least some confidence",
+    "26% said a great deal",
+    "about one-quarter reported a great deal of confidence",
+    "26 percent had a great deal",
     "48% said a fair amount",
     "about half reported a fair amount of confidence",
     "48 percent had a fair amount"
@@ -163,15 +115,13 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The 'A fair amount' bar/segment must be labeled or readable as 48%."
+   "evidence": "The chart must show both the 26% and 48% components or a combined 74% 'at least some' segment. The 'A great deal' bar/segment must be labeled or readable as 26%. The 'A fair amount' bar/segment must be labeled or readable as 48%."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.25,
-  "U2": 0.25,
-  "U3": 0.25,
-  "U4": 0.25
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "A fair amount was the most common of the two shown confidence levels (48%).",
@@ -199,7 +149,9 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U3_U4_2026_10_27",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -217,5 +169,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

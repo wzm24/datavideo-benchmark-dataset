@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_37",
- "intent_en": "Show that the monthly price of the insulin Lantus is much higher in the United States than in six other developed countries.",
- "previous_intent": "To demonstrate that the monthly price of the insulin Lantus is significantly higher in the United States than in other developed nations.",
+ "intent_en": "Compare the monthly price of Lantus insulin in the United States with its price in the six other developed countries and determine how they differ.",
  "narration_support": "Lantus, a type of insulin, more expensive in the U .S.",
  "chart_support": "Bar chart comparing the monthly price of Lantus insulin across seven countries in 2017, showing the United States has a drastically higher price than the other nations.",
  "supported_by_narration": true,
@@ -31,5 +30,24 @@
  ],
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "review_order": ["data_table","intent","g1"]
+ "review_order": [
+  "data_table",
+  "intent",
+  "g1"
+ ],
+ "narrative_goal": "Show that the monthly price of the insulin Lantus is much higher in the United States than in six other developed countries.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the monthly price of Lantus insulin in the United States with its price in the six other developed countries and determine how they differ.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

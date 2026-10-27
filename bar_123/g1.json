@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_123",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the historical trend of U.S. military spending since World War II.",
+ "intent": "Analyze U.S. military spending from 1950 to 2013, determine the full-period net change, identify the peak year and its value, and describe how spending moved after that peak.",
  "requirements": [
   {
    "id": "R1",
@@ -577,7 +577,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "claim": "Over the full period, U.S. military spending rose substantially: from 85 billion in 1950 to 580 billion in 2013, an increase of 495 billion or about 582%.",
    "basis": [
@@ -610,7 +610,7 @@
   {
    "id": "U3",
    "requirement_id": "R3",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "extreme",
    "must_be_visualized": true,
    "claim": "The series reaches its maximum at 720 billion 2014 USD in 2009.",
    "basis": [
@@ -636,7 +636,7 @@
   {
    "id": "U4",
    "requirement_id": "R4",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "change",
    "must_be_visualized": true,
    "claim": "After the 2009 peak, spending fell by 140 billion to 580 billion in 2013, a decline of about 19% from the peak.",
    "basis": [
@@ -718,5 +718,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

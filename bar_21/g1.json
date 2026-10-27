@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_21",
  "version": "g1_r_u_v4",
- "intent": "Show that a potential source of government revenue could fully cover free public college and food assistance several times, while nearly meeting the higher cost of an ambitious child-poverty reduction plan.",
+ "intent": "Compare how far the available government revenue covers the three listed policy costs and rank their spending needs.",
  "requirements": [
   {
    "id": "R1",
@@ -19,12 +19,10 @@
   },
   {
    "id": "R2",
-   "question": "How far could about $200 billion go toward funding each of the three policy goals?",
+   "question": "How far does the available revenue cover each policy cost, and which policy requires the most and least spending?",
    "relation": "all_of",
    "unit_ids": [
-    "U2",
-    "U3",
-    "U4"
+    "U2"
    ],
    "scope": {
     "entities": [
@@ -34,22 +32,6 @@
     ],
     "measure": "coverage of relative policy spending cost",
     "baseline": "$200 billion"
-   }
-  },
-  {
-   "id": "R3",
-   "question": "Which policy requires the most spending, and which requires the least?",
-   "relation": "single",
-   "unit_ids": [
-    "U5"
-   ],
-   "scope": {
-    "entities": [
-     "Free public college",
-     "Food assistance",
-     "Cut child poverty 60%"
-    ],
-    "measure": "relative spending cost"
    }
   }
  ],
@@ -100,18 +82,34 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "claim": "About $200 billion would cover the free public college plan roughly three times over.",
+   "claim": "The $200 billion revenue covers free public college about 3 times and food assistance about 2 times; child-poverty reduction costs 4.5 times the college plan, so it requires the most spending and is only about two-thirds covered.",
    "accept": [
     "the revenue covers free public college about 3 times",
     "free public college costs roughly one-third of the revenue",
-    "the college bar is the shortest policy-cost bar"
+    "the college bar is the shortest policy-cost bar",
+    "the revenue covers food assistance about 2 times",
+    "food assistance costs roughly half of the revenue",
+    "the revenue gets close to the full cost of cutting child poverty by 60%",
+    "the child-poverty plan is nearly, but not fully, covered",
+    "the plan requires more than $200 billion",
+    "Cut child poverty 60% is the most expensive, followed by food assistance, then free public college",
+    "the bar order is child-poverty plan > food assistance > free public college"
    ],
    "reject": [
     "the revenue covers free public college only once",
     "free public college consumes the entire $200 billion",
-    "the revenue cannot cover free public college"
+    "the revenue cannot cover free public college",
+    "the revenue covers food assistance once",
+    "the revenue cannot cover food assistance",
+    "food assistance has the largest funding requirement",
+    "the revenue fully covers the child-poverty plan",
+    "the revenue cuts child poverty by exactly 60%",
+    "the revenue covers only a small fraction of the plan",
+    "free public college is the most expensive",
+    "food assistance is the most expensive",
+    "the three requirements are equal"
    ],
-   "evidence": "The table identifies a $200 billion revenue baseline and a relative college cost of 1.0.",
+   "evidence": "The table identifies a $200 billion revenue baseline and a relative college cost of 1.0. Food assistance has a relative spending cost of 1.5, between free public college and the child-poverty plan. The child-poverty plan has the largest relative spending cost, while the narrative describes the revenue as getting close to its cost. The bar-cost values are 4.5 for the child-poverty plan, 1.5 for food assistance, and 1.0 for free public college.",
    "unit_kind": "comparison",
    "must_be_visualized": true,
    "basis": [
@@ -138,26 +136,7 @@
      "entity": "Free public college",
      "series": "Sanders plan",
      "metric": "coverage_multiple"
-    }
-   ]
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R2",
-   "claim": "About $200 billion would cover federal food assistance roughly two times over.",
-   "accept": [
-    "the revenue covers food assistance about 2 times",
-    "food assistance costs roughly half of the revenue"
-   ],
-   "reject": [
-    "the revenue covers food assistance once",
-    "the revenue cannot cover food assistance",
-    "food assistance has the largest funding requirement"
-   ],
-   "evidence": "Food assistance has a relative spending cost of 1.5, between free public college and the child-poverty plan.",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "basis": [
+    },
     {
      "field": "value",
      "value": "1.5",
@@ -165,14 +144,6 @@
      "entity": "Food assistance",
      "series": "Like food stamps",
      "metric": "spending_cost_relative_to_college"
-    },
-    {
-     "field": "value",
-     "value": "200",
-     "unit": "billion USD",
-     "entity": "Government revenue",
-     "metric": "available_revenue",
-     "label": "$200 billion"
     },
     {
      "field": "value",
@@ -181,77 +152,6 @@
      "entity": "Food assistance",
      "series": "Like food stamps",
      "metric": "coverage_multiple"
-    }
-   ]
-  },
-  {
-   "id": "U4",
-   "requirement_id": "R2",
-   "claim": "About $200 billion would cover nearly all, but not the full, cost of the plan to cut child poverty by 60%.",
-   "accept": [
-    "the revenue gets close to the full cost of cutting child poverty by 60%",
-    "the child-poverty plan is nearly, but not fully, covered",
-    "the plan requires more than $200 billion"
-   ],
-   "reject": [
-    "the revenue fully covers the child-poverty plan",
-    "the revenue cuts child poverty by exactly 60%",
-    "the revenue covers only a small fraction of the plan"
-   ],
-   "evidence": "The child-poverty plan has the largest relative spending cost, while the narrative describes the revenue as getting close to its cost.",
-   "unit_kind": "comparison",
-   "must_be_visualized": true,
-   "basis": [
-    {
-     "field": "value",
-     "value": "4.5",
-     "unit": "relative",
-     "entity": "Cut child poverty 60%",
-     "series": "Bennet-Brown plan",
-     "metric": "spending_cost_relative_to_college"
-    },
-    {
-     "field": "value",
-     "value": "200",
-     "unit": "billion USD",
-     "entity": "Government revenue",
-     "metric": "available_revenue",
-     "label": "$200 billion"
-    }
-   ]
-  },
-  {
-   "id": "U5",
-   "requirement_id": "R3",
-   "claim": "The child-poverty plan requires the most spending, food assistance is second, and free public college requires the least.",
-   "accept": [
-    "Cut child poverty 60% is the most expensive, followed by food assistance, then free public college",
-    "the bar order is child-poverty plan > food assistance > free public college"
-   ],
-   "reject": [
-    "free public college is the most expensive",
-    "food assistance is the most expensive",
-    "the three requirements are equal"
-   ],
-   "evidence": "The bar-cost values are 4.5 for the child-poverty plan, 1.5 for food assistance, and 1.0 for free public college.",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "basis": [
-    {
-     "field": "value",
-     "value": "1.0",
-     "unit": "relative",
-     "entity": "Free public college",
-     "series": "Sanders plan",
-     "metric": "spending_cost_relative_to_college"
-    },
-    {
-     "field": "value",
-     "value": "1.5",
-     "unit": "relative",
-     "entity": "Food assistance",
-     "series": "Like food stamps",
-     "metric": "spending_cost_relative_to_college"
     },
     {
      "field": "value",
@@ -266,11 +166,8 @@
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.2,
-  "U2": 0.2,
-  "U3": 0.2,
-  "U4": 0.2,
-  "U5": 0.2
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "The charts may omit the word 'federal' from Food assistance.",
@@ -298,7 +195,9 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_U4_U5_2026_10_27"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

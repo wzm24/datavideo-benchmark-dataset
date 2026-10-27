@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_26",
- "intent_en": "Show that the share of colleges giving considerable importance to SAT scores increased between 1993 and 2005.",
- "previous_intent": "To illustrate the increasing importance placed on SAT scores by colleges between 1993 and 2005.",
+ "intent_en": "Analyze how the share of colleges giving considerable importance to SAT scores changed between 1993 and 2005, and determine the direction of that change.",
  "narration_support": "In 1993, 46 % of schools gave considerable importance to SAT scores. By 2005, it was 59%.",
  "chart_support": "Bar chart showing the percentage of colleges giving 'considerable importance' to SAT scores increased from 1993 to 2005.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate the increasing importance placed on SAT scores by colleges between 1993 and 2005.",
+ "narrative_goal": "Show that the share of colleges giving considerable importance to SAT scores increased between 1993 and 2005.",
  "intent_machine": "To demonstrate the increasing percentage of colleges giving considerable importance to SAT scores over the observed period, highlighting the rising weight of test results as a prelude to discussing what the test actually measures.",
  "approved_by": "human",
  "approved_at": "2026-10-22",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze how the share of colleges giving considerable importance to SAT scores changed between 1993 and 2005, and determine the direction of that change.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

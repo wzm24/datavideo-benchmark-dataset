@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_107",
- "intent_en": "To contextualize the massive financial impact of increased tax cheating by comparing lost tax revenue to the Department of Education's annual budget.",
- "previous_intent": "To illustrate the magnitude of tax losses from increased cheating by comparing the lost revenue to the Department of Education's budget, highlighting the substantial financial impact.",
+ "intent_en": "Compare the Department of Education's annual budget with the tax revenue lost under a scenario of increased cheating, and determine how the two amounts relate.",
  "narration_support": "Putting that into perspective, the money lost with 4 percentage points more cheating is triple the Department of Education's budget for 2018.",
  "chart_support": "Bar chart comparing the Department of Education FY 2018 budget with taxes lost due to 4 percentage points more cheating, showing the lost taxes are substantially higher.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To contextualize the massive financial impact of increased tax cheating by comparing lost tax revenue to the Department of Education's annual budget.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare the Department of Education's annual budget with the tax revenue lost under a scenario of increased cheating, and determine how the two amounts relate.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

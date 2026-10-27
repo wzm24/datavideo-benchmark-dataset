@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_140",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate that income inequality, measured by the ratio of household income at the 90th percentile to the 10th percentile, has increased steadily since 1980.",
+ "intent": "Analyze how the ratio of household income at the ninetieth percentile to the tenth percentile changed from 1980 through 2019, and determine the direction of the trend.",
  "requirements": [
   {
    "id": "R1",
@@ -89,7 +89,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "trend",
    "must_be_visualized": true,
    "claim": "The 90th-to-10th income ratio rises from9.1 in1980 to12.6 in2019.",
    "basis": [
@@ -171,5 +171,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

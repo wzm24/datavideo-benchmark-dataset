@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_10",
  "version": "g1_r_u_v4",
- "intent": "Show that Bangladesh has the lowest life expectancy among the three, far below the United States and somewhat below South Korea.",
+ "intent": "Compare life expectancy across the United States, South Korea, and Bangladesh in the plotted snapshot, and determine how Bangladesh's value relates to the other two.",
  "requirements": [
   {
    "id": "R1",
@@ -151,5 +151,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

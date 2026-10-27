@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_5",
  "version": "g1_r_u_v4",
- "intent": "Compare private and state schools on paying business rates, and convey the potential annual revenue from requiring private schools to pay as state schools do.",
+ "intent": "Compare private and state schools on paying business rates, then determine the potential annual revenue from requiring private schools to pay as state schools do.",
  "requirements": [
   {
    "id": "R1",
@@ -138,7 +138,7 @@
     "a revenue figure without the £105m value"
    ],
    "evidence": "The £105m annotation is visible (not a bar).",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "basis": [
     {
@@ -182,5 +182,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

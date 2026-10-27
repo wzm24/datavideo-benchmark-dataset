@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_30",
  "version": "g1_r_u_v4",
- "intent": "Show that the monthly price of the hepatitis C drug Sovaldi is higher in the United States than in five other developed countries.",
+ "intent": "Compare the monthly Sovaldi price in the United States with the five other developed countries and determine how they rank.",
  "requirements": [
   {
    "id": "R1",
@@ -195,5 +195,6 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22"
  ],
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

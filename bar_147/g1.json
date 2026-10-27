@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_147",
  "version": "g1_r_u_v4",
- "intent": "To demonstrate the significant disparity in vaccine purchases between high-income nations and lower-income countries or international mechanisms like Covax.",
+ "intent": "Analyze confirmed vaccine doses by income group and Covax, then determine how the amounts compare across the entities.",
  "requirements": [
   {
    "id": "R1",
@@ -166,5 +166,6 @@
  ],
  "status": "agent_draft_pending_human_review",
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

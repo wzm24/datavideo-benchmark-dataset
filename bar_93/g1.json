@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_93",
  "version": "g1_r_u_v4",
- "intent": "Show the global Muslim population split between Sunni and Shia Muslims.",
+ "intent": "Analyze how the global Muslim population is divided between Sunni and Shia Muslims and determine the share each group represents.",
  "requirements": [
   {
    "id": "R1",
@@ -63,7 +63,7 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
    "claim": "Sunni Muslims are about 80% and Shia Muslims about 20% of the global Muslim population.",
    "basis": [
@@ -128,5 +128,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

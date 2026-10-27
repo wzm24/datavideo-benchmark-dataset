@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_111",
  "version": "g1_r_u_v4",
- "intent": "Dewi's high-income household has far greater access to clean water than Putri's low-income household, showing that income inequality extends to basic services.",
+ "intent": "Compare the clean water access rates for Dewi's high-income household and Putri's low-income household, and determine how the two groups differ.",
  "requirements": [
   {
    "id": "R1",
@@ -135,5 +135,6 @@
   "bar_110",
   "bar_111",
   "bar_112"
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

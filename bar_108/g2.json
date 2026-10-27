@@ -7,7 +7,8 @@
   "clip_id": "bar_108",
   "family": "bar",
   "sub_type": "grouped",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -59,50 +60,45 @@
    "unit_id": "U2",
    "unit_kind": "comparison",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "combined_comparison",
    "required_marks": [
     "Pfizer/BioNTech | Months since last shot | value",
-    "Moderna | Months since last shot | value"
-   ],
-   "assertion": {
-    "greater": "Pfizer/BioNTech | Months since last shot | value",
-    "greater_value": 6.0,
-    "lesser": "Moderna | Months since last shot | value",
-    "lesser_value": 6.0,
-    "delta": 0.0,
-    "ratio": 1.0,
-    "expected_order": [
-     "Pfizer/BioNTech | Months since last shot | value",
-     "Moderna | Months since last shot | value"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
-    }
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
-  },
-  {
-   "unit_id": "U3",
-   "unit_kind": "key_value_endpoint",
-   "must_be_visualized": true,
-   "evidence_type": "mark_value",
-   "required_marks": [
+    "Moderna | Months since last shot | value",
     "Johnson & Johnson | Months since last shot | value"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Johnson & Johnson | Months since last shot | value",
-      "expected": 2.0
-     }
+    "mode": "all_of",
+    "merged_from_unit_ids": [
+     "U2",
+     "U3"
     ],
-    "tolerance": 0.02
+    "component_assertions": [
+     {
+      "greater": "Pfizer/BioNTech | Months since last shot | value",
+      "greater_value": 6.0,
+      "lesser": "Moderna | Months since last shot | value",
+      "lesser_value": 6.0,
+      "delta": 0.0,
+      "ratio": 1.0,
+      "expected_order": [
+       "Pfizer/BioNTech | Months since last shot | value",
+       "Moderna | Months since last shot | value"
+      ],
+      "tolerance": {
+       "value": 0.02,
+       "ratio": 0.05
+      }
+     },
+     {
+      "marks": [
+       {
+        "mark": "Johnson & Johnson | Months since last shot | value",
+        "expected": 2.0
+       }
+      ],
+      "tolerance": 0.02
+     }
+    ]
    },
    "accepted_routes": [
     "geometry",
@@ -113,7 +109,7 @@
   },
   {
    "unit_id": "U4",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "identity",
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [

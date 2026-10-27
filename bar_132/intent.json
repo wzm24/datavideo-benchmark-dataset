@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_132",
- "intent_en": "To demonstrate the historical expansion and subsequent long-term stability of the number of countries possessing nuclear weapons.",
- "previous_intent": "To illustrate the historical proliferation of nuclear-armed nations from the mid-20th century to a peak, followed by a stabilization at a constant number of countries in recent decades.",
+ "intent_en": "Analyze the table to trace how many countries possessed nuclear weapons from 1945 to 2015, and determine how that count changed over time.",
  "narration_support": "Today, there are nine countries who have nuclear weapons. This number has not increased for decades.",
  "chart_support": "Timeline chart displaying the count and identities (flags) of nuclear-armed states from 1940 to 2015, illustrating a period of growth followed by a sustained plateau.",
  "supported_by_narration": true,
@@ -30,5 +29,20 @@
   "legacy_intent_needs_semantic_reaudit"
  ],
  "approved_by": null,
- "approved_at": null
+ "approved_at": null,
+ "narrative_goal": "To demonstrate the historical expansion and subsequent long-term stability of the number of countries possessing nuclear weapons.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "needs_review",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Analyze the table to trace how many countries possessed nuclear weapons from 1945 to 2015, and determine how that count changed over time.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "candidate_pending_review"
 }

@@ -7,7 +7,8 @@
   "clip_id": "bar_97",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "horizontal"
+  "orientation": "horizontal",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -52,29 +53,19 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "share_or_composition",
    "must_be_visualized": true,
-   "evidence_type": "ranked_comparison",
+   "evidence_type": "composition",
    "required_marks": [
-    "SUNNI | muslims_iraq",
     "SHIA | muslims_iraq",
+    "SUNNI | muslims_iraq",
     "KURDS (SUNNI) | muslims_iraq"
    ],
    "assertion": {
-    "greater": "SHIA | muslims_iraq",
-    "greater_value": 63.0,
-    "lesser": "KURDS (SUNNI) | muslims_iraq",
-    "lesser_value": 17.0,
-    "delta": 46.0,
-    "ratio": 3.705882,
-    "expected_order": [
-     "SHIA | muslims_iraq",
-     "SUNNI | muslims_iraq",
-     "KURDS (SUNNI) | muslims_iraq"
-    ],
-    "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+    "values": {
+     "SHIA": 63,
+     "SUNNI": 20,
+     "KURDS (SUNNI)": 17
     }
    },
    "accepted_routes": [

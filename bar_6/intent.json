@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_6",
- "intent_en": "Show that people in transit-oriented developments drive less and use public transit, biking, and walking more than the national average.",
- "previous_intent": "To illustrate the transportation behavior differences in transit-oriented developments compared to the national average, specifically highlighting reduced driving and increased use of public transit, biking, and walking.",
+ "intent_en": "Compare how trip shares for car, public transit, biking, and walking differ between transit-oriented developments and the national average, and determine how the two populations compare across all four modes.",
  "narration_support": "people who live in these places are less likely than the national average to drive, and more likely to walk, bike, or take transit.",
  "chart_support": "Bar chart comparing the share of use for Auto, Public transit, Bike, and Walk between National average and Transit-oriented developments, showing lower Auto reliance and higher reliance on other modes in Transit-oriented developments.",
  "supported_by_narration": true,
@@ -25,7 +24,7 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To illustrate the transportation behavior differences in transit-oriented developments compared to the national average, specifically highlighting reduced driving and increased use of public transit, biking, and walking.",
+ "narrative_goal": "Show that people in transit-oriented developments drive less and use public transit, biking, and walking more than the national average.",
  "intent_machine": "To illustrate the transportation behavior differences in transit-oriented developments compared to the national average, specifically highlighting reduced driving and increased use of public transit, biking, and walking.",
  "approved_by": "human",
  "approved_at": "2026-10-21",
@@ -33,5 +32,19 @@
   "data_table",
   "intent",
   "g1"
- ]
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare how trip shares for car, public transit, biking, and walking differ between transit-oriented developments and the national average, and determine how the two populations compare across all four modes.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review"
 }

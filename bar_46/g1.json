@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_46",
  "version": "g1_r_u_v4",
- "intent": "Show the income-tax baseline across income groups before other taxes are added.",
+ "intent": "Analyze the income-tax rates for all eleven income groups and determine the baseline pattern across them before other taxes are considered.",
  "requirements": [
   {
    "id": "R1",
@@ -195,5 +195,6 @@
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-22",
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

@@ -7,7 +7,8 @@
   "clip_id": "bar_159",
   "family": "bar",
   "sub_type": "simple",
-  "orientation": "vertical"
+  "orientation": "vertical",
+  "time_behavior": "snapshot"
  },
  "completeness": {
   "required": true,
@@ -57,7 +58,7 @@
   },
   {
    "unit_id": "U2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
    "evidence_type": "ranked_comparison",
    "required_marks": [
@@ -71,25 +72,44 @@
     "OECD | pisa_score"
    ],
    "assertion": {
-    "greater": "SGP | pisa_score",
-    "greater_value": 1669.0,
-    "lesser": "OECD | pisa_score",
-    "lesser_value": 1465.0,
-    "delta": 204.0,
-    "ratio": 1.139249,
     "expected_order": [
-     "SGP | pisa_score",
-     "JPN | pisa_score",
-     "KOR | pisa_score",
-     "FIN | pisa_score",
-     "NZL | pisa_score",
-     "UK | pisa_score",
-     "USA | pisa_score",
-     "OECD | pisa_score"
+     "SGP",
+     "JPN",
+     "KOR",
+     "FIN",
+     "NZL",
+     "UK",
+     "USA",
+     "OECD"
     ],
     "tolerance": {
-     "value": 0.02,
-     "ratio": 0.05
+     "value": 0
+    }
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "pair_comparison",
+   "required_marks": [
+    "USA | pisa_score",
+    "OECD | pisa_score"
+   ],
+   "assertion": {
+    "greater": "USA",
+    "greater_value": 1485,
+    "lesser": "OECD",
+    "lesser_value": 1465,
+    "delta": 20,
+    "tolerance": {
+     "value": 0
     }
    },
    "accepted_routes": [

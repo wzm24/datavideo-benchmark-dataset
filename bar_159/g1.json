@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_159",
  "version": "g1_r_u_v4",
- "intent": "To illustrate that while U.S. students score above the OECD average on PISA exams, they are outperformed by students in countries like Finland and Japan, which achieve higher scores with significantly fewer teaching hours.",
+ "intent": "Rank PISA scores for the eight listed entities and identify where the United States falls relative to the OECD average.",
  "requirements": [
   {
    "id": "R1",
@@ -19,10 +19,18 @@
   },
   {
    "id": "R2",
-   "question": "What does the selected chart show?",
+   "question": "How do the eight PISA scores rank?",
    "relation": "single",
    "unit_ids": [
     "U2"
+   ]
+  },
+  {
+   "id": "R3",
+   "question": "How does the US PISA score compare with the OECD average?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
    ]
   }
  ],
@@ -35,73 +43,57 @@
    "claim": "All 8 required bar marks or stacked segments appear in the final chart.",
    "basis": [
     {
-     "field": "value",
-     "value": "1669",
-     "unit": "points",
      "entity": "SGP",
-     "metric": "pisa_score",
-     "label": "1669"
+     "field": "pisa_score",
+     "value": 1669,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1560",
-     "unit": "points",
      "entity": "JPN",
-     "metric": "pisa_score",
-     "label": "1560"
+     "field": "pisa_score",
+     "value": 1560,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1559",
-     "unit": "points",
      "entity": "KOR",
-     "metric": "pisa_score",
-     "label": "1559"
+     "field": "pisa_score",
+     "value": 1559,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1549",
-     "unit": "points",
      "entity": "FIN",
-     "metric": "pisa_score",
-     "label": "1549"
+     "field": "pisa_score",
+     "value": 1549,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1508",
-     "unit": "points",
      "entity": "NZL",
-     "metric": "pisa_score",
-     "label": "1508"
+     "field": "pisa_score",
+     "value": 1508,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1498",
-     "unit": "points",
      "entity": "UK",
-     "metric": "pisa_score",
-     "label": "1498"
+     "field": "pisa_score",
+     "value": 1498,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1485",
-     "unit": "points",
      "entity": "USA",
-     "metric": "pisa_score",
-     "label": "1485"
+     "field": "pisa_score",
+     "value": 1485,
+     "unit": "points"
     },
     {
-     "field": "value",
-     "value": "1465",
-     "unit": "points",
      "entity": "OECD",
-     "metric": "pisa_score",
-     "label": "1465"
+     "field": "pisa_score",
+     "value": 1465,
+     "unit": "points"
     }
    ],
    "accept": [
     "all 8 required data marks are visible in the final chart state",
-    "every required bar is present"
+    "every required bar or stacked segment is present"
    ],
    "reject": [
     "omitting any required bar or stacked segment",
@@ -113,75 +105,107 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "comparison",
+   "unit_kind": "ranking",
    "must_be_visualized": true,
-   "claim": "US PISA performance is above the OECD average but below the other six comparison systems.",
+   "claim": "PISA scores rank Singapore 1669, Japan 1560, Korea 1559, Finland 1549, New Zealand 1508, UK 1498, US 1485, and OECD 1465.",
    "basis": [
     {
      "entity": "SGP",
      "field": "pisa_score",
-     "value": "1669",
+     "value": 1669,
      "unit": "points"
     },
     {
      "entity": "JPN",
      "field": "pisa_score",
-     "value": "1560",
+     "value": 1560,
      "unit": "points"
     },
     {
      "entity": "KOR",
      "field": "pisa_score",
-     "value": "1559",
+     "value": 1559,
      "unit": "points"
     },
     {
      "entity": "FIN",
      "field": "pisa_score",
-     "value": "1549",
+     "value": 1549,
      "unit": "points"
     },
     {
      "entity": "NZL",
      "field": "pisa_score",
-     "value": "1508",
+     "value": 1508,
      "unit": "points"
     },
     {
      "entity": "UK",
      "field": "pisa_score",
-     "value": "1498",
+     "value": 1498,
      "unit": "points"
     },
     {
      "entity": "USA",
      "field": "pisa_score",
-     "value": "1485",
+     "value": 1485,
      "unit": "points"
     },
     {
      "entity": "OECD",
      "field": "pisa_score",
-     "value": "1465",
+     "value": 1465,
+     "unit": "points"
+    }
+   ],
+   "computation": "",
+   "accept": [
+    "all eight scores are present",
+    "the United States is seventh of eight",
+    "the US is above OECD and below the other six"
+   ],
+   "reject": [
+    "adding teaching hours absent from the table",
+    "placing the US above non-OECD comparators"
+   ],
+   "evidence": "The ordered score bars establish the full ranking and the US position."
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "claim": "The United States scores 1485, 20 points above the OECD average of 1465.",
+   "basis": [
+    {
+     "entity": "USA",
+     "field": "pisa_score",
+     "value": 1485,
+     "unit": "points"
+    },
+    {
+     "entity": "OECD",
+     "field": "pisa_score",
+     "value": 1465,
      "unit": "points"
     }
    ],
    "accept": [
-    "all eight scores are present",
-    "USA is above OECD and below the rest"
+    "both USA and OECD are visible",
+    "the US is 20 points above OECD"
    ],
    "reject": [
-    "omitting a required series",
-    "reversing the values",
-    "using fabricated values"
+    "reversing the comparison",
+    "using another baseline"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "The USA and OECD bars establish the 20-point gap."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.5,
-  "U2": 0.5
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
  },
  "optional_valid": [],
  "g0_data_completeness": {
@@ -209,9 +233,95 @@
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "final_v1_required_units_audited_2026_10_27",
+  "final_v1_required_units_audited_2026_10_27"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null
+ "status": "approved",
+ "approved_by": "human",
+ "approved_at": "2026-10-27",
+ "optional_units": [],
+ "optional_requirements": [],
+ "unsupported_or_forbidden": [
+  {
+   "unit": {
+    "id": "U2",
+    "requirement_id": "R2",
+    "unit_kind": "ranking",
+    "must_be_visualized": true,
+    "claim": "The scores descend from Singapore 1669 to OECD 1465; the United States is seventh at 1485, above only the OECD average and below the other six entities.",
+    "basis": [
+     {
+      "entity": "SGP",
+      "field": "pisa_score",
+      "value": 1669,
+      "unit": "points"
+     },
+     {
+      "entity": "JPN",
+      "field": "pisa_score",
+      "value": 1560,
+      "unit": "points"
+     },
+     {
+      "entity": "KOR",
+      "field": "pisa_score",
+      "value": 1559,
+      "unit": "points"
+     },
+     {
+      "entity": "FIN",
+      "field": "pisa_score",
+      "value": 1549,
+      "unit": "points"
+     },
+     {
+      "entity": "NZL",
+      "field": "pisa_score",
+      "value": 1508,
+      "unit": "points"
+     },
+     {
+      "entity": "UK",
+      "field": "pisa_score",
+      "value": 1498,
+      "unit": "points"
+     },
+     {
+      "entity": "USA",
+      "field": "pisa_score",
+      "value": 1485,
+      "unit": "points"
+     },
+     {
+      "entity": "OECD",
+      "field": "pisa_score",
+      "value": 1465,
+      "unit": "points"
+     }
+    ],
+    "computation": "",
+    "accept": [
+     "all eight scores are present",
+     "the United States is seventh of eight",
+     "the US is above OECD and below the other six"
+    ],
+    "reject": [
+     "adding teaching hours absent from the table",
+     "placing the US above non-OECD comparators"
+    ],
+    "evidence": "The ordered score bars establish the full ranking and the US position."
+   },
+   "requirement": {
+    "id": "R2",
+    "question": "How do the eight PISA scores rank, and where is the United States?",
+    "relation": "single",
+    "unit_ids": [
+     "U2"
+    ]
+   },
+   "reason": "Replaced by the approved V1-only semantic units."
+  }
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

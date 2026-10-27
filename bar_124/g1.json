@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_124",
  "version": "g1_r_u_v4",
- "intent": "To illustrate the value of a metric in 1952 within the context of its historical trend from the 1950s to 2010.",
+ "intent": "Describe the long-term historical spending trend and determine the value at the labeled benchmark year.",
  "requirements": [
   {
    "id": "R1",
@@ -23,14 +23,6 @@
    "relation": "single",
    "unit_ids": [
     "U2"
-   ]
-  },
-  {
-   "id": "R3",
-   "question": "Must the video explicitly place 1952 within the 1950–2010 timeline?",
-   "relation": "single",
-   "unit_ids": [
-    "U3"
    ]
   }
  ],
@@ -485,9 +477,9 @@
   {
    "id": "U2",
    "requirement_id": "R2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "trend",
    "must_be_visualized": true,
-   "claim": "In 1952, the metric reached nearly $455 billion in today's dollars.",
+   "claim": "US defense spending rises from 150.9 in 1950 to 455.0 in 1952 and 823.5 by 2010, with the 1952 value embedded in the wider upward historical trend.",
    "basis": [
     {
      "entity": "$455 billion",
@@ -502,27 +494,7 @@
      "field": "entity",
      "value": 1952.0,
      "note": "Year entity tied to the $455 billion label."
-    }
-   ],
-   "accept": [
-    "In 1952, the metric reached nearly $455 billion in today's dollars.",
-    "The 1952 value was approximately $455 billion (adjusted for inflation).",
-    "By 1952, the metric had climbed to about $455 billion (today's dollars).",
-    "The chart highlights 1952 with a value of $455 billion."
-   ],
-   "reject": [
-    "omitting the required fact",
-    "reversing the direction or values"
-   ],
-   "evidence": "The 1952 data point must be annotated with a value of approximately $455 billion."
-  },
-  {
-   "id": "U3",
-   "requirement_id": "R3",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "claim": "The 1952 value is situated within the broader historical trend from 1950 to 2010.",
-   "basis": [
+    },
     {
      "entity": "1952",
      "x": "1120.8",
@@ -546,6 +518,10 @@
     }
    ],
    "accept": [
+    "In 1952, the metric reached nearly $455 billion in today's dollars.",
+    "The 1952 value was approximately $455 billion (adjusted for inflation).",
+    "By 1952, the metric had climbed to about $455 billion (today's dollars).",
+    "The chart highlights 1952 with a value of $455 billion.",
     "1952 is shown as a point within the 1950–2010 timeline.",
     "The 1952 value is situated in the broader historical context from 1950 to 2010.",
     "The trend includes 1952 along with earlier and later years.",
@@ -555,14 +531,13 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The 1952 point must appear within the 1950–2010 axis range."
+   "evidence": "The 1952 data point must be annotated with a value of approximately $455 billion. The 1952 point must appear within the 1950–2010 axis range."
   }
  ],
  "weight_mode": "uniform_over_units",
  "unit_weights": {
-  "U1": 0.3333333333,
-  "U2": 0.3333333333,
-  "U3": 0.3333333333
+  "U1": 0.5,
+  "U2": 0.5
  },
  "optional_valid": [
   "Showing the $800 billion value as a peak or key point in the trend.",
@@ -589,7 +564,8 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "merged_U2_U3_2026_10_27"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
@@ -607,5 +583,6 @@
    "type": "no_explicit_bar_mark_in_reference_svg",
    "handling": "Requires human visual inspection before semantic scoring."
   }
- ]
+ ],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

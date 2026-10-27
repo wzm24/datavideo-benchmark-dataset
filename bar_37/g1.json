@@ -1,7 +1,7 @@
 {
  "clip_id": "bar_37",
  "version": "g1_r_u_v4",
- "intent": "Show that the monthly price of the insulin Lantus is much higher in the United States than in six other developed countries.",
+ "intent": "Compare the monthly price of Lantus insulin in the United States with its price in the six other developed countries and determine how they differ.",
  "requirements": [
   {
    "id": "R1",
@@ -167,5 +167,6 @@
  "status": "approved",
  "approved_by": "human",
  "approved_at": "2026-10-22",
- "hardcases": []
+ "hardcases": [],
+ "unit_kind_schema": "protocol_v1_2026_10_27"
 }

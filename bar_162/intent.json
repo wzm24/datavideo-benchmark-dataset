@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_162",
- "intent_en": "To illustrate the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
- "previous_intent": "To demonstrate the doubling of the percentage of adult internet users who post video online over the observed period.",
+ "intent_en": "Describe the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
  "narration_support": "the percent of adult internet users who post video online has doubled",
  "chart_support": "Bar chart showing online video posting percentages for 2009 and 2013, with the 2013 value being higher than the 2009 value.",
  "supported_by_narration": true,
@@ -27,8 +26,25 @@
  "needs_video_escalation": false,
  "status": "approved",
  "review_flags": [
-  "legacy_intent_needs_semantic_reaudit"
+  "legacy_intent_needs_semantic_reaudit",
+  "full_g1_repair_public_intent_2026_10_27"
  ],
  "approved_by": "human",
- "approved_at": "2026-10-22"
+ "approved_at": "2026-10-27",
+ "narrative_goal": "To illustrate the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Describe the growth in the proportion of adult internet users posting online video from 2009 to 2013.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_approved_at": "2026-10-27"
 }

@@ -1,7 +1,6 @@
 {
  "clip_id": "bar_22",
- "intent_en": "Show that a wealth tax could finance programs helping millions because wealth is extremely concentrated among the ultra-rich, while ordinary occupations have little or negative net worth.",
- "previous_intent": "To demonstrate the extreme concentration of wealth at the top of the economic spectrum to justify a wealth tax as a funding mechanism for social programs.",
+ "intent_en": "Compare net worth across the listed occupations and identify how the separate ultra-rich annotation extends beyond the displayed scale.",
  "narration_support": "huge amount of wealth stuck here at the very, very top with the ultra -rich. A wealth tax hones in on that.",
  "chart_support": "A wealth distribution chart showing named occupations with printed net worth from slightly negative to the low six figures, all low on a million-dollar scale, contrasting with an extreme wealth-distribution tail at the far right.",
  "supported_by_narration": true,
@@ -25,14 +24,39 @@
   "contains_answer_values": false
  },
  "needs_video_escalation": false,
- "narrative_goal": "To demonstrate the extreme concentration of wealth at the top of the economic spectrum to justify a wealth tax as a funding mechanism for social programs.",
+ "narrative_goal": "Show that a wealth tax could finance programs helping millions because wealth is extremely concentrated among the ultra-rich, while ordinary occupations have little or negative net worth.",
  "intent_machine": "To demonstrate the extreme wealth inequality between ordinary workers and the ultra-rich, highlighting how a wealth tax could target the massive wealth concentrated at the top to fund social programs.",
  "chart_semantics_note": "The six printed occupation values range from -$4,000 to $110,000 and are low relative to the chart's million-dollar scale. The far-right segment represents ultra-rich wealth far beyond the displayed axis, with no exact printed value.",
  "approved_by": "human",
- "approved_at": "2026-10-21",
+ "approved_at": "2026-10-27",
  "review_order": [
   "data_table",
   "intent",
   "g1"
+ ],
+ "narrative_goal_source": "reviewed_intent_en_2026-10-27",
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "public_input_field": "intent_en",
+ "intent_schema_version": "bar_intent_v3_2026-10-27",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "protocol_intent_status": "protocol_compliant",
+ "current_model_input": "Compare net worth across the listed occupations and identify how the separate ultra-rich annotation extends beyond the displayed scale.",
+ "current_model_input_role": "model_generation_input",
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "narrative_goal_evidence_status": "canonical_after_review",
+ "public_intent_source": [
+  "narrative_goal",
+  "data_table",
+  "g1_requirements",
+  "human_review"
+ ],
+ "public_intent_approved_at": "2026-10-27",
+ "status": "approved",
+ "review_flags": [
+  "full_g1_repair_public_intent_2026_10_27"
  ]
 }
