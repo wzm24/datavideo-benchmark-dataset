@@ -12,7 +12,7 @@
    "meaning": "The profit margin is only 3%.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.25,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -45,11 +45,11 @@
    "meaning": "The remainder of the ring is 97%, so the profit margin is only a small slice of the whole.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.25,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "remainder of the ring",
+     "entity": "(unlabeled)",
      "x": "1",
      "field": "value",
      "value": 97,
@@ -79,86 +79,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U3",
-   "meaning": "The remainder is about 32.3 times the profit margin.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "profit margin",
-     "x": "0",
-     "field": "value",
-     "value": 3,
-     "note": "profit margin percent"
-    },
-    {
-     "entity": "remainder of the ring",
-     "x": "1",
-     "field": "value",
-     "value": 97,
-     "note": "remainder percent"
-    }
-   ],
-   "computation": "97 / 3 = 32.333...",
-   "accepted_routes": [
-    "The remainder is about 32 times the profit margin",
-    "97% is roughly 32× the 3% margin",
-    "The non-margin remainder is about 32.3 times the margin",
-    "Profit margin is about 1/32 of the remainder"
-   ],
-   "visual_evidence_rule": "A viewer must be able to see the large remainder vs tiny margin contrast; an annotation or label should communicate the ~32× ratio if this unit is required.",
-   "temporal_anchor": "A contrast/summary clause after the 3% margin statement.",
-   "reviewer_question": "Is the derived ~32× ratio required, optional, or too interpretive?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "The gap between the 97% remainder and the 3% profit margin is 94 percentage points.",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "profit margin",
-     "x": "0",
-     "field": "value",
-     "value": 3,
-     "note": "profit margin percent"
-    },
-    {
-     "entity": "remainder of the ring",
-     "x": "1",
-     "field": "value",
-     "value": 97,
-     "note": "remainder percent"
-    }
-   ],
-   "computation": "97 - 3 = 94",
-   "accepted_routes": [
-    "The gap between remainder and margin is 94 percentage points",
-    "97% vs 3% is a 94-point difference",
-    "The remainder exceeds the margin by 94 percentage points",
-    "There is a 94 pp gap between the 97% remainder and 3% margin"
-   ],
-   "visual_evidence_rule": "A chart annotation or label should show the 97% vs 3% contrast and/or the 94 percentage-point gap.",
-   "temporal_anchor": "A contrast/summary clause after the 3% margin statement.",
-   "reviewer_question": "Is the derived 94-percentage-point gap required, optional, or unnecessary?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -176,7 +96,7 @@
  "notes": "Core required content is the 3% profit margin; the 97% remainder and derived ratio/gap are valid but may be optional depending on whether the chart explicitly labels them. Avoid causal, extrapolative, or unspecified-denominator claims.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 4,
+  "unit_count": 2,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 0.92
  },
@@ -204,5 +124,18 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2"
+  ],
+  "dropped": [
+   "U3",
+   "U4"
+  ],
+  "merged": [],
+  "reason": "清理 required_candidate=false 的单元",
+  "at": "2026-10-23"
+ }
 }

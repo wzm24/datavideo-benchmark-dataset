@@ -12,7 +12,7 @@
    "meaning": "The pass rate is 97%.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -41,83 +41,11 @@
    }
   },
   {
-   "id": "U2",
-   "meaning": "The did-not-pass rate is 3%.",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "did not pass",
-     "x": "did not pass",
-     "field": "value",
-     "value": 3,
-     "note": "Printed percent value for the did-not-pass category."
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "3% did not pass.",
-    "Only about 3% failed.",
-    "The non-pass share is 3%.",
-    "The remaining 3% did not pass."
-   ],
-   "visual_evidence_rule": "The small complementary slice of the donut is labeled did not pass with 3%.",
-   "temporal_anchor": "A complementary clause after the 97% pass-rate reveal, if the narration includes it.",
-   "reviewer_question": "Is the 3% non-pass share required context, or optional because it is the complement of the pass rate?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U3",
-   "meaning": "Passed and did-not-pass shares are compared: 97% passed while 3% did not pass, a 94 percentage-point gap.",
-   "unit_kind": "comparison",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "passed",
-     "x": "passed",
-     "field": "value",
-     "value": 97,
-     "note": "Passed percent value."
-    },
-    {
-     "entity": "did not pass",
-     "x": "did not pass",
-     "field": "value",
-     "value": 3,
-     "note": "Did-not-pass percent value."
-    }
-   ],
-   "computation": "97 - 3 = 94 percentage points",
-   "accepted_routes": [
-    "97% passed versus 3% did not pass.",
-    "There is a 94 percentage-point gap between passing and not passing.",
-    "The passed share is 94 points higher than the did-not-pass share."
-   ],
-   "visual_evidence_rule": "Both slices are visible and labeled so the viewer can compare 97% against 3%, or the 94-point gap is explicitly annotated.",
-   "temporal_anchor": "A comparison clause or annotation placed after both category values are available.",
-   "reviewer_question": "Must the video explicitly compare the pass and non-pass shares, or is the pass share alone enough?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
    "id": "U4",
    "meaning": "The passed share is a clear majority/vast majority of the total.",
    "unit_kind": "threshold_or_crossing",
    "weight_template": 0.2,
-   "weight_actual": 0.2,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -144,45 +72,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U5",
-   "meaning": "The pass-to-non-pass ratio is about 32.3 to 1.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.2,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "passed",
-     "x": "passed",
-     "field": "value",
-     "value": 97,
-     "note": "Passed percent value."
-    },
-    {
-     "entity": "did not pass",
-     "x": "did not pass",
-     "field": "value",
-     "value": 3,
-     "note": "Did-not-pass percent value."
-    }
-   ],
-   "computation": "97 / 3 = 32.333...",
-   "accepted_routes": [
-    "Passed people outnumber did-not-pass people about 32 to 1.",
-    "The pass-to-non-pass ratio is roughly 32.3:1.",
-    "The pass rate is about 32 times the non-pass rate."
-   ],
-   "visual_evidence_rule": "The donut or labels show 97% and 3%, making the ratio derivable if the video chooses to state it.",
-   "temporal_anchor": "An optional derived-comparison clause after both category values are shown.",
-   "reviewer_question": "Is the ~32:1 ratio a required derived unit or optional color added to the 97% vs 3% comparison?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -201,7 +90,7 @@
  "notes": "Core required content is the 97% pass share and the majority/vast-majority framing; the 3%, gap, and ratio are valid but optional unless the reviewer decides the intent demands them. Avoid causal or extrapolated claims beyond the printed donut values.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 5,
+  "unit_count": 2,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 1.14
  },
@@ -229,5 +118,19 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U4"
+  ],
+  "dropped": [
+   "U2",
+   "U3",
+   "U5"
+  ],
+  "merged": [],
+  "reason": "清理 required_candidate=false 的单元",
+  "at": "2026-10-23"
+ }
 }

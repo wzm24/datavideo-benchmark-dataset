@@ -1,0 +1,106 @@
+{
+ "clip_id": "pie_4",
+ "family": "pie",
+ "version": "g2_visual_evidence_v1",
+ "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "chart_input": {
+  "clip_id": "pie_4",
+  "family": "pie",
+  "sub_type": "full_pie",
+  "orientation": "radial"
+ },
+ "completeness": {
+  "required": false,
+  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
+  "required_data_rows": 7,
+  "evaluated_in": "G2_complete_composition",
+  "missing_any_fails_visual_completeness": false,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3"
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "key_value_endpoint",
+   "must_be_visualized": true,
+   "evidence_type": "mark_value",
+   "required_marks": [
+    "Public transportation | share_of_commute_modes"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Public transportation | share_of_commute_modes",
+      "expected": 5.2
+     }
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "key_value_extreme",
+   "must_be_visualized": true,
+   "evidence_type": "extremum_mark",
+   "required_marks": [
+    "Drive alone | share_of_commute_modes"
+   ],
+   "assertion": {
+    "mark": "Drive alone | share_of_commute_modes",
+    "extreme": "max",
+    "expected": 76.3,
+    "compared_set": "all numeric rows in the same composition",
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "pair_comparison",
+   "required_marks": [
+    "Drive alone | share_of_commute_modes",
+    "Public transportation | share_of_commute_modes"
+   ],
+   "assertion": {
+    "greater": "Drive alone | share_of_commute_modes",
+    "greater_value": 76.3,
+    "lesser": "Public transportation | share_of_commute_modes",
+    "lesser_value": 5.2,
+    "delta": 71.1,
+    "ratio": 14.673077,
+    "expected_order": [
+     "Drive alone | share_of_commute_modes",
+     "Public transportation | share_of_commute_modes"
+    ],
+    "tolerance": 0.02
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label"
+   ],
+   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  }
+ ]
+}

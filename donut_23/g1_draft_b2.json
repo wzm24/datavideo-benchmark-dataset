@@ -12,7 +12,7 @@
    "meaning": "Nuclear power accounts for 10.6% of global electricity generation.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.25,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -44,7 +44,7 @@
    "meaning": "Solar energy accounts for 6.3% of global electricity generation.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.25,
+   "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
@@ -76,7 +76,7 @@
    "meaning": "Nuclear power has a larger share of global electricity generation than solar energy.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.25,
+   "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
@@ -110,45 +110,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U4",
-   "meaning": "Nuclear power's share exceeds solar energy's share by 4.3 percentage points.",
-   "unit_kind": "change_or_rate",
-   "weight_template": 0.25,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "electricity generated (left)",
-     "x": "0",
-     "field": "value",
-     "value": 10.6,
-     "note": "Nuclear share."
-    },
-    {
-     "entity": "electricity generated (right)",
-     "x": "1",
-     "field": "value",
-     "value": 6.3,
-     "note": "Solar share."
-    }
-   ],
-   "computation": "10.6 - 6.3 = 4.3 percentage points",
-   "accepted_routes": [
-    "Nuclear is 4.3 percentage points higher than solar",
-    "The nuclear-solar gap is about 4.3 points, 10.6% vs 6.3%",
-    "Nuclear exceeds solar by roughly 4 percentage points"
-   ],
-   "visual_evidence_rule": "Both values must be visible and a difference annotation of 4.3 percentage points, or a clearly labeled gap, must appear.",
-   "temporal_anchor": "During the comparison/conclusion if the gap is shown.",
-   "reviewer_question": "Is the exact 4.3 percentage-point gap required, or optional elaboration?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -169,7 +130,7 @@
  "notes": "Left/right mapping to nuclear/solar comes from intent/narration; table entity labels are generic. Required set likely includes both share values and the nuclear>solar comparison; the 4.3-point gap and ratio are optional elaborations.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 4,
+  "unit_count": 3,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 0.94
  },
@@ -197,5 +158,18 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U2",
+   "U3"
+  ],
+  "dropped": [
+   "U4"
+  ],
+  "merged": [],
+  "reason": "清理 required_candidate=false 的单元",
+  "at": "2026-10-23"
+ }
 }

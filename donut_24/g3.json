@@ -1,0 +1,21 @@
+{
+ "clip_id": "donut_24",
+ "version": "g3_temporal_policy_v1",
+ "narration_source": "model_generated",
+ "policy_status": "draft_requires_g4_calibration",
+ "units": [
+  {
+   "unit_id": "U1",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "all required marks are at their completed state and identifiable",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "no_additional_order_requirement",
+   "identity": "entity_and_series_binding_must_remain_stable",
+   "transition": "ignore_mid_animation_geometry; judge_completed_marks"
+  }
+ ]
+}

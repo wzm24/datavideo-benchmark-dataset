@@ -9,10 +9,10 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "The top 1% of earners receive 69% of taxable long-term capital gains.",
+   "meaning": "The top 1% of earners receive 69% of taxable long-term capital gains — a clear majority of the total.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
-   "weight_actual": 0.25,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -25,10 +25,9 @@
    ],
    "computation": "none",
    "accepted_routes": [
-    "Top 1% receives 69% of long-term capital gains",
-    "69% of taxable long-term capital gains go to the top 1%",
-    "The top 1% share is 69%",
-    "Rounded: about 70% goes to the top 1%"
+    "The top 1% receives 69% of long-term capital gains, more than half.",
+    "69% of taxable long-term capital gains go to the top 1%.",
+    "The top 1% slice crosses the half-way mark at 69%."
    ],
    "visual_evidence_rule": "A labeled Top 1% slice or bar showing 69% must be visible.",
    "temporal_anchor": "the clause 'most taxable capital gains are going to the top 1%'",
@@ -41,83 +40,11 @@
    }
   },
   {
-   "id": "U2",
-   "meaning": "Everyone else receives the remaining 31%, and the two shares make up the full 100% distribution.",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "everyone else",
-     "x": "1",
-     "field": "value",
-     "value": 31,
-     "note": "Table value is 31 percent; relative_value is 0.310."
-    },
-    {
-     "entity": "Top 1%",
-     "x": "0",
-     "field": "value",
-     "value": 69,
-     "note": "Used with 31 to compute 69 + 31 = 100."
-    }
-   ],
-   "computation": "69 + 31 = 100",
-   "accepted_routes": [
-    "Everyone else receives 31%",
-    "The remaining 31% goes to all other earners",
-    "The two groups sum to 100% of taxable long-term capital gains",
-    "Top 1% plus everyone else equals the whole pie"
-   ],
-   "visual_evidence_rule": "The complement slice/bar labeled everyone else with 31% and the full composition summing to 100% must be visible if a donut or stacked chart is used.",
-   "temporal_anchor": "the same 'most taxable capital gains are going to the top 1%' clause, shown as the rest of the distribution",
-   "reviewer_question": "Should the video be required to show the 31% complement, or is it optional once the 69% top-1% share is shown?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U3",
-   "meaning": "The top 1% share is a majority—more than half—of taxable long-term capital gains.",
-   "unit_kind": "threshold_or_crossing",
-   "weight_template": 0.2,
-   "weight_actual": 0.25,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "Top 1%",
-     "x": "0",
-     "field": "value",
-     "value": 69,
-     "note": "69 percent exceeds a half/majority of the distribution."
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "The top 1% receives the majority of long-term capital gains",
-    "More than half of taxable long-term capital gains go to the top 1%",
-    "The top 1% slice crosses the half-way mark"
-   ],
-   "visual_evidence_rule": "The chart must make clear that the Top 1% slice is larger than half, e.g. highlight or annotation on the 69% slice.",
-   "temporal_anchor": "the clause 'most taxable capital gains are going to the top 1%'",
-   "reviewer_question": "Must the video explicitly state the majority/more-than-half claim, or is the 69% value alone sufficient?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
    "id": "U4",
    "meaning": "The top 1% receives more than twice everyone else's share: 69% versus 31%, a gap of 38 percentage points or a ratio of about 2.23x.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
-   "weight_actual": 0.25,
+   "weight_actual": 0.5,
    "required_candidate": true,
    "basis": [
     {
@@ -166,7 +93,7 @@
  "notes": "Core required data points are the 69% top-1% share, its majority status, and the contrast with the 31% everyone-else share. The 31% complement and policy-rationale framing are valid but optional pending reviewer strictness.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 4,
+  "unit_count": 2,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 0.87
  },
@@ -194,5 +121,20 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1",
+   "U4"
+  ],
+  "dropped": [
+   "U2",
+   "U3"
+  ],
+  "merged": [
+   "donut_33+U3"
+  ],
+  "reason": "人工逐条指定：删除/合并",
+  "at": "2026-10-23"
+ }
 }

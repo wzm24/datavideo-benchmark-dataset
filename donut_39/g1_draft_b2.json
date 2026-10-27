@@ -12,7 +12,7 @@
    "meaning": "30.4% of American households own a cat.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
-   "weight_actual": 0.25,
+   "weight_actual": 1.0,
    "required_candidate": true,
    "basis": [
     {
@@ -39,109 +39,6 @@
     "reviewer": null,
     "adjudicated": false
    }
-  },
-  {
-   "id": "U2",
-   "meaning": "The 30.4% is a share of American households, not of people or of cats.",
-   "unit_kind": "identity_or_series",
-   "weight_template": 0.15,
-   "weight_actual": 0.25,
-   "required_candidate": true,
-   "basis": [
-    {
-     "entity": "own a cat",
-     "x": "own a cat",
-     "field": "value",
-     "value": 30.4,
-     "note": "The table unit is percent and the intent/narration identifies the denominator as American households."
-    }
-   ],
-   "computation": "none",
-   "accepted_routes": [
-    "30.4% of American households own a cat",
-    "households, not individuals, are the denominator",
-    "the rate applies to U.S. households"
-   ],
-   "visual_evidence_rule": "The chart title or label must name households as the population base; avoid replacing with 'Americans' or 'cats'.",
-   "temporal_anchor": "the subject/denominator phrase attached to the ownership statistic",
-   "reviewer_question": "Must the denominator 'American households' be explicit and non-negotiable?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U3",
-   "meaning": "69.6% of American households do not own a cat.",
-   "unit_kind": "share_or_composition",
-   "weight_template": 0.22,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "own a cat",
-     "x": "own a cat",
-     "field": "value",
-     "value": 30.4,
-     "note": "Complement formula uses the table's 30.4% cat-ownership share."
-    }
-   ],
-   "computation": "100 - 30.4 = 69.6",
-   "accepted_routes": [
-    "69.6% of American households do not own a cat",
-    "about 70% of U.S. households do not have a cat",
-    "the remaining 69.6% is non-cat-owning households"
-   ],
-   "visual_evidence_rule": "If shown, the donut remainder or comparison mark must represent 69.6% or rounded 70% and be labeled as not owning a cat.",
-   "temporal_anchor": "optional clause or visual label following the 30.4% ownership statement",
-   "reviewer_question": "Should the complement be explicitly stated, or is it enough to show the remaining donut slice visually?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
-  },
-  {
-   "id": "U4",
-   "meaning": "30.4% is equivalent to the table's relative value 0.3040.",
-   "unit_kind": "identity_or_series",
-   "weight_template": 0.15,
-   "weight_actual": 0.25,
-   "required_candidate": false,
-   "basis": [
-    {
-     "entity": "own a cat",
-     "x": "own a cat",
-     "field": "relative_value",
-     "value": 0.304,
-     "note": "relative_value equals 30.4 percent when expressed as a proportion."
-    },
-    {
-     "entity": "own a cat",
-     "x": "own a cat",
-     "field": "value",
-     "value": 30.4,
-     "note": "Percent representation from the same row."
-    }
-   ],
-   "computation": "0.3040 × 100 = 30.4",
-   "accepted_routes": [
-    "30.4% (0.3040) of households own a cat",
-    "the proportion is 0.3040, or 30.4%",
-    "cat ownership is 0.3040 as a decimal share"
-   ],
-   "visual_evidence_rule": "Only needed if the chart uses a decimal/proportion label; otherwise the percent label is sufficient.",
-   "temporal_anchor": "optional technical label or annotation on the same ownership statistic",
-   "reviewer_question": "Does the video need to preserve the decimal/proportion form 0.3040, or is percent-only acceptable?",
-   "review": {
-    "decision": null,
-    "edited_meaning": null,
-    "reviewer": null,
-    "adjudicated": false
-   }
   }
  ],
  "optional_valid": [
@@ -159,7 +56,7 @@
  "notes": "The only table-backed statistic is 30.4% for 'own a cat'; the complement is arithmetic from it. The 84% spay/neuter narration is outside this table and should not be treated as ground truth.",
  "auto_checks": {
   "basis_values_not_in_table": [],
-  "unit_count": 4,
+  "unit_count": 1,
   "weight_sum": 1.0,
   "weight_template_sum_reference": 0.74
  },
@@ -187,5 +84,18 @@
  "file_naming": "one G1 per input contract; B1/B3/B4/B5 need separate drafts",
  "narration_use": "reference only when drafting; required units must be derivable from the public B2 inputs (table + intent)",
  "weight_mode": "uniform",
- "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only"
+ "weight_mode_note": "every unit gets 1/n so coverage is a plain share; weight_template is kept for per-type analysis only",
+ "trim": {
+  "kept": [
+   "U1"
+  ],
+  "dropped": [
+   "U2",
+   "U3",
+   "U4"
+  ],
+  "merged": [],
+  "reason": "人工逐条指定：删除/合并",
+  "at": "2026-10-23"
+ }
 }
