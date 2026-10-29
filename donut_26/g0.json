@@ -3,7 +3,7 @@
  "clip_id": "donut_26",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "cb62f809f10f71102d6b42de2b209bc4914eec14df56e89486851d2724fff33c",
+ "data_table_sha256": "92b9901abf7d827e3b2588ab98bd08d42dadd8ef5a06100570e50d2aedd055e4",
  "sidecar_source": "data_table.sidecar.csv",
  "sidecar_sha256": "fc7b1c18bb3de208c23d493ea5a018bc29b5ad9d8b04d89b5ea99ced4c24a079",
  "row_count": 3,
@@ -36,9 +36,9 @@
   "series_count": 3,
   "time_behavior": "snapshot",
   "panels": [
-   "Somalia",
-   "India",
-   "Germany"
+   "Panel 1",
+   "Panel 2",
+   "Panel 3"
   ]
  },
  "axis_semantics": {
@@ -52,7 +52,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "Somalia",
+   "panel": "Panel 1",
    "entity": "Somalia",
    "series": "",
    "row_count": 1,
@@ -76,7 +76,7 @@
    ]
   },
   {
-   "panel": "India",
+   "panel": "Panel 2",
    "entity": "India",
    "series": "",
    "row_count": 1,
@@ -100,7 +100,7 @@
    ]
   },
   {
-   "panel": "Germany",
+   "panel": "Panel 3",
    "entity": "Germany",
    "series": "",
    "row_count": 1,

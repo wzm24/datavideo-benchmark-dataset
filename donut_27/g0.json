@@ -3,7 +3,7 @@
  "clip_id": "donut_27",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "8bdf27605478d3eab17fbae0ddbf7cb064143db89c9948cd62d1e99128f140d9",
+ "data_table_sha256": "dc8c26637792dca8c34b89d6d6c4a608b938b30cf54a84219c3b00239937738e",
  "sidecar_source": "data_table.sidecar.csv",
  "sidecar_sha256": "6d0dcf80ca161edaab601088d746c775516b007e08da6b5a9a92d1a4eeaa3735",
  "row_count": 2,
@@ -36,8 +36,8 @@
   "series_count": 2,
   "time_behavior": "snapshot",
   "panels": [
-   "Without professional negotiation",
-   "With professional negotiation"
+   "Panel 1",
+   "Panel 2"
   ]
  },
  "axis_semantics": {
@@ -51,7 +51,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "Without professional negotiation",
+   "panel": "Panel 1",
    "entity": "Without professional negotiation",
    "series": "",
    "row_count": 1,
@@ -75,7 +75,7 @@
    ]
   },
   {
-   "panel": "With professional negotiation",
+   "panel": "Panel 2",
    "entity": "With professional negotiation",
    "series": "",
    "row_count": 1,

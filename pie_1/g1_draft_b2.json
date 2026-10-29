@@ -9,7 +9,7 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "Drive alone is the largest commuting mode, accounting for 76.3% of the total—over three-quarters.",
+   "meaning": "Drive alone is the largest commuting mode, accounting for 76% of the total, which is over three-quarters.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
    "weight_actual": 1.0,
@@ -19,20 +19,20 @@
      "entity": "Drive alone",
      "x": "mode share",
      "field": "value",
-     "value": 76.3,
-     "note": "Table value is 76.3%; relative_value is 0.7630."
+     "value": 76.0,
+     "note": "Value parsed from the printed label 76%."
     }
    ],
    "computation": "none",
    "accepted_routes": [
-    "Drive alone accounts for 76.3% of commuting mode share.",
-    "76.3% of commuters drive alone to work.",
-    "Driving alone is the biggest slice at 76.3%, over three-quarters.",
-    "Drive alone is 76.3%, the dominant mode."
+    "Drive alone accounts for 76% of commuting mode share.",
+    "76% of commuters drive alone to work.",
+    "Driving alone is the biggest slice at 76%, over three-quarters.",
+    "Drive alone is 76%, the dominant mode."
    ],
-   "visual_evidence_rule": "A chart mark for Drive alone must be labeled or directly readable as 76.3% and visually the largest slice/bar.",
+   "visual_evidence_rule": "A chart mark for Drive alone must show 76% and be visually the largest slice.",
    "temporal_anchor": "overwhelming majority of Americans get to work by driving alone",
-   "reviewer_question": "Must the video explicitly show or state 76.3% for Drive alone, or is 'overwhelming majority' without the number acceptable?",
+   "reviewer_question": "Must the video explicitly show or state 76% for Drive alone, or is 'overwhelming majority' without the number acceptable?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -52,12 +52,12 @@
  "unsupported_to_avoid": [
   "Causal claims such as driving alone is one reason for any outcome or why it is not ideal.",
   "Extrapolating from the table to all Americans, all workers, or population counts not in the table.",
-  "Treating Drive alone 76.3% as a share of all Americans rather than of commuting mode share in this chart.",
+  "Treating Drive alone 76% as a share of all Americans rather than of commuting mode share in this chart.",
   "Claiming exact rankings without checking the table, such as public transportation being second.",
   "Summing categories to something other than the table-consistent total or using the wrong denominator.",
   "Separating Taxi or motorcycle as its own mode instead of the combined table category 'Taxi, motorcycle, or other'."
  ],
- "notes": "The strongest required core is Drive alone as the largest share at 76.3%; the all-other-combined contrast is the clearest way to show dominance but may be optional depending on reviewer standards. Optional ranking and ratio units are included as trade-offs, not obligations.",
+ "notes": "The strongest required core is Drive alone as the largest share at 76%; the all-other-combined contrast is the clearest way to show dominance but may be optional depending on reviewer standards. Optional ranking and ratio units are included as trade-offs, not obligations.",
  "auto_checks": {
   "basis_values_not_in_table": [],
   "unit_count": 1,

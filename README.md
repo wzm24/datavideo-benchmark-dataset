@@ -55,9 +55,12 @@ donut/pie 主表统一为：
 panel,series,entity,metric,value,unit,relative_value,label,role,source_type
 ```
 
-几何坐标、颜色和稳定 ID 放在 `data_table.sidecar.csv`。精确数据值放在
-`value`，原图印刷文本放在 `label`；两者不再强制相等。完整 composition 按各自
-panel/series 分组归一化 `relative_value`，partial gauge 才按 100% 基准解释。
+几何坐标、颜色和稳定 ID 放在 `data_table.sidecar.csv`。当原图有数值标签时，
+`value` 必须从 `label` 解析并保持一致；只有无标签值才允许使用旁白或几何估计。
+`panel` 只表示布局/状态，`series` 只在同一 panel 内有多 ring 时使用，
+`entity` 表示数据实体，`metric` 表示测量口径，四者不得互相替代。完整
+composition 按各自 panel/series 分组归一化 `relative_value`，partial gauge
+才按 100% 基准解释。
 
 ## 2. 审核顺序：表 → intent → G1
 

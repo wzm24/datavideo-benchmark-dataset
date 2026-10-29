@@ -37,7 +37,7 @@
    "assertion": {
     "mark": "Drive alone | share_of_commute_modes",
     "extreme": "max",
-    "expected": 76.3,
+    "expected": 76.0,
     "compared_set": "all numeric rows in the same composition",
     "tolerance": 0.02
    },
@@ -72,7 +72,7 @@
        },
        {
         "mark": "Drive alone | share_of_commute_modes",
-        "value": 76.3
+        "value": 76.0
        },
        {
         "mark": "Taxi, motorcycle, or other | share_of_commute_modes",
@@ -95,7 +95,7 @@
         "value": 1.0
        }
       ],
-      "total": 100.0
+      "total": 99.7
      }
     ],
     "tolerance": 0.5

@@ -8,11 +8,11 @@ All 41 donut and 20 pie clips use the same public table schema.
 panel,series,entity,metric,value,unit,relative_value,label,role,source_type
 ```
 
-- `panel`: panel or state identity for multi-panel clips; empty for a single chart.
-- `series`: ring/composition identity inside a panel.
+- `panel`: layout/state identity for multi-panel clips; empty for a single chart.
+- `series`: ring/composition identity only when a panel contains multiple rings.
 - `entity`: semantic data entity. Avoid color-only names such as `orange share`.
 - `metric`: the measured quantity.
-- `value`: checked numeric value used as the data fact.
+- `value`: numeric value parsed from `label` whenever a numeric label exists.
 - `unit`: `%`, count, million, USD, and similar units.
 - `relative_value`: share within one composition or gauge, normalized to `[0,1]`.
 - `label`: exact printed text from the visual, if present.
@@ -20,8 +20,16 @@ panel,series,entity,metric,value,unit,relative_value,label,role,source_type
 - `source_type`: `printed`, `narration_calibrated`, `estimated`,
   `estimated_ring_geometry`, or `derived_complement`.
 
-`value` and `label` are intentionally separate. For example, a checked value may be
-30.8 while the source chart prints 28%; both facts must remain auditable.
+`label` is the authoritative printed fact. If it contains a number, `value` must
+equal that number. Narration or geometry may supply `value` only when the label is
+absent or non-numeric.
+
+`panel`, `series`, `entity`, and `metric` are not interchangeable:
+
+- `panel` is layout identity, e.g. `Panel 1`.
+- `series` is an inner/outer-ring identity where required.
+- `entity` is the data category.
+- `metric` is the measured quantity.
 
 ## Sidecar
 
@@ -40,7 +48,7 @@ the main table's checked value.
 - Percentage annotations retain `value/100`; center counts and monetary labels use
   `role=center_label` and leave `relative_value` empty.
 - A visible complement may use `role=remainder` and `source_type=derived_complement`.
-- Rounded printed values do not replace the checked data value.
+- Rounded printed values are used directly as the table `value`.
 
 ## Current validation
 
@@ -56,6 +64,10 @@ the main table's checked value.
 
 ## Deliberately preserved source inconsistencies
 
+- `pie_1/3/4`: Drive alone is now `76` because the printed label is `76%`;
+  the other estimated slices produce a 99.7 total.
+- `pie_2`: all five `value` fields now match their printed labels and sum to 95%;
+  no unshown remainder is invented.
 - `pie_5`: printed source shares total 89%; the pie geometry allocates the listed
   categories across the full circle. Table keeps the printed values and stores
   normalized visual shares separately.

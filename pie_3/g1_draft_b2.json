@@ -9,7 +9,7 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "Drive alone is the largest commuting mode, accounting for 76.3% of commuters.",
+   "meaning": "Drive alone is the largest commuting mode, accounting for 76% of commuters.",
    "unit_kind": "key_value_extreme",
    "weight_template": 0.22,
    "weight_actual": 0.5,
@@ -19,19 +19,19 @@
      "entity": "Drive alone",
      "x": "1",
      "field": "value",
-     "value": 76.3,
+     "value": 76.0,
      "note": "percent of commuting mode share; printed source"
     }
    ],
    "computation": "none",
    "accepted_routes": [
-    "Drive alone accounts for 76.3% of commuting.",
+    "Drive alone accounts for 76% of commuting.",
     "About 76% of Americans drive alone to work.",
-    "Drive alone is the predominant mode at 76.3%."
+    "Drive alone is the predominant mode at 76%."
    ],
-   "visual_evidence_rule": "Drive-alone slice must be clearly the largest and labeled or implied at 76.3% or about 76%.",
+   "visual_evidence_rule": "Drive-alone slice must be clearly the largest and labeled or implied at 76% or about 76%.",
    "temporal_anchor": "Predominant-mode/title clause implied by intent; if narration only has the transit clause, use the chart title or annotation.",
-   "reviewer_question": "Should 76.3% be the headline share for drive alone, or is it enough to show it as the largest slice?",
+   "reviewer_question": "Should 76% be the headline share for drive alone, or is it enough to show it as the largest slice?",
    "review": {
     "decision": null,
     "edited_meaning": null,

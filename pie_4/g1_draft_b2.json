@@ -41,7 +41,7 @@
   },
   {
    "id": "U2",
-   "meaning": "Drive alone is the largest commute mode, at 76.3%.",
+   "meaning": "Drive alone is the largest commute mode, at 76%.",
    "unit_kind": "key_value_extreme",
    "weight_template": 0.22,
    "weight_actual": 0.3333,
@@ -51,19 +51,19 @@
      "entity": "Drive alone",
      "x": "mode share",
      "field": "value",
-     "value": 76.3,
+     "value": 76.0,
      "note": "largest category"
     }
    ],
    "computation": "none",
    "accepted_routes": [
-    "Drive alone is 76.3% of commuters.",
+    "Drive alone is 76% of commuters.",
     "About three in four commuters drive alone.",
     "Drive alone dominates at roughly 76%."
    ],
-   "visual_evidence_rule": "Drive-alone slice must be visually dominant and labeled/annotated with 76.3% (or clearly rounded to 76%).",
+   "visual_evidence_rule": "Drive-alone slice must be visually dominant and labeled/annotated with 76% (or clearly rounded to 76%).",
    "temporal_anchor": "The narration clause about reducing the dominance of driving alone / shrinking this part of the chart.",
-   "reviewer_question": "Must the video explicitly identify drive alone as the largest mode and give its 76.3% share?",
+   "reviewer_question": "Must the video explicitly identify drive alone as the largest mode and give its 76% share?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -73,7 +73,7 @@
   },
   {
    "id": "U3",
-   "meaning": "The drive-alone share exceeds public transportation by 71.1 percentage points, and is about 14.7 times the public transit share.",
+   "meaning": "The drive-alone share exceeds public transportation by 70.8 percentage points, and is about 14.6 times the public transit share.",
    "unit_kind": "comparison",
    "weight_template": 0.25,
    "weight_actual": 0.3334,
@@ -83,7 +83,7 @@
      "entity": "Drive alone",
      "x": "mode share",
      "field": "value",
-     "value": 76.3,
+     "value": 76.0,
      "note": "larger share"
     },
     {
@@ -94,14 +94,14 @@
      "note": "smaller share"
     }
    ],
-   "computation": "difference = 76.3 - 5.2 = 71.1 percentage points; ratio = 76.3 / 5.2 ≈ 14.67, rounded to 14.7",
+   "computation": "76 - 5.2 = 70.8; 76 / 5.2 = 14.615",
    "accepted_routes": [
-    "Drive alone is 71.1 points higher than public transit.",
+    "Drive alone is 70.8 points higher than public transit.",
     "The gap is about 71 percentage points.",
-    "Drive alone is nearly 15 times public transit (76.3% vs 5.2%).",
+    "Drive alone is nearly 15 times public transit (76% vs 5.2%).",
     "Drive alone is more than 14 times public transit."
    ],
-   "visual_evidence_rule": "A direct comparison or callout must relate the 76.3% drive-alone slice to the 5.2% public-transit slice; exact ratio may be shown or stated.",
+   "visual_evidence_rule": "A direct comparison or callout must relate the 76% drive-alone slice to the 5.2% public-transit slice; exact ratio may be shown or stated.",
    "temporal_anchor": "The narration clause contrasting public transit with the dominant drive-alone share.",
    "reviewer_question": "Must the video quantify the drive-alone/public-transit gap or ratio, or is showing both shares enough?",
    "review": {
@@ -117,7 +117,7 @@
   "Work at home is 5.1%, nearly tied with public transportation at 5.2%.",
   "Bicycle is the smallest mode at 1.0%.",
   "Taxi, motorcycle, or other is 1.7%.",
-  "All categories sum to 100% (76.3 + 5.2 + 1.7 + 5.1 + 2.5 + 8.2 + 1.0 = 100.0)."
+  "All categories sum to 99.7% (76 + 5.2 + 1.7 + 5.1 + 2.5 + 8.2 + 1.0 = 99.7), consistent with label rounding."
  ],
  "unsupported_to_avoid": [
   "Do not claim that a specific scenario, such as a given percentage shift from driving to transit, is in the data; no target or policy effect is provided.",
@@ -126,7 +126,7 @@
   "Do not use a wrong denominator or compare to all Americans rather than the commute-mode pie.",
   "Do not extrapolate that drive-alone can be shrunk to a specific percentage; the table only gives baseline shares."
  ],
- "notes": "The core baseline is a 100% commute-mode pie where drive alone is 76.3% and public transit is 5.2%; any 'what would it take' must be framed as a hypothetical because the table has no scenario targets. Optional context includes mode ranking and combined shares.",
+ "notes": "The core baseline is a 100% commute-mode pie where drive alone is 76% and public transit is 5.2%; any 'what would it take' must be framed as a hypothetical because the table has no scenario targets. Optional context includes mode ranking and combined shares.",
  "auto_checks": {
   "basis_values_not_in_table": [],
   "unit_count": 3,

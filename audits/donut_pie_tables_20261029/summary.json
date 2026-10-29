@@ -38,6 +38,8 @@
     "local_repo_file_differences": 0
   },
   "known_source_inconsistencies": {
+    "pie_1_3_4": "Drive alone is 76 from its printed label; the remaining estimated slices produce a 99.7 total.",
+    "pie_2": "All values match printed labels and sum to 95%; no remainder is invented.",
     "pie_5": "Printed values sum to 89%; values are preserved and relative geometry is normalized separately.",
     "pie_16": "Printed values sum to 103%; values are preserved and relative geometry is normalized over the listed total.",
     "donut_2": "Checked public values are 75/18/7; older visual geometry estimates remain provenance only."

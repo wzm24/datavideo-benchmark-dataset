@@ -3,7 +3,7 @@
  "clip_id": "donut_3",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "42b00ba2bbc3a390c22e9c4d28b95db0776efd5b82c4f496adf3b17eebdc2e90",
+ "data_table_sha256": "46bddc5f1291eef7e9c02490e8cff26d7b769a0b63a847e127324d4f8448b5bb",
  "sidecar_source": "data_table.sidecar.csv",
  "sidecar_sha256": "e5a7737df40d35b9ceb06b32a8a33430efeb72c574799bb7cb8627736e800fe2",
  "row_count": 3,
@@ -35,11 +35,7 @@
   "panel_count": 2,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": [
-   "state 3s",
-   "state 8s",
-   "state last"
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [],
@@ -52,7 +48,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "state 3s",
+   "panel": "",
    "entity": "state 3s",
    "series": "state_sequence",
    "row_count": 1,
@@ -76,7 +72,7 @@
    ]
   },
   {
-   "panel": "state 8s",
+   "panel": "",
    "entity": "state 8s",
    "series": "state_sequence",
    "row_count": 1,
@@ -100,7 +96,7 @@
    ]
   },
   {
-   "panel": "state last",
+   "panel": "",
    "entity": "state last",
    "series": "state_sequence",
    "row_count": 1,

@@ -9,7 +9,7 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "Transportation is the largest source, accounting for 30.8% of U.S. greenhouse gas emissions.",
+   "meaning": "Transportation is the largest source, accounting for 28% of U.S. greenhouse gas emissions.",
    "unit_kind": "key_value_extreme",
    "weight_template": 0.22,
    "weight_actual": 1.0,
@@ -19,19 +19,19 @@
      "entity": "Transportation",
      "x": "0",
      "field": "value",
-     "value": 30.8,
-     "note": "Table value 30.8%; the 28% printed on the chart is not used as the share for this unit."
+     "value": 28.0,
+     "note": "Value parsed from the printed label 28%."
     }
    ],
    "computation": "none",
    "accepted_routes": [
-    "Transportation is the largest source at 30.8%.",
-    "Transportation leads with about 31% of U.S. greenhouse gas emissions.",
-    "The biggest slice is Transportation, at 30.8%."
+    "Transportation is the largest source at 28%.",
+    "Transportation leads with 28% of U.S. greenhouse gas emissions.",
+    "The biggest slice is Transportation, at 28%."
    ],
-   "visual_evidence_rule": "Transportation must be visibly the largest wedge/bar and be labeled with its 30.8% share or an equivalent rounded 31% label.",
+   "visual_evidence_rule": "Transportation must be visibly the largest wedge and be labeled 28%.",
    "temporal_anchor": "The clause 'transportation is the single biggest way...'",
-   "reviewer_question": "Is it required to state both the top ranking and the 30.8% share, or is showing Transportation as the largest slice sufficient?",
+   "reviewer_question": "Is it required to state both the top ranking and the 28% share, or is showing Transportation as the largest slice sufficient?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -41,18 +41,15 @@
   }
  ],
  "optional_valid": [
-  "All non-transportation sectors combined are 69.3% (24.0 + 21.2 + 13.2 + 10.9 = 69.3), so Transportation is the largest single source but not a majority.",
-  "Other sector labels may be rounded in the animation: Electricity about 24%, Industry about 21%, Commercial and residential about 13%, Agriculture about 11%.",
-  "The chart may show all five individual shares as context for Transportation's top rank."
+  "The other printed sector labels are Electricity 23%, Industry 22%, Commercial and residential 12%, and Agriculture 10%.",
+  "All non-transportation sectors together account for 67%."
  ],
  "unsupported_to_avoid": [
-  "Do not claim Transportation is a majority (>50%) of U.S. greenhouse gas emissions; its table share is 30.8%.",
-  "Do not say driving alone causes the 30.8% share; the table contains no driving or causal data.",
-  "Do not use the 28% printed on the chart as the displayed Transportation share; the table value field is 30.8%.",
-  "Do not claim a trend over time, a global rank, or an absolute emissions amount; the table is a single estimated U.S. composition.",
-  "Do not claim an exact 100.0% total without noting rounding; the table values sum to 100.1%."
+  "Do not claim Transportation is a majority (>50%); its printed share is 28%.",
+  "Do not use the earlier estimate 28% in place of the printed 28% label.",
+  "Do not claim an exact 100% total: the five printed shares sum to 95%."
  ],
- "notes": "The core required signal is Transportation's top position and share; the other units make rank, margin, and composition trade-offs explicit. Values use the table's value field, and all arithmetic totals are derived from those percentages.",
+ "notes": "All five values now come directly from printed labels and sum to 95%. The table does not invent an unshown remainder.",
  "auto_checks": {
   "basis_values_not_in_table": [],
   "unit_count": 1,

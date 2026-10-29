@@ -3,7 +3,7 @@
  "clip_id": "donut_25",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "8195ea7cb878a9aaa705fd280b1131759cc73352a94a767723e7d75174333c06",
+ "data_table_sha256": "6a11609a567f9d16f02407be870388208a8c6ba44095f022dd61434573a4d25c",
  "sidecar_source": "data_table.sidecar.csv",
  "sidecar_sha256": "ed3f2030dadd006aee65aef010a941c257a2ba6e68bbecc086431a46fd4f65b8",
  "row_count": 2,
@@ -36,8 +36,8 @@
   "series_count": 2,
   "time_behavior": "snapshot",
   "panels": [
-   "skull and crossbones",
-   "Apple"
+   "Panel 1",
+   "Panel 2"
   ]
  },
  "axis_semantics": {
@@ -51,7 +51,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "skull and crossbones",
+   "panel": "Panel 1",
    "entity": "skull and crossbones",
    "series": "",
    "row_count": 1,
@@ -75,7 +75,7 @@
    ]
   },
   {
-   "panel": "Apple",
+   "panel": "Panel 2",
    "entity": "Apple",
    "series": "",
    "row_count": 1,
