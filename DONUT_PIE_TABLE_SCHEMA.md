@@ -37,8 +37,8 @@ the main table's checked value.
 - Full pies and multi-pie panels are normalized within each `panel`/`series` group.
 - Multi-ring donuts are normalized within each ring/composition.
 - Partial rings and gauges use the represented value over a 100% scale.
-- Center counts and monetary annotations use `role=center_label`; their
-  `relative_value` remains empty.
+- Percentage annotations retain `value/100`; center counts and monetary labels use
+  `role=center_label` and leave `relative_value` empty.
 - A visible complement may use `role=remainder` and `source_type=derived_complement`.
 - Rounded printed values do not replace the checked data value.
 
