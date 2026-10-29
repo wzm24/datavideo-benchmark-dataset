@@ -3,27 +3,31 @@
  "clip_id": "pie_20",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "176a9c001d91ec5df7b41b532c65e04fe9fc388e9c435558e6cfa91c64fa770f",
+ "data_table_sha256": "29020f22a09dea6ffd05f64dfdcf323a5b670647a7d18cd4f0eb198f63bca7d9",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "6ff8d83ec002d513fc6b23c6ed3ba68c324bd4efc213e3d332edf7af43706135",
+ "sidecar_sha256": "3e85df37ddb0c4a76632466f7046868d512724eafd6d91722a9b34780c604147",
  "row_count": 4,
  "sidecar_row_count": 4,
  "columns": [
-  "entity",
+  "panel",
   "series",
+  "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "multi_pie",
@@ -31,7 +35,10 @@
   "panel_count": 2,
   "series_count": 4,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Minimum wage",
+   "Other income"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -45,9 +52,9 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "Minimum wage",
    "entity": "< minimum wage",
-   "series": "Minimum wage",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -64,12 +71,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Minimum wage",
    "entity": "at or above minimum wage",
-   "series": "Minimum wage",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -86,12 +95,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Other income",
    "entity": "Other income",
-   "series": "Other income",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -108,12 +119,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Other income",
    "entity": "No other income",
-   "series": "Other income",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -130,14 +143,16 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated": 4
  },
  "role_counts": {
-  "unspecified": 4
+  "slice": 4
  },
  "estimated_or_projected_roles": [
   "estimated"

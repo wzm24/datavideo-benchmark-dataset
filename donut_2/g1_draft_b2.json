@@ -36,9 +36,9 @@
     "The physical share was 75%.",
     "Three-quarters of Japanese music sales were physical."
    ],
-   "visual_evidence_rule": "The Physical ring segment must be visible and labeled or directly text-labeled with 77.1% or a rounded equivalent such as 77%.",
+   "visual_evidence_rule": "The Physical ring segment must be visible and labeled or directly text-labeled with 75% or a rounded equivalent such as 75%.",
    "temporal_anchor": "the 'In Japan' / physical-sales clause",
-   "reviewer_question": "Must the video state the Physical share as 77.1% or a rounded equivalent, rather than only implying it from ring size?",
+   "reviewer_question": "Must the video state the Physical share as 75% or a rounded equivalent, rather than only implying it from ring size?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -68,9 +68,9 @@
     "The digital share was 18%.",
     "Digital was under one-fifth of Japanese sales."
    ],
-   "visual_evidence_rule": "The Digital ring segment must be visible and labeled or directly text-labeled with 12.5% or a rounded equivalent such as 13%.",
+   "visual_evidence_rule": "The Digital ring segment must be visible and labeled or directly text-labeled with 18% or a rounded equivalent such as 18%.",
    "temporal_anchor": "the 'only ... were digital' clause",
-   "reviewer_question": "Must the video use the table's 12.5% Digital value rather than the narration's conflicting 18%?",
+   "reviewer_question": "Must the video use the table's 18% Digital value rather than the narration's conflicting 18%?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -137,11 +137,11 @@
    "accepted_routes": [
     "Physical is more than half of sales.",
     "Physical is a majority of Japanese sales.",
-    "Physical's 77.1% share makes it the dominant majority."
+    "Physical's 75% share makes it the dominant majority."
    ],
-   "visual_evidence_rule": "The Physical segment must appear larger than half of the ring, or the text must state that its 77.1% share is more than half.",
+   "visual_evidence_rule": "The Physical segment must appear larger than half of the ring, or the text must state that its 75% share is more than half.",
    "temporal_anchor": "the physical-sales clause",
-   "reviewer_question": "Is an explicit 'more than half' or majority statement required, or is the 77.1% share and comparison enough?",
+   "reviewer_question": "Is an explicit 'more than half' or majority statement required, or is the 75% share and comparison enough?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -151,19 +151,18 @@
   }
  ],
  "optional_valid": [
-  "Combined Physical + Digital = 89.6%, leaving the unlabelled segment at 10.4%.",
-  "A qualitative mention of copyright or licensing restrictions as context, provided it is not quantified or asserted as the exact cause of the 77.1/12.5 split.",
-  "Rounding shares to 77% and 13% for readability.",
+  "Combined Physical + Digital = 93%, leaving the unlabelled segment at 7%.",
+  "A qualitative mention of copyright or licensing restrictions as context may be included without claiming that it caused the exact split.",
   "Full ordering Physical > Digital > Unlabelled."
  ],
  "unsupported_to_avoid": [
-  "Causal claim that copyright laws caused the exact 77.1% physical / 12.5% digital split; the table has no regulatory measure.",
-  "Using narration's 75% or 18% as data values when table values are 77.1% and 12.5%.",
-  "Treating the unlabelled 10.4% segment as Digital or Physical.",
+  "Causal claim that copyright laws caused the exact 75% physical / 18% digital split; the table has no regulatory measure.",
+  "Using visual estimates of about 77.1% physical or 12.5% digital instead of the checked table facts 75% and 18%.",
+  "Treating the unlabelled 7% segment as Digital or Physical.",
   "Extrapolating to future trends or countries outside Japan.",
-  "Saying Digital is 12.5% of Physical; the table-based ratio is Physical / Digital = 77.1 / 12.5 = 6.168."
+  "Saying Digital is 18% of Physical; the table-based ratio is Physical / Digital = 75 / 18 = 4.17."
  ],
- "notes": "Table values conflict with the narration's 75% physical / 18% digital; use 77.1% and 12.5% as ground truth. Regulatory factors are context only and are not quantified by the table.",
+ "notes": "The checked table values are Physical 75%, Digital 18%, and unlabelled 7%. Earlier geometric estimates of 77.1% / 12.5% / 10.4% are not public-table facts and must not overwrite these values.",
  "auto_checks": {
   "basis_values_not_in_table": [],
   "unit_count": 4,

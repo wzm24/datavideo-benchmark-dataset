@@ -3,26 +3,31 @@
  "clip_id": "donut_3",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "6a939dc4ac7897f164bf8f5bdd84e0b2d669ce073d5513f9a0c891f7dfbae4cd",
+ "data_table_sha256": "42b00ba2bbc3a390c22e9c4d28b95db0776efd5b82c4f496adf3b17eebdc2e90",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "aa0731564b6dc6e77a03a96ab4395b2c7662ce44a33ad2ab022abb67c5e5c8e9",
+ "sidecar_sha256": "e5a7737df40d35b9ceb06b32a8a33430efeb72c574799bb7cb8627736e800fe2",
  "row_count": 3,
  "sidecar_row_count": 3,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_ring",
@@ -30,7 +35,11 @@
   "panel_count": 2,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "state 3s",
+   "state 8s",
+   "state last"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,9 +52,9 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "state 3s",
    "entity": "state 3s",
-   "series": "",
+   "series": "state_sequence",
    "row_count": 1,
    "unit": [
     "%"
@@ -62,12 +71,14 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "state"
+   ]
   },
   {
-   "panel": "",
+   "panel": "state 8s",
    "entity": "state 8s",
-   "series": "",
+   "series": "state_sequence",
    "row_count": 1,
    "unit": [
     "%"
@@ -84,12 +95,14 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "state"
+   ]
   },
   {
-   "panel": "",
+   "panel": "state last",
    "entity": "state last",
-   "series": "",
+   "series": "state_sequence",
    "row_count": 1,
    "unit": [
     "%"
@@ -106,14 +119,16 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "state"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 3
  },
  "role_counts": {
-  "unspecified": 3
+  "state": 3
  },
  "estimated_or_projected_roles": [],
  "completeness": {

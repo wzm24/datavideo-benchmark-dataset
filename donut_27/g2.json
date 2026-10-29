@@ -2,7 +2,7 @@
  "clip_id": "donut_27",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_27",
   "family": "donut",
@@ -33,12 +33,12 @@
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
-    "left share | fatality_risk"
+    "Without professional negotiation | fatality_risk"
    ],
    "assertion": {
     "marks": [
      {
-      "mark": "left share | fatality_risk",
+      "mark": "Without professional negotiation | fatality_risk",
       "expected": 9.0
      }
     ],
@@ -57,12 +57,12 @@
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
-    "right share | fatality_risk"
+    "With professional negotiation | fatality_risk"
    ],
    "assertion": {
     "marks": [
      {
-      "mark": "right share | fatality_risk",
+      "mark": "With professional negotiation | fatality_risk",
       "expected": 2.0
      }
     ],
@@ -81,13 +81,13 @@
    "must_be_visualized": true,
    "evidence_type": "endpoint_change",
    "required_marks": [
-    "right share | fatality_risk",
-    "left share | fatality_risk"
+    "With professional negotiation | fatality_risk",
+    "Without professional negotiation | fatality_risk"
    ],
    "assertion": {
-    "low": "right share | fatality_risk",
+    "low": "With professional negotiation | fatality_risk",
     "low_value": 2.0,
-    "high": "left share | fatality_risk",
+    "high": "Without professional negotiation | fatality_risk",
     "high_value": 9.0,
     "delta": 7.0,
     "ratio": 4.5,

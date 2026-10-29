@@ -30,8 +30,8 @@ Each G0 record binds the evaluator-side fact base to the reviewed
 - line preserves panel-scoped series and axis semantics, including explicit
   x anchors and incomplete-x cases.
 - area uses table or sidecar x coordinates when present.
-- donut and pie incorporate sidecar metadata such as `relative_value`,
-  `source_type`, and entity identifiers when rows align one-to-one.
+- donut and pie use table-level `relative_value` and `source_type`, plus sidecar
+  geometry, stable entity identifiers, and notes when rows align one-to-one.
 
 The machine-readable generation audit is stored in the source pipeline at
 `benchmark_draft/g0_backups/all_ok_20261029/summary.json`.

@@ -2,7 +2,7 @@
  "clip_id": "donut_22",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_22",
   "family": "donut",
@@ -31,19 +31,19 @@
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
    "required_marks": [
-    "orange share | share_of_new_wells",
-    "blue share | share_of_new_wells"
+    "Fracking | share_of_new_oil_gas_wells",
+    "Non-fracking | share_of_new_oil_gas_wells"
    ],
    "assertion": {
     "compositions": [
      {
       "segments": [
        {
-        "mark": "orange share | share_of_new_wells",
+        "mark": "Fracking | share_of_new_oil_gas_wells",
         "value": 60.0
        },
        {
-        "mark": "blue share | share_of_new_wells",
+        "mark": "Non-fracking | share_of_new_oil_gas_wells",
         "value": 40.0
        }
       ],

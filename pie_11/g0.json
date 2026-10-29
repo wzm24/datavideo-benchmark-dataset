@@ -3,27 +3,31 @@
  "clip_id": "pie_11",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "496e8cb64d1aff53e02b5f7130d79845827659da5620447b9942077502d3a1f2",
+ "data_table_sha256": "edebe3a041dbcdd692608fb0f16c22a312e521f18b82d907b33cf5bec6b3c8b0",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "756322e406b56bce7f5ad6617496b89c3ed3a2d672ca3d804f04d32d2fc02948",
+ "sidecar_sha256": "7b10184fc76533cddeb41b11de7f8d9c352c95516aa22863769f00628e19bfe9",
  "row_count": 3,
  "sidecar_row_count": 3,
  "columns": [
-  "entity",
+  "panel",
   "series",
+  "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "multi_pie",
@@ -31,7 +35,10 @@
   "panel_count": 2,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Clock",
+   "Pie"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -44,9 +51,9 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "Clock",
    "entity": "gauge arc",
-   "series": "Clock",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -63,12 +70,14 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Pie",
    "entity": "pieslice-yellow",
-   "series": "Pie",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -85,12 +94,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Pie",
    "entity": "pieslice-white",
-   "series": "Pie",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -107,7 +118,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   }
  ],
  "source_type_counts": {
@@ -115,7 +128,8 @@
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 3
+  "gauge": 1,
+  "slice": 2
  },
  "estimated_or_projected_roles": [
   "estimated"

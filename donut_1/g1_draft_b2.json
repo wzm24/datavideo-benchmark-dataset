@@ -68,9 +68,9 @@
     "The US physical share was 19%.",
     "Physical media was under one-fifth of US music sales."
    ],
-   "visual_evidence_rule": "A label or slice for Physical must show 34% in the US/overall donut.",
+   "visual_evidence_rule": "A label or slice for Physical must show 19% in the US/overall donut.",
    "temporal_anchor": "first narration clause / complement of the 66% digital statement",
-   "reviewer_question": "Must the clip explicitly state the US physical share as 34%?",
+   "reviewer_question": "Must the clip explicitly state the US physical share as 19%?",
    "review": {
     "decision": null,
     "edited_meaning": null,
@@ -90,7 +90,7 @@
   "Adding streaming, vinyl, CD, or other format categories not in the table.",
   "Treating revenue shares and unit shares as interchangeable or using a wrong denominator."
  ],
- "notes": "The table supports only the US digital/physical split; the Japan clause is narration-level and has no numeric row. The key derived quantities are the 34% complement, the 100% composition, and the 32-point gap.",
+ "notes": "The table supports the US composition Digital 66% + Physical 19% + other 15% = 100%.",
  "auto_checks": {
   "basis_values_not_in_table": [],
   "unit_count": 2,

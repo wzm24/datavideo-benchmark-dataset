@@ -3,26 +3,31 @@
  "clip_id": "pie_1",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "2b265ec3241a4985dadf7789e66c3dc26bd778ae71adcc439faa040d0fb7d263",
+ "data_table_sha256": "b1e3ac0c4b67a6a0135836d7aad5f03fd08d46d784ba0b339362466bebe6d3b0",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "c8da05ed7022b11b1fdc3c1d086f1bc4f26119b0a6ffb568d64370fa0bf6f6db",
+ "sidecar_sha256": "60884e7025b38ceff36b008e7e7eedc7a37ec02bc50aa945f2df6f5f7fdc8018",
  "row_count": 7,
  "sidecar_row_count": 7,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_pie",
@@ -62,7 +67,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -84,7 +91,9 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -106,7 +115,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -128,7 +139,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -150,7 +163,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -172,7 +187,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -194,7 +211,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   }
  ],
  "source_type_counts": {
@@ -202,7 +221,7 @@
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 7
+  "slice": 7
  },
  "estimated_or_projected_roles": [
   "estimated"

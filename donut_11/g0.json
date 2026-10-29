@@ -3,26 +3,31 @@
  "clip_id": "donut_11",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "660fcebb73107a1ac43e22719d900345e06a0a20bc59d574dfa66abb2bfab554",
+ "data_table_sha256": "1230eecf0deaba8eebb5bf2229b4f36c87e84050346bd771ae3372221ddc03b1",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "cae09c41e48db4a5a2cc1aae107e180af4d812e4a3af63ca3e413ac6a9837be9",
+ "sidecar_sha256": "f8929c183012b075d26bd312e5e512d52d40d8ca9c8a4149e3a6eac83460ce25",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -62,7 +67,9 @@
    "source_type": [
     "narration_calibrated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
    "panel": "",
@@ -84,7 +91,9 @@
    "source_type": [
     "derived_complement"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
@@ -92,7 +101,8 @@
   "narration_calibrated": 1
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 1,
+  "remainder": 1
  },
  "estimated_or_projected_roles": [],
  "completeness": {

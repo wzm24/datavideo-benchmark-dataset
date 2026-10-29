@@ -3,26 +3,31 @@
  "clip_id": "pie_15",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "c645c60e7fdeaa6ee189a0b8efa0bcbaf4a68e6761007da9c1be281748187dc0",
+ "data_table_sha256": "3d328f0ee3f3133a1a07fdd3e313b195f2cde61cc13df599c4ec233c3d52b2e4",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "41733dfd6f34a68bc1b9a43209c0b1cc0dcb33778e2019ea5b10e950692fc2d8",
+ "sidecar_sha256": "043517f9fcaf2478d9640002db964c6a74314aef54db4329aaf61d0ec247d380",
  "row_count": 4,
  "sidecar_row_count": 4,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_pie",
@@ -62,7 +67,9 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -84,7 +91,9 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -106,7 +115,9 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -128,14 +139,17 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 4
  },
  "role_counts": {
-  "unspecified": 4
+  "remainder": 1,
+  "slice": 3
  },
  "estimated_or_projected_roles": [],
  "completeness": {

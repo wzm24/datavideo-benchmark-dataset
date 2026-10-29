@@ -3,27 +3,31 @@
  "clip_id": "donut_5",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "35b19632c2b7535d2b978ba6272c7dba3632ae5a7750d09867d77fee7b0c1b0c",
+ "data_table_sha256": "e9db1a4822d1b252d118699a07e31cfc8917650cab05669a77b1ad88719ba8a9",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b479dcd07e50d3cff5cff653e1a08d2f791d63f25bcde4a1c837ee9e99f8927a",
+ "sidecar_sha256": "073d627c2ae9ed5ba4e3be2fb53d93d35b2c41fc04f2aa646e6c6b5e84495eb8",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
+  "relative_value",
   "label",
-  "role"
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",

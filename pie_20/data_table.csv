@@ -1,5 +1,5 @@
-entity,series,metric,value,unit,label
-< minimum wage,Minimum wage,share_of_drivers_below_min_wage,54.2,%,
-at or above minimum wage,Minimum wage,share_of_drivers_below_min_wage,45.8,%,
-Other income,Other income,share_of_drivers_with_other_income,60.4,%,
-No other income,Other income,share_of_drivers_with_other_income,39.6,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+Minimum wage,,< minimum wage,share_of_drivers_below_min_wage,54.2,%,0.542,,slice,estimated
+Minimum wage,,at or above minimum wage,share_of_drivers_below_min_wage,45.8,%,0.458,,slice,estimated
+Other income,,Other income,share_of_drivers_with_other_income,60.4,%,0.604,,slice,estimated
+Other income,,No other income,share_of_drivers_with_other_income,39.6,%,0.396,,slice,estimated

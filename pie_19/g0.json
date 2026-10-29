@@ -3,28 +3,31 @@
  "clip_id": "pie_19",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "b7a6b4c2abca67e37b9f8c74e0bfc604e1f43e4122ccd4e6966bde18c693f1d3",
+ "data_table_sha256": "2c51045f80f84862760cc60934373aab8f4957e886480802bd0b8ed7013110d8",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "438846a4c186cfe521d5d6f9238b8c98c615655a0a053f8938fd07970555ded9",
+ "sidecar_sha256": "da7f469c34e8ab8fcf96c6e8ac3a7ea9faba2cbb25656d47452ab2d1f7190863",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type",
-  "entity_original",
-  "entity_source"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_pie",
@@ -64,11 +67,13 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
-   "entity": "(unlabeled)",
+   "entity": "Other ranking criteria",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -86,7 +91,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
@@ -94,7 +101,8 @@
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 2
+  "remainder": 1,
+  "slice": 1
  },
  "estimated_or_projected_roles": [
   "estimated"

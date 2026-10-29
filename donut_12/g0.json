@@ -3,26 +3,31 @@
  "clip_id": "donut_12",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "72fef1e5a5db6ece3e31b29916487b7d3131a8f9b8cd846c039b344479c02fa3",
+ "data_table_sha256": "0f1e92a142cc7744e5afbb01bf6d51ac906c7f94acac936eaf98b924accad46b",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b54892eb3b9c0be5a6cd085a3145dd983e8002cc01623a463afb8810216aad4a",
+ "sidecar_sha256": "24dc5ae5bba8cdea321ec74770005584c67c1364b8dedfe79a8eeb3b6c466144",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -44,7 +49,7 @@
  "entity_inventory": [
   {
    "panel": "",
-   "entity": "share",
+   "entity": "Platform fee",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -62,11 +67,13 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
    "panel": "",
-   "entity": "remaining",
+   "entity": "Remaining developer share",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -79,12 +86,14 @@
    "max_value": 70.0,
    "missing_value_count": 0,
    "metric": [
-    "platform_commission_rate"
+    "share_of_transaction_value"
    ],
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
@@ -92,7 +101,7 @@
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 2
  },
  "estimated_or_projected_roles": [
   "estimated"

@@ -3,26 +3,31 @@
  "clip_id": "pie_12",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "2b277f5964d07b2e60156a7a2fb7c7b55cff86372f6225f50c0bb1950ceda531",
+ "data_table_sha256": "95acfd3a46e07334ac102b4b80d797739b7db80bfad65006028610b6c45b94e5",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b106d84f6c2c253247c4c73ebea62bb77bfd0dedc283742294438ff8f39ff10c",
+ "sidecar_sha256": "30cc27d1f37d3083ab88df59b51a0334736609f7d0e88ac07f8bd126aa040c77",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_pie",
@@ -62,11 +67,13 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
-   "entity": "British Muslims",
+   "entity": "Not experienced",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -84,7 +91,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
@@ -92,7 +101,8 @@
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 2
+  "remainder": 1,
+  "slice": 1
  },
  "estimated_or_projected_roles": [
   "estimated"

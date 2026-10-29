@@ -1,5 +1,5 @@
-﻿entity,metric,value,unit,label
-Too much,share_of_respondents,61,%,61%
-(unlabeled),share_of_respondents,2.8,%,
-The right amount,share_of_respondents,23,%,23%
-Too little,share_of_respondents,13,%,13%
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Too much,share_of_respondents,61,%,0.611222,61%,slice,printed
+,,No answer / other,share_of_respondents,2.8,%,0.028056,,remainder,estimated
+,,The right amount,share_of_respondents,23,%,0.230461,23%,slice,printed
+,,Too little,share_of_respondents,13,%,0.130261,13%,slice,printed

@@ -2,7 +2,7 @@
  "clip_id": "donut_23",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_23",
   "family": "donut",
@@ -33,14 +33,14 @@
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
    "required_marks": [
-    "electricity generated (left) | share_of_electricity_generated"
+    "Nuclear | share_of_electricity_generated"
    ],
    "assertion": {
     "compositions": [
      {
       "segments": [
        {
-        "mark": "electricity generated (left) | share_of_electricity_generated",
+        "mark": "Nuclear | share_of_electricity_generated",
         "value": 10.6
        }
       ],
@@ -63,14 +63,14 @@
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
    "required_marks": [
-    "electricity generated (right) | share_of_electricity_generated"
+    "Solar | share_of_electricity_generated"
    ],
    "assertion": {
     "compositions": [
      {
       "segments": [
        {
-        "mark": "electricity generated (right) | share_of_electricity_generated",
+        "mark": "Solar | share_of_electricity_generated",
         "value": 6.3
        }
       ],
@@ -93,19 +93,19 @@
    "must_be_visualized": true,
    "evidence_type": "pair_comparison",
    "required_marks": [
-    "electricity generated (left) | share_of_electricity_generated",
-    "electricity generated (right) | share_of_electricity_generated"
+    "Nuclear | share_of_electricity_generated",
+    "Solar | share_of_electricity_generated"
    ],
    "assertion": {
-    "greater": "electricity generated (left) | share_of_electricity_generated",
+    "greater": "Nuclear | share_of_electricity_generated",
     "greater_value": 10.6,
-    "lesser": "electricity generated (right) | share_of_electricity_generated",
+    "lesser": "Solar | share_of_electricity_generated",
     "lesser_value": 6.3,
     "delta": 4.3,
     "ratio": 1.68254,
     "expected_order": [
-     "electricity generated (left) | share_of_electricity_generated",
-     "electricity generated (right) | share_of_electricity_generated"
+     "Nuclear | share_of_electricity_generated",
+     "Solar | share_of_electricity_generated"
     ],
     "tolerance": 0.02
    },

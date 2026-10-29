@@ -3,26 +3,31 @@
  "clip_id": "donut_23",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "a60a7e9108f5aeaab96a8eaa453ef908d88496edc89921b5fef60a05aa890d02",
+ "data_table_sha256": "e8f4183f88ef8ced960b0aaa73e1f45b2963b59b02f977fd97f6952ae37b83af",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "45765c250f705afa044b7ee552232cdfe3d995ba0979c611b6259fb2767cbbde",
+ "sidecar_sha256": "3598ef8b48afffefc017bf6b53b8e468e715fa616dd12e581906597af39f78ef",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -30,7 +35,10 @@
   "panel_count": 2,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Nuclear",
+   "Solar"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,8 +51,8 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
-   "entity": "electricity generated (left)",
+   "panel": "Nuclear",
+   "entity": "Nuclear",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -62,11 +70,13 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
-   "entity": "electricity generated (right)",
+   "panel": "Solar",
+   "entity": "Solar",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -84,14 +94,16 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 2
  },
  "estimated_or_projected_roles": [],
  "completeness": {

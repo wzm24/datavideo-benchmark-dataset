@@ -1,3 +1,3 @@
-entity,metric,value,unit,label
-electricity generated (left),share_of_electricity_generated,10.6,%,
-electricity generated (right),share_of_electricity_generated,6.3,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+Nuclear,,Nuclear,share_of_electricity_generated,10.6,%,0.106,,gauge,printed
+Solar,,Solar,share_of_electricity_generated,6.3,%,0.063,,gauge,printed

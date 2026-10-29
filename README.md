@@ -17,6 +17,8 @@
 - 完整索引见根目录 `LINE_REVIEW_INDEX.csv`。
 - 全部 340 条 OK clip 均已生成独立 `g0.json`。G0 绑定审核后数据表及其哈希，
   记录字段、图结构、轴/类别语义、实体/系列清单、数值范围、provenance 和完整性要求。
+- donut 41 条与 pie 20 条的数据表已统一为同一 schema，共 147 行；所有
+  panel/ring/role/relative_value 和稳定 entity_id 已完成同步。
 
 | 文件 | 作用 |
 |---|---|
@@ -46,6 +48,16 @@ time_behavior`，不包含系列数量或答案提示。
 bar 的 G0 同时保留原 G1 中的完整性定义；line 的 G0 保留逐 panel、series 的
 轴语义和坐标锚点。area/donut/pie 从审核后的表、sidecar 和 chart spec 派生
 统一事实清单。G0 使用 `g0_fact_base_v1_2026-10-29`。
+
+donut/pie 主表统一为：
+
+```text
+panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+```
+
+几何坐标、颜色和稳定 ID 放在 `data_table.sidecar.csv`。精确数据值放在
+`value`，原图印刷文本放在 `label`；两者不再强制相等。完整 composition 按各自
+panel/series 分组归一化 `relative_value`，partial gauge 才按 100% 基准解释。
 
 ## 2. 审核顺序：表 → intent → G1
 
@@ -168,6 +180,8 @@ bar 的 G0 同时保留原 G1 中的完整性定义；line 的 G0 保留逐 pane
 - line G2/G3 状态：`LINE_G2_G3_STATUS.md`
 - G0 全家族状态：`G0_STATUS.md`
 - G0 全量生成审计：`audits/g0_20261029/summary.json`
+- donut/pie 数据表规范：`DONUT_PIE_TABLE_SCHEMA.md`
+- donut/pie 数据表修复审计：`audits/donut_pie_tables_20261029/summary.json`
 - line V1 归档审计：`audits/line_gt_20261029/`
 - line G1 全量审核页：`reviews/2026-10-29/line_gt_full_review.html`
 - line G1 闭合审核页：`reviews/2026-10-29/line_g1_closure_review.html`

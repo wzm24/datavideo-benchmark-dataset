@@ -3,26 +3,31 @@
  "clip_id": "donut_22",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "6c53780e9026c49bd3888d32858265e210553467d95edbeb18e8aa3cdaf76a6e",
+ "data_table_sha256": "398a1204a12dbff7fb6122a6669981454dc252c1a5d7c9f22aff55bceb092406",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "752bd4c5502dd55b15f5326e9c8d57f7ab4ebd16467797b8019dafd66a44437c",
+ "sidecar_sha256": "a887c14ff3118153ecbdf379eb64e0c7a5a1114ae177d66b4e1c68b04d557675",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_ring",
@@ -44,7 +49,7 @@
  "entity_inventory": [
   {
    "panel": "",
-   "entity": "orange share",
+   "entity": "Fracking",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -57,16 +62,18 @@
    "max_value": 60.0,
    "missing_value_count": 0,
    "metric": [
-    "share_of_new_wells"
+    "share_of_new_oil_gas_wells"
    ],
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "arc"
+   ]
   },
   {
    "panel": "",
-   "entity": "blue share",
+   "entity": "Non-fracking",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -79,19 +86,22 @@
    "max_value": 40.0,
    "missing_value_count": 0,
    "metric": [
-    "share_of_new_wells"
+    "share_of_new_oil_gas_wells"
    ],
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "arc": 1,
+  "remainder": 1
  },
  "estimated_or_projected_roles": [],
  "completeness": {

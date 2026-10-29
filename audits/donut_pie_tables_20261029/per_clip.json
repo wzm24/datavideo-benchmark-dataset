@@ -1,0 +1,664 @@
+{
+  "created_at": "2026-10-29T18:02:05+08:00",
+  "schema": [
+    "panel",
+    "series",
+    "entity",
+    "metric",
+    "value",
+    "unit",
+    "relative_value",
+    "label",
+    "role",
+    "source_type"
+  ],
+  "clips": [
+    {
+      "clip": "donut_1",
+      "rows": 3,
+      "role_counts": {
+        "arc": 1,
+        "remainder": 2
+      },
+      "source_type_counts": {
+        "derived_complement": 1,
+        "estimated": 1,
+        "narration_printed": 1
+      }
+    },
+    {
+      "clip": "donut_2",
+      "rows": 3,
+      "role_counts": {
+        "arc": 2,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "estimated_ring_geometry": 3
+      }
+    },
+    {
+      "clip": "donut_3",
+      "rows": 3,
+      "role_counts": {
+        "state": 3
+      },
+      "source_type_counts": {
+        "printed": 3
+      }
+    },
+    {
+      "clip": "donut_4",
+      "rows": 2,
+      "role_counts": {
+        "arc": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_5",
+      "rows": 2,
+      "role_counts": {
+        "arc": 1,
+        "center_label": 1
+      },
+      "source_type_counts": {
+        "estimated_ring_geometry": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_6",
+      "rows": 2,
+      "role_counts": {
+        "arc": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_7",
+      "rows": 2,
+      "role_counts": {
+        "arc": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_8",
+      "rows": 2,
+      "role_counts": {
+        "arc": 2
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_9",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_11",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "derived_complement": 1,
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_12",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 2
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_13",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_14",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_15",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_16",
+      "rows": 2,
+      "role_counts": {
+        "arc": 2
+      },
+      "source_type_counts": {
+        "narration_calibrated": 2
+      }
+    },
+    {
+      "clip": "donut_17",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_19",
+      "rows": 1,
+      "role_counts": {
+        "arc": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_20",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_21",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_22",
+      "rows": 2,
+      "role_counts": {
+        "arc": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_23",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_24",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_25",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 2
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_26",
+      "rows": 3,
+      "role_counts": {
+        "gauge": 3
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "narration_calibrated": 2
+      }
+    },
+    {
+      "clip": "donut_27",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_28",
+      "rows": 4,
+      "role_counts": {
+        "arc": 3,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "estimated": 2,
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_29",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "estimated": 1
+      }
+    },
+    {
+      "clip": "donut_30",
+      "rows": 2,
+      "role_counts": {
+        "annotation": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "donut_31",
+      "rows": 3,
+      "role_counts": {
+        "annotation": 3
+      },
+      "source_type_counts": {
+        "printed": 3
+      }
+    },
+    {
+      "clip": "donut_32",
+      "rows": 4,
+      "role_counts": {
+        "annotation": 3,
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 4
+      }
+    },
+    {
+      "clip": "donut_33",
+      "rows": 2,
+      "role_counts": {
+        "arc": 2
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "donut_34",
+      "rows": 2,
+      "role_counts": {
+        "arc": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "donut_35",
+      "rows": 1,
+      "role_counts": {
+        "center_label": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_36",
+      "rows": 2,
+      "role_counts": {
+        "gauge": 1,
+        "remainder": 1
+      },
+      "source_type_counts": {
+        "derived_complement": 1,
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_37",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_38",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "narration_calibrated": 1
+      }
+    },
+    {
+      "clip": "donut_39",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_40",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_41",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_42",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "donut_43",
+      "rows": 1,
+      "role_counts": {
+        "gauge": 1
+      },
+      "source_type_counts": {
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_1",
+      "rows": 7,
+      "role_counts": {
+        "slice": 7
+      },
+      "source_type_counts": {
+        "estimated": 6,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_2",
+      "rows": 5,
+      "role_counts": {
+        "slice": 5
+      },
+      "source_type_counts": {
+        "estimated": 5
+      }
+    },
+    {
+      "clip": "pie_3",
+      "rows": 7,
+      "role_counts": {
+        "slice": 7
+      },
+      "source_type_counts": {
+        "estimated": 6,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_4",
+      "rows": 7,
+      "role_counts": {
+        "slice": 7
+      },
+      "source_type_counts": {
+        "estimated": 6,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_5",
+      "rows": 4,
+      "role_counts": {
+        "slice": 4
+      },
+      "source_type_counts": {
+        "printed": 4
+      }
+    },
+    {
+      "clip": "pie_6",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated_ring_geometry": 2
+      }
+    },
+    {
+      "clip": "pie_7",
+      "rows": 4,
+      "role_counts": {
+        "slice": 4
+      },
+      "source_type_counts": {
+        "estimated": 4
+      }
+    },
+    {
+      "clip": "pie_8",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "pie_9",
+      "rows": 2,
+      "role_counts": {
+        "remainder": 1,
+        "slice": 1
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "pie_10",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_11",
+      "rows": 3,
+      "role_counts": {
+        "gauge": 1,
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated": 2,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_12",
+      "rows": 2,
+      "role_counts": {
+        "remainder": 1,
+        "slice": 1
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_13",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "pie_15",
+      "rows": 4,
+      "role_counts": {
+        "remainder": 1,
+        "slice": 3
+      },
+      "source_type_counts": {
+        "printed": 4
+      }
+    },
+    {
+      "clip": "pie_16",
+      "rows": 5,
+      "role_counts": {
+        "slice": 5
+      },
+      "source_type_counts": {
+        "printed": 5
+      }
+    },
+    {
+      "clip": "pie_17",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "estimated": 2
+      }
+    },
+    {
+      "clip": "pie_18",
+      "rows": 2,
+      "role_counts": {
+        "slice": 2
+      },
+      "source_type_counts": {
+        "printed": 2
+      }
+    },
+    {
+      "clip": "pie_19",
+      "rows": 2,
+      "role_counts": {
+        "remainder": 1,
+        "slice": 1
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 1
+      }
+    },
+    {
+      "clip": "pie_20",
+      "rows": 4,
+      "role_counts": {
+        "slice": 4
+      },
+      "source_type_counts": {
+        "estimated": 4
+      }
+    },
+    {
+      "clip": "pie_21",
+      "rows": 4,
+      "role_counts": {
+        "remainder": 1,
+        "slice": 3
+      },
+      "source_type_counts": {
+        "estimated": 1,
+        "printed": 3
+      }
+    }
+  ]
+}

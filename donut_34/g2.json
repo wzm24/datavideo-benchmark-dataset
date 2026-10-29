@@ -2,7 +2,7 @@
  "clip_id": "donut_34",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_34",
   "family": "donut",
@@ -32,12 +32,12 @@
    "must_be_visualized": true,
    "evidence_type": "mark_value",
    "required_marks": [
-    "80% | share_of_respondents"
+    "Americans bothered wealthy people do not pay fair share | share_of_respondents"
    ],
    "assertion": {
     "marks": [
      {
-      "mark": "80% | share_of_respondents",
+      "mark": "Americans bothered wealthy people do not pay fair share | share_of_respondents",
       "expected": 80.0
      }
     ],
@@ -56,12 +56,12 @@
    "must_be_visualized": true,
    "evidence_type": "threshold_marks",
    "required_marks": [
-    "80% | share_of_respondents"
+    "Americans bothered wealthy people do not pay fair share | share_of_respondents"
    ],
    "assertion": {
     "marks": [
      {
-      "mark": "80% | share_of_respondents",
+      "mark": "Americans bothered wealthy people do not pay fair share | share_of_respondents",
       "value": 80.0
      }
     ],

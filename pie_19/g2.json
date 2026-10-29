@@ -2,7 +2,7 @@
  "clip_id": "pie_19",
  "family": "pie",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "pie_19",
   "family": "pie",
@@ -33,7 +33,7 @@
    "evidence_type": "complete_composition",
    "required_marks": [
     "SAT/ACT Scores | share_of_ranking_weight",
-    "(unlabeled) | share_of_ranking_weight"
+    "Other ranking criteria | share_of_ranking_weight"
    ],
    "assertion": {
     "compositions": [
@@ -44,7 +44,7 @@
         "value": 7.75
        },
        {
-        "mark": "(unlabeled) | share_of_ranking_weight",
+        "mark": "Other ranking criteria | share_of_ranking_weight",
         "value": 92.2
        }
       ],
@@ -67,7 +67,7 @@
    "evidence_type": "complete_composition",
    "required_marks": [
     "SAT/ACT Scores | share_of_ranking_weight",
-    "(unlabeled) | share_of_ranking_weight"
+    "Other ranking criteria | share_of_ranking_weight"
    ],
    "assertion": {
     "compositions": [
@@ -78,7 +78,7 @@
         "value": 7.75
        },
        {
-        "mark": "(unlabeled) | share_of_ranking_weight",
+        "mark": "Other ranking criteria | share_of_ranking_weight",
         "value": 92.2
        }
       ],

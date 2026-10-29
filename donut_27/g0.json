@@ -3,26 +3,31 @@
  "clip_id": "donut_27",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "08396574b3da8f0a47f5139b1a5d9801dc3f97c2f687bded1fcc328b781bb0bd",
+ "data_table_sha256": "8bdf27605478d3eab17fbae0ddbf7cb064143db89c9948cd62d1e99128f140d9",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "c5c0e3d166e4bbe8c4b368d14c397a24040c6d959a53f17309f7434e3b135906",
+ "sidecar_sha256": "6d0dcf80ca161edaab601088d746c775516b007e08da6b5a9a92d1a4eeaa3735",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -30,7 +35,10 @@
   "panel_count": 2,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Without professional negotiation",
+   "With professional negotiation"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,8 +51,8 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
-   "entity": "left share",
+   "panel": "Without professional negotiation",
+   "entity": "Without professional negotiation",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -62,11 +70,13 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
-   "entity": "right share",
+   "panel": "With professional negotiation",
+   "entity": "With professional negotiation",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -84,14 +94,16 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 2
  },
  "estimated_or_projected_roles": [],
  "completeness": {

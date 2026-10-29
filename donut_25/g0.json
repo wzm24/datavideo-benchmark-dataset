@@ -3,26 +3,31 @@
  "clip_id": "donut_25",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "94daff9137f8be9832558d8cd1ff44a8af8f57d2e55b826a366d4ca20ad9660e",
+ "data_table_sha256": "8195ea7cb878a9aaa705fd280b1131759cc73352a94a767723e7d75174333c06",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "a109892501e93cd927ed9bfe2b39058f0398bdfb90b364db6e20db1e281c8b3d",
+ "sidecar_sha256": "ed3f2030dadd006aee65aef010a941c257a2ba6e68bbecc086431a46fd4f65b8",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -30,7 +35,10 @@
   "panel_count": 2,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "skull and crossbones",
+   "Apple"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,7 +51,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "skull and crossbones",
    "entity": "skull and crossbones",
    "series": "",
    "row_count": 1,
@@ -62,10 +70,12 @@
    "source_type": [
     "narration_calibrated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Apple",
    "entity": "Apple",
    "series": "",
    "row_count": 1,
@@ -84,7 +94,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
@@ -92,7 +104,7 @@
   "narration_calibrated": 1
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 2
  },
  "estimated_or_projected_roles": [
   "estimated"

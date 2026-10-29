@@ -16,7 +16,7 @@
    "required_candidate": true,
    "basis": [
     {
-     "entity": "electricity generated (left)",
+     "entity": "Nuclear",
      "x": "0",
      "field": "value",
      "value": 10.6,
@@ -48,7 +48,7 @@
    "required_candidate": true,
    "basis": [
     {
-     "entity": "electricity generated (right)",
+     "entity": "Solar",
      "x": "1",
      "field": "value",
      "value": 6.3,
@@ -80,14 +80,14 @@
    "required_candidate": true,
    "basis": [
     {
-     "entity": "electricity generated (left)",
+     "entity": "Nuclear",
      "x": "0",
      "field": "value",
      "value": 10.6,
      "note": "Nuclear share."
     },
     {
-     "entity": "electricity generated (right)",
+     "entity": "Solar",
      "x": "1",
      "field": "value",
      "value": 6.3,

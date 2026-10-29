@@ -3,34 +3,43 @@
  "clip_id": "donut_32",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "5f1699905f1d09648ba7579b98a09379a281974f95cc951232582f38f7f09bd3",
+ "data_table_sha256": "78a3f4ec518f23fc43fb86bf07d2ecb8c313b6b5411fbf17b8ff1b0436e9f284",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "797074d8aa40985271dea0aac9ce00ef1564ae4cf6596291d29d08f58b33af01",
- "row_count": 1,
- "sidecar_row_count": 1,
+ "sidecar_sha256": "07517962f4ef1ad372103ad342deafb7ba056a89a58f5f2e72dfb8e4ebfc1e71",
+ "row_count": 4,
+ "sidecar_row_count": 4,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 1,
+  "series_count": 4,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "U.S. vegan population",
+   "Gender",
+   "Country concentration"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,7 +52,79 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "U.S. vegan population",
+   "entity": "U.S. vegan population (2008)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5,
+   "last_value": 0.5,
+   "min_value": 0.5,
+   "max_value": 0.5,
+   "missing_value_count": 0,
+   "metric": [
+    "vegan_population_share"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "U.S. vegan population",
+   "entity": "U.S. vegan population (2014)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 2.5,
+   "last_value": 2.5,
+   "min_value": 2.5,
+   "max_value": 2.5,
+   "missing_value_count": 0,
+   "metric": [
+    "vegan_population_share"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "Gender",
+   "entity": "female share of U.S. vegans",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 79.0,
+   "last_value": 79.0,
+   "min_value": 79.0,
+   "max_value": 79.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_us_vegans_female"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "Country concentration",
    "entity": "Israel vegan population",
    "series": "",
    "row_count": 1,
@@ -60,20 +141,21 @@
     "vegan_population_share"
    ],
    "source_type": [
-    "estimated"
+    "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
-  "estimated": 1
+  "printed": 4
  },
  "role_counts": {
-  "unspecified": 1
+  "annotation": 3,
+  "gauge": 1
  },
- "estimated_or_projected_roles": [
-  "estimated"
- ],
+ "estimated_or_projected_roles": [],
  "completeness": {
   "required": true,
   "mode": "entity_set_per_panel",

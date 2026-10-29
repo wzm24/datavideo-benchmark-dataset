@@ -1,4 +1,4 @@
-entity,metric,value,unit,label
-Digital,share_of_music_sales,66,%,
-Physical,share_of_music_sales,19,%,
-(unlabeled),share_of_music_sales,15,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Digital,share_of_music_sales,66,%,0.66,,arc,narration_printed
+,,Physical,share_of_music_sales,19,%,0.19,,remainder,derived_complement
+,,(unlabeled),share_of_music_sales,15,%,0.15,,remainder,estimated

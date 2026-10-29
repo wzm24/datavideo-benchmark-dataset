@@ -1,4 +1,4 @@
-entity,series,metric,value,unit,label
-gauge arc,Clock,share_of_purchases,12.5,%,
-pieslice-yellow,Pie,share_of_purchases,58.3,%,
-pieslice-white,Pie,share_of_purchases,41.7,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+Clock,,gauge arc,share_of_purchases,12.5,%,1,,gauge,printed
+Pie,,pieslice-yellow,share_of_purchases,58.3,%,0.583,,slice,estimated
+Pie,,pieslice-white,share_of_purchases,41.7,%,0.417,,slice,estimated

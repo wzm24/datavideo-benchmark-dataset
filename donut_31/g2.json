@@ -2,7 +2,7 @@
  "clip_id": "donut_31",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_31",
   "family": "donut",
@@ -12,7 +12,7 @@
  "completeness": {
   "required": false,
   "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
-  "required_data_rows": 1,
+  "required_data_rows": 3,
   "evaluated_in": "G2_complete_composition",
   "missing_any_fails_visual_completeness": false,
   "mode": "static_all_at_once",
@@ -31,14 +31,14 @@
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
    "required_marks": [
-    "female share of U.S. vegans | share_of_vegans_female"
+    "female share of U.S. vegans | share_of_us_vegans_female"
    ],
    "assertion": {
     "compositions": [
      {
       "segments": [
        {
-        "mark": "female share of U.S. vegans | share_of_vegans_female",
+        "mark": "female share of U.S. vegans | share_of_us_vegans_female",
         "value": 79.0
        }
       ],

@@ -1,5 +1,5 @@
-entity,metric,value,unit,label
-Carbon dioxide,share_of_ghg_emissions,76,%,76%
-Methane,share_of_ghg_emissions,16,%,16%
-Nitrous oxide,share_of_ghg_emissions,6,%,6%
-Other,share_of_ghg_emissions,2,%,2%
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Carbon dioxide,share_of_ghg_emissions,76,%,0.76,76%,slice,printed
+,,Methane,share_of_ghg_emissions,16,%,0.16,16%,slice,printed
+,,Nitrous oxide,share_of_ghg_emissions,6,%,0.06,6%,slice,printed
+,,Other,share_of_ghg_emissions,2,%,0.02,2%,remainder,printed

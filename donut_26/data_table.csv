@@ -1,4 +1,4 @@
-﻿entity,metric,value,unit,label
-Somalia,share_of_arable_land,1.8,%,
-India,share_of_arable_land,48,%,
-Germany,share_of_arable_land,34,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+Somalia,,Somalia,share_of_arable_land,1.8,%,0.018,,gauge,narration_calibrated
+India,,India,share_of_arable_land,48,%,0.48,,gauge,estimated
+Germany,,Germany,share_of_arable_land,34,%,0.34,,gauge,narration_calibrated

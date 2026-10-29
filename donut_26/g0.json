@@ -3,26 +3,31 @@
  "clip_id": "donut_26",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "e5c20fdd16e541d514f67928193a9c6ceee6021c528588d535360d30acab8ff2",
+ "data_table_sha256": "cb62f809f10f71102d6b42de2b209bc4914eec14df56e89486851d2724fff33c",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "fa3085c107a78aaca0039300f46018ac2fc6666c1dc9d554d0811bcd70d7a1cf",
+ "sidecar_sha256": "fc7b1c18bb3de208c23d493ea5a018bc29b5ad9d8b04d89b5ea99ced4c24a079",
  "row_count": 3,
  "sidecar_row_count": 3,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -30,7 +35,11 @@
   "panel_count": 3,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Somalia",
+   "India",
+   "Germany"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,7 +52,7 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "Somalia",
    "entity": "Somalia",
    "series": "",
    "row_count": 1,
@@ -62,10 +71,12 @@
    "source_type": [
     "narration_calibrated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
+   "panel": "India",
    "entity": "India",
    "series": "",
    "row_count": 1,
@@ -84,10 +95,12 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Germany",
    "entity": "Germany",
    "series": "",
    "row_count": 1,
@@ -106,7 +119,9 @@
    "source_type": [
     "narration_calibrated"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
@@ -114,7 +129,7 @@
   "narration_calibrated": 2
  },
  "role_counts": {
-  "unspecified": 3
+  "gauge": 3
  },
  "estimated_or_projected_roles": [
   "estimated"

@@ -3,27 +3,30 @@
  "clip_id": "pie_6",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "2769ac67a4e8d18681fa635a80c263bb33fd8b4b0bbaa64bc4f874cb1965073d",
+ "data_table_sha256": "7a87e533f2dbc6f599bc9c1dfa68365cd24a33433b2ee3368bbd273d4ca5f6ff",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b64319530c1952ea907ce26d032f47b8a45c1dbb1c2fa9f3dccaabe1e26886ea",
+ "sidecar_sha256": "907b43874170fc29678e93fdc4c733c257b4ec5cf5928088066e8b901c286f4f",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type",
-  "label_source",
   "note"
  ],
  "chart_structure": {
@@ -64,7 +67,9 @@
    "source_type": [
     "estimated_ring_geometry"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -86,14 +91,16 @@
    "source_type": [
     "estimated_ring_geometry"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated_ring_geometry": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "slice": 2
  },
  "estimated_or_projected_roles": [
   "estimated_ring_geometry"

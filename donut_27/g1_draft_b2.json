@@ -9,14 +9,14 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "The baseline/left fatality risk is 9%.",
+   "meaning": "Without professional negotiation, the fatality risk is 9%.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
    "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "left share",
+     "entity": "Without professional negotiation",
      "x": "left-share",
      "field": "value",
      "value": 9,
@@ -41,14 +41,14 @@
   },
   {
    "id": "U2",
-   "meaning": "The post-negotiation/right fatality risk is 2%.",
+   "meaning": "With professional negotiation, the fatality risk is 2%.",
    "unit_kind": "key_value_endpoint",
    "weight_template": 0.2,
    "weight_actual": 0.3333,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "right share",
+     "entity": "With professional negotiation",
      "x": "right-share",
      "field": "value",
      "value": 2,
@@ -73,21 +73,21 @@
   },
   {
    "id": "U3",
-   "meaning": "The fatality risk drops by 7 percentage points, from 9% to 2%.",
+   "meaning": "Professional negotiation reduces fatality risk by 7 percentage points, from 9% to 2%.",
    "unit_kind": "change_or_rate",
    "weight_template": 0.25,
    "weight_actual": 0.3334,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "left share",
+     "entity": "Without professional negotiation",
      "x": "left-share",
      "field": "value",
      "value": 9,
      "note": "Baseline/left value."
     },
     {
-     "entity": "right share",
+     "entity": "With professional negotiation",
      "x": "right-share",
      "field": "value",
      "value": 2,

@@ -1,3 +1,3 @@
-﻿entity,metric,value,unit,label
-SAT/ACT Scores,share_of_ranking_weight,7.75,%,7.75%
-(unlabeled),share_of_ranking_weight,92.2,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,SAT/ACT Scores,share_of_ranking_weight,7.75,%,0.077539,7.75%,slice,printed
+,,Other ranking criteria,share_of_ranking_weight,92.2,%,0.922461,,remainder,estimated

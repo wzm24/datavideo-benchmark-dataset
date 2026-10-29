@@ -1,2 +1,4 @@
-﻿entity,metric,value,unit,label
-female share of U.S. vegans,share_of_vegans_female,79.0,%,79%
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+U.S. vegan population,,U.S. vegan population (2008),vegan_population_share,0.5,%,,0.5%,annotation,printed
+U.S. vegan population,,U.S. vegan population (2014),vegan_population_share,2.5,%,,2.5%,annotation,printed
+Gender,,female share of U.S. vegans,share_of_us_vegans_female,79,%,,79%,annotation,printed

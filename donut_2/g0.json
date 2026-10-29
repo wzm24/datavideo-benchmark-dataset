@@ -3,28 +3,31 @@
  "clip_id": "donut_2",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "c6882b9f339d2a3ac8ddf1ecc8e55ed534dd057ae62d28be539d2df145a3fc54",
+ "data_table_sha256": "0fb4dab80f553d2affa1eb4f79a41650a74e6e15f47a4bfc40aff4c3aa6d8daf",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "d66c6cf142c3368849a5bf12df8165076723af6c6b56dcf879367994cd30db4b",
+ "sidecar_sha256": "b83dfdae7374cb74b17dd98c5e3d64322e3afd251c9237afcaf2f21ba61e68c9",
  "row_count": 3,
  "sidecar_row_count": 3,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type",
-  "entity_source",
-  "label_printed"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_ring",
@@ -64,7 +67,9 @@
    "source_type": [
     "estimated_ring_geometry"
    ],
-   "role": []
+   "role": [
+    "arc"
+   ]
   },
   {
    "panel": "",
@@ -86,7 +91,9 @@
    "source_type": [
     "estimated_ring_geometry"
    ],
-   "role": []
+   "role": [
+    "arc"
+   ]
   },
   {
    "panel": "",
@@ -108,14 +115,17 @@
    "source_type": [
     "estimated_ring_geometry"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated_ring_geometry": 3
  },
  "role_counts": {
-  "unspecified": 3
+  "arc": 2,
+  "remainder": 1
  },
  "estimated_or_projected_roles": [
   "estimated_ring_geometry"

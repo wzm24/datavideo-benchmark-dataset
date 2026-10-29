@@ -3,27 +3,31 @@
  "clip_id": "donut_13",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "86bd3dcdc3a0a4f28eea52c25b1b198847ea8da31bf568c4cf2d8c791c0ddfac",
+ "data_table_sha256": "d744be147a287564ade389e892f3604fb9d7a4c9fad0b9caf1bb14e5415f3ef5",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "5719f7e92acb6e16cf68302a7865b12249cd2cab3b6135c47ab8cbd93d3a91d1",
+ "sidecar_sha256": "06f5e3902b98f74cda78371710e310a2a3d168f093cb9a5b75fb614bea786fa0",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
-  "entity",
+  "panel",
   "series",
+  "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -31,7 +35,10 @@
   "panel_count": 2,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "Left panel",
+   "Right panel"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -44,9 +51,9 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "Left panel",
    "entity": "US",
-   "series": "Left panel",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -63,12 +70,14 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Right panel",
    "entity": "Netherlands",
-   "series": "Right panel",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -85,14 +94,16 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "gauge": 2
  },
  "estimated_or_projected_roles": [],
  "completeness": {

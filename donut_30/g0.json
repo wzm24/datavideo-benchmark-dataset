@@ -3,34 +3,41 @@
  "clip_id": "donut_30",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "e2762704b0a624683e64518dbcc2eb95a819209256417580a577a983c88b60e1",
+ "data_table_sha256": "94452ad69744a37ceb25dc38a7d7fb3892ddffcad3ac4ed1bfb680c73d3f1c04",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "7aa0d4a4615fdfae2ddef222a27ea090d255a491c58edb11d0814eae136d69ea",
- "row_count": 1,
- "sidecar_row_count": 1,
+ "sidecar_sha256": "88db000986e3e3eda1091dfbd197c9a9784c5974c5d8b32fc8b964587ace041b",
+ "row_count": 2,
+ "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 1,
+  "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "U.S. vegan population"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -43,7 +50,31 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "U.S. vegan population",
+   "entity": "U.S. vegan population (2008)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5,
+   "last_value": 0.5,
+   "min_value": 0.5,
+   "max_value": 0.5,
+   "missing_value_count": 0,
+   "metric": [
+    "vegan_population_share"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "U.S. vegan population",
    "entity": "U.S. vegan population (2014)",
    "series": "",
    "row_count": 1,
@@ -60,20 +91,20 @@
     "vegan_population_share"
    ],
    "source_type": [
-    "estimated"
+    "printed"
    ],
-   "role": []
+   "role": [
+    "annotation"
+   ]
   }
  ],
  "source_type_counts": {
-  "estimated": 1
+  "printed": 2
  },
  "role_counts": {
-  "unspecified": 1
+  "annotation": 2
  },
- "estimated_or_projected_roles": [
-  "estimated"
- ],
+ "estimated_or_projected_roles": [],
  "completeness": {
   "required": true,
   "mode": "entity_set_per_panel",

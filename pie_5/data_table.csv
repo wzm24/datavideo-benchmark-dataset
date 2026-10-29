@@ -1,5 +1,5 @@
-entity,metric,value,unit,label
-Federal,share_of_transit_funding,6,%,6%
-Fares,share_of_transit_funding,26,%,26%
-Local government,share_of_transit_funding,36,%,36%
-State,share_of_transit_funding,21,%,21%
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Federal,share_of_transit_funding,6,%,0.067416,6%,slice,printed
+,,Fares,share_of_transit_funding,26,%,0.292135,26%,slice,printed
+,,Local government,share_of_transit_funding,36,%,0.404494,36%,slice,printed
+,,State,share_of_transit_funding,21,%,0.235955,21%,slice,printed

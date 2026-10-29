@@ -1,5 +1,5 @@
-﻿clip_id,entity_id,x_px,x_value,relative_value,color,source_type,entity_original,entity_source
-pie_21,slice-1,0,,0.6100,#FDE04B,printed,,
-pie_21,slice-2,1,,0.0280,#FFFFFF,estimated,slice-2,semantic_svg_order_backfill
-pie_21,slice-3,2,,0.2300,#4C8F3D,printed,,
-pie_21,slice-4,3,,0.1300,#1F4E8C,printed,,
+﻿clip_id,entity_id,x_px,x_value,geometry_relative_value,color,note
+pie_21,too-much,0,,0.6100,#FDE04B,
+pie_21,no-answer-other,1,,0.0280,#FFFFFF,entity_source=semantic_svg_order_backfill
+pie_21,the-right-amount,2,,0.2300,#4C8F3D,
+pie_21,too-little,3,,0.1300,#1F4E8C,

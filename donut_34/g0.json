@@ -3,26 +3,31 @@
  "clip_id": "donut_34",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "3223deadaab5fc077d990bbb5c02a97a72beb7ef51c66c127aeee2b9d6b16b3c",
+ "data_table_sha256": "8424490c91c7f5f04fb1bd9716dbbe6fb8cc1253e406faa4efd3419bb24f37e3",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "cf59bc12edb95807fcf6ee1993aa2277c442447e1daa2c280c23e424f1b60336",
+ "sidecar_sha256": "ae9665542117e050bfc9a26a0255809c79242e06a8a987b765f506cf17fd59ce",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_ring",
@@ -44,7 +49,7 @@
  "entity_inventory": [
   {
    "panel": "",
-   "entity": "80%",
+   "entity": "Americans bothered wealthy people do not pay fair share",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -62,11 +67,13 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "arc"
+   ]
   },
   {
    "panel": "",
-   "entity": "(unlabeled)",
+   "entity": "Other Americans",
    "series": "",
    "row_count": 1,
    "unit": [
@@ -84,14 +91,17 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "arc": 1,
+  "remainder": 1
  },
  "estimated_or_projected_roles": [
   "estimated"

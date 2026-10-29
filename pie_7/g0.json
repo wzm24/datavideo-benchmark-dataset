@@ -3,27 +3,31 @@
  "clip_id": "pie_7",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "7d847f9bc0ab3a955b213ef43ea04011fd182e92f6ab287db7eaa950f865877c",
+ "data_table_sha256": "c6ad9770b69b862fd4e125adc3ce6b9618e0ddfa35262d88a8b2eb091b3a8b38",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "a2c1b2762ecf59f3c03e92e8380a4feb6e57f4e5984bccfc63651aed2d6470c6",
+ "sidecar_sha256": "65f0092909b877207105b5d093033aab9edb2d83835ffa560a31608ed5bafa01",
  "row_count": 4,
  "sidecar_row_count": 4,
  "columns": [
-  "entity",
+  "panel",
   "series",
+  "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "multi_pie",
@@ -31,7 +35,10 @@
   "panel_count": 2,
   "series_count": 4,
   "time_behavior": "snapshot",
-  "panels": []
+  "panels": [
+   "All land",
+   "Arable land"
+  ]
  },
  "axis_semantics": {
   "x_axes": [],
@@ -44,9 +51,9 @@
  },
  "entity_inventory": [
   {
-   "panel": "",
+   "panel": "All land",
    "entity": "Arable land",
-   "series": "All land",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -63,12 +70,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "All land",
    "entity": "Other land",
-   "series": "All land",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -85,12 +94,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Arable land",
    "entity": "Irrigated arable land",
-   "series": "Arable land",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -107,12 +118,14 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
-   "panel": "",
+   "panel": "Arable land",
    "entity": "Not irrigated",
-   "series": "Arable land",
+   "series": "",
    "row_count": 1,
    "unit": [
     "%"
@@ -129,14 +142,16 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated": 4
  },
  "role_counts": {
-  "unspecified": 4
+  "slice": 4
  },
  "estimated_or_projected_roles": [
   "estimated"

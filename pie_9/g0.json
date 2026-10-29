@@ -3,26 +3,31 @@
  "clip_id": "pie_9",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "8d2b1eeb4df5516d37413fe8f88d9c1011fbabc45dc601c9b2b572e0d8ba48f2",
+ "data_table_sha256": "6acf28b2b12922d1a5ada57946e798b504cc6d119e632767773b34fb636bd937",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "d4609e69630723377c15888f3abe0897f5cb8ab657d71007dd5940cbd5d0ffb7",
+ "sidecar_sha256": "de0c0115c3a7874fca88a493fad45930c30826b80b0b3dcee1590ed0f069c9d6",
  "row_count": 2,
  "sidecar_row_count": 2,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "full_pie",
@@ -62,7 +67,9 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "slice"
+   ]
   },
   {
    "panel": "",
@@ -84,14 +91,17 @@
    "source_type": [
     "estimated"
    ],
-   "role": []
+   "role": [
+    "remainder"
+   ]
   }
  ],
  "source_type_counts": {
   "estimated": 2
  },
  "role_counts": {
-  "unspecified": 2
+  "remainder": 1,
+  "slice": 1
  },
  "estimated_or_projected_roles": [
   "estimated"

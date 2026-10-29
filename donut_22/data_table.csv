@@ -1,3 +1,3 @@
-entity,metric,value,unit,label
-orange share,share_of_new_wells,60,%,60%
-blue share,share_of_new_wells,40,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Fracking,share_of_new_oil_gas_wells,60,%,0.6,60%,arc,printed
+,,Non-fracking,share_of_new_oil_gas_wells,40,%,0.4,,remainder,printed

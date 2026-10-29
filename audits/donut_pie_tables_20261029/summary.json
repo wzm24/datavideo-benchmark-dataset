@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-29",
+  "clips": {
+    "donut": 41,
+    "pie": 20,
+    "total": 61
+  },
+  "rows": 147,
+  "main_schema": [
+    "panel",
+    "series",
+    "entity",
+    "metric",
+    "value",
+    "unit",
+    "relative_value",
+    "label",
+    "role",
+    "source_type"
+  ],
+  "sidecar_schema": [
+    "clip_id",
+    "entity_id",
+    "x_px",
+    "x_value",
+    "geometry_relative_value",
+    "color",
+    "note"
+  ],
+  "validation": {
+    "main_schema_variants": 1,
+    "sidecar_schema_variants": 1,
+    "row_mismatches": 0,
+    "duplicate_entity_ids": 0,
+    "generic_slice_ids": 0,
+    "g1_basis_reference_errors": 0,
+    "g2_mark_reference_errors": 0,
+    "local_repo_file_differences": 0
+  },
+  "known_source_inconsistencies": {
+    "pie_5": "Printed values sum to 89%; values are preserved and relative geometry is normalized separately.",
+    "pie_16": "Printed values sum to 103%; values are preserved and relative geometry is normalized over the listed total.",
+    "donut_2": "Checked public values are 75/18/7; older visual geometry estimates remain provenance only."
+  }
+}

@@ -9,21 +9,21 @@
  "units": [
   {
    "id": "U1",
-   "meaning": "Fracking (the highlighted orange segment) makes up 60% of new oil and gas wells — more than half.",
+   "meaning": "Fracking makes up 60% of new oil and gas wells — more than half.",
    "unit_kind": "share_or_composition",
    "weight_template": 0.22,
    "weight_actual": 1.0,
    "required_candidate": true,
    "basis": [
     {
-     "entity": "orange share",
+     "entity": "Fracking",
      "x": "0",
      "field": "value",
      "value": 60,
      "note": "printed percent; relative_value 0.6000"
     },
     {
-     "entity": "blue share",
+     "entity": "Non-fracking",
      "x": "1",
      "field": "value",
      "value": 40,

@@ -1,5 +1,5 @@
-﻿entity,metric,value,unit,label
-INVESTORS,share_of_raid_proceeds,30,%,30%
-PORT 'FEES',share_of_raid_proceeds,10,%,10%
-BOUNTIES,share_of_raid_proceeds,50,%,REST
-(unlabeled),share_of_raid_proceeds,10,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,INVESTORS,share_of_raid_proceeds,30,%,0.3,30%,arc,printed
+,,PORT 'FEES',share_of_raid_proceeds,10,%,0.1,10%,arc,printed
+,,BOUNTIES,share_of_raid_proceeds,50,%,0.5,REST,arc,estimated
+,,(unlabeled),share_of_raid_proceeds,10,%,0.1,,remainder,estimated

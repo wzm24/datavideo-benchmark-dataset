@@ -2,7 +2,7 @@
  "clip_id": "donut_12",
  "family": "donut",
  "version": "g2_visual_evidence_v1",
- "source": "auto-derived from human-confirmed g1_draft_b2.json + data_table.csv",
+ "source": "auto-derived from g1_draft_b2.json + data_table.csv",
  "chart_input": {
   "clip_id": "donut_12",
   "family": "donut",
@@ -31,14 +31,14 @@
    "must_be_visualized": true,
    "evidence_type": "complete_composition",
    "required_marks": [
-    "share | platform_commission_rate"
+    "Platform fee | platform_commission_rate"
    ],
    "assertion": {
     "compositions": [
      {
       "segments": [
        {
-        "mark": "share | platform_commission_rate",
+        "mark": "Platform fee | platform_commission_rate",
         "value": 30.0
        }
       ],

@@ -3,26 +3,31 @@
  "clip_id": "donut_41",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "b51d08145ed8bdb45306789cfe3f59853af2635c41876f197f92e62ec24d7640",
+ "data_table_sha256": "c2b17f559ff4d73c52991314261ced1403576637bef346e0f2b8e3addd2523ea",
  "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "d5b3c578cda83ffa1b2b30cd2297b930f9fa56e2322097481bf3c472deaee6e7",
+ "sidecar_sha256": "e803a9586efda40e5524422f0b3dea9ad7252de31e0cfcb147c571c741c94663",
  "row_count": 1,
  "sidecar_row_count": 1,
  "columns": [
+  "panel",
+  "series",
   "entity",
   "metric",
   "value",
   "unit",
-  "label"
+  "relative_value",
+  "label",
+  "role",
+  "source_type"
  ],
  "sidecar_columns": [
   "clip_id",
   "entity_id",
   "x_px",
   "x_value",
-  "relative_value",
+  "geometry_relative_value",
   "color",
-  "source_type"
+  "note"
  ],
  "chart_structure": {
   "sub_type": "partial_ring",
@@ -62,14 +67,16 @@
    "source_type": [
     "printed"
    ],
-   "role": []
+   "role": [
+    "gauge"
+   ]
   }
  ],
  "source_type_counts": {
   "printed": 1
  },
  "role_counts": {
-  "unspecified": 1
+  "gauge": 1
  },
  "estimated_or_projected_roles": [],
  "completeness": {

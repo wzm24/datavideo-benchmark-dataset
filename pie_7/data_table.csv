@@ -1,5 +1,5 @@
-entity,series,metric,value,unit,label
-Arable land,All land,share_of_land_area,0.3,%,
-Other land,All land,share_of_land_area,99.7,%,
-Irrigated arable land,Arable land,share_of_land_area,33.3,%,
-Not irrigated,Arable land,share_of_land_area,66.7,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+All land,,Arable land,share_of_land_area,0.3,%,0.003,,slice,estimated
+All land,,Other land,share_of_land_area,99.7,%,0.997,,slice,estimated
+Arable land,,Irrigated arable land,share_of_land_area,33.3,%,0.333,,slice,estimated
+Arable land,,Not irrigated,share_of_land_area,66.7,%,0.667,,slice,estimated

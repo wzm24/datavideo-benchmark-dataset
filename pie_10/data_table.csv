@@ -1,3 +1,3 @@
-entity,metric,value,unit,label
-Top 1%,share_of_national_income,22.5,%,22.5%
-Bottom 99%,share_of_national_income,77.5,%,
+﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
+,,Top 1%,share_of_national_income,22.5,%,0.225,22.5%,slice,printed
+,,Bottom 99%,share_of_national_income,77.5,%,0.775,,slice,estimated
