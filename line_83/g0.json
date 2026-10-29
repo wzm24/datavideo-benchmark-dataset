@@ -1,0 +1,74 @@
+{
+ "clip_id": "line_83",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "355f27b50acd4513c20808dcc52a5196354ec4a752602865bd55fc27569daddb",
+ "row_count": 18,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (January 2020-June 2021)"
+  ],
+  "y_axes": [
+   "Daily confirmed COVID-19 cases in Taiwan"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Jan 2020",
+   "Apr 2020",
+   "Aug 2020",
+   "Nov 2020",
+   "Feb 2021",
+   "Jun 2021"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Taiwan daily cases",
+   "series": "",
+   "row_count": 18,
+   "unit": [
+    "cases"
+   ],
+   "x_values": [
+    "Jan 2020",
+    "Apr 2020",
+    "Aug 2020",
+    "Nov 2020",
+    "Feb 2021",
+    "Jun 2021"
+   ],
+   "first_value": 5.9524,
+   "last_value": 496.9048,
+   "min_value": 5.9524,
+   "max_value": 496.9048
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Taiwan daily cases",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

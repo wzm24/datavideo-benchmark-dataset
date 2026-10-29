@@ -1,0 +1,302 @@
+{
+ "clip_id": "line_33",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the wealth share of the top one-percent group in the United States from 1920 through 2010 and compare its end-period level with its mid-century trajectory.",
+ "chart_structure": {
+  "clip_id": "line_33",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the top 1% wealth share from 1920 to 2010 and compare its end-period level with its mid-century trajectory?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The end-period top 1% wealth share in 2010 (40.0023%) is higher than the mid-century trajectory levels around 1950–1980 (roughly 26–29%), but slightly below the 1930 peak (46.0025%).",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1920",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The top 1% wealth share starts at 35.9979% in 1920, rises to 46.0025% in 1930, declines to its plotted low of 23.9975% at point_order 27 between 1970 and 1980, rises to 25.9997% by 1980, and then rises to 40.0023% in 2010.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1920",
+     "point_order": "4",
+     "field": "value",
+     "value": 35.9979,
+     "unit": "%",
+     "row_sha": "d3d1a66235115788"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1930",
+     "point_order": "8",
+     "field": "value",
+     "value": 46.0025,
+     "unit": "%",
+     "row_sha": "0c44afa8531934a3"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1970",
+     "point_order": "24",
+     "field": "value",
+     "value": 26.9976,
+     "unit": "%",
+     "row_sha": "c875a1db630afecb"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "",
+     "point_order": "27",
+     "field": "value",
+     "value": 23.9975,
+     "unit": "%",
+     "row_sha": "8405cf86c4acbeca"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1980",
+     "point_order": "28",
+     "field": "value",
+     "value": 25.9997,
+     "unit": "%",
+     "row_sha": "135692cb691bdeaf"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "2010",
+     "point_order": "40",
+     "field": "value",
+     "value": 40.0023,
+     "unit": "%",
+     "row_sha": "85de355baaa372b5"
+    }
+   ],
+   "computation": "Trace the labeled series: 1920=35.9979, 1930=46.0025, 1940=35.0000, 1950=28.9998, 1960=28.0020, 1970=26.9976. The plotted minimum is 23.9975 at point_order 27, after 1970 and before 1980; the 1980 value is 25.9997. The series then rises through 1990=28.9998 and 2000=32.9978 to 40.0023 in 2010.",
+   "accept": [
+    "The share rises from 1920 to 1930 before declining.",
+    "The plotted trough is 23.9975% at point_order 27 between 1970 and 1980.",
+    "The share rises to 40.0023% by 2010."
+   ],
+   "reject": [
+    "Claims that the series declines continuously from 1920 to the mid-century.",
+    "Omits the 1930 peak of 46.0025%."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The end-period top 1% wealth share in 2010 (40.0023%) is higher than the mid-century trajectory levels around 1950–1980 (roughly 26–29%), but slightly below the 1930 peak (46.0025%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1930",
+     "point_order": "8",
+     "field": "value",
+     "value": 46.0025,
+     "unit": "%",
+     "row_sha": "0c44afa8531934a3"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1950",
+     "point_order": "16",
+     "field": "value",
+     "value": 28.9998,
+     "unit": "%",
+     "row_sha": "8b5698a924446c98"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1960",
+     "point_order": "20",
+     "field": "value",
+     "value": 28.002,
+     "unit": "%",
+     "row_sha": "71be09b79a3300e9"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1970",
+     "point_order": "24",
+     "field": "value",
+     "value": 26.9976,
+     "unit": "%",
+     "row_sha": "c875a1db630afecb"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "1980",
+     "point_order": "28",
+     "field": "value",
+     "value": 25.9997,
+     "unit": "%",
+     "row_sha": "135692cb691bdeaf"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Share of top percentage in total wealth",
+     "x": "2010",
+     "point_order": "40",
+     "field": "value",
+     "value": 40.0023,
+     "unit": "%",
+     "row_sha": "85de355baaa372b5"
+    }
+   ],
+   "computation": "Compare 2010 value 40.0023% against mid-century values: 1950=28.9998%, 1960=28.0020%, 1970=26.9976%, 1980=25.9997%; also compare against 1930 peak 46.0025%.",
+   "accept": [
+    "States that the 2010 level is above the mid-century (1950–1980) levels.",
+    "States that the 2010 level is below the 1930 peak.",
+    "Uses the 2010 endpoint and at least one mid-century reference point."
+   ],
+   "reject": [
+    "Claims 2010 is below the mid-century levels.",
+    "Claims 2010 exceeds the 1930 peak.",
+    "Compares only endpoints without any mid-century reference."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the 1930 peak of 46.0025% as context for the end-period comparison.",
+  "Notes the approximate trough value of 23.9975% between 1970 and 1980."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline or rise (e.g., policy, taxation, market changes) not present in the table.",
+  "Claims about other countries or other percentile groups.",
+  "Exact year attribution for the trough point_order 27, since its x value is blank."
+ ],
+ "review_notes": [
+  "The table has a row with blank x and point_order 27 (value 23.9975%); treat it as the mid-century trough without assigning a specific year.",
+  "Only one panel and one series are present, so no cross-panel comparison units are needed.",
+  "Intent explicitly requests both a full-period trace and an end-vs-mid-century comparison, yielding two semantic units.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Share of top percentage in total wealth"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

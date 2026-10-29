@@ -1,0 +1,180 @@
+{
+ "clip_id": "line_7",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_7",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "REVENUE"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PROFIT"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "REVENUE",
+    "PROFIT"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "REVENUE | 1998",
+    "REVENUE | 2018"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "REVENUE | 1998",
+      "value": 0.0,
+      "unit": "B"
+     },
+     {
+      "mark": "REVENUE | 2018",
+      "value": 60.0,
+      "unit": "B"
+     }
+    ],
+    "expected_relation": "Revenue increased from 0.0B in 1998 to 60.0B in 2018, an upward trajectory over the period.",
+    "start_value": 0.0,
+    "end_value": 60.0,
+    "delta": 60.0,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "PROFIT | 1998",
+    "PROFIT | 2018"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "PROFIT | 1998",
+      "value": 0.4957,
+      "unit": "B"
+     },
+     {
+      "mark": "PROFIT | 2018",
+      "value": 2.5043,
+      "unit": "B"
+     }
+    ],
+    "expected_relation": "Profit increased from 0.4957B in 1998 to 2.5043B in 2018, an upward trajectory over the period.",
+    "start_value": 0.4957,
+    "end_value": 2.5043,
+    "delta": 2.0086,
+    "ratio": 5.052048,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "REVENUE | 1998",
+    "REVENUE | 2018",
+    "PROFIT | 1998",
+    "PROFIT | 2018"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "REVENUE | 1998",
+      "value": 0.0,
+      "unit": "B"
+     },
+     {
+      "mark": "REVENUE | 2018",
+      "value": 60.0,
+      "unit": "B"
+     },
+     {
+      "mark": "PROFIT | 1998",
+      "value": 0.4957,
+      "unit": "B"
+     },
+     {
+      "mark": "PROFIT | 2018",
+      "value": 2.5043,
+      "unit": "B"
+     }
+    ],
+    "expected_relation": "Both revenue and profit increased from 1998 to 2018, with revenue growing from 0.0B to 60.0B and profit from 0.4957B to 2.5043B; revenue's absolute increase is much larger.",
+    "start_value": 0.0,
+    "end_value": 2.5043,
+    "delta": 2.5043,
+    "ratio": null,
+    "direction": "increasing",
+    "expected_order": [
+     "REVENUE | 2018",
+     "PROFIT | 2018",
+     "PROFIT | 1998",
+     "REVENUE | 1998"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

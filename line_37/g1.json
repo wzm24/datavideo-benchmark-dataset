@@ -1,0 +1,268 @@
+{
+ "clip_id": "line_37",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the percentage of African Americans living in the South over the years from 1790 to 2010 and compare the early twentieth-century level with the 1970 level.",
+ "chart_structure": {
+  "clip_id": "line_37",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Trace the percentage of African Americans living in the South over the years from 1790 to 2010.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Compare the early twentieth-century level with the 1970 level.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1790",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The African-American share living in the South remained near 90% from 1790 through 1910, then declined sharply to about 53% by 1970, reached a low of 52% in 1990, and rose slightly to 57% by 2010.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1790",
+     "point_order": "1",
+     "field": "value",
+     "value": 91.0,
+     "unit": "%",
+     "row_sha": "3290e976080bec02"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1910",
+     "point_order": "13",
+     "field": "value",
+     "value": 90.0,
+     "unit": "%",
+     "row_sha": "5371cbf6b18a52da"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1930",
+     "point_order": "15",
+     "field": "value",
+     "value": 79.0,
+     "unit": "%",
+     "row_sha": "b8059a8fca45e3a3"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1950",
+     "point_order": "17",
+     "field": "value",
+     "value": 68.0,
+     "unit": "%",
+     "row_sha": "c68b6d9b1ec0b034"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1970",
+     "point_order": "19",
+     "field": "value",
+     "value": 53.0,
+     "unit": "%",
+     "row_sha": "1cde94a475d00ad4"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1990",
+     "point_order": "21",
+     "field": "value",
+     "value": 52.0,
+     "unit": "%",
+     "row_sha": "2d8f639400bd1458"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "2010",
+     "point_order": "23",
+     "field": "value",
+     "value": 57.0,
+     "unit": "%",
+     "row_sha": "10432159128d3999"
+    }
+   ],
+   "computation": "Identify the overall trajectory from 1790 to 2010: stable high plateau (~90-93%) until 1910, steep decline 1910-1970 (90% to 53%), minimum 52% at 1990, slight increase to 57% at 2010.",
+   "accept": [
+    "Describes a long high plateau near 90% from 1790 to 1910.",
+    "Notes a sharp decline between 1910 and 1970.",
+    "Mentions the low point around 1990 (52%) and slight rise to 2010 (57%)."
+   ],
+   "reject": [
+    "Claims a monotonic increase or no change over the period.",
+    "Omits the early stable period or the post-1970 slight rise.",
+    "Uses data points not in the table."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The early twentieth-century level (1910: 90%) was substantially higher than the 1970 level (53%), a difference of 37 percentage points.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1910",
+     "point_order": "13",
+     "field": "value",
+     "value": 90.0,
+     "unit": "%",
+     "row_sha": "5371cbf6b18a52da"
+    },
+    {
+     "panel": "",
+     "entity": "African-American share in South",
+     "series": "",
+     "x": "1970",
+     "point_order": "19",
+     "field": "value",
+     "value": 53.0,
+     "unit": "%",
+     "row_sha": "1cde94a475d00ad4"
+    }
+   ],
+   "computation": "Compare value at 1910 (90%) with value at 1970 (53%); absolute difference = 37 percentage points.",
+   "accept": [
+    "States that the early twentieth-century level (1910) was about 90%.",
+    "States that the 1970 level was about 53%.",
+    "Notes the large drop of roughly 37 percentage points."
+   ],
+   "reject": [
+    "Compares 1970 with a different early twentieth-century year without justification.",
+    "Gives incorrect values for either year.",
+    "Claims the levels were similar."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions that the maximum value (93%) occurred in 1810 and 1830.",
+  "Notes that the minimum value (52%) occurred in 1990."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline (e.g., Great Migration) not present in the table.",
+  "Data points for years not listed in the table (e.g., 1800, 1900).",
+  "Comparisons with other demographic groups or regions not in the table."
+ ],
+ "review_notes": [
+  "The intent asks to trace the percentage over 1790-2010 and compare early 20th-century level with 1970. Two semantic units cover these operations.",
+  "Early twentieth-century level is interpreted as 1910, the closest anchor year in the table before the decline."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "African-American share in South",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

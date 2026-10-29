@@ -1,0 +1,299 @@
+{
+ "clip_id": "line_28",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the U.S. CEO-to-worker pay ratio over the period from the mid-1960s through the late 2010s, identifying its peak and comparing the starting and ending values.",
+ "chart_structure": {
+  "clip_id": "line_28",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the overall trend of the U.S. CEO-to-worker pay ratio from the mid-1960s through the late 2010s?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "What is the peak value of the U.S. CEO-to-worker pay ratio over the period?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "How do the starting and ending values of the U.S. CEO-to-worker pay ratio compare?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "1965",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The U.S. CEO-to-worker pay ratio generally increased from 15.0 in 1965 to 220.0 in 2018, with a notable rise to 336.0 in 2000 followed by a decline to 208.4 in 2010 and a slight recovery to 220.0 in 2018.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "1965",
+     "point_order": "1",
+     "field": "value",
+     "value": 15.0,
+     "unit": "ratio",
+     "row_sha": "e802c6d179d1b42d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2000",
+     "point_order": "12",
+     "field": "value",
+     "value": 336.0,
+     "unit": "ratio",
+     "row_sha": "4fc080a6f8ff7188"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2010",
+     "point_order": "18",
+     "field": "value",
+     "value": 208.4,
+     "unit": "ratio",
+     "row_sha": "afac3eed0d867bb5"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2018",
+     "point_order": "21",
+     "field": "value",
+     "value": 220.0,
+     "unit": "ratio",
+     "row_sha": "ac0b1722d4a5174c"
+    }
+   ],
+   "computation": "Compare first (1965: 15.0), peak (2000: 336.0), subsequent low (2010: 208.4), and last (2018: 220.0) values to describe the overall upward trend with a mid-period peak and partial decline.",
+   "accept": [
+    "The ratio rose overall from 1965 to 2018.",
+    "The ratio peaked in 2000 at 336.0 and then fell by 2010 before a slight rise to 2018.",
+    "The trend is generally upward with a sharp spike around 2000."
+   ],
+   "reject": [
+    "The ratio decreased steadily over the entire period.",
+    "The ratio remained flat from 1965 to 2018.",
+    "The peak occurred in 2018."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "extremum",
+   "claim": "The peak U.S. CEO-to-worker pay ratio in the period is 336.0, occurring in the year 2000.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2000",
+     "point_order": "12",
+     "field": "value",
+     "value": 336.0,
+     "unit": "ratio",
+     "row_sha": "4fc080a6f8ff7188"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "1965",
+     "point_order": "1",
+     "field": "value",
+     "value": 15.0,
+     "unit": "ratio",
+     "row_sha": "e802c6d179d1b42d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2018",
+     "point_order": "21",
+     "field": "value",
+     "value": 220.0,
+     "unit": "ratio",
+     "row_sha": "ac0b1722d4a5174c"
+    }
+   ],
+   "computation": "Identify the maximum value in the series: 336.0 at x=2000, which exceeds all other listed values including 15.0 (1965) and 220.0 (2018).",
+   "accept": [
+    "The highest ratio is 336.0 in 2000.",
+    "The peak value is 336.0."
+   ],
+   "reject": [
+    "The peak value is 220.0.",
+    "The peak occurred in 2018.",
+    "The peak value is 15.0."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "The ending U.S. CEO-to-worker pay ratio in 2018 (220.0) is substantially higher than the starting ratio in 1965 (15.0), an increase of 205.0 ratio points (about 14.7 times the starting value).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "1965",
+     "point_order": "1",
+     "field": "value",
+     "value": 15.0,
+     "unit": "ratio",
+     "row_sha": "e802c6d179d1b42d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "CEO-worker pay gap",
+     "x": "2018",
+     "point_order": "21",
+     "field": "value",
+     "value": 220.0,
+     "unit": "ratio",
+     "row_sha": "ac0b1722d4a5174c"
+    }
+   ],
+   "computation": "Absolute difference = 220.0 - 15.0 = 205.0; ratio = 220.0 / 15.0 ≈ 14.67; percentage change ≈ 1366.7%.",
+   "accept": [
+    "The 2018 ratio (220.0) is much higher than the 1965 ratio (15.0).",
+    "The ratio increased by 205.0 points from 1965 to 2018.",
+    "The ending value is about 14.7 times the starting value."
+   ],
+   "reject": [
+    "The starting and ending values are similar.",
+    "The ratio decreased from 1965 to 2018.",
+    "The 1965 ratio was higher than the 2018 ratio."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning the 2010 value of 208.4 as an intermediate low after the 2000 peak.",
+  "Noting that the ratio was 15.0 in both 1965 and 1970."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the pay ratio changes.",
+  "Claims about data not present in the table, such as values for years not listed.",
+  "Comparing the CEO-to-worker pay ratio to other countries or industries."
+ ],
+ "review_notes": [
+  "The table summary lists only selected x-values; the trend unit uses the first, peak, post-peak low, and last points to summarize the overall shape without enumerating every data point.",
+  "The peak unit uses the maximum value from the summary (336.0 at 2000).",
+  "The comparison unit uses the first and last values as requested by the intent."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "CEO-worker pay gap"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

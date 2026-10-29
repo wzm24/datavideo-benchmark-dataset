@@ -1,0 +1,200 @@
+{
+ "clip_id": "line_35",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_35",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "S&P 500",
+    "series": "S&amp;P 500"
+   },
+   {
+    "panel": "",
+    "entity": "Wages",
+    "series": "Wages"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "S&P 500 | S&amp;P 500",
+    "Wages | Wages"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "S&P 500 | S&amp;P 500 | 2007",
+    "S&P 500 | S&amp;P 500 | 2009",
+    "S&P 500 | S&amp;P 500 | 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2007",
+      "value": 150.0,
+      "unit": ""
+     },
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2009",
+      "value": 90.0174,
+      "unit": ""
+     },
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2014",
+      "value": 204.9917,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "The S&P 500 indexed trajectory from 2007 to 2014 starts at 150.0 in 2007, drops to 90.0174 in 2009, then rises to 204.9917 in 2014.",
+    "start_value": 150.0,
+    "end_value": 204.9917,
+    "delta": 54.9917,
+    "ratio": 1.366611,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Wages | Wages | 2007",
+    "Wages | Wages | 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Wages | Wages | 2007",
+      "value": 95.0083,
+      "unit": ""
+     },
+     {
+      "mark": "Wages | Wages | 2014",
+      "value": 116.0068,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "The wages indexed trajectory from 2007 to 2014 starts at 95.0083 in 2007 and rises to 116.0068 in 2014.",
+    "start_value": 95.0083,
+    "end_value": 116.0068,
+    "delta": 20.9985,
+    "ratio": 1.221018,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "S&P 500 | S&amp;P 500 | 2007",
+    "S&P 500 | S&amp;P 500 | 2009",
+    "S&P 500 | S&amp;P 500 | 2014",
+    "Wages | Wages | 2007",
+    "Wages | Wages | 2009",
+    "Wages | Wages | 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2007",
+      "value": 150.0,
+      "unit": ""
+     },
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2009",
+      "value": 90.0174,
+      "unit": ""
+     },
+     {
+      "mark": "S&P 500 | S&amp;P 500 | 2014",
+      "value": 204.9917,
+      "unit": ""
+     },
+     {
+      "mark": "Wages | Wages | 2007",
+      "value": 95.0083,
+      "unit": ""
+     },
+     {
+      "mark": "Wages | Wages | 2009",
+      "value": 97.9907,
+      "unit": ""
+     },
+     {
+      "mark": "Wages | Wages | 2014",
+      "value": 116.0068,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "The S&P 500 indexed trajectory is more volatile than wages: it falls below its 2007 level in 2009 while wages rise, and by 2014 the S&P 500 reaches 204.9917 versus wages at 116.0068.",
+    "start_value": 150.0,
+    "end_value": 116.0068,
+    "delta": -33.9932,
+    "ratio": 0.773379,
+    "direction": "decreasing",
+    "expected_order": [
+     "S&P 500",
+     "S&P 500",
+     "Wages",
+     "Wages",
+     "Wages",
+     "S&P 500"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

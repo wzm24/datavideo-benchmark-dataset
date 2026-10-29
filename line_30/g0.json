@@ -1,0 +1,126 @@
+{
+ "clip_id": "line_30",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "4f2ccaa26417801b16f6a36dfef5b8fa3854ebd332919d901c0607dbb1a36d4c",
+ "row_count": 18,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share of profits spent on stock buybacks (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "GM",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 82.0041,
+   "last_value": 111.9996,
+   "min_value": 28.0025,
+   "max_value": 111.9996
+  },
+  {
+   "panel": "",
+   "entity": "Toyota",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 5.9928,
+   "last_value": 18.9941,
+   "min_value": 0.0035,
+   "max_value": 39.0073
+  },
+  {
+   "panel": "",
+   "entity": "VW",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 0.0035,
+   "last_value": 0.0035,
+   "min_value": 0.0035,
+   "max_value": 0.0035
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "GM",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Toyota",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "VW",
+    "series": ""
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ }
+}

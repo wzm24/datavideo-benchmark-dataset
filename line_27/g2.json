@@ -1,0 +1,116 @@
+{
+ "clip_id": "line_27",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_27",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Share spent on buybacks"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Share spent on buybacks"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Share spent on buybacks | 1982",
+    "Share spent on buybacks | 2008",
+    "Share spent on buybacks | 2018"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Share spent on buybacks | 1982",
+      "value": 0.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Share spent on buybacks | 2008",
+      "value": 77.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Share spent on buybacks | 2018",
+      "value": 65.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of profits spent on stock buybacks increased overall from 0.5% in 1982 to 65.0% in 2018, with fluctuations including a peak of 77.0% in 2008.",
+    "start_value": 0.5,
+    "end_value": 65.0,
+    "delta": 64.5,
+    "ratio": 130.0,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Share spent on buybacks | 2008"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Share spent on buybacks | 2008",
+      "value": 77.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The maximum share of profits spent on stock buybacks was 77.0%, occurring in 2008.",
+    "extreme_value": 77.0
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

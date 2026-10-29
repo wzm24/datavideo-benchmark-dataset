@@ -1,0 +1,66 @@
+{
+ "clip_id": "line_12",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "d9262f30bbafc115f40a29285487d7dd34935a3e097dc17d0e2b82f3bffb7552",
+ "row_count": 7,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Number of Subway locations"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2006",
+   "2011"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Subway locations",
+   "row_count": 7,
+   "unit": [
+    "locations"
+   ],
+   "x_values": [
+    "2006",
+    "2011"
+   ],
+   "first_value": 20721.0,
+   "last_value": 25285.0,
+   "min_value": 20721.0,
+   "max_value": 25285.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Subway locations"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

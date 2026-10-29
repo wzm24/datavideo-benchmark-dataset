@@ -1,5 +1,5 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type
-line_67,Yield curve normal,yield-curve-normal,240.0,,,0.2667,relative,#ffffff,relative_only
-line_67,Yield curve normal,yield-curve-normal,1080.0,,,0.8444,relative,#ffffff,relative_only
-line_67,Yield curve inverted,yield-curve-inverted,240.0,,,0.6444,relative,#e60000,relative_only
-line_67,Yield curve inverted,yield-curve-inverted,1080.0,,,0.1778,relative,#e60000,relative_only
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Bond maturity (3 months to 10 years),Interest rate (relative),Yield curve normal,,3m,1,0.2667,relative,,line
+,Bond maturity (3 months to 10 years),Interest rate (relative),Yield curve normal,,10y,2,0.8444,relative,,line
+,Bond maturity (3 months to 10 years),Interest rate (relative),Yield curve inverted,,3m,1,0.6444,relative,,line
+,Bond maturity (3 months to 10 years),Interest rate (relative),Yield curve inverted,,10y,2,0.1778,relative,,line

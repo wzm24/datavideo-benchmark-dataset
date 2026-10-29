@@ -1,0 +1,70 @@
+{
+ "clip_id": "line_53",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "83d9020f263e7a023e0d981eb975fe38f0e227c2309f7677882ae8af263b7ff7",
+ "row_count": 4,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Percentage-point increase in cheating"
+  ],
+  "y_axes": [
+   "Lost tax revenue ($B)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Percentage point increase in cheating",
+   "row_count": 4,
+   "unit": [
+    "billion_usd"
+   ],
+   "x_values": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "first_value": 44.7,
+   "last_value": 185.7,
+   "min_value": 44.7,
+   "max_value": 185.7
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Percentage point increase in cheating"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

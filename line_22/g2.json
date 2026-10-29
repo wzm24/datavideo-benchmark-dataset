@@ -1,0 +1,258 @@
+{
+ "clip_id": "line_22",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_22",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "A"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "B"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "C"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "D"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "F"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "F"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "A | 1961",
+    "A | 2006"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "A | 1961",
+      "value": 16.0,
+      "unit": "%"
+     },
+     {
+      "mark": "A | 2006",
+      "value": 43.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of grade A increased from 16% in 1961 to 43% in 2006.",
+    "start_value": 16.0,
+    "end_value": 43.0,
+    "delta": 27.0,
+    "ratio": 2.6875,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "B | 1961",
+    "B | 1973",
+    "B | 2006"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "B | 1961",
+      "value": 32.0,
+      "unit": "%"
+     },
+     {
+      "mark": "B | 1973",
+      "value": 41.0,
+      "unit": "%"
+     },
+     {
+      "mark": "B | 2006",
+      "value": 34.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of grade B increased slightly from 32% in 1961 to 34% in 2006, with a peak of 41% in 1973.",
+    "start_value": 32.0,
+    "end_value": 34.0,
+    "delta": 2.0,
+    "ratio": 1.0625,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "C | 1961",
+    "C | 2006"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "C | 1961",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "C | 2006",
+      "value": 14.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of grade C decreased from 35% in 1961 to 14% in 2006.",
+    "start_value": 35.0,
+    "end_value": 14.0,
+    "delta": -21.0,
+    "ratio": 0.4,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "D | 1961",
+    "D | 2006"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "D | 1961",
+      "value": 11.0,
+      "unit": "%"
+     },
+     {
+      "mark": "D | 2006",
+      "value": 4.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of grade D decreased from 11% in 1961 to 4% in 2006.",
+    "start_value": 11.0,
+    "end_value": 4.0,
+    "delta": -7.0,
+    "ratio": 0.363636,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "F | 1961",
+    "F | 2006"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "F | 1961",
+      "value": 6.0,
+      "unit": "%"
+     },
+     {
+      "mark": "F | 2006",
+      "value": 4.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of grade F decreased from 6% in 1961 to 4% in 2006.",
+    "start_value": 6.0,
+    "end_value": 4.0,
+    "delta": -2.0,
+    "ratio": 0.666667,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

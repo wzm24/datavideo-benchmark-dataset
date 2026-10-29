@@ -1,0 +1,243 @@
+{
+ "clip_id": "line_100",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the estimated supply of new certified teachers in the United States over the years from 2005 to 2017 and quantify the overall change.",
+ "chart_structure": {
+  "clip_id": "line_100",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the estimated supply of new certified teachers in the United States from 2005 to 2017 and quantify the overall change?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The estimated supply of new certified teachers decreased by 85,000 from 175,000 in 2005 to 90,000 in 2017, an overall decline of about 48.6%.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2005",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The estimated supply of new certified teachers in the United States rose from 175,000 in 2005 to a peak of 195,000 in 2008, then declined to 90,000 by 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2005",
+     "point_order": "1",
+     "field": "value",
+     "value": 175000.0,
+     "unit": "count",
+     "row_sha": "73eebbcea91ba333"
+    },
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2008",
+     "point_order": "2",
+     "field": "value",
+     "value": 195000.0,
+     "unit": "count",
+     "row_sha": "3e7e2c19243bc2d8"
+    },
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2009",
+     "point_order": "3",
+     "field": "value",
+     "value": 185000.0,
+     "unit": "count",
+     "row_sha": "7668b6741e2bb268"
+    },
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2013",
+     "point_order": "4",
+     "field": "value",
+     "value": 110000.0,
+     "unit": "count",
+     "row_sha": "759cfe4b17e5624c"
+    },
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2017",
+     "point_order": "6",
+     "field": "value",
+     "value": 90000.0,
+     "unit": "count",
+     "row_sha": "c55c09f544759ee7"
+    }
+   ],
+   "computation": "Sequence of values: 175000 (2005) -> 195000 (2008) -> 185000 (2009) -> 110000 (2013) -> 90000 (2017); direction changes from increasing to decreasing after 2008.",
+   "accept": [
+    "Describes an initial increase to a peak around 2008 followed by a sustained decline through 2017.",
+    "Mentions the overall downward trajectory after the 2008 peak."
+   ],
+   "reject": [
+    "Claims the supply increased monotonically from 2005 to 2017.",
+    "Omits the 2008 peak or the subsequent decline."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The estimated supply of new certified teachers decreased by 85,000 from 175,000 in 2005 to 90,000 in 2017, an overall decline of about 48.6%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2005",
+     "point_order": "1",
+     "field": "value",
+     "value": 175000.0,
+     "unit": "count",
+     "row_sha": "73eebbcea91ba333"
+    },
+    {
+     "panel": "",
+     "entity": "new teacher supply",
+     "series": "",
+     "x": "2017",
+     "point_order": "6",
+     "field": "value",
+     "value": 90000.0,
+     "unit": "count",
+     "row_sha": "c55c09f544759ee7"
+    }
+   ],
+   "computation": "Absolute change = 90000 - 175000 = -85000; percentage change = (90000 - 175000) / 175000 * 100 ≈ -48.6%.",
+   "accept": [
+    "States the overall change from 2005 to 2017 as a decrease of 85,000.",
+    "States the overall percentage decline as approximately 48.6% (or about 49%)."
+   ],
+   "reject": [
+    "Reports an increase instead of a decrease.",
+    "Uses endpoints other than 2005 and 2017 for the overall change."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the intermediate value of 185,000 in 2009 or 110,000 in 2013 as part of the decline.",
+  "Notes that the maximum value in the period was 195,000 in 2008."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline (e.g., policy changes, economic conditions) not present in the table.",
+  "Claims about years or data points not listed in the table summary.",
+  "Comparisons with other countries or teacher supply categories not in the data."
+ ],
+ "review_notes": [
+  "The table summary lists x_anchors including 2005, 2008, 2009, 2013, and 2017; point_order 5 is absent, so the sequence uses the provided rows only.",
+  "The trend unit combines the rise and fall into one overall trajectory because the intent asks to trace the series over the period.",
+  "The change unit quantifies the overall change using the first and last available points (2005 and 2017)."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "new teacher supply",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

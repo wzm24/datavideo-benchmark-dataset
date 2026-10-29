@@ -1,0 +1,235 @@
+{
+ "clip_id": "line_31",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the top 0.1% wealth share in the United States over time with its 1920s peak level to determine whether the latest value has returned to that level.",
+ "chart_structure": {
+  "clip_id": "line_31",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the latest top 0.1% wealth share in the United States return to its 1920s peak level?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": ""
+   }
+  },
+  {
+   "id": "R3",
+   "question": "The latest top 0.1% wealth share (18.5%) is equal to the 1920s peak reference level (18.5%), so the latest value has returned to that level.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "1920s peak level (reference line)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "Top 0.1% wealth share in the United States",
+     "series": "",
+     "x": "1930",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The top 0.1% wealth share in the United States falls from its 1920s peak of 24.0% in 1930 to a low of 6.0% around point_order 22, then rises to 18.5% at the latest point (point_order 37).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Top 0.1% wealth share in the United States",
+     "series": "",
+     "x": "1930",
+     "point_order": "6",
+     "field": "value",
+     "value": 24.0,
+     "unit": "%",
+     "row_sha": "fb4a34ccb7efb44a"
+    },
+    {
+     "panel": "",
+     "entity": "Top 0.1% wealth share in the United States",
+     "series": "",
+     "x": "",
+     "point_order": "22",
+     "field": "value",
+     "value": 6.0,
+     "unit": "%",
+     "row_sha": "6a62e56ee42907db"
+    },
+    {
+     "panel": "",
+     "entity": "Top 0.1% wealth share in the United States",
+     "series": "",
+     "x": "",
+     "point_order": "37",
+     "field": "value",
+     "value": 18.5,
+     "unit": "%",
+     "row_sha": "ab6ee4e38c3d1d65"
+    }
+   ],
+   "computation": "Identify the 1920s peak value (24.0% at x=1930, point_order 6), the minimum value (6.0% at point_order 22), and the latest value (18.5% at point_order 37); describe the overall decline then recovery.",
+   "accept": [
+    "Top 0.1% wealth share peaked at 24.0% in 1930, fell to 6.0%, and ended at 18.5%.",
+    "The series shows a long decline from the 1920s peak followed by a rise to the latest value."
+   ],
+   "reject": [
+    "The top 0.1% wealth share remained constant over time.",
+    "The latest value is the maximum of the series."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The latest top 0.1% wealth share (18.5%) is equal to the 1920s peak reference level (18.5%), so the latest value has returned to that level.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Top 0.1% wealth share in the United States",
+     "series": "",
+     "x": "",
+     "point_order": "37",
+     "field": "value",
+     "value": 18.5,
+     "unit": "%",
+     "row_sha": "ab6ee4e38c3d1d65"
+    },
+    {
+     "panel": "",
+     "entity": "1920s peak level (reference line)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 18.5,
+     "unit": "%",
+     "row_sha": "c38b23c77cb2e6ba"
+    }
+   ],
+   "computation": "Compare latest value 18.5% (point_order 37) with reference line value 18.5%; difference = 0.0 percentage points.",
+   "accept": [
+    "The latest value equals the 1920s peak reference level of 18.5%.",
+    "The latest top 0.1% wealth share has returned to the 1920s peak level."
+   ],
+   "reject": [
+    "The latest value is below the 1920s peak reference level.",
+    "The latest value is above the 1920s peak reference level."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mention that the 1920s peak reference line is drawn at 18.5%.",
+  "Mention the absolute difference between the latest value and the reference level is 0.0 percentage points."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the rise or fall of wealth share.",
+  "Claims about years not present in the table summary.",
+  "Claims about other countries or other wealth percentiles."
+ ],
+ "review_notes": [
+  "The table summary lists the 1920s peak reference line at 18.5%, while the series maximum is 24.0% at x=1930; the comparison unit uses the supplied reference line as the 1920s peak level per the intent.",
+  "Only one panel is present, so no cross-panel comparison unit is needed."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "1920s peak level (reference line)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Top 0.1% wealth share in the United States",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

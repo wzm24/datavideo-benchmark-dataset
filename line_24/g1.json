@@ -1,0 +1,322 @@
+{
+ "clip_id": "line_24",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the indexed trends in people killed or injured on British roads for cyclists and car drivers from 2007 to 2016 relative to the 2010-14 average.",
+ "chart_structure": {
+  "clip_id": "line_24",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 3
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the indexed trends for cyclists and car drivers from 2007 to 2016 relative to the 2010-14 average.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "For car drivers, the index of people killed or injured fell from 143 in 2007 to 61 in 2016, indicating a strong downward trend relative to the 2010-14 average.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "The indexed trends for cyclists and car drivers diverge: cyclists rose overall while car drivers fell sharply, with cyclists starting below and ending above car drivers relative to the 2010-14 average.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2007",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "car drivers",
+     "x": "2007",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "2010-14 average",
+     "x": "2007",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "For cyclists, the index of people killed or injured rose from 85 in 2007 to 110 in 2016, with a peak of 113 in 2011, indicating an overall upward trend relative to the 2010-14 average.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2007",
+     "point_order": "1",
+     "field": "value",
+     "value": 85.0,
+     "unit": "index",
+     "row_sha": "21df965d6ec35a4f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2011",
+     "point_order": "5",
+     "field": "value",
+     "value": 113.0,
+     "unit": "index",
+     "row_sha": "0238c2b2c9bc56fb"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2016",
+     "point_order": "10",
+     "field": "value",
+     "value": 110.0,
+     "unit": "index",
+     "row_sha": "e58358f1b34f3939"
+    }
+   ],
+   "computation": "Compare first (85), maximum (113), and last (110) values of the cyclists series; note the overall increase from 2007 to 2016.",
+   "accept": [
+    "Cyclists index increased from 85 in 2007 to 110 in 2016.",
+    "Cyclists peaked at 113 in 2011.",
+    "Cyclists show an overall upward trend."
+   ],
+   "reject": [
+    "Cyclists index decreased overall.",
+    "Cyclists remained below the 2010-14 average throughout."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "For car drivers, the index of people killed or injured fell from 143 in 2007 to 61 in 2016, indicating a strong downward trend relative to the 2010-14 average.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "car drivers",
+     "x": "2007",
+     "point_order": "1",
+     "field": "value",
+     "value": 143.0,
+     "unit": "index",
+     "row_sha": "e32afdff08b17dfa"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "car drivers",
+     "x": "2016",
+     "point_order": "10",
+     "field": "value",
+     "value": 61.0,
+     "unit": "index",
+     "row_sha": "77b6969a9561e07b"
+    }
+   ],
+   "computation": "Compare first (143) and last (61) values of the car drivers series; note the overall decrease from 2007 to 2016.",
+   "accept": [
+    "Car drivers index decreased from 143 in 2007 to 61 in 2016.",
+    "Car drivers show a strong downward trend."
+   ],
+   "reject": [
+    "Car drivers index increased overall.",
+    "Car drivers remained above the 2010-14 average throughout."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "The indexed trends for cyclists and car drivers diverge: cyclists rose overall while car drivers fell sharply, with cyclists starting below and ending above car drivers relative to the 2010-14 average.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2007",
+     "point_order": "1",
+     "field": "value",
+     "value": 85.0,
+     "unit": "index",
+     "row_sha": "21df965d6ec35a4f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "car drivers",
+     "x": "2007",
+     "point_order": "1",
+     "field": "value",
+     "value": 143.0,
+     "unit": "index",
+     "row_sha": "e32afdff08b17dfa"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "cyclists",
+     "x": "2016",
+     "point_order": "10",
+     "field": "value",
+     "value": 110.0,
+     "unit": "index",
+     "row_sha": "e58358f1b34f3939"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "car drivers",
+     "x": "2016",
+     "point_order": "10",
+     "field": "value",
+     "value": 61.0,
+     "unit": "index",
+     "row_sha": "77b6969a9561e07b"
+    }
+   ],
+   "computation": "Compare cyclists and car drivers at start (2007: 85 vs 143) and end (2016: 110 vs 61); note opposite directions and crossover relative to the 100 baseline.",
+   "accept": [
+    "Cyclists and car drivers show opposite trends.",
+    "In 2007, car drivers index (143) was higher than cyclists (85).",
+    "In 2016, cyclists index (110) was higher than car drivers (61).",
+    "Cyclists crossed above car drivers between 2007 and 2016."
+   ],
+   "reject": [
+    "Cyclists and car drivers moved in the same direction.",
+    "Car drivers remained higher than cyclists throughout."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Cyclists index was below the 2010-14 average (100) in 2007-2009 and above it from 2010 onward.",
+  "Car drivers index was above the 2010-14 average until 2011 and below it from 2012 onward."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the trends.",
+  "Absolute counts of people killed or injured.",
+  "Comparisons involving other road user types not shown."
+ ],
+ "review_notes": [
+  "The 2010-14 average is a constant reference line at 100; it is used as a baseline but not treated as a separate trend unit.",
+  "The intent asks for a comparison of indexed trends, so the two trend units and one comparison unit cover the analytical operations."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "cyclists"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "car drivers"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "2010-14 average"
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

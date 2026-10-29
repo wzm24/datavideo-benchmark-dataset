@@ -3,5 +3,14 @@
  "family": "line",
  "sub_type": "multi_panel",
  "orientation": "cartesian",
- "panel_count": 6
+ "panel_count": 6,
+ "panels": [
+  "Party",
+  "Race",
+  "Religious attendance",
+  "Education",
+  "Age",
+  "Gender"
+ ],
+ "time_behavior": "snapshot"
 }

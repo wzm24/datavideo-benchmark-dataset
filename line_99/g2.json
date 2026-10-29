@@ -1,0 +1,229 @@
+{
+ "clip_id": "line_99",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_99",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Senate",
+    "House of Representatives"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Senate | 1973-74",
+    "Senate | 1985-86",
+    "Senate | 2009-10"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Senate | 1973-74",
+      "value": 0.9179,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1985-86",
+      "value": 0.28,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2009-10",
+      "value": 1.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the Senate, relative us-versus-them polarization falls from 0.9179 in 1973-74 to 0.2800 in 1985-86, then rises to 1.0000 by 2009-10.",
+    "start_value": 0.9179,
+    "end_value": 1.0,
+    "delta": 0.0821,
+    "ratio": 1.089443,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "House of Representatives | 1979-80",
+    "House of Representatives | 2003-04"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "House of Representatives | 1979-80",
+      "value": 0.01,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2003-04",
+      "value": 0.8058,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the House of Representatives, relative us-versus-them polarization rises from the 1979-80 period to the 2003-04 period.",
+    "start_value": 0.01,
+    "end_value": 0.8058,
+    "delta": 0.7958,
+    "ratio": 80.58,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Senate | 1979-80",
+    "Senate | 2003-04",
+    "House of Representatives | 1979-80",
+    "House of Representatives | 2003-04"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Senate | 1979-80",
+      "value": 0.3979,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2003-04",
+      "value": 0.98,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1979-80",
+      "value": 0.01,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2003-04",
+      "value": 0.8058,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "Between 1979-80 and 2003-04, both chamber series end higher than they start, but the House generally rises while the Senate first falls to 0.2708 at point_order 14 and then rises sharply.",
+    "start_value": 0.3979,
+    "end_value": 0.8058,
+    "delta": 0.4079,
+    "ratio": 2.025132,
+    "direction": "increasing",
+    "expected_order": [
+     "Senate",
+     "House of Representatives",
+     "Senate",
+     "House of Representatives"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Senate | 2009-10",
+    "House of Representatives | #38",
+    "House of Representatives | 2003-04"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Senate | 2009-10",
+      "value": 1.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | #38",
+      "value": 0.8122,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2003-04",
+      "value": 0.8058,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The Senate reaches 1.0000 at 2009-10. The House reaches its plotted maximum of 0.8122 at point_order 38, between the 1997-98 and 2003-04 anchors; the explicit 2003-04 value is 0.8058.",
+    "start_value": 1.0,
+    "end_value": 0.8058,
+    "delta": -0.1942,
+    "ratio": 0.8058,
+    "direction": "decreasing",
+    "extreme_value": 1.0
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

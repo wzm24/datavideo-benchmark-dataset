@@ -1,0 +1,66 @@
+{
+ "clip_id": "line_90",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "185103922c16c7281ca5e5149a71838a73e0b709ba58572ce7fe167b4df24b82",
+ "row_count": 72,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "U.S. troop level (number of troops)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2005",
+   "2007"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "US troops",
+   "series": "",
+   "row_count": 72,
+   "unit": [
+    "troops"
+   ],
+   "x_values": [
+    "2005",
+    "2007"
+   ],
+   "first_value": 2380.9524,
+   "last_value": 2380.9524,
+   "min_value": 2380.9524,
+   "max_value": 174380.9524
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "US troops",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

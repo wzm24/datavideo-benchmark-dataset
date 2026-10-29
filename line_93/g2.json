@@ -1,0 +1,192 @@
+{
+ "clip_id": "line_93",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_93",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Asian*",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Hispanic",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "White",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Black",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Asian*",
+    "Hispanic",
+    "White",
+    "Black"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Black | Feb '21",
+    "Black | June '21",
+    "Black | Aug '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Black | Feb '21",
+      "value": 15.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Black | June '21",
+      "value": 60.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Black | Aug '21",
+      "value": 70.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From February to August 2021, the vaccination rate among Black U.S. adults increased from 15% to 70%.",
+    "start_value": 15.0,
+    "end_value": 70.0,
+    "delta": 55.0,
+    "ratio": 4.666667,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "White | Feb '21",
+    "White | June '21",
+    "White | Aug '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "White | Feb '21",
+      "value": 21.0,
+      "unit": "%"
+     },
+     {
+      "mark": "White | June '21",
+      "value": 65.0,
+      "unit": "%"
+     },
+     {
+      "mark": "White | Aug '21",
+      "value": 72.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From February to August 2021, the vaccination rate among White U.S. adults increased from 21% to 72%.",
+    "start_value": 21.0,
+    "end_value": 72.0,
+    "delta": 51.0,
+    "ratio": 3.428571,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Hispanic | Feb '21",
+    "Hispanic | June '21",
+    "Hispanic | Aug '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Hispanic | Feb '21",
+      "value": 16.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Hispanic | June '21",
+      "value": 68.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Hispanic | Aug '21",
+      "value": 76.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From February to August 2021, the vaccination rate among Hispanic U.S. adults increased from 16% to 76%.",
+    "start_value": 16.0,
+    "end_value": 76.0,
+    "delta": 60.0,
+    "ratio": 4.75,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

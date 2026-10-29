@@ -1,0 +1,150 @@
+{
+ "clip_id": "line_83",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_83",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Taiwan daily cases",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Taiwan daily cases"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Taiwan daily cases | Jan 2020",
+    "Taiwan daily cases | Apr 2020",
+    "Taiwan daily cases | Aug 2020",
+    "Taiwan daily cases | Nov 2020",
+    "Taiwan daily cases | Feb 2021",
+    "Taiwan daily cases | Jun 2021",
+    "Taiwan daily cases | #18"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Taiwan daily cases | Jan 2020",
+      "value": 5.9524,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | Apr 2020",
+      "value": 22.7193,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | Aug 2020",
+      "value": 7.2607,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | Nov 2020",
+      "value": 6.9601,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | Feb 2021",
+      "value": 8.0236,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | Jun 2021",
+      "value": 33.2143,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | #18",
+      "value": 496.9048,
+      "unit": "cases"
+     }
+    ],
+    "expected_relation": "Taiwan daily COVID-19 cases remain low from January 2020 through February 2021, then rise sharply by June 2021.",
+    "start_value": 5.9524,
+    "end_value": 496.9048,
+    "delta": 490.9524,
+    "ratio": 83.479739,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Taiwan daily cases | #16",
+    "Taiwan daily cases | #17"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Taiwan daily cases | #16",
+      "value": 115.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "Taiwan daily cases | #17",
+      "value": 369.6429,
+      "unit": "cases"
+     }
+    ],
+    "expected_relation": "The largest adjacent increase in Taiwan daily COVID-19 cases is 254.6429 cases, from 115.0000 at point_order 16 to 369.6429 at point_order 17.",
+    "start_value": 115.0,
+    "end_value": 369.6429,
+    "delta": 254.6429,
+    "ratio": 3.214286,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_21",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "02736ccf00f7c2d76e0a923d5197ed129b2911732067a0c329a98739485a6cf7",
+ "row_count": 79,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Global temperature change (°C)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1850",
+   "1900",
+   "1950",
+   "2000"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Global temperature",
+   "series": "",
+   "row_count": 79,
+   "unit": [],
+   "x_values": [
+    "1850",
+    "1900",
+    "1950",
+    "2000"
+   ],
+   "first_value": -0.1002,
+   "last_value": 0.9499,
+   "min_value": -0.2998,
+   "max_value": 0.9499
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Global temperature",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

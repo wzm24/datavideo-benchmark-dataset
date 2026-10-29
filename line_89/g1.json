@@ -1,0 +1,300 @@
+{
+ "clip_id": "line_89",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the maximum long-term capital gains tax rate from 1960 through 2021 and compare the current rate with the proposed rate for high earners.",
+ "chart_structure": {
+  "clip_id": "line_89",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the long-term trend of the maximum long-term capital gains tax rate from 1960 through 2021?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "capital gains tax",
+    "x_range": [
+     "1960",
+     "2021"
+    ]
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How does the current maximum long-term capital gains tax rate compare with the proposed rate for high earners?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "entities": [
+     "capital gains tax",
+     "capital gains tax proposed"
+    ],
+    "x": [
+     "2021",
+     "2022"
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "1960",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax proposed",
+     "series": "",
+     "x": "2021",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The maximum long-term capital gains tax rate fluctuated over 1960–2021, starting at 25% in 1960, peaking at 35% from 1972 through 1977, falling to 15% from 2003 through 2012, and ending at 20% in 2021.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "1960",
+     "point_order": "1",
+     "field": "value",
+     "value": 25.0,
+     "unit": "%",
+     "row_sha": "a8d2bd8b8715e1d7"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "1972",
+     "point_order": "13",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "a83568b03bfad8da"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "1977",
+     "point_order": "18",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "4d4c8aff106aa20f"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "2003",
+     "point_order": "44",
+     "field": "value",
+     "value": 15.0,
+     "unit": "%",
+     "row_sha": "8ffbfdcd80e9829a"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "2012",
+     "point_order": "53",
+     "field": "value",
+     "value": 15.0,
+     "unit": "%",
+     "row_sha": "5bfc9786e8fca11e"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "2021",
+     "point_order": "62",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "e7baf3d6f3f45d56"
+    }
+   ],
+   "computation": "Trace the series from 1960 to 2021: start 25%; maximum 35% across 1972–1977; minimum 15% across 2003–2012; end 20% in 2021.",
+   "accept": [
+    "Rate starts at 25% in 1960 and ends at 20% in 2021.",
+    "Rate peaks at 35% from 1972 through 1977.",
+    "Rate reaches a low of 15% from 2003 through 2012.",
+    "Overall the rate fluctuates rather than moving monotonically."
+   ],
+   "reject": [
+    "Rate is constant over the period.",
+    "Rate ends higher than it started.",
+    "Peak occurs after 2000."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The current maximum long-term capital gains tax rate in 2021 is 20%, while the proposed rate for high earners is 39.6% in 2022, so the proposed rate is 19.6 percentage points higher (nearly double).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "capital gains tax",
+     "series": "",
+     "x": "2021",
+     "point_order": "62",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "e7baf3d6f3f45d56"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax proposed",
+     "series": "",
+     "x": "2021",
+     "point_order": "1",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "6628b08b9d925c80"
+    },
+    {
+     "panel": "",
+     "entity": "capital gains tax proposed",
+     "series": "",
+     "x": "2022",
+     "point_order": "2",
+     "field": "value",
+     "value": 39.6,
+     "unit": "%",
+     "row_sha": "f7a2eb5dd3cf049d"
+    }
+   ],
+   "computation": "Compare current 2021 rate (20%) with proposed 2022 rate (39.6%); difference = 39.6 − 20 = 19.6 percentage points; ratio = 39.6 / 20 = 1.98.",
+   "accept": [
+    "Current rate is 20% in 2021.",
+    "Proposed rate is 39.6% in 2022.",
+    "Proposed rate exceeds current rate by 19.6 percentage points.",
+    "Proposed rate is approximately double the current rate."
+   ],
+   "reject": [
+    "Current and proposed rates are equal.",
+    "Proposed rate is lower than current rate.",
+    "Difference is stated as 39.6 percentage points."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mention that the proposed series has only two points (2021 anchor at 20% and 2022 estimate at 39.6%)."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for rate changes.",
+  "Claims about rates after 2022.",
+  "Claims about other tax brackets or earners not shown."
+ ],
+ "review_notes": [
+  "The proposed series includes a 2021 anchor equal to the current rate and a 2022 estimate; the comparison unit uses the 2022 proposed value against the 2021 current value as requested.",
+  "Trend unit summarizes the full 1960–2021 path without enumerating every data point.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "capital gains tax",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "capital gains tax proposed",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

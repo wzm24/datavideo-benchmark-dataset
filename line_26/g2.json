@@ -1,0 +1,244 @@
+{
+ "clip_id": "line_26",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_26",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PRODUCTIVITY"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "WAGES"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "PRODUCTIVITY",
+    "WAGES"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "PRODUCTIVITY | #1",
+    "PRODUCTIVITY | 1960",
+    "PRODUCTIVITY | 1980",
+    "PRODUCTIVITY | 2000",
+    "PRODUCTIVITY | #41"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "PRODUCTIVITY | #1",
+      "value": -0.0047,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | 1960",
+      "value": 14.9958,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | 1980",
+      "value": 69.9758,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | 2000",
+      "value": 134.9995,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | #41",
+      "value": 225.0023,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From the late 1940s through the 2010s, indexed U.S. worker productivity rose steadily from about 0 to about 225, with the increase continuing across the entire period.",
+    "start_value": -0.0047,
+    "end_value": 225.0023,
+    "delta": 225.007,
+    "ratio": -47872.829787,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "WAGES | #1",
+    "WAGES | 1960",
+    "WAGES | 1980",
+    "WAGES | 2000",
+    "WAGES | #41"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "WAGES | #1",
+      "value": -0.0047,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 1960",
+      "value": 14.9958,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 1980",
+      "value": 69.9758,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 2000",
+      "value": 93.9765,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | #41",
+      "value": 110.0205,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From the late 1940s through the 2010s, indexed hourly wages rose from about 0 to about 110, but the increase was slower after around 1980 than the parallel rise in productivity.",
+    "start_value": -0.0047,
+    "end_value": 110.0205,
+    "delta": 110.0252,
+    "ratio": -23408.617021,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "PRODUCTIVITY | 1960",
+    "WAGES | 1960",
+    "PRODUCTIVITY | 1980",
+    "WAGES | 1980",
+    "PRODUCTIVITY | 2000",
+    "WAGES | 2000",
+    "PRODUCTIVITY | #41",
+    "WAGES | #41"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "PRODUCTIVITY | 1960",
+      "value": 14.9958,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 1960",
+      "value": 14.9958,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | 1980",
+      "value": 69.9758,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 1980",
+      "value": 69.9758,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | 2000",
+      "value": 134.9995,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | 2000",
+      "value": 93.9765,
+      "unit": "%"
+     },
+     {
+      "mark": "PRODUCTIVITY | #41",
+      "value": 225.0023,
+      "unit": "%"
+     },
+     {
+      "mark": "WAGES | #41",
+      "value": 110.0205,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Productivity and wages moved together early in the period but diverged after around 1980, with productivity ending far above wages (about 225 vs. about 110).",
+    "start_value": 14.9958,
+    "end_value": 110.0205,
+    "delta": 95.0247,
+    "ratio": 7.336754,
+    "direction": "increasing",
+    "expected_order": [
+     "PRODUCTIVITY | #41",
+     "PRODUCTIVITY | 2000",
+     "WAGES | #41",
+     "WAGES | 2000",
+     "PRODUCTIVITY | 1980",
+     "WAGES | 1980",
+     "PRODUCTIVITY | 1960",
+     "WAGES | 1960"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

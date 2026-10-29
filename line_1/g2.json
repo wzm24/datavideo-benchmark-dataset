@@ -1,0 +1,132 @@
+{
+ "clip_id": "line_1",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_1",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Inflation-adjusted chair price",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Inflation-adjusted chair price"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Inflation-adjusted chair price | 1990",
+    "Inflation-adjusted chair price | #3",
+    "Inflation-adjusted chair price | #11",
+    "Inflation-adjusted chair price | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Inflation-adjusted chair price | 1990",
+      "value": 294.9891,
+      "unit": "$"
+     },
+     {
+      "mark": "Inflation-adjusted chair price | #3",
+      "value": 335.0109,
+      "unit": "$"
+     },
+     {
+      "mark": "Inflation-adjusted chair price | #11",
+      "value": 105.0,
+      "unit": "$"
+     },
+     {
+      "mark": "Inflation-adjusted chair price | 2015",
+      "value": 25.0326,
+      "unit": "$"
+     }
+    ],
+    "expected_relation": "The inflation-adjusted chair price generally declined from 1990 to 2015, with an initial rise to a peak around point_order 3 before falling substantially.",
+    "start_value": 294.9891,
+    "end_value": 25.0326,
+    "delta": -269.9565,
+    "ratio": 0.084859,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Inflation-adjusted chair price | 1990",
+    "Inflation-adjusted chair price | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Inflation-adjusted chair price | 1990",
+      "value": 294.9891,
+      "unit": "$"
+     },
+     {
+      "mark": "Inflation-adjusted chair price | 2015",
+      "value": 25.0326,
+      "unit": "$"
+     }
+    ],
+    "expected_relation": "The inflation-adjusted chair price decreased from $294.9891 in 1990 to $25.0326 in 2015, an absolute drop of $269.9565 (about 91.5%).",
+    "start_value": 294.9891,
+    "end_value": 25.0326,
+    "delta": -269.9565,
+    "ratio": 0.084859,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

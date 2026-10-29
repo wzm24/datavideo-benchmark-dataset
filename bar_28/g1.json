@@ -186,7 +186,7 @@
    "id": "U4",
    "requirement_id": "R3",
    "unit_kind": "share_or_composition",
-   "must_be_visualized": true,
+   "must_be_visualized": false,
    "hardcase": true,
    "hardcase_reason": "The source chart has no direct visual mark for the share of Americans paying the tax.",
    "claim": "Only the richest 0.05% of Americans would pay the proposed wealth tax.",
@@ -209,13 +209,14 @@
      "metric": "population_share",
      "label": "0.05%"
     }
-   ]
+   ],
+   "visual_obligation_source": "g2_narration_only_hardcase"
   },
   {
    "id": "U5",
    "requirement_id": "R4",
    "unit_kind": "identity",
-   "must_be_visualized": true,
+   "must_be_visualized": false,
    "hardcase": true,
    "hardcase_reason": "The source chart labels tax thresholds and rates but does not show the total potential revenue.",
    "claim": "The tax could have raised about $200 billion in federal revenue in 2016.",
@@ -239,7 +240,8 @@
      "metric": "potential_revenue",
      "label": "$200 billion"
     }
-   ]
+   ],
+   "visual_obligation_source": "g2_narration_only_hardcase"
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -297,7 +299,8 @@
  "approved_at": "2026-10-22",
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "visual_flags_aligned_to_g2_20261029"
  ],
  "unit_kind_schema": "protocol_v1_2026_10_27"
 }

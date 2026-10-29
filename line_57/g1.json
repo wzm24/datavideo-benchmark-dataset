@@ -1,0 +1,688 @@
+{
+ "clip_id": "line_57",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare estimated vaccine effectiveness against hospitalization across age groups and vaccine brands from May through August 2021 to trace how it changed over time.",
+ "chart_structure": {
+  "clip_id": "line_57",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 3,
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2",
+    "U3"
+   ],
+   "scope": {
+    "panels": [
+     "Pfizer/BioNTech",
+     "Moderna",
+     "Johnson & Johnson"
+    ],
+    "required_series_count": 9
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did estimated vaccine effectiveness against hospitalization change over time (May–August 2021) for each age group within each vaccine brand panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panels": [
+     "Pfizer/BioNTech",
+     "Moderna",
+     "Johnson & Johnson"
+    ],
+    "x_range": [
+     "MAY",
+     "AUGUST"
+    ]
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How do the age-group trends compare within each vaccine brand panel?",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {
+    "panels": [
+     "Pfizer/BioNTech",
+     "Moderna",
+     "Johnson & Johnson"
+    ]
+   }
+  },
+  {
+   "id": "R4",
+   "question": "In the Johnson & Johnson panel, estimated vaccine effectiveness against hospitalization changed from May to August 2021: 18-49 declined from 95.5% to 93.5%, 50-64 rose from 88.0% to 93.0%, and 65+ declined from 85.0% to 83.0%.",
+   "relation": "single",
+   "unit_ids": [
+    "U6"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "Within each vaccine brand panel, the 65+ age group generally had lower estimated effectiveness than the 18-49 and 50-64 groups by August 2021, with the gap most pronounced for Pfizer/BioNTech (89.0% vs 96.5% and 95.5%) and Johnson & Johnson (83.0% vs 93.5% and 93.0%), while Moderna's 65+ (94.0%) was also below its younger groups (97.5% and 97.0%).",
+   "relation": "single",
+   "unit_ids": [
+    "U7"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required series appear in panel Pfizer/BioNTech.",
+   "basis": [
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required series appear in panel Moderna.",
+   "basis": [
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required series appear in panel Johnson & Johnson.",
+   "basis": [
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the Pfizer/BioNTech panel, estimated vaccine effectiveness against hospitalization declined from May to August 2021 for all age groups: 18-49 fell from 97.5% to 96.5%, 50-64 from 96.5% to 95.5%, and 65+ from 95.0% to 89.0%.",
+   "basis": [
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 97.5,
+     "unit": "%",
+     "row_sha": "05b427021e115209"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 96.5,
+     "unit": "%",
+     "row_sha": "20fd0042622cdfc5"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 96.5,
+     "unit": "%",
+     "row_sha": "d7408fbdd4e0cbfe"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 95.5,
+     "unit": "%",
+     "row_sha": "4e889e7ca162fe9b"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 95.0,
+     "unit": "%",
+     "row_sha": "698282e1a65aeeac"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 89.0,
+     "unit": "%",
+     "row_sha": "21c8c45a388318a1"
+    }
+   ],
+   "computation": "Compare first (May) and last (August) values for each age-group series in the Pfizer/BioNTech panel; all three series show a decrease.",
+   "accept": [
+    "Pfizer/BioNTech effectiveness declined for all age groups from May to August 2021",
+    "18-49: 97.5% to 96.5%; 50-64: 96.5% to 95.5%; 65+: 95.0% to 89.0%"
+   ],
+   "reject": [
+    "Pfizer/BioNTech effectiveness increased for any age group",
+    "Only one age group declined in the Pfizer/BioNTech panel"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the Moderna panel, estimated vaccine effectiveness against hospitalization changed modestly from May to August 2021: 18-49 rose from 96.5% to 97.5%, 50-64 rose from 96.5% to 97.0%, and 65+ declined from 97.0% to 94.0%.",
+   "basis": [
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 96.5,
+     "unit": "%",
+     "row_sha": "4009f3d055cb326b"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 97.5,
+     "unit": "%",
+     "row_sha": "b75d03051b377a9a"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 96.5,
+     "unit": "%",
+     "row_sha": "536fae20592aafe7"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 97.0,
+     "unit": "%",
+     "row_sha": "dbbfeeb1001dfd38"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 97.0,
+     "unit": "%",
+     "row_sha": "c38c16dff96720bb"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 94.0,
+     "unit": "%",
+     "row_sha": "9727837e01919f1e"
+    }
+   ],
+   "computation": "Compare first (May) and last (August) values for each age-group series in the Moderna panel; younger groups increased slightly while 65+ decreased.",
+   "accept": [
+    "Moderna 18-49 and 50-64 increased slightly; 65+ declined from 97.0% to 94.0%",
+    "Moderna effectiveness was stable or slightly up for younger groups and down for 65+"
+   ],
+   "reject": [
+    "Moderna effectiveness declined for all age groups",
+    "Moderna 65+ increased from May to August"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R4",
+   "unit_kind": "trend",
+   "claim": "In the Johnson & Johnson panel, estimated vaccine effectiveness against hospitalization changed from May to August 2021: 18-49 declined from 95.5% to 93.5%, 50-64 rose from 88.0% to 93.0%, and 65+ declined from 85.0% to 83.0%.",
+   "basis": [
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "18-49",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 95.5,
+     "unit": "%",
+     "row_sha": "139ddcc7a7326d20"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.5,
+     "unit": "%",
+     "row_sha": "50190a991cf09d9b"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "50-64",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 88.0,
+     "unit": "%",
+     "row_sha": "b34e2346733bdb34"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.0,
+     "unit": "%",
+     "row_sha": "216b53d91b648152"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "65+",
+     "x": "MAY",
+     "point_order": "1",
+     "field": "value",
+     "value": 85.0,
+     "unit": "%",
+     "row_sha": "0e7b3c73cca79562"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 83.0,
+     "unit": "%",
+     "row_sha": "86037e5c5d8c3b55"
+    }
+   ],
+   "computation": "Compare first (May) and last (August) values for each age-group series in the Johnson & Johnson panel; 50-64 increased while 18-49 and 65+ decreased.",
+   "accept": [
+    "Johnson & Johnson 50-64 increased from 88.0% to 93.0%; 18-49 and 65+ declined",
+    "Johnson & Johnson effectiveness trends differed by age group"
+   ],
+   "reject": [
+    "Johnson & Johnson effectiveness declined for all age groups",
+    "Johnson & Johnson 50-64 declined from May to August"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U7",
+   "requirement_id": "R5",
+   "unit_kind": "comparison",
+   "claim": "Within each vaccine brand panel, the 65+ age group generally had lower estimated effectiveness than the 18-49 and 50-64 groups by August 2021, with the gap most pronounced for Pfizer/BioNTech (89.0% vs 96.5% and 95.5%) and Johnson & Johnson (83.0% vs 93.5% and 93.0%), while Moderna's 65+ (94.0%) was also below its younger groups (97.5% and 97.0%).",
+   "basis": [
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 89.0,
+     "unit": "%",
+     "row_sha": "21c8c45a388318a1"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 96.5,
+     "unit": "%",
+     "row_sha": "20fd0042622cdfc5"
+    },
+    {
+     "panel": "Pfizer/BioNTech",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 95.5,
+     "unit": "%",
+     "row_sha": "4e889e7ca162fe9b"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 94.0,
+     "unit": "%",
+     "row_sha": "9727837e01919f1e"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 97.5,
+     "unit": "%",
+     "row_sha": "b75d03051b377a9a"
+    },
+    {
+     "panel": "Moderna",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 97.0,
+     "unit": "%",
+     "row_sha": "dbbfeeb1001dfd38"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "65+",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 83.0,
+     "unit": "%",
+     "row_sha": "86037e5c5d8c3b55"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "18-49",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.5,
+     "unit": "%",
+     "row_sha": "50190a991cf09d9b"
+    },
+    {
+     "panel": "Johnson & Johnson",
+     "entity": "",
+     "series": "50-64",
+     "x": "AUGUST",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.0,
+     "unit": "%",
+     "row_sha": "216b53d91b648152"
+    }
+   ],
+   "computation": "Compare August values across age groups within each panel; 65+ is lower than both younger groups in all three panels.",
+   "accept": [
+    "By August 2021, 65+ had lower effectiveness than younger age groups in all vaccine panels",
+    "The age-group gap was largest for Pfizer/BioNTech and Johnson & Johnson"
+   ],
+   "reject": [
+    "65+ had the highest effectiveness in any panel by August",
+    "Age groups were equal within a panel by August"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.14285714,
+  "U2": 0.14285714,
+  "U3": 0.14285714,
+  "U4": 0.14285714,
+  "U5": 0.14285714,
+  "U6": 0.14285714,
+  "U7": 0.14285714
+ },
+ "optional_valid": [
+  "Mention that the x-axis spans May through August 2021.",
+  "Mention that the y-axis is estimated vaccine effectiveness against hospitalization in percent."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the trends.",
+  "Statistical significance of differences.",
+  "Exact values for intermediate months unless needed to prove a trend.",
+  "Comparing absolute effectiveness across brands as a primary claim (intent focuses on within-brand age-group trends over time)."
+ ],
+ "review_notes": [
+  "Three panels correspond to vaccine brands; each panel contains three age-group series.",
+  "Semantic units U1–U3 cover the trend-over-time operation per panel; U4 covers the within-panel age-group comparison.",
+  "No crossing or threshold units were created because the intent does not explicitly request them and the data do not show crossings."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ],
+  "required_series": [
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "65+"
+   }
+  ],
+  "required_series_count": 9,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_52",
+ "version": "g3_line_temporal_policy_v1",
+ "narration_source": "model_generated",
+ "policy_status": "draft_requires_g4_calibration",
+ "units": [
+  {
+   "unit_id": "U1",
+   "applies": true,
+   "anchor_mode": "whole_video_completion",
+   "anchor_selector": "last_required_series_visible",
+   "ready_condition": "all declared panels and required series have appeared",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "series_identity_must_be_stable",
+   "transition": "ignore_mid_animation_geometry"
+  },
+  {
+   "unit_id": "U2",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "required trajectory segment is sufficiently drawn to support the claimed direction",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "transition": "ignore_mid_animation_geometry; judge_completed_path"
+  },
+  {
+   "unit_id": "U3",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "required trajectory segment is sufficiently drawn to support the claimed direction",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "transition": "ignore_mid_animation_geometry; judge_completed_path"
+  },
+  {
+   "unit_id": "U4",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "required trajectory segment is sufficiently drawn to support the claimed direction",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "transition": "ignore_mid_animation_geometry; judge_completed_path"
+  },
+  {
+   "unit_id": "U5",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "required trajectory segment is sufficiently drawn to support the claimed direction",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "transition": "ignore_mid_animation_geometry; judge_completed_path"
+  }
+ ]
+}

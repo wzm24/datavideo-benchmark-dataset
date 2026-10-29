@@ -1,0 +1,222 @@
+{
+ "clip_id": "line_63",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_63",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "reported cases",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "reported cases"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "reported cases | 1920",
+    "reported cases | 1925",
+    "reported cases | 1929",
+    "reported cases | 1931",
+    "reported cases | 1935",
+    "reported cases | 1939",
+    "reported cases | 1943",
+    "reported cases | 1945",
+    "reported cases | 1949",
+    "reported cases | 1951",
+    "reported cases | 1955",
+    "reported cases | 1957",
+    "reported cases | 1961",
+    "reported cases | 1965",
+    "reported cases | 1969",
+    "reported cases | 1971",
+    "reported cases | 1975",
+    "reported cases | 1977",
+    "reported cases | 1980"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "reported cases | 1920",
+      "value": 400000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1925",
+      "value": 320000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1929",
+      "value": 350000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1931",
+      "value": 280000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1935",
+      "value": 180000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1939",
+      "value": 220000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1943",
+      "value": 220000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1945",
+      "value": 400000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1949",
+      "value": 620000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1951",
+      "value": 550000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1955",
+      "value": 130000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1957",
+      "value": 130000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1961",
+      "value": 120000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1965",
+      "value": 120000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1969",
+      "value": 110000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1971",
+      "value": 80000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1975",
+      "value": 210000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1977",
+      "value": 20000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1980",
+      "value": 20000.0,
+      "unit": "cases"
+     }
+    ],
+    "expected_relation": "The reported global smallpox case count is traced over the years from 1920 to 1980, showing the overall trajectory across the period.",
+    "start_value": 400000.0,
+    "end_value": 20000.0,
+    "delta": -380000.0,
+    "ratio": 0.05,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "reported cases | 1920",
+    "reported cases | 1980"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "reported cases | 1920",
+      "value": 400000.0,
+      "unit": "cases"
+     },
+     {
+      "mark": "reported cases | 1980",
+      "value": 20000.0,
+      "unit": "cases"
+     }
+    ],
+    "expected_relation": "The reported global smallpox case count decreased from 400,000 cases in 1920 to 20,000 cases in 1980, a drop of 380,000 cases (a 95% decrease).",
+    "start_value": 400000.0,
+    "end_value": 20000.0,
+    "delta": -380000.0,
+    "ratio": 0.05,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

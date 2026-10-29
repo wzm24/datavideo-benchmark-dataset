@@ -1,0 +1,187 @@
+{
+ "clip_id": "line_2",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_2",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "SUPPLY",
+    "series": "SUPPLY"
+   },
+   {
+    "panel": "",
+    "entity": "DEMAND",
+    "series": "DEMAND"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "SUPPLY | SUPPLY",
+    "DEMAND | DEMAND"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "SUPPLY | SUPPLY | #1",
+    "SUPPLY | SUPPLY | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "SUPPLY | SUPPLY | #1",
+      "value": 0.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "SUPPLY | SUPPLY | #40",
+      "value": 1.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the SUPPLY series increases monotonically from 0.0000 at point_order 1 to 1.0000 at point_order 40 as quantity increases.",
+    "start_value": 0.0,
+    "end_value": 1.0,
+    "delta": 1.0,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "DEMAND | DEMAND | #1",
+    "DEMAND | DEMAND | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "DEMAND | DEMAND | #1",
+      "value": 1.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "DEMAND | DEMAND | #40",
+      "value": 0.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the DEMAND series decreases monotonically from 1.0000 at point_order 1 to 0.0000 at point_order 40 as quantity increases.",
+    "start_value": 1.0,
+    "end_value": 0.0,
+    "delta": -1.0,
+    "ratio": 0.0,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "crossing",
+   "must_be_visualized": true,
+   "evidence_type": "crossing",
+   "required_marks": [
+    "SUPPLY | SUPPLY | #26",
+    "DEMAND | DEMAND | #26",
+    "SUPPLY | SUPPLY | #27",
+    "DEMAND | DEMAND | #27",
+    "SUPPLY | SUPPLY | #28",
+    "DEMAND | DEMAND | #28"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "SUPPLY | SUPPLY | #26",
+      "value": 0.443,
+      "unit": "relative"
+     },
+     {
+      "mark": "DEMAND | DEMAND | #26",
+      "value": 0.557,
+      "unit": "relative"
+     },
+     {
+      "mark": "SUPPLY | SUPPLY | #27",
+      "value": 0.4789,
+      "unit": "relative"
+     },
+     {
+      "mark": "DEMAND | DEMAND | #27",
+      "value": 0.5211,
+      "unit": "relative"
+     },
+     {
+      "mark": "SUPPLY | SUPPLY | #28",
+      "value": 0.517,
+      "unit": "relative"
+     },
+     {
+      "mark": "DEMAND | DEMAND | #28",
+      "value": 0.483,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, SUPPLY and DEMAND cross once between point_order 27 and 28, at approximately point_order 27.55 and relative value 0.5000. SUPPLY is below DEMAND at point_order 27 and above DEMAND at point_order 28.",
+    "start_value": 0.443,
+    "end_value": 0.483,
+    "delta": 0.04,
+    "ratio": 1.090293,
+    "direction": "increasing",
+    "requires_both_series_before_and_after_crossing": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "clip_id": "line_67",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "9a4765a1ca97397653f36c8538da8fd108c107b1df3b479b54d192415e7a7e83",
+ "row_count": 4,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Bond maturity (3 months to 10 years)"
+  ],
+  "y_axes": [
+   "Interest rate (relative)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "3m",
+   "10y"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Yield curve normal",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "3m",
+    "10y"
+   ],
+   "first_value": 0.2667,
+   "last_value": 0.8444,
+   "min_value": 0.2667,
+   "max_value": 0.8444
+  },
+  {
+   "panel": "",
+   "entity": "Yield curve inverted",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "3m",
+    "10y"
+   ],
+   "first_value": 0.6444,
+   "last_value": 0.1778,
+   "min_value": 0.1778,
+   "max_value": 0.6444
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Yield curve normal",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Yield curve inverted",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

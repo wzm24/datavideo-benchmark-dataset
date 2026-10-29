@@ -1,0 +1,82 @@
+{
+ "clip_id": "line_33",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "999f5c43b477f8b3b0ac4fd719fcc9d25ca204bec8e2e8be09c0a8faf2e70368",
+ "row_count": 40,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Top 1% wealth share (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1920",
+   "1930",
+   "1940",
+   "1950",
+   "1960",
+   "1970",
+   "1980",
+   "1990",
+   "2000",
+   "2010"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Share of top percentage in total wealth",
+   "row_count": 40,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1920",
+    "1930",
+    "1940",
+    "1950",
+    "1960",
+    "1970",
+    "1980",
+    "1990",
+    "2000",
+    "2010"
+   ],
+   "first_value": 41.998,
+   "last_value": 40.0023,
+   "min_value": 23.9975,
+   "max_value": 46.0025
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Share of top percentage in total wealth"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

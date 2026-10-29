@@ -1,0 +1,291 @@
+{
+ "clip_id": "line_23",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace how the relative value of a ship and its cargo changes over the plotted period.",
+ "chart_structure": {
+  "clip_id": "line_23",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How does the relative value of the ship and its cargo change over the plotted period?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The relative value of the ship and its cargo declines over the plotted period, starting at 0.75 on day 1 and falling to 0.09 by day 40, with the steepest drop early and leveling off near the end.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.75,
+     "unit": "relative",
+     "row_sha": "3624e12692f35983"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 0.59,
+     "unit": "relative",
+     "row_sha": "ea0e09277fd9cda7"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "7",
+     "field": "value",
+     "value": 0.41,
+     "unit": "relative",
+     "row_sha": "100dcb4060703b9c"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "10",
+     "field": "value",
+     "value": 0.27,
+     "unit": "relative",
+     "row_sha": "18bc6bbd1988f8c4"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "13",
+     "field": "value",
+     "value": 0.19,
+     "unit": "relative",
+     "row_sha": "9adf22764cbe5569"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "16",
+     "field": "value",
+     "value": 0.15,
+     "unit": "relative",
+     "row_sha": "f24e8c0d12747d1d"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "19",
+     "field": "value",
+     "value": 0.125,
+     "unit": "relative",
+     "row_sha": "12e2924caf56dc25"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "22",
+     "field": "value",
+     "value": 0.11,
+     "unit": "relative",
+     "row_sha": "1551f5c45228f8d6"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "25",
+     "field": "value",
+     "value": 0.1,
+     "unit": "relative",
+     "row_sha": "51d1f8948665819d"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "28",
+     "field": "value",
+     "value": 0.095,
+     "unit": "relative",
+     "row_sha": "372ed61dbf3d170a"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "31",
+     "field": "value",
+     "value": 0.092,
+     "unit": "relative",
+     "row_sha": "51ade1fe88284ec3"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "34",
+     "field": "value",
+     "value": 0.09,
+     "unit": "relative",
+     "row_sha": "5b73a7653d89a766"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "37",
+     "field": "value",
+     "value": 0.09,
+     "unit": "relative",
+     "row_sha": "2589498fd350c0d2"
+    },
+    {
+     "panel": "",
+     "entity": "Ship cargo value",
+     "series": "",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 0.09,
+     "unit": "relative",
+     "row_sha": "df0d222283cc1e17"
+    }
+   ],
+   "computation": "Compare first value 0.75 at point_order 1 to last value 0.09 at point_order 40; observe monotonic non-increasing sequence with largest decreases between early points and near-flat values from point_order 34 onward.",
+   "accept": [
+    "Relative value decreases from 0.75 to 0.09 over the period.",
+    "The decline is steepest early and flattens near the end."
+   ],
+   "reject": [
+    "Relative value increases over the period.",
+    "Relative value remains constant.",
+    "Relative value ends above its starting value."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Mentioning the absolute difference of 0.66 between start and end.",
+  "Mentioning that values level off at 0.09 from point_order 34 to 40."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline.",
+  "Specific calendar dates or labeled x-axis values.",
+  "Comparisons with other entities or panels."
+ ],
+ "review_notes": [
+  "Single panel and single series; trend unit covers the full plotted period.",
+  "X-axis values are not provided, so basis rows use point_order only."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Ship cargo value",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_4",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "a73a05fd03c76a16f5980c0871c4331958fd839eaea3fe1483c9196b43515478",
+ "row_count": 19,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Fiscal year"
+  ],
+  "y_axes": [
+   "Net housing additions (thousands of homes)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2000-01",
+   "2010-11",
+   "2018-19"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Net housing additions",
+   "series": "",
+   "row_count": 19,
+   "unit": [
+    "K"
+   ],
+   "x_values": [
+    "2000-01",
+    "2010-11",
+    "2018-19"
+   ],
+   "first_value": 132.0,
+   "last_value": 247.77,
+   "min_value": 130.61,
+   "max_value": 247.77
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Net housing additions",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "clip_id": "line_93",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "4f0fd6d919a42324519b5698c210c32c3d2528feab0c1459197a73e57b18a737",
+ "row_count": 12,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (February-August 2021)"
+  ],
+  "y_axes": [
+   "Share of U.S. adults receiving at least one COVID-19 vaccine dose (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Feb '21",
+   "June '21",
+   "Aug '21"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Asian*",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 22.0,
+   "last_value": 94.0,
+   "min_value": 22.0,
+   "max_value": 94.0
+  },
+  {
+   "panel": "",
+   "entity": "Hispanic",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 16.0,
+   "last_value": 76.0,
+   "min_value": 16.0,
+   "max_value": 76.0
+  },
+  {
+   "panel": "",
+   "entity": "White",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 21.0,
+   "last_value": 72.0,
+   "min_value": 21.0,
+   "max_value": 72.0
+  },
+  {
+   "panel": "",
+   "entity": "Black",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 15.0,
+   "last_value": 70.0,
+   "min_value": 15.0,
+   "max_value": 70.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Asian*",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Hispanic",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "White",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Black",
+    "series": ""
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ }
+}

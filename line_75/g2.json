@@ -1,0 +1,315 @@
+{
+ "clip_id": "line_75",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_75",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Early retirement of worst emitters"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "100% replacement at end of life"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Production ramp, then 100% replacement"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "High carbon tax"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Low market subsidy"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Low carbon tax"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Free market"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Early retirement of worst emitters",
+    "100% replacement at end of life",
+    "Production ramp, then 100% replacement",
+    "High carbon tax",
+    "Low market subsidy",
+    "Low carbon tax",
+    "Free market"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Early retirement of worst emitters | #1",
+    "Early retirement of worst emitters | #2",
+    "Early retirement of worst emitters | #3",
+    "Early retirement of worst emitters | #4",
+    "100% replacement at end of life | #1",
+    "100% replacement at end of life | #2",
+    "100% replacement at end of life | #3",
+    "Production ramp, then 100% replacement | #1",
+    "Production ramp, then 100% replacement | #2",
+    "Production ramp, then 100% replacement | #3"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Early retirement of worst emitters | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Early retirement of worst emitters | #2",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Early retirement of worst emitters | #3",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Early retirement of worst emitters | #4",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "100% replacement at end of life | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "100% replacement at end of life | #2",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "100% replacement at end of life | #3",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Production ramp, then 100% replacement | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Production ramp, then 100% replacement | #2",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Production ramp, then 100% replacement | #3",
+      "value": 100.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the single panel, the aggressive replacement scenarios (Early retirement of worst emitters, 100% replacement at end of life, Production ramp then 100% replacement) all rise from 0% adoption at point_order 1 to 100% adoption by their final shown point_order (4, 3, and 3 respectively), with Early retirement reaching 35% at point_order 2 before hitting 100% at point_order 3.",
+    "start_value": 0.0,
+    "end_value": 100.0,
+    "delta": 100.0,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "High carbon tax | #1",
+    "High carbon tax | #61",
+    "Low market subsidy | #1",
+    "Low market subsidy | #61",
+    "Low carbon tax | #1",
+    "Low carbon tax | #61",
+    "Free market | #1",
+    "Free market | #61"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "High carbon tax | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "High carbon tax | #61",
+      "value": 82.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low market subsidy | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low market subsidy | #61",
+      "value": 72.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low carbon tax | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low carbon tax | #61",
+      "value": 60.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Free market | #1",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Free market | #61",
+      "value": 55.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the single panel, the market-driven and carbon-tax scenarios (High carbon tax, Low market subsidy, Low carbon tax, Free market) all rise monotonically from 0% at point_order 1 to their respective final values at point_order 61: High carbon tax 82%, Low market subsidy 72%, Low carbon tax 60%, and Free market 55%.",
+    "start_value": 0.0,
+    "end_value": 55.0,
+    "delta": 55.0,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Early retirement of worst emitters | #3",
+    "100% replacement at end of life | #2",
+    "Production ramp, then 100% replacement | #2",
+    "High carbon tax | #61",
+    "Low market subsidy | #61",
+    "Low carbon tax | #61",
+    "Free market | #61"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Early retirement of worst emitters | #3",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "100% replacement at end of life | #2",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Production ramp, then 100% replacement | #2",
+      "value": 100.0,
+      "unit": "%"
+     },
+     {
+      "mark": "High carbon tax | #61",
+      "value": 82.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low market subsidy | #61",
+      "value": 72.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Low carbon tax | #61",
+      "value": 60.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Free market | #61",
+      "value": 55.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the single panel, the aggressive replacement scenarios reach 100% adoption much earlier (by point_order 3 or 4) than the market-driven and carbon-tax scenarios, which by point_order 61 reach only 55% to 82%; among the market-driven and carbon-tax scenarios at point_order 61, High carbon tax is highest (82%), followed by Low market subsidy (72%), Low carbon tax (60%), and Free market (55%).",
+    "start_value": 100.0,
+    "end_value": 55.0,
+    "delta": -45.0,
+    "ratio": 0.55,
+    "direction": "decreasing",
+    "expected_order": [
+     "Early retirement of worst emitters | #3",
+     "100% replacement at end of life | #2",
+     "Production ramp, then 100% replacement | #2",
+     "High carbon tax | #61",
+     "Low market subsidy | #61",
+     "Low carbon tax | #61",
+     "Free market | #61"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

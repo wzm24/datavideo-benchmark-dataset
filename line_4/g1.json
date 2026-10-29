@@ -1,0 +1,213 @@
+{
+ "clip_id": "line_4",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare England's annual net housing additions across fiscal years 2000-01 to 2018-19 against the annual target and identify the highest year.",
+ "chart_structure": {
+  "clip_id": "line_4",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How do England's annual net housing additions change from 2000-01 to 2018-19?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Does the video identify the highest year for England's annual net housing additions?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Net housing additions",
+     "series": "",
+     "x": "2000-01",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "England's annual net housing additions fluctuate over fiscal years 2000-01 to 2018-19 but rise overall from 132.00 thousand in 2000-01 to 247.77 thousand in 2018-19.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Net housing additions",
+     "series": "",
+     "x": "2000-01",
+     "point_order": "1",
+     "field": "value",
+     "value": 132.0,
+     "unit": "K",
+     "row_sha": "9fbe087c974e24c2"
+    },
+    {
+     "panel": "",
+     "entity": "Net housing additions",
+     "series": "",
+     "x": "2010-11",
+     "point_order": "11",
+     "field": "value",
+     "value": 137.39,
+     "unit": "K",
+     "row_sha": "66171264ba9b5c67"
+    },
+    {
+     "panel": "",
+     "entity": "Net housing additions",
+     "series": "",
+     "x": "2018-19",
+     "point_order": "19",
+     "field": "value",
+     "value": 247.77,
+     "unit": "K",
+     "row_sha": "0f1ca2267139eb9a"
+    }
+   ],
+   "computation": "Compare the first and last plotted values: 247.77 - 132.00 = 115.77 thousand, an overall increase, while the intervening path is not monotonic.",
+   "accept": [
+    "Net housing additions rise overall from 132.00 thousand in 2000-01 to 247.77 thousand in 2018-19.",
+    "The path is described as fluctuating rather than monotonically increasing."
+   ],
+   "reject": [
+    "Claims that additions decline overall.",
+    "Claims that additions are flat across the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "extremum",
+   "claim": "The highest annual net housing additions occur in fiscal year 2018-19 with 247.77 thousand homes.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Net housing additions",
+     "series": "",
+     "x": "2018-19",
+     "point_order": "19",
+     "field": "value",
+     "value": 247.77,
+     "unit": "K",
+     "row_sha": "0f1ca2267139eb9a"
+    }
+   ],
+   "computation": "Identify the maximum value among all net housing additions data points; the maximum is 247.77 at 2018-19.",
+   "accept": [
+    "The video explicitly identifies 2018-19 as the year with the highest net housing additions.",
+    "The chart highlights or annotates the peak at 2018-19."
+   ],
+   "reject": [
+    "The video identifies a different year as the highest.",
+    "The video does not identify any highest year."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "The video may show the overall upward trend from 2000-01 to 2018-19.",
+  "The video may mention the minimum value in 2012-13 (130.61 thousand homes).",
+  "Comparing net housing additions with the annual target is optional_valid for V1 because the target series/value is absent from data_table.csv; it must not count as a required unit."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for changes in net housing additions.",
+  "Comparisons with other countries or regions not present in the table.",
+  "Exact values for years not explicitly listed in the table summary.",
+  "Do not claim that additions met or exceeded an annual target: the supplied data_table.csv contains no target series or target value."
+ ],
+ "review_notes": [
+  "The annual target value is not provided in the table summary; the comparison unit assumes the target is visualized as a reference line, but the exact target value is unknown from the given data.",
+  "Only three x-axis anchors are explicitly labeled in the summary; intermediate years are represented by point_order only.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv.",
+  "Closure adjudication 2026-10-29: data_table.csv is authoritative; unlabeled plotted turns are retained when they belong to the series."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Net housing additions",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

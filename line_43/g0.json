@@ -1,0 +1,60 @@
+{
+ "clip_id": "line_43",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "57ebad892eb78b061fe02d660782fdb527f841e9800be41f8d9ccf72489a2e6e",
+ "row_count": 23,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Time"
+  ],
+  "y_axes": [
+   "Demand level (relative)"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Demand",
+   "series": "Demand",
+   "row_count": 23,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.0,
+   "last_value": 0.8766,
+   "min_value": 0.0,
+   "max_value": 0.8766
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Demand",
+    "series": "Demand"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

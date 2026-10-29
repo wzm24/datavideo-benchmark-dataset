@@ -1,0 +1,228 @@
+{
+ "clip_id": "line_10",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_10",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "North Korea",
+    "series": "North Korea"
+   },
+   {
+    "panel": "",
+    "entity": "Thailand",
+    "series": "Thailand"
+   },
+   {
+    "panel": "",
+    "entity": "Portugal",
+    "series": "Portugal"
+   },
+   {
+    "panel": "",
+    "entity": "India",
+    "series": "India"
+   },
+   {
+    "panel": "",
+    "entity": "DR Congo",
+    "series": "DR Congo"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "North Korea | North Korea",
+    "Thailand | Thailand",
+    "Portugal | Portugal",
+    "India | India",
+    "DR Congo | DR Congo"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "North Korea | North Korea | 1900",
+    "North Korea | North Korea | #20"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "North Korea | North Korea | 1900",
+      "value": 0.0501,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "North Korea | North Korea | #20",
+      "value": 0.94,
+      "unit": "HDI index"
+     }
+    ],
+    "expected_relation": "North Korea's HDI rises from 0.0501 in 1900 to 0.94 at the final point, an overall upward trajectory.",
+    "start_value": 0.0501,
+    "end_value": 0.94,
+    "delta": 0.8899,
+    "ratio": 18.762475,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Thailand | Thailand | 1900",
+    "Thailand | Thailand | #19"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Thailand | Thailand | 1900",
+      "value": 0.0501,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "Thailand | Thailand | #19",
+      "value": 0.5201,
+      "unit": "HDI index"
+     }
+    ],
+    "expected_relation": "Thailand's HDI rises from 0.0501 in 1900 to 0.5201 at the final point, an overall upward trajectory.",
+    "start_value": 0.0501,
+    "end_value": 0.5201,
+    "delta": 0.47,
+    "ratio": 10.381238,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Portugal | Portugal | 1900",
+    "Portugal | Portugal | #18"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Portugal | Portugal | 1900",
+      "value": 0.0601,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "Portugal | Portugal | #18",
+      "value": 0.48,
+      "unit": "HDI index"
+     }
+    ],
+    "expected_relation": "Portugal's HDI rises from 0.0601 in 1900 to 0.48 at the final point, an overall upward trajectory.",
+    "start_value": 0.0601,
+    "end_value": 0.48,
+    "delta": 0.4199,
+    "ratio": 7.986689,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "India | India | 1900",
+    "India | India | #19",
+    "DR Congo | DR Congo | 1950",
+    "DR Congo | DR Congo | #21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "India | India | 1900",
+      "value": 0.0401,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "India | India | #19",
+      "value": 0.3999,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "DR Congo | DR Congo | 1950",
+      "value": 0.0799,
+      "unit": "HDI index"
+     },
+     {
+      "mark": "DR Congo | DR Congo | #21",
+      "value": 0.3501,
+      "unit": "HDI index"
+     }
+    ],
+    "expected_relation": "India's HDI rises from 0.0401 in 1900 to 0.3999 at the final point, and DR Congo's HDI rises from 0.0799 in 1950 to 0.3501 at its final point; both show overall upward trajectories.",
+    "start_value": 0.0401,
+    "end_value": 0.3501,
+    "delta": 0.31,
+    "ratio": 8.730673,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

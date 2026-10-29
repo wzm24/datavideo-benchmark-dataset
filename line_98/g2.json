@@ -1,0 +1,260 @@
+{
+ "clip_id": "line_98",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_98",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Senate",
+    "House of Representatives"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Senate | 1973-74",
+    "Senate | 1979-80",
+    "Senate | 1985-86",
+    "Senate | 1991-92",
+    "Senate | 1997-98",
+    "Senate | 2003-04",
+    "Senate | 2009-10",
+    "Senate | 2015-16"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Senate | 1973-74",
+      "value": 0.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1979-80",
+      "value": 0.3125,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1985-86",
+      "value": 0.375,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1991-92",
+      "value": 0.4375,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1997-98",
+      "value": 0.6875,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2003-04",
+      "value": 0.8125,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2009-10",
+      "value": 0.8875,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2015-16",
+      "value": 0.9375,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the Senate's relative polarization increases from 0.0000 in 1973-74 to 0.9375 in 2015-16, with intermediate values 0.3125 (1979-80), 0.3750 (1985-86), 0.4375 (1991-92), 0.6875 (1997-98), 0.8125 (2003-04), and 0.8875 (2009-10).",
+    "start_value": 0.0,
+    "end_value": 0.9375,
+    "delta": 0.9375,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "House of Representatives | 1979-80",
+    "House of Representatives | 1985-86",
+    "House of Representatives | 1991-92",
+    "House of Representatives | 1997-98",
+    "House of Representatives | 2003-04",
+    "House of Representatives | 2009-10",
+    "House of Representatives | 2015-16"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "House of Representatives | 1979-80",
+      "value": 0.5,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1985-86",
+      "value": 0.375,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1991-92",
+      "value": 0.4125,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1997-98",
+      "value": 0.75,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2003-04",
+      "value": 0.875,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2009-10",
+      "value": 0.9625,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2015-16",
+      "value": 1.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the House of Representatives' relative polarization increases from 0.5000 in 1979-80 to 1.0000 in 2015-16, with intermediate values 0.3750 (1985-86), 0.4125 (1991-92), 0.7500 (1997-98), 0.8750 (2003-04), and 0.9625 (2009-10).",
+    "start_value": 0.5,
+    "end_value": 1.0,
+    "delta": 0.5,
+    "ratio": 2.0,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Senate | 1979-80",
+    "House of Representatives | 1979-80",
+    "Senate | 1997-98",
+    "House of Representatives | 1997-98",
+    "Senate | 2015-16",
+    "House of Representatives | 2015-16"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Senate | 1979-80",
+      "value": 0.3125,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1979-80",
+      "value": 0.5,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 1997-98",
+      "value": 0.6875,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 1997-98",
+      "value": 0.75,
+      "unit": "relative"
+     },
+     {
+      "mark": "Senate | 2015-16",
+      "value": 0.9375,
+      "unit": "relative"
+     },
+     {
+      "mark": "House of Representatives | 2015-16",
+      "value": 1.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the House of Representatives generally has higher relative polarization than the Senate at comparable congressional periods, e.g., 0.5000 vs 0.3125 in 1979-80, 0.7500 vs 0.6875 in 1997-98, and 1.0000 vs 0.9375 in 2015-16.",
+    "start_value": 0.3125,
+    "end_value": 1.0,
+    "delta": 0.6875,
+    "ratio": 3.2,
+    "direction": "increasing",
+    "expected_order": [
+     "House of Representatives",
+     "Senate",
+     "House of Representatives",
+     "Senate",
+     "House of Representatives",
+     "Senate"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

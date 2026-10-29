@@ -1,9 +1,9 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type
-line_62,global deaths,deaths,170,,0,0,million,,estimated
-line_62,global deaths,deaths,253,,0.28,0.112,million,,estimated
-line_62,global deaths,deaths,420,,0.52,0.208,million,,estimated
-line_62,global deaths,deaths,587,,0.78,0.312,million,,estimated
-line_62,global deaths,deaths,670,,1,0.4,million,,estimated
-line_62,global deaths,deaths,837,,1.35,0.54,million,,estimated
-line_62,global deaths,deaths,1003,,1.95,0.78,million,,estimated
-line_62,global deaths,deaths,1170,,2.5,1,million,,printed
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,,1,0,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,April,2,0.28,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,June,3,0.52,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,Aug,4,0.78,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,Sept,5,1,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,Nov,6,1.35,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,Jan,7,1.95,million,,line
+,Date (March 2020-March 2021),Cumulative confirmed COVID-19 deaths,global deaths,,March 2021,8,2.5,million,,line

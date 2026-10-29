@@ -3,5 +3,10 @@
  "family": "line",
  "sub_type": "multi_panel",
  "orientation": "cartesian",
- "panel_count": 2
+ "panel_count": 2,
+ "panels": [
+  "Higher Average Scores",
+  "More Applicants"
+ ],
+ "time_behavior": "snapshot"
 }

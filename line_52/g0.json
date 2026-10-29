@@ -1,0 +1,142 @@
+{
+ "clip_id": "line_52",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "205ed38d275e91b869c087e8b11efa9ffb20df7b0fd4885c789fa1e1f1ed1ec6",
+ "row_count": 16,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Tax audit rate (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2011",
+   "2013",
+   "2015",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Audit rate for Americans with annual income >=$500K",
+   "series": "",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 8.0,
+   "last_value": 2.5,
+   "min_value": 2.5,
+   "max_value": 8.0
+  },
+  {
+   "panel": "",
+   "entity": "$200K-500K",
+   "series": "",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 2.6,
+   "last_value": 0.7,
+   "min_value": 0.7,
+   "max_value": 2.6
+  },
+  {
+   "panel": "",
+   "entity": "<$25K",
+   "series": "",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 1.2,
+   "last_value": 0.8,
+   "min_value": 0.8,
+   "max_value": 1.2
+  },
+  {
+   "panel": "",
+   "entity": "$25K-200K",
+   "series": "",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 0.8,
+   "last_value": 0.5,
+   "min_value": 0.5,
+   "max_value": 0.8
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Audit rate for Americans with annual income >=$500K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "$200K-500K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "<$25K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "$25K-200K",
+    "series": ""
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "clip_id": "line_11",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_11",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "TEST-OPTIONAL",
+    "TEST-REQUIRED"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "TEST-OPTIONAL | 1994",
+    "TEST-OPTIONAL | 1998",
+    "TEST-OPTIONAL | 2002",
+    "TEST-OPTIONAL | 2006",
+    "TEST-OPTIONAL | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-OPTIONAL | 1994",
+      "value": 1677.655,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 1998",
+      "value": 1977.5829,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2002",
+      "value": 2327.2705,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2006",
+      "value": 2777.3907,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2010",
+      "value": 3627.4147,
+      "unit": "applications"
+     }
+    ],
+    "expected_relation": "For test-optional schools, average applications per college increased over time from 1994 to 2010.",
+    "start_value": 1677.655,
+    "end_value": 3627.4147,
+    "delta": 1949.7597,
+    "ratio": 2.162193,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "TEST-REQUIRED | 1994",
+    "TEST-REQUIRED | 1998",
+    "TEST-REQUIRED | 2002",
+    "TEST-REQUIRED | 2006",
+    "TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-REQUIRED | 1994",
+      "value": 1577.679,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 1998",
+      "value": 1777.631,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2002",
+      "value": 1927.3667,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2006",
+      "value": 2327.2705,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2010",
+      "value": 3027.5589,
+      "unit": "applications"
+     }
+    ],
+    "expected_relation": "For test-required schools, average applications per college increased over time from 1994 to 2010.",
+    "start_value": 1577.679,
+    "end_value": 3027.5589,
+    "delta": 1449.8799,
+    "ratio": 1.918995,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "TEST-OPTIONAL | 1994",
+    "TEST-REQUIRED | 1994",
+    "TEST-OPTIONAL | 1998",
+    "TEST-REQUIRED | 1998",
+    "TEST-OPTIONAL | 2002",
+    "TEST-REQUIRED | 2002",
+    "TEST-OPTIONAL | 2006",
+    "TEST-REQUIRED | 2006",
+    "TEST-OPTIONAL | 2010",
+    "TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-OPTIONAL | 1994",
+      "value": 1677.655,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 1994",
+      "value": 1577.679,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 1998",
+      "value": 1977.5829,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 1998",
+      "value": 1777.631,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2002",
+      "value": 2327.2705,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2002",
+      "value": 1927.3667,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2006",
+      "value": 2777.3907,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2006",
+      "value": 2327.2705,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2010",
+      "value": 3627.4147,
+      "unit": "applications"
+     },
+     {
+      "mark": "TEST-REQUIRED | 2010",
+      "value": 3027.5589,
+      "unit": "applications"
+     }
+    ],
+    "expected_relation": "Test-optional schools had higher average applications per college than test-required schools at each displayed year from 1994 to 2010, and the gap widened over time.",
+    "start_value": 1677.655,
+    "end_value": 3027.5589,
+    "delta": 1349.9039,
+    "ratio": 1.804637,
+    "direction": "increasing",
+    "expected_order": [
+     "TEST-OPTIONAL | 2010",
+     "TEST-REQUIRED | 2010",
+     "TEST-OPTIONAL | 2006",
+     "TEST-OPTIONAL | 2002",
+     "TEST-REQUIRED | 2006",
+     "TEST-OPTIONAL | 1998",
+     "TEST-REQUIRED | 2002",
+     "TEST-REQUIRED | 1998",
+     "TEST-OPTIONAL | 1994",
+     "TEST-REQUIRED | 1994"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

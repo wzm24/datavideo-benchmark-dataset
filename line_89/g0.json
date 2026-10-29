@@ -1,0 +1,211 @@
+{
+ "clip_id": "line_89",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "135ba7f0cf5fd4eb281517361f0c9b7b204f49ae00440a3ca9db95884117988b",
+ "row_count": 64,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Maximum long-term capital gains tax rate (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1960",
+   "1961",
+   "1962",
+   "1963",
+   "1964",
+   "1965",
+   "1966",
+   "1967",
+   "1968",
+   "1969",
+   "1970",
+   "1971",
+   "1972",
+   "1973",
+   "1974",
+   "1975",
+   "1976",
+   "1977",
+   "1978",
+   "1979",
+   "1980",
+   "1981",
+   "1982",
+   "1983",
+   "1984",
+   "1985",
+   "1986",
+   "1987",
+   "1988",
+   "1989",
+   "1990",
+   "1991",
+   "1992",
+   "1993",
+   "1994",
+   "1995",
+   "1996",
+   "1997",
+   "1998",
+   "1999",
+   "2000",
+   "2001",
+   "2002",
+   "2003",
+   "2004",
+   "2005",
+   "2006",
+   "2007",
+   "2008",
+   "2009",
+   "2010",
+   "2011",
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "capital gains tax",
+   "series": "",
+   "row_count": 62,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1960",
+    "1961",
+    "1962",
+    "1963",
+    "1964",
+    "1965",
+    "1966",
+    "1967",
+    "1968",
+    "1969",
+    "1970",
+    "1971",
+    "1972",
+    "1973",
+    "1974",
+    "1975",
+    "1976",
+    "1977",
+    "1978",
+    "1979",
+    "1980",
+    "1981",
+    "1982",
+    "1983",
+    "1984",
+    "1985",
+    "1986",
+    "1987",
+    "1988",
+    "1989",
+    "1990",
+    "1991",
+    "1992",
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021"
+   ],
+   "first_value": 25.0,
+   "last_value": 20.0,
+   "min_value": 15.0,
+   "max_value": 35.0
+  },
+  {
+   "panel": "",
+   "entity": "capital gains tax proposed",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2021",
+    "2022"
+   ],
+   "first_value": 20.0,
+   "last_value": 39.6,
+   "min_value": 20.0,
+   "max_value": 39.6
+  }
+ ],
+ "estimated_or_projected_roles": [
+  "line_estimate"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "capital gains tax",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "capital gains tax proposed",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

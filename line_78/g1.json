@@ -1,0 +1,247 @@
+{
+ "clip_id": "line_78",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the estimated daily oxygen need in India from March 2020 through March 2021 and identify when it reached its highest level.",
+ "chart_structure": {
+  "clip_id": "line_78",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the estimated daily oxygen need in India from March 2020 through March 2021 and identify when it reached its highest level?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The estimated daily oxygen need in India reaches its highest level in March 2021 at 10.501155 million m³, which is greater than all other monthly values in the period.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The estimated daily oxygen need in India changes over time from March 2020 through March 2021, starting at 0.200751 million m³ in March 2020, rising to a local peak of 4.501733 million m³ in September 2020, declining to 1.500578 million m³ in February 2021, and then rising sharply to 10.501155 million m³ in March 2021.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.200751,
+     "unit": "million m³",
+     "row_sha": "6ed2f6567a86e6da"
+    },
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Sep 2020",
+     "point_order": "7",
+     "field": "value",
+     "value": 4.501733,
+     "unit": "million m³",
+     "row_sha": "e718a3b877e82acb"
+    },
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Feb 2021",
+     "point_order": "12",
+     "field": "value",
+     "value": 1.500578,
+     "unit": "million m³",
+     "row_sha": "f7ab7831f8122afb"
+    },
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Mar 2021",
+     "point_order": "13",
+     "field": "value",
+     "value": 10.501155,
+     "unit": "million m³",
+     "row_sha": "d441a8632c3295f9"
+    }
+   ],
+   "computation": "Trace the line across the ordered x-values from Mar 2020 to Mar 2021, noting the overall shape: initial rise, mid-period decline, and final sharp increase.",
+   "accept": [
+    "Describes an overall upward trend from March 2020 to March 2021 with a mid-period decline.",
+    "Mentions the rise to September 2020, decline through February 2021, and sharp rise to March 2021.",
+    "Uses the line to show how oxygen need evolves over the stated period."
+   ],
+   "reject": [
+    "Claims oxygen need decreased monotonically over the whole period.",
+    "Omits the mid-period decline or the final sharp rise.",
+    "Describes only isolated points without conveying the trend."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "extremum",
+   "claim": "The estimated daily oxygen need in India reaches its highest level in March 2021 at 10.501155 million m³, which is greater than all other monthly values in the period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Mar 2021",
+     "point_order": "13",
+     "field": "value",
+     "value": 10.501155,
+     "unit": "million m³",
+     "row_sha": "d441a8632c3295f9"
+    },
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Sep 2020",
+     "point_order": "7",
+     "field": "value",
+     "value": 4.501733,
+     "unit": "million m³",
+     "row_sha": "e718a3b877e82acb"
+    },
+    {
+     "panel": "",
+     "entity": "oxygen need",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.200751,
+     "unit": "million m³",
+     "row_sha": "6ed2f6567a86e6da"
+    }
+   ],
+   "computation": "Compare the value at March 2021 (10.501155) against the maximum of all other points; the next highest is September 2020 at 4.501733, so March 2021 is the global maximum.",
+   "accept": [
+    "Identifies March 2021 as the time of the highest estimated daily oxygen need.",
+    "States the maximum value is about 10.5 million m³.",
+    "Shows that the March 2021 point is the peak of the line."
+   ],
+   "reject": [
+    "Identifies September 2020 or any other month as the highest level.",
+    "Fails to name the peak month.",
+    "Claims the maximum occurs at the start of the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the specific value 4.501733 million m³ for September 2020 as a local peak.",
+  "Notes that the lowest value is 0.200751 million m³ in March 2020."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the changes in oxygen need.",
+  "Comparisons with other countries or regions.",
+  "Claims about data after March 2021 or before March 2020.",
+  "Exact percentage changes unless computed from the table."
+ ],
+ "review_notes": [
+  "The intent asks for a trace over the period and identification of the highest level, yielding two semantic units: one trend and one extremum.",
+  "The x-axis label mentions April 2021 but the data ends at March 2021; the claim follows the data table."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "oxygen need",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

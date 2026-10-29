@@ -1,0 +1,132 @@
+{
+ "clip_id": "line_82",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_82",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "oxygen need",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "oxygen need"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "oxygen need | Mar 2020",
+    "oxygen need | Sep 2020",
+    "oxygen need | Feb 2021",
+    "oxygen need | Mar 2021"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "oxygen need | Mar 2020",
+      "value": 0.200751,
+      "unit": "million m³"
+     },
+     {
+      "mark": "oxygen need | Sep 2020",
+      "value": 4.501733,
+      "unit": "million m³"
+     },
+     {
+      "mark": "oxygen need | Feb 2021",
+      "value": 1.500578,
+      "unit": "million m³"
+     },
+     {
+      "mark": "oxygen need | Mar 2021",
+      "value": 10.501155,
+      "unit": "million m³"
+     }
+    ],
+    "expected_relation": "The estimated daily oxygen need rises from 0.200751 million m³ in March 2020 to a peak of 4.501733 million m³ in September 2020, then declines to 1.500578 million m³ by February 2021, before jumping to 10.501155 million m³ in March 2021.",
+    "start_value": 0.200751,
+    "end_value": 10.501155,
+    "delta": 10.300404,
+    "ratio": 52.309353,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "oxygen need | Feb 2021",
+    "oxygen need | Mar 2021"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "oxygen need | Feb 2021",
+      "value": 1.500578,
+      "unit": "million m³"
+     },
+     {
+      "mark": "oxygen need | Mar 2021",
+      "value": 10.501155,
+      "unit": "million m³"
+     }
+    ],
+    "expected_relation": "The largest month-over-month increase in estimated daily oxygen need occurs between February 2021 and March 2021, rising from 1.500578 to 10.501155 million m³ (an increase of about 9.000577 million m³).",
+    "start_value": 1.500578,
+    "end_value": 10.501155,
+    "delta": 9.000577,
+    "ratio": 6.998073,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

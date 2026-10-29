@@ -1,0 +1,179 @@
+{
+ "clip_id": "line_32",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_32",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Top 10%",
+    "series": "Top 10%"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Top 10% | Top 10%"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Top 10% | Top 10% | 1910",
+    "Top 10% | Top 10% | #39",
+    "Top 10% | Top 10% | #15",
+    "Top 10% | Top 10% | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 10% | Top 10% | 1910",
+      "value": 40.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | #39",
+      "value": 50.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | #15",
+      "value": 32.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | 2010",
+      "value": 47.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The top 10% income share starts near 40.5% in 1910, rises to a high near 50% before the mid-century, falls to a low near 32.5% around the mid-century, then rises again toward roughly 47.5% by 2010.",
+    "start_value": 40.5,
+    "end_value": 47.5,
+    "delta": 7.0,
+    "ratio": 1.17284,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Top 10% | Top 10% | #39",
+    "Top 10% | Top 10% | 1910",
+    "Top 10% | Top 10% | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 10% | Top 10% | #39",
+      "value": 50.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | 1910",
+      "value": 40.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | 2010",
+      "value": 47.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The top 10% income share reaches its maximum of 50.0% at point_order 39, which is before the 2010 endpoint and after the 1910 start.",
+    "start_value": 50.0,
+    "end_value": 47.5,
+    "delta": -2.5,
+    "ratio": 0.95,
+    "direction": "decreasing",
+    "extreme_value": 50.0
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Top 10% | Top 10% | #39",
+    "Top 10% | Top 10% | #15"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 10% | Top 10% | #39",
+      "value": 50.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 10% | Top 10% | #15",
+      "value": 32.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The top 10% income share reaches 50.0% at point_order 39 near the end of the plotted series, much later than its 32.5% trough at point_order 15; the peak is not coincident with that earlier trough.",
+    "start_value": 50.0,
+    "end_value": 32.5,
+    "delta": -17.5,
+    "ratio": 0.65,
+    "direction": "decreasing",
+    "expected_order": [
+     "Top 10%",
+     "Top 10%"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

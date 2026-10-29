@@ -1,28 +1,32 @@
 {
  "clip_id": "line_14",
- "intent_en": "To illustrate the concept of carrying capacity and population regulation, demonstrating how populations self-correct from overpopulation to a sustainable equilibrium through cycles of starvation and recovery.",
- "previous_intent": "To explain economic desirability and market competition by analogy to penguin population dynamics, illustrating how extreme environments limit population to a sustainable low level with minimal competition through cycles of starvation and recovery.",
- "narration_support": "If there are too many penguins, they starve and recover until a sustainable number is reached.",
- "chart_support": "Line chart showing a population trend (indicated by a penguin icon) that rises, drops at a point labeled 'STARVE', rises again at 'RECOVER', and stabilizes at a dashed line labeled 'SUSTAINABLE'.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.9,
- "evidence_note": "The narration explicitly describes the dynamic of overpopulation leading to starvation and subsequent recovery to a sustainable level, which directly corresponds to the labels ('STARVE', 'RECOVER', 'SUSTAINABLE') and the trajectory of the line chart. The initial fragment of the narration appears to be context about economic migration, but the core explanation aligns perfectly with the chart's depiction of population dynamics.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that penguin population overshoots and then recovers toward a sustainable carrying capacity of about 0.74 relative to a peak near 0.92.",
+ "intent_en": "Trace the penguin population level over time and compare it with the sustainable carrying capacity to determine how the population changes relative to that capacity.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

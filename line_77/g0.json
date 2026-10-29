@@ -1,0 +1,88 @@
+{
+ "clip_id": "line_77",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "b0dccbf75ff50f522a15ea1075b7910e7c43730889c9bca4baa75c958a749a71",
+ "row_count": 200,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (March 2020-April 2021)"
+  ],
+  "y_axes": [
+   "Confirmed daily COVID-19 cases in India (thousand cases, 7-day moving average)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Mar 2020",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec",
+   "Jan 2021",
+   "Feb",
+   "Mar"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "daily cases 7dma",
+   "series": "",
+   "row_count": 200,
+   "unit": [
+    "thousand cases"
+   ],
+   "x_values": [
+    "Mar 2020",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan 2021",
+    "Feb",
+    "Mar"
+   ],
+   "first_value": 4.5613,
+   "last_value": 369.5175,
+   "min_value": 4.5613,
+   "max_value": 369.5175
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily cases 7dma",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

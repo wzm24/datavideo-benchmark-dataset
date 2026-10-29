@@ -1,0 +1,149 @@
+{
+ "clip_id": "line_58",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_58",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "National polls off by",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "National polls off by"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "National polls off by | 1936",
+    "National polls off by | 1960",
+    "National polls off by | 1980",
+    "National polls off by | 2000",
+    "National polls off by | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "National polls off by | 1936",
+      "value": 12.0,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 1960",
+      "value": 1.5,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 1980",
+      "value": 6.5,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 2000",
+      "value": 6.0,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 2016",
+      "value": 2.0,
+      "unit": "pts"
+     }
+    ],
+    "expected_relation": "The average absolute error in final national presidential polls varies across election years, with values including 12.0 pts in 1936, 1.5 pts in 1960, 6.5 pts in 1980, 6.0 pts in 2000, and 2.0 pts in 2016.",
+    "start_value": 12.0,
+    "end_value": 2.0,
+    "delta": -10.0,
+    "ratio": 0.166667,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "National polls off by | 1936",
+    "National polls off by | 2000",
+    "National polls off by | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "National polls off by | 1936",
+      "value": 12.0,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 2000",
+      "value": 6.0,
+      "unit": "pts"
+     },
+     {
+      "mark": "National polls off by | 2016",
+      "value": 2.0,
+      "unit": "pts"
+     }
+    ],
+    "expected_relation": "The earliest period has a higher average absolute error than the period since 2000: the 1936 value is 12.0 pts, while values from 2000 onward are 6.0 pts in 2000 and 2.0 pts in 2016.",
+    "start_value": 12.0,
+    "end_value": 2.0,
+    "delta": -10.0,
+    "ratio": 0.166667,
+    "direction": "decreasing",
+    "expected_order": [
+     "National polls off by",
+     "National polls off by",
+     "National polls off by"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

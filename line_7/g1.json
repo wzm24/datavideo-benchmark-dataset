@@ -1,0 +1,319 @@
+{
+ "clip_id": "line_7",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the company's revenue and profit trajectories from 1998 to 2018 to determine how each measure changed over the period.",
+ "chart_structure": {
+  "clip_id": "line_7",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did the company's revenue trajectory change from 1998 to 2018?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "series": "REVENUE",
+    "x_range": [
+     "1998",
+     "2018"
+    ]
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How did the company's profit trajectory change from 1998 to 2018?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "series": "PROFIT",
+    "x_range": [
+     "1998",
+     "2018"
+    ]
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How do the revenue and profit trajectories compare over 1998 to 2018?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": "",
+    "series": [
+     "REVENUE",
+     "PROFIT"
+    ],
+    "x_range": [
+     "1998",
+     "2018"
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "REVENUE",
+     "x": "1998",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PROFIT",
+     "x": "1998",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Revenue increased from 0.0B in 1998 to 60.0B in 2018, an upward trajectory over the period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "REVENUE",
+     "x": "1998",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "B",
+     "row_sha": "0f5afe0585aab395"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "REVENUE",
+     "x": "2018",
+     "point_order": "856",
+     "field": "value",
+     "value": 60.0,
+     "unit": "B",
+     "row_sha": "a002bf523a6a7bf7"
+    }
+   ],
+   "computation": "Compare first and last revenue values: 0.0B (1998) to 60.0B (2018); direction is increasing.",
+   "accept": [
+    "Revenue rises from 0.0B in 1998 to 60.0B in 2018.",
+    "Revenue shows an upward trend over the period."
+   ],
+   "reject": [
+    "Revenue decreased from 1998 to 2018.",
+    "Revenue remained flat over the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "Profit increased from 0.4957B in 1998 to 2.5043B in 2018, an upward trajectory over the period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PROFIT",
+     "x": "1998",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.4957,
+     "unit": "B",
+     "row_sha": "a257df02fd47a4d9"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PROFIT",
+     "x": "2018",
+     "point_order": "12",
+     "field": "value",
+     "value": 2.5043,
+     "unit": "B",
+     "row_sha": "40a970510585dbf1"
+    }
+   ],
+   "computation": "Compare first and last profit values: 0.4957B (1998) to 2.5043B (2018); direction is increasing.",
+   "accept": [
+    "Profit rises from 0.4957B in 1998 to 2.5043B in 2018.",
+    "Profit shows an upward trend over the period."
+   ],
+   "reject": [
+    "Profit decreased from 1998 to 2018.",
+    "Profit remained flat over the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Both revenue and profit increased from 1998 to 2018, with revenue growing from 0.0B to 60.0B and profit from 0.4957B to 2.5043B; revenue's absolute increase is much larger.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "REVENUE",
+     "x": "1998",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "B",
+     "row_sha": "0f5afe0585aab395"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "REVENUE",
+     "x": "2018",
+     "point_order": "856",
+     "field": "value",
+     "value": 60.0,
+     "unit": "B",
+     "row_sha": "a002bf523a6a7bf7"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PROFIT",
+     "x": "1998",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.4957,
+     "unit": "B",
+     "row_sha": "a257df02fd47a4d9"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PROFIT",
+     "x": "2018",
+     "point_order": "12",
+     "field": "value",
+     "value": 2.5043,
+     "unit": "B",
+     "row_sha": "40a970510585dbf1"
+    }
+   ],
+   "computation": "Revenue change = 60.0 - 0.0 = 60.0B; profit change = 2.5043 - 0.4957 = 2.0086B; both positive, revenue change larger.",
+   "accept": [
+    "Both revenue and profit increased over 1998 to 2018.",
+    "Revenue grew by a larger absolute amount than profit."
+   ],
+   "reject": [
+    "Revenue and profit moved in opposite directions.",
+    "Profit grew by a larger absolute amount than revenue."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Revenue and profit both show upward trajectories from 1998 to 2018."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the revenue or profit changes.",
+  "Claims about intermediate years not explicitly anchored in the table summary.",
+  "Percentage change comparisons unless computed from the provided endpoints."
+ ],
+ "review_notes": [
+  "Revenue row_count is 856 with many intermediate points; only endpoints are used for the trend claim.",
+  "Profit has 12 points; endpoints are used for the trend claim.",
+  "No panel distinction needed because panel_count is 1."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "REVENUE"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PROFIT"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

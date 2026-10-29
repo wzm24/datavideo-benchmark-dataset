@@ -1,0 +1,358 @@
+{
+ "clip_id": "line_61",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_61",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "panels": [
+   "Democratic",
+   "Republican"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "General Social Survey"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "General Social Survey"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Democratic | Pew Research Center",
+    "Democratic | General Social Survey"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Republican | Pew Research Center",
+    "Republican | General Social Survey"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Democratic | Pew Research Center | 1990",
+    "Democratic | Pew Research Center | 2000",
+    "Democratic | Pew Research Center | 2010",
+    "Democratic | Pew Research Center | 2016",
+    "Democratic | General Social Survey | 1990",
+    "Democratic | General Social Survey | 2000",
+    "Democratic | General Social Survey | 2010",
+    "Democratic | General Social Survey | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Democratic | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | Pew Research Center | 2000",
+      "value": 28.13,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | Pew Research Center | 2010",
+      "value": 35.11,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | Pew Research Center | 2016",
+      "value": 38.11,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 1990",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 2000",
+      "value": 33.22,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 2010",
+      "value": 33.11,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 2016",
+      "value": 32.52,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the Democratic panel, Pew Research Center estimates rise from 31% in 1990 to 38.11% in 2016, while General Social Survey estimates decline from 35% in 1990 to 32.52% in 2016, so the two series diverge over time.",
+    "start_value": 31.0,
+    "end_value": 32.52,
+    "delta": 1.52,
+    "ratio": 1.049032,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Republican | Pew Research Center | 1990",
+    "Republican | Pew Research Center | 2000",
+    "Republican | Pew Research Center | 2010",
+    "Republican | Pew Research Center | 2016",
+    "Republican | General Social Survey | 1990",
+    "Republican | General Social Survey | 2000",
+    "Republican | General Social Survey | 2010",
+    "Republican | General Social Survey | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Republican | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 2000",
+      "value": 27.12,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 2010",
+      "value": 24.13,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 2016",
+      "value": 22.14,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 1990",
+      "value": 33.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 2000",
+      "value": 24.63,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 2010",
+      "value": 21.63,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 2016",
+      "value": 21.24,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the Republican panel, both Pew Research Center and General Social Survey estimates decline from 1990 to 2016, with Pew falling from 31% to 22.14% and GSS falling from 33% to 21.24%, so the two series track closely in direction and level.",
+    "start_value": 31.0,
+    "end_value": 21.24,
+    "delta": -9.76,
+    "ratio": 0.685161,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Democratic | Pew Research Center | 1990",
+    "Democratic | Pew Research Center | 2016",
+    "Democratic | General Social Survey | 1990",
+    "Democratic | General Social Survey | 2016",
+    "Republican | Pew Research Center | 1990",
+    "Republican | Pew Research Center | 2016",
+    "Republican | General Social Survey | 1990",
+    "Republican | General Social Survey | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Democratic | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | Pew Research Center | 2016",
+      "value": 38.11,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 1990",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 2016",
+      "value": 32.52,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 2016",
+      "value": 22.14,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 1990",
+      "value": 33.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 2016",
+      "value": 21.24,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Across both panels, the telephone survey estimates (Pew Research Center) and federal survey benchmarks (General Social Survey) track more closely for Republican identification than for Democratic identification, because the Republican series remain near each other while the Democratic series diverge.",
+    "start_value": 31.0,
+    "end_value": 21.24,
+    "delta": -9.76,
+    "ratio": 0.685161,
+    "direction": "decreasing",
+    "expected_order": [
+     "Democratic | Pew Research Center | 2016",
+     "Democratic | General Social Survey | 1990",
+     "Republican | General Social Survey | 1990",
+     "Democratic | General Social Survey | 2016",
+     "Democratic | Pew Research Center | 1990",
+     "Republican | Pew Research Center | 1990",
+     "Republican | Pew Research Center | 2016",
+     "Republican | General Social Survey | 2016"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "panel_identity",
+   "must_be_visualized": true,
+   "evidence_type": "panel_identity",
+   "required_marks": [
+    "Democratic | Pew Research Center | 1990",
+    "Democratic | General Social Survey | 1990",
+    "Republican | Pew Research Center | 1990",
+    "Republican | General Social Survey | 1990"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Democratic | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Democratic | General Social Survey | 1990",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | Pew Research Center | 1990",
+      "value": 31.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Republican | General Social Survey | 1990",
+      "value": 33.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The chart has two panels: the Democratic panel shows share identifying with the Democratic Party, and the Republican panel shows share identifying with the Republican Party, each with Pew Research Center and General Social Survey series over years.",
+    "start_value": 31.0,
+    "end_value": 33.0,
+    "delta": 2.0,
+    "ratio": 1.064516,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "clip_id": "line_2",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the modeled supply, demand, and price levels across the quantity range.",
+ "chart_structure": {
+  "clip_id": "line_2",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the modeled supply, demand, and price levels across the quantity range.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "In the single panel, the DEMAND series decreases monotonically from 1.0000 at point_order 1 to 0.0000 at point_order 40 as quantity increases.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Where do the SUPPLY and DEMAND series cross, and what is the approximate crossing level?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the SUPPLY series increases monotonically from 0.0000 at point_order 1 to 1.0000 at point_order 40 as quantity increases.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "relative",
+     "row_sha": "08baf09616b0d51e"
+    },
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "74b9e5e7a96a2711"
+    }
+   ],
+   "computation": "Compare first and last values of SUPPLY: 0.0000 to 1.0000; intermediate sampled points are non-decreasing.",
+   "accept": [
+    "SUPPLY rises from 0 to 1 across the quantity range",
+    "SUPPLY increases with quantity"
+   ],
+   "reject": [
+    "SUPPLY decreases",
+    "SUPPLY is flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the DEMAND series decreases monotonically from 1.0000 at point_order 1 to 0.0000 at point_order 40 as quantity increases.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "78a999ef71a0404b"
+    },
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 0.0,
+     "unit": "relative",
+     "row_sha": "bc92b5cb87548a8f"
+    }
+   ],
+   "computation": "Compare first and last values of DEMAND: 1.0000 to 0.0000; intermediate sampled points are non-increasing.",
+   "accept": [
+    "DEMAND falls from 1 to 0 across the quantity range",
+    "DEMAND decreases with quantity"
+   ],
+   "reject": [
+    "DEMAND increases",
+    "DEMAND is flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "crossing",
+   "claim": "In the single panel, SUPPLY and DEMAND cross once between point_order 27 and 28, at approximately point_order 27.55 and relative value 0.5000. SUPPLY is below DEMAND at point_order 27 and above DEMAND at point_order 28.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "26",
+     "field": "value",
+     "value": 0.443,
+     "unit": "relative",
+     "row_sha": "b7d044d0a4cc0f7d"
+    },
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "26",
+     "field": "value",
+     "value": 0.557,
+     "unit": "relative",
+     "row_sha": "8116ef6dc642468b"
+    },
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "27",
+     "field": "value",
+     "value": 0.4789,
+     "unit": "relative",
+     "row_sha": "d71e4f4a8748d994"
+    },
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "27",
+     "field": "value",
+     "value": 0.5211,
+     "unit": "relative",
+     "row_sha": "8b6681cd91bd6a46"
+    },
+    {
+     "panel": "",
+     "entity": "SUPPLY",
+     "series": "SUPPLY",
+     "x": "",
+     "point_order": "28",
+     "field": "value",
+     "value": 0.517,
+     "unit": "relative",
+     "row_sha": "7a9b8d857f7ccd3f"
+    },
+    {
+     "panel": "",
+     "entity": "DEMAND",
+     "series": "DEMAND",
+     "x": "",
+     "point_order": "28",
+     "field": "value",
+     "value": 0.483,
+     "unit": "relative",
+     "row_sha": "e4edec584ade58c5"
+    }
+   ],
+   "computation": "At point_order 26: SUPPLY=0.4430 < DEMAND=0.5570. At point_order 27: SUPPLY=0.4789 < DEMAND=0.5211. At point_order 28: SUPPLY=0.5170 > DEMAND=0.4830. Linear interpolation gives an intersection at 27 + 0.0422/(0.0422+0.0340) = 27.554, with both values approximately 0.5000.",
+   "accept": [
+    "SUPPLY and DEMAND cross once between adjacent plotted points 27 and 28.",
+    "SUPPLY is 0.4789 versus DEMAND 0.5211 at point_order 27.",
+    "SUPPLY is 0.5170 versus DEMAND 0.4830 at point_order 28.",
+    "The approximate crossing is at point_order 27.55 and relative value 0.5000."
+   ],
+   "reject": [
+    "Claims that the series cross at point_order 25.",
+    "Uses 0.4080 and 0.5920 as the crossing values.",
+    "Claims that SUPPLY remains below DEMAND through point_order 28."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "The price level at the crossing is approximately 0.5 relative units."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanation of why supply and demand cross",
+  "Exact equilibrium price or quantity beyond the sampled points",
+  "Comparison across multiple panels (only one panel exists)"
+ ],
+ "review_notes": [
+  "The intent asks to compare supply, demand, and price levels across the quantity range; the three units capture the two trends and their crossing.",
+  "No separate price-level series exists; price level is the y-axis value of the supply and demand curves.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "SUPPLY",
+    "series": "SUPPLY"
+   },
+   {
+    "panel": "",
+    "entity": "DEMAND",
+    "series": "DEMAND"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

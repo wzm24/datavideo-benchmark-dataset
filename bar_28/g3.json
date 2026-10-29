@@ -45,7 +45,7 @@
   },
   {
    "unit_id": "U4",
-   "applies": true,
+   "applies": false,
    "anchor_mode": "generated_narration",
    "anchor_selector": "sentence_that_completes_unit",
    "ready_condition": "all required evidence marks are identifiable",
@@ -54,11 +54,12 @@
    "dwell_min_s": 0.8,
    "ordering": "no_additional_order_requirement",
    "identity": "entity_and_series_binding_must_remain_stable",
-   "transition": "check_each_required_state"
+   "transition": "check_each_required_state",
+   "not_applicable_reason": "G2 marks this hardcase as narration-only; visual timing is not required."
   },
   {
    "unit_id": "U5",
-   "applies": true,
+   "applies": false,
    "anchor_mode": "generated_narration",
    "anchor_selector": "sentence_that_completes_unit",
    "ready_condition": "all required evidence marks are identifiable",
@@ -67,7 +68,8 @@
    "dwell_min_s": 0.8,
    "ordering": "no_additional_order_requirement",
    "identity": "entity_and_series_binding_must_remain_stable",
-   "transition": "check_each_required_state"
+   "transition": "check_each_required_state",
+   "not_applicable_reason": "G2 marks this hardcase as narration-only; visual timing is not required."
   }
  ]
 }

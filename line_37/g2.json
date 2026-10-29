@@ -1,0 +1,154 @@
+{
+ "clip_id": "line_37",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_37",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "African-American share in South",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "African-American share in South"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "African-American share in South | 1790",
+    "African-American share in South | 1910",
+    "African-American share in South | 1930",
+    "African-American share in South | 1950",
+    "African-American share in South | 1970",
+    "African-American share in South | 1990",
+    "African-American share in South | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "African-American share in South | 1790",
+      "value": 91.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1910",
+      "value": 90.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1930",
+      "value": 79.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1950",
+      "value": 68.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1970",
+      "value": 53.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1990",
+      "value": 52.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 2010",
+      "value": 57.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The African-American share living in the South remained near 90% from 1790 through 1910, then declined sharply to about 53% by 1970, reached a low of 52% in 1990, and rose slightly to 57% by 2010.",
+    "start_value": 91.0,
+    "end_value": 57.0,
+    "delta": -34.0,
+    "ratio": 0.626374,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "African-American share in South | 1910",
+    "African-American share in South | 1970"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "African-American share in South | 1910",
+      "value": 90.0,
+      "unit": "%"
+     },
+     {
+      "mark": "African-American share in South | 1970",
+      "value": 53.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The early twentieth-century level (1910: 90%) was substantially higher than the 1970 level (53%), a difference of 37 percentage points.",
+    "start_value": 90.0,
+    "end_value": 53.0,
+    "delta": -37.0,
+    "ratio": 0.588889,
+    "direction": "decreasing",
+    "expected_order": [
+     "African-American share in South",
+     "African-American share in South"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

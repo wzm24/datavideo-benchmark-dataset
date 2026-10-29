@@ -1,0 +1,180 @@
+{
+ "clip_id": "line_25",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_25",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Base Rate Bank of England",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Mortgage rate (Example: 5 year fixed)",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Base Rate Bank of England",
+    "Mortgage rate (Example: 5 year fixed)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Base Rate Bank of England | 1991",
+    "Base Rate Bank of England | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Base Rate Bank of England | 1991",
+      "value": 10.1996,
+      "unit": "%"
+     },
+     {
+      "mark": "Base Rate Bank of England | 2016",
+      "value": 0.3991,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The Bank of England base rate fell from 10.1996% in 1991 to 0.3991% in 2016, a decrease of 9.8005 percentage points.",
+    "start_value": 10.1996,
+    "end_value": 0.3991,
+    "delta": -9.8005,
+    "ratio": 0.039129,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Mortgage rate (Example: 5 year fixed) | #1",
+    "Mortgage rate (Example: 5 year fixed) | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed) | #1",
+      "value": 9.4989,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed) | 2016",
+      "value": 2.1996,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The example five-year fixed mortgage rate fell from 9.4989% in 1991 to 2.1996% in 2016, a decrease of 7.2993 percentage points.",
+    "start_value": 9.4989,
+    "end_value": 2.1996,
+    "delta": -7.2993,
+    "ratio": 0.231564,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Base Rate Bank of England | 1991",
+    "Base Rate Bank of England | 2016",
+    "Mortgage rate (Example: 5 year fixed) | #1",
+    "Mortgage rate (Example: 5 year fixed) | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Base Rate Bank of England | 1991",
+      "value": 10.1996,
+      "unit": "%"
+     },
+     {
+      "mark": "Base Rate Bank of England | 2016",
+      "value": 0.3991,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed) | #1",
+      "value": 9.4989,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed) | 2016",
+      "value": 2.1996,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Both the Bank of England base rate and the example five-year fixed mortgage rate decreased from 1991 to 2016, with the base rate falling by a larger absolute amount (9.8005 percentage points) than the mortgage rate (7.2993 percentage points).",
+    "start_value": 10.1996,
+    "end_value": 2.1996,
+    "delta": -8.0,
+    "ratio": 0.215656,
+    "direction": "decreasing",
+    "expected_order": [
+     "Base Rate Bank of England",
+     "Mortgage rate (Example: 5 year fixed)",
+     "Mortgage rate (Example: 5 year fixed)",
+     "Base Rate Bank of England"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

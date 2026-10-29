@@ -1,0 +1,161 @@
+{
+ "clip_id": "line_89",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_89",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "capital gains tax",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "capital gains tax proposed",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "capital gains tax",
+    "capital gains tax proposed"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "capital gains tax | 1960",
+    "capital gains tax | 1972",
+    "capital gains tax | 1977",
+    "capital gains tax | 2003",
+    "capital gains tax | 2012",
+    "capital gains tax | 2021"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "capital gains tax | 1960",
+      "value": 25.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax | 1972",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax | 1977",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax | 2003",
+      "value": 15.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax | 2012",
+      "value": 15.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax | 2021",
+      "value": 20.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The maximum long-term capital gains tax rate fluctuated over 1960–2021, starting at 25% in 1960, peaking at 35% from 1972 through 1977, falling to 15% from 2003 through 2012, and ending at 20% in 2021.",
+    "start_value": 25.0,
+    "end_value": 20.0,
+    "delta": -5.0,
+    "ratio": 0.8,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "capital gains tax | 2021",
+    "capital gains tax proposed | 2021",
+    "capital gains tax proposed | 2022"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "capital gains tax | 2021",
+      "value": 20.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax proposed | 2021",
+      "value": 20.0,
+      "unit": "%"
+     },
+     {
+      "mark": "capital gains tax proposed | 2022",
+      "value": 39.6,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The current maximum long-term capital gains tax rate in 2021 is 20%, while the proposed rate for high earners is 39.6% in 2022, so the proposed rate is 19.6 percentage points higher (nearly double).",
+    "start_value": 20.0,
+    "end_value": 39.6,
+    "delta": 19.6,
+    "ratio": 1.98,
+    "direction": "increasing",
+    "expected_order": [
+     "capital gains tax proposed",
+     "capital gains tax",
+     "capital gains tax proposed"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

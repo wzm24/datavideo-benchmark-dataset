@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_72",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "cd571b6fbfde47210c4464cd873b3a859e6244ad8241587552074e943a9ba306",
+ "row_count": 137,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Global temperature anomaly relative to 1951-1980 (°C)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1900",
+   "1950",
+   "2000"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "temp anomaly",
+   "series": "",
+   "row_count": 137,
+   "unit": [
+    "°C"
+   ],
+   "x_values": [
+    "1900",
+    "1950",
+    "2000"
+   ],
+   "first_value": -0.156,
+   "last_value": 0.946,
+   "min_value": -0.432,
+   "max_value": 0.946
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "temp anomaly",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "clip_id": "line_38",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the share of African Americans living in the South over the period from 1950 to 2010 to identify the direction and turning points in that share.",
+ "chart_structure": {
+  "clip_id": "line_38",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the direction and what are the turning points in the share of African Americans living in the South from 1950 to 2010?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "Historical trend",
+    "x_range": [
+     "1950",
+     "2010"
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Historical trend",
+     "series": "",
+     "x": "1950",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share of African Americans living in the South declined from 0.92 in 1950 to a minimum of 0.26 in 1990, then rose to 0.51 in 2010, so the trend reverses direction around 1990.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Historical trend",
+     "series": "",
+     "x": "1950",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.92,
+     "unit": "relative",
+     "row_sha": "1119e66357651c9c"
+    },
+    {
+     "panel": "",
+     "entity": "Historical trend",
+     "series": "",
+     "x": "1970",
+     "point_order": "5",
+     "field": "value",
+     "value": 0.31,
+     "unit": "relative",
+     "row_sha": "101078745e787dbd"
+    },
+    {
+     "panel": "",
+     "entity": "Historical trend",
+     "series": "",
+     "x": "1990",
+     "point_order": "9",
+     "field": "value",
+     "value": 0.26,
+     "unit": "relative",
+     "row_sha": "8ba79dc29084b57a"
+    },
+    {
+     "panel": "",
+     "entity": "Historical trend",
+     "series": "",
+     "x": "2010",
+     "point_order": "13",
+     "field": "value",
+     "value": 0.51,
+     "unit": "relative",
+     "row_sha": "2c401a57f032a8bc"
+    }
+   ],
+   "computation": "Compare successive values: 0.92 (1950) > 0.31 (1970) > 0.26 (1990), then 0.26 (1990) < 0.51 (2010); the minimum occurs at 1990, marking the turning point from decline to increase.",
+   "accept": [
+    "Share declines from 1950 to 1990 and then increases to 2010.",
+    "The lowest share is in 1990, and the direction reverses after 1990.",
+    "Values go from 0.92 in 1950 down to 0.26 in 1990 and back up to 0.51 in 2010."
+   ],
+   "reject": [
+    "The share increases continuously from 1950 to 2010.",
+    "The share declines continuously from 1950 to 2010.",
+    "The turning point is in 1970 or 2010 rather than 1990."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Mentioning the absolute decline from 0.92 to 0.26 between 1950 and 1990.",
+  "Mentioning the absolute increase from 0.26 to 0.51 between 1990 and 2010."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline or reversal.",
+  "Claims about data points not present in the table summary.",
+  "Comparing this panel to another panel, since there is only one panel."
+ ],
+ "review_notes": [
+  "The intent asks for direction and turning points, so a single trend unit covering the full 1950-2010 sequence with the 1990 minimum is sufficient.",
+  "Only the four anchor rows supplied in the table summary are used as basis rows."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Historical trend",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

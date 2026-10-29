@@ -1,28 +1,32 @@
 {
  "clip_id": "line_21",
- "intent_en": "To illustrate the rising global temperatures that underscore the urgency of making sensible decisions to avoid a future climate crisis.",
- "previous_intent": "To illustrate the long-term rise in global temperatures and urge viewers to make sensible decisions now to manage the impending climate crisis.",
- "narration_support": "we make decisions now and say okay well this is the cost of trying to manage this thing or we sleepwalk into the crisis the science tells us is coming",
- "chart_support": "Line chart showing temperature change in degrees Celsius from 1850 to 2000+, displaying a clear upward trend in global temperatures.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": true,
- "contains_answer_values": false,
- "confidence": 0.85,
- "evidence_note": "Narration is a fragment discussing the need for decisions to manage a crisis science warns of; the chart anchors this by visualizing the rising temperature data (the 'science') from 1850 onwards.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that global temperature change rose from about -0.1°C in 1850 to about 0.95°C by the series end, underscoring the urgency of acting now to avoid a coming climate crisis.",
+ "intent_en": "Trace the change in global temperature over the period from 1850 to the series end and quantify the overall shift.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": true
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

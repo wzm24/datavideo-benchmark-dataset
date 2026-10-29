@@ -1,0 +1,154 @@
+{
+ "clip_id": "line_41",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_41",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "College enrollments",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "College enrollments"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "College enrollments | 1950",
+    "College enrollments | 1960",
+    "College enrollments | 1970",
+    "College enrollments | 1980",
+    "College enrollments | 1990",
+    "College enrollments | 2000",
+    "College enrollments | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "College enrollments | 1950",
+      "value": 2.5272,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 1960",
+      "value": 4.2283,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 1970",
+      "value": 7.9239,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 1980",
+      "value": 12.125,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 1990",
+      "value": 13.9239,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 2000",
+      "value": 15.9239,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 2010",
+      "value": 20.5272,
+      "unit": "M"
+     }
+    ],
+    "expected_relation": "College enrollment increased from 2.5272 million in 1950 to 20.5272 million in 2010, with intermediate values rising across the period.",
+    "start_value": 2.5272,
+    "end_value": 20.5272,
+    "delta": 18.0,
+    "ratio": 8.122507,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "College enrollments | 1950",
+    "College enrollments | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "College enrollments | 1950",
+      "value": 2.5272,
+      "unit": "M"
+     },
+     {
+      "mark": "College enrollments | 2010",
+      "value": 20.5272,
+      "unit": "M"
+     }
+    ],
+    "expected_relation": "College enrollment in 2010 (20.5272 million) was much higher than in 1950 (2.5272 million), an increase of about 18.0 million.",
+    "start_value": 2.5272,
+    "end_value": 20.5272,
+    "delta": 18.0,
+    "ratio": 8.122507,
+    "direction": "increasing",
+    "expected_order": [
+     "College enrollments",
+     "College enrollments"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

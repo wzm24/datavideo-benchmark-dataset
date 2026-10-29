@@ -1,0 +1,294 @@
+{
+ "clip_id": "line_44",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the trajectories of the Bank of England base rate and the example five-year fixed mortgage rate from the early nineteen-nineties through twenty-sixteen.",
+ "chart_structure": {
+  "clip_id": "line_44",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video compare the trajectories of the Bank of England base rate and the example five-year fixed mortgage rate from the early 1990s through 2016?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The example five-year fixed mortgage rate shows a long-term downward trajectory from 1995 to 2016, starting at 8.7195% in 1995 and ending at 2.2802% in 2016.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "The Bank of England base rate and the example five-year fixed mortgage rate follow broadly similar downward trajectories over their overlapping period, with the mortgage rate generally remaining above the base rate.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Base Rate Bank of England",
+     "x": "1991",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)",
+     "x": "1995",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The Bank of England base rate shows a long-term downward trajectory from 1991 to 2016, starting at 13.8685% in 1991 and ending at 0.2504% in 2016.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Base Rate Bank of England",
+     "x": "1991",
+     "point_order": "1",
+     "field": "value",
+     "value": 13.8685,
+     "unit": "%",
+     "row_sha": "79042fad0a9dcd7f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Base Rate Bank of England",
+     "x": "2016",
+     "point_order": "312",
+     "field": "value",
+     "value": 0.2504,
+     "unit": "%",
+     "row_sha": "7725cc8f8befaf4b"
+    }
+   ],
+   "computation": "Compare first and last values of the base rate series: 13.8685% (1991) to 0.2504% (2016), a decrease.",
+   "accept": [
+    "Base rate falls from about 13.87% in 1991 to about 0.25% in 2016",
+    "Base rate trajectory is downward over the period"
+   ],
+   "reject": [
+    "Base rate rises over the period",
+    "Base rate ends higher than it starts"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "The example five-year fixed mortgage rate shows a long-term downward trajectory from 1995 to 2016, starting at 8.7195% in 1995 and ending at 2.2802% in 2016.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 8.7195,
+     "unit": "%",
+     "row_sha": "e35cc148c865472d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)",
+     "x": "2016",
+     "point_order": "264",
+     "field": "value",
+     "value": 2.2802,
+     "unit": "%",
+     "row_sha": "dfd054351415dc95"
+    }
+   ],
+   "computation": "Compare first and last values of the mortgage rate series: 8.7195% (1995) to 2.2802% (2016), a decrease.",
+   "accept": [
+    "Mortgage rate falls from about 8.72% in 1995 to about 2.28% in 2016",
+    "Mortgage rate trajectory is downward over the period"
+   ],
+   "reject": [
+    "Mortgage rate rises over the period",
+    "Mortgage rate ends higher than it starts"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "The Bank of England base rate and the example five-year fixed mortgage rate follow broadly similar downward trajectories over their overlapping period, with the mortgage rate generally remaining above the base rate.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Base Rate Bank of England",
+     "x": "1991",
+     "point_order": "1",
+     "field": "value",
+     "value": 13.8685,
+     "unit": "%",
+     "row_sha": "79042fad0a9dcd7f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Base Rate Bank of England",
+     "x": "2016",
+     "point_order": "312",
+     "field": "value",
+     "value": 0.2504,
+     "unit": "%",
+     "row_sha": "7725cc8f8befaf4b"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 8.7195,
+     "unit": "%",
+     "row_sha": "e35cc148c865472d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)",
+     "x": "2016",
+     "point_order": "264",
+     "field": "value",
+     "value": 2.2802,
+     "unit": "%",
+     "row_sha": "dfd054351415dc95"
+    }
+   ],
+   "computation": "Compare the two series' first and last values and their relative levels: both decline substantially; mortgage rate starts at 8.7195% (1995) and ends at 2.2802% (2016), while base rate starts at 13.8685% (1991) and ends at 0.2504% (2016); mortgage rate is above base rate at the end and generally in the overlapping period.",
+   "accept": [
+    "Both rates decline over the period and the mortgage rate is generally above the base rate",
+    "The two trajectories are broadly similar in their downward direction"
+   ],
+   "reject": [
+    "The two rates move in opposite directions",
+    "The base rate is generally above the mortgage rate"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mention that the base rate series begins earlier (1991) than the mortgage rate series (1995)."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the rate changes",
+  "Exact year-by-year values not present in the table summary",
+  "Claims about rates after 2016"
+ ],
+ "review_notes": [
+  "The table summary provides only sparse x anchors; trend claims use first and last values as minimal evidence.",
+  "The comparison unit is limited to the overlapping period and general relative level, which is verifiable from the supplied endpoints."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Base Rate Bank of England"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

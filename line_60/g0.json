@@ -1,0 +1,109 @@
+{
+ "clip_id": "line_60",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "1d788086f66924b2e418a1aedc5217bab9ae49ae62bd984c4b3df62dfadb4225",
+ "row_count": 18,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share supporting or opposing same-sex marriage (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2001",
+   "2003",
+   "2005",
+   "2007",
+   "2009",
+   "2011",
+   "2013",
+   "2015",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "oppose same-sex marriage",
+   "series": "",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2001",
+    "2003",
+    "2005",
+    "2007",
+    "2009",
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 57.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 57.0
+  },
+  {
+   "panel": "",
+   "entity": "favor same-sex marriage",
+   "series": "",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2001",
+    "2003",
+    "2005",
+    "2007",
+    "2009",
+    "2011",
+    "2013",
+    "2015",
+    "2017"
+   ],
+   "first_value": 35.0,
+   "last_value": 62.0,
+   "min_value": 34.0,
+   "max_value": 62.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "oppose same-sex marriage",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "favor same-sex marriage",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_32",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "1c14046396ae4a7bbbec54821e63147730794c1980055fb45e4a94b65603b1e7",
+ "row_count": 42,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Top 10% income share (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1910",
+   "2010",
+   "1990"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Top 10%",
+   "series": "Top 10%",
+   "row_count": 42,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1910",
+    "2010",
+    "1990"
+   ],
+   "first_value": 40.5,
+   "last_value": 40.68,
+   "min_value": 32.5,
+   "max_value": 50.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Top 10%",
+    "series": "Top 10%"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

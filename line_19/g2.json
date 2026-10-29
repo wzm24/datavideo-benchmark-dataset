@@ -1,0 +1,186 @@
+{
+ "clip_id": "line_19",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_19",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Sales performance",
+    "series": "Yikes"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Sales performance | Yikes"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Sales performance | Yikes | #1",
+    "Sales performance | Yikes | #4",
+    "Sales performance | Yikes | #10"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Sales performance | Yikes | #1",
+      "value": 0.7,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #4",
+      "value": 0.94,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #10",
+      "value": 0.18,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "Sales performance rises from point 1 (0.70) to a peak at point 4 (0.94), then declines overall to point 10 (0.18).",
+    "start_value": 0.7,
+    "end_value": 0.18,
+    "delta": -0.52,
+    "ratio": 0.257143,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Sales performance | Yikes | #1",
+    "Sales performance | Yikes | #2",
+    "Sales performance | Yikes | #3",
+    "Sales performance | Yikes | #4",
+    "Sales performance | Yikes | #5",
+    "Sales performance | Yikes | #6",
+    "Sales performance | Yikes | #7",
+    "Sales performance | Yikes | #8",
+    "Sales performance | Yikes | #9",
+    "Sales performance | Yikes | #10"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Sales performance | Yikes | #1",
+      "value": 0.7,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #2",
+      "value": 0.83,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #3",
+      "value": 0.8,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #4",
+      "value": 0.94,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #5",
+      "value": 0.7,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #6",
+      "value": 0.58,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #7",
+      "value": 0.3,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #8",
+      "value": 0.22,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #9",
+      "value": 0.27,
+      "unit": "relative"
+     },
+     {
+      "mark": "Sales performance | Yikes | #10",
+      "value": 0.18,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The early period (points 1–5) has higher sales performance than the later period (points 6–10); for example, the early average is about 0.794 versus about 0.310 later, and the last value (0.18) is lower than the first (0.70).",
+    "start_value": 0.7,
+    "end_value": 0.18,
+    "delta": -0.52,
+    "ratio": 0.257143,
+    "direction": "decreasing",
+    "expected_order": [
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance",
+     "Sales performance"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

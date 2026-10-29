@@ -1,0 +1,186 @@
+{
+ "clip_id": "line_87",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "d547a090d30c09973b06149382209793696dfe7f5cae68d87d835a1f381d37b1",
+ "row_count": 25,
+ "chart_structure": {
+  "sub_type": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 6,
+  "series_count": 6,
+  "time_behavior": "snapshot",
+  "panels": [
+   "Party",
+   "Race",
+   "Religious attendance",
+   "Education",
+   "Age",
+   "Gender"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Average gap in conservative-position share (percentage points)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1994",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "Party",
+   "entity": "",
+   "series": "Party",
+   "row_count": 4,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 15.0,
+   "last_value": 36.0,
+   "min_value": 15.0,
+   "max_value": 36.0
+  },
+  {
+   "panel": "Race",
+   "entity": "",
+   "series": "Race",
+   "row_count": 4,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 14.0,
+   "last_value": 14.0,
+   "min_value": 13.5,
+   "max_value": 14.0
+  },
+  {
+   "panel": "Religious attendance",
+   "entity": "",
+   "series": "Religious attendance",
+   "row_count": 4,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 5.0,
+   "last_value": 11.0,
+   "min_value": 4.0,
+   "max_value": 11.0
+  },
+  {
+   "panel": "Education",
+   "entity": "",
+   "series": "Education",
+   "row_count": 5,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 8.0,
+   "last_value": 11.0,
+   "min_value": 8.0,
+   "max_value": 11.0
+  },
+  {
+   "panel": "Age",
+   "entity": "",
+   "series": "Age",
+   "row_count": 4,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 6.0,
+   "last_value": 10.0,
+   "min_value": 5.0,
+   "max_value": 10.0
+  },
+  {
+   "panel": "Gender",
+   "entity": "",
+   "series": "Gender",
+   "row_count": 4,
+   "unit": [
+    "pp"
+   ],
+   "x_values": [
+    "1994",
+    "2017"
+   ],
+   "first_value": 9.0,
+   "last_value": 7.0,
+   "min_value": 6.5,
+   "max_value": 9.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Party",
+   "Race",
+   "Religious attendance",
+   "Education",
+   "Age",
+   "Gender"
+  ],
+  "required_series": [
+   {
+    "panel": "Party",
+    "entity": "",
+    "series": "Party"
+   },
+   {
+    "panel": "Race",
+    "entity": "",
+    "series": "Race"
+   },
+   {
+    "panel": "Religious attendance",
+    "entity": "",
+    "series": "Religious attendance"
+   },
+   {
+    "panel": "Education",
+    "entity": "",
+    "series": "Education"
+   },
+   {
+    "panel": "Age",
+    "entity": "",
+    "series": "Age"
+   },
+   {
+    "panel": "Gender",
+    "entity": "",
+    "series": "Gender"
+   }
+  ],
+  "required_series_count": 6,
+  "all_required_series_must_appear": true
+ }
+}

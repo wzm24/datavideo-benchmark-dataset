@@ -1,0 +1,96 @@
+{
+ "clip_id": "line_53",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_53",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Percentage point increase in cheating"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Percentage point increase in cheating"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Percentage point increase in cheating | 1",
+    "Percentage point increase in cheating | 2",
+    "Percentage point increase in cheating | 3",
+    "Percentage point increase in cheating | 4"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Percentage point increase in cheating | 1",
+      "value": 44.7,
+      "unit": "billion_usd"
+     },
+     {
+      "mark": "Percentage point increase in cheating | 2",
+      "value": 90.5,
+      "unit": "billion_usd"
+     },
+     {
+      "mark": "Percentage point increase in cheating | 3",
+      "value": 137.5,
+      "unit": "billion_usd"
+     },
+     {
+      "mark": "Percentage point increase in cheating | 4",
+      "value": 185.7,
+      "unit": "billion_usd"
+     }
+    ],
+    "expected_relation": "Lost tax revenue increases monotonically from $44.7B at a 1 percentage-point increase in cheating to $185.7B at a 4 percentage-point increase, rising across the full reported range.",
+    "start_value": 44.7,
+    "end_value": 185.7,
+    "delta": 141.0,
+    "ratio": 4.154362,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

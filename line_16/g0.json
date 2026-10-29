@@ -1,0 +1,114 @@
+{
+ "clip_id": "line_16",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "ab20eacfd8a1f127aa75066be0b76946780e031ccbbba4a9c646f2fd91660450",
+ "row_count": 21,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Survey date"
+  ],
+  "y_axes": [
+   "Share of respondents answering Yes/No/Don't know (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "January 2014",
+   "May 2014",
+   "August 2014"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "NO",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 46.3879,
+   "last_value": 47.0,
+   "min_value": 43.6228,
+   "max_value": 47.4769
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "YES",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 35.5563,
+   "last_value": 37.0,
+   "min_value": 34.0,
+   "max_value": 37.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "DON'T KNOW",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 16.9561,
+   "last_value": 14.0,
+   "min_value": 14.0,
+   "max_value": 20.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "NO"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "YES"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "DON'T KNOW"
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "clip_id": "line_1",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the inflation-adjusted price of the popular chair from 1990 to 2015 and quantify how much it changed over that period.",
+ "chart_structure": {
+  "clip_id": "line_1",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the overall trend of the inflation-adjusted chair price from 1990 to 2015?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "How much did the inflation-adjusted chair price change from 1990 to 2015?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The inflation-adjusted chair price generally declined from 1990 to 2015, with an initial rise to a peak around point_order 3 before falling substantially.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 294.9891,
+     "unit": "$",
+     "row_sha": "82c392b3c1ac77eb"
+    },
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 335.0109,
+     "unit": "$",
+     "row_sha": "95aa320b64c04e57"
+    },
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "",
+     "point_order": "11",
+     "field": "value",
+     "value": 105.0,
+     "unit": "$",
+     "row_sha": "efb8ff59241ece9b"
+    },
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "2015",
+     "point_order": "23",
+     "field": "value",
+     "value": 25.0326,
+     "unit": "$",
+     "row_sha": "d15178d349504d0a"
+    }
+   ],
+   "computation": "Compare values across the ordered sequence: 294.9891 at 1990, peak 335.0109 at point_order 3, 105.0000 at point_order 11, and 25.0326 at 2015; overall direction is downward after the early peak.",
+   "accept": [
+    "Price generally decreases from 1990 to 2015.",
+    "There is an initial increase to a peak before a sustained decline.",
+    "The line ends much lower than it starts."
+   ],
+   "reject": [
+    "Price steadily increases throughout the period.",
+    "There is no overall downward movement.",
+    "The highest value occurs at the final year."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The inflation-adjusted chair price decreased from $294.9891 in 1990 to $25.0326 in 2015, an absolute drop of $269.9565 (about 91.5%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 294.9891,
+     "unit": "$",
+     "row_sha": "82c392b3c1ac77eb"
+    },
+    {
+     "panel": "",
+     "entity": "Inflation-adjusted chair price",
+     "series": "",
+     "x": "2015",
+     "point_order": "23",
+     "field": "value",
+     "value": 25.0326,
+     "unit": "$",
+     "row_sha": "d15178d349504d0a"
+    }
+   ],
+   "computation": "Absolute change = 25.0326 - 294.9891 = -269.9565; percentage change = (-269.9565 / 294.9891) * 100 ≈ -91.5%.",
+   "accept": [
+    "The price fell by about $270.",
+    "The price dropped by roughly 91.5%.",
+    "The 2015 value is $25.0326 compared with $294.9891 in 1990."
+   ],
+   "reject": [
+    "The price increased over the period.",
+    "The absolute change is about $25.",
+    "The percentage change is about 9%."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentioning the peak value of $335.0109 at point_order 3 as context for the decline."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the price decline.",
+  "Claims about years not present in the table.",
+  "Comparing this series to another entity or panel."
+ ],
+ "review_notes": [
+  "The table has 23 rows but only 1990 and 2015 have explicit x labels; intermediate x values are blank, so trend evidence uses point_order sequence.",
+  "The intent asks for both tracing the trend and quantifying the change, yielding two semantic units."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Inflation-adjusted chair price",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

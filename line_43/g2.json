@@ -1,0 +1,198 @@
+{
+ "clip_id": "line_43",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_43",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Demand",
+    "series": "Demand"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Demand | Demand"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Demand | Demand | #1",
+    "Demand | Demand | #3",
+    "Demand | Demand | #5",
+    "Demand | Demand | #7",
+    "Demand | Demand | #9",
+    "Demand | Demand | #11",
+    "Demand | Demand | #13",
+    "Demand | Demand | #15",
+    "Demand | Demand | #17",
+    "Demand | Demand | #19",
+    "Demand | Demand | #21",
+    "Demand | Demand | #23"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Demand | Demand | #1",
+      "value": 0.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #3",
+      "value": 0.0073,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #5",
+      "value": 0.0289,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #7",
+      "value": 0.0652,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #9",
+      "value": 0.1159,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #11",
+      "value": 0.1811,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #13",
+      "value": 0.2608,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #15",
+      "value": 0.3549,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #17",
+      "value": 0.4636,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #19",
+      "value": 0.5868,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #21",
+      "value": 0.7244,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #23",
+      "value": 0.8766,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The relative demand level increases monotonically over time from 0.0000 at point_order 1 to 0.8766 at point_order 23.",
+    "start_value": 0.0,
+    "end_value": 0.8766,
+    "delta": 0.8766,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Demand | Demand | #1",
+    "Demand | Demand | #3",
+    "Demand | Demand | #21",
+    "Demand | Demand | #23"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Demand | Demand | #1",
+      "value": 0.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #3",
+      "value": 0.0073,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #21",
+      "value": 0.7244,
+      "unit": "relative"
+     },
+     {
+      "mark": "Demand | Demand | #23",
+      "value": 0.8766,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The early pattern of relative demand is low and nearly flat, while the later pattern is high and steeply rising; for example, the value at point_order 1 is 0.0000 and at point_order 3 is 0.0073, whereas at point_order 21 it is 0.7244 and at point_order 23 it is 0.8766.",
+    "start_value": 0.0,
+    "end_value": 0.8766,
+    "delta": 0.8766,
+    "ratio": null,
+    "direction": "increasing",
+    "expected_order": [
+     "Demand",
+     "Demand",
+     "Demand",
+     "Demand"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

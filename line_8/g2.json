@@ -1,0 +1,276 @@
+{
+ "clip_id": "line_8",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_8",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "panels": [
+   "Higher Average Scores",
+   "More Applicants"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Higher Average Scores | TEST-OPTIONAL",
+    "Higher Average Scores | TEST-REQUIRED"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "More Applicants | TEST-OPTIONAL",
+    "More Applicants | TEST-REQUIRED"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Higher Average Scores | TEST-OPTIONAL | 1994",
+    "Higher Average Scores | TEST-REQUIRED | 1994",
+    "Higher Average Scores | TEST-OPTIONAL | 1998",
+    "Higher Average Scores | TEST-REQUIRED | 1998",
+    "Higher Average Scores | TEST-OPTIONAL | 2002",
+    "Higher Average Scores | TEST-REQUIRED | 2002",
+    "Higher Average Scores | TEST-OPTIONAL | 2006",
+    "Higher Average Scores | TEST-REQUIRED | 2006",
+    "Higher Average Scores | TEST-OPTIONAL | 2010",
+    "Higher Average Scores | TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Higher Average Scores | TEST-OPTIONAL | 1994",
+      "value": 953.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-REQUIRED | 1994",
+      "value": 933.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-OPTIONAL | 1998",
+      "value": 1080.8,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-REQUIRED | 1998",
+      "value": 1074.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-OPTIONAL | 2002",
+      "value": 1088.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-REQUIRED | 2002",
+      "value": 1085.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-OPTIONAL | 2006",
+      "value": 1110.8,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-REQUIRED | 2006",
+      "value": 1096.8,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-OPTIONAL | 2010",
+      "value": 1108.3,
+      "unit": ""
+     },
+     {
+      "mark": "Higher Average Scores | TEST-REQUIRED | 2010",
+      "value": 1088.3,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "In the Higher Average Scores panel, test-optional colleges have higher average SAT scores than test-required colleges at every shown year from 1994 to 2010.",
+    "start_value": 953.3,
+    "end_value": 1088.3,
+    "delta": 135.0,
+    "ratio": 1.141613,
+    "direction": "increasing",
+    "expected_order": [
+     "Higher Average Scores | TEST-OPTIONAL | 2006",
+     "Higher Average Scores | TEST-OPTIONAL | 2010",
+     "Higher Average Scores | TEST-REQUIRED | 2006",
+     "Higher Average Scores | TEST-OPTIONAL | 2002",
+     "Higher Average Scores | TEST-REQUIRED | 2010",
+     "Higher Average Scores | TEST-REQUIRED | 2002",
+     "Higher Average Scores | TEST-OPTIONAL | 1998",
+     "Higher Average Scores | TEST-REQUIRED | 1998",
+     "Higher Average Scores | TEST-OPTIONAL | 1994",
+     "Higher Average Scores | TEST-REQUIRED | 1994"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "More Applicants | TEST-OPTIONAL | 1994",
+    "More Applicants | TEST-REQUIRED | 1994",
+    "More Applicants | TEST-OPTIONAL | 1998",
+    "More Applicants | TEST-REQUIRED | 1998",
+    "More Applicants | TEST-OPTIONAL | 2002",
+    "More Applicants | TEST-REQUIRED | 2002",
+    "More Applicants | TEST-OPTIONAL | 2006",
+    "More Applicants | TEST-REQUIRED | 2006",
+    "More Applicants | TEST-OPTIONAL | 2010",
+    "More Applicants | TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "More Applicants | TEST-OPTIONAL | 1994",
+      "value": 1627.4,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-REQUIRED | 1994",
+      "value": 1527.4,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-OPTIONAL | 1998",
+      "value": 1712.5,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-REQUIRED | 1998",
+      "value": 1627.6,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-OPTIONAL | 2002",
+      "value": 1977.5,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-REQUIRED | 2002",
+      "value": 1827.3,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-OPTIONAL | 2006",
+      "value": 2427.2,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-REQUIRED | 2006",
+      "value": 2152.3,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-OPTIONAL | 2010",
+      "value": 3627.4,
+      "unit": ""
+     },
+     {
+      "mark": "More Applicants | TEST-REQUIRED | 2010",
+      "value": 2527.2,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "In the More Applicants panel, test-optional colleges have more applications per college than test-required colleges at every shown year from 1994 to 2010, and the gap widens over time.",
+    "start_value": 1627.4,
+    "end_value": 2527.2,
+    "delta": 899.8,
+    "ratio": 1.552906,
+    "direction": "increasing",
+    "expected_order": [
+     "More Applicants | TEST-OPTIONAL | 2010",
+     "More Applicants | TEST-REQUIRED | 2010",
+     "More Applicants | TEST-OPTIONAL | 2006",
+     "More Applicants | TEST-REQUIRED | 2006",
+     "More Applicants | TEST-OPTIONAL | 2002",
+     "More Applicants | TEST-REQUIRED | 2002",
+     "More Applicants | TEST-OPTIONAL | 1998",
+     "More Applicants | TEST-REQUIRED | 1998",
+     "More Applicants | TEST-OPTIONAL | 1994",
+     "More Applicants | TEST-REQUIRED | 1994"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

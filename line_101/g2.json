@@ -1,0 +1,156 @@
+{
+ "clip_id": "line_101",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_101",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "public school enrollment",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "public school enrollment"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "public school enrollment | 1990",
+    "public school enrollment | 1993",
+    "public school enrollment | 1996",
+    "public school enrollment | 2000",
+    "public school enrollment | 2005",
+    "public school enrollment | 2010",
+    "public school enrollment | 2015",
+    "public school enrollment | 2020"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "public school enrollment | 1990",
+      "value": 41.5,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 1993",
+      "value": 43.5,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 1996",
+      "value": 46.0,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2000",
+      "value": 48.5,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2005",
+      "value": 49.8,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2010",
+      "value": 50.5,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2015",
+      "value": 52.0,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2020",
+      "value": 53.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "United States public-school student enrollment increased from 41.5 million in 1990 to 53.5 million in 2020, following the sequence 41.5, 43.5, 46, 48.5, 49.8, 50.5, 52, and 53.5 million across the years 1990, 1993, 1996, 2000, 2005, 2010, 2015, and 2020.",
+    "start_value": 41.5,
+    "end_value": 53.5,
+    "delta": 12.0,
+    "ratio": 1.289157,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "public school enrollment | 1990",
+    "public school enrollment | 2020"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "public school enrollment | 1990",
+      "value": 41.5,
+      "unit": "million"
+     },
+     {
+      "mark": "public school enrollment | 2020",
+      "value": 53.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The overall change in United States public-school student enrollment from 1990 to 2020 was an increase of 12.0 million students, from 41.5 million to 53.5 million.",
+    "start_value": 41.5,
+    "end_value": 53.5,
+    "delta": 12.0,
+    "ratio": 1.289157,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

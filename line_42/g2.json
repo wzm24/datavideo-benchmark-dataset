@@ -1,0 +1,144 @@
+{
+ "clip_id": "line_42",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_42",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Tuition"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Inflation (CPI)"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Tuition",
+    "Inflation (CPI)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Tuition | 1972",
+    "Tuition | #9"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Tuition | 1972",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Tuition | #9",
+      "value": 1390.0781,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From 1972 to 2011, tuition costs grew from 0% to 1390.0781% (an increase of 1390.0781 percentage points).",
+    "start_value": 0.0,
+    "end_value": 1390.0781,
+    "delta": 1390.0781,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Tuition | 1972",
+    "Tuition | #9",
+    "Inflation (CPI) | 1972",
+    "Inflation (CPI) | #9"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Tuition | 1972",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Tuition | #9",
+      "value": 1390.0781,
+      "unit": "%"
+     },
+     {
+      "mark": "Inflation (CPI) | 1972",
+      "value": 0.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Inflation (CPI) | #9",
+      "value": 420.0453,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From 1972 to 2011, tuition costs grew much faster than inflation: tuition increased by 1390.0781 percentage points versus 420.0453 percentage points for inflation, so tuition's growth was about 3.31 times inflation's growth.",
+    "start_value": 0.0,
+    "end_value": 420.0453,
+    "delta": 420.0453,
+    "ratio": null,
+    "direction": "increasing",
+    "expected_order": [
+     "Tuition | #9",
+     "Inflation (CPI) | #9",
+     "Tuition | 1972",
+     "Inflation (CPI) | 1972"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

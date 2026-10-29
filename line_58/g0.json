@@ -1,0 +1,72 @@
+{
+ "clip_id": "line_58",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "4829fb1f486f5501fbeccc6b2648c8e785400b8951ed64dba7ba2af2017ae6fe",
+ "row_count": 21,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Presidential election year"
+  ],
+  "y_axes": [
+   "Average error in final national polls (percentage points)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1936",
+   "1960",
+   "1980",
+   "2000",
+   "2016"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "National polls off by",
+   "series": "",
+   "row_count": 21,
+   "unit": [
+    "pts"
+   ],
+   "x_values": [
+    "1936",
+    "1960",
+    "1980",
+    "2000",
+    "2016"
+   ],
+   "first_value": 12.0,
+   "last_value": 2.0,
+   "min_value": 1.5,
+   "max_value": 12.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "National polls off by",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

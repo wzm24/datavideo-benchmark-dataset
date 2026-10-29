@@ -1,0 +1,87 @@
+{
+ "clip_id": "line_25",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "ae054db075ada5acc7eba64e93b5cd8fd75b1116a033ec470a8e5f55de3216bf",
+ "row_count": 87,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Interest rate (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1991",
+   "2016"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Base Rate Bank of England",
+   "series": "",
+   "row_count": 43,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1991",
+    "2016"
+   ],
+   "first_value": 10.1996,
+   "last_value": 0.3991,
+   "min_value": 0.3991,
+   "max_value": 10.1996
+  },
+  {
+   "panel": "",
+   "entity": "Mortgage rate (Example: 5 year fixed)",
+   "series": "",
+   "row_count": 44,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2016"
+   ],
+   "first_value": 9.4989,
+   "last_value": 2.1996,
+   "min_value": 2.1996,
+   "max_value": 9.4989
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Base Rate Bank of England",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Mortgage rate (Example: 5 year fixed)",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

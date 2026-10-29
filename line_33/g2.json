@@ -1,0 +1,176 @@
+{
+ "clip_id": "line_33",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_33",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Share of top percentage in total wealth"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Share of top percentage in total wealth"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Share of top percentage in total wealth | 1920",
+    "Share of top percentage in total wealth | 1930",
+    "Share of top percentage in total wealth | 1970",
+    "Share of top percentage in total wealth | #27",
+    "Share of top percentage in total wealth | 1980",
+    "Share of top percentage in total wealth | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Share of top percentage in total wealth | 1920",
+      "value": 35.9979,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1930",
+      "value": 46.0025,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1970",
+      "value": 26.9976,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | #27",
+      "value": 23.9975,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1980",
+      "value": 25.9997,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 2010",
+      "value": 40.0023,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The top 1% wealth share starts at 35.9979% in 1920, rises to 46.0025% in 1930, declines to its plotted low of 23.9975% at point_order 27 between 1970 and 1980, rises to 25.9997% by 1980, and then rises to 40.0023% in 2010.",
+    "start_value": 35.9979,
+    "end_value": 40.0023,
+    "delta": 4.0044,
+    "ratio": 1.11124,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Share of top percentage in total wealth | 1930",
+    "Share of top percentage in total wealth | 1950",
+    "Share of top percentage in total wealth | 1960",
+    "Share of top percentage in total wealth | 1970",
+    "Share of top percentage in total wealth | 1980",
+    "Share of top percentage in total wealth | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Share of top percentage in total wealth | 1930",
+      "value": 46.0025,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1950",
+      "value": 28.9998,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1960",
+      "value": 28.002,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1970",
+      "value": 26.9976,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 1980",
+      "value": 25.9997,
+      "unit": "%"
+     },
+     {
+      "mark": "Share of top percentage in total wealth | 2010",
+      "value": 40.0023,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The end-period top 1% wealth share in 2010 (40.0023%) is higher than the mid-century trajectory levels around 1950–1980 (roughly 26–29%), but slightly below the 1930 peak (46.0025%).",
+    "start_value": 46.0025,
+    "end_value": 40.0023,
+    "delta": -6.0002,
+    "ratio": 0.869568,
+    "direction": "decreasing",
+    "expected_order": [
+     "Share of top percentage in total wealth | 1930",
+     "Share of top percentage in total wealth | 2010",
+     "Share of top percentage in total wealth | 1950",
+     "Share of top percentage in total wealth | 1960",
+     "Share of top percentage in total wealth | 1970",
+     "Share of top percentage in total wealth | 1980"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

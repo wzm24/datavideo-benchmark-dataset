@@ -1,0 +1,148 @@
+{
+ "clip_id": "line_85",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_85",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "trend",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "trend"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "trend | #1",
+    "trend | #2",
+    "trend | #5",
+    "trend | #11",
+    "trend | #21",
+    "trend | #28"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "trend | #1",
+      "value": 0.9677,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #2",
+      "value": 1.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #5",
+      "value": 0.6667,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #11",
+      "value": 0.4946,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #21",
+      "value": 0.1505,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #28",
+      "value": 0.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The speculative asset's relative value generally declines over the time window, starting near 0.97, reaching a peak of 1.00 early, and ending at 0.00.",
+    "start_value": 0.9677,
+    "end_value": 0.0,
+    "delta": -0.9677,
+    "ratio": 0.0,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "trend | #2",
+    "trend | #28"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "trend | #2",
+      "value": 1.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "trend | #28",
+      "value": 0.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The asset's peak relative value is 1.00, which is higher than its final level of 0.00.",
+    "start_value": 1.0,
+    "end_value": 0.0,
+    "delta": -1.0,
+    "ratio": 0.0,
+    "direction": "decreasing",
+    "expected_order": [
+     "trend",
+     "trend"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

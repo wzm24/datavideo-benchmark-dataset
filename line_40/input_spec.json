@@ -3,5 +3,10 @@
  "family": "line",
  "sub_type": "multi_panel",
  "orientation": "cartesian",
- "panel_count": 2
+ "panel_count": 2,
+ "panels": [
+  "Firearm-related deaths per 100,000 people in Connecticut",
+  "Firearm-related deaths per 100,000 people in Missouri"
+ ],
+ "time_behavior": "snapshot"
 }

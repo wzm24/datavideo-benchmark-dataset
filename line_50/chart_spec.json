@@ -8,15 +8,15 @@
  "has_markers": true,
  "has_dashed_segment": false,
  "has_axis": true,
- "has_legend": null,
- "has_value_labels": null,
- "text_count": 52,
- "row_count": 77,
+ "has_legend": false,
+ "has_value_labels": false,
+ "row_count": 78,
+ "time_behavior": "snapshot",
  "derived_from": [
   "data_table",
-  "semantic.svg"
+  "semantic.svg",
+  "Olympedia event results"
  ],
  "confidence": "high",
- "needs_review": false,
- "time_behavior": "snapshot"
+ "needs_review": true
 }

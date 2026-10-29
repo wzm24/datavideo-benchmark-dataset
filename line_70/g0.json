@@ -1,0 +1,66 @@
+{
+ "clip_id": "line_70",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e2add8767b585ff01112b65f1049e4bac06a8a0cf022e537e193453e30163ad5",
+ "row_count": 2,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Time"
+  ],
+  "y_axes": [
+   "Interest rate (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "3m",
+   "10y"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "yield curve",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "3m",
+    "10y"
+   ],
+   "first_value": 2.4,
+   "last_value": 2.3,
+   "min_value": 2.3,
+   "max_value": 2.4
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "yield curve",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,489 @@
+{
+ "clip_id": "line_55",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the estimated vaccine effectiveness against infection and against hospitalization over the months following vaccination to determine how each measure changes over time.",
+ "chart_structure": {
+  "clip_id": "line_55",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How does estimated vaccine effectiveness against infection change over the months following vaccination?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "effectiveness against infection"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How does estimated vaccine effectiveness against hospitalization change over the months following vaccination?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "effectiveness against hospitalization"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How do the two effectiveness measures compare over time?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": "",
+    "entities": [
+     "effectiveness against infection",
+     "effectiveness against hospitalization"
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Estimated vaccine effectiveness against infection declines overall from 86.2195% at point 1 to 48.2195% at point 6, with a slight rebound at point 5 (71.2195%) before the final drop.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 86.2195,
+     "unit": "%",
+     "row_sha": "f266b11eae97b7cc"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 83.2195,
+     "unit": "%",
+     "row_sha": "432f3067498ad88b"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 77.2195,
+     "unit": "%",
+     "row_sha": "8407bd06827a24fa"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 67.2195,
+     "unit": "%",
+     "row_sha": "0ec2909dc04df6be"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "5",
+     "field": "value",
+     "value": 71.2195,
+     "unit": "%",
+     "row_sha": "1da771bcfb1c6332"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "6",
+     "field": "value",
+     "value": 48.2195,
+     "unit": "%",
+     "row_sha": "08c1adb687f77860"
+    }
+   ],
+   "computation": "Compare first and last values (86.2195 vs 48.2195) and note the non-monotonic dip-rebound-dip pattern across point_order 1–6.",
+   "accept": [
+    "Effectiveness against infection decreases overall from point 1 to point 6.",
+    "The series is not strictly monotonic; it rebounds at point 5 before falling to its lowest value at point 6."
+   ],
+   "reject": [
+    "Effectiveness against infection increases over time.",
+    "Effectiveness against infection is constant.",
+    "The trend is strictly monotonic decreasing."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "Estimated vaccine effectiveness against hospitalization rises from 86.2195% at point 1 to a peak of 93.2195% at point 4, then declines to 87.2195% at point 6.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 86.2195,
+     "unit": "%",
+     "row_sha": "d7742072ef7c4d25"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 89.2195,
+     "unit": "%",
+     "row_sha": "edcacd1bb613e855"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 91.2195,
+     "unit": "%",
+     "row_sha": "65c0175041b2ab35"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.2195,
+     "unit": "%",
+     "row_sha": "bb21b09a088e9351"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "5",
+     "field": "value",
+     "value": 91.2195,
+     "unit": "%",
+     "row_sha": "4b4270be8af28ed5"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "6",
+     "field": "value",
+     "value": 87.2195,
+     "unit": "%",
+     "row_sha": "ad72a3c61ac4148d"
+    }
+   ],
+   "computation": "Identify peak at point_order 4 (93.2195) and compare endpoints (86.2195 at point 1, 87.2195 at point 6).",
+   "accept": [
+    "Effectiveness against hospitalization peaks at point 4.",
+    "Effectiveness against hospitalization rises initially and then declines after point 4.",
+    "The final value is slightly higher than the initial value."
+   ],
+   "reject": [
+    "Effectiveness against hospitalization declines monotonically.",
+    "Effectiveness against hospitalization is lowest at point 1.",
+    "Effectiveness against hospitalization remains constant."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Effectiveness against hospitalization remains higher than effectiveness against infection from point 2 onward, with the gap widening over time; at point 1 both measures are equal at 86.2195%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 86.2195,
+     "unit": "%",
+     "row_sha": "f266b11eae97b7cc"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 86.2195,
+     "unit": "%",
+     "row_sha": "d7742072ef7c4d25"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 83.2195,
+     "unit": "%",
+     "row_sha": "432f3067498ad88b"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 89.2195,
+     "unit": "%",
+     "row_sha": "edcacd1bb613e855"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 77.2195,
+     "unit": "%",
+     "row_sha": "8407bd06827a24fa"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 91.2195,
+     "unit": "%",
+     "row_sha": "65c0175041b2ab35"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 67.2195,
+     "unit": "%",
+     "row_sha": "0ec2909dc04df6be"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 93.2195,
+     "unit": "%",
+     "row_sha": "bb21b09a088e9351"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "5",
+     "field": "value",
+     "value": 71.2195,
+     "unit": "%",
+     "row_sha": "1da771bcfb1c6332"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "5",
+     "field": "value",
+     "value": 91.2195,
+     "unit": "%",
+     "row_sha": "4b4270be8af28ed5"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against infection",
+     "series": "",
+     "x": "",
+     "point_order": "6",
+     "field": "value",
+     "value": 48.2195,
+     "unit": "%",
+     "row_sha": "08c1adb687f77860"
+    },
+    {
+     "panel": "",
+     "entity": "effectiveness against hospitalization",
+     "series": "",
+     "x": "",
+     "point_order": "6",
+     "field": "value",
+     "value": 87.2195,
+     "unit": "%",
+     "row_sha": "ad72a3c61ac4148d"
+    }
+   ],
+   "computation": "Compare paired values at each point_order; compute differences (hospitalization minus infection) to show widening gap.",
+   "accept": [
+    "The two measures start equal at point 1.",
+    "Hospitalization effectiveness is higher than infection effectiveness at points 2–6.",
+    "The gap between the two measures increases over time."
+   ],
+   "reject": [
+    "Infection effectiveness is higher than hospitalization effectiveness at any point after point 1.",
+    "The two measures remain equal throughout.",
+    "The gap between the measures narrows over time."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning the exact percentage values at key points (e.g., 93.2195% peak for hospitalization, 48.2195% final for infection).",
+  "Noting that both measures start at the same value (86.2195%) at point 1."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the trends (e.g., waning immunity, variant effects) not present in the table.",
+  "Claims about statistical significance or confidence intervals.",
+  "Specific month labels since x-values are empty and only point_order is available."
+ ],
+ "review_notes": [
+  "The x-axis values are empty; only point_order is available, so claims use point_order rather than month labels.",
+  "The intent asks to compare both measures over time; U3 captures the cross-series comparison, while U1 and U2 capture each series' trend.",
+  "No panel identity unit is needed because panel_count is 1 and panel is empty."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "effectiveness against hospitalization",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "effectiveness against infection",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

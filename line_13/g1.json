@@ -1,0 +1,207 @@
+{
+ "clip_id": "line_13",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the reported deaths over the years and compare the earliest and latest values to determine the overall direction of change.",
+ "chart_structure": {
+  "clip_id": "line_13",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the overall direction of change in reported deaths over the years, based on comparing the earliest and latest values?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The reported deaths decreased by 0.30 (from 0.75 to 0.45) between the earliest and latest points, a relative decline of 40%.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Deaths",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Reported deaths generally decrease over the years, from 0.75 at the earliest point to 0.45 at the latest point.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Deaths",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.75,
+     "unit": "relative",
+     "row_sha": "7eb0b723e0979f5e"
+    },
+    {
+     "panel": "",
+     "entity": "Deaths",
+     "series": "",
+     "x": "",
+     "point_order": "33",
+     "field": "value",
+     "value": 0.45,
+     "unit": "relative",
+     "row_sha": "b57e3ca1fc5c2a25"
+    }
+   ],
+   "computation": "Compare first_value (0.75 at point_order 1) and last_value (0.45 at point_order 33); the series shows a net decline.",
+   "accept": [
+    "The line starts at 0.75 and ends at 0.45, indicating an overall downward trend.",
+    "Deaths decrease from the earliest to the latest year."
+   ],
+   "reject": [
+    "The line shows an overall increase.",
+    "The earliest and latest values are equal."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The reported deaths decreased by 0.30 (from 0.75 to 0.45) between the earliest and latest points, a relative decline of 40%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Deaths",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.75,
+     "unit": "relative",
+     "row_sha": "7eb0b723e0979f5e"
+    },
+    {
+     "panel": "",
+     "entity": "Deaths",
+     "series": "",
+     "x": "",
+     "point_order": "33",
+     "field": "value",
+     "value": 0.45,
+     "unit": "relative",
+     "row_sha": "b57e3ca1fc5c2a25"
+    }
+   ],
+   "computation": "Absolute difference = 0.45 - 0.75 = -0.30; percentage change = (-0.30 / 0.75) * 100 = -40%.",
+   "accept": [
+    "The value fell by 0.30, or 40%, from the first to the last point.",
+    "There is a net decrease of 0.30 between the earliest and latest values."
+   ],
+   "reject": [
+    "The value increased by 0.30.",
+    "The percentage change is 40% increase."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "The minimum value is 0.40 at point_order 30, and the maximum is 0.75 at point_order 1."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline in deaths.",
+  "Specific year labels for the x-axis points, since x_values are empty."
+ ],
+ "review_notes": [
+  "The intent asks to trace the trend and compare earliest and latest values; U1 covers the trend direction, U2 covers the quantitative change.",
+  "Only the first and last points are needed as basis for the overall direction and change; intermediate points are not required by the intent."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Deaths",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

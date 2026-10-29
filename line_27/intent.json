@@ -1,28 +1,32 @@
 {
  "clip_id": "line_27",
- "intent_en": "To illustrate the dramatic increase in the share of profits that major American companies allocate to stock buybacks from 1982 to 2018.",
- "previous_intent": "To illustrate the dramatic increase in the share of profits spent on stock buybacks by major American companies from 1982 to 2018.",
- "narration_support": "spent less than 1 % of their profits on stock buybacks. By 2008, just before the recession, that share had jumped to 77%.",
- "chart_support": "Line chart showing 'Share of profits spent on stock buybacks' for S&P 500, displaying a sharp increase from 1982 to a peak in 2008 and remaining high in 2018.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly describes the jump from under 1% to 77% and 65%, while the chart visualizes this sharp upward trend in buyback spending relative to profits.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that the share of profits major American companies spent on stock buybacks rose from under 1% in 1982 to 77% by 2008 and stood at 65% in 2018.",
+ "intent_en": "Trace the share of profits that major American companies spent on stock buybacks over the period from 1982 through 2018.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

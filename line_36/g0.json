@@ -1,0 +1,74 @@
+{
+ "clip_id": "line_36",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "35eaf3a6bcbf582eed16114799e512c165913dc3bc31aaa595b983af80677260",
+ "row_count": 13,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Support for replacing the Electoral College (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1965",
+   "1975",
+   "1985",
+   "1995",
+   "2005",
+   "2015"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Support for replacing the Electoral College",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1965",
+    "1975",
+    "1985",
+    "1995",
+    "2005",
+    "2015"
+   ],
+   "first_value": 55.0,
+   "last_value": 61.0,
+   "min_value": 51.0,
+   "max_value": 80.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Support for replacing the Electoral College"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

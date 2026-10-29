@@ -1,0 +1,180 @@
+{
+ "clip_id": "line_39",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_39",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Supply",
+    "series": "Supply"
+   },
+   {
+    "panel": "",
+    "entity": "Salary",
+    "series": "Salary"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Supply | Supply",
+    "Salary | Salary"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Supply | Supply | #1",
+    "Supply | Supply | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Supply | Supply | #1",
+      "value": 0.02,
+      "unit": "relative"
+     },
+     {
+      "mark": "Supply | Supply | #40",
+      "value": 1.0,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the relative Supply level rises over the full observed period from 0.02 at point_order 1 to 1.00 at point_order 40.",
+    "start_value": 0.02,
+    "end_value": 1.0,
+    "delta": 0.98,
+    "ratio": 50.0,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Salary | Salary | #1",
+    "Salary | Salary | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Salary | Salary | #1",
+      "value": 0.95,
+      "unit": "relative"
+     },
+     {
+      "mark": "Salary | Salary | #40",
+      "value": 0.05,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the relative Salary level falls over the full observed period from 0.95 at point_order 1 to 0.05 at point_order 40.",
+    "start_value": 0.95,
+    "end_value": 0.05,
+    "delta": -0.9,
+    "ratio": 0.052632,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Supply | Supply | #1",
+    "Supply | Supply | #40",
+    "Salary | Salary | #1",
+    "Salary | Salary | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Supply | Supply | #1",
+      "value": 0.02,
+      "unit": "relative"
+     },
+     {
+      "mark": "Supply | Supply | #40",
+      "value": 1.0,
+      "unit": "relative"
+     },
+     {
+      "mark": "Salary | Salary | #1",
+      "value": 0.95,
+      "unit": "relative"
+     },
+     {
+      "mark": "Salary | Salary | #40",
+      "value": 0.05,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "In the single panel, the relative Supply and Salary levels move in opposite directions over the full observed period: Supply rises from 0.02 to 1.00 while Salary falls from 0.95 to 0.05, so their relative ordering reverses.",
+    "start_value": 0.02,
+    "end_value": 0.05,
+    "delta": 0.03,
+    "ratio": 2.5,
+    "direction": "increasing",
+    "expected_order": [
+     "Supply",
+     "Salary",
+     "Salary",
+     "Supply"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

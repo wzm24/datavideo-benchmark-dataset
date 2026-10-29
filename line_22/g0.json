@@ -1,0 +1,190 @@
+{
+ "clip_id": "line_22",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "aefb7fad824f8edbe23943d0f0030b37ac25ec23774db9243f31c4191ede3139",
+ "row_count": 75,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 5,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share of each letter grade (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1961",
+   "1967",
+   "1973",
+   "1979",
+   "1985",
+   "1991",
+   "1997",
+   "2006"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "A",
+   "row_count": 15,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1961",
+    "1967",
+    "1973",
+    "1979",
+    "1985",
+    "1991",
+    "1997",
+    "2006"
+   ],
+   "first_value": 16.0,
+   "last_value": 43.0,
+   "min_value": 16.0,
+   "max_value": 43.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "B",
+   "row_count": 15,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1961",
+    "1967",
+    "1973",
+    "1979",
+    "1985",
+    "1991",
+    "1997",
+    "2006"
+   ],
+   "first_value": 32.0,
+   "last_value": 34.0,
+   "min_value": 32.0,
+   "max_value": 41.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "C",
+   "row_count": 15,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1961",
+    "1967",
+    "1973",
+    "1979",
+    "1985",
+    "1991",
+    "1997",
+    "2006"
+   ],
+   "first_value": 35.0,
+   "last_value": 14.0,
+   "min_value": 14.0,
+   "max_value": 35.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "D",
+   "row_count": 15,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1961",
+    "1967",
+    "1973",
+    "1979",
+    "1985",
+    "1991",
+    "1997",
+    "2006"
+   ],
+   "first_value": 11.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 11.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "F",
+   "row_count": 15,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1961",
+    "1967",
+    "1973",
+    "1979",
+    "1985",
+    "1991",
+    "1997",
+    "2006"
+   ],
+   "first_value": 6.0,
+   "last_value": 4.0,
+   "min_value": 2.0,
+   "max_value": 6.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "A"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "B"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "C"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "D"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "F"
+   }
+  ],
+  "required_series_count": 5,
+  "all_required_series_must_appear": true
+ }
+}

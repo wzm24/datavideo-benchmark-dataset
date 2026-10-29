@@ -1,0 +1,136 @@
+{
+ "clip_id": "line_31",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_31",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "1920s peak level (reference line)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Top 0.1% wealth share in the United States",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "1920s peak level (reference line)",
+    "Top 0.1% wealth share in the United States"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Top 0.1% wealth share in the United States | 1930",
+    "Top 0.1% wealth share in the United States | #22",
+    "Top 0.1% wealth share in the United States | #37"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 0.1% wealth share in the United States | 1930",
+      "value": 24.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 0.1% wealth share in the United States | #22",
+      "value": 6.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Top 0.1% wealth share in the United States | #37",
+      "value": 18.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The top 0.1% wealth share in the United States falls from its 1920s peak of 24.0% in 1930 to a low of 6.0% around point_order 22, then rises to 18.5% at the latest point (point_order 37).",
+    "start_value": 24.0,
+    "end_value": 18.5,
+    "delta": -5.5,
+    "ratio": 0.770833,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Top 0.1% wealth share in the United States | #37",
+    "1920s peak level (reference line) | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 0.1% wealth share in the United States | #37",
+      "value": 18.5,
+      "unit": "%"
+     },
+     {
+      "mark": "1920s peak level (reference line) | #1",
+      "value": 18.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The latest top 0.1% wealth share (18.5%) is equal to the 1920s peak reference level (18.5%), so the latest value has returned to that level.",
+    "start_value": 18.5,
+    "end_value": 18.5,
+    "delta": 0.0,
+    "ratio": 1.0,
+    "direction": "flat",
+    "expected_order": [
+     "Top 0.1% wealth share in the United States",
+     "1920s peak level (reference line)"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

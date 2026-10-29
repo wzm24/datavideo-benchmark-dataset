@@ -1,0 +1,149 @@
+{
+ "clip_id": "line_10",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "04884392031e90cf94aa1cda3aed57253e41b02ddeab6c9a88a0f389d7c6f306",
+ "row_count": 97,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 5,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Human Development Index"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1900",
+   "1950"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "North Korea",
+   "series": "North Korea",
+   "row_count": 20,
+   "unit": [
+    "HDI index"
+   ],
+   "x_values": [
+    "1900"
+   ],
+   "first_value": 0.0501,
+   "last_value": 0.94,
+   "min_value": 0.0501,
+   "max_value": 0.94
+  },
+  {
+   "panel": "",
+   "entity": "Thailand",
+   "series": "Thailand",
+   "row_count": 19,
+   "unit": [
+    "HDI index"
+   ],
+   "x_values": [
+    "1900"
+   ],
+   "first_value": 0.0501,
+   "last_value": 0.5201,
+   "min_value": 0.0501,
+   "max_value": 0.5201
+  },
+  {
+   "panel": "",
+   "entity": "Portugal",
+   "series": "Portugal",
+   "row_count": 18,
+   "unit": [
+    "HDI index"
+   ],
+   "x_values": [
+    "1900"
+   ],
+   "first_value": 0.0601,
+   "last_value": 0.48,
+   "min_value": 0.0601,
+   "max_value": 0.48
+  },
+  {
+   "panel": "",
+   "entity": "India",
+   "series": "India",
+   "row_count": 19,
+   "unit": [
+    "HDI index"
+   ],
+   "x_values": [
+    "1900"
+   ],
+   "first_value": 0.0401,
+   "last_value": 0.3999,
+   "min_value": 0.0401,
+   "max_value": 0.3999
+  },
+  {
+   "panel": "",
+   "entity": "DR Congo",
+   "series": "DR Congo",
+   "row_count": 21,
+   "unit": [
+    "HDI index"
+   ],
+   "x_values": [
+    "1950"
+   ],
+   "first_value": 0.0799,
+   "last_value": 0.3501,
+   "min_value": 0.0799,
+   "max_value": 0.3501
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "North Korea",
+    "series": "North Korea"
+   },
+   {
+    "panel": "",
+    "entity": "Thailand",
+    "series": "Thailand"
+   },
+   {
+    "panel": "",
+    "entity": "Portugal",
+    "series": "Portugal"
+   },
+   {
+    "panel": "",
+    "entity": "India",
+    "series": "India"
+   },
+   {
+    "panel": "",
+    "entity": "DR Congo",
+    "series": "DR Congo"
+   }
+  ],
+  "required_series_count": 5,
+  "all_required_series_must_appear": true
+ }
+}

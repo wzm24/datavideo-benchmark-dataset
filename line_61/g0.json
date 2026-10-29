@@ -1,0 +1,145 @@
+{
+ "clip_id": "line_61",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "920fe58973a4073427c237c73c44b9c31591d06aa64918389dd0db0d7dd5834f",
+ "row_count": 74,
+ "chart_structure": {
+  "sub_type": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   "Democratic",
+   "Republican"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share identifying with the Democratic Party (%)",
+   "Share identifying with the Republican Party (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1990",
+   "2000",
+   "2010",
+   "2016"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "Democratic",
+   "entity": "",
+   "series": "Pew Research Center",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 31.0,
+   "last_value": 38.11,
+   "min_value": 28.13,
+   "max_value": 38.11
+  },
+  {
+   "panel": "Democratic",
+   "entity": "",
+   "series": "General Social Survey",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 35.0,
+   "last_value": 32.52,
+   "min_value": 30.92,
+   "max_value": 35.0
+  },
+  {
+   "panel": "Republican",
+   "entity": "",
+   "series": "Pew Research Center",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 31.0,
+   "last_value": 22.14,
+   "min_value": 22.14,
+   "max_value": 31.0
+  },
+  {
+   "panel": "Republican",
+   "entity": "",
+   "series": "General Social Survey",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 33.0,
+   "last_value": 21.24,
+   "min_value": 20.34,
+   "max_value": 33.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Democratic",
+   "Republican"
+  ],
+  "required_series": [
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "General Social Survey"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "General Social Survey"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ }
+}

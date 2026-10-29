@@ -1,0 +1,85 @@
+{
+ "clip_id": "line_42",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "1b991789b391f56aec36b7e4d8cb392cc3ac0c493a7504e63a80a0b0792aaa23",
+ "row_count": 18,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Cost index (tuition or CPI)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1972"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Tuition",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1972"
+   ],
+   "first_value": 0.0,
+   "last_value": 1390.0781,
+   "min_value": 0.0,
+   "max_value": 1390.0781
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Inflation (CPI)",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1972"
+   ],
+   "first_value": 0.0,
+   "last_value": 420.0453,
+   "min_value": 0.0,
+   "max_value": 420.0453
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Tuition"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Inflation (CPI)"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

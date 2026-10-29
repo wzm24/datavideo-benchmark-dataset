@@ -1,0 +1,413 @@
+{
+ "clip_id": "line_26",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the indexed trajectories of U.S. worker productivity and hourly wages from the late 1940s through the 2010s to determine how their relationship changed over time.",
+ "chart_structure": {
+  "clip_id": "line_26",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did the indexed trajectories of U.S. worker productivity and hourly wages compare from the late 1940s through the 2010s, and how did their relationship change over time?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "From the late 1940s through the 2010s, indexed hourly wages rose from about 0 to about 110, but the increase slowed markedly after around 1980.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Productivity and wages moved together early in the period but diverged after around 1980, with productivity ending far above wages (about 225 vs. about 110).",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "1960",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "1960",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "From the late 1940s through the 2010s, indexed U.S. worker productivity rose steadily from about 0 to about 225, with the increase continuing across the entire period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": -0.0047,
+     "unit": "%",
+     "row_sha": "cc24238c90e9d664"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "1960",
+     "point_order": "7",
+     "field": "value",
+     "value": 14.9958,
+     "unit": "%",
+     "row_sha": "8f395e99cde3bf44"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "1980",
+     "point_order": "20",
+     "field": "value",
+     "value": 69.9758,
+     "unit": "%",
+     "row_sha": "64d1894a311c5d9e"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "2000",
+     "point_order": "32",
+     "field": "value",
+     "value": 134.9995,
+     "unit": "%",
+     "row_sha": "b905f2342d2bb3c5"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "",
+     "point_order": "41",
+     "field": "value",
+     "value": 225.0023,
+     "unit": "%",
+     "row_sha": "e9c4255f5839b5bc"
+    }
+   ],
+   "computation": "Compare PRODUCTIVITY from -0.0047 at point_order 1 to 225.0023 at point_order 41, with table anchors at 1960 (14.9958), 1980 (69.9758), and 2000 (134.9995).",
+   "accept": [
+    "Productivity rises from near 0 to about 225 over the period.",
+    "Productivity increases steadily across the late 1940s to 2010s.",
+    "Productivity's indexed level is much higher at the end than at the start."
+   ],
+   "reject": [
+    "Productivity declines over the period.",
+    "Productivity is flat across the period.",
+    "Productivity ends near its starting value."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "From the late 1940s through the 2010s, indexed hourly wages rose from about 0 to about 110, but the increase was slower after around 1980 than the parallel rise in productivity.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": -0.0047,
+     "unit": "%",
+     "row_sha": "cecdb87d539fcf80"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "1960",
+     "point_order": "7",
+     "field": "value",
+     "value": 14.9958,
+     "unit": "%",
+     "row_sha": "a8e03428a1b07e34"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "1980",
+     "point_order": "20",
+     "field": "value",
+     "value": 69.9758,
+     "unit": "%",
+     "row_sha": "ef668b8ba27f1e61"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "2000",
+     "point_order": "32",
+     "field": "value",
+     "value": 93.9765,
+     "unit": "%",
+     "row_sha": "2a8d247be4f66aa3"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "",
+     "point_order": "41",
+     "field": "value",
+     "value": 110.0205,
+     "unit": "%",
+     "row_sha": "e27e3a3fb1cf9031"
+    }
+   ],
+   "computation": "Compare WAGES from -0.0047 at point_order 1 to 110.0205 at point_order 41, with table anchors at 1960 (14.9958), 1980 (69.9758), and 2000 (93.9765). The absolute gain is about 69.98 before 1980 and about 40.04 after 1980.",
+   "accept": [
+    "Wages rise from near 0 to about 110 over the period.",
+    "Wage growth slows after around 1980.",
+    "Wages increase much less than productivity over the full period."
+   ],
+   "reject": [
+    "Wages decline over the period.",
+    "Wages are flat across the period.",
+    "Wages grow as fast as productivity throughout."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Productivity and wages moved together early in the period but diverged after around 1980, with productivity ending far above wages (about 225 vs. about 110).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "1960",
+     "point_order": "7",
+     "field": "value",
+     "value": 14.9958,
+     "unit": "%",
+     "row_sha": "8f395e99cde3bf44"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "1960",
+     "point_order": "7",
+     "field": "value",
+     "value": 14.9958,
+     "unit": "%",
+     "row_sha": "a8e03428a1b07e34"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "1980",
+     "point_order": "20",
+     "field": "value",
+     "value": 69.9758,
+     "unit": "%",
+     "row_sha": "64d1894a311c5d9e"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "1980",
+     "point_order": "20",
+     "field": "value",
+     "value": 69.9758,
+     "unit": "%",
+     "row_sha": "ef668b8ba27f1e61"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "2000",
+     "point_order": "32",
+     "field": "value",
+     "value": 134.9995,
+     "unit": "%",
+     "row_sha": "b905f2342d2bb3c5"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "2000",
+     "point_order": "32",
+     "field": "value",
+     "value": 93.9765,
+     "unit": "%",
+     "row_sha": "2a8d247be4f66aa3"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "PRODUCTIVITY",
+     "x": "",
+     "point_order": "41",
+     "field": "value",
+     "value": 225.0023,
+     "unit": "%",
+     "row_sha": "e9c4255f5839b5bc"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "WAGES",
+     "x": "",
+     "point_order": "41",
+     "field": "value",
+     "value": 110.0205,
+     "unit": "%",
+     "row_sha": "e27e3a3fb1cf9031"
+    }
+   ],
+   "computation": "At 1960 both series are 14.9958. At 1980 both series are 69.9758. At 2000 PRODUCTIVITY is 134.9995 versus WAGES 93.9765, and at the final point the values are 225.0023 versus 110.0205. The series diverge after 1980.",
+   "accept": [
+    "Productivity and wages track closely early on but diverge after about 1980.",
+    "The productivity-wage gap widens over time, ending at roughly 115 index points.",
+    "By the 2010s productivity is about twice the wage index."
+   ],
+   "reject": [
+    "Productivity and wages remain equal throughout.",
+    "Wages outpace productivity over the period.",
+    "The two series show no divergence."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Noting that both series start at the same index value near 0.",
+  "Noting that the wage index roughly doubles from 1980 to the 2010s while productivity more than doubles."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the productivity-wage divergence (e.g., policy, technology, unions).",
+  "Exact year labels for points where x is blank in the table.",
+  "Claims about data beyond the 2010s or before the late 1940s."
+ ],
+ "review_notes": [
+  "The table's x values are sparse; only 1960, 1980, and 2000 are explicit anchors, so trend claims use point_order endpoints and these anchors.",
+  "Panel is empty because the chart has a single panel.",
+  "Units are limited to the three explicitly requested analytical operations: productivity trend, wage trend, and their comparative relationship over time.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PRODUCTIVITY"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "WAGES"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

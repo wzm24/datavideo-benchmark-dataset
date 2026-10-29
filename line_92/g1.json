@@ -1,0 +1,352 @@
+{
+ "clip_id": "line_92",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the share of U.S. adults receiving at least one COVID-19 vaccine dose from February through August 2021 and quantify the change over that period.",
+ "chart_structure": {
+  "clip_id": "line_92",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the share of U.S. adults receiving at least one COVID-19 vaccine dose from February through August 2021 and quantify the change over that period?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The share increased by 54.0 percentage points from February 2021 (19.0%) to August 2021 (73.0%).",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "Feb '21",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share of U.S. adults receiving at least one COVID-19 vaccine dose increased from 19.0% in February 2021 to 73.0% in August 2021.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "Feb '21",
+     "point_order": "1",
+     "field": "value",
+     "value": 19.0,
+     "unit": "%",
+     "row_sha": "587e55503f2f55ff"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 28.1584,
+     "unit": "%",
+     "row_sha": "c04bf17ba7d3d7e9"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "7",
+     "field": "value",
+     "value": 34.4224,
+     "unit": "%",
+     "row_sha": "e53fe5a437a05fd0"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "10",
+     "field": "value",
+     "value": 39.8926,
+     "unit": "%",
+     "row_sha": "30c20184d10bf8d6"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "13",
+     "field": "value",
+     "value": 44.92,
+     "unit": "%",
+     "row_sha": "1054ff2f32d0e52e"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "16",
+     "field": "value",
+     "value": 49.6558,
+     "unit": "%",
+     "row_sha": "cce323e15b14573c"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "19",
+     "field": "value",
+     "value": 54.1594,
+     "unit": "%",
+     "row_sha": "cce58c0caa7f9d4a"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "22",
+     "field": "value",
+     "value": 58.447,
+     "unit": "%",
+     "row_sha": "c76119735def214e"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "25",
+     "field": "value",
+     "value": 62.605,
+     "unit": "%",
+     "row_sha": "9bb800f8c20be84d"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "June '21",
+     "point_order": "28",
+     "field": "value",
+     "value": 66.2392,
+     "unit": "%",
+     "row_sha": "af3cf0f259260e79"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "31",
+     "field": "value",
+     "value": 67.816,
+     "unit": "%",
+     "row_sha": "e7b4c79e321e6dbf"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "34",
+     "field": "value",
+     "value": 69.3658,
+     "unit": "%",
+     "row_sha": "6ff6bfb5d830cba0"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "37",
+     "field": "value",
+     "value": 70.921,
+     "unit": "%",
+     "row_sha": "1bb6cda046a9ec06"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 72.4762,
+     "unit": "%",
+     "row_sha": "c21ba54ba2d9705a"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "Aug '21",
+     "point_order": "41",
+     "field": "value",
+     "value": 73.0,
+     "unit": "%",
+     "row_sha": "1d32750bac1a950a"
+    }
+   ],
+   "computation": "Compare first value (19.0% at point_order 1) to last value (73.0% at point_order 41); the series is monotonically increasing across the listed points.",
+   "accept": [
+    "States the share rose from 19% in February 2021 to 73% in August 2021.",
+    "Shows an upward trend from February through August 2021."
+   ],
+   "reject": [
+    "States the share decreased over the period.",
+    "Uses a different start or end value not matching 19% and 73%."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The share increased by 54.0 percentage points from February 2021 (19.0%) to August 2021 (73.0%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "Feb '21",
+     "point_order": "1",
+     "field": "value",
+     "value": 19.0,
+     "unit": "%",
+     "row_sha": "587e55503f2f55ff"
+    },
+    {
+     "panel": "",
+     "entity": "All adults",
+     "series": "",
+     "x": "Aug '21",
+     "point_order": "41",
+     "field": "value",
+     "value": 73.0,
+     "unit": "%",
+     "row_sha": "1d32750bac1a950a"
+    }
+   ],
+   "computation": "Absolute difference = 73.0 - 19.0 = 54.0 percentage points.",
+   "accept": [
+    "States the change was 54 percentage points.",
+    "Quantifies the increase as 54 points from February to August 2021."
+   ],
+   "reject": [
+    "States a change other than 54 percentage points.",
+    "Confuses percentage points with percent change without specifying."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the share was 66.2% in June 2021 as an intermediate point.",
+  "Notes the series rose steadily with no declines."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the increase.",
+  "Comparisons to other countries or subgroups not in the table.",
+  "Claims about vaccination rates after August 2021."
+ ],
+ "review_notes": [
+  "Only one panel and one series; trend and change units cover the intent.",
+  "Endpoint values and absolute difference are merged into the change unit as alternative evidence."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "All adults",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

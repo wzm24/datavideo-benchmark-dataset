@@ -1,0 +1,60 @@
+{
+ "clip_id": "line_85",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6e60035f8e4122a08a79856765dd4e2dfd66bc8d3a4401c8ca23ee676afb1471",
+ "row_count": 28,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Time"
+  ],
+  "y_axes": [
+   "Speculative asset value (relative)"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "trend",
+   "series": "",
+   "row_count": 28,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.9677,
+   "last_value": 0.0,
+   "min_value": 0.0,
+   "max_value": 1.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "trend",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

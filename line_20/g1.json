@@ -1,0 +1,227 @@
+{
+ "clip_id": "line_20",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace how Facebook's share value in euros changed over the period under the new business model and compare its starting and ending levels.",
+ "chart_structure": {
+  "clip_id": "line_20",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did Facebook's share value in euros change over the period, and how do its starting and ending levels compare?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The ending share value (50.0 €) is higher than the starting share value (38.0 €), an increase of 12.0 €.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Facebook's share value in euros fluctuated over the period, starting at 38.0 €, reaching a maximum of 63.7 €, and ending at 50.0 €.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 38.0,
+     "unit": "€",
+     "row_sha": "5a4aeb327b694430"
+    },
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "25",
+     "field": "value",
+     "value": 63.7,
+     "unit": "€",
+     "row_sha": "691a4b692ddc5c60"
+    },
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "34",
+     "field": "value",
+     "value": 50.0,
+     "unit": "€",
+     "row_sha": "9d4c2a659c9307cd"
+    }
+   ],
+   "computation": "Identify first value (point_order 1 = 38.0), maximum value (point_order 25 = 63.7), and last value (point_order 34 = 50.0) from the single series; describe overall fluctuation.",
+   "accept": [
+    "Mentions the share value started at 38.0 €",
+    "Mentions the share value ended at 50.0 €",
+    "Mentions the share value reached a peak of 63.7 €",
+    "Describes the path as fluctuating or non-monotonic"
+   ],
+   "reject": [
+    "Claims the value rose monotonically",
+    "Claims the value fell monotonically",
+    "Omits the starting or ending level",
+    "Uses a peak value other than 63.7 €"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The ending share value (50.0 €) is higher than the starting share value (38.0 €), an increase of 12.0 €.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 38.0,
+     "unit": "€",
+     "row_sha": "5a4aeb327b694430"
+    },
+    {
+     "panel": "",
+     "entity": "50€",
+     "series": "",
+     "x": "",
+     "point_order": "34",
+     "field": "value",
+     "value": 50.0,
+     "unit": "€",
+     "row_sha": "9d4c2a659c9307cd"
+    }
+   ],
+   "computation": "Compare last value (50.0) to first value (38.0); absolute difference = 50.0 - 38.0 = 12.0 €.",
+   "accept": [
+    "States the ending level is higher than the starting level",
+    "States the increase is 12.0 €",
+    "Compares 50.0 € to 38.0 €"
+   ],
+   "reject": [
+    "States the ending level is lower than the starting level",
+    "Gives an incorrect difference",
+    "Omits the comparison between start and end"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions intermediate fluctuations such as the dip to 32.9 € early in the period.",
+  "Mentions the percentage change from start to end (approximately 31.6%)."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the share value changes (e.g., new business model effects) not present in the table.",
+  "Specific dates or calendar labels for the x-axis, since x values are empty.",
+  "Comparisons with other companies or series not present in the table."
+ ],
+ "review_notes": [
+  "The table has a single series labeled '50€' under entity; treated as Facebook share value in euros per the intent.",
+  "X-axis values are empty; point_order is used as the temporal sequence.",
+  "Only one panel, so no cross-panel comparison units are needed."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "50€",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

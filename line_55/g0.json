@@ -1,0 +1,79 @@
+{
+ "clip_id": "line_55",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "c75807cbcccf123a110b42e8d8f589e28d31fba431bddf175ae73a0874d21974",
+ "row_count": 12,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Months after vaccination"
+  ],
+  "y_axes": [
+   "Estimated vaccine effectiveness (%)"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "effectiveness against hospitalization",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_values": [],
+   "first_value": 86.2195,
+   "last_value": 87.2195,
+   "min_value": 86.2195,
+   "max_value": 93.2195
+  },
+  {
+   "panel": "",
+   "entity": "effectiveness against infection",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_values": [],
+   "first_value": 86.2195,
+   "last_value": 48.2195,
+   "min_value": 48.2195,
+   "max_value": 86.2195
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "effectiveness against hospitalization",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "effectiveness against infection",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

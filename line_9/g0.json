@@ -1,0 +1,93 @@
+{
+ "clip_id": "line_9",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "37d438e4e5452c36c6023c09815ad7f6754a13344af1aa6e39e3ad64b68aad0c",
+ "row_count": 38,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Average SAT score (25th percentile)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1994",
+   "1998",
+   "2002",
+   "2006",
+   "2010"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "TEST-OPTIONAL",
+   "row_count": 19,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 983.2609,
+   "last_value": 1133.2609,
+   "min_value": 983.2609,
+   "max_value": 1143.2609
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "TEST-REQUIRED",
+   "row_count": 19,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 973.2609,
+   "last_value": 1103.2609,
+   "min_value": 973.2609,
+   "max_value": 1128.2609
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

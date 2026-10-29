@@ -1,0 +1,304 @@
+{
+ "clip_id": "line_39",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how the relative supply level and relative salary level change over time across the full observed period.",
+ "chart_structure": {
+  "clip_id": "line_39",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How do the relative supply level and relative salary level change over the full observed period, and how do those changes compare?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "x_axis": "Time",
+    "series": [
+     "Supply",
+     "Salary"
+    ]
+   }
+  },
+  {
+   "id": "R3",
+   "question": "In the single panel, the relative Salary level falls over the full observed period from 0.95 at point_order 1 to 0.05 at point_order 40.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "In the single panel, the relative Supply and Salary levels move in opposite directions over the full observed period: Supply rises from 0.02 to 1.00 while Salary falls from 0.95 to 0.05, so their relative ordering reverses.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Supply",
+     "series": "Supply",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "Salary",
+     "series": "Salary",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the relative Supply level rises over the full observed period from 0.02 at point_order 1 to 1.00 at point_order 40.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Supply",
+     "series": "Supply",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.02,
+     "unit": "relative",
+     "row_sha": "bdeb325607518f4a"
+    },
+    {
+     "panel": "",
+     "entity": "Supply",
+     "series": "Supply",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "0e981010df74a7ac"
+    }
+   ],
+   "computation": "Compare first and last Supply values: 0.02 -> 1.00; monotonic increase across the observed sequence.",
+   "accept": [
+    "Supply increases from 0.02 to 1.00 over the period",
+    "Supply trend is upward across the full observed period"
+   ],
+   "reject": [
+    "Supply decreases over the period",
+    "Supply stays flat at 0.02"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the relative Salary level falls over the full observed period from 0.95 at point_order 1 to 0.05 at point_order 40.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Salary",
+     "series": "Salary",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.95,
+     "unit": "relative",
+     "row_sha": "63c705f0349cb73a"
+    },
+    {
+     "panel": "",
+     "entity": "Salary",
+     "series": "Salary",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 0.05,
+     "unit": "relative",
+     "row_sha": "9e045d47daff5bd8"
+    }
+   ],
+   "computation": "Compare first and last Salary values: 0.95 -> 0.05; monotonic decrease across the observed sequence.",
+   "accept": [
+    "Salary decreases from 0.95 to 0.05 over the period",
+    "Salary trend is downward across the full observed period"
+   ],
+   "reject": [
+    "Salary increases over the period",
+    "Salary stays flat at 0.95"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "In the single panel, the relative Supply and Salary levels move in opposite directions over the full observed period: Supply rises from 0.02 to 1.00 while Salary falls from 0.95 to 0.05, so their relative ordering reverses.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Supply",
+     "series": "Supply",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.02,
+     "unit": "relative",
+     "row_sha": "bdeb325607518f4a"
+    },
+    {
+     "panel": "",
+     "entity": "Supply",
+     "series": "Supply",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "0e981010df74a7ac"
+    },
+    {
+     "panel": "",
+     "entity": "Salary",
+     "series": "Salary",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.95,
+     "unit": "relative",
+     "row_sha": "63c705f0349cb73a"
+    },
+    {
+     "panel": "",
+     "entity": "Salary",
+     "series": "Salary",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": 0.05,
+     "unit": "relative",
+     "row_sha": "9e045d47daff5bd8"
+    }
+   ],
+   "computation": "Supply change = +0.98; Salary change = -0.90; at start Salary (0.95) > Supply (0.02), at end Supply (1.00) > Salary (0.05).",
+   "accept": [
+    "Supply rises while Salary falls over the period",
+    "The two series diverge and reverse relative order"
+   ],
+   "reject": [
+    "Supply and Salary both rise",
+    "Supply and Salary both fall",
+    "Supply remains below Salary throughout"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning that Supply reaches its maximum of 1.00 at the final point and Salary reaches its minimum of 0.05 near the final points."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for why Supply rises or Salary falls",
+  "Exact crossing point_order unless directly read from the chart",
+  "Claims about panels other than the single panel",
+  "Absolute or percentage change values beyond the endpoint comparison"
+ ],
+ "review_notes": [
+  "The intent asks for relative supply and relative salary changes over the full observed period and their comparison; three semantic units cover the two trends and the cross-series comparison.",
+  "No crossing unit is included because the exact crossing point_order is not explicitly supplied in the table summary.",
+  "Panel is empty in the supplied structure, so all units apply to the single panel."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Supply",
+    "series": "Supply"
+   },
+   {
+    "panel": "",
+    "entity": "Salary",
+    "series": "Salary"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

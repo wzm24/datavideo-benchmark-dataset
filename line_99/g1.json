@@ -1,0 +1,366 @@
+{
+ "clip_id": "line_99",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the relative us-versus-them polarization trends in the Senate and House of Representatives across the congressional periods shown, and identify when each chamber reaches its highest level.",
+ "chart_structure": {
+  "clip_id": "line_99",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "What is the Senate relative us-versus-them polarization trajectory across the congressional periods shown?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Identify when each chamber reaches its highest level of relative polarization.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "How do the Senate and House trajectories compare over the periods where both have data?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "At what plotted value and position does each chamber reach its highest relative polarization?",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1973-74",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the Senate, relative us-versus-them polarization falls from 0.9179 in 1973-74 to 0.2800 in 1985-86, then rises to 1.0000 by 2009-10.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1973-74",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.9179,
+     "unit": "relative",
+     "row_sha": "1a45477f6621338e"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1985-86",
+     "point_order": "15",
+     "field": "value",
+     "value": 0.28,
+     "unit": "relative",
+     "row_sha": "3eb7d1eb9f4b7861"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2009-10",
+     "point_order": "43",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "279165f176d60bfb"
+    }
+   ],
+   "computation": "1973-74=0.9179; 1985-86=0.2800; 2009-10=1.0000. The series therefore declines substantially before rising to its maximum.",
+   "accept": [
+    "Senate polarization declines substantially between 1973-74 and 1985-86.",
+    "Senate polarization then rises to 1.0000 by 2009-10."
+   ],
+   "reject": [
+    "Describes the Senate series as generally rising from the start with only a small dip.",
+    "Describes the Senate series as declining overall."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the House of Representatives, relative us-versus-them polarization rises from the 1979-80 period to the 2003-04 period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.01,
+     "unit": "relative",
+     "row_sha": "d2bd2b9be869f7be"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "43",
+     "field": "value",
+     "value": 0.8058,
+     "unit": "relative",
+     "row_sha": "d96345f8564f3a85"
+    }
+   ],
+   "computation": "Compare first (0.0100) and last (0.8058) values for the House series.",
+   "accept": [
+    "House polarization is higher at the end than at the start"
+   ],
+   "reject": [
+    "House polarization is flat across periods",
+    "House polarization declines overall"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Between 1979-80 and 2003-04, both chamber series end higher than they start, but the House generally rises while the Senate first falls to 0.2708 at point_order 14 and then rises sharply.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "8",
+     "field": "value",
+     "value": 0.3979,
+     "unit": "relative",
+     "row_sha": "13570ee20c225b84"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "36",
+     "field": "value",
+     "value": 0.98,
+     "unit": "relative",
+     "row_sha": "0587038f1b955bef"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.01,
+     "unit": "relative",
+     "row_sha": "d2bd2b9be869f7be"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "43",
+     "field": "value",
+     "value": 0.8058,
+     "unit": "relative",
+     "row_sha": "d96345f8564f3a85"
+    }
+   ],
+   "computation": "Over the overlap, Senate moves from 0.3979 at 1979-80 to 0.9800 at 2003-04, with an intervening minimum of 0.2708 at point_order 14. House moves from 0.0100 at 1979-80 to 0.8058 at 2003-04.",
+   "accept": [
+    "Both chambers end the overlap higher than they start.",
+    "The Senate first declines and then rises sharply, while the House generally rises over the overlap."
+   ],
+   "reject": [
+    "Claims both series rise monotonically over the overlap.",
+    "Claims the two series end lower than they start."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R5",
+   "unit_kind": "extremum",
+   "claim": "The Senate reaches 1.0000 at 2009-10. The House reaches its plotted maximum of 0.8122 at point_order 38, between the 1997-98 and 2003-04 anchors; the explicit 2003-04 value is 0.8058.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2009-10",
+     "point_order": "43",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "279165f176d60bfb"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "",
+     "point_order": "38",
+     "field": "value",
+     "value": 0.8122,
+     "unit": "relative",
+     "row_sha": "cd6d31d09ac68272"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "43",
+     "field": "value",
+     "value": 0.8058,
+     "unit": "relative",
+     "row_sha": "d96345f8564f3a85"
+    }
+   ],
+   "computation": "Senate max=1.0000 at 2009-10. House max=0.8122 at point_order 38, which is between the labeled 1997-98 anchor at point_order 33 and the labeled 2003-04 anchor at point_order 43; the 2003-04 value is 0.8058.",
+   "accept": [
+    "Senate maximum is 1.0000 at 2009-10.",
+    "House maximum is 0.8122 at point_order 38, between 1997-98 and 2003-04.",
+    "The explicit 2003-04 House value is 0.8058 and is not the plotted maximum."
+   ],
+   "reject": [
+    "Claims the House maximum is 0.8058 at 2003-04.",
+    "Claims the Senate maximum occurs at 1973-74."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
+ },
+ "optional_valid": [],
+ "unsupported_to_avoid": [
+  "Causal explanations for polarization changes",
+  "Claims about periods where a chamber has no data",
+  "Exact percentage changes not directly computed from the table"
+ ],
+ "review_notes": [
+  "The Senate series has an unlabeled minimum row at point_order 14 (0.2708); it is not used as an x-anchored basis row.",
+  "The House series has an unlabeled maximum row at point_order 38 (0.8122); the labeled 2003-04 value 0.8058 is used for the peak claim to keep x explicit.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

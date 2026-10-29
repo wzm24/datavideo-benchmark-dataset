@@ -1,0 +1,284 @@
+{
+ "clip_id": "line_55",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_55",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "effectiveness against hospitalization",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "effectiveness against infection",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "effectiveness against hospitalization",
+    "effectiveness against infection"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "effectiveness against infection | #1",
+    "effectiveness against infection | #2",
+    "effectiveness against infection | #3",
+    "effectiveness against infection | #4",
+    "effectiveness against infection | #5",
+    "effectiveness against infection | #6"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "effectiveness against infection | #1",
+      "value": 86.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #2",
+      "value": 83.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #3",
+      "value": 77.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #4",
+      "value": 67.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #5",
+      "value": 71.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #6",
+      "value": 48.2195,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Estimated vaccine effectiveness against infection declines overall from 86.2195% at point 1 to 48.2195% at point 6, with a slight rebound at point 5 (71.2195%) before the final drop.",
+    "start_value": 86.2195,
+    "end_value": 48.2195,
+    "delta": -38.0,
+    "ratio": 0.559264,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "effectiveness against hospitalization | #1",
+    "effectiveness against hospitalization | #2",
+    "effectiveness against hospitalization | #3",
+    "effectiveness against hospitalization | #4",
+    "effectiveness against hospitalization | #5",
+    "effectiveness against hospitalization | #6"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "effectiveness against hospitalization | #1",
+      "value": 86.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #2",
+      "value": 89.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #3",
+      "value": 91.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #4",
+      "value": 93.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #5",
+      "value": 91.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #6",
+      "value": 87.2195,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Estimated vaccine effectiveness against hospitalization rises from 86.2195% at point 1 to a peak of 93.2195% at point 4, then declines to 87.2195% at point 6.",
+    "start_value": 86.2195,
+    "end_value": 87.2195,
+    "delta": 1.0,
+    "ratio": 1.011598,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "effectiveness against infection | #1",
+    "effectiveness against hospitalization | #1",
+    "effectiveness against infection | #2",
+    "effectiveness against hospitalization | #2",
+    "effectiveness against infection | #3",
+    "effectiveness against hospitalization | #3",
+    "effectiveness against infection | #4",
+    "effectiveness against hospitalization | #4",
+    "effectiveness against infection | #5",
+    "effectiveness against hospitalization | #5",
+    "effectiveness against infection | #6",
+    "effectiveness against hospitalization | #6"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "effectiveness against infection | #1",
+      "value": 86.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #1",
+      "value": 86.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #2",
+      "value": 83.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #2",
+      "value": 89.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #3",
+      "value": 77.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #3",
+      "value": 91.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #4",
+      "value": 67.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #4",
+      "value": 93.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #5",
+      "value": 71.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #5",
+      "value": 91.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against infection | #6",
+      "value": 48.2195,
+      "unit": "%"
+     },
+     {
+      "mark": "effectiveness against hospitalization | #6",
+      "value": 87.2195,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Effectiveness against hospitalization remains higher than effectiveness against infection from point 2 onward, with the gap widening over time; at point 1 both measures are equal at 86.2195%.",
+    "start_value": 86.2195,
+    "end_value": 87.2195,
+    "delta": 1.0,
+    "ratio": 1.011598,
+    "direction": "increasing",
+    "expected_order": [
+     "effectiveness against hospitalization",
+     "effectiveness against hospitalization",
+     "effectiveness against hospitalization",
+     "effectiveness against hospitalization",
+     "effectiveness against hospitalization",
+     "effectiveness against infection",
+     "effectiveness against hospitalization",
+     "effectiveness against infection",
+     "effectiveness against infection",
+     "effectiveness against infection",
+     "effectiveness against infection",
+     "effectiveness against infection"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

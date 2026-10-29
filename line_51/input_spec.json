@@ -3,5 +3,11 @@
  "family": "line",
  "sub_type": "multi_panel",
  "orientation": "cartesian",
- "panel_count": 3
+ "panel_count": 3,
+ "panels": [
+  "IRS BUDGET (2018 DOLLARS)",
+  "IRS REVENUE AGENTS",
+  "IRS AUDITS PER YEAR"
+ ],
+ "time_behavior": "snapshot"
 }

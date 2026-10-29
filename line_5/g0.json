@@ -1,0 +1,97 @@
+{
+ "clip_id": "line_5",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "b501cea1d845467c7c3e530e56f1b6368ccf8c5fb34d8c1bd865ab2eeab29ed3",
+ "row_count": 42,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Support for replacing the Electoral College (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2000",
+   "2005",
+   "2010",
+   "2015",
+   "2020"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Democratic Party",
+   "row_count": 21,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+   ],
+   "first_value": 72.0,
+   "last_value": 81.0,
+   "min_value": 68.0,
+   "max_value": 81.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Republican Party",
+   "row_count": 21,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+   ],
+   "first_value": 44.0,
+   "last_value": 23.0,
+   "min_value": 23.0,
+   "max_value": 52.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Democratic Party"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Republican Party"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

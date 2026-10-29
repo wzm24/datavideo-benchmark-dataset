@@ -1,0 +1,266 @@
+{
+ "clip_id": "line_57",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "bc0ed58e7e335d103aa42d643de6b4ef9603f0f184451ec51fd3404d3077e1d9",
+ "row_count": 36,
+ "chart_structure": {
+  "sub_type": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 3,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Month (May-August 2021)"
+  ],
+  "y_axes": [
+   "Estimated vaccine effectiveness against hospitalization (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "MAY",
+   "JUNE",
+   "JULY",
+   "AUGUST"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 97.5,
+   "last_value": 96.5,
+   "min_value": 96.5,
+   "max_value": 97.5
+  },
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 95.5,
+   "min_value": 95.5,
+   "max_value": 96.5
+  },
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 95.0,
+   "last_value": 89.0,
+   "min_value": 89.0,
+   "max_value": 95.0
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 97.5,
+   "min_value": 96.5,
+   "max_value": 97.5
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 97.0,
+   "min_value": 96.5,
+   "max_value": 97.0
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 97.0,
+   "last_value": 94.0,
+   "min_value": 94.0,
+   "max_value": 97.0
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 95.5,
+   "last_value": 93.5,
+   "min_value": 93.5,
+   "max_value": 95.5
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 88.0,
+   "last_value": 93.0,
+   "min_value": 88.0,
+   "max_value": 93.0
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 85.0,
+   "last_value": 83.0,
+   "min_value": 83.0,
+   "max_value": 85.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ],
+  "required_series": [
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "65+"
+   }
+  ],
+  "required_series_count": 9,
+  "all_required_series_must_appear": true
+ }
+}

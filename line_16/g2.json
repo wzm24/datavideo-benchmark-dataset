@@ -1,0 +1,186 @@
+{
+ "clip_id": "line_16",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_16",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "NO"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "YES"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "DON'T KNOW"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "NO",
+    "YES",
+    "DON'T KNOW"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "NO | January 2014",
+    "NO | May 2014",
+    "NO | August 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "NO | January 2014",
+      "value": 44.0,
+      "unit": "%"
+     },
+     {
+      "mark": "NO | May 2014",
+      "value": 46.0,
+      "unit": "%"
+     },
+     {
+      "mark": "NO | August 2014",
+      "value": 47.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of respondents answering No remained the highest among the three response categories across the survey dates, ending at 47% in August 2014.",
+    "start_value": 44.0,
+    "end_value": 47.0,
+    "delta": 3.0,
+    "ratio": 1.068182,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "YES | January 2014",
+    "YES | May 2014",
+    "YES | August 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "YES | January 2014",
+      "value": 37.0,
+      "unit": "%"
+     },
+     {
+      "mark": "YES | May 2014",
+      "value": 34.0,
+      "unit": "%"
+     },
+     {
+      "mark": "YES | August 2014",
+      "value": 37.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of respondents answering Yes fluctuated but ended at 37% in August 2014, remaining below No at every labeled survey date.",
+    "start_value": 37.0,
+    "end_value": 37.0,
+    "delta": 0.0,
+    "ratio": 1.0,
+    "direction": "flat"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "DON'T KNOW | January 2014",
+    "DON'T KNOW | May 2014",
+    "DON'T KNOW | August 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "DON'T KNOW | January 2014",
+      "value": 19.0,
+      "unit": "%"
+     },
+     {
+      "mark": "DON'T KNOW | May 2014",
+      "value": 20.0,
+      "unit": "%"
+     },
+     {
+      "mark": "DON'T KNOW | August 2014",
+      "value": 14.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of respondents answering Don't know was the smallest of the three categories at each labeled survey date and fell to 14% in August 2014.",
+    "start_value": 19.0,
+    "end_value": 14.0,
+    "delta": -5.0,
+    "ratio": 0.736842,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

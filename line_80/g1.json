@@ -1,0 +1,258 @@
+{
+ "clip_id": "line_80",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace daily COVID-19 cases in India from March 2020 through April 2021 and compare case levels across late 2020 and March 2021.",
+ "chart_structure": {
+  "clip_id": "line_80",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace daily COVID-19 cases in India from March 2020 through April 2021?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Does the video compare case levels across late 2020 and March 2021?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Daily COVID-19 cases in India (seven-day moving average) rose from 4.5613 thousand in March 2020 to a local peak of 86.7381 thousand in October 2020, then declined to 15.7921 thousand at an unlabeled point between February and March 2021 before rising to 369.5175 thousand at the final plotted point after the last explicit March 2021 anchor.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "value",
+     "value": 4.5613,
+     "unit": "thousand cases",
+     "row_sha": "f5ec90f5dddc6ea4"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Oct",
+     "point_order": "101",
+     "field": "value",
+     "value": 86.7381,
+     "unit": "thousand cases",
+     "row_sha": "68a6631992a6492e"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "",
+     "point_order": "164",
+     "field": "value",
+     "value": 15.7921,
+     "unit": "thousand cases",
+     "row_sha": "83dcc2b524b20827"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "",
+     "point_order": "200",
+     "field": "value",
+     "value": 369.5175,
+     "unit": "thousand cases",
+     "row_sha": "a0c1c019a06cfe0f"
+    }
+   ],
+   "computation": "Start: 4.5613 at point_order 1. Local peak: 86.7381 at point_order 101. Subsequent minimum: 15.7921 at point_order 164. Final plotted value: 369.5175 at point_order 200, after the last explicit March anchor.",
+   "accept": [
+    "Shows the line rising from March 2020 to a peak in October 2020.",
+    "Places the later trough at 15.7921 thousand between February and March 2021.",
+    "Shows the final plotted value reaching 369.5175 thousand."
+   ],
+   "reject": [
+    "Claims cases declined monotonically from March 2020 to April 2021.",
+    "Places the October 2020 peak near 97.15 thousand.",
+    "Labels the final point as an explicitly printed April 2021 value."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "Case levels in late 2020 (October–December 2020) were substantially higher than in March 2021: October 2020 was about 86.74 thousand, November 2020 about 50.49 thousand, December 2020 about 42.91 thousand, while March 2021 was about 19.99 thousand.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Oct",
+     "point_order": "101",
+     "field": "value",
+     "value": 86.7381,
+     "unit": "thousand cases",
+     "row_sha": "68a6631992a6492e"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Nov",
+     "point_order": "116",
+     "field": "value",
+     "value": 50.489,
+     "unit": "thousand cases",
+     "row_sha": "e3d7fe62b356e189"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Dec",
+     "point_order": "130",
+     "field": "value",
+     "value": 42.9105,
+     "unit": "thousand cases",
+     "row_sha": "73da4aa607f52234"
+    },
+    {
+     "panel": "",
+     "entity": "daily cases 7dma",
+     "series": "",
+     "x": "Mar",
+     "point_order": "172",
+     "field": "value",
+     "value": 19.9923,
+     "unit": "thousand cases",
+     "row_sha": "e5cfa59d2efe6f9b"
+    }
+   ],
+   "computation": "Compare values: Oct 86.7381, Nov 50.4890, Dec 42.9105 vs Mar 2021 19.9923; all late-2020 values exceed March 2021.",
+   "accept": [
+    "States that late 2020 case levels were higher than March 2021",
+    "References at least one late-2020 month and March 2021 with values or visual comparison"
+   ],
+   "reject": [
+    "Claims March 2021 was higher than late 2020",
+    "Compares only within late 2020 without March 2021",
+    "Uses data outside the specified months"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the exact peak value of about 86.74 thousand in October 2020",
+  "Mentions the final value of about 369.52 thousand at the end of the period"
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the rise or fall in cases",
+  "Comparisons with other countries",
+  "Exact daily values without the 7-day moving average",
+  "Claims about dates beyond April 2021"
+ ],
+ "review_notes": [
+  "The table summary lists the last row with an empty x value and point_order 200; this is treated as the end of the period (April 2021) based on the intent and axis range.",
+  "The intent asks to trace from March 2020 through April 2021; the table's x anchors end at March, but the final row (point_order 200) represents the April 2021 endpoint.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily cases 7dma",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

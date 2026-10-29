@@ -1,28 +1,32 @@
 {
  "clip_id": "line_39",
- "intent_en": "To illustrate the inverse relationship between job supply and salaries when unrealistic job expectations are promoted.",
- "previous_intent": "To illustrate the inverse relationship between labor supply and salary when unrealistic job expectations are promoted.",
- "narration_support": "supply rises and salaries fall",
- "chart_support": "Line chart showing an upward trend for Supply and a downward trend for Salary",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly states the inverse dynamic ('supply rises and salaries fall'), which is visually confirmed by the chart where the Supply curve ascends while the Salary curve descends.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that as job supply rises from 0.02 to 1.00, salary level falls from 0.95 to 0.05, illustrating the inverse relationship when unrealistic jobs are sold.",
+ "intent_en": "Compare how the relative supply level and relative salary level change over time across the full observed period.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

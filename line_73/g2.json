@@ -1,0 +1,120 @@
+{
+ "clip_id": "line_73",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_73",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "temp anomaly",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "temp anomaly"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "temp anomaly | 1900",
+    "temp anomaly | #137"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "temp anomaly | 1900",
+      "value": -0.208,
+      "unit": "°C"
+     },
+     {
+      "mark": "temp anomaly | #137",
+      "value": 0.946,
+      "unit": "°C"
+     }
+    ],
+    "expected_relation": "The global temperature anomaly relative to the 1951-1980 average shows an overall increasing trend from 1900 through the end of the series.",
+    "start_value": -0.208,
+    "end_value": 0.946,
+    "delta": 1.154,
+    "ratio": -4.548077,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "temp anomaly | 1900",
+    "temp anomaly | #137"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "temp anomaly | 1900",
+      "value": -0.208,
+      "unit": "°C"
+     },
+     {
+      "mark": "temp anomaly | #137",
+      "value": 0.946,
+      "unit": "°C"
+     }
+    ],
+    "expected_relation": "The overall change in global temperature anomaly from 1900 to the end of the series is an increase of 1.154 °C, from -0.208 °C to 0.946 °C.",
+    "start_value": -0.208,
+    "end_value": 0.946,
+    "delta": 1.154,
+    "ratio": -4.548077,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

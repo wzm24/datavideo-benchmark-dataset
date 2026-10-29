@@ -1,221 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-role="semantic-chart" data-generator="datavideo.semantic_render_v1">
-<defs>
-<linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#c7ddf2"/>
-<stop offset="1" stop-color="#abc4dd"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" data-role="semantic-chart" data-generator="datavideo.line50.real_data.v1">
+<defs><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c7ddf2"/><stop offset="1" stop-color="#abc4dd"/></linearGradient></defs>
 <rect width="1280" height="720" fill="#fbfbfb"/>
-<rect x="94.0" y="30.0" width="1094.0" height="544.0" fill="url(#water)"/>
-<line x1="108.0" y1="30.0" x2="108.0" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="122.1" y1="30.0" x2="122.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="136.1" y1="30.0" x2="136.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="150.1" y1="30.0" x2="150.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="164.1" y1="30.0" x2="164.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="178.2" y1="30.0" x2="178.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="192.2" y1="30.0" x2="192.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="206.2" y1="30.0" x2="206.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="220.2" y1="30.0" x2="220.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="234.3" y1="30.0" x2="234.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="248.3" y1="30.0" x2="248.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="262.3" y1="30.0" x2="262.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="276.3" y1="30.0" x2="276.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="290.4" y1="30.0" x2="290.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="304.4" y1="30.0" x2="304.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="318.4" y1="30.0" x2="318.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="332.4" y1="30.0" x2="332.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="346.5" y1="30.0" x2="346.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="360.5" y1="30.0" x2="360.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="374.5" y1="30.0" x2="374.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="388.5" y1="30.0" x2="388.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="402.6" y1="30.0" x2="402.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="416.6" y1="30.0" x2="416.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="430.6" y1="30.0" x2="430.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="444.6" y1="30.0" x2="444.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="458.7" y1="30.0" x2="458.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="472.7" y1="30.0" x2="472.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="486.7" y1="30.0" x2="486.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="500.7" y1="30.0" x2="500.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="514.8" y1="30.0" x2="514.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="528.8" y1="30.0" x2="528.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="542.8" y1="30.0" x2="542.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="556.8" y1="30.0" x2="556.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="570.9" y1="30.0" x2="570.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="584.9" y1="30.0" x2="584.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="598.9" y1="30.0" x2="598.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="612.9" y1="30.0" x2="612.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="627.0" y1="30.0" x2="627.0" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="641.0" y1="30.0" x2="641.0" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="655.0" y1="30.0" x2="655.0" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="669.1" y1="30.0" x2="669.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="683.1" y1="30.0" x2="683.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="697.1" y1="30.0" x2="697.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="711.1" y1="30.0" x2="711.1" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="725.2" y1="30.0" x2="725.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="739.2" y1="30.0" x2="739.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="753.2" y1="30.0" x2="753.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="767.2" y1="30.0" x2="767.2" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="781.3" y1="30.0" x2="781.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="795.3" y1="30.0" x2="795.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="809.3" y1="30.0" x2="809.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="823.3" y1="30.0" x2="823.3" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="837.4" y1="30.0" x2="837.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="851.4" y1="30.0" x2="851.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="865.4" y1="30.0" x2="865.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="879.4" y1="30.0" x2="879.4" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="893.5" y1="30.0" x2="893.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="907.5" y1="30.0" x2="907.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="921.5" y1="30.0" x2="921.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="935.5" y1="30.0" x2="935.5" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="949.6" y1="30.0" x2="949.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="963.6" y1="30.0" x2="963.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="977.6" y1="30.0" x2="977.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="991.6" y1="30.0" x2="991.6" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1005.7" y1="30.0" x2="1005.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1019.7" y1="30.0" x2="1019.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1033.7" y1="30.0" x2="1033.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1047.7" y1="30.0" x2="1047.7" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1061.8" y1="30.0" x2="1061.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1075.8" y1="30.0" x2="1075.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1089.8" y1="30.0" x2="1089.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1103.8" y1="30.0" x2="1103.8" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1117.9" y1="30.0" x2="1117.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1131.9" y1="30.0" x2="1131.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1145.9" y1="30.0" x2="1145.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1159.9" y1="30.0" x2="1159.9" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="1174.0" y1="30.0" x2="1174.0" y2="574.0" stroke="#e6f3fc" stroke-width="2" opacity="0.9"/>
-<line x1="94" y1="30" x2="94" y2="574" stroke="#8ea6bc" stroke-width="2"/>
-<line x1="1188" y1="30" x2="1188" y2="574" stroke="#8ea6bc" stroke-width="2"/>
-<polyline points="107.0,88.0 121.0,95.0 141.0,159.0 155.0,166.0 169.0,173.0 178.0,242.0 192.0,249.0 206.0,256.0 214.0,263.0 228.0,270.0 242.0,277.0 258.0,293.0 272.0,300.0 286.0,307.0 302.0,305.0 316.0,312.0 330.0,319.0 342.0,326.0 356.0,333.0 370.0,340.0 382.0,341.0 396.0,348.0 410.0,355.0 427.0,355.0 441.0,362.0 455.0,369.0 470.0,357.0 484.0,364.0 498.0,371.0 509.0,362.0 523.0,369.0 537.0,376.0 548.0,389.0 562.0,396.0 576.0,403.0 594.0,399.0 608.0,406.0 622.0,413.0 634.0,428.0 648.0,435.0 662.0,442.0 668.0,438.0 682.0,445.0 696.0,452.0 718.0,463.0 732.0,470.0 746.0,477.0 758.0,479.0 772.0,486.0 786.0,493.0 801.0,476.0 815.0,483.0 829.0,490.0 841.0,491.0 855.0,498.0 869.0,505.0 884.0,515.0 898.0,522.0 912.0,529.0 925.0,507.0 939.0,514.0 953.0,521.0 968.0,520.0 982.0,527.0 996.0,534.0 1010.0,523.0 1024.0,530.0 1038.0,537.0 1051.0,533.0 1065.0,540.0 1079.0,547.0 1099.0,546.0 1113.0,553.0 1127.0,560.0 1145.0,549.0 1159.0,556.0 1173.0,563.0" fill="none" stroke="#6e7f92" stroke-width="1.6" opacity="0.85"/>
-<circle cx="107.0" cy="88.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="121.0" cy="95.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="141.0" cy="159.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="155.0" cy="166.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="169.0" cy="173.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="178.0" cy="242.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="192.0" cy="249.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="206.0" cy="256.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="214.0" cy="263.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="228.0" cy="270.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="242.0" cy="277.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="258.0" cy="293.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="272.0" cy="300.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="286.0" cy="307.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="302.0" cy="305.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="316.0" cy="312.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="330.0" cy="319.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="342.0" cy="326.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="356.0" cy="333.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="370.0" cy="340.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="382.0" cy="341.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="396.0" cy="348.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="410.0" cy="355.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="427.0" cy="355.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="441.0" cy="362.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="455.0" cy="369.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="470.0" cy="357.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="484.0" cy="364.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="498.0" cy="371.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="509.0" cy="362.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="523.0" cy="369.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="537.0" cy="376.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="548.0" cy="389.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="562.0" cy="396.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="576.0" cy="403.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="594.0" cy="399.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="608.0" cy="406.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="622.0" cy="413.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="634.0" cy="428.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="648.0" cy="435.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="662.0" cy="442.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="668.0" cy="438.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="682.0" cy="445.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="696.0" cy="452.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="718.0" cy="463.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="732.0" cy="470.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="746.0" cy="477.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="758.0" cy="479.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="772.0" cy="486.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="786.0" cy="493.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="801.0" cy="476.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="815.0" cy="483.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="829.0" cy="490.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="841.0" cy="491.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="855.0" cy="498.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="869.0" cy="505.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="884.0" cy="515.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="898.0" cy="522.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="912.0" cy="529.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="925.0" cy="507.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="939.0" cy="514.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="953.0" cy="521.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="968.0" cy="520.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="982.0" cy="527.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="996.0" cy="534.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1010.0" cy="523.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1024.0" cy="530.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1038.0" cy="537.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1051.0" cy="533.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1065.0" cy="540.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1079.0" cy="547.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1099.0" cy="546.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1113.0" cy="553.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1127.0" cy="560.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1145.0" cy="549.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1159.0" cy="556.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<circle cx="1173.0" cy="563.0" r="3.4" fill="#22303f" opacity="0.95"/>
-<g font-family="Arial, Helvetica, sans-serif" fill="#7b8794" text-anchor="middle">
-<text x="114.0" y="605" font-size="12">1896</text>
-<text x="124.0" y="619" font-size="10" transform="rotate(-58 124.0 619)">Athens</text>
-<text x="155.0" y="605" font-size="12">1906</text>
-<text x="165.0" y="619" font-size="10" transform="rotate(-58 165.0 619)">Athens</text>
-<text x="192.0" y="605" font-size="12">1908</text>
-<text x="202.0" y="619" font-size="10" transform="rotate(-58 202.0 619)">London</text>
-<text x="228.0" y="605" font-size="12">1912</text>
-<text x="238.0" y="619" font-size="10" transform="rotate(-58 238.0 619)">Stockholm</text>
-<text x="272.0" y="605" font-size="12">1920</text>
-<text x="282.0" y="619" font-size="10" transform="rotate(-58 282.0 619)">Antwerp</text>
-<text x="316.0" y="605" font-size="12">1924</text>
-<text x="326.0" y="619" font-size="10" transform="rotate(-58 326.0 619)">Paris</text>
-<text x="356.0" y="605" font-size="12">1928</text>
-<text x="366.0" y="619" font-size="10" transform="rotate(-58 366.0 619)">Amsterdam</text>
-<text x="396.0" y="605" font-size="12">1932</text>
-<text x="406.0" y="619" font-size="10" transform="rotate(-58 406.0 619)">Los Angeles</text>
-<text x="441.0" y="605" font-size="12">1936</text>
-<text x="451.0" y="619" font-size="10" transform="rotate(-58 451.0 619)">Berlin</text>
-<text x="484.0" y="605" font-size="12">1948</text>
-<text x="494.0" y="619" font-size="10" transform="rotate(-58 494.0 619)">London</text>
-<text x="523.0" y="605" font-size="12">1952</text>
-<text x="533.0" y="619" font-size="10" transform="rotate(-58 533.0 619)">Helsinki</text>
-<text x="562.0" y="605" font-size="12">1956</text>
-<text x="572.0" y="619" font-size="10" transform="rotate(-58 572.0 619)">Melbourne</text>
-<text x="608.0" y="605" font-size="12">1960</text>
-<text x="618.0" y="619" font-size="10" transform="rotate(-58 618.0 619)">Rome</text>
-<text x="648.0" y="605" font-size="12">1964</text>
-<text x="658.0" y="619" font-size="10" transform="rotate(-58 658.0 619)">Tokyo</text>
-<text x="682.0" y="605" font-size="12">1968</text>
-<text x="692.0" y="619" font-size="10" transform="rotate(-58 692.0 619)">Mexico City</text>
-<text x="732.0" y="605" font-size="12">1972</text>
-<text x="742.0" y="619" font-size="10" transform="rotate(-58 742.0 619)">Munich</text>
-<text x="772.0" y="605" font-size="12">1976</text>
-<text x="782.0" y="619" font-size="10" transform="rotate(-58 782.0 619)">Montreal</text>
-<text x="815.0" y="605" font-size="12">1980</text>
-<text x="825.0" y="619" font-size="10" transform="rotate(-58 825.0 619)">Moscow</text>
-<text x="855.0" y="605" font-size="12">1984</text>
-<text x="865.0" y="619" font-size="10" transform="rotate(-58 865.0 619)">Los Angeles</text>
-<text x="898.0" y="605" font-size="12">1988</text>
-<text x="908.0" y="619" font-size="10" transform="rotate(-58 908.0 619)">Seoul</text>
-<text x="939.0" y="605" font-size="12">1992</text>
-<text x="949.0" y="619" font-size="10" transform="rotate(-58 949.0 619)">Barcelona</text>
-<text x="982.0" y="605" font-size="12">1996</text>
-<text x="992.0" y="619" font-size="10" transform="rotate(-58 992.0 619)">Atlanta</text>
-<text x="1024.0" y="605" font-size="12">2000</text>
-<text x="1034.0" y="619" font-size="10" transform="rotate(-58 1034.0 619)">Sydney</text>
-<text x="1065.0" y="605" font-size="12">2004</text>
-<text x="1075.0" y="619" font-size="10" transform="rotate(-58 1075.0 619)">Athens</text>
-<text x="1113.0" y="605" font-size="12">2008</text>
-<text x="1123.0" y="619" font-size="10" transform="rotate(-58 1123.0 619)">Beijing</text>
-<text x="1159.0" y="605" font-size="12">2012</text>
-<text x="1169.0" y="619" font-size="10" transform="rotate(-58 1169.0 619)">London</text>
+<rect x="70" y="35" width="1140" height="545" fill="url(#water)"/>
+<text x="640" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#22303f">Men's Olympic 100 m freestyle medalists, 1896–2012</text>
+<line x1="90" y1="525.8" x2="1200" y2="525.8" stroke="#e6f3fc" stroke-width="1" opacity="0.9"/><text x="82" y="530.8" text-anchor="end" font-size="13" fill="#5c6f82">50s</text><line x1="90" y1="392.3" x2="1200" y2="392.3" stroke="#e6f3fc" stroke-width="1" opacity="0.9"/><text x="82" y="397.3" text-anchor="end" font-size="13" fill="#5c6f82">60s</text><line x1="90" y1="258.8" x2="1200" y2="258.8" stroke="#e6f3fc" stroke-width="1" opacity="0.9"/><text x="82" y="263.8" text-anchor="end" font-size="13" fill="#5c6f82">70s</text><line x1="90" y1="125.4" x2="1200" y2="125.4" stroke="#e6f3fc" stroke-width="1" opacity="0.9"/><text x="82" y="130.4" text-anchor="end" font-size="13" fill="#5c6f82">80s</text>
+<line x1="90" y1="88.0" x2="90" y2="563.0" stroke="#8ea6bc" stroke-width="2"/>
+<line x1="90" y1="563.0" x2="1200" y2="563.0" stroke="#8ea6bc" stroke-width="2"/>
+<polyline points="107.0,88.0 121.0,96.0 141.0,202.8 155.0,210.8 169.0,218.8 178.0,285.5 192.0,309.6 206.0,317.6 214.0,317.6 228.0,330.9 242.0,346.9 258.0,352.3 272.0,357.6 286.0,373.6 302.0,368.3 316.0,373.6 330.0,405.6 342.0,392.3 356.0,395.0 370.0,411.0 382.0,408.3 396.0,411.0 410.0,416.3 427.0,419.0 441.0,420.3 455.0,424.3 470.0,417.7 484.0,421.7 498.0,428.3 509.0,416.3 523.0,427.0 537.0,427.0 548.0,436.3 562.0,448.4 576.0,453.7 594.0,453.7 608.0,456.4 622.0,457.7 634.0,472.4 648.0,479.1 662.0,480.4 668.0,485.7 682.0,488.4 696.0,496.4 718.0,502.1 732.0,503.7 746.0,509.5 758.0,508.3 772.0,515.0 786.0,525.9 801.0,508.5 815.0,513.6 829.0,520.4 841.0,521.6 855.0,522.6 869.0,528.4 884.0,530.8 898.0,538.0 912.0,544.0 925.0,532.4 939.0,533.4 953.0,538.8 968.0,538.8 982.0,541.6 996.0,542.6 1010.0,542.7 1024.0,543.2 1038.0,548.5 1051.0,545.0 1065.0,549.4 1079.0,550.2 1092.0,556.9 1106.0,556.9 1120.0,561.5 1134.0,563.0 1145.0,555.1 1159.0,558.7 1173.0,558.9" fill="none" stroke="#6e7f92" stroke-width="1.8" opacity="0.9"/>
+<circle cx="107.0" cy="88.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1896" data-medal="Silver" data-athlete="Otto Herschmann" data-country="AUT" data-time-text="1:22.8"><title>1896 Silver — Otto Herschmann (AUT), 1:22.8 [recorded]</title></circle>
+<circle cx="121.0" cy="96.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1896" data-medal="Gold" data-athlete="Alfréd Hajós" data-country="HUN" data-time-text="1:22.2"><title>1896 Gold — Alfréd Hajós (HUN), 1:22.2 [recorded]</title></circle>
+<circle cx="141.0" cy="202.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1906" data-medal="Bronze" data-athlete="Cecil Healy" data-country="AUS" data-time-text="at 20 yards (3)"><title>1906 Bronze — Cecil Healy (AUS), at 20 yards (3) [estimated from chart spacing]</title></circle>
+<circle cx="155.0" cy="210.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1906" data-medal="Silver" data-athlete="Zoltán Halmay" data-country="HUN" data-time-text="at 1 yard (2)"><title>1906 Silver — Zoltán Halmay (HUN), at 1 yard (2) [estimated from chart spacing]</title></circle>
+<circle cx="169.0" cy="218.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1906" data-medal="Gold" data-athlete="Charlie Daniels" data-country="USA" data-time-text="1:13.0 (1)"><title>1906 Gold — Charlie Daniels (USA), 1:13.0 (1) [recorded]</title></circle>
+<circle cx="178.0" cy="285.5" r="3.4" fill="#22303f" opacity="0.95" data-year="1908" data-medal="Bronze" data-athlete="Harald Julin" data-country="SWE" data-time-text="1:08.0 (3)"><title>1908 Bronze — Harald Julin (SWE), 1:08.0 (3) [recorded]</title></circle>
+<circle cx="192.0" cy="309.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1908" data-medal="Silver" data-athlete="Zoltán Halmay" data-country="HUN" data-time-text="1:06.2 (2)"><title>1908 Silver — Zoltán Halmay (HUN), 1:06.2 (2) [recorded]</title></circle>
+<circle cx="206.0" cy="317.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1908" data-medal="Gold" data-athlete="Charlie Daniels" data-country="USA" data-time-text="1:05.6 (1)"><title>1908 Gold — Charlie Daniels (USA), 1:05.6 (1) [recorded]</title></circle>
+<circle cx="214.0" cy="317.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1912" data-medal="Bronze" data-athlete="Ken Huszagh" data-country="USA" data-time-text="1:05.6 (3)"><title>1912 Bronze — Ken Huszagh (USA), 1:05.6 (3) [recorded]</title></circle>
+<circle cx="228.0" cy="330.9" r="3.4" fill="#22303f" opacity="0.95" data-year="1912" data-medal="Silver" data-athlete="Cecil Healy" data-country="ANZ" data-time-text="1:04.6 (2)"><title>1912 Silver — Cecil Healy (ANZ), 1:04.6 (2) [recorded]</title></circle>
+<circle cx="242.0" cy="346.9" r="3.4" fill="#22303f" opacity="0.95" data-year="1912" data-medal="Gold" data-athlete="Duke Kahanamoku" data-country="USA" data-time-text="1:03.4 (1)"><title>1912 Gold — Duke Kahanamoku (USA), 1:03.4 (1) [recorded]</title></circle>
+<circle cx="258.0" cy="352.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1920" data-medal="Bronze" data-athlete="Bill Harris" data-country="USA" data-time-text="1:03.0 (3)"><title>1920 Bronze — Bill Harris (USA), 1:03.0 (3) [recorded]</title></circle>
+<circle cx="272.0" cy="357.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1920" data-medal="Silver" data-athlete="Pua Kele Kealoha" data-country="USA" data-time-text="1:02.6 (2)"><title>1920 Silver — Pua Kele Kealoha (USA), 1:02.6 (2) [recorded]</title></circle>
+<circle cx="286.0" cy="373.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1920" data-medal="Gold" data-athlete="Duke Kahanamoku" data-country="USA" data-time-text="1:01.4 (1)"><title>1920 Gold — Duke Kahanamoku (USA), 1:01.4 (1) [recorded]</title></circle>
+<circle cx="302.0" cy="368.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1924" data-medal="Bronze" data-athlete="Sam Kahanamoku" data-country="USA" data-time-text="1:01.8 (3)"><title>1924 Bronze — Sam Kahanamoku (USA), 1:01.8 (3) [recorded]</title></circle>
+<circle cx="316.0" cy="373.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1924" data-medal="Silver" data-athlete="Duke Kahanamoku" data-country="USA" data-time-text="1:01.4 (2)"><title>1924 Silver — Duke Kahanamoku (USA), 1:01.4 (2) [recorded]</title></circle>
+<circle cx="330.0" cy="405.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1924" data-medal="Gold" data-athlete="Johnny Weissmuller" data-country="USA" data-time-text="59.0 (1)"><title>1924 Gold — Johnny Weissmuller (USA), 59.0 (1) [recorded]</title></circle>
+<circle cx="342.0" cy="392.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1928" data-medal="Bronze" data-athlete="Katsuo Takaishi" data-country="JPN" data-time-text="1:00.0 (3)"><title>1928 Bronze — Katsuo Takaishi (JPN), 1:00.0 (3) [recorded]</title></circle>
+<circle cx="356.0" cy="395.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1928" data-medal="Silver" data-athlete="István Bárány" data-country="HUN" data-time-text="59.8 (2)"><title>1928 Silver — István Bárány (HUN), 59.8 (2) [recorded]</title></circle>
+<circle cx="370.0" cy="411.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1928" data-medal="Gold" data-athlete="Johnny Weissmuller" data-country="USA" data-time-text="58.6 (1)"><title>1928 Gold — Johnny Weissmuller (USA), 58.6 (1) [recorded]</title></circle>
+<circle cx="382.0" cy="408.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1932" data-medal="Bronze" data-athlete="Albert Schwartz" data-country="USA" data-time-text="58.8 (3)"><title>1932 Bronze — Albert Schwartz (USA), 58.8 (3) [recorded]</title></circle>
+<circle cx="396.0" cy="411.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1932" data-medal="Silver" data-athlete="Tatsugo Kawaishi" data-country="JPN" data-time-text="58.6 (2)"><title>1932 Silver — Tatsugo Kawaishi (JPN), 58.6 (2) [recorded]</title></circle>
+<circle cx="410.0" cy="416.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1932" data-medal="Gold" data-athlete="Yasuji Miyazaki" data-country="JPN" data-time-text="58.2 (1)"><title>1932 Gold — Yasuji Miyazaki (JPN), 58.2 (1) [recorded]</title></circle>
+<circle cx="427.0" cy="419.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1936" data-medal="Bronze" data-athlete="Shigeo Arai" data-country="JPN" data-time-text="58.0 (3)"><title>1936 Bronze — Shigeo Arai (JPN), 58.0 (3) [recorded]</title></circle>
+<circle cx="441.0" cy="420.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1936" data-medal="Silver" data-athlete="Masanori Yusa" data-country="JPN" data-time-text="57.9 (2)"><title>1936 Silver — Masanori Yusa (JPN), 57.9 (2) [recorded]</title></circle>
+<circle cx="455.0" cy="424.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1936" data-medal="Gold" data-athlete="Ferenc Csík" data-country="HUN" data-time-text="57.6 (1)"><title>1936 Gold — Ferenc Csík (HUN), 57.6 (1) [recorded]</title></circle>
+<circle cx="470.0" cy="417.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1948" data-medal="Bronze" data-athlete="Géza Kádas" data-country="HUN" data-time-text="58.1 (3)"><title>1948 Bronze — Géza Kádas (HUN), 58.1 (3) [recorded]</title></circle>
+<circle cx="484.0" cy="421.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1948" data-medal="Silver" data-athlete="Alan Ford" data-country="USA" data-time-text="57.8 (2)"><title>1948 Silver — Alan Ford (USA), 57.8 (2) [recorded]</title></circle>
+<circle cx="498.0" cy="428.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1948" data-medal="Gold" data-athlete="Wally Ris" data-country="USA" data-time-text="57.3 (1)"><title>1948 Gold — Wally Ris (USA), 57.3 (1) [recorded]</title></circle>
+<circle cx="509.0" cy="416.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1952" data-medal="Bronze" data-athlete="Göran Larsson" data-country="SWE" data-time-text="58.2 (3)"><title>1952 Bronze — Göran Larsson (SWE), 58.2 (3) [recorded]</title></circle>
+<circle cx="523.0" cy="427.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1952" data-medal="Silver" data-athlete="Hiroshi Suzuki" data-country="JPN" data-time-text="57.4 (2)"><title>1952 Silver — Hiroshi Suzuki (JPN), 57.4 (2) [recorded]</title></circle>
+<circle cx="537.0" cy="427.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1952" data-medal="Gold" data-athlete="Clarke Scholes" data-country="USA" data-time-text="57.4 (1)"><title>1952 Gold — Clarke Scholes (USA), 57.4 (1) [recorded]</title></circle>
+<circle cx="548.0" cy="436.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1956" data-medal="Bronze" data-athlete="Gary Chapman" data-country="AUS" data-time-text="56.7 (3)"><title>1956 Bronze — Gary Chapman (AUS), 56.7 (3) [recorded]</title></circle>
+<circle cx="562.0" cy="448.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1956" data-medal="Silver" data-athlete="John Devitt" data-country="AUS" data-time-text="55.8 (2)"><title>1956 Silver — John Devitt (AUS), 55.8 (2) [recorded]</title></circle>
+<circle cx="576.0" cy="453.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1956" data-medal="Gold" data-athlete="Jon Henricks" data-country="AUS" data-time-text="55.4 (1)"><title>1956 Gold — Jon Henricks (AUS), 55.4 (1) [recorded]</title></circle>
+<circle cx="594.0" cy="453.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1960" data-medal="Bronze" data-athlete="Manuel dos Santos" data-country="BRA" data-time-text="55.4 (3)"><title>1960 Bronze — Manuel dos Santos (BRA), 55.4 (3) [recorded]</title></circle>
+<circle cx="608.0" cy="456.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1960" data-medal="Gold" data-athlete="John Devitt" data-country="AUS" data-time-text="55.2 (1)"><title>1960 Gold — John Devitt (AUS), 55.2 (1) [recorded]</title></circle>
+<circle cx="622.0" cy="457.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1960" data-medal="Silver" data-athlete="Lance Larson" data-country="USA" data-time-text="55.1 (2)"><title>1960 Silver — Lance Larson (USA), 55.1 (2) [recorded]</title></circle>
+<circle cx="634.0" cy="472.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1964" data-medal="Bronze" data-athlete="Hans-Joachim Klein" data-country="GER" data-time-text="54.0 (3)"><title>1964 Bronze — Hans-Joachim Klein (GER), 54.0 (3) [recorded]</title></circle>
+<circle cx="648.0" cy="479.1" r="3.4" fill="#22303f" opacity="0.95" data-year="1964" data-medal="Silver" data-athlete="Bobby McGregor" data-country="GBR" data-time-text="53.5 (2)"><title>1964 Silver — Bobby McGregor (GBR), 53.5 (2) [recorded]</title></circle>
+<circle cx="662.0" cy="480.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1964" data-medal="Gold" data-athlete="Don Schollander" data-country="USA" data-time-text="53.4 (1)"><title>1964 Gold — Don Schollander (USA), 53.4 (1) [recorded]</title></circle>
+<circle cx="668.0" cy="485.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1968" data-medal="Bronze" data-athlete="Mark Spitz" data-country="USA" data-time-text="53.0 (3)"><title>1968 Bronze — Mark Spitz (USA), 53.0 (3) [recorded]</title></circle>
+<circle cx="682.0" cy="488.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1968" data-medal="Silver" data-athlete="Ken Walsh" data-country="USA" data-time-text="52.8 (2)"><title>1968 Silver — Ken Walsh (USA), 52.8 (2) [recorded]</title></circle>
+<circle cx="696.0" cy="496.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1968" data-medal="Gold" data-athlete="Mike Wenden" data-country="AUS" data-time-text="52.2 (1)"><title>1968 Gold — Mike Wenden (AUS), 52.2 (1) [recorded]</title></circle>
+<circle cx="718.0" cy="502.1" r="3.4" fill="#22303f" opacity="0.95" data-year="1972" data-medal="Bronze" data-athlete="Vladimir Bure" data-country="URS" data-time-text="51.77 (3)"><title>1972 Bronze — Vladimir Bure (URS), 51.77 (3) [recorded]</title></circle>
+<circle cx="732.0" cy="503.7" r="3.4" fill="#22303f" opacity="0.95" data-year="1972" data-medal="Silver" data-athlete="Jerry Heidenreich" data-country="USA" data-time-text="51.65 (2)"><title>1972 Silver — Jerry Heidenreich (USA), 51.65 (2) [recorded]</title></circle>
+<circle cx="746.0" cy="509.5" r="3.4" fill="#22303f" opacity="0.95" data-year="1972" data-medal="Gold" data-athlete="Mark Spitz" data-country="USA" data-time-text="51.22 (1)"><title>1972 Gold — Mark Spitz (USA), 51.22 (1) [recorded]</title></circle>
+<circle cx="758.0" cy="508.3" r="3.4" fill="#22303f" opacity="0.95" data-year="1976" data-medal="Bronze" data-athlete="Peter Nocke" data-country="FRG" data-time-text="51.31 (3)"><title>1976 Bronze — Peter Nocke (FRG), 51.31 (3) [recorded]</title></circle>
+<circle cx="772.0" cy="515.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1976" data-medal="Silver" data-athlete="Jack Babashoff" data-country="USA" data-time-text="50.81 (2)"><title>1976 Silver — Jack Babashoff (USA), 50.81 (2) [recorded]</title></circle>
+<circle cx="786.0" cy="525.9" r="3.4" fill="#22303f" opacity="0.95" data-year="1976" data-medal="Gold" data-athlete="Jim Montgomery" data-country="USA" data-time-text="49.99 (1)"><title>1976 Gold — Jim Montgomery (USA), 49.99 (1) [recorded]</title></circle>
+<circle cx="801.0" cy="508.5" r="3.4" fill="#22303f" opacity="0.95" data-year="1980" data-medal="Bronze" data-athlete="Per Johansson" data-country="SWE" data-time-text="51.29 (3)"><title>1980 Bronze — Per Johansson (SWE), 51.29 (3) [recorded]</title></circle>
+<circle cx="815.0" cy="513.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1980" data-medal="Silver" data-athlete="Per Holmertz" data-country="SWE" data-time-text="50.91 (2)"><title>1980 Silver — Per Holmertz (SWE), 50.91 (2) [recorded]</title></circle>
+<circle cx="829.0" cy="520.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1980" data-medal="Gold" data-athlete="Jörg Woithe" data-country="GDR" data-time-text="50.40 (1)"><title>1980 Gold — Jörg Woithe (GDR), 50.40 (1) [recorded]</title></circle>
+<circle cx="841.0" cy="521.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1984" data-medal="Bronze" data-athlete="Per Johansson" data-country="SWE" data-time-text="50.31 (3 h1)"><title>1984 Bronze — Per Johansson (SWE), 50.31 (3 h1) [recorded]</title></circle>
+<circle cx="855.0" cy="522.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1984" data-medal="Silver" data-athlete="Mark Stockwell" data-country="AUS" data-time-text="50.24 (2 h1)"><title>1984 Silver — Mark Stockwell (AUS), 50.24 (2 h1) [recorded]</title></circle>
+<circle cx="869.0" cy="528.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1984" data-medal="Gold" data-athlete="Rowdy Gaines" data-country="USA" data-time-text="49.80 (1 h1)"><title>1984 Gold — Rowdy Gaines (USA), 49.80 (1 h1) [recorded]</title></circle>
+<circle cx="884.0" cy="530.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1988" data-medal="Bronze" data-athlete="Stéphan Caron" data-country="FRA" data-time-text="49.62 (3 h1)"><title>1988 Bronze — Stéphan Caron (FRA), 49.62 (3 h1) [recorded]</title></circle>
+<circle cx="898.0" cy="538.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1988" data-medal="Silver" data-athlete="Chris Jacobs" data-country="USA" data-time-text="49.08 (2 h1)"><title>1988 Silver — Chris Jacobs (USA), 49.08 (2 h1) [recorded]</title></circle>
+<circle cx="912.0" cy="544.0" r="3.4" fill="#22303f" opacity="0.95" data-year="1988" data-medal="Gold" data-athlete="Matt Biondi" data-country="USA" data-time-text="48.63 (1 h1)"><title>1988 Gold — Matt Biondi (USA), 48.63 (1 h1) [recorded]</title></circle>
+<circle cx="925.0" cy="532.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1992" data-medal="Bronze" data-athlete="Stéphan Caron" data-country="FRA" data-time-text="49.50 (3 h1)"><title>1992 Bronze — Stéphan Caron (FRA), 49.50 (3 h1) [recorded]</title></circle>
+<circle cx="939.0" cy="533.4" r="3.4" fill="#22303f" opacity="0.95" data-year="1992" data-medal="Silver" data-athlete="Gustavo Borges" data-country="BRA" data-time-text="49.43 (2 h1)"><title>1992 Silver — Gustavo Borges (BRA), 49.43 (2 h1) [recorded]</title></circle>
+<circle cx="953.0" cy="538.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1992" data-medal="Gold" data-athlete="Aleksandr Popov" data-country="EUN" data-time-text="49.02 (1 h1)"><title>1992 Gold — Aleksandr Popov (EUN), 49.02 (1 h1) [recorded]</title></circle>
+<circle cx="968.0" cy="538.8" r="3.4" fill="#22303f" opacity="0.95" data-year="1996" data-medal="Bronze" data-athlete="Gustavo Borges" data-country="BRA" data-time-text="49.02 (3 h1)"><title>1996 Bronze — Gustavo Borges (BRA), 49.02 (3 h1) [recorded]</title></circle>
+<circle cx="982.0" cy="541.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1996" data-medal="Silver" data-athlete="Gary Hall, Jr." data-country="USA" data-time-text="48.81 (2 h1)"><title>1996 Silver — Gary Hall, Jr. (USA), 48.81 (2 h1) [recorded]</title></circle>
+<circle cx="996.0" cy="542.6" r="3.4" fill="#22303f" opacity="0.95" data-year="1996" data-medal="Gold" data-athlete="Aleksandr Popov" data-country="RUS" data-time-text="48.74 (1 h1)"><title>1996 Gold — Aleksandr Popov (RUS), 48.74 (1 h1) [recorded]</title></circle>
+<circle cx="1010.0" cy="542.7" r="3.4" fill="#22303f" opacity="0.95" data-year="2000" data-medal="Bronze" data-athlete="Gary Hall, Jr." data-country="USA" data-time-text="48.73 (3)"><title>2000 Bronze — Gary Hall, Jr. (USA), 48.73 (3) [recorded]</title></circle>
+<circle cx="1024.0" cy="543.2" r="3.4" fill="#22303f" opacity="0.95" data-year="2000" data-medal="Silver" data-athlete="Aleksandr Popov" data-country="RUS" data-time-text="48.69 (2)"><title>2000 Silver — Aleksandr Popov (RUS), 48.69 (2) [recorded]</title></circle>
+<circle cx="1038.0" cy="548.5" r="3.4" fill="#22303f" opacity="0.95" data-year="2000" data-medal="Gold" data-athlete="Pieter van den Hoogenband" data-country="NED" data-time-text="48.30 (1)"><title>2000 Gold — Pieter van den Hoogenband (NED), 48.30 (1) [recorded]</title></circle>
+<circle cx="1051.0" cy="545.0" r="3.4" fill="#22303f" opacity="0.95" data-year="2004" data-medal="Bronze" data-athlete="Ian Thorpe" data-country="AUS" data-time-text="48.56 (3)"><title>2004 Bronze — Ian Thorpe (AUS), 48.56 (3) [recorded]</title></circle>
+<circle cx="1065.0" cy="549.4" r="3.4" fill="#22303f" opacity="0.95" data-year="2004" data-medal="Silver" data-athlete="Roland Schoeman" data-country="RSA" data-time-text="48.23 (2)"><title>2004 Silver — Roland Schoeman (RSA), 48.23 (2) [recorded]</title></circle>
+<circle cx="1079.0" cy="550.2" r="3.4" fill="#22303f" opacity="0.95" data-year="2004" data-medal="Gold" data-athlete="Pieter van den Hoogenband" data-country="NED" data-time-text="48.17 (1)"><title>2004 Gold — Pieter van den Hoogenband (NED), 48.17 (1) [recorded]</title></circle>
+<circle cx="1092.0" cy="556.9" r="3.4" fill="#22303f" opacity="0.95" data-year="2008" data-medal="Bronze" data-athlete="César Cielo Filho" data-country="BRA" data-time-text="47.67 (=3)"><title>2008 Bronze — César Cielo Filho (BRA), 47.67 (=3) [recorded]</title></circle>
+<circle cx="1106.0" cy="556.9" r="3.4" fill="#22303f" opacity="0.95" data-year="2008" data-medal="Bronze" data-athlete="Jason Lezak" data-country="USA" data-time-text="47.67 (=3)"><title>2008 Bronze — Jason Lezak (USA), 47.67 (=3) [recorded]</title></circle>
+<circle cx="1120.0" cy="561.5" r="3.4" fill="#22303f" opacity="0.95" data-year="2008" data-medal="Silver" data-athlete="Eamon Sullivan" data-country="AUS" data-time-text="47.32 (2)"><title>2008 Silver — Eamon Sullivan (AUS), 47.32 (2) [recorded]</title></circle>
+<circle cx="1134.0" cy="563.0" r="3.4" fill="#22303f" opacity="0.95" data-year="2008" data-medal="Gold" data-athlete="Alain Bernard" data-country="FRA" data-time-text="47.21 (1)"><title>2008 Gold — Alain Bernard (FRA), 47.21 (1) [recorded]</title></circle>
+<circle cx="1145.0" cy="555.1" r="3.4" fill="#22303f" opacity="0.95" data-year="2012" data-medal="Bronze" data-athlete="Brent Hayden" data-country="CAN" data-time-text="47.80 (3)"><title>2012 Bronze — Brent Hayden (CAN), 47.80 (3) [recorded]</title></circle>
+<circle cx="1159.0" cy="558.7" r="3.4" fill="#22303f" opacity="0.95" data-year="2012" data-medal="Silver" data-athlete="James Magnussen" data-country="AUS" data-time-text="47.53 (2)"><title>2012 Silver — James Magnussen (AUS), 47.53 (2) [recorded]</title></circle>
+<circle cx="1173.0" cy="558.9" r="3.4" fill="#22303f" opacity="0.95" data-year="2012" data-medal="Gold" data-athlete="Nathan Adrian" data-country="USA" data-time-text="47.52 (1)"><title>2012 Gold — Nathan Adrian (USA), 47.52 (1) [recorded]</title></circle>
+<g font-family="Arial, sans-serif" fill="#7b8794" text-anchor="middle">
+<text data-role="year-label" x="114.0" y="605" font-size="12">1896</text><text x="114.0" y="619" font-size="10" transform="rotate(-58 114.0 619)">Athens</text>
+<text data-role="year-label" x="155.0" y="605" font-size="12">1906</text><text x="155.0" y="619" font-size="10" transform="rotate(-58 155.0 619)">Athens</text>
+<text data-role="year-label" x="192.0" y="605" font-size="12">1908</text><text x="192.0" y="619" font-size="10" transform="rotate(-58 192.0 619)">London</text>
+<text data-role="year-label" x="228.0" y="605" font-size="12">1912</text><text x="228.0" y="619" font-size="10" transform="rotate(-58 228.0 619)">Stockholm</text>
+<text data-role="year-label" x="272.0" y="605" font-size="12">1920</text><text x="272.0" y="619" font-size="10" transform="rotate(-58 272.0 619)">Antwerp</text>
+<text data-role="year-label" x="316.0" y="605" font-size="12">1924</text><text x="316.0" y="619" font-size="10" transform="rotate(-58 316.0 619)">Paris</text>
+<text data-role="year-label" x="356.0" y="605" font-size="12">1928</text><text x="356.0" y="619" font-size="10" transform="rotate(-58 356.0 619)">Amsterdam</text>
+<text data-role="year-label" x="396.0" y="605" font-size="12">1932</text><text x="396.0" y="619" font-size="10" transform="rotate(-58 396.0 619)">Los Angeles</text>
+<text data-role="year-label" x="441.0" y="605" font-size="12">1936</text><text x="441.0" y="619" font-size="10" transform="rotate(-58 441.0 619)">Berlin</text>
+<text data-role="year-label" x="484.0" y="605" font-size="12">1948</text><text x="484.0" y="619" font-size="10" transform="rotate(-58 484.0 619)">London</text>
+<text data-role="year-label" x="523.0" y="605" font-size="12">1952</text><text x="523.0" y="619" font-size="10" transform="rotate(-58 523.0 619)">Helsinki</text>
+<text data-role="year-label" x="562.0" y="605" font-size="12">1956</text><text x="562.0" y="619" font-size="10" transform="rotate(-58 562.0 619)">Melbourne</text>
+<text data-role="year-label" x="608.0" y="605" font-size="12">1960</text><text x="608.0" y="619" font-size="10" transform="rotate(-58 608.0 619)">Rome</text>
+<text data-role="year-label" x="648.0" y="605" font-size="12">1964</text><text x="648.0" y="619" font-size="10" transform="rotate(-58 648.0 619)">Tokyo</text>
+<text data-role="year-label" x="682.0" y="605" font-size="12">1968</text><text x="682.0" y="619" font-size="10" transform="rotate(-58 682.0 619)">Mexico City</text>
+<text data-role="year-label" x="732.0" y="605" font-size="12">1972</text><text x="732.0" y="619" font-size="10" transform="rotate(-58 732.0 619)">Munich</text>
+<text data-role="year-label" x="772.0" y="605" font-size="12">1976</text><text x="772.0" y="619" font-size="10" transform="rotate(-58 772.0 619)">Montreal</text>
+<text data-role="year-label" x="815.0" y="605" font-size="12">1980</text><text x="815.0" y="619" font-size="10" transform="rotate(-58 815.0 619)">Moscow</text>
+<text data-role="year-label" x="855.0" y="605" font-size="12">1984</text><text x="855.0" y="619" font-size="10" transform="rotate(-58 855.0 619)">Los Angeles</text>
+<text data-role="year-label" x="898.0" y="605" font-size="12">1988</text><text x="898.0" y="619" font-size="10" transform="rotate(-58 898.0 619)">Seoul</text>
+<text data-role="year-label" x="939.0" y="605" font-size="12">1992</text><text x="939.0" y="619" font-size="10" transform="rotate(-58 939.0 619)">Barcelona</text>
+<text data-role="year-label" x="982.0" y="605" font-size="12">1996</text><text x="982.0" y="619" font-size="10" transform="rotate(-58 982.0 619)">Atlanta</text>
+<text data-role="year-label" x="1024.0" y="605" font-size="12">2000</text><text x="1024.0" y="619" font-size="10" transform="rotate(-58 1024.0 619)">Sydney</text>
+<text data-role="year-label" x="1065.0" y="605" font-size="12">2004</text><text x="1065.0" y="619" font-size="10" transform="rotate(-58 1065.0 619)">Athens</text>
+<text data-role="year-label" x="1113.0" y="605" font-size="12">2008</text><text x="1113.0" y="619" font-size="10" transform="rotate(-58 1113.0 619)">Beijing</text>
+<text data-role="year-label" x="1159.0" y="605" font-size="12">2012</text><text x="1159.0" y="619" font-size="10" transform="rotate(-58 1159.0 619)">London</text>
 </g>
+<text x="640" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5c6f82">Source: Olympedia · 26 Games + 2008 tied bronze · chronological medal sequence</text>
 </svg>

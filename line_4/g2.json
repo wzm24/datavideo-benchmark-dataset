@@ -1,0 +1,116 @@
+{
+ "clip_id": "line_4",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_4",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Net housing additions",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Net housing additions"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Net housing additions | 2000-01",
+    "Net housing additions | 2010-11",
+    "Net housing additions | 2018-19"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Net housing additions | 2000-01",
+      "value": 132.0,
+      "unit": "K"
+     },
+     {
+      "mark": "Net housing additions | 2010-11",
+      "value": 137.39,
+      "unit": "K"
+     },
+     {
+      "mark": "Net housing additions | 2018-19",
+      "value": 247.77,
+      "unit": "K"
+     }
+    ],
+    "expected_relation": "England's annual net housing additions fluctuate over fiscal years 2000-01 to 2018-19 but rise overall from 132.00 thousand in 2000-01 to 247.77 thousand in 2018-19.",
+    "start_value": 132.0,
+    "end_value": 247.77,
+    "delta": 115.77,
+    "ratio": 1.877045,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Net housing additions | 2018-19"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Net housing additions | 2018-19",
+      "value": 247.77,
+      "unit": "K"
+     }
+    ],
+    "expected_relation": "The highest annual net housing additions occur in fiscal year 2018-19 with 247.77 thousand homes.",
+    "extreme_value": 247.77
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "clip_id": "line_64",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "06a79892cf6519ce975993ba622e12a38adb0a3d4120a57fa2b562459a90cff2",
+ "row_count": 14,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Reported smallpox cases in India"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1962",
+   "1963",
+   "1964",
+   "1965",
+   "1966",
+   "1967",
+   "1968",
+   "1969",
+   "1970",
+   "1971",
+   "1972",
+   "1973",
+   "1974",
+   "1975"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "reported cases india",
+   "series": "",
+   "row_count": 14,
+   "unit": [
+    "cases"
+   ],
+   "x_values": [
+    "1962",
+    "1963",
+    "1964",
+    "1965",
+    "1966",
+    "1967",
+    "1968",
+    "1969",
+    "1970",
+    "1971",
+    "1972",
+    "1973",
+    "1974",
+    "1975"
+   ],
+   "first_value": 55000.0,
+   "last_value": 0.0,
+   "min_value": 0.0,
+   "max_value": 190000.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "reported cases india",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

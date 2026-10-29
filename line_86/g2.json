@@ -1,0 +1,154 @@
+{
+ "clip_id": "line_86",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_86",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Trust in the federal government",
+    "series": "Moving average"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Trust in the federal government | Moving average"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Trust in the federal government | Moving average | '60",
+    "Trust in the federal government | Moving average | '70",
+    "Trust in the federal government | Moving average | '80",
+    "Trust in the federal government | Moving average | '90",
+    "Trust in the federal government | Moving average | '00",
+    "Trust in the federal government | Moving average | '10",
+    "Trust in the federal government | Moving average | '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Trust in the federal government | Moving average | '60",
+      "value": 73.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '70",
+      "value": 54.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '80",
+      "value": 28.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '90",
+      "value": 38.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '00",
+      "value": 34.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '10",
+      "value": 20.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '21",
+      "value": 24.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share trusting the federal government (moving average) is traced over the period from 1960 to 2021, showing an overall decline from 73% in 1960 to 24% in 2021.",
+    "start_value": 73.0,
+    "end_value": 24.0,
+    "delta": -49.0,
+    "ratio": 0.328767,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Trust in the federal government | Moving average | '60",
+    "Trust in the federal government | Moving average | '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Trust in the federal government | Moving average | '60",
+      "value": 73.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Trust in the federal government | Moving average | '21",
+      "value": 24.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The earliest value (73% in 1960) is higher than the latest value (24% in 2021), a difference of 49 percentage points.",
+    "start_value": 73.0,
+    "end_value": 24.0,
+    "delta": -49.0,
+    "ratio": 0.328767,
+    "direction": "decreasing",
+    "expected_order": [
+     "Trust in the federal government",
+     "Trust in the federal government"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

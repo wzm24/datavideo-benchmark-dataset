@@ -1,0 +1,427 @@
+{
+ "clip_id": "line_3",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the share of global income held by the top percentile and the bottom half of the population from 1980 to 2015.",
+ "chart_structure": {
+  "clip_id": "line_3",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video compare the share of global income held by the top 1% and the bottom 50% from 1980 to 2015?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "From 1980 to 2015, the share of global income held by the bottom 50% increased slightly, rising from 8.0% in 1980 to 9.5% in 2015.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Throughout 1980 to 2015, the top 1% consistently held a larger share of global income than the bottom 50%, and the gap widened from 8.0 percentage points in 1980 to 11.0 percentage points in 2015.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "From 1980 to 2015, the share of global income held by the top 1% increased overall, rising from 16.0% in 1980 to 20.5% in 2015.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "value",
+     "value": 16.0,
+     "unit": "%",
+     "row_sha": "78c36213d45483cd"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1985",
+     "point_order": "6",
+     "field": "value",
+     "value": 17.0,
+     "unit": "%",
+     "row_sha": "69e14bcdc70a225b"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1990",
+     "point_order": "11",
+     "field": "value",
+     "value": 18.0,
+     "unit": "%",
+     "row_sha": "98349bac8efc9018"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1995",
+     "point_order": "16",
+     "field": "value",
+     "value": 19.0,
+     "unit": "%",
+     "row_sha": "ccb9040162cb17f6"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "2000",
+     "point_order": "21",
+     "field": "value",
+     "value": 20.5,
+     "unit": "%",
+     "row_sha": "101e9338ae709a01"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "2005",
+     "point_order": "26",
+     "field": "value",
+     "value": 21.8,
+     "unit": "%",
+     "row_sha": "a06fe7d499afa053"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "2010",
+     "point_order": "31",
+     "field": "value",
+     "value": 21.0,
+     "unit": "%",
+     "row_sha": "27e684ff53fb35d0"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "2015",
+     "point_order": "36",
+     "field": "value",
+     "value": 20.5,
+     "unit": "%",
+     "row_sha": "9ec5a14cbabdc36f"
+    }
+   ],
+   "computation": "Compare first (1980) and last (2015) values for top 1%: 16.0% to 20.5%, an increase of 4.5 percentage points.",
+   "accept": [
+    "Top 1% share rose from 16.0% in 1980 to 20.5% in 2015.",
+    "Top 1% share increased by 4.5 percentage points over the period."
+   ],
+   "reject": [
+    "Top 1% share decreased from 1980 to 2015.",
+    "Top 1% share remained constant."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "From 1980 to 2015, the share of global income held by the bottom 50% increased slightly, rising from 8.0% in 1980 to 9.5% in 2015.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "value",
+     "value": 8.0,
+     "unit": "%",
+     "row_sha": "7c10c7452abd2e4d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1985",
+     "point_order": "6",
+     "field": "value",
+     "value": 9.0,
+     "unit": "%",
+     "row_sha": "b5621d2d0a5e28c4"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1990",
+     "point_order": "11",
+     "field": "value",
+     "value": 9.2,
+     "unit": "%",
+     "row_sha": "07dd5d71b17d0d4c"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1995",
+     "point_order": "16",
+     "field": "value",
+     "value": 9.0,
+     "unit": "%",
+     "row_sha": "7972d4cb73db2930"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "2000",
+     "point_order": "21",
+     "field": "value",
+     "value": 9.0,
+     "unit": "%",
+     "row_sha": "ce5e0cbc8d9f34f0"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "2005",
+     "point_order": "26",
+     "field": "value",
+     "value": 8.5,
+     "unit": "%",
+     "row_sha": "4fbfe44625e2fddb"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "2010",
+     "point_order": "31",
+     "field": "value",
+     "value": 9.5,
+     "unit": "%",
+     "row_sha": "cfe73fdf4275bae2"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "2015",
+     "point_order": "36",
+     "field": "value",
+     "value": 9.5,
+     "unit": "%",
+     "row_sha": "2fb917e641217e68"
+    }
+   ],
+   "computation": "Compare first (1980) and last (2015) values for bottom 50%: 8.0% to 9.5%, an increase of 1.5 percentage points.",
+   "accept": [
+    "Bottom 50% share rose from 8.0% in 1980 to 9.5% in 2015.",
+    "Bottom 50% share increased by 1.5 percentage points over the period."
+   ],
+   "reject": [
+    "Bottom 50% share decreased from 1980 to 2015.",
+    "Bottom 50% share remained constant."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Throughout 1980 to 2015, the top 1% consistently held a larger share of global income than the bottom 50%, and the gap widened from 8.0 percentage points in 1980 to 11.0 percentage points in 2015.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "value",
+     "value": 16.0,
+     "unit": "%",
+     "row_sha": "78c36213d45483cd"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "1980",
+     "point_order": "1",
+     "field": "value",
+     "value": 8.0,
+     "unit": "%",
+     "row_sha": "7c10c7452abd2e4d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "top 1%",
+     "x": "2015",
+     "point_order": "36",
+     "field": "value",
+     "value": 20.5,
+     "unit": "%",
+     "row_sha": "9ec5a14cbabdc36f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "bottom 50%",
+     "x": "2015",
+     "point_order": "36",
+     "field": "value",
+     "value": 9.5,
+     "unit": "%",
+     "row_sha": "2fb917e641217e68"
+    }
+   ],
+   "computation": "At each year, top 1% value > bottom 50% value. Gap in 1980 = 16.0 - 8.0 = 8.0 pp; gap in 2015 = 20.5 - 9.5 = 11.0 pp.",
+   "accept": [
+    "Top 1% share was always above bottom 50% share from 1980 to 2015.",
+    "The gap between top 1% and bottom 50% shares widened from 8.0 to 11.0 percentage points."
+   ],
+   "reject": [
+    "Bottom 50% share exceeded top 1% share at any point.",
+    "The gap between the two shares narrowed over the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning that the top 1% share peaked at 22.5% around 2005 before declining slightly to 20.5% by 2015.",
+  "Noting that the bottom 50% share remained below 10% throughout the period."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the trends, such as policy changes or globalization effects.",
+  "Claims about income inequality beyond the two series shown.",
+  "Specific values for years not listed in the table summary."
+ ],
+ "review_notes": [
+  "The intent asks to compare the share of global income held by the top 1% and bottom 50% from 1980 to 2015. Three semantic units cover the two trends and the comparison.",
+  "The table includes extra rows with empty x values (point_order 3 and 28 for top 1%) that are not used because they lack explicit year labels and are not needed for the requested comparison."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "top 1%"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "bottom 50%"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "clip_id": "line_21",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the change in global temperature over the period from 1850 to the series end and quantify the overall shift.",
+ "chart_structure": {
+  "clip_id": "line_21",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the change in global temperature from 1850 to the series end and quantify the overall shift?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "Global temperature"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "The overall shift in global temperature change from 1850 to the series end is an increase of about 1.05 °C (from -0.1002 °C to 0.9499 °C).",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "1850",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Global temperature change rises overall from 1850 to the series end, with the series ending at a higher value than it started.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "1850",
+     "point_order": "1",
+     "field": "value",
+     "value": -0.1002,
+     "unit": "",
+     "row_sha": "7c47992ffa1dae5d"
+    },
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "1900",
+     "point_order": "26",
+     "field": "value",
+     "value": -0.2,
+     "unit": "",
+     "row_sha": "9e9c65a5cca8ae25"
+    },
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "1950",
+     "point_order": "51",
+     "field": "value",
+     "value": 0.2501,
+     "unit": "",
+     "row_sha": "c9f99044b9c5d7b9"
+    },
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "2000",
+     "point_order": "76",
+     "field": "value",
+     "value": 0.8501,
+     "unit": "",
+     "row_sha": "24af46d39a88e15a"
+    },
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "",
+     "point_order": "79",
+     "field": "value",
+     "value": 0.9499,
+     "unit": "",
+     "row_sha": "cd726d7fb661bd68"
+    }
+   ],
+   "computation": "Compare first value (-0.1002 at point_order 1) to last value (0.9499 at point_order 79); intermediate anchors at 1900 (-0.2000), 1950 (0.2501), and 2000 (0.8501) show the upward trajectory.",
+   "accept": [
+    "States that global temperature change increases from 1850 to the end of the series.",
+    "Shows the line rising from about -0.1 °C in 1850 to about 0.95 °C at the series end.",
+    "Describes an overall warming trend across the full period."
+   ],
+   "reject": [
+    "Claims global temperature decreases overall from 1850 to the series end.",
+    "Describes only a single year without the overall trend.",
+    "Uses a trend claim that contradicts the first and last values."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The overall shift in global temperature change from 1850 to the series end is an increase of about 1.05 °C (from -0.1002 °C to 0.9499 °C).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "1850",
+     "point_order": "1",
+     "field": "value",
+     "value": -0.1002,
+     "unit": "",
+     "row_sha": "7c47992ffa1dae5d"
+    },
+    {
+     "panel": "",
+     "entity": "Global temperature",
+     "series": "",
+     "x": "",
+     "point_order": "79",
+     "field": "value",
+     "value": 0.9499,
+     "unit": "",
+     "row_sha": "cd726d7fb661bd68"
+    }
+   ],
+   "computation": "Absolute difference = last_value - first_value = 0.9499 - (-0.1002) = 1.0501 °C.",
+   "accept": [
+    "Quantifies the overall shift as approximately +1.05 °C.",
+    "States the change from about -0.10 °C to about 0.95 °C.",
+    "Reports an absolute increase of roughly 1.05 °C over the period."
+   ],
+   "reject": [
+    "Reports the overall shift as a decrease.",
+    "Gives a shift magnitude that does not match the first and last values.",
+    "Omits quantification of the overall shift."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions that the minimum value in the series is about -0.30 °C at point_order 31.",
+  "Notes that the maximum value equals the last value, about 0.95 °C at point_order 79."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the temperature change.",
+  "Claims about years or values not present in the table summary.",
+  "Comparing multiple panels or entities, since only one panel and one entity are present."
+ ],
+ "review_notes": [
+  "The intent asks for both tracing the change and quantifying the overall shift, so two semantic units are used: one trend unit and one change unit.",
+  "The series end is represented by point_order 79 with value 0.9499; the x label for that row is empty in the summary, so the basis row uses the exact supplied fields.",
+  "The intermediate anchors at 1900, 1950, and 2000 are included in the trend unit to support the trajectory without splitting into individual data points."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Global temperature",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "clip_id": "line_95",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e4a4349d7f4be578cfdb8313573927364b6cc0882c5b7ec69d80eb680a2aee08",
+ "row_count": 10,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "U.S. unauthorized immigrant population (millions)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1990",
+   "1995",
+   "2000",
+   "2003",
+   "2005",
+   "2007",
+   "2010",
+   "2014",
+   "2015",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "unauthorized immigrants",
+   "series": "",
+   "row_count": 10,
+   "unit": [
+    "million"
+   ],
+   "x_values": [
+    "1990",
+    "1995",
+    "2000",
+    "2003",
+    "2005",
+    "2007",
+    "2010",
+    "2014",
+    "2015",
+    "2017"
+   ],
+   "first_value": 3.5,
+   "last_value": 10.5,
+   "min_value": 3.5,
+   "max_value": 12.2
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "unauthorized immigrants",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,28 +1,32 @@
 {
  "clip_id": "line_98",
- "intent_en": "To demonstrate the increasing trend of political polarization in the US Congress since the 1970s.",
- "previous_intent": "To illustrate the sustained increase in political polarization within the US Congress from the 1970s to the mid-2010s.",
- "narration_support": "We've been moving towards this kind of polarization in both the Senate and the House since the 1970s.",
- "chart_support": "Line chart showing 'Us and Them Polarization' rising from 1973-74 to 2015-16, accompanied by a network graph visualizing two distinct, separated groups (blue and red).",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly mentions polarization in the Senate and House since the 1970s. The chart visualizes this with a line graph showing an upward trend in 'Us and Them Polarization' over the years 1973-74 to 2015-16, and a network diagram showing two distinct clusters.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that polarization in both the Senate and the House has risen substantially since the 1970s, with the House reaching a higher relative level than the Senate by 2015-16.",
+ "intent_en": "Compare the relative polarization levels of the Senate and the House of Representatives over the congressional periods from the early 1970s through the mid-2010s.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

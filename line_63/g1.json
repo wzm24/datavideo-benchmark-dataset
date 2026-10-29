@@ -1,0 +1,397 @@
+{
+ "clip_id": "line_63",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the reported global smallpox case count over the years from 1920 to 1980 and quantify the change between the start and end of that period.",
+ "chart_structure": {
+  "clip_id": "line_63",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the reported global smallpox case count over the years from 1920 to 1980 and quantify the change between the start and end of that period?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The reported global smallpox case count decreased from 400,000 cases in 1920 to 20,000 cases in 1980, a drop of 380,000 cases (a 95% decrease).",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1920",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The reported global smallpox case count is traced over the years from 1920 to 1980, showing the overall trajectory across the period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1920",
+     "point_order": "1",
+     "field": "value",
+     "value": 400000.0,
+     "unit": "cases",
+     "row_sha": "7ccce13334196a02"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1925",
+     "point_order": "3",
+     "field": "value",
+     "value": 320000.0,
+     "unit": "cases",
+     "row_sha": "ed08e5465cd7487f"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1929",
+     "point_order": "5",
+     "field": "value",
+     "value": 350000.0,
+     "unit": "cases",
+     "row_sha": "b7f4d8728299742d"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1931",
+     "point_order": "6",
+     "field": "value",
+     "value": 280000.0,
+     "unit": "cases",
+     "row_sha": "9404d7b5fafbab73"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1935",
+     "point_order": "8",
+     "field": "value",
+     "value": 180000.0,
+     "unit": "cases",
+     "row_sha": "cfb296379791369d"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1939",
+     "point_order": "10",
+     "field": "value",
+     "value": 220000.0,
+     "unit": "cases",
+     "row_sha": "06b464d413bfbe9b"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1943",
+     "point_order": "12",
+     "field": "value",
+     "value": 220000.0,
+     "unit": "cases",
+     "row_sha": "084bc6b81a1fc4a1"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1945",
+     "point_order": "13",
+     "field": "value",
+     "value": 400000.0,
+     "unit": "cases",
+     "row_sha": "fa252dd8fdaab300"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1949",
+     "point_order": "15",
+     "field": "value",
+     "value": 620000.0,
+     "unit": "cases",
+     "row_sha": "8d0e773f977070a8"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1951",
+     "point_order": "17",
+     "field": "value",
+     "value": 550000.0,
+     "unit": "cases",
+     "row_sha": "8cfa56ecdc8510a6"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1955",
+     "point_order": "19",
+     "field": "value",
+     "value": 130000.0,
+     "unit": "cases",
+     "row_sha": "3deb81c09c11e406"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1957",
+     "point_order": "20",
+     "field": "value",
+     "value": 130000.0,
+     "unit": "cases",
+     "row_sha": "c209411ff269f39b"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1961",
+     "point_order": "22",
+     "field": "value",
+     "value": 120000.0,
+     "unit": "cases",
+     "row_sha": "19faaed562add2d7"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1965",
+     "point_order": "24",
+     "field": "value",
+     "value": 120000.0,
+     "unit": "cases",
+     "row_sha": "76cdd53af8620784"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1969",
+     "point_order": "26",
+     "field": "value",
+     "value": 110000.0,
+     "unit": "cases",
+     "row_sha": "08598abd61bd8d5a"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1971",
+     "point_order": "27",
+     "field": "value",
+     "value": 80000.0,
+     "unit": "cases",
+     "row_sha": "15395c2b79663c87"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1975",
+     "point_order": "29",
+     "field": "value",
+     "value": 210000.0,
+     "unit": "cases",
+     "row_sha": "584809cd725ccbe2"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1977",
+     "point_order": "30",
+     "field": "value",
+     "value": 20000.0,
+     "unit": "cases",
+     "row_sha": "5552a8186517fd56"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1980",
+     "point_order": "31",
+     "field": "value",
+     "value": 20000.0,
+     "unit": "cases",
+     "row_sha": "2f720762c5694522"
+    }
+   ],
+   "computation": "Plot the reported cases series across the x-axis years from 1920 to 1980, preserving the chronological sequence of data points.",
+   "accept": [
+    "The line chart shows reported global smallpox cases on the y-axis and years from 1920 to 1980 on the x-axis.",
+    "The series is traced continuously across the period, including the peak near 1949 and the decline toward 1980."
+   ],
+   "reject": [
+    "The chart omits the 1920 starting point or the 1980 endpoint.",
+    "The chart shows only isolated years without a connected trend across the period."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The reported global smallpox case count decreased from 400,000 cases in 1920 to 20,000 cases in 1980, a drop of 380,000 cases (a 95% decrease).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1920",
+     "point_order": "1",
+     "field": "value",
+     "value": 400000.0,
+     "unit": "cases",
+     "row_sha": "7ccce13334196a02"
+    },
+    {
+     "panel": "",
+     "entity": "reported cases",
+     "series": "",
+     "x": "1980",
+     "point_order": "31",
+     "field": "value",
+     "value": 20000.0,
+     "unit": "cases",
+     "row_sha": "2f720762c5694522"
+    }
+   ],
+   "computation": "End value minus start value: 20,000 - 400,000 = -380,000 cases. Percentage change: (-380,000 / 400,000) * 100 = -95%.",
+   "accept": [
+    "The video states or visualizes that cases fell from 400,000 in 1920 to 20,000 in 1980.",
+    "The video quantifies the change as a decrease of 380,000 cases or a 95% drop."
+   ],
+   "reject": [
+    "The video reports the change with incorrect values or the wrong direction (e.g., an increase).",
+    "The video only shows the endpoints without quantifying the difference or percentage change."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "The video may note that the peak reported count in the period was 620,000 cases around 1949.",
+  "The video may mention that the lowest reported count in the period was 20,000 cases in 1977 and 1980."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline, such as vaccination campaigns or WHO eradication efforts, unless explicitly supported by the table.",
+  "Claims about data after 1980 or before 1920.",
+  "Comparisons with other diseases or regions not present in the table."
+ ],
+ "review_notes": [
+  "The intent explicitly asks for two analytical operations: tracing the trend over the period and quantifying the start-to-end change. These map to U1 and U2.",
+  "The table summary lists 31 x-anchors but only 19 rows are provided; the trend unit uses the available rows while preserving the full 1920–1980 span.",
+  "The change unit uses the first and last values from the table summary (1920: 400,000; 1980: 20,000)."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "reported cases",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

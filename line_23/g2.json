@@ -1,0 +1,156 @@
+{
+ "clip_id": "line_23",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_23",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Ship cargo value",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Ship cargo value"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Ship cargo value | #1",
+    "Ship cargo value | #4",
+    "Ship cargo value | #7",
+    "Ship cargo value | #10",
+    "Ship cargo value | #13",
+    "Ship cargo value | #16",
+    "Ship cargo value | #19",
+    "Ship cargo value | #22",
+    "Ship cargo value | #25",
+    "Ship cargo value | #28",
+    "Ship cargo value | #31",
+    "Ship cargo value | #34",
+    "Ship cargo value | #37",
+    "Ship cargo value | #40"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Ship cargo value | #1",
+      "value": 0.75,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #4",
+      "value": 0.59,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #7",
+      "value": 0.41,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #10",
+      "value": 0.27,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #13",
+      "value": 0.19,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #16",
+      "value": 0.15,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #19",
+      "value": 0.125,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #22",
+      "value": 0.11,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #25",
+      "value": 0.1,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #28",
+      "value": 0.095,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #31",
+      "value": 0.092,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #34",
+      "value": 0.09,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #37",
+      "value": 0.09,
+      "unit": "relative"
+     },
+     {
+      "mark": "Ship cargo value | #40",
+      "value": 0.09,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The relative value of the ship and its cargo declines over the plotted period, starting at 0.75 on day 1 and falling to 0.09 by day 40, with the steepest drop early and leveling off near the end.",
+    "start_value": 0.75,
+    "end_value": 0.09,
+    "delta": -0.66,
+    "ratio": 0.12,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

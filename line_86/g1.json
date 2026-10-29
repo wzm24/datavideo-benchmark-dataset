@@ -1,0 +1,264 @@
+{
+ "clip_id": "line_86",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the share of the group trusting the federal government over the period from 1960 to 2021 and compare the earliest and latest values.",
+ "chart_structure": {
+  "clip_id": "line_86",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the share trusting the federal government from 1960 to 2021 and compare the earliest and latest values?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The earliest value (73% in 1960) is higher than the latest value (24% in 2021), a difference of 49 percentage points.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'60",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share trusting the federal government (moving average) is traced over the period from 1960 to 2021, showing an overall decline from 73% in 1960 to 24% in 2021.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'60",
+     "point_order": "1",
+     "field": "value",
+     "value": 73.0,
+     "unit": "%",
+     "row_sha": "ca5ffe482e2df8d1"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'70",
+     "point_order": "5",
+     "field": "value",
+     "value": 54.0,
+     "unit": "%",
+     "row_sha": "05cd6e0f8ed38b43"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'80",
+     "point_order": "16",
+     "field": "value",
+     "value": 28.0,
+     "unit": "%",
+     "row_sha": "93f78fdb62535e7d"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'90",
+     "point_order": "42",
+     "field": "value",
+     "value": 38.0,
+     "unit": "%",
+     "row_sha": "acdb84321b84d811"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'00",
+     "point_order": "92",
+     "field": "value",
+     "value": 34.0,
+     "unit": "%",
+     "row_sha": "6f15de3275bbab33"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'10",
+     "point_order": "129",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "57abd4e5e319a212"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'21",
+     "point_order": "158",
+     "field": "value",
+     "value": 24.0,
+     "unit": "%",
+     "row_sha": "255abee916cfa003"
+    }
+   ],
+   "computation": "Trace the moving-average series across the listed x anchors from 1960 to 2021; the series starts at 73% and ends at 24%, indicating an overall downward trend.",
+   "accept": [
+    "Shows the line from 1960 to 2021 with an overall decline.",
+    "States the share fell from about 73% in 1960 to about 24% in 2021."
+   ],
+   "reject": [
+    "Shows only isolated points without connecting the 1960–2021 period.",
+    "Claims an overall increase or no change."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The earliest value (73% in 1960) is higher than the latest value (24% in 2021), a difference of 49 percentage points.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'60",
+     "point_order": "1",
+     "field": "value",
+     "value": 73.0,
+     "unit": "%",
+     "row_sha": "ca5ffe482e2df8d1"
+    },
+    {
+     "panel": "",
+     "entity": "Trust in the federal government",
+     "series": "Moving average",
+     "x": "'21",
+     "point_order": "158",
+     "field": "value",
+     "value": 24.0,
+     "unit": "%",
+     "row_sha": "255abee916cfa003"
+    }
+   ],
+   "computation": "Compare first_value 73 at x='60 with last_value 24 at x='21; absolute difference = 73 - 24 = 49 percentage points.",
+   "accept": [
+    "Explicitly compares the 1960 and 2021 values.",
+    "States the earliest value is higher by about 49 percentage points."
+   ],
+   "reject": [
+    "Compares values from other years instead of 1960 and 2021.",
+    "Omits the earliest/latest comparison."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions intermediate fluctuations such as the rise around 1990 or the low around 2010.",
+  "Mentions the minimum of 15% or maximum of 77% as context."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline.",
+  "Claims about subgroups or other entities not in the table.",
+  "Precise year-by-year values not present in the supplied anchors."
+ ],
+ "review_notes": [
+  "The table has 158 rows but only seven explicit x anchors; the trend unit uses the minimal anchor sequence that proves the 1960–2021 claim.",
+  "The comparison unit merges endpoint difference and direction into one earliest-vs-latest comparison slot."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Trust in the federal government",
+    "series": "Moving average"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

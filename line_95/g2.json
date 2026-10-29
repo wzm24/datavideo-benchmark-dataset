@@ -1,0 +1,130 @@
+{
+ "clip_id": "line_95",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_95",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "unauthorized immigrants",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "unauthorized immigrants"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "unauthorized immigrants | 1990",
+    "unauthorized immigrants | 2007",
+    "unauthorized immigrants | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "unauthorized immigrants | 1990",
+      "value": 3.5,
+      "unit": "million"
+     },
+     {
+      "mark": "unauthorized immigrants | 2007",
+      "value": 12.2,
+      "unit": "million"
+     },
+     {
+      "mark": "unauthorized immigrants | 2017",
+      "value": 10.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The U.S. unauthorized immigrant population rose from 3.5 million in 1990 to a peak of 12.2 million in 2007, then declined to 10.5 million in 2017.",
+    "start_value": 3.5,
+    "end_value": 10.5,
+    "delta": 7.0,
+    "ratio": 3.0,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "unauthorized immigrants | 2007",
+    "unauthorized immigrants | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "unauthorized immigrants | 2007",
+      "value": 12.2,
+      "unit": "million"
+     },
+     {
+      "mark": "unauthorized immigrants | 2017",
+      "value": 10.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The peak U.S. unauthorized immigrant population (12.2 million in 2007) was higher than the final-year population (10.5 million in 2017) by 1.7 million.",
+    "start_value": 12.2,
+    "end_value": 10.5,
+    "delta": -1.7,
+    "ratio": 0.860656,
+    "direction": "decreasing",
+    "expected_order": [
+     "unauthorized immigrants",
+     "unauthorized immigrants"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

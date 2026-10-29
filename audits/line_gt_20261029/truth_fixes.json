@@ -1,0 +1,2147 @@
+{
+  "baseline": "D:\\dev\\data_video_dataset_pipeline\\benchmark_draft\\line_gt\\backups\\closure_truth_fix_20261029_171011",
+  "rule": "Only change the candidate when its claim conflicts with data_table.csv. Parser failures caused by compressed long tables are not treated as evidence that the G1 is wrong.",
+  "changed_clips": [
+    {
+      "clip_id": "line_2",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U4",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "In the single panel, the SUPPLY and DEMAND series cross at approximately point_order 25, where both values are about 0.4080 and 0.5920 respectively, with SUPPLY below DEMAND before the crossing and above DEMAND after it.",
+              "after": "In the single panel, SUPPLY and DEMAND cross once between point_order 27 and 28, at approximately point_order 27.55 and relative value 0.5000. SUPPLY is below DEMAND at point_order 27 and above DEMAND at point_order 28."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "22",
+                  "field": "value",
+                  "value": 0.3111,
+                  "unit": "relative",
+                  "row_sha": "e3de392b04302d13"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "22",
+                  "field": "value",
+                  "value": 0.6889,
+                  "unit": "relative",
+                  "row_sha": "09c1a16eaf2a9101"
+                },
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "25",
+                  "field": "value",
+                  "value": 0.408,
+                  "unit": "relative",
+                  "row_sha": "caf88f0c50fbe440"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "25",
+                  "field": "value",
+                  "value": 0.592,
+                  "unit": "relative",
+                  "row_sha": "52a45f451afd28f2"
+                },
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 0.517,
+                  "unit": "relative",
+                  "row_sha": "7a9b8d857f7ccd3f"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 0.483,
+                  "unit": "relative",
+                  "row_sha": "e4edec584ade58c5"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "26",
+                  "field": "value",
+                  "value": 0.443,
+                  "unit": "relative",
+                  "row_sha": "b7d044d0a4cc0f7d"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "26",
+                  "field": "value",
+                  "value": 0.557,
+                  "unit": "relative",
+                  "row_sha": "8116ef6dc642468b"
+                },
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "27",
+                  "field": "value",
+                  "value": 0.4789,
+                  "unit": "relative",
+                  "row_sha": "d71e4f4a8748d994"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "27",
+                  "field": "value",
+                  "value": 0.5211,
+                  "unit": "relative",
+                  "row_sha": "8b6681cd91bd6a46"
+                },
+                {
+                  "panel": "",
+                  "entity": "SUPPLY",
+                  "series": "SUPPLY",
+                  "x": "",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 0.517,
+                  "unit": "relative",
+                  "row_sha": "7a9b8d857f7ccd3f"
+                },
+                {
+                  "panel": "",
+                  "entity": "DEMAND",
+                  "series": "DEMAND",
+                  "x": "",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 0.483,
+                  "unit": "relative",
+                  "row_sha": "e4edec584ade58c5"
+                }
+              ]
+            },
+            "computation": {
+              "before": "At point_order 22: SUPPLY=0.3111 < DEMAND=0.6889; at point_order 25: SUPPLY=0.4080 < DEMAND=0.5920; at point_order 28: SUPPLY=0.5170 > DEMAND=0.4830. Crossing occurs between point_order 25 and 28.",
+              "after": "At point_order 26: SUPPLY=0.4430 < DEMAND=0.5570. At point_order 27: SUPPLY=0.4789 < DEMAND=0.5211. At point_order 28: SUPPLY=0.5170 > DEMAND=0.4830. Linear interpolation gives an intersection at 27 + 0.0422/(0.0422+0.0340) = 27.554, with both values approximately 0.5000."
+            },
+            "accept": {
+              "before": [
+                "SUPPLY and DEMAND intersect",
+                "SUPPLY starts below DEMAND and ends above DEMAND"
+              ],
+              "after": [
+                "SUPPLY and DEMAND cross once between adjacent plotted points 27 and 28.",
+                "SUPPLY is 0.4789 versus DEMAND 0.5211 at point_order 27.",
+                "SUPPLY is 0.5170 versus DEMAND 0.4830 at point_order 28.",
+                "The approximate crossing is at point_order 27.55 and relative value 0.5000."
+              ]
+            },
+            "reject": {
+              "before": [
+                "SUPPLY and DEMAND never cross",
+                "SUPPLY is always above DEMAND"
+              ],
+              "after": [
+                "Claims that the series cross at point_order 25.",
+                "Uses 0.4080 and 0.5920 as the crossing values.",
+                "Claims that SUPPLY remains below DEMAND through point_order 28."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R4",
+          "before": "In the single panel, the SUPPLY and DEMAND series cross at approximately point_order 25, where both values are about 0.4080 and 0.5920 respectively, with SUPPLY below DEMAND before the crossing and above DEMAND after it.",
+          "after": "Where do the SUPPLY and DEMAND series cross, and what is the approximate crossing level?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.25,
+        "U2": 0.25,
+        "U3": 0.25,
+        "U4": 0.25
+      }
+    },
+    {
+      "clip_id": "line_4",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "England's annual net housing additions are compared against the annual target across fiscal years 2000-01 to 2018-19, showing which years are above or below target.",
+              "after": "England's annual net housing additions fluctuate over fiscal years 2000-01 to 2018-19 but rise overall from 132.00 thousand in 2000-01 to 247.77 thousand in 2018-19."
+            },
+            "computation": {
+              "before": "Compare each year's net housing additions value to the annual target value; determine above/below status per year.",
+              "after": "Compare the first and last plotted values: 247.77 - 132.00 = 115.77 thousand, an overall increase, while the intervening path is not monotonic."
+            },
+            "accept": {
+              "before": [
+                "The chart includes a target reference line or marker and the net housing additions line is visually compared to it across the fiscal years.",
+                "The video states or shows that some years are above and some below the annual target."
+              ],
+              "after": [
+                "Net housing additions rise overall from 132.00 thousand in 2000-01 to 247.77 thousand in 2018-19.",
+                "The path is described as fluctuating rather than monotonically increasing."
+              ]
+            },
+            "reject": {
+              "before": [
+                "The chart shows only the net housing additions line without any target reference.",
+                "The video does not mention or visualize the annual target."
+              ],
+              "after": [
+                "Claims that additions decline overall.",
+                "Claims that additions are flat across the period."
+              ]
+            },
+            "unit_kind": {
+              "before": "comparison",
+              "after": "trend"
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R2",
+          "before": "Does the video compare England's annual net housing additions across fiscal years 2000-01 to 2018-19 against the annual target?",
+          "after": "How do England's annual net housing additions change from 2000-01 to 2018-19?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_26",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "computation": {
+              "before": "Compare first and last values of PRODUCTIVITY: -0.0047 at point_order 1 to 225.0023 at point_order 41, with intermediate anchors at 1960 (14.9958), 1980 (80.0196), and 2000 (185.0228).",
+              "after": "Compare PRODUCTIVITY from -0.0047 at point_order 1 to 225.0023 at point_order 41, with table anchors at 1960 (14.9958), 1980 (69.9758), and 2000 (134.9995)."
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "From the late 1940s through the 2010s, indexed hourly wages rose from about 0 to about 110, but the increase slowed markedly after around 1980.",
+              "after": "From the late 1940s through the 2010s, indexed hourly wages rose from about 0 to about 110, but the increase was slower after around 1980 than the parallel rise in productivity."
+            },
+            "computation": {
+              "before": "Compare first and last values of WAGES: -0.0047 at point_order 1 to 110.0205 at point_order 41, with intermediate anchors at 1960 (14.9958), 1980 (74.0194), and 2000 (104.0203); the gain from 1980 to 2010s is much smaller than from late 1940s to 1980.",
+              "after": "Compare WAGES from -0.0047 at point_order 1 to 110.0205 at point_order 41, with table anchors at 1960 (14.9958), 1980 (69.9758), and 2000 (93.9765). The absolute gain is about 69.98 before 1980 and about 40.04 after 1980."
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "change": "modified",
+          "fields": {
+            "computation": {
+              "before": "Compare PRODUCTIVITY and WAGES at shared x anchors: 1960 (14.9958 vs 14.9958), 1980 (80.0196 vs 74.0194), 2000 (185.0228 vs 104.0203), and final point (225.0023 vs 110.0205); the gap widens after 1980.",
+              "after": "At 1960 both series are 14.9958. At 1980 both series are 69.9758. At 2000 PRODUCTIVITY is 134.9995 versus WAGES 93.9765, and at the final point the values are 225.0023 versus 110.0205. The series diverge after 1980."
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.25,
+        "U2": 0.25,
+        "U3": 0.25,
+        "U4": 0.25
+      }
+    },
+    {
+      "clip_id": "line_32",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U4",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The peak top 10% income share of 50.0% occurs before the mid-century low of 32.5%, so the peak timing is earlier than the Great Depression-era trough rather than coinciding with it.",
+              "after": "The top 10% income share reaches 50.0% at point_order 39 near the end of the plotted series, much later than its 32.5% trough at point_order 15; the peak is not coincident with that earlier trough."
+            },
+            "computation": {
+              "before": "Compare the point_order of the maximum (39) with the point_order of the minimum (15); the maximum precedes the minimum in the series order.",
+              "after": "The maximum is 50.0 at point_order 39 and the minimum is 32.5 at point_order 15. Because 39 is after 15 in the plotted sequence, the peak occurs later than the mid-century trough."
+            },
+            "accept": {
+              "before": [
+                "States the peak occurs earlier in the series than the mid-century low.",
+                "Contrasts the peak level (50.0%) with the Depression-era low (32.5%).",
+                "Notes the peak timing is not the same as the Great Depression-era trough."
+              ],
+              "after": [
+                "The 50.0% peak occurs near the end of the plotted series.",
+                "The 50.0% peak occurs after, not at, the 32.5% earlier trough."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claims the peak coincides with the Great Depression-era low.",
+                "Places the peak after the mid-century decline.",
+                "Uses causal language about the Great Depression without table evidence."
+              ],
+              "after": [
+                "Claims that the peak occurs before the earlier trough.",
+                "Claims that the peak coincides with the trough."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R4",
+          "before": "How does the peak timing relate to the Great Depression era?",
+          "after": "How does the peak timing compare with the earlier plotted trough?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.25,
+        "U2": 0.25,
+        "U3": 0.25,
+        "U4": 0.25
+      }
+    },
+    {
+      "clip_id": "line_33",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The top 1% wealth share in the United States declined from 1920 to a mid-century low around 1970–1980, then rose again through 2010.",
+              "after": "The top 1% wealth share starts at 35.9979% in 1920, rises to 46.0025% in 1930, declines to its plotted low of 23.9975% at point_order 27 between 1970 and 1980, rises to 25.9997% by 1980, and then rises to 40.0023% in 2010."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1920",
+                  "point_order": "4",
+                  "field": "value",
+                  "value": 35.9979,
+                  "unit": "%",
+                  "row_sha": "d3d1a66235115788"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1930",
+                  "point_order": "8",
+                  "field": "value",
+                  "value": 46.0025,
+                  "unit": "%",
+                  "row_sha": "0c44afa8531934a3"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1940",
+                  "point_order": "12",
+                  "field": "value",
+                  "value": 35.0,
+                  "unit": "%",
+                  "row_sha": "1311928301418ec8"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1950",
+                  "point_order": "16",
+                  "field": "value",
+                  "value": 28.9998,
+                  "unit": "%",
+                  "row_sha": "8b5698a924446c98"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1960",
+                  "point_order": "20",
+                  "field": "value",
+                  "value": 28.002,
+                  "unit": "%",
+                  "row_sha": "71be09b79a3300e9"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1970",
+                  "point_order": "24",
+                  "field": "value",
+                  "value": 26.9976,
+                  "unit": "%",
+                  "row_sha": "c875a1db630afecb"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1980",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 25.9997,
+                  "unit": "%",
+                  "row_sha": "135692cb691bdeaf"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1990",
+                  "point_order": "32",
+                  "field": "value",
+                  "value": 28.9998,
+                  "unit": "%",
+                  "row_sha": "be40a97f5acc8294"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "2000",
+                  "point_order": "36",
+                  "field": "value",
+                  "value": 32.9978,
+                  "unit": "%",
+                  "row_sha": "3c217e9ac661f7a7"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "2010",
+                  "point_order": "40",
+                  "field": "value",
+                  "value": 40.0023,
+                  "unit": "%",
+                  "row_sha": "85de355baaa372b5"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1920",
+                  "point_order": "4",
+                  "field": "value",
+                  "value": 35.9979,
+                  "unit": "%",
+                  "row_sha": "d3d1a66235115788"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1930",
+                  "point_order": "8",
+                  "field": "value",
+                  "value": 46.0025,
+                  "unit": "%",
+                  "row_sha": "0c44afa8531934a3"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1970",
+                  "point_order": "24",
+                  "field": "value",
+                  "value": 26.9976,
+                  "unit": "%",
+                  "row_sha": "c875a1db630afecb"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "",
+                  "point_order": "27",
+                  "field": "value",
+                  "value": 23.9975,
+                  "unit": "%",
+                  "row_sha": "8405cf86c4acbeca"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "1980",
+                  "point_order": "28",
+                  "field": "value",
+                  "value": 25.9997,
+                  "unit": "%",
+                  "row_sha": "135692cb691bdeaf"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Share of top percentage in total wealth",
+                  "x": "2010",
+                  "point_order": "40",
+                  "field": "value",
+                  "value": 40.0023,
+                  "unit": "%",
+                  "row_sha": "85de355baaa372b5"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Trace the series across the full 1920–2010 sequence: values fall from 35.9979% (1920) to a trough near 23.9975% (point_order 27, between 1970 and 1980) and then rise to 40.0023% (2010).",
+              "after": "Trace the labeled series: 1920=35.9979, 1930=46.0025, 1940=35.0000, 1950=28.9998, 1960=28.0020, 1970=26.9976. The plotted minimum is 23.9975 at point_order 27, after 1970 and before 1980; the 1980 value is 25.9997. The series then rises through 1990=28.9998 and 2000=32.9978 to 40.0023 in 2010."
+            },
+            "accept": {
+              "before": [
+                "Describes an initial decline from 1920 to a mid-century low around 1970–1980.",
+                "Describes a subsequent rise from the mid-century low through 2010.",
+                "Uses the full 1920–2010 sequence to support the overall U-shaped or decline-then-rise trajectory."
+              ],
+              "after": [
+                "The share rises from 1920 to 1930 before declining.",
+                "The plotted trough is 23.9975% at point_order 27 between 1970 and 1980.",
+                "The share rises to 40.0023% by 2010."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claims a monotonic decline or monotonic rise across the whole period.",
+                "Omits either the mid-century low or the post-1980 rise.",
+                "Uses only endpoints without the mid-century trajectory."
+              ],
+              "after": [
+                "Claims that the series declines continuously from 1920 to the mid-century.",
+                "Omits the 1930 peak of 46.0025%."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_46",
+      "removed_unit_ids": [
+        "U3"
+      ],
+      "changed_units": [],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.5,
+        "U2": 0.5
+      }
+    },
+    {
+      "clip_id": "line_50",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The men's Olympic 100 m freestyle final medalist time generally decreased from 82.8 seconds in 1896 to 47.52 seconds in 2012, with the minimum value of 47.21 seconds occurring in 2008.",
+              "after": "The plotted men's Olympic 100 m freestyle medalist times generally decreased from 82.8 seconds at the first 1896 silver-medal point to 47.52 seconds in 2012, with the minimum value of 47.21 seconds occurring in 2008."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1896",
+                  "point_order": "2",
+                  "field": "value",
+                  "value": 82.2,
+                  "unit": "seconds",
+                  "row_sha": "c42c1a1fcb72d26a"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1906",
+                  "point_order": "5",
+                  "field": "value",
+                  "value": 73.0,
+                  "unit": "seconds",
+                  "row_sha": "a9ac233c7a0ddabf"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1912",
+                  "point_order": "11",
+                  "field": "value",
+                  "value": 63.4,
+                  "unit": "seconds",
+                  "row_sha": "3d004056eed6ce07"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1920",
+                  "point_order": "14",
+                  "field": "value",
+                  "value": 61.4,
+                  "unit": "seconds",
+                  "row_sha": "381bf1811320d4e1"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1928",
+                  "point_order": "20",
+                  "field": "value",
+                  "value": 58.6,
+                  "unit": "seconds",
+                  "row_sha": "a2ce77617b058936"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1932",
+                  "point_order": "23",
+                  "field": "value",
+                  "value": 58.2,
+                  "unit": "seconds",
+                  "row_sha": "e145c08ddc6acd29"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1948",
+                  "point_order": "29",
+                  "field": "value",
+                  "value": 57.3,
+                  "unit": "seconds",
+                  "row_sha": "da0e1c24337e0e43"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1952",
+                  "point_order": "32",
+                  "field": "value",
+                  "value": 57.4,
+                  "unit": "seconds",
+                  "row_sha": "e7cc88142573ffc8"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1960",
+                  "point_order": "37",
+                  "field": "value",
+                  "value": 55.2,
+                  "unit": "seconds",
+                  "row_sha": "099ee42eb22d8fb8"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1964",
+                  "point_order": "41",
+                  "field": "value",
+                  "value": 53.4,
+                  "unit": "seconds",
+                  "row_sha": "3a483e431552ef39"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1972",
+                  "point_order": "47",
+                  "field": "value",
+                  "value": 51.22,
+                  "unit": "seconds",
+                  "row_sha": "59e8e68f4f4be6a2"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1976",
+                  "point_order": "50",
+                  "field": "value",
+                  "value": 49.99,
+                  "unit": "seconds",
+                  "row_sha": "60ac4cae1a715317"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1984",
+                  "point_order": "56",
+                  "field": "value",
+                  "value": 49.8,
+                  "unit": "seconds",
+                  "row_sha": "b60a234bf2b73fcc"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1988",
+                  "point_order": "59",
+                  "field": "value",
+                  "value": 48.63,
+                  "unit": "seconds",
+                  "row_sha": "05f06801ce0c633a"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "1996",
+                  "point_order": "65",
+                  "field": "value",
+                  "value": 48.74,
+                  "unit": "seconds",
+                  "row_sha": "7cc7b3ef19b369ec"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "2000",
+                  "point_order": "68",
+                  "field": "value",
+                  "value": 48.3,
+                  "unit": "seconds",
+                  "row_sha": "c61195d4e23d8d0f"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "2008",
+                  "point_order": "75",
+                  "field": "value",
+                  "value": 47.21,
+                  "unit": "seconds",
+                  "row_sha": "a5baca6ce0d51702"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "2012",
+                  "point_order": "78",
+                  "field": "value",
+                  "value": 47.52,
+                  "unit": "seconds",
+                  "row_sha": "a2d19bfe152c4480"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 82.8,
+                  "unit": "seconds",
+                  "row_sha": "36c48bfacc014905"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "2008",
+                  "point_order": "75",
+                  "field": "value",
+                  "value": 47.21,
+                  "unit": "seconds",
+                  "row_sha": "a5baca6ce0d51702"
+                },
+                {
+                  "panel": "",
+                  "entity": "",
+                  "series": "Men's 100 m freestyle medalists",
+                  "x": "2012",
+                  "point_order": "78",
+                  "field": "value",
+                  "value": 47.52,
+                  "unit": "seconds",
+                  "row_sha": "a2d19bfe152c4480"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Compare first value (82.8 s at 1896) to last value (47.52 s at 2012); note overall downward trend and minimum value (47.21 s at 2008).",
+              "after": "Compare the first plotted value (82.8 seconds, labeled 1896 silver) to the final 2012 value (47.52 seconds), and identify the minimum among the plotted points (47.21 seconds in 2008)."
+            },
+            "accept": {
+              "before": [
+                "Overall decreasing trend from 1896 to 2012",
+                "First value 82.8 seconds in 1896",
+                "Last value 47.52 seconds in 2012",
+                "Minimum value 47.21 seconds in 2008"
+              ],
+              "after": [
+                "Overall decreasing trend from the first 1896 plotted point to 2012.",
+                "The first plotted 1896 value is 82.8 seconds.",
+                "The final 2012 value is 47.52 seconds.",
+                "The minimum value is 47.21 seconds in 2008."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claiming a strictly monotonic decrease at every point",
+                "Claiming an increasing trend",
+                "Using values not present in the table"
+              ],
+              "after": [
+                "Claiming a strictly monotonic decrease at every point.",
+                "Claiming an increasing trend.",
+                "Attributing 82.2 seconds to the first plotted point."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.5,
+        "U2": 0.5
+      }
+    },
+    {
+      "clip_id": "line_59",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U3",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "By the final polling point (June 23, 2016), Leave's share (46%) exceeded Remain's share (48%)? No—Remain 48% > Leave 46%, so Remain still led at the final point.",
+              "after": "At the final polling point on June 23, 2016, Remain's share was 48% and Leave's share was 46%, so Remain was still higher at the final point."
+            },
+            "computation": {
+              "before": "Compare final values: Remain 48.0 vs Leave 46.0; Remain > Leave.",
+              "after": "At June 23, 2016: Remain 48.0% > Leave 46.0%."
+            },
+            "accept": {
+              "before": [
+                "Remain leads Leave at the final point",
+                "Remain 48% vs Leave 46% on June 23, 2016"
+              ],
+              "after": [
+                "Remain leads Leave at the final point.",
+                "Remain 48% versus Leave 46% on June 23, 2016."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Leave leads Remain at the final point",
+                "Remain and Leave are equal at the final point"
+              ],
+              "after": [
+                "Leave leads Remain at the final point.",
+                "Remain and Leave are equal at the final point."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R3",
+          "before": "By the final polling point (June 23, 2016), Leave's share (46%) exceeded Remain's share (48%)? No—Remain 48% > Leave 46%, so Remain still led at the final point.",
+          "after": "Which side had the higher polling share at the final polling point?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_69",
+      "removed_unit_ids": [
+        "U3"
+      ],
+      "changed_units": [],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.5,
+        "U2": 0.5
+      }
+    },
+    {
+      "clip_id": "line_73",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": -0.156,
+                  "unit": "°C",
+                  "row_sha": "39708e67c94138ab"
+                },
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "137",
+                  "field": "value",
+                  "value": 0.946,
+                  "unit": "°C",
+                  "row_sha": "5cbfbb7afc626f09"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "1900",
+                  "point_order": "20",
+                  "field": "value",
+                  "value": -0.208,
+                  "unit": "°C",
+                  "row_sha": "c951d6146395da24"
+                },
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "137",
+                  "field": "value",
+                  "value": 0.946,
+                  "unit": "°C",
+                  "row_sha": "5cbfbb7afc626f09"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Compare the first value (-0.156 °C at point_order 1) to the last value (0.946 °C at point_order 137); the series rises over the full period.",
+              "after": "Compare the 1900 value (-0.208 °C at point_order 20) with the final value (0.946 °C at point_order 137); the series rises over the full period."
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The overall change in global temperature anomaly from 1900 to the end of the series is an increase of 1.102 °C (from -0.156 °C to 0.946 °C).",
+              "after": "The overall change in global temperature anomaly from 1900 to the end of the series is an increase of 1.154 °C, from -0.208 °C to 0.946 °C."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": -0.156,
+                  "unit": "°C",
+                  "row_sha": "39708e67c94138ab"
+                },
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "137",
+                  "field": "value",
+                  "value": 0.946,
+                  "unit": "°C",
+                  "row_sha": "5cbfbb7afc626f09"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "1900",
+                  "point_order": "20",
+                  "field": "value",
+                  "value": -0.208,
+                  "unit": "°C",
+                  "row_sha": "c951d6146395da24"
+                },
+                {
+                  "panel": "",
+                  "entity": "temp anomaly",
+                  "series": "",
+                  "x": "",
+                  "point_order": "137",
+                  "field": "value",
+                  "value": 0.946,
+                  "unit": "°C",
+                  "row_sha": "5cbfbb7afc626f09"
+                }
+              ]
+            },
+            "computation": {
+              "before": "0.946 - (-0.156) = 1.102 °C.",
+              "after": "0.946 - (-0.208) = 1.154 °C."
+            },
+            "accept": {
+              "before": [
+                "The overall change is quantified as approximately 1.1 °C of warming.",
+                "The endpoint values -0.156 °C and 0.946 °C are used to compute the difference."
+              ],
+              "after": [
+                "The overall change is quantified as approximately 1.15 °C of warming.",
+                "The endpoint values -0.208 °C and 0.946 °C are used to compute the difference."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_77",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The seven-day moving average of daily confirmed COVID-19 cases in India rose from about 4.56 thousand in March 2020 to a peak near 86.74 thousand in October 2020, then declined to about 17.34 thousand in February 2021 before rising sharply to 369.52 thousand by the end of the period in April 2021.",
+              "after": "The seven-day moving average of daily confirmed COVID-19 cases in India rose from 4.5613 thousand in March 2020 to a local peak of 86.7381 thousand in October 2020, then declined to 15.7921 thousand at an unlabeled point between February and March 2021 before rising to 369.5175 thousand at the final plotted point after the last explicit March 2021 anchor."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 4.5613,
+                  "unit": "thousand cases",
+                  "row_sha": "f5ec90f5dddc6ea4"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Oct",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 86.7381,
+                  "unit": "thousand cases",
+                  "row_sha": "68a6631992a6492e"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Feb",
+                  "point_order": "159",
+                  "field": "value",
+                  "value": 17.3444,
+                  "unit": "thousand cases",
+                  "row_sha": "c2e0da49dc7ef2fa"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 369.5175,
+                  "unit": "thousand cases",
+                  "row_sha": "a0c1c019a06cfe0f"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 4.5613,
+                  "unit": "thousand cases",
+                  "row_sha": "f5ec90f5dddc6ea4"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Oct",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 86.7381,
+                  "unit": "thousand cases",
+                  "row_sha": "68a6631992a6492e"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "164",
+                  "field": "value",
+                  "value": 15.7921,
+                  "unit": "thousand cases",
+                  "row_sha": "83dcc2b524b20827"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 369.5175,
+                  "unit": "thousand cases",
+                  "row_sha": "a0c1c019a06cfe0f"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Compare the 7-day moving average values at the start (Mar 2020: 4.5613), the local maximum (Oct: 86.7381), the subsequent local minimum (Feb 2021: 17.3444), and the final value (point_order 200: 369.5175) to describe the overall multi-phase trend.",
+              "after": "Start: 4.5613 at point_order 1 (Mar 2020). Local peak: 86.7381 at point_order 101 (Oct 2020). Subsequent minimum: 15.7921 at point_order 164, after the last February anchor and before the March anchor. Final plotted value: 369.5175 at point_order 200, after the last explicit March anchor at point_order 172."
+            },
+            "accept": {
+              "before": [
+                "Describes an initial rise from March 2020 to a peak around October 2020.",
+                "Notes a decline from the October 2020 peak to a low around February 2021.",
+                "Notes a sharp increase after February 2021, ending at the highest value shown (369.52 thousand)."
+              ],
+              "after": [
+                "Describes a rise from March 2020 to a peak in October 2020.",
+                "Places the subsequent trough at 15.7921 thousand between February and March 2021.",
+                "States that the final plotted value is 369.5175 thousand after the last explicit March 2021 anchor."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claims a monotonic increase throughout the entire period.",
+                "Omits the October 2020 peak or the February 2021 low.",
+                "Uses values inconsistent with the table (e.g., peak not near 86.74 thousand)."
+              ],
+              "after": [
+                "Claims a monotonic increase throughout the period.",
+                "Places the October 2020 peak near 97.15 thousand.",
+                "Labels the final point as an explicitly printed April 2021 value."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.5,
+        "U2": 0.5
+      }
+    },
+    {
+      "clip_id": "line_79",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The seven-day moving average of confirmed daily COVID-19 deaths in India rises from about 46.7 in March 2020 to a peak near 1115.4 in October 2020, then declines to about 158.7 in March 2021 before rising again in April 2021.",
+              "after": "The seven-day moving average of confirmed daily COVID-19 deaths in India rises from 46.7314 in March 2020 to a local peak of 1115.3505 in October 2020, then falls to 137.2607 at an unlabeled point between February and March 2021 before rising again through the final plotted point."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 46.7314,
+                  "unit": "deaths",
+                  "row_sha": "432e38621a8d8d1c"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Oct 2020",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 1115.3505,
+                  "unit": "deaths",
+                  "row_sha": "63c4a6da92915b03"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Mar 2021",
+                  "point_order": "172",
+                  "field": "value",
+                  "value": 158.7264,
+                  "unit": "deaths",
+                  "row_sha": "ac51b663c6b0ed5d"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Apr 2021",
+                  "point_order": "186",
+                  "field": "value",
+                  "value": 365.9172,
+                  "unit": "deaths",
+                  "row_sha": "c18683927efbbb6d"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 46.7314,
+                  "unit": "deaths",
+                  "row_sha": "432e38621a8d8d1c"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Oct 2020",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 1115.3505,
+                  "unit": "deaths",
+                  "row_sha": "63c4a6da92915b03"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "164",
+                  "field": "value",
+                  "value": 137.2607,
+                  "unit": "deaths",
+                  "row_sha": "c98150a975566490"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 3233.9229,
+                  "unit": "deaths",
+                  "row_sha": "dc2b09f5589b321c"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Trace the series across the stated period, noting the initial rise, the October 2020 local maximum, the subsequent decline, and the April 2021 upturn.",
+              "after": "Start: 46.7314 at point_order 1. Local peak: 1115.3505 at point_order 101. Subsequent trough: 137.2607 at point_order 164. Final value: 3233.9229 at point_order 200."
+            },
+            "accept": {
+              "before": [
+                "Describes an overall rise from March 2020 to a peak around October 2020, followed by a decline into early 2021 and a later increase in April 2021.",
+                "Mentions the series reaching about 1115 deaths in October 2020 and later falling to about 159 in March 2021 before rising again."
+              ],
+              "after": [
+                "Describes an initial rise to 1115.3505 in October 2020.",
+                "Places the subsequent trough at 137.2607 between February and March 2021.",
+                "Describes a renewed rise through the final plotted point."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claims the series rises monotonically throughout the entire period.",
+                "Omits the October 2020 peak or the subsequent decline.",
+                "States a different peak month or value inconsistent with the table."
+              ],
+              "after": [
+                "Claims the series rises monotonically throughout the period.",
+                "Places the October 2020 local peak near 1210.5.",
+                "Omits the post-February trough."
+              ]
+            }
+          }
+        },
+        {
+          "unit_id": "U3",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The highest value of the seven-day moving average of confirmed daily COVID-19 deaths in India over March 2020 through April 2021 is 3233.9229 deaths, occurring at the final data point (point_order 200) in April 2021.",
+              "after": "The highest plotted value is 3233.9229 deaths at point_order 200, after the last explicit April 2021 anchor at point_order 186."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 3233.9229,
+                  "unit": "deaths",
+                  "row_sha": "dc2b09f5589b321c"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Oct 2020",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 1115.3505,
+                  "unit": "deaths",
+                  "row_sha": "63c4a6da92915b03"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Apr 2021",
+                  "point_order": "186",
+                  "field": "value",
+                  "value": 365.9172,
+                  "unit": "deaths",
+                  "row_sha": "c18683927efbbb6d"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Oct 2020",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 1115.3505,
+                  "unit": "deaths",
+                  "row_sha": "63c4a6da92915b03"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "Apr 2021",
+                  "point_order": "186",
+                  "field": "value",
+                  "value": 365.9172,
+                  "unit": "deaths",
+                  "row_sha": "c18683927efbbb6d"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily deaths 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 3233.9229,
+                  "unit": "deaths",
+                  "row_sha": "dc2b09f5589b321c"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Compare all values in the series; the maximum is 3233.9229 at point_order 200, which is higher than the October 2020 local peak (1115.3505) and the April 2021 monthly point (365.9172).",
+              "after": "The maximum across the table is 3233.9229 at point_order 200. It is higher than the October 2020 local peak (1115.3505) and the explicit April 2021 anchor (365.9172 at point_order 186)."
+            },
+            "accept": {
+              "before": [
+                "Identifies the maximum as 3233.9229 deaths at the final point in April 2021.",
+                "States that the highest value occurs at the end of the period, not at the October 2020 local peak."
+              ],
+              "after": [
+                "Identifies the maximum as 3233.9229 deaths at the final plotted point.",
+                "States that the maximum occurs after the last explicit April 2021 anchor."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Identifies October 2020 as the overall maximum.",
+                "Gives a maximum value other than 3233.9229.",
+                "Places the maximum at a different point_order or month."
+              ],
+              "after": [
+                "Identifies October 2020 as the overall maximum.",
+                "Reports 2928.7365 as the maximum.",
+                "Claims that point_order 200 is an explicitly printed April 2021 value."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R3",
+          "before": "The highest value of the seven-day moving average of confirmed daily COVID-19 deaths in India over March 2020 through April 2021 is 3233.9229 deaths, occurring at the final data point (point_order 200) in April 2021.",
+          "after": "What is the highest plotted value, and where does it occur relative to the last explicit month labels?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_80",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "Daily COVID-19 cases in India (7-day moving average) rose from about 4.56 thousand in March 2020 to a peak near 86.74 thousand in October 2020, then declined to about 17.34 thousand in February 2021 before rising again to about 369.52 thousand by the end of the period (April 2021).",
+              "after": "Daily COVID-19 cases in India (seven-day moving average) rose from 4.5613 thousand in March 2020 to a local peak of 86.7381 thousand in October 2020, then declined to 15.7921 thousand at an unlabeled point between February and March 2021 before rising to 369.5175 thousand at the final plotted point after the last explicit March 2021 anchor."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 4.5613,
+                  "unit": "thousand cases",
+                  "row_sha": "f5ec90f5dddc6ea4"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Oct",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 86.7381,
+                  "unit": "thousand cases",
+                  "row_sha": "68a6631992a6492e"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Feb",
+                  "point_order": "159",
+                  "field": "value",
+                  "value": 17.3444,
+                  "unit": "thousand cases",
+                  "row_sha": "c2e0da49dc7ef2fa"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 369.5175,
+                  "unit": "thousand cases",
+                  "row_sha": "a0c1c019a06cfe0f"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Mar 2020",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 4.5613,
+                  "unit": "thousand cases",
+                  "row_sha": "f5ec90f5dddc6ea4"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "Oct",
+                  "point_order": "101",
+                  "field": "value",
+                  "value": 86.7381,
+                  "unit": "thousand cases",
+                  "row_sha": "68a6631992a6492e"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "164",
+                  "field": "value",
+                  "value": 15.7921,
+                  "unit": "thousand cases",
+                  "row_sha": "83dcc2b524b20827"
+                },
+                {
+                  "panel": "",
+                  "entity": "daily cases 7dma",
+                  "series": "",
+                  "x": "",
+                  "point_order": "200",
+                  "field": "value",
+                  "value": 369.5175,
+                  "unit": "thousand cases",
+                  "row_sha": "a0c1c019a06cfe0f"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Identify the overall trajectory: initial low (4.5613), rise to local maximum (86.7381 in Oct), decline to local minimum (17.3444 in Feb 2021), then steep rise to final value (369.5175).",
+              "after": "Start: 4.5613 at point_order 1. Local peak: 86.7381 at point_order 101. Subsequent minimum: 15.7921 at point_order 164. Final plotted value: 369.5175 at point_order 200, after the last explicit March anchor."
+            },
+            "accept": {
+              "before": [
+                "Shows the line rising from March 2020 to a peak around October 2020",
+                "Shows a decline from the October 2020 peak to a low around February 2021",
+                "Shows a steep rise after February 2021 to the end of the period"
+              ],
+              "after": [
+                "Shows the line rising from March 2020 to a peak in October 2020.",
+                "Places the later trough at 15.7921 thousand between February and March 2021.",
+                "Shows the final plotted value reaching 369.5175 thousand."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Claims cases declined monotonically from March 2020 to April 2021",
+                "Omits the October 2020 peak or the February 2021 trough",
+                "Shows only isolated points without the overall trend"
+              ],
+              "after": [
+                "Claims cases declined monotonically from March 2020 to April 2021.",
+                "Places the October 2020 peak near 97.15 thousand.",
+                "Labels the final point as an explicitly printed April 2021 value."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_83",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U3",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The most sharp change in Taiwan daily COVID-19 cases occurs between June 2021 (33.2143) and the final point (496.9048), an increase of about 463.69 cases.",
+              "after": "The largest adjacent increase in Taiwan daily COVID-19 cases is 254.6429 cases, from 115.0000 at point_order 16 to 369.6429 at point_order 17."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "Taiwan daily cases",
+                  "series": "",
+                  "x": "Jun 2021",
+                  "point_order": "15",
+                  "field": "value",
+                  "value": 33.2143,
+                  "unit": "cases",
+                  "row_sha": "01a9e43ee575770c"
+                },
+                {
+                  "panel": "",
+                  "entity": "Taiwan daily cases",
+                  "series": "",
+                  "x": "",
+                  "point_order": "18",
+                  "field": "value",
+                  "value": 496.9048,
+                  "unit": "cases",
+                  "row_sha": "8a40f1bd47844d5c"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "Taiwan daily cases",
+                  "series": "",
+                  "x": "",
+                  "point_order": "16",
+                  "field": "value",
+                  "value": 115.0,
+                  "unit": "cases",
+                  "row_sha": "b7f8c6742370f86c"
+                },
+                {
+                  "panel": "",
+                  "entity": "Taiwan daily cases",
+                  "series": "",
+                  "x": "",
+                  "point_order": "17",
+                  "field": "value",
+                  "value": 369.6429,
+                  "unit": "cases",
+                  "row_sha": "84d445ada1a3cd10"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Absolute difference = 496.9048 - 33.2143 = 463.6905 cases. This is the largest adjacent-point increase in the supplied sequence.",
+              "after": "369.6429 - 115.0000 = 254.6429 cases. The following step rises by 496.9048 - 369.6429 = 127.2619, which is smaller."
+            },
+            "accept": {
+              "before": [
+                "Identifies the final segment (Jun 2021 to point_order 18) as the sharpest increase.",
+                "Reports an increase of approximately 463.69 cases."
+              ],
+              "after": [
+                "Identifies point_order 16 to 17 as the largest adjacent increase.",
+                "Reports an increase of 254.6429 cases."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Identifies an earlier segment as the sharpest change.",
+                "Reports a decrease at the final segment.",
+                "Uses a different pair of points as the sharpest change."
+              ],
+              "after": [
+                "Uses June 2021 to point_order 18 as a single adjacent step.",
+                "Reports 463.69 as the largest adjacent-point increase."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R3",
+          "before": "The most sharp change in Taiwan daily COVID-19 cases occurs between June 2021 (33.2143) and the final point (496.9048), an increase of about 463.69 cases.",
+          "after": "Which adjacent plotted step has the largest increase in Taiwan daily COVID-19 cases?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_89",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The maximum long-term capital gains tax rate fluctuated over 1960–2021, starting at 25% in 1960, peaking at 35% in 1972 and 1974, falling to a low of 15% in 2003–2010, and ending at 20% in 2021.",
+              "after": "The maximum long-term capital gains tax rate fluctuated over 1960–2021, starting at 25% in 1960, peaking at 35% from 1972 through 1977, falling to 15% from 2003 through 2012, and ending at 20% in 2021."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1960",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 25.0,
+                  "unit": "%",
+                  "row_sha": "a8d2bd8b8715e1d7"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1972",
+                  "point_order": "13",
+                  "field": "value",
+                  "value": 35.0,
+                  "unit": "%",
+                  "row_sha": "a83568b03bfad8da"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1974",
+                  "point_order": "15",
+                  "field": "value",
+                  "value": 35.0,
+                  "unit": "%",
+                  "row_sha": "0c90ceff6a973175"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2003",
+                  "point_order": "44",
+                  "field": "value",
+                  "value": 15.0,
+                  "unit": "%",
+                  "row_sha": "8ffbfdcd80e9829a"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2010",
+                  "point_order": "51",
+                  "field": "value",
+                  "value": 15.0,
+                  "unit": "%",
+                  "row_sha": "d9a3059343bd7a9a"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2021",
+                  "point_order": "62",
+                  "field": "value",
+                  "value": 20.0,
+                  "unit": "%",
+                  "row_sha": "e7baf3d6f3f45d56"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1960",
+                  "point_order": "1",
+                  "field": "value",
+                  "value": 25.0,
+                  "unit": "%",
+                  "row_sha": "a8d2bd8b8715e1d7"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1972",
+                  "point_order": "13",
+                  "field": "value",
+                  "value": 35.0,
+                  "unit": "%",
+                  "row_sha": "a83568b03bfad8da"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "1977",
+                  "point_order": "18",
+                  "field": "value",
+                  "value": 35.0,
+                  "unit": "%",
+                  "row_sha": "4d4c8aff106aa20f"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2003",
+                  "point_order": "44",
+                  "field": "value",
+                  "value": 15.0,
+                  "unit": "%",
+                  "row_sha": "8ffbfdcd80e9829a"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2012",
+                  "point_order": "53",
+                  "field": "value",
+                  "value": 15.0,
+                  "unit": "%",
+                  "row_sha": "5bfc9786e8fca11e"
+                },
+                {
+                  "panel": "",
+                  "entity": "capital gains tax",
+                  "series": "",
+                  "x": "2021",
+                  "point_order": "62",
+                  "field": "value",
+                  "value": 20.0,
+                  "unit": "%",
+                  "row_sha": "e7baf3d6f3f45d56"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Trace the series from 1960 to 2021; identify start (25%), maximum (35% at 1972 and 1974), minimum (15% at 2003–2010), and end (20%).",
+              "after": "Trace the series from 1960 to 2021: start 25%; maximum 35% across 1972–1977; minimum 15% across 2003–2012; end 20% in 2021."
+            },
+            "accept": {
+              "before": [
+                "Rate starts at 25% in 1960 and ends at 20% in 2021.",
+                "Rate peaks at 35% in 1972 and 1974.",
+                "Rate reaches a low of 15% during 2003–2010.",
+                "Overall the rate fluctuates rather than moving monotonically."
+              ],
+              "after": [
+                "Rate starts at 25% in 1960 and ends at 20% in 2021.",
+                "Rate peaks at 35% from 1972 through 1977.",
+                "Rate reaches a low of 15% from 2003 through 2012.",
+                "Overall the rate fluctuates rather than moving monotonically."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.33333333,
+        "U2": 0.33333333,
+        "U3": 0.33333333
+      }
+    },
+    {
+      "clip_id": "line_99",
+      "removed_unit_ids": [],
+      "changed_units": [
+        {
+          "unit_id": "U2",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "In the Senate, relative us-versus-them polarization generally rises from the 1973-74 period to the 2009-10 period, with a dip around 1985-86.",
+              "after": "In the Senate, relative us-versus-them polarization falls from 0.9179 in 1973-74 to 0.2800 in 1985-86, then rises to 1.0000 by 2009-10."
+            },
+            "computation": {
+              "before": "Compare first (0.9179), minimum (0.2800 at 1985-86), and last (1.0000) values for the Senate series.",
+              "after": "1973-74=0.9179; 1985-86=0.2800; 2009-10=1.0000. The series therefore declines substantially before rising to its maximum."
+            },
+            "accept": {
+              "before": [
+                "Senate polarization is higher at the end than at the start",
+                "Senate polarization dips around 1985-86"
+              ],
+              "after": [
+                "Senate polarization declines substantially between 1973-74 and 1985-86.",
+                "Senate polarization then rises to 1.0000 by 2009-10."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Senate polarization is flat across periods",
+                "Senate polarization declines overall"
+              ],
+              "after": [
+                "Describes the Senate series as generally rising from the start with only a small dip.",
+                "Describes the Senate series as declining overall."
+              ]
+            }
+          }
+        },
+        {
+          "unit_id": "U4",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "Across the congressional periods where both chambers have data, the Senate and House relative polarization trends are broadly similar in direction, both rising over time.",
+              "after": "Between 1979-80 and 2003-04, both chamber series end higher than they start, but the House generally rises while the Senate first falls to 0.2708 at point_order 14 and then rises sharply."
+            },
+            "computation": {
+              "before": "Compare the direction of change for Senate (0.3979 to 0.9800) and House (0.0100 to 0.8058) over the overlapping 1979-80 to 2003-04 range.",
+              "after": "Over the overlap, Senate moves from 0.3979 at 1979-80 to 0.9800 at 2003-04, with an intervening minimum of 0.2708 at point_order 14. House moves from 0.0100 at 1979-80 to 0.8058 at 2003-04."
+            },
+            "accept": {
+              "before": [
+                "Both Senate and House polarization increase over the overlapping periods"
+              ],
+              "after": [
+                "Both chambers end the overlap higher than they start.",
+                "The Senate first declines and then rises sharply, while the House generally rises over the overlap."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Senate and House polarization move in opposite directions over the overlapping periods"
+              ],
+              "after": [
+                "Claims both series rise monotonically over the overlap.",
+                "Claims the two series end lower than they start."
+              ]
+            }
+          }
+        },
+        {
+          "unit_id": "U5",
+          "change": "modified",
+          "fields": {
+            "claim": {
+              "before": "The Senate reaches its highest relative polarization at 2009-10 (1.0000), while the House reaches its highest at 2003-04 (0.8058).",
+              "after": "The Senate reaches 1.0000 at 2009-10. The House reaches its plotted maximum of 0.8122 at point_order 38, between the 1997-98 and 2003-04 anchors; the explicit 2003-04 value is 0.8058."
+            },
+            "basis": {
+              "before": [
+                {
+                  "panel": "",
+                  "entity": "Senate",
+                  "series": "",
+                  "x": "2009-10",
+                  "point_order": "43",
+                  "field": "value",
+                  "value": 1.0,
+                  "unit": "relative",
+                  "row_sha": "279165f176d60bfb"
+                },
+                {
+                  "panel": "",
+                  "entity": "House of Representatives",
+                  "series": "",
+                  "x": "2003-04",
+                  "point_order": "43",
+                  "field": "value",
+                  "value": 0.8058,
+                  "unit": "relative",
+                  "row_sha": "d96345f8564f3a85"
+                }
+              ],
+              "after": [
+                {
+                  "panel": "",
+                  "entity": "Senate",
+                  "series": "",
+                  "x": "2009-10",
+                  "point_order": "43",
+                  "field": "value",
+                  "value": 1.0,
+                  "unit": "relative",
+                  "row_sha": "279165f176d60bfb"
+                },
+                {
+                  "panel": "",
+                  "entity": "House of Representatives",
+                  "series": "",
+                  "x": "",
+                  "point_order": "38",
+                  "field": "value",
+                  "value": 0.8122,
+                  "unit": "relative",
+                  "row_sha": "cd6d31d09ac68272"
+                },
+                {
+                  "panel": "",
+                  "entity": "House of Representatives",
+                  "series": "",
+                  "x": "2003-04",
+                  "point_order": "43",
+                  "field": "value",
+                  "value": 0.8058,
+                  "unit": "relative",
+                  "row_sha": "d96345f8564f3a85"
+                }
+              ]
+            },
+            "computation": {
+              "before": "Identify the maximum value and corresponding x for each chamber: Senate max 1.0000 at 2009-10; House max 0.8058 at 2003-04.",
+              "after": "Senate max=1.0000 at 2009-10. House max=0.8122 at point_order 38, which is between the labeled 1997-98 anchor at point_order 33 and the labeled 2003-04 anchor at point_order 43; the 2003-04 value is 0.8058."
+            },
+            "accept": {
+              "before": [
+                "Senate peak is at 2009-10",
+                "House peak is at 2003-04"
+              ],
+              "after": [
+                "Senate maximum is 1.0000 at 2009-10.",
+                "House maximum is 0.8122 at point_order 38, between 1997-98 and 2003-04.",
+                "The explicit 2003-04 House value is 0.8058 and is not the plotted maximum."
+              ]
+            },
+            "reject": {
+              "before": [
+                "Senate peak is at 1973-74",
+                "House peak is at 1979-80"
+              ],
+              "after": [
+                "Claims the House maximum is 0.8058 at 2003-04.",
+                "Claims the Senate maximum occurs at 1973-74."
+              ]
+            }
+          }
+        }
+      ],
+      "changed_requirement_questions": [
+        {
+          "id": "R2",
+          "before": "Compare the relative us-versus-them polarization trends in the Senate and House of Representatives across the congressional periods shown.",
+          "after": "What is the Senate relative us-versus-them polarization trajectory across the congressional periods shown?"
+        },
+        {
+          "id": "R4",
+          "before": "Across the congressional periods where both chambers have data, the Senate and House relative polarization trends are broadly similar in direction, both rising over time.",
+          "after": "How do the Senate and House trajectories compare over the periods where both have data?"
+        },
+        {
+          "id": "R5",
+          "before": "The Senate reaches its highest relative polarization at 2009-10 (1.0000), while the House reaches its highest at 2003-04 (0.8058).",
+          "after": "At what plotted value and position does each chamber reach its highest relative polarization?"
+        }
+      ],
+      "weight_mode": "uniform_over_units",
+      "unit_weights": {
+        "U1": 0.2,
+        "U2": 0.2,
+        "U3": 0.2,
+        "U4": 0.2,
+        "U5": 0.2
+      }
+    }
+  ],
+  "not_changed_because_parser_false_negative": [
+    "line_9",
+    "line_11",
+    "line_17",
+    "line_35",
+    "line_36",
+    "line_40",
+    "line_44",
+    "line_61",
+    "line_75",
+    "line_76",
+    "line_87",
+    "line_88",
+    "line_96"
+  ]
+}

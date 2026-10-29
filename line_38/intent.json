@@ -1,28 +1,32 @@
 {
  "clip_id": "line_38",
- "intent_en": "To illustrate a historical trend that is currently reversing, providing visual context for a newly emerging movement.",
- "previous_intent": "To illustrate a historical trend that declined from the mid-20th century to around 1990 before reversing into a recent upward shift, providing context for a new movement.",
- "narration_support": "data indicates that a new movement is taking shape. To understand why, let's go back to 1865.",
- "chart_support": "Line chart displaying a metric over time from roughly 1950 to 2010, showing a decline followed by a recent upward trend.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.85,
- "evidence_note": "The narration sets up a historical explanation for a 'new movement'. The chart visualizes a long-term decline (1950-1990) followed by a rise (1990-2010), which corresponds to the 'new movement' or reversal mentioned in the text.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Trace the historical reversal in the share of African Americans living in the South, which fell from 0.92 in 1950 to 0.26 in 1990 before rising to 0.51 by 2010.",
+ "intent_en": "Trace the share of African Americans living in the South over the period from 1950 to 2010 to identify the direction and turning points in that share.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

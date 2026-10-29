@@ -1,0 +1,425 @@
+{
+ "clip_id": "line_22",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how the shares of each letter grade changed over the years from 1961 to 2006.",
+ "chart_structure": {
+  "clip_id": "line_22",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 5
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did the share of each letter grade change over the years from 1961 to 2006?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The share of grade B increased slightly from 32% in 1961 to 34% in 2006, with a peak of 41% in 1973.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "The share of grade C decreased from 35% in 1961 to 14% in 2006.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "The share of grade D decreased from 11% in 1961 to 4% in 2006.",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R6",
+   "question": "The share of grade F decreased from 6% in 1961 to 4% in 2006.",
+   "relation": "single",
+   "unit_ids": [
+    "U6"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 5 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "A",
+     "x": "1961",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "B",
+     "x": "1961",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "C",
+     "x": "1961",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "D",
+     "x": "1961",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "F",
+     "x": "1961",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share of grade A increased from 16% in 1961 to 43% in 2006.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "A",
+     "x": "1961",
+     "point_order": "1",
+     "field": "value",
+     "value": 16.0,
+     "unit": "%",
+     "row_sha": "bf1bbf4ce37f9242"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "A",
+     "x": "2006",
+     "point_order": "15",
+     "field": "value",
+     "value": 43.0,
+     "unit": "%",
+     "row_sha": "52ed352a22793e6d"
+    }
+   ],
+   "computation": "Compare first and last values of series A: 16% to 43%.",
+   "accept": [
+    "A share rose from 16% to 43%",
+    "A increased overall from 1961 to 2006"
+   ],
+   "reject": [
+    "A share decreased",
+    "A share remained constant"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "The share of grade B increased slightly from 32% in 1961 to 34% in 2006, with a peak of 41% in 1973.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "B",
+     "x": "1961",
+     "point_order": "1",
+     "field": "value",
+     "value": 32.0,
+     "unit": "%",
+     "row_sha": "eac6fac758f4d893"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "B",
+     "x": "1973",
+     "point_order": "5",
+     "field": "value",
+     "value": 41.0,
+     "unit": "%",
+     "row_sha": "5fa4ef6bbbd41baa"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "B",
+     "x": "2006",
+     "point_order": "15",
+     "field": "value",
+     "value": 34.0,
+     "unit": "%",
+     "row_sha": "cad2acce11a56fe1"
+    }
+   ],
+   "computation": "Compare first and last values of series B (32% to 34%) and note maximum 41% at 1973.",
+   "accept": [
+    "B share rose slightly from 32% to 34%",
+    "B peaked at 41% in 1973"
+   ],
+   "reject": [
+    "B share decreased overall",
+    "B share remained exactly constant"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "trend",
+   "claim": "The share of grade C decreased from 35% in 1961 to 14% in 2006.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "C",
+     "x": "1961",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "24a4bed1c41aa8c6"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "C",
+     "x": "2006",
+     "point_order": "15",
+     "field": "value",
+     "value": 14.0,
+     "unit": "%",
+     "row_sha": "c598bda2f3b3c582"
+    }
+   ],
+   "computation": "Compare first and last values of series C: 35% to 14%.",
+   "accept": [
+    "C share fell from 35% to 14%",
+    "C decreased overall from 1961 to 2006"
+   ],
+   "reject": [
+    "C share increased",
+    "C share remained constant"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R5",
+   "unit_kind": "trend",
+   "claim": "The share of grade D decreased from 11% in 1961 to 4% in 2006.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "D",
+     "x": "1961",
+     "point_order": "1",
+     "field": "value",
+     "value": 11.0,
+     "unit": "%",
+     "row_sha": "8116bcdeb912b3dd"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "D",
+     "x": "2006",
+     "point_order": "15",
+     "field": "value",
+     "value": 4.0,
+     "unit": "%",
+     "row_sha": "a881e2e5e857a2f0"
+    }
+   ],
+   "computation": "Compare first and last values of series D: 11% to 4%.",
+   "accept": [
+    "D share fell from 11% to 4%",
+    "D decreased overall from 1961 to 2006"
+   ],
+   "reject": [
+    "D share increased",
+    "D share remained constant"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R6",
+   "unit_kind": "trend",
+   "claim": "The share of grade F decreased from 6% in 1961 to 4% in 2006.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "F",
+     "x": "1961",
+     "point_order": "1",
+     "field": "value",
+     "value": 6.0,
+     "unit": "%",
+     "row_sha": "8b254aa8ca672d0f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "F",
+     "x": "2006",
+     "point_order": "15",
+     "field": "value",
+     "value": 4.0,
+     "unit": "%",
+     "row_sha": "673ff6d1d4c996d2"
+    }
+   ],
+   "computation": "Compare first and last values of series F: 6% to 4%.",
+   "accept": [
+    "F share fell from 6% to 4%",
+    "F decreased overall from 1961 to 2006"
+   ],
+   "reject": [
+    "F share increased",
+    "F share remained constant"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.16666667,
+  "U2": 0.16666667,
+  "U3": 0.16666667,
+  "U4": 0.16666667,
+  "U5": 0.16666667,
+  "U6": 0.16666667
+ },
+ "optional_valid": [
+  "Mention that grade A overtook grade B and C over time.",
+  "Mention that grade C was the largest share in 1961 but grade A was the largest in 2006."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the changes.",
+  "Exact values for intermediate years not listed in the basis rows.",
+  "Claims about statistical significance."
+ ],
+ "review_notes": [
+  "The intent asks to compare how shares of each letter grade changed over the years; each grade's overall change is treated as one semantic unit.",
+  "The table includes an extra F row with empty x and point_order 6; it is not used because it is not part of the explicit year sequence."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "A"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "B"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "C"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "D"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "F"
+   }
+  ],
+  "required_series_count": 5,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

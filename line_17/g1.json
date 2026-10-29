@@ -1,0 +1,236 @@
+{
+ "clip_id": "line_17",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare private-school participation rates across income percentiles to determine how participation varies from the lowest to the highest income groups.",
+ "chart_structure": {
+  "clip_id": "line_17",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How does private-school participation vary from the lowest to the highest income percentile?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "10",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Private-school participation rate generally increases from the lowest income percentile (10th) to the highest income percentile (90th), rising from about 0.0199 to 0.0600.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "10",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0199,
+     "unit": "proportion",
+     "row_sha": "7e00bdf778297009"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "20",
+     "point_order": "6",
+     "field": "value",
+     "value": 0.0249,
+     "unit": "proportion",
+     "row_sha": "dc92e2e980d01267"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "30",
+     "point_order": "11",
+     "field": "value",
+     "value": 0.0199,
+     "unit": "proportion",
+     "row_sha": "d5bc8f4f7e764327"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "40",
+     "point_order": "16",
+     "field": "value",
+     "value": 0.0249,
+     "unit": "proportion",
+     "row_sha": "5365aea95febcf22"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "50",
+     "point_order": "21",
+     "field": "value",
+     "value": 0.0301,
+     "unit": "proportion",
+     "row_sha": "4a0b1b9594d4df7a"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "60",
+     "point_order": "26",
+     "field": "value",
+     "value": 0.0301,
+     "unit": "proportion",
+     "row_sha": "4bdd9ba55f79ad73"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "70",
+     "point_order": "31",
+     "field": "value",
+     "value": 0.0301,
+     "unit": "proportion",
+     "row_sha": "de7e41342445d982"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "80",
+     "point_order": "36",
+     "field": "value",
+     "value": 0.04,
+     "unit": "proportion",
+     "row_sha": "ce4cbd847dff2a1e"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Private-school participation",
+     "x": "90",
+     "point_order": "42",
+     "field": "value",
+     "value": 0.06,
+     "unit": "proportion",
+     "row_sha": "4d3b0b65902ffa07"
+    }
+   ],
+   "computation": "Compare the participation rate at the lowest income percentile (x=10, value=0.0199) with the highest income percentile (x=90, value=0.0600); the rate is higher at the highest percentile, with a general upward trend across the sequence.",
+   "accept": [
+    "Participation is higher at the 90th income percentile than at the 10th percentile.",
+    "The line shows an overall upward trend from the lowest to the highest income percentile.",
+    "The rate rises from approximately 0.02 at the 10th percentile to approximately 0.06 at the 90th percentile."
+   ],
+   "reject": [
+    "Participation is flat or decreasing from the lowest to the highest income percentile.",
+    "The highest participation occurs at the 10th percentile.",
+    "The chart shows no difference between low and high income percentiles."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "The increase is not strictly monotonic; there are small fluctuations at lower percentiles."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for why participation increases with income.",
+  "Claims about statistical significance.",
+  "Using the final row with empty x (point_order 48, value 0.6199) as an income percentile endpoint."
+ ],
+ "review_notes": [
+  "The table includes a final row with empty x and value 0.6199; it is excluded from the trend basis because it is not an income percentile anchor.",
+  "The intent asks for variation from lowest to highest income groups, so one combined trend unit is sufficient."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Private-school participation"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

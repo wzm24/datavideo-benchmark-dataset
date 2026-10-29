@@ -1,0 +1,76 @@
+{
+ "clip_id": "line_86",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e9fa2739c4c9ffa77e96a2509b512d5bc23e7cbba8b24dbda55537e19f33fa0b",
+ "row_count": 158,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share trusting the federal government (moving average, %)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "'60",
+   "'70",
+   "'80",
+   "'90",
+   "'00",
+   "'10",
+   "'21"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Trust in the federal government",
+   "series": "Moving average",
+   "row_count": 158,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "'60",
+    "'70",
+    "'80",
+    "'90",
+    "'00",
+    "'10",
+    "'21"
+   ],
+   "first_value": 73.0,
+   "last_value": 24.0,
+   "min_value": 15.0,
+   "max_value": 77.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Trust in the federal government",
+    "series": "Moving average"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

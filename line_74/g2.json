@@ -1,0 +1,136 @@
+{
+ "clip_id": "line_74",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_74",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Change in average global temperature"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Change in average global temperature"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Change in average global temperature | 1900",
+    "Change in average global temperature | 1980",
+    "Change in average global temperature | 2020",
+    "Change in average global temperature | 2100"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Change in average global temperature | 1900",
+      "value": -0.146,
+      "unit": "degC"
+     },
+     {
+      "mark": "Change in average global temperature | 1980",
+      "value": 0.114,
+      "unit": "degC"
+     },
+     {
+      "mark": "Change in average global temperature | 2020",
+      "value": 0.946,
+      "unit": "degC"
+     },
+     {
+      "mark": "Change in average global temperature | 2100",
+      "value": 3.0,
+      "unit": "degC"
+     }
+    ],
+    "expected_relation": "The average global temperature anomaly relative to the 1951-1980 baseline rises from about -0.15 °C in 1900 to 3.0 °C in 2100, with the increase becoming pronounced after 1980.",
+    "start_value": -0.146,
+    "end_value": 3.0,
+    "delta": 3.146,
+    "ratio": -20.547945,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Change in average global temperature | 2020",
+    "Change in average global temperature | 2100"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Change in average global temperature | 2020",
+      "value": 0.946,
+      "unit": "degC"
+     },
+     {
+      "mark": "Change in average global temperature | 2100",
+      "value": 3.0,
+      "unit": "degC"
+     }
+    ],
+    "expected_relation": "The projected end-of-century warming of 3.0 °C in 2100 is about 2.05 °C higher than the 0.946 °C warming already experienced by 2020.",
+    "start_value": 0.946,
+    "end_value": 3.0,
+    "delta": 2.054,
+    "ratio": 3.171247,
+    "direction": "increasing",
+    "expected_order": [
+     "Change in average global temperature | 2100",
+     "Change in average global temperature | 2020"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

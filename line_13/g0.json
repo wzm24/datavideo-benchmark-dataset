@@ -1,0 +1,60 @@
+{
+ "clip_id": "line_13",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "51eb95a9cc09fd9249ea5cdc699f47574614a2a2f7bec2c44d89221b51fbcde1",
+ "row_count": 33,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Deaths"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Deaths",
+   "series": "",
+   "row_count": 33,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.75,
+   "last_value": 0.45,
+   "min_value": 0.4,
+   "max_value": 0.75
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Deaths",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

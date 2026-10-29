@@ -1,0 +1,126 @@
+{
+ "clip_id": "line_17",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_17",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Private-school participation"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Private-school participation"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Private-school participation | 10",
+    "Private-school participation | 20",
+    "Private-school participation | 30",
+    "Private-school participation | 40",
+    "Private-school participation | 50",
+    "Private-school participation | 60",
+    "Private-school participation | 70",
+    "Private-school participation | 80",
+    "Private-school participation | 90"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Private-school participation | 10",
+      "value": 0.0199,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 20",
+      "value": 0.0249,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 30",
+      "value": 0.0199,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 40",
+      "value": 0.0249,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 50",
+      "value": 0.0301,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 60",
+      "value": 0.0301,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 70",
+      "value": 0.0301,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 80",
+      "value": 0.04,
+      "unit": "proportion"
+     },
+     {
+      "mark": "Private-school participation | 90",
+      "value": 0.06,
+      "unit": "proportion"
+     }
+    ],
+    "expected_relation": "Private-school participation rate generally increases from the lowest income percentile (10th) to the highest income percentile (90th), rising from about 0.0199 to 0.0600.",
+    "start_value": 0.0199,
+    "end_value": 0.06,
+    "delta": 0.0401,
+    "ratio": 3.015075,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

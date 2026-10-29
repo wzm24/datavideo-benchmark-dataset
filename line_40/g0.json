@@ -1,0 +1,154 @@
+{
+ "clip_id": "line_40",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "61279f35fe844c2b267143bf89fa420c29e8eb5251588037d91e9c26860df5d3",
+ "row_count": 84,
+ "chart_structure": {
+  "sub_type": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   "Firearm-related deaths per 100,000 people in Connecticut",
+   "Firearm-related deaths per 100,000 people in Missouri"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Firearm-related deaths per 100,000 people"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1985",
+   "1990",
+   "1995",
+   "2000",
+   "2005",
+   "1999",
+   "2004",
+   "2009",
+   "2014",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+   "entity": "",
+   "series": "SUICIDES",
+   "row_count": 21,
+   "unit": [
+    "deaths per 100,000 people"
+   ],
+   "x_values": [
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005"
+   ],
+   "first_value": 3.88,
+   "last_value": 2.88,
+   "min_value": 2.88,
+   "max_value": 4.58
+  },
+  {
+   "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+   "entity": "",
+   "series": "HOMICIDES",
+   "row_count": 21,
+   "unit": [
+    "deaths per 100,000 people"
+   ],
+   "x_values": [
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005"
+   ],
+   "first_value": 1.98,
+   "last_value": 1.78,
+   "min_value": 1.48,
+   "max_value": 4.58
+  },
+  {
+   "panel": "Firearm-related deaths per 100,000 people in Missouri",
+   "entity": "",
+   "series": "HOMICIDES",
+   "row_count": 21,
+   "unit": [
+    "deaths per 100,000 people"
+   ],
+   "x_values": [
+    "1999",
+    "2004",
+    "2009",
+    "2014",
+    "2017"
+   ],
+   "first_value": 4.61,
+   "last_value": 9.9,
+   "min_value": 3.9,
+   "max_value": 9.9
+  },
+  {
+   "panel": "Firearm-related deaths per 100,000 people in Missouri",
+   "entity": "",
+   "series": "SUICIDES",
+   "row_count": 21,
+   "unit": [
+    "deaths per 100,000 people"
+   ],
+   "x_values": [
+    "1999",
+    "2004",
+    "2009",
+    "2014",
+    "2017"
+   ],
+   "first_value": 5.81,
+   "last_value": 8.1,
+   "min_value": 5.2,
+   "max_value": 8.1
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Firearm-related deaths per 100,000 people in Connecticut",
+   "Firearm-related deaths per 100,000 people in Missouri"
+  ],
+  "required_series": [
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+    "entity": "",
+    "series": "SUICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+    "entity": "",
+    "series": "HOMICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Missouri",
+    "entity": "",
+    "series": "HOMICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Missouri",
+    "entity": "",
+    "series": "SUICIDES"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ }
+}

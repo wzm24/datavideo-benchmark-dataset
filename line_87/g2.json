@@ -1,0 +1,384 @@
+{
+ "clip_id": "line_87",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_87",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 6,
+  "panels": [
+   "Party",
+   "Race",
+   "Religious attendance",
+   "Education",
+   "Age",
+   "Gender"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "Party",
+    "entity": "",
+    "series": "Party"
+   },
+   {
+    "panel": "Race",
+    "entity": "",
+    "series": "Race"
+   },
+   {
+    "panel": "Religious attendance",
+    "entity": "",
+    "series": "Religious attendance"
+   },
+   {
+    "panel": "Education",
+    "entity": "",
+    "series": "Education"
+   },
+   {
+    "panel": "Age",
+    "entity": "",
+    "series": "Age"
+   },
+   {
+    "panel": "Gender",
+    "entity": "",
+    "series": "Gender"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Party | Party"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Race | Race"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Religious attendance | Religious attendance"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Education | Education"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Age | Age"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Gender | Gender"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U7",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Party | Party | 1994",
+    "Party | Party | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Party | Party | 1994",
+      "value": 15.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Party | Party | 2017",
+      "value": 36.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Party panel, the average gap in conservative-position share increased from 15 pp in 1994 to 36 pp in 2017.",
+    "start_value": 15.0,
+    "end_value": 36.0,
+    "delta": 21.0,
+    "ratio": 2.4,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U8",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Race | Race | 1994",
+    "Race | Race | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Race | Race | 1994",
+      "value": 14.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Race | Race | 2017",
+      "value": 14.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Race panel, the average gap in conservative-position share remained essentially unchanged, from 14 pp in 1994 to 14 pp in 2017.",
+    "start_value": 14.0,
+    "end_value": 14.0,
+    "delta": 0.0,
+    "ratio": 1.0,
+    "direction": "flat"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U9",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Religious attendance | Religious attendance | 1994",
+    "Religious attendance | Religious attendance | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Religious attendance | Religious attendance | 1994",
+      "value": 5.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Religious attendance | Religious attendance | 2017",
+      "value": 11.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Religious attendance panel, the average gap in conservative-position share increased from 5 pp in 1994 to 11 pp in 2017.",
+    "start_value": 5.0,
+    "end_value": 11.0,
+    "delta": 6.0,
+    "ratio": 2.2,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U10",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Education | Education | 1994",
+    "Education | Education | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Education | Education | 1994",
+      "value": 8.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Education | Education | 2017",
+      "value": 11.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Education panel, the average gap in conservative-position share increased from 8 pp in 1994 to 11 pp in 2017.",
+    "start_value": 8.0,
+    "end_value": 11.0,
+    "delta": 3.0,
+    "ratio": 1.375,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U11",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Age | Age | 1994",
+    "Age | Age | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Age | Age | 1994",
+      "value": 6.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Age | Age | 2017",
+      "value": 10.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Age panel, the average gap in conservative-position share increased from 6 pp in 1994 to 10 pp in 2017.",
+    "start_value": 6.0,
+    "end_value": 10.0,
+    "delta": 4.0,
+    "ratio": 1.666667,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U12",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Gender | Gender | 1994",
+    "Gender | Gender | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Gender | Gender | 1994",
+      "value": 9.0,
+      "unit": "pp"
+     },
+     {
+      "mark": "Gender | Gender | 2017",
+      "value": 7.0,
+      "unit": "pp"
+     }
+    ],
+    "expected_relation": "In the Gender panel, the average gap in conservative-position share decreased from 9 pp in 1994 to 7 pp in 2017.",
+    "start_value": 9.0,
+    "end_value": 7.0,
+    "delta": -2.0,
+    "ratio": 0.777778,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

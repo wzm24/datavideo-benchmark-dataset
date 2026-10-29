@@ -1,0 +1,88 @@
+{
+ "clip_id": "line_59",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "c1c17a5e8dae9ebb2dd6c56e2b0c91d1007b8dc4981b0076e7d990974ca901bf",
+ "row_count": 456,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (September 2015-June 2016)"
+  ],
+  "y_axes": [
+   "Polling share (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Sept. 1, 2015",
+   "June 23, 2016"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Remain",
+   "row_count": 226,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Sept. 1, 2015",
+    "June 23, 2016"
+   ],
+   "first_value": 51.2167,
+   "last_value": 48.0,
+   "min_value": 41.575,
+   "max_value": 51.2167
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Leave",
+   "row_count": 230,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Sept. 1, 2015",
+    "June 23, 2016"
+   ],
+   "first_value": 39.7833,
+   "last_value": 46.0,
+   "min_value": 38.7167,
+   "max_value": 47.6417
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Remain"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Leave"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

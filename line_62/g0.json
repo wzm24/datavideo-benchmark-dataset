@@ -1,0 +1,76 @@
+{
+ "clip_id": "line_62",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0e818d10b426b446a7717d562c13af4db3393cfa8bdd1d6bc4010e849bdb64d7",
+ "row_count": 8,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (March 2020-March 2021)"
+  ],
+  "y_axes": [
+   "Cumulative confirmed COVID-19 deaths"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "April",
+   "June",
+   "Aug",
+   "Sept",
+   "Nov",
+   "Jan",
+   "March 2021"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "global deaths",
+   "series": "",
+   "row_count": 8,
+   "unit": [
+    "million"
+   ],
+   "x_values": [
+    "April",
+    "June",
+    "Aug",
+    "Sept",
+    "Nov",
+    "Jan",
+    "March 2021"
+   ],
+   "first_value": 0.0,
+   "last_value": 2.5,
+   "min_value": 0.0,
+   "max_value": 2.5
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "global deaths",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

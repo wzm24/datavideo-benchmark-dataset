@@ -1,0 +1,446 @@
+{
+ "clip_id": "line_52",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how tax audit rates changed from 2011 to 2017 across the four income groups, including the highest-income group and the lowest-income group.",
+ "chart_structure": {
+  "clip_id": "line_52",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 4
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did tax audit rates change from 2011 to 2017 across the four income groups, including the highest-income and lowest-income groups?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "For the $200K–500K income group, the tax audit rate decreased from 2.6% in 2011 to 0.7% in 2017.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "For the lowest-income group (<$25K), the tax audit rate decreased from 1.2% in 2011 to 0.8% in 2017.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "For the $25K–200K income group, the tax audit rate decreased from 0.8% in 2011 to 0.5% in 2017.",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 4 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Audit rate for Americans with annual income >=$500K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "$200K-500K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "<$25K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "$25K-200K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "For the highest-income group (annual income >=$500K), the tax audit rate decreased from 8.0% in 2011 to 2.5% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Audit rate for Americans with annual income >=$500K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "value",
+     "value": 8.0,
+     "unit": "%",
+     "row_sha": "308ff3da890d8af3"
+    },
+    {
+     "panel": "",
+     "entity": "Audit rate for Americans with annual income >=$500K",
+     "series": "",
+     "x": "2013",
+     "point_order": "2",
+     "field": "value",
+     "value": 6.2,
+     "unit": "%",
+     "row_sha": "5af037282e047eb1"
+    },
+    {
+     "panel": "",
+     "entity": "Audit rate for Americans with annual income >=$500K",
+     "series": "",
+     "x": "2015",
+     "point_order": "3",
+     "field": "value",
+     "value": 4.3,
+     "unit": "%",
+     "row_sha": "dfcd5e8372fe7d42"
+    },
+    {
+     "panel": "",
+     "entity": "Audit rate for Americans with annual income >=$500K",
+     "series": "",
+     "x": "2017",
+     "point_order": "4",
+     "field": "value",
+     "value": 2.5,
+     "unit": "%",
+     "row_sha": "abd13cdda97f40ef"
+    }
+   ],
+   "computation": "Compare first (2011) and last (2017) values; optionally note absolute difference (5.5 percentage points) or percentage change.",
+   "accept": [
+    "Decrease from 8.0% to 2.5%",
+    "Downward trend",
+    "Drop of 5.5 percentage points"
+   ],
+   "reject": [
+    "Increase",
+    "No change",
+    "Only mentions 2011 or 2017 without comparison"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "For the $200K–500K income group, the tax audit rate decreased from 2.6% in 2011 to 0.7% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "$200K-500K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "value",
+     "value": 2.6,
+     "unit": "%",
+     "row_sha": "f5fd71ef2355dc9b"
+    },
+    {
+     "panel": "",
+     "entity": "$200K-500K",
+     "series": "",
+     "x": "2013",
+     "point_order": "2",
+     "field": "value",
+     "value": 2.0,
+     "unit": "%",
+     "row_sha": "b68286962536fd63"
+    },
+    {
+     "panel": "",
+     "entity": "$200K-500K",
+     "series": "",
+     "x": "2015",
+     "point_order": "3",
+     "field": "value",
+     "value": 1.3,
+     "unit": "%",
+     "row_sha": "71c8f6239cac97f7"
+    },
+    {
+     "panel": "",
+     "entity": "$200K-500K",
+     "series": "",
+     "x": "2017",
+     "point_order": "4",
+     "field": "value",
+     "value": 0.7,
+     "unit": "%",
+     "row_sha": "05c0fd035de3273d"
+    }
+   ],
+   "computation": "Compare first (2011) and last (2017) values; optionally note absolute difference (1.9 percentage points) or percentage change.",
+   "accept": [
+    "Decrease from 2.6% to 0.7%",
+    "Downward trend",
+    "Drop of 1.9 percentage points"
+   ],
+   "reject": [
+    "Increase",
+    "No change",
+    "Only mentions 2011 or 2017 without comparison"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "trend",
+   "claim": "For the lowest-income group (<$25K), the tax audit rate decreased from 1.2% in 2011 to 0.8% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "<$25K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "value",
+     "value": 1.2,
+     "unit": "%",
+     "row_sha": "23945839dfdf35f7"
+    },
+    {
+     "panel": "",
+     "entity": "<$25K",
+     "series": "",
+     "x": "2013",
+     "point_order": "2",
+     "field": "value",
+     "value": 1.1,
+     "unit": "%",
+     "row_sha": "5fbbe258c63e988c"
+    },
+    {
+     "panel": "",
+     "entity": "<$25K",
+     "series": "",
+     "x": "2015",
+     "point_order": "3",
+     "field": "value",
+     "value": 0.9,
+     "unit": "%",
+     "row_sha": "837c5d82ba25b0f0"
+    },
+    {
+     "panel": "",
+     "entity": "<$25K",
+     "series": "",
+     "x": "2017",
+     "point_order": "4",
+     "field": "value",
+     "value": 0.8,
+     "unit": "%",
+     "row_sha": "902b3613787755b5"
+    }
+   ],
+   "computation": "Compare first (2011) and last (2017) values; optionally note absolute difference (0.4 percentage points) or percentage change.",
+   "accept": [
+    "Decrease from 1.2% to 0.8%",
+    "Downward trend",
+    "Drop of 0.4 percentage points"
+   ],
+   "reject": [
+    "Increase",
+    "No change",
+    "Only mentions 2011 or 2017 without comparison"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R5",
+   "unit_kind": "trend",
+   "claim": "For the $25K–200K income group, the tax audit rate decreased from 0.8% in 2011 to 0.5% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "$25K-200K",
+     "series": "",
+     "x": "2011",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.8,
+     "unit": "%",
+     "row_sha": "f0d962a25afabe0a"
+    },
+    {
+     "panel": "",
+     "entity": "$25K-200K",
+     "series": "",
+     "x": "2013",
+     "point_order": "2",
+     "field": "value",
+     "value": 0.7,
+     "unit": "%",
+     "row_sha": "d4472792ab99f768"
+    },
+    {
+     "panel": "",
+     "entity": "$25K-200K",
+     "series": "",
+     "x": "2015",
+     "point_order": "3",
+     "field": "value",
+     "value": 0.6,
+     "unit": "%",
+     "row_sha": "a7f380f99ea46c2b"
+    },
+    {
+     "panel": "",
+     "entity": "$25K-200K",
+     "series": "",
+     "x": "2017",
+     "point_order": "4",
+     "field": "value",
+     "value": 0.5,
+     "unit": "%",
+     "row_sha": "2d2fa9b90f704c00"
+    }
+   ],
+   "computation": "Compare first (2011) and last (2017) values; optionally note absolute difference (0.3 percentage points) or percentage change.",
+   "accept": [
+    "Decrease from 0.8% to 0.5%",
+    "Downward trend",
+    "Drop of 0.3 percentage points"
+   ],
+   "reject": [
+    "Increase",
+    "No change",
+    "Only mentions 2011 or 2017 without comparison"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
+ },
+ "optional_valid": [
+  "All four income groups show a downward trend from 2011 to 2017.",
+  "The highest-income group had the largest absolute decline (5.5 percentage points)."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the decline.",
+  "Comparisons of intermediate years (2013, 2015) unless part of the trend evidence.",
+  "Claims about groups not listed in the table."
+ ],
+ "review_notes": [
+  "Intent asks to compare how rates changed across four groups; each group's change is a separate semantic unit because the comparison is across groups, not a single cross-panel comparison.",
+  "No panel identity unit needed because panel_count is 1 and panel is empty."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Audit rate for Americans with annual income >=$500K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "$200K-500K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "<$25K",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "$25K-200K",
+    "series": ""
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

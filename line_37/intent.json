@@ -1,28 +1,32 @@
 {
  "clip_id": "line_37",
- "intent_en": "To illustrate the significant demographic shift of African Americans leaving the South starting in the early 20th century.",
- "previous_intent": "To illustrate the significant demographic shift of African Americans migrating from the South to Northern and Western cities beginning in the early 20th century.",
- "narration_support": "Starting in the early 20th century, nearly half of the African -American population left this region",
- "chart_support": "Line chart showing the percentage of African Americans living in the South, which remains high until roughly 1910 and then declines sharply",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": true,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration is sparse (single sentence) and only covers the decline period, so the intent is anchored on the chart's full timeline showing the historical context before the drop.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that the African-American share living in the South fell from about 90% in 1910 to 53% by 1970, reflecting the early-20th-century departure from the region.",
+ "intent_en": "Trace the percentage of African Americans living in the South over the years from 1790 to 2010 and compare the early twentieth-century level with the 1970 level.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": true
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

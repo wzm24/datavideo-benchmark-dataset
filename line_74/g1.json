@@ -1,0 +1,231 @@
+{
+ "clip_id": "line_74",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the projected change in average global temperature relative to the 1951-1980 baseline from 1900 through 2100 and compare the end-of-century level with the warming already experienced by 2020.",
+ "chart_structure": {
+  "clip_id": "line_74",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the projected change in average global temperature from 1900 through 2100 and compare the end-of-century level with the warming already experienced by 2020?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The projected end-of-century warming of 3.0 °C in 2100 is about 2.05 °C higher than the 0.946 °C warming already experienced by 2020.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "1900",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The average global temperature anomaly relative to the 1951-1980 baseline rises from about -0.15 °C in 1900 to 3.0 °C in 2100, with the increase becoming pronounced after 1980.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "1900",
+     "point_order": "17",
+     "field": "value",
+     "value": -0.146,
+     "unit": "degC",
+     "row_sha": "23948b42ebd5dd95"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "1980",
+     "point_order": "97",
+     "field": "value",
+     "value": 0.114,
+     "unit": "degC",
+     "row_sha": "64834ceaacc764e1"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "2020",
+     "point_order": "137",
+     "field": "value",
+     "value": 0.946,
+     "unit": "degC",
+     "row_sha": "8398190d9a092496"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "2100",
+     "point_order": "138",
+     "field": "value",
+     "value": 3.0,
+     "unit": "degC",
+     "row_sha": "466f939fa7a20b92"
+    }
+   ],
+   "computation": "Compare the 1900 value (-0.146 °C) with the 2100 value (3.0 °C); note the intermediate 1980 value (0.114 °C) and 2020 value (0.946 °C) to show the accelerating rise.",
+   "accept": [
+    "Shows the line rising from near -0.15 °C at 1900 to 3.0 °C at 2100.",
+    "Describes the warming trend as increasing over the century, especially after 1980."
+   ],
+   "reject": [
+    "Claims the temperature anomaly decreases from 1900 to 2100.",
+    "Omits the 2100 endpoint or the 1900 starting point."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The projected end-of-century warming of 3.0 °C in 2100 is about 2.05 °C higher than the 0.946 °C warming already experienced by 2020.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "2020",
+     "point_order": "137",
+     "field": "value",
+     "value": 0.946,
+     "unit": "degC",
+     "row_sha": "8398190d9a092496"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Change in average global temperature",
+     "x": "2100",
+     "point_order": "138",
+     "field": "value",
+     "value": 3.0,
+     "unit": "degC",
+     "row_sha": "466f939fa7a20b92"
+    }
+   ],
+   "computation": "Subtract the 2020 value (0.946 °C) from the 2100 value (3.0 °C): 3.0 - 0.946 = 2.054 °C.",
+   "accept": [
+    "States that 2100 warming (3.0 °C) is roughly 2 °C greater than 2020 warming (about 0.95 °C).",
+    "Compares the end-of-century level directly with the 2020 level."
+   ],
+   "reject": [
+    "Claims 2020 warming exceeds 2100 warming.",
+    "Uses a 2020 value other than approximately 0.95 °C."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the minimum anomaly of about -0.43 °C occurring before 1900.",
+  "Notes that the 2100 value is a line estimate rather than an observed data point."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the warming that are not present in the table.",
+  "Specific policy or emissions scenarios not shown in the chart.",
+  "Comparing individual years other than 2020 and 2100 unless part of the trend evidence."
+ ],
+ "review_notes": [
+  "The table includes a minimum value row with empty x and point_order 28; it is not used because the intent focuses on the 1900-2100 trajectory and the 2020 comparison.",
+  "The 2100 point is marked as a line_estimate; the claim treats it as the projected endpoint as requested by the intent."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Change in average global temperature"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

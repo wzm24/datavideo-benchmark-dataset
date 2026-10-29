@@ -1,0 +1,200 @@
+{
+ "clip_id": "line_96",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_96",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Mexico",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Other countries",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Mexico",
+    "Other countries"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Mexico | 1990",
+    "Mexico | 2007",
+    "Mexico | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Mexico | 1990",
+      "value": 2.0,
+      "unit": "million"
+     },
+     {
+      "mark": "Mexico | 2007",
+      "value": 6.9,
+      "unit": "million"
+     },
+     {
+      "mark": "Mexico | 2017",
+      "value": 4.9,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The unauthorized immigrant population from Mexico rose from 2.0 million in 1990 to a peak of 6.9 million in 2007, then declined to 4.9 million by 2017.",
+    "start_value": 2.0,
+    "end_value": 4.9,
+    "delta": 2.9,
+    "ratio": 2.45,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Other countries | 1990",
+    "Other countries | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Other countries | 1990",
+      "value": 1.5,
+      "unit": "million"
+     },
+     {
+      "mark": "Other countries | 2017",
+      "value": 5.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The unauthorized immigrant population from other countries rose from 1.5 million in 1990 to 5.5 million in 2017, with a peak of 5.5 million in 2017.",
+    "start_value": 1.5,
+    "end_value": 5.5,
+    "delta": 4.0,
+    "ratio": 3.666667,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Mexico | 1990",
+    "Other countries | 1990",
+    "Mexico | 2007",
+    "Other countries | 2007",
+    "Mexico | 2017",
+    "Other countries | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Mexico | 1990",
+      "value": 2.0,
+      "unit": "million"
+     },
+     {
+      "mark": "Other countries | 1990",
+      "value": 1.5,
+      "unit": "million"
+     },
+     {
+      "mark": "Mexico | 2007",
+      "value": 6.9,
+      "unit": "million"
+     },
+     {
+      "mark": "Other countries | 2007",
+      "value": 5.3,
+      "unit": "million"
+     },
+     {
+      "mark": "Mexico | 2017",
+      "value": 4.9,
+      "unit": "million"
+     },
+     {
+      "mark": "Other countries | 2017",
+      "value": 5.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "Mexico's unauthorized immigrant population was higher than that of other countries in 1990 (2.0 vs 1.5 million) and in 2007 (6.9 vs 5.3 million), but by 2017 other countries surpassed Mexico (5.5 vs 4.9 million).",
+    "start_value": 2.0,
+    "end_value": 5.5,
+    "delta": 3.5,
+    "ratio": 2.75,
+    "direction": "increasing",
+    "expected_order": [
+     "Mexico",
+     "Other countries",
+     "Other countries",
+     "Mexico",
+     "Mexico",
+     "Other countries"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,371 @@
+{
+ "clip_id": "line_60",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the percentage of people favoring versus opposing same-sex marriage across the years from 2001 to 2017 to determine how each share changed over time.",
+ "chart_structure": {
+  "clip_id": "line_60",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did the percentage favoring same-sex marriage change from 2001 to 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "favor same-sex marriage"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How did the percentage opposing same-sex marriage change from 2001 to 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "oppose same-sex marriage"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How did the favoring and opposing shares compare across the years from 2001 to 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": ""
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The percentage favoring same-sex marriage increased overall from 35% in 2001 to 62% in 2017, with a net increase of 27 percentage points.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "5323e6910c73d268"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2017",
+     "point_order": "9",
+     "field": "value",
+     "value": 62.0,
+     "unit": "%",
+     "row_sha": "887232133c50fad1"
+    }
+   ],
+   "computation": "Compare first (2001: 35%) and last (2017: 62%) values; difference = 62 - 35 = 27 percentage points increase.",
+   "accept": [
+    "Favoring share rose from 35% in 2001 to 62% in 2017.",
+    "Favoring share increased by 27 percentage points over the period."
+   ],
+   "reject": [
+    "Favoring share decreased over the period.",
+    "Favoring share ended lower than it started."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "The percentage opposing same-sex marriage decreased overall from 57% in 2001 to 32% in 2017, with a net decrease of 25 percentage points.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "value",
+     "value": 57.0,
+     "unit": "%",
+     "row_sha": "550566dc8583cdc4"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2017",
+     "point_order": "9",
+     "field": "value",
+     "value": 32.0,
+     "unit": "%",
+     "row_sha": "a1fa6bd7ef9cb9c6"
+    }
+   ],
+   "computation": "Compare first (2001: 57%) and last (2017: 32%) values; difference = 57 - 32 = 25 percentage points decrease.",
+   "accept": [
+    "Opposing share fell from 57% in 2001 to 32% in 2017.",
+    "Opposing share decreased by 25 percentage points over the period."
+   ],
+   "reject": [
+    "Opposing share increased over the period.",
+    "Opposing share ended higher than it started."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "The favoring share was below the opposing share through 2009, the two shares were equal at 49% in 2011, and the favoring share was higher by 2013 (50% vs 43%) and by 2017 (62% vs 32%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "5323e6910c73d268"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2001",
+     "point_order": "1",
+     "field": "value",
+     "value": 57.0,
+     "unit": "%",
+     "row_sha": "550566dc8583cdc4"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2009",
+     "point_order": "5",
+     "field": "value",
+     "value": 37.0,
+     "unit": "%",
+     "row_sha": "b6805f24a89c491d"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2009",
+     "point_order": "5",
+     "field": "value",
+     "value": 54.0,
+     "unit": "%",
+     "row_sha": "16578f178ca4b9bd"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2011",
+     "point_order": "6",
+     "field": "value",
+     "value": 49.0,
+     "unit": "%",
+     "row_sha": "8eba2c05b3267bfa"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2011",
+     "point_order": "6",
+     "field": "value",
+     "value": 49.0,
+     "unit": "%",
+     "row_sha": "8237c7de568c536c"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2013",
+     "point_order": "7",
+     "field": "value",
+     "value": 50.0,
+     "unit": "%",
+     "row_sha": "95a13419d9c54b36"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2013",
+     "point_order": "7",
+     "field": "value",
+     "value": 43.0,
+     "unit": "%",
+     "row_sha": "b43b0909518d290b"
+    },
+    {
+     "panel": "",
+     "entity": "favor same-sex marriage",
+     "series": "",
+     "x": "2017",
+     "point_order": "9",
+     "field": "value",
+     "value": 62.0,
+     "unit": "%",
+     "row_sha": "887232133c50fad1"
+    },
+    {
+     "panel": "",
+     "entity": "oppose same-sex marriage",
+     "series": "",
+     "x": "2017",
+     "point_order": "9",
+     "field": "value",
+     "value": 32.0,
+     "unit": "%",
+     "row_sha": "a1fa6bd7ef9cb9c6"
+    }
+   ],
+   "computation": "2001: favoring 35 < opposing 57. 2009: favoring 37 < opposing 54. 2011: both equal 49. 2013: favoring 50 > opposing 43. 2017: favoring 62 > opposing 32.",
+   "accept": [
+    "The favoring share is lower through 2009.",
+    "The two shares are equal at 49% in 2011.",
+    "The favoring share is higher in 2013 and 2017."
+   ],
+   "reject": [
+    "Describes a strict crossing before 2011 while omitting the 2011 equality.",
+    "Claims favoring was already higher in 2009."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning that the favoring share dipped slightly from 35% in 2001 to 34% in 2003 before rising.",
+  "Mentioning that the opposing share was flat at 57% in 2001 and 2003 before declining."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the change in shares.",
+  "Claims about statistical significance or margin of error.",
+  "Claims about years not present in the table."
+ ],
+ "review_notes": [
+  "The intent asks to compare favoring versus opposing shares and determine how each share changed over time; three semantic units cover the two trend slots and the cross-series comparison/crossing.",
+  "The crossing is evidenced by equality at 2011 (49% vs 49%) and reversal between 2009 and 2011.",
+  "Closure adjudication 2026-10-29: data_table.csv is authoritative; unlabeled plotted turns are retained when they belong to the series."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "oppose same-sex marriage",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "favor same-sex marriage",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

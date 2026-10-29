@@ -1,0 +1,70 @@
+{
+  "optional_relation_excluded": [
+    {
+      "clip": "line_4",
+      "reason": "The only unresolved public-intent relation is the absent annual-target comparison; it is now optional_valid."
+    },
+    {
+      "clip": "line_46",
+      "reason": "The only unresolved public-intent relation is the absent worker-pay comparison; it is now optional_valid."
+    },
+    {
+      "clip": "line_59",
+      "reason": "The only unresolved public-intent relation is the absent final-month date coverage; it is now optional_valid, while the final-point comparison remains required."
+    },
+    {
+      "clip": "line_69",
+      "reason": "The only unresolved public-intent relation is recession-period comparison; it is now optional_valid."
+    }
+  ],
+  "confirmed_parser_misread": [
+    {
+      "clip": "line_7",
+      "reason": "Parser compressed a long table and did not preserve the final revenue/profit rows."
+    },
+    {
+      "clip": "line_13",
+      "reason": "The 40% relative decline is correct from table values 0.75 and 0.45."
+    },
+    {
+      "clip": "line_17",
+      "reason": "Parser mixed a point beyond the 90th-percentile scope into the 10th-to-90th trend."
+    },
+    {
+      "clip": "line_32",
+      "reason": "The peak and earlier trough ordering is correct in point_order."
+    },
+    {
+      "clip": "line_36",
+      "reason": "Two retests omitted the G1-stated 70% labeled point and 61% final point even though both are present in the table and claim."
+    },
+    {
+      "clip": "line_44",
+      "reason": "Mortgage starts in 1995 at 8.7195%, not in 1991."
+    },
+    {
+      "clip": "line_75",
+      "reason": "Parser lost point_order 1 zeros and the 35% intermediate value during sampling."
+    },
+    {
+      "clip": "line_77",
+      "reason": "Parser sampling missed the true October peak and final plotted value."
+    },
+    {
+      "clip": "line_79",
+      "reason": "Parser sampling missed the true local extrema and final maximum."
+    },
+    {
+      "clip": "line_80",
+      "reason": "Parser sampling shifted the peak and final value and misread March versus late-2020 levels."
+    },
+    {
+      "clip": "line_83",
+      "reason": "The largest adjacent increase is 115.0000 to 369.6429 at point_order 16-17."
+    },
+    {
+      "clip": "line_88",
+      "reason": "Parser used the unlabeled point_order 24 after 2018 as the final year."
+    }
+  ]
+}

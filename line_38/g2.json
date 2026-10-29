@@ -1,0 +1,96 @@
+{
+ "clip_id": "line_38",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_38",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Historical trend",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Historical trend"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Historical trend | 1950",
+    "Historical trend | 1970",
+    "Historical trend | 1990",
+    "Historical trend | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Historical trend | 1950",
+      "value": 0.92,
+      "unit": "relative"
+     },
+     {
+      "mark": "Historical trend | 1970",
+      "value": 0.31,
+      "unit": "relative"
+     },
+     {
+      "mark": "Historical trend | 1990",
+      "value": 0.26,
+      "unit": "relative"
+     },
+     {
+      "mark": "Historical trend | 2010",
+      "value": 0.51,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "The share of African Americans living in the South declined from 0.92 in 1950 to a minimum of 0.26 in 1990, then rose to 0.51 in 2010, so the trend reverses direction around 1990.",
+    "start_value": 0.92,
+    "end_value": 0.51,
+    "delta": -0.41,
+    "ratio": 0.554348,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "clip_id": "line_40",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_40",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "panels": [
+   "Firearm-related deaths per 100,000 people in Connecticut",
+   "Firearm-related deaths per 100,000 people in Missouri"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+    "entity": "",
+    "series": "SUICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Connecticut",
+    "entity": "",
+    "series": "HOMICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Missouri",
+    "entity": "",
+    "series": "HOMICIDES"
+   },
+   {
+    "panel": "Firearm-related deaths per 100,000 people in Missouri",
+    "entity": "",
+    "series": "SUICIDES"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES",
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES",
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1985",
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1990",
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | #9",
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1995",
+    "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 2005"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1985",
+      "value": 3.88,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1990",
+      "value": 4.28,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | #9",
+      "value": 4.58,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 1995",
+      "value": 4.58,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | SUICIDES | 2005",
+      "value": 2.88,
+      "unit": "deaths per 100,000 people"
+     }
+    ],
+    "expected_relation": "In Connecticut, the firearm suicide rate rises from 3.88 in 1985 to a highest plotted value of 4.58 at point_order 9 between 1990 and 1995, reaches 4.58 again at the labeled 1995 point, and then declines to 2.88 by 2005.",
+    "start_value": 3.88,
+    "end_value": 2.88,
+    "delta": -1.0,
+    "ratio": 0.742268,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1985",
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1990",
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | #9",
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1995",
+    "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 2005"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1985",
+      "value": 1.98,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1990",
+      "value": 4.08,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | #9",
+      "value": 4.58,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 1995",
+      "value": 3.08,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Connecticut | HOMICIDES | 2005",
+      "value": 1.78,
+      "unit": "deaths per 100,000 people"
+     }
+    ],
+    "expected_relation": "In Connecticut, the firearm homicide rate rises from 1.98 in 1985 to its highest plotted value of 4.58 at point_order 9 between 1990 and 1995, then declines to 1.78 by 2005.",
+    "start_value": 1.98,
+    "end_value": 1.78,
+    "delta": -0.2,
+    "ratio": 0.89899,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 1999",
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2004",
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2009",
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2014",
+    "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 1999",
+      "value": 4.61,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2004",
+      "value": 4.1,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2009",
+      "value": 6.1,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2014",
+      "value": 5.11,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | HOMICIDES | 2017",
+      "value": 9.9,
+      "unit": "deaths per 100,000 people"
+     }
+    ],
+    "expected_relation": "In Missouri, the firearm homicide rate fluctuated from 4.61 in 1999 to 4.1 in 2004, rose to 6.1 in 2009, dipped to 5.11 in 2014, and rose sharply to 9.9 in 2017.",
+    "start_value": 4.61,
+    "end_value": 9.9,
+    "delta": 5.29,
+    "ratio": 2.147505,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 1999",
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2004",
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2009",
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2014",
+    "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 1999",
+      "value": 5.81,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2004",
+      "value": 5.2,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2009",
+      "value": 5.6,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2014",
+      "value": 6.76,
+      "unit": "deaths per 100,000 people"
+     },
+     {
+      "mark": "Firearm-related deaths per 100,000 people in Missouri | SUICIDES | 2017",
+      "value": 8.1,
+      "unit": "deaths per 100,000 people"
+     }
+    ],
+    "expected_relation": "In Missouri, the firearm suicide rate dipped from 5.81 in 1999 to 5.2 in 2004, then rose steadily to 8.1 in 2017.",
+    "start_value": 5.81,
+    "end_value": 8.1,
+    "delta": 2.29,
+    "ratio": 1.394148,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -131,7 +131,7 @@
    "id": "U3",
    "requirement_id": "R3",
    "unit_kind": "identity",
-   "must_be_visualized": true,
+   "must_be_visualized": false,
    "claim": "The European Union's second-place bar represents an aggregate of 28 countries, not one national economy.",
    "basis": [
     {
@@ -150,7 +150,8 @@
    ],
    "evidence": "Narration-only context; do not invent a chart mark for it.",
    "hardcase": true,
-   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark."
+   "hardcase_reason": "This consequence or prediction is stated in narration but has no direct chart mark.",
+   "visual_obligation_source": "g2_narration_only_hardcase"
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -191,7 +192,8 @@
  ],
  "review_flags": [
   "batch_64_83_reviewed_candidate",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "visual_flags_aligned_to_g2_20261029"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "agent_draft_pending_human_review",

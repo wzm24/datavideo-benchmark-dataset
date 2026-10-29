@@ -1,0 +1,88 @@
+{
+ "clip_id": "line_7",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "a21fe25cf07e854138207dec7613168c53d8bfc8b76356f9460fedb6f09bbbd1",
+ "row_count": 868,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Corporate revenue or profit ($B)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1998",
+   "2018"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "REVENUE",
+   "row_count": 856,
+   "unit": [
+    "B"
+   ],
+   "x_values": [
+    "1998",
+    "2018"
+   ],
+   "first_value": 0.0,
+   "last_value": 60.0,
+   "min_value": 0.0,
+   "max_value": 60.0
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "PROFIT",
+   "row_count": 12,
+   "unit": [
+    "B"
+   ],
+   "x_values": [
+    "1998",
+    "2018"
+   ],
+   "first_value": 0.4957,
+   "last_value": 2.5043,
+   "min_value": 0.4957,
+   "max_value": 2.5043
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "REVENUE"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PROFIT"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

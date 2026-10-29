@@ -1,0 +1,68 @@
+{
+ "clip_id": "line_27",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0a1c081fb7149326db69404d59e060203d69fc5d1cce8db819c352ed3d034374",
+ "row_count": 31,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share of profits spent on stock buybacks (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1982",
+   "2008",
+   "2018"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Share spent on buybacks",
+   "row_count": 31,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1982",
+    "2008",
+    "2018"
+   ],
+   "first_value": 0.5,
+   "last_value": 65.0,
+   "min_value": 0.5,
+   "max_value": 77.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Share spent on buybacks"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

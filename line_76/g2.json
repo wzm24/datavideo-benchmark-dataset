@@ -1,0 +1,174 @@
+{
+ "clip_id": "line_76",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_76",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "temp anomaly",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "temp anomaly"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "temp anomaly | #1",
+    "temp anomaly | 10,000",
+    "temp anomaly | 8,000",
+    "temp anomaly | #14",
+    "temp anomaly | 6,000",
+    "temp anomaly | 2,000",
+    "temp anomaly | #33",
+    "temp anomaly | #41"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "temp anomaly | #1",
+      "value": -0.4,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 10,000",
+      "value": -0.22,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 8,000",
+      "value": 0.38,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | #14",
+      "value": 0.45,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 6,000",
+      "value": 0.38,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 2,000",
+      "value": 0.0,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | #33",
+      "value": -0.42,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | #41",
+      "value": 0.2,
+      "unit": "degC"
+     }
+    ],
+    "expected_relation": "Across the full plotted series, the temperature anomaly fluctuates from -0.40°C at the first point and -0.22°C at the 10,000-year anchor up to a maximum of 0.45°C at point_order 14, is 0.38°C at both the 8,000- and 6,000-year anchors, returns to 0.00°C at the 2,000-year anchor, falls to -0.42°C at point_order 33, and ends at 0.20°C.",
+    "start_value": -0.4,
+    "end_value": 0.2,
+    "delta": 0.6,
+    "ratio": -0.5,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "temp anomaly | 10,000",
+    "temp anomaly | 8,000",
+    "temp anomaly | 6,000",
+    "temp anomaly | 2,000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "temp anomaly | 10,000",
+      "value": -0.22,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 8,000",
+      "value": 0.38,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 6,000",
+      "value": 0.38,
+      "unit": "degC"
+     },
+     {
+      "mark": "temp anomaly | 2,000",
+      "value": 0.0,
+      "unit": "degC"
+     }
+    ],
+    "expected_relation": "The early level (around 10,000 years before present, about -0.22°C) is lower than the middle level (around 8,000-6,000 years before present, about 0.38°C), and the recent level (around 2,000 years before present, 0.00°C) is between the early and middle levels.",
+    "start_value": -0.22,
+    "end_value": 0.0,
+    "delta": 0.22,
+    "ratio": -0.0,
+    "direction": "increasing",
+    "expected_order": [
+     "temp anomaly",
+     "temp anomaly",
+     "temp anomaly",
+     "temp anomaly"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,28 +1,22 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type,series
-line_16,47%,47,120.0,,,0.8512,relative,#232332,relative_only,NO
-line_16,47%,47,303.3,,,0.7878,relative,#232332,relative_only,NO
-line_16,47%,47,486.7,,,0.8693,relative,#232332,relative_only,NO
-line_16,47%,47,670.0,,,0.7697,relative,#232332,relative_only,NO
-line_16,47%,47,853.3,,,0.8240,relative,#232332,relative_only,NO
-line_16,47%,47,1036.7,,,0.7878,relative,#232332,relative_only,NO
-line_16,47%,47,1220.0,,,0.8150,relative,#232332,relative_only,NO
-line_16,37%,37,120.0,,,0.4256,relative,#2b6c96,relative_only,YES
-line_16,37%,37,303.3,,,0.4799,relative,#2b6c96,relative_only,YES
-line_16,37%,37,486.7,,,0.4890,relative,#2b6c96,relative_only,YES
-line_16,37%,37,670.0,,,0.5161,relative,#2b6c96,relative_only,YES
-line_16,37%,37,853.3,,,0.4618,relative,#2b6c96,relative_only,YES
-line_16,37%,37,1036.7,,,0.4799,relative,#2b6c96,relative_only,YES
-line_16,37%,37,1220.0,,,0.5071,relative,#2b6c96,relative_only,YES
-line_16,14%,14,120.0,,,0.1087,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,303.3,,,0.1358,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,486.7,,,0.0815,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,670.0,,,0.0634,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,853.3,,,0.0906,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,1036.7,,,0.1177,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,14%,14,1220.0,,,0.1177,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,Aug 2014,aug-2014,520.0,,,1.0000,relative,#232332,relative_only,NO
-line_16,Aug 2014,aug-2014,600.0,,,1.0000,relative,#232332,relative_only,NO
-line_16,NO,no,520.0,,,0.9370,relative,#2b6c96,relative_only,YES
-line_16,NO,no,600.0,,,0.9370,relative,#2b6c96,relative_only,YES
-line_16,YES,yes,520.0,,,0.8740,relative,#ffffff,relative_only,DON&#x27;T KNOW
-line_16,YES,yes,600.0,,,0.8740,relative,#ffffff,relative_only,DON&#x27;T KNOW
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,,1,46.3879,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,January 2014,2,44,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,,3,47.4769,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,,4,43.6228,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,May 2014,5,46,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,,6,45.2171,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,NO,August 2014,7,47,%,47%,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,,1,35.5563,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,January 2014,2,37,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,,3,36.6109,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,,4,36.9549,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,May 2014,5,34,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,,6,35.3167,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,YES,August 2014,7,37,%,37%,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,,1,16.9561,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,January 2014,2,19,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,,3,17.7449,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,,4,17.9561,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,May 2014,5,20,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,,6,17.5498,%,,line
+,Survey date,Share of respondents answering Yes/No/Don't know (%),,DON'T KNOW,August 2014,7,14,%,14%,line

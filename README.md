@@ -11,14 +11,18 @@
 - 153 条公开 intent 均通过数值泄露检查、协议检查和盲往返检查。
 - 45 条复杂图标记为 `complex_chart` hardcase，R1 图元覆盖检查全部通过。
 - 完整索引见根目录 `BAR_REVIEW_INDEX.csv`。
+- line 家族共 92 条，全部完成 V1 的 intent/G0/G1/G2/G3 归档；闭合测试为
+  `92/92`，其中 12 条确认的 parser 误读经过人工裁决闭合，4 个输入不足关系
+  降为 `optional_valid`。
+- 完整索引见根目录 `LINE_REVIEW_INDEX.csv`。
 
 | 文件 | 作用 |
 |---|---|
 | `data_table.csv` | 审核后的数据表，是生成端的公开输入 |
 | `intent.json` | 一句话公开 intent；保留 `narrative_goal`（叙事目标）和溯源字段 |
 | `g1.json` | G1：要求（R）+ 单元（U）+ 权重 |
-| `g2.json` | G2：逐 U 的机器可检查视觉证据条件；bar 全量已生成 |
-| `g3.json` | G3：绑定生成旁白的时间政策；bar 全量已生成草稿 |
+| `g2.json` | G2：逐 U 的机器可检查视觉证据条件；bar/line 全量已生成 |
+| `g3.json` | G3：绑定生成旁白的时间政策；bar/line 全量已生成草稿 |
 | `chart_spec.json` | 完整图型 spec，供 review、G2、审计使用 |
 | `input_spec.json` | 精简 spec，只给生成模型：family / sub_type / orientation / time_behavior；不含行列数和答案提示 |
 | `narration.jsonl` | ASR 句子与时间戳 |
@@ -30,6 +34,11 @@ bar 家族已统一迁移到 `g1.json`；当前根目录只保留审核后的数
 approved 状态未改动。G2 由 G1 basis、数据表和图表 spec 自动生成；复杂图形或
 多系列聚合中需要专门几何规则的项目在 `g2.json` 内保留 `needs_review=true`。
 G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
+
+line 家族已迁移到标准 `g0.json` / `g1.json` / `g2.json` / `g3.json`。旧版
+`g1_draft_b2.json` 和 `g2_evidence.json` 已从 line clip 中移除。公开
+`input_spec.json` 统一为 `family / sub_type / orientation / panel_count /
+time_behavior`，不包含系列数量或答案提示。
 
 ## 2. 审核顺序：表 → intent → G1
 
@@ -136,7 +145,7 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 
 - G3 的 `1.0s / 1.5s / 0.8s` 是待 G4 校准的草稿值。
 - 26 条历史 requirement question 文案仍较泛，但 claim、basis 和 unit type 均可判定。
-- 当前 V1 审计只覆盖 bar；line/area/donut/pie 仍待按同一契约迁移。
+- 当前 V1 全量 GT 审计覆盖 bar 和 line；area/donut/pie 仍待按同一契约迁移。
 - 复杂图评分会比旧版更严格，因为完整 bar/segment/paired mark 现在进入 R1 固定分母。
 
 ## 8. 相关文件
@@ -148,6 +157,11 @@ G3 的窗口和停顿阈值仍是待 G4 校准的草稿策略。
 - 最新 bar 审计：`audits/bar_v1_20261027/summary.json`
 - 复杂图 hardcase：`audits/bar_v1_20261027/complex_hardcases.md`
 - bar 全量审核索引：`BAR_REVIEW_INDEX.csv`
+- line 全量审核索引：`LINE_REVIEW_INDEX.csv`
+- line G2/G3 状态：`LINE_G2_G3_STATUS.md`
+- line V1 归档审计：`audits/line_gt_20261029/`
+- line G1 全量审核页：`reviews/2026-10-29/line_gt_full_review.html`
+- line G1 闭合审核页：`reviews/2026-10-29/line_g1_closure_review.html`
 - `bar_84`–`bar_163` 严格审核记录：`BAR84_163_STRICT_AUDIT.csv`、`BAR84_163_STRICT_AUDIT.md`
 - `bar_1`–`bar_163` 合并审核页：`reviews/2026-10-28/bar_1_163_full_review.html`
 - `bar_22` hardcase baseline 报告：`reviews/2026-10-22/bar22_hardcase.html`

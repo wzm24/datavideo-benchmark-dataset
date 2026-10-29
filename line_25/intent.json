@@ -1,28 +1,32 @@
 {
  "clip_id": "line_25",
- "intent_en": "To illustrate the long-term decline in interest rates from 1991 to 2016 and explain its contribution to high house prices, while questioning the future outlook.",
- "previous_intent": "To illustrate the long-term decline in interest rates from 1991 to 2016 and explain how this trend contributes to the high cost of housing.",
- "narration_support": "Houses are expensive because of continually falling interest rates",
- "chart_support": "Line chart showing a general downward trend in two percentage-based metrics (likely interest rates) from 1991 to 2016, with a sharp drop in the white line.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": true,
- "contains_answer_values": false,
- "confidence": 0.85,
- "evidence_note": "Narration is sparse but provides the causal link (rates -> house prices). Chart supports the 'falling rates' premise (1991-2016 decline) but does not show house prices, so intent is anchored on the chart's trend combined with narration's context.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that interest rates fell sharply from 1991 to 2016, with the Bank of England base rate dropping from about 10.2% to 0.4% and mortgage rates from about 9.5% to 2.2%, framing this decline as a reason houses are expensive.",
+ "intent_en": "Compare the Bank of England base rate and the example five-year fixed mortgage rate over the period from 1991 to 2016 to determine how each changed.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": true
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

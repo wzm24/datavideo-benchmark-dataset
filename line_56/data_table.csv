@@ -1,7 +1,13 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type,series
-line_56,65+,pfizer-biontech-65,100.0,MAY,95.50,,%,#d98a8a,svg_geometry,Pfizer/BioNTech
-line_56,65+,pfizer-biontech-65,370.0,AUGUST,89.50,,%,#d98a8a,svg_geometry,Pfizer/BioNTech
-line_56,65+,moderna-65,490.0,MAY,97.50,,%,#d98a8a,svg_geometry,Moderna
-line_56,65+,moderna-65,790.0,AUGUST,93.50,,%,#d98a8a,svg_geometry,Moderna
-line_56,65+,johnson-johnson-65,900.0,MAY,85.50,,%,#d98a8a,svg_geometry,Johnson & Johnson
-line_56,65+,johnson-johnson-65,1210.0,AUGUST,82.50,,%,#d98a8a,svg_geometry,Johnson & Johnson
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+Pfizer/BioNTech,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,MAY,1,95.00,%,,line
+Pfizer/BioNTech,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JUNE,2,93.00,%,,line
+Pfizer/BioNTech,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JULY,3,91.00,%,,line
+Pfizer/BioNTech,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,AUGUST,4,89.00,%,,line
+Moderna,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,MAY,1,97.00,%,,line
+Moderna,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JUNE,2,96.00,%,,line
+Moderna,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JULY,3,95.00,%,,line
+Moderna,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,AUGUST,4,94.00,%,,line
+Johnson & Johnson,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,MAY,1,85.00,%,,line
+Johnson & Johnson,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JUNE,2,84.33,%,,line
+Johnson & Johnson,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,JULY,3,83.67,%,,line
+Johnson & Johnson,Month (May-August 2021),Estimated vaccine effectiveness against hospitalization (%),,65+,AUGUST,4,83.00,%,,line

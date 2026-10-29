@@ -1,0 +1,263 @@
+{
+ "clip_id": "line_12",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the number of Subway locations between 2006 and 2011 and quantify the overall change.",
+ "chart_structure": {
+  "clip_id": "line_12",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the number of Subway locations from 2006 to 2011 and quantify the overall change?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The overall change from 2006 to 2011 is an increase of 4,564 Subway locations, which is about 22.0%.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "2006",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The number of Subway locations increased steadily from 20,721 in 2006 to 25,285 in 2011.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "2006",
+     "point_order": "1",
+     "field": "value",
+     "value": 20721.0,
+     "unit": "locations",
+     "row_sha": "29f9f4f7cfcd84a5"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 21908.0,
+     "unit": "locations",
+     "row_sha": "d6d069b7b6c8fe41"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 22227.0,
+     "unit": "locations",
+     "row_sha": "58f2832b0ded1198"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 23277.0,
+     "unit": "locations",
+     "row_sha": "5861171e2fc04aa2"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "",
+     "point_order": "5",
+     "field": "value",
+     "value": 23870.0,
+     "unit": "locations",
+     "row_sha": "70ba7bf733c43a70"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "",
+     "point_order": "6",
+     "field": "value",
+     "value": 24737.0,
+     "unit": "locations",
+     "row_sha": "a99ad3812e3fe737"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "2011",
+     "point_order": "7",
+     "field": "value",
+     "value": 25285.0,
+     "unit": "locations",
+     "row_sha": "65be2fe16fb851c5"
+    }
+   ],
+   "computation": "Compare successive point_order values 1 through 7; each is greater than the previous, and the first (20721) is less than the last (25285).",
+   "accept": [
+    "The line rises from 2006 to 2011.",
+    "Values increase at each successive point from 20,721 to 25,285."
+   ],
+   "reject": [
+    "The line decreases overall.",
+    "Any intermediate point is lower than a preceding point."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The overall change from 2006 to 2011 is an increase of 4,564 Subway locations, which is about 22.0%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "2006",
+     "point_order": "1",
+     "field": "value",
+     "value": 20721.0,
+     "unit": "locations",
+     "row_sha": "29f9f4f7cfcd84a5"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Subway locations",
+     "x": "2011",
+     "point_order": "7",
+     "field": "value",
+     "value": 25285.0,
+     "unit": "locations",
+     "row_sha": "65be2fe16fb851c5"
+    }
+   ],
+   "computation": "25285 - 20721 = 4564; 4564 / 20721 ≈ 0.2203, i.e. about 22.0%.",
+   "accept": [
+    "The overall increase is 4,564 locations.",
+    "The overall increase is approximately 22%."
+   ],
+   "reject": [
+    "The overall change is a decrease.",
+    "The overall change is stated as a different absolute amount without support."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentioning intermediate yearly values as supporting detail for the trend."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the increase.",
+  "Claims about years outside 2006–2011.",
+  "Comparing Subway locations to another entity or series not present in the table."
+ ],
+ "review_notes": [
+  "Only one series and one panel are present; no cross-panel comparison is needed.",
+  "The trend unit uses the full ordered sequence to prove steady increase; the change unit uses only the endpoints."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Subway locations"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

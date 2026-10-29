@@ -1,0 +1,354 @@
+{
+ "clip_id": "line_88",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how Republicans and Democrats rated national economic conditions across the years from 1992 through 2018.",
+ "chart_structure": {
+  "clip_id": "line_88",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did Republicans and Democrats rate national economic conditions across 1992–2018, and how do the two groups compare?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "For Dem/Lean Dem, the share rating national economic conditions as excellent or good rises from 6.1628% in 1992 to a peak of 71.1628% in 2000, falls to 11.1628% in 2008, then rises to 43.1628% in 2018.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Republicans (Rep/Lean Rep) rate national economic conditions higher than Democrats (Dem/Lean Dem) in most years shown, with the gap largest around 2000 (78.1628% vs 71.1628%) and reversing in 2018 when Democrats are higher (43.1628% vs 19.1628%).",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "1992",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "1992",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "For Rep/Lean Rep, the share rating national economic conditions as excellent or good rises from 19.1628% in 1992 to a peak of 78.1628% in 2000, falls to 11.1628% in 2008, then rises to 31.1628% in 2016 before ending at 19.1628% in 2018.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "1992",
+     "point_order": "1",
+     "field": "value",
+     "value": 19.1628,
+     "unit": "%",
+     "row_sha": "c7443b0fe3ba9347"
+    },
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 78.1628,
+     "unit": "%",
+     "row_sha": "ccd53708999c50b3"
+    },
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2008",
+     "point_order": "14",
+     "field": "value",
+     "value": 11.1628,
+     "unit": "%",
+     "row_sha": "c9c5fcc3839c1fad"
+    },
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2016",
+     "point_order": "22",
+     "field": "value",
+     "value": 31.1628,
+     "unit": "%",
+     "row_sha": "6f3fa1edf1d8fd4c"
+    },
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2018",
+     "point_order": "23",
+     "field": "value",
+     "value": 19.1628,
+     "unit": "%",
+     "row_sha": "38568a07778f927b"
+    }
+   ],
+   "computation": "Trace Rep/Lean Rep series across years; identify start, maximum, minimum, and end values.",
+   "accept": [
+    "Rep/Lean Rep starts near 19% in 1992",
+    "Rep/Lean Rep peaks near 78% in 2000",
+    "Rep/Lean Rep drops to near 11% in 2008",
+    "Rep/Lean Rep ends near 19% in 2018"
+   ],
+   "reject": [
+    "Rep/Lean Rep is consistently higher than Democrats at every year",
+    "Rep/Lean Rep peaks in 2018"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "For Dem/Lean Dem, the share rating national economic conditions as excellent or good rises from 6.1628% in 1992 to a peak of 71.1628% in 2000, falls to 11.1628% in 2008, then rises to 43.1628% in 2018.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "1992",
+     "point_order": "1",
+     "field": "value",
+     "value": 6.1628,
+     "unit": "%",
+     "row_sha": "cb83c8f1bbde4af0"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 71.1628,
+     "unit": "%",
+     "row_sha": "0093271faffbc059"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "2008",
+     "point_order": "14",
+     "field": "value",
+     "value": 11.1628,
+     "unit": "%",
+     "row_sha": "74a718fa5d2c4437"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "2018",
+     "point_order": "23",
+     "field": "value",
+     "value": 43.1628,
+     "unit": "%",
+     "row_sha": "9f400a00b2a4101e"
+    }
+   ],
+   "computation": "Trace Dem/Lean Dem series across years; identify start, maximum, minimum, and end values.",
+   "accept": [
+    "Dem/Lean Dem starts near 6% in 1992",
+    "Dem/Lean Dem peaks near 71% in 2000",
+    "Dem/Lean Dem drops to near 11% in 2008",
+    "Dem/Lean Dem ends near 43% in 2018"
+   ],
+   "reject": [
+    "Dem/Lean Dem is consistently higher than Republicans at every year",
+    "Dem/Lean Dem peaks in 2018"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Republicans (Rep/Lean Rep) rate national economic conditions higher than Democrats (Dem/Lean Dem) in most years shown, with the gap largest around 2000 (78.1628% vs 71.1628%) and reversing in 2018 when Democrats are higher (43.1628% vs 19.1628%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 78.1628,
+     "unit": "%",
+     "row_sha": "ccd53708999c50b3"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 71.1628,
+     "unit": "%",
+     "row_sha": "0093271faffbc059"
+    },
+    {
+     "panel": "",
+     "entity": "Rep/Lean Rep",
+     "series": "",
+     "x": "2018",
+     "point_order": "23",
+     "field": "value",
+     "value": 19.1628,
+     "unit": "%",
+     "row_sha": "38568a07778f927b"
+    },
+    {
+     "panel": "",
+     "entity": "Dem/Lean Dem",
+     "series": "",
+     "x": "2018",
+     "point_order": "23",
+     "field": "value",
+     "value": 43.1628,
+     "unit": "%",
+     "row_sha": "9f400a00b2a4101e"
+    }
+   ],
+   "computation": "Compare Rep/Lean Rep and Dem/Lean Dem values at each year; note years where one exceeds the other and the magnitude of the gap.",
+   "accept": [
+    "Republicans generally rate conditions higher than Democrats across 1992–2016",
+    "In 2000 Republicans are slightly higher than Democrats",
+    "In 2018 Democrats are higher than Republicans"
+   ],
+   "reject": [
+    "Democrats are consistently higher than Republicans across all years",
+    "The two series are identical"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Both series peak in 2000 and reach a low in 2008.",
+  "The partisan gap is small in 2008 when both are near 11%."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the trends (e.g., policy effects, recessions) are not in the table.",
+  "Exact values for years not listed in the basis rows should not be asserted beyond the summarized trend."
+ ],
+ "review_notes": [
+  "The intent asks to compare Republicans and Democrats across 1992–2018; three semantic units cover the two panel series trends and the cross-series comparison.",
+  "Only one panel exists, so panel scope is empty."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Rep/Lean Rep",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Dem/Lean Dem",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

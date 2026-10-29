@@ -1,0 +1,126 @@
+{
+ "clip_id": "line_6",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_6",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Base Rate Bank of England"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Base Rate Bank of England",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Base Rate Bank of England | 1991",
+    "Base Rate Bank of England | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Base Rate Bank of England | 1991",
+      "value": 10.1996,
+      "unit": "%"
+     },
+     {
+      "mark": "Base Rate Bank of England | 2016",
+      "value": 0.2506,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The Bank of England base rate fell from 10.1996% in 1991 to 0.2506% in 2016, a decrease of 9.949 percentage points.",
+    "start_value": 10.1996,
+    "end_value": 0.2506,
+    "delta": -9.949,
+    "ratio": 0.02457,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1993",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1993",
+      "value": 9.4989,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016",
+      "value": 2.1996,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The average mortgage rate fell from 9.4989% in 1993 to 2.1996% in 2016, a decrease of 7.2993 percentage points.",
+    "start_value": 9.4989,
+    "end_value": 2.1996,
+    "delta": -7.2993,
+    "ratio": 0.231564,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

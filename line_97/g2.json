@@ -1,0 +1,180 @@
+{
+ "clip_id": "line_97",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_97",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "More than 10 years",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "5 years or less",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "More than 10 years",
+    "5 years or less"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "More than 10 years | 1995",
+    "More than 10 years | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "More than 10 years | 1995",
+      "value": 33.0,
+      "unit": "%"
+     },
+     {
+      "mark": "More than 10 years | 2017",
+      "value": 66.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of adult unauthorized immigrants residing in the U.S. for more than ten years increased from 33% in 1995 to 66% in 2017.",
+    "start_value": 33.0,
+    "end_value": 66.0,
+    "delta": 33.0,
+    "ratio": 2.0,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "5 years or less | 1995",
+    "5 years or less | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "5 years or less | 1995",
+      "value": 36.0,
+      "unit": "%"
+     },
+     {
+      "mark": "5 years or less | 2017",
+      "value": 20.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of adult unauthorized immigrants residing in the U.S. for five years or less decreased from 36% in 1995 to 20% in 2017.",
+    "start_value": 36.0,
+    "end_value": 20.0,
+    "delta": -16.0,
+    "ratio": 0.555556,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "More than 10 years | 1995",
+    "More than 10 years | 2017",
+    "5 years or less | 1995",
+    "5 years or less | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "More than 10 years | 1995",
+      "value": 33.0,
+      "unit": "%"
+     },
+     {
+      "mark": "More than 10 years | 2017",
+      "value": 66.0,
+      "unit": "%"
+     },
+     {
+      "mark": "5 years or less | 1995",
+      "value": 36.0,
+      "unit": "%"
+     },
+     {
+      "mark": "5 years or less | 2017",
+      "value": 20.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Between 1995 and 2017, the share for more than ten years rose (33% to 66%) while the share for five years or less fell (36% to 20%), reversing their relative positions.",
+    "start_value": 33.0,
+    "end_value": 20.0,
+    "delta": -13.0,
+    "ratio": 0.606061,
+    "direction": "decreasing",
+    "expected_order": [
+     "More than 10 years",
+     "5 years or less",
+     "More than 10 years",
+     "5 years or less"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "clip_id": "line_3",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_3",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "top 1%"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "bottom 50%"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "top 1%",
+    "bottom 50%"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "top 1% | 1980",
+    "top 1% | 1985",
+    "top 1% | 1990",
+    "top 1% | 1995",
+    "top 1% | 2000",
+    "top 1% | 2005",
+    "top 1% | 2010",
+    "top 1% | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "top 1% | 1980",
+      "value": 16.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 1985",
+      "value": 17.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 1990",
+      "value": 18.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 1995",
+      "value": 19.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 2000",
+      "value": 20.5,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 2005",
+      "value": 21.8,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 2010",
+      "value": 21.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 2015",
+      "value": 20.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From 1980 to 2015, the share of global income held by the top 1% increased overall, rising from 16.0% in 1980 to 20.5% in 2015.",
+    "start_value": 16.0,
+    "end_value": 20.5,
+    "delta": 4.5,
+    "ratio": 1.28125,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "bottom 50% | 1980",
+    "bottom 50% | 1985",
+    "bottom 50% | 1990",
+    "bottom 50% | 1995",
+    "bottom 50% | 2000",
+    "bottom 50% | 2005",
+    "bottom 50% | 2010",
+    "bottom 50% | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "bottom 50% | 1980",
+      "value": 8.0,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 1985",
+      "value": 9.0,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 1990",
+      "value": 9.2,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 1995",
+      "value": 9.0,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 2000",
+      "value": 9.0,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 2005",
+      "value": 8.5,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 2010",
+      "value": 9.5,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 2015",
+      "value": 9.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "From 1980 to 2015, the share of global income held by the bottom 50% increased slightly, rising from 8.0% in 1980 to 9.5% in 2015.",
+    "start_value": 8.0,
+    "end_value": 9.5,
+    "delta": 1.5,
+    "ratio": 1.1875,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "top 1% | 1980",
+    "bottom 50% | 1980",
+    "top 1% | 2015",
+    "bottom 50% | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "top 1% | 1980",
+      "value": 16.0,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 1980",
+      "value": 8.0,
+      "unit": "%"
+     },
+     {
+      "mark": "top 1% | 2015",
+      "value": 20.5,
+      "unit": "%"
+     },
+     {
+      "mark": "bottom 50% | 2015",
+      "value": 9.5,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Throughout 1980 to 2015, the top 1% consistently held a larger share of global income than the bottom 50%, and the gap widened from 8.0 percentage points in 1980 to 11.0 percentage points in 2015.",
+    "start_value": 16.0,
+    "end_value": 9.5,
+    "delta": -6.5,
+    "ratio": 0.59375,
+    "direction": "decreasing",
+    "expected_order": [
+     "top 1% | 2015",
+     "top 1% | 1980",
+     "bottom 50% | 2015",
+     "bottom 50% | 1980"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

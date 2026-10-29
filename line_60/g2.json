@@ -1,0 +1,222 @@
+{
+ "clip_id": "line_60",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_60",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "oppose same-sex marriage",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "favor same-sex marriage",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "oppose same-sex marriage",
+    "favor same-sex marriage"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "favor same-sex marriage | 2001",
+    "favor same-sex marriage | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "favor same-sex marriage | 2001",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "favor same-sex marriage | 2017",
+      "value": 62.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The percentage favoring same-sex marriage increased overall from 35% in 2001 to 62% in 2017, with a net increase of 27 percentage points.",
+    "start_value": 35.0,
+    "end_value": 62.0,
+    "delta": 27.0,
+    "ratio": 1.771429,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "oppose same-sex marriage | 2001",
+    "oppose same-sex marriage | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "oppose same-sex marriage | 2001",
+      "value": 57.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2017",
+      "value": 32.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The percentage opposing same-sex marriage decreased overall from 57% in 2001 to 32% in 2017, with a net decrease of 25 percentage points.",
+    "start_value": 57.0,
+    "end_value": 32.0,
+    "delta": -25.0,
+    "ratio": 0.561404,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "favor same-sex marriage | 2001",
+    "oppose same-sex marriage | 2001",
+    "favor same-sex marriage | 2009",
+    "oppose same-sex marriage | 2009",
+    "favor same-sex marriage | 2011",
+    "oppose same-sex marriage | 2011",
+    "favor same-sex marriage | 2013",
+    "oppose same-sex marriage | 2013",
+    "favor same-sex marriage | 2017",
+    "oppose same-sex marriage | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "favor same-sex marriage | 2001",
+      "value": 35.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2001",
+      "value": 57.0,
+      "unit": "%"
+     },
+     {
+      "mark": "favor same-sex marriage | 2009",
+      "value": 37.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2009",
+      "value": 54.0,
+      "unit": "%"
+     },
+     {
+      "mark": "favor same-sex marriage | 2011",
+      "value": 49.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2011",
+      "value": 49.0,
+      "unit": "%"
+     },
+     {
+      "mark": "favor same-sex marriage | 2013",
+      "value": 50.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2013",
+      "value": 43.0,
+      "unit": "%"
+     },
+     {
+      "mark": "favor same-sex marriage | 2017",
+      "value": 62.0,
+      "unit": "%"
+     },
+     {
+      "mark": "oppose same-sex marriage | 2017",
+      "value": 32.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The favoring share was below the opposing share through 2009, the two shares were equal at 49% in 2011, and the favoring share was higher by 2013 (50% vs 43%) and by 2017 (62% vs 32%).",
+    "start_value": 35.0,
+    "end_value": 32.0,
+    "delta": -3.0,
+    "ratio": 0.914286,
+    "direction": "decreasing",
+    "expected_order": [
+     "favor same-sex marriage",
+     "oppose same-sex marriage",
+     "oppose same-sex marriage",
+     "favor same-sex marriage",
+     "favor same-sex marriage",
+     "oppose same-sex marriage",
+     "oppose same-sex marriage",
+     "favor same-sex marriage",
+     "favor same-sex marriage",
+     "oppose same-sex marriage"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

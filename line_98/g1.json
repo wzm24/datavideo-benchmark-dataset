@@ -1,0 +1,446 @@
+{
+ "clip_id": "line_98",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the relative polarization levels of the Senate and the House of Representatives over the congressional periods from the early 1970s through the mid-2010s.",
+ "chart_structure": {
+  "clip_id": "line_98",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video show the relative polarization trend for the Senate over the congressional periods from the early 1970s through the mid-2010s?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "Senate"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "Does the video show the relative polarization trend for the House of Representatives over the congressional periods from the early 1970s through the mid-2010s?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "House of Representatives"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "Does the video compare the relative polarization levels of the Senate and the House of Representatives over the congressional periods?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": ""
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1973-74",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the Senate's relative polarization increases from 0.0000 in 1973-74 to 0.9375 in 2015-16, with intermediate values 0.3125 (1979-80), 0.3750 (1985-86), 0.4375 (1991-92), 0.6875 (1997-98), 0.8125 (2003-04), and 0.8875 (2009-10).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1973-74",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "relative",
+     "row_sha": "8887d3c2b109905c"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "7",
+     "field": "value",
+     "value": 0.3125,
+     "unit": "relative",
+     "row_sha": "900fdcdb7442202f"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1985-86",
+     "point_order": "14",
+     "field": "value",
+     "value": 0.375,
+     "unit": "relative",
+     "row_sha": "b86080180ca63520"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1991-92",
+     "point_order": "20",
+     "field": "value",
+     "value": 0.4375,
+     "unit": "relative",
+     "row_sha": "8fe09c66638f83f7"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1997-98",
+     "point_order": "27",
+     "field": "value",
+     "value": 0.6875,
+     "unit": "relative",
+     "row_sha": "96c88852c83b1283"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "33",
+     "field": "value",
+     "value": 0.8125,
+     "unit": "relative",
+     "row_sha": "b74325ebef5cbf0a"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2009-10",
+     "point_order": "40",
+     "field": "value",
+     "value": 0.8875,
+     "unit": "relative",
+     "row_sha": "d84b6d452e509d8a"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2015-16",
+     "point_order": "46",
+     "field": "value",
+     "value": 0.9375,
+     "unit": "relative",
+     "row_sha": "44c68e20f02d3799"
+    }
+   ],
+   "computation": "Read the Senate series values at the listed x positions and observe the monotonic increase from first to last.",
+   "accept": [
+    "Senate relative polarization rises from 0.0000 in 1973-74 to 0.9375 in 2015-16.",
+    "The Senate line shows an upward trend across the congressional periods."
+   ],
+   "reject": [
+    "Senate polarization decreases over the period.",
+    "Senate polarization remains flat or constant."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the House of Representatives' relative polarization increases from 0.5000 in 1979-80 to 1.0000 in 2015-16, with intermediate values 0.3750 (1985-86), 0.4125 (1991-92), 0.7500 (1997-98), 0.8750 (2003-04), and 0.9625 (2009-10).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.5,
+     "unit": "relative",
+     "row_sha": "3603da3a569501df"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1985-86",
+     "point_order": "8",
+     "field": "value",
+     "value": 0.375,
+     "unit": "relative",
+     "row_sha": "a613c64c72397575"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1991-92",
+     "point_order": "15",
+     "field": "value",
+     "value": 0.4125,
+     "unit": "relative",
+     "row_sha": "e25a96efe97c9dc4"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1997-98",
+     "point_order": "22",
+     "field": "value",
+     "value": 0.75,
+     "unit": "relative",
+     "row_sha": "0aa85d0333fc440d"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2003-04",
+     "point_order": "29",
+     "field": "value",
+     "value": 0.875,
+     "unit": "relative",
+     "row_sha": "ba5f4785b5be24dd"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2009-10",
+     "point_order": "36",
+     "field": "value",
+     "value": 0.9625,
+     "unit": "relative",
+     "row_sha": "e4f0e221c4f44d02"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2015-16",
+     "point_order": "43",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "9caa79b456145f16"
+    }
+   ],
+   "computation": "Read the House series values at the listed x positions and observe the overall increase from first to last.",
+   "accept": [
+    "House relative polarization rises from 0.5000 in 1979-80 to 1.0000 in 2015-16.",
+    "The House line shows an upward trend across the congressional periods."
+   ],
+   "reject": [
+    "House polarization decreases over the period.",
+    "House polarization remains flat or constant."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "In the single panel, the House of Representatives generally has higher relative polarization than the Senate at comparable congressional periods, e.g., 0.5000 vs 0.3125 in 1979-80, 0.7500 vs 0.6875 in 1997-98, and 1.0000 vs 0.9375 in 2015-16.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "7",
+     "field": "value",
+     "value": 0.3125,
+     "unit": "relative",
+     "row_sha": "900fdcdb7442202f"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1979-80",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.5,
+     "unit": "relative",
+     "row_sha": "3603da3a569501df"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "1997-98",
+     "point_order": "27",
+     "field": "value",
+     "value": 0.6875,
+     "unit": "relative",
+     "row_sha": "96c88852c83b1283"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "1997-98",
+     "point_order": "22",
+     "field": "value",
+     "value": 0.75,
+     "unit": "relative",
+     "row_sha": "0aa85d0333fc440d"
+    },
+    {
+     "panel": "",
+     "entity": "Senate",
+     "series": "",
+     "x": "2015-16",
+     "point_order": "46",
+     "field": "value",
+     "value": 0.9375,
+     "unit": "relative",
+     "row_sha": "44c68e20f02d3799"
+    },
+    {
+     "panel": "",
+     "entity": "House of Representatives",
+     "series": "",
+     "x": "2015-16",
+     "point_order": "43",
+     "field": "value",
+     "value": 1.0,
+     "unit": "relative",
+     "row_sha": "9caa79b456145f16"
+    }
+   ],
+   "computation": "Compare the Senate and House values at the same x positions; the House value is greater at each listed period.",
+   "accept": [
+    "The House line is generally above the Senate line at comparable periods.",
+    "House relative polarization exceeds Senate relative polarization in 1979-80, 1997-98, and 2015-16."
+   ],
+   "reject": [
+    "The Senate consistently has higher polarization than the House.",
+    "The two series are identical or do not differ."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "The Senate series starts earlier (1973-74) than the House series (1979-80).",
+  "Both series reach their maximum at 2015-16."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for polarization changes.",
+  "Claims about values outside the listed congressional periods.",
+  "Claims about statistical significance."
+ ],
+ "review_notes": [
+  "The House series has an extra row with empty x and point_order 11 (value 0.3639); it is not used because it lacks a congressional period label.",
+  "The comparison unit uses only periods where both series have values."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

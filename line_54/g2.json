@@ -1,0 +1,232 @@
+{
+ "clip_id": "line_54",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_54",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Israel (cases/1000)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "United States (cases/1000)",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Israel (cases/1000)",
+    "United States (cases/1000)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Israel (cases/1000) | #2",
+    "Israel (cases/1000) | #3",
+    "Israel (cases/1000) | #4",
+    "Israel (cases/1000) | #5"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Israel (cases/1000) | #2",
+      "value": 1.4769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #3",
+      "value": 2.3769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #4",
+      "value": 3.3769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #5",
+      "value": 3.6769,
+      "unit": "cases per 1,000 people"
+     }
+    ],
+    "expected_relation": "In Israel, the COVID-19 case rate per 1,000 people generally increased from point_order 2 to point_order 5, rising from 1.4769 to 3.6769.",
+    "start_value": 1.4769,
+    "end_value": 3.6769,
+    "delta": 2.2,
+    "ratio": 2.489607,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "United States (cases/1000) | #2",
+    "United States (cases/1000) | #3",
+    "United States (cases/1000) | #4",
+    "United States (cases/1000) | #5"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "United States (cases/1000) | #2",
+      "value": 0.9769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #3",
+      "value": 1.9769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #4",
+      "value": 2.7769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #5",
+      "value": 5.2769,
+      "unit": "cases per 1,000 people"
+     }
+    ],
+    "expected_relation": "In the United States, the COVID-19 case rate per 1,000 people increased from point_order 2 to point_order 5, rising from 0.9769 to 5.2769.",
+    "start_value": 0.9769,
+    "end_value": 5.2769,
+    "delta": 4.3,
+    "ratio": 5.401679,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Israel (cases/1000) | #2",
+    "United States (cases/1000) | #2",
+    "Israel (cases/1000) | #3",
+    "United States (cases/1000) | #3",
+    "Israel (cases/1000) | #4",
+    "United States (cases/1000) | #4",
+    "Israel (cases/1000) | #5",
+    "United States (cases/1000) | #5"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Israel (cases/1000) | #2",
+      "value": 1.4769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #2",
+      "value": 0.9769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #3",
+      "value": 2.3769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #3",
+      "value": 1.9769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #4",
+      "value": 3.3769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #4",
+      "value": 2.7769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "Israel (cases/1000) | #5",
+      "value": 3.6769,
+      "unit": "cases per 1,000 people"
+     },
+     {
+      "mark": "United States (cases/1000) | #5",
+      "value": 5.2769,
+      "unit": "cases per 1,000 people"
+     }
+    ],
+    "expected_relation": "From two to six months after the second dose, Israel's COVID-19 case rate per 1,000 people was higher than the United States at point_order 2, 3, and 4, but lower than the United States at point_order 5.",
+    "start_value": 1.4769,
+    "end_value": 5.2769,
+    "delta": 3.8,
+    "ratio": 3.572957,
+    "direction": "increasing",
+    "expected_order": [
+     "United States (cases/1000)",
+     "Israel (cases/1000)",
+     "Israel (cases/1000)",
+     "United States (cases/1000)",
+     "Israel (cases/1000)",
+     "United States (cases/1000)",
+     "Israel (cases/1000)",
+     "United States (cases/1000)"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

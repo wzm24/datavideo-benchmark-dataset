@@ -1,27 +1,31 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type,entity_original,entity_source,series
-line_24,car drivers,car-drivers,120.0,,85.0087,0.5313,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,242.2,,92.0000,0.5750,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,364.4,,98.0174,0.6126,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,486.7,,105.0087,0.6563,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,608.9,,113.0087,0.7063,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,731.1,,109.0087,0.6813,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,853.3,,108.0000,0.6750,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,975.6,,112.0000,0.7000,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,1097.8,,109.0087,0.6813,,#1e40af,svg_geometry,,,cyclists
-line_24,car drivers,car-drivers,1220.0,,109.9826,0.6874,,#1e40af,svg_geometry,,,cyclists
-line_24,cyclists,cyclists,120.0,,142.9913,0.8937,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,242.2,,125.0087,0.7813,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,364.4,,110.9913,0.6937,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,486.7,,106.9913,0.6687,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,608.9,,100.0000,0.6250,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,731.1,,80.0000,0.5000,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,853.3,,72.0000,0.4500,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,975.6,,65.0087,0.4063,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,1097.8,,61.9826,0.3874,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,1220.0,,61.0087,0.3813,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,line-3-b0b0b0,120.0,,85.0087,0.5313,,#b0b0b0,svg_geometry,line-3,semantic_svg_order_backfill,
-line_24,car drivers,line-3-b0b0b0,1220.0,,61.0087,0.3813,,#b0b0b0,svg_geometry,line-3,semantic_svg_order_backfill,
-line_24,cyclists,cyclists,520.0,,107.1887,0.6699,,#1e40af,svg_geometry,,,cyclists
-line_24,cyclists,cyclists,600.0,,112.4260,0.7027,,#1e40af,svg_geometry,,,cyclists
-line_24,cyclists,cyclists,520.0,,105.0861,0.6568,,#16a34a,svg_geometry,,,car drivers
-line_24,cyclists,cyclists,600.0,,100.5092,0.6282,,#16a34a,svg_geometry,,,car drivers
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2007,1,85,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2008,2,92,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2009,3,98,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2010,4,105,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2011,5,113,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2012,6,109,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2013,7,108,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2014,8,112,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2015,9,109,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,cyclists,2016,10,110,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2007,1,143,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2008,2,125,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2009,3,111,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2010,4,107,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2011,5,100,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2012,6,80,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2013,7,72,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2014,8,65,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2015,9,62,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,car drivers,2016,10,61,index,,line
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2007,1,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2008,2,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2009,3,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2010,4,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2011,5,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2012,6,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2013,7,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2014,8,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2015,9,100,index,2010-14 average,reference
+,Year,Index of people killed or injured (2010-14 average = 100),,2010-14 average,2016,10,100,index,2010-14 average,reference

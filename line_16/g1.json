@@ -1,0 +1,318 @@
+{
+ "clip_id": "line_16",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the shares of respondents answering Yes, No, and Don't know on Scottish independence across the survey dates, including August 2014.",
+ "chart_structure": {
+  "clip_id": "line_16",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 3
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the shares of Yes, No, and Don't know across survey dates, including August 2014.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The share of respondents answering Yes fluctuated but ended at 37% in August 2014, remaining below No at every labeled survey date.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "The share of respondents answering Don't know was the smallest of the three categories at each labeled survey date and fell to 14% in August 2014.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "NO",
+     "x": "January 2014",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "YES",
+     "x": "January 2014",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "DON'T KNOW",
+     "x": "January 2014",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share of respondents answering No remained the highest among the three response categories across the survey dates, ending at 47% in August 2014.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "NO",
+     "x": "January 2014",
+     "point_order": "2",
+     "field": "value",
+     "value": 44.0,
+     "unit": "%",
+     "row_sha": "8952ee13326d680b"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "NO",
+     "x": "May 2014",
+     "point_order": "5",
+     "field": "value",
+     "value": 46.0,
+     "unit": "%",
+     "row_sha": "626d07fde3b8960c"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "NO",
+     "x": "August 2014",
+     "point_order": "7",
+     "field": "value",
+     "value": 47.0,
+     "unit": "%",
+     "row_sha": "418cad3d9f25e61e"
+    }
+   ],
+   "computation": "Compare NO values at January 2014 (44%), May 2014 (46%), and August 2014 (47%); NO is greater than YES and DON'T KNOW at each date.",
+   "accept": [
+    "No is the largest share at each labeled survey date.",
+    "No rises from 44% in January 2014 to 47% in August 2014."
+   ],
+   "reject": [
+    "Yes is the largest share at any labeled survey date.",
+    "Don't know is the largest share at any labeled survey date."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "The share of respondents answering Yes fluctuated but ended at 37% in August 2014, remaining below No at every labeled survey date.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "YES",
+     "x": "January 2014",
+     "point_order": "2",
+     "field": "value",
+     "value": 37.0,
+     "unit": "%",
+     "row_sha": "4f5410f280e62d0c"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "YES",
+     "x": "May 2014",
+     "point_order": "5",
+     "field": "value",
+     "value": 34.0,
+     "unit": "%",
+     "row_sha": "d70622616841c913"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "YES",
+     "x": "August 2014",
+     "point_order": "7",
+     "field": "value",
+     "value": 37.0,
+     "unit": "%",
+     "row_sha": "c2b53b65634c8fc5"
+    }
+   ],
+   "computation": "Compare YES values at January 2014 (37%), May 2014 (34%), and August 2014 (37%); YES is less than NO at each date.",
+   "accept": [
+    "Yes is below No at each labeled survey date.",
+    "Yes is 37% in January 2014, 34% in May 2014, and 37% in August 2014."
+   ],
+   "reject": [
+    "Yes exceeds No at any labeled survey date.",
+    "Yes ends above 37% in August 2014."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "trend",
+   "claim": "The share of respondents answering Don't know was the smallest of the three categories at each labeled survey date and fell to 14% in August 2014.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "DON'T KNOW",
+     "x": "January 2014",
+     "point_order": "2",
+     "field": "value",
+     "value": 19.0,
+     "unit": "%",
+     "row_sha": "ae777af677204946"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "DON'T KNOW",
+     "x": "May 2014",
+     "point_order": "5",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "1d29f7a9aa11c558"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "DON'T KNOW",
+     "x": "August 2014",
+     "point_order": "7",
+     "field": "value",
+     "value": 14.0,
+     "unit": "%",
+     "row_sha": "eaca2d8693dcbe60"
+    }
+   ],
+   "computation": "Compare DON'T KNOW values at January 2014 (19%), May 2014 (20%), and August 2014 (14%); DON'T KNOW is less than YES and NO at each date.",
+   "accept": [
+    "Don't know is the smallest share at each labeled survey date.",
+    "Don't know is 19% in January 2014, 20% in May 2014, and 14% in August 2014."
+   ],
+   "reject": [
+    "Don't know exceeds Yes or No at any labeled survey date.",
+    "Don't know ends above 14% in August 2014."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mention that No and Yes both end at their January 2014 levels in August 2014, while Don't know declines."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the changes in shares.",
+  "Claims about survey dates not labeled in the table.",
+  "Exact values for unlabeled intermediate points."
+ ],
+ "review_notes": [
+  "Only labeled survey dates (January 2014, May 2014, August 2014) are used as evidence.",
+  "The intent asks for comparison across response categories and survey dates; three trend/comparison units cover the three series."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "NO"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "YES"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "DON'T KNOW"
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

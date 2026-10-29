@@ -1,0 +1,91 @@
+{
+ "clip_id": "line_26",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "727a909f2f81e1124475251412523026e5563aac3eacd4bdc9471801e4a1eeb4",
+ "row_count": 82,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Indexed productivity or wage level"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1960",
+   "1980",
+   "2000"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "PRODUCTIVITY",
+   "row_count": 41,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1960",
+    "1980",
+    "2000"
+   ],
+   "first_value": -0.0047,
+   "last_value": 225.0023,
+   "min_value": -0.0047,
+   "max_value": 225.0023
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "WAGES",
+   "row_count": 41,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1960",
+    "1980",
+    "2000"
+   ],
+   "first_value": -0.0047,
+   "last_value": 110.0205,
+   "min_value": -0.0047,
+   "max_value": 110.0205
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PRODUCTIVITY"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "WAGES"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

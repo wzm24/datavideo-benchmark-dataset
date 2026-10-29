@@ -1,0 +1,266 @@
+{
+ "clip_id": "line_83",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace daily COVID-19 cases in Taiwan from January 2020 through June 2021 and identify when case levels change most sharply.",
+ "chart_structure": {
+  "clip_id": "line_83",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace daily COVID-19 cases in Taiwan from January 2020 through June 2021 and identify when case levels change most sharply?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Which adjacent plotted step has the largest increase in Taiwan daily COVID-19 cases?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Jan 2020",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Taiwan daily COVID-19 cases remain low from January 2020 through February 2021, then rise sharply by June 2021.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Jan 2020",
+     "point_order": "1",
+     "field": "value",
+     "value": 5.9524,
+     "unit": "cases",
+     "row_sha": "c27e4a343e8f40db"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Apr 2020",
+     "point_order": "3",
+     "field": "value",
+     "value": 22.7193,
+     "unit": "cases",
+     "row_sha": "012688d6f1cc3fa2"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Aug 2020",
+     "point_order": "7",
+     "field": "value",
+     "value": 7.2607,
+     "unit": "cases",
+     "row_sha": "e8aa99779cbe14d0"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Nov 2020",
+     "point_order": "10",
+     "field": "value",
+     "value": 6.9601,
+     "unit": "cases",
+     "row_sha": "97c778a8fee1e09c"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Feb 2021",
+     "point_order": "12",
+     "field": "value",
+     "value": 8.0236,
+     "unit": "cases",
+     "row_sha": "90d5d343ffa0990d"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "Jun 2021",
+     "point_order": "15",
+     "field": "value",
+     "value": 33.2143,
+     "unit": "cases",
+     "row_sha": "01a9e43ee575770c"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "",
+     "point_order": "18",
+     "field": "value",
+     "value": 496.9048,
+     "unit": "cases",
+     "row_sha": "8a40f1bd47844d5c"
+    }
+   ],
+   "computation": "Compare values across the ordered sequence: Jan 2020=5.9524, Apr 2020=22.7193, Aug 2020=7.2607, Nov 2020=6.9601, Feb 2021=8.0236, Jun 2021=33.2143, final point_order 18=496.9048. Values stay near single digits to low tens through Feb 2021, then increase to 33.2143 by Jun 2021 and 496.9048 at the final point.",
+   "accept": [
+    "Describes a low, roughly flat period from Jan 2020 through Feb 2021.",
+    "Describes a sharp increase after Feb 2021, reaching the highest value at the final point."
+   ],
+   "reject": [
+    "Claims cases were high throughout the entire period.",
+    "Omits the late sharp rise.",
+    "Describes a steady decline from Jan 2020 to Jun 2021."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "The largest adjacent increase in Taiwan daily COVID-19 cases is 254.6429 cases, from 115.0000 at point_order 16 to 369.6429 at point_order 17.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "",
+     "point_order": "16",
+     "field": "value",
+     "value": 115.0,
+     "unit": "cases",
+     "row_sha": "b7f8c6742370f86c"
+    },
+    {
+     "panel": "",
+     "entity": "Taiwan daily cases",
+     "series": "",
+     "x": "",
+     "point_order": "17",
+     "field": "value",
+     "value": 369.6429,
+     "unit": "cases",
+     "row_sha": "84d445ada1a3cd10"
+    }
+   ],
+   "computation": "369.6429 - 115.0000 = 254.6429 cases. The following step rises by 496.9048 - 369.6429 = 127.2619, which is smaller.",
+   "accept": [
+    "Identifies point_order 16 to 17 as the largest adjacent increase.",
+    "Reports an increase of 254.6429 cases."
+   ],
+   "reject": [
+    "Uses June 2021 to point_order 18 as a single adjacent step.",
+    "Reports 463.69 as the largest adjacent-point increase."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions that the minimum value is 5.9524 at Jan 2020.",
+  "Mentions that the maximum value is 496.9048 at the final point."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the sharp increase.",
+  "Exact dates beyond the supplied x anchors.",
+  "Claims about policy, variants, or external events."
+ ],
+ "review_notes": [
+  "The table summary lists 18 rows but only 7 representative rows are provided; the final point has an empty x label and point_order 18.",
+  "The sharpest change is computed only among the supplied adjacent points; intermediate rows are not available for verification.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Taiwan daily cases",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

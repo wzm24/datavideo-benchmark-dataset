@@ -1,0 +1,219 @@
+{
+ "clip_id": "line_95",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the U.S. unauthorized immigrant population over the years shown and compare its peak with the final year.",
+ "chart_structure": {
+  "clip_id": "line_95",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the U.S. unauthorized immigrant population over the years shown and compare its peak with the final year?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "The peak U.S. unauthorized immigrant population (12.2 million in 2007) was higher than the final-year population (10.5 million in 2017) by 1.7 million.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The U.S. unauthorized immigrant population rose from 3.5 million in 1990 to a peak of 12.2 million in 2007, then declined to 10.5 million in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 3.5,
+     "unit": "million",
+     "row_sha": "d1193ef1be974a70"
+    },
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "2007",
+     "point_order": "6",
+     "field": "value",
+     "value": 12.2,
+     "unit": "million",
+     "row_sha": "2fa9b9cec94ba748"
+    },
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "2017",
+     "point_order": "10",
+     "field": "value",
+     "value": 10.5,
+     "unit": "million",
+     "row_sha": "7bbead7d53629e04"
+    }
+   ],
+   "computation": "Identify the overall trajectory: increase from first value (3.5) to maximum (12.2 at 2007), followed by decrease to last value (10.5 at 2017).",
+   "accept": [
+    "Population increased from 1990 to 2007 and then decreased through 2017.",
+    "The line rises to a peak in 2007 and falls afterward."
+   ],
+   "reject": [
+    "Population increased continuously through 2017.",
+    "Population decreased from 1990 to 2007."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The peak U.S. unauthorized immigrant population (12.2 million in 2007) was higher than the final-year population (10.5 million in 2017) by 1.7 million.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "2007",
+     "point_order": "6",
+     "field": "value",
+     "value": 12.2,
+     "unit": "million",
+     "row_sha": "2fa9b9cec94ba748"
+    },
+    {
+     "panel": "",
+     "entity": "unauthorized immigrants",
+     "series": "",
+     "x": "2017",
+     "point_order": "10",
+     "field": "value",
+     "value": 10.5,
+     "unit": "million",
+     "row_sha": "7bbead7d53629e04"
+    }
+   ],
+   "computation": "Compare maximum value 12.2 (2007) with last value 10.5 (2017); difference = 12.2 - 10.5 = 1.7 million.",
+   "accept": [
+    "The peak in 2007 was 1.7 million higher than the 2017 value.",
+    "The final year is lower than the peak by 1.7 million."
+   ],
+   "reject": [
+    "The final year equals the peak.",
+    "The peak occurred in 2017."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "The population was 3.5 million in 1990 and 10.5 million in 2017, a net increase of 7.0 million over the period."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the rise or decline.",
+  "Claims about years not present in the table.",
+  "Exact values beyond the provided table precision."
+ ],
+ "review_notes": [
+  "The intent asks for a trend trace and a peak-versus-final-year comparison; these are captured as two semantic units.",
+  "No cross-panel comparison is needed because there is only one panel."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "unauthorized immigrants",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "clip_id": "line_37",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "529ca071ce1d752b29b4ff74e3f32c567ad8a0fb45f6385d48138d9a8ef46b97",
+ "row_count": 23,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "African-American share living in the South (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1790",
+   "1810",
+   "1830",
+   "1850",
+   "1870",
+   "1890",
+   "1910",
+   "1930",
+   "1950",
+   "1970",
+   "1990",
+   "2010"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "African-American share in South",
+   "series": "",
+   "row_count": 23,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1790",
+    "1810",
+    "1830",
+    "1850",
+    "1870",
+    "1890",
+    "1910",
+    "1930",
+    "1950",
+    "1970",
+    "1990",
+    "2010"
+   ],
+   "first_value": 91.0,
+   "last_value": 57.0,
+   "min_value": 52.0,
+   "max_value": 93.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "African-American share in South",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

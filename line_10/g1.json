@@ -1,0 +1,387 @@
+{
+ "clip_id": "line_10",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the Human Development Index trajectories of North Korea, Thailand, Portugal, India, and DR Congo from the early twentieth century through the final year shown.",
+ "chart_structure": {
+  "clip_id": "line_10",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 5
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video compare the HDI trajectories of North Korea, Thailand, Portugal, India, and DR Congo from the early twentieth century through the final year shown?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Thailand's HDI rises from 0.0501 in 1900 to 0.5201 at the final point, an overall upward trajectory.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Portugal's HDI rises from 0.0601 in 1900 to 0.48 at the final point, an overall upward trajectory.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "India's HDI rises from 0.0401 in 1900 to 0.3999 at the final point, and DR Congo's HDI rises from 0.0799 in 1950 to 0.3501 at its final point; both show overall upward trajectories.",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 5 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "North Korea",
+     "series": "North Korea",
+     "x": "1900",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "Thailand",
+     "series": "Thailand",
+     "x": "1900",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "Portugal",
+     "series": "Portugal",
+     "x": "1900",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "India",
+     "series": "India",
+     "x": "1900",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "DR Congo",
+     "series": "DR Congo",
+     "x": "1950",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "North Korea's HDI rises from 0.0501 in 1900 to 0.94 at the final point, an overall upward trajectory.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "North Korea",
+     "series": "North Korea",
+     "x": "1900",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0501,
+     "unit": "HDI index",
+     "row_sha": "6f9b8b699a7b2cc9"
+    },
+    {
+     "panel": "",
+     "entity": "North Korea",
+     "series": "North Korea",
+     "x": "",
+     "point_order": "20",
+     "field": "value",
+     "value": 0.94,
+     "unit": "HDI index",
+     "row_sha": "43f8d23d1c0cb805"
+    }
+   ],
+   "computation": "Compare first value (0.0501) and last value (0.94); last > first indicates upward trend.",
+   "accept": [
+    "North Korea's HDI increases from 0.0501 to 0.94",
+    "North Korea shows an upward HDI trajectory"
+   ],
+   "reject": [
+    "North Korea's HDI decreases",
+    "North Korea's HDI remains flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "Thailand's HDI rises from 0.0501 in 1900 to 0.5201 at the final point, an overall upward trajectory.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Thailand",
+     "series": "Thailand",
+     "x": "1900",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0501,
+     "unit": "HDI index",
+     "row_sha": "972efcc194582b48"
+    },
+    {
+     "panel": "",
+     "entity": "Thailand",
+     "series": "Thailand",
+     "x": "",
+     "point_order": "19",
+     "field": "value",
+     "value": 0.5201,
+     "unit": "HDI index",
+     "row_sha": "4b9fc0cf573423be"
+    }
+   ],
+   "computation": "Compare first value (0.0501) and last value (0.5201); last > first indicates upward trend.",
+   "accept": [
+    "Thailand's HDI increases from 0.0501 to 0.5201",
+    "Thailand shows an upward HDI trajectory"
+   ],
+   "reject": [
+    "Thailand's HDI decreases",
+    "Thailand's HDI remains flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "trend",
+   "claim": "Portugal's HDI rises from 0.0601 in 1900 to 0.48 at the final point, an overall upward trajectory.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "Portugal",
+     "series": "Portugal",
+     "x": "1900",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0601,
+     "unit": "HDI index",
+     "row_sha": "8a2bbe03f5f5d1fd"
+    },
+    {
+     "panel": "",
+     "entity": "Portugal",
+     "series": "Portugal",
+     "x": "",
+     "point_order": "18",
+     "field": "value",
+     "value": 0.48,
+     "unit": "HDI index",
+     "row_sha": "27d4f77b70b421c9"
+    }
+   ],
+   "computation": "Compare first value (0.0601) and last value (0.48); last > first indicates upward trend.",
+   "accept": [
+    "Portugal's HDI increases from 0.0601 to 0.48",
+    "Portugal shows an upward HDI trajectory"
+   ],
+   "reject": [
+    "Portugal's HDI decreases",
+    "Portugal's HDI remains flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R5",
+   "unit_kind": "trend",
+   "claim": "India's HDI rises from 0.0401 in 1900 to 0.3999 at the final point, and DR Congo's HDI rises from 0.0799 in 1950 to 0.3501 at its final point; both show overall upward trajectories.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "India",
+     "series": "India",
+     "x": "1900",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0401,
+     "unit": "HDI index",
+     "row_sha": "ac2693b9d32902a2"
+    },
+    {
+     "panel": "",
+     "entity": "India",
+     "series": "India",
+     "x": "",
+     "point_order": "19",
+     "field": "value",
+     "value": 0.3999,
+     "unit": "HDI index",
+     "row_sha": "45325031668e8fc7"
+    },
+    {
+     "panel": "",
+     "entity": "DR Congo",
+     "series": "DR Congo",
+     "x": "1950",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0799,
+     "unit": "HDI index",
+     "row_sha": "2331eb7cb6557523"
+    },
+    {
+     "panel": "",
+     "entity": "DR Congo",
+     "series": "DR Congo",
+     "x": "",
+     "point_order": "21",
+     "field": "value",
+     "value": 0.3501,
+     "unit": "HDI index",
+     "row_sha": "82c1862eee6d73c0"
+    }
+   ],
+   "computation": "For India, compare first (0.0401) and last (0.3999); for DR Congo, compare first (0.0799) and last (0.3501); both last > first indicate upward trends.",
+   "accept": [
+    "India's HDI increases from 0.0401 to 0.3999",
+    "DR Congo's HDI increases from 0.0799 to 0.3501",
+    "Both India and DR Congo show upward HDI trajectories"
+   ],
+   "reject": [
+    "India's HDI decreases",
+    "DR Congo's HDI decreases",
+    "Either India or DR Congo remains flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
+ },
+ "optional_valid": [
+  "North Korea ends with the highest HDI among the five countries shown.",
+  "DR Congo starts later (1950) than the other four series (1900)."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for HDI changes.",
+  "Exact year-by-year values for points without explicit x labels.",
+  "Cross-panel comparisons (only one panel exists)."
+ ],
+ "review_notes": [
+  "The intent asks to compare trajectories across five entities; each entity's trend is captured as a separate unit, with India and DR Congo combined because both are shorter series and the intent does not require separate per-entity granularity beyond the trend claim.",
+  "Only first and last points are used as minimal evidence for each trend; intermediate points are not required."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "North Korea",
+    "series": "North Korea"
+   },
+   {
+    "panel": "",
+    "entity": "Thailand",
+    "series": "Thailand"
+   },
+   {
+    "panel": "",
+    "entity": "Portugal",
+    "series": "Portugal"
+   },
+   {
+    "panel": "",
+    "entity": "India",
+    "series": "India"
+   },
+   {
+    "panel": "",
+    "entity": "DR Congo",
+    "series": "DR Congo"
+   }
+  ],
+  "required_series_count": 5,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

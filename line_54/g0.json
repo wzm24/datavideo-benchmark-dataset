@@ -1,0 +1,79 @@
+{
+ "clip_id": "line_54",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "eaab929e77de8c14a28d210f99b45156d13d12859b78dc8c0c2f64017d242e2a",
+ "row_count": 10,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Months after second dose"
+  ],
+  "y_axes": [
+   "COVID-19 case rate per 1,000 people"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Israel (cases/1000)",
+   "series": "",
+   "row_count": 5,
+   "unit": [
+    "cases per 1,000 people"
+   ],
+   "x_values": [],
+   "first_value": 1.5769,
+   "last_value": 3.6769,
+   "min_value": 1.4769,
+   "max_value": 3.6769
+  },
+  {
+   "panel": "",
+   "entity": "United States (cases/1000)",
+   "series": "",
+   "row_count": 5,
+   "unit": [
+    "cases per 1,000 people"
+   ],
+   "x_values": [],
+   "first_value": 0.5769,
+   "last_value": 5.2769,
+   "min_value": 0.5769,
+   "max_value": 5.2769
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Israel (cases/1000)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "United States (cases/1000)",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

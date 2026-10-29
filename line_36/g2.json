@@ -1,0 +1,223 @@
+{
+ "clip_id": "line_36",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_36",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Support for replacing the Electoral College"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Support for replacing the Electoral College"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Support for replacing the Electoral College | 1965",
+    "Support for replacing the Electoral College | #4",
+    "Support for replacing the Electoral College | 1975",
+    "Support for replacing the Electoral College | 1985",
+    "Support for replacing the Electoral College | 1995",
+    "Support for replacing the Electoral College | 2005",
+    "Support for replacing the Electoral College | 2015",
+    "Support for replacing the Electoral College | #13"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Support for replacing the Electoral College | 1965",
+      "value": 55.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #4",
+      "value": 80.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1975",
+      "value": 70.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1985",
+      "value": 65.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1995",
+      "value": 60.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 2005",
+      "value": 61.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 2015",
+      "value": 51.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #13",
+      "value": 61.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Support for replacing the Electoral College fluctuates after 55% in 1965, reaches its highest plotted value of 80% at point_order 4 between 1965 and 1975, falls to 70% at the labeled 1975 point, generally declines to 51% in 2015, and then rises to 61% at the final plotted point.",
+    "start_value": 55.0,
+    "end_value": 61.0,
+    "delta": 6.0,
+    "ratio": 1.109091,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "threshold",
+   "must_be_visualized": true,
+   "evidence_type": "threshold",
+   "required_marks": [
+    "Support for replacing the Electoral College | 1965",
+    "Support for replacing the Electoral College | #2",
+    "Support for replacing the Electoral College | #3",
+    "Support for replacing the Electoral College | #4",
+    "Support for replacing the Electoral College | 1975",
+    "Support for replacing the Electoral College | 1985",
+    "Support for replacing the Electoral College | 1995",
+    "Support for replacing the Electoral College | 2005",
+    "Support for replacing the Electoral College | #9",
+    "Support for replacing the Electoral College | 2015",
+    "Support for replacing the Electoral College | #11",
+    "Support for replacing the Electoral College | #12",
+    "Support for replacing the Electoral College | #13"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Support for replacing the Electoral College | 1965",
+      "value": 55.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #2",
+      "value": 65.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #3",
+      "value": 65.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #4",
+      "value": 80.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1975",
+      "value": 70.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1985",
+      "value": 65.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 1995",
+      "value": 60.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 2005",
+      "value": 61.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #9",
+      "value": 61.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | 2015",
+      "value": 51.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #11",
+      "value": 55.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #12",
+      "value": 57.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Support for replacing the Electoral College | #13",
+      "value": 61.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Support for replacing the Electoral College remains above 50% at every plotted point; its minimum is 51% in 2015, and the final plotted value is 61%.",
+    "start_value": 55.0,
+    "end_value": 61.0,
+    "delta": 6.0,
+    "ratio": 1.109091,
+    "direction": "increasing",
+    "requires_marks_on_both_sides_of_threshold": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

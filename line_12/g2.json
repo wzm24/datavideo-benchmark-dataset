@@ -1,0 +1,150 @@
+{
+ "clip_id": "line_12",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_12",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Subway locations"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Subway locations"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Subway locations | 2006",
+    "Subway locations | #2",
+    "Subway locations | #3",
+    "Subway locations | #4",
+    "Subway locations | #5",
+    "Subway locations | #6",
+    "Subway locations | 2011"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Subway locations | 2006",
+      "value": 20721.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | #2",
+      "value": 21908.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | #3",
+      "value": 22227.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | #4",
+      "value": 23277.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | #5",
+      "value": 23870.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | #6",
+      "value": 24737.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | 2011",
+      "value": 25285.0,
+      "unit": "locations"
+     }
+    ],
+    "expected_relation": "The number of Subway locations increased steadily from 20,721 in 2006 to 25,285 in 2011.",
+    "start_value": 20721.0,
+    "end_value": 25285.0,
+    "delta": 4564.0,
+    "ratio": 1.22026,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "Subway locations | 2006",
+    "Subway locations | 2011"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Subway locations | 2006",
+      "value": 20721.0,
+      "unit": "locations"
+     },
+     {
+      "mark": "Subway locations | 2011",
+      "value": 25285.0,
+      "unit": "locations"
+     }
+    ],
+    "expected_relation": "The overall change from 2006 to 2011 is an increase of 4,564 Subway locations, which is about 22.0%.",
+    "start_value": 20721.0,
+    "end_value": 25285.0,
+    "delta": 4564.0,
+    "ratio": 1.22026,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

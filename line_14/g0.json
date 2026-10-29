@@ -1,0 +1,88 @@
+{
+ "clip_id": "line_14",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "da4de3f825d75b6b0c3f3ca90c5fb84a64c44273d4e3297539c05fd6598b3e87",
+ "row_count": 24,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Time (years)"
+  ],
+  "y_axes": [
+   "Penguin population level (relative)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "0",
+   "11"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Penguin population",
+   "row_count": 22,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "0",
+    "11"
+   ],
+   "first_value": 0.05,
+   "last_value": 0.73,
+   "min_value": 0.05,
+   "max_value": 0.92
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Sustainable carrying capacity",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "0",
+    "11"
+   ],
+   "first_value": 0.74,
+   "last_value": 0.74,
+   "min_value": 0.74,
+   "max_value": 0.74
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Penguin population"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Sustainable carrying capacity"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

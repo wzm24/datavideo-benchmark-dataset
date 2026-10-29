@@ -1,28 +1,32 @@
 {
  "clip_id": "line_28",
- "intent_en": "To illustrate the significant widening of the pay gap between American CEOs and workers over time.",
- "previous_intent": "To illustrate the dramatic widening of the pay gap between American CEOs and workers from 1965 to 2018.",
- "narration_support": "The pay gap between American CEOs and their workers has grown from 15 to 1 to 220 to 1 in less than a single lifetime.",
- "chart_support": "Line chart showing the ratio of CEO pay to worker pay increasing significantly from 1965 to 2018.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly states the growth of the pay gap over a lifetime, which is visually corroborated by the line chart showing a sharp rise in the ratio from 1965 to 2018.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that the CEO-to-worker pay ratio in the U.S. grew from 15:1 in 1965 to 220:1 in 2018, peaking at 336:1 in 2000.",
+ "intent_en": "Trace the U.S. CEO-to-worker pay ratio over the period from the mid-1960s through the late 2010s, identifying its peak and comparing the starting and ending values.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }

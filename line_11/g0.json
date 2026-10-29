@@ -1,0 +1,97 @@
+{
+ "clip_id": "line_11",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0c793684d571ea7f62bd2de0e45a78edd0936612b421cd56b4d8a95a0f623c12",
+ "row_count": 30,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Average applications per college"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1994",
+   "1998",
+   "2002",
+   "2006",
+   "2010"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "TEST-OPTIONAL",
+   "row_count": 16,
+   "unit": [
+    "applications"
+   ],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 1577.679,
+   "last_value": 3527.4387,
+   "min_value": 1577.679,
+   "max_value": 3627.4147
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "TEST-REQUIRED",
+   "row_count": 14,
+   "unit": [
+    "applications"
+   ],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 1477.2465,
+   "last_value": 3027.5589,
+   "min_value": 1477.2465,
+   "max_value": 3027.5589
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

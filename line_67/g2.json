@@ -1,0 +1,126 @@
+{
+ "clip_id": "line_67",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_67",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Yield curve normal",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Yield curve inverted",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Yield curve normal",
+    "Yield curve inverted"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Yield curve normal | 3m",
+    "Yield curve normal | 10y"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Yield curve normal | 3m",
+      "value": 0.2667,
+      "unit": "relative"
+     },
+     {
+      "mark": "Yield curve normal | 10y",
+      "value": 0.8444,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "For the normal yield curve, the interest rate increases from the short-term maturity (3m) to the long-term maturity (10y), indicating an upward slope.",
+    "start_value": 0.2667,
+    "end_value": 0.8444,
+    "delta": 0.5777,
+    "ratio": 3.166104,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Yield curve inverted | 3m",
+    "Yield curve inverted | 10y"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Yield curve inverted | 3m",
+      "value": 0.6444,
+      "unit": "relative"
+     },
+     {
+      "mark": "Yield curve inverted | 10y",
+      "value": 0.1778,
+      "unit": "relative"
+     }
+    ],
+    "expected_relation": "For the inverted yield curve, the interest rate decreases from the short-term maturity (3m) to the long-term maturity (10y), indicating a downward slope.",
+    "start_value": 0.6444,
+    "end_value": 0.1778,
+    "delta": -0.4666,
+    "ratio": 0.275916,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

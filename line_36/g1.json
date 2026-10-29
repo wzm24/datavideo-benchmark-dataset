@@ -1,0 +1,395 @@
+{
+ "clip_id": "line_36",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the percentage of Americans supporting replacement of the Electoral College from 1965 through 2015 and determine whether it stayed above the majority level throughout.",
+ "chart_structure": {
+  "clip_id": "line_36",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Trace the percentage supporting replacement of the Electoral College across the full plotted series, including unlabeled turns, from 1965 through the final plotted point.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Did support remain above 50% at every plotted point, including unlabeled points?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1965",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Support for replacing the Electoral College fluctuates after 55% in 1965, reaches its highest plotted value of 80% at point_order 4 between 1965 and 1975, falls to 70% at the labeled 1975 point, generally declines to 51% in 2015, and then rises to 61% at the final plotted point.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1965",
+     "point_order": "1",
+     "field": "value",
+     "value": 55.0,
+     "unit": "%",
+     "row_sha": "a39192277ba1ed3f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 80.0,
+     "unit": "%",
+     "row_sha": "f019cba77c8b6a58"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1975",
+     "point_order": "5",
+     "field": "value",
+     "value": 70.0,
+     "unit": "%",
+     "row_sha": "42326502aae15893"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1985",
+     "point_order": "6",
+     "field": "value",
+     "value": 65.0,
+     "unit": "%",
+     "row_sha": "76a9fc946d589929"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1995",
+     "point_order": "7",
+     "field": "value",
+     "value": 60.0,
+     "unit": "%",
+     "row_sha": "4fdc7aae7d0e742f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "2005",
+     "point_order": "8",
+     "field": "value",
+     "value": 61.0,
+     "unit": "%",
+     "row_sha": "5be1d00efe3e9d94"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "2015",
+     "point_order": "10",
+     "field": "value",
+     "value": 51.0,
+     "unit": "%",
+     "row_sha": "f6c3ec7af4806d0d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "13",
+     "field": "value",
+     "value": 61.0,
+     "unit": "%",
+     "row_sha": "47f57472dcfb1c72"
+    }
+   ],
+   "computation": "The plotted maximum is 80% at point_order 4, between the 1965 and 1975 anchors. The labeled path proceeds 1975=70, 1985=65, 1995=60, 2005=61, and 2015=51. After the 2015 anchor, the unlabeled values rise to 55, 57, and 61 at point_order 13.",
+   "accept": [
+    "The trajectory includes the unlabeled 80% early peak.",
+    "The labeled 1975 value is 70%, not the overall peak.",
+    "The series ends at 61% after the 2015 value of 51%."
+   ],
+   "reject": [
+    "Claims that 70% in 1975 is the highest plotted value.",
+    "Stops the trajectory at 51% in 2015 and omits the final 61% point."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "threshold",
+   "claim": "Support for replacing the Electoral College remains above 50% at every plotted point; its minimum is 51% in 2015, and the final plotted value is 61%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1965",
+     "point_order": "1",
+     "field": "value",
+     "value": 55.0,
+     "unit": "%",
+     "row_sha": "a39192277ba1ed3f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 65.0,
+     "unit": "%",
+     "row_sha": "cc0018b97e1a539a"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 65.0,
+     "unit": "%",
+     "row_sha": "221b9c4cf253b712"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 80.0,
+     "unit": "%",
+     "row_sha": "f019cba77c8b6a58"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1975",
+     "point_order": "5",
+     "field": "value",
+     "value": 70.0,
+     "unit": "%",
+     "row_sha": "42326502aae15893"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1985",
+     "point_order": "6",
+     "field": "value",
+     "value": 65.0,
+     "unit": "%",
+     "row_sha": "76a9fc946d589929"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "1995",
+     "point_order": "7",
+     "field": "value",
+     "value": 60.0,
+     "unit": "%",
+     "row_sha": "4fdc7aae7d0e742f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "2005",
+     "point_order": "8",
+     "field": "value",
+     "value": 61.0,
+     "unit": "%",
+     "row_sha": "5be1d00efe3e9d94"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "9",
+     "field": "value",
+     "value": 61.0,
+     "unit": "%",
+     "row_sha": "430caa36a3f80608"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "2015",
+     "point_order": "10",
+     "field": "value",
+     "value": 51.0,
+     "unit": "%",
+     "row_sha": "f6c3ec7af4806d0d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "11",
+     "field": "value",
+     "value": 55.0,
+     "unit": "%",
+     "row_sha": "a6d98b5a1773909f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "12",
+     "field": "value",
+     "value": 57.0,
+     "unit": "%",
+     "row_sha": "0aa82bbc805a0e36"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Support for replacing the Electoral College",
+     "x": "",
+     "point_order": "13",
+     "field": "value",
+     "value": 61.0,
+     "unit": "%",
+     "row_sha": "47f57472dcfb1c72"
+    }
+   ],
+   "computation": "The minimum across all 13 plotted values is 51% at point_order 10 (2015); every other plotted value is at least 55%, including the final 61% at point_order 13.",
+   "accept": [
+    "Every plotted point remains above 50%.",
+    "The minimum is 51% in 2015.",
+    "The final plotted point is 61%."
+   ],
+   "reject": [
+    "Support fell below 50% at some point.",
+    "The majority level was not maintained."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [],
+ "unsupported_to_avoid": [
+  "Claiming support dropped below 50% at any time.",
+  "Claiming a monotonic increase or decrease."
+ ],
+ "review_notes": [
+  "The table includes an unlabeled row with value 80 and empty x; it is excluded from the trend and threshold units because it cannot be placed on the 1965–2015 timeline.",
+  "Only labeled years are used as evidence for the trend and majority-threshold claims.",
+  "Closure adjudication 2026-10-29: data_table.csv is authoritative; unlabeled plotted turns are retained when they belong to the series."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Support for replacing the Electoral College"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

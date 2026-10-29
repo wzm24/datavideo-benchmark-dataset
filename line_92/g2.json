@@ -1,0 +1,198 @@
+{
+ "clip_id": "line_92",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_92",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "All adults",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "All adults"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "All adults | Feb '21",
+    "All adults | #4",
+    "All adults | #7",
+    "All adults | #10",
+    "All adults | #13",
+    "All adults | #16",
+    "All adults | #19",
+    "All adults | #22",
+    "All adults | #25",
+    "All adults | June '21",
+    "All adults | #31",
+    "All adults | #34",
+    "All adults | #37",
+    "All adults | #40",
+    "All adults | Aug '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "All adults | Feb '21",
+      "value": 19.0,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #4",
+      "value": 28.1584,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #7",
+      "value": 34.4224,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #10",
+      "value": 39.8926,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #13",
+      "value": 44.92,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #16",
+      "value": 49.6558,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #19",
+      "value": 54.1594,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #22",
+      "value": 58.447,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #25",
+      "value": 62.605,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | June '21",
+      "value": 66.2392,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #31",
+      "value": 67.816,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #34",
+      "value": 69.3658,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #37",
+      "value": 70.921,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | #40",
+      "value": 72.4762,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | Aug '21",
+      "value": 73.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share of U.S. adults receiving at least one COVID-19 vaccine dose increased from 19.0% in February 2021 to 73.0% in August 2021.",
+    "start_value": 19.0,
+    "end_value": 73.0,
+    "delta": 54.0,
+    "ratio": 3.842105,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "All adults | Feb '21",
+    "All adults | Aug '21"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "All adults | Feb '21",
+      "value": 19.0,
+      "unit": "%"
+     },
+     {
+      "mark": "All adults | Aug '21",
+      "value": 73.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The share increased by 54.0 percentage points from February 2021 (19.0%) to August 2021 (73.0%).",
+    "start_value": 19.0,
+    "end_value": 73.0,
+    "delta": 54.0,
+    "ratio": 3.842105,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

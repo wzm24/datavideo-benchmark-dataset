@@ -1,0 +1,60 @@
+{
+ "clip_id": "line_19",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "b53960994e476f99fbb54a6043f6d8078bbba3081c46cb8493952d8a4a74154b",
+ "row_count": 10,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Time"
+  ],
+  "y_axes": [
+   "Sales"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Sales performance",
+   "series": "Yikes",
+   "row_count": 10,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.7,
+   "last_value": 0.18,
+   "min_value": 0.18,
+   "max_value": 0.94
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Sales performance",
+    "series": "Yikes"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

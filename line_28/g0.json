@@ -1,0 +1,76 @@
+{
+ "clip_id": "line_28",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e490d4d03f0cb2b3af1f8d898014d2dbb6e236261359b94dd00ba5b2d319f5a5",
+ "row_count": 21,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "CEO-to-worker pay ratio"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1965",
+   "1970",
+   "1980",
+   "1990",
+   "2000",
+   "2010",
+   "2018"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "CEO-worker pay gap",
+   "row_count": 21,
+   "unit": [
+    "ratio"
+   ],
+   "x_values": [
+    "1965",
+    "1970",
+    "1980",
+    "1990",
+    "2000",
+    "2010",
+    "2018"
+   ],
+   "first_value": 15.0,
+   "last_value": 220.0,
+   "min_value": 11.1,
+   "max_value": 336.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "CEO-worker pay gap"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

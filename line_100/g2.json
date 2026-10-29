@@ -1,0 +1,138 @@
+{
+ "clip_id": "line_100",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_100",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "new teacher supply",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "new teacher supply"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "new teacher supply | 2005",
+    "new teacher supply | 2008",
+    "new teacher supply | 2009",
+    "new teacher supply | 2013",
+    "new teacher supply | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "new teacher supply | 2005",
+      "value": 175000.0,
+      "unit": "count"
+     },
+     {
+      "mark": "new teacher supply | 2008",
+      "value": 195000.0,
+      "unit": "count"
+     },
+     {
+      "mark": "new teacher supply | 2009",
+      "value": 185000.0,
+      "unit": "count"
+     },
+     {
+      "mark": "new teacher supply | 2013",
+      "value": 110000.0,
+      "unit": "count"
+     },
+     {
+      "mark": "new teacher supply | 2017",
+      "value": 90000.0,
+      "unit": "count"
+     }
+    ],
+    "expected_relation": "The estimated supply of new certified teachers in the United States rose from 175,000 in 2005 to a peak of 195,000 in 2008, then declined to 90,000 by 2017.",
+    "start_value": 175000.0,
+    "end_value": 90000.0,
+    "delta": -85000.0,
+    "ratio": 0.514286,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "new teacher supply | 2005",
+    "new teacher supply | 2017"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "new teacher supply | 2005",
+      "value": 175000.0,
+      "unit": "count"
+     },
+     {
+      "mark": "new teacher supply | 2017",
+      "value": 90000.0,
+      "unit": "count"
+     }
+    ],
+    "expected_relation": "The estimated supply of new certified teachers decreased by 85,000 from 175,000 in 2005 to 90,000 in 2017, an overall decline of about 48.6%.",
+    "start_value": 175000.0,
+    "end_value": 90000.0,
+    "delta": -85000.0,
+    "ratio": 0.514286,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

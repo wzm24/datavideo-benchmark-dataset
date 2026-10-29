@@ -1,0 +1,106 @@
+{
+ "clip_id": "line_3",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6f7673c2adab7b1c5f32662afcfb5b316f10c57f632388b565a6196a5e25b50e",
+ "row_count": 72,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share of global income (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1980",
+   "1985",
+   "1990",
+   "1995",
+   "2000",
+   "2005",
+   "2010",
+   "2015"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "top 1%",
+   "row_count": 36,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1980",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015"
+   ],
+   "first_value": 16.0,
+   "last_value": 20.5,
+   "min_value": 15.5,
+   "max_value": 22.5
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "bottom 50%",
+   "row_count": 36,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1980",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015"
+   ],
+   "first_value": 8.0,
+   "last_value": 9.5,
+   "min_value": 8.0,
+   "max_value": 9.5
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "top 1%"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "bottom 50%"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

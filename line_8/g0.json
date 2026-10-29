@@ -1,0 +1,142 @@
+{
+ "clip_id": "line_8",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "5e8b75ddd0af5c81416893176d6768461b7f714ff97fb18d9de27aa5279dec29",
+ "row_count": 68,
+ "chart_structure": {
+  "sub_type": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   "Higher Average Scores",
+   "More Applicants"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Average SAT score (25th percentile)",
+   "Applications per college"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1994",
+   "1998",
+   "2002",
+   "2006",
+   "2010"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "Higher Average Scores",
+   "entity": "",
+   "series": "TEST-OPTIONAL",
+   "row_count": 21,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 953.3,
+   "last_value": 1108.3,
+   "min_value": 953.3,
+   "max_value": 1113.3
+  },
+  {
+   "panel": "Higher Average Scores",
+   "entity": "",
+   "series": "TEST-REQUIRED",
+   "row_count": 21,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 933.3,
+   "last_value": 1088.3,
+   "min_value": 933.3,
+   "max_value": 1098.3
+  },
+  {
+   "panel": "More Applicants",
+   "entity": "",
+   "series": "TEST-OPTIONAL",
+   "row_count": 13,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 1627.4,
+   "last_value": 3627.4,
+   "min_value": 1627.4,
+   "max_value": 3627.4
+  },
+  {
+   "panel": "More Applicants",
+   "entity": "",
+   "series": "TEST-REQUIRED",
+   "row_count": 13,
+   "unit": [],
+   "x_values": [
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010"
+   ],
+   "first_value": 1527.4,
+   "last_value": 2527.2,
+   "min_value": 1527.4,
+   "max_value": 2527.2
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Higher Average Scores",
+   "More Applicants"
+  ],
+  "required_series": [
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "clip_id": "line_88",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "346251e6ed77a48363bca20b030800406e6dff70beb9442bdbcecb355fa315f7",
+ "row_count": 48,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Share rating national economic conditions as excellent or good (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1992",
+   "1994",
+   "1996",
+   "1998",
+   "2000",
+   "2002",
+   "2004",
+   "2006",
+   "2008",
+   "2010",
+   "2012",
+   "2014",
+   "2016",
+   "2018"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Rep/Lean Rep",
+   "series": "",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1992",
+    "1994",
+    "1996",
+    "1998",
+    "2000",
+    "2002",
+    "2004",
+    "2006",
+    "2008",
+    "2010",
+    "2012",
+    "2014",
+    "2016",
+    "2018"
+   ],
+   "first_value": 19.1628,
+   "last_value": 75.1628,
+   "min_value": 11.1628,
+   "max_value": 78.1628
+  },
+  {
+   "panel": "",
+   "entity": "Dem/Lean Dem",
+   "series": "",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "1992",
+    "1994",
+    "1996",
+    "1998",
+    "2000",
+    "2002",
+    "2004",
+    "2006",
+    "2008",
+    "2010",
+    "2012",
+    "2014",
+    "2016",
+    "2018"
+   ],
+   "first_value": 6.1628,
+   "last_value": 38.1628,
+   "min_value": 6.1628,
+   "max_value": 71.1628
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Rep/Lean Rep",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Dem/Lean Dem",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "clip_id": "line_100",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "9bf5eed3c9894fbefbe232fdde291af998b0874d262ee135ecd4852d0c231439",
+ "row_count": 6,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Estimated supply of new certified teachers"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2005",
+   "2008",
+   "2009",
+   "2013",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "new teacher supply",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "count"
+   ],
+   "x_values": [
+    "2005",
+    "2008",
+    "2009",
+    "2013",
+    "2017"
+   ],
+   "first_value": 175000.0,
+   "last_value": 90000.0,
+   "min_value": 90000.0,
+   "max_value": 195000.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "new teacher supply",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

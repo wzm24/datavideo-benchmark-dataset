@@ -3,5 +3,10 @@
  "family": "line",
  "sub_type": "multi_panel",
  "orientation": "cartesian",
- "panel_count": 2
+ "panel_count": 2,
+ "panels": [
+  "Democratic",
+  "Republican"
+ ],
+ "time_behavior": "snapshot"
 }

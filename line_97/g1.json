@@ -1,0 +1,308 @@
+{
+ "clip_id": "line_97",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how the shares of adult unauthorized immigrants residing in the U.S. for more than ten years versus five years or less changed between 1995 and 2017.",
+ "chart_structure": {
+  "clip_id": "line_97",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 2
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How did the share of adult unauthorized immigrants residing in the U.S. for more than ten years change between 1995 and 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "More than 10 years"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How did the share of adult unauthorized immigrants residing in the U.S. for five years or less change between 1995 and 2017?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "entity": "5 years or less"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How do the changes in shares for the two duration groups compare between 1995 and 2017?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": "",
+    "entities": [
+     "More than 10 years",
+     "5 years or less"
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "More than 10 years",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "5 years or less",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The share of adult unauthorized immigrants residing in the U.S. for more than ten years increased from 33% in 1995 to 66% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "More than 10 years",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 33.0,
+     "unit": "%",
+     "row_sha": "2c2012159f30a6fe"
+    },
+    {
+     "panel": "",
+     "entity": "More than 10 years",
+     "series": "",
+     "x": "2017",
+     "point_order": "7",
+     "field": "value",
+     "value": 66.0,
+     "unit": "%",
+     "row_sha": "217e954ee3a3fa12"
+    }
+   ],
+   "computation": "Compare first (1995) and last (2017) values for the 'More than 10 years' series: 33% to 66%.",
+   "accept": [
+    "Share for more than 10 years rose from 33% to 66% between 1995 and 2017.",
+    "More than 10 years increased by 33 percentage points over the period."
+   ],
+   "reject": [
+    "Share for more than 10 years decreased.",
+    "Share for more than 10 years remained flat."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "The share of adult unauthorized immigrants residing in the U.S. for five years or less decreased from 36% in 1995 to 20% in 2017.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "5 years or less",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 36.0,
+     "unit": "%",
+     "row_sha": "2faa896b8afa1224"
+    },
+    {
+     "panel": "",
+     "entity": "5 years or less",
+     "series": "",
+     "x": "2017",
+     "point_order": "7",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "4b2c4dd3270a9e2f"
+    }
+   ],
+   "computation": "Compare first (1995) and last (2017) values for the '5 years or less' series: 36% to 20%.",
+   "accept": [
+    "Share for 5 years or less fell from 36% to 20% between 1995 and 2017.",
+    "5 years or less decreased by 16 percentage points over the period."
+   ],
+   "reject": [
+    "Share for 5 years or less increased.",
+    "Share for 5 years or less remained flat."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Between 1995 and 2017, the share for more than ten years rose (33% to 66%) while the share for five years or less fell (36% to 20%), reversing their relative positions.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "More than 10 years",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 33.0,
+     "unit": "%",
+     "row_sha": "2c2012159f30a6fe"
+    },
+    {
+     "panel": "",
+     "entity": "More than 10 years",
+     "series": "",
+     "x": "2017",
+     "point_order": "7",
+     "field": "value",
+     "value": 66.0,
+     "unit": "%",
+     "row_sha": "217e954ee3a3fa12"
+    },
+    {
+     "panel": "",
+     "entity": "5 years or less",
+     "series": "",
+     "x": "1995",
+     "point_order": "1",
+     "field": "value",
+     "value": 36.0,
+     "unit": "%",
+     "row_sha": "2faa896b8afa1224"
+    },
+    {
+     "panel": "",
+     "entity": "5 years or less",
+     "series": "",
+     "x": "2017",
+     "point_order": "7",
+     "field": "value",
+     "value": 20.0,
+     "unit": "%",
+     "row_sha": "4b2c4dd3270a9e2f"
+    }
+   ],
+   "computation": "Compare endpoint changes: More than 10 years +33 pp (33→66); 5 years or less -16 pp (36→20). In 1995 the 5-years-or-less share was higher (36% vs 33%); by 2017 the more-than-10-years share was much higher (66% vs 20%).",
+   "accept": [
+    "The two groups moved in opposite directions: more than 10 years increased while 5 years or less decreased.",
+    "The more-than-10-years share overtook the 5-years-or-less share between 1995 and 2017."
+   ],
+   "reject": [
+    "Both groups increased.",
+    "Both groups decreased.",
+    "The 5-years-or-less share remained higher than the more-than-10-years share in 2017."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mentioning intermediate values such as 50% in 2010 for more than 10 years or 23% in 2010 for 5 years or less.",
+  "Noting the crossing point occurs between 1995 and 2000 when the more-than-10-years share surpasses the 5-years-or-less share."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the changes.",
+  "Claims about absolute numbers of immigrants rather than shares.",
+  "Data for years not present in the table (e.g., 2015)."
+ ],
+ "review_notes": [
+  "The x-axis anchors include 2013 but the 'More than 10 years' series has 2012 instead; each series uses its own listed x-values.",
+  "The intent asks for comparison of changes between 1995 and 2017, so endpoint-based trend units and one cross-series comparison unit cover the requested analytical operations."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "More than 10 years",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "5 years or less",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

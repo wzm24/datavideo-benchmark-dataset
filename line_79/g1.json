@@ -1,0 +1,247 @@
+{
+ "clip_id": "line_79",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the seven-day moving average of confirmed daily COVID-19 deaths in India from March 2020 through April 2021 and identify when the series reaches its highest value.",
+ "chart_structure": {
+  "clip_id": "line_79",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the seven-day moving average of confirmed daily COVID-19 deaths in India from March 2020 through April 2021 and identify when the series reaches its highest value?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "What is the highest plotted value, and where does it occur relative to the last explicit month labels?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The seven-day moving average of confirmed daily COVID-19 deaths in India rises from 46.7314 in March 2020 to a local peak of 1115.3505 in October 2020, then falls to 137.2607 at an unlabeled point between February and March 2021 before rising again through the final plotted point.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "Mar 2020",
+     "point_order": "1",
+     "field": "value",
+     "value": 46.7314,
+     "unit": "deaths",
+     "row_sha": "432e38621a8d8d1c"
+    },
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "Oct 2020",
+     "point_order": "101",
+     "field": "value",
+     "value": 1115.3505,
+     "unit": "deaths",
+     "row_sha": "63c4a6da92915b03"
+    },
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "",
+     "point_order": "164",
+     "field": "value",
+     "value": 137.2607,
+     "unit": "deaths",
+     "row_sha": "c98150a975566490"
+    },
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "",
+     "point_order": "200",
+     "field": "value",
+     "value": 3233.9229,
+     "unit": "deaths",
+     "row_sha": "dc2b09f5589b321c"
+    }
+   ],
+   "computation": "Start: 46.7314 at point_order 1. Local peak: 1115.3505 at point_order 101. Subsequent trough: 137.2607 at point_order 164. Final value: 3233.9229 at point_order 200.",
+   "accept": [
+    "Describes an initial rise to 1115.3505 in October 2020.",
+    "Places the subsequent trough at 137.2607 between February and March 2021.",
+    "Describes a renewed rise through the final plotted point."
+   ],
+   "reject": [
+    "Claims the series rises monotonically throughout the period.",
+    "Places the October 2020 local peak near 1210.5.",
+    "Omits the post-February trough."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "extremum",
+   "claim": "The highest plotted value is 3233.9229 deaths at point_order 200, after the last explicit April 2021 anchor at point_order 186.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "Oct 2020",
+     "point_order": "101",
+     "field": "value",
+     "value": 1115.3505,
+     "unit": "deaths",
+     "row_sha": "63c4a6da92915b03"
+    },
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "Apr 2021",
+     "point_order": "186",
+     "field": "value",
+     "value": 365.9172,
+     "unit": "deaths",
+     "row_sha": "c18683927efbbb6d"
+    },
+    {
+     "panel": "",
+     "entity": "daily deaths 7dma",
+     "series": "",
+     "x": "",
+     "point_order": "200",
+     "field": "value",
+     "value": 3233.9229,
+     "unit": "deaths",
+     "row_sha": "dc2b09f5589b321c"
+    }
+   ],
+   "computation": "The maximum across the table is 3233.9229 at point_order 200. It is higher than the October 2020 local peak (1115.3505) and the explicit April 2021 anchor (365.9172 at point_order 186).",
+   "accept": [
+    "Identifies the maximum as 3233.9229 deaths at the final plotted point.",
+    "States that the maximum occurs after the last explicit April 2021 anchor."
+   ],
+   "reject": [
+    "Identifies October 2020 as the overall maximum.",
+    "Reports 2928.7365 as the maximum.",
+    "Claims that point_order 200 is an explicitly printed April 2021 value."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions the local peak around October 2020 as part of the trend description.",
+  "Notes the low point in March 2021 before the final rise."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the rise or fall in deaths.",
+  "Comparisons with other countries or regions not present in the table.",
+  "Claims about daily new cases or other metrics not shown.",
+  "Precise values for months not included in the table summary."
+ ],
+ "review_notes": [
+  "The table summary lists monthly anchor points plus a final point at point_order 200 with no x label; the final point is treated as the April 2021 endpoint for the extremum.",
+  "The trend unit uses only the minimal sequence needed to show the overall shape and the October 2020 local peak; individual monthly points are not split into separate units.",
+  "Closure truth correction 2026-10-29: claims, ranges, computations, and relations were checked against data_table.csv."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily deaths 7dma",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

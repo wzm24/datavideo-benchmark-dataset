@@ -1,0 +1,233 @@
+{
+ "clip_id": "line_90",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the U.S. troop level in Iraq across the displayed period and compare its major phases.",
+ "chart_structure": {
+  "clip_id": "line_90",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 1
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Does the video trace the U.S. troop level in Iraq across the displayed period and compare its major phases?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": ""
+   }
+  },
+  {
+   "id": "R3",
+   "question": "The major phases of the U.S. troop level differ: the buildup phase reaches a much higher level than the early and late low phases, and the later phase is lower than the peak phase.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "2005",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The U.S. troop level in Iraq rises from a low early value to a peak, then declines toward the end of the displayed period.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 2380.9524,
+     "unit": "troops",
+     "row_sha": "6662bbb1bc4a2e57"
+    },
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "57",
+     "field": "value",
+     "value": 174380.9524,
+     "unit": "troops",
+     "row_sha": "177fd43e82ab89e2"
+    },
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "72",
+     "field": "value",
+     "value": 2380.9524,
+     "unit": "troops",
+     "row_sha": "8d823c306932c4e1"
+    }
+   ],
+   "computation": "Compare the early low (point_order 1, value 2380.9524), the maximum (point_order 57, value 174380.9524), and the final value (point_order 72, value 2380.9524) to establish an overall rise-then-fall trajectory.",
+   "accept": [
+    "Shows the troop level starting low, rising to a peak, and then falling by the end of the period.",
+    "Identifies the peak near point_order 57 and the low endpoints near point_order 1 and point_order 72."
+   ],
+   "reject": [
+    "Claims the troop level is flat or monotonically increasing across the whole period.",
+    "Omits the final decline after the peak."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "The major phases of the U.S. troop level differ: the buildup phase reaches a much higher level than the early and late low phases, and the later phase is lower than the peak phase.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 2380.9524,
+     "unit": "troops",
+     "row_sha": "6662bbb1bc4a2e57"
+    },
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "57",
+     "field": "value",
+     "value": 174380.9524,
+     "unit": "troops",
+     "row_sha": "177fd43e82ab89e2"
+    },
+    {
+     "panel": "",
+     "entity": "US troops",
+     "series": "",
+     "x": "",
+     "point_order": "72",
+     "field": "value",
+     "value": 2380.9524,
+     "unit": "troops",
+     "row_sha": "8d823c306932c4e1"
+    }
+   ],
+   "computation": "Compare the early low (2380.9524), peak (174380.9524), and final low (2380.9524) to distinguish the buildup/peak phase from the low phases at the start and end.",
+   "accept": [
+    "Contrasts the high peak phase with the much lower early and late phases.",
+    "States that the peak troop level is substantially greater than the starting and ending levels."
+   ],
+   "reject": [
+    "Treats all phases as having similar troop levels.",
+    "Fails to distinguish the peak phase from the low phases."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Mentions that the maximum troop level is about 174,381 troops.",
+  "Notes that the starting and ending values are both about 2,381 troops."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for the troop level changes.",
+  "Specific year labels for phases not present in the table summary.",
+  "Claims about exact percentage changes without computing them from the table."
+ ],
+ "review_notes": [
+  "The table summary provides point_order values but no explicit x labels for most rows; basis rows use point_order as required.",
+  "Only two semantic units are used: one overall trend and one phase comparison, matching the intent's two analytical operations."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "US troops",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

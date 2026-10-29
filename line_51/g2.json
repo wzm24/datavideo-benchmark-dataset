@@ -1,0 +1,258 @@
+{
+ "clip_id": "line_51",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_51",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 3,
+  "panels": [
+   "IRS BUDGET (2018 DOLLARS)",
+   "IRS REVENUE AGENTS",
+   "IRS AUDITS PER YEAR"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "IRS BUDGET (2018 DOLLARS)",
+    "entity": "",
+    "series": "IRS BUDGET (2018 DOLLARS)"
+   },
+   {
+    "panel": "IRS REVENUE AGENTS",
+    "entity": "",
+    "series": "IRS REVENUE AGENTS"
+   },
+   {
+    "panel": "IRS AUDITS PER YEAR",
+    "entity": "",
+    "series": "IRS AUDITS PER YEAR"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2011",
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2012",
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2013",
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2014",
+    "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2011",
+      "value": 13.0,
+      "unit": "$B"
+     },
+     {
+      "mark": "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2012",
+      "value": 12.0,
+      "unit": "$B"
+     },
+     {
+      "mark": "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2013",
+      "value": 11.5,
+      "unit": "$B"
+     },
+     {
+      "mark": "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2014",
+      "value": 11.0,
+      "unit": "$B"
+     },
+     {
+      "mark": "IRS BUDGET (2018 DOLLARS) | IRS BUDGET (2018 DOLLARS) | 2015",
+      "value": 12.0,
+      "unit": "$B"
+     }
+    ],
+    "expected_relation": "In the IRS BUDGET (2018 DOLLARS) panel, the budget decreased from $13.0B in 2011 to $11.0B in 2014, then rose to $12.0B in 2015, ending lower than it started.",
+    "start_value": 13.0,
+    "end_value": 12.0,
+    "delta": -1.0,
+    "ratio": 0.923077,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2011",
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2012",
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2013",
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2014",
+    "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2011",
+      "value": 13.5,
+      "unit": "k"
+     },
+     {
+      "mark": "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2012",
+      "value": 12.5,
+      "unit": "k"
+     },
+     {
+      "mark": "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2013",
+      "value": 12.0,
+      "unit": "k"
+     },
+     {
+      "mark": "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2014",
+      "value": 11.0,
+      "unit": "k"
+     },
+     {
+      "mark": "IRS REVENUE AGENTS | IRS REVENUE AGENTS | 2015",
+      "value": 10.0,
+      "unit": "k"
+     }
+    ],
+    "expected_relation": "In the IRS REVENUE AGENTS panel, the number of revenue agents decreased each year from 13.5k in 2011 to 10.0k in 2015.",
+    "start_value": 13.5,
+    "end_value": 10.0,
+    "delta": -3.5,
+    "ratio": 0.740741,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2011",
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2012",
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2013",
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2014",
+    "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2015"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2011",
+      "value": 1.7,
+      "unit": "M"
+     },
+     {
+      "mark": "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2012",
+      "value": 1.6,
+      "unit": "M"
+     },
+     {
+      "mark": "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2013",
+      "value": 1.5,
+      "unit": "M"
+     },
+     {
+      "mark": "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2014",
+      "value": 1.3,
+      "unit": "M"
+     },
+     {
+      "mark": "IRS AUDITS PER YEAR | IRS AUDITS PER YEAR | 2015",
+      "value": 1.2,
+      "unit": "M"
+     }
+    ],
+    "expected_relation": "In the IRS AUDITS PER YEAR panel, the number of audits decreased each year from 1.7M in 2011 to 1.2M in 2015.",
+    "start_value": 1.7,
+    "end_value": 1.2,
+    "delta": -0.5,
+    "ratio": 0.705882,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

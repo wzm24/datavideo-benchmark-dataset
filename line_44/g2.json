@@ -1,0 +1,180 @@
+{
+ "clip_id": "line_44",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_44",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Base Rate Bank of England"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Mortgage rate (Example: 5 year fixed, 75% LTV)"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Base Rate Bank of England",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV)"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Base Rate Bank of England | 1991",
+    "Base Rate Bank of England | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Base Rate Bank of England | 1991",
+      "value": 13.8685,
+      "unit": "%"
+     },
+     {
+      "mark": "Base Rate Bank of England | 2016",
+      "value": 0.2504,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The Bank of England base rate shows a long-term downward trajectory from 1991 to 2016, starting at 13.8685% in 1991 and ending at 0.2504% in 2016.",
+    "start_value": 13.8685,
+    "end_value": 0.2504,
+    "delta": -13.6181,
+    "ratio": 0.018055,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1995",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1995",
+      "value": 8.7195,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016",
+      "value": 2.2802,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The example five-year fixed mortgage rate shows a long-term downward trajectory from 1995 to 2016, starting at 8.7195% in 1995 and ending at 2.2802% in 2016.",
+    "start_value": 8.7195,
+    "end_value": 2.2802,
+    "delta": -6.4393,
+    "ratio": 0.261506,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Base Rate Bank of England | 1991",
+    "Base Rate Bank of England | 2016",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1995",
+    "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Base Rate Bank of England | 1991",
+      "value": 13.8685,
+      "unit": "%"
+     },
+     {
+      "mark": "Base Rate Bank of England | 2016",
+      "value": 0.2504,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1995",
+      "value": 8.7195,
+      "unit": "%"
+     },
+     {
+      "mark": "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016",
+      "value": 2.2802,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "The Bank of England base rate and the example five-year fixed mortgage rate follow broadly similar downward trajectories over their overlapping period, with the mortgage rate generally remaining above the base rate.",
+    "start_value": 13.8685,
+    "end_value": 2.2802,
+    "delta": -11.5883,
+    "ratio": 0.164416,
+    "direction": "decreasing",
+    "expected_order": [
+     "Base Rate Bank of England | 1991",
+     "Mortgage rate (Example: 5 year fixed, 75% LTV) | 1995",
+     "Mortgage rate (Example: 5 year fixed, 75% LTV) | 2016",
+     "Base Rate Bank of England | 2016"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

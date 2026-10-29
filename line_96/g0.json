@@ -1,0 +1,106 @@
+{
+ "clip_id": "line_96",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "7f5cb8c599581a3e324b0d55656634c10ac9bee12ee5538f3ce714d1e39f21f6",
+ "row_count": 16,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "U.S. unauthorized immigrant population (millions)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1990",
+   "1995",
+   "2000",
+   "2005",
+   "2007",
+   "2010",
+   "2015",
+   "2017"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Mexico",
+   "series": "",
+   "row_count": 8,
+   "unit": [
+    "million"
+   ],
+   "x_values": [
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2007",
+    "2010",
+    "2015",
+    "2017"
+   ],
+   "first_value": 2.0,
+   "last_value": 4.9,
+   "min_value": 2.0,
+   "max_value": 6.9
+  },
+  {
+   "panel": "",
+   "entity": "Other countries",
+   "series": "",
+   "row_count": 8,
+   "unit": [
+    "million"
+   ],
+   "x_values": [
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2007",
+    "2010",
+    "2015",
+    "2017"
+   ],
+   "first_value": 1.5,
+   "last_value": 5.5,
+   "min_value": 1.5,
+   "max_value": 5.5
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Mexico",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Other countries",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

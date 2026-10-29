@@ -1,0 +1,452 @@
+{
+ "clip_id": "line_8",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare average SAT scores and application counts between test-optional and test-required colleges over the years shown.",
+ "chart_structure": {
+  "clip_id": "line_8",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "panels": [
+   "Higher Average Scores",
+   "More Applicants"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "panels": [
+     "Higher Average Scores",
+     "More Applicants"
+    ],
+    "required_series_count": 4
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare average SAT scores between test-optional and test-required colleges over the years shown.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "Higher Average Scores"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "Compare application counts between test-optional and test-required colleges over the years shown.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": "More Applicants"
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel Higher Average Scores.",
+   "basis": [
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1994",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1994",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel More Applicants.",
+   "basis": [
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1994",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1994",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "In the Higher Average Scores panel, test-optional colleges have higher average SAT scores than test-required colleges at every shown year from 1994 to 2010.",
+   "basis": [
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1994",
+     "point_order": "1",
+     "field": "value",
+     "value": 953.3,
+     "unit": "",
+     "row_sha": "e953036b0b006e6e"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1994",
+     "point_order": "1",
+     "field": "value",
+     "value": 933.3,
+     "unit": "",
+     "row_sha": "acc2406d1f826176"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1998",
+     "point_order": "6",
+     "field": "value",
+     "value": 1080.8,
+     "unit": "",
+     "row_sha": "00940e9b95197aed"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1998",
+     "point_order": "6",
+     "field": "value",
+     "value": 1074.3,
+     "unit": "",
+     "row_sha": "bb780e3f1b59c04e"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2002",
+     "point_order": "11",
+     "field": "value",
+     "value": 1088.3,
+     "unit": "",
+     "row_sha": "7573bd7023d5bead"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2002",
+     "point_order": "11",
+     "field": "value",
+     "value": 1085.3,
+     "unit": "",
+     "row_sha": "35afe07eba7c3ea3"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2006",
+     "point_order": "16",
+     "field": "value",
+     "value": 1110.8,
+     "unit": "",
+     "row_sha": "87009ec70a41d2c8"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2006",
+     "point_order": "16",
+     "field": "value",
+     "value": 1096.8,
+     "unit": "",
+     "row_sha": "ff2e56ba18932933"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2010",
+     "point_order": "21",
+     "field": "value",
+     "value": 1108.3,
+     "unit": "",
+     "row_sha": "3959ce6bd1aa557f"
+    },
+    {
+     "panel": "Higher Average Scores",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2010",
+     "point_order": "21",
+     "field": "value",
+     "value": 1088.3,
+     "unit": "",
+     "row_sha": "5eb54ca7db3e9c42"
+    }
+   ],
+   "computation": "At each x anchor, compare TEST-OPTIONAL value to TEST-REQUIRED value; TEST-OPTIONAL > TEST-REQUIRED at all five anchors (953.3>933.3, 1080.8>1074.3, 1088.3>1085.3, 1110.8>1096.8, 1108.3>1088.3).",
+   "accept": [
+    "Test-optional average SAT scores are above test-required scores at every shown year.",
+    "The gap between test-optional and test-required average SAT scores is positive across 1994-2010."
+   ],
+   "reject": [
+    "Test-required colleges have higher average SAT scores than test-optional colleges.",
+    "The two series cross or tie at any shown year."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R3",
+   "unit_kind": "comparison",
+   "claim": "In the More Applicants panel, test-optional colleges have more applications per college than test-required colleges at every shown year from 1994 to 2010, and the gap widens over time.",
+   "basis": [
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1994",
+     "point_order": "1",
+     "field": "value",
+     "value": 1627.4,
+     "unit": "",
+     "row_sha": "a3beb1f98a6f49fe"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1994",
+     "point_order": "1",
+     "field": "value",
+     "value": 1527.4,
+     "unit": "",
+     "row_sha": "8d63ee8c29e7a965"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "1998",
+     "point_order": "4",
+     "field": "value",
+     "value": 1712.5,
+     "unit": "",
+     "row_sha": "9316fc8965eab3c2"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "1998",
+     "point_order": "4",
+     "field": "value",
+     "value": 1627.6,
+     "unit": "",
+     "row_sha": "40f5dfd79ae837b8"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2002",
+     "point_order": "7",
+     "field": "value",
+     "value": 1977.5,
+     "unit": "",
+     "row_sha": "c9af6b6fa3a29c06"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2002",
+     "point_order": "7",
+     "field": "value",
+     "value": 1827.3,
+     "unit": "",
+     "row_sha": "592039c4effdc5a3"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2006",
+     "point_order": "10",
+     "field": "value",
+     "value": 2427.2,
+     "unit": "",
+     "row_sha": "29fc190082567480"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2006",
+     "point_order": "10",
+     "field": "value",
+     "value": 2152.3,
+     "unit": "",
+     "row_sha": "747e22495bd6bef9"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-OPTIONAL",
+     "x": "2010",
+     "point_order": "13",
+     "field": "value",
+     "value": 3627.4,
+     "unit": "",
+     "row_sha": "25acf2ba7adccba8"
+    },
+    {
+     "panel": "More Applicants",
+     "entity": "",
+     "series": "TEST-REQUIRED",
+     "x": "2010",
+     "point_order": "13",
+     "field": "value",
+     "value": 2527.2,
+     "unit": "",
+     "row_sha": "905107ccfe23b3d0"
+    }
+   ],
+   "computation": "At each x anchor, compare TEST-OPTIONAL value to TEST-REQUIRED value; TEST-OPTIONAL > TEST-REQUIRED at all five anchors (1627.4>1527.4, 1712.5>1627.6, 1977.5>1827.3, 2427.2>2152.3, 3627.4>2527.2); the difference grows from 100.0 to 1100.2.",
+   "accept": [
+    "Test-optional colleges have more applications per college than test-required colleges at every shown year.",
+    "The application-count advantage of test-optional colleges increases from 1994 to 2010."
+   ],
+   "reject": [
+    "Test-required colleges have more applications per college than test-optional colleges.",
+    "The two series cross or tie at any shown year."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Both panels show test-optional colleges above test-required colleges across the years.",
+  "Average SAT scores rise for both groups from 1994 to 2010."
+ ],
+ "unsupported_to_avoid": [
+  "Causal claims that test-optional policies caused higher scores or applications.",
+  "Claims about years not shown in the table.",
+  "Claims about statistical significance or exact percentage changes not computed from the table."
+ ],
+ "review_notes": [
+  "Intent asks for comparison of both average SAT scores and application counts between test-optional and test-required colleges over the years shown; one comparison unit per panel is used.",
+  "The table contains extra rows with empty x values (point_order 17) that are not part of the explicit x anchors; they are excluded from the comparison basis.",
+  "Panel identity is included in each claim and basis rows."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Higher Average Scores",
+   "More Applicants"
+  ],
+  "required_series": [
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "Higher Average Scores",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "More Applicants",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

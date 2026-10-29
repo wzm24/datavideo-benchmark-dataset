@@ -1,0 +1,60 @@
+{
+ "clip_id": "line_23",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "8683b3881850edfcd75773a3a502fe7ee6f421bf4fe445e340bf2a2e75bd36dd",
+ "row_count": 40,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Days"
+  ],
+  "y_axes": [
+   "Ship and cargo value (relative)"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Ship cargo value",
+   "series": "",
+   "row_count": 40,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.75,
+   "last_value": 0.09,
+   "min_value": 0.09,
+   "max_value": 0.75
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Ship cargo value",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

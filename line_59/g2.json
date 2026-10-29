@@ -1,0 +1,94 @@
+{
+ "clip_id": "line_59",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_59",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Remain"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Leave"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Remain",
+    "Leave"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Remain | June 23, 2016",
+    "Leave | June 23, 2016"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Remain | June 23, 2016",
+      "value": 48.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Leave | June 23, 2016",
+      "value": 46.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "At the final polling point on June 23, 2016, Remain's share was 48% and Leave's share was 46%, so Remain was still higher at the final point.",
+    "start_value": 48.0,
+    "end_value": 46.0,
+    "delta": -2.0,
+    "ratio": 0.958333,
+    "direction": "decreasing",
+    "expected_order": [
+     "Remain | June 23, 2016",
+     "Leave | June 23, 2016"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

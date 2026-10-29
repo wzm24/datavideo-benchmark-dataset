@@ -1,16 +1,76 @@
-clip_id,entity,entity_id,x_px,x_value,value,relative_value,unit,color,source_type,series
-line_22,F,f,120.0,1961,5.9998,0.1500,,#d98c9e,svg_geometry,
-line_22,F,f,193.3,,4.9995,0.1250,,#d98c9e,svg_geometry,
-line_22,F,f,266.7,1967,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,340.0,,2.9990,0.0750,,#d98c9e,svg_geometry,
-line_22,F,f,413.3,,2.9990,0.0750,,#d98c9e,svg_geometry,
-line_22,F,f,486.7,,1.9987,0.0500,,#d98c9e,svg_geometry,
-line_22,F,f,560.0,1979,2.9990,0.0750,,#d98c9e,svg_geometry,
-line_22,F,f,633.3,,1.9987,0.0500,,#d98c9e,svg_geometry,
-line_22,F,f,706.7,1985,2.9990,0.0750,,#d98c9e,svg_geometry,
-line_22,F,f,780.0,,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,853.3,,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,926.7,,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,1000.0,1997,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,1097.8,,3.9993,0.1000,,#d98c9e,svg_geometry,
-line_22,F,f,1220.0,2006,3.9993,0.1000,,#d98c9e,svg_geometry,
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Year,Share of each letter grade (%),,A,1961,1,16,%,,line
+,Year,Share of each letter grade (%),,A,,2,19,%,,line
+,Year,Share of each letter grade (%),,A,1967,3,19,%,,line
+,Year,Share of each letter grade (%),,A,,4,28,%,,line
+,Year,Share of each letter grade (%),,A,1973,5,33,%,,line
+,Year,Share of each letter grade (%),,A,,6,32,%,,line
+,Year,Share of each letter grade (%),,A,1979,7,30,%,,line
+,Year,Share of each letter grade (%),,A,,8,29,%,,line
+,Year,Share of each letter grade (%),,A,1985,9,31,%,,line
+,Year,Share of each letter grade (%),,A,,10,31,%,,line
+,Year,Share of each letter grade (%),,A,1991,11,35,%,,line
+,Year,Share of each letter grade (%),,A,,12,37,%,,line
+,Year,Share of each letter grade (%),,A,1997,13,40,%,,line
+,Year,Share of each letter grade (%),,A,,14,42,%,,line
+,Year,Share of each letter grade (%),,A,2006,15,43,%,,line
+,Year,Share of each letter grade (%),,B,1961,1,32,%,,line
+,Year,Share of each letter grade (%),,B,,2,36,%,,line
+,Year,Share of each letter grade (%),,B,1967,3,39,%,,line
+,Year,Share of each letter grade (%),,B,,4,38,%,,line
+,Year,Share of each letter grade (%),,B,1973,5,41,%,,line
+,Year,Share of each letter grade (%),,B,,6,40,%,,line
+,Year,Share of each letter grade (%),,B,1979,7,39,%,,line
+,Year,Share of each letter grade (%),,B,,8,40,%,,line
+,Year,Share of each letter grade (%),,B,1985,9,40,%,,line
+,Year,Share of each letter grade (%),,B,,10,38,%,,line
+,Year,Share of each letter grade (%),,B,1991,11,36,%,,line
+,Year,Share of each letter grade (%),,B,,12,36,%,,line
+,Year,Share of each letter grade (%),,B,1997,13,36,%,,line
+,Year,Share of each letter grade (%),,B,,14,35,%,,line
+,Year,Share of each letter grade (%),,B,2006,15,34,%,,line
+,Year,Share of each letter grade (%),,C,1961,1,35,%,,line
+,Year,Share of each letter grade (%),,C,,2,31,%,,line
+,Year,Share of each letter grade (%),,C,1967,3,28,%,,line
+,Year,Share of each letter grade (%),,C,,4,24,%,,line
+,Year,Share of each letter grade (%),,C,1973,5,20,%,,line
+,Year,Share of each letter grade (%),,C,,6,21,%,,line
+,Year,Share of each letter grade (%),,C,1979,7,21,%,,line
+,Year,Share of each letter grade (%),,C,,8,23,%,,line
+,Year,Share of each letter grade (%),,C,1985,9,21,%,,line
+,Year,Share of each letter grade (%),,C,,10,20,%,,line
+,Year,Share of each letter grade (%),,C,1991,11,19,%,,line
+,Year,Share of each letter grade (%),,C,,12,17,%,,line
+,Year,Share of each letter grade (%),,C,1997,13,16,%,,line
+,Year,Share of each letter grade (%),,C,,14,15,%,,line
+,Year,Share of each letter grade (%),,C,2006,15,14,%,,line
+,Year,Share of each letter grade (%),,D,1961,1,11,%,,line
+,Year,Share of each letter grade (%),,D,,2,9,%,,line
+,Year,Share of each letter grade (%),,D,1967,3,8,%,,line
+,Year,Share of each letter grade (%),,D,,4,6,%,,line
+,Year,Share of each letter grade (%),,D,1973,5,5,%,,line
+,Year,Share of each letter grade (%),,D,,6,5,%,,line
+,Year,Share of each letter grade (%),,D,1979,7,6,%,,line
+,Year,Share of each letter grade (%),,D,,8,6,%,,line
+,Year,Share of each letter grade (%),,D,1985,9,6,%,,line
+,Year,Share of each letter grade (%),,D,,10,6,%,,line
+,Year,Share of each letter grade (%),,D,1991,11,5,%,,line
+,Year,Share of each letter grade (%),,D,,12,5,%,,line
+,Year,Share of each letter grade (%),,D,1997,13,4,%,,line
+,Year,Share of each letter grade (%),,D,,14,4,%,,line
+,Year,Share of each letter grade (%),,D,2006,15,4,%,,line
+,Year,Share of each letter grade (%),,F,1961,1,6,%,,line
+,Year,Share of each letter grade (%),,F,,2,5,%,,line
+,Year,Share of each letter grade (%),,F,1967,3,4,%,,line
+,Year,Share of each letter grade (%),,F,,4,3,%,,line
+,Year,Share of each letter grade (%),,F,1973,5,3,%,,line
+,Year,Share of each letter grade (%),,F,,6,2,%,,line
+,Year,Share of each letter grade (%),,F,1979,7,3,%,,line
+,Year,Share of each letter grade (%),,F,,8,2,%,,line
+,Year,Share of each letter grade (%),,F,1985,9,3,%,,line
+,Year,Share of each letter grade (%),,F,,10,4,%,,line
+,Year,Share of each letter grade (%),,F,1991,11,4,%,,line
+,Year,Share of each letter grade (%),,F,,12,4,%,,line
+,Year,Share of each letter grade (%),,F,1997,13,4,%,,line
+,Year,Share of each letter grade (%),,F,,14,4,%,,line
+,Year,Share of each letter grade (%),,F,2006,15,4,%,,line

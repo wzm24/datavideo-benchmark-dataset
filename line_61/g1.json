@@ -1,0 +1,597 @@
+{
+ "clip_id": "line_61",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare telephone survey estimates of Democratic and Republican party identification with federal survey benchmarks over the years to determine how closely they track.",
+ "chart_structure": {
+  "clip_id": "line_61",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "panels": [
+   "Democratic",
+   "Republican"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "panels": [
+     "Democratic",
+     "Republican"
+    ],
+    "required_series_count": 4
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How closely do telephone survey estimates of Democratic and Republican party identification track federal survey benchmarks over the years?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "In the Republican panel, both Pew Research Center and General Social Survey estimates decline from 1990 to 2016, with Pew falling from 31% to 22.14% and GSS falling from 33% to 21.24%, so the two series track closely in direction and level.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Across both panels, the telephone survey estimates (Pew Research Center) and federal survey benchmarks (General Social Survey) track more closely for Republican identification than for Democratic identification, because the Republican series remain near each other while the Democratic series diverge.",
+   "relation": "single",
+   "unit_ids": [
+    "U5"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R5",
+   "question": "The chart has two panels: the Democratic panel shows share identifying with the Democratic Party, and the Republican panel shows share identifying with the Republican Party, each with Pew Research Center and General Social Survey series over years.",
+   "relation": "single",
+   "unit_ids": [
+    "U6"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel Democratic.",
+   "basis": [
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required series appear in panel Republican.",
+   "basis": [
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the Democratic panel, Pew Research Center estimates rise from 31% in 1990 to 38.11% in 2016, while General Social Survey estimates decline from 35% in 1990 to 32.52% in 2016, so the two series diverge over time.",
+   "basis": [
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "4973e3d1108dc66d"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2000",
+     "point_order": "10",
+     "field": "value",
+     "value": 28.13,
+     "unit": "%",
+     "row_sha": "68765555fe6c60a0"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2010",
+     "point_order": "20",
+     "field": "value",
+     "value": 35.11,
+     "unit": "%",
+     "row_sha": "c71e871876f0e5b9"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2016",
+     "point_order": "24",
+     "field": "value",
+     "value": 38.11,
+     "unit": "%",
+     "row_sha": "d92acfd98c6eb57d"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "b00d9f63a246d1be"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 33.22,
+     "unit": "%",
+     "row_sha": "5d81e1e5e1897043"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2010",
+     "point_order": "10",
+     "field": "value",
+     "value": 33.11,
+     "unit": "%",
+     "row_sha": "f7d1a287a95055c9"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2016",
+     "point_order": "13",
+     "field": "value",
+     "value": 32.52,
+     "unit": "%",
+     "row_sha": "60968e84a5245522"
+    }
+   ],
+   "computation": "Compare the direction and magnitude of change for each series in the Democratic panel from 1990 to 2016.",
+   "accept": [
+    "Pew Research Center Democratic identification increases from 31% to 38.11%.",
+    "General Social Survey Democratic identification decreases from 35% to 32.52%.",
+    "The two Democratic series diverge over the period."
+   ],
+   "reject": [
+    "Both Democratic series increase over the period.",
+    "The Democratic series track closely throughout."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the Republican panel, both Pew Research Center and General Social Survey estimates decline from 1990 to 2016, with Pew falling from 31% to 22.14% and GSS falling from 33% to 21.24%, so the two series track closely in direction and level.",
+   "basis": [
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "b1aae91d566386a1"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2000",
+     "point_order": "10",
+     "field": "value",
+     "value": 27.12,
+     "unit": "%",
+     "row_sha": "7b740fbf7cf07472"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2010",
+     "point_order": "20",
+     "field": "value",
+     "value": 24.13,
+     "unit": "%",
+     "row_sha": "9cde4faff926c4b5"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2016",
+     "point_order": "24",
+     "field": "value",
+     "value": 22.14,
+     "unit": "%",
+     "row_sha": "7e09d328e6e0cc5a"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 33.0,
+     "unit": "%",
+     "row_sha": "d3d8e147fb69fa33"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2000",
+     "point_order": "6",
+     "field": "value",
+     "value": 24.63,
+     "unit": "%",
+     "row_sha": "b2964f91a008eea8"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2010",
+     "point_order": "10",
+     "field": "value",
+     "value": 21.63,
+     "unit": "%",
+     "row_sha": "0a370c871e36bef6"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2016",
+     "point_order": "13",
+     "field": "value",
+     "value": 21.24,
+     "unit": "%",
+     "row_sha": "f2be691452778757"
+    }
+   ],
+   "computation": "Compare the direction and magnitude of change for each series in the Republican panel from 1990 to 2016.",
+   "accept": [
+    "Pew Research Center Republican identification decreases from 31% to 22.14%.",
+    "General Social Survey Republican identification decreases from 33% to 21.24%.",
+    "The two Republican series track closely over the period."
+   ],
+   "reject": [
+    "Both Republican series increase over the period.",
+    "The Republican series diverge substantially."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "Across both panels, the telephone survey estimates (Pew Research Center) and federal survey benchmarks (General Social Survey) track more closely for Republican identification than for Democratic identification, because the Republican series remain near each other while the Democratic series diverge.",
+   "basis": [
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "4973e3d1108dc66d"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2016",
+     "point_order": "24",
+     "field": "value",
+     "value": 38.11,
+     "unit": "%",
+     "row_sha": "d92acfd98c6eb57d"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "b00d9f63a246d1be"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2016",
+     "point_order": "13",
+     "field": "value",
+     "value": 32.52,
+     "unit": "%",
+     "row_sha": "60968e84a5245522"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "b1aae91d566386a1"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "2016",
+     "point_order": "24",
+     "field": "value",
+     "value": 22.14,
+     "unit": "%",
+     "row_sha": "7e09d328e6e0cc5a"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 33.0,
+     "unit": "%",
+     "row_sha": "d3d8e147fb69fa33"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "2016",
+     "point_order": "13",
+     "field": "value",
+     "value": 21.24,
+     "unit": "%",
+     "row_sha": "f2be691452778757"
+    }
+   ],
+   "computation": "Compare the gap between Pew and GSS within each panel at the endpoints and over the period.",
+   "accept": [
+    "Republican Pew and GSS estimates remain close to each other.",
+    "Democratic Pew and GSS estimates diverge over the period.",
+    "The telephone survey tracks the federal benchmark more closely for Republicans than for Democrats."
+   ],
+   "reject": [
+    "The telephone survey tracks the federal benchmark equally well for both parties.",
+    "Democratic estimates track more closely than Republican estimates."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R5",
+   "unit_kind": "panel_identity",
+   "claim": "The chart has two panels: the Democratic panel shows share identifying with the Democratic Party, and the Republican panel shows share identifying with the Republican Party, each with Pew Research Center and General Social Survey series over years.",
+   "basis": [
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "4973e3d1108dc66d"
+    },
+    {
+     "panel": "Democratic",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "b00d9f63a246d1be"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "Pew Research Center",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 31.0,
+     "unit": "%",
+     "row_sha": "b1aae91d566386a1"
+    },
+    {
+     "panel": "Republican",
+     "entity": "",
+     "series": "General Social Survey",
+     "x": "1990",
+     "point_order": "1",
+     "field": "value",
+     "value": 33.0,
+     "unit": "%",
+     "row_sha": "d3d8e147fb69fa33"
+    }
+   ],
+   "computation": "Identify the two panels and the series within each panel.",
+   "accept": [
+    "The Democratic panel is about Democratic party identification.",
+    "The Republican panel is about Republican party identification.",
+    "Each panel contains Pew Research Center and General Social Survey series."
+   ],
+   "reject": [
+    "The panels show the same party identification measure.",
+    "The chart has only one panel."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.16666667,
+  "U2": 0.16666667,
+  "U3": 0.16666667,
+  "U4": 0.16666667,
+  "U5": 0.16666667,
+  "U6": 0.16666667
+ },
+ "optional_valid": [
+  "Mentioning specific intermediate years such as 2000 or 2010 for either panel.",
+  "Noting the minimum values for each series."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for why the estimates diverge or track closely.",
+  "Claims about statistical significance or survey methodology.",
+  "Data beyond the provided years and series."
+ ],
+ "review_notes": [
+  "The intent asks to compare telephone survey estimates with federal survey benchmarks over years to determine how closely they track. The units cover the trend in each panel and the cross-panel comparison of tracking closeness.",
+  "Panel identity is included as a semantic unit because the viewer must know which panel represents which party."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Democratic",
+   "Republican"
+  ],
+  "required_series": [
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "General Social Survey"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "General Social Survey"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

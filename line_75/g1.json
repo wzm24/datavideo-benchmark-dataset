@@ -1,0 +1,567 @@
+{
+ "clip_id": "line_75",
+ "version": "g1_line_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the market adoption trajectories over time across the aggressive replacement scenarios and the market-driven and carbon-tax scenarios to determine how each scenario's adoption level evolves.",
+ "chart_structure": {
+  "clip_id": "line_75",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required line series shown in every declared panel?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ],
+    "required_series_count": 7
+   }
+  },
+  {
+   "id": "R2",
+   "question": "How do the aggressive replacement scenarios' adoption trajectories evolve over time?",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {
+    "panel": "",
+    "series_group": "aggressive replacement scenarios"
+   }
+  },
+  {
+   "id": "R3",
+   "question": "How do the market-driven and carbon-tax scenarios' adoption trajectories evolve over time?",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {
+    "panel": "",
+    "series_group": "market-driven and carbon-tax scenarios"
+   }
+  },
+  {
+   "id": "R4",
+   "question": "How do the adoption levels compare across the aggressive replacement scenarios and the market-driven and carbon-tax scenarios over time?",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {
+    "panel": "",
+    "series_group": "all scenarios"
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 7 required series appear in panel single chart.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "100% replacement at end of life",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Production ramp, then 100% replacement",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "High carbon tax",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low market subsidy",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low carbon tax",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Free market",
+     "x": "",
+     "point_order": "1",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every required series is visible and correctly labeled in this panel"
+   ],
+   "reject": [
+    "missing series",
+    "extra unlabeled series",
+    "series assigned to the wrong panel"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the aggressive replacement scenarios (Early retirement of worst emitters, 100% replacement at end of life, Production ramp then 100% replacement) all rise from 0% adoption at point_order 1 to 100% adoption by their final shown point_order (4, 3, and 3 respectively), with Early retirement reaching 35% at point_order 2 before hitting 100% at point_order 3.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "05dc87a90b9a475d"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 35.0,
+     "unit": "%",
+     "row_sha": "f358b0d6e4460a46"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "4f24aee4bef4cb9a"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "4",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "6bb3f9e1cc698e5a"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "100% replacement at end of life",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "618560f0aeae60e1"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "100% replacement at end of life",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "92bb5bd9ae940f95"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "100% replacement at end of life",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "3ce92d47b9a376d7"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Production ramp, then 100% replacement",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "39aa71c4989c2617"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Production ramp, then 100% replacement",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "740c7fd48d7ea2a2"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Production ramp, then 100% replacement",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "ddb8f2c4da10a173"
+    }
+   ],
+   "computation": "For each aggressive replacement series, verify the start value at point_order 1 is 0%, the end value at the final point_order is 100%, and for Early retirement verify the intermediate value 35% at point_order 2.",
+   "accept": [
+    "All three aggressive replacement series start at 0% at point_order 1.",
+    "All three aggressive replacement series reach 100% by their final shown point_order.",
+    "Early retirement of worst emitters shows 35% at point_order 2 before reaching 100% at point_order 3."
+   ],
+   "reject": [
+    "Any aggressive replacement series does not start at 0%.",
+    "Any aggressive replacement series does not reach 100%.",
+    "Early retirement of worst emitters does not show 35% at point_order 2."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "trend",
+   "claim": "In the single panel, the market-driven and carbon-tax scenarios (High carbon tax, Low market subsidy, Low carbon tax, Free market) all rise monotonically from 0% at point_order 1 to their respective final values at point_order 61: High carbon tax 82%, Low market subsidy 72%, Low carbon tax 60%, and Free market 55%.",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "High carbon tax",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "f6c24d9ae945fc57"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "High carbon tax",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 82.0,
+     "unit": "%",
+     "row_sha": "5a25a86d566ca70f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low market subsidy",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "264bb73f06534446"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low market subsidy",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 72.0,
+     "unit": "%",
+     "row_sha": "1dca872d134e11e1"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low carbon tax",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "a41ac6c18d7c83bd"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low carbon tax",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 60.0,
+     "unit": "%",
+     "row_sha": "2725e316affcc027"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Free market",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": 0.0,
+     "unit": "%",
+     "row_sha": "b678d5fe355298b9"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Free market",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 55.0,
+     "unit": "%",
+     "row_sha": "870ea91ff7632b99"
+    }
+   ],
+   "computation": "For each of the four market-driven and carbon-tax series, verify the value at point_order 1 is 0% and the value at point_order 61 is as stated (82, 72, 60, 55). Monotonic increase is supported by the full row set but the minimal proof uses endpoints.",
+   "accept": [
+    "High carbon tax ends at 82% at point_order 61.",
+    "Low market subsidy ends at 72% at point_order 61.",
+    "Low carbon tax ends at 60% at point_order 61.",
+    "Free market ends at 55% at point_order 61.",
+    "All four series start at 0% at point_order 1."
+   ],
+   "reject": [
+    "Any series does not start at 0%.",
+    "Any final value differs from the stated value.",
+    "The series are not shown as increasing over time."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "comparison",
+   "claim": "In the single panel, the aggressive replacement scenarios reach 100% adoption much earlier (by point_order 3 or 4) than the market-driven and carbon-tax scenarios, which by point_order 61 reach only 55% to 82%; among the market-driven and carbon-tax scenarios at point_order 61, High carbon tax is highest (82%), followed by Low market subsidy (72%), Low carbon tax (60%), and Free market (55%).",
+   "basis": [
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Early retirement of worst emitters",
+     "x": "",
+     "point_order": "3",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "4f24aee4bef4cb9a"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "100% replacement at end of life",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "92bb5bd9ae940f95"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Production ramp, then 100% replacement",
+     "x": "",
+     "point_order": "2",
+     "field": "value",
+     "value": 100.0,
+     "unit": "%",
+     "row_sha": "740c7fd48d7ea2a2"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "High carbon tax",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 82.0,
+     "unit": "%",
+     "row_sha": "5a25a86d566ca70f"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low market subsidy",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 72.0,
+     "unit": "%",
+     "row_sha": "1dca872d134e11e1"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Low carbon tax",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 60.0,
+     "unit": "%",
+     "row_sha": "2725e316affcc027"
+    },
+    {
+     "panel": "",
+     "entity": "",
+     "series": "Free market",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": 55.0,
+     "unit": "%",
+     "row_sha": "870ea91ff7632b99"
+    }
+   ],
+   "computation": "Compare the point_order at which each aggressive replacement series reaches 100% (3, 2, 2) with the final values of the market-driven and carbon-tax series at point_order 61 (82, 72, 60, 55). Also order the four market-driven and carbon-tax final values descending.",
+   "accept": [
+    "Aggressive replacement scenarios reach 100% by point_order 3 or earlier.",
+    "Market-driven and carbon-tax scenarios are still below 100% at point_order 61, with final values between 55% and 82%.",
+    "At point_order 61, High carbon tax > Low market subsidy > Low carbon tax > Free market."
+   ],
+   "reject": [
+    "Any aggressive replacement scenario does not reach 100% by point_order 4.",
+    "Any market-driven or carbon-tax scenario reaches 100% by point_order 61.",
+    "The ordering of final values among market-driven and carbon-tax scenarios is incorrect."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Mention that Early retirement of worst emitters has an intermediate value of 35% at point_order 2.",
+  "Mention that the market-driven and carbon-tax series have 61 points while aggressive replacement series have 3 or 4 points."
+ ],
+ "unsupported_to_avoid": [
+  "Causal explanations for why scenarios differ.",
+  "Exact values at intermediate point_orders for market-driven and carbon-tax scenarios beyond the endpoints.",
+  "Claims about crossing points between series.",
+  "Claims about percentage change or ratios between scenarios."
+ ],
+ "review_notes": [
+  "The intent asks to compare trajectories across two groups of scenarios and determine how each scenario's adoption level evolves. Three semantic units cover: (1) aggressive replacement trends, (2) market-driven and carbon-tax trends, and (3) cross-group comparison of adoption levels over time.",
+  "The x-axis is time but x values are empty; point_order is used as the time proxy.",
+  "The aggressive replacement series have different numbers of points (4, 3, 3) and reach 100% at different point_orders; the comparison unit captures that they reach 100% much earlier than the other group.",
+  "No crossing or threshold units are needed because the intent does not explicitly ask for them and the data does not show crossings among the main series."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Early retirement of worst emitters"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "100% replacement at end of life"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Production ramp, then 100% replacement"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "High carbon tax"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Low market subsidy"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Low carbon tax"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Free market"
+   }
+  ],
+  "required_series_count": 7,
+  "all_required_series_must_appear": true
+ },
+ "status": "approved",
+ "unit_kind_schema": "line_protocol_v1_2026-10-29",
+ "approved_by": "closure_adjudication_2026-10-29",
+ "approved_at": "2026-10-29",
+ "review_flags": [
+  "line_closure_92_of_92_20261029"
+ ]
+}

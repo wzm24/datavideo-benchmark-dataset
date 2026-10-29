@@ -1,0 +1,96 @@
+{
+ "clip_id": "line_77",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_77",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily cases 7dma",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "daily cases 7dma"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "daily cases 7dma | Mar 2020",
+    "daily cases 7dma | Oct",
+    "daily cases 7dma | #164",
+    "daily cases 7dma | #200"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "daily cases 7dma | Mar 2020",
+      "value": 4.5613,
+      "unit": "thousand cases"
+     },
+     {
+      "mark": "daily cases 7dma | Oct",
+      "value": 86.7381,
+      "unit": "thousand cases"
+     },
+     {
+      "mark": "daily cases 7dma | #164",
+      "value": 15.7921,
+      "unit": "thousand cases"
+     },
+     {
+      "mark": "daily cases 7dma | #200",
+      "value": 369.5175,
+      "unit": "thousand cases"
+     }
+    ],
+    "expected_relation": "The seven-day moving average of daily confirmed COVID-19 cases in India rose from 4.5613 thousand in March 2020 to a local peak of 86.7381 thousand in October 2020, then declined to 15.7921 thousand at an unlabeled point between February and March 2021 before rising to 369.5175 thousand at the final plotted point after the last explicit March 2021 anchor.",
+    "start_value": 4.5613,
+    "end_value": 369.5175,
+    "delta": 364.9562,
+    "ratio": 81.011444,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

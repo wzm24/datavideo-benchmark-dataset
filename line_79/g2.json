@@ -1,0 +1,139 @@
+{
+ "clip_id": "line_79",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_79",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily deaths 7dma",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "daily deaths 7dma"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "daily deaths 7dma | Mar 2020",
+    "daily deaths 7dma | Oct 2020",
+    "daily deaths 7dma | #164",
+    "daily deaths 7dma | #200"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "daily deaths 7dma | Mar 2020",
+      "value": 46.7314,
+      "unit": "deaths"
+     },
+     {
+      "mark": "daily deaths 7dma | Oct 2020",
+      "value": 1115.3505,
+      "unit": "deaths"
+     },
+     {
+      "mark": "daily deaths 7dma | #164",
+      "value": 137.2607,
+      "unit": "deaths"
+     },
+     {
+      "mark": "daily deaths 7dma | #200",
+      "value": 3233.9229,
+      "unit": "deaths"
+     }
+    ],
+    "expected_relation": "The seven-day moving average of confirmed daily COVID-19 deaths in India rises from 46.7314 in March 2020 to a local peak of 1115.3505 in October 2020, then falls to 137.2607 at an unlabeled point between February and March 2021 before rising again through the final plotted point.",
+    "start_value": 46.7314,
+    "end_value": 3233.9229,
+    "delta": 3187.1915,
+    "ratio": 69.202354,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "daily deaths 7dma | Oct 2020",
+    "daily deaths 7dma | Apr 2021",
+    "daily deaths 7dma | #200"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "daily deaths 7dma | Oct 2020",
+      "value": 1115.3505,
+      "unit": "deaths"
+     },
+     {
+      "mark": "daily deaths 7dma | Apr 2021",
+      "value": 365.9172,
+      "unit": "deaths"
+     },
+     {
+      "mark": "daily deaths 7dma | #200",
+      "value": 3233.9229,
+      "unit": "deaths"
+     }
+    ],
+    "expected_relation": "The highest plotted value is 3233.9229 deaths at point_order 200, after the last explicit April 2021 anchor at point_order 186.",
+    "start_value": 1115.3505,
+    "end_value": 3233.9229,
+    "delta": 2118.5724,
+    "ratio": 2.899468,
+    "direction": "increasing",
+    "extreme_value": 3233.9229
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

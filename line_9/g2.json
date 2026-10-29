@@ -1,0 +1,258 @@
+{
+ "clip_id": "line_9",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_9",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-OPTIONAL"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "TEST-REQUIRED"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "TEST-OPTIONAL",
+    "TEST-REQUIRED"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "TEST-OPTIONAL | 1994",
+    "TEST-OPTIONAL | 1998",
+    "TEST-OPTIONAL | 2002",
+    "TEST-OPTIONAL | 2006",
+    "TEST-OPTIONAL | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-OPTIONAL | 1994",
+      "value": 993.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 1998",
+      "value": 1093.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2002",
+      "value": 1113.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2006",
+      "value": 1133.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2010",
+      "value": 1133.2609,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "For test-optional colleges, the average 25th-percentile SAT score increased from 993.2609 in 1994 to 1133.2609 in 2010, with intermediate values of 1093.2609 (1998), 1113.2609 (2002), and 1133.2609 (2006).",
+    "start_value": 993.2609,
+    "end_value": 1133.2609,
+    "delta": 140.0,
+    "ratio": 1.14095,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "TEST-REQUIRED | 1994",
+    "TEST-REQUIRED | 1998",
+    "TEST-REQUIRED | 2002",
+    "TEST-REQUIRED | 2006",
+    "TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-REQUIRED | 1994",
+      "value": 983.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 1998",
+      "value": 1088.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2002",
+      "value": 1108.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2006",
+      "value": 1128.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2010",
+      "value": 1103.2609,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "For test-required colleges, the average 25th-percentile SAT score increased from 983.2609 in 1994 to 1103.2609 in 2010, with intermediate values of 1088.2609 (1998), 1108.2609 (2002), and 1128.2609 (2006).",
+    "start_value": 983.2609,
+    "end_value": 1103.2609,
+    "delta": 120.0,
+    "ratio": 1.122043,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "TEST-OPTIONAL | 1994",
+    "TEST-REQUIRED | 1994",
+    "TEST-OPTIONAL | 1998",
+    "TEST-REQUIRED | 1998",
+    "TEST-OPTIONAL | 2002",
+    "TEST-REQUIRED | 2002",
+    "TEST-OPTIONAL | 2006",
+    "TEST-REQUIRED | 2006",
+    "TEST-OPTIONAL | 2010",
+    "TEST-REQUIRED | 2010"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "TEST-OPTIONAL | 1994",
+      "value": 993.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 1994",
+      "value": 983.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 1998",
+      "value": 1093.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 1998",
+      "value": 1088.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2002",
+      "value": 1113.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2002",
+      "value": 1108.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2006",
+      "value": 1133.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2006",
+      "value": 1128.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-OPTIONAL | 2010",
+      "value": 1133.2609,
+      "unit": ""
+     },
+     {
+      "mark": "TEST-REQUIRED | 2010",
+      "value": 1103.2609,
+      "unit": ""
+     }
+    ],
+    "expected_relation": "Across 1994–2010, the average 25th-percentile SAT score for test-optional colleges was consistently higher than for test-required colleges at each reported year (1994: 993.2609 vs 983.2609; 1998: 1093.2609 vs 1088.2609; 2002: 1113.2609 vs 1108.2609; 2006: 1133.2609 vs 1128.2609; 2010: 1133.2609 vs 1103.2609).",
+    "start_value": 993.2609,
+    "end_value": 1103.2609,
+    "delta": 110.0,
+    "ratio": 1.110746,
+    "direction": "increasing",
+    "expected_order": [
+     "TEST-OPTIONAL | 2006",
+     "TEST-OPTIONAL | 2010",
+     "TEST-REQUIRED | 2006",
+     "TEST-OPTIONAL | 2002",
+     "TEST-REQUIRED | 2002",
+     "TEST-REQUIRED | 2010",
+     "TEST-OPTIONAL | 1998",
+     "TEST-REQUIRED | 1998",
+     "TEST-OPTIONAL | 1994",
+     "TEST-REQUIRED | 1994"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "clip_id": "line_65",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "fa15dc48bd76e7807012fabe76ba411713f725d47510b06210d2659c5dbb1c72",
+ "row_count": 31,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Reported global smallpox cases"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1920",
+   "1940",
+   "1960",
+   "1980"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "reported cases",
+   "series": "",
+   "row_count": 31,
+   "unit": [
+    "cases"
+   ],
+   "x_values": [
+    "1920",
+    "1940",
+    "1960",
+    "1980"
+   ],
+   "first_value": 400000.0,
+   "last_value": 20000.0,
+   "min_value": 20000.0,
+   "max_value": 620000.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "reported cases",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

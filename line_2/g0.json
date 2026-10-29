@@ -1,0 +1,79 @@
+{
+ "clip_id": "line_2",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0243b09bbb68cd3f52488fbe421d534d496286832920a402113d21bb1428056c",
+ "row_count": 80,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Quantity"
+  ],
+  "y_axes": [
+   "Price level"
+  ],
+  "x_mode": "point_order_or_visible_axis_only",
+  "x_anchors": []
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "SUPPLY",
+   "series": "SUPPLY",
+   "row_count": 40,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.0,
+   "last_value": 1.0,
+   "min_value": 0.0,
+   "max_value": 1.0
+  },
+  {
+   "panel": "",
+   "entity": "DEMAND",
+   "series": "DEMAND",
+   "row_count": 40,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 1.0,
+   "last_value": 0.0,
+   "min_value": 0.0,
+   "max_value": 1.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "SUPPLY",
+    "series": "SUPPLY"
+   },
+   {
+    "panel": "",
+    "entity": "DEMAND",
+    "series": "DEMAND"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

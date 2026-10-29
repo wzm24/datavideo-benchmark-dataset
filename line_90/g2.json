@@ -1,0 +1,137 @@
+{
+ "clip_id": "line_90",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_90",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "US troops",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "US troops"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "US troops | #1",
+    "US troops | #57",
+    "US troops | #72"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "US troops | #1",
+      "value": 2380.9524,
+      "unit": "troops"
+     },
+     {
+      "mark": "US troops | #57",
+      "value": 174380.9524,
+      "unit": "troops"
+     },
+     {
+      "mark": "US troops | #72",
+      "value": 2380.9524,
+      "unit": "troops"
+     }
+    ],
+    "expected_relation": "The U.S. troop level in Iraq rises from a low early value to a peak, then declines toward the end of the displayed period.",
+    "start_value": 2380.9524,
+    "end_value": 2380.9524,
+    "delta": 0.0,
+    "ratio": 1.0,
+    "direction": "flat"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "US troops | #1",
+    "US troops | #57",
+    "US troops | #72"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "US troops | #1",
+      "value": 2380.9524,
+      "unit": "troops"
+     },
+     {
+      "mark": "US troops | #57",
+      "value": 174380.9524,
+      "unit": "troops"
+     },
+     {
+      "mark": "US troops | #72",
+      "value": 2380.9524,
+      "unit": "troops"
+     }
+    ],
+    "expected_relation": "The major phases of the U.S. troop level differ: the buildup phase reaches a much higher level than the early and late low phases, and the later phase is lower than the peak phase.",
+    "start_value": 2380.9524,
+    "end_value": 2380.9524,
+    "delta": 0.0,
+    "ratio": 1.0,
+    "direction": "flat",
+    "expected_order": [
+     "US troops",
+     "US troops",
+     "US troops"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "clip_id": "line_57",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_57",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "multi_panel",
+  "orientation": "cartesian",
+  "panel_count": 3,
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "65+"
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Pfizer/BioNTech | 18-49",
+    "Pfizer/BioNTech | 50-64",
+    "Pfizer/BioNTech | 65+"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Moderna | 18-49",
+    "Moderna | 50-64",
+    "Moderna | 65+"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "Johnson & Johnson | 18-49",
+    "Johnson & Johnson | 50-64",
+    "Johnson & Johnson | 65+"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": true
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Pfizer/BioNTech | 18-49 | MAY",
+    "Pfizer/BioNTech | 18-49 | AUGUST",
+    "Pfizer/BioNTech | 50-64 | MAY",
+    "Pfizer/BioNTech | 50-64 | AUGUST",
+    "Pfizer/BioNTech | 65+ | MAY",
+    "Pfizer/BioNTech | 65+ | AUGUST"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Pfizer/BioNTech | 18-49 | MAY",
+      "value": 97.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 18-49 | AUGUST",
+      "value": 96.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 50-64 | MAY",
+      "value": 96.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 50-64 | AUGUST",
+      "value": 95.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 65+ | MAY",
+      "value": 95.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 65+ | AUGUST",
+      "value": 89.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the Pfizer/BioNTech panel, estimated vaccine effectiveness against hospitalization declined from May to August 2021 for all age groups: 18-49 fell from 97.5% to 96.5%, 50-64 from 96.5% to 95.5%, and 65+ from 95.0% to 89.0%.",
+    "start_value": 97.5,
+    "end_value": 89.0,
+    "delta": -8.5,
+    "ratio": 0.912821,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Moderna | 18-49 | MAY",
+    "Moderna | 18-49 | AUGUST",
+    "Moderna | 50-64 | MAY",
+    "Moderna | 50-64 | AUGUST",
+    "Moderna | 65+ | MAY",
+    "Moderna | 65+ | AUGUST"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Moderna | 18-49 | MAY",
+      "value": 96.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 18-49 | AUGUST",
+      "value": 97.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 50-64 | MAY",
+      "value": 96.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 50-64 | AUGUST",
+      "value": 97.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 65+ | MAY",
+      "value": 97.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 65+ | AUGUST",
+      "value": 94.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the Moderna panel, estimated vaccine effectiveness against hospitalization changed modestly from May to August 2021: 18-49 rose from 96.5% to 97.5%, 50-64 rose from 96.5% to 97.0%, and 65+ declined from 97.0% to 94.0%.",
+    "start_value": 96.5,
+    "end_value": 94.0,
+    "delta": -2.5,
+    "ratio": 0.974093,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U6",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Johnson & Johnson | 18-49 | MAY",
+    "Johnson & Johnson | 18-49 | AUGUST",
+    "Johnson & Johnson | 50-64 | MAY",
+    "Johnson & Johnson | 50-64 | AUGUST",
+    "Johnson & Johnson | 65+ | MAY",
+    "Johnson & Johnson | 65+ | AUGUST"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Johnson & Johnson | 18-49 | MAY",
+      "value": 95.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 18-49 | AUGUST",
+      "value": 93.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 50-64 | MAY",
+      "value": 88.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 50-64 | AUGUST",
+      "value": 93.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 65+ | MAY",
+      "value": 85.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 65+ | AUGUST",
+      "value": 83.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "In the Johnson & Johnson panel, estimated vaccine effectiveness against hospitalization changed from May to August 2021: 18-49 declined from 95.5% to 93.5%, 50-64 rose from 88.0% to 93.0%, and 65+ declined from 85.0% to 83.0%.",
+    "start_value": 95.5,
+    "end_value": 83.0,
+    "delta": -12.5,
+    "ratio": 0.86911,
+    "direction": "decreasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U7",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Pfizer/BioNTech | 65+ | AUGUST",
+    "Pfizer/BioNTech | 18-49 | AUGUST",
+    "Pfizer/BioNTech | 50-64 | AUGUST",
+    "Moderna | 65+ | AUGUST",
+    "Moderna | 18-49 | AUGUST",
+    "Moderna | 50-64 | AUGUST",
+    "Johnson & Johnson | 65+ | AUGUST",
+    "Johnson & Johnson | 18-49 | AUGUST",
+    "Johnson & Johnson | 50-64 | AUGUST"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Pfizer/BioNTech | 65+ | AUGUST",
+      "value": 89.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 18-49 | AUGUST",
+      "value": 96.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Pfizer/BioNTech | 50-64 | AUGUST",
+      "value": 95.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 65+ | AUGUST",
+      "value": 94.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 18-49 | AUGUST",
+      "value": 97.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Moderna | 50-64 | AUGUST",
+      "value": 97.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 65+ | AUGUST",
+      "value": 83.0,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 18-49 | AUGUST",
+      "value": 93.5,
+      "unit": "%"
+     },
+     {
+      "mark": "Johnson & Johnson | 50-64 | AUGUST",
+      "value": 93.0,
+      "unit": "%"
+     }
+    ],
+    "expected_relation": "Within each vaccine brand panel, the 65+ age group generally had lower estimated effectiveness than the 18-49 and 50-64 groups by August 2021, with the gap most pronounced for Pfizer/BioNTech (89.0% vs 96.5% and 95.5%) and Johnson & Johnson (83.0% vs 93.5% and 93.0%), while Moderna's 65+ (94.0%) was also below its younger groups (97.5% and 97.0%).",
+    "start_value": 89.0,
+    "end_value": 93.0,
+    "delta": 4.0,
+    "ratio": 1.044944,
+    "direction": "increasing",
+    "expected_order": [
+     "Moderna | 18-49 | AUGUST",
+     "Moderna | 50-64 | AUGUST",
+     "Pfizer/BioNTech | 18-49 | AUGUST",
+     "Pfizer/BioNTech | 50-64 | AUGUST",
+     "Moderna | 65+ | AUGUST",
+     "Johnson & Johnson | 18-49 | AUGUST",
+     "Johnson & Johnson | 50-64 | AUGUST",
+     "Pfizer/BioNTech | 65+ | AUGUST",
+     "Johnson & Johnson | 65+ | AUGUST"
+    ]
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

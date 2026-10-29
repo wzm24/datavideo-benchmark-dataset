@@ -1,0 +1,156 @@
+{
+ "clip_id": "line_66",
+ "family": "line",
+ "version": "g2_line_visual_evidence_v1",
+ "chart_input": {
+  "clip_id": "line_66",
+  "family": "line",
+  "chart_type": "line",
+  "chart_subtype": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "panels": [
+   ""
+  ],
+  "time_behavior": "snapshot"
+ },
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "global deaths",
+    "series": ""
+   }
+  ]
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_series_set",
+   "required_marks": [
+    "global deaths"
+   ],
+   "assertion": {
+    "all_required_series_present": true,
+    "panel_scoped": false
+   },
+   "accepted_routes": [
+    "geometry",
+    "legend_or_direct_label"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "global deaths | #1",
+    "global deaths | April",
+    "global deaths | June",
+    "global deaths | Aug",
+    "global deaths | Sept",
+    "global deaths | Nov",
+    "global deaths | Jan",
+    "global deaths | March 2021"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "global deaths | #1",
+      "value": 0.0,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | April",
+      "value": 0.28,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | June",
+      "value": 0.52,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | Aug",
+      "value": 0.78,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | Sept",
+      "value": 1.0,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | Nov",
+      "value": 1.35,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | Jan",
+      "value": 1.95,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | March 2021",
+      "value": 2.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "Global cumulative confirmed COVID-19 deaths increased monotonically from 0.00 million at the start (point_order 1) to 2.50 million by March 2021, passing through 0.28M (April), 0.52M (June), 0.78M (Aug), 1.00M (Sept), 1.35M (Nov), and 1.95M (Jan).",
+    "start_value": 0.0,
+    "end_value": 2.5,
+    "delta": 2.5,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "global deaths | #1",
+    "global deaths | March 2021"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "global deaths | #1",
+      "value": 0.0,
+      "unit": "million"
+     },
+     {
+      "mark": "global deaths | March 2021",
+      "value": 2.5,
+      "unit": "million"
+     }
+    ],
+    "expected_relation": "The overall change in global cumulative confirmed COVID-19 deaths from the start (0.00 million) to March 2021 (2.50 million) is an increase of 2.50 million deaths.",
+    "start_value": 0.0,
+    "end_value": 2.5,
+    "delta": 2.5,
+    "ratio": null,
+    "direction": "increasing"
+   },
+   "accepted_routes": [
+    "geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  }
+ ]
+}

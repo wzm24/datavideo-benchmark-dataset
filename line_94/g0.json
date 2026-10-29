@@ -1,0 +1,91 @@
+{
+ "clip_id": "line_94",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "108db35159003d220e8f9491df08ebe9b17566fbdcd37d7e045610ab110473ed",
+ "row_count": 6,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Date (February-August 2021)"
+  ],
+  "y_axes": [
+   "Share of U.S. adults receiving at least one COVID-19 vaccine dose (%)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Feb '21",
+   "June '21",
+   "Aug '21"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Dem/Lean Dem",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 23.0,
+   "last_value": 86.0,
+   "min_value": 23.0,
+   "max_value": 86.0
+  },
+  {
+   "panel": "",
+   "entity": "Rep/Lean Rep",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_values": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 16.0,
+   "last_value": 60.0,
+   "min_value": 16.0,
+   "max_value": 60.0
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Dem/Lean Dem",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Rep/Lean Rep",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

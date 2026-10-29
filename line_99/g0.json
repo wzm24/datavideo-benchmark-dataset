@@ -1,0 +1,101 @@
+{
+ "clip_id": "line_99",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6e31e1c5c610b82d8a2034d72ea05a4738ca16e1266391d524cb558c09e4b9f1",
+ "row_count": 86,
+ "chart_structure": {
+  "sub_type": "multi_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Congressional period"
+  ],
+  "y_axes": [
+   "Us versus Them polarization (relative)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1973-74",
+   "1979-80",
+   "1985-86",
+   "1991-92",
+   "1997-98",
+   "2003-04",
+   "2009-10"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Senate",
+   "series": "",
+   "row_count": 43,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "1973-74",
+    "1979-80",
+    "1985-86",
+    "1991-92",
+    "1997-98",
+    "2003-04",
+    "2009-10"
+   ],
+   "first_value": 0.9179,
+   "last_value": 1.0,
+   "min_value": 0.2708,
+   "max_value": 1.0
+  },
+  {
+   "panel": "",
+   "entity": "House of Representatives",
+   "series": "",
+   "row_count": 43,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [
+    "1979-80",
+    "1985-86",
+    "1991-92",
+    "1997-98",
+    "2003-04"
+   ],
+   "first_value": 0.01,
+   "last_value": 0.8058,
+   "min_value": 0.01,
+   "max_value": 0.8122
+  }
+ ],
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "clip_id": "line_74",
+ "family": "line",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "c48d241d1b20474dc88eacc153c1d5adc7ea95a6e643af0559f5d8f7061a618e",
+ "row_count": 138,
+ "chart_structure": {
+  "sub_type": "single_line",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": [
+   ""
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Year"
+  ],
+  "y_axes": [
+   "Global temperature anomaly relative to 1951-1980 (°C)"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1900",
+   "1920",
+   "1940",
+   "1960",
+   "1980",
+   "2000",
+   "2020",
+   "2100"
+  ]
+ },
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Change in average global temperature",
+   "row_count": 138,
+   "unit": [
+    "degC"
+   ],
+   "x_values": [
+    "1900",
+    "1920",
+    "1940",
+    "1960",
+    "1980",
+    "2000",
+    "2020",
+    "2100"
+   ],
+   "first_value": -0.156,
+   "last_value": 3.0,
+   "min_value": -0.432,
+   "max_value": 3.0
+  }
+ ],
+ "estimated_or_projected_roles": [
+  "line_estimate"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Change in average global temperature"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ }
+}

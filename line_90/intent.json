@@ -1,28 +1,32 @@
 {
  "clip_id": "line_90",
- "intent_en": "To illustrate the timeline and key phases of the US military conflict in Iraq, from the 2003 invasion through the insurgency and surge to the withdrawal in 2010.",
- "previous_intent": "To illustrate the timeline of US military involvement in Iraq, tracking key conflict phases from the 2003 invasion through the insurgency surge to the withdrawal in 2010.",
- "narration_support": "The hammer blows of the American attack started what turned into a decade of insurgency.",
- "chart_support": "Line chart spanning 2003 to 2010, marking key events: Invasion, Insurgency Grows, Surge Peaks, and US Forces Leave Cities.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.9,
- "evidence_note": "The narration introduces the start of the conflict and the decade-long insurgency, while the chart visualizes this timeline (2003-2010) with specific labeled phases of military engagement and troop movements.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Trace the U.S. troop level in Iraq from the 2003 invasion through the insurgency and 2007 surge peak to the 2010 drawdown.",
+ "intent_en": "Trace the U.S. troop level in Iraq across the displayed period and compare its major phases.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "line_intent_v2_2026-10-29",
+ "approved_by": "human",
+ "approved_at": "2026-10-29"
 }
