@@ -8,6 +8,7 @@ bar 与 line 目录核心文件：
   intent.json         公开 intent 与内部叙事目标溯源
   input_spec.json     公开图表类型 / 方向 / 时间行为，不含数量提示
   chart_spec.json     完整图表元数据，供评测端使用
+  g0.json             数据事实基础：表哈希、字段、图结构、实体/系列与完整性
   g1.json             R/U、basis、权重与完整性要求
   g2.json             逐 U 的视觉证据规范
   g3.json             逐 U 的时间政策草稿

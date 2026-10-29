@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_79",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "bba2f2fdb6639f2d1caf4cd79227c5831b894f691fb29742d98b2b4d359e3ad5",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 200,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -39,6 +55,71 @@
    "Apr 2021"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "daily deaths 7dma",
+   "series": "",
+   "row_count": 200,
+   "unit": [
+    "deaths"
+   ],
+   "x_anchors": [
+    "Mar 2020",
+    "Apr 2020",
+    "May 2020",
+    "Jun 2020",
+    "Jul 2020",
+    "Aug 2020",
+    "Sep 2020",
+    "Oct 2020",
+    "Nov 2020",
+    "Dec 2020",
+    "Jan 2021",
+    "Feb 2021",
+    "Mar 2021",
+    "Apr 2021"
+   ],
+   "first_value": 46.7314,
+   "last_value": 3233.9229,
+   "min_value": 46.7314,
+   "max_value": 3233.9229,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 200
+ },
+ "role_counts": {
+  "line": 200
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily deaths 7dma",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -69,22 +150,5 @@
    "min_value": 46.7314,
    "max_value": 3233.9229
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "daily deaths 7dma",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

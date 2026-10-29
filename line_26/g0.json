@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_26",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "727a909f2f81e1124475251412523026e5563aac3eacd4bdc9471801e4a1eeb4",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 82,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -28,6 +44,89 @@
    "2000"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "PRODUCTIVITY",
+   "row_count": 41,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1960",
+    "1980",
+    "2000"
+   ],
+   "first_value": -0.0047,
+   "last_value": 225.0023,
+   "min_value": -0.0047,
+   "max_value": 225.0023,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "WAGES",
+   "row_count": 41,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1960",
+    "1980",
+    "2000"
+   ],
+   "first_value": -0.0047,
+   "last_value": 110.0205,
+   "min_value": -0.0047,
+   "max_value": 110.0205,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 82
+ },
+ "role_counts": {
+  "line": 82
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "PRODUCTIVITY"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "WAGES"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -65,27 +164,5 @@
    "min_value": -0.0047,
    "max_value": 110.0205
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "PRODUCTIVITY"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "WAGES"
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

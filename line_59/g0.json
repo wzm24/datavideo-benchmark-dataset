@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_59",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "c1c17a5e8dae9ebb2dd6c56e2b0c91d1007b8dc4981b0076e7d990974ca901bf",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 456,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -27,6 +43,87 @@
    "June 23, 2016"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Remain",
+   "row_count": 226,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "Sept. 1, 2015",
+    "June 23, 2016"
+   ],
+   "first_value": 51.2167,
+   "last_value": 48.0,
+   "min_value": 41.575,
+   "max_value": 51.2167,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Leave",
+   "row_count": 230,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "Sept. 1, 2015",
+    "June 23, 2016"
+   ],
+   "first_value": 39.7833,
+   "last_value": 46.0,
+   "min_value": 38.7167,
+   "max_value": 47.6417,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 456
+ },
+ "role_counts": {
+  "line": 456
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Remain"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Leave"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -62,27 +159,5 @@
    "min_value": 38.7167,
    "max_value": 47.6417
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Remain"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Leave"
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

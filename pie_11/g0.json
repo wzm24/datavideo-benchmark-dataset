@@ -1,0 +1,155 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_11",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "496e8cb64d1aff53e02b5f7130d79845827659da5620447b9942077502d3a1f2",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "756322e406b56bce7f5ad6617496b89c3ed3a2d672ca3d804f04d32d2fc02948",
+ "row_count": 3,
+ "sidecar_row_count": 3,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "multi_pie",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_purchases"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "gauge arc",
+   "series": "Clock",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 12.5,
+   "last_value": 12.5,
+   "min_value": 12.5,
+   "max_value": 12.5,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_purchases"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "pieslice-yellow",
+   "series": "Pie",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 58.3,
+   "last_value": 58.3,
+   "min_value": 58.3,
+   "max_value": 58.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_purchases"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "pieslice-white",
+   "series": "Pie",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 41.7,
+   "last_value": 41.7,
+   "min_value": 41.7,
+   "max_value": 41.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_purchases"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 2,
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 3
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "gauge arc",
+    "series": "Clock"
+   },
+   {
+    "panel": "",
+    "entity": "pieslice-yellow",
+    "series": "Pie"
+   },
+   {
+    "panel": "",
+    "entity": "pieslice-white",
+    "series": "Pie"
+   }
+  ],
+  "required_entity_count": 3,
+  "required_row_count": 3,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

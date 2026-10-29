@@ -1,0 +1,97 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_14",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "934986f3c01af30448afc5017a2499d2e1dd0922016f0cbc1102b08d32855e0b",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "d92683890eb1bd31bdd8516ec553bbcf7bedbfb6ad1a13b52725436f259dfdaa",
+ "row_count": 1,
+ "sidecar_row_count": 1,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_cultivation"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "indoor",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 33.3,
+   "last_value": 33.3,
+   "min_value": 33.3,
+   "max_value": 33.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_cultivation"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "narration_calibrated": 1
+ },
+ "role_counts": {
+  "unspecified": 1
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "indoor",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 1,
+  "required_row_count": 1,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

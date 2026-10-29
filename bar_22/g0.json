@@ -1,0 +1,226 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_22",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "62c71e0ea905412ed4b0363abb393bd48bc1204b134c42076e66a52dc621c528",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 7,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "net_worth"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Cashier",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": -4000.0,
+   "last_value": -4000.0,
+   "min_value": -4000.0,
+   "max_value": -4000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Working mom",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": 1000.0,
+   "last_value": 1000.0,
+   "min_value": 1000.0,
+   "max_value": 1000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Office clerk",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": 2000.0,
+   "last_value": 2000.0,
+   "min_value": 2000.0,
+   "max_value": 2000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nurse",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": 26000.0,
+   "last_value": 26000.0,
+   "min_value": 26000.0,
+   "max_value": 26000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Teacher",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": 32000.0,
+   "last_value": 32000.0,
+   "min_value": 32000.0,
+   "max_value": 32000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Accountant",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": 110000.0,
+   "last_value": 110000.0,
+   "min_value": 110000.0,
+   "max_value": 110000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ultra-rich households",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD"
+   ],
+   "x_anchors": [],
+   "first_value": null,
+   "last_value": null,
+   "min_value": null,
+   "max_value": null,
+   "missing_value_count": 1,
+   "metric": [
+    "net_worth"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 7
+ },
+ "role_counts": {
+  "annotation": 1,
+  "bar": 6
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all role=bar rows",
+  "required_data_rows": 6,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

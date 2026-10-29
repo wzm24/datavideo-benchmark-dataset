@@ -1,0 +1,1410 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_124",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "660c4215242a069715228b096f799a866778188617af6302414021725fe815f7",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 61,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "us_defense_spending"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "1950",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 150.9,
+   "last_value": 150.9,
+   "min_value": 150.9,
+   "max_value": 150.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1951",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 323.0,
+   "last_value": 323.0,
+   "min_value": 323.0,
+   "max_value": 323.0,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1952",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 455.0,
+   "last_value": 455.0,
+   "min_value": 455.0,
+   "max_value": 455.0,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1953",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 468.4,
+   "last_value": 468.4,
+   "min_value": 468.4,
+   "max_value": 468.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1954",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 404.2,
+   "last_value": 404.2,
+   "min_value": 404.2,
+   "max_value": 404.2,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 382.6,
+   "last_value": 382.6,
+   "min_value": 382.6,
+   "max_value": 382.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1956",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 387.6,
+   "last_value": 387.6,
+   "min_value": 387.6,
+   "max_value": 387.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1957",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 398.7,
+   "last_value": 398.7,
+   "min_value": 398.7,
+   "max_value": 398.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1958",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 396.3,
+   "last_value": 396.3,
+   "min_value": 396.3,
+   "max_value": 396.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1959",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 399.1,
+   "last_value": 399.1,
+   "min_value": 399.1,
+   "max_value": 399.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 389.3,
+   "last_value": 389.3,
+   "min_value": 389.3,
+   "max_value": 389.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1961",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 405.7,
+   "last_value": 405.7,
+   "min_value": 405.7,
+   "max_value": 405.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1962",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 439.6,
+   "last_value": 439.6,
+   "min_value": 439.6,
+   "max_value": 439.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1963",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 433.6,
+   "last_value": 433.6,
+   "min_value": 433.6,
+   "max_value": 433.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1964",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 419.1,
+   "last_value": 419.1,
+   "min_value": 419.1,
+   "max_value": 419.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 421.0,
+   "last_value": 421.0,
+   "min_value": 421.0,
+   "max_value": 421.0,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1966",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 497.8,
+   "last_value": 497.8,
+   "min_value": 497.8,
+   "max_value": 497.8,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1967",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 571.5,
+   "last_value": 571.5,
+   "min_value": 571.5,
+   "max_value": 571.5,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1968",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 589.9,
+   "last_value": 589.9,
+   "min_value": 589.9,
+   "max_value": 589.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1969",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 563.9,
+   "last_value": 563.9,
+   "min_value": 563.9,
+   "max_value": 563.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 522.6,
+   "last_value": 522.6,
+   "min_value": 522.6,
+   "max_value": 522.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1971",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 470.3,
+   "last_value": 470.3,
+   "min_value": 470.3,
+   "max_value": 470.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1972",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 469.5,
+   "last_value": 469.5,
+   "min_value": 469.5,
+   "max_value": 469.5,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1973",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 446.2,
+   "last_value": 446.2,
+   "min_value": 446.2,
+   "max_value": 446.2,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1974",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 440.4,
+   "last_value": 440.4,
+   "min_value": 440.4,
+   "max_value": 440.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 416.2,
+   "last_value": 416.2,
+   "min_value": 416.2,
+   "max_value": 416.2,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1976",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 404.9,
+   "last_value": 404.9,
+   "min_value": 404.9,
+   "max_value": 404.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1977",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 420.2,
+   "last_value": 420.2,
+   "min_value": 420.2,
+   "max_value": 420.2,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1978",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 422.8,
+   "last_value": 422.8,
+   "min_value": 422.8,
+   "max_value": 422.8,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1979",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 425.3,
+   "last_value": 425.3,
+   "min_value": 425.3,
+   "max_value": 425.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 424.3,
+   "last_value": 424.3,
+   "min_value": 424.3,
+   "max_value": 424.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1981",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 472.6,
+   "last_value": 472.6,
+   "min_value": 472.6,
+   "max_value": 472.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1982",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 558.9,
+   "last_value": 558.9,
+   "min_value": 558.9,
+   "max_value": 558.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1983",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 545.8,
+   "last_value": 545.8,
+   "min_value": 545.8,
+   "max_value": 545.8,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1984",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 574.1,
+   "last_value": 574.1,
+   "min_value": 574.1,
+   "max_value": 574.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 615.4,
+   "last_value": 615.4,
+   "min_value": 615.4,
+   "max_value": 615.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1986",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 656.1,
+   "last_value": 656.1,
+   "min_value": 656.1,
+   "max_value": 656.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1987",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 650.7,
+   "last_value": 650.7,
+   "min_value": 650.7,
+   "max_value": 650.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1988",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 637.1,
+   "last_value": 637.1,
+   "min_value": 637.1,
+   "max_value": 637.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1989",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 631.7,
+   "last_value": 631.7,
+   "min_value": 631.7,
+   "max_value": 631.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 605.4,
+   "last_value": 605.4,
+   "min_value": 605.4,
+   "max_value": 605.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1991",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 534.9,
+   "last_value": 534.9,
+   "min_value": 534.9,
+   "max_value": 534.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1992",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 563.6,
+   "last_value": 563.6,
+   "min_value": 563.6,
+   "max_value": 563.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1993",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 533.4,
+   "last_value": 533.4,
+   "min_value": 533.4,
+   "max_value": 533.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 505.7,
+   "last_value": 505.7,
+   "min_value": 505.7,
+   "max_value": 505.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 472.4,
+   "last_value": 472.4,
+   "min_value": 472.4,
+   "max_value": 472.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1996",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 446.7,
+   "last_value": 446.7,
+   "min_value": 446.7,
+   "max_value": 446.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1997",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 444.4,
+   "last_value": 444.4,
+   "min_value": 444.4,
+   "max_value": 444.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1998",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 434.3,
+   "last_value": 434.3,
+   "min_value": 434.3,
+   "max_value": 434.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1999",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 435.4,
+   "last_value": 435.4,
+   "min_value": 435.4,
+   "max_value": 435.4,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 452.3,
+   "last_value": 452.3,
+   "min_value": 452.3,
+   "max_value": 452.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2001",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 456.0,
+   "last_value": 456.0,
+   "min_value": 456.0,
+   "max_value": 456.0,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2002",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 511.9,
+   "last_value": 511.9,
+   "min_value": 511.9,
+   "max_value": 511.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2003",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 582.7,
+   "last_value": 582.7,
+   "min_value": 582.7,
+   "max_value": 582.7,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2004",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 635.1,
+   "last_value": 635.1,
+   "min_value": 635.1,
+   "max_value": 635.1,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 664.3,
+   "last_value": 664.3,
+   "min_value": 664.3,
+   "max_value": 664.3,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2006",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 673.9,
+   "last_value": 673.9,
+   "min_value": 673.9,
+   "max_value": 673.9,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2007",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 691.8,
+   "last_value": 691.8,
+   "min_value": 691.8,
+   "max_value": 691.8,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 742.2,
+   "last_value": 742.2,
+   "min_value": 742.2,
+   "max_value": 742.2,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 800.6,
+   "last_value": 800.6,
+   "min_value": 800.6,
+   "max_value": 800.6,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 823.5,
+   "last_value": 823.5,
+   "min_value": 823.5,
+   "max_value": 823.5,
+   "missing_value_count": 0,
+   "metric": [
+    "us_defense_spending"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 61
+ },
+ "role_counts": {
+  "bar": 61
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 61,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

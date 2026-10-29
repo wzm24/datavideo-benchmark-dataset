@@ -1,0 +1,949 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_101",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "90abfe720cbf77d094f922cf6e1dcbb1b7a3c00fc53f757d7cbeb150ac1a2b27",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 40,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "population_pyramid",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "israel"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.016,
+   "last_value": 0.016,
+   "min_value": 0.016,
+   "max_value": 0.016,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.08,
+   "last_value": 0.08,
+   "min_value": 0.08,
+   "max_value": 0.08,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.032,
+   "last_value": 0.032,
+   "min_value": 0.032,
+   "max_value": 0.032,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.128,
+   "last_value": 0.128,
+   "min_value": 0.128,
+   "max_value": 0.128,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.064,
+   "last_value": 0.064,
+   "min_value": 0.064,
+   "max_value": 0.064,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.176,
+   "last_value": 0.176,
+   "min_value": 0.176,
+   "max_value": 0.176,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.096,
+   "last_value": 0.096,
+   "min_value": 0.096,
+   "max_value": 0.096,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2,
+   "last_value": 0.2,
+   "min_value": 0.2,
+   "max_value": 0.2,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.16,
+   "last_value": 0.16,
+   "min_value": 0.16,
+   "max_value": 0.16,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.264,
+   "last_value": 0.264,
+   "min_value": 0.264,
+   "max_value": 0.264,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.28,
+   "last_value": 0.28,
+   "min_value": 0.28,
+   "max_value": 0.28,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.384,
+   "last_value": 0.384,
+   "min_value": 0.384,
+   "max_value": 0.384,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.376,
+   "last_value": 0.376,
+   "min_value": 0.376,
+   "max_value": 0.376,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.496,
+   "last_value": 0.496,
+   "min_value": 0.496,
+   "max_value": 0.496,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.376,
+   "last_value": 0.376,
+   "min_value": 0.376,
+   "max_value": 0.376,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.496,
+   "last_value": 0.496,
+   "min_value": 0.496,
+   "max_value": 0.496,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.416,
+   "last_value": 0.416,
+   "min_value": 0.416,
+   "max_value": 0.416,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.496,
+   "last_value": 0.496,
+   "min_value": 0.496,
+   "max_value": 0.496,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.464,
+   "last_value": 0.464,
+   "min_value": 0.464,
+   "max_value": 0.464,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.544,
+   "last_value": 0.544,
+   "min_value": 0.544,
+   "max_value": 0.544,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.56,
+   "last_value": 0.56,
+   "min_value": 0.56,
+   "max_value": 0.56,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.64,
+   "last_value": 0.64,
+   "min_value": 0.64,
+   "max_value": 0.64,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.624,
+   "last_value": 0.624,
+   "min_value": 0.624,
+   "max_value": 0.624,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.704,
+   "last_value": 0.704,
+   "min_value": 0.704,
+   "max_value": 0.704,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.64,
+   "last_value": 0.64,
+   "min_value": 0.64,
+   "max_value": 0.64,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.72,
+   "last_value": 0.72,
+   "min_value": 0.72,
+   "max_value": 0.72,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.656,
+   "last_value": 0.656,
+   "min_value": 0.656,
+   "max_value": 0.656,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.704,
+   "last_value": 0.704,
+   "min_value": 0.704,
+   "max_value": 0.704,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.68,
+   "last_value": 0.68,
+   "min_value": 0.68,
+   "max_value": 0.68,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.72,
+   "last_value": 0.72,
+   "min_value": 0.72,
+   "max_value": 0.72,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.736,
+   "last_value": 0.736,
+   "min_value": 0.736,
+   "max_value": 0.736,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.784,
+   "last_value": 0.784,
+   "min_value": 0.784,
+   "max_value": 0.784,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8,
+   "last_value": 0.8,
+   "min_value": 0.8,
+   "max_value": 0.8,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8,
+   "last_value": 0.8,
+   "min_value": 0.8,
+   "max_value": 0.8,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.88,
+   "last_value": 0.88,
+   "min_value": 0.88,
+   "max_value": 0.88,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.88,
+   "last_value": 0.88,
+   "min_value": 0.88,
+   "max_value": 0.88,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "israel"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 40
+ },
+ "role_counts": {
+  "bar": 40
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 40,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

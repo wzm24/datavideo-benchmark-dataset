@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_80",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "824299942ab6c70f59c42aef0d9c44a90b135ccecb6fbd23cd9f5d26de77f69e",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 200,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -38,6 +54,70 @@
    "Mar"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "daily cases 7dma",
+   "series": "",
+   "row_count": 200,
+   "unit": [
+    "thousand cases"
+   ],
+   "x_anchors": [
+    "Mar 2020",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+    "Jan 2021",
+    "Feb",
+    "Mar"
+   ],
+   "first_value": 4.5613,
+   "last_value": 369.5175,
+   "min_value": 4.5613,
+   "max_value": 369.5175,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 200
+ },
+ "role_counts": {
+  "line": 200
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "daily cases 7dma",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -67,22 +147,5 @@
    "min_value": 4.5613,
    "max_value": 369.5175
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "daily cases 7dma",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

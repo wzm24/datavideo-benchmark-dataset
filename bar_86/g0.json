@@ -1,0 +1,156 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_86",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "93979c1654d47b33d8e832da76d29e70b140e03030c8ef3496ae64da9256106d",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 4,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "it_s_better_britain_if_house_prices"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Fall",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "it_s_better_britain_if_house_prices"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Stay",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 29.0,
+   "last_value": 29.0,
+   "min_value": 29.0,
+   "max_value": 29.0,
+   "missing_value_count": 0,
+   "metric": [
+    "it_s_better_britain_if_house_prices"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Unsure",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 22.0,
+   "last_value": 22.0,
+   "min_value": 22.0,
+   "max_value": 22.0,
+   "missing_value_count": 0,
+   "metric": [
+    "it_s_better_britain_if_house_prices"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Rise",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "it_s_better_britain_if_house_prices"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 4
+ },
+ "role_counts": {
+  "bar": 4
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 4,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

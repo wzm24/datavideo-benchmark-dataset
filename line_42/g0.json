@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_42",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "1b991789b391f56aec36b7e4d8cb392cc3ac0c493a7504e63a80a0b0792aaa23",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 18,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -26,6 +42,85 @@
    "1972"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Tuition",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1972"
+   ],
+   "first_value": 0.0,
+   "last_value": 1390.0781,
+   "min_value": 0.0,
+   "max_value": 1390.0781,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Inflation (CPI)",
+   "row_count": 9,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1972"
+   ],
+   "first_value": 0.0,
+   "last_value": 420.0453,
+   "min_value": 0.0,
+   "max_value": 420.0453,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 18
+ },
+ "role_counts": {
+  "line": 18
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Tuition"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Inflation (CPI)"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -59,27 +154,5 @@
    "min_value": 0.0,
    "max_value": 420.0453
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Tuition"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Inflation (CPI)"
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

@@ -1,0 +1,227 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_34",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "907ef78e2167267234400c984fcaac3ab627df5dbbf0900604f5b585c3b9086a",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "skipped_prescriptions_or_doses_due_to_cost"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "United Kingdom",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 2.137,
+   "last_value": 2.137,
+   "min_value": 2.137,
+   "max_value": 2.137,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Germany",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 3.155,
+   "last_value": 3.155,
+   "min_value": 3.155,
+   "max_value": 3.155,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "France",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.173,
+   "last_value": 4.173,
+   "min_value": 4.173,
+   "max_value": 4.173,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Australia",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.107,
+   "last_value": 6.107,
+   "min_value": 6.107,
+   "max_value": 6.107,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Switzerland",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 9.059,
+   "last_value": 9.059,
+   "min_value": 9.059,
+   "max_value": 9.059,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Canada",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 10.076,
+   "last_value": 10.076,
+   "min_value": 10.076,
+   "max_value": 10.076,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Insured United States",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 20.051,
+   "last_value": 20.051,
+   "min_value": 20.051,
+   "max_value": 20.051,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Uninsured United States",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 33.453,
+   "last_value": 33.453,
+   "min_value": 33.453,
+   "max_value": 33.453,
+   "missing_value_count": 0,
+   "metric": [
+    "skipped_prescriptions_or_doses_due_to_cost"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "unspecified": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 8,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_28",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "abc26e9b3ee212aedfc3f863780f2a286d6fc65feeb6e2ddb0fff7ced5a4cc91",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 6,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "frame",
+  "panels": [],
+  "frames": [
+   "Initial state",
+   "Final state"
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "Initial state"
+  ],
+  "y_axes": [
+   "population_share",
+   "potential_revenue",
+   "wealth_level",
+   "wealth_tax_rate"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "Initial state",
+   "Final state",
+   "$60 million threshold",
+   "$1 billion threshold"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Illustrative wealth",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [
+    "Initial state",
+    "Final state"
+   ],
+   "first_value": 0.06,
+   "last_value": 1.9,
+   "min_value": 0.06,
+   "max_value": 1.9,
+   "missing_value_count": 0,
+   "metric": [
+    "wealth_level"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Tax rate",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "$60 million threshold",
+    "$1 billion threshold"
+   ],
+   "first_value": 2.0,
+   "last_value": 3.0,
+   "min_value": 2.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [
+    "wealth_tax_rate"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top 0.05% of Americans",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 0.05,
+   "last_value": 0.05,
+   "min_value": 0.05,
+   "max_value": 0.05,
+   "missing_value_count": 0,
+   "metric": [
+    "population_share"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Federal revenue",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 200.0,
+   "last_value": 200.0,
+   "min_value": 200.0,
+   "max_value": 200.0,
+   "missing_value_count": 0,
+   "metric": [
+    "potential_revenue"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 6
+ },
+ "role_counts": {
+  "annotation": 4,
+  "bar": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "state_sequence",
+  "selection": "all role=bar rows",
+  "required_data_rows": 2,
+  "required_states": [
+   "Initial state",
+   "Final state"
+  ],
+  "required_marks_per_state": {
+   "Initial state": 1,
+   "Final state": 1
+  },
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": true,
+  "final_frame_only_sufficient": false,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

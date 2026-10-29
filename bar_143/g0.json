@@ -1,0 +1,597 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_143",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "ae661dc746eeeebd2de443641550ae966044b8b0adae773170953c87674bc2d2",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 24,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "presidential_approval"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Trump",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Trump",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 84.0,
+   "last_value": 84.0,
+   "min_value": 84.0,
+   "max_value": 84.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Obama",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 81.0,
+   "last_value": 81.0,
+   "min_value": 81.0,
+   "max_value": 81.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Obama",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 14.0,
+   "last_value": 14.0,
+   "min_value": 14.0,
+   "max_value": 14.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "G.W. Bush",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 23.0,
+   "last_value": 23.0,
+   "min_value": 23.0,
+   "max_value": 23.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "G.W. Bush",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 81.0,
+   "last_value": 81.0,
+   "min_value": 81.0,
+   "max_value": 81.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Clinton",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 80.0,
+   "last_value": 80.0,
+   "min_value": 80.0,
+   "max_value": 80.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Clinton",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 27.0,
+   "last_value": 27.0,
+   "min_value": 27.0,
+   "max_value": 27.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "G.H.W. Bush",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 44.0,
+   "last_value": 44.0,
+   "min_value": 44.0,
+   "max_value": 44.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "G.H.W. Bush",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 82.0,
+   "last_value": 82.0,
+   "min_value": 82.0,
+   "max_value": 82.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Reagan",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 31.0,
+   "last_value": 31.0,
+   "min_value": 31.0,
+   "max_value": 31.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Reagan",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 83.0,
+   "last_value": 83.0,
+   "min_value": 83.0,
+   "max_value": 83.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Carter",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 57.0,
+   "last_value": 57.0,
+   "min_value": 57.0,
+   "max_value": 57.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Carter",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ford",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 36.0,
+   "last_value": 36.0,
+   "min_value": 36.0,
+   "max_value": 36.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ford",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 67.0,
+   "last_value": 67.0,
+   "min_value": 67.0,
+   "max_value": 67.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nixon",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nixon",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 75.0,
+   "last_value": 75.0,
+   "min_value": 75.0,
+   "max_value": 75.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Johnson",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 70.0,
+   "last_value": 70.0,
+   "min_value": 70.0,
+   "max_value": 70.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Johnson",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 40.0,
+   "last_value": 40.0,
+   "min_value": 40.0,
+   "max_value": 40.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kennedy",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 49.0,
+   "last_value": 49.0,
+   "min_value": 49.0,
+   "max_value": 49.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kennedy",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 84.0,
+   "last_value": 84.0,
+   "min_value": 84.0,
+   "max_value": 84.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Eisenhower",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 49.0,
+   "last_value": 49.0,
+   "min_value": 49.0,
+   "max_value": 49.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Eisenhower",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 88.0,
+   "last_value": 88.0,
+   "min_value": 88.0,
+   "max_value": 88.0,
+   "missing_value_count": 0,
+   "metric": [
+    "presidential_approval"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 24
+ },
+ "role_counts": {
+  "bar": 24
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 24,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

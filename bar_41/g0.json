@@ -1,0 +1,271 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_41",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "9abbd17d384318a830ca6ffec79d9b3ad8bb88d1c1ce0234422269dbab508921",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "2011"
+  ],
+  "y_axes": [
+   "katy_freeway_travel_time"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2011",
+   "2012",
+   "2013",
+   "2014"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "AM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2011"
+   ],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "PM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2011"
+   ],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "AM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2012"
+   ],
+   "first_value": 54.0,
+   "last_value": 54.0,
+   "min_value": 54.0,
+   "max_value": 54.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "PM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2012"
+   ],
+   "first_value": 52.0,
+   "last_value": 52.0,
+   "min_value": 52.0,
+   "max_value": 52.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "AM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2013"
+   ],
+   "first_value": 58.0,
+   "last_value": 58.0,
+   "min_value": 58.0,
+   "max_value": 58.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "PM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2013"
+   ],
+   "first_value": 61.0,
+   "last_value": 61.0,
+   "min_value": 61.0,
+   "max_value": 61.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2014",
+   "series": "AM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2014"
+   ],
+   "first_value": 61.0,
+   "last_value": 61.0,
+   "min_value": 61.0,
+   "max_value": 61.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2014",
+   "series": "PM",
+   "row_count": 1,
+   "unit": [
+    "minutes"
+   ],
+   "x_anchors": [
+    "2014"
+   ],
+   "first_value": 64.0,
+   "last_value": 64.0,
+   "min_value": 64.0,
+   "max_value": 64.0,
+   "missing_value_count": 0,
+   "metric": [
+    "katy_freeway_travel_time"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "bar": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 8,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

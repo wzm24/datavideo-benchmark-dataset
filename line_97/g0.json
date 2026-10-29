@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_97",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "6e18145102568216dd50d216557f6817371e77a76fea0973f49d8b494d2fe9ae",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 14,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -33,6 +49,97 @@
    "2013"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "More than 10 years",
+   "series": "",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1995",
+    "2000",
+    "2005",
+    "2007",
+    "2010",
+    "2012",
+    "2017"
+   ],
+   "first_value": 33.0,
+   "last_value": 66.0,
+   "min_value": 33.0,
+   "max_value": 66.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5 years or less",
+   "series": "",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1995",
+    "2000",
+    "2005",
+    "2007",
+    "2010",
+    "2013",
+    "2017"
+   ],
+   "first_value": 36.0,
+   "last_value": 20.0,
+   "min_value": 20.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 14
+ },
+ "role_counts": {
+  "line": 14
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "More than 10 years",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "5 years or less",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -78,27 +185,5 @@
    "min_value": 20.0,
    "max_value": 38.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "More than 10 years",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "5 years or less",
-    "series": ""
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

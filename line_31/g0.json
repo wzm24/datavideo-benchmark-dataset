@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_31",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "c84d845526c575933b27d37ec3fcedfc7664c2fd7e705a225cf8abceb1aedebe",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 39,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -28,6 +44,85 @@
    "1990"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "1920s peak level (reference line)",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 18.5,
+   "last_value": 18.5,
+   "min_value": 18.5,
+   "max_value": 18.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top 0.1% wealth share in the United States",
+   "series": "",
+   "row_count": 37,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1930",
+    "1960",
+    "1990"
+   ],
+   "first_value": 21.0,
+   "last_value": 18.5,
+   "min_value": 6.0,
+   "max_value": 24.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 39
+ },
+ "role_counts": {
+  "line": 39
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "1920s peak level (reference line)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Top 0.1% wealth share in the United States",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -61,27 +156,5 @@
    "min_value": 6.0,
    "max_value": 24.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "1920s peak level (reference line)",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Top 0.1% wealth share in the United States",
-    "series": ""
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

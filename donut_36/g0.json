@@ -1,0 +1,125 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_36",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "103ea08c0657651633e9fef47d77646c2655d358eb00fcbf1c672c12df8f3430",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "42cc49feb8e512e7d98ddcf653b411875198d4bd20979888f23ce4f65381bb98",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_restaurants"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "company-owned restaurants",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 15.0,
+   "last_value": 15.0,
+   "min_value": 15.0,
+   "max_value": 15.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_restaurants"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "franchised restaurants",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 85.0,
+   "last_value": 85.0,
+   "min_value": 85.0,
+   "max_value": 85.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_restaurants"
+   ],
+   "source_type": [
+    "derived_complement"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "derived_complement": 1,
+  "narration_calibrated": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "company-owned restaurants",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "franchised restaurants",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

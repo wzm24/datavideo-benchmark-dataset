@@ -1,0 +1,156 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_145",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0e900d10acc77989f01604cea232ee9396aaea904d22bef142c52d8fc8f00f0b",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 4,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "confirmed_vaccine_doses"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "High income",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "million doses"
+   ],
+   "x_anchors": [],
+   "first_value": 4200.0,
+   "last_value": 4200.0,
+   "min_value": 4200.0,
+   "max_value": 4200.0,
+   "missing_value_count": 0,
+   "metric": [
+    "confirmed_vaccine_doses"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Upper middle income",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "million doses"
+   ],
+   "x_anchors": [],
+   "first_value": 571.62,
+   "last_value": 571.62,
+   "min_value": 571.62,
+   "max_value": 571.62,
+   "missing_value_count": 0,
+   "metric": [
+    "confirmed_vaccine_doses"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower middle income",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "million doses"
+   ],
+   "x_anchors": [],
+   "first_value": 411.0,
+   "last_value": 411.0,
+   "min_value": 411.0,
+   "max_value": 411.0,
+   "missing_value_count": 0,
+   "metric": [
+    "confirmed_vaccine_doses"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower income",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "million doses"
+   ],
+   "x_anchors": [],
+   "first_value": 270.0,
+   "last_value": 270.0,
+   "min_value": 270.0,
+   "max_value": 270.0,
+   "missing_value_count": 0,
+   "metric": [
+    "confirmed_vaccine_doses"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 4
+ },
+ "role_counts": {
+  "bar": 4
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 4,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

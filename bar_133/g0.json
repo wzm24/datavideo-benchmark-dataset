@@ -1,0 +1,861 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_133",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "2d3e5419f06cd1d1f571d06d5728fedd68efa486419cbd97e7c7869d1452bcc1",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 38,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "value"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "2015",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0965,
+   "last_value": 0.0965,
+   "min_value": 0.0965,
+   "max_value": 0.0965,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2015",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0927,
+   "last_value": 0.0927,
+   "min_value": 0.0927,
+   "max_value": 0.0927,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "USA",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0038,
+   "last_value": 0.0038,
+   "min_value": 0.0038,
+   "max_value": 0.0038,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1026,
+   "last_value": 0.1026,
+   "min_value": 0.1026,
+   "max_value": 0.1026,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "Russia",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1451,
+   "last_value": 0.3157,
+   "min_value": 0.1451,
+   "max_value": 0.3157,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Russia",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0025,
+   "last_value": 0.0025,
+   "min_value": 0.0025,
+   "max_value": 0.0025,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1076,
+   "last_value": 0.1076,
+   "min_value": 0.1076,
+   "max_value": 0.1076,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1967,
+   "last_value": 0.1967,
+   "min_value": 0.1967,
+   "max_value": 0.1967,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Other",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.003,
+   "last_value": 0.003,
+   "min_value": 0.003,
+   "max_value": 0.003,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.113,
+   "last_value": 0.113,
+   "min_value": 0.113,
+   "max_value": 0.113,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "Russia",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2443,
+   "last_value": 0.4289,
+   "min_value": 0.2443,
+   "max_value": 0.4289,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2015",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0073,
+   "last_value": 0.0073,
+   "min_value": 0.0073,
+   "max_value": 0.0073,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1373,
+   "last_value": 0.1373,
+   "min_value": 0.1373,
+   "max_value": 0.1373,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0046,
+   "last_value": 0.0046,
+   "min_value": 0.0046,
+   "max_value": 0.0046,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.143,
+   "last_value": 0.143,
+   "min_value": 0.143,
+   "max_value": 0.143,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0057,
+   "last_value": 0.0057,
+   "min_value": 0.0057,
+   "max_value": 0.0057,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2573,
+   "last_value": 0.2573,
+   "min_value": 0.2573,
+   "max_value": 0.2573,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4504,
+   "last_value": 0.4504,
+   "min_value": 0.4504,
+   "max_value": 0.4504,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0072,
+   "last_value": 0.0072,
+   "min_value": 0.0072,
+   "max_value": 0.0072,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2799,
+   "last_value": 0.2799,
+   "min_value": 0.2799,
+   "max_value": 0.2799,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3499,
+   "last_value": 0.3499,
+   "min_value": 0.3499,
+   "max_value": 0.3499,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0063,
+   "last_value": 0.0063,
+   "min_value": 0.0063,
+   "max_value": 0.0063,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.329,
+   "last_value": 0.329,
+   "min_value": 0.329,
+   "max_value": 0.329,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.223,
+   "last_value": 0.223,
+   "min_value": 0.223,
+   "max_value": 0.223,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0055,
+   "last_value": 0.0055,
+   "min_value": 0.0055,
+   "max_value": 0.0055,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3108,
+   "last_value": 0.3108,
+   "min_value": 0.3108,
+   "max_value": 0.3108,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1351,
+   "last_value": 0.1351,
+   "min_value": 0.1351,
+   "max_value": 0.1351,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0045,
+   "last_value": 0.0045,
+   "min_value": 0.0045,
+   "max_value": 0.0045,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3693,
+   "last_value": 0.3693,
+   "min_value": 0.3693,
+   "max_value": 0.3693,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1950",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0766,
+   "last_value": 0.0766,
+   "min_value": 0.0766,
+   "max_value": 0.0766,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1945",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0045,
+   "last_value": 0.0045,
+   "min_value": 0.0045,
+   "max_value": 0.0045,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2302,
+   "last_value": 0.2302,
+   "min_value": 0.2302,
+   "max_value": 0.2302,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1940",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.02,
+   "last_value": 0.02,
+   "min_value": 0.02,
+   "max_value": 0.02,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.046,
+   "last_value": 0.046,
+   "min_value": 0.046,
+   "max_value": 0.046,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.004,
+   "last_value": 0.004,
+   "min_value": 0.004,
+   "max_value": 0.004,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1950",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0214,
+   "last_value": 0.0214,
+   "min_value": 0.0214,
+   "max_value": 0.0214,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 38
+ },
+ "role_counts": {
+  "bar": 38
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 38,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

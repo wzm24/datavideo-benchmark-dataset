@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_63",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "aff28633e8be7a94cbe4593c9a4affb81369985c2fe849a95fa706b13dca2c08",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 31,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -56,6 +72,88 @@
    "1980"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "reported cases",
+   "series": "",
+   "row_count": 31,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [
+    "1920",
+    "1922",
+    "1925",
+    "1927",
+    "1929",
+    "1931",
+    "1933",
+    "1935",
+    "1937",
+    "1939",
+    "1941",
+    "1943",
+    "1945",
+    "1947",
+    "1949",
+    "1950",
+    "1951",
+    "1953",
+    "1955",
+    "1957",
+    "1959",
+    "1961",
+    "1963",
+    "1965",
+    "1967",
+    "1969",
+    "1971",
+    "1973",
+    "1975",
+    "1977",
+    "1980"
+   ],
+   "first_value": 400000.0,
+   "last_value": 20000.0,
+   "min_value": 20000.0,
+   "max_value": 620000.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 31
+ },
+ "role_counts": {
+  "line": 31
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "reported cases",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -103,22 +201,5 @@
    "min_value": 20000.0,
    "max_value": 620000.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "reported cases",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

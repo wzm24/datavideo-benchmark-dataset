@@ -1,0 +1,125 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_11",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "660fcebb73107a1ac43e22719d900345e06a0a20bc59d574dfa66abb2bfab554",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "cae09c41e48db4a5a2cc1aae107e180af4d812e4a3af63ca3e413ac6a9837be9",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_operating_profit"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "AWS",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 58.0,
+   "last_value": 58.0,
+   "min_value": 58.0,
+   "max_value": 58.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_operating_profit"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "total (all other business)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_operating_profit"
+   ],
+   "source_type": [
+    "derived_complement"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "derived_complement": 1,
+  "narration_calibrated": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "AWS",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "total (all other business)",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

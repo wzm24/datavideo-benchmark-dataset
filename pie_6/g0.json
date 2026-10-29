@@ -1,0 +1,128 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_6",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "2769ac67a4e8d18681fa635a80c263bb33fd8b4b0bbaa64bc4f874cb1965073d",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "b64319530c1952ea907ce26d032f47b8a45c1dbb1c2fa9f3dccaabe1e26886ea",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type",
+  "label_source",
+  "note"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_gdp"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Oil",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3,
+   "last_value": 0.3,
+   "min_value": 0.3,
+   "max_value": 0.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_gdp"
+   ],
+   "source_type": [
+    "estimated_ring_geometry"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Rest of GDP (non-oil)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 99.7,
+   "last_value": 99.7,
+   "min_value": 99.7,
+   "max_value": 99.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_gdp"
+   ],
+   "source_type": [
+    "estimated_ring_geometry"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated_ring_geometry": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated_ring_geometry"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Oil",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Rest of GDP (non-oil)",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

@@ -1,0 +1,3372 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_23",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "b5b69697828ebc237fa2921cbf1554dd6e9bcbff445037f8071082c800b2e776",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 150,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "stacked_100",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "vote_share"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Alabama",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Alabama",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Alabama",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Alaska",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 37.0,
+   "last_value": 37.0,
+   "min_value": 37.0,
+   "max_value": 37.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Alaska",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 12.0,
+   "last_value": 12.0,
+   "min_value": 12.0,
+   "max_value": 12.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Alaska",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 51.0,
+   "last_value": 51.0,
+   "min_value": 51.0,
+   "max_value": 51.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arizona",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.0,
+   "last_value": 45.0,
+   "min_value": 45.0,
+   "max_value": 45.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arizona",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arizona",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 49.0,
+   "last_value": 49.0,
+   "min_value": 49.0,
+   "max_value": 49.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arkansas",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arkansas",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Arkansas",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 60.0,
+   "last_value": 60.0,
+   "min_value": 60.0,
+   "max_value": 60.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "California",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "California",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "California",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 32.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Colorado",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Colorado",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 9.0,
+   "last_value": 9.0,
+   "min_value": 9.0,
+   "max_value": 9.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Colorado",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Connecticut",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 54.0,
+   "last_value": 54.0,
+   "min_value": 54.0,
+   "max_value": 54.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Connecticut",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Connecticut",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 41.0,
+   "last_value": 41.0,
+   "min_value": 41.0,
+   "max_value": 41.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Delaware",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 53.0,
+   "last_value": 53.0,
+   "min_value": 53.0,
+   "max_value": 53.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Delaware",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Delaware",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Florida",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Florida",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Florida",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 49.0,
+   "last_value": 49.0,
+   "min_value": 49.0,
+   "max_value": 49.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Georgia",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Georgia",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 3.0,
+   "last_value": 3.0,
+   "min_value": 3.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Georgia",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 51.0,
+   "last_value": 51.0,
+   "min_value": 51.0,
+   "max_value": 51.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Hawaii",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Hawaii",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.0,
+   "last_value": 8.0,
+   "min_value": 8.0,
+   "max_value": 8.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Hawaii",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Idaho",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 27.0,
+   "last_value": 27.0,
+   "min_value": 27.0,
+   "max_value": 27.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Idaho",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 14.0,
+   "last_value": 14.0,
+   "min_value": 14.0,
+   "max_value": 14.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Idaho",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 59.0,
+   "last_value": 59.0,
+   "min_value": 59.0,
+   "max_value": 59.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Illinois",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 56.0,
+   "last_value": 56.0,
+   "min_value": 56.0,
+   "max_value": 56.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Illinois",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Illinois",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 39.0,
+   "last_value": 39.0,
+   "min_value": 39.0,
+   "max_value": 39.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Indiana",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 38.0,
+   "last_value": 38.0,
+   "min_value": 38.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Indiana",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Indiana",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 57.0,
+   "last_value": 57.0,
+   "min_value": 57.0,
+   "max_value": 57.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Iowa",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Iowa",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Iowa",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 51.0,
+   "last_value": 51.0,
+   "min_value": 51.0,
+   "max_value": 51.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kansas",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 36.0,
+   "last_value": 36.0,
+   "min_value": 36.0,
+   "max_value": 36.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kansas",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kansas",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 57.0,
+   "last_value": 57.0,
+   "min_value": 57.0,
+   "max_value": 57.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kentucky",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 33.0,
+   "last_value": 33.0,
+   "min_value": 33.0,
+   "max_value": 33.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kentucky",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Kentucky",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 63.0,
+   "last_value": 63.0,
+   "min_value": 63.0,
+   "max_value": 63.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Louisiana",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 38.0,
+   "last_value": 38.0,
+   "min_value": 38.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Louisiana",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Louisiana",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 58.0,
+   "last_value": 58.0,
+   "min_value": 58.0,
+   "max_value": 58.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maine",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maine",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maine",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.0,
+   "last_value": 45.0,
+   "min_value": 45.0,
+   "max_value": 45.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maryland",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 60.0,
+   "last_value": 60.0,
+   "min_value": 60.0,
+   "max_value": 60.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maryland",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Maryland",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Massachusetts",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 60.0,
+   "last_value": 60.0,
+   "min_value": 60.0,
+   "max_value": 60.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Massachusetts",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Massachusetts",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 33.0,
+   "last_value": 33.0,
+   "min_value": 33.0,
+   "max_value": 33.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Michigan",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Michigan",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Michigan",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Minnesota",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Minnesota",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.0,
+   "last_value": 8.0,
+   "min_value": 8.0,
+   "max_value": 8.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Minnesota",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.0,
+   "last_value": 45.0,
+   "min_value": 45.0,
+   "max_value": 45.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Mississippi",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 40.0,
+   "last_value": 40.0,
+   "min_value": 40.0,
+   "max_value": 40.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Mississippi",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 2.0,
+   "last_value": 2.0,
+   "min_value": 2.0,
+   "max_value": 2.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Mississippi",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 58.0,
+   "last_value": 58.0,
+   "min_value": 58.0,
+   "max_value": 58.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Missouri",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 38.0,
+   "last_value": 38.0,
+   "min_value": 38.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Missouri",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Missouri",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 57.0,
+   "last_value": 57.0,
+   "min_value": 57.0,
+   "max_value": 57.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Montana",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 36.0,
+   "last_value": 36.0,
+   "min_value": 36.0,
+   "max_value": 36.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Montana",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.0,
+   "last_value": 8.0,
+   "min_value": 8.0,
+   "max_value": 8.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Montana",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 56.0,
+   "last_value": 56.0,
+   "min_value": 56.0,
+   "max_value": 56.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nebraska",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nebraska",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 7.0,
+   "last_value": 7.0,
+   "min_value": 7.0,
+   "max_value": 7.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nebraska",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 59.0,
+   "last_value": 59.0,
+   "min_value": 59.0,
+   "max_value": 59.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nevada",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nevada",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Nevada",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Hampshire",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Hampshire",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Hampshire",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Jersey",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 55.0,
+   "last_value": 55.0,
+   "min_value": 55.0,
+   "max_value": 55.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Jersey",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Jersey",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 41.0,
+   "last_value": 41.0,
+   "min_value": 41.0,
+   "max_value": 41.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Mexico",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Mexico",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 12.0,
+   "last_value": 12.0,
+   "min_value": 12.0,
+   "max_value": 12.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Mexico",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 40.0,
+   "last_value": 40.0,
+   "min_value": 40.0,
+   "max_value": 40.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New York",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 59.0,
+   "last_value": 59.0,
+   "min_value": 59.0,
+   "max_value": 59.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New York",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New York",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 37.0,
+   "last_value": 37.0,
+   "min_value": 37.0,
+   "max_value": 37.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Carolina",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Carolina",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Carolina",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 50.0,
+   "last_value": 50.0,
+   "min_value": 50.0,
+   "max_value": 50.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Dakota",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 27.0,
+   "last_value": 27.0,
+   "min_value": 27.0,
+   "max_value": 27.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Dakota",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 10.0,
+   "last_value": 10.0,
+   "min_value": 10.0,
+   "max_value": 10.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "North Dakota",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 63.0,
+   "last_value": 63.0,
+   "min_value": 63.0,
+   "max_value": 63.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ohio",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ohio",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Ohio",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 52.0,
+   "last_value": 52.0,
+   "min_value": 52.0,
+   "max_value": 52.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oklahoma",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 29.0,
+   "last_value": 29.0,
+   "min_value": 29.0,
+   "max_value": 29.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oklahoma",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oklahoma",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 65.0,
+   "last_value": 65.0,
+   "min_value": 65.0,
+   "max_value": 65.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oregon",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 50.0,
+   "last_value": 50.0,
+   "min_value": 50.0,
+   "max_value": 50.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oregon",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 11.0,
+   "last_value": 11.0,
+   "min_value": 11.0,
+   "max_value": 11.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Oregon",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 39.0,
+   "last_value": 39.0,
+   "min_value": 39.0,
+   "max_value": 39.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Pennsylvania",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Pennsylvania",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Pennsylvania",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Rhode Island",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 55.0,
+   "last_value": 55.0,
+   "min_value": 55.0,
+   "max_value": 55.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Rhode Island",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Rhode Island",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 39.0,
+   "last_value": 39.0,
+   "min_value": 39.0,
+   "max_value": 39.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Carolina",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 41.0,
+   "last_value": 41.0,
+   "min_value": 41.0,
+   "max_value": 41.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Carolina",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Carolina",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 55.0,
+   "last_value": 55.0,
+   "min_value": 55.0,
+   "max_value": 55.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Dakota",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 32.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Dakota",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "South Dakota",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Tennessee",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 35.0,
+   "last_value": 35.0,
+   "min_value": 35.0,
+   "max_value": 35.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Tennessee",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Tennessee",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 61.0,
+   "last_value": 61.0,
+   "min_value": 61.0,
+   "max_value": 61.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Texas",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Texas",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Texas",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 52.0,
+   "last_value": 52.0,
+   "min_value": 52.0,
+   "max_value": 52.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Utah",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 28.0,
+   "last_value": 28.0,
+   "min_value": 28.0,
+   "max_value": 28.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Utah",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 26.0,
+   "last_value": 26.0,
+   "min_value": 26.0,
+   "max_value": 26.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Utah",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Vermont",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 61.0,
+   "last_value": 61.0,
+   "min_value": 61.0,
+   "max_value": 61.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Vermont",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 9.0,
+   "last_value": 9.0,
+   "min_value": 9.0,
+   "max_value": 9.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Vermont",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Virginia",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 50.0,
+   "last_value": 50.0,
+   "min_value": 50.0,
+   "max_value": 50.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Virginia",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Virginia",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 44.0,
+   "last_value": 44.0,
+   "min_value": 44.0,
+   "max_value": 44.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Washington",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 54.0,
+   "last_value": 54.0,
+   "min_value": 54.0,
+   "max_value": 54.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Washington",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.0,
+   "last_value": 8.0,
+   "min_value": 8.0,
+   "max_value": 8.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Washington",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 38.0,
+   "last_value": 38.0,
+   "min_value": 38.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "West Virginia",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 26.0,
+   "last_value": 26.0,
+   "min_value": 26.0,
+   "max_value": 26.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "West Virginia",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "West Virginia",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 69.0,
+   "last_value": 69.0,
+   "min_value": 69.0,
+   "max_value": 69.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wisconsin",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wisconsin",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wisconsin",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wyoming",
+   "series": "Clinton",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 22.0,
+   "last_value": 22.0,
+   "min_value": 22.0,
+   "max_value": 22.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wyoming",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 10.0,
+   "last_value": 10.0,
+   "min_value": 10.0,
+   "max_value": 10.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Wyoming",
+   "series": "Trump",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 68.0,
+   "last_value": 68.0,
+   "min_value": 68.0,
+   "max_value": 68.0,
+   "missing_value_count": 0,
+   "metric": [
+    "vote_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 150
+ },
+ "role_counts": {
+  "bar": 150
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all role=bar rows",
+  "required_data_rows": 150,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

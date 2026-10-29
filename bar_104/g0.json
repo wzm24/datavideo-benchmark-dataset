@@ -1,0 +1,125 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_104",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "0e084d7327d2f380c3e2787cf48c3e7923caed1098fbdf2f5d5d794279e64ef4",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 3,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "overlay_bar",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "2008"
+  ],
+  "y_axes": [
+   "value"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "2008",
+   "2001"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "400 richest tax rate",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2008",
+    "2001"
+   ],
+   "first_value": 18.1,
+   "last_value": 23.0,
+   "min_value": 18.1,
+   "max_value": 23.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "$100k-$200k earners tax rate",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2008"
+   ],
+   "first_value": 25.0,
+   "last_value": 25.0,
+   "min_value": 25.0,
+   "max_value": 25.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 3
+ },
+ "role_counts": {
+  "bar": 3
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 3,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_152",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6fd002023c356595bfaf43d0e58018269646863b7eb32ab7e6133675e11e6178",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 9,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "reported_rape_cases"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 19600.0,
+   "last_value": 19600.0,
+   "min_value": 19600.0,
+   "max_value": 19600.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 19500.0,
+   "last_value": 19500.0,
+   "min_value": 19500.0,
+   "max_value": 19500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 20500.0,
+   "last_value": 20500.0,
+   "min_value": 20500.0,
+   "max_value": 20500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 22500.0,
+   "last_value": 22500.0,
+   "min_value": 22500.0,
+   "max_value": 22500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 23500.0,
+   "last_value": 23500.0,
+   "min_value": 23500.0,
+   "max_value": 23500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 31500.0,
+   "last_value": 31500.0,
+   "min_value": 31500.0,
+   "max_value": 31500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2014",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 34000.0,
+   "last_value": 34000.0,
+   "min_value": 34000.0,
+   "max_value": 34000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2015",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 32500.0,
+   "last_value": 32500.0,
+   "min_value": 32500.0,
+   "max_value": 32500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2016",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "cases"
+   ],
+   "x_anchors": [],
+   "first_value": 37500.0,
+   "last_value": 37500.0,
+   "min_value": 37500.0,
+   "max_value": 37500.0,
+   "missing_value_count": 0,
+   "metric": [
+    "reported_rape_cases"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 9
+ },
+ "role_counts": {
+  "bar": 9
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 9,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

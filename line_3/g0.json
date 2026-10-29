@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_3",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "6f7673c2adab7b1c5f32662afcfb5b316f10c57f632388b565a6196a5e25b50e",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 72,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -33,6 +49,99 @@
    "2015"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "top 1%",
+   "row_count": 36,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1980",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015"
+   ],
+   "first_value": 16.0,
+   "last_value": 20.5,
+   "min_value": 15.5,
+   "max_value": 22.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "bottom 50%",
+   "row_count": 36,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1980",
+    "1985",
+    "1990",
+    "1995",
+    "2000",
+    "2005",
+    "2010",
+    "2015"
+   ],
+   "first_value": 8.0,
+   "last_value": 9.5,
+   "min_value": 8.0,
+   "max_value": 9.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 72
+ },
+ "role_counts": {
+  "line": 72
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "top 1%"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "bottom 50%"
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -80,27 +189,5 @@
    "min_value": 8.0,
    "max_value": 9.5
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "top 1%"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "bottom 50%"
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

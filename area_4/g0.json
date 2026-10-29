@@ -1,0 +1,91 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_4",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "fd23c104fbb6bb9e6ff6a298957e0011b7a550e74b81a5e312e15a19eae785b9",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 51,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "democracy share",
+   "series": "",
+   "row_count": 51,
+   "unit": [
+    "percent"
+   ],
+   "x_anchors": [],
+   "first_value": 14.7,
+   "last_value": 97.1,
+   "min_value": 13.2,
+   "max_value": 97.1,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 51
+ },
+ "role_counts": {
+  "unspecified": 51
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "democracy share",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 1,
+  "required_row_count": 51,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

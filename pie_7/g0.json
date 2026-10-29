@@ -1,0 +1,181 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_7",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "7d847f9bc0ab3a955b213ef43ea04011fd182e92f6ab287db7eaa950f865877c",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "a2c1b2762ecf59f3c03e92e8380a4feb6e57f4e5984bccfc63651aed2d6470c6",
+ "row_count": 4,
+ "sidecar_row_count": 4,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "multi_pie",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_land_area"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Arable land",
+   "series": "All land",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3,
+   "last_value": 0.3,
+   "min_value": 0.3,
+   "max_value": 0.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_land_area"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Other land",
+   "series": "All land",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 99.7,
+   "last_value": 99.7,
+   "min_value": 99.7,
+   "max_value": 99.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_land_area"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Irrigated arable land",
+   "series": "Arable land",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 33.3,
+   "last_value": 33.3,
+   "min_value": 33.3,
+   "max_value": 33.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_land_area"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Not irrigated",
+   "series": "Arable land",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 66.7,
+   "last_value": 66.7,
+   "min_value": 66.7,
+   "max_value": 66.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_land_area"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 4
+ },
+ "role_counts": {
+  "unspecified": 4
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Arable land",
+    "series": "All land"
+   },
+   {
+    "panel": "",
+    "entity": "Other land",
+    "series": "All land"
+   },
+   {
+    "panel": "",
+    "entity": "Irrigated arable land",
+    "series": "Arable land"
+   },
+   {
+    "panel": "",
+    "entity": "Not irrigated",
+    "series": "Arable land"
+   }
+  ],
+  "required_entity_count": 4,
+  "required_row_count": 4,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

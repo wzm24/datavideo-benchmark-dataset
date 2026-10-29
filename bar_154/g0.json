@@ -1,0 +1,245 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_154",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "eefe7d5a9f8008e924e12b17ba8fd49347dde629c62e1e7f8a7cbaf2255f1a68",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "very_unfavorable_attitude"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 16.0,
+   "last_value": 16.0,
+   "min_value": 16.0,
+   "max_value": 16.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 37.0,
+   "last_value": 37.0,
+   "min_value": 37.0,
+   "max_value": 37.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2014",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2016",
+   "series": "Democrats",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 55.0,
+   "last_value": 55.0,
+   "min_value": 55.0,
+   "max_value": 55.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 17.0,
+   "last_value": 17.0,
+   "min_value": 17.0,
+   "max_value": 17.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 32.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2014",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2016",
+   "series": "Republicans",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 58.0,
+   "last_value": 58.0,
+   "min_value": 58.0,
+   "max_value": 58.0,
+   "missing_value_count": 0,
+   "metric": [
+    "very_unfavorable_attitude"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "bar": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 8,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

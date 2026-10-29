@@ -1,9 +1,27 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_51",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "50e46a988ef1e9c54d8f05adc7b226d944866446cd9843697c1bd17d00955bdc",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 15,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_panel",
   "orientation": "cartesian",
@@ -34,6 +52,126 @@
    "2015"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "IRS BUDGET (2018 DOLLARS)",
+   "entity": "",
+   "series": "IRS BUDGET (2018 DOLLARS)",
+   "row_count": 5,
+   "unit": [
+    "$B"
+   ],
+   "x_anchors": [
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+   ],
+   "first_value": 13.0,
+   "last_value": 12.0,
+   "min_value": 11.0,
+   "max_value": 13.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "IRS REVENUE AGENTS",
+   "entity": "",
+   "series": "IRS REVENUE AGENTS",
+   "row_count": 5,
+   "unit": [
+    "k"
+   ],
+   "x_anchors": [
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+   ],
+   "first_value": 13.5,
+   "last_value": 10.0,
+   "min_value": 10.0,
+   "max_value": 13.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "IRS AUDITS PER YEAR",
+   "entity": "",
+   "series": "IRS AUDITS PER YEAR",
+   "row_count": 5,
+   "unit": [
+    "M"
+   ],
+   "x_anchors": [
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015"
+   ],
+   "first_value": 1.7,
+   "last_value": 1.2,
+   "min_value": 1.2,
+   "max_value": 1.7,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 15
+ },
+ "role_counts": {
+  "line": 15
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "IRS BUDGET (2018 DOLLARS)",
+   "IRS REVENUE AGENTS",
+   "IRS AUDITS PER YEAR"
+  ],
+  "required_series": [
+   {
+    "panel": "IRS BUDGET (2018 DOLLARS)",
+    "entity": "",
+    "series": "IRS BUDGET (2018 DOLLARS)"
+   },
+   {
+    "panel": "IRS REVENUE AGENTS",
+    "entity": "",
+    "series": "IRS REVENUE AGENTS"
+   },
+   {
+    "panel": "IRS AUDITS PER YEAR",
+    "entity": "",
+    "series": "IRS AUDITS PER YEAR"
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "IRS BUDGET (2018 DOLLARS)",
@@ -95,34 +233,5 @@
    "min_value": 1.2,
    "max_value": 1.7
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   "IRS BUDGET (2018 DOLLARS)",
-   "IRS REVENUE AGENTS",
-   "IRS AUDITS PER YEAR"
-  ],
-  "required_series": [
-   {
-    "panel": "IRS BUDGET (2018 DOLLARS)",
-    "entity": "",
-    "series": "IRS BUDGET (2018 DOLLARS)"
-   },
-   {
-    "panel": "IRS REVENUE AGENTS",
-    "entity": "",
-    "series": "IRS REVENUE AGENTS"
-   },
-   {
-    "panel": "IRS AUDITS PER YEAR",
-    "entity": "",
-    "series": "IRS AUDITS PER YEAR"
-   }
-  ],
-  "required_series_count": 3,
-  "all_required_series_must_appear": true
- }
+ ]
 }

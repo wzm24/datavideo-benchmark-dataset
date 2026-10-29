@@ -1,0 +1,178 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_5",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "269b8f3d116eae2808318a15fdaff0c6d3adbec02bdaeb9f863b52f8404c73b0",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "e57eeed8a778dc4e79bb8d25d0388cf29f9684bb11f7cce45af225e7ce694f39",
+ "row_count": 4,
+ "sidecar_row_count": 4,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_transit_funding"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Federal",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_transit_funding"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Fares",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 26.0,
+   "last_value": 26.0,
+   "min_value": 26.0,
+   "max_value": 26.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_transit_funding"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Local government",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 36.0,
+   "last_value": 36.0,
+   "min_value": 36.0,
+   "max_value": 36.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_transit_funding"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "State",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 21.0,
+   "last_value": 21.0,
+   "min_value": 21.0,
+   "max_value": 21.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_transit_funding"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 4
+ },
+ "role_counts": {
+  "unspecified": 4
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Federal",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Fares",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Local government",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "State",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 4,
+  "required_row_count": 4,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

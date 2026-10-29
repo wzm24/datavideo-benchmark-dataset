@@ -1,0 +1,124 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_18",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "ddfe21b7fe9fb84ea29742aad453feef8f7b17c7b5cd0dc61c19efacf9c625a1",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "e18e58860e2c3f43c4405dae4a22018dd8957cb6784b13e25992200fa6dcbc08",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_taxes"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "NOT PAID",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 18.3,
+   "last_value": 18.3,
+   "min_value": 18.3,
+   "max_value": 18.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_taxes"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "TAXES PAID",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 81.7,
+   "last_value": 81.7,
+   "min_value": 81.7,
+   "max_value": 81.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_taxes"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "NOT PAID",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "TAXES PAID",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

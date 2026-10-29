@@ -1,0 +1,169 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_21",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "87b3a2214cc84a8f14e133beb32af566fad01e04b62614a1e693fe6d581c00ae",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 6,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "available_revenue",
+   "coverage_multiple",
+   "spending_cost_relative_to_college"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Free public college",
+   "series": "Sanders plan",
+   "row_count": 2,
+   "unit": [
+    "relative",
+    "times"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 3.0,
+   "min_value": 1.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [
+    "coverage_multiple",
+    "spending_cost_relative_to_college"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation",
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Food assistance",
+   "series": "Like food stamps",
+   "row_count": 2,
+   "unit": [
+    "relative",
+    "times"
+   ],
+   "x_anchors": [],
+   "first_value": 1.5,
+   "last_value": 2.0,
+   "min_value": 1.5,
+   "max_value": 2.0,
+   "missing_value_count": 0,
+   "metric": [
+    "coverage_multiple",
+    "spending_cost_relative_to_college"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation",
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Cut child poverty 60%",
+   "series": "Bennet-Brown plan",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 4.5,
+   "last_value": 4.5,
+   "min_value": 4.5,
+   "max_value": 4.5,
+   "missing_value_count": 0,
+   "metric": [
+    "spending_cost_relative_to_college"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Government revenue",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 200.0,
+   "last_value": 200.0,
+   "min_value": 200.0,
+   "max_value": 200.0,
+   "missing_value_count": 0,
+   "metric": [
+    "available_revenue"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 6
+ },
+ "role_counts": {
+  "annotation": 3,
+  "bar": 3
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all role=bar rows",
+  "required_data_rows": 3,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

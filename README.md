@@ -15,11 +15,14 @@
   `92/92`，其中 12 条确认的 parser 误读经过人工裁决闭合，4 个输入不足关系
   降为 `optional_valid`。
 - 完整索引见根目录 `LINE_REVIEW_INDEX.csv`。
+- 全部 340 条 OK clip 均已生成独立 `g0.json`。G0 绑定审核后数据表及其哈希，
+  记录字段、图结构、轴/类别语义、实体/系列清单、数值范围、provenance 和完整性要求。
 
 | 文件 | 作用 |
 |---|---|
 | `data_table.csv` | 审核后的数据表，是生成端的公开输入 |
 | `intent.json` | 一句话公开 intent；保留 `narrative_goal`（叙事目标）和溯源字段 |
+| `g0.json` | G0：数据事实基础，绑定数据表哈希、字段、图结构、实体/系列与完整性 |
 | `g1.json` | G1：要求（R）+ 单元（U）+ 权重 |
 | `g2.json` | G2：逐 U 的机器可检查视觉证据条件；bar/line 全量已生成 |
 | `g3.json` | G3：绑定生成旁白的时间政策；bar/line 全量已生成草稿 |
@@ -39,6 +42,10 @@ line 家族已迁移到标准 `g0.json` / `g1.json` / `g2.json` / `g3.json`。�
 `g1_draft_b2.json` 和 `g2_evidence.json` 已从 line clip 中移除。公开
 `input_spec.json` 统一为 `family / sub_type / orientation / panel_count /
 time_behavior`，不包含系列数量或答案提示。
+
+bar 的 G0 同时保留原 G1 中的完整性定义；line 的 G0 保留逐 panel、series 的
+轴语义和坐标锚点。area/donut/pie 从审核后的表、sidecar 和 chart spec 派生
+统一事实清单。G0 使用 `g0_fact_base_v1_2026-10-29`。
 
 ## 2. 审核顺序：表 → intent → G1
 
@@ -159,6 +166,8 @@ time_behavior`，不包含系列数量或答案提示。
 - bar 全量审核索引：`BAR_REVIEW_INDEX.csv`
 - line 全量审核索引：`LINE_REVIEW_INDEX.csv`
 - line G2/G3 状态：`LINE_G2_G3_STATUS.md`
+- G0 全家族状态：`G0_STATUS.md`
+- G0 全量生成审计：`audits/g0_20261029/summary.json`
 - line V1 归档审计：`audits/line_gt_20261029/`
 - line G1 全量审核页：`reviews/2026-10-29/line_gt_full_review.html`
 - line G1 闭合审核页：`reviews/2026-10-29/line_g1_closure_review.html`

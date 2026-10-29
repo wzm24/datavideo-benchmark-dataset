@@ -1,0 +1,128 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_8",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "a8a3491b03f76d546535acba9954d8caa4e45aee789811cc13de665c7465ae00",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "6ff40faad0bd1438894f5b54064b8f63ae99c5fb71968d314ee9c7566d9af94b",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "multi_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_voters"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "All American voters",
+   "series": "Outer ring",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 77.0,
+   "last_value": 77.0,
+   "min_value": 77.0,
+   "max_value": 77.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_voters"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Live in a house with a gun",
+   "series": "Inner ring",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 68.0,
+   "last_value": 68.0,
+   "min_value": 68.0,
+   "max_value": 68.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_voters"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "All American voters",
+    "series": "Outer ring"
+   },
+   {
+    "panel": "",
+    "entity": "Live in a house with a gun",
+    "series": "Inner ring"
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

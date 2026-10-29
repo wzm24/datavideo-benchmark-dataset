@@ -1,0 +1,182 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_20",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "176a9c001d91ec5df7b41b532c65e04fe9fc388e9c435558e6cfa91c64fa770f",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "6ff8d83ec002d513fc6b23c6ed3ba68c324bd4efc213e3d332edf7af43706135",
+ "row_count": 4,
+ "sidecar_row_count": 4,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "multi_pie",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_drivers_below_min_wage",
+   "share_of_drivers_with_other_income"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "< minimum wage",
+   "series": "Minimum wage",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 54.2,
+   "last_value": 54.2,
+   "min_value": 54.2,
+   "max_value": 54.2,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_drivers_below_min_wage"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "at or above minimum wage",
+   "series": "Minimum wage",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.8,
+   "last_value": 45.8,
+   "min_value": 45.8,
+   "max_value": 45.8,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_drivers_below_min_wage"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Other income",
+   "series": "Other income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 60.4,
+   "last_value": 60.4,
+   "min_value": 60.4,
+   "max_value": 60.4,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_drivers_with_other_income"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "No other income",
+   "series": "Other income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 39.6,
+   "last_value": 39.6,
+   "min_value": 39.6,
+   "max_value": 39.6,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_drivers_with_other_income"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 4
+ },
+ "role_counts": {
+  "unspecified": 4
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "< minimum wage",
+    "series": "Minimum wage"
+   },
+   {
+    "panel": "",
+    "entity": "at or above minimum wage",
+    "series": "Minimum wage"
+   },
+   {
+    "panel": "",
+    "entity": "Other income",
+    "series": "Other income"
+   },
+   {
+    "panel": "",
+    "entity": "No other income",
+    "series": "Other income"
+   }
+  ],
+  "required_entity_count": 4,
+  "required_row_count": 4,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

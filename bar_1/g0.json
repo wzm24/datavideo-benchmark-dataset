@@ -1,0 +1,127 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_1",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "f35741a8d08b32ca1b756b81053c5ef26c202806bfd181a52cf44e3ab2cd740f",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 3,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "travel_days"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "CAR",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "days"
+   ],
+   "x_anchors": [],
+   "first_value": null,
+   "last_value": null,
+   "min_value": null,
+   "max_value": null,
+   "missing_value_count": 1,
+   "metric": [
+    "travel_days"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "BOING 747",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "days"
+   ],
+   "x_anchors": [],
+   "first_value": 28.0,
+   "last_value": 28.0,
+   "min_value": 28.0,
+   "max_value": 28.0,
+   "missing_value_count": 0,
+   "metric": [
+    "travel_days"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "SPACESHIP",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "days"
+   ],
+   "x_anchors": [],
+   "first_value": 2.0,
+   "last_value": 2.0,
+   "min_value": 2.0,
+   "max_value": 2.0,
+   "missing_value_count": 0,
+   "metric": [
+    "travel_days"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 3
+ },
+ "role_counts": {
+  "unspecified": 3
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 3,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

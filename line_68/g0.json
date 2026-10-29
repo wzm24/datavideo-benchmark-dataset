@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_68",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "af56eb248ce483acfe8e9bb33c9bf31b72099ccaf440932087c9bd8571b895e3",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 2,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -27,6 +43,59 @@
    "10y"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Interest rate",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [
+    "3m",
+    "10y"
+   ],
+   "first_value": 0.2667,
+   "last_value": 0.8444,
+   "min_value": 0.2667,
+   "max_value": 0.8444,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 2
+ },
+ "role_counts": {
+  "line": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Interest rate",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -45,22 +114,5 @@
    "min_value": 0.2667,
    "max_value": 0.8444
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "Interest rate",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

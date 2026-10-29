@@ -1,0 +1,116 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_20",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "f2f80da0cd686fdcaf1189f08697cae38eb5bb40a14ca08292b85574dfe79002",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 2,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "pictograph_blocks",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Average death by car (one day in 2014)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative_area"
+   ],
+   "x_anchors": [],
+   "first_value": 3.0,
+   "last_value": 3.0,
+   "min_value": 3.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Death by plane (all of 2014)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative_area"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Average death by car (one day in 2014)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Death by plane (all of 2014)",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

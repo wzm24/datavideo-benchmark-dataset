@@ -1,0 +1,289 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_118",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "4c7bf951ef2f26c25873b8632772a71796ee99816f131422c011a595be1eefec",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 10,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "stacked",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "support_for_police_reform"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+   "series": "Strongly",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 71.0,
+   "last_value": 71.0,
+   "min_value": 71.0,
+   "max_value": 71.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Require police to be trained in nonviolent alternatives to deadly force",
+   "series": "Somewhat",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 22.0,
+   "last_value": 22.0,
+   "min_value": 22.0,
+   "max_value": 22.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Create a federal government database to track officers accused of misconduct",
+   "series": "Strongly",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Create a federal government database to track officers accused of misconduct",
+   "series": "Somewhat",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 27.0,
+   "last_value": 27.0,
+   "min_value": 27.0,
+   "max_value": 27.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Give civilian oversight boards power to investigate and discipline officers",
+   "series": "Strongly",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Give civilian oversight boards power to investigate and discipline officers",
+   "series": "Somewhat",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 32.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Make it a crime for police to use chokeholds or strangleholds",
+   "series": "Strongly",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 49.0,
+   "last_value": 49.0,
+   "min_value": 49.0,
+   "max_value": 49.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Make it a crime for police to use chokeholds or strangleholds",
+   "series": "Somewhat",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 25.0,
+   "last_value": 25.0,
+   "min_value": 25.0,
+   "max_value": 25.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Require officers to live in the cities or towns they police",
+   "series": "Strongly",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 35.0,
+   "last_value": 35.0,
+   "min_value": 35.0,
+   "max_value": 35.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Require officers to live in the cities or towns they police",
+   "series": "Somewhat",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 39.0,
+   "last_value": 39.0,
+   "min_value": 39.0,
+   "max_value": 39.0,
+   "missing_value_count": 0,
+   "metric": [
+    "support_for_police_reform"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 10
+ },
+ "role_counts": {
+  "bar": 10
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 10,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

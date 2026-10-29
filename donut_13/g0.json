@@ -1,0 +1,125 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_13",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "86bd3dcdc3a0a4f28eea52c25b1b198847ea8da31bf568c4cf2d8c791c0ddfac",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "5719f7e92acb6e16cf68302a7865b12249cd2cab3b6135c47ab8cbd93d3a91d1",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "marijuana_usage_rate"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "US",
+   "series": "Left panel",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 42.0,
+   "last_value": 42.0,
+   "min_value": 42.0,
+   "max_value": 42.0,
+   "missing_value_count": 0,
+   "metric": [
+    "marijuana_usage_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Netherlands",
+   "series": "Right panel",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 20.0,
+   "last_value": 20.0,
+   "min_value": 20.0,
+   "max_value": 20.0,
+   "missing_value_count": 0,
+   "metric": [
+    "marijuana_usage_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "US",
+    "series": "Left panel"
+   },
+   {
+    "panel": "",
+    "entity": "Netherlands",
+    "series": "Right panel"
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

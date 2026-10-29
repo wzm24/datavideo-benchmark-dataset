@@ -1,0 +1,114 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_33",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6d7eee7c1fae8cc421f3ab7507a659f278d377cba4c7e9ec2500a9f20c9e5e4e",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 82,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "USA",
+   "series": "",
+   "row_count": 41,
+   "unit": [
+    "600-MW power plant equivalents"
+   ],
+   "x_anchors": [],
+   "first_value": 434.8,
+   "last_value": 534.8,
+   "min_value": 414.8,
+   "max_value": 534.8,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "svg_geometry"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "CHINA",
+   "series": "",
+   "row_count": 41,
+   "unit": [
+    "600-MW power plant equivalents"
+   ],
+   "x_anchors": [],
+   "first_value": 434.8,
+   "last_value": 2034.8,
+   "min_value": 434.8,
+   "max_value": 2034.8,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "svg_geometry"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "svg_geometry": 82
+ },
+ "role_counts": {
+  "unspecified": 82
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "USA",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "CHINA",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 82,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

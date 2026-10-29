@@ -1,0 +1,267 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_33",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "08578fa64f7f2017d14b4b04564f7dd12d09671bfc325c723d75d6e97743fb59",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 10,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "retail_prescription_spending_per_capita"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Sweden",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 347.938,
+   "last_value": 347.938,
+   "min_value": 347.938,
+   "max_value": 347.938,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Norway",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 396.907,
+   "last_value": 396.907,
+   "min_value": 396.907,
+   "max_value": 396.907,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Netherlands",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 417.526,
+   "last_value": 417.526,
+   "min_value": 417.526,
+   "max_value": 417.526,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Australia",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 427.835,
+   "last_value": 427.835,
+   "min_value": 427.835,
+   "max_value": 427.835,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "United Kingdom",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 497.423,
+   "last_value": 497.423,
+   "min_value": 497.423,
+   "max_value": 497.423,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "France",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 546.154,
+   "last_value": 546.154,
+   "min_value": 546.154,
+   "max_value": 546.154,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Canada",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 669.231,
+   "last_value": 669.231,
+   "min_value": 669.231,
+   "max_value": 669.231,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Germany",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 687.179,
+   "last_value": 687.179,
+   "min_value": 687.179,
+   "max_value": 687.179,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Switzerland",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 776.923,
+   "last_value": 776.923,
+   "min_value": 776.923,
+   "max_value": 776.923,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "United States",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "USD per capita"
+   ],
+   "x_anchors": [],
+   "first_value": 1012.85,
+   "last_value": 1012.85,
+   "min_value": 1012.85,
+   "max_value": 1012.85,
+   "missing_value_count": 0,
+   "metric": [
+    "retail_prescription_spending_per_capita"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 10
+ },
+ "role_counts": {
+  "unspecified": 10
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 10,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

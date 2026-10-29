@@ -1,0 +1,262 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_4",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "2b265ec3241a4985dadf7789e66c3dc26bd778ae71adcc439faa040d0fb7d263",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "31735c8bf48dfa80e9006e925fd432725db475ab32660e4076db3c54b0f5418b",
+ "row_count": 7,
+ "sidecar_row_count": 7,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 7,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_commute_modes"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Public transportation",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.2,
+   "last_value": 5.2,
+   "min_value": 5.2,
+   "max_value": 5.2,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Drive alone",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 76.3,
+   "last_value": 76.3,
+   "min_value": 76.3,
+   "max_value": 76.3,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Taxi, motorcycle, or other",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 1.7,
+   "last_value": 1.7,
+   "min_value": 1.7,
+   "max_value": 1.7,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Work at home",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 5.1,
+   "last_value": 5.1,
+   "min_value": 5.1,
+   "max_value": 5.1,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Walk",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 2.5,
+   "last_value": 2.5,
+   "min_value": 2.5,
+   "max_value": 2.5,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Carpool",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.2,
+   "last_value": 8.2,
+   "min_value": 8.2,
+   "max_value": 8.2,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Bicycle",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_commute_modes"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 6,
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 7
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Public transportation",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Drive alone",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Taxi, motorcycle, or other",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Work at home",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Walk",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Carpool",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Bicycle",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 7,
+  "required_row_count": 7,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

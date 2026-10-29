@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_17",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "f9c1a45198818dcddab06ae3c2b8c109c2cd518d614a83bd16a38b8e34bca707",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 48,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -34,6 +50,66 @@
    "90"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Private-school participation",
+   "row_count": 48,
+   "unit": [
+    "proportion"
+   ],
+   "x_anchors": [
+    "10",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90"
+   ],
+   "first_value": 0.0199,
+   "last_value": 0.6199,
+   "min_value": 0.0199,
+   "max_value": 0.6199,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 48
+ },
+ "role_counts": {
+  "line": 48
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Private-school participation"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -59,22 +135,5 @@
    "min_value": 0.0199,
    "max_value": 0.6199
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Private-school participation"
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

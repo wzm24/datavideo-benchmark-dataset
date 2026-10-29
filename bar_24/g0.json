@@ -1,0 +1,103 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_24",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "413ce95e2e4ff5c71241806bc2313cef510ab6466ff9052dcd76980aaece9428",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 5,
+ "sidecar_row_count": 0,
+ "columns": [
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "1941"
+  ],
+  "y_axes": [
+   "students_taking_sat"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1941",
+   "1950",
+   "1960",
+   "1974",
+   "Now"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "",
+   "row_count": 5,
+   "unit": [
+    "students"
+   ],
+   "x_anchors": [
+    "1941",
+    "1950",
+    "1960",
+    "1974",
+    "Now"
+   ],
+   "first_value": 10000.0,
+   "last_value": 2000000.0,
+   "min_value": 10000.0,
+   "max_value": 2000000.0,
+   "missing_value_count": 0,
+   "metric": [
+    "students_taking_sat"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 5
+ },
+ "role_counts": {
+  "unspecified": 5
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 5,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

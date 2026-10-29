@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_16",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "ab20eacfd8a1f127aa75066be0b76946780e031ccbbba4a9c646f2fd91660450",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 21,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -28,6 +44,118 @@
    "August 2014"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "NO",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 46.3879,
+   "last_value": 47.0,
+   "min_value": 43.6228,
+   "max_value": 47.4769,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "YES",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 35.5563,
+   "last_value": 37.0,
+   "min_value": 34.0,
+   "max_value": 37.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "",
+   "series": "DON'T KNOW",
+   "row_count": 7,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "January 2014",
+    "May 2014",
+    "August 2014"
+   ],
+   "first_value": 16.9561,
+   "last_value": 14.0,
+   "min_value": 14.0,
+   "max_value": 20.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 21
+ },
+ "role_counts": {
+  "line": 21
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "NO"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "YES"
+   },
+   {
+    "panel": "",
+    "entity": "",
+    "series": "DON'T KNOW"
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -83,32 +211,5 @@
    "min_value": 14.0,
    "max_value": 20.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "NO"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "YES"
-   },
-   {
-    "panel": "",
-    "entity": "",
-    "series": "DON'T KNOW"
-   }
-  ],
-  "required_series_count": 3,
-  "all_required_series_must_appear": true
- }
+ ]
 }

@@ -1,0 +1,91 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_12",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "713ccf8ae42dcee5f280e867e53a2e9d014ef6792c945bbef415ba519850743e",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 65,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "battle deaths",
+   "series": "",
+   "row_count": 65,
+   "unit": [
+    "deaths_per_million"
+   ],
+   "x_anchors": [],
+   "first_value": 194.9,
+   "last_value": 2.5,
+   "min_value": 0.8,
+   "max_value": 194.9,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 65
+ },
+ "role_counts": {
+  "unspecified": 65
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "battle deaths",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 1,
+  "required_row_count": 65,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

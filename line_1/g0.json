@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_1",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "095c9294bff873757562f8c12738e2764321d30461e2e3fba40979240adf6df2",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 23,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -27,6 +43,59 @@
    "2015"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Inflation-adjusted chair price",
+   "series": "",
+   "row_count": 23,
+   "unit": [
+    "$"
+   ],
+   "x_anchors": [
+    "1990",
+    "2015"
+   ],
+   "first_value": 294.9891,
+   "last_value": 25.0326,
+   "min_value": 25.0326,
+   "max_value": 335.0109,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 23
+ },
+ "role_counts": {
+  "line": 23
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Inflation-adjusted chair price",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -45,22 +114,5 @@
    "min_value": 25.0326,
    "max_value": 335.0109
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "Inflation-adjusted chair price",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

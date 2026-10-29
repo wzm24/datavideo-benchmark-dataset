@@ -1,0 +1,115 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_31",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "a4f2008e79d12b5ffc6a10824a595290789bec65183fdc17c3699c5dbc5172b1",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 2,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type",
+  "series"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "YouTube",
+   "series": "Revenue",
+   "row_count": 1,
+   "unit": [
+    "euro"
+   ],
+   "x_anchors": [],
+   "first_value": 120.0,
+   "last_value": 120.0,
+   "min_value": 120.0,
+   "max_value": 120.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "svg_geometry"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "TV",
+   "series": "Revenue",
+   "row_count": 1,
+   "unit": [
+    "euro"
+   ],
+   "x_anchors": [],
+   "first_value": 57.0,
+   "last_value": 57.0,
+   "min_value": 57.0,
+   "max_value": 57.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "svg_geometry"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "svg_geometry": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "YouTube",
+    "series": "Revenue"
+   },
+   {
+    "panel": "",
+    "entity": "TV",
+    "series": "Revenue"
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

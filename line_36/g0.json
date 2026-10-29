@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_36",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "35eaf3a6bcbf582eed16114799e512c165913dc3bc31aaa595b983af80677260",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 13,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -31,6 +47,63 @@
    "2015"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Support for replacing the Electoral College",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1965",
+    "1975",
+    "1985",
+    "1995",
+    "2005",
+    "2015"
+   ],
+   "first_value": 55.0,
+   "last_value": 61.0,
+   "min_value": 51.0,
+   "max_value": 80.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 13
+ },
+ "role_counts": {
+  "line": 13
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Support for replacing the Electoral College"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -53,22 +126,5 @@
    "min_value": 51.0,
    "max_value": 80.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Support for replacing the Electoral College"
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

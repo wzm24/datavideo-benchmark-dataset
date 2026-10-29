@@ -1,0 +1,114 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_26",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "93ac99fbfde1617012ac44a7eec344672a38f380c5447118cd674d68a6ab45ea",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 2,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Earth",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "kg"
+   ],
+   "x_anchors": [],
+   "first_value": 5.974e+24,
+   "last_value": 5.974e+24,
+   "min_value": 5.974e+24,
+   "max_value": 5.974e+24,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "real"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Moon",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "kg"
+   ],
+   "x_anchors": [],
+   "first_value": 7.349e+22,
+   "last_value": 7.349e+22,
+   "min_value": 7.349e+22,
+   "max_value": 7.349e+22,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "real"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "real": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Earth",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Moon",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

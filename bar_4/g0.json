@@ -1,0 +1,126 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_4",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "cad469d0bd898506fed990c36052ef0d8551484cdd5aa6b4c8e1740df116517f",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 5,
+ "sidecar_row_count": 0,
+ "columns": [
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "frame",
+  "panels": [],
+  "frames": [
+   1950,
+   1954,
+   1992,
+   2012,
+   2017
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "1950"
+  ],
+  "y_axes": [
+   "childhood_mortality"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1950",
+   "1954",
+   "1992",
+   "2012",
+   "2017"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "",
+   "row_count": 5,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1950",
+    "1954",
+    "1992",
+    "2012",
+    "2017"
+   ],
+   "first_value": 32.0,
+   "last_value": 7.5,
+   "min_value": 7.5,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "childhood_mortality"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 5
+ },
+ "role_counts": {
+  "unspecified": 5
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 5,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "state_sequence",
+  "required_states": [
+   "1950",
+   "1954",
+   "1992",
+   "2012",
+   "2017"
+  ],
+  "required_marks_per_state": {
+   "1950": 1,
+   "1954": 1,
+   "1992": 1,
+   "2012": 1,
+   "2017": 1
+  },
+  "check_full_timeline": true,
+  "final_frame_only_sufficient": false,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2",
+   "U3",
+   "U4",
+   "U5"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

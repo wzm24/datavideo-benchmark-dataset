@@ -1,0 +1,116 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_11",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "1a73679c94dde8cc7bea4969cb89e0c9882de38c359fd7610d74025c136d7839",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 31,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "pixel_only",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "fast spread infections",
+   "series": "",
+   "row_count": 12,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.029,
+   "last_value": 0.029,
+   "min_value": 0.029,
+   "max_value": 0.988,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "slow spread infections",
+   "series": "",
+   "row_count": 19,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0,
+   "last_value": 0.0,
+   "min_value": 0.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 31
+ },
+ "role_counts": {
+  "unspecified": 31
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "fast spread infections",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "slow spread infections",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 31,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

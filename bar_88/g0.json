@@ -1,0 +1,949 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_88",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "417e6d517d1c93f3a24fb6ae5cacb07feed6b7092f8a63289c09fd8779942703",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 40,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "population_pyramid",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "japan"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0421,
+   "last_value": 0.0421,
+   "min_value": 0.0421,
+   "max_value": 0.0421,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0737,
+   "last_value": 0.0737,
+   "min_value": 0.0737,
+   "max_value": 0.0737,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1158,
+   "last_value": 0.1158,
+   "min_value": 0.1158,
+   "max_value": 0.1158,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1474,
+   "last_value": 0.1474,
+   "min_value": 0.1474,
+   "max_value": 0.1474,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2632,
+   "last_value": 0.2632,
+   "min_value": 0.2632,
+   "max_value": 0.2632,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3053,
+   "last_value": 0.3053,
+   "min_value": 0.3053,
+   "max_value": 0.3053,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4316,
+   "last_value": 0.4316,
+   "min_value": 0.4316,
+   "max_value": 0.4316,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4737,
+   "last_value": 0.4737,
+   "min_value": 0.4737,
+   "max_value": 0.4737,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6,
+   "last_value": 0.6,
+   "min_value": 0.6,
+   "max_value": 0.6,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6421,
+   "last_value": 0.6421,
+   "min_value": 0.6421,
+   "max_value": 0.6421,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8211,
+   "last_value": 0.8211,
+   "min_value": 0.8211,
+   "max_value": 0.8211,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8632,
+   "last_value": 0.8632,
+   "min_value": 0.8632,
+   "max_value": 0.8632,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8,
+   "last_value": 0.8,
+   "min_value": 0.8,
+   "max_value": 0.8,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8421,
+   "last_value": 0.8421,
+   "min_value": 0.8421,
+   "max_value": 0.8421,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7053,
+   "last_value": 0.7053,
+   "min_value": 0.7053,
+   "max_value": 0.7053,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7368,
+   "last_value": 0.7368,
+   "min_value": 0.7368,
+   "max_value": 0.7368,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6842,
+   "last_value": 0.6842,
+   "min_value": 0.6842,
+   "max_value": 0.6842,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7158,
+   "last_value": 0.7158,
+   "min_value": 0.7158,
+   "max_value": 0.7158,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7789,
+   "last_value": 0.7789,
+   "min_value": 0.7789,
+   "max_value": 0.7789,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8211,
+   "last_value": 0.8211,
+   "min_value": 0.8211,
+   "max_value": 0.8211,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.9579,
+   "last_value": 0.9579,
+   "min_value": 0.9579,
+   "max_value": 0.9579,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8105,
+   "last_value": 0.8105,
+   "min_value": 0.8105,
+   "max_value": 0.8105,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8526,
+   "last_value": 0.8526,
+   "min_value": 0.8526,
+   "max_value": 0.8526,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7474,
+   "last_value": 0.7474,
+   "min_value": 0.7474,
+   "max_value": 0.7474,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7789,
+   "last_value": 0.7789,
+   "min_value": 0.7789,
+   "max_value": 0.7789,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7053,
+   "last_value": 0.7053,
+   "min_value": 0.7053,
+   "max_value": 0.7053,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7368,
+   "last_value": 0.7368,
+   "min_value": 0.7368,
+   "max_value": 0.7368,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6421,
+   "last_value": 0.6421,
+   "min_value": 0.6421,
+   "max_value": 0.6421,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6737,
+   "last_value": 0.6737,
+   "min_value": 0.6737,
+   "max_value": 0.6737,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6,
+   "last_value": 0.6,
+   "min_value": 0.6,
+   "max_value": 0.6,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6316,
+   "last_value": 0.6316,
+   "min_value": 0.6316,
+   "max_value": 0.6316,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5789,
+   "last_value": 0.5789,
+   "min_value": 0.5789,
+   "max_value": 0.5789,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6105,
+   "last_value": 0.6105,
+   "min_value": 0.6105,
+   "max_value": 0.6105,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5579,
+   "last_value": 0.5579,
+   "min_value": 0.5579,
+   "max_value": 0.5579,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5895,
+   "last_value": 0.5895,
+   "min_value": 0.5895,
+   "max_value": 0.5895,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5368,
+   "last_value": 0.5368,
+   "min_value": 0.5368,
+   "max_value": 0.5368,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5684,
+   "last_value": 0.5684,
+   "min_value": 0.5684,
+   "max_value": 0.5684,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4947,
+   "last_value": 0.4947,
+   "min_value": 0.4947,
+   "max_value": 0.4947,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5263,
+   "last_value": 0.5263,
+   "min_value": 0.5263,
+   "max_value": 0.5263,
+   "missing_value_count": 0,
+   "metric": [
+    "japan"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 40
+ },
+ "role_counts": {
+  "bar": 40
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 40,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

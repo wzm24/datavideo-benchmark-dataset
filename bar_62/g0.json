@@ -1,0 +1,399 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_62",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "776b555f652cf92da294fa529e1934b7cbf5c540197cee9f0efc9ce3b9bb958d",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 15,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "environmental_impact_relative_to_dairy"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "DAIRY",
+   "series": "emissions",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "RICE",
+   "series": "emissions",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.25,
+   "last_value": 0.25,
+   "min_value": 0.25,
+   "max_value": 0.25,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "SOY",
+   "series": "emissions",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.25,
+   "last_value": 0.25,
+   "min_value": 0.25,
+   "max_value": 0.25,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "OAT",
+   "series": "emissions",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.18,
+   "last_value": 0.18,
+   "min_value": 0.18,
+   "max_value": 0.18,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "ALMOND",
+   "series": "emissions",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.18,
+   "last_value": 0.18,
+   "min_value": 0.18,
+   "max_value": 0.18,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "DAIRY",
+   "series": "land_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "RICE",
+   "series": "land_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.05,
+   "last_value": 0.05,
+   "min_value": 0.05,
+   "max_value": 0.05,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "SOY",
+   "series": "land_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.05,
+   "last_value": 0.05,
+   "min_value": 0.05,
+   "max_value": 0.05,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "OAT",
+   "series": "land_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2,
+   "last_value": 0.2,
+   "min_value": 0.2,
+   "max_value": 0.2,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "ALMOND",
+   "series": "land_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2,
+   "last_value": 0.2,
+   "min_value": 0.2,
+   "max_value": 0.2,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "DAIRY",
+   "series": "water_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "RICE",
+   "series": "water_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5,
+   "last_value": 0.5,
+   "min_value": 0.5,
+   "max_value": 0.5,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "SOY",
+   "series": "water_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1,
+   "last_value": 0.1,
+   "min_value": 0.1,
+   "max_value": 0.1,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "OAT",
+   "series": "water_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1,
+   "last_value": 0.1,
+   "min_value": 0.1,
+   "max_value": 0.1,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "ALMOND",
+   "series": "water_use",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.67,
+   "last_value": 0.67,
+   "min_value": 0.67,
+   "max_value": 0.67,
+   "missing_value_count": 0,
+   "metric": [
+    "environmental_impact_relative_to_dairy"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 15
+ },
+ "role_counts": {
+  "bar": 15
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 15,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

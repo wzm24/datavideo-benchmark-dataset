@@ -1,0 +1,131 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_6",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "b3d6be99ff3f21d662a26b914703610f914cc40a431e2e70dd4959d8fe67a93b",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "1065db63775e5a5b4fca906e9d5826d8c83410ffa78f9d8ffae7da9a0a80d060",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_respondents"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "in favor",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2017"
+   ],
+   "first_value": 96.0,
+   "last_value": 96.0,
+   "min_value": 96.0,
+   "max_value": 96.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "other",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2017"
+   ],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "in favor",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "other",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

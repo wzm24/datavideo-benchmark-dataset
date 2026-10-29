@@ -1,0 +1,178 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_2",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "ea9b7daafdcf83838eab79cd306000b155cc9f60626010620fd646544c282647",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "frame",
+  "panels": [],
+  "frames": [
+   1990,
+   2017
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "1990"
+  ],
+  "y_axes": [
+   "illiteracy_rate"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1990",
+   "2017"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Sub-Saharan Africa",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2017"
+   ],
+   "first_value": 48.0,
+   "last_value": 36.1,
+   "min_value": 36.1,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "illiteracy_rate"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Latin America & Caribbean",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2017"
+   ],
+   "first_value": 15.5,
+   "last_value": 6.9,
+   "min_value": 6.9,
+   "max_value": 15.5,
+   "missing_value_count": 0,
+   "metric": [
+    "illiteracy_rate"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "East Asia & Pacific",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2017"
+   ],
+   "first_value": 18.0,
+   "last_value": 5.1,
+   "min_value": 5.1,
+   "max_value": 18.0,
+   "missing_value_count": 0,
+   "metric": [
+    "illiteracy_rate"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "European Union",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2017"
+   ],
+   "first_value": 2.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 2.0,
+   "missing_value_count": 0,
+   "metric": [
+    "illiteracy_rate"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "unspecified": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 8,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "state_sequence",
+  "required_states": [
+   "1990",
+   "2017"
+  ],
+  "required_marks_per_state": {
+   "1990": 4,
+   "2017": 4
+  },
+  "check_full_timeline": true,
+  "final_frame_only_sufficient": false,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_76",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "80cdd85a85a516dced431046b2830b91d74cf4c5c13a7f4b9d4e6a7fbd331a78",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 5,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "stacked_100",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "value"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Terrestrial Planets",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Jupiter",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 70.0,
+   "last_value": 70.0,
+   "min_value": 70.0,
+   "max_value": 70.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Saturn",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 20.0,
+   "last_value": 20.0,
+   "min_value": 20.0,
+   "max_value": 20.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Uranus",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Neptune",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 5.0,
+   "last_value": 5.0,
+   "min_value": 5.0,
+   "max_value": 5.0,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 5
+ },
+ "role_counts": {
+  "bar": 5
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 5,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

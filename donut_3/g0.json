@@ -1,0 +1,151 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_3",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6a939dc4ac7897f164bf8f5bdd84e0b2d669ce073d5513f9a0c891f7dfbae4cd",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "aa0731564b6dc6e77a03a96ab4395b2c7662ce44a33ad2ab022abb67c5e5c8e9",
+ "row_count": 3,
+ "sidecar_row_count": 3,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_ring",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "restaurant_failure_rate"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "state 3s",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 90.0,
+   "last_value": 90.0,
+   "min_value": 90.0,
+   "max_value": 90.0,
+   "missing_value_count": 0,
+   "metric": [
+    "restaurant_failure_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "state 8s",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "restaurant_failure_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "state last",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 60.0,
+   "last_value": 60.0,
+   "min_value": 60.0,
+   "max_value": 60.0,
+   "missing_value_count": 0,
+   "metric": [
+    "restaurant_failure_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 3
+ },
+ "role_counts": {
+  "unspecified": 3
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "state 3s",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "state 8s",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "state last",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 3,
+  "required_row_count": 3,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

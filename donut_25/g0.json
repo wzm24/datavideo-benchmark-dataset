@@ -1,0 +1,127 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_25",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "94daff9137f8be9832558d8cd1ff44a8af8f57d2e55b826a366d4ca20ad9660e",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "a109892501e93cd927ed9bfe2b39058f0398bdfb90b364db6e20db1e281c8b3d",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 2,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "profit_margin"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "skull and crossbones",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "profit_margin"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Apple",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 8.0,
+   "last_value": 8.0,
+   "min_value": 8.0,
+   "max_value": 8.0,
+   "missing_value_count": 0,
+   "metric": [
+    "profit_margin"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "narration_calibrated": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "skull and crossbones",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Apple",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_19",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "b53960994e476f99fbb54a6043f6d8078bbba3081c46cb8493952d8a4a74154b",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 10,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -24,7 +40,7 @@
   "x_mode": "point_order_or_visible_axis_only",
   "x_anchors": []
  },
- "series_inventory": [
+ "entity_inventory": [
   {
    "panel": "",
    "entity": "Sales performance",
@@ -33,13 +49,25 @@
    "unit": [
     "relative"
    ],
-   "x_values": [],
+   "x_anchors": [],
    "first_value": 0.7,
    "last_value": 0.18,
    "min_value": 0.18,
-   "max_value": 0.94
+   "max_value": 0.94,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
   }
  ],
+ "source_type_counts": {
+  "unspecified": 10
+ },
+ "role_counts": {
+  "line": 10
+ },
  "estimated_or_projected_roles": [],
  "completeness": {
   "required": true,
@@ -56,5 +84,26 @@
   ],
   "required_series_count": 1,
   "all_required_series_must_appear": true
- }
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
+ "series_inventory": [
+  {
+   "panel": "",
+   "entity": "Sales performance",
+   "series": "Yikes",
+   "row_count": 10,
+   "unit": [
+    "relative"
+   ],
+   "x_values": [],
+   "first_value": 0.7,
+   "last_value": 0.18,
+   "min_value": 0.18,
+   "max_value": 0.94
+  }
+ ]
 }

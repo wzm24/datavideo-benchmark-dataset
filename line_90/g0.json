@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_90",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "185103922c16c7281ca5e5149a71838a73e0b709ba58572ce7fe167b4df24b82",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 72,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -27,6 +43,59 @@
    "2007"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "US troops",
+   "series": "",
+   "row_count": 72,
+   "unit": [
+    "troops"
+   ],
+   "x_anchors": [
+    "2005",
+    "2007"
+   ],
+   "first_value": 2380.9524,
+   "last_value": 2380.9524,
+   "min_value": 2380.9524,
+   "max_value": 174380.9524,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 72
+ },
+ "role_counts": {
+  "line": 72
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "US troops",
+    "series": ""
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -45,22 +114,5 @@
    "min_value": 2380.9524,
    "max_value": 174380.9524
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "US troops",
-    "series": ""
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

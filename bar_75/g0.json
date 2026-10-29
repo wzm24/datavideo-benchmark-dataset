@@ -1,0 +1,2511 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_75",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "a526e48e8eeb8d94743c388305b26a0e656996746086e5f5cb1b7ec79205fe27",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 111,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "stacked",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "value"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "1982",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0317,
+   "last_value": 0.0317,
+   "min_value": 0.0317,
+   "max_value": 0.0317,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1982",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4048,
+   "last_value": 0.4048,
+   "min_value": 0.4048,
+   "max_value": 0.4048,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1982",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5635,
+   "last_value": 0.5635,
+   "min_value": 0.5635,
+   "max_value": 0.5635,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1983",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0413,
+   "last_value": 0.0413,
+   "min_value": 0.0413,
+   "max_value": 0.0413,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1983",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4958,
+   "last_value": 0.4958,
+   "min_value": 0.4958,
+   "max_value": 0.4958,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1983",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4629,
+   "last_value": 0.4629,
+   "min_value": 0.4629,
+   "max_value": 0.4629,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1984",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0651,
+   "last_value": 0.0651,
+   "min_value": 0.0651,
+   "max_value": 0.0651,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1984",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5449,
+   "last_value": 0.5449,
+   "min_value": 0.5449,
+   "max_value": 0.5449,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1984",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.39,
+   "last_value": 0.39,
+   "min_value": 0.39,
+   "max_value": 0.39,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.124,
+   "last_value": 0.124,
+   "min_value": 0.124,
+   "max_value": 0.124,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.566,
+   "last_value": 0.566,
+   "min_value": 0.566,
+   "max_value": 0.566,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.31,
+   "last_value": 0.31,
+   "min_value": 0.31,
+   "max_value": 0.31,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1986",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2439,
+   "last_value": 0.2439,
+   "min_value": 0.2439,
+   "max_value": 0.2439,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1986",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5321,
+   "last_value": 0.5321,
+   "min_value": 0.5321,
+   "max_value": 0.5321,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1986",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2241,
+   "last_value": 0.2241,
+   "min_value": 0.2241,
+   "max_value": 0.2241,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1987",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3769,
+   "last_value": 0.3769,
+   "min_value": 0.3769,
+   "max_value": 0.3769,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1987",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.48,
+   "last_value": 0.48,
+   "min_value": 0.48,
+   "max_value": 0.48,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1987",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1431,
+   "last_value": 0.1431,
+   "min_value": 0.1431,
+   "max_value": 0.1431,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1988",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4671,
+   "last_value": 0.4671,
+   "min_value": 0.4671,
+   "max_value": 0.4671,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1988",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4488,
+   "last_value": 0.4488,
+   "min_value": 0.4488,
+   "max_value": 0.4488,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1988",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0841,
+   "last_value": 0.0841,
+   "min_value": 0.0841,
+   "max_value": 0.0841,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1989",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5426,
+   "last_value": 0.5426,
+   "min_value": 0.5426,
+   "max_value": 0.5426,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1989",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4175,
+   "last_value": 0.4175,
+   "min_value": 0.4175,
+   "max_value": 0.4175,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1989",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0398,
+   "last_value": 0.0398,
+   "min_value": 0.0398,
+   "max_value": 0.0398,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5951,
+   "last_value": 0.5951,
+   "min_value": 0.5951,
+   "max_value": 0.5951,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.385,
+   "last_value": 0.385,
+   "min_value": 0.385,
+   "max_value": 0.385,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1990",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0199,
+   "last_value": 0.0199,
+   "min_value": 0.0199,
+   "max_value": 0.0199,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1991",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.667,
+   "last_value": 0.667,
+   "min_value": 0.667,
+   "max_value": 0.667,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1991",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3189,
+   "last_value": 0.3189,
+   "min_value": 0.3189,
+   "max_value": 0.3189,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1991",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0141,
+   "last_value": 0.0141,
+   "min_value": 0.0141,
+   "max_value": 0.0141,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1992",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7339,
+   "last_value": 0.7339,
+   "min_value": 0.7339,
+   "max_value": 0.7339,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1992",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2591,
+   "last_value": 0.2591,
+   "min_value": 0.2591,
+   "max_value": 0.2591,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1992",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.007,
+   "last_value": 0.007,
+   "min_value": 0.007,
+   "max_value": 0.007,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1993",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.787,
+   "last_value": 0.787,
+   "min_value": 0.787,
+   "max_value": 0.787,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1993",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2069,
+   "last_value": 0.2069,
+   "min_value": 0.2069,
+   "max_value": 0.2069,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1993",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0061,
+   "last_value": 0.0061,
+   "min_value": 0.0061,
+   "max_value": 0.0061,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8282,
+   "last_value": 0.8282,
+   "min_value": 0.8282,
+   "max_value": 0.8282,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1668,
+   "last_value": 0.1668,
+   "min_value": 0.1668,
+   "max_value": 0.1668,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1994",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.005,
+   "last_value": 0.005,
+   "min_value": 0.005,
+   "max_value": 0.005,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8699,
+   "last_value": 0.8699,
+   "min_value": 0.8699,
+   "max_value": 0.8699,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1272,
+   "last_value": 0.1272,
+   "min_value": 0.1272,
+   "max_value": 0.1272,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1995",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0029,
+   "last_value": 0.0029,
+   "min_value": 0.0029,
+   "max_value": 0.0029,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1996",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.904,
+   "last_value": 0.904,
+   "min_value": 0.904,
+   "max_value": 0.904,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1996",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.093,
+   "last_value": 0.093,
+   "min_value": 0.093,
+   "max_value": 0.093,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1996",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.003,
+   "last_value": 0.003,
+   "min_value": 0.003,
+   "max_value": 0.003,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1997",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.9369,
+   "last_value": 0.9369,
+   "min_value": 0.9369,
+   "max_value": 0.9369,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1997",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.061,
+   "last_value": 0.061,
+   "min_value": 0.061,
+   "max_value": 0.061,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1997",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0021,
+   "last_value": 0.0021,
+   "min_value": 0.0021,
+   "max_value": 0.0021,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1998",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.96,
+   "last_value": 0.96,
+   "min_value": 0.96,
+   "max_value": 0.96,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1998",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.037,
+   "last_value": 0.037,
+   "min_value": 0.037,
+   "max_value": 0.037,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1998",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.001,
+   "last_value": 0.001,
+   "min_value": 0.001,
+   "max_value": 0.001,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1998",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.002,
+   "last_value": 0.002,
+   "min_value": 0.002,
+   "max_value": 0.002,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1999",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.9209,
+   "last_value": 0.9209,
+   "min_value": 0.9209,
+   "max_value": 0.9209,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1999",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.026,
+   "last_value": 0.026,
+   "min_value": 0.026,
+   "max_value": 0.026,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1999",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0011,
+   "last_value": 0.0011,
+   "min_value": 0.0011,
+   "max_value": 0.0011,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1999",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.052,
+   "last_value": 0.052,
+   "min_value": 0.052,
+   "max_value": 0.052,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8808,
+   "last_value": 0.8808,
+   "min_value": 0.8808,
+   "max_value": 0.8808,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0201,
+   "last_value": 0.0201,
+   "min_value": 0.0201,
+   "max_value": 0.0201,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0011,
+   "last_value": 0.0011,
+   "min_value": 0.0011,
+   "max_value": 0.0011,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2000",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.098,
+   "last_value": 0.098,
+   "min_value": 0.098,
+   "max_value": 0.098,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2001",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8382,
+   "last_value": 0.8382,
+   "min_value": 0.8382,
+   "max_value": 0.8382,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2001",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.016,
+   "last_value": 0.016,
+   "min_value": 0.016,
+   "max_value": 0.016,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2001",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.001,
+   "last_value": 0.001,
+   "min_value": 0.001,
+   "max_value": 0.001,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2001",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1448,
+   "last_value": 0.1448,
+   "min_value": 0.1448,
+   "max_value": 0.1448,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2002",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.793,
+   "last_value": 0.793,
+   "min_value": 0.793,
+   "max_value": 0.793,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2002",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0109,
+   "last_value": 0.0109,
+   "min_value": 0.0109,
+   "max_value": 0.0109,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2002",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.001,
+   "last_value": 0.001,
+   "min_value": 0.001,
+   "max_value": 0.001,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2002",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1951,
+   "last_value": 0.1951,
+   "min_value": 0.1951,
+   "max_value": 0.1951,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2003",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7337,
+   "last_value": 0.7337,
+   "min_value": 0.7337,
+   "max_value": 0.7337,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2003",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0081,
+   "last_value": 0.0081,
+   "min_value": 0.0081,
+   "max_value": 0.0081,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2003",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.002,
+   "last_value": 0.002,
+   "min_value": 0.002,
+   "max_value": 0.002,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2003",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2563,
+   "last_value": 0.2563,
+   "min_value": 0.2563,
+   "max_value": 0.2563,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2004",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6641,
+   "last_value": 0.6641,
+   "min_value": 0.6641,
+   "max_value": 0.6641,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2004",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0059,
+   "last_value": 0.0059,
+   "min_value": 0.0059,
+   "max_value": 0.0059,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2004",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0029,
+   "last_value": 0.0029,
+   "min_value": 0.0029,
+   "max_value": 0.0029,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2004",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3271,
+   "last_value": 0.3271,
+   "min_value": 0.3271,
+   "max_value": 0.3271,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.583,
+   "last_value": 0.583,
+   "min_value": 0.583,
+   "max_value": 0.583,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.005,
+   "last_value": 0.005,
+   "min_value": 0.005,
+   "max_value": 0.005,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.004,
+   "last_value": 0.004,
+   "min_value": 0.004,
+   "max_value": 0.004,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2005",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.408,
+   "last_value": 0.408,
+   "min_value": 0.408,
+   "max_value": 0.408,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2006",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5058,
+   "last_value": 0.5058,
+   "min_value": 0.5058,
+   "max_value": 0.5058,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2006",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0042,
+   "last_value": 0.0042,
+   "min_value": 0.0042,
+   "max_value": 0.0042,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2006",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0051,
+   "last_value": 0.0051,
+   "min_value": 0.0051,
+   "max_value": 0.0051,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2006",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.485,
+   "last_value": 0.485,
+   "min_value": 0.485,
+   "max_value": 0.485,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2007",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4349,
+   "last_value": 0.4349,
+   "min_value": 0.4349,
+   "max_value": 0.4349,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2007",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.003,
+   "last_value": 0.003,
+   "min_value": 0.003,
+   "max_value": 0.003,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2007",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.006,
+   "last_value": 0.006,
+   "min_value": 0.006,
+   "max_value": 0.006,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2007",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5561,
+   "last_value": 0.5561,
+   "min_value": 0.5561,
+   "max_value": 0.5561,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.373,
+   "last_value": 0.373,
+   "min_value": 0.373,
+   "max_value": 0.373,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0021,
+   "last_value": 0.0021,
+   "min_value": 0.0021,
+   "max_value": 0.0021,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.009,
+   "last_value": 0.009,
+   "min_value": 0.009,
+   "max_value": 0.009,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2008",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6159,
+   "last_value": 0.6159,
+   "min_value": 0.6159,
+   "max_value": 0.6159,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.325,
+   "last_value": 0.325,
+   "min_value": 0.325,
+   "max_value": 0.325,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0011,
+   "last_value": 0.0011,
+   "min_value": 0.0011,
+   "max_value": 0.0011,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0118,
+   "last_value": 0.0118,
+   "min_value": 0.0118,
+   "max_value": 0.0118,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2009",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6621,
+   "last_value": 0.6621,
+   "min_value": 0.6621,
+   "max_value": 0.6621,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2839,
+   "last_value": 0.2839,
+   "min_value": 0.2839,
+   "max_value": 0.2839,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0012,
+   "last_value": 0.0012,
+   "min_value": 0.0012,
+   "max_value": 0.0012,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0171,
+   "last_value": 0.0171,
+   "min_value": 0.0171,
+   "max_value": 0.0171,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2010",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6978,
+   "last_value": 0.6978,
+   "min_value": 0.6978,
+   "max_value": 0.6978,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2509,
+   "last_value": 0.2509,
+   "min_value": 0.2509,
+   "max_value": 0.2509,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0008,
+   "last_value": 0.0008,
+   "min_value": 0.0008,
+   "max_value": 0.0008,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0228,
+   "last_value": 0.0228,
+   "min_value": 0.0228,
+   "max_value": 0.0228,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2011",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7254,
+   "last_value": 0.7254,
+   "min_value": 0.7254,
+   "max_value": 0.7254,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.225,
+   "last_value": 0.225,
+   "min_value": 0.225,
+   "max_value": 0.225,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "Cassette",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0009,
+   "last_value": 0.0009,
+   "min_value": 0.0009,
+   "max_value": 0.0009,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0277,
+   "last_value": 0.0277,
+   "min_value": 0.0277,
+   "max_value": 0.0277,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2012",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7464,
+   "last_value": 0.7464,
+   "min_value": 0.7464,
+   "max_value": 0.7464,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "CD",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2001,
+   "last_value": 0.2001,
+   "min_value": 0.2001,
+   "max_value": 0.2001,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "LP/EP/8-Track",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0362,
+   "last_value": 0.0362,
+   "min_value": 0.0362,
+   "max_value": 0.0362,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "2013",
+   "series": "Digital",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7637,
+   "last_value": 0.7637,
+   "min_value": 0.7637,
+   "max_value": 0.7637,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 111
+ },
+ "role_counts": {
+  "bar": 111
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 111,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,9 +1,27 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_57",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "bc0ed58e7e335d103aa42d643de6b4ef9603f0f184451ec51fd3404d3077e1d9",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 36,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_panel",
   "orientation": "cartesian",
@@ -31,6 +49,303 @@
    "AUGUST"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 97.5,
+   "last_value": 96.5,
+   "min_value": 96.5,
+   "max_value": 97.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 95.5,
+   "min_value": 95.5,
+   "max_value": 96.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Pfizer/BioNTech",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 95.0,
+   "last_value": 89.0,
+   "min_value": 89.0,
+   "max_value": 95.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 97.5,
+   "min_value": 96.5,
+   "max_value": 97.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 96.5,
+   "last_value": 97.0,
+   "min_value": 96.5,
+   "max_value": 97.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Moderna",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 97.0,
+   "last_value": 94.0,
+   "min_value": 94.0,
+   "max_value": 97.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "18-49",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 95.5,
+   "last_value": 93.5,
+   "min_value": 93.5,
+   "max_value": 95.5,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "50-64",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 88.0,
+   "last_value": 93.0,
+   "min_value": 88.0,
+   "max_value": 93.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Johnson & Johnson",
+   "entity": "",
+   "series": "65+",
+   "row_count": 4,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST"
+   ],
+   "first_value": 85.0,
+   "last_value": 83.0,
+   "min_value": 83.0,
+   "max_value": 85.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 36
+ },
+ "role_counts": {
+  "line": 36
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Pfizer/BioNTech",
+   "Moderna",
+   "Johnson & Johnson"
+  ],
+  "required_series": [
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Pfizer/BioNTech",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Moderna",
+    "entity": "",
+    "series": "65+"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "18-49"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "50-64"
+   },
+   {
+    "panel": "Johnson & Johnson",
+    "entity": "",
+    "series": "65+"
+   }
+  ],
+  "required_series_count": 9,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "Pfizer/BioNTech",
@@ -203,64 +518,5 @@
    "min_value": 83.0,
    "max_value": 85.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   "Pfizer/BioNTech",
-   "Moderna",
-   "Johnson & Johnson"
-  ],
-  "required_series": [
-   {
-    "panel": "Pfizer/BioNTech",
-    "entity": "",
-    "series": "18-49"
-   },
-   {
-    "panel": "Pfizer/BioNTech",
-    "entity": "",
-    "series": "50-64"
-   },
-   {
-    "panel": "Pfizer/BioNTech",
-    "entity": "",
-    "series": "65+"
-   },
-   {
-    "panel": "Moderna",
-    "entity": "",
-    "series": "18-49"
-   },
-   {
-    "panel": "Moderna",
-    "entity": "",
-    "series": "50-64"
-   },
-   {
-    "panel": "Moderna",
-    "entity": "",
-    "series": "65+"
-   },
-   {
-    "panel": "Johnson & Johnson",
-    "entity": "",
-    "series": "18-49"
-   },
-   {
-    "panel": "Johnson & Johnson",
-    "entity": "",
-    "series": "50-64"
-   },
-   {
-    "panel": "Johnson & Johnson",
-    "entity": "",
-    "series": "65+"
-   }
-  ],
-  "required_series_count": 9,
-  "all_required_series_must_appear": true
- }
+ ]
 }

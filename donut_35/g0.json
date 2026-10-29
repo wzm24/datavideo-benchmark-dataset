@@ -1,0 +1,97 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_35",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "5a5edef75151c1a528694a12622be59c019d54438a08358bab91157548d4b919",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "fca885bc964a79768d0340160f356896d209f3b3cbf7a124de0f8d326aec72cf",
+ "row_count": 1,
+ "sidecar_row_count": 1,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "music_revenue"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "top 1% of artists",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "billion USD"
+   ],
+   "x_anchors": [],
+   "first_value": 43.0,
+   "last_value": 43.0,
+   "min_value": 43.0,
+   "max_value": 43.0,
+   "missing_value_count": 0,
+   "metric": [
+    "music_revenue"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 1
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "top 1% of artists",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 1,
+  "required_row_count": 1,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_94",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "108db35159003d220e8f9491df08ebe9b17566fbdcd37d7e045610ab110473ed",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 6,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -28,6 +44,89 @@
    "Aug '21"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Dem/Lean Dem",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 23.0,
+   "last_value": 86.0,
+   "min_value": 23.0,
+   "max_value": 86.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Rep/Lean Rep",
+   "series": "",
+   "row_count": 3,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "Feb '21",
+    "June '21",
+    "Aug '21"
+   ],
+   "first_value": 16.0,
+   "last_value": 60.0,
+   "min_value": 16.0,
+   "max_value": 60.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 6
+ },
+ "role_counts": {
+  "line": 6
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Dem/Lean Dem",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Rep/Lean Rep",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -65,27 +164,5 @@
    "min_value": 16.0,
    "max_value": 60.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "Dem/Lean Dem",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Rep/Lean Rep",
-    "series": ""
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

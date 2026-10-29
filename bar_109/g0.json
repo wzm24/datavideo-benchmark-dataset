@@ -1,0 +1,421 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_109",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "da200b36e988efdaff3d512381309cbe041dc60edf58f701505aa24fb9b947a1",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 16,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "value"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "High-income countries",
+   "series": "Boosters",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1608,
+   "last_value": 0.1608,
+   "min_value": 0.1608,
+   "max_value": 0.1608,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "High-income countries",
+   "series": "Fully vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2182,
+   "last_value": 0.2182,
+   "min_value": 0.2182,
+   "max_value": 0.2182,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "High-income countries",
+   "series": "Partially vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0287,
+   "last_value": 0.0287,
+   "min_value": 0.0287,
+   "max_value": 0.0287,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "High-income countries",
+   "series": "Not vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1666,
+   "last_value": 0.1666,
+   "min_value": 0.1666,
+   "max_value": 0.1666,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Upper-middle income",
+   "series": "Boosters",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0689,
+   "last_value": 0.0689,
+   "min_value": 0.0689,
+   "max_value": 0.0689,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Upper-middle income",
+   "series": "Fully vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3101,
+   "last_value": 0.3101,
+   "min_value": 0.3101,
+   "max_value": 0.3101,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Upper-middle income",
+   "series": "Partially vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0345,
+   "last_value": 0.0345,
+   "min_value": 0.0345,
+   "max_value": 0.0345,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Upper-middle income",
+   "series": "Not vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1608,
+   "last_value": 0.1608,
+   "min_value": 0.1608,
+   "max_value": 0.1608,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower-middle income",
+   "series": "Boosters",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0057,
+   "last_value": 0.0057,
+   "min_value": 0.0057,
+   "max_value": 0.0057,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower-middle income",
+   "series": "Fully vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2239,
+   "last_value": 0.2239,
+   "min_value": 0.2239,
+   "max_value": 0.2239,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower-middle income",
+   "series": "Partially vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0574,
+   "last_value": 0.0574,
+   "min_value": 0.0574,
+   "max_value": 0.0574,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Lower-middle income",
+   "series": "Not vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2871,
+   "last_value": 0.2871,
+   "min_value": 0.2871,
+   "max_value": 0.2871,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Low-income countries",
+   "series": "Boosters",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0115,
+   "last_value": 0.0115,
+   "min_value": 0.0115,
+   "max_value": 0.0115,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Low-income countries",
+   "series": "Fully vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0115,
+   "last_value": 0.0115,
+   "min_value": 0.0115,
+   "max_value": 0.0115,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Low-income countries",
+   "series": "Partially vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0173,
+   "last_value": 0.0173,
+   "min_value": 0.0173,
+   "max_value": 0.0173,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Low-income countries",
+   "series": "Not vaccinated",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.534,
+   "last_value": 0.534,
+   "min_value": 0.534,
+   "max_value": 0.534,
+   "missing_value_count": 0,
+   "metric": [
+    "value"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 16
+ },
+ "role_counts": {
+  "bar": 16
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 16,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

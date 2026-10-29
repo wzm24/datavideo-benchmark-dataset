@@ -1,0 +1,97 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_39",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "921c10fae0e577e3398a9c4608b8c3f2cd9c1d06d167acfee17a1c2bf6197cda",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "ddb086a4cbf7f5178c6bb2dc38e9910d9f60cffdc137bdaa41a771d3eb5237b5",
+ "row_count": 1,
+ "sidecar_row_count": 1,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "cat_ownership_rate"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "own a cat",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.4,
+   "last_value": 30.4,
+   "min_value": 30.4,
+   "max_value": 30.4,
+   "missing_value_count": 0,
+   "metric": [
+    "cat_ownership_rate"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 1
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "own a cat",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 1,
+  "required_row_count": 1,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

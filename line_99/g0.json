@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_99",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "6e31e1c5c610b82d8a2034d72ea05a4738ca16e1266391d524cb558c09e4b9f1",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 86,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 2,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -32,6 +48,95 @@
    "2009-10"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Senate",
+   "series": "",
+   "row_count": 43,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [
+    "1973-74",
+    "1979-80",
+    "1985-86",
+    "1991-92",
+    "1997-98",
+    "2003-04",
+    "2009-10"
+   ],
+   "first_value": 0.9179,
+   "last_value": 1.0,
+   "min_value": 0.2708,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "House of Representatives",
+   "series": "",
+   "row_count": 43,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [
+    "1979-80",
+    "1985-86",
+    "1991-92",
+    "1997-98",
+    "2003-04"
+   ],
+   "first_value": 0.01,
+   "last_value": 0.8058,
+   "min_value": 0.01,
+   "max_value": 0.8122,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 86
+ },
+ "role_counts": {
+  "line": 86
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "Senate",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "House of Representatives",
+    "series": ""
+   }
+  ],
+  "required_series_count": 2,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -75,27 +180,5 @@
    "min_value": 0.01,
    "max_value": 0.8122
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "Senate",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "House of Representatives",
-    "series": ""
-   }
-  ],
-  "required_series_count": 2,
-  "all_required_series_must_appear": true
- }
+ ]
 }

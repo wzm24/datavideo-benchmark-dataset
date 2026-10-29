@@ -1,0 +1,127 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_12",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "2b277f5964d07b2e60156a7a2fb7c7b55cff86372f6225f50c0bb1950ceda531",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "b106d84f6c2c253247c4c73ebea62bb77bfd0dedc283742294438ff8f39ff10c",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_respondents"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Experienced",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 70.0,
+   "last_value": 70.0,
+   "min_value": 70.0,
+   "max_value": 70.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "British Muslims",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "printed": 1
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Experienced",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "British Muslims",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "area_46",
+ "family": "area",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "70dda033a1f71953f197ab045933d090e6838b1eba53abdcba0e11edcdb9b1db",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 2,
+ "sidecar_row_count": 0,
+ "columns": [
+  "clip_id",
+  "entity",
+  "entity_id",
+  "x_px",
+  "value",
+  "relative_value",
+  "unit",
+  "source_type"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 12,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [],
+  "x_fields": [
+   "x_px"
+  ],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "economic conditions hurting",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "percent"
+   ],
+   "x_anchors": [],
+   "first_value": 46.0,
+   "last_value": 46.0,
+   "min_value": 46.0,
+   "max_value": 46.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "other",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "percent"
+   ],
+   "x_anchors": [],
+   "first_value": 54.0,
+   "last_value": 54.0,
+   "min_value": 54.0,
+   "max_value": 54.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "printed": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "economic conditions hurting",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "other",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

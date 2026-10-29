@@ -1,0 +1,228 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_6",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "566c08d1ea22515fed8d38383d29c0ad6b962233130fc64ebfaa3c5150c656e3",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_trips"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Car",
+   "series": "National average",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 90.0,
+   "last_value": 90.0,
+   "min_value": 90.0,
+   "max_value": 90.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Car",
+   "series": "Transit-oriented developments",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.0,
+   "last_value": 45.0,
+   "min_value": 45.0,
+   "max_value": 45.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Public transit",
+   "series": "National average",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 6.0,
+   "last_value": 6.0,
+   "min_value": 6.0,
+   "max_value": 6.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Public transit",
+   "series": "Transit-oriented developments",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 30.0,
+   "last_value": 30.0,
+   "min_value": 30.0,
+   "max_value": 30.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Bike",
+   "series": "National average",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Bike",
+   "series": "Transit-oriented developments",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 3.0,
+   "last_value": 3.0,
+   "min_value": 3.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Walk",
+   "series": "National average",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 3.0,
+   "last_value": 3.0,
+   "min_value": 3.0,
+   "max_value": 3.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Walk",
+   "series": "Transit-oriented developments",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 22.0,
+   "last_value": 22.0,
+   "min_value": 22.0,
+   "max_value": 22.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_trips"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "unspecified": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 8,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_10",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "89577157a18588c4c28aa6f3ebb346142156ba12dcdfb7f18c4c2ab0397a1e08",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 3,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "life_expectancy"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "United States",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "years"
+   ],
+   "x_anchors": [],
+   "first_value": 71.0,
+   "last_value": 71.0,
+   "min_value": 71.0,
+   "max_value": 71.0,
+   "missing_value_count": 0,
+   "metric": [
+    "life_expectancy"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "South Korea",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "years"
+   ],
+   "x_anchors": [],
+   "first_value": 52.0,
+   "last_value": 52.0,
+   "min_value": 52.0,
+   "max_value": 52.0,
+   "missing_value_count": 0,
+   "metric": [
+    "life_expectancy"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Bangladesh",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "years"
+   ],
+   "x_anchors": [],
+   "first_value": 47.0,
+   "last_value": 47.0,
+   "min_value": 47.0,
+   "max_value": 47.0,
+   "missing_value_count": 0,
+   "metric": [
+    "life_expectancy"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 3
+ },
+ "role_counts": {
+  "unspecified": 3
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 3,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "static_all_at_once",
+  "required_states": [],
+  "required_marks_per_state": {},
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

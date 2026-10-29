@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_50",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "bfc059b31ecadcd98e4aa72f3c2c56be42f4e2f27518ff3ab8353fc98a1f51d3",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 78,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "single_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 1,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -51,6 +67,83 @@
    "2012"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "",
+   "series": "Men's 100 m freestyle medalists",
+   "row_count": 78,
+   "unit": [
+    "seconds"
+   ],
+   "x_anchors": [
+    "1896",
+    "1906",
+    "1908",
+    "1912",
+    "1920",
+    "1924",
+    "1928",
+    "1932",
+    "1936",
+    "1948",
+    "1952",
+    "1956",
+    "1960",
+    "1964",
+    "1968",
+    "1972",
+    "1976",
+    "1980",
+    "1984",
+    "1988",
+    "1992",
+    "1996",
+    "2000",
+    "2004",
+    "2008",
+    "2012"
+   ],
+   "first_value": 82.8,
+   "last_value": 47.52,
+   "min_value": 47.21,
+   "max_value": 82.8,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 78
+ },
+ "role_counts": {
+  "line": 78
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "",
+    "series": "Men's 100 m freestyle medalists"
+   }
+  ],
+  "required_series_count": 1,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -93,24 +186,5 @@
    "min_value": 47.21,
    "max_value": 82.8
   }
- ],
- "estimated_or_projected_roles": [
-  "line"
- ],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "",
-    "series": "Men's 100 m freestyle medalists"
-   }
-  ],
-  "required_series_count": 1,
-  "all_required_series_must_appear": true
- }
+ ]
 }

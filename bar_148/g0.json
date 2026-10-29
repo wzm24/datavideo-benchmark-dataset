@@ -1,0 +1,333 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_148",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "209530fe9bbe44858de41f0c795f06c46d553bfb47bb87392782fdc86083558b",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 12,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "vertical",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "income_share"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Bottom fifth",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 82.0,
+   "last_value": 82.0,
+   "min_value": 82.0,
+   "max_value": 82.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Second fifth",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 85.0,
+   "last_value": 85.0,
+   "min_value": 85.0,
+   "max_value": 85.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Third fifth",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 82.0,
+   "last_value": 82.0,
+   "min_value": 82.0,
+   "max_value": 82.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Fourth fifth",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 81.0,
+   "last_value": 81.0,
+   "min_value": 81.0,
+   "max_value": 81.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top fifth",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 62.0,
+   "last_value": 62.0,
+   "min_value": 62.0,
+   "max_value": 62.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top 1%",
+   "series": "Labor income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 35.0,
+   "last_value": 35.0,
+   "min_value": 35.0,
+   "max_value": 35.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Bottom fifth",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 18.0,
+   "last_value": 18.0,
+   "min_value": 18.0,
+   "max_value": 18.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Second fifth",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 15.0,
+   "last_value": 15.0,
+   "min_value": 15.0,
+   "max_value": 15.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Third fifth",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 18.0,
+   "last_value": 18.0,
+   "min_value": 18.0,
+   "max_value": 18.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Fourth fifth",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 19.0,
+   "last_value": 19.0,
+   "min_value": 19.0,
+   "max_value": 19.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top fifth",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 38.0,
+   "last_value": 38.0,
+   "min_value": 38.0,
+   "max_value": 38.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Top 1%",
+   "series": "Investment income",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 65.0,
+   "last_value": 65.0,
+   "min_value": 65.0,
+   "max_value": 65.0,
+   "missing_value_count": 0,
+   "metric": [
+    "income_share"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 12
+ },
+ "role_counts": {
+  "bar": 12
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 12,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

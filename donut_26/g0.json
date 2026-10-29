@@ -1,0 +1,154 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_26",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e5c20fdd16e541d514f67928193a9c6ceee6021c528588d535360d30acab8ff2",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "fa3085c107a78aaca0039300f46018ac2fc6666c1dc9d554d0811bcd70d7a1cf",
+ "row_count": 3,
+ "sidecar_row_count": 3,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 3,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_arable_land"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Somalia",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 1.8,
+   "last_value": 1.8,
+   "min_value": 1.8,
+   "max_value": 1.8,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_arable_land"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "India",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 48.0,
+   "last_value": 48.0,
+   "min_value": 48.0,
+   "max_value": 48.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_arable_land"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Germany",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 34.0,
+   "last_value": 34.0,
+   "min_value": 34.0,
+   "max_value": 34.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_arable_land"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "narration_calibrated": 2
+ },
+ "role_counts": {
+  "unspecified": 3
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Somalia",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "India",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Germany",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 3,
+  "required_row_count": 3,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

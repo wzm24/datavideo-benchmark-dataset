@@ -1,0 +1,222 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_146",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "7e19f2925bd28f9d5b98198e6317e5f6a32d6eb84335aa8f1bacce8f27228b54",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 7,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "doses_procured_per_person"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Canada",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 8.7,
+   "last_value": 8.7,
+   "min_value": 8.7,
+   "max_value": 8.7,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "United Kingdom",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 7.3,
+   "last_value": 7.3,
+   "min_value": 7.3,
+   "max_value": 7.3,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "New Zealand",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 6.6,
+   "last_value": 6.6,
+   "min_value": 6.6,
+   "max_value": 6.6,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Chile",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 5.7,
+   "last_value": 5.7,
+   "min_value": 5.7,
+   "max_value": 5.7,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Australia",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 5.1,
+   "last_value": 5.1,
+   "min_value": 5.1,
+   "max_value": 5.1,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "European Union",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 4.6,
+   "last_value": 4.6,
+   "min_value": 4.6,
+   "max_value": 4.6,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "United States",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "doses per person"
+   ],
+   "x_anchors": [],
+   "first_value": 4.0,
+   "last_value": 4.0,
+   "min_value": 4.0,
+   "max_value": 4.0,
+   "missing_value_count": 0,
+   "metric": [
+    "doses_procured_per_person"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 7
+ },
+ "role_counts": {
+  "bar": 7
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 7,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

@@ -1,0 +1,950 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_80",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "6b8e062784fd7473fa98a30d505fcaf82c91bc8b51061349a4e9fa3a6e132e31",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 40,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "cohort",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "population_pyramid",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "millennials"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.031,
+   "last_value": 0.031,
+   "min_value": 0.031,
+   "max_value": 0.031,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.041,
+   "last_value": 0.041,
+   "min_value": 0.041,
+   "max_value": 0.041,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.083,
+   "last_value": 0.083,
+   "min_value": 0.083,
+   "max_value": 0.083,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.093,
+   "last_value": 0.093,
+   "min_value": 0.093,
+   "max_value": 0.093,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.165,
+   "last_value": 0.165,
+   "min_value": 0.165,
+   "max_value": 0.165,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.175,
+   "last_value": 0.175,
+   "min_value": 0.175,
+   "max_value": 0.175,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.289,
+   "last_value": 0.289,
+   "min_value": 0.289,
+   "max_value": 0.289,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.299,
+   "last_value": 0.299,
+   "min_value": 0.299,
+   "max_value": 0.299,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.443,
+   "last_value": 0.443,
+   "min_value": 0.443,
+   "max_value": 0.443,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.454,
+   "last_value": 0.454,
+   "min_value": 0.454,
+   "max_value": 0.454,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.598,
+   "last_value": 0.598,
+   "min_value": 0.598,
+   "max_value": 0.598,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.608,
+   "last_value": 0.608,
+   "min_value": 0.608,
+   "max_value": 0.608,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.753,
+   "last_value": 0.753,
+   "min_value": 0.753,
+   "max_value": 0.753,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.768,
+   "last_value": 0.768,
+   "min_value": 0.768,
+   "max_value": 0.768,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.866,
+   "last_value": 0.866,
+   "min_value": 0.866,
+   "max_value": 0.866,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.887,
+   "last_value": 0.887,
+   "min_value": 0.887,
+   "max_value": 0.887,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.969,
+   "last_value": 0.969,
+   "min_value": 0.969,
+   "max_value": 0.969,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.0,
+   "last_value": 1.0,
+   "min_value": 1.0,
+   "max_value": 1.0,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.907,
+   "last_value": 0.907,
+   "min_value": 0.907,
+   "max_value": 0.907,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.959,
+   "last_value": 0.959,
+   "min_value": 0.959,
+   "max_value": 0.959,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.804,
+   "last_value": 0.804,
+   "min_value": 0.804,
+   "max_value": 0.804,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.845,
+   "last_value": 0.845,
+   "min_value": 0.845,
+   "max_value": 0.845,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.763,
+   "last_value": 0.763,
+   "min_value": 0.763,
+   "max_value": 0.763,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.794,
+   "last_value": 0.794,
+   "min_value": 0.794,
+   "max_value": 0.794,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.763,
+   "last_value": 0.763,
+   "min_value": 0.763,
+   "max_value": 0.763,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.804,
+   "last_value": 0.804,
+   "min_value": 0.804,
+   "max_value": 0.804,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.814,
+   "last_value": 0.814,
+   "min_value": 0.814,
+   "max_value": 0.814,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.845,
+   "last_value": 0.845,
+   "min_value": 0.845,
+   "max_value": 0.845,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.866,
+   "last_value": 0.866,
+   "min_value": 0.866,
+   "max_value": 0.866,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.887,
+   "last_value": 0.887,
+   "min_value": 0.887,
+   "max_value": 0.887,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.866,
+   "last_value": 0.866,
+   "min_value": 0.866,
+   "max_value": 0.866,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.897,
+   "last_value": 0.897,
+   "min_value": 0.897,
+   "max_value": 0.897,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.724,
+   "last_value": 0.724,
+   "min_value": 0.724,
+   "max_value": 0.724,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.751,
+   "last_value": 0.751,
+   "min_value": 0.751,
+   "max_value": 0.751,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.677,
+   "last_value": 0.677,
+   "min_value": 0.677,
+   "max_value": 0.677,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.705,
+   "last_value": 0.705,
+   "min_value": 0.705,
+   "max_value": 0.705,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.631,
+   "last_value": 0.631,
+   "min_value": 0.631,
+   "max_value": 0.631,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.659,
+   "last_value": 0.659,
+   "min_value": 0.659,
+   "max_value": 0.659,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.585,
+   "last_value": 0.585,
+   "min_value": 0.585,
+   "max_value": 0.585,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.612,
+   "last_value": 0.612,
+   "min_value": 0.612,
+   "max_value": 0.612,
+   "missing_value_count": 0,
+   "metric": [
+    "millennials"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 40
+ },
+ "role_counts": {
+  "bar": 40
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 40,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

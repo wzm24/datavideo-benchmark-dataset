@@ -1,18 +1,34 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_30",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "4f2ccaa26417801b16f6a36dfef5b8fa3854ebd332919d901c0607dbb1a36d4c",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 18,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_line",
   "orientation": "cartesian",
   "panel_count": 1,
   "series_count": 3,
   "time_behavior": "snapshot",
-  "panels": [
-   ""
-  ]
+  "panels": []
  },
  "axis_semantics": {
   "x_axes": [
@@ -31,6 +47,127 @@
    "2017"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "GM",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 82.0041,
+   "last_value": 111.9996,
+   "min_value": 28.0025,
+   "max_value": 111.9996,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Toyota",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 5.9928,
+   "last_value": 18.9941,
+   "min_value": 0.0035,
+   "max_value": 39.0073,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "VW",
+   "series": "",
+   "row_count": 6,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017"
+   ],
+   "first_value": 0.0035,
+   "last_value": 0.0035,
+   "min_value": 0.0035,
+   "max_value": 0.0035,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 18
+ },
+ "role_counts": {
+  "line": 18
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   ""
+  ],
+  "required_series": [
+   {
+    "panel": "",
+    "entity": "GM",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Toyota",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "VW",
+    "series": ""
+   }
+  ],
+  "required_series_count": 3,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "",
@@ -95,32 +232,5 @@
    "min_value": 0.0035,
    "max_value": 0.0035
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   ""
-  ],
-  "required_series": [
-   {
-    "panel": "",
-    "entity": "GM",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Toyota",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "VW",
-    "series": ""
-   }
-  ],
-  "required_series_count": 3,
-  "all_required_series_must_appear": true
- }
+ ]
 }

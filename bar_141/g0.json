@@ -1,0 +1,201 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_141",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "e9969c371b895620b597934707ceadb720210ea45d06d3b36b79e4ecc9dbf528",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 6,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "grouped",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "perceived_economic_fairness"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "All adults",
+   "series": "Is generally fair",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 29.0,
+   "last_value": 29.0,
+   "min_value": 29.0,
+   "max_value": 29.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "All adults",
+   "series": "Unfairly favors powerful interests",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 70.0,
+   "last_value": 70.0,
+   "min_value": 70.0,
+   "max_value": 70.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Republican/Lean Rep",
+   "series": "Is generally fair",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 50.0,
+   "last_value": 50.0,
+   "min_value": 50.0,
+   "max_value": 50.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Republican/Lean Rep",
+   "series": "Unfairly favors powerful interests",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 50.0,
+   "last_value": 50.0,
+   "min_value": 50.0,
+   "max_value": 50.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Democrat/Lean Dem",
+   "series": "Is generally fair",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 12.0,
+   "last_value": 12.0,
+   "min_value": 12.0,
+   "max_value": 12.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "Democrat/Lean Dem",
+   "series": "Unfairly favors powerful interests",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 86.0,
+   "last_value": 86.0,
+   "min_value": 86.0,
+   "max_value": 86.0,
+   "missing_value_count": 0,
+   "metric": [
+    "perceived_economic_fairness"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 6
+ },
+ "role_counts": {
+  "bar": 6
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 6,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

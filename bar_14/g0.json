@@ -1,0 +1,178 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_14",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "95822f9947cd94cff53ae404f879e2837c4e04f31abe4bc27f50003d86301d47",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 8,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "x",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "simple",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "frame",
+  "panels": [],
+  "frames": [
+   1960,
+   2017
+  ]
+ },
+ "axis_semantics": {
+  "x_axes": [
+   "1960"
+  ],
+  "y_axes": [
+   "births_per_woman"
+  ],
+  "x_fields": [
+   "x"
+  ],
+  "x_mode": "explicit",
+  "x_anchors": [
+   "1960",
+   "2017"
+  ]
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Sub-Saharan Africa",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "births per woman"
+   ],
+   "x_anchors": [
+    "1960",
+    "2017"
+   ],
+   "first_value": 6.6,
+   "last_value": 4.7,
+   "min_value": 4.7,
+   "max_value": 6.6,
+   "missing_value_count": 0,
+   "metric": [
+    "births_per_woman"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "East Asia",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "births per woman"
+   ],
+   "x_anchors": [
+    "1960",
+    "2017"
+   ],
+   "first_value": 5.4,
+   "last_value": 1.8,
+   "min_value": 1.8,
+   "max_value": 5.4,
+   "missing_value_count": 0,
+   "metric": [
+    "births_per_woman"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "North America",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "births per woman"
+   ],
+   "x_anchors": [
+    "1960",
+    "2017"
+   ],
+   "first_value": 3.6,
+   "last_value": 1.7,
+   "min_value": 1.7,
+   "max_value": 3.6,
+   "missing_value_count": 0,
+   "metric": [
+    "births_per_woman"
+   ],
+   "source_type": [],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "European Union",
+   "series": "",
+   "row_count": 2,
+   "unit": [
+    "births per woman"
+   ],
+   "x_anchors": [
+    "1960",
+    "2017"
+   ],
+   "first_value": 2.5,
+   "last_value": 1.6,
+   "min_value": 1.6,
+   "max_value": 2.5,
+   "missing_value_count": 0,
+   "metric": [
+    "births_per_woman"
+   ],
+   "source_type": [],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 8
+ },
+ "role_counts": {
+  "unspecified": 8
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "selection": "all data rows (table has no role column)",
+  "required_data_rows": 8,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "missing_any_fails_visual_completeness": true,
+  "mode": "state_sequence",
+  "required_states": [
+   "1960",
+   "2017"
+  ],
+  "required_marks_per_state": {
+   "1960": 4,
+   "2017": 4
+  },
+  "check_full_timeline": true,
+  "final_frame_only_sufficient": false,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1",
+   "U2"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

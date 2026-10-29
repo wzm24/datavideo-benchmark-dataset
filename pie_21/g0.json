@@ -1,0 +1,183 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "pie_21",
+ "family": "pie",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "651930a76697ff8b52ea4222c06ffc0c5ce07708a0479cf38a9bffe3e3a106fe",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "d8c3819b25080cd1061cc9c61bc4273f3fef1fe600aed587b10d3a125a1c6bc2",
+ "row_count": 4,
+ "sidecar_row_count": 4,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type",
+  "entity_original",
+  "entity_source"
+ ],
+ "chart_structure": {
+  "sub_type": "full_pie",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 4,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_respondents"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Too much",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 61.0,
+   "last_value": 61.0,
+   "min_value": 61.0,
+   "max_value": 61.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "(unlabeled)",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 2.8,
+   "last_value": 2.8,
+   "min_value": 2.8,
+   "max_value": 2.8,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "estimated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "The right amount",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 23.0,
+   "last_value": 23.0,
+   "min_value": 23.0,
+   "max_value": 23.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Too little",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 13.0,
+   "last_value": 13.0,
+   "min_value": 13.0,
+   "max_value": 13.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "estimated": 1,
+  "printed": 3
+ },
+ "role_counts": {
+  "unspecified": 4
+ },
+ "estimated_or_projected_roles": [
+  "estimated"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Too much",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "(unlabeled)",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "The right amount",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "Too little",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 4,
+  "required_row_count": 4,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

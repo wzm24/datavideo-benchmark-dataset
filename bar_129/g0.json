@@ -1,0 +1,554 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_129",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "bb91cf7d3f2673510e4ee974a1ca74196ce8d7c46cfa7b286f93a72d653e6a10",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 22,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "stacked",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "nuclear_warheads"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "1950",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 1175.0,
+   "last_value": 1175.0,
+   "min_value": 1175.0,
+   "max_value": 1175.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 2609.0,
+   "last_value": 2609.0,
+   "min_value": 2609.0,
+   "max_value": 2609.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1955",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 325.0,
+   "last_value": 325.0,
+   "min_value": 325.0,
+   "max_value": 325.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 18399.0,
+   "last_value": 18399.0,
+   "min_value": 18399.0,
+   "max_value": 18399.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 1627.0,
+   "last_value": 1627.0,
+   "min_value": 1627.0,
+   "max_value": 1627.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1960",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 544.0,
+   "last_value": 544.0,
+   "min_value": 544.0,
+   "max_value": 544.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 25190.0,
+   "last_value": 25190.0,
+   "min_value": 25190.0,
+   "max_value": 25190.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 5039.0,
+   "last_value": 5039.0,
+   "min_value": 5039.0,
+   "max_value": 5039.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1965",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 916.0,
+   "last_value": 916.0,
+   "min_value": 916.0,
+   "max_value": 916.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 20316.0,
+   "last_value": 20316.0,
+   "min_value": 20316.0,
+   "max_value": 20316.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 16253.0,
+   "last_value": 16253.0,
+   "min_value": 16253.0,
+   "max_value": 16253.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1970",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 1627.0,
+   "last_value": 1627.0,
+   "min_value": 1627.0,
+   "max_value": 1627.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 14281.0,
+   "last_value": 14281.0,
+   "min_value": 14281.0,
+   "max_value": 14281.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 30940.0,
+   "last_value": 30940.0,
+   "min_value": 30940.0,
+   "max_value": 30940.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1975",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 2377.0,
+   "last_value": 2377.0,
+   "min_value": 2377.0,
+   "max_value": 2377.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 21884.0,
+   "last_value": 21884.0,
+   "min_value": 21884.0,
+   "max_value": 21884.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 35131.0,
+   "last_value": 35131.0,
+   "min_value": 35131.0,
+   "max_value": 35131.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1980",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 578.0,
+   "last_value": 578.0,
+   "min_value": 578.0,
+   "max_value": 578.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "USA",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 22182.0,
+   "last_value": 22182.0,
+   "min_value": 22182.0,
+   "max_value": 22182.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "Russia",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 35543.0,
+   "last_value": 35543.0,
+   "min_value": 35543.0,
+   "max_value": 35543.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "Other",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 1036.0,
+   "last_value": 1036.0,
+   "min_value": 1036.0,
+   "max_value": 1036.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "1985",
+   "series": "Total",
+   "row_count": 1,
+   "unit": [
+    "warheads"
+   ],
+   "x_anchors": [],
+   "first_value": 58761.0,
+   "last_value": 58761.0,
+   "min_value": 58761.0,
+   "max_value": 58761.0,
+   "missing_value_count": 0,
+   "metric": [
+    "nuclear_warheads"
+   ],
+   "source_type": [],
+   "role": [
+    "annotation"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 22
+ },
+ "role_counts": {
+  "annotation": 1,
+  "bar": 21
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 21,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

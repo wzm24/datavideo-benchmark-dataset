@@ -1,0 +1,125 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_16",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "7b38302fb8be6891c24d4ce06314487c7f4f81a5d0fed212f7129a7486667f06",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "80e9708c8464c2ae24563842f1f8497e99e81655e7a2e9bbc5ff77cd85c77bfe",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "multi_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "share_of_respondents"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "Support legalization",
+   "series": "Inner arc",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 52.0,
+   "last_value": 52.0,
+   "min_value": 52.0,
+   "max_value": 52.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  },
+  {
+   "panel": "",
+   "entity": "Oppose legalization",
+   "series": "Outer arc",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 45.0,
+   "last_value": 45.0,
+   "min_value": 45.0,
+   "max_value": 45.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_respondents"
+   ],
+   "source_type": [
+    "narration_calibrated"
+   ],
+   "role": []
+  }
+ ],
+ "source_type_counts": {
+  "narration_calibrated": 2
+ },
+ "role_counts": {
+  "unspecified": 2
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "Support legalization",
+    "series": "Inner arc"
+   },
+   {
+    "panel": "",
+    "entity": "Oppose legalization",
+    "series": "Outer arc"
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}

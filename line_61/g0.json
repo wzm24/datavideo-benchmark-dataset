@@ -1,9 +1,27 @@
 {
+ "version": "g0_fact_base_v1_2026-10-29",
  "clip_id": "line_61",
  "family": "line",
  "data_source": "data_table.csv",
  "data_table_sha256": "920fe58973a4073427c237c73c44b9c31591d06aa64918389dd0db0d7dd5834f",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
  "row_count": 74,
+ "sidecar_row_count": 0,
+ "columns": [
+  "panel",
+  "x_axis",
+  "y_axis",
+  "entity",
+  "series",
+  "x",
+  "point_order",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
  "chart_structure": {
   "sub_type": "multi_panel",
   "orientation": "cartesian",
@@ -31,6 +49,152 @@
    "2016"
   ]
  },
+ "entity_inventory": [
+  {
+   "panel": "Democratic",
+   "entity": "",
+   "series": "Pew Research Center",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 31.0,
+   "last_value": 38.11,
+   "min_value": 28.13,
+   "max_value": 38.11,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Democratic",
+   "entity": "",
+   "series": "General Social Survey",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 35.0,
+   "last_value": 32.52,
+   "min_value": 30.92,
+   "max_value": 35.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Republican",
+   "entity": "",
+   "series": "Pew Research Center",
+   "row_count": 24,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 31.0,
+   "last_value": 22.14,
+   "min_value": 22.14,
+   "max_value": 31.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  },
+  {
+   "panel": "Republican",
+   "entity": "",
+   "series": "General Social Survey",
+   "row_count": 13,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [
+    "1990",
+    "2000",
+    "2010",
+    "2016"
+   ],
+   "first_value": 33.0,
+   "last_value": 21.24,
+   "min_value": 20.34,
+   "max_value": 33.0,
+   "missing_value_count": 0,
+   "metric": [],
+   "source_type": [],
+   "role": [
+    "line"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 74
+ },
+ "role_counts": {
+  "line": 74
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "series_set_per_panel",
+  "panels": [
+   "Democratic",
+   "Republican"
+  ],
+  "required_series": [
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Democratic",
+    "entity": "",
+    "series": "General Social Survey"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "Pew Research Center"
+   },
+   {
+    "panel": "Republican",
+    "entity": "",
+    "series": "General Social Survey"
+   }
+  ],
+  "required_series_count": 4,
+  "all_required_series_must_appear": true
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ],
  "series_inventory": [
   {
    "panel": "Democratic",
@@ -108,38 +272,5 @@
    "min_value": 20.34,
    "max_value": 33.0
   }
- ],
- "estimated_or_projected_roles": [],
- "completeness": {
-  "required": true,
-  "mode": "series_set_per_panel",
-  "panels": [
-   "Democratic",
-   "Republican"
-  ],
-  "required_series": [
-   {
-    "panel": "Democratic",
-    "entity": "",
-    "series": "Pew Research Center"
-   },
-   {
-    "panel": "Democratic",
-    "entity": "",
-    "series": "General Social Survey"
-   },
-   {
-    "panel": "Republican",
-    "entity": "",
-    "series": "Pew Research Center"
-   },
-   {
-    "panel": "Republican",
-    "entity": "",
-    "series": "General Social Survey"
-   }
-  ],
-  "required_series_count": 4,
-  "all_required_series_must_appear": true
- }
+ ]
 }

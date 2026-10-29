@@ -1,0 +1,949 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "bar_89",
+ "family": "bar",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "c5f623377008740f6c5833a0706271c586841074a47c23bdc2735e20ba16bb27",
+ "sidecar_source": null,
+ "sidecar_sha256": null,
+ "row_count": 40,
+ "sidecar_row_count": 0,
+ "columns": [
+  "entity",
+  "series",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [],
+ "chart_structure": {
+  "sub_type": "population_pyramid",
+  "orientation": "horizontal",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "ethiopia"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0083,
+   "last_value": 0.0083,
+   "min_value": 0.0083,
+   "max_value": 0.0083,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "95-99",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.008715,
+   "last_value": 0.008715,
+   "min_value": 0.008715,
+   "max_value": 0.008715,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0248,
+   "last_value": 0.0248,
+   "min_value": 0.0248,
+   "max_value": 0.0248,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "90-95",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.028245,
+   "last_value": 0.028245,
+   "min_value": 0.028245,
+   "max_value": 0.028245,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0455,
+   "last_value": 0.0455,
+   "min_value": 0.0455,
+   "max_value": 0.0455,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "85-89",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.049875,
+   "last_value": 0.049875,
+   "min_value": 0.049875,
+   "max_value": 0.049875,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0703,
+   "last_value": 0.0703,
+   "min_value": 0.0703,
+   "max_value": 0.0703,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "80-84",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.073815,
+   "last_value": 0.073815,
+   "min_value": 0.073815,
+   "max_value": 0.073815,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.0992,
+   "last_value": 0.0992,
+   "min_value": 0.0992,
+   "max_value": 0.0992,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "75-79",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.10416,
+   "last_value": 0.10416,
+   "min_value": 0.10416,
+   "max_value": 0.10416,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1323,
+   "last_value": 0.1323,
+   "min_value": 0.1323,
+   "max_value": 0.1323,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "70-74",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.138915,
+   "last_value": 0.138915,
+   "min_value": 0.138915,
+   "max_value": 0.138915,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.1695,
+   "last_value": 0.1695,
+   "min_value": 0.1695,
+   "max_value": 0.1695,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "65-69",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.177975,
+   "last_value": 0.177975,
+   "min_value": 0.177975,
+   "max_value": 0.177975,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2109,
+   "last_value": 0.2109,
+   "min_value": 0.2109,
+   "max_value": 0.2109,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "60-64",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.221445,
+   "last_value": 0.221445,
+   "min_value": 0.221445,
+   "max_value": 0.221445,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2522,
+   "last_value": 0.2522,
+   "min_value": 0.2522,
+   "max_value": 0.2522,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "55-59",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.267015,
+   "last_value": 0.267015,
+   "min_value": 0.267015,
+   "max_value": 0.267015,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.2977,
+   "last_value": 0.2977,
+   "min_value": 0.2977,
+   "max_value": 0.2977,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "50-54",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.31689,
+   "last_value": 0.31689,
+   "min_value": 0.31689,
+   "max_value": 0.31689,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3473,
+   "last_value": 0.3473,
+   "min_value": 0.3473,
+   "max_value": 0.3473,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "45-49",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.36897,
+   "last_value": 0.36897,
+   "min_value": 0.36897,
+   "max_value": 0.36897,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.3969,
+   "last_value": 0.3969,
+   "min_value": 0.3969,
+   "max_value": 0.3969,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "40-44",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.421155,
+   "last_value": 0.421155,
+   "min_value": 0.421155,
+   "max_value": 0.421155,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.4643,
+   "last_value": 0.4643,
+   "min_value": 0.4643,
+   "max_value": 0.4643,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "35-39",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.49182,
+   "last_value": 0.49182,
+   "min_value": 0.49182,
+   "max_value": 0.49182,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.5351,
+   "last_value": 0.5351,
+   "min_value": 0.5351,
+   "max_value": 0.5351,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "30-34",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.566265,
+   "last_value": 0.566265,
+   "min_value": 0.566265,
+   "max_value": 0.566265,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6119,
+   "last_value": 0.6119,
+   "min_value": 0.6119,
+   "max_value": 0.6119,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "25-29",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.646905,
+   "last_value": 0.646905,
+   "min_value": 0.646905,
+   "max_value": 0.646905,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.6946,
+   "last_value": 0.6946,
+   "min_value": 0.6946,
+   "max_value": 0.6946,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "20-24",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.73374,
+   "last_value": 0.73374,
+   "min_value": 0.73374,
+   "max_value": 0.73374,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.7832,
+   "last_value": 0.7832,
+   "min_value": 0.7832,
+   "max_value": 0.7832,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "15-19",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.82677,
+   "last_value": 0.82677,
+   "min_value": 0.82677,
+   "max_value": 0.82677,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.8777,
+   "last_value": 0.8777,
+   "min_value": 0.8777,
+   "max_value": 0.8777,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "10-14",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.925995,
+   "last_value": 0.925995,
+   "min_value": 0.925995,
+   "max_value": 0.925995,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.9545,
+   "last_value": 0.9545,
+   "min_value": 0.9545,
+   "max_value": 0.9545,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "5-9",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.00663,
+   "last_value": 1.00663,
+   "min_value": 1.00663,
+   "max_value": 1.00663,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Male",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 0.9959,
+   "last_value": 0.9959,
+   "min_value": 0.9959,
+   "max_value": 0.9959,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "0-4",
+   "series": "Female",
+   "row_count": 1,
+   "unit": [
+    "relative"
+   ],
+   "x_anchors": [],
+   "first_value": 1.05,
+   "last_value": 1.05,
+   "min_value": 1.05,
+   "max_value": 1.05,
+   "missing_value_count": 0,
+   "metric": [
+    "ethiopia"
+   ],
+   "source_type": [],
+   "role": [
+    "bar"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "unspecified": 40
+ },
+ "role_counts": {
+  "bar": 40
+ },
+ "estimated_or_projected_roles": [],
+ "completeness": {
+  "required": true,
+  "mode": "static_all_at_once",
+  "selection": "all role=bar rows",
+  "required_data_rows": 40,
+  "required_states": [],
+  "required_marks_per_state": {},
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence",
+  "check_full_timeline": false,
+  "final_frame_only_sufficient": true,
+  "missing_any_fails_visual_completeness": true,
+  "g1_unit_id": "U_COMPLETE",
+  "g1_requirement_id": "R1",
+  "g1_unit_ids": [
+   "U1"
+  ]
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json"
+ ]
+}

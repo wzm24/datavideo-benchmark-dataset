@@ -1,0 +1,134 @@
+{
+ "version": "g0_fact_base_v1_2026-10-29",
+ "clip_id": "donut_5",
+ "family": "donut",
+ "data_source": "data_table.csv",
+ "data_table_sha256": "35b19632c2b7535d2b978ba6272c7dba3632ae5a7750d09867d77fee7b0c1b0c",
+ "sidecar_source": "data_table.sidecar.csv",
+ "sidecar_sha256": "b479dcd07e50d3cff5cff653e1a08d2f791d63f25bcde4a1c837ee9e99f8927a",
+ "row_count": 2,
+ "sidecar_row_count": 2,
+ "columns": [
+  "entity",
+  "metric",
+  "value",
+  "unit",
+  "label",
+  "role"
+ ],
+ "sidecar_columns": [
+  "clip_id",
+  "entity_id",
+  "x_px",
+  "x_value",
+  "relative_value",
+  "color",
+  "source_type"
+ ],
+ "chart_structure": {
+  "sub_type": "partial_ring",
+  "orientation": "radial",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "panels": []
+ },
+ "axis_semantics": {
+  "x_axes": [],
+  "y_axes": [
+   "independent_workers_count",
+   "share_of_us_workforce"
+  ],
+  "x_fields": [],
+  "x_mode": "categorical",
+  "x_anchors": []
+ },
+ "entity_inventory": [
+  {
+   "panel": "",
+   "entity": "independent workers",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "million"
+   ],
+   "x_anchors": [],
+   "first_value": 68.0,
+   "last_value": 68.0,
+   "min_value": 68.0,
+   "max_value": 68.0,
+   "missing_value_count": 0,
+   "metric": [
+    "independent_workers_count"
+   ],
+   "source_type": [
+    "printed"
+   ],
+   "role": [
+    "center_label"
+   ]
+  },
+  {
+   "panel": "",
+   "entity": "independent workforce share",
+   "series": "",
+   "row_count": 1,
+   "unit": [
+    "%"
+   ],
+   "x_anchors": [],
+   "first_value": 32.0,
+   "last_value": 32.0,
+   "min_value": 32.0,
+   "max_value": 32.0,
+   "missing_value_count": 0,
+   "metric": [
+    "share_of_us_workforce"
+   ],
+   "source_type": [
+    "estimated_ring_geometry"
+   ],
+   "role": [
+    "arc"
+   ]
+  }
+ ],
+ "source_type_counts": {
+  "estimated_ring_geometry": 1,
+  "printed": 1
+ },
+ "role_counts": {
+  "arc": 1,
+  "center_label": 1
+ },
+ "estimated_or_projected_roles": [
+  "estimated_ring_geometry"
+ ],
+ "completeness": {
+  "required": true,
+  "mode": "entity_set_per_panel",
+  "panels": [],
+  "required_entities": [
+   {
+    "panel": "",
+    "entity": "independent workers",
+    "series": ""
+   },
+   {
+    "panel": "",
+    "entity": "independent workforce share",
+    "series": ""
+   }
+  ],
+  "required_entity_count": 2,
+  "required_row_count": 2,
+  "all_required_entities_must_appear": true,
+  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
+ },
+ "derived_from": [
+  "data_table.csv",
+  "chart_spec.json",
+  "input_spec.json",
+  "data_table.sidecar.csv"
+ ]
+}
