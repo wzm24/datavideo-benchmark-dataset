@@ -1,4 +1,4 @@
 ﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
-,state_sequence,state 3s,restaurant_failure_rate,90,%,0.9,,state,printed
-,state_sequence,state 8s,restaurant_failure_rate,30,%,0.3,,state,printed
-,state_sequence,state last,restaurant_failure_rate,60,%,0.6,,state,printed
+,,state 3s,restaurant_failure_rate,90,%,0.9,,state,printed
+,,state 8s,restaurant_failure_rate,30,%,0.3,,state,printed
+,,state last,restaurant_failure_rate,60,%,0.6,,state,printed

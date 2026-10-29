@@ -27,12 +27,17 @@
     "color",
     "note"
   ],
+  "label_policy": "When label contains a number, value must equal that label.",
+  "dimension_policy": "panel=layout/state, series=ring identity only, entity=data category, metric=measurement",
   "validation": {
     "main_schema_variants": 1,
     "sidecar_schema_variants": 1,
     "row_mismatches": 0,
     "duplicate_entity_ids": 0,
     "generic_slice_ids": 0,
+    "value_label_mismatches": 0,
+    "panel_entity_duplicates": 0,
+    "series_dimension_duplicates": 0,
     "g1_basis_reference_errors": 0,
     "g2_mark_reference_errors": 0,
     "local_repo_file_differences": 0
