@@ -1,0 +1,198 @@
+{
+  "video_id": "mGgBY3yBpYY",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\mGgBY3yBpYY.m4a",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 114.962,
+  "duration_after_vad_seconds": 105.026,
+  "cue_count": 20,
+  "cues": [
+    {
+      "index": 0,
+      "start": 10.9,
+      "end": 15.94,
+      "text": "The online video culture is growing. A national survey by the Pew Research Center",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125987,
+      "no_speech_prob": 0.031586
+    },
+    {
+      "index": 1,
+      "start": 15.94,
+      "end": 21.78,
+      "text": "shows that nearly 8 in 10 American adult internet users watch or download online videos.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125987,
+      "no_speech_prob": 0.031586
+    },
+    {
+      "index": 2,
+      "start": 21.78,
+      "end": 27.3,
+      "text": "And in the last four years, the percent of adult internet users who post video online has doubled.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125987,
+      "no_speech_prob": 0.031586
+    },
+    {
+      "index": 3,
+      "start": 28.34,
+      "end": 34.26,
+      "text": "What are they watching? Comedy, educational, and how-to videos top the list for the most viewed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125987,
+      "no_speech_prob": 0.031586
+    },
+    {
+      "index": 4,
+      "start": 34.26,
+      "end": 38.42,
+      "text": "online video content, with music videos following closely behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125987,
+      "no_speech_prob": 0.031586
+    },
+    {
+      "index": 5,
+      "start": 38.42,
+      "end": 44.66,
+      "text": "Those most likely to watch online video tend to be young, college-educated, and wealthy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102507,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 6,
+      "start": 44.66,
+      "end": 47.78,
+      "text": "but the behavior is growing across all online adults.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102507,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 7,
+      "start": 49.06,
+      "end": 54.42,
+      "text": "And they're not just watching. One in four online adults have uploaded a video to the internet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102507,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 8,
+      "start": 54.42,
+      "end": 58.02,
+      "text": "and one in five have posted content that they've created themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102507,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 9,
+      "start": 58.82,
+      "end": 63.7,
+      "text": "What's behind this growth? Now that 91% of Americans own cell phones,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102507,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 10,
+      "start": 63.7,
+      "end": 68.58,
+      "text": "most can record, post, or watch videos virtually anywhere, anytime.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049936,
+      "no_speech_prob": 0.001151
+    },
+    {
+      "index": 11,
+      "start": 68.58,
+      "end": 75.86,
+      "text": "41% of cell phone owners use their phones to record video, 40% use their phones to watch video,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049936,
+      "no_speech_prob": 0.001151
+    },
+    {
+      "index": 12,
+      "start": 75.86,
+      "end": 81.7,
+      "text": "and 20% use their phones to post videos online. The growing popularity of social network sites",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049936,
+      "no_speech_prob": 0.001151
+    },
+    {
+      "index": 13,
+      "start": 81.7,
+      "end": 88.5,
+      "text": "is also fueling the growth of online video. Today, 72% of online adults use social networking sites,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049936,
+      "no_speech_prob": 0.001151
+    },
+    {
+      "index": 14,
+      "start": 88.5,
+      "end": 91.46,
+      "text": "which are popular venues for sharing video content.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049936,
+      "no_speech_prob": 0.001151
+    },
+    {
+      "index": 15,
+      "start": 91.46,
+      "end": 94.98,
+      "text": "The most popular subjects for those who post their own videos online",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.110212,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 16,
+      "start": 94.98,
+      "end": 99.7,
+      "text": "are friends and family doing everyday or funny things and events that they attend.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.110212,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 17,
+      "start": 99.7,
+      "end": 103.78,
+      "text": "What were once fleeting everyday moments can now be easily captured and shared.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.110212,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 18,
+      "start": 104.42,
+      "end": 110.42,
+      "text": "For more data on online video use, including findings related to demographics and mobile apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.110212,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 19,
+      "start": 110.42,
+      "end": 114.82,
+      "text": "read the full report at www.puresearch.org.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.110212,
+      "no_speech_prob": 0.000444
+    }
+  ],
+  "created_at": "2026-11-05T02:16:15+0800"
+}

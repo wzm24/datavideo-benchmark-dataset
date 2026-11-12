@@ -1,0 +1,72 @@
+{
+ "clip": "area_7",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Compare the age distribution of the population in 1972 and 2019 to show how the demographic structure shifted across age groups.",
+ "proposed_intent": "Compare the age distribution of the population in 1972 and 2019 across age groups.",
+ "writer": {
+  "intent": "Compare the age distribution of the population in 1972 and 2019 across age groups.",
+  "entities": [
+   "Population in 1972",
+   "Population in 2019"
+  ],
+  "measure": "Population (relative width) by age",
+  "scope": "Age groups from 0 to 74 years in 1972 and 0 to 83 years in 2019",
+  "comparison": "Population in 1972 versus Population in 2019",
+  "withheld_answer": "The demographic structure shifted across age groups between 1972 and 2019."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 14,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "1972",
+   "2019"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 9254,
+   "completion_tokens": 129,
+   "total_tokens": 9383,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 9126
+  },
+  {
+   "prompt_tokens": 9185,
+   "completion_tokens": 56,
+   "total_tokens": 9241,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 9185
+  }
+ ],
+ "sec": 2.5
+}

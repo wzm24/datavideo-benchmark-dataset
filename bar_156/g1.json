@@ -64,7 +64,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -96,7 +97,8 @@
     "using the absent 4.8T reported-liability value",
     "claiming the gap is 7.0T"
    ],
-   "evidence": "The paired bars and annotation encode assets, actual liabilities, and their gap."
+   "evidence": "The paired bars and annotation encode assets, actual liabilities, and their gap.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -132,7 +134,8 @@
     "omitting the gap annotation",
     "using a different asset or liability basis"
    ],
-   "evidence": "The unfunded-gap annotation connects actual liabilities to reported assets."
+   "evidence": "The unfunded-gap annotation connects actual liabilities to reported assets.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -169,11 +172,12 @@
   "manual_specific_fix_2026-10-22",
   "state_level_completeness_r1_2026-10-22",
   "final_v1_required_units_audited_2026_10_27",
-  "final_v1_required_units_audited_2026_10_27"
+  "final_v1_required_units_audited_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "optional_units": [],
  "optional_requirements": [],
  "unsupported_or_forbidden": [
@@ -236,5 +240,12 @@
   ],
   "chart_sub_type": "overlay_bar",
   "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
- }
+ },
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

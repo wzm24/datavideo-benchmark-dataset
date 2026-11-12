@@ -1,0 +1,504 @@
+{
+  "clip_id": "bar_1",
+  "family": "bar",
+  "video_id": "Tqt9hZcWhJM",
+  "source_url": "https://www.youtube.com/watch?v=Tqt9hZcWhJM",
+  "source_title": "How Big is the Moon? MM#1",
+  "target_window_source": {
+    "start": 65.0,
+    "end": 77.0
+  },
+  "target_mask_interval": {
+    "start": 63.5,
+    "end": 78.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "masked_cue_ids": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.0,
+      "text": "How big is the moon?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 1,
+      "start": 2.0,
+      "end": 8.0,
+      "text": "In the night sky, the moon seems rather small, but in reality, it really isn't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 2,
+      "start": 8.0,
+      "end": 10.0,
+      "text": "Central Europe would easily fit under it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 3,
+      "start": 10.0,
+      "end": 13.0,
+      "text": "The surface area of the moon is huge.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 4,
+      "start": 13.0,
+      "end": 17.0,
+      "text": "To give you some perspective, it's as big as the whole European continent,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 5,
+      "start": 17.0,
+      "end": 21.0,
+      "text": "China, the USA, Brazil and South Africa together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 6,
+      "start": 21.0,
+      "end": 26.0,
+      "text": "Weight-wise, the moon is only about 181th of the mass of Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 7,
+      "start": 26.0,
+      "end": 28.0,
+      "text": "But how big is it in relation to Earth?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 8,
+      "start": 28.0,
+      "end": 30.0,
+      "text": "Quite big, actually.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 9,
+      "start": 30.0,
+      "end": 34.0,
+      "text": "Our moon is the biggest in the solar system in relation to its planet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 10,
+      "start": 34.0,
+      "end": 40.0,
+      "text": "And it's the fifth largest moon in the solar system, quite a bit bigger than the dwarf planet Pluto.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 11,
+      "start": 40.0,
+      "end": 47.0,
+      "text": "Now, if the moon is really that huge, how far away is it from us to seem this small in the night sky?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 12,
+      "start": 47.0,
+      "end": 51.0,
+      "text": "370 kilometers, as far as the ISS maybe?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 13,
+      "start": 51.0,
+      "end": 56.0,
+      "text": "No, at that distance, gravitational forces would rip the moon apart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 14,
+      "start": 56.0,
+      "end": 61.0,
+      "text": "At 36,000 kilometers, it would be as far away as our most distant satellites.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065275,
+      "no_speech_prob": 0.000404
+    }
+  ],
+  "context_after": [
+    {
+      "index": 21,
+      "start": 80.0,
+      "end": 85.0,
+      "text": "Well, it kind of depends how you define big.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065275,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 22,
+      "start": 85.0,
+      "end": 88.0,
+      "text": "But seriously, though, it's pretty big.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 23,
+      "start": 88.0,
+      "end": 92.28,
+      "text": "Hey YouTube, we'll try something new this month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 24,
+      "start": 92.28,
+      "end": 96.28,
+      "text": "Moon May, one video about cool moon stuff each Monday in May.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 25,
+      "start": 96.28,
+      "end": 98.28,
+      "text": "So, see you next week.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.0,
+      "text": "How big is the moon?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 1,
+      "start": 2.0,
+      "end": 8.0,
+      "text": "In the night sky, the moon seems rather small, but in reality, it really isn't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 2,
+      "start": 8.0,
+      "end": 10.0,
+      "text": "Central Europe would easily fit under it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 3,
+      "start": 10.0,
+      "end": 13.0,
+      "text": "The surface area of the moon is huge.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 4,
+      "start": 13.0,
+      "end": 17.0,
+      "text": "To give you some perspective, it's as big as the whole European continent,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 5,
+      "start": 17.0,
+      "end": 21.0,
+      "text": "China, the USA, Brazil and South Africa together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 6,
+      "start": 21.0,
+      "end": 26.0,
+      "text": "Weight-wise, the moon is only about 181th of the mass of Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 7,
+      "start": 26.0,
+      "end": 28.0,
+      "text": "But how big is it in relation to Earth?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.14076,
+      "no_speech_prob": 0.021896
+    },
+    {
+      "index": 8,
+      "start": 28.0,
+      "end": 30.0,
+      "text": "Quite big, actually.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 9,
+      "start": 30.0,
+      "end": 34.0,
+      "text": "Our moon is the biggest in the solar system in relation to its planet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 10,
+      "start": 34.0,
+      "end": 40.0,
+      "text": "And it's the fifth largest moon in the solar system, quite a bit bigger than the dwarf planet Pluto.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 11,
+      "start": 40.0,
+      "end": 47.0,
+      "text": "Now, if the moon is really that huge, how far away is it from us to seem this small in the night sky?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 12,
+      "start": 47.0,
+      "end": 51.0,
+      "text": "370 kilometers, as far as the ISS maybe?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 13,
+      "start": 51.0,
+      "end": 56.0,
+      "text": "No, at that distance, gravitational forces would rip the moon apart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082579,
+      "no_speech_prob": 0.001115
+    },
+    {
+      "index": 14,
+      "start": 56.0,
+      "end": 61.0,
+      "text": "At 36,000 kilometers, it would be as far away as our most distant satellites.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065275,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 21,
+      "start": 80.0,
+      "end": 85.0,
+      "text": "Well, it kind of depends how you define big.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065275,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 22,
+      "start": 85.0,
+      "end": 88.0,
+      "text": "But seriously, though, it's pretty big.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 23,
+      "start": 88.0,
+      "end": 92.28,
+      "text": "Hey YouTube, we'll try something new this month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 24,
+      "start": 92.28,
+      "end": 96.28,
+      "text": "Moon May, one video about cool moon stuff each Monday in May.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    },
+    {
+      "index": 25,
+      "start": 96.28,
+      "end": 98.28,
+      "text": "So, see you next week.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098422,
+      "no_speech_prob": 0.00898
+    }
+  ],
+  "context_text_chronological": "How big is the moon? In the night sky, the moon seems rather small, but in reality, it really isn't. Central Europe would easily fit under it. The surface area of the moon is huge. To give you some perspective, it's as big as the whole European continent, China, the USA, Brazil and South Africa together. Weight-wise, the moon is only about 181th of the mass of Earth. But how big is it in relation to Earth? Quite big, actually. Our moon is the biggest in the solar system in relation to its planet. And it's the fifth largest moon in the solar system, quite a bit bigger than the dwarf planet Pluto. Now, if the moon is really that huge, how far away is it from us to seem this small in the night sky? 370 kilometers, as far as the ISS maybe? No, at that distance, gravitational forces would rip the moon apart. At 36,000 kilometers, it would be as far away as our most distant satellites. Well, it kind of depends how you define big. But seriously, though, it's pretty big. Hey YouTube, we'll try something new this month. Moon May, one video about cool moon stuff each Monday in May. So, see you next week.",
+  "target_text_for_audit": "Pretty far away, right? A 747 would need 28 straight days to fly to the moon, and even with our current technology, we'd need two full days. And in a car, a lot of time.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 5,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "Pretty far away, right?",
+        "start_source": 64.48,
+        "end_source": 65.62,
+        "matching_cue_ids": [
+          16
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "A 747 would need 28 straight days to fly to the moon and even with our current technology,",
+        "start_source": 66.08,
+        "end_source": 71.5,
+        "matching_cue_ids": [
+          17
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "we'd need two full days.",
+        "start_source": 71.98,
+        "end_source": 73.78,
+        "matching_cue_ids": [
+          17,
+          18
+        ],
+        "text_similarity": 0.3382,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_005",
+        "text": "And in a car,",
+        "start_source": 74.28,
+        "end_source": 75.28,
+        "matching_cue_ids": [
+          19
+        ],
+        "text_similarity": 0.6316,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_006",
+        "text": "a lot of time.",
+        "start_source": 75.96,
+        "end_source": 76.82,
+        "matching_cue_ids": [
+          19
+        ],
+        "text_similarity": 0.6667,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\Tqt9hZcWhJM.mp4",
+    "cue_count": 26
+  },
+  "token_estimate_char_div_4": 278
+}

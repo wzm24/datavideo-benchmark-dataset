@@ -1,137 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_19",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "2c51045f80f84862760cc60934373aab8f4957e886480802bd0b8ed7013110d8",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "da7f469c34e8ab8fcf96c6e8ac3a7ea9faba2cbb25656d47452ab2d1f7190863",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "c5f6388fe8b05da9fa06c335324db19f331dab9f8c80b0e0afb25027ad704f9d",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_ranking_weight"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "SAT/ACT Scores",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 7.75,
-   "last_value": 7.75,
-   "min_value": 7.75,
-   "max_value": 7.75,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ranking_weight"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Other ranking criteria",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 92.2,
-   "last_value": 92.2,
-   "min_value": 92.2,
-   "max_value": 92.2,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ranking_weight"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_ranking_weight",
+   "value": "7.75",
+   "unit": "%",
+   "relative_value": "0.0775",
+   "label": "7.75%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_ranking_weight"
   }
  ],
- "source_type_counts": {
-  "estimated": 1,
-  "printed": 1
- },
- "role_counts": {
-  "remainder": 1,
-  "slice": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_ranking_weight",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "SAT/ACT Scores"
+   ],
+   "relative_value_sum": 0.0775
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "SAT/ACT Scores",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
+    "metric": "share_of_ranking_weight",
+    "value": "7.75",
+    "unit": "%",
+    "relative_value": "0.0775",
+    "label": "7.75%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_ranking_weight"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

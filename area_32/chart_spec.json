@@ -1,7 +1,7 @@
 {
  "clip_id": "area_32",
  "family": "area",
- "sub_type": "simple_area",
+ "sub_type": "normalized_timeline_area",
  "orientation": "cartesian",
  "series_count": 1,
  "has_reference_line": false,
@@ -10,12 +10,35 @@
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 3,
- "row_count": 344,
+ "row_count": 147,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "high",
  "needs_review": false,
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "axis_ranges": {
+  "x": {
+   "mode": "relative",
+   "min": 0,
+   "max": 1
+  },
+  "y": {
+   "mode": "relative",
+   "min": 0,
+   "max": 1
+  }
+ },
+ "x_axis_labels": [
+  "Big Bang",
+  "Today"
+ ],
+ "x_anchors": {
+  "Big Bang": 0.0,
+  "Today": 0.420388,
+  "future chart edge": 1.0
+ },
+ "today_position_percent": 42.04,
+ "batch_status": "approved"
 }

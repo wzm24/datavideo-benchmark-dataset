@@ -1,0 +1,558 @@
+{
+  "video_id": "H9L37cPVSqo",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\H9L37cPVSqo.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 247.084,
+  "duration_after_vad_seconds": 236.608,
+  "cue_count": 60,
+  "cues": [
+    {
+      "index": 0,
+      "start": 1.17,
+      "end": 7.67,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 1,
+      "start": 7.67,
+      "end": 9.67,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 2,
+      "start": 9.67,
+      "end": 12.67,
+      "text": "To what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 3,
+      "start": 12.67,
+      "end": 21.14,
+      "text": "In this episode, Carrie Funk and Alec Tyson help explain trust in scientists and views of COVID-19 vaccines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 4,
+      "start": 21.14,
+      "end": 25.64,
+      "text": "The coronavirus pandemic is really at the front of all of our minds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 5,
+      "start": 25.64,
+      "end": 30.64,
+      "text": "And one of the things it's done is put scientists and their work really in a public spotlight,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184801,
+      "no_speech_prob": 0.025131
+    },
+    {
+      "index": 6,
+      "start": 30.64,
+      "end": 33.14,
+      "text": "unlike anything we've seen for decades.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 7,
+      "start": 33.14,
+      "end": 35.64,
+      "text": "We've seen that scientists and medical scientists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 8,
+      "start": 35.64,
+      "end": 38.64,
+      "text": "These are groups that are held in pretty high regard by the public.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 9,
+      "start": 38.64,
+      "end": 43.64,
+      "text": "Large majorities say they've either a great deal or a fair amount of confidence in them to do the right thing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 10,
+      "start": 43.64,
+      "end": 45.64,
+      "text": "to act in the public's best interest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 11,
+      "start": 45.64,
+      "end": 49.64,
+      "text": "But we've even seen change during the coronavirus outbreak in these views.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 12,
+      "start": 49.64,
+      "end": 53.64,
+      "text": "And what we're seeing so far is that public confidence has ticked up,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 13,
+      "start": 53.64,
+      "end": 59.64,
+      "text": "but there's a big caveat to that and that the uptick has not been uniform across Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072798,
+      "no_speech_prob": 0.045288
+    },
+    {
+      "index": 14,
+      "start": 59.64,
+      "end": 66.64,
+      "text": "We're seeing primarily Democrats have a growing sense of confidence in scientists to act in the best interest of the public,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 15,
+      "start": 66.64,
+      "end": 68.64,
+      "text": "whereas Republicans have stayed about the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 16,
+      "start": 68.64,
+      "end": 74.64,
+      "text": "So as a result of that, what we're seeing is a growing political divide between Democrats and Republicans",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 17,
+      "start": 74.64,
+      "end": 77.64,
+      "text": "over their levels of trust in scientists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 18,
+      "start": 77.64,
+      "end": 81.64,
+      "text": "Public trust in scientists has been a key indicator of public support,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 19,
+      "start": 81.64,
+      "end": 84.64,
+      "text": "but it's also something public health experts talk a lot about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075047,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 20,
+      "start": 84.64,
+      "end": 89.64,
+      "text": "And they're talking about the importance of trust in connection with public acceptance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 21,
+      "start": 89.64,
+      "end": 93.64,
+      "text": "and really adherence to best practices for mitigating the spread of disease.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 22,
+      "start": 93.64,
+      "end": 96.64,
+      "text": "And we've seen that in center surveys as well.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 23,
+      "start": 96.64,
+      "end": 100.64,
+      "text": "We're seeing that public trust in the vaccine research and development process",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 24,
+      "start": 100.64,
+      "end": 105.64,
+      "text": "is going hand in hand with people's intention to get a coronavirus vaccine.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 25,
+      "start": 105.64,
+      "end": 111.64,
+      "text": "Our data from August 2021 finds a majority of Americans say they've received a vaccine for COVID-19.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039518,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 26,
+      "start": 111.64,
+      "end": 116.64,
+      "text": "And there's more than one factor at play here when it comes to the decision to get vaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 27,
+      "start": 116.64,
+      "end": 119.64,
+      "text": "Some of the bigger factors are personal concern.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 28,
+      "start": 119.64,
+      "end": 122.64,
+      "text": "If you think you're really worried about getting a bad case of the coronavirus,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 29,
+      "start": 122.64,
+      "end": 124.64,
+      "text": "you're much more inclined to be vaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 30,
+      "start": 124.64,
+      "end": 126.64,
+      "text": "Trust in the research and development process,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 31,
+      "start": 126.64,
+      "end": 129.64,
+      "text": "a sense that you believe the vaccines are safe and effective",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 32,
+      "start": 129.64,
+      "end": 132.64,
+      "text": "is highly correlated with the decision to get vaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 33,
+      "start": 132.64,
+      "end": 136.64,
+      "text": "And there are even dynamics around your own personal practices or experiences with other vaccines,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 34,
+      "start": 136.64,
+      "end": 137.64,
+      "text": "namely the common flu shot.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038094,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 35,
+      "start": 137.64,
+      "end": 141.64,
+      "text": "If you typically get a flu shot, you're much more likely to be vaccinated for COVID-19",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 36,
+      "start": 141.64,
+      "end": 144.64,
+      "text": "than folks who don't typically receive a flu shot.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 37,
+      "start": 144.64,
+      "end": 149.64,
+      "text": "We know that the coronavirus outbreak has had a disproportionate impact on different communities,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 38,
+      "start": 149.64,
+      "end": 154.64,
+      "text": "whether that's by socioeconomic status, race and ethnicity, or by job status.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 39,
+      "start": 154.64,
+      "end": 157.64,
+      "text": "And we do see significant differences across demographic groups",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 40,
+      "start": 157.64,
+      "end": 160.64,
+      "text": "when it comes to getting vaccinated for COVID-19.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 41,
+      "start": 160.64,
+      "end": 165.64,
+      "text": "The oldest adults, those 65 and older, they're at highest risk of a serious case.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038767,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 42,
+      "start": 165.64,
+      "end": 170.64,
+      "text": "And they're much more likely than younger adults to say they've received a vaccine for COVID-19.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 43,
+      "start": 170.64,
+      "end": 172.64,
+      "text": "We also see differences by community type.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 44,
+      "start": 172.64,
+      "end": 177.64,
+      "text": "Those living in rural areas are somewhat less likely than those living in suburban or urban areas",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 45,
+      "start": 177.64,
+      "end": 179.64,
+      "text": "to say they've received a vaccine for the coronavirus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 46,
+      "start": 179.64,
+      "end": 184.64,
+      "text": "And while earlier in the outbreak, black Americans were a bit less likely than white or Hispanic Americans",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 47,
+      "start": 184.64,
+      "end": 188.64,
+      "text": "to say they had or intended to get a vaccine, we've seen a change here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 48,
+      "start": 188.64,
+      "end": 193.64,
+      "text": "We now find that comparable majorities of black, white and Hispanic Americans",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04886,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 49,
+      "start": 193.64,
+      "end": 196.64,
+      "text": "say they've received a vaccine for COVID-19.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 50,
+      "start": 196.64,
+      "end": 200.64,
+      "text": "And that's something that we've seen change revolve over the course of the outbreak.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 51,
+      "start": 200.64,
+      "end": 204.64,
+      "text": "Now, one difference that remains as wide as ever is bipartisanship.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 52,
+      "start": 204.64,
+      "end": 207.64,
+      "text": "We find that Democrats are significantly more likely than Republicans",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 53,
+      "start": 207.64,
+      "end": 210.64,
+      "text": "to say they've received a vaccine for COVID-19.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 54,
+      "start": 210.64,
+      "end": 215.64,
+      "text": "And this gap is as big or wider than at any point during the course of the outbreak.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 55,
+      "start": 215.64,
+      "end": 220.64,
+      "text": "What's really important to keep in mind is how quickly we've seen public opinion shift over time",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047559,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 56,
+      "start": 220.64,
+      "end": 224.64,
+      "text": "and people's intention to get a coronavirus vaccine is just one example of that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093624,
+      "no_speech_prob": 0.18689
+    },
+    {
+      "index": 57,
+      "start": 224.64,
+      "end": 229.64,
+      "text": "where we've seen really fairly fast moving changes in public opinion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093624,
+      "no_speech_prob": 0.18689
+    },
+    {
+      "index": 58,
+      "start": 229.64,
+      "end": 235.64,
+      "text": "The question going forward is how much does people's experience with the coronavirus influence",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093624,
+      "no_speech_prob": 0.18689
+    },
+    {
+      "index": 59,
+      "start": 235.64,
+      "end": 238.64,
+      "text": "how people think about the scientific enterprise generally?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093624,
+      "no_speech_prob": 0.18689
+    }
+  ],
+  "created_at": "2026-11-05T02:11:05+0800"
+}

@@ -1,0 +1,1364 @@
+{
+  "clip_id": "line_69",
+  "family": "line",
+  "video_id": "oW4hfaiXKG8",
+  "source_url": "https://www.youtube.com/watch?v=oW4hfaiXKG8",
+  "source_title": "Does this line predict America??s next recession? | The Economist",
+  "target_window_source": {
+    "start": 120.0,
+    "end": 125.0
+  },
+  "target_mask_interval": {
+    "start": 118.5,
+    "end": 126.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    32,
+    33
+  ],
+  "masked_cue_ids": [
+    31,
+    32,
+    33,
+    34
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "This graph makes a lot of people nervous.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 1,
+      "start": 4.0,
+      "end": 5.0,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 2,
+      "start": 5.0,
+      "end": 10.0,
+      "text": "It appears to predict that America is about to go into a recession.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 3,
+      "start": 10.0,
+      "end": 14.0,
+      "text": "It's based on an economic indicator called the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 4,
+      "start": 14.0,
+      "end": 18.0,
+      "text": "So if you care about the economy, you should probably care about what's going on with the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 5,
+      "start": 18.0,
+      "end": 21.0,
+      "text": "That's Alice Fullwood, the economist's Wall Street correspondent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 6,
+      "start": 21.0,
+      "end": 27.0,
+      "text": "And the reason people get sort of so head up about this is that each time the yield curve has inverted,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 7,
+      "start": 27.0,
+      "end": 31.0,
+      "text": "it has immediately preceded a recession in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 8,
+      "start": 31.0,
+      "end": 37.0,
+      "text": "In fact, only on one occasion in the last 70 years has there been a false alarm.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 9,
+      "start": 37.0,
+      "end": 39.0,
+      "text": "And here's the thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 10,
+      "start": 39.0,
+      "end": 42.0,
+      "text": "It inverted in March of this year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 11,
+      "start": 42.0,
+      "end": 48.0,
+      "text": "So what is it about this curve that seems to make it such a good indicator of where the economy is heading?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 12,
+      "start": 48.0,
+      "end": 54.0,
+      "text": "The line illustrates the return, or yield, investors get from investing in government bonds,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 13,
+      "start": 54.0,
+      "end": 58.0,
+      "text": "from short-term investments on the left to longer-term ones on the right.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 14,
+      "start": 58.0,
+      "end": 62.0,
+      "text": "Usually, the longer the time frame, the higher the interest rate,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 15,
+      "start": 62.0,
+      "end": 66.0,
+      "text": "as investors demand a bigger return if they're to lock their money up for longer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 16,
+      "start": 66.0,
+      "end": 70.0,
+      "text": "However, if investors fear the economy is slowing down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 17,
+      "start": 70.0,
+      "end": 75.0,
+      "text": "then the long-term rates can drop below short-term rates, the curve inverts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 18,
+      "start": 75.0,
+      "end": 79.0,
+      "text": "So when the yield curve inverts, something strange is going on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 19,
+      "start": 79.0,
+      "end": 80.0,
+      "text": "Here's why.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 20,
+      "start": 80.0,
+      "end": 84.0,
+      "text": "When the outlook is gloomy, investors are more likely to buy safe assets,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 21,
+      "start": 84.0,
+      "end": 90.0,
+      "text": "like long-term bonds, pushing their price up so the interest rate for holding them falls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 22,
+      "start": 90.0,
+      "end": 95.0,
+      "text": "Higher bond prices are also a signal that there are fewer exciting investment opportunities elsewhere,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 23,
+      "start": 95.0,
+      "end": 97.0,
+      "text": "such as the stock market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 24,
+      "start": 97.0,
+      "end": 100.0,
+      "text": "Of course, there are plenty of other indicators you could look at",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 25,
+      "start": 100.0,
+      "end": 103.0,
+      "text": "to get a sense of what's happening to the economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 26,
+      "start": 103.0,
+      "end": 106.0,
+      "text": "A lot of people look at the stock market, survey data,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 27,
+      "start": 106.0,
+      "end": 109.0,
+      "text": "so you can go out and ask businesses what they feel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 28,
+      "start": 109.0,
+      "end": 111.0,
+      "text": "You can look at consumer behavior.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 29,
+      "start": 111.0,
+      "end": 113.0,
+      "text": "You could also look at various metals prices,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 30,
+      "start": 113.0,
+      "end": 116.0,
+      "text": "like if copper prices are very high, copper is an industrial metal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    }
+  ],
+  "context_after": [
+    {
+      "index": 35,
+      "start": 130.0,
+      "end": 133.0,
+      "text": "recession can help to anticipate a downturn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 36,
+      "start": 133.0,
+      "end": 136.0,
+      "text": "But bear in mind that when you're trying to predict a downturn,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 37,
+      "start": 136.0,
+      "end": 141.0,
+      "text": "you're often trying to get a read on people's expectations of where the economy is heading,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 38,
+      "start": 141.0,
+      "end": 144.0,
+      "text": "which is why that curve is so useful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 39,
+      "start": 144.0,
+      "end": 149.0,
+      "text": "Everyone invests in the U.S. Treasury market from the Chinese central bank",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 40,
+      "start": 149.0,
+      "end": 153.0,
+      "text": "to pension funds in Canada and Europe, hedge funds in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 41,
+      "start": 153.0,
+      "end": 157.0,
+      "text": "Everyone is exposed to and invests in the U.S. Treasury market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 42,
+      "start": 157.0,
+      "end": 161.0,
+      "text": "So if you're looking for an aggregate opinion of everyone in the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 43,
+      "start": 161.0,
+      "end": 163.0,
+      "text": "what they think might happen to the U.S. economy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 44,
+      "start": 163.0,
+      "end": 165.0,
+      "text": "and by extension the global economy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 45,
+      "start": 165.0,
+      "end": 168.0,
+      "text": "you'd be very hard for us to find something more important to look at",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 46,
+      "start": 168.0,
+      "end": 170.0,
+      "text": "than the Treasury market and the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 47,
+      "start": 170.0,
+      "end": 174.0,
+      "text": "But these are extraordinary times for the U.S. economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 48,
+      "start": 174.0,
+      "end": 177.0,
+      "text": "It's always a dangerous thing to say, but it really could be different this time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 49,
+      "start": 177.0,
+      "end": 181.0,
+      "text": "The U.S. economy has undergone a lot of very experimental",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 50,
+      "start": 181.0,
+      "end": 184.0,
+      "text": "and sort of extraordinary monetary policy over the last 10 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 51,
+      "start": 184.0,
+      "end": 187.0,
+      "text": "in particular people highlight quantitative easing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 52,
+      "start": 187.0,
+      "end": 191.0,
+      "text": "Quantitative easing was a policy to stimulate the economy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 53,
+      "start": 191.0,
+      "end": 193.0,
+      "text": "after the 2008 financial crisis,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 54,
+      "start": 193.0,
+      "end": 198.0,
+      "text": "whereby the Federal Reserve bought treasuries to reduce long-term interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 55,
+      "start": 198.0,
+      "end": 202.0,
+      "text": "Some experts believe it's distorted the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 56,
+      "start": 202.0,
+      "end": 205.0,
+      "text": "And some people argue that that means that long-term interest rates",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 57,
+      "start": 205.0,
+      "end": 207.0,
+      "text": "can't quite signal what they used to in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 58,
+      "start": 207.0,
+      "end": 211.0,
+      "text": "They're no longer this sort of clean look at what investors are thinking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 59,
+      "start": 211.0,
+      "end": 214.0,
+      "text": "about growth and inflation, because quantitative easing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 60,
+      "start": 214.0,
+      "end": 217.0,
+      "text": "and that process has sort of systematically,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 61,
+      "start": 217.0,
+      "end": 221.0,
+      "text": "or it's sort of fundamentally changed what long-term interest rates show you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 62,
+      "start": 221.0,
+      "end": 224.0,
+      "text": "So should investors worry about the inverted yield curve?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 63,
+      "start": 224.0,
+      "end": 227.0,
+      "text": "While you can debate whether the yield curve",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 64,
+      "start": 227.0,
+      "end": 230.0,
+      "text": "inverting in the U.S. in March of this year necessarily means",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 65,
+      "start": 230.0,
+      "end": 232.0,
+      "text": "that there'll be a recession in the U.S. soon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 66,
+      "start": 232.0,
+      "end": 235.0,
+      "text": "what you probably can say is that it's not a great signal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 67,
+      "start": 235.0,
+      "end": 237.0,
+      "text": "that growth next year will be strong.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 68,
+      "start": 237.0,
+      "end": 239.0,
+      "text": "The flattening that's taken place over the last year",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 69,
+      "start": 239.0,
+      "end": 242.0,
+      "text": "suggests that growth should slow from 3% next year to 2%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 70,
+      "start": 242.0,
+      "end": 246.0,
+      "text": "In other words, predicting America's next recession just got a little harder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 71,
+      "start": 247.0,
+      "end": 250.0,
+      "text": "But the indicators are starting to flash red.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043538,
+      "no_speech_prob": 0.166626
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "This graph makes a lot of people nervous.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 1,
+      "start": 4.0,
+      "end": 5.0,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 2,
+      "start": 5.0,
+      "end": 10.0,
+      "text": "It appears to predict that America is about to go into a recession.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 3,
+      "start": 10.0,
+      "end": 14.0,
+      "text": "It's based on an economic indicator called the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 4,
+      "start": 14.0,
+      "end": 18.0,
+      "text": "So if you care about the economy, you should probably care about what's going on with the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 5,
+      "start": 18.0,
+      "end": 21.0,
+      "text": "That's Alice Fullwood, the economist's Wall Street correspondent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 6,
+      "start": 21.0,
+      "end": 27.0,
+      "text": "And the reason people get sort of so head up about this is that each time the yield curve has inverted,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108594,
+      "no_speech_prob": 0.026611
+    },
+    {
+      "index": 7,
+      "start": 27.0,
+      "end": 31.0,
+      "text": "it has immediately preceded a recession in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 8,
+      "start": 31.0,
+      "end": 37.0,
+      "text": "In fact, only on one occasion in the last 70 years has there been a false alarm.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 9,
+      "start": 37.0,
+      "end": 39.0,
+      "text": "And here's the thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 10,
+      "start": 39.0,
+      "end": 42.0,
+      "text": "It inverted in March of this year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 11,
+      "start": 42.0,
+      "end": 48.0,
+      "text": "So what is it about this curve that seems to make it such a good indicator of where the economy is heading?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 12,
+      "start": 48.0,
+      "end": 54.0,
+      "text": "The line illustrates the return, or yield, investors get from investing in government bonds,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059681,
+      "no_speech_prob": 0.000245
+    },
+    {
+      "index": 13,
+      "start": 54.0,
+      "end": 58.0,
+      "text": "from short-term investments on the left to longer-term ones on the right.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 14,
+      "start": 58.0,
+      "end": 62.0,
+      "text": "Usually, the longer the time frame, the higher the interest rate,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 15,
+      "start": 62.0,
+      "end": 66.0,
+      "text": "as investors demand a bigger return if they're to lock their money up for longer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 16,
+      "start": 66.0,
+      "end": 70.0,
+      "text": "However, if investors fear the economy is slowing down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 17,
+      "start": 70.0,
+      "end": 75.0,
+      "text": "then the long-term rates can drop below short-term rates, the curve inverts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 18,
+      "start": 75.0,
+      "end": 79.0,
+      "text": "So when the yield curve inverts, something strange is going on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 19,
+      "start": 79.0,
+      "end": 80.0,
+      "text": "Here's why.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 20,
+      "start": 80.0,
+      "end": 84.0,
+      "text": "When the outlook is gloomy, investors are more likely to buy safe assets,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 21,
+      "start": 84.0,
+      "end": 90.0,
+      "text": "like long-term bonds, pushing their price up so the interest rate for holding them falls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 22,
+      "start": 90.0,
+      "end": 95.0,
+      "text": "Higher bond prices are also a signal that there are fewer exciting investment opportunities elsewhere,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 23,
+      "start": 95.0,
+      "end": 97.0,
+      "text": "such as the stock market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 24,
+      "start": 97.0,
+      "end": 100.0,
+      "text": "Of course, there are plenty of other indicators you could look at",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 25,
+      "start": 100.0,
+      "end": 103.0,
+      "text": "to get a sense of what's happening to the economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 26,
+      "start": 103.0,
+      "end": 106.0,
+      "text": "A lot of people look at the stock market, survey data,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 27,
+      "start": 106.0,
+      "end": 109.0,
+      "text": "so you can go out and ask businesses what they feel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051281,
+      "no_speech_prob": 0.002432
+    },
+    {
+      "index": 28,
+      "start": 109.0,
+      "end": 111.0,
+      "text": "You can look at consumer behavior.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 29,
+      "start": 111.0,
+      "end": 113.0,
+      "text": "You could also look at various metals prices,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 30,
+      "start": 113.0,
+      "end": 116.0,
+      "text": "like if copper prices are very high, copper is an industrial metal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 35,
+      "start": 130.0,
+      "end": 133.0,
+      "text": "recession can help to anticipate a downturn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 36,
+      "start": 133.0,
+      "end": 136.0,
+      "text": "But bear in mind that when you're trying to predict a downturn,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074815,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 37,
+      "start": 136.0,
+      "end": 141.0,
+      "text": "you're often trying to get a read on people's expectations of where the economy is heading,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 38,
+      "start": 141.0,
+      "end": 144.0,
+      "text": "which is why that curve is so useful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 39,
+      "start": 144.0,
+      "end": 149.0,
+      "text": "Everyone invests in the U.S. Treasury market from the Chinese central bank",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 40,
+      "start": 149.0,
+      "end": 153.0,
+      "text": "to pension funds in Canada and Europe, hedge funds in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 41,
+      "start": 153.0,
+      "end": 157.0,
+      "text": "Everyone is exposed to and invests in the U.S. Treasury market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 42,
+      "start": 157.0,
+      "end": 161.0,
+      "text": "So if you're looking for an aggregate opinion of everyone in the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 43,
+      "start": 161.0,
+      "end": 163.0,
+      "text": "what they think might happen to the U.S. economy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07058,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 44,
+      "start": 163.0,
+      "end": 165.0,
+      "text": "and by extension the global economy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 45,
+      "start": 165.0,
+      "end": 168.0,
+      "text": "you'd be very hard for us to find something more important to look at",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 46,
+      "start": 168.0,
+      "end": 170.0,
+      "text": "than the Treasury market and the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 47,
+      "start": 170.0,
+      "end": 174.0,
+      "text": "But these are extraordinary times for the U.S. economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 48,
+      "start": 174.0,
+      "end": 177.0,
+      "text": "It's always a dangerous thing to say, but it really could be different this time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 49,
+      "start": 177.0,
+      "end": 181.0,
+      "text": "The U.S. economy has undergone a lot of very experimental",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 50,
+      "start": 181.0,
+      "end": 184.0,
+      "text": "and sort of extraordinary monetary policy over the last 10 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 51,
+      "start": 184.0,
+      "end": 187.0,
+      "text": "in particular people highlight quantitative easing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 52,
+      "start": 187.0,
+      "end": 191.0,
+      "text": "Quantitative easing was a policy to stimulate the economy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060962,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 53,
+      "start": 191.0,
+      "end": 193.0,
+      "text": "after the 2008 financial crisis,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 54,
+      "start": 193.0,
+      "end": 198.0,
+      "text": "whereby the Federal Reserve bought treasuries to reduce long-term interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 55,
+      "start": 198.0,
+      "end": 202.0,
+      "text": "Some experts believe it's distorted the yield curve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 56,
+      "start": 202.0,
+      "end": 205.0,
+      "text": "And some people argue that that means that long-term interest rates",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 57,
+      "start": 205.0,
+      "end": 207.0,
+      "text": "can't quite signal what they used to in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 58,
+      "start": 207.0,
+      "end": 211.0,
+      "text": "They're no longer this sort of clean look at what investors are thinking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 59,
+      "start": 211.0,
+      "end": 214.0,
+      "text": "about growth and inflation, because quantitative easing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 60,
+      "start": 214.0,
+      "end": 217.0,
+      "text": "and that process has sort of systematically,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081736,
+      "no_speech_prob": 0.00115
+    },
+    {
+      "index": 61,
+      "start": 217.0,
+      "end": 221.0,
+      "text": "or it's sort of fundamentally changed what long-term interest rates show you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 62,
+      "start": 221.0,
+      "end": 224.0,
+      "text": "So should investors worry about the inverted yield curve?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 63,
+      "start": 224.0,
+      "end": 227.0,
+      "text": "While you can debate whether the yield curve",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 64,
+      "start": 227.0,
+      "end": 230.0,
+      "text": "inverting in the U.S. in March of this year necessarily means",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 65,
+      "start": 230.0,
+      "end": 232.0,
+      "text": "that there'll be a recession in the U.S. soon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 66,
+      "start": 232.0,
+      "end": 235.0,
+      "text": "what you probably can say is that it's not a great signal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 67,
+      "start": 235.0,
+      "end": 237.0,
+      "text": "that growth next year will be strong.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 68,
+      "start": 237.0,
+      "end": 239.0,
+      "text": "The flattening that's taken place over the last year",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 69,
+      "start": 239.0,
+      "end": 242.0,
+      "text": "suggests that growth should slow from 3% next year to 2%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 70,
+      "start": 242.0,
+      "end": 246.0,
+      "text": "In other words, predicting America's next recession just got a little harder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051541,
+      "no_speech_prob": 0.000153
+    },
+    {
+      "index": 71,
+      "start": 247.0,
+      "end": 250.0,
+      "text": "But the indicators are starting to flash red.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043538,
+      "no_speech_prob": 0.166626
+    }
+  ],
+  "context_text_chronological": "This graph makes a lot of people nervous. Why? It appears to predict that America is about to go into a recession. It's based on an economic indicator called the yield curve. So if you care about the economy, you should probably care about what's going on with the yield curve. That's Alice Fullwood, the economist's Wall Street correspondent. And the reason people get sort of so head up about this is that each time the yield curve has inverted, it has immediately preceded a recession in America. In fact, only on one occasion in the last 70 years has there been a false alarm. And here's the thing. It inverted in March of this year. So what is it about this curve that seems to make it such a good indicator of where the economy is heading? The line illustrates the return, or yield, investors get from investing in government bonds, from short-term investments on the left to longer-term ones on the right. Usually, the longer the time frame, the higher the interest rate, as investors demand a bigger return if they're to lock their money up for longer. However, if investors fear the economy is slowing down, then the long-term rates can drop below short-term rates, the curve inverts. So when the yield curve inverts, something strange is going on. Here's why. When the outlook is gloomy, investors are more likely to buy safe assets, like long-term bonds, pushing their price up so the interest rate for holding them falls. Higher bond prices are also a signal that there are fewer exciting investment opportunities elsewhere, such as the stock market. Of course, there are plenty of other indicators you could look at to get a sense of what's happening to the economy. A lot of people look at the stock market, survey data, so you can go out and ask businesses what they feel. You can look at consumer behavior. You could also look at various metals prices, like if copper prices are very high, copper is an industrial metal. recession can help to anticipate a downturn. But bear in mind that when you're trying to predict a downturn, you're often trying to get a read on people's expectations of where the economy is heading, which is why that curve is so useful. Everyone invests in the U.S. Treasury market from the Chinese central bank to pension funds in Canada and Europe, hedge funds in America. Everyone is exposed to and invests in the U.S. Treasury market. So if you're looking for an aggregate opinion of everyone in the world, what they think might happen to the U.S. economy, and by extension the global economy, you'd be very hard for us to find something more important to look at than the Treasury market and the yield curve. But these are extraordinary times for the U.S. economy. It's always a dangerous thing to say, but it really could be different this time. The U.S. economy has undergone a lot of very experimental and sort of extraordinary monetary policy over the last 10 years, in particular people highlight quantitative easing. Quantitative easing was a policy to stimulate the economy after the 2008 financial crisis, whereby the Federal Reserve bought treasuries to reduce long-term interest rates. Some experts believe it's distorted the yield curve. And some people argue that that means that long-term interest rates can't quite signal what they used to in the past. They're no longer this sort of clean look at what investors are thinking about growth and inflation, because quantitative easing and that process has sort of systematically, or it's sort of fundamentally changed what long-term interest rates show you. So should investors worry about the inverted yield curve? While you can debate whether the yield curve inverting in the U.S. in March of this year necessarily means that there'll be a recession in the U.S. soon, what you probably can say is that it's not a great signal that growth next year will be strong. The flattening that's taken place over the last year suggests that growth should slow from 3% next year to 2%. In other words, predicting America's next recession just got a little harder. But the indicators are starting to flash red.",
+  "target_text_for_audit": "Then there's the rate of change in unemployment, which correlates closely with recessions.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Then there's the rate of change in unemployment, which correlates closely with recessions.",
+        "start_source": 120.26,
+        "end_source": 124.46,
+        "matching_cue_ids": [
+          32,
+          33
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\oW4hfaiXKG8.mp4",
+    "cue_count": 72
+  },
+  "token_estimate_char_div_4": 1026
+}

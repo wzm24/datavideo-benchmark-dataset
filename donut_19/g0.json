@@ -1,104 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_19",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "52dd997fe72068bf47e0c400046a95d26bb9cf8e5ebabfad97cdddfe1898c000",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "979173d70b94b4fd60ea5d0b92118bf8c296667c74a152876192fb4c904c63c3",
  "row_count": 1,
- "sidecar_row_count": 1,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 1,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_solar_system_mass"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "share",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 99.86,
-   "last_value": 99.86,
-   "min_value": 99.86,
-   "max_value": 99.86,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_solar_system_mass"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "arc"
-   ]
+   "entity": "share",
+   "metric": "share_of_solar_system_mass",
+   "value": "99.86",
+   "unit": "%",
+   "relative_value": "0.9986",
+   "label": "99.86%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "share_of_solar_system_mass"
   }
  ],
- "source_type_counts": {
-  "printed": 1
- },
- "role_counts": {
-  "arc": 1
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_solar_system_mass",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "share"
+   ],
+   "relative_value_sum": 0.9986
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "share",
-    "series": ""
+    "metric": "share_of_solar_system_mass",
+    "value": "99.86",
+    "unit": "%",
+    "relative_value": "0.9986",
+    "label": "99.86%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_solar_system_mass"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

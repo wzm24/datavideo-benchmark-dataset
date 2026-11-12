@@ -1,0 +1,395 @@
+{
+ "clip_id": "area_45",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_45",
+  "family": "area",
+  "sub_type": "multi_area_overlay",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 411,
+  "table_sha256": "bd144891b8c9fe24ef727888b00ba88fd0a02e9d88c483d19f739939358a7b53"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Top 0.01%",
+    "Middle 40%",
+    "Bottom 50%"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 3,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Top 0.01%",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Middle 40%",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50%",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Top 0.01% | 1980",
+    "Top 0.01% | 1990",
+    "Top 0.01% | 2000",
+    "Top 0.01% | 2010",
+    "Top 0.01% | #133",
+    "Top 0.01% | #137"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Top 0.01% | 1980",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "1980",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Top 0.01% | 1990",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "1990",
+      "point_order": "41",
+      "value": "80.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Top 0.01% | 2000",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "2000",
+      "point_order": "81",
+      "value": "250.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Top 0.01% | 2010",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "2010",
+      "point_order": "121",
+      "value": "375.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Top 0.01% | #133",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "",
+      "point_order": "133",
+      "value": "460.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Top 0.01% | #137",
+      "panel": "",
+      "entity": "Top 0.01%",
+      "series": "",
+      "x": "",
+      "point_order": "137",
+      "value": "420.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Top 0.01% after-tax income growth trajectory rises from 0% in 1980 to about 420% by the end of the period, with a peak near 460%.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Year",
+     "y_axis": "After-tax income growth (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Top 0.01% ends at 50%.",
+    "Top 0.01% is flat or declining overall."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Middle 40% | 1980",
+    "Middle 40% | 1990",
+    "Middle 40% | 2000",
+    "Middle 40% | 2010",
+    "Middle 40% | #137"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Middle 40% | 1980",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "x": "1980",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Middle 40% | 1990",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "x": "1990",
+      "point_order": "41",
+      "value": "15.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Middle 40% | 2000",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "x": "2000",
+      "point_order": "81",
+      "value": "40.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Middle 40% | 2010",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "x": "2010",
+      "point_order": "121",
+      "value": "38.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Middle 40% | #137",
+      "panel": "",
+      "entity": "Middle 40%",
+      "series": "",
+      "x": "",
+      "point_order": "137",
+      "value": "50.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Middle 40% after-tax income growth trajectory rises from 0% in 1980 to about 50% by the end of the period, with a plateau near 40% in the 2000s.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Year",
+     "y_axis": "After-tax income growth (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Middle 40% ends near 420%.",
+    "Middle 40% is the highest trajectory."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Bottom 50% | 1980",
+    "Bottom 50% | #13",
+    "Bottom 50% | 1990",
+    "Bottom 50% | 2000",
+    "Bottom 50% | 2010",
+    "Bottom 50% | #137"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Bottom 50% | 1980",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "1980",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50% | #13",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "",
+      "point_order": "13",
+      "value": "-8.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50% | 1990",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "1990",
+      "point_order": "41",
+      "value": "-2.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50% | 2000",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "2000",
+      "point_order": "81",
+      "value": "5.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50% | 2010",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "2010",
+      "point_order": "121",
+      "value": "12.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     },
+     {
+      "mark": "Bottom 50% | #137",
+      "panel": "",
+      "entity": "Bottom 50%",
+      "series": "",
+      "x": "",
+      "point_order": "137",
+      "value": "15.000000",
+      "unit": "percent_growth",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Bottom 50% after-tax income growth trajectory rises from 0% in 1980 to about 15% by the end of the period, after dipping below zero in the early 1980s.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Year",
+     "y_axis": "After-tax income growth (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Bottom 50% ends near 50% or 420%.",
+    "Bottom 50% is the highest trajectory."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

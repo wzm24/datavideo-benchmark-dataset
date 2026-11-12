@@ -1,0 +1,1172 @@
+{
+  "clip_id": "donut_30",
+  "family": "donut",
+  "video_id": "sAN1J4PY6is",
+  "source_url": "https://www.youtube.com/watch?v=sAN1J4PY6is",
+  "source_title": "VEGANS vs MEAT EATERS - Who Will Live Longer? Food / Diet Comparison",
+  "target_window_source": {
+    "start": 53.0,
+    "end": 57.0
+  },
+  "target_mask_interval": {
+    "start": 51.5,
+    "end": 58.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    11
+  ],
+  "masked_cue_ids": [
+    10,
+    11,
+    12
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.05,
+      "end": 5.21,
+      "text": "We've all experienced it. We invite a friend to dinner only to learn that she is the dreaded V-word.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 1,
+      "start": 5.29,
+      "end": 9.65,
+      "text": "We have a vague sense of what it means, but we're left with so many questions. Is it healthier?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 2,
+      "start": 9.65,
+      "end": 11.01,
+      "text": "Will you sit on my leather couch?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 3,
+      "start": 11.01,
+      "end": 15.55,
+      "text": "Can we still go to Taco Bell? In a world of health magazines and Planet Fitness commercials,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 4,
+      "start": 15.61,
+      "end": 18.91,
+      "text": "many people want to learn more about nutrition and which diets are the healthiest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 5,
+      "start": 19.25,
+      "end": 22.49,
+      "text": "Wherever you go, no one can escape the growing vegan phenomenon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 6,
+      "start": 22.49,
+      "end": 28.15,
+      "text": "so we thought it would be fun to explore it further in this episode of the Infographics Show, Vegans vs. Meat Eaters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 7,
+      "start": 29.15,
+      "end": 35.83,
+      "text": "A vegan is someone who follows a diet that contains no animal meat, fish, eggs, dairy products, or any other food that comes from animals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 8,
+      "start": 35.99,
+      "end": 40.31,
+      "text": "They differ from vegetarians who generally still eat dairy and eggs as part of their diets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 9,
+      "start": 40.65,
+      "end": 46.15,
+      "text": "Vegans also typically abstain from using any other products that come from animals such as honey and leather jackets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    }
+  ],
+  "context_after": [
+    {
+      "index": 13,
+      "start": 64.35,
+      "end": 67.95,
+      "text": "The number of meat-eaters obviously far outweighs the number of vegans throughout the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 14,
+      "start": 67.95,
+      "end": 73.15,
+      "text": "with the highest concentration of vegans being in Israel at only around 5% of their population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 15,
+      "start": 73.15,
+      "end": 78.15,
+      "text": "By not consuming any animal products, vegans follow a dietary path similar to an herbivore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 16,
+      "start": 78.35,
+      "end": 83.35,
+      "text": "Herbivores are animals that feed exclusively on plants, such as cows, giraffes, and adorable deer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 17,
+      "start": 83.35,
+      "end": 87.95,
+      "text": "Meat-eaters are typically omnivores, which means that they eat both plants and animals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 18,
+      "start": 87.95,
+      "end": 93.95,
+      "text": "The term comes from the Latin words omni, meaning all or everything, and the word vorare, which means to devour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 19,
+      "start": 93.95,
+      "end": 96.95,
+      "text": "So, basically, omnivores are down to eat whatever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 20,
+      "start": 96.95,
+      "end": 103.45,
+      "text": "Most meat-eaters don't solely eat just meat, like a carnivore would do, that is, unless you're Ron Swanson from Parks and Rec.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 21,
+      "start": 103.45,
+      "end": 106.45,
+      "text": "Then it's beautiful bacon and sizzling steaks all day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 22,
+      "start": 106.65,
+      "end": 109.15,
+      "text": "So, humans are widely thought of as natural omnivores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 23,
+      "start": 109.15,
+      "end": 113.75,
+      "text": "But some believe that humans are at their optimal health when following the dietary habits of an herbivore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 24,
+      "start": 113.75,
+      "end": 118.65,
+      "text": "People often cite potential health benefits and ethical dilemmas as the main reasons to go on a vegan diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 25,
+      "start": 118.65,
+      "end": 124.15,
+      "text": "We won't get into the ethics today, but we are curious about the health differences between vegans and their meat-eating friends.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 26,
+      "start": 124.15,
+      "end": 126.45,
+      "text": "People on a vegan diet tend to be leaner.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 27,
+      "start": 126.45,
+      "end": 132.95,
+      "text": "In a cross-sectional study of nearly 40,000 adults, meat-eaters had the highest mean body mass index, or BMI.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 28,
+      "start": 132.95,
+      "end": 135.95,
+      "text": "Vegetarians were in the middle, and vegans had the lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 29,
+      "start": 135.95,
+      "end": 142.45,
+      "text": "Based on several studies from Finland, some scientists have suggested that vegan diets may be helpful in the treatment of rheumatoid arthritis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 30,
+      "start": 142.45,
+      "end": 147.15,
+      "text": "Vegans also appear to have lower rates of hypertension than both meat-eaters and vegetarians.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 31,
+      "start": 147.15,
+      "end": 152.25,
+      "text": "Vegans also typically have lower cardiometabolic risks for conditions like heart disease or strokes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 32,
+      "start": 152.25,
+      "end": 156.85,
+      "text": "The problem, however, doesn't seem to be with meat itself, but rather with the quality of meat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 33,
+      "start": 156.85,
+      "end": 164.95,
+      "text": "Recent findings have found that coronary heart disease problems do not seem to be linked with red meat and saturated fats like previously thought, but rather with processed meats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 34,
+      "start": 164.95,
+      "end": 173.55,
+      "text": "Based on a study of nearly 1.25 million people, consumption of processed meats, not simply red meat, was associated with higher rates of coronary heart disease.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 35,
+      "start": 173.55,
+      "end": 180.15,
+      "text": "From an evolutionary standpoint, meat-eating omnivores also seem to be the reason behind the growth of our larger, more intelligent brains.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 36,
+      "start": 180.15,
+      "end": 183.75,
+      "text": "This is the result of the higher-protein content associated with meat consumption.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 37,
+      "start": 183.75,
+      "end": 191.25,
+      "text": "The American Dietetic Association, or ADA, states that the protein from plants can easily meet and exceed protein requirements,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 38,
+      "start": 191.25,
+      "end": 197.45,
+      "text": "and that being an omnivore merely increases the amount of protein sources a person can have by including animal meat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 39,
+      "start": 197.45,
+      "end": 200.85,
+      "text": "Obviously, protein is important to both bone health and muscle mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 40,
+      "start": 200.85,
+      "end": 208.85,
+      "text": "One study even found that women who ate meat had higher amounts of muscle mass than their vegetarian counterparts, even if the protein intake was the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 41,
+      "start": 208.85,
+      "end": 214.65,
+      "text": "While there certainly may be some health advantages in going vegan, there seems to be some common deficiencies in the diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 42,
+      "start": 214.65,
+      "end": 217.45,
+      "text": "One of these deficiencies is with the vitamin B12.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 43,
+      "start": 217.45,
+      "end": 222.55,
+      "text": "The ADA states that there are no natural plant foods that contain any significant amount of the vitamin.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 44,
+      "start": 222.55,
+      "end": 229.05,
+      "text": "Vegans can still get it, but they need to take a vitamin or consume fortified foods like soy milk and certain breakfast cereals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 45,
+      "start": 229.05,
+      "end": 236.25,
+      "text": "Omega-3 fatty acids are also very difficult to come by in a vegan diet, but this can be overcome through the consumption of algae supplements.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 46,
+      "start": 236.25,
+      "end": 245.25,
+      "text": "With vegans requiring supplementation to meet their nutritional needs, it supports the claim that veganism is unnatural, but that doesn't necessarily mean it's unhealthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 47,
+      "start": 245.25,
+      "end": 249.35,
+      "text": "At this point, some of you may be wondering which diet leads to longer lifespans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 48,
+      "start": 249.35,
+      "end": 251.65,
+      "text": "For that information, we turn to Okinawa.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 49,
+      "start": 251.65,
+      "end": 260.75,
+      "text": "The traditional Okinawan diet is typically regarded as the best for health and longevity, with the Okinawan islands having the greatest concentration of centenarians in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 50,
+      "start": 260.75,
+      "end": 269.05,
+      "text": "In Arca Palago, hundreds of miles off the coast of Japan, Okinawa has about 740 centenarians out of its population of 1.3 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 51,
+      "start": 269.15,
+      "end": 278.45,
+      "text": "While their diets have been changing recently due to globalization and factors like fast food chains, the traditional Okinawan diet is made up of large amounts of plant-based carbohydrates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 52,
+      "start": 278.45,
+      "end": 287.05,
+      "text": "Although they are primarily vegans, traditional Okinawans still eat meat on special occasions, usually pork, as well as small amounts of fish on a weekly basis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 53,
+      "start": 287.05,
+      "end": 295.25,
+      "text": "This does improve that small amounts of animal products are vital to good health, but it does hint that the optimal human diet can be achieved without going completely vegan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 54,
+      "start": 295.25,
+      "end": 305.25,
+      "text": "That said, many health organizations, including the ADA, state that well-planned vegan diets are healthy and nutritionally adequate and may provide health benefits in the prevention and treatment of certain diseases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 55,
+      "start": 305.25,
+      "end": 311.55,
+      "text": "It seems like no matter what your dietary preferences are, a healthy lifestyle can be achieved on or off a vegan diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 56,
+      "start": 311.55,
+      "end": 314.75,
+      "text": "Are you, or would you ever consider, becoming a vegan?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 57,
+      "start": 314.75,
+      "end": 315.85,
+      "text": "Why or why not?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 58,
+      "start": 315.85,
+      "end": 317.75,
+      "text": "Let us know down in the comments below.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 59,
+      "start": 317.75,
+      "end": 322.85,
+      "text": "And if you like our videos and want to help us continue to make more of them, please head on over to Patreon and show us some love.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 60,
+      "start": 322.85,
+      "end": 326.85,
+      "text": "Don't forget to give this video a like and make sure to subscribe so you can keep up with our show.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118314,
+      "no_speech_prob": 0.748047
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.05,
+      "end": 5.21,
+      "text": "We've all experienced it. We invite a friend to dinner only to learn that she is the dreaded V-word.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 1,
+      "start": 5.29,
+      "end": 9.65,
+      "text": "We have a vague sense of what it means, but we're left with so many questions. Is it healthier?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 2,
+      "start": 9.65,
+      "end": 11.01,
+      "text": "Will you sit on my leather couch?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 3,
+      "start": 11.01,
+      "end": 15.55,
+      "text": "Can we still go to Taco Bell? In a world of health magazines and Planet Fitness commercials,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 4,
+      "start": 15.61,
+      "end": 18.91,
+      "text": "many people want to learn more about nutrition and which diets are the healthiest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 5,
+      "start": 19.25,
+      "end": 22.49,
+      "text": "Wherever you go, no one can escape the growing vegan phenomenon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 6,
+      "start": 22.49,
+      "end": 28.15,
+      "text": "so we thought it would be fun to explore it further in this episode of the Infographics Show, Vegans vs. Meat Eaters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.196791,
+      "no_speech_prob": 0.07251
+    },
+    {
+      "index": 7,
+      "start": 29.15,
+      "end": 35.83,
+      "text": "A vegan is someone who follows a diet that contains no animal meat, fish, eggs, dairy products, or any other food that comes from animals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 8,
+      "start": 35.99,
+      "end": 40.31,
+      "text": "They differ from vegetarians who generally still eat dairy and eggs as part of their diets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 9,
+      "start": 40.65,
+      "end": 46.15,
+      "text": "Vegans also typically abstain from using any other products that come from animals such as honey and leather jackets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197566,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 13,
+      "start": 64.35,
+      "end": 67.95,
+      "text": "The number of meat-eaters obviously far outweighs the number of vegans throughout the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 14,
+      "start": 67.95,
+      "end": 73.15,
+      "text": "with the highest concentration of vegans being in Israel at only around 5% of their population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 15,
+      "start": 73.15,
+      "end": 78.15,
+      "text": "By not consuming any animal products, vegans follow a dietary path similar to an herbivore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138151,
+      "no_speech_prob": 0.008842
+    },
+    {
+      "index": 16,
+      "start": 78.35,
+      "end": 83.35,
+      "text": "Herbivores are animals that feed exclusively on plants, such as cows, giraffes, and adorable deer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 17,
+      "start": 83.35,
+      "end": 87.95,
+      "text": "Meat-eaters are typically omnivores, which means that they eat both plants and animals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 18,
+      "start": 87.95,
+      "end": 93.95,
+      "text": "The term comes from the Latin words omni, meaning all or everything, and the word vorare, which means to devour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 19,
+      "start": 93.95,
+      "end": 96.95,
+      "text": "So, basically, omnivores are down to eat whatever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 20,
+      "start": 96.95,
+      "end": 103.45,
+      "text": "Most meat-eaters don't solely eat just meat, like a carnivore would do, that is, unless you're Ron Swanson from Parks and Rec.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 21,
+      "start": 103.45,
+      "end": 106.45,
+      "text": "Then it's beautiful bacon and sizzling steaks all day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127694,
+      "no_speech_prob": 0.011864
+    },
+    {
+      "index": 22,
+      "start": 106.65,
+      "end": 109.15,
+      "text": "So, humans are widely thought of as natural omnivores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 23,
+      "start": 109.15,
+      "end": 113.75,
+      "text": "But some believe that humans are at their optimal health when following the dietary habits of an herbivore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 24,
+      "start": 113.75,
+      "end": 118.65,
+      "text": "People often cite potential health benefits and ethical dilemmas as the main reasons to go on a vegan diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 25,
+      "start": 118.65,
+      "end": 124.15,
+      "text": "We won't get into the ethics today, but we are curious about the health differences between vegans and their meat-eating friends.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 26,
+      "start": 124.15,
+      "end": 126.45,
+      "text": "People on a vegan diet tend to be leaner.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 27,
+      "start": 126.45,
+      "end": 132.95,
+      "text": "In a cross-sectional study of nearly 40,000 adults, meat-eaters had the highest mean body mass index, or BMI.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 28,
+      "start": 132.95,
+      "end": 135.95,
+      "text": "Vegetarians were in the middle, and vegans had the lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064365,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 29,
+      "start": 135.95,
+      "end": 142.45,
+      "text": "Based on several studies from Finland, some scientists have suggested that vegan diets may be helpful in the treatment of rheumatoid arthritis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 30,
+      "start": 142.45,
+      "end": 147.15,
+      "text": "Vegans also appear to have lower rates of hypertension than both meat-eaters and vegetarians.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 31,
+      "start": 147.15,
+      "end": 152.25,
+      "text": "Vegans also typically have lower cardiometabolic risks for conditions like heart disease or strokes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 32,
+      "start": 152.25,
+      "end": 156.85,
+      "text": "The problem, however, doesn't seem to be with meat itself, but rather with the quality of meat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 33,
+      "start": 156.85,
+      "end": 164.95,
+      "text": "Recent findings have found that coronary heart disease problems do not seem to be linked with red meat and saturated fats like previously thought, but rather with processed meats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048098,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 34,
+      "start": 164.95,
+      "end": 173.55,
+      "text": "Based on a study of nearly 1.25 million people, consumption of processed meats, not simply red meat, was associated with higher rates of coronary heart disease.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 35,
+      "start": 173.55,
+      "end": 180.15,
+      "text": "From an evolutionary standpoint, meat-eating omnivores also seem to be the reason behind the growth of our larger, more intelligent brains.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 36,
+      "start": 180.15,
+      "end": 183.75,
+      "text": "This is the result of the higher-protein content associated with meat consumption.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 37,
+      "start": 183.75,
+      "end": 191.25,
+      "text": "The American Dietetic Association, or ADA, states that the protein from plants can easily meet and exceed protein requirements,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053327,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 38,
+      "start": 191.25,
+      "end": 197.45,
+      "text": "and that being an omnivore merely increases the amount of protein sources a person can have by including animal meat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 39,
+      "start": 197.45,
+      "end": 200.85,
+      "text": "Obviously, protein is important to both bone health and muscle mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 40,
+      "start": 200.85,
+      "end": 208.85,
+      "text": "One study even found that women who ate meat had higher amounts of muscle mass than their vegetarian counterparts, even if the protein intake was the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 41,
+      "start": 208.85,
+      "end": 214.65,
+      "text": "While there certainly may be some health advantages in going vegan, there seems to be some common deficiencies in the diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 42,
+      "start": 214.65,
+      "end": 217.45,
+      "text": "One of these deficiencies is with the vitamin B12.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046149,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 43,
+      "start": 217.45,
+      "end": 222.55,
+      "text": "The ADA states that there are no natural plant foods that contain any significant amount of the vitamin.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 44,
+      "start": 222.55,
+      "end": 229.05,
+      "text": "Vegans can still get it, but they need to take a vitamin or consume fortified foods like soy milk and certain breakfast cereals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 45,
+      "start": 229.05,
+      "end": 236.25,
+      "text": "Omega-3 fatty acids are also very difficult to come by in a vegan diet, but this can be overcome through the consumption of algae supplements.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 46,
+      "start": 236.25,
+      "end": 245.25,
+      "text": "With vegans requiring supplementation to meet their nutritional needs, it supports the claim that veganism is unnatural, but that doesn't necessarily mean it's unhealthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043598,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 47,
+      "start": 245.25,
+      "end": 249.35,
+      "text": "At this point, some of you may be wondering which diet leads to longer lifespans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 48,
+      "start": 249.35,
+      "end": 251.65,
+      "text": "For that information, we turn to Okinawa.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 49,
+      "start": 251.65,
+      "end": 260.75,
+      "text": "The traditional Okinawan diet is typically regarded as the best for health and longevity, with the Okinawan islands having the greatest concentration of centenarians in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 50,
+      "start": 260.75,
+      "end": 269.05,
+      "text": "In Arca Palago, hundreds of miles off the coast of Japan, Okinawa has about 740 centenarians out of its population of 1.3 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093961,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 51,
+      "start": 269.15,
+      "end": 278.45,
+      "text": "While their diets have been changing recently due to globalization and factors like fast food chains, the traditional Okinawan diet is made up of large amounts of plant-based carbohydrates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 52,
+      "start": 278.45,
+      "end": 287.05,
+      "text": "Although they are primarily vegans, traditional Okinawans still eat meat on special occasions, usually pork, as well as small amounts of fish on a weekly basis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 53,
+      "start": 287.05,
+      "end": 295.25,
+      "text": "This does improve that small amounts of animal products are vital to good health, but it does hint that the optimal human diet can be achieved without going completely vegan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041464,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 54,
+      "start": 295.25,
+      "end": 305.25,
+      "text": "That said, many health organizations, including the ADA, state that well-planned vegan diets are healthy and nutritionally adequate and may provide health benefits in the prevention and treatment of certain diseases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 55,
+      "start": 305.25,
+      "end": 311.55,
+      "text": "It seems like no matter what your dietary preferences are, a healthy lifestyle can be achieved on or off a vegan diet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 56,
+      "start": 311.55,
+      "end": 314.75,
+      "text": "Are you, or would you ever consider, becoming a vegan?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 57,
+      "start": 314.75,
+      "end": 315.85,
+      "text": "Why or why not?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 58,
+      "start": 315.85,
+      "end": 317.75,
+      "text": "Let us know down in the comments below.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 59,
+      "start": 317.75,
+      "end": 322.85,
+      "text": "And if you like our videos and want to help us continue to make more of them, please head on over to Patreon and show us some love.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048449,
+      "no_speech_prob": 0.098022
+    },
+    {
+      "index": 60,
+      "start": 322.85,
+      "end": 326.85,
+      "text": "Don't forget to give this video a like and make sure to subscribe so you can keep up with our show.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118314,
+      "no_speech_prob": 0.748047
+    }
+  ],
+  "context_text_chronological": "We've all experienced it. We invite a friend to dinner only to learn that she is the dreaded V-word. We have a vague sense of what it means, but we're left with so many questions. Is it healthier? Will you sit on my leather couch? Can we still go to Taco Bell? In a world of health magazines and Planet Fitness commercials, many people want to learn more about nutrition and which diets are the healthiest. Wherever you go, no one can escape the growing vegan phenomenon, so we thought it would be fun to explore it further in this episode of the Infographics Show, Vegans vs. Meat Eaters. A vegan is someone who follows a diet that contains no animal meat, fish, eggs, dairy products, or any other food that comes from animals. They differ from vegetarians who generally still eat dairy and eggs as part of their diets. Vegans also typically abstain from using any other products that come from animals such as honey and leather jackets. The number of meat-eaters obviously far outweighs the number of vegans throughout the world, with the highest concentration of vegans being in Israel at only around 5% of their population. By not consuming any animal products, vegans follow a dietary path similar to an herbivore. Herbivores are animals that feed exclusively on plants, such as cows, giraffes, and adorable deer. Meat-eaters are typically omnivores, which means that they eat both plants and animals. The term comes from the Latin words omni, meaning all or everything, and the word vorare, which means to devour. So, basically, omnivores are down to eat whatever. Most meat-eaters don't solely eat just meat, like a carnivore would do, that is, unless you're Ron Swanson from Parks and Rec. Then it's beautiful bacon and sizzling steaks all day. So, humans are widely thought of as natural omnivores. But some believe that humans are at their optimal health when following the dietary habits of an herbivore. People often cite potential health benefits and ethical dilemmas as the main reasons to go on a vegan diet. We won't get into the ethics today, but we are curious about the health differences between vegans and their meat-eating friends. People on a vegan diet tend to be leaner. In a cross-sectional study of nearly 40,000 adults, meat-eaters had the highest mean body mass index, or BMI. Vegetarians were in the middle, and vegans had the lowest. Based on several studies from Finland, some scientists have suggested that vegan diets may be helpful in the treatment of rheumatoid arthritis. Vegans also appear to have lower rates of hypertension than both meat-eaters and vegetarians. Vegans also typically have lower cardiometabolic risks for conditions like heart disease or strokes. The problem, however, doesn't seem to be with meat itself, but rather with the quality of meat. Recent findings have found that coronary heart disease problems do not seem to be linked with red meat and saturated fats like previously thought, but rather with processed meats. Based on a study of nearly 1.25 million people, consumption of processed meats, not simply red meat, was associated with higher rates of coronary heart disease. From an evolutionary standpoint, meat-eating omnivores also seem to be the reason behind the growth of our larger, more intelligent brains. This is the result of the higher-protein content associated with meat consumption. The American Dietetic Association, or ADA, states that the protein from plants can easily meet and exceed protein requirements, and that being an omnivore merely increases the amount of protein sources a person can have by including animal meat. Obviously, protein is important to both bone health and muscle mass. One study even found that women who ate meat had higher amounts of muscle mass than their vegetarian counterparts, even if the protein intake was the same. While there certainly may be some health advantages in going vegan, there seems to be some common deficiencies in the diet. One of these deficiencies is with the vitamin B12. The ADA states that there are no natural plant foods that contain any significant amount of the vitamin. Vegans can still get it, but they need to take a vitamin or consume fortified foods like soy milk and certain breakfast cereals. Omega-3 fatty acids are also very difficult to come by in a vegan diet, but this can be overcome through the consumption of algae supplements. With vegans requiring supplementation to meet their nutritional needs, it supports the claim that veganism is unnatural, but that doesn't necessarily mean it's unhealthy. At this point, some of you may be wondering which diet leads to longer lifespans. For that information, we turn to Okinawa. The traditional Okinawan diet is typically regarded as the best for health and longevity, with the Okinawan islands having the greatest concentration of centenarians in the world. In Arca Palago, hundreds of miles off the coast of Japan, Okinawa has about 740 centenarians out of its population of 1.3 million people. While their diets have been changing recently due to globalization and factors like fast food chains, the traditional Okinawan diet is made up of large amounts of plant-based carbohydrates. Although they are primarily vegans, traditional Okinawans still eat meat on special occasions, usually pork, as well as small amounts of fish on a weekly basis. This does improve that small amounts of animal products are vital to good health, but it does hint that the optimal human diet can be achieved without going completely vegan. That said, many health organizations, including the ADA, state that well-planned vegan diets are healthy and nutritionally adequate and may provide health benefits in the prevention and treatment of certain diseases. It seems like no matter what your dietary preferences are, a healthy lifestyle can be achieved on or off a vegan diet. Are you, or would you ever consider, becoming a vegan? Why or why not? Let us know down in the comments below. And if you like our videos and want to help us continue to make more of them, please head on over to Patreon and show us some love. Don't forget to give this video a like and make sure to subscribe so you can keep up with our show.",
+  "target_text_for_audit": "As of polls taken in 2014, vegans now make up roughly 2.5% of the population.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "As of Pulse taken in 2014, vegans now make up roughly 2 .5 % of the population, at least in the United States, women seem to be far bigger fans of veganism, making up",
+        "start_source": 52.76,
+        "end_source": 61.98,
+        "matching_cue_ids": [
+          11,
+          12
+        ],
+        "text_similarity": 0.924,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\sAN1J4PY6is.mp4",
+    "cue_count": 61
+  },
+  "token_estimate_char_div_4": 1551
+}

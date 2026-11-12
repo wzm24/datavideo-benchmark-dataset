@@ -1,0 +1,774 @@
+{
+  "video_id": "QAa2O_8wBUQ",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\QAa2O_8wBUQ.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 380.041,
+  "duration_after_vad_seconds": 371.056,
+  "cue_count": 84,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 8.68,
+      "text": "Matter, as we know it, atoms, stars and galaxies, planets and trees, rocks and us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172788,
+      "no_speech_prob": 0.009399
+    },
+    {
+      "index": 1,
+      "start": 8.68,
+      "end": 13.16,
+      "text": "This matter accounts for less than 5% of the known universe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172788,
+      "no_speech_prob": 0.009399
+    },
+    {
+      "index": 2,
+      "start": 13.16,
+      "end": 21.18,
+      "text": "About 25% is dark matter and 70% dark energy, both of which are invisible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172788,
+      "no_speech_prob": 0.009399
+    },
+    {
+      "index": 3,
+      "start": 21.18,
+      "end": 26.32,
+      "text": "This is kind of strange because it suggests that everything we experience is really only",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172788,
+      "no_speech_prob": 0.009399
+    },
+    {
+      "index": 4,
+      "start": 26.32,
+      "end": 28.88,
+      "text": "a tiny fraction of reality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 5,
+      "start": 28.88,
+      "end": 30.04,
+      "text": "But it gets worse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 6,
+      "start": 30.04,
+      "end": 35.12,
+      "text": "We really have no clue what dark matter and energy are or how they work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 7,
+      "start": 35.12,
+      "end": 37.4,
+      "text": "We are pretty sure they exist, though.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 8,
+      "start": 37.4,
+      "end": 46.32,
+      "text": "So what do we know?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 9,
+      "start": 46.32,
+      "end": 51.24,
+      "text": "Dark matter is the stuff that makes it possible for galaxies to exist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 10,
+      "start": 51.24,
+      "end": 55.84,
+      "text": "When we calculated why the universe is structured the way it is, it quickly became clear that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 11,
+      "start": 55.84,
+      "end": 58.32,
+      "text": "there's just not enough normal matter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150938,
+      "no_speech_prob": 0.013634
+    },
+    {
+      "index": 12,
+      "start": 58.32,
+      "end": 64.52,
+      "text": "The gravity of the visible matter is not strong enough to form galaxies and complex structures.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118241,
+      "no_speech_prob": 0.00031
+    },
+    {
+      "index": 13,
+      "start": 64.52,
+      "end": 69.28,
+      "text": "Stars would more likely be scattered all over the place and not form galaxies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118241,
+      "no_speech_prob": 0.00031
+    },
+    {
+      "index": 14,
+      "start": 69.28,
+      "end": 73.68,
+      "text": "So we know there is something else inside and around them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118241,
+      "no_speech_prob": 0.00031
+    },
+    {
+      "index": 15,
+      "start": 73.68,
+      "end": 78.64,
+      "text": "Something that doesn't emit or reflect light, something dark.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118241,
+      "no_speech_prob": 0.00031
+    },
+    {
+      "index": 16,
+      "start": 78.64,
+      "end": 85.12,
+      "text": "But besides being able to calculate the existence of dark matter, we can see it, kind of, places",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118241,
+      "no_speech_prob": 0.00031
+    },
+    {
+      "index": 17,
+      "start": 85.12,
+      "end": 89.76,
+      "text": "with a high concentration of dark matter bend light passing nearby.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 18,
+      "start": 89.76,
+      "end": 93.56,
+      "text": "So we know there's something there that interacts with gravity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 19,
+      "start": 93.56,
+      "end": 99.64,
+      "text": "Right now, we have more ideas about what dark energy is not than what it is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 20,
+      "start": 99.64,
+      "end": 104.4,
+      "text": "We know dark matter is not just clouds of normal matter without stars because it would",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 21,
+      "start": 104.4,
+      "end": 107.0,
+      "text": "emit particles we could detect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 22,
+      "start": 107.0,
+      "end": 112.36,
+      "text": "Dark matter is not antimatter because antimatter produces unique gamma rays when it reacts",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 23,
+      "start": 112.36,
+      "end": 114.0,
+      "text": "with normal matter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079531,
+      "no_speech_prob": 0.005821
+    },
+    {
+      "index": 24,
+      "start": 114.0,
+      "end": 119.96,
+      "text": "Dark matter is also not made up of black holes, very compact objects that violently affect",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 25,
+      "start": 119.96,
+      "end": 125.2,
+      "text": "their surroundings while dark matter seems to be scattered all over the place.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 26,
+      "start": 125.2,
+      "end": 128.32,
+      "text": "Basically, we only know three things for sure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 27,
+      "start": 128.32,
+      "end": 130.44,
+      "text": "One, something is out there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 28,
+      "start": 130.44,
+      "end": 133.12,
+      "text": "Two, it interacts with gravity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 29,
+      "start": 133.12,
+      "end": 136.4,
+      "text": "Three, there is a lot of it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 30,
+      "start": 136.4,
+      "end": 141.28,
+      "text": "Dark matter is probably made up of a complicated exotic particle that doesn't interact with",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173828,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 31,
+      "start": 141.28,
+      "end": 146.36,
+      "text": "light and matter in a way we expect, but right now, we just don't know.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 32,
+      "start": 146.36,
+      "end": 149.68,
+      "text": "Dark energy is even more strange and mysterious.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 33,
+      "start": 149.68,
+      "end": 154.16,
+      "text": "We can't detect it, we can't measure it, and we can't taste it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 34,
+      "start": 154.16,
+      "end": 157.4,
+      "text": "But we do see its effects very clearly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 35,
+      "start": 157.4,
+      "end": 164.04,
+      "text": "In 1929, Edwin Hubble examined how the wavelength of light emitted by distant galaxies shifts",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 36,
+      "start": 164.04,
+      "end": 168.92,
+      "text": "towards the red end of the electromagnetic spectrum as it travels through space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092754,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 37,
+      "start": 168.92,
+      "end": 174.64,
+      "text": "He found that fainter, more distant galaxies, showed a large degree of redshift.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 38,
+      "start": 174.64,
+      "end": 177.28,
+      "text": "Closer galaxies, not so much.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 39,
+      "start": 177.28,
+      "end": 181.84,
+      "text": "Hubble determined that this was because the universe itself is expanding.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 40,
+      "start": 181.84,
+      "end": 188.32,
+      "text": "The redshift occurs because the wavelengths of light are stretched as the universe expands.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 41,
+      "start": 188.32,
+      "end": 193.56,
+      "text": "More recent discoveries have shown that the expansion of the universe is accelerating.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 42,
+      "start": 193.56,
+      "end": 197.16,
+      "text": "Before that, it was thought that the pull of gravity would cause the expansion to either",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.12125,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 43,
+      "start": 197.16,
+      "end": 202.16,
+      "text": "slow down or even retract and collapse in on itself at some point.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 44,
+      "start": 202.16,
+      "end": 207.04,
+      "text": "Space doesn't change its properties as it expands, there's just more of it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 45,
+      "start": 207.04,
+      "end": 210.92,
+      "text": "New space is constantly created everywhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 46,
+      "start": 210.92,
+      "end": 216.12,
+      "text": "Galaxies are tight-bound clusters of stuff held together by gravity so we don't experience",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 47,
+      "start": 216.12,
+      "end": 220.52,
+      "text": "this expansion in our daily lives, but we see it everywhere around us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 48,
+      "start": 220.52,
+      "end": 225.52,
+      "text": "Wherever there is empty space in the universe, more is forming every second.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125155,
+      "no_speech_prob": 0.002434
+    },
+    {
+      "index": 49,
+      "start": 225.52,
+      "end": 230.96,
+      "text": "So dark energy seems to be some kind of energy intrinsic to empty space, energy that is",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090776,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 50,
+      "start": 230.96,
+      "end": 236.72,
+      "text": "stronger than anything else we know and that keeps getting stronger as time passes by.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090776,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 51,
+      "start": 236.72,
+      "end": 242.28,
+      "text": "Empty space has more energy than everything else in the universe combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090776,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 52,
+      "start": 242.28,
+      "end": 246.48,
+      "text": "We have multiple ideas about what dark energy might be.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090776,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 53,
+      "start": 246.48,
+      "end": 252.24,
+      "text": "One idea is that dark energy is not a thing but just a property of space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090776,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 54,
+      "start": 252.24,
+      "end": 255.68,
+      "text": "Empty space is not nothing, it has its own energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 55,
+      "start": 255.68,
+      "end": 258.92,
+      "text": "It can generate more space and is quite active.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 56,
+      "start": 258.92,
+      "end": 264.28,
+      "text": "So as the universe expands, it could be that just more and more space appears to fill the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 57,
+      "start": 264.28,
+      "end": 269.04,
+      "text": "gaps and this leads to a faster expanding universe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 58,
+      "start": 269.04,
+      "end": 274.84,
+      "text": "This idea is close to an idea that Einstein had back in 1917 of a concept of a cosmological",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 59,
+      "start": 274.84,
+      "end": 278.72,
+      "text": "constant, a force that counteracted the force of gravity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101247,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 60,
+      "start": 278.72,
+      "end": 283.28,
+      "text": "The only problem is that when we tried to calculate the amount of this energy, the result",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 61,
+      "start": 283.28,
+      "end": 287.88,
+      "text": "was so wrong and weird that it only added to the confusion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 62,
+      "start": 287.88,
+      "end": 292.72,
+      "text": "Another idea is that empty space is actually full of temporary, virtual particles that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 63,
+      "start": 292.72,
+      "end": 298.68,
+      "text": "spontaneously and continually form from nothing and then disappear into nothing again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 64,
+      "start": 298.68,
+      "end": 302.44,
+      "text": "The energy from those particles could be dark energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 65,
+      "start": 302.44,
+      "end": 307.84,
+      "text": "Or maybe dark energy is an unknown kind of dynamic energy fluid or field which permeates",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092969,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 66,
+      "start": 307.84,
+      "end": 313.12,
+      "text": "the entire universe but somehow has the opposite effect on the universe than normal energy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 67,
+      "start": 313.12,
+      "end": 314.32,
+      "text": "and matter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 68,
+      "start": 314.32,
+      "end": 319.2,
+      "text": "But if it exists we don't know how and where or how we could detect it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 69,
+      "start": 319.2,
+      "end": 322.72,
+      "text": "So there are still a lot of questions to answer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 70,
+      "start": 322.72,
+      "end": 327.6,
+      "text": "Our theories about dark matter and dark energy are still just that, theories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 71,
+      "start": 327.6,
+      "end": 330.48,
+      "text": "On the one hand, this is kind of frustrating.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 72,
+      "start": 330.48,
+      "end": 334.56,
+      "text": "On the other hand, this is frontier science making it very exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115291,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 73,
+      "start": 334.56,
+      "end": 338.16,
+      "text": "It shows us that no matter how much we feel we're on top of things, we're still very",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 74,
+      "start": 338.16,
+      "end": 344.12,
+      "text": "much apes with smartphones, on a tiny fragile island in space, looking into the sky, wondering",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 75,
+      "start": 344.12,
+      "end": 346.48,
+      "text": "how our universe works.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 76,
+      "start": 346.48,
+      "end": 352.4,
+      "text": "There is so much left to learn, and that is awesome.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 77,
+      "start": 352.4,
+      "end": 357.0,
+      "text": "This video is supported by the Australian Academy of Science, which promotes and supports",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 78,
+      "start": 357.0,
+      "end": 359.16,
+      "text": "excellence in science.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 79,
+      "start": 359.16,
+      "end": 363.52,
+      "text": "Learn more about this topic and others like it at nova.org.au.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135085,
+      "no_speech_prob": 0.307129
+    },
+    {
+      "index": 80,
+      "start": 363.52,
+      "end": 367.12,
+      "text": "It was a blast to work with them, so go check out their site.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.189236,
+      "no_speech_prob": 0.958496
+    },
+    {
+      "index": 81,
+      "start": 367.12,
+      "end": 371.32,
+      "text": "Our videos are also made possible by your support on patreon.com.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.189236,
+      "no_speech_prob": 0.958496
+    },
+    {
+      "index": 82,
+      "start": 371.32,
+      "end": 376.0,
+      "text": "If you want to support us and become part of the Kotzgesagt Bird Army, check out our",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.189236,
+      "no_speech_prob": 0.958496
+    },
+    {
+      "index": 83,
+      "start": 376.0,
+      "end": 376.92,
+      "text": "Patreon page.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.189236,
+      "no_speech_prob": 0.958496
+    }
+  ],
+  "created_at": "2026-11-12T19:13:34+0800"
+}

@@ -1,0 +1,1867 @@
+{
+  "clip_id": "donut_38",
+  "family": "donut",
+  "video_id": "xfQBkdLa6fo",
+  "source_url": "https://www.youtube.com/watch?v=xfQBkdLa6fo",
+  "source_title": "Why In-N-Out Isn't Coming to a City Near You",
+  "target_window_source": {
+    "start": 446.0,
+    "end": 450.0
+  },
+  "target_mask_interval": {
+    "start": 444.5,
+    "end": 451.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    69,
+    70
+  ],
+  "masked_cue_ids": [
+    69,
+    70
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.5,
+      "text": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20% off the annual subscription.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 1,
+      "start": 8.2,
+      "end": 17.0,
+      "text": "Anyone who's ever been to In-N-Out knows to expect, no matter where you are, the same consistent burger, smiling cashier, and long lines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 2,
+      "start": 17.0,
+      "end": 24.0,
+      "text": "Residents of Portland, Oregon were known to drive four hours each way to the nearest restaurant in Grant's Pass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 3,
+      "start": 24.0,
+      "end": 31.5,
+      "text": "And before there were any in Phoenix, locals supposedly flew to Ontario, California, had lunch, and promptly flew back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 4,
+      "start": 31.5,
+      "end": 41.5,
+      "text": "And yet, despite seemingly unlimited demand, In-N-Out is one of the smallest major fast food chains in the world, with only 347 locations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 5,
+      "start": 41.5,
+      "end": 50.5,
+      "text": "There are over twice as many Whataburgers, almost four times as many Five Guys, and 40 times as many McDonald's, just in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 6,
+      "start": 50.5,
+      "end": 59.5,
+      "text": "Since it began in 1948, it's only opened an average of five restaurants a year, two less than Subway opened in a single day at its peak.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 7,
+      "start": 59.5,
+      "end": 67.5,
+      "text": "In other words, In-N-Out deliberately leaves money on the table, refusing to expand even where huge profits are guaranteed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 8,
+      "start": 67.5,
+      "end": 68.5,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 9,
+      "start": 68.5,
+      "end": 76.97,
+      "text": "Profitable high-margin industries are often kind of boring. How do you make money selling toothbrushes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 10,
+      "start": 76.97,
+      "end": 79.97,
+      "text": "Uh, well, you sell them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 11,
+      "start": 79.97,
+      "end": 86.97,
+      "text": "Plastic handles with bristles on the end, as it turns out, don't cost very much to make, and therefore have healthy margins.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 12,
+      "start": 86.97,
+      "end": 93.47,
+      "text": "Someone, of course, will try to turn them into a subscription, make them out of aluminum, ooh, and call it the youth brush,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 13,
+      "start": 93.47,
+      "end": 98.97,
+      "text": "but most of us don't have a passion for consumer dental products, so the business model is simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 14,
+      "start": 98.97,
+      "end": 102.97,
+      "text": "You hand me a couple of dollars, I'll give you a rod with some bristles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 15,
+      "start": 102.97,
+      "end": 106.97,
+      "text": "Things get interesting when companies have to get creative.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 16,
+      "start": 106.97,
+      "end": 113.97,
+      "text": "When competition is high or consumer willingness to spend money low, they have to find some other way to make a profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 17,
+      "start": 113.97,
+      "end": 123.47,
+      "text": "For restaurants, it's all about selling drinks. With printers, the money's really in the ink, and Costco's low prices, those are offset by annual membership fees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 18,
+      "start": 123.47,
+      "end": 130.97,
+      "text": "Selling millions of french fries for a few cents each isn't a bad business for McDonald's, but it's found something even better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 19,
+      "start": 130.97,
+      "end": 140.97,
+      "text": "Real Estate. While the company only owns and operates 15% of its restaurants and the rest are franchised, it owns almost all of their buildings and the land beneath them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 20,
+      "start": 140.97,
+      "end": 151.97,
+      "text": "Franchisees pay about 8-15% of their revenue as rent to McDonald's, who makes money whether they're profitable or not, and that's on top of the normal franchise royalty.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 21,
+      "start": 151.97,
+      "end": 159.97,
+      "text": "After going on a huge shopping spree during the 2008 recession, McDonald's now owns more than $30 billion worth of real estate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 22,
+      "start": 159.97,
+      "end": 164.97,
+      "text": "Not only is its business diversified, but much of that income is tax deductible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 23,
+      "start": 164.97,
+      "end": 170.97,
+      "text": "In other words, McDonald's is actually more real estate investor than fast food franchise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 24,
+      "start": 170.97,
+      "end": 175.97,
+      "text": "Likewise, if you think of In-N-Out only as a burger chain, it doesn't make much sense.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 25,
+      "start": 175.97,
+      "end": 181.97,
+      "text": "Why not open more locations? Why not change and perfect the recipes, or add new menu items?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 26,
+      "start": 181.97,
+      "end": 192.97,
+      "text": "But if In-N-Out is really about serving a predictable, familiar experience, more than the food itself, opening new locations and trying new things are huge risks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 27,
+      "start": 192.97,
+      "end": 198.97,
+      "text": "In-N-Out's secret ingredient, the thing it's really selling, is consistency.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 28,
+      "start": 198.97,
+      "end": 206.97,
+      "text": "Nearly every location has the same familiar layout, drive-through lane, and iconic crossed palm trees, a reference to the founder's favourite movie.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 29,
+      "start": 206.97,
+      "end": 212.97,
+      "text": "Unlike other fast food restaurants, the interior is clean, well-lit, and easy on the eyes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 30,
+      "start": 212.97,
+      "end": 215.97,
+      "text": "Most importantly, the menu is dead simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 31,
+      "start": 215.97,
+      "end": 223.97,
+      "text": "Hamburger, cheeseburger, french fries, three flavours of shakes, and the two hamburger patty, two slices of cheese, double-double.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 32,
+      "start": 223.97,
+      "end": 224.97,
+      "text": "That's it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 33,
+      "start": 224.97,
+      "end": 232.97,
+      "text": "To drink, there's milk, hot cocoa, coffee, classic and diet coke, root beer, doctor pepper, 7-up, lemonade, and iced tea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 34,
+      "start": 232.97,
+      "end": 242.97,
+      "text": "Even with a few secret variations like grilled cheese, animal fries, and the Neapolitan milkshake, there's nowhere near the selection of, say, a Dairy Queen or McDonald's,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 35,
+      "start": 242.97,
+      "end": 247.97,
+      "text": "which have about twice as many drinks alone as everything at In-N-Out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 36,
+      "start": 247.97,
+      "end": 253.97,
+      "text": "Its menu changes not seasonally or annually, but maybe once a generation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 37,
+      "start": 253.97,
+      "end": 256.97,
+      "text": "In 1958, bottled sodas became fountain drinks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 38,
+      "start": 256.97,
+      "end": 266.97,
+      "text": "Milkshakes were added in 75, doctor pepper 21 years later, lemonade in 2003, and hot chocolate 15 years after that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 39,
+      "start": 266.97,
+      "end": 271.97,
+      "text": "When a fourth beverage size was proposed, a fight reportedly broke out inside the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 40,
+      "start": 271.97,
+      "end": 280.97,
+      "text": "And in 2018, it closed all 37 locations in Texas for a full 48 hours when it found buns that didn't meet its quality standards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 41,
+      "start": 280.97,
+      "end": 285.97,
+      "text": "The downside of this consistency is that it can't respond to changes in the industry.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 42,
+      "start": 285.97,
+      "end": 291.97,
+      "text": "In 2015, McDonald's was able to turn around declining sales with its all-day breakfast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 43,
+      "start": 291.97,
+      "end": 298.97,
+      "text": "And caught off guard by Chipotle's success, many chains have tried capturing that market by introducing more healthy alternatives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 44,
+      "start": 298.97,
+      "end": 305.97,
+      "text": "On the other hand, by keeping things simple, In-N-Out can carefully optimize every ingredient in its business formula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 45,
+      "start": 305.97,
+      "end": 311.97,
+      "text": "Inevitably, new items mean longer lines, confused employees, and added complexity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 46,
+      "start": 311.97,
+      "end": 320.97,
+      "text": "The McCafé coffee, for example, required each store to buy a $15,000-$20,000 espresso machine and train employees on how to use it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 47,
+      "start": 320.97,
+      "end": 323.97,
+      "text": "At In-N-Out, there are five levels of employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 48,
+      "start": 323.97,
+      "end": 326.97,
+      "text": "Level 1, the janitor and counter handout.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 49,
+      "start": 326.97,
+      "end": 328.97,
+      "text": "2, for the drive-through.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 50,
+      "start": 328.97,
+      "end": 330.97,
+      "text": "3 and 4, who make french fries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 51,
+      "start": 330.97,
+      "end": 332.97,
+      "text": "5, who's allowed to assemble burgers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 52,
+      "start": 332.97,
+      "end": 339.97,
+      "text": "And 6, the only person authorized to man the grill, which requires at least three to six months of training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 53,
+      "start": 339.97,
+      "end": 346.97,
+      "text": "Not only does this ensure well-trained cooks, but it also turns fast food into a proper, well-paid profession.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 54,
+      "start": 346.97,
+      "end": 354.97,
+      "text": "Level 1 employees are generally paid more than minimum wage, and managers make an average of $160,000 a year,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 55,
+      "start": 354.97,
+      "end": 359.97,
+      "text": "with some making well over a quarter of a million dollars overseeing a single location.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 56,
+      "start": 359.97,
+      "end": 364.97,
+      "text": "It's not hard to see why they stay with the company for an average of 14 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 57,
+      "start": 364.97,
+      "end": 368.97,
+      "text": "Almost all current and ex In-N-Out employees say the same thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 58,
+      "start": 368.97,
+      "end": 372.97,
+      "text": "It's a stressful, chaotic, and yet highly desirable job.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 59,
+      "start": 372.97,
+      "end": 380.97,
+      "text": "Everyone, full and part-time, receives 401k plans, dental and vision coverage, and paid vacation days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 60,
+      "start": 380.97,
+      "end": 385.97,
+      "text": "Even more impressive, it does all that despite having some of the lowest prices in the industry.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 61,
+      "start": 385.97,
+      "end": 394.97,
+      "text": "A hamburger, fries, and milkshake costs just $6.85, about half the price of the same order at Shake Shack.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 62,
+      "start": 394.97,
+      "end": 400.97,
+      "text": "Any other company would, without hesitation, export this formula of high-skilled employees,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 63,
+      "start": 400.97,
+      "end": 406.97,
+      "text": "a simple menu, and consistent quality across the country, and then, when that worked, across the globe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 64,
+      "start": 406.97,
+      "end": 411.97,
+      "text": "The fact that it hasn't is, more than anything else, a reflection of its values,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 65,
+      "start": 411.97,
+      "end": 418.97,
+      "text": "set 70 years ago in Baldwin Park, California, by husband and wife founders Esther and Harry Snyder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 66,
+      "start": 418.97,
+      "end": 424.97,
+      "text": "It was the first place ever to use a two-way speaker system, allowing drivers to place orders while in line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 67,
+      "start": 424.97,
+      "end": 432.97,
+      "text": "They would eventually open 18 more locations, but strictly only when they could afford to buy the property outright, never on a loan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 68,
+      "start": 432.97,
+      "end": 441.97,
+      "text": "Principled, thoughtful founders like the Snyders aren't all that hard to find, but rarely does the second generation inherit those same values.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0649,
+      "no_speech_prob": 0.480225
+    }
+  ],
+  "context_after": [
+    {
+      "index": 71,
+      "start": 454.97,
+      "end": 465.97,
+      "text": "When Harry died in 1967, his son Rich took over, who then died in a plane crash in 93, after which his brother Guy replaced him, only to die six years later.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 72,
+      "start": 465.97,
+      "end": 468.97,
+      "text": "Esther then returned to manage the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 73,
+      "start": 468.97,
+      "end": 476.97,
+      "text": "Finally, in the riskiest move of all, after she died in 2006, presidency was given to someone outside the family, Mark Taylor,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 74,
+      "start": 476.97,
+      "end": 486.97,
+      "text": "until Guy's daughter, Lindsay, reached the age of 30, when she inherited 50% of the business, and then almost full control in 2007 at age 35.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 75,
+      "start": 486.97,
+      "end": 495.97,
+      "text": "In and out has seen six different leaders, been heavily pressured by outsiders to franchise the business, and watched the industry it helped create change dramatically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 76,
+      "start": 495.97,
+      "end": 502.97,
+      "text": "And yet today, 70 years later, any of its very first customers would feel right at home in any of its 300 locations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 77,
+      "start": 502.97,
+      "end": 517.97,
+      "text": "Its current president is the highest rated female CEO in the US by employees, and while the company continues growing, entering Texas in 2011, Oregon in 2015, and soon Colorado, it does so very carefully.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 78,
+      "start": 517.97,
+      "end": 524.97,
+      "text": "Lindsay, still in her 30s, doesn't expect to expand east of Texas in her lifetime, and never in every US state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 79,
+      "start": 524.97,
+      "end": 531.97,
+      "text": "With so few locations, every grand opening is a major event, with free organic marketing and much fanfare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 80,
+      "start": 531.97,
+      "end": 543.97,
+      "text": "Lines are so long that the company hires off-duty police officers to manage traffic, and flies in all-star employees, experienced workers who manage the chaos and long 10-hour shifts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073509,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 81,
+      "start": 543.97,
+      "end": 551.97,
+      "text": "The biggest bottleneck is distribution. Buns are baked daily, milkshakes 100% dairy, and there are no freezers or microwaves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073509,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 82,
+      "start": 551.97,
+      "end": 561.97,
+      "text": "That means ingredients have to be prepared at distribution centers, currently in Baldwin Park, Lathrop, California, Dallas, Phoenix, Draper, Utah, and Colorado Springs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 83,
+      "start": 561.97,
+      "end": 571.97,
+      "text": "From there, they need to be delivered within a single day's drive to each of their stores, which limits new locations to a roughly 500 mile radius from each distribution center.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 84,
+      "start": 571.97,
+      "end": 579.97,
+      "text": "Whether you're a fan of Shake Shack, Whataburger, Five Guys, or McDonald's, you have to admit there's something special about In-N-Out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 85,
+      "start": 579.97,
+      "end": 588.97,
+      "text": "While McDonald's will always make more money, serve more customers, and be more widely known, In-N-Out has arguably done something even harder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 86,
+      "start": 588.97,
+      "end": 595.97,
+      "text": "Keep a legacy alive while staying true to its original ideals over 70 years and through six generations of leadership.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 87,
+      "start": 595.97,
+      "end": 602.97,
+      "text": "The lesson is, whether in business, life, or learning, the hardest part is often just keeping a good thing going.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 88,
+      "start": 602.97,
+      "end": 611.97,
+      "text": "Enrolling in a class is easy, but remembering to actually go and retaining the knowledge much harder, and that's exactly how Brilliant is designed to help you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 89,
+      "start": 611.97,
+      "end": 619.97,
+      "text": "Brilliant teaches you math, science, and computer science with engaging pictures and puzzles, then helps you check your actual understanding.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 90,
+      "start": 619.97,
+      "end": 625.97,
+      "text": "In other words, you don't just memorize formulas, you actually see how and why something works.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 91,
+      "start": 625.97,
+      "end": 630.97,
+      "text": "With daily challenges, you can solve quick problems, even on the go, with their mobile app.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 92,
+      "start": 631.97,
+      "end": 639.97,
+      "text": "They're adding new courses all the time, on computer science, differential equations, scientific thinking, and geometry fundamentals, for example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 93,
+      "start": 639.97,
+      "end": 647.97,
+      "text": "You can use the link in the description to start learning for free, and the first 200 people will get 20% off the annual premium subscription,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 94,
+      "start": 647.97,
+      "end": 652.97,
+      "text": "so you can view all the daily challenges and unlock dozens of problem-solving courses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 95,
+      "start": 652.97,
+      "end": 655.97,
+      "text": "Thanks to Brilliant and to you for watching this video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.5,
+      "text": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20% off the annual subscription.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 1,
+      "start": 8.2,
+      "end": 17.0,
+      "text": "Anyone who's ever been to In-N-Out knows to expect, no matter where you are, the same consistent burger, smiling cashier, and long lines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 2,
+      "start": 17.0,
+      "end": 24.0,
+      "text": "Residents of Portland, Oregon were known to drive four hours each way to the nearest restaurant in Grant's Pass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.175781,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 3,
+      "start": 24.0,
+      "end": 31.5,
+      "text": "And before there were any in Phoenix, locals supposedly flew to Ontario, California, had lunch, and promptly flew back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 4,
+      "start": 31.5,
+      "end": 41.5,
+      "text": "And yet, despite seemingly unlimited demand, In-N-Out is one of the smallest major fast food chains in the world, with only 347 locations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 5,
+      "start": 41.5,
+      "end": 50.5,
+      "text": "There are over twice as many Whataburgers, almost four times as many Five Guys, and 40 times as many McDonald's, just in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101156,
+      "no_speech_prob": 0.053375
+    },
+    {
+      "index": 6,
+      "start": 50.5,
+      "end": 59.5,
+      "text": "Since it began in 1948, it's only opened an average of five restaurants a year, two less than Subway opened in a single day at its peak.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 7,
+      "start": 59.5,
+      "end": 67.5,
+      "text": "In other words, In-N-Out deliberately leaves money on the table, refusing to expand even where huge profits are guaranteed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 8,
+      "start": 67.5,
+      "end": 68.5,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 9,
+      "start": 68.5,
+      "end": 76.97,
+      "text": "Profitable high-margin industries are often kind of boring. How do you make money selling toothbrushes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08322,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 10,
+      "start": 76.97,
+      "end": 79.97,
+      "text": "Uh, well, you sell them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 11,
+      "start": 79.97,
+      "end": 86.97,
+      "text": "Plastic handles with bristles on the end, as it turns out, don't cost very much to make, and therefore have healthy margins.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 12,
+      "start": 86.97,
+      "end": 93.47,
+      "text": "Someone, of course, will try to turn them into a subscription, make them out of aluminum, ooh, and call it the youth brush,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 13,
+      "start": 93.47,
+      "end": 98.97,
+      "text": "but most of us don't have a passion for consumer dental products, so the business model is simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 14,
+      "start": 98.97,
+      "end": 102.97,
+      "text": "You hand me a couple of dollars, I'll give you a rod with some bristles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067201,
+      "no_speech_prob": 0.064636
+    },
+    {
+      "index": 15,
+      "start": 102.97,
+      "end": 106.97,
+      "text": "Things get interesting when companies have to get creative.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 16,
+      "start": 106.97,
+      "end": 113.97,
+      "text": "When competition is high or consumer willingness to spend money low, they have to find some other way to make a profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 17,
+      "start": 113.97,
+      "end": 123.47,
+      "text": "For restaurants, it's all about selling drinks. With printers, the money's really in the ink, and Costco's low prices, those are offset by annual membership fees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 18,
+      "start": 123.47,
+      "end": 130.97,
+      "text": "Selling millions of french fries for a few cents each isn't a bad business for McDonald's, but it's found something even better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067209,
+      "no_speech_prob": 0.038452
+    },
+    {
+      "index": 19,
+      "start": 130.97,
+      "end": 140.97,
+      "text": "Real Estate. While the company only owns and operates 15% of its restaurants and the rest are franchised, it owns almost all of their buildings and the land beneath them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 20,
+      "start": 140.97,
+      "end": 151.97,
+      "text": "Franchisees pay about 8-15% of their revenue as rent to McDonald's, who makes money whether they're profitable or not, and that's on top of the normal franchise royalty.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 21,
+      "start": 151.97,
+      "end": 159.97,
+      "text": "After going on a huge shopping spree during the 2008 recession, McDonald's now owns more than $30 billion worth of real estate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066087,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 22,
+      "start": 159.97,
+      "end": 164.97,
+      "text": "Not only is its business diversified, but much of that income is tax deductible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 23,
+      "start": 164.97,
+      "end": 170.97,
+      "text": "In other words, McDonald's is actually more real estate investor than fast food franchise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 24,
+      "start": 170.97,
+      "end": 175.97,
+      "text": "Likewise, if you think of In-N-Out only as a burger chain, it doesn't make much sense.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 25,
+      "start": 175.97,
+      "end": 181.97,
+      "text": "Why not open more locations? Why not change and perfect the recipes, or add new menu items?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052712,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 26,
+      "start": 181.97,
+      "end": 192.97,
+      "text": "But if In-N-Out is really about serving a predictable, familiar experience, more than the food itself, opening new locations and trying new things are huge risks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 27,
+      "start": 192.97,
+      "end": 198.97,
+      "text": "In-N-Out's secret ingredient, the thing it's really selling, is consistency.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 28,
+      "start": 198.97,
+      "end": 206.97,
+      "text": "Nearly every location has the same familiar layout, drive-through lane, and iconic crossed palm trees, a reference to the founder's favourite movie.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082422,
+      "no_speech_prob": 0.599609
+    },
+    {
+      "index": 29,
+      "start": 206.97,
+      "end": 212.97,
+      "text": "Unlike other fast food restaurants, the interior is clean, well-lit, and easy on the eyes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 30,
+      "start": 212.97,
+      "end": 215.97,
+      "text": "Most importantly, the menu is dead simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 31,
+      "start": 215.97,
+      "end": 223.97,
+      "text": "Hamburger, cheeseburger, french fries, three flavours of shakes, and the two hamburger patty, two slices of cheese, double-double.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 32,
+      "start": 223.97,
+      "end": 224.97,
+      "text": "That's it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 33,
+      "start": 224.97,
+      "end": 232.97,
+      "text": "To drink, there's milk, hot cocoa, coffee, classic and diet coke, root beer, doctor pepper, 7-up, lemonade, and iced tea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090341,
+      "no_speech_prob": 0.4375
+    },
+    {
+      "index": 34,
+      "start": 232.97,
+      "end": 242.97,
+      "text": "Even with a few secret variations like grilled cheese, animal fries, and the Neapolitan milkshake, there's nowhere near the selection of, say, a Dairy Queen or McDonald's,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 35,
+      "start": 242.97,
+      "end": 247.97,
+      "text": "which have about twice as many drinks alone as everything at In-N-Out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 36,
+      "start": 247.97,
+      "end": 253.97,
+      "text": "Its menu changes not seasonally or annually, but maybe once a generation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08584,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 37,
+      "start": 253.97,
+      "end": 256.97,
+      "text": "In 1958, bottled sodas became fountain drinks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 38,
+      "start": 256.97,
+      "end": 266.97,
+      "text": "Milkshakes were added in 75, doctor pepper 21 years later, lemonade in 2003, and hot chocolate 15 years after that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 39,
+      "start": 266.97,
+      "end": 271.97,
+      "text": "When a fourth beverage size was proposed, a fight reportedly broke out inside the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 40,
+      "start": 271.97,
+      "end": 280.97,
+      "text": "And in 2018, it closed all 37 locations in Texas for a full 48 hours when it found buns that didn't meet its quality standards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047001,
+      "no_speech_prob": 0.217163
+    },
+    {
+      "index": 41,
+      "start": 280.97,
+      "end": 285.97,
+      "text": "The downside of this consistency is that it can't respond to changes in the industry.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 42,
+      "start": 285.97,
+      "end": 291.97,
+      "text": "In 2015, McDonald's was able to turn around declining sales with its all-day breakfast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 43,
+      "start": 291.97,
+      "end": 298.97,
+      "text": "And caught off guard by Chipotle's success, many chains have tried capturing that market by introducing more healthy alternatives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 44,
+      "start": 298.97,
+      "end": 305.97,
+      "text": "On the other hand, by keeping things simple, In-N-Out can carefully optimize every ingredient in its business formula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035655,
+      "no_speech_prob": 0.068481
+    },
+    {
+      "index": 45,
+      "start": 305.97,
+      "end": 311.97,
+      "text": "Inevitably, new items mean longer lines, confused employees, and added complexity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 46,
+      "start": 311.97,
+      "end": 320.97,
+      "text": "The McCafé coffee, for example, required each store to buy a $15,000-$20,000 espresso machine and train employees on how to use it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 47,
+      "start": 320.97,
+      "end": 323.97,
+      "text": "At In-N-Out, there are five levels of employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 48,
+      "start": 323.97,
+      "end": 326.97,
+      "text": "Level 1, the janitor and counter handout.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 49,
+      "start": 326.97,
+      "end": 328.97,
+      "text": "2, for the drive-through.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 50,
+      "start": 328.97,
+      "end": 330.97,
+      "text": "3 and 4, who make french fries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 51,
+      "start": 330.97,
+      "end": 332.97,
+      "text": "5, who's allowed to assemble burgers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10944,
+      "no_speech_prob": 0.164307
+    },
+    {
+      "index": 52,
+      "start": 332.97,
+      "end": 339.97,
+      "text": "And 6, the only person authorized to man the grill, which requires at least three to six months of training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 53,
+      "start": 339.97,
+      "end": 346.97,
+      "text": "Not only does this ensure well-trained cooks, but it also turns fast food into a proper, well-paid profession.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 54,
+      "start": 346.97,
+      "end": 354.97,
+      "text": "Level 1 employees are generally paid more than minimum wage, and managers make an average of $160,000 a year,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 55,
+      "start": 354.97,
+      "end": 359.97,
+      "text": "with some making well over a quarter of a million dollars overseeing a single location.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048242,
+      "no_speech_prob": 0.081482
+    },
+    {
+      "index": 56,
+      "start": 359.97,
+      "end": 364.97,
+      "text": "It's not hard to see why they stay with the company for an average of 14 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 57,
+      "start": 364.97,
+      "end": 368.97,
+      "text": "Almost all current and ex In-N-Out employees say the same thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 58,
+      "start": 368.97,
+      "end": 372.97,
+      "text": "It's a stressful, chaotic, and yet highly desirable job.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 59,
+      "start": 372.97,
+      "end": 380.97,
+      "text": "Everyone, full and part-time, receives 401k plans, dental and vision coverage, and paid vacation days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 60,
+      "start": 380.97,
+      "end": 385.97,
+      "text": "Even more impressive, it does all that despite having some of the lowest prices in the industry.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044922,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 61,
+      "start": 385.97,
+      "end": 394.97,
+      "text": "A hamburger, fries, and milkshake costs just $6.85, about half the price of the same order at Shake Shack.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 62,
+      "start": 394.97,
+      "end": 400.97,
+      "text": "Any other company would, without hesitation, export this formula of high-skilled employees,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 63,
+      "start": 400.97,
+      "end": 406.97,
+      "text": "a simple menu, and consistent quality across the country, and then, when that worked, across the globe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 64,
+      "start": 406.97,
+      "end": 411.97,
+      "text": "The fact that it hasn't is, more than anything else, a reflection of its values,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082877,
+      "no_speech_prob": 0.259521
+    },
+    {
+      "index": 65,
+      "start": 411.97,
+      "end": 418.97,
+      "text": "set 70 years ago in Baldwin Park, California, by husband and wife founders Esther and Harry Snyder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 66,
+      "start": 418.97,
+      "end": 424.97,
+      "text": "It was the first place ever to use a two-way speaker system, allowing drivers to place orders while in line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 67,
+      "start": 424.97,
+      "end": 432.97,
+      "text": "They would eventually open 18 more locations, but strictly only when they could afford to buy the property outright, never on a loan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065813,
+      "no_speech_prob": 0.244873
+    },
+    {
+      "index": 68,
+      "start": 432.97,
+      "end": 441.97,
+      "text": "Principled, thoughtful founders like the Snyders aren't all that hard to find, but rarely does the second generation inherit those same values.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0649,
+      "no_speech_prob": 0.480225
+    },
+    {
+      "index": 71,
+      "start": 454.97,
+      "end": 465.97,
+      "text": "When Harry died in 1967, his son Rich took over, who then died in a plane crash in 93, after which his brother Guy replaced him, only to die six years later.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 72,
+      "start": 465.97,
+      "end": 468.97,
+      "text": "Esther then returned to manage the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 73,
+      "start": 468.97,
+      "end": 476.97,
+      "text": "Finally, in the riskiest move of all, after she died in 2006, presidency was given to someone outside the family, Mark Taylor,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058308,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 74,
+      "start": 476.97,
+      "end": 486.97,
+      "text": "until Guy's daughter, Lindsay, reached the age of 30, when she inherited 50% of the business, and then almost full control in 2007 at age 35.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 75,
+      "start": 486.97,
+      "end": 495.97,
+      "text": "In and out has seen six different leaders, been heavily pressured by outsiders to franchise the business, and watched the industry it helped create change dramatically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 76,
+      "start": 495.97,
+      "end": 502.97,
+      "text": "And yet today, 70 years later, any of its very first customers would feel right at home in any of its 300 locations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069173,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 77,
+      "start": 502.97,
+      "end": 517.97,
+      "text": "Its current president is the highest rated female CEO in the US by employees, and while the company continues growing, entering Texas in 2011, Oregon in 2015, and soon Colorado, it does so very carefully.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 78,
+      "start": 517.97,
+      "end": 524.97,
+      "text": "Lindsay, still in her 30s, doesn't expect to expand east of Texas in her lifetime, and never in every US state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 79,
+      "start": 524.97,
+      "end": 531.97,
+      "text": "With so few locations, every grand opening is a major event, with free organic marketing and much fanfare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05975,
+      "no_speech_prob": 0.284424
+    },
+    {
+      "index": 80,
+      "start": 531.97,
+      "end": 543.97,
+      "text": "Lines are so long that the company hires off-duty police officers to manage traffic, and flies in all-star employees, experienced workers who manage the chaos and long 10-hour shifts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073509,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 81,
+      "start": 543.97,
+      "end": 551.97,
+      "text": "The biggest bottleneck is distribution. Buns are baked daily, milkshakes 100% dairy, and there are no freezers or microwaves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073509,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 82,
+      "start": 551.97,
+      "end": 561.97,
+      "text": "That means ingredients have to be prepared at distribution centers, currently in Baldwin Park, Lathrop, California, Dallas, Phoenix, Draper, Utah, and Colorado Springs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 83,
+      "start": 561.97,
+      "end": 571.97,
+      "text": "From there, they need to be delivered within a single day's drive to each of their stores, which limits new locations to a roughly 500 mile radius from each distribution center.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 84,
+      "start": 571.97,
+      "end": 579.97,
+      "text": "Whether you're a fan of Shake Shack, Whataburger, Five Guys, or McDonald's, you have to admit there's something special about In-N-Out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058491,
+      "no_speech_prob": 0.668457
+    },
+    {
+      "index": 85,
+      "start": 579.97,
+      "end": 588.97,
+      "text": "While McDonald's will always make more money, serve more customers, and be more widely known, In-N-Out has arguably done something even harder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 86,
+      "start": 588.97,
+      "end": 595.97,
+      "text": "Keep a legacy alive while staying true to its original ideals over 70 years and through six generations of leadership.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 87,
+      "start": 595.97,
+      "end": 602.97,
+      "text": "The lesson is, whether in business, life, or learning, the hardest part is often just keeping a good thing going.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.035915,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 88,
+      "start": 602.97,
+      "end": 611.97,
+      "text": "Enrolling in a class is easy, but remembering to actually go and retaining the knowledge much harder, and that's exactly how Brilliant is designed to help you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 89,
+      "start": 611.97,
+      "end": 619.97,
+      "text": "Brilliant teaches you math, science, and computer science with engaging pictures and puzzles, then helps you check your actual understanding.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 90,
+      "start": 619.97,
+      "end": 625.97,
+      "text": "In other words, you don't just memorize formulas, you actually see how and why something works.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 91,
+      "start": 625.97,
+      "end": 630.97,
+      "text": "With daily challenges, you can solve quick problems, even on the go, with their mobile app.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043264,
+      "no_speech_prob": 0.819336
+    },
+    {
+      "index": 92,
+      "start": 631.97,
+      "end": 639.97,
+      "text": "They're adding new courses all the time, on computer science, differential equations, scientific thinking, and geometry fundamentals, for example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 93,
+      "start": 639.97,
+      "end": 647.97,
+      "text": "You can use the link in the description to start learning for free, and the first 200 people will get 20% off the annual premium subscription,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 94,
+      "start": 647.97,
+      "end": 652.97,
+      "text": "so you can view all the daily challenges and unlock dozens of problem-solving courses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    },
+    {
+      "index": 95,
+      "start": 652.97,
+      "end": 655.97,
+      "text": "Thanks to Brilliant and to you for watching this video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058258,
+      "no_speech_prob": 0.487305
+    }
+  ],
+  "context_text_chronological": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20% off the annual subscription. Anyone who's ever been to In-N-Out knows to expect, no matter where you are, the same consistent burger, smiling cashier, and long lines. Residents of Portland, Oregon were known to drive four hours each way to the nearest restaurant in Grant's Pass. And before there were any in Phoenix, locals supposedly flew to Ontario, California, had lunch, and promptly flew back. And yet, despite seemingly unlimited demand, In-N-Out is one of the smallest major fast food chains in the world, with only 347 locations. There are over twice as many Whataburgers, almost four times as many Five Guys, and 40 times as many McDonald's, just in the US. Since it began in 1948, it's only opened an average of five restaurants a year, two less than Subway opened in a single day at its peak. In other words, In-N-Out deliberately leaves money on the table, refusing to expand even where huge profits are guaranteed. Why? Profitable high-margin industries are often kind of boring. How do you make money selling toothbrushes? Uh, well, you sell them. Plastic handles with bristles on the end, as it turns out, don't cost very much to make, and therefore have healthy margins. Someone, of course, will try to turn them into a subscription, make them out of aluminum, ooh, and call it the youth brush, but most of us don't have a passion for consumer dental products, so the business model is simple. You hand me a couple of dollars, I'll give you a rod with some bristles. Things get interesting when companies have to get creative. When competition is high or consumer willingness to spend money low, they have to find some other way to make a profit. For restaurants, it's all about selling drinks. With printers, the money's really in the ink, and Costco's low prices, those are offset by annual membership fees. Selling millions of french fries for a few cents each isn't a bad business for McDonald's, but it's found something even better. Real Estate. While the company only owns and operates 15% of its restaurants and the rest are franchised, it owns almost all of their buildings and the land beneath them. Franchisees pay about 8-15% of their revenue as rent to McDonald's, who makes money whether they're profitable or not, and that's on top of the normal franchise royalty. After going on a huge shopping spree during the 2008 recession, McDonald's now owns more than $30 billion worth of real estate. Not only is its business diversified, but much of that income is tax deductible. In other words, McDonald's is actually more real estate investor than fast food franchise. Likewise, if you think of In-N-Out only as a burger chain, it doesn't make much sense. Why not open more locations? Why not change and perfect the recipes, or add new menu items? But if In-N-Out is really about serving a predictable, familiar experience, more than the food itself, opening new locations and trying new things are huge risks. In-N-Out's secret ingredient, the thing it's really selling, is consistency. Nearly every location has the same familiar layout, drive-through lane, and iconic crossed palm trees, a reference to the founder's favourite movie. Unlike other fast food restaurants, the interior is clean, well-lit, and easy on the eyes. Most importantly, the menu is dead simple. Hamburger, cheeseburger, french fries, three flavours of shakes, and the two hamburger patty, two slices of cheese, double-double. That's it. To drink, there's milk, hot cocoa, coffee, classic and diet coke, root beer, doctor pepper, 7-up, lemonade, and iced tea. Even with a few secret variations like grilled cheese, animal fries, and the Neapolitan milkshake, there's nowhere near the selection of, say, a Dairy Queen or McDonald's, which have about twice as many drinks alone as everything at In-N-Out. Its menu changes not seasonally or annually, but maybe once a generation. In 1958, bottled sodas became fountain drinks. Milkshakes were added in 75, doctor pepper 21 years later, lemonade in 2003, and hot chocolate 15 years after that. When a fourth beverage size was proposed, a fight reportedly broke out inside the company. And in 2018, it closed all 37 locations in Texas for a full 48 hours when it found buns that didn't meet its quality standards. The downside of this consistency is that it can't respond to changes in the industry. In 2015, McDonald's was able to turn around declining sales with its all-day breakfast. And caught off guard by Chipotle's success, many chains have tried capturing that market by introducing more healthy alternatives. On the other hand, by keeping things simple, In-N-Out can carefully optimize every ingredient in its business formula. Inevitably, new items mean longer lines, confused employees, and added complexity. The McCafé coffee, for example, required each store to buy a $15,000-$20,000 espresso machine and train employees on how to use it. At In-N-Out, there are five levels of employees. Level 1, the janitor and counter handout. 2, for the drive-through. 3 and 4, who make french fries. 5, who's allowed to assemble burgers. And 6, the only person authorized to man the grill, which requires at least three to six months of training. Not only does this ensure well-trained cooks, but it also turns fast food into a proper, well-paid profession. Level 1 employees are generally paid more than minimum wage, and managers make an average of $160,000 a year, with some making well over a quarter of a million dollars overseeing a single location. It's not hard to see why they stay with the company for an average of 14 years. Almost all current and ex In-N-Out employees say the same thing. It's a stressful, chaotic, and yet highly desirable job. Everyone, full and part-time, receives 401k plans, dental and vision coverage, and paid vacation days. Even more impressive, it does all that despite having some of the lowest prices in the industry. A hamburger, fries, and milkshake costs just $6.85, about half the price of the same order at Shake Shack. Any other company would, without hesitation, export this formula of high-skilled employees, a simple menu, and consistent quality across the country, and then, when that worked, across the globe. The fact that it hasn't is, more than anything else, a reflection of its values, set 70 years ago in Baldwin Park, California, by husband and wife founders Esther and Harry Snyder. It was the first place ever to use a two-way speaker system, allowing drivers to place orders while in line. They would eventually open 18 more locations, but strictly only when they could afford to buy the property outright, never on a loan. Principled, thoughtful founders like the Snyders aren't all that hard to find, but rarely does the second generation inherit those same values. When Harry died in 1967, his son Rich took over, who then died in a plane crash in 93, after which his brother Guy replaced him, only to die six years later. Esther then returned to manage the company. Finally, in the riskiest move of all, after she died in 2006, presidency was given to someone outside the family, Mark Taylor, until Guy's daughter, Lindsay, reached the age of 30, when she inherited 50% of the business, and then almost full control in 2007 at age 35. In and out has seen six different leaders, been heavily pressured by outsiders to franchise the business, and watched the industry it helped create change dramatically. And yet today, 70 years later, any of its very first customers would feel right at home in any of its 300 locations. Its current president is the highest rated female CEO in the US by employees, and while the company continues growing, entering Texas in 2011, Oregon in 2015, and soon Colorado, it does so very carefully. Lindsay, still in her 30s, doesn't expect to expand east of Texas in her lifetime, and never in every US state. With so few locations, every grand opening is a major event, with free organic marketing and much fanfare. Lines are so long that the company hires off-duty police officers to manage traffic, and flies in all-star employees, experienced workers who manage the chaos and long 10-hour shifts. The biggest bottleneck is distribution. Buns are baked daily, milkshakes 100% dairy, and there are no freezers or microwaves. That means ingredients have to be prepared at distribution centers, currently in Baldwin Park, Lathrop, California, Dallas, Phoenix, Draper, Utah, and Colorado Springs. From there, they need to be delivered within a single day's drive to each of their stores, which limits new locations to a roughly 500 mile radius from each distribution center. Whether you're a fan of Shake Shack, Whataburger, Five Guys, or McDonald's, you have to admit there's something special about In-N-Out. While McDonald's will always make more money, serve more customers, and be more widely known, In-N-Out has arguably done something even harder. Keep a legacy alive while staying true to its original ideals over 70 years and through six generations of leadership. The lesson is, whether in business, life, or learning, the hardest part is often just keeping a good thing going. Enrolling in a class is easy, but remembering to actually go and retaining the knowledge much harder, and that's exactly how Brilliant is designed to help you. Brilliant teaches you math, science, and computer science with engaging pictures and puzzles, then helps you check your actual understanding. In other words, you don't just memorize formulas, you actually see how and why something works. With daily challenges, you can solve quick problems, even on the go, with their mobile app. They're adding new courses all the time, on computer science, differential equations, scientific thinking, and geometry fundamentals, for example. You can use the link in the description to start learning for free, and the first 200 people will get 20% off the annual premium subscription, so you can view all the daily challenges and unlock dozens of problem-solving courses. Thanks to Brilliant and to you for watching this video.",
+  "target_text_for_audit": "Only about a third of family businesses survive the second generation, and another 50% don't last until the third. In and out is one of the few chains that has stayed true to its beginnings, despite going through several traumatic changes.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Only about a third of family businesses survive the second generation, and another 50 % don't last until the third.",
+        "start_source": 442.18,
+        "end_source": 448.84,
+        "matching_cue_ids": [
+          69
+        ],
+        "text_similarity": 0.9956,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "In and out is one of the few chains that has stayed true to its beginnings, despite going through several traumatic changes.",
+        "start_source": 449.38,
+        "end_source": 454.98,
+        "matching_cue_ids": [
+          70
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\xfQBkdLa6fo.mp4",
+    "cue_count": 96
+  },
+  "token_estimate_char_div_4": 2537
+}

@@ -1,136 +1,106 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_13",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "d744be147a287564ade389e892f3604fb9d7a4c9fad0b9caf1bb14e5415f3ef5",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "06f5e3902b98f74cda78371710e310a2a3d168f093cb9a5b75fb614bea786fa0",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 2,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": [
-   "Left panel",
-   "Right panel"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "marijuana_usage_rate"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
+  {
+   "row_id": "r1",
+   "panel": "Left panel",
+   "series": "",
+   "entity": "US",
+   "metric": "marijuana_usage_rate",
+   "value": "42",
+   "unit": "%",
+   "relative_value": "0.42",
+   "label": "42%",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "Left panel"
+  },
+  {
+   "row_id": "r2",
+   "panel": "Right panel",
+   "series": "",
+   "entity": "Netherlands",
+   "metric": "marijuana_usage_rate",
+   "value": "20",
+   "unit": "%",
+   "relative_value": "0.2",
+   "label": "20%",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "Right panel"
+  }
+ ],
+ "composition_groups": [
   {
    "panel": "Left panel",
-   "entity": "US",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Left panel",
+   "row_ids": [
+    "r1"
    ],
-   "x_anchors": [],
-   "first_value": 42.0,
-   "last_value": 42.0,
-   "min_value": 42.0,
-   "max_value": 42.0,
-   "missing_value_count": 0,
-   "metric": [
-    "marijuana_usage_rate"
+   "entities": [
+    "US"
    ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "relative_value_sum": 0.42
   },
   {
    "panel": "Right panel",
-   "entity": "Netherlands",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Right panel",
+   "row_ids": [
+    "r2"
    ],
-   "x_anchors": [],
-   "first_value": 20.0,
-   "last_value": 20.0,
-   "min_value": 20.0,
-   "max_value": 20.0,
-   "missing_value_count": 0,
-   "metric": [
-    "marijuana_usage_rate"
+   "entities": [
+    "Netherlands"
    ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "relative_value_sum": 0.2
   }
  ],
- "source_type_counts": {
-  "printed": 2
- },
- "role_counts": {
-  "gauge": 2
- },
- "estimated_or_projected_roles": [],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Left panel",
+    "series": "",
     "entity": "US",
-    "series": "Left panel"
+    "metric": "marijuana_usage_rate",
+    "value": "42",
+    "unit": "%",
+    "relative_value": "0.42",
+    "label": "42%",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Left panel"
    },
    {
-    "panel": "",
+    "row_id": "r2",
+    "panel": "Right panel",
+    "series": "",
     "entity": "Netherlands",
-    "series": "Right panel"
+    "metric": "marijuana_usage_rate",
+    "value": "20",
+    "unit": "%",
+    "relative_value": "0.2",
+    "label": "20%",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Right panel"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

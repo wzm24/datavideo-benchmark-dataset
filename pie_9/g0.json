@@ -1,136 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_9",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "6acf28b2b12922d1a5ada57946e798b504cc6d119e632767773b34fb636bd937",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "de0c0115c3a7874fca88a493fad45930c30826b80b0b3dcee1590ed0f069c9d6",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "508238902034a709d3e7d443dd25b294e6d5564d720a3d7977914211b88a052e",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_exports"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Pearl industry",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 91.7,
-   "last_value": 91.7,
-   "min_value": 91.7,
-   "max_value": 91.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_exports"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Other",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 8.3,
-   "last_value": 8.3,
-   "min_value": 8.3,
-   "max_value": 8.3,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_exports"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_exports",
+   "value": "95",
+   "unit": "%",
+   "relative_value": "0.95",
+   "label": "95%",
+   "role": "slice",
+   "source_type": "narration_printed",
+   "whole_scope": "share_of_exports"
   }
  ],
- "source_type_counts": {
-  "estimated": 2
- },
- "role_counts": {
-  "remainder": 1,
-  "slice": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_exports",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Pearl industry"
+   ],
+   "relative_value_sum": 0.95
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Pearl industry",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Other",
-    "series": ""
+    "metric": "share_of_exports",
+    "value": "95",
+    "unit": "%",
+    "relative_value": "0.95",
+    "label": "95%",
+    "role": "slice",
+    "source_type": "narration_printed",
+    "whole_scope": "share_of_exports"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

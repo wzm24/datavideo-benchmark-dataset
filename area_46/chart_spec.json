@@ -1,14 +1,14 @@
 {
  "clip_id": "area_46",
  "family": "area",
- "sub_type": "two_panel_area",
- "orientation": "cartesian",
+ "sub_type": "area_tile_map",
+ "orientation": "tile_map",
  "series_count": 2,
  "has_reference_line": false,
- "panel_count": 12,
+ "panel_count": 1,
  "has_axis": false,
  "has_legend": null,
- "has_value_labels": null,
+ "has_value_labels": true,
  "text_count": 6,
  "row_count": 2,
  "derived_from": [
@@ -16,6 +16,20 @@
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "tile_counts": {
+  "hurting": 23,
+  "not_hurting": 28
+ },
+ "total_tiles": 51,
+ "visible_values": {
+  "hurting": 46
+ },
+ "implied_values": {
+  "not_hurting": 54
+ },
+ "value_note": "46% is printed in the SVG. The 54% complement is implied by 100%-46%; the 23/51 and 28/51 tile shares differ slightly because the survey percentage has been discretized into tiles.",
+ "batch_status": "approved"
 }

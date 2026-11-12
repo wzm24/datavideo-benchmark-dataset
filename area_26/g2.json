@@ -1,0 +1,138 @@
+{
+ "clip_id": "area_26",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_26",
+  "family": "area",
+  "sub_type": "proportional_square_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "a24394e93c7b8140f72ef4e3be8ba59518130528977d6c0bd2a35fce224999e2"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Earth",
+    "Moon"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Earth",
+      "panel": "",
+      "entity": "Earth",
+      "series": "",
+      "role": "proportional_square_area"
+     },
+     {
+      "mark": "Moon",
+      "panel": "",
+      "entity": "Moon",
+      "series": "",
+      "role": "proportional_square_area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "square_area_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Earth | #1",
+    "Moon | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Earth | #1",
+      "panel": "",
+      "entity": "Earth",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "5974000000000000000000000",
+      "unit": "kg",
+      "role": "proportional_square_area"
+     },
+     {
+      "mark": "Moon | #1",
+      "panel": "",
+      "entity": "Moon",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "73490000000000000000000",
+      "unit": "kg",
+      "role": "proportional_square_area"
+     }
+    ],
+    "expected_relation": "Earth has a greater mass than the Moon (5.974e24 kg vs 7.349e22 kg).",
+    "computation": "none",
+    "encoding": "square_area",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Mass (kg)"
+    }
+   },
+   "accepted_routes": [
+    "square_area_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "The Moon has a greater mass than Earth",
+    "Earth and the Moon have equal mass",
+    "Earth's mass is smaller than the Moon's mass"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

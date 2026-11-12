@@ -1,28 +1,146 @@
 {
  "clip_id": "area_27",
- "intent_en": "To demonstrate that the income distribution in the depicted context is high, allowing for luxury housing at the average level and ensuring even the lowest earners are wealthier than the average American.",
- "previous_intent": "To illustrate the high income levels in high-cost areas like San Francisco, demonstrating that the average standard of living is substantial and even the lowest earners in this group exceed the national average income.",
- "narration_support": "Average, meaning many can afford a big fancy house, or rent a closet in San Francisco. Even the lowest paid 10 % make more than the average American.",
- "chart_support": "Bell curve distribution showing the bottom segment shaded below the average (AVG) line, with a luxury house icon positioned at the higher end of the distribution.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.85,
- "evidence_note": "The narration explicitly claims the lowest earners exceed the American average and mentions luxury housing. The chart visualizes a distribution with a bottom tail below the average and a house icon indicating high value on the right.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that the income distribution density peaks to the right of the average reference line, with a visible '<10%' label near the lower tail.",
+ "intent_en": "Trace the income distribution density across the relative income range and report its shape relative to the average reference.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_27",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Show that the income distribution density peaks to the right of the average reference line, with a visible '<10%' label near the lower tail.",
+  "proposed_intent": "Trace the income distribution density across the relative income range and report its shape relative to the average reference.",
+  "writer": {
+   "intent": "Trace the income distribution density across the relative income range and report its shape relative to the average reference.",
+   "entities": [
+    "Income distribution",
+    "Average"
+   ],
+   "measure": "Income distribution density (relative)",
+   "scope": "Relative income from 0 to 1, single panel",
+   "comparison": "Income distribution density versus the Average reference line",
+   "withheld_answer": "Whether the density peak lies to the right of the average and the presence of a '<10%' label near the lower tail"
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 19,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [
+   {
+    "attempt": 1,
+    "rejected_intent": "Compare where the income-distribution density is concentrated relative to the average and identify the labeled lower-income segment.",
+    "audit": {
+     "protocol_compliant": false,
+     "answer_leak": true,
+     "leaked_phrases": [
+      "where the income-distribution density is concentrated relative to the average"
+     ],
+     "scope_complete": false,
+     "scope_issues": [
+      "Intent asks to compare concentration relative to average, implying a direction/ranking comparison not permitted",
+      "Intent references a labeled lower-income segment, which is a complement/positional hint"
+     ],
+     "supported_by_inputs": true,
+     "natural_request": true,
+     "issues": [
+      "Not one imperative sentence starting with an action verb",
+      "Exceeds 32 words",
+      "Contains comparison/direction leakage",
+      "References label '<10%' indirectly"
+     ]
+    },
+    "mechanical": {
+     "word_count": 17,
+     "sentence_count": 1,
+     "starts_with_action_verb": true,
+     "non_year_numbers": [],
+     "allowed_name_numbers": [],
+     "answer_pattern_matches": [],
+     "mentions_chart_style": false
+    }
+   }
+  ],
+  "repair_attempts": 1,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {},
+   {
+    "prompt_tokens": 5252,
+    "completion_tokens": 138,
+    "total_tokens": 5390,
+    "prompt_tokens_details": {
+     "cached_tokens": 4992
+    },
+    "prompt_cache_hit_tokens": 4992,
+    "prompt_cache_miss_tokens": 260
+   },
+   {
+    "prompt_tokens": 5586,
+    "completion_tokens": 115,
+    "total_tokens": 5701,
+    "prompt_tokens_details": {
+     "cached_tokens": 5248
+    },
+    "prompt_cache_hit_tokens": 5248,
+    "prompt_cache_miss_tokens": 338
+   },
+   {
+    "prompt_tokens": 5251,
+    "completion_tokens": 56,
+    "total_tokens": 5307,
+    "prompt_tokens_details": {
+     "cached_tokens": 4992
+    },
+    "prompt_cache_hit_tokens": 4992,
+    "prompt_cache_miss_tokens": 259
+   }
+  ],
+  "sec": 3.2
+ }
 }

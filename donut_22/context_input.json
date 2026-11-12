@@ -1,0 +1,1076 @@
+{
+  "clip_id": "donut_22",
+  "family": "donut",
+  "video_id": "Uti2niW2BRA",
+  "source_url": "https://www.youtube.com/watch?v=Uti2niW2BRA",
+  "source_title": "Fracking explained: opportunity or danger",
+  "target_window_source": {
+    "start": 77.0,
+    "end": 82.0
+  },
+  "target_mask_interval": {
+    "start": 75.5,
+    "end": 83.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    12
+  ],
+  "masked_cue_ids": [
+    11,
+    12,
+    13
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.18,
+      "end": 4.18,
+      "text": "What is hydraulic fracturing or fracking?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 1,
+      "start": 4.18,
+      "end": 9.18,
+      "text": "Since the Industrial Revolution our energy consumption has risen unceasingly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 2,
+      "start": 9.18,
+      "end": 16.18,
+      "text": "The majority of this energy consumption is supplied by fossil fuels like coal or natural gas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 3,
+      "start": 16.18,
+      "end": 25.18,
+      "text": "Recently there's been a lot of talk about a controversial method of extracting natural gas, hydraulic fracturing or fracking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 4,
+      "start": 25.18,
+      "end": 30.18,
+      "text": "Put simply, fracking describes the recovery of natural gas from deep layers inside the earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 5,
+      "start": 30.18,
+      "end": 38.18,
+      "text": "In this method porous rock is fractured by the use of water, sand and chemicals in order to release the enclosed natural gas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 6,
+      "start": 38.18,
+      "end": 43.18,
+      "text": "The technique of fracking has been known since the 1940s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 7,
+      "start": 43.18,
+      "end": 50.18,
+      "text": "Nonetheless, only in the last 10 years has there been quite a fracking boom, especially in the USA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 8,
+      "start": 50.18,
+      "end": 58.18,
+      "text": "This is because most conventional natural gas sources in America and on the European continent have been exhausted.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 9,
+      "start": 58.18,
+      "end": 63.18,
+      "text": "Thus prices for natural gas and other fuels are rising steadily.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 10,
+      "start": 63.18,
+      "end": 70.18,
+      "text": "Significantly more complicated and expensive methods like fracking have now become attractive and profitable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    }
+  ],
+  "context_after": [
+    {
+      "index": 14,
+      "start": 86.18,
+      "end": 91.18,
+      "text": "First, a shaft is drilled several hundred meters into the earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 15,
+      "start": 91.18,
+      "end": 96.18,
+      "text": "From there, a horizontal hole is drilled into the gas bearing layer of rock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 16,
+      "start": 96.18,
+      "end": 101.18,
+      "text": "Next, the fracking fluid is pumped into the ground using high performance pumps.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 17,
+      "start": 102.18,
+      "end": 106.18,
+      "text": "On average, the fluid consists of 8 million litres of water,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 18,
+      "start": 106.18,
+      "end": 110.18,
+      "text": "which amounts to about the daily consumption of 65,000 people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 110.18,
+      "end": 115.18,
+      "text": "plus several thousand tons of sand and about 200,000 litres of chemicals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 20,
+      "start": 115.18,
+      "end": 121.18,
+      "text": "The mixture penetrates into the rock layer and produces innumerable tiny cracks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 21,
+      "start": 121.18,
+      "end": 125.18,
+      "text": "The sand prevents the cracks from closing again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 22,
+      "start": 125.18,
+      "end": 128.18,
+      "text": "The chemicals perform various tasks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 23,
+      "start": 128.18,
+      "end": 134.18,
+      "text": "Among other things, they compress the water, kill off bacteria or dissolve minerals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 24,
+      "start": 134.18,
+      "end": 138.18,
+      "text": "Next, the majority of the fracking fluid is pumped out again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 25,
+      "start": 138.18,
+      "end": 142.18,
+      "text": "And now the natural gas can be recovered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 26,
+      "start": 142.18,
+      "end": 146.18,
+      "text": "As soon as the gas source is exhausted, the drill hole is sealed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 27,
+      "start": 146.18,
+      "end": 152.18,
+      "text": "As a rule, the fracking fluid is pumped back into deep underground layers and sealed in there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 28,
+      "start": 152.18,
+      "end": 157.18,
+      "text": "However, fracking is also associated with several considerable risks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 29,
+      "start": 157.18,
+      "end": 161.18,
+      "text": "The primary risk consists in the contamination of drinking water sources.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 30,
+      "start": 161.18,
+      "end": 164.18,
+      "text": "Fracking not only consumes large quantities of fresh water,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 31,
+      "start": 164.18,
+      "end": 169.18,
+      "text": "but in addition, the water is subsequently contaminated and is highly toxic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 32,
+      "start": 169.18,
+      "end": 176.18,
+      "text": "The contamination is so severe that the water cannot even be cleaned in a treatment plant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 33,
+      "start": 176.18,
+      "end": 180.18,
+      "text": "Even though the danger is known and theoretically could be managed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 34,
+      "start": 180.18,
+      "end": 186.42,
+      "text": "in the USA already, sources have been contaminated due to negligence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 35,
+      "start": 186.42,
+      "end": 189.42,
+      "text": "No one yet knows how the enclosed water will behave in the future,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 36,
+      "start": 189.42,
+      "end": 194.42,
+      "text": "since there have not yet been any long-term studies on the subject.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 37,
+      "start": 194.42,
+      "end": 200.42,
+      "text": "The chemicals used in fracking vary from the hazardous to the extremely toxic and carcinogenic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 38,
+      "start": 200.42,
+      "end": 203.42,
+      "text": "such as benzol or formic acid.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 39,
+      "start": 203.42,
+      "end": 212.43,
+      "text": "The companies using fracking say nothing about the precise composition of the chemical mixture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 40,
+      "start": 212.43,
+      "end": 218.43,
+      "text": "But it is known that there are about 700 different chemical agents which can be used in the process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 41,
+      "start": 218.43,
+      "end": 222.43,
+      "text": "Another risk is the release of greenhouse gases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 42,
+      "start": 222.43,
+      "end": 227.43,
+      "text": "The natural gas recovered by fracking consists largely of methane,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 43,
+      "start": 227.43,
+      "end": 232.43,
+      "text": "a greenhouse gas which is 25 times more potent than carbon dioxide.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 44,
+      "start": 232.43,
+      "end": 236.43,
+      "text": "Natural gas is less harmful than coal when burned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 45,
+      "start": 236.43,
+      "end": 242.43,
+      "text": "But nonetheless, the negative effects of fracking on the climate balance are overall greater.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 46,
+      "start": 242.43,
+      "end": 247.43,
+      "text": "Firstly, the fracking process requires a very large consumption of energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 47,
+      "start": 247.43,
+      "end": 250.43,
+      "text": "Secondly, the drill holes are quickly exhausted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 48,
+      "start": 250.43,
+      "end": 256.43,
+      "text": "and it's necessary to drill fracking holes much more frequently than for classical natural gas wells.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 49,
+      "start": 256.43,
+      "end": 264.43,
+      "text": "In addition, about 3% of the recovered gas is lost in the extraction and escapes into the atmosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 50,
+      "start": 264.43,
+      "end": 267.43,
+      "text": "So how is fracking and its expected benefits to be assessed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 51,
+      "start": 267.43,
+      "end": 271.43,
+      "text": "when the advantages are balanced against the disadvantages?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 52,
+      "start": 271.43,
+      "end": 276.43,
+      "text": "When properly employed, this technique offers one way in the short to medium term",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 53,
+      "start": 276.43,
+      "end": 281.19,
+      "text": "to meet our demand for lower cost energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    },
+    {
+      "index": 54,
+      "start": 281.19,
+      "end": 284.19,
+      "text": "But the long term consequences of fracking are unforeseeable",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    },
+    {
+      "index": 55,
+      "start": 284.19,
+      "end": 288.19,
+      "text": "and the risk to our drinking water thus should not be underestimated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.18,
+      "end": 4.18,
+      "text": "What is hydraulic fracturing or fracking?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 1,
+      "start": 4.18,
+      "end": 9.18,
+      "text": "Since the Industrial Revolution our energy consumption has risen unceasingly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 2,
+      "start": 9.18,
+      "end": 16.18,
+      "text": "The majority of this energy consumption is supplied by fossil fuels like coal or natural gas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 3,
+      "start": 16.18,
+      "end": 25.18,
+      "text": "Recently there's been a lot of talk about a controversial method of extracting natural gas, hydraulic fracturing or fracking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128484,
+      "no_speech_prob": 0.029724
+    },
+    {
+      "index": 4,
+      "start": 25.18,
+      "end": 30.18,
+      "text": "Put simply, fracking describes the recovery of natural gas from deep layers inside the earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 5,
+      "start": 30.18,
+      "end": 38.18,
+      "text": "In this method porous rock is fractured by the use of water, sand and chemicals in order to release the enclosed natural gas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 6,
+      "start": 38.18,
+      "end": 43.18,
+      "text": "The technique of fracking has been known since the 1940s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 7,
+      "start": 43.18,
+      "end": 50.18,
+      "text": "Nonetheless, only in the last 10 years has there been quite a fracking boom, especially in the USA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069054,
+      "no_speech_prob": 0.004608
+    },
+    {
+      "index": 8,
+      "start": 50.18,
+      "end": 58.18,
+      "text": "This is because most conventional natural gas sources in America and on the European continent have been exhausted.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 9,
+      "start": 58.18,
+      "end": 63.18,
+      "text": "Thus prices for natural gas and other fuels are rising steadily.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 10,
+      "start": 63.18,
+      "end": 70.18,
+      "text": "Significantly more complicated and expensive methods like fracking have now become attractive and profitable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047641,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 14,
+      "start": 86.18,
+      "end": 91.18,
+      "text": "First, a shaft is drilled several hundred meters into the earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 15,
+      "start": 91.18,
+      "end": 96.18,
+      "text": "From there, a horizontal hole is drilled into the gas bearing layer of rock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 16,
+      "start": 96.18,
+      "end": 101.18,
+      "text": "Next, the fracking fluid is pumped into the ground using high performance pumps.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073186,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 17,
+      "start": 102.18,
+      "end": 106.18,
+      "text": "On average, the fluid consists of 8 million litres of water,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 18,
+      "start": 106.18,
+      "end": 110.18,
+      "text": "which amounts to about the daily consumption of 65,000 people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 110.18,
+      "end": 115.18,
+      "text": "plus several thousand tons of sand and about 200,000 litres of chemicals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 20,
+      "start": 115.18,
+      "end": 121.18,
+      "text": "The mixture penetrates into the rock layer and produces innumerable tiny cracks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 21,
+      "start": 121.18,
+      "end": 125.18,
+      "text": "The sand prevents the cracks from closing again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 22,
+      "start": 125.18,
+      "end": 128.18,
+      "text": "The chemicals perform various tasks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061047,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 23,
+      "start": 128.18,
+      "end": 134.18,
+      "text": "Among other things, they compress the water, kill off bacteria or dissolve minerals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 24,
+      "start": 134.18,
+      "end": 138.18,
+      "text": "Next, the majority of the fracking fluid is pumped out again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 25,
+      "start": 138.18,
+      "end": 142.18,
+      "text": "And now the natural gas can be recovered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 26,
+      "start": 142.18,
+      "end": 146.18,
+      "text": "As soon as the gas source is exhausted, the drill hole is sealed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 27,
+      "start": 146.18,
+      "end": 152.18,
+      "text": "As a rule, the fracking fluid is pumped back into deep underground layers and sealed in there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 28,
+      "start": 152.18,
+      "end": 157.18,
+      "text": "However, fracking is also associated with several considerable risks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045938,
+      "no_speech_prob": 0.001
+    },
+    {
+      "index": 29,
+      "start": 157.18,
+      "end": 161.18,
+      "text": "The primary risk consists in the contamination of drinking water sources.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 30,
+      "start": 161.18,
+      "end": 164.18,
+      "text": "Fracking not only consumes large quantities of fresh water,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 31,
+      "start": 164.18,
+      "end": 169.18,
+      "text": "but in addition, the water is subsequently contaminated and is highly toxic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 32,
+      "start": 169.18,
+      "end": 176.18,
+      "text": "The contamination is so severe that the water cannot even be cleaned in a treatment plant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 33,
+      "start": 176.18,
+      "end": 180.18,
+      "text": "Even though the danger is known and theoretically could be managed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 34,
+      "start": 180.18,
+      "end": 186.42,
+      "text": "in the USA already, sources have been contaminated due to negligence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054397,
+      "no_speech_prob": 0.009262
+    },
+    {
+      "index": 35,
+      "start": 186.42,
+      "end": 189.42,
+      "text": "No one yet knows how the enclosed water will behave in the future,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 36,
+      "start": 189.42,
+      "end": 194.42,
+      "text": "since there have not yet been any long-term studies on the subject.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 37,
+      "start": 194.42,
+      "end": 200.42,
+      "text": "The chemicals used in fracking vary from the hazardous to the extremely toxic and carcinogenic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 38,
+      "start": 200.42,
+      "end": 203.42,
+      "text": "such as benzol or formic acid.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 39,
+      "start": 203.42,
+      "end": 212.43,
+      "text": "The companies using fracking say nothing about the precise composition of the chemical mixture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 40,
+      "start": 212.43,
+      "end": 218.43,
+      "text": "But it is known that there are about 700 different chemical agents which can be used in the process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052351,
+      "no_speech_prob": 0.002018
+    },
+    {
+      "index": 41,
+      "start": 218.43,
+      "end": 222.43,
+      "text": "Another risk is the release of greenhouse gases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 42,
+      "start": 222.43,
+      "end": 227.43,
+      "text": "The natural gas recovered by fracking consists largely of methane,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 43,
+      "start": 227.43,
+      "end": 232.43,
+      "text": "a greenhouse gas which is 25 times more potent than carbon dioxide.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 44,
+      "start": 232.43,
+      "end": 236.43,
+      "text": "Natural gas is less harmful than coal when burned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 45,
+      "start": 236.43,
+      "end": 242.43,
+      "text": "But nonetheless, the negative effects of fracking on the climate balance are overall greater.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 46,
+      "start": 242.43,
+      "end": 247.43,
+      "text": "Firstly, the fracking process requires a very large consumption of energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038821,
+      "no_speech_prob": 0.000743
+    },
+    {
+      "index": 47,
+      "start": 247.43,
+      "end": 250.43,
+      "text": "Secondly, the drill holes are quickly exhausted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 48,
+      "start": 250.43,
+      "end": 256.43,
+      "text": "and it's necessary to drill fracking holes much more frequently than for classical natural gas wells.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 49,
+      "start": 256.43,
+      "end": 264.43,
+      "text": "In addition, about 3% of the recovered gas is lost in the extraction and escapes into the atmosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 50,
+      "start": 264.43,
+      "end": 267.43,
+      "text": "So how is fracking and its expected benefits to be assessed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 51,
+      "start": 267.43,
+      "end": 271.43,
+      "text": "when the advantages are balanced against the disadvantages?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 52,
+      "start": 271.43,
+      "end": 276.43,
+      "text": "When properly employed, this technique offers one way in the short to medium term",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047194,
+      "no_speech_prob": 0.000495
+    },
+    {
+      "index": 53,
+      "start": 276.43,
+      "end": 281.19,
+      "text": "to meet our demand for lower cost energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    },
+    {
+      "index": 54,
+      "start": 281.19,
+      "end": 284.19,
+      "text": "But the long term consequences of fracking are unforeseeable",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    },
+    {
+      "index": 55,
+      "start": 284.19,
+      "end": 288.19,
+      "text": "and the risk to our drinking water thus should not be underestimated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109375,
+      "no_speech_prob": 0.106201
+    }
+  ],
+  "context_text_chronological": "What is hydraulic fracturing or fracking? Since the Industrial Revolution our energy consumption has risen unceasingly. The majority of this energy consumption is supplied by fossil fuels like coal or natural gas. Recently there's been a lot of talk about a controversial method of extracting natural gas, hydraulic fracturing or fracking. Put simply, fracking describes the recovery of natural gas from deep layers inside the earth. In this method porous rock is fractured by the use of water, sand and chemicals in order to release the enclosed natural gas. The technique of fracking has been known since the 1940s. Nonetheless, only in the last 10 years has there been quite a fracking boom, especially in the USA. This is because most conventional natural gas sources in America and on the European continent have been exhausted. Thus prices for natural gas and other fuels are rising steadily. Significantly more complicated and expensive methods like fracking have now become attractive and profitable. First, a shaft is drilled several hundred meters into the earth. From there, a horizontal hole is drilled into the gas bearing layer of rock. Next, the fracking fluid is pumped into the ground using high performance pumps. On average, the fluid consists of 8 million litres of water, which amounts to about the daily consumption of 65,000 people, plus several thousand tons of sand and about 200,000 litres of chemicals. The mixture penetrates into the rock layer and produces innumerable tiny cracks. The sand prevents the cracks from closing again. The chemicals perform various tasks. Among other things, they compress the water, kill off bacteria or dissolve minerals. Next, the majority of the fracking fluid is pumped out again. And now the natural gas can be recovered. As soon as the gas source is exhausted, the drill hole is sealed. As a rule, the fracking fluid is pumped back into deep underground layers and sealed in there. However, fracking is also associated with several considerable risks. The primary risk consists in the contamination of drinking water sources. Fracking not only consumes large quantities of fresh water, but in addition, the water is subsequently contaminated and is highly toxic. The contamination is so severe that the water cannot even be cleaned in a treatment plant. Even though the danger is known and theoretically could be managed, in the USA already, sources have been contaminated due to negligence. No one yet knows how the enclosed water will behave in the future, since there have not yet been any long-term studies on the subject. The chemicals used in fracking vary from the hazardous to the extremely toxic and carcinogenic, such as benzol or formic acid. The companies using fracking say nothing about the precise composition of the chemical mixture. But it is known that there are about 700 different chemical agents which can be used in the process. Another risk is the release of greenhouse gases. The natural gas recovered by fracking consists largely of methane, a greenhouse gas which is 25 times more potent than carbon dioxide. Natural gas is less harmful than coal when burned. But nonetheless, the negative effects of fracking on the climate balance are overall greater. Firstly, the fracking process requires a very large consumption of energy. Secondly, the drill holes are quickly exhausted and it's necessary to drill fracking holes much more frequently than for classical natural gas wells. In addition, about 3% of the recovered gas is lost in the extraction and escapes into the atmosphere. So how is fracking and its expected benefits to be assessed when the advantages are balanced against the disadvantages? When properly employed, this technique offers one way in the short to medium term to meet our demand for lower cost energy. But the long term consequences of fracking are unforeseeable and the risk to our drinking water thus should not be underestimated.",
+  "target_text_for_audit": "Over 60% of all new oil and gas wells are drilled by using fracking.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Over 60 % of all new oil and gas wells are drilled by using fracking.",
+        "start_source": 76.96,
+        "end_source": 81.76,
+        "matching_cue_ids": [
+          12
+        ],
+        "text_similarity": 0.9926,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\Uti2niW2BRA.mp4",
+    "cue_count": 56
+  },
+  "token_estimate_char_div_4": 986
+}

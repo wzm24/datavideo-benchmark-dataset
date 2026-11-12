@@ -1,0 +1,231 @@
+{
+ "clip_id": "pie_21",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the shares of U.S. adults choosing each response category regarding the amount of economic inequality in the U.S. from the survey period.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the shares of U.S. adults choosing each response category regarding economic inequality.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Too much",
+     "label": "61%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "The right amount",
+     "label": "23%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Too little",
+     "label": "13%",
+     "role": "slice",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "composition_order",
+   "claim": "Among U.S. adults, 'Too much' is the largest response category at 61%, followed by 'The right amount' at 23%, and 'Too little' at 13%.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Too much",
+     "metric": "share_of_respondents",
+     "field": "relative_value",
+     "value": "0.61",
+     "table_value": "61",
+     "table_relative_value": "0.61",
+     "unit": "%",
+     "relative_value": "0.61",
+     "label": "61%",
+     "role": "slice",
+     "source_type": "printed",
+     "whole_scope": "share_of_respondents"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "The right amount",
+     "metric": "share_of_respondents",
+     "field": "relative_value",
+     "value": "0.23",
+     "table_value": "23",
+     "table_relative_value": "0.23",
+     "unit": "%",
+     "relative_value": "0.23",
+     "label": "23%",
+     "role": "slice",
+     "source_type": "printed",
+     "whole_scope": "share_of_respondents"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Too little",
+     "metric": "share_of_respondents",
+     "field": "relative_value",
+     "value": "0.13",
+     "table_value": "13",
+     "table_relative_value": "0.13",
+     "unit": "%",
+     "relative_value": "0.13",
+     "label": "13%",
+     "role": "slice",
+     "source_type": "printed",
+     "whole_scope": "share_of_respondents"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Orders or compares the three response categories by share: Too much > The right amount > Too little.",
+    "Reports the three shares as 61%, 23%, and 13% in a comparative context."
+   ],
+   "reject": [
+    "Omits one or more response categories from the comparison.",
+    "Presents only a single category share without comparing it to the others.",
+    "Uses incorrect values or reverses the order."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Mentioning that the three printed shares sum to 97%, leaving an unspecified remainder."
+ ],
+ "unsupported_to_avoid": [
+  "Deriving or displaying an inferred remainder category not present in the data.",
+  "Adding shares across panels or series (none exist here).",
+  "Reporting absolute counts of respondents."
+ ],
+ "review_notes": [
+  "The intent asks to compare shares across response categories, so a single composition_order unit captures the required analytical content.",
+  "No cross-panel or series comparison is needed because the chart is a single full pie."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "Too much",
+    "metric": "share_of_respondents",
+    "value": "61",
+    "unit": "%",
+    "relative_value": "0.61",
+    "label": "61%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "The right amount",
+    "metric": "share_of_respondents",
+    "value": "23",
+    "unit": "%",
+    "relative_value": "0.23",
+    "label": "23%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
+   },
+   {
+    "row_id": "r3",
+    "panel": "",
+    "series": "",
+    "entity": "Too little",
+    "metric": "share_of_respondents",
+    "value": "13",
+    "unit": "%",
+    "relative_value": "0.13",
+    "label": "13%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

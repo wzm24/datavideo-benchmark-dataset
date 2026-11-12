@@ -1,195 +1,126 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_21",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "f7c7ebe5d184b47ca58b1feae6d0742a9bcb62a0b0d6b63a2cbb55a32061f46c",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "c55454d4fda79ca3e6117d051f01ac40a2a3162a818f56d0e9634359175ba1ad",
- "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "6a6527480a07c575361b784dded7e377efd1360c17d4a236a7170c9fb5708ec4",
+ "row_count": 3,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_respondents"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Too much",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 61.0,
-   "last_value": 61.0,
-   "min_value": 61.0,
-   "max_value": 61.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_respondents",
+   "value": "61",
+   "unit": "%",
+   "relative_value": "0.61",
+   "label": "61%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_respondents"
   },
   {
+   "row_id": "r2",
    "panel": "",
-   "entity": "No answer / other",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.8,
-   "last_value": 2.8,
-   "min_value": 2.8,
-   "max_value": 2.8,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
-  },
-  {
-   "panel": "",
    "entity": "The right amount",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 23.0,
-   "last_value": 23.0,
-   "min_value": 23.0,
-   "max_value": 23.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_respondents",
+   "value": "23",
+   "unit": "%",
+   "relative_value": "0.23",
+   "label": "23%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_respondents"
   },
   {
+   "row_id": "r3",
    "panel": "",
-   "entity": "Too little",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 13.0,
-   "last_value": 13.0,
-   "min_value": 13.0,
-   "max_value": 13.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "Too little",
+   "metric": "share_of_respondents",
+   "value": "13",
+   "unit": "%",
+   "relative_value": "0.13",
+   "label": "13%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_respondents"
   }
  ],
- "source_type_counts": {
-  "estimated": 1,
-  "printed": 3
- },
- "role_counts": {
-  "remainder": 1,
-  "slice": 3
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_respondents",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "entities": [
+    "Too much",
+    "The right amount",
+    "Too little"
+   ],
+   "relative_value_sum": 0.97
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Too much",
-    "series": ""
+    "metric": "share_of_respondents",
+    "value": "61",
+    "unit": "%",
+    "relative_value": "0.61",
+    "label": "61%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
    },
    {
+    "row_id": "r2",
     "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
-   },
-   {
-    "panel": "",
+    "series": "",
     "entity": "The right amount",
-    "series": ""
+    "metric": "share_of_respondents",
+    "value": "23",
+    "unit": "%",
+    "relative_value": "0.23",
+    "label": "23%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "Too little",
-    "series": ""
+    "metric": "share_of_respondents",
+    "value": "13",
+    "unit": "%",
+    "relative_value": "0.13",
+    "label": "13%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
    }
   ],
-  "required_entity_count": 4,
-  "required_row_count": 4,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

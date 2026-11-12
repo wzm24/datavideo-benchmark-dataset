@@ -1,0 +1,711 @@
+{
+  "video_id": "NXHwelwmQPA",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\NXHwelwmQPA.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 316.349,
+  "duration_after_vad_seconds": 296.912,
+  "cue_count": 77,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.08,
+      "text": "In 1957, the Soviet Union launched the Sputnik satellite into orbit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 1,
+      "start": 7.08,
+      "end": 12.2,
+      "text": "They beat America into space, and the U.S. feared that they were falling behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 2,
+      "start": 12.2,
+      "end": 18.12,
+      "text": "One of our greatest and most glaring deficiencies is the failure of us in this country to give",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 3,
+      "start": 18.12,
+      "end": 22.4,
+      "text": "high priority enough to scientific education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 4,
+      "start": 22.4,
+      "end": 27.16,
+      "text": "American newsreels like this one stoked anxieties that the country was wasting its intellectual",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 5,
+      "start": 27.16,
+      "end": 28.16,
+      "text": "talents.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153009,
+      "no_speech_prob": 0.065979
+    },
+    {
+      "index": 6,
+      "start": 28.16,
+      "end": 34.0,
+      "text": "Our more than 200,000 each year of our ableist high school graduate must get along without",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 7,
+      "start": 34.0,
+      "end": 35.56,
+      "text": "higher education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 8,
+      "start": 35.56,
+      "end": 39.88,
+      "text": "So in 1958, President Eisenhower signed a bill that let college students borrow up to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 9,
+      "start": 39.88,
+      "end": 43.0,
+      "text": "$1,000 a year from the federal government.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 10,
+      "start": 43.0,
+      "end": 47.4,
+      "text": "And ever since, student loans have helped more and more people go to college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 11,
+      "start": 47.4,
+      "end": 51.92,
+      "text": "But as demand for higher education increased, the costs did too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 12,
+      "start": 51.92,
+      "end": 54.36,
+      "text": "So students took out bigger loans each year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163161,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 13,
+      "start": 54.36,
+      "end": 59.28,
+      "text": "In the early 1970s, the average loan was about $1,000 a year in today's dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105724,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 14,
+      "start": 59.28,
+      "end": 62.64,
+      "text": "Now it's around $7,000 a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105724,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 15,
+      "start": 62.64,
+      "end": 68.52,
+      "text": "And when you factor in interest, the average person with debt owes about $30,000 when they",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105724,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 16,
+      "start": 68.52,
+      "end": 70.4,
+      "text": "get their bachelor's degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105724,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 17,
+      "start": 70.4,
+      "end": 84.18,
+      "text": "If we combine all the student debt Americans currently owe, it adds up to $1.6 trillion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105724,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 18,
+      "start": 84.18,
+      "end": 87.34,
+      "text": "This is the student debt crisis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 19,
+      "start": 87.34,
+      "end": 92.46,
+      "text": "But what if the government canceled all of this debt?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 20,
+      "start": 92.46,
+      "end": 98.34,
+      "text": "Under the proposal that we introduced today, all student debt would be canceled in six",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 21,
+      "start": 98.34,
+      "end": 99.34,
+      "text": "months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 22,
+      "start": 99.34,
+      "end": 109.02,
+      "text": "We're going to roll back student loan debt for about 95% of students who have debt.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 23,
+      "start": 109.02,
+      "end": 113.58,
+      "text": "But $1.6 trillion is a lot of debt to cancel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142508,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 24,
+      "start": 113.58,
+      "end": 118.38,
+      "text": "So it's worth asking, who exactly would this help?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 25,
+      "start": 118.38,
+      "end": 124.22,
+      "text": "The millennial generation was told that the only way they would get the good jobs available",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 26,
+      "start": 124.22,
+      "end": 127.34,
+      "text": "is if they received a college education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 27,
+      "start": 127.34,
+      "end": 132.9,
+      "text": "Tens of thousands, hundreds of thousands, millions, billions of dollars to our students.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 28,
+      "start": 132.9,
+      "end": 135.94,
+      "text": "And it is now crushing them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 29,
+      "start": 135.94,
+      "end": 139.38,
+      "text": "First let's look at exactly who owes this money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 30,
+      "start": 139.38,
+      "end": 142.42,
+      "text": "Each of these bubbles represents about a thousand households.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.173453,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 31,
+      "start": 142.42,
+      "end": 144.98,
+      "text": "The bigger the bubble, the more they owe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 32,
+      "start": 144.98,
+      "end": 147.42,
+      "text": "So first let's organize the debts by age.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 33,
+      "start": 147.42,
+      "end": 153.5,
+      "text": "Okay, we can clearly see that most of the debt is owed by people in their 20s and 30s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 34,
+      "start": 153.5,
+      "end": 158.82,
+      "text": "That includes some of these really huge debts, held by relatively few people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 35,
+      "start": 158.82,
+      "end": 163.02,
+      "text": "And since younger people haven't had time to build wealth, it means the net worth of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 36,
+      "start": 163.02,
+      "end": 166.9,
+      "text": "people with student loans are on the lower end.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 37,
+      "start": 166.9,
+      "end": 171.14,
+      "text": "So it seems like cancelling student debt would overwhelmingly help younger people who don't",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131499,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 38,
+      "start": 171.14,
+      "end": 172.94,
+      "text": "have money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 39,
+      "start": 172.94,
+      "end": 174.1,
+      "text": "But let's dig a little deeper.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 40,
+      "start": 174.1,
+      "end": 177.42,
+      "text": "Let's try organizing the debts by education level.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 41,
+      "start": 177.42,
+      "end": 180.18,
+      "text": "This way we can see what their student loans paid for.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 42,
+      "start": 180.18,
+      "end": 182.86,
+      "text": "The biggest group are those with bachelor's degrees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 43,
+      "start": 182.86,
+      "end": 186.9,
+      "text": "But the most debt is held by people who either have a master's or beyond, like a PhD or",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 44,
+      "start": 186.9,
+      "end": 187.9,
+      "text": "an MD.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 45,
+      "start": 187.9,
+      "end": 190.34,
+      "text": "And they owe a lot of money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 46,
+      "start": 190.34,
+      "end": 195.02,
+      "text": "But when we organize these debts by household income, we can see that many of these people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 47,
+      "start": 195.02,
+      "end": 196.66,
+      "text": "also earn a lot of money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 48,
+      "start": 196.66,
+      "end": 200.66,
+      "text": "In fact, the majority of debt is held by people here, in the middle class.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141835,
+      "no_speech_prob": 0.022278
+    },
+    {
+      "index": 49,
+      "start": 200.66,
+      "end": 203.58,
+      "text": "And these people earn more money because they have an education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 50,
+      "start": 203.58,
+      "end": 205.42,
+      "text": "So let's add our findings to the list.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 51,
+      "start": 205.42,
+      "end": 209.9,
+      "text": "It looks like the main beneficiaries are younger people, who don't have a lot of money yet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 52,
+      "start": 209.9,
+      "end": 215.42,
+      "text": "but they have the degrees and jobs to give them a promising future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 53,
+      "start": 215.42,
+      "end": 220.26,
+      "text": "Bernie Sanders wants to cancel student debt for everyone, including people over here who",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 54,
+      "start": 220.26,
+      "end": 223.94,
+      "text": "earn hundreds of thousands of dollars a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 55,
+      "start": 223.94,
+      "end": 227.9,
+      "text": "Elizabeth Warren wants to cancel all debt for these bubbles, households earning less",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 56,
+      "start": 227.9,
+      "end": 229.98,
+      "text": "than $100,000 a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143359,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 57,
+      "start": 229.98,
+      "end": 235.48,
+      "text": "Over $100,000, the loan forgiveness phases out, until we reach $250,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 58,
+      "start": 235.48,
+      "end": 239.5,
+      "text": "So these people wouldn't get any help.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 59,
+      "start": 239.5,
+      "end": 242.22,
+      "text": "Here's the hard thing about canceling student debt.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 60,
+      "start": 242.22,
+      "end": 245.82,
+      "text": "All these people had the opportunity to go to college, and many of them do okay because",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 61,
+      "start": 245.82,
+      "end": 246.82,
+      "text": "of it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 62,
+      "start": 246.82,
+      "end": 254.74,
+      "text": "But here is everyone else, the white dots, who didn't go to college, many of whom never",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 63,
+      "start": 254.74,
+      "end": 257.02,
+      "text": "got the chance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.178156,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 64,
+      "start": 257.02,
+      "end": 261.66,
+      "text": "Calculating the country's student debt won't help them at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 65,
+      "start": 261.66,
+      "end": 266.38,
+      "text": "But for Sanders and Warren, this is part of a larger belief about what America should",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 66,
+      "start": 266.38,
+      "end": 267.38,
+      "text": "be.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 67,
+      "start": 267.38,
+      "end": 270.9,
+      "text": "Right now, we have an economy in the 21st century that basically says you're going to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 68,
+      "start": 270.9,
+      "end": 272.66,
+      "text": "need some post-high school training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 69,
+      "start": 272.66,
+      "end": 278.06,
+      "text": "A century ago, when that was true about high school, we made high school free for everybody.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 70,
+      "start": 278.06,
+      "end": 282.1,
+      "text": "People should not be punished for getting a higher education in a competitive global",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 71,
+      "start": 282.1,
+      "end": 283.1,
+      "text": "economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168342,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 72,
+      "start": 283.1,
+      "end": 288.98,
+      "text": "70 years ago, America was worried great students were being fenced out of college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.181315,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 73,
+      "start": 288.98,
+      "end": 291.1,
+      "text": "People who could save the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.181315,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 74,
+      "start": 291.1,
+      "end": 296.34,
+      "text": "People who could help America get ahead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.181315,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 75,
+      "start": 296.34,
+      "end": 301.42,
+      "text": "Now this conversation is about who is allowed to build a stable future, and the great debt",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.181315,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 76,
+      "start": 301.42,
+      "end": 303.94,
+      "text": "to be paid for a desperate chance at that dream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.181315,
+      "no_speech_prob": 0.025955
+    }
+  ],
+  "created_at": "2026-11-05T02:12:14+0800"
+}

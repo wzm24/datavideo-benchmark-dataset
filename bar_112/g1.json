@@ -142,7 +142,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -173,7 +174,8 @@
     "reversing the endpoints",
     "omitting one endpoint"
    ],
-   "evidence": "The labeled endpoint bars encode the comparison."
+   "evidence": "The labeled endpoint bars encode the comparison.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -216,7 +218,8 @@
     "showing only the Bottom 10% group",
     "making the Bottom 40% groups look close to the Top 10% group"
    ],
-   "evidence": "The four adjacent low bars at the right encode the broader low-income group."
+   "evidence": "The four adjacent low bars at the right encode the broader low-income group.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -258,11 +261,12 @@
   "u4_downgraded_to_optional_valid_2026_10_27",
   "v1_intent_approved_2026_10_27",
   "v1_intent_approved_2026_10_27",
-  "v1_intent_approved_2026_10_27"
+  "v1_intent_approved_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "sequence_context": "Across this sequence, household income inequality places Dewi's family far above Putri's, translates into unequal access to clean water, and affects a broader low-income population than the poorest decile alone.",
  "related_clips": [
   "bar_110",
@@ -300,5 +304,12 @@
    ]
   }
  ],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

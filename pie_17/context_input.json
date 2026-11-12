@@ -1,0 +1,1840 @@
+{
+  "clip_id": "pie_17",
+  "family": "pie",
+  "video_id": "SZ8HlNGMolw",
+  "source_url": "https://www.youtube.com/watch?v=SZ8HlNGMolw",
+  "source_title": "How India ran out of oxygen",
+  "target_window_source": {
+    "start": 124.0,
+    "end": 134.0
+  },
+  "target_mask_interval": {
+    "start": 122.5,
+    "end": 135.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    20,
+    21,
+    22
+  ],
+  "masked_cue_ids": [
+    20,
+    21,
+    22
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.21,
+      "end": 6.77,
+      "text": "It was the middle of the night on May 12th, when this hospital in Goa hit a breaking point.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 1,
+      "start": 6.77,
+      "end": 11.01,
+      "text": "I got an SOS message from one of the doctors at GNC, the Goa Medical College.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 2,
+      "start": 11.01,
+      "end": 16.45,
+      "text": "She reported that she had no oxygen coming in the central pipeline of her ward.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 3,
+      "start": 16.45,
+      "end": 21.49,
+      "text": "About two o'clock, we got through some officials and they told us nothing like this was happening at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 4,
+      "start": 21.49,
+      "end": 27.01,
+      "text": "The doctor took a video of the entire ward with all the ventilator and ICU machines beeping.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 5,
+      "start": 27.09,
+      "end": 32.85,
+      "text": "An hour later, the police arrived and confirmed that the oxygen in the pipeline was fluctuating.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 6,
+      "start": 33.65,
+      "end": 37.73,
+      "text": "That night, at least 20 people died due to lack of oxygen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 7,
+      "start": 37.73,
+      "end": 42.69,
+      "text": "The next day the issue blew up on social media and that's when we came to know",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 8,
+      "start": 42.69,
+      "end": 47.41,
+      "text": "from the doctors that this was not that night issue. It has been happening since two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 9,
+      "start": 47.41,
+      "end": 53.97,
+      "text": "It began in April 2021, when India experienced a sharp increase in coronavirus cases,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 10,
+      "start": 53.97,
+      "end": 58.21,
+      "text": "with hundreds of thousands of daily new infections, the country's been registering",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 11,
+      "start": 58.21,
+      "end": 64.77,
+      "text": "some of the highest cases in the world. And when these cases went up, so did the demand",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 12,
+      "start": 64.77,
+      "end": 70.29,
+      "text": "for life-saving oxygen. But India hasn't been able to match that demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 13,
+      "start": 71.33,
+      "end": 77.65,
+      "text": "And that's added avoidable deaths to a second wave of COVID-19 that has devastated the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 14,
+      "start": 78.37,
+      "end": 84.61,
+      "text": "In May, more than 70 COVID patients died as a result of the oxygen crisis at the hospital in Goa.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 15,
+      "start": 85.49,
+      "end": 91.41,
+      "text": "The same thing has been happening across India. Hospitals have seen COVID patients die because",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 16,
+      "start": 91.41,
+      "end": 98.45,
+      "text": "they ran out of oxygen. And they started turning people away. Many were forced to wait in line",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 17,
+      "start": 98.45,
+      "end": 104.61,
+      "text": "for hours to fill oxygen cylinders for sick family members. This shortage seems to have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 18,
+      "start": 104.69,
+      "end": 110.37,
+      "text": "caught India off guard and has made the news in this pandemic. But the thing is,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080996,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 111.09,
+      "end": 116.69,
+      "text": "India has run out of oxygen before. So why does this keep happening?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080996,
+      "no_speech_prob": 0.001099
+    }
+  ],
+  "context_after": [
+    {
+      "index": 23,
+      "start": 140.35,
+      "end": 146.35,
+      "text": "are concentrated around the country. India moves that oxygen from one point to another,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 24,
+      "start": 146.35,
+      "end": 152.03,
+      "text": "through a large and complex supply chain that spans several states and thousands of hospitals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 25,
+      "start": 153.15,
+      "end": 157.07,
+      "text": "Here's what that typically looks like. It starts in the manufacturing plants,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 26,
+      "start": 157.07,
+      "end": 162.59,
+      "text": "where oxygen is extracted from the air and turned into liquid. That oxygen is sent to big",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 27,
+      "start": 162.59,
+      "end": 169.07,
+      "text": "jumbo tankers for storage. From there, it's sent to distributors, where liquid oxygen is compressed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 28,
+      "start": 169.07,
+      "end": 175.47,
+      "text": "into a gas ready to be used. It's then funneled into tankers or smaller cylinders and sent to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 29,
+      "start": 175.47,
+      "end": 181.39,
+      "text": "local suppliers, who then send oxygen to hospitals, local vendors, or directly the patients.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 30,
+      "start": 182.11,
+      "end": 187.79,
+      "text": "Some big hospitals skip local suppliers. They store liquid oxygen in tanks on site.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 31,
+      "start": 188.51,
+      "end": 194.03,
+      "text": "The steps in the supply chain seem simple enough. The problem is the distance between",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 32,
+      "start": 194.03,
+      "end": 200.35,
+      "text": "one point and another. And that makes transportation one of the weakest links in the supply chain",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 33,
+      "start": 200.35,
+      "end": 205.71,
+      "text": "nationwide. Most of the manufacturers and suppliers concentrated in these states",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 34,
+      "start": 206.27,
+      "end": 214.27,
+      "text": "don't deliver oxygen outside of a 50 kilometer radius. The ones who do charge extra. Even then,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 35,
+      "start": 214.27,
+      "end": 220.27,
+      "text": "long distances can compromise the oxygen, making hospitals around the country vulnerable to oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 36,
+      "start": 220.27,
+      "end": 226.19,
+      "text": "crises, especially in states over here, far from the manufacturers. I mean, none of us could have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 37,
+      "start": 226.19,
+      "end": 232.43,
+      "text": "predicted the acute oxygen shortage that we faced this year. But right at the start of the pandemic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 38,
+      "start": 232.43,
+      "end": 239.15,
+      "text": "you know, it was evident at how district hospitals in Faaflang areas, you know, already were, you",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 39,
+      "start": 239.15,
+      "end": 247.7,
+      "text": "know, they were not very equipped. In 2017, this state-run hospital in Uttar Pradesh was treating",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 40,
+      "start": 247.7,
+      "end": 253.54,
+      "text": "dozens of critically ill children during a viral outbreak. That August, this tank holding the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 41,
+      "start": 253.54,
+      "end": 261.22,
+      "text": "hospital's liquid oxygen ran out. The hospital's oxygen came all the way from Rajasthan, about",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 42,
+      "start": 261.22,
+      "end": 269.46,
+      "text": "800 kilometers away. So it took three days to restore the supply. But by then, at least 60",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 43,
+      "start": 269.46,
+      "end": 275.78,
+      "text": "children had died. An investigation by the wire revealed that the oxygen ran out because the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 44,
+      "start": 275.78,
+      "end": 282.74,
+      "text": "supply had been cut off. The state government had ignored payments for months. The meter showed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 45,
+      "start": 282.74,
+      "end": 290.34,
+      "text": "the oxygen supply was stopped due to low pressure. But the state government called it an act of God",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 46,
+      "start": 290.42,
+      "end": 292.18,
+      "text": "and didn't take responsibility.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 47,
+      "start": 300.18,
+      "end": 306.18,
+      "text": "The story caught India's attention. Prime Minister Modi shared his condolences.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 48,
+      "start": 315.78,
+      "end": 320.18,
+      "text": "But the government did little to fix the gaps in the oxygen supply chain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 49,
+      "start": 320.82,
+      "end": 327.46,
+      "text": "Three years later, COVID reached India and the daily consumption of medical oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 50,
+      "start": 327.46,
+      "end": 334.1,
+      "text": "gradually tripled. For months, the government received warnings of an impending oxygen shortage",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 51,
+      "start": 334.1,
+      "end": 340.9,
+      "text": "and recommendations that plans be made to produce adequate oxygen. Finally, the government took bids",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 52,
+      "start": 340.9,
+      "end": 348.5,
+      "text": "to build 162 new oxygen plants at all these major hospitals. These plants would produce",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 53,
+      "start": 348.58,
+      "end": 354.82,
+      "text": "oxygen onsite for sick patients and keep the fragmented supply chain from getting further",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 54,
+      "start": 354.82,
+      "end": 362.02,
+      "text": "strained. But around the same time as the result of a series of lockdowns, infection rates started",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 55,
+      "start": 362.02,
+      "end": 369.38,
+      "text": "to drop. By February, Prime Minister Modi started encouraging everyone to return to normal life",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 56,
+      "start": 369.38,
+      "end": 385.3,
+      "text": "at their own risk. And in April, when cases started to quickly climb up again,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09556,
+      "no_speech_prob": 0.026978
+    },
+    {
+      "index": 57,
+      "start": 387.65,
+      "end": 393.33,
+      "text": "he was out campaigning heavily ahead of state elections, bringing tens of thousands of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09556,
+      "no_speech_prob": 0.026978
+    },
+    {
+      "index": 58,
+      "start": 394.05,
+      "end": 406.37,
+      "text": "at political rallies. Meanwhile, this deadly wave was sweeping across the country, killing thousands",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 59,
+      "start": 406.37,
+      "end": 413.49,
+      "text": "a day. We saw the most devastating and the most gruesome images, rows and rows of bodies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 60,
+      "start": 413.49,
+      "end": 419.81,
+      "text": "at the cremation ground. That was how stark the disconnect was. When people are dying,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 61,
+      "start": 419.81,
+      "end": 426.13,
+      "text": "this is what is the priority of people from the ruling party. The government's misplaced",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 62,
+      "start": 426.13,
+      "end": 432.37,
+      "text": "priorities and lack of vigilance emboldened thousands to attend mass events, even though the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 63,
+      "start": 432.37,
+      "end": 441.9,
+      "text": "second wave of COVID raged on and reached some of the highest case numbers in the world. As COVID",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 64,
+      "start": 441.9,
+      "end": 448.78,
+      "text": "cases surged, the need for oxygen went up again. Major hospitals around the country began seeing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 65,
+      "start": 448.78,
+      "end": 455.1,
+      "text": "thousands of COVID patients show up at their doors for treatment. There were hospitals that would",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 66,
+      "start": 455.74,
+      "end": 462.22,
+      "text": "tweet to say that we're running out of oxygen. We don't have enough oxygen to sustain our patients",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 67,
+      "start": 462.22,
+      "end": 468.54,
+      "text": "for the next two hours. I request you please send oxygen to us. We need oxygen for our patients.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 68,
+      "start": 469.5,
+      "end": 476.62,
+      "text": "Investigations revealed that the government had failed to keep its promises. Out of the 162 oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 69,
+      "start": 476.62,
+      "end": 482.94,
+      "text": "plants promised by the government, only 33 were functional. That really begs the question of what",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 70,
+      "start": 482.94,
+      "end": 491.82,
+      "text": "was the government doing during 2020? They had celebrated a premature victory against the pandemic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 71,
+      "start": 492.62,
+      "end": 497.18,
+      "text": "As India recorded the highest cases in one day anywhere in the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 72,
+      "start": 497.18,
+      "end": 503.5,
+      "text": "these oxygen gaps became even more dangerous. India's daily deaths, although significantly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 73,
+      "start": 503.5,
+      "end": 509.58,
+      "text": "underreported, were in the thousands across the country. But now there were hundreds of additional",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 74,
+      "start": 509.58,
+      "end": 516.94,
+      "text": "deaths due to lack of oxygen, like in Delhi, where in one weekend at least 50 people died due to lack",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 75,
+      "start": 516.94,
+      "end": 525.18,
+      "text": "of oxygen, or in Maharashtra, or in Goa's Medical College, where the central government promised",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 76,
+      "start": 525.18,
+      "end": 531.58,
+      "text": "to build an oxygen plant that didn't come. GMC did not have an oxygen plant of its own, so they were",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 77,
+      "start": 531.58,
+      "end": 536.62,
+      "text": "basically manually putting cylinders and connecting it to make sure that the oxygen was reaching in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 78,
+      "start": 536.62,
+      "end": 540.94,
+      "text": "the central pipeline. The High Court had to instruct the center government to intervene",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 79,
+      "start": 540.94,
+      "end": 545.58,
+      "text": "and put up a plant, and now it's been operational within like seven or eight days, but it took them",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 80,
+      "start": 545.58,
+      "end": 551.1,
+      "text": "so many lives which have died due to the lack of oxygen. To meet the rising demand for medical",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 81,
+      "start": 551.1,
+      "end": 557.58,
+      "text": "oxygen, nearly all industries redirected their supply to hospitals. The government enlisted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 82,
+      "start": 557.58,
+      "end": 563.42,
+      "text": "the Indian Air Force and Railways to deliver it, and countries around the world sent equipment and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 83,
+      "start": 563.42,
+      "end": 570.62,
+      "text": "tanks filled with oxygen to help. But these are just temporary fixes for a supply chain that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 84,
+      "start": 570.62,
+      "end": 576.3,
+      "text": "still struggles to transport oxygen that needs to reach everyone across the country in a crisis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 85,
+      "start": 577.02,
+      "end": 581.02,
+      "text": "The government has promised a thousand more oxygen plants to fill the gaps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 86,
+      "start": 581.66,
+      "end": 586.06,
+      "text": "but has yet to complete the original 162 it promised.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 87,
+      "start": 598.1,
+      "end": 601.86,
+      "text": "But what's happening here isn't a uniquely Indian problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 88,
+      "start": 602.82,
+      "end": 609.46,
+      "text": "As COVID waves continue, oxygen shortages have become a problem in countries like Nepal, Sudan,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 89,
+      "start": 609.46,
+      "end": 617.22,
+      "text": "and Argentina. In fact, dozens of other countries need more oxygen, especially in the global south,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 90,
+      "start": 617.22,
+      "end": 621.14,
+      "text": "where low vaccination rates are leaving millions vulnerable to infection.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 91,
+      "start": 622.42,
+      "end": 628.5,
+      "text": "Not all countries will face a humanitarian crisis like India's, but India didn't think it would",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 92,
+      "start": 628.5,
+      "end": 635.46,
+      "text": "either and failed to prepare when cases were low. Dr. Fauci, what can we learn from India's outbreak?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 93,
+      "start": 635.54,
+      "end": 641.86,
+      "text": "Don't ever underestimate the situation. The situation in India is a devastating reminder",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    },
+    {
+      "index": 94,
+      "start": 642.42,
+      "end": 648.34,
+      "text": "of what this virus can do. It's very important to realize that the situation in India can happen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    },
+    {
+      "index": 95,
+      "start": 648.98,
+      "end": 649.86,
+      "text": "anywhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.21,
+      "end": 6.77,
+      "text": "It was the middle of the night on May 12th, when this hospital in Goa hit a breaking point.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 1,
+      "start": 6.77,
+      "end": 11.01,
+      "text": "I got an SOS message from one of the doctors at GNC, the Goa Medical College.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 2,
+      "start": 11.01,
+      "end": 16.45,
+      "text": "She reported that she had no oxygen coming in the central pipeline of her ward.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 3,
+      "start": 16.45,
+      "end": 21.49,
+      "text": "About two o'clock, we got through some officials and they told us nothing like this was happening at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 4,
+      "start": 21.49,
+      "end": 27.01,
+      "text": "The doctor took a video of the entire ward with all the ventilator and ICU machines beeping.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186815,
+      "no_speech_prob": 0.011314
+    },
+    {
+      "index": 5,
+      "start": 27.09,
+      "end": 32.85,
+      "text": "An hour later, the police arrived and confirmed that the oxygen in the pipeline was fluctuating.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 6,
+      "start": 33.65,
+      "end": 37.73,
+      "text": "That night, at least 20 people died due to lack of oxygen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 7,
+      "start": 37.73,
+      "end": 42.69,
+      "text": "The next day the issue blew up on social media and that's when we came to know",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 8,
+      "start": 42.69,
+      "end": 47.41,
+      "text": "from the doctors that this was not that night issue. It has been happening since two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 9,
+      "start": 47.41,
+      "end": 53.97,
+      "text": "It began in April 2021, when India experienced a sharp increase in coronavirus cases,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120855,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 10,
+      "start": 53.97,
+      "end": 58.21,
+      "text": "with hundreds of thousands of daily new infections, the country's been registering",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 11,
+      "start": 58.21,
+      "end": 64.77,
+      "text": "some of the highest cases in the world. And when these cases went up, so did the demand",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 12,
+      "start": 64.77,
+      "end": 70.29,
+      "text": "for life-saving oxygen. But India hasn't been able to match that demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 13,
+      "start": 71.33,
+      "end": 77.65,
+      "text": "And that's added avoidable deaths to a second wave of COVID-19 that has devastated the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070689,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 14,
+      "start": 78.37,
+      "end": 84.61,
+      "text": "In May, more than 70 COVID patients died as a result of the oxygen crisis at the hospital in Goa.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 15,
+      "start": 85.49,
+      "end": 91.41,
+      "text": "The same thing has been happening across India. Hospitals have seen COVID patients die because",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 16,
+      "start": 91.41,
+      "end": 98.45,
+      "text": "they ran out of oxygen. And they started turning people away. Many were forced to wait in line",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 17,
+      "start": 98.45,
+      "end": 104.61,
+      "text": "for hours to fill oxygen cylinders for sick family members. This shortage seems to have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06627,
+      "no_speech_prob": 0.017715
+    },
+    {
+      "index": 18,
+      "start": 104.69,
+      "end": 110.37,
+      "text": "caught India off guard and has made the news in this pandemic. But the thing is,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080996,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 111.09,
+      "end": 116.69,
+      "text": "India has run out of oxygen before. So why does this keep happening?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080996,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 23,
+      "start": 140.35,
+      "end": 146.35,
+      "text": "are concentrated around the country. India moves that oxygen from one point to another,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 24,
+      "start": 146.35,
+      "end": 152.03,
+      "text": "through a large and complex supply chain that spans several states and thousands of hospitals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 25,
+      "start": 153.15,
+      "end": 157.07,
+      "text": "Here's what that typically looks like. It starts in the manufacturing plants,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 26,
+      "start": 157.07,
+      "end": 162.59,
+      "text": "where oxygen is extracted from the air and turned into liquid. That oxygen is sent to big",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045373,
+      "no_speech_prob": 0.001781
+    },
+    {
+      "index": 27,
+      "start": 162.59,
+      "end": 169.07,
+      "text": "jumbo tankers for storage. From there, it's sent to distributors, where liquid oxygen is compressed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 28,
+      "start": 169.07,
+      "end": 175.47,
+      "text": "into a gas ready to be used. It's then funneled into tankers or smaller cylinders and sent to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 29,
+      "start": 175.47,
+      "end": 181.39,
+      "text": "local suppliers, who then send oxygen to hospitals, local vendors, or directly the patients.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 30,
+      "start": 182.11,
+      "end": 187.79,
+      "text": "Some big hospitals skip local suppliers. They store liquid oxygen in tanks on site.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064764,
+      "no_speech_prob": 0.000721
+    },
+    {
+      "index": 31,
+      "start": 188.51,
+      "end": 194.03,
+      "text": "The steps in the supply chain seem simple enough. The problem is the distance between",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 32,
+      "start": 194.03,
+      "end": 200.35,
+      "text": "one point and another. And that makes transportation one of the weakest links in the supply chain",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 33,
+      "start": 200.35,
+      "end": 205.71,
+      "text": "nationwide. Most of the manufacturers and suppliers concentrated in these states",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 34,
+      "start": 206.27,
+      "end": 214.27,
+      "text": "don't deliver oxygen outside of a 50 kilometer radius. The ones who do charge extra. Even then,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069095,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 35,
+      "start": 214.27,
+      "end": 220.27,
+      "text": "long distances can compromise the oxygen, making hospitals around the country vulnerable to oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 36,
+      "start": 220.27,
+      "end": 226.19,
+      "text": "crises, especially in states over here, far from the manufacturers. I mean, none of us could have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 37,
+      "start": 226.19,
+      "end": 232.43,
+      "text": "predicted the acute oxygen shortage that we faced this year. But right at the start of the pandemic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 38,
+      "start": 232.43,
+      "end": 239.15,
+      "text": "you know, it was evident at how district hospitals in Faaflang areas, you know, already were, you",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097261,
+      "no_speech_prob": 0.000242
+    },
+    {
+      "index": 39,
+      "start": 239.15,
+      "end": 247.7,
+      "text": "know, they were not very equipped. In 2017, this state-run hospital in Uttar Pradesh was treating",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 40,
+      "start": 247.7,
+      "end": 253.54,
+      "text": "dozens of critically ill children during a viral outbreak. That August, this tank holding the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 41,
+      "start": 253.54,
+      "end": 261.22,
+      "text": "hospital's liquid oxygen ran out. The hospital's oxygen came all the way from Rajasthan, about",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 42,
+      "start": 261.22,
+      "end": 269.46,
+      "text": "800 kilometers away. So it took three days to restore the supply. But by then, at least 60",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070481,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 43,
+      "start": 269.46,
+      "end": 275.78,
+      "text": "children had died. An investigation by the wire revealed that the oxygen ran out because the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 44,
+      "start": 275.78,
+      "end": 282.74,
+      "text": "supply had been cut off. The state government had ignored payments for months. The meter showed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 45,
+      "start": 282.74,
+      "end": 290.34,
+      "text": "the oxygen supply was stopped due to low pressure. But the state government called it an act of God",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069878,
+      "no_speech_prob": 0.017593
+    },
+    {
+      "index": 46,
+      "start": 290.42,
+      "end": 292.18,
+      "text": "and didn't take responsibility.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 47,
+      "start": 300.18,
+      "end": 306.18,
+      "text": "The story caught India's attention. Prime Minister Modi shared his condolences.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 48,
+      "start": 315.78,
+      "end": 320.18,
+      "text": "But the government did little to fix the gaps in the oxygen supply chain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155984,
+      "no_speech_prob": 0.013489
+    },
+    {
+      "index": 49,
+      "start": 320.82,
+      "end": 327.46,
+      "text": "Three years later, COVID reached India and the daily consumption of medical oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 50,
+      "start": 327.46,
+      "end": 334.1,
+      "text": "gradually tripled. For months, the government received warnings of an impending oxygen shortage",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 51,
+      "start": 334.1,
+      "end": 340.9,
+      "text": "and recommendations that plans be made to produce adequate oxygen. Finally, the government took bids",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 52,
+      "start": 340.9,
+      "end": 348.5,
+      "text": "to build 162 new oxygen plants at all these major hospitals. These plants would produce",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076532,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 53,
+      "start": 348.58,
+      "end": 354.82,
+      "text": "oxygen onsite for sick patients and keep the fragmented supply chain from getting further",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 54,
+      "start": 354.82,
+      "end": 362.02,
+      "text": "strained. But around the same time as the result of a series of lockdowns, infection rates started",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 55,
+      "start": 362.02,
+      "end": 369.38,
+      "text": "to drop. By February, Prime Minister Modi started encouraging everyone to return to normal life",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092994,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 56,
+      "start": 369.38,
+      "end": 385.3,
+      "text": "at their own risk. And in April, when cases started to quickly climb up again,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09556,
+      "no_speech_prob": 0.026978
+    },
+    {
+      "index": 57,
+      "start": 387.65,
+      "end": 393.33,
+      "text": "he was out campaigning heavily ahead of state elections, bringing tens of thousands of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09556,
+      "no_speech_prob": 0.026978
+    },
+    {
+      "index": 58,
+      "start": 394.05,
+      "end": 406.37,
+      "text": "at political rallies. Meanwhile, this deadly wave was sweeping across the country, killing thousands",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 59,
+      "start": 406.37,
+      "end": 413.49,
+      "text": "a day. We saw the most devastating and the most gruesome images, rows and rows of bodies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 60,
+      "start": 413.49,
+      "end": 419.81,
+      "text": "at the cremation ground. That was how stark the disconnect was. When people are dying,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100661,
+      "no_speech_prob": 0.041718
+    },
+    {
+      "index": 61,
+      "start": 419.81,
+      "end": 426.13,
+      "text": "this is what is the priority of people from the ruling party. The government's misplaced",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 62,
+      "start": 426.13,
+      "end": 432.37,
+      "text": "priorities and lack of vigilance emboldened thousands to attend mass events, even though the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 63,
+      "start": 432.37,
+      "end": 441.9,
+      "text": "second wave of COVID raged on and reached some of the highest case numbers in the world. As COVID",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 64,
+      "start": 441.9,
+      "end": 448.78,
+      "text": "cases surged, the need for oxygen went up again. Major hospitals around the country began seeing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058684,
+      "no_speech_prob": 0.002213
+    },
+    {
+      "index": 65,
+      "start": 448.78,
+      "end": 455.1,
+      "text": "thousands of COVID patients show up at their doors for treatment. There were hospitals that would",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 66,
+      "start": 455.74,
+      "end": 462.22,
+      "text": "tweet to say that we're running out of oxygen. We don't have enough oxygen to sustain our patients",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 67,
+      "start": 462.22,
+      "end": 468.54,
+      "text": "for the next two hours. I request you please send oxygen to us. We need oxygen for our patients.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 68,
+      "start": 469.5,
+      "end": 476.62,
+      "text": "Investigations revealed that the government had failed to keep its promises. Out of the 162 oxygen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073385,
+      "no_speech_prob": 0.004059
+    },
+    {
+      "index": 69,
+      "start": 476.62,
+      "end": 482.94,
+      "text": "plants promised by the government, only 33 were functional. That really begs the question of what",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 70,
+      "start": 482.94,
+      "end": 491.82,
+      "text": "was the government doing during 2020? They had celebrated a premature victory against the pandemic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 71,
+      "start": 492.62,
+      "end": 497.18,
+      "text": "As India recorded the highest cases in one day anywhere in the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 72,
+      "start": 497.18,
+      "end": 503.5,
+      "text": "these oxygen gaps became even more dangerous. India's daily deaths, although significantly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062448,
+      "no_speech_prob": 0.000732
+    },
+    {
+      "index": 73,
+      "start": 503.5,
+      "end": 509.58,
+      "text": "underreported, were in the thousands across the country. But now there were hundreds of additional",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 74,
+      "start": 509.58,
+      "end": 516.94,
+      "text": "deaths due to lack of oxygen, like in Delhi, where in one weekend at least 50 people died due to lack",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 75,
+      "start": 516.94,
+      "end": 525.18,
+      "text": "of oxygen, or in Maharashtra, or in Goa's Medical College, where the central government promised",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 76,
+      "start": 525.18,
+      "end": 531.58,
+      "text": "to build an oxygen plant that didn't come. GMC did not have an oxygen plant of its own, so they were",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122757,
+      "no_speech_prob": 0.010414
+    },
+    {
+      "index": 77,
+      "start": 531.58,
+      "end": 536.62,
+      "text": "basically manually putting cylinders and connecting it to make sure that the oxygen was reaching in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 78,
+      "start": 536.62,
+      "end": 540.94,
+      "text": "the central pipeline. The High Court had to instruct the center government to intervene",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 79,
+      "start": 540.94,
+      "end": 545.58,
+      "text": "and put up a plant, and now it's been operational within like seven or eight days, but it took them",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 80,
+      "start": 545.58,
+      "end": 551.1,
+      "text": "so many lives which have died due to the lack of oxygen. To meet the rising demand for medical",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 81,
+      "start": 551.1,
+      "end": 557.58,
+      "text": "oxygen, nearly all industries redirected their supply to hospitals. The government enlisted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105469,
+      "no_speech_prob": 0.001031
+    },
+    {
+      "index": 82,
+      "start": 557.58,
+      "end": 563.42,
+      "text": "the Indian Air Force and Railways to deliver it, and countries around the world sent equipment and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 83,
+      "start": 563.42,
+      "end": 570.62,
+      "text": "tanks filled with oxygen to help. But these are just temporary fixes for a supply chain that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 84,
+      "start": 570.62,
+      "end": 576.3,
+      "text": "still struggles to transport oxygen that needs to reach everyone across the country in a crisis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 85,
+      "start": 577.02,
+      "end": 581.02,
+      "text": "The government has promised a thousand more oxygen plants to fill the gaps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061599,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 86,
+      "start": 581.66,
+      "end": 586.06,
+      "text": "but has yet to complete the original 162 it promised.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 87,
+      "start": 598.1,
+      "end": 601.86,
+      "text": "But what's happening here isn't a uniquely Indian problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 88,
+      "start": 602.82,
+      "end": 609.46,
+      "text": "As COVID waves continue, oxygen shortages have become a problem in countries like Nepal, Sudan,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107109,
+      "no_speech_prob": 0.001957
+    },
+    {
+      "index": 89,
+      "start": 609.46,
+      "end": 617.22,
+      "text": "and Argentina. In fact, dozens of other countries need more oxygen, especially in the global south,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 90,
+      "start": 617.22,
+      "end": 621.14,
+      "text": "where low vaccination rates are leaving millions vulnerable to infection.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 91,
+      "start": 622.42,
+      "end": 628.5,
+      "text": "Not all countries will face a humanitarian crisis like India's, but India didn't think it would",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 92,
+      "start": 628.5,
+      "end": 635.46,
+      "text": "either and failed to prepare when cases were low. Dr. Fauci, what can we learn from India's outbreak?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07752,
+      "no_speech_prob": 0.026337
+    },
+    {
+      "index": 93,
+      "start": 635.54,
+      "end": 641.86,
+      "text": "Don't ever underestimate the situation. The situation in India is a devastating reminder",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    },
+    {
+      "index": 94,
+      "start": 642.42,
+      "end": 648.34,
+      "text": "of what this virus can do. It's very important to realize that the situation in India can happen",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    },
+    {
+      "index": 95,
+      "start": 648.98,
+      "end": 649.86,
+      "text": "anywhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116921,
+      "no_speech_prob": 0.681152
+    }
+  ],
+  "context_text_chronological": "It was the middle of the night on May 12th, when this hospital in Goa hit a breaking point. I got an SOS message from one of the doctors at GNC, the Goa Medical College. She reported that she had no oxygen coming in the central pipeline of her ward. About two o'clock, we got through some officials and they told us nothing like this was happening at all. The doctor took a video of the entire ward with all the ventilator and ICU machines beeping. An hour later, the police arrived and confirmed that the oxygen in the pipeline was fluctuating. That night, at least 20 people died due to lack of oxygen. The next day the issue blew up on social media and that's when we came to know from the doctors that this was not that night issue. It has been happening since two months. It began in April 2021, when India experienced a sharp increase in coronavirus cases, with hundreds of thousands of daily new infections, the country's been registering some of the highest cases in the world. And when these cases went up, so did the demand for life-saving oxygen. But India hasn't been able to match that demand. And that's added avoidable deaths to a second wave of COVID-19 that has devastated the country. In May, more than 70 COVID patients died as a result of the oxygen crisis at the hospital in Goa. The same thing has been happening across India. Hospitals have seen COVID patients die because they ran out of oxygen. And they started turning people away. Many were forced to wait in line for hours to fill oxygen cylinders for sick family members. This shortage seems to have caught India off guard and has made the news in this pandemic. But the thing is, India has run out of oxygen before. So why does this keep happening? are concentrated around the country. India moves that oxygen from one point to another, through a large and complex supply chain that spans several states and thousands of hospitals. Here's what that typically looks like. It starts in the manufacturing plants, where oxygen is extracted from the air and turned into liquid. That oxygen is sent to big jumbo tankers for storage. From there, it's sent to distributors, where liquid oxygen is compressed into a gas ready to be used. It's then funneled into tankers or smaller cylinders and sent to local suppliers, who then send oxygen to hospitals, local vendors, or directly the patients. Some big hospitals skip local suppliers. They store liquid oxygen in tanks on site. The steps in the supply chain seem simple enough. The problem is the distance between one point and another. And that makes transportation one of the weakest links in the supply chain nationwide. Most of the manufacturers and suppliers concentrated in these states don't deliver oxygen outside of a 50 kilometer radius. The ones who do charge extra. Even then, long distances can compromise the oxygen, making hospitals around the country vulnerable to oxygen crises, especially in states over here, far from the manufacturers. I mean, none of us could have predicted the acute oxygen shortage that we faced this year. But right at the start of the pandemic, you know, it was evident at how district hospitals in Faaflang areas, you know, already were, you know, they were not very equipped. In 2017, this state-run hospital in Uttar Pradesh was treating dozens of critically ill children during a viral outbreak. That August, this tank holding the hospital's liquid oxygen ran out. The hospital's oxygen came all the way from Rajasthan, about 800 kilometers away. So it took three days to restore the supply. But by then, at least 60 children had died. An investigation by the wire revealed that the oxygen ran out because the supply had been cut off. The state government had ignored payments for months. The meter showed the oxygen supply was stopped due to low pressure. But the state government called it an act of God and didn't take responsibility. The story caught India's attention. Prime Minister Modi shared his condolences. But the government did little to fix the gaps in the oxygen supply chain. Three years later, COVID reached India and the daily consumption of medical oxygen gradually tripled. For months, the government received warnings of an impending oxygen shortage and recommendations that plans be made to produce adequate oxygen. Finally, the government took bids to build 162 new oxygen plants at all these major hospitals. These plants would produce oxygen onsite for sick patients and keep the fragmented supply chain from getting further strained. But around the same time as the result of a series of lockdowns, infection rates started to drop. By February, Prime Minister Modi started encouraging everyone to return to normal life at their own risk. And in April, when cases started to quickly climb up again, he was out campaigning heavily ahead of state elections, bringing tens of thousands of people at political rallies. Meanwhile, this deadly wave was sweeping across the country, killing thousands a day. We saw the most devastating and the most gruesome images, rows and rows of bodies at the cremation ground. That was how stark the disconnect was. When people are dying, this is what is the priority of people from the ruling party. The government's misplaced priorities and lack of vigilance emboldened thousands to attend mass events, even though the second wave of COVID raged on and reached some of the highest case numbers in the world. As COVID cases surged, the need for oxygen went up again. Major hospitals around the country began seeing thousands of COVID patients show up at their doors for treatment. There were hospitals that would tweet to say that we're running out of oxygen. We don't have enough oxygen to sustain our patients for the next two hours. I request you please send oxygen to us. We need oxygen for our patients. Investigations revealed that the government had failed to keep its promises. Out of the 162 oxygen plants promised by the government, only 33 were functional. That really begs the question of what was the government doing during 2020? They had celebrated a premature victory against the pandemic. As India recorded the highest cases in one day anywhere in the world, these oxygen gaps became even more dangerous. India's daily deaths, although significantly underreported, were in the thousands across the country. But now there were hundreds of additional deaths due to lack of oxygen, like in Delhi, where in one weekend at least 50 people died due to lack of oxygen, or in Maharashtra, or in Goa's Medical College, where the central government promised to build an oxygen plant that didn't come. GMC did not have an oxygen plant of its own, so they were basically manually putting cylinders and connecting it to make sure that the oxygen was reaching in the central pipeline. The High Court had to instruct the center government to intervene and put up a plant, and now it's been operational within like seven or eight days, but it took them so many lives which have died due to the lack of oxygen. To meet the rising demand for medical oxygen, nearly all industries redirected their supply to hospitals. The government enlisted the Indian Air Force and Railways to deliver it, and countries around the world sent equipment and tanks filled with oxygen to help. But these are just temporary fixes for a supply chain that still struggles to transport oxygen that needs to reach everyone across the country in a crisis. The government has promised a thousand more oxygen plants to fill the gaps, but has yet to complete the original 162 it promised. But what's happening here isn't a uniquely Indian problem. As COVID waves continue, oxygen shortages have become a problem in countries like Nepal, Sudan, and Argentina. In fact, dozens of other countries need more oxygen, especially in the global south, where low vaccination rates are leaving millions vulnerable to infection. Not all countries will face a humanitarian crisis like India's, but India didn't think it would either and failed to prepare when cases were low. Dr. Fauci, what can we learn from India's outbreak? Don't ever underestimate the situation. The situation in India is a devastating reminder of what this virus can do. It's very important to realize that the situation in India can happen anywhere.",
+  "target_text_for_audit": "First, let's look at how the oxygen industry works in India. About 85% of the oxygen produced ends up in commercial industries like steel or pharmaceuticals. And about 15% is sent to hospitals for medical purposes. This map shows where India's medical oxygen manufacturing plants",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "About 85 % of the oxygen produced ends up in commercial industries like steel or pharmaceuticals, and about 15 % is sent to hospitals for medical purposes.",
+        "start_source": 124.18,
+        "end_source": 134.92,
+        "matching_cue_ids": [
+          20,
+          21,
+          22
+        ],
+        "text_similarity": 0.7056,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\SZ8HlNGMolw.mp4",
+    "cue_count": 96
+  },
+  "token_estimate_char_div_4": 2077
+}

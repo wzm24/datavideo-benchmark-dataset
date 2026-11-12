@@ -1,6 +1,15 @@
 {
- "clip_id": "area_44",
- "family": "area",
- "sub_type": "simple_area",
- "orientation": "cartesian"
+  "clip_id": "area_44",
+  "family": "area",
+  "sub_type": "annual_area",
+  "orientation": "cartesian",
+  "axis_semantics": {
+    "x": "Year from 1965 through July 2021",
+    "y": "BRK-A stock price in USD"
+  },
+  "sampling": "annual points interpolated from the confirmed SVG curve",
+  "printed_endpoints": {
+    "1965": 19,
+    "2021-07-01": 421000
+  }
 }

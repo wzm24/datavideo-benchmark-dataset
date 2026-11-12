@@ -1,0 +1,290 @@
+{
+ "clip_id": "area_24",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_24",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 6,
+  "table_sha256": "9be33633eacc60f81215c93a63deb3d7654287df2838628c75a5fb172f5b0690"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "GANYMED",
+    "TITAN",
+    "KALLISTO",
+    "IO",
+    "MOON",
+    "PLUTO"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 6,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "GANYMED",
+      "panel": "",
+      "entity": "GANYMED",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "TITAN",
+      "panel": "",
+      "entity": "TITAN",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "KALLISTO",
+      "panel": "",
+      "entity": "KALLISTO",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "IO",
+      "panel": "",
+      "entity": "IO",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MOON",
+      "panel": "",
+      "entity": "MOON",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "PLUTO",
+      "panel": "",
+      "entity": "PLUTO",
+      "series": "",
+      "role": "proportional_circle"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "circle_diameter_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "ranking",
+   "must_be_visualized": true,
+   "evidence_type": "ranking",
+   "required_marks": [
+    "GANYMED | #1",
+    "TITAN | #1",
+    "KALLISTO | #1",
+    "IO | #1",
+    "MOON | #1",
+    "PLUTO | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "GANYMED | #1",
+      "panel": "",
+      "entity": "GANYMED",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "5300",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "TITAN | #1",
+      "panel": "",
+      "entity": "TITAN",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "5200",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "KALLISTO | #1",
+      "panel": "",
+      "entity": "KALLISTO",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "4800",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "IO | #1",
+      "panel": "",
+      "entity": "IO",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "3600",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MOON | #1",
+      "panel": "",
+      "entity": "MOON",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "3500",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "PLUTO | #1",
+      "panel": "",
+      "entity": "PLUTO",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "2300",
+      "unit": "km",
+      "role": "proportional_circle"
+     }
+    ],
+    "expected_relation": "Among Ganymede, Titan, Kallisto, Io, the Moon, and Pluto, the Moon has the second-smallest diameter, larger only than Pluto.",
+    "computation": "Order entities by value descending: Ganymede (5300) > Titan (5200) > Kallisto (4800) > Io (3600) > Moon (3500) > Pluto (2300). Moon is 5th of 6.",
+    "encoding": "circle_diameter",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Diameter (km)"
+    }
+   },
+   "accepted_routes": [
+    "circle_diameter_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Moon is the smallest body shown.",
+    "Moon is larger than Io.",
+    "Moon ranks fourth or higher."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "IO | #1",
+    "MOON | #1",
+    "PLUTO | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "IO | #1",
+      "panel": "",
+      "entity": "IO",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "3600",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MOON | #1",
+      "panel": "",
+      "entity": "MOON",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "3500",
+      "unit": "km",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "PLUTO | #1",
+      "panel": "",
+      "entity": "PLUTO",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "2300",
+      "unit": "km",
+      "role": "proportional_circle"
+     }
+    ],
+    "expected_relation": "The Moon's diameter (3,500 km) is 100 km smaller than Io's (3,600 km) and 1,200 km larger than Pluto's (2,300 km).",
+    "computation": "Moon vs Io: 3600 - 3500 = 100 km smaller. Moon vs Pluto: 3500 - 2300 = 1200 km larger.",
+    "encoding": "circle_diameter",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Diameter (km)"
+    }
+   },
+   "accepted_routes": [
+    "circle_diameter_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Moon is larger than Io.",
+    "Moon is smaller than Pluto.",
+    "Moon and Io have equal diameters."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

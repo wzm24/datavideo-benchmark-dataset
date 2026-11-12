@@ -1,0 +1,138 @@
+{
+ "clip_id": "area_29",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_29",
+  "family": "area",
+  "sub_type": "proportional_square_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "784ea716cf111fe31710be534218e0c56213094f79ce0163c27a06da5e07a9fe"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Death by car",
+    "Death by plane"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Death by car",
+      "panel": "",
+      "entity": "Death by car",
+      "series": "",
+      "role": "proportional_square_area"
+     },
+     {
+      "mark": "Death by plane",
+      "panel": "",
+      "entity": "Death by plane",
+      "series": "",
+      "role": "proportional_square_area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "square_area_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "proportional_comparison",
+   "must_be_visualized": true,
+   "evidence_type": "proportional_comparison",
+   "required_marks": [
+    "Death by car | #1",
+    "Death by plane | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Death by car | #1",
+      "panel": "",
+      "entity": "Death by car",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "0.081982",
+      "unit": "relative",
+      "role": "proportional_square_area"
+     },
+     {
+      "mark": "Death by plane | #1",
+      "panel": "",
+      "entity": "Death by plane",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "1.000000",
+      "unit": "relative",
+      "role": "proportional_square_area"
+     }
+    ],
+    "expected_relation": "The proportional area for death by plane (relative value 1.0) is larger than the proportional area for death by car (relative value 0.081982), indicating that the perceived risk for death by plane is greater than for death by car.",
+    "computation": "compare r2.value (1.0) to r1.value (0.081982); r2 > r1",
+    "encoding": "square_area",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Area (relative)"
+    }
+   },
+   "accepted_routes": [
+    "square_area_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Death by car has a larger proportional area than death by plane.",
+    "The perceived risk for death by car is greater than for death by plane.",
+    "The two entities have equal proportional areas."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

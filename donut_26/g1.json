@@ -1,0 +1,403 @@
+{
+ "clip_id": "donut_26",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the share of arable land for Somalia, India, and Germany across the three panels and report each entity's percentage.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2",
+    "U3"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "Panel 1",
+      "series": ""
+     },
+     {
+      "panel": "Panel 2",
+      "series": ""
+     },
+     {
+      "panel": "Panel 3",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report each entity's arable land percentage across the three panels",
+   "relation": "all_of",
+   "unit_ids": [
+    "U4",
+    "U5",
+    "U6"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Compare the arable land shares across Somalia, India, and Germany",
+   "relation": "single",
+   "unit_ids": [
+    "U7"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Panel 1.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Panel 1",
+     "series": "",
+     "entity": "Somalia",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Panel 2.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "Panel 2",
+     "series": "",
+     "entity": "India",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Panel 3.",
+   "basis": [
+    {
+     "row_id": "r3",
+     "panel": "Panel 3",
+     "series": "",
+     "entity": "Germany",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "Somalia's arable land share is 1.8% in Panel 1.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Panel 1",
+     "series": "",
+     "entity": "Somalia",
+     "metric": "share_of_arable_land",
+     "field": "value",
+     "value": "1.8",
+     "table_value": "1.8",
+     "table_relative_value": "0.018",
+     "unit": "%",
+     "relative_value": "0.018",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "Panel 1"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Somalia gauge shows 1.8%",
+    "Panel 1 partial ring value is 1.8%"
+   ],
+   "reject": [
+    "Somalia shown as 18%",
+    "Somalia omitted"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "India's arable land share is 48% in Panel 2.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "Panel 2",
+     "series": "",
+     "entity": "India",
+     "metric": "share_of_arable_land",
+     "field": "value",
+     "value": "48",
+     "table_value": "48",
+     "table_relative_value": "0.48",
+     "unit": "%",
+     "relative_value": "0.48",
+     "label": "",
+     "role": "gauge",
+     "source_type": "estimated",
+     "whole_scope": "Panel 2"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "India gauge shows 48%",
+    "Panel 2 partial ring value is 48%"
+   ],
+   "reject": [
+    "India shown as 4.8%",
+    "India omitted"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U6",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "Germany's arable land share is 34% in Panel 3.",
+   "basis": [
+    {
+     "row_id": "r3",
+     "panel": "Panel 3",
+     "series": "",
+     "entity": "Germany",
+     "metric": "share_of_arable_land",
+     "field": "value",
+     "value": "34",
+     "table_value": "34",
+     "table_relative_value": "0.34",
+     "unit": "%",
+     "relative_value": "0.34",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "Panel 3"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Germany gauge shows 34%",
+    "Panel 3 partial ring value is 34%"
+   ],
+   "reject": [
+    "Germany shown as 3.4%",
+    "Germany omitted"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U7",
+   "requirement_id": "R3",
+   "unit_kind": "cross_panel_compare",
+   "claim": "India has the largest arable land share (48%), followed by Germany (34%), then Somalia (1.8%).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Panel 1",
+     "series": "",
+     "entity": "Somalia",
+     "metric": "share_of_arable_land",
+     "field": "relative_value",
+     "value": "0.018",
+     "table_value": "1.8",
+     "table_relative_value": "0.018",
+     "unit": "%",
+     "relative_value": "0.018",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "Panel 1"
+    },
+    {
+     "row_id": "r2",
+     "panel": "Panel 2",
+     "series": "",
+     "entity": "India",
+     "metric": "share_of_arable_land",
+     "field": "relative_value",
+     "value": "0.48",
+     "table_value": "48",
+     "table_relative_value": "0.48",
+     "unit": "%",
+     "relative_value": "0.48",
+     "label": "",
+     "role": "gauge",
+     "source_type": "estimated",
+     "whole_scope": "Panel 2"
+    },
+    {
+     "row_id": "r3",
+     "panel": "Panel 3",
+     "series": "",
+     "entity": "Germany",
+     "metric": "share_of_arable_land",
+     "field": "relative_value",
+     "value": "0.34",
+     "table_value": "34",
+     "table_relative_value": "0.34",
+     "unit": "%",
+     "relative_value": "0.34",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "Panel 3"
+    }
+   ],
+   "computation": "order r2 > r3 > r1 by relative_value",
+   "accept": [
+    "India > Germany > Somalia ordering",
+    "India largest, Somalia smallest"
+   ],
+   "reject": [
+    "Somalia ranked above Germany",
+    "Only one panel compared"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.14285714,
+  "U2": 0.14285714,
+  "U3": 0.14285714,
+  "U4": 0.14285714,
+  "U5": 0.14285714,
+  "U6": 0.14285714,
+  "U7": 0.14285714
+ },
+ "optional_valid": [
+  "Displaying entity labels next to each panel's gauge",
+  "Showing the percentage value as text inside or beside each partial ring"
+ ],
+ "unsupported_to_avoid": [
+  "Summing the three shares into a combined total",
+  "Treating the three panels as parts of one whole",
+  "Reporting an inferred remainder for any panel"
+ ],
+ "review_notes": [
+  "Each panel is an independent partial ring/gauge; shares must not be aggregated across panels.",
+  "Somalia's 1.8% is a small gauge value, not a remainder of a full composition."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "Panel 1",
+    "series": "",
+    "entity": "Somalia",
+    "metric": "share_of_arable_land",
+    "value": "1.8",
+    "unit": "%",
+    "relative_value": "0.018",
+    "label": "",
+    "role": "gauge",
+    "source_type": "narration_calibrated",
+    "whole_scope": "Panel 1"
+   },
+   {
+    "row_id": "r2",
+    "panel": "Panel 2",
+    "series": "",
+    "entity": "India",
+    "metric": "share_of_arable_land",
+    "value": "48",
+    "unit": "%",
+    "relative_value": "0.48",
+    "label": "",
+    "role": "gauge",
+    "source_type": "estimated",
+    "whole_scope": "Panel 2"
+   },
+   {
+    "row_id": "r3",
+    "panel": "Panel 3",
+    "series": "",
+    "entity": "Germany",
+    "metric": "share_of_arable_land",
+    "value": "34",
+    "unit": "%",
+    "relative_value": "0.34",
+    "label": "",
+    "role": "gauge",
+    "source_type": "narration_calibrated",
+    "whole_scope": "Panel 3"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

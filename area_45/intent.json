@@ -1,28 +1,106 @@
 {
  "clip_id": "area_45",
- "intent_en": "To illustrate the growing disparity in after-tax income growth between the wealthiest Americans and the middle and bottom classes over the last four decades.",
- "previous_intent": "To illustrate the growing disparity in after-tax income growth between the wealthiest Americans and the middle/bottom classes over the last few decades.",
- "narration_support": "the disparity between the richest Americans and everyone else has been growing... the after-tax income of the richest has risen more than 400 percent, while middle-class income has only risen 50",
- "chart_support": "Area chart titled 'Growth of after-tax income of Americans' showing a massive increase for the 'Top 0.01%' group compared to minimal growth for the 'Middle 40%' and 'Bottom 50%' groups from 1980 to roughly 2015",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": true,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly mentions the growing disparity and specific growth figures (400% vs 50%), which are visually represented in the chart showing the Top 0.01% far outpacing the middle and bottom classes.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that from 1980 to the 2010s, after-tax income growth for the Top 0.01% far outpaced the Middle 40% and Bottom 50%, widening income disparity.",
+ "intent_en": "Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": true
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_45",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Show that from 1980 to the 2010s, after-tax income growth for the Top 0.01% far outpaced the Middle 40% and Bottom 50%, widening income disparity.",
+  "proposed_intent": "Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.",
+  "writer": {
+   "intent": "Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.",
+   "entities": [
+    "Top 0.01%",
+    "Middle 40%",
+    "Bottom 50%"
+   ],
+   "measure": "After-tax income growth (%)",
+   "scope": "1980 through the 2010s, all three income groups",
+   "comparison": "Top 0.01% vs Middle 40% vs Bottom 50%",
+   "withheld_answer": "Top 0.01% growth far outpaced the other groups, widening income disparity."
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 20,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [
+    "0.01",
+    "40",
+    "50"
+   ],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [],
+  "repair_attempts": 0,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {
+    "prompt_tokens": 11958,
+    "completion_tokens": 145,
+    "total_tokens": 12103,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 11830
+   },
+   {
+    "prompt_tokens": 11905,
+    "completion_tokens": 56,
+    "total_tokens": 11961,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 11905
+   }
+  ],
+  "sec": 2.9
+ }
 }

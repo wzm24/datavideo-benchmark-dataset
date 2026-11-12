@@ -1,17 +1,53 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_1,Infections,infections,0,0.0,0.0000,relative,estimated
-area_1,Infections,infections,10,55.8,0.5584,relative,estimated
-area_1,Infections,infections,20,90.4,0.9035,relative,estimated
-area_1,Infections,infections,30,90.4,0.9035,relative,estimated
-area_1,Infections,infections,37.5,67.2,0.6718,relative,estimated
-area_1,Infections,infections,45,29.4,0.2936,relative,estimated
-area_1,Infections,infections,55,0.0,0.0000,relative,estimated
-area_1,Infections,infections,65,0.0,0.0000,relative,estimated
-area_1,Infections,infections,75,0.0,0.0000,relative,estimated
-area_1,Healthcare capacity,capacity,10,45,,relative,estimated
-area_1,Healthcare capacity,capacity,20,45.0,,relative,estimated
-area_1,Healthcare capacity,capacity,28,36.53632653061224,,relative,estimated
-area_1,Healthcare capacity,capacity,37.5,33.0,,relative,estimated
-area_1,Healthcare capacity,capacity,47,36.53632653061224,,relative,estimated
-area_1,Healthcare capacity,capacity,55,45.0,,relative,estimated
-area_1,Healthcare capacity,capacity,80,45,,relative,estimated
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Time (relative),Outbreak,Infections,,0.005,1,2.98,relative,,area
+,Time (relative),Outbreak,Infections,,0.05,2,29.36,relative,,area
+,Time (relative),Outbreak,Infections,,0.078497410678,3,44.830023,relative,,area
+,Time (relative),Outbreak,Infections,,0.085,4,48.36,relative,,area
+,Time (relative),Outbreak,Infections,,0.115,5,62.83,relative,,area
+,Time (relative),Outbreak,Infections,,0.13,6,69.26,relative,,area
+,Time (relative),Outbreak,Infections,,0.145,7,75.07,relative,,area
+,Time (relative),Outbreak,Infections,,0.16,8,80.21,relative,,area
+,Time (relative),Outbreak,Infections,,0.175,9,84.64,relative,,area
+,Time (relative),Outbreak,Infections,,0.185,10,87.19,relative,,area
+,Time (relative),Outbreak,Infections,,0.2,11,90.36,relative,,area
+,Time (relative),Outbreak,Infections,,0.21,12,92.02,relative,,area
+,Time (relative),Outbreak,Infections,,0.225,13,93.83,relative,,area
+,Time (relative),Outbreak,Infections,,0.24,14,94.81,relative,,area
+,Time (relative),Outbreak,Infections,,0.25,15,95,relative,,area
+,Time (relative),Outbreak,Infections,,0.26,16,94.81,relative,,area
+,Time (relative),Outbreak,Infections,,0.275,17,93.83,relative,,area
+,Time (relative),Outbreak,Infections,,0.29,18,92.02,relative,,area
+,Time (relative),Outbreak,Infections,,0.305,19,89.38,relative,,area
+,Time (relative),Outbreak,Infections,,0.315,20,87.19,relative,,area
+,Time (relative),Outbreak,Infections,,0.33,21,83.24,relative,,area
+,Time (relative),Outbreak,Infections,,0.345,22,78.57,relative,,area
+,Time (relative),Outbreak,Infections,,0.36,23,73.19,relative,,area
+,Time (relative),Outbreak,Infections,,0.375,24,67.17,relative,,area
+,Time (relative),Outbreak,Infections,,0.39,25,60.55,relative,,area
+,Time (relative),Outbreak,Infections,,0.42,26,45.76,relative,,area
+,Time (relative),Outbreak,Infections,,0.42165390134,27,44.849882,relative,,area
+,Time (relative),Outbreak,Infections,,0.455,28,26.5,relative,,area
+,Time (relative),Outbreak,Infections,,0.5,29,0,relative,,area
+,Time (relative),Outbreak,Healthcare capacity,,0,1,45,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.075909,2,45,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.078497410678,3,44.830023,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.083523,4,44.5,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.106364,5,41.57,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.129091,6,39.07,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.144318,7,37.64,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.167045,8,35.86,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.189886,9,34.5,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.212614,10,33.57,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.235455,11,33.1,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.250682,12,33,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.265795,13,33.1,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.288636,14,33.62,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.30375,15,34.19,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.326591,16,35.43,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.349318,17,37.1,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.364545,18,38.45,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.387386,19,40.83,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.417727,20,44.69,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.42165390134,21,44.849882,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.425341,22,45,relative,,reference_line
+,Time (relative),Outbreak,Healthcare capacity,,0.6,23,45,relative,,reference_line

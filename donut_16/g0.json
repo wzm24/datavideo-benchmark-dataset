@@ -1,133 +1,106 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_16",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "7b7d0343f77dd7e770410dc6138715dba53186dd2c33095373a73b1b292df48e",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "97bf521f435c8bf72b21a1151ae397ea36ffb19b079f7c16fc6c1863c05aa13f",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "multi_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 2,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_respondents"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
+  {
+   "row_id": "r1",
+   "panel": "",
+   "series": "Inner arc",
+   "entity": "Support legalization",
+   "metric": "share_of_respondents",
+   "value": "52",
+   "unit": "%",
+   "relative_value": "0.52",
+   "label": "",
+   "role": "arc",
+   "source_type": "narration_calibrated",
+   "whole_scope": "Inner arc"
+  },
+  {
+   "row_id": "r2",
+   "panel": "",
+   "series": "Outer arc",
+   "entity": "Oppose legalization",
+   "metric": "share_of_respondents",
+   "value": "45",
+   "unit": "%",
+   "relative_value": "0.45",
+   "label": "",
+   "role": "arc",
+   "source_type": "narration_calibrated",
+   "whole_scope": "Outer arc"
+  }
+ ],
+ "composition_groups": [
   {
    "panel": "",
-   "entity": "Support legalization",
    "series": "Inner arc",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Inner arc",
+   "row_ids": [
+    "r1"
    ],
-   "x_anchors": [],
-   "first_value": 52.0,
-   "last_value": 52.0,
-   "min_value": 52.0,
-   "max_value": 52.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
+   "entities": [
+    "Support legalization"
    ],
-   "source_type": [
-    "narration_calibrated"
-   ],
-   "role": [
-    "arc"
-   ]
+   "relative_value_sum": 0.52
   },
   {
    "panel": "",
-   "entity": "Oppose legalization",
    "series": "Outer arc",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Outer arc",
+   "row_ids": [
+    "r2"
    ],
-   "x_anchors": [],
-   "first_value": 45.0,
-   "last_value": 45.0,
-   "min_value": 45.0,
-   "max_value": 45.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
+   "entities": [
+    "Oppose legalization"
    ],
-   "source_type": [
-    "narration_calibrated"
-   ],
-   "role": [
-    "arc"
-   ]
+   "relative_value_sum": 0.45
   }
  ],
- "source_type_counts": {
-  "narration_calibrated": 2
- },
- "role_counts": {
-  "arc": 2
- },
- "estimated_or_projected_roles": [],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "Inner arc",
     "entity": "Support legalization",
-    "series": "Inner arc"
+    "metric": "share_of_respondents",
+    "value": "52",
+    "unit": "%",
+    "relative_value": "0.52",
+    "label": "",
+    "role": "arc",
+    "source_type": "narration_calibrated",
+    "whole_scope": "Inner arc"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "Outer arc",
     "entity": "Oppose legalization",
-    "series": "Outer arc"
+    "metric": "share_of_respondents",
+    "value": "45",
+    "unit": "%",
+    "relative_value": "0.45",
+    "label": "",
+    "role": "arc",
+    "source_type": "narration_calibrated",
+    "whole_scope": "Outer arc"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

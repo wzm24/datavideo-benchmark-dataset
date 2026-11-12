@@ -1,106 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_29",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "8adf21bfba83105aa8d8986b2f03df0ca077102fa827814d6f25a3840984f1f6",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "43434d4a53b5b36061a0cc2aa828421dd2581b76935ba3ae1e34f40b48dffcdc",
  "row_count": 1,
- "sidecar_row_count": 1,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 1,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "vegan_population_share"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "VEGAN POPULATION IN US (2008)",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 0.5,
-   "last_value": 0.5,
-   "min_value": 0.5,
-   "max_value": 0.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "entity": "VEGAN POPULATION IN US (2008)",
+   "metric": "vegan_population_share",
+   "value": "0.5",
+   "unit": "%",
+   "relative_value": "0.005",
+   "label": "0.5%",
+   "role": "gauge",
+   "source_type": "estimated",
+   "whole_scope": "vegan_population_share"
   }
  ],
- "source_type_counts": {
-  "estimated": 1
- },
- "role_counts": {
-  "gauge": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "vegan_population_share",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "VEGAN POPULATION IN US (2008)"
+   ],
+   "relative_value_sum": 0.005
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "VEGAN POPULATION IN US (2008)",
-    "series": ""
+    "metric": "vegan_population_share",
+    "value": "0.5",
+    "unit": "%",
+    "relative_value": "0.005",
+    "label": "0.5%",
+    "role": "gauge",
+    "source_type": "estimated",
+    "whole_scope": "vegan_population_share"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

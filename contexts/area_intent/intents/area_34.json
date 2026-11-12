@@ -1,0 +1,68 @@
+{
+ "clip": "area_34",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show the relative distribution density across salary percentiles, which peaks near the middle of the percentile range and declines toward both ends.",
+ "proposed_intent": "Trace how the relative distribution density of housing affordability varies across the salary percentile range.",
+ "writer": {
+  "intent": "Trace how the relative distribution density of housing affordability varies across the salary percentile range.",
+  "entities": [
+   "Housing affordability"
+  ],
+  "measure": "Distribution density (relative)",
+  "scope": "Salary percentile range from point_order 1 to 200",
+  "comparison": "None",
+  "withheld_answer": "The distribution peaks near the middle of the percentile range and declines toward both ends."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 15,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4217,
+   "completion_tokens": 91,
+   "total_tokens": 4308,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 4089
+  },
+  {
+   "prompt_tokens": 4145,
+   "completion_tokens": 56,
+   "total_tokens": 4201,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4145
+  }
+ ],
+ "sec": 2.5
+}

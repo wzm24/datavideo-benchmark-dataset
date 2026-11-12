@@ -1,0 +1,225 @@
+{
+ "clip_id": "area_15",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_15",
+  "family": "area",
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 69,
+  "table_sha256": "61731f3c914195aa1347f642d7eb7135692b58e468391fe86577ad9f5e1b0797"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Fast Spread",
+    "Slow Spread"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Fast Spread",
+      "panel": "",
+      "entity": "Fast Spread",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread",
+      "panel": "",
+      "entity": "Slow Spread",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Fast Spread | 0.309239",
+    "Slow Spread | 0.495652"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Fast Spread | 0.309239",
+      "panel": "",
+      "entity": "Fast Spread",
+      "series": "",
+      "x": "0.309239",
+      "point_order": "20",
+      "value": "82.304527",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | 0.495652",
+      "panel": "",
+      "entity": "Slow Spread",
+      "series": "",
+      "x": "0.495652",
+      "point_order": "15",
+      "value": "32.921811",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Fast Spread reaches a much higher peak outbreak value than Slow Spread (about 82.3 vs 32.9 relative units).; Fast Spread peaks earlier in relative time than Slow Spread (around x=0.31 vs x=0.50).",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Slow Spread peak is higher than Fast Spread peak",
+    "Both series have similar peak values",
+    "Fast Spread peak is below 50",
+    "Slow Spread peaks earlier than Fast Spread",
+    "Both series peak at the same relative time",
+    "Fast Spread peak occurs after x=0.5"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Fast Spread | 0.193478",
+    "Slow Spread | 0.311304",
+    "Fast Spread | 0.503478",
+    "Slow Spread | 0.641848"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Fast Spread | 0.193478",
+      "panel": "",
+      "entity": "Fast Spread",
+      "series": "",
+      "x": "0.193478",
+      "point_order": "11",
+      "value": "56.810700",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | 0.311304",
+      "panel": "",
+      "entity": "Slow Spread",
+      "series": "",
+      "x": "0.311304",
+      "point_order": "9",
+      "value": "22.654321",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Fast Spread | 0.503478",
+      "panel": "",
+      "entity": "Fast Spread",
+      "series": "",
+      "x": "0.503478",
+      "point_order": "31",
+      "value": "25.493827",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | 0.641848",
+      "panel": "",
+      "entity": "Slow Spread",
+      "series": "",
+      "x": "0.641848",
+      "point_order": "20",
+      "value": "26.810700",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Fast Spread rises more steeply and declines sooner than Slow Spread, whose outbreak curve is lower and broader over relative time.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Slow Spread rises more steeply than Fast Spread",
+    "Fast Spread remains elevated longer than Slow Spread",
+    "The two series have identical trajectory shapes"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

@@ -1,0 +1,921 @@
+{
+  "clip_id": "bar_120",
+  "family": "bar",
+  "video_id": "Jj9vD7cKUhE",
+  "source_url": "https://www.youtube.com/watch?v=Jj9vD7cKUhE",
+  "source_title": "Do Americans trust the police?",
+  "target_window_source": {
+    "start": 186.0,
+    "end": 192.0
+  },
+  "target_mask_interval": {
+    "start": 184.5,
+    "end": 193.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    42,
+    43
+  ],
+  "masked_cue_ids": [
+    41,
+    42,
+    43,
+    44
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    45,
+    46,
+    47
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 7.6,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 1,
+      "start": 7.6,
+      "end": 9.6,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 2,
+      "start": 9.6,
+      "end": 12.6,
+      "text": "To what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 3,
+      "start": 12.6,
+      "end": 19.1,
+      "text": "In this episode, Jocelyn Keiley and Kim Parker help explain trust in police and views of police reforms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 4,
+      "start": 19.1,
+      "end": 24.25,
+      "text": "The relationship between the public and police across the country",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 5,
+      "start": 24.25,
+      "end": 29.75,
+      "text": "was not a new issue, was brought into sharp focus over the course of 2020 and 2021.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 6,
+      "start": 29.75,
+      "end": 34.75,
+      "text": "Throughout the summer and fall of 2020, protests around the U.S. put the issue front and center",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 7,
+      "start": 34.75,
+      "end": 37.75,
+      "text": "following the killings of several black Americans by police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 8,
+      "start": 37.75,
+      "end": 41.75,
+      "text": "in particular the murder of George Floyd by police officer Derek Chauvin,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 9,
+      "start": 41.75,
+      "end": 44.75,
+      "text": "who was convicted in the spring of 2021.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 10,
+      "start": 44.75,
+      "end": 47.75,
+      "text": "When we look at public opinion on police and policing in our surveys,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 11,
+      "start": 47.75,
+      "end": 54.75,
+      "text": "there's a view of and experiences with policing very substantially across political and demographic lines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 12,
+      "start": 54.75,
+      "end": 57.75,
+      "text": "Yes, in November of 2020,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 13,
+      "start": 57.75,
+      "end": 63.75,
+      "text": "we asked American adults how much confidence they have in police to act in the best interests of the public.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 14,
+      "start": 63.75,
+      "end": 66.75,
+      "text": "And what we found was that most said they have at least some confidence,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 15,
+      "start": 66.75,
+      "end": 69.75,
+      "text": "with 26% saying they have a great deal of confidence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 16,
+      "start": 69.75,
+      "end": 73.75,
+      "text": "There are a few major fault lines that I would point to in looking at these views,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 17,
+      "start": 73.75,
+      "end": 75.75,
+      "text": "and race and ethnicity is one of them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 18,
+      "start": 75.75,
+      "end": 82.75,
+      "text": "White adults are much more likely than black or Hispanic adults to say that they have a great deal of confidence in the police.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 19,
+      "start": 82.75,
+      "end": 84.75,
+      "text": "There are also significant differences by age,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 20,
+      "start": 84.75,
+      "end": 89.75,
+      "text": "and young adults are much less trusting of police than middle-aged and older adults.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 21,
+      "start": 89.75,
+      "end": 93.75,
+      "text": "And the views are also deeply divided by party identification,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 22,
+      "start": 93.75,
+      "end": 98.75,
+      "text": "about four in ten Republicans and Republican leaners have a great deal of confidence in the police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 23,
+      "start": 98.75,
+      "end": 103.75,
+      "text": "and that compares with only 13% of Democrats and independents who lean to the Democratic Party.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 24,
+      "start": 103.75,
+      "end": 107.75,
+      "text": "So, you know, we know these differences and attitudes can result from a lot of different dynamics,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 25,
+      "start": 107.75,
+      "end": 110.75,
+      "text": "but one is certainly personal experience.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 26,
+      "start": 110.75,
+      "end": 114.75,
+      "text": "We asked people about some of the different ways they may have been discriminated against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 27,
+      "start": 114.75,
+      "end": 118.75,
+      "text": "because of their race or ethnicity across different realms of life,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 28,
+      "start": 118.75,
+      "end": 122.75,
+      "text": "and one of the things that we asked about was whether they had ever been unfairly stopped by the police.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 29,
+      "start": 122.75,
+      "end": 127.75,
+      "text": "What we found was that almost half of black adults said that this had happened to them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 30,
+      "start": 127.75,
+      "end": 129.75,
+      "text": "including about two-thirds of black men.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 31,
+      "start": 129.75,
+      "end": 136.75,
+      "text": "And by comparison, 19% of Hispanic adults and only 9% of white adults said that this has happened to them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 32,
+      "start": 136.75,
+      "end": 142.75,
+      "text": "I think these gaps in experience give us some real insight into why black adults feel the way they do about the police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 33,
+      "start": 142.75,
+      "end": 147.75,
+      "text": "and also why they might want to see changes in the way that police do their jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 34,
+      "start": 147.75,
+      "end": 153.75,
+      "text": "So, in our summer 2020 survey, we found a broad base of support for a number of proposals about policing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 35,
+      "start": 153.75,
+      "end": 158.75,
+      "text": "public overwhelmingly backs requiring training in nonviolent alternatives to deadly force,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 36,
+      "start": 158.75,
+      "end": 161.75,
+      "text": "a federal government database to track misconduct allegations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 37,
+      "start": 161.75,
+      "end": 163.75,
+      "text": "Those are supported by nine in ten Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 38,
+      "start": 163.75,
+      "end": 170.75,
+      "text": "Also, a wide majority of Americans support giving civilian oversight boards investigative and disciplinary powers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 39,
+      "start": 170.75,
+      "end": 174.75,
+      "text": "and requiring officers to live in the places that police and making chokeholds work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 40,
+      "start": 174.75,
+      "end": 177.75,
+      "text": "Angle holds a crime. These are all proposals that have come up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    }
+  ],
+  "context_after": [
+    {
+      "index": 45,
+      "start": 197.75,
+      "end": 200.75,
+      "text": "at least in the public at large, there's common ground.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 46,
+      "start": 200.75,
+      "end": 207.75,
+      "text": "One question is, as proposals for change continue to come up at various levels of government, federal, state, local,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 47,
+      "start": 207.75,
+      "end": 210.75,
+      "text": "how will that manifest in public attitudes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 7.6,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 1,
+      "start": 7.6,
+      "end": 9.6,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 2,
+      "start": 9.6,
+      "end": 12.6,
+      "text": "To what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 3,
+      "start": 12.6,
+      "end": 19.1,
+      "text": "In this episode, Jocelyn Keiley and Kim Parker help explain trust in police and views of police reforms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 4,
+      "start": 19.1,
+      "end": 24.25,
+      "text": "The relationship between the public and police across the country",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 5,
+      "start": 24.25,
+      "end": 29.75,
+      "text": "was not a new issue, was brought into sharp focus over the course of 2020 and 2021.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.17753,
+      "no_speech_prob": 0.035034
+    },
+    {
+      "index": 6,
+      "start": 29.75,
+      "end": 34.75,
+      "text": "Throughout the summer and fall of 2020, protests around the U.S. put the issue front and center",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 7,
+      "start": 34.75,
+      "end": 37.75,
+      "text": "following the killings of several black Americans by police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 8,
+      "start": 37.75,
+      "end": 41.75,
+      "text": "in particular the murder of George Floyd by police officer Derek Chauvin,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 9,
+      "start": 41.75,
+      "end": 44.75,
+      "text": "who was convicted in the spring of 2021.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 10,
+      "start": 44.75,
+      "end": 47.75,
+      "text": "When we look at public opinion on police and policing in our surveys,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 11,
+      "start": 47.75,
+      "end": 54.75,
+      "text": "there's a view of and experiences with policing very substantially across political and demographic lines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 12,
+      "start": 54.75,
+      "end": 57.75,
+      "text": "Yes, in November of 2020,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.126136,
+      "no_speech_prob": 0.001809
+    },
+    {
+      "index": 13,
+      "start": 57.75,
+      "end": 63.75,
+      "text": "we asked American adults how much confidence they have in police to act in the best interests of the public.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 14,
+      "start": 63.75,
+      "end": 66.75,
+      "text": "And what we found was that most said they have at least some confidence,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 15,
+      "start": 66.75,
+      "end": 69.75,
+      "text": "with 26% saying they have a great deal of confidence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 16,
+      "start": 69.75,
+      "end": 73.75,
+      "text": "There are a few major fault lines that I would point to in looking at these views,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 17,
+      "start": 73.75,
+      "end": 75.75,
+      "text": "and race and ethnicity is one of them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 18,
+      "start": 75.75,
+      "end": 82.75,
+      "text": "White adults are much more likely than black or Hispanic adults to say that they have a great deal of confidence in the police.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058457,
+      "no_speech_prob": 0.002251
+    },
+    {
+      "index": 19,
+      "start": 82.75,
+      "end": 84.75,
+      "text": "There are also significant differences by age,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 20,
+      "start": 84.75,
+      "end": 89.75,
+      "text": "and young adults are much less trusting of police than middle-aged and older adults.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 21,
+      "start": 89.75,
+      "end": 93.75,
+      "text": "And the views are also deeply divided by party identification,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 22,
+      "start": 93.75,
+      "end": 98.75,
+      "text": "about four in ten Republicans and Republican leaners have a great deal of confidence in the police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 23,
+      "start": 98.75,
+      "end": 103.75,
+      "text": "and that compares with only 13% of Democrats and independents who lean to the Democratic Party.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 24,
+      "start": 103.75,
+      "end": 107.75,
+      "text": "So, you know, we know these differences and attitudes can result from a lot of different dynamics,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 25,
+      "start": 107.75,
+      "end": 110.75,
+      "text": "but one is certainly personal experience.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070045,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 26,
+      "start": 110.75,
+      "end": 114.75,
+      "text": "We asked people about some of the different ways they may have been discriminated against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 27,
+      "start": 114.75,
+      "end": 118.75,
+      "text": "because of their race or ethnicity across different realms of life,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 28,
+      "start": 118.75,
+      "end": 122.75,
+      "text": "and one of the things that we asked about was whether they had ever been unfairly stopped by the police.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 29,
+      "start": 122.75,
+      "end": 127.75,
+      "text": "What we found was that almost half of black adults said that this had happened to them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 30,
+      "start": 127.75,
+      "end": 129.75,
+      "text": "including about two-thirds of black men.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 31,
+      "start": 129.75,
+      "end": 136.75,
+      "text": "And by comparison, 19% of Hispanic adults and only 9% of white adults said that this has happened to them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046977,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 32,
+      "start": 136.75,
+      "end": 142.75,
+      "text": "I think these gaps in experience give us some real insight into why black adults feel the way they do about the police,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 33,
+      "start": 142.75,
+      "end": 147.75,
+      "text": "and also why they might want to see changes in the way that police do their jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 34,
+      "start": 147.75,
+      "end": 153.75,
+      "text": "So, in our summer 2020 survey, we found a broad base of support for a number of proposals about policing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 35,
+      "start": 153.75,
+      "end": 158.75,
+      "text": "public overwhelmingly backs requiring training in nonviolent alternatives to deadly force,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 36,
+      "start": 158.75,
+      "end": 161.75,
+      "text": "a federal government database to track misconduct allegations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090234,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 37,
+      "start": 161.75,
+      "end": 163.75,
+      "text": "Those are supported by nine in ten Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 38,
+      "start": 163.75,
+      "end": 170.75,
+      "text": "Also, a wide majority of Americans support giving civilian oversight boards investigative and disciplinary powers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 39,
+      "start": 170.75,
+      "end": 174.75,
+      "text": "and requiring officers to live in the places that police and making chokeholds work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 40,
+      "start": 174.75,
+      "end": 177.75,
+      "text": "Angle holds a crime. These are all proposals that have come up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135178,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 45,
+      "start": 197.75,
+      "end": 200.75,
+      "text": "at least in the public at large, there's common ground.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 46,
+      "start": 200.75,
+      "end": 207.75,
+      "text": "One question is, as proposals for change continue to come up at various levels of government, federal, state, local,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 47,
+      "start": 207.75,
+      "end": 210.75,
+      "text": "how will that manifest in public attitudes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060593,
+      "no_speech_prob": 0.005554
+    }
+  ],
+  "context_text_chronological": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy. Yet today, trust is declining. To what impact does this have on American society? In this episode, Jocelyn Keiley and Kim Parker help explain trust in police and views of police reforms. The relationship between the public and police across the country was not a new issue, was brought into sharp focus over the course of 2020 and 2021. Throughout the summer and fall of 2020, protests around the U.S. put the issue front and center following the killings of several black Americans by police, in particular the murder of George Floyd by police officer Derek Chauvin, who was convicted in the spring of 2021. When we look at public opinion on police and policing in our surveys, there's a view of and experiences with policing very substantially across political and demographic lines. Yes, in November of 2020, we asked American adults how much confidence they have in police to act in the best interests of the public. And what we found was that most said they have at least some confidence, with 26% saying they have a great deal of confidence. There are a few major fault lines that I would point to in looking at these views, and race and ethnicity is one of them. White adults are much more likely than black or Hispanic adults to say that they have a great deal of confidence in the police. There are also significant differences by age, and young adults are much less trusting of police than middle-aged and older adults. And the views are also deeply divided by party identification, about four in ten Republicans and Republican leaners have a great deal of confidence in the police, and that compares with only 13% of Democrats and independents who lean to the Democratic Party. So, you know, we know these differences and attitudes can result from a lot of different dynamics, but one is certainly personal experience. We asked people about some of the different ways they may have been discriminated against because of their race or ethnicity across different realms of life, and one of the things that we asked about was whether they had ever been unfairly stopped by the police. What we found was that almost half of black adults said that this had happened to them, including about two-thirds of black men. And by comparison, 19% of Hispanic adults and only 9% of white adults said that this has happened to them. I think these gaps in experience give us some real insight into why black adults feel the way they do about the police, and also why they might want to see changes in the way that police do their jobs. So, in our summer 2020 survey, we found a broad base of support for a number of proposals about policing, public overwhelmingly backs requiring training in nonviolent alternatives to deadly force, a federal government database to track misconduct allegations. Those are supported by nine in ten Americans. Also, a wide majority of Americans support giving civilian oversight boards investigative and disciplinary powers and requiring officers to live in the places that police and making chokeholds work. Angle holds a crime. These are all proposals that have come up. at least in the public at large, there's common ground. One question is, as proposals for change continue to come up at various levels of government, federal, state, local, how will that manifest in public attitudes?",
+  "target_text_for_audit": "and the intensity of support is higher, there is a fair amount of support among white Americans and Republicans for all of these things as well.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "such that black Americans and Democrats are more likely to support these things and the intensity of support is higher.",
+        "start_source": 181.0,
+        "end_source": 186.6,
+        "matching_cue_ids": [
+          41,
+          42
+        ],
+        "text_similarity": 0.7108,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "There is a fair amount of support among white Americans and Republicans for all of these things as well.",
+        "start_source": 186.9,
+        "end_source": 192.26,
+        "matching_cue_ids": [
+          42,
+          43
+        ],
+        "text_similarity": 0.8408,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\Jj9vD7cKUhE.mp4",
+    "cue_count": 48
+  },
+  "token_estimate_char_div_4": 854
+}

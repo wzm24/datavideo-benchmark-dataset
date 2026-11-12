@@ -1,0 +1,811 @@
+{
+  "clip_id": "donut_42",
+  "family": "donut",
+  "video_id": "zbTdT6wkY8k",
+  "source_url": "https://www.youtube.com/watch?v=zbTdT6wkY8k",
+  "source_title": "CIA Spent $20 Million Training Cats To Be Spies - Unbelievable But True Cat Facts",
+  "target_window_source": {
+    "start": 131.0,
+    "end": 133.0
+  },
+  "target_mask_interval": {
+    "start": 129.5,
+    "end": 134.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    32,
+    33
+  ],
+  "masked_cue_ids": [
+    32,
+    33
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.43,
+      "end": 5.91,
+      "text": "If the internet is any gauge, the world loves cats, from memes to videos, from Facebook",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 1,
+      "start": 5.91,
+      "end": 8.63,
+      "text": "to YouTube, it seems like they're everywhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 2,
+      "start": 8.63,
+      "end": 10.87,
+      "text": "But how much do you really know about cats?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 3,
+      "start": 10.87,
+      "end": 17.1,
+      "text": "Here are some lesser known facts that you will certainly find interesting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 4,
+      "start": 17.1,
+      "end": 20.18,
+      "text": "Prior to the 1750s, there were no cats in the Americas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 5,
+      "start": 20.18,
+      "end": 24.54,
+      "text": "They were brought from Europe as pets controllers in the 1750s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 6,
+      "start": 24.54,
+      "end": 26.94,
+      "text": "They are America's most popular pet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 7,
+      "start": 26.94,
+      "end": 31.54,
+      "text": "There are 88 million cats kept as pets compared to 74 million dogs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 8,
+      "start": 31.54,
+      "end": 37.78,
+      "text": "In fact, 30.4% of American households own a cat, and 84% of those cats are spade or",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 9,
+      "start": 37.78,
+      "end": 38.78,
+      "text": "neutered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 10,
+      "start": 38.78,
+      "end": 43.34,
+      "text": "Sadly, there are 60 million feral cats living on the streets in the USA today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 11,
+      "start": 43.34,
+      "end": 49.78,
+      "text": "55% of all household cats in the US are overweight, but only 9% of their owners know that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 12,
+      "start": 49.78,
+      "end": 53.78,
+      "text": "The most popular female name for a cat in the US is Chloe, and the most popular name",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 13,
+      "start": 53.78,
+      "end": 56.22,
+      "text": "for a male cat is Max.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 14,
+      "start": 56.22,
+      "end": 61.98,
+      "text": "Unbeknownst to most of us, the CIA spent $20 million in the 1960s training cats to spy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 15,
+      "start": 61.98,
+      "end": 63.38,
+      "text": "on the Soviets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 16,
+      "start": 63.38,
+      "end": 66.74,
+      "text": "The first spy cat was hit by a taxi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 17,
+      "start": 66.74,
+      "end": 69.38,
+      "text": "And some cats have even entered politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 18,
+      "start": 69.38,
+      "end": 75.5,
+      "text": "Stubbs the Cat has been the honorary mayor of Talkeetna, Alaska for nearly 17 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 19,
+      "start": 75.5,
+      "end": 80.06,
+      "text": "Some cats have survived falls from over 32 stories onto concrete due largely to their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 20,
+      "start": 80.06,
+      "end": 81.98,
+      "text": "writing reflex.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 21,
+      "start": 81.98,
+      "end": 86.4,
+      "text": "And cats have powerful night vision, allowing them to see at light levels six times lower",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 22,
+      "start": 86.4,
+      "end": 89.62,
+      "text": "than what a human needs in order to see.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 23,
+      "start": 89.62,
+      "end": 92.9,
+      "text": "On average, cats live for around 12 to 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 24,
+      "start": 92.9,
+      "end": 99.14,
+      "text": "And if you thought that you were tired, consider this, cats sleep for 70% of their lives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 25,
+      "start": 99.14,
+      "end": 103.9,
+      "text": "The oldest video of cats dates from 1894.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 26,
+      "start": 103.9,
+      "end": 108.1,
+      "text": "The richest cat in the world is an Italian cat named Tomasso.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 27,
+      "start": 108.1,
+      "end": 114.86,
+      "text": "In 2012, a 94-year-old Italian heiress passed away and left her entire $13 million fortune",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 28,
+      "start": 114.86,
+      "end": 116.5,
+      "text": "to her cat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 29,
+      "start": 116.5,
+      "end": 121.02,
+      "text": "Cats were known in ancient Egypt as Mao, and were considered sacred in ancient Egyptian",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 30,
+      "start": 121.02,
+      "end": 122.02,
+      "text": "society.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 31,
+      "start": 122.02,
+      "end": 127.34,
+      "text": "When cats died, ancient Egyptians shaved off their eyebrows to mourn their deaths.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    }
+  ],
+  "context_after": [
+    {
+      "index": 34,
+      "start": 134.78,
+      "end": 139.26,
+      "text": "Cat owners are 17% more likely to have a graduate degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 35,
+      "start": 139.26,
+      "end": 143.26,
+      "text": "Each night at Disneyland, after the park closes, the park fills up again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 36,
+      "start": 143.26,
+      "end": 146.26,
+      "text": "Only this time, it's with hundreds of feral cats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 37,
+      "start": 146.26,
+      "end": 149.58,
+      "text": "The cats are let loose to help control the mouse population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 38,
+      "start": 149.58,
+      "end": 153.22,
+      "text": "So much for Mickey and Minnie!",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 39,
+      "start": 153.22,
+      "end": 154.42,
+      "text": "Thanks for watching!",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 40,
+      "start": 154.42,
+      "end": 158.02,
+      "text": "If you liked this video, please hit like and subscribe to our channel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.43,
+      "end": 5.91,
+      "text": "If the internet is any gauge, the world loves cats, from memes to videos, from Facebook",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 1,
+      "start": 5.91,
+      "end": 8.63,
+      "text": "to YouTube, it seems like they're everywhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 2,
+      "start": 8.63,
+      "end": 10.87,
+      "text": "But how much do you really know about cats?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 3,
+      "start": 10.87,
+      "end": 17.1,
+      "text": "Here are some lesser known facts that you will certainly find interesting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 4,
+      "start": 17.1,
+      "end": 20.18,
+      "text": "Prior to the 1750s, there were no cats in the Americas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 5,
+      "start": 20.18,
+      "end": 24.54,
+      "text": "They were brought from Europe as pets controllers in the 1750s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 6,
+      "start": 24.54,
+      "end": 26.94,
+      "text": "They are America's most popular pet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 7,
+      "start": 26.94,
+      "end": 31.54,
+      "text": "There are 88 million cats kept as pets compared to 74 million dogs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151343,
+      "no_speech_prob": 0.043274
+    },
+    {
+      "index": 8,
+      "start": 31.54,
+      "end": 37.78,
+      "text": "In fact, 30.4% of American households own a cat, and 84% of those cats are spade or",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 9,
+      "start": 37.78,
+      "end": 38.78,
+      "text": "neutered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 10,
+      "start": 38.78,
+      "end": 43.34,
+      "text": "Sadly, there are 60 million feral cats living on the streets in the USA today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 11,
+      "start": 43.34,
+      "end": 49.78,
+      "text": "55% of all household cats in the US are overweight, but only 9% of their owners know that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 12,
+      "start": 49.78,
+      "end": 53.78,
+      "text": "The most popular female name for a cat in the US is Chloe, and the most popular name",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 13,
+      "start": 53.78,
+      "end": 56.22,
+      "text": "for a male cat is Max.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135295,
+      "no_speech_prob": 0.000169
+    },
+    {
+      "index": 14,
+      "start": 56.22,
+      "end": 61.98,
+      "text": "Unbeknownst to most of us, the CIA spent $20 million in the 1960s training cats to spy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 15,
+      "start": 61.98,
+      "end": 63.38,
+      "text": "on the Soviets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 16,
+      "start": 63.38,
+      "end": 66.74,
+      "text": "The first spy cat was hit by a taxi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 17,
+      "start": 66.74,
+      "end": 69.38,
+      "text": "And some cats have even entered politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 18,
+      "start": 69.38,
+      "end": 75.5,
+      "text": "Stubbs the Cat has been the honorary mayor of Talkeetna, Alaska for nearly 17 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 19,
+      "start": 75.5,
+      "end": 80.06,
+      "text": "Some cats have survived falls from over 32 stories onto concrete due largely to their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 20,
+      "start": 80.06,
+      "end": 81.98,
+      "text": "writing reflex.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.158725,
+      "no_speech_prob": 0.545898
+    },
+    {
+      "index": 21,
+      "start": 81.98,
+      "end": 86.4,
+      "text": "And cats have powerful night vision, allowing them to see at light levels six times lower",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 22,
+      "start": 86.4,
+      "end": 89.62,
+      "text": "than what a human needs in order to see.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 23,
+      "start": 89.62,
+      "end": 92.9,
+      "text": "On average, cats live for around 12 to 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 24,
+      "start": 92.9,
+      "end": 99.14,
+      "text": "And if you thought that you were tired, consider this, cats sleep for 70% of their lives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 25,
+      "start": 99.14,
+      "end": 103.9,
+      "text": "The oldest video of cats dates from 1894.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 26,
+      "start": 103.9,
+      "end": 108.1,
+      "text": "The richest cat in the world is an Italian cat named Tomasso.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138021,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 27,
+      "start": 108.1,
+      "end": 114.86,
+      "text": "In 2012, a 94-year-old Italian heiress passed away and left her entire $13 million fortune",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 28,
+      "start": 114.86,
+      "end": 116.5,
+      "text": "to her cat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 29,
+      "start": 116.5,
+      "end": 121.02,
+      "text": "Cats were known in ancient Egypt as Mao, and were considered sacred in ancient Egyptian",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 30,
+      "start": 121.02,
+      "end": 122.02,
+      "text": "society.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 31,
+      "start": 122.02,
+      "end": 127.34,
+      "text": "When cats died, ancient Egyptians shaved off their eyebrows to mourn their deaths.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.112515,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 34,
+      "start": 134.78,
+      "end": 139.26,
+      "text": "Cat owners are 17% more likely to have a graduate degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 35,
+      "start": 139.26,
+      "end": 143.26,
+      "text": "Each night at Disneyland, after the park closes, the park fills up again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 36,
+      "start": 143.26,
+      "end": 146.26,
+      "text": "Only this time, it's with hundreds of feral cats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 37,
+      "start": 146.26,
+      "end": 149.58,
+      "text": "The cats are let loose to help control the mouse population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 38,
+      "start": 149.58,
+      "end": 153.22,
+      "text": "So much for Mickey and Minnie!",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 39,
+      "start": 153.22,
+      "end": 154.42,
+      "text": "Thanks for watching!",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    },
+    {
+      "index": 40,
+      "start": 154.42,
+      "end": 158.02,
+      "text": "If you liked this video, please hit like and subscribe to our channel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.142352,
+      "no_speech_prob": 0.617676
+    }
+  ],
+  "context_text_chronological": "If the internet is any gauge, the world loves cats, from memes to videos, from Facebook to YouTube, it seems like they're everywhere. But how much do you really know about cats? Here are some lesser known facts that you will certainly find interesting. Prior to the 1750s, there were no cats in the Americas. They were brought from Europe as pets controllers in the 1750s. They are America's most popular pet. There are 88 million cats kept as pets compared to 74 million dogs. In fact, 30.4% of American households own a cat, and 84% of those cats are spade or neutered. Sadly, there are 60 million feral cats living on the streets in the USA today. 55% of all household cats in the US are overweight, but only 9% of their owners know that. The most popular female name for a cat in the US is Chloe, and the most popular name for a male cat is Max. Unbeknownst to most of us, the CIA spent $20 million in the 1960s training cats to spy on the Soviets. The first spy cat was hit by a taxi. And some cats have even entered politics. Stubbs the Cat has been the honorary mayor of Talkeetna, Alaska for nearly 17 years. Some cats have survived falls from over 32 stories onto concrete due largely to their writing reflex. And cats have powerful night vision, allowing them to see at light levels six times lower than what a human needs in order to see. On average, cats live for around 12 to 15 years. And if you thought that you were tired, consider this, cats sleep for 70% of their lives. The oldest video of cats dates from 1894. The richest cat in the world is an Italian cat named Tomasso. In 2012, a 94-year-old Italian heiress passed away and left her entire $13 million fortune to her cat. Cats were known in ancient Egypt as Mao, and were considered sacred in ancient Egyptian society. When cats died, ancient Egyptians shaved off their eyebrows to mourn their deaths. Cat owners are 17% more likely to have a graduate degree. Each night at Disneyland, after the park closes, the park fills up again. Only this time, it's with hundreds of feral cats. The cats are let loose to help control the mouse population. So much for Mickey and Minnie! Thanks for watching! If you liked this video, please hit like and subscribe to our channel.",
+  "target_text_for_audit": "Only 11.5% of people consider themselves cat people. Cat people are also 11% more likely to be introverted.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Cat people are also 11 % more likely to be introverted.",
+        "start_source": 130.78,
+        "end_source": 133.96,
+        "matching_cue_ids": [
+          32,
+          33
+        ],
+        "text_similarity": 0.6667,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\zbTdT6wkY8k.mp4",
+    "cue_count": 41
+  },
+  "token_estimate_char_div_4": 560
+}

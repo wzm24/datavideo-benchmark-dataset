@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>Area narrative goal · intent · G1 review</title>
+<style>
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;margin:0;background:#f3f5f2;color:#17231d}
+header{position:sticky;top:0;background:#173f32;color:white;padding:20px 32px;z-index:2}
+main{max-width:1320px;margin:auto;padding:24px}
+section{background:white;border:1px solid #d2ddd5;border-radius:14px;padding:20px;margin:18px 0;box-shadow:0 3px 12px #173f3210}
+.media{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.media img{width:100%;height:330px;object-fit:contain;background:#fafcf9;border:1px solid #dce5df;border-radius:8px}
+.muted{color:#607067;font-size:13px}
+.pill{font-size:12px;padding:3px 9px;border-radius:999px;background:#dcefe6;color:#174f42}
+li{margin:10px 0}
+</style></head><body><header>
+<h1>Area · narrative goal → intent → G1</h1>
+<p>34 clips · V1 public intent · hidden goal is answer-bearing · G1 uses intent + table + chart_spec only</p>
+</header><main>
+<section id="area_1">
+  <h2>area_1 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_1/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_1/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that infections peak at 95 while healthcare capacity falls to a low of 33, then infections decline.</p>
+  <p><strong>Public intent:</strong> Compare the trajectories of Infections and Healthcare capacity over relative time to identify their respective peak and low points.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Infections, Healthcare capacity.<div class='muted'>basis rows: r1, r30</div></li><li><strong>U2 · comparison</strong> Infections rise from near zero to a peak near 95 and then fall back to zero, while Healthcare capacity starts at 45, dips to a low of 33, and returns to 45; the two trajectories diverge and then reconverge.<div class='muted'>basis rows: r1, r15, r29, r30, r41, r52</div></li><li><strong>U3 · extremum</strong> Infections reach their maximum value of 95 at relative time 0.25.<div class='muted'>basis rows: r15, r15</div></li><li><strong>U4 · extremum</strong> Infections reach their minimum value of 0 at relative time 0.5.<div class='muted'>basis rows: r29, r29</div></li><li><strong>U5 · extremum</strong> Healthcare capacity has a maximum of 45 at the start and end of the plotted range, and a minimum of 33 at relative time 0.250682.<div class='muted'>basis rows: r30, r41, r41, r52</div></li></ol>
+</section>
+<section id="area_2">
+  <h2>area_2 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_2/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_2/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that contraceptive use among women of reproductive age in sub-Saharan Africa rose from 16% in 1990 to 30% in 2014.</p>
+  <p><strong>Public intent:</strong> Trace the percentage of women of reproductive age using any contraceptive method from 1990 to 2014.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: contraceptive use.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · change</strong> Contraceptive use among women of reproductive age increased from 16% in 1990 to 30% in 2014.<div class='muted'>basis rows: r1, r6</div></li><li><strong>U3 · trend</strong> Contraceptive use rose steadily across the period, with each successive sampled point higher than the previous one.<div class='muted'>basis rows: r1, r2, r3, r4, r5, r6</div></li></ol>
+</section>
+<section id="area_3">
+  <h2>area_3 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_3/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_3/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that battle deaths per year per million people fell from 180.2 in 1950 to 12.3 at the final data point, with substantial fluctuations in between.</p>
+  <p><strong>Public intent:</strong> Trace battle deaths per year per million people from 1950 through the final data point.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: battle deaths.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · change</strong> Battle deaths per year per million people fell from 180.2 in 1950 to 12.3 at the final data point.<div class='muted'>basis rows: r1, r61</div></li><li><strong>U3 · extremum</strong> The highest battle deaths per year per million people in the series is 180.2, occurring at the 1950 start point.<div class='muted'>basis rows: r1, r12, r24, r35</div></li></ol>
+</section>
+<section id="area_4">
+  <h2>area_4 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_4/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_4/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the democracy share rose from 14.7% in 1900 to 97.1% in 2000, with a general upward trend.</p>
+  <p><strong>Public intent:</strong> Trace the democracy share from 1900 to 2000 and quantify its overall change.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: democracy share.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> The democracy share rises overall from 14.7% in 1900 to 97.1% in 2000, with intermittent dips along the way.<div class='muted'>basis rows: r1, r19, r51</div></li><li><strong>U3 · change</strong> The democracy share increases by 82.4 percentage points from 1900 to 2000 (97.1% minus 14.7%).<div class='muted'>basis rows: r1, r51</div></li></ol>
+</section>
+<section id="area_6">
+  <h2>area_6 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_6/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_6/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the average number of births per woman fell from 7 in 1960 to 2 in 2019.</p>
+  <p><strong>Public intent:</strong> Trace the average number of births per woman from 1960 to 2019 and report the values at the printed time points.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: births per woman.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> The average number of births per woman decreases monotonically from 7.00 in 1960 to 2.00 in 2019.<div class='muted'>basis rows: r1, r60</div></li><li><strong>U3 · comparison</strong> At the printed time points, the values are 7.00 in 1960, 7.00 in 1975, 4.79 in 1990, 2.79 in 2005, and 2.00 in 2019.<div class='muted'>basis rows: r1, r16, r31, r46, r60</div></li></ol>
+</section>
+<section id="area_7">
+  <h2>area_7 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_7/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_7/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare the age distribution of the population in 1972 and 2019 to show how the demographic structure shifted across age groups.</p>
+  <p><strong>Public intent:</strong> Compare the age distribution of the population in 1972 and 2019 across age groups.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in Population in 1972: Population.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · visual_completeness</strong> All 1 required area marks are present in Population in 2019: Population.<div class='muted'>basis rows: r76</div></li><li><strong>U3 · comparison</strong> The age distribution of the population differs between 1972 and 2019: in 1972 the relative population width is highest at the youngest ages and declines with age, while in 2019 the relative width remains near 1 through young adult ages and then declines at older ages.<div class='muted'>basis rows: r1, r20, r41, r75, r76, r95, r116, r159</div></li></ol>
+</section>
+<section id="area_8">
+  <h2>area_8 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_8/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_8/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that world population rose from 1.02 billion in 1800 to 8.00 billion in 2014.</p>
+  <p><strong>Public intent:</strong> Trace the change in world population from 1800 to 2014 using the provided data.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: world population.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · change</strong> World population increased from 1.02 billion in 1800 to 8.00 billion in 2014.<div class='muted'>basis rows: r1, r215</div></li></ol>
+</section>
+<section id="area_11">
+  <h2>area_11 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_11/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_11/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare Fast Spread and Slow Spread pandemics to show that a fast, steep rise peaks near 70% infections while a slow rise stays below the 27% reference level.</p>
+  <p><strong>Public intent:</strong> Compare the Infections trajectories in the Fast Spread and Slow Spread panels over relative time, including the Reference level, to determine how each panel&#x27;s peak relates to that reference.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in Fast Spread: Infections, Reference level.<div class='muted'>basis rows: r1, r115</div></li><li><strong>U2 · visual_completeness</strong> All 2 required area marks are present in Slow Spread: Infections, Reference level.<div class='muted'>basis rows: r117, r218</div></li><li><strong>U3 · comparison</strong> The Fast Spread Infections trajectory rises much higher and peaks much earlier in relative time than the Slow Spread trajectory, which peaks lower and later.<div class='muted'>basis rows: r56, r163, r56, r163</div></li><li><strong>U4 · threshold_or_crossing</strong> In the Fast Spread panel, the Infections trajectory crosses above the Reference level (27.16) and its peak (about 70.37) is well above that reference.<div class='muted'>basis rows: r20, r56, r115</div></li><li><strong>U5 · threshold_or_crossing</strong> In the Slow Spread panel, the Infections trajectory remains below the Reference level (27.16) throughout; its peak (about 25.10) does not reach that reference.<div class='muted'>basis rows: r163, r218</div></li></ol>
+</section>
+<section id="area_12">
+  <h2>area_12 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_12/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_12/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that battle deaths per million people fell from about 195 in 1950 to about 2.5 by the end of the series.</p>
+  <p><strong>Public intent:</strong> Trace the battle deaths per year per million people from 1950 through the end of the series to determine the overall change.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: battle deaths.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · change</strong> Battle deaths per year per million people fell from 194.9 in 1950 to 2.5 at the end of the series, an overall decrease.<div class='muted'>basis rows: r1, r65</div></li></ol>
+</section>
+<section id="area_13">
+  <h2>area_13 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_13/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_13/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that Infections rise to a peak of about 31.8 relative units, staying below the Healthcare capacity reference of 33.5, so the outbreak does not exceed capacity.</p>
+  <p><strong>Public intent:</strong> Compare the Infections series against the Healthcare capacity reference across the relative time window to determine whether Infections remains below capacity.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Infections, Healthcare capacity.<div class='muted'>basis rows: r1, r30</div></li><li><strong>U2 · threshold_or_crossing</strong> The Infections series remains below the Healthcare capacity reference line throughout the relative time window, with its maximum value (31.78) staying under the capacity threshold (33.47).<div class='muted'>basis rows: r15, r30, r31</div></li></ol>
+</section>
+<section id="area_14">
+  <h2>area_14 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_14/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_14/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that Infections rise to about 89 relative units, exceeding the healthcare capacity of about 49, before declining.</p>
+  <p><strong>Public intent:</strong> Compare the Infections trajectory with the Capacity of Healthcare System across the relative time window to determine how the two series relate.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Infections, Capacity of Healthcare System.<div class='muted'>basis rows: r1, r40</div></li><li><strong>U2 · threshold_or_crossing</strong> The Infections series rises from 0 at x=0, crosses above the constant Capacity of Healthcare System level of 48.755187 between x=0.131556 (value 34.087137) and x=0.190556 (value 60.352697), and later falls back below that level between x=0.441556 (value 55.124481) and x=0.500556 (value 28.858921).<div class='muted'>basis rows: r1, r10, r11, r29, r30, r40</div></li><li><strong>U3 · extremum</strong> The Infections series reaches its maximum of about 89.07 relative units near x=0.318, which is well above the constant Capacity of Healthcare System level of 48.755187.<div class='muted'>basis rows: r21, r40</div></li></ol>
+</section>
+<section id="area_15">
+  <h2>area_15 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_15/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_15/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare fast versus slow pandemic spread, showing fast spread peaks near 82 relative outbreak units while slow spread peaks near 33, with both curves rising and falling over relative time.</p>
+  <p><strong>Public intent:</strong> Compare the relative outbreak trajectories of Fast Spread and Slow Spread over relative time to determine how their peak values and timing differ.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Fast Spread, Slow Spread.<div class='muted'>basis rows: r1, r41</div></li><li><strong>U2 · comparison</strong> Fast Spread reaches a much higher peak outbreak value than Slow Spread (about 82.3 vs 32.9 relative units).; Fast Spread peaks earlier in relative time than Slow Spread (around x=0.31 vs x=0.50).<div class='muted'>basis rows: r20, r55</div></li><li><strong>U3 · comparison</strong> Fast Spread rises more steeply and declines sooner than Slow Spread, whose outbreak curve is lower and broader over relative time.<div class='muted'>basis rows: r11, r49, r31, r60</div></li></ol>
+</section>
+<section id="area_16">
+  <h2>area_16 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_16/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_16/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that child mortality in Ethiopia fell steadily from 20% in 1990 to 7% in 2019.</p>
+  <p><strong>Public intent:</strong> Trace the child mortality percentage in Ethiopia from 1990 to 2019 to determine the overall trend.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: child mortality.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> Child mortality percentage in Ethiopia decreased monotonically from 20.0% in 1990 to 7.0% in 2019.<div class='muted'>basis rows: r1, r30</div></li></ol>
+</section>
+<section id="area_17">
+  <h2>area_17 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_17/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_17/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the Antarctic ice sheet&#x27;s surface rises from about 0.46 km to a peak near 3.85 km around 3000 km distance, while bedrock varies from about -2.30 km to 1.59 km and lies below sea level in several places.</p>
+  <p><strong>Public intent:</strong> Compare how the Ice surface and Bedrock elevations vary with distance across the Antarctic ice sheet transect.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 3 required area marks are present in the chart: Ice surface, Bedrock, Sea level.<div class='muted'>basis rows: r1, r315, r629</div></li><li><strong>U2 · trend</strong> The Ice surface elevation rises from 0.462 km at 0 km to a maximum of 3.854 km near 3000 km, then declines to 0.525 km at 5000 km.<div class='muted'>basis rows: r1, r189, r193, r199, r314</div></li><li><strong>U3 · trend</strong> The Bedrock elevation fluctuates with distance, starting at -2.127 km, rising above sea level to a maximum of 1.589 km, and ending at -2.297 km.<div class='muted'>basis rows: r315, r341, r354, r368, r421, r434, r503, r555, r582, r628</div></li><li><strong>U4 · comparison</strong> At both the start (0 km) and end (5000 km) of the transect, the Ice surface elevation is higher than the Bedrock elevation.<div class='muted'>basis rows: r1, r315, r314, r628</div></li></ol>
+</section>
+<section id="area_18">
+  <h2>area_18 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_18/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_18/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show the Moon&#x27;s diameter relative to Jupiter, Neptune, Earth, and Mars, with Jupiter as the largest and the Moon the smallest.</p>
+  <p><strong>Public intent:</strong> Compare the relative diameters of Jupiter, Neptune, Earth, Mars, and the Moon.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 5 required area marks are present in the chart: JUPITER, NEPTUNE, EARTH, MARS, MOON.<div class='muted'>basis rows: r1, r2, r3, r4, r5</div></li><li><strong>U2 · ranking</strong> The relative diameters order from largest to smallest as Jupiter, Neptune, Earth, Mars, and the Moon, with Jupiter&#x27;s diameter set to 1.0 and each other body&#x27;s diameter a smaller fraction of that reference.<div class='muted'>basis rows: r1, r2, r3, r4, r5</div></li></ol>
+</section>
+<section id="area_19">
+  <h2>area_19 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_19/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_19/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that Sub-Saharan Africa&#x27;s population grew from 0.1 billion in 1950 to 1.1 billion in 2019 and is projected to reach between 2.7 billion and 5 billion by 2100.</p>
+  <p><strong>Public intent:</strong> Trace the population of Sub-Saharan Africa from 1950 through 2019 and its projected range to 2100.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 3 required area marks are present in the chart: Historical population, Projection lower, Projection upper.<div class='muted'>basis rows: r1, r71, r153</div></li><li><strong>U2 · trend</strong> The historical population of Sub-Saharan Africa increased monotonically from 0.1 billion in 1950 to 1.1 billion in 2019.<div class='muted'>basis rows: r1, r70</div></li><li><strong>U3 · projection_or_range</strong> The projected population range widens from 1.1–1.25 billion in 2019 to 2.7–5.0 billion in 2100.<div class='muted'>basis rows: r71, r153, r152, r234</div></li></ol>
+</section>
+<section id="area_20">
+  <h2>area_20 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_20/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_20/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014.</p>
+  <p><strong>Public intent:</strong> Compare the relative value for average car deaths on one day in 2014 with the relative value for all plane deaths in 2014.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Average death by car (one day in 2014), Death by plane (all of 2014).<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · comparison</strong> The relative value for average car deaths on one day in 2014 (1.000000) is greater than the relative value for all plane deaths in 2014 (0.485767).<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section>
+<section id="area_22">
+  <h2>area_22 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_22/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_22/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the volume of all water on Earth is a tiny fraction of Earth&#x27;s total volume, with Earth at 1 and all water at about 0.0011 relative.</p>
+  <p><strong>Public intent:</strong> Compare the relative volume of Earth with the relative volume of all the water on Earth.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Earth, All the water on Earth.<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · proportional_comparison</strong> Earth&#x27;s relative volume (1.0) is vastly larger than the relative volume of all water on Earth (0.001111015), indicating Earth&#x27;s volume is about 900 times the water volume.<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section>
+<section id="area_23">
+  <h2>area_23 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_23/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_23/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare Earth&#x27;s 12,700 km diameter with the Moon&#x27;s 3,500 km diameter to show the Moon is relatively large but clearly smaller than Earth.</p>
+  <p><strong>Public intent:</strong> Compare the diameters of Earth and the Moon to determine their relative sizes.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Earth, Moon.<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · comparison</strong> Earth&#x27;s diameter (12,700 km) is larger than the Moon&#x27;s diameter (3,500 km), showing Earth is the larger body.<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section>
+<section id="area_24">
+  <h2>area_24 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_24/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_24/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare the Moon&#x27;s 3,500 km diameter with Ganymede, Titan, Kallisto, Io, and Pluto to show it is larger than Pluto but smaller than the four largest moons.</p>
+  <p><strong>Public intent:</strong> Compare the Moon&#x27;s diameter with Ganymede, Titan, Kallisto, Io, and Pluto to determine where the Moon falls in the size ordering.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 6 required area marks are present in the chart: GANYMED, TITAN, KALLISTO, IO, MOON, PLUTO.<div class='muted'>basis rows: r1, r2, r3, r4, r5, r6</div></li><li><strong>U2 · ranking</strong> Among Ganymede, Titan, Kallisto, Io, the Moon, and Pluto, the Moon has the second-smallest diameter, larger only than Pluto.<div class='muted'>basis rows: r1, r2, r3, r4, r5, r6</div></li><li><strong>U3 · comparison</strong> The Moon&#x27;s diameter (3,500 km) is 100 km smaller than Io&#x27;s (3,600 km) and 1,200 km larger than Pluto&#x27;s (2,300 km).<div class='muted'>basis rows: r4, r5, r6</div></li></ol>
+</section>
+<section id="area_26">
+  <h2>area_26 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_26/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_26/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that Earth&#x27;s mass of 5,974,000,000,000,000,000,000,000 kg is far greater than the Moon&#x27;s 73,490,000,000,000,000,000,000 kg.</p>
+  <p><strong>Public intent:</strong> Compare the mass in kilograms of Earth and the Moon using the provided values.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Earth, Moon.<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · comparison</strong> Earth has a greater mass than the Moon (5.974e24 kg vs 7.349e22 kg).<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section>
+<section id="area_27">
+  <h2>area_27 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_27/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_27/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the income distribution density peaks to the right of the average reference line, with a visible &#x27;&lt;10%&#x27; label near the lower tail.</p>
+  <p><strong>Public intent:</strong> Trace the income distribution density across the relative income range and report its shape relative to the average reference.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Income distribution, Average.<div class='muted'>basis rows: r1, r52</div></li><li><strong>U2 · trend</strong> Income distribution density rises from near zero at relative income 0 to a peak near 100 at relative income about 0.62, then declines back toward zero at relative income 1.<div class='muted'>basis rows: r1, r27, r51</div></li><li><strong>U3 · extremum</strong> The maximum income distribution density is 100 (relative) at relative income approximately 0.62.<div class='muted'>basis rows: r27, r27</div></li><li><strong>U4 · threshold_or_crossing</strong> The income distribution density crosses the average reference line (at relative income 0.503774) while rising, and again while falling, with the peak occurring to the right of the average reference.<div class='muted'>basis rows: r52, r17, r17, r27, r27</div></li></ol>
+</section>
+<section id="area_29">
+  <h2>area_29 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_29/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_29/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that in a chart labeled &#x27;WHAT IT FEELS LIKE,&#x27; the relative area for death by plane is much larger than for death by car.</p>
+  <p><strong>Public intent:</strong> Compare the perceived risk associated with death by car and death by plane.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Death by car, Death by plane.<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · proportional_comparison</strong> The proportional area for death by plane (relative value 1.0) is larger than the proportional area for death by car (relative value 0.081982), indicating that the perceived risk for death by plane is greater than for death by car.<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section>
+<section id="area_31">
+  <h2>area_31 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_31/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_31/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare YouTube and Television value trends over relative time, showing YouTube rising to 120 € while Television falls from a 353.4 € peak to 57 €.</p>
+  <p><strong>Public intent:</strong> Compare the value trends of YouTube and Television over relative time using the provided data.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in YouTube: YouTube.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · visual_completeness</strong> All 1 required area marks are present in Television: Television.<div class='muted'>basis rows: r11</div></li><li><strong>U3 · trend</strong> YouTube&#x27;s value generally increases over relative time, rising from 0 € at the start to 120 € at the end, with a minor dip around x≈0.51.<div class='muted'>basis rows: r1, r6, r10</div></li><li><strong>U4 · trend</strong> Television&#x27;s value generally decreases over relative time, falling from a peak of 353.4 € near the start to 57 € at the end, with a brief rebound around x≈0.38.<div class='muted'>basis rows: r12, r15, r20</div></li></ol>
+</section>
+<section id="area_32">
+  <h2>area_32 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_32/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_32/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the relative scale of the universe rises from 0 at the Big Bang to 1 at the end of the relative cosmic-time axis.</p>
+  <p><strong>Public intent:</strong> Trace the relative change in the scale of the universe from the Big Bang to the present.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: Scale of the universe.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> The relative scale of the universe increases monotonically from 0 at the Big Bang (relative cosmic time 0) to 1 at the present (relative cosmic time 1).<div class='muted'>basis rows: r1, r5, r9, r14, r18, r22, r26, r30, r34, r39, r43, r47, r51, r55, r59, r64, r68, r72, r76, r80, r84, r89, r93, r97, r101, r105, r109, r114, r118, r122, r126, r130, r134, r139, r143, r147</div></li></ol>
+</section>
+<section id="area_33">
+  <h2>area_33 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_33/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_33/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> From 2000 to 2040, China&#x27;s coal-plant-equivalent capacity rises far faster than the USA&#x27;s, ending at 2034.8 versus 534.8 600-MW plant equivalents.</p>
+  <p><strong>Public intent:</strong> Compare how coal-plant-equivalent capacity changes for the USA and China from 2000 to 2040.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: USA, CHINA.<div class='muted'>basis rows: r1, r42</div></li><li><strong>U2 · change</strong> USA coal-plant-equivalent capacity rises from 434.8 in 2000 to 534.8 in 2040 (an increase of 100.0).<div class='muted'>basis rows: r1, r41</div></li><li><strong>U3 · change</strong> China coal-plant-equivalent capacity rises from 434.8 in 2000 to 2034.8 in 2040 (an increase of 1600.0).<div class='muted'>basis rows: r42, r82</div></li><li><strong>U4 · comparison</strong> China&#x27;s capacity increase (1600.0) is much larger than the USA&#x27;s increase (100.0) over 2000-2040, and China ends far above the USA in 2040 (2034.8 vs 534.8).<div class='muted'>basis rows: r1, r41, r42, r82</div></li></ol>
+</section>
+<section id="area_34">
+  <h2>area_34 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_34/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_34/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show the relative distribution density across salary percentiles, which peaks near the middle of the percentile range and declines toward both ends.</p>
+  <p><strong>Public intent:</strong> Trace how the relative distribution density of housing affordability varies across the salary percentile range.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: Housing affordability.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> The relative distribution density of housing affordability rises from near zero at the lowest salary percentiles to a maximum near the middle of the salary percentile range, then declines back toward zero at the highest percentiles.<div class='muted'>basis rows: r1, r100, r101, r200</div></li></ol>
+</section>
+<section id="area_35">
+  <h2>area_35 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_35/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_35/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Compare YouTube and Television value trends over relative time, showing YouTube rising to 120 € while Television falls to 32 €.</p>
+  <p><strong>Public intent:</strong> Compare the value trends of YouTube and Television over relative time using the provided data.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in YouTube: YouTube.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · visual_completeness</strong> All 1 required area marks are present in Television: Television.<div class='muted'>basis rows: r11</div></li><li><strong>U3 · trend</strong> YouTube&#x27;s value generally increases over relative time, rising from 0 € at the start to 120 € at the end, with a brief dip around x≈0.51.<div class='muted'>basis rows: r1, r2, r3, r6, r10</div></li><li><strong>U4 · trend</strong> Television&#x27;s value generally decreases over relative time, falling from a peak of 198.4 € near the start to 32 € at the end, with a local rise around x≈0.38.<div class='muted'>basis rows: r11, r12, r14, r15, r20</div></li></ol>
+</section>
+<section id="area_37">
+  <h2>area_37 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_37/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_37/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that the average person with student debt owes about $30,000, highlighting the typical individual student debt burden.</p>
+  <p><strong>Public intent:</strong> Report the student debt value for the average person with student debt.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: Average person with student debt.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · identity</strong> The student debt value for the average person with student debt is $30,000.<div class='muted'>basis rows: r1, r1, r1</div></li></ol>
+</section>
+<section id="area_39">
+  <h2>area_39 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_39/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_39/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that larger bubbles represent larger debt amounts, with the $70,000 debt bubble being the largest among the $10,000, $30,000, and $70,000 categories.</p>
+  <p><strong>Public intent:</strong> Compare the amount owed across the $10,000, $30,000, and $70,000 debt categories to determine how the values differ.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 3 required area marks are present in the chart: Owes $10,000, Owes $30,000, Owes $70,000.<div class='muted'>basis rows: r1, r2, r3</div></li><li><strong>U2 · ranking</strong> The amount owed is lowest for the $10,000 category, higher for the $30,000 category, and highest for the $70,000 category, with the $70,000 category exceeding the $30,000 category by $40,000 and the $10,000 category by $60,000.<div class='muted'>basis rows: r1, r2, r3</div></li></ol>
+</section>
+<section id="area_43">
+  <h2>area_43 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_43/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_43/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that China ends the period as the largest annual CO2 emitter among the entities shown, overtaking the United States.</p>
+  <p><strong>Public intent:</strong> Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 11 required area marks are present in the chart: EU-28, Europe (excl. EU-28), United States, North America (excl. US), South America, Africa, India, China, Asia (excl. China/India), Oceania, International transport.<div class='muted'>basis rows: r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11</div></li><li><strong>U2 · comparison</strong> At the end of the period, China has the highest annual CO2 emissions (10.10 Gt), followed by Asia (excl. China/India) (8.20 Gt) and the United States (5.40 Gt); all other listed entities are below 3.5 Gt.<div class='muted'>basis rows: r2967, r2968, r2962, r2960, r2966, r2961, r2965, r2963, r2964, r2970, r2969</div></li><li><strong>U3 · change</strong> Every listed entity has higher annual CO2 emissions at the end of the period than in 1750, and China shows the largest absolute increase (from 0.00 Gt to 10.10 Gt).<div class='muted'>basis rows: r1, r2960, r2, r2961, r3, r2962, r4, r2963, r5, r2964, r6, r2965, r7, r2966, r8, r2967, r9, r2968, r10, r2969, r11, r2970</div></li></ol>
+</section>
+<section id="area_44">
+  <h2>area_44 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_44/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_44/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show how Berkshire Hathaway&#x27;s BRK-A stock price grew from $19 in 1965 to $421,000 by 2021.</p>
+  <p><strong>Public intent:</strong> Trace the BRK-A stock price in USD from 1965 through 2021 to report its trajectory over the period.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 1 required area marks are present in the chart: BRK-A stock price.<div class='muted'>basis rows: r1</div></li><li><strong>U2 · trend</strong> BRK-A stock price in USD increased substantially from 1965 to 2021, rising from $19 to $421,000 over the period.<div class='muted'>basis rows: r1, r57</div></li></ol>
+</section>
+<section id="area_45">
+  <h2>area_45 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_45/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_45/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that from 1980 to the 2010s, after-tax income growth for the Top 0.01% far outpaced the Middle 40% and Bottom 50%, widening income disparity.</p>
+  <p><strong>Public intent:</strong> Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 3 required area marks are present in the chart: Top 0.01%, Middle 40%, Bottom 50%.<div class='muted'>basis rows: r1, r138, r275</div></li><li><strong>U2 · trend</strong> The Top 0.01% after-tax income growth trajectory rises from 0% in 1980 to about 420% by the end of the period, with a peak near 460%.<div class='muted'>basis rows: r1, r41, r81, r121, r133, r137</div></li><li><strong>U3 · trend</strong> The Middle 40% after-tax income growth trajectory rises from 0% in 1980 to about 50% by the end of the period, with a plateau near 40% in the 2000s.<div class='muted'>basis rows: r138, r178, r218, r258, r274</div></li><li><strong>U4 · trend</strong> The Bottom 50% after-tax income growth trajectory rises from 0% in 1980 to about 15% by the end of the period, after dipping below zero in the early 1980s.<div class='muted'>basis rows: r275, r287, r315, r355, r395, r411</div></li></ol>
+</section>
+<section id="area_46">
+  <h2>area_46 <span class="pill">candidate_pending_review</span></h2>
+  <div class="media">
+    <img src="../../data/generated/ok_5files_all/area_46/keyframe.png">
+    <img src="../../data/generated/ok_5files_all/area_46/semantic.svg">
+  </div>
+  <p><strong>Narrative goal:</strong> Show that 46% of U.S. adults said economic conditions were hurting them and their families, while 54% said they were not.</p>
+  <p><strong>Public intent:</strong> Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.</p>
+  <p class="muted">Intent audit: answer_leak=False ·
+    scope_complete=True ·
+    G1 closed=True</p>
+  <ol><li><strong>U1 · visual_completeness</strong> All 2 required area marks are present in the chart: Economic conditions hurting them and their families, Economic conditions not hurting them and their families (implied complement).<div class='muted'>basis rows: r1, r2</div></li><li><strong>U2 · comparison</strong> Among U.S. adults, a smaller share reported that economic conditions were hurting them and their families (46%) than reported that conditions were not hurting them (54%).<div class='muted'>basis rows: r1, r2</div></li></ol>
+</section></main></body></html>

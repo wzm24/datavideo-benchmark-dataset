@@ -1,141 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_6",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "f37ac4050043ef3047c7ff2f9f75bded9e5404613ac0bbe8f891a327643e0f91",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "d61f5de7f4b8fa558a8358e57afef29f87d0d9b2190149b99f39f0232829f6af",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "f9394ac657f44d63bbb77d5f462fe9cfedbfb84313935acd0f50df9b302ebea7",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_respondents"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "in favor",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [
-    "2017"
-   ],
-   "first_value": 96.0,
-   "last_value": 96.0,
-   "min_value": 96.0,
-   "max_value": 96.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "arc"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "other",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [
-    "2017"
-   ],
-   "first_value": 4.0,
-   "last_value": 4.0,
-   "min_value": 4.0,
-   "max_value": 4.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_respondents",
+   "value": "96",
+   "unit": "%",
+   "relative_value": "0.96",
+   "label": "96%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "share_of_respondents"
   }
  ],
- "source_type_counts": {
-  "estimated": 1,
-  "printed": 1
- },
- "role_counts": {
-  "arc": 1,
-  "remainder": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_respondents",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "in favor"
+   ],
+   "relative_value_sum": 0.96
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "in favor",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "other",
-    "series": ""
+    "metric": "share_of_respondents",
+    "value": "96",
+    "unit": "%",
+    "relative_value": "0.96",
+    "label": "96%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

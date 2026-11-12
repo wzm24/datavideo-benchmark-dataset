@@ -1,0 +1,401 @@
+{
+ "clip_id": "area_11",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the Infections trajectories in the Fast Spread and Slow Spread panels over relative time, including the Reference level, to determine how each panel's peak relates to that reference.",
+ "chart_structure": {
+  "clip_id": "area_11",
+  "family": "area",
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "axis_ranges": {
+   "x": {
+    "mode": "relative",
+    "min": 0,
+    "max": 1
+   },
+   "y": {
+    "mode": "relative",
+    "min": 0,
+    "max": 100
+   }
+  }
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "panels": [
+     "Fast Spread",
+     "Slow Spread"
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the Infections trajectories in the Fast Spread and Slow Spread panels over relative time.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Determine how each panel's peak relates to the Reference level.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U4",
+    "U5"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in Fast Spread: Infections, Reference level.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Fast Spread",
+     "entity": "Infections",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r115",
+     "panel": "Fast Spread",
+     "entity": "Reference level",
+     "series": "",
+     "role": "reference_line",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in Slow Spread: Infections, Reference level.",
+   "basis": [
+    {
+     "row_id": "r117",
+     "panel": "Slow Spread",
+     "entity": "Infections",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r218",
+     "panel": "Slow Spread",
+     "entity": "Reference level",
+     "series": "",
+     "role": "reference_line",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "The Fast Spread Infections trajectory rises much higher and peaks much earlier in relative time than the Slow Spread trajectory, which peaks lower and later.",
+   "basis": [
+    {
+     "row_id": "r56",
+     "panel": "Fast Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.300851",
+     "point_order": "56",
+     "field": "value",
+     "value": "70.370370",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r163",
+     "panel": "Slow Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.460213",
+     "point_order": "47",
+     "field": "value",
+     "value": "25.102881",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r56",
+     "panel": "Fast Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.300851",
+     "point_order": "56",
+     "field": "x",
+     "value": "0.300851",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r163",
+     "panel": "Slow Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.460213",
+     "point_order": "47",
+     "field": "x",
+     "value": "0.460213",
+     "unit": "relative",
+     "role": "area"
+    }
+   ],
+   "computation": "compare peak values and peak x positions across panels",
+   "accept": [
+    "Fast Spread peak is about 70.37 at x≈0.30, while Slow Spread peak is about 25.10 at x≈0.46",
+    "Fast Spread reaches a higher maximum earlier than Slow Spread"
+   ],
+   "reject": [
+    "Slow Spread peaks higher than Fast Spread",
+    "Both panels peak at the same relative time",
+    "Fast Spread peak occurs after Slow Spread peak"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R3",
+   "unit_kind": "threshold_or_crossing",
+   "claim": "In the Fast Spread panel, the Infections trajectory crosses above the Reference level (27.16) and its peak (about 70.37) is well above that reference.",
+   "basis": [
+    {
+     "row_id": "r20",
+     "panel": "Fast Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.110851",
+     "point_order": "20",
+     "field": "value",
+     "value": "27.942387",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r56",
+     "panel": "Fast Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.300851",
+     "point_order": "56",
+     "field": "value",
+     "value": "70.370370",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r115",
+     "panel": "Fast Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Reference level",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "1",
+     "field": "value",
+     "value": "27.160494",
+     "unit": "relative",
+     "role": "reference_line"
+    }
+   ],
+   "computation": "compare peak value to reference value; identify crossing from below to above",
+   "accept": [
+    "Fast Spread peak exceeds the Reference level",
+    "Fast Spread Infections rise above 27.16 before peaking near 70.37"
+   ],
+   "reject": [
+    "Fast Spread peak is below the Reference level",
+    "Fast Spread never exceeds the Reference level"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R3",
+   "unit_kind": "threshold_or_crossing",
+   "claim": "In the Slow Spread panel, the Infections trajectory remains below the Reference level (27.16) throughout; its peak (about 25.10) does not reach that reference.",
+   "basis": [
+    {
+     "row_id": "r163",
+     "panel": "Slow Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Infections",
+     "series": "",
+     "x": "0.460213",
+     "point_order": "47",
+     "field": "value",
+     "value": "25.102881",
+     "unit": "relative",
+     "role": "area"
+    },
+    {
+     "row_id": "r218",
+     "panel": "Slow Spread",
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)",
+     "entity": "Reference level",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "1",
+     "field": "value",
+     "value": "27.160494",
+     "unit": "relative",
+     "role": "reference_line"
+    }
+   ],
+   "computation": "compare peak value to reference value",
+   "accept": [
+    "Slow Spread peak is below the Reference level",
+    "Slow Spread Infections never exceed 27.16"
+   ],
+   "reject": [
+    "Slow Spread peak exceeds the Reference level",
+    "Slow Spread crosses above the Reference level"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
+ },
+ "optional_valid": [
+  "Fast Spread Infections start at 0 and end near 0.82 at x≈0.61.",
+  "Slow Spread Infections start at 0 and return to 0 at x=1.0.",
+  "The Reference level is constant at 27.16 in both panels."
+ ],
+ "unsupported_to_avoid": [
+  "Fast Spread peak is exactly twice the Slow Spread peak.",
+  "Slow Spread Infections cross the Reference level after the peak.",
+  "The Reference level differs between panels.",
+  "The trajectories are cumulative totals rather than relative levels."
+ ],
+ "review_notes": [
+  "Peak values taken from table maxima: Fast Spread 70.37037 at r56, Slow Spread 25.102881 at r163.",
+  "Reference level is 27.160494 in both panels (r115/r116 and r218/r219).",
+  "Crossing for Fast Spread inferred from r20 (27.94) exceeding reference and r17 (20.47) below; exact crossing point not listed."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1",
+   "U2"
+  ],
+  "row_count": 219,
+  "table_sha256": "9ec43e998759c71339743fa7a2371e2b8fac3c12ba8a77446a2eec00ea7c2b6f"
+ },
+ "status": "approved",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 10864,
+   "completion_tokens": 1032,
+   "total_tokens": 11896,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 10480
+  },
+  {
+   "prompt_tokens": 12541,
+   "completion_tokens": 52,
+   "total_tokens": 12593,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 12541
+  }
+ ],
+ "sec": 5.7,
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

@@ -1,0 +1,2387 @@
+{
+  "clip_id": "area_34",
+  "family": "area",
+  "video_id": "EFwa5Owp0-k",
+  "source_url": "https://www.youtube.com/watch?v=EFwa5Owp0-k",
+  "source_title": "Not Everyone Should Code",
+  "target_window_source": {
+    "start": 6.0,
+    "end": 9.0
+  },
+  "target_mask_interval": {
+    "start": 4.5,
+    "end": 10.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    0,
+    1
+  ],
+  "masked_cue_ids": [
+    0,
+    1
+  ],
+  "context_cue_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123
+  ],
+  "context_before": [],
+  "context_after": [
+    {
+      "index": 2,
+      "start": 11.8,
+      "end": 15.88,
+      "text": "Even the lowest paid 10% make more than the average American.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 3,
+      "start": 15.88,
+      "end": 20.52,
+      "text": "Programming is so well paid because it's so in demand, and so in demand because it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 4,
+      "start": 20.52,
+      "end": 22.6,
+      "text": "growing so quickly in importance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 5,
+      "start": 22.6,
+      "end": 27.64,
+      "text": "But it's more than a trend, surely it's the inevitable direction of things, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 6,
+      "start": 27.64,
+      "end": 32.3,
+      "text": "Say something vague like programming is the future, and people conclude that fast forward",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 7,
+      "start": 32.3,
+      "end": 37.96,
+      "text": "20 years if you don't know how to program, well, good luck getting a job at McDonald's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 8,
+      "start": 37.96,
+      "end": 42.52,
+      "text": "But as long as there are jobs, economic laws say people will specialize, and there's no",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 9,
+      "start": 42.52,
+      "end": 44.92,
+      "text": "reason to think programming is any different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 10,
+      "start": 44.92,
+      "end": 48.86,
+      "text": "A valuable skill to learn, absolutely, and more so every day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 11,
+      "start": 48.86,
+      "end": 52.02,
+      "text": "In the way of reading and writing, not even close.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 12,
+      "start": 52.02,
+      "end": 59.33,
+      "text": "Not everyone should code, and saying otherwise may only harm those you intend to help.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 13,
+      "start": 59.33,
+      "end": 64.33,
+      "text": "The biggest fans of everyone should code are politicians and technology companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 14,
+      "start": 64.33,
+      "end": 66.13,
+      "text": "And that's no coincidence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 15,
+      "start": 66.13,
+      "end": 72.45,
+      "text": "To a politician, more of any job means more taxes, more spending, more everything good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 16,
+      "start": 72.45,
+      "end": 76.81,
+      "text": "And programming jobs pay especially well, so they're especially loved.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 17,
+      "start": 76.81,
+      "end": 80.65,
+      "text": "But there's also something unique about these jobs in particular.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 18,
+      "start": 80.65,
+      "end": 85.73,
+      "text": "Technology companies, often started by programmers, have international influence like no one else.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 19,
+      "start": 85.73,
+      "end": 90.49,
+      "text": "If someone is going to pull the world's financial and emotional levers, and unfortunately",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 20,
+      "start": 90.49,
+      "end": 94.61,
+      "text": "we know they are, you as a politician want them in your country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 21,
+      "start": 94.61,
+      "end": 98.57,
+      "text": "He who regulates the technology company regulates the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 22,
+      "start": 98.57,
+      "end": 103.85,
+      "text": "America's power as home to so many global technology giants is hard to underestimate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 23,
+      "start": 103.85,
+      "end": 108.09,
+      "text": "Few companies have so much financial and cultural influence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 24,
+      "start": 108.09,
+      "end": 113.13,
+      "text": "Imagine America's reaction if instead they were based in, I don't know, say Russia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 25,
+      "start": 113.13,
+      "end": 118.09,
+      "text": "People like President Obama are so vocal about coding because they understand this potential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 26,
+      "start": 118.09,
+      "end": 119.09,
+      "text": "So does China.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 27,
+      "start": 119.09,
+      "end": 121.85,
+      "text": "They've decided it's too high a price to pay.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 28,
+      "start": 121.85,
+      "end": 126.45,
+      "text": "And for technology companies, everyone should code, is everyone should flood the market",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 29,
+      "start": 126.45,
+      "end": 127.93,
+      "text": "with the skills we need.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 30,
+      "start": 127.93,
+      "end": 129.49,
+      "text": "But it's not all self-interest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 31,
+      "start": 129.49,
+      "end": 137.9,
+      "text": "There's also a dangerous mix of good intentions and the Dunning-Kruger effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 32,
+      "start": 137.9,
+      "end": 140.42,
+      "text": "Seeing trends, it's easy to make a prediction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 33,
+      "start": 140.42,
+      "end": 143.94,
+      "text": "It won't be long before nearly all jobs require programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 34,
+      "start": 143.94,
+      "end": 148.54,
+      "text": "And the solution is to encourage an already financially troubled generation to pursue",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 35,
+      "start": 148.54,
+      "end": 151.74,
+      "text": "the high-paying, safe job of computer programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 36,
+      "start": 151.74,
+      "end": 156.46,
+      "text": "But a little bit of foresight can be more dangerous than none at all, seeing the potential",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 37,
+      "start": 156.46,
+      "end": 159.9,
+      "text": "of programming without knowing what it's really like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 38,
+      "start": 159.9,
+      "end": 164.98,
+      "text": "Programmers do make a lot of money, but so do surgeons, actually three times as much,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 39,
+      "start": 164.98,
+      "end": 167.78,
+      "text": "and dentists and psychologists and lawyers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 40,
+      "start": 167.78,
+      "end": 171.02,
+      "text": "So why is programming treated in a way surgery isn't?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 41,
+      "start": 171.02,
+      "end": 176.34,
+      "text": "As we're told, it's not just another trade, but an essential skill like reading and writing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 42,
+      "start": 176.34,
+      "end": 180.14,
+      "text": "And if it is, then it totally should be required in every school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 43,
+      "start": 180.14,
+      "end": 184.98,
+      "text": "But if not, and I don't think it is, then it's just one admittedly pretty good career",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 44,
+      "start": 184.98,
+      "end": 186.34,
+      "text": "path of many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 45,
+      "start": 186.34,
+      "end": 188.42,
+      "text": "Could anyone perform surgery?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 46,
+      "start": 188.42,
+      "end": 191.02,
+      "text": "Given enough time and training, yeah, maybe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 47,
+      "start": 191.02,
+      "end": 193.14,
+      "text": "But people have different talents.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 48,
+      "start": 193.14,
+      "end": 196.9,
+      "text": "Surgery may be in high demand, but we know it's not for everyone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 49,
+      "start": 196.9,
+      "end": 199.1,
+      "text": "In fact, specialization is good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 50,
+      "start": 199.1,
+      "end": 201.54,
+      "text": "It's the reason we have computers at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 51,
+      "start": 201.54,
+      "end": 206.22,
+      "text": "Every single one of us could be completely self-reliant, but you're probably not going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 52,
+      "start": 206.22,
+      "end": 210.94,
+      "text": "to be the best hunter, cobbler, cook, engineer, and scientist in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 53,
+      "start": 210.94,
+      "end": 213.86,
+      "text": "When you have to do everything, you can be good at nothing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 54,
+      "start": 213.86,
+      "end": 214.98,
+      "text": "So how about this?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 55,
+      "start": 214.98,
+      "end": 218.42,
+      "text": "You get really good at farming, I'll make bricks, and we can trade.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 56,
+      "start": 218.42,
+      "end": 221.1,
+      "text": "This way we can both have really nice stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 57,
+      "start": 221.1,
+      "end": 223.26,
+      "text": "That's the basis for civilization.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 58,
+      "start": 223.26,
+      "end": 227.38,
+      "text": "And you might say, well, both farmer and mason still need to read and write.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 59,
+      "start": 227.5,
+      "end": 229.82,
+      "text": "Programming can't be such a skill.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 60,
+      "start": 229.82,
+      "end": 234.02,
+      "text": "It's difficult enough that it just doesn't make economic sense for everyone to learn it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 61,
+      "start": 234.02,
+      "end": 238.5,
+      "text": "Unless, or until, robots take over everything, jobs need done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 62,
+      "start": 238.5,
+      "end": 243.18,
+      "text": "More and more will involve computers, but it won't be doctors and teachers programming them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 63,
+      "start": 243.18,
+      "end": 247.94,
+      "text": "Because as long as programmers get better at programming and teachers get better at teaching,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 64,
+      "start": 247.94,
+      "end": 250.3,
+      "text": "by each sticking to their crafts, they will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 65,
+      "start": 250.3,
+      "end": 253.1,
+      "text": "So as far as jobs go, it's a really good one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 66,
+      "start": 253.1,
+      "end": 259.74,
+      "text": "But it is just a job, not a basic universal skill.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 67,
+      "start": 259.74,
+      "end": 265.14,
+      "text": "A good teacher can take a complicated topic, deconstruct it, and explain it in easier terms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 68,
+      "start": 265.14,
+      "end": 268.14,
+      "text": "To make accessible is necessarily to simplify.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 69,
+      "start": 268.14,
+      "end": 272.9,
+      "text": "But it's really easy to do what looks identical, but actually oversimplifies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 70,
+      "start": 272.9,
+      "end": 274.98,
+      "text": "In fact, that's the challenge of YouTube.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 71,
+      "start": 274.98,
+      "end": 278.06,
+      "text": "Don't simplify, and you have a boring two hour video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 72,
+      "start": 278.06,
+      "end": 280.7,
+      "text": "Oversimplify, and you paint a misleading picture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 73,
+      "start": 280.7,
+      "end": 285.9,
+      "text": "In its enthusiasm to make programming accessible, everyone should code does exactly that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 74,
+      "start": 285.9,
+      "end": 288.22,
+      "text": "Tap, tap, tap, that's programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 75,
+      "start": 288.22,
+      "end": 292.26,
+      "text": "Definitely not sitting at a desk for long hours solving problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 76,
+      "start": 292.26,
+      "end": 296.42,
+      "text": "Here's the thing, whether you've been to college or have any programming experience,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 77,
+      "start": 296.42,
+      "end": 300.18,
+      "text": "you can pay a company to teach you how to code in 14 weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 78,
+      "start": 300.18,
+      "end": 304.22,
+      "text": "And for not that much money, that should be a huge red flag.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 79,
+      "start": 304.22,
+      "end": 310.1,
+      "text": "If you can become a developer in 14 weeks, either companies overpay for what's really a simple job,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 80,
+      "start": 310.1,
+      "end": 311.98,
+      "text": "or there's actually much more to it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 81,
+      "start": 311.98,
+      "end": 313.62,
+      "text": "And of course, there is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 82,
+      "start": 313.66,
+      "end": 316.7,
+      "text": "It's the difference between programming and computer science.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 83,
+      "start": 316.7,
+      "end": 320.7,
+      "text": "The first you really can learn in 14 weeks, you can read it in a book.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 84,
+      "start": 320.7,
+      "end": 323.94,
+      "text": "It's memorizing what to type to make a computer do a thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 85,
+      "start": 323.94,
+      "end": 328.7,
+      "text": "That's what everyone should code teaches, but it claims the benefits of computer science,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 86,
+      "start": 328.7,
+      "end": 332.02,
+      "text": "solving efficient, creative, mathematical problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 87,
+      "start": 332.02,
+      "end": 334.7,
+      "text": "That's what companies pay six figure salaries for.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 88,
+      "start": 334.7,
+      "end": 336.78,
+      "text": "And if that's your thing, awesome.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 89,
+      "start": 336.78,
+      "end": 338.62,
+      "text": "In fact, I'm one of those people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 90,
+      "start": 338.62,
+      "end": 341.78,
+      "text": "But many, maybe most, wouldn't actually enjoy it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 91,
+      "start": 341.78,
+      "end": 345.26,
+      "text": "That doesn't mean you shouldn't teach programming, but it has to be honest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 92,
+      "start": 345.26,
+      "end": 348.34,
+      "text": "It can be accessible and inclusive, but not misleading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 93,
+      "start": 348.34,
+      "end": 352.42,
+      "text": "STEM is also cheered for the money, but that too attracts the wrong people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 94,
+      "start": 352.42,
+      "end": 359.3,
+      "text": "It would be awesome if teachers were paid more, but one benefit of what we have is how it selects for people passionate about the job,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 95,
+      "start": 359.3,
+      "end": 360.9,
+      "text": "not just after a paycheck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 96,
+      "start": 360.9,
+      "end": 365.46,
+      "text": "Lots of people go into computer science just for the money, but they may end up hating it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 97,
+      "start": 365.46,
+      "end": 371.14,
+      "text": "And the irony is when you sell people on an unrealistic job, supply rises and salaries fall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 98,
+      "start": 371.14,
+      "end": 377.14,
+      "text": "Because you might imagine a huge team of people behind every tech company, but very few are actually engineers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 99,
+      "start": 377.14,
+      "end": 383.34,
+      "text": "When Instagram had seven million users, it had four employees, four, as in 4.0.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 100,
+      "start": 383.34,
+      "end": 386.86,
+      "text": "There will be more demand for programming, but not unlimited demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 101,
+      "start": 386.86,
+      "end": 389.66,
+      "text": "So we might as well attract who's actually interested.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 102,
+      "start": 389.66,
+      "end": 400.25,
+      "text": "Programming isn't everyone's cup of tea, and adding too much sugar will only make it extra bitter when they find out what it's really like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 103,
+      "start": 400.25,
+      "end": 407.37,
+      "text": "Maybe programming isn't for everyone, but neither is history or music or art, and we all take those classes in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 104,
+      "start": 407.37,
+      "end": 410.41,
+      "text": "Surely there are other benefits to learning programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 105,
+      "start": 410.41,
+      "end": 416.73,
+      "text": "There's no doubt programming teaches skills like problem solving and creative thinking, but this puts the cart before the horse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 106,
+      "start": 416.73,
+      "end": 421.73,
+      "text": "If you're already sold on the importance of programming, it's easy to see everything through that lens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 107,
+      "start": 421.73,
+      "end": 429.53,
+      "text": "Coding is a way to understand our world and think differently, but if those are the skills we care about, let's find the best way to teach them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 108,
+      "start": 429.53,
+      "end": 437.09,
+      "text": "If we suddenly have 60 minutes of school to spare, I'd suggest a class on personal finance, or critically consuming media, or speaking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 109,
+      "start": 437.09,
+      "end": 441.93,
+      "text": "The class with the biggest impact on my life was debate, and critical thinking is much needed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 110,
+      "start": 441.93,
+      "end": 450.81,
+      "text": "Coding classes should be available for those interested, but not as a requirement, because everyone learns differently, and at a different pace, and likes different things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 111,
+      "start": 450.81,
+      "end": 455.97,
+      "text": "I know my high school didn't teach all the subjects I wanted to learn, but that's what's so great about Skillshare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 112,
+      "start": 455.97,
+      "end": 458.25,
+      "text": "It's an online learning community for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 113,
+      "start": 458.25,
+      "end": 463.97,
+      "text": "Maybe you're interested in animation, in which case you can learn from the masters themselves, the Kurzgesagt team.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 114,
+      "start": 463.97,
+      "end": 469.61,
+      "text": "They give you graphics to work with, so you can download them, follow along, and make a fantastic video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 115,
+      "start": 469.61,
+      "end": 474.89,
+      "text": "So if you want to make a video like this one, or even better, Skillshare is a great way to get a head start.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 116,
+      "start": 474.89,
+      "end": 481.65,
+      "text": "If you are interested in programming, or want to find out if you are, they have classes that can ease you into it, but it's the real deal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 117,
+      "start": 481.65,
+      "end": 488.09,
+      "text": "They'll help you really understand computer science with classes like this one, which teach you all the big concepts behind computing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 118,
+      "start": 488.09,
+      "end": 492.01,
+      "text": "You can also ask questions, download content, and submit your work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 119,
+      "start": 492.01,
+      "end": 500.29,
+      "text": "But you're not locked into structured classes, and you don't have to pay per class, so you're free to learn exactly what you want, how much you want, and by who you want.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 120,
+      "start": 500.29,
+      "end": 505.77,
+      "text": "There are a ton of classes on pretty much any topic, so you can pick which one works best for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 121,
+      "start": 505.77,
+      "end": 510.81,
+      "text": "With an annual subscription, Skillshare is less than $10 a month, or you can just try it out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 122,
+      "start": 510.81,
+      "end": 517.17,
+      "text": "The first 500 people to use the link in the description will get their first two months for free, and risk-free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 123,
+      "start": 517.17,
+      "end": 521.25,
+      "text": "Thanks to Skillshare, and to everyone who supports the channel by using the link.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186369,
+      "no_speech_prob": 0.456055
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 2,
+      "start": 11.8,
+      "end": 15.88,
+      "text": "Even the lowest paid 10% make more than the average American.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 3,
+      "start": 15.88,
+      "end": 20.52,
+      "text": "Programming is so well paid because it's so in demand, and so in demand because it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 4,
+      "start": 20.52,
+      "end": 22.6,
+      "text": "growing so quickly in importance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 5,
+      "start": 22.6,
+      "end": 27.64,
+      "text": "But it's more than a trend, surely it's the inevitable direction of things, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144057,
+      "no_speech_prob": 0.099304
+    },
+    {
+      "index": 6,
+      "start": 27.64,
+      "end": 32.3,
+      "text": "Say something vague like programming is the future, and people conclude that fast forward",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 7,
+      "start": 32.3,
+      "end": 37.96,
+      "text": "20 years if you don't know how to program, well, good luck getting a job at McDonald's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 8,
+      "start": 37.96,
+      "end": 42.52,
+      "text": "But as long as there are jobs, economic laws say people will specialize, and there's no",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 9,
+      "start": 42.52,
+      "end": 44.92,
+      "text": "reason to think programming is any different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 10,
+      "start": 44.92,
+      "end": 48.86,
+      "text": "A valuable skill to learn, absolutely, and more so every day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 11,
+      "start": 48.86,
+      "end": 52.02,
+      "text": "In the way of reading and writing, not even close.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 12,
+      "start": 52.02,
+      "end": 59.33,
+      "text": "Not everyone should code, and saying otherwise may only harm those you intend to help.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152185,
+      "no_speech_prob": 0.212036
+    },
+    {
+      "index": 13,
+      "start": 59.33,
+      "end": 64.33,
+      "text": "The biggest fans of everyone should code are politicians and technology companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 14,
+      "start": 64.33,
+      "end": 66.13,
+      "text": "And that's no coincidence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 15,
+      "start": 66.13,
+      "end": 72.45,
+      "text": "To a politician, more of any job means more taxes, more spending, more everything good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 16,
+      "start": 72.45,
+      "end": 76.81,
+      "text": "And programming jobs pay especially well, so they're especially loved.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 17,
+      "start": 76.81,
+      "end": 80.65,
+      "text": "But there's also something unique about these jobs in particular.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 18,
+      "start": 80.65,
+      "end": 85.73,
+      "text": "Technology companies, often started by programmers, have international influence like no one else.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108871,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 19,
+      "start": 85.73,
+      "end": 90.49,
+      "text": "If someone is going to pull the world's financial and emotional levers, and unfortunately",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 20,
+      "start": 90.49,
+      "end": 94.61,
+      "text": "we know they are, you as a politician want them in your country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 21,
+      "start": 94.61,
+      "end": 98.57,
+      "text": "He who regulates the technology company regulates the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 22,
+      "start": 98.57,
+      "end": 103.85,
+      "text": "America's power as home to so many global technology giants is hard to underestimate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 23,
+      "start": 103.85,
+      "end": 108.09,
+      "text": "Few companies have so much financial and cultural influence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 24,
+      "start": 108.09,
+      "end": 113.13,
+      "text": "Imagine America's reaction if instead they were based in, I don't know, say Russia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122779,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 25,
+      "start": 113.13,
+      "end": 118.09,
+      "text": "People like President Obama are so vocal about coding because they understand this potential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 26,
+      "start": 118.09,
+      "end": 119.09,
+      "text": "So does China.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 27,
+      "start": 119.09,
+      "end": 121.85,
+      "text": "They've decided it's too high a price to pay.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 28,
+      "start": 121.85,
+      "end": 126.45,
+      "text": "And for technology companies, everyone should code, is everyone should flood the market",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 29,
+      "start": 126.45,
+      "end": 127.93,
+      "text": "with the skills we need.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 30,
+      "start": 127.93,
+      "end": 129.49,
+      "text": "But it's not all self-interest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 31,
+      "start": 129.49,
+      "end": 137.9,
+      "text": "There's also a dangerous mix of good intentions and the Dunning-Kruger effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 32,
+      "start": 137.9,
+      "end": 140.42,
+      "text": "Seeing trends, it's easy to make a prediction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 33,
+      "start": 140.42,
+      "end": 143.94,
+      "text": "It won't be long before nearly all jobs require programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13186,
+      "no_speech_prob": 0.265625
+    },
+    {
+      "index": 34,
+      "start": 143.94,
+      "end": 148.54,
+      "text": "And the solution is to encourage an already financially troubled generation to pursue",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 35,
+      "start": 148.54,
+      "end": 151.74,
+      "text": "the high-paying, safe job of computer programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 36,
+      "start": 151.74,
+      "end": 156.46,
+      "text": "But a little bit of foresight can be more dangerous than none at all, seeing the potential",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 37,
+      "start": 156.46,
+      "end": 159.9,
+      "text": "of programming without knowing what it's really like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 38,
+      "start": 159.9,
+      "end": 164.98,
+      "text": "Programmers do make a lot of money, but so do surgeons, actually three times as much,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 39,
+      "start": 164.98,
+      "end": 167.78,
+      "text": "and dentists and psychologists and lawyers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 40,
+      "start": 167.78,
+      "end": 171.02,
+      "text": "So why is programming treated in a way surgery isn't?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105682,
+      "no_speech_prob": 0.239258
+    },
+    {
+      "index": 41,
+      "start": 171.02,
+      "end": 176.34,
+      "text": "As we're told, it's not just another trade, but an essential skill like reading and writing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 42,
+      "start": 176.34,
+      "end": 180.14,
+      "text": "And if it is, then it totally should be required in every school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 43,
+      "start": 180.14,
+      "end": 184.98,
+      "text": "But if not, and I don't think it is, then it's just one admittedly pretty good career",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 44,
+      "start": 184.98,
+      "end": 186.34,
+      "text": "path of many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 45,
+      "start": 186.34,
+      "end": 188.42,
+      "text": "Could anyone perform surgery?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 46,
+      "start": 188.42,
+      "end": 191.02,
+      "text": "Given enough time and training, yeah, maybe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 47,
+      "start": 191.02,
+      "end": 193.14,
+      "text": "But people have different talents.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 48,
+      "start": 193.14,
+      "end": 196.9,
+      "text": "Surgery may be in high demand, but we know it's not for everyone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 49,
+      "start": 196.9,
+      "end": 199.1,
+      "text": "In fact, specialization is good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118286,
+      "no_speech_prob": 0.714844
+    },
+    {
+      "index": 50,
+      "start": 199.1,
+      "end": 201.54,
+      "text": "It's the reason we have computers at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 51,
+      "start": 201.54,
+      "end": 206.22,
+      "text": "Every single one of us could be completely self-reliant, but you're probably not going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 52,
+      "start": 206.22,
+      "end": 210.94,
+      "text": "to be the best hunter, cobbler, cook, engineer, and scientist in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 53,
+      "start": 210.94,
+      "end": 213.86,
+      "text": "When you have to do everything, you can be good at nothing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 54,
+      "start": 213.86,
+      "end": 214.98,
+      "text": "So how about this?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 55,
+      "start": 214.98,
+      "end": 218.42,
+      "text": "You get really good at farming, I'll make bricks, and we can trade.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 56,
+      "start": 218.42,
+      "end": 221.1,
+      "text": "This way we can both have really nice stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 57,
+      "start": 221.1,
+      "end": 223.26,
+      "text": "That's the basis for civilization.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 58,
+      "start": 223.26,
+      "end": 227.38,
+      "text": "And you might say, well, both farmer and mason still need to read and write.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097766,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 59,
+      "start": 227.5,
+      "end": 229.82,
+      "text": "Programming can't be such a skill.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 60,
+      "start": 229.82,
+      "end": 234.02,
+      "text": "It's difficult enough that it just doesn't make economic sense for everyone to learn it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 61,
+      "start": 234.02,
+      "end": 238.5,
+      "text": "Unless, or until, robots take over everything, jobs need done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 62,
+      "start": 238.5,
+      "end": 243.18,
+      "text": "More and more will involve computers, but it won't be doctors and teachers programming them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 63,
+      "start": 243.18,
+      "end": 247.94,
+      "text": "Because as long as programmers get better at programming and teachers get better at teaching,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 64,
+      "start": 247.94,
+      "end": 250.3,
+      "text": "by each sticking to their crafts, they will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 65,
+      "start": 250.3,
+      "end": 253.1,
+      "text": "So as far as jobs go, it's a really good one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 66,
+      "start": 253.1,
+      "end": 259.74,
+      "text": "But it is just a job, not a basic universal skill.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114063,
+      "no_speech_prob": 0.355469
+    },
+    {
+      "index": 67,
+      "start": 259.74,
+      "end": 265.14,
+      "text": "A good teacher can take a complicated topic, deconstruct it, and explain it in easier terms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 68,
+      "start": 265.14,
+      "end": 268.14,
+      "text": "To make accessible is necessarily to simplify.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 69,
+      "start": 268.14,
+      "end": 272.9,
+      "text": "But it's really easy to do what looks identical, but actually oversimplifies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 70,
+      "start": 272.9,
+      "end": 274.98,
+      "text": "In fact, that's the challenge of YouTube.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 71,
+      "start": 274.98,
+      "end": 278.06,
+      "text": "Don't simplify, and you have a boring two hour video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 72,
+      "start": 278.06,
+      "end": 280.7,
+      "text": "Oversimplify, and you paint a misleading picture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 73,
+      "start": 280.7,
+      "end": 285.9,
+      "text": "In its enthusiasm to make programming accessible, everyone should code does exactly that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118225,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 74,
+      "start": 285.9,
+      "end": 288.22,
+      "text": "Tap, tap, tap, that's programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 75,
+      "start": 288.22,
+      "end": 292.26,
+      "text": "Definitely not sitting at a desk for long hours solving problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 76,
+      "start": 292.26,
+      "end": 296.42,
+      "text": "Here's the thing, whether you've been to college or have any programming experience,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 77,
+      "start": 296.42,
+      "end": 300.18,
+      "text": "you can pay a company to teach you how to code in 14 weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 78,
+      "start": 300.18,
+      "end": 304.22,
+      "text": "And for not that much money, that should be a huge red flag.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 79,
+      "start": 304.22,
+      "end": 310.1,
+      "text": "If you can become a developer in 14 weeks, either companies overpay for what's really a simple job,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 80,
+      "start": 310.1,
+      "end": 311.98,
+      "text": "or there's actually much more to it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 81,
+      "start": 311.98,
+      "end": 313.62,
+      "text": "And of course, there is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122625,
+      "no_speech_prob": 0.268799
+    },
+    {
+      "index": 82,
+      "start": 313.66,
+      "end": 316.7,
+      "text": "It's the difference between programming and computer science.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 83,
+      "start": 316.7,
+      "end": 320.7,
+      "text": "The first you really can learn in 14 weeks, you can read it in a book.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 84,
+      "start": 320.7,
+      "end": 323.94,
+      "text": "It's memorizing what to type to make a computer do a thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 85,
+      "start": 323.94,
+      "end": 328.7,
+      "text": "That's what everyone should code teaches, but it claims the benefits of computer science,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 86,
+      "start": 328.7,
+      "end": 332.02,
+      "text": "solving efficient, creative, mathematical problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 87,
+      "start": 332.02,
+      "end": 334.7,
+      "text": "That's what companies pay six figure salaries for.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 88,
+      "start": 334.7,
+      "end": 336.78,
+      "text": "And if that's your thing, awesome.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 89,
+      "start": 336.78,
+      "end": 338.62,
+      "text": "In fact, I'm one of those people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 90,
+      "start": 338.62,
+      "end": 341.78,
+      "text": "But many, maybe most, wouldn't actually enjoy it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100836,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 91,
+      "start": 341.78,
+      "end": 345.26,
+      "text": "That doesn't mean you shouldn't teach programming, but it has to be honest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 92,
+      "start": 345.26,
+      "end": 348.34,
+      "text": "It can be accessible and inclusive, but not misleading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 93,
+      "start": 348.34,
+      "end": 352.42,
+      "text": "STEM is also cheered for the money, but that too attracts the wrong people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 94,
+      "start": 352.42,
+      "end": 359.3,
+      "text": "It would be awesome if teachers were paid more, but one benefit of what we have is how it selects for people passionate about the job,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 95,
+      "start": 359.3,
+      "end": 360.9,
+      "text": "not just after a paycheck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 96,
+      "start": 360.9,
+      "end": 365.46,
+      "text": "Lots of people go into computer science just for the money, but they may end up hating it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 97,
+      "start": 365.46,
+      "end": 371.14,
+      "text": "And the irony is when you sell people on an unrealistic job, supply rises and salaries fall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.006691
+    },
+    {
+      "index": 98,
+      "start": 371.14,
+      "end": 377.14,
+      "text": "Because you might imagine a huge team of people behind every tech company, but very few are actually engineers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 99,
+      "start": 377.14,
+      "end": 383.34,
+      "text": "When Instagram had seven million users, it had four employees, four, as in 4.0.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 100,
+      "start": 383.34,
+      "end": 386.86,
+      "text": "There will be more demand for programming, but not unlimited demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 101,
+      "start": 386.86,
+      "end": 389.66,
+      "text": "So we might as well attract who's actually interested.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 102,
+      "start": 389.66,
+      "end": 400.25,
+      "text": "Programming isn't everyone's cup of tea, and adding too much sugar will only make it extra bitter when they find out what it's really like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115307,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 103,
+      "start": 400.25,
+      "end": 407.37,
+      "text": "Maybe programming isn't for everyone, but neither is history or music or art, and we all take those classes in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 104,
+      "start": 407.37,
+      "end": 410.41,
+      "text": "Surely there are other benefits to learning programming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 105,
+      "start": 410.41,
+      "end": 416.73,
+      "text": "There's no doubt programming teaches skills like problem solving and creative thinking, but this puts the cart before the horse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 106,
+      "start": 416.73,
+      "end": 421.73,
+      "text": "If you're already sold on the importance of programming, it's easy to see everything through that lens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 107,
+      "start": 421.73,
+      "end": 429.53,
+      "text": "Coding is a way to understand our world and think differently, but if those are the skills we care about, let's find the best way to teach them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084731,
+      "no_speech_prob": 0.274902
+    },
+    {
+      "index": 108,
+      "start": 429.53,
+      "end": 437.09,
+      "text": "If we suddenly have 60 minutes of school to spare, I'd suggest a class on personal finance, or critically consuming media, or speaking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 109,
+      "start": 437.09,
+      "end": 441.93,
+      "text": "The class with the biggest impact on my life was debate, and critical thinking is much needed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 110,
+      "start": 441.93,
+      "end": 450.81,
+      "text": "Coding classes should be available for those interested, but not as a requirement, because everyone learns differently, and at a different pace, and likes different things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 111,
+      "start": 450.81,
+      "end": 455.97,
+      "text": "I know my high school didn't teach all the subjects I wanted to learn, but that's what's so great about Skillshare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 112,
+      "start": 455.97,
+      "end": 458.25,
+      "text": "It's an online learning community for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080419,
+      "no_speech_prob": 0.029297
+    },
+    {
+      "index": 113,
+      "start": 458.25,
+      "end": 463.97,
+      "text": "Maybe you're interested in animation, in which case you can learn from the masters themselves, the Kurzgesagt team.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 114,
+      "start": 463.97,
+      "end": 469.61,
+      "text": "They give you graphics to work with, so you can download them, follow along, and make a fantastic video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 115,
+      "start": 469.61,
+      "end": 474.89,
+      "text": "So if you want to make a video like this one, or even better, Skillshare is a great way to get a head start.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 116,
+      "start": 474.89,
+      "end": 481.65,
+      "text": "If you are interested in programming, or want to find out if you are, they have classes that can ease you into it, but it's the real deal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 117,
+      "start": 481.65,
+      "end": 488.09,
+      "text": "They'll help you really understand computer science with classes like this one, which teach you all the big concepts behind computing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085719,
+      "no_speech_prob": 0.014053
+    },
+    {
+      "index": 118,
+      "start": 488.09,
+      "end": 492.01,
+      "text": "You can also ask questions, download content, and submit your work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 119,
+      "start": 492.01,
+      "end": 500.29,
+      "text": "But you're not locked into structured classes, and you don't have to pay per class, so you're free to learn exactly what you want, how much you want, and by who you want.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 120,
+      "start": 500.29,
+      "end": 505.77,
+      "text": "There are a ton of classes on pretty much any topic, so you can pick which one works best for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 121,
+      "start": 505.77,
+      "end": 510.81,
+      "text": "With an annual subscription, Skillshare is less than $10 a month, or you can just try it out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 122,
+      "start": 510.81,
+      "end": 517.17,
+      "text": "The first 500 people to use the link in the description will get their first two months for free, and risk-free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072422,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 123,
+      "start": 517.17,
+      "end": 521.25,
+      "text": "Thanks to Skillshare, and to everyone who supports the channel by using the link.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186369,
+      "no_speech_prob": 0.456055
+    }
+  ],
+  "context_text_chronological": "Even the lowest paid 10% make more than the average American. Programming is so well paid because it's so in demand, and so in demand because it's growing so quickly in importance. But it's more than a trend, surely it's the inevitable direction of things, right? Say something vague like programming is the future, and people conclude that fast forward 20 years if you don't know how to program, well, good luck getting a job at McDonald's. But as long as there are jobs, economic laws say people will specialize, and there's no reason to think programming is any different. A valuable skill to learn, absolutely, and more so every day. In the way of reading and writing, not even close. Not everyone should code, and saying otherwise may only harm those you intend to help. The biggest fans of everyone should code are politicians and technology companies. And that's no coincidence. To a politician, more of any job means more taxes, more spending, more everything good. And programming jobs pay especially well, so they're especially loved. But there's also something unique about these jobs in particular. Technology companies, often started by programmers, have international influence like no one else. If someone is going to pull the world's financial and emotional levers, and unfortunately we know they are, you as a politician want them in your country. He who regulates the technology company regulates the world. America's power as home to so many global technology giants is hard to underestimate. Few companies have so much financial and cultural influence. Imagine America's reaction if instead they were based in, I don't know, say Russia. People like President Obama are so vocal about coding because they understand this potential. So does China. They've decided it's too high a price to pay. And for technology companies, everyone should code, is everyone should flood the market with the skills we need. But it's not all self-interest. There's also a dangerous mix of good intentions and the Dunning-Kruger effect. Seeing trends, it's easy to make a prediction. It won't be long before nearly all jobs require programming. And the solution is to encourage an already financially troubled generation to pursue the high-paying, safe job of computer programming. But a little bit of foresight can be more dangerous than none at all, seeing the potential of programming without knowing what it's really like. Programmers do make a lot of money, but so do surgeons, actually three times as much, and dentists and psychologists and lawyers. So why is programming treated in a way surgery isn't? As we're told, it's not just another trade, but an essential skill like reading and writing. And if it is, then it totally should be required in every school. But if not, and I don't think it is, then it's just one admittedly pretty good career path of many. Could anyone perform surgery? Given enough time and training, yeah, maybe. But people have different talents. Surgery may be in high demand, but we know it's not for everyone. In fact, specialization is good. It's the reason we have computers at all. Every single one of us could be completely self-reliant, but you're probably not going to be the best hunter, cobbler, cook, engineer, and scientist in the world. When you have to do everything, you can be good at nothing. So how about this? You get really good at farming, I'll make bricks, and we can trade. This way we can both have really nice stuff. That's the basis for civilization. And you might say, well, both farmer and mason still need to read and write. Programming can't be such a skill. It's difficult enough that it just doesn't make economic sense for everyone to learn it. Unless, or until, robots take over everything, jobs need done. More and more will involve computers, but it won't be doctors and teachers programming them. Because as long as programmers get better at programming and teachers get better at teaching, by each sticking to their crafts, they will. So as far as jobs go, it's a really good one. But it is just a job, not a basic universal skill. A good teacher can take a complicated topic, deconstruct it, and explain it in easier terms. To make accessible is necessarily to simplify. But it's really easy to do what looks identical, but actually oversimplifies. In fact, that's the challenge of YouTube. Don't simplify, and you have a boring two hour video. Oversimplify, and you paint a misleading picture. In its enthusiasm to make programming accessible, everyone should code does exactly that. Tap, tap, tap, that's programming. Definitely not sitting at a desk for long hours solving problems. Here's the thing, whether you've been to college or have any programming experience, you can pay a company to teach you how to code in 14 weeks. And for not that much money, that should be a huge red flag. If you can become a developer in 14 weeks, either companies overpay for what's really a simple job, or there's actually much more to it. And of course, there is. It's the difference between programming and computer science. The first you really can learn in 14 weeks, you can read it in a book. It's memorizing what to type to make a computer do a thing. That's what everyone should code teaches, but it claims the benefits of computer science, solving efficient, creative, mathematical problems. That's what companies pay six figure salaries for. And if that's your thing, awesome. In fact, I'm one of those people. But many, maybe most, wouldn't actually enjoy it. That doesn't mean you shouldn't teach programming, but it has to be honest. It can be accessible and inclusive, but not misleading. STEM is also cheered for the money, but that too attracts the wrong people. It would be awesome if teachers were paid more, but one benefit of what we have is how it selects for people passionate about the job, not just after a paycheck. Lots of people go into computer science just for the money, but they may end up hating it. And the irony is when you sell people on an unrealistic job, supply rises and salaries fall. Because you might imagine a huge team of people behind every tech company, but very few are actually engineers. When Instagram had seven million users, it had four employees, four, as in 4.0. There will be more demand for programming, but not unlimited demand. So we might as well attract who's actually interested. Programming isn't everyone's cup of tea, and adding too much sugar will only make it extra bitter when they find out what it's really like. Maybe programming isn't for everyone, but neither is history or music or art, and we all take those classes in school. Surely there are other benefits to learning programming. There's no doubt programming teaches skills like problem solving and creative thinking, but this puts the cart before the horse. If you're already sold on the importance of programming, it's easy to see everything through that lens. Coding is a way to understand our world and think differently, but if those are the skills we care about, let's find the best way to teach them. If we suddenly have 60 minutes of school to spare, I'd suggest a class on personal finance, or critically consuming media, or speaking. The class with the biggest impact on my life was debate, and critical thinking is much needed. Coding classes should be available for those interested, but not as a requirement, because everyone learns differently, and at a different pace, and likes different things. I know my high school didn't teach all the subjects I wanted to learn, but that's what's so great about Skillshare. It's an online learning community for you. Maybe you're interested in animation, in which case you can learn from the masters themselves, the Kurzgesagt team. They give you graphics to work with, so you can download them, follow along, and make a fantastic video. So if you want to make a video like this one, or even better, Skillshare is a great way to get a head start. If you are interested in programming, or want to find out if you are, they have classes that can ease you into it, but it's the real deal. They'll help you really understand computer science with classes like this one, which teach you all the big concepts behind computing. You can also ask questions, download content, and submit your work. But you're not locked into structured classes, and you don't have to pay per class, so you're free to learn exactly what you want, how much you want, and by who you want. There are a ton of classes on pretty much any topic, so you can pick which one works best for you. With an annual subscription, Skillshare is less than $10 a month, or you can just try it out. The first 500 people to use the link in the description will get their first two months for free, and risk-free. Thanks to Skillshare, and to everyone who supports the channel by using the link.",
+  "target_text_for_audit": "$79,840, the average salary of a computer programmer in America, average, meaning many can afford a big fancy house, or rent a closet in San Francisco.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "the average salary of a computer programmer in America, average, meaning many can afford a big fancy house, or rent a closet in San Francisco.",
+        "start_source": 3.0,
+        "end_source": 11.2,
+        "matching_cue_ids": [
+          0,
+          1
+        ],
+        "text_similarity": 0.9718,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\EFwa5Owp0-k.mp4",
+    "cue_count": 124
+  },
+  "token_estimate_char_div_4": 2222
+}

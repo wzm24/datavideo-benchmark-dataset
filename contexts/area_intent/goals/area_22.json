@@ -1,0 +1,200 @@
+{
+ "clip": "area_22",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that the volume of all water on Earth is a tiny fraction of Earth's total volume, with Earth at 1 and all water at about 0.0011 relative.",
+ "core_claim": "All water on Earth is roughly 0.0011 of Earth's volume.",
+ "chart_role": "proportional volume comparison",
+ "source_consistency": "consistent",
+ "issues": [],
+ "confidence": 0.95,
+ "old_intent": "To illustrate the relative volume of all water on Earth compared to the total volume of the planet.",
+ "narration": "All the water on Earth has about this volume compared to Earth.",
+ "svg_text": [
+  "EARTH",
+  "ALL THE WATER ON EARTH"
+ ],
+ "chart_spec": {
+  "clip_id": "area_22",
+  "family": "area",
+  "sub_type": "proportional_sphere_volume",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 2,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Earth",
+    "series": "",
+    "role": "proportional_sphere_volume",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 1.0,
+    "value_max": 1.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000000",
+     "unit": "relative",
+     "label": "EARTH",
+     "role": "proportional_sphere_volume"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000000",
+     "unit": "relative",
+     "label": "EARTH",
+     "role": "proportional_sphere_volume"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "All the water on Earth",
+    "series": "",
+    "role": "proportional_sphere_volume",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.001111015,
+    "value_max": 0.001111015,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "All the water on Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.001111015",
+     "unit": "relative",
+     "label": "ALL THE WATER ON EARTH",
+     "role": "proportional_sphere_volume"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "All the water on Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.001111015",
+     "unit": "relative",
+     "label": "ALL THE WATER ON EARTH",
+     "role": "proportional_sphere_volume"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Volume (relative)",
+    "entity": "Earth",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "1.000000000",
+    "unit": "relative",
+    "label": "EARTH",
+    "role": "proportional_sphere_volume"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Volume (relative)",
+    "entity": "All the water on Earth",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.001111015",
+    "unit": "relative",
+    "label": "ALL THE WATER ON EARTH",
+    "role": "proportional_sphere_volume"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Show that the volume of all water on Earth is a tiny fraction of Earth's total volume, with Earth at 1 and all water at about 0.0011 relative.",
+  "corrected_core_claim": "All water on Earth is roughly 0.0011 of Earth's volume."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1439,
+   "completion_tokens": 104,
+   "total_tokens": 1543,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1311
+  },
+  "audit": {
+   "prompt_tokens": 1260,
+   "completion_tokens": 91,
+   "total_tokens": 1351,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1260
+  }
+ },
+ "sec": 2.2
+}

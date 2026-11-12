@@ -1,0 +1,24 @@
+{
+  "clip_count": 340,
+  "family_counts": {
+    "bar": 153,
+    "line": 92,
+    "area": 34,
+    "donut": 41,
+    "pie": 20
+  },
+  "transcript_count": 85,
+  "transcript_models": {
+    "faster_whisper_small": 85
+  },
+  "verification_status_counts": {
+    "pass": 313,
+    "needs_review": 26,
+    "pass_empty_context": 1
+  },
+  "missing_packages": [],
+  "mask_leaks": [],
+  "context_mismatches": [],
+  "asr_issues": [],
+  "passed": true
+}

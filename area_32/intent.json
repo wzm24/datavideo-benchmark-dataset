@@ -1,28 +1,85 @@
 {
  "clip_id": "area_32",
- "intent_en": "To illustrate the accelerating expansion of the universe over time.",
- "previous_intent": "To illustrate the accelerating expansion of the universe over time since the Big Bang.",
- "narration_support": "More recent discoveries have shown that the expansion of the universe is accelerating.",
- "chart_support": "Area chart plotting the 'Scale of the Universe' against time from 'Big Bang' to 'Today', showing a curve that steepens to indicate accelerating growth.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly states the expansion is accelerating, and the chart visualizes the 'Scale of the Universe' increasing with a steepening curve after the 'Today' mark, supporting the concept of acceleration.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that the relative scale of the universe rises from 0 at the Big Bang to 1 at the end of the relative cosmic-time axis.",
+ "intent_en": "Trace the relative change in the scale of the universe from the Big Bang to the present.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_32",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Show that the relative scale of the universe rises from 0 at the Big Bang to 1 at the end of the relative cosmic-time axis.",
+  "proposed_intent": "Trace the relative change in the scale of the universe from the Big Bang to the present.",
+  "writer": {
+   "intent": "Trace the relative change in the scale of the universe from the Big Bang to the present.",
+   "manual_override": true
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 17,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [],
+  "repair_attempts": 0,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {},
+   {
+    "prompt_tokens": 5147,
+    "completion_tokens": 56,
+    "total_tokens": 5203,
+    "prompt_tokens_details": {
+     "cached_tokens": 4992
+    },
+    "prompt_cache_hit_tokens": 4992,
+    "prompt_cache_miss_tokens": 155
+   }
+  ],
+  "sec": 0.7
+ }
 }

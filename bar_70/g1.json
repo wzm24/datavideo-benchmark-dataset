@@ -80,7 +80,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -122,7 +123,8 @@
     "listing Stichting Ingka first or second",
     "omitting a comparator needed to establish the ranking"
    ],
-   "evidence": "The ordered bars encode the four-charity ranking."
+   "evidence": "The ordered bars encode the four-charity ranking.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -153,7 +155,8 @@
     "reversing which foundation is larger",
     "changing billion to million"
    ],
-   "evidence": "The two comparable bars establish the relative gap."
+   "evidence": "The two comparable bars establish the relative gap.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -192,11 +195,19 @@
   "v1_intent_approved_2026_10_27",
   "v1_intent_approved_2026_10_27",
   "v1_intent_approved_2026_10_27",
-  "v1_intent_approved_2026_10_27"
+  "v1_intent_approved_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "manual_batch_review_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

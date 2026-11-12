@@ -1,0 +1,2889 @@
+{
+  "clip_id": "bar_88",
+  "family": "bar",
+  "video_id": "RuPx61911Oo",
+  "source_url": "https://www.youtube.com/watch?v=RuPx61911Oo",
+  "source_title": "Why Israel is a Tech Capital of the World",
+  "target_window_source": {
+    "start": 326.0,
+    "end": 343.0
+  },
+  "target_mask_interval": {
+    "start": 324.5,
+    "end": 344.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "masked_cue_ids": [
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.6,
+      "text": "This video is sponsored by Skillshare, the first 500 to use the link in the description get two months free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 1,
+      "start": 6.6,
+      "end": 13.8,
+      "text": "You, the brave daredevil you are, open Google Maps, throw your mouse into the air, and land here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 2,
+      "start": 13.8,
+      "end": 21.7,
+      "text": "There are palm trees, lots of 20-somethings talking into their AirPods, and everywhere you look, a familiar logo.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 3,
+      "start": 21.7,
+      "end": 28.6,
+      "text": "Apple, Amazon, Intel, Yahoo, Microsoft, Google, all within a few blocks of each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 4,
+      "start": 28.8,
+      "end": 34.9,
+      "text": "Where are you? Your first guess might be San Jose, maybe Palo Alto, or Mountain View.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 5,
+      "start": 34.9,
+      "end": 41.2,
+      "text": "That is, unless you notice the lack of Teslas, or smell of hummus, or the title of this video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 6,
+      "start": 41.2,
+      "end": 49.2,
+      "text": "This is Silicon Wadi, a cluster of cities in Israel with one of the highest concentrations of tech companies and startups on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 7,
+      "start": 49.2,
+      "end": 53.0,
+      "text": "It's home to Waze, Wix, Sodastream, and Fiverr.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 8,
+      "start": 53.0,
+      "end": 57.4,
+      "text": "Files more patents per capita than all but four countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 9,
+      "start": 57.4,
+      "end": 64.7,
+      "text": "And is ranked the fourth most startup-friendly nation overall, behind only Canada, the UK, and the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 10,
+      "start": 64.7,
+      "end": 69.0,
+      "text": "The difference is, those countries aren't next door to the Syrian Civil War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 11,
+      "start": 69.0,
+      "end": 75.1,
+      "text": "Thirty members of the UN still don't recognize the existence of Israel, including most of its neighbors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 12,
+      "start": 75.1,
+      "end": 81.4,
+      "text": "In fact, any evidence of traveling there on any passport prevents you from visiting eight of those countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 13,
+      "start": 81.4,
+      "end": 87.0,
+      "text": "Because of this, Israeli Customs stamps not your passport, but a separate piece of paper.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 14,
+      "start": 87.1,
+      "end": 91.2,
+      "text": "But despite all of this, despite the constant threat of terrorism,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 15,
+      "start": 91.2,
+      "end": 97.4,
+      "text": "despite being only slightly bigger than Fiji, and having just two and a half percent the population of the US,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 16,
+      "start": 97.4,
+      "end": 102.8,
+      "text": "Israel creates some of the most successful tech companies and entrepreneurs in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 17,
+      "start": 102.8,
+      "end": 105.48,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 18,
+      "start": 105.48,
+      "end": 109.78,
+      "text": "As one of the very important world leaders who consult my channel for advice,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 19,
+      "start": 109.78,
+      "end": 113.08,
+      "text": "you want to know how to start your very own Silicon Valley.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 20,
+      "start": 113.08,
+      "end": 114.38,
+      "text": "Well, you're in luck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 21,
+      "start": 114.38,
+      "end": 116.98,
+      "text": "The recipe is actually quite simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 22,
+      "start": 116.98,
+      "end": 120.88,
+      "text": "First, buy some ping-pong tables, throw down a couple of beanbags,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 23,
+      "start": 120.88,
+      "end": 127.88,
+      "text": "and within minutes, a cavalcade of soylent drinking, smartwatch-wearing CS grads will assemble at your door.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 24,
+      "start": 127.88,
+      "end": 133.68,
+      "text": "Even better, why not build some apartments, a grocery store, and while you're at it, a pharmacy?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 25,
+      "start": 133.68,
+      "end": 135.68,
+      "text": "Then they'll never leave.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 26,
+      "start": 135.68,
+      "end": 137.28,
+      "text": "Work life, what?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 27,
+      "start": 137.28,
+      "end": 138.88,
+      "text": "Just kidding, mostly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 28,
+      "start": 138.88,
+      "end": 143.98,
+      "text": "More than a few countries and cities have tried charming tech companies with tax breaks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 29,
+      "start": 143.98,
+      "end": 150.88,
+      "text": "grants, free 21-foot cacti, and other totally normal things, but almost as many have failed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 30,
+      "start": 150.88,
+      "end": 155.58,
+      "text": "On the other side of the Arabian Peninsula, Dubai built what it calls free zones,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 31,
+      "start": 155.58,
+      "end": 159.28,
+      "text": "areas with special incentives to attract certain types of companies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 32,
+      "start": 159.28,
+      "end": 163.18,
+      "text": "like biotech firms, movie studios, and tech companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 33,
+      "start": 163.18,
+      "end": 169.48,
+      "text": "At first glance, Dubai Internet City looks like a great success, and to some degree, that's true.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 34,
+      "start": 169.58,
+      "end": 176.88,
+      "text": "It convinced Microsoft, Cisco, IBM, HP, and Canon to invest millions of dollars in the middle of the desert,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 35,
+      "start": 176.88,
+      "end": 180.58,
+      "text": "at a time when the future of Dubai was much more uncertain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 36,
+      "start": 180.58,
+      "end": 186.98,
+      "text": "But having beautiful buildings with famous logos on them is not the same as creating an environment of innovation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 37,
+      "start": 186.98,
+      "end": 189.98,
+      "text": "You'll find plenty of the former in the Cayman Islands,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 38,
+      "start": 189.98,
+      "end": 194.48,
+      "text": "but it's not exactly the first place that comes to mind when you think cutting-edge research.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 39,
+      "start": 194.48,
+      "end": 199.78,
+      "text": "Meanwhile, Silicon Valley is, despite its very high cost of doing business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 40,
+      "start": 199.78,
+      "end": 204.78,
+      "text": "In other words, tax breaks may bring companies, but not necessarily innovation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 41,
+      "start": 204.78,
+      "end": 211.08,
+      "text": "Corporations come to Dubai largely for its promise of no income or corporate tax for 50 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 42,
+      "start": 211.08,
+      "end": 219.08,
+      "text": "but often only for marketing, support, and sales, while hiring most of their engineers in the US, India, and Israel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 43,
+      "start": 219.08,
+      "end": 222.38,
+      "text": "So what do those countries have that others don't?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 44,
+      "start": 222.38,
+      "end": 226.08,
+      "text": "There are three basic ingredients to a successful tech scene.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 45,
+      "start": 226.08,
+      "end": 232.18,
+      "text": "The first is talent, one of the best predictors of which is, unsurprisingly, education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 46,
+      "start": 232.18,
+      "end": 233.98,
+      "text": "In the words of Scott Galloway,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 47,
+      "start": 233.98,
+      "end": 238.38,
+      "text": "find the universities that are gaining the most traction in engineering or STEM,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 48,
+      "start": 238.38,
+      "end": 242.28,
+      "text": "and you're going to find an ecosystem that can produce a unicorn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 49,
+      "start": 242.28,
+      "end": 246.58,
+      "text": "Basically, put a bunch of smart, ambitious people in a small, contained space,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 50,
+      "start": 246.58,
+      "end": 251.28,
+      "text": "sprinkle in some idealism, ideas will collide, and good things will happen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 51,
+      "start": 251.28,
+      "end": 255.18,
+      "text": "At the level of a nation, universities are about proximity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 52,
+      "start": 255.18,
+      "end": 259.18,
+      "text": "And hey, if you also learn something along the way, that's a bonus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 53,
+      "start": 259.18,
+      "end": 263.88,
+      "text": "Which is great news for Israel, one of the most educated countries in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 54,
+      "start": 263.88,
+      "end": 268.28,
+      "text": "About 47% of those over 25 have a college diploma.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 55,
+      "start": 268.28,
+      "end": 276.08,
+      "text": "The Hebrew University of Jerusalem, Tel Aviv University, and the Israel Institute of Technology are all globally competitive schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 56,
+      "start": 276.08,
+      "end": 283.08,
+      "text": "And because the country is just so small, and its population so highly concentrated in just a few regions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 57,
+      "start": 283.08,
+      "end": 288.98,
+      "text": "it has the same fertile ground for entrepreneurship as a college campus, at a much larger scale.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 58,
+      "start": 288.98,
+      "end": 295.48,
+      "text": "About 92% of Israelis live in urban areas, almost entirely in the northern half of the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 59,
+      "start": 295.48,
+      "end": 301.08,
+      "text": "Startups, therefore, are surrounded by their customers, business partners, and competitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 60,
+      "start": 301.18,
+      "end": 306.68,
+      "text": "The other aspect of talent that's often overlooked, but just as important, is demographics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 61,
+      "start": 306.68,
+      "end": 310.58,
+      "text": "Not just how big a population is, but also what it's like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 62,
+      "start": 310.58,
+      "end": 318.08,
+      "text": "For example, it's misleading to say only that Japan has 126 million people, and Ethiopia, 98.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 63,
+      "start": 318.08,
+      "end": 321.28,
+      "text": "What those raw numbers hide are their age and background,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    }
+  ],
+  "context_after": [
+    {
+      "index": 69,
+      "start": 346.88,
+      "end": 351.38,
+      "text": "Now, Israel's growth is not quite so dramatic, but it is growing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090033,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 70,
+      "start": 351.38,
+      "end": 354.98,
+      "text": "which is more than you can say about the future of most developed countries,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090033,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 71,
+      "start": 354.98,
+      "end": 359.78,
+      "text": "including all of Europe, the US, Canada, Australia, and China.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 72,
+      "start": 359.78,
+      "end": 363.28,
+      "text": "The problem is not that Japan doesn't have working-aged people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 73,
+      "start": 363.28,
+      "end": 368.78,
+      "text": "Even as its population shrinks, there will long be millions and millions of workers,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 74,
+      "start": 368.78,
+      "end": 373.48,
+      "text": "but they'll be busy caring for their parents, not inventing the next big thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 75,
+      "start": 373.48,
+      "end": 379.08,
+      "text": "Israel, meanwhile, has enough people to care for the old and young with plenty left over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 76,
+      "start": 379.08,
+      "end": 382.08,
+      "text": "It also has some extra help, immigration.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 77,
+      "start": 382.08,
+      "end": 386.88,
+      "text": "The law of return allows any Jew, their spouse, children, grandchildren,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 78,
+      "start": 386.88,
+      "end": 391.18,
+      "text": "and even their non-Jewish spouse to come to Israel and receive citizenship.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 79,
+      "start": 391.18,
+      "end": 395.28,
+      "text": "There are even scholarships to cover your expenses while you learn Hebrew.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 80,
+      "start": 395.28,
+      "end": 400.38,
+      "text": "The result of all this is that there are 140 scientists, technicians, and engineers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 81,
+      "start": 400.38,
+      "end": 405.88,
+      "text": "for every 10,000 Israeli employees, compared to just 85 in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 82,
+      "start": 405.88,
+      "end": 409.08,
+      "text": "The second, much simpler ingredient is capital.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 83,
+      "start": 409.08,
+      "end": 413.28,
+      "text": "Starting a business is expensive, and someone needs to write the checks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 84,
+      "start": 413.28,
+      "end": 418.68,
+      "text": "The good news is that the only thing Silicon Valley hates more than affordable housing is missing out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 85,
+      "start": 418.68,
+      "end": 425.58,
+      "text": "Investors pour money into companies whose only skill is improving the rate at which they can flush $100 bills down the toilet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 86,
+      "start": 425.58,
+      "end": 429.28,
+      "text": "simply because they don't want the feeling of having lost an opportunity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 87,
+      "start": 429.28,
+      "end": 430.48,
+      "text": "Cough, soft bank.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 88,
+      "start": 430.48,
+      "end": 435.48,
+      "text": "Once word gets out that somewhere, like Israel, is good at producing high-value startups,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 89,
+      "start": 435.48,
+      "end": 438.68,
+      "text": "finding investors became exponentially easier.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 90,
+      "start": 438.68,
+      "end": 442.48,
+      "text": "The more checks are written, the more venture capital firms pay attention.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 91,
+      "start": 442.48,
+      "end": 449.08,
+      "text": "Israel's government got the ball rolling in the 90s, with big incentives for anyone willing to come invest in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 92,
+      "start": 449.08,
+      "end": 453.98,
+      "text": "Today, 4.5% of its total GDP is spent on research and development,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 93,
+      "start": 453.98,
+      "end": 457.48,
+      "text": "which is just barely less than first place South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 94,
+      "start": 457.48,
+      "end": 462.48,
+      "text": "Now, producing lots of smart young graduates and giving them bundles of cash is cool and all,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 95,
+      "start": 462.48,
+      "end": 468.78,
+      "text": "unless they take those skills and that capital to California, giving Americans the jobs and tax dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 96,
+      "start": 468.78,
+      "end": 472.58,
+      "text": "The third ingredient is, therefore, a high standard of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 97,
+      "start": 472.58,
+      "end": 475.38,
+      "text": "Israelis have to want to stay in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 98,
+      "start": 475.38,
+      "end": 479.18,
+      "text": "It's a fun fact for South Africa that Elon Musk grew up there,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 99,
+      "start": 479.18,
+      "end": 483.68,
+      "text": "but not much use because Tesla and SpaceX are American companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 100,
+      "start": 483.68,
+      "end": 486.08,
+      "text": "And this is harder than it sounds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 101,
+      "start": 486.08,
+      "end": 492.38,
+      "text": "On one hand, entrepreneurs and employees care about healthcare, crime, public transit, and so on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 102,
+      "start": 492.38,
+      "end": 493.68,
+      "text": "But it's a balance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 103,
+      "start": 493.68,
+      "end": 499.28,
+      "text": "Because, as salaries rise, companies are less drawn to the lower cost of hiring an Israeli engineer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 104,
+      "start": 499.28,
+      "end": 504.88,
+      "text": "currently $73,000, over, say, a Californian, $114,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 105,
+      "start": 504.88,
+      "end": 508.58,
+      "text": "Salaries are so high in the San Francisco Bay Area, for example,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 106,
+      "start": 508.58,
+      "end": 514.58,
+      "text": "that if you're feeling particularly cheap, you might just buy a $20 million private jet to save money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 107,
+      "start": 514.58,
+      "end": 519.28,
+      "text": "so you can hire employees in less expensive Houston and fly them over for the workday.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 108,
+      "start": 519.38,
+      "end": 525.18,
+      "text": "Israel has to be attractive enough for people, but not so expensive that businesses look elsewhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 109,
+      "start": 525.18,
+      "end": 531.08,
+      "text": "Together, these three ingredients go a long way towards making Israel one of the tech capitals of the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 110,
+      "start": 531.08,
+      "end": 536.28,
+      "text": "But there's also another, harder to measure, but no less real factor to consider.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 111,
+      "start": 536.28,
+      "end": 537.18,
+      "text": "Culture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 112,
+      "start": 537.18,
+      "end": 540.98,
+      "text": "If you graduate from Stanford with a degree in computer science on Friday,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 113,
+      "start": 540.98,
+      "end": 545.68,
+      "text": "there's a very real chance you could walk into a Facebook or Microsoft on Monday",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 114,
+      "start": 545.68,
+      "end": 548.98,
+      "text": "and start making $100,000 plus a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 115,
+      "start": 548.98,
+      "end": 553.88,
+      "text": "Or you could spend your days begging for money with the possibility of losing a lot,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 116,
+      "start": 553.88,
+      "end": 556.38,
+      "text": "only to end up back at square one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 117,
+      "start": 556.38,
+      "end": 560.78,
+      "text": "When the vast majority of new companies fail, starting one is a huge risk,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 118,
+      "start": 560.78,
+      "end": 563.78,
+      "text": "especially considering how lucrative the alternative.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 119,
+      "start": 563.78,
+      "end": 569.28,
+      "text": "It takes a certain kind of personality that's willing to fail, and do so very publicly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 120,
+      "start": 569.28,
+      "end": 575.18,
+      "text": "In many Asian countries, the culture of saving face makes entrepreneurship unthinkable for many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 121,
+      "start": 575.18,
+      "end": 578.68,
+      "text": "The reputational damage of failure is simply too great.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 122,
+      "start": 578.68,
+      "end": 585.48,
+      "text": "In Israel, however, a spirit of hutzpah, roughly audacity or bravery, has just the opposite effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 123,
+      "start": 585.48,
+      "end": 589.08,
+      "text": "The author of the book, Startup Nation, writes somewhere along the way,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 124,
+      "start": 589.08,
+      "end": 591.58,
+      "text": "either at home, in school, or in the army,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 125,
+      "start": 591.58,
+      "end": 594.18,
+      "text": "Israelis learn that assertiveness is the norm,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 126,
+      "start": 594.18,
+      "end": 597.48,
+      "text": "reticence something that risks your being left behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 127,
+      "start": 597.48,
+      "end": 602.88,
+      "text": "Israel is one of a handful of countries that requires long military service for everyone,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 128,
+      "start": 602.88,
+      "end": 605.68,
+      "text": "three years for men and two for women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 129,
+      "start": 605.68,
+      "end": 609.48,
+      "text": "During their service, Israelis learn skills that apply to the workplace,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 130,
+      "start": 609.48,
+      "end": 611.88,
+      "text": "make lifelong friends and business partners,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 131,
+      "start": 611.88,
+      "end": 615.38,
+      "text": "and are reminded that their country can't be complacent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 132,
+      "start": 615.38,
+      "end": 620.58,
+      "text": "Ultimately, Israel proves that there is no single factor to economic success.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 133,
+      "start": 620.58,
+      "end": 624.28,
+      "text": "It has high rates of education, lots of government investment,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 134,
+      "start": 624.28,
+      "end": 628.78,
+      "text": "and especially considering its geography, an impressive standard of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 135,
+      "start": 628.78,
+      "end": 632.38,
+      "text": "But it isn't ranked number one in any of those categories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 136,
+      "start": 632.38,
+      "end": 637.48,
+      "text": "Instead, a combination of all these things, along with factors like American foreign aid,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 137,
+      "start": 637.48,
+      "end": 639.48,
+      "text": "allow the country to prosper.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 138,
+      "start": 639.48,
+      "end": 645.78,
+      "text": "It also shows that top-down government policies are only so effective at encouraging entrepreneurship.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 139,
+      "start": 645.78,
+      "end": 651.38,
+      "text": "Countries can hand out money left and right, but innovation occurs at the level of the individual,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 140,
+      "start": 651.38,
+      "end": 656.58,
+      "text": "his or her ability to take risks, start new projects, and learn new things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 141,
+      "start": 656.58,
+      "end": 660.48,
+      "text": "If that sounds like you, let me recommend these videos on Skillshare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 142,
+      "start": 660.48,
+      "end": 667.68,
+      "text": "This one is taught by Guy Kawasaki, the guy responsible for marketing Apple's revolutionary 1984 Macintosh.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 143,
+      "start": 667.68,
+      "end": 673.28,
+      "text": "In short, bite-size videos, he answers business questions like how to ask for money from investors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 144,
+      "start": 673.28,
+      "end": 676.18,
+      "text": "how to pitch your idea, and why you should network.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 145,
+      "start": 676.18,
+      "end": 680.88,
+      "text": "If you already have a business idea in mind, there are also lots of specific lessons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 146,
+      "start": 680.88,
+      "end": 685.68,
+      "text": "The head of production at Anchor, for example, has this class on how to start a podcast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 147,
+      "start": 685.78,
+      "end": 690.28,
+      "text": "Whatever you want to learn, how to draw, take better photos, make YouTube videos,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 148,
+      "start": 690.28,
+      "end": 692.28,
+      "text": "Skillshare probably has it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 149,
+      "start": 692.28,
+      "end": 695.28,
+      "text": "Better yet, for you, it's free, for two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 150,
+      "start": 695.28,
+      "end": 699.08,
+      "text": "Just be one of the first 500 people to use the link in the description.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.6,
+      "text": "This video is sponsored by Skillshare, the first 500 to use the link in the description get two months free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 1,
+      "start": 6.6,
+      "end": 13.8,
+      "text": "You, the brave daredevil you are, open Google Maps, throw your mouse into the air, and land here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 2,
+      "start": 13.8,
+      "end": 21.7,
+      "text": "There are palm trees, lots of 20-somethings talking into their AirPods, and everywhere you look, a familiar logo.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 3,
+      "start": 21.7,
+      "end": 28.6,
+      "text": "Apple, Amazon, Intel, Yahoo, Microsoft, Google, all within a few blocks of each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187955,
+      "no_speech_prob": 0.072449
+    },
+    {
+      "index": 4,
+      "start": 28.8,
+      "end": 34.9,
+      "text": "Where are you? Your first guess might be San Jose, maybe Palo Alto, or Mountain View.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 5,
+      "start": 34.9,
+      "end": 41.2,
+      "text": "That is, unless you notice the lack of Teslas, or smell of hummus, or the title of this video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 6,
+      "start": 41.2,
+      "end": 49.2,
+      "text": "This is Silicon Wadi, a cluster of cities in Israel with one of the highest concentrations of tech companies and startups on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 7,
+      "start": 49.2,
+      "end": 53.0,
+      "text": "It's home to Waze, Wix, Sodastream, and Fiverr.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 8,
+      "start": 53.0,
+      "end": 57.4,
+      "text": "Files more patents per capita than all but four countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127038,
+      "no_speech_prob": 0.026733
+    },
+    {
+      "index": 9,
+      "start": 57.4,
+      "end": 64.7,
+      "text": "And is ranked the fourth most startup-friendly nation overall, behind only Canada, the UK, and the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 10,
+      "start": 64.7,
+      "end": 69.0,
+      "text": "The difference is, those countries aren't next door to the Syrian Civil War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 11,
+      "start": 69.0,
+      "end": 75.1,
+      "text": "Thirty members of the UN still don't recognize the existence of Israel, including most of its neighbors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 12,
+      "start": 75.1,
+      "end": 81.4,
+      "text": "In fact, any evidence of traveling there on any passport prevents you from visiting eight of those countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 13,
+      "start": 81.4,
+      "end": 87.0,
+      "text": "Because of this, Israeli Customs stamps not your passport, but a separate piece of paper.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088849,
+      "no_speech_prob": 0.004978
+    },
+    {
+      "index": 14,
+      "start": 87.1,
+      "end": 91.2,
+      "text": "But despite all of this, despite the constant threat of terrorism,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 15,
+      "start": 91.2,
+      "end": 97.4,
+      "text": "despite being only slightly bigger than Fiji, and having just two and a half percent the population of the US,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 16,
+      "start": 97.4,
+      "end": 102.8,
+      "text": "Israel creates some of the most successful tech companies and entrepreneurs in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 17,
+      "start": 102.8,
+      "end": 105.48,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 18,
+      "start": 105.48,
+      "end": 109.78,
+      "text": "As one of the very important world leaders who consult my channel for advice,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 19,
+      "start": 109.78,
+      "end": 113.08,
+      "text": "you want to know how to start your very own Silicon Valley.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 20,
+      "start": 113.08,
+      "end": 114.38,
+      "text": "Well, you're in luck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 21,
+      "start": 114.38,
+      "end": 116.98,
+      "text": "The recipe is actually quite simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071834,
+      "no_speech_prob": 0.001573
+    },
+    {
+      "index": 22,
+      "start": 116.98,
+      "end": 120.88,
+      "text": "First, buy some ping-pong tables, throw down a couple of beanbags,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 23,
+      "start": 120.88,
+      "end": 127.88,
+      "text": "and within minutes, a cavalcade of soylent drinking, smartwatch-wearing CS grads will assemble at your door.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 24,
+      "start": 127.88,
+      "end": 133.68,
+      "text": "Even better, why not build some apartments, a grocery store, and while you're at it, a pharmacy?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 25,
+      "start": 133.68,
+      "end": 135.68,
+      "text": "Then they'll never leave.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 26,
+      "start": 135.68,
+      "end": 137.28,
+      "text": "Work life, what?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 27,
+      "start": 137.28,
+      "end": 138.88,
+      "text": "Just kidding, mostly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 28,
+      "start": 138.88,
+      "end": 143.98,
+      "text": "More than a few countries and cities have tried charming tech companies with tax breaks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113753,
+      "no_speech_prob": 0.003883
+    },
+    {
+      "index": 29,
+      "start": 143.98,
+      "end": 150.88,
+      "text": "grants, free 21-foot cacti, and other totally normal things, but almost as many have failed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 30,
+      "start": 150.88,
+      "end": 155.58,
+      "text": "On the other side of the Arabian Peninsula, Dubai built what it calls free zones,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 31,
+      "start": 155.58,
+      "end": 159.28,
+      "text": "areas with special incentives to attract certain types of companies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 32,
+      "start": 159.28,
+      "end": 163.18,
+      "text": "like biotech firms, movie studios, and tech companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 33,
+      "start": 163.18,
+      "end": 169.48,
+      "text": "At first glance, Dubai Internet City looks like a great success, and to some degree, that's true.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087042,
+      "no_speech_prob": 0.029739
+    },
+    {
+      "index": 34,
+      "start": 169.58,
+      "end": 176.88,
+      "text": "It convinced Microsoft, Cisco, IBM, HP, and Canon to invest millions of dollars in the middle of the desert,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 35,
+      "start": 176.88,
+      "end": 180.58,
+      "text": "at a time when the future of Dubai was much more uncertain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 36,
+      "start": 180.58,
+      "end": 186.98,
+      "text": "But having beautiful buildings with famous logos on them is not the same as creating an environment of innovation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 37,
+      "start": 186.98,
+      "end": 189.98,
+      "text": "You'll find plenty of the former in the Cayman Islands,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 38,
+      "start": 189.98,
+      "end": 194.48,
+      "text": "but it's not exactly the first place that comes to mind when you think cutting-edge research.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.039254,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 39,
+      "start": 194.48,
+      "end": 199.78,
+      "text": "Meanwhile, Silicon Valley is, despite its very high cost of doing business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 40,
+      "start": 199.78,
+      "end": 204.78,
+      "text": "In other words, tax breaks may bring companies, but not necessarily innovation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 41,
+      "start": 204.78,
+      "end": 211.08,
+      "text": "Corporations come to Dubai largely for its promise of no income or corporate tax for 50 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 42,
+      "start": 211.08,
+      "end": 219.08,
+      "text": "but often only for marketing, support, and sales, while hiring most of their engineers in the US, India, and Israel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 43,
+      "start": 219.08,
+      "end": 222.38,
+      "text": "So what do those countries have that others don't?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061065,
+      "no_speech_prob": 0.018829
+    },
+    {
+      "index": 44,
+      "start": 222.38,
+      "end": 226.08,
+      "text": "There are three basic ingredients to a successful tech scene.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 45,
+      "start": 226.08,
+      "end": 232.18,
+      "text": "The first is talent, one of the best predictors of which is, unsurprisingly, education.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 46,
+      "start": 232.18,
+      "end": 233.98,
+      "text": "In the words of Scott Galloway,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 47,
+      "start": 233.98,
+      "end": 238.38,
+      "text": "find the universities that are gaining the most traction in engineering or STEM,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 48,
+      "start": 238.38,
+      "end": 242.28,
+      "text": "and you're going to find an ecosystem that can produce a unicorn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 49,
+      "start": 242.28,
+      "end": 246.58,
+      "text": "Basically, put a bunch of smart, ambitious people in a small, contained space,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 50,
+      "start": 246.58,
+      "end": 251.28,
+      "text": "sprinkle in some idealism, ideas will collide, and good things will happen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065777,
+      "no_speech_prob": 0.019714
+    },
+    {
+      "index": 51,
+      "start": 251.28,
+      "end": 255.18,
+      "text": "At the level of a nation, universities are about proximity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 52,
+      "start": 255.18,
+      "end": 259.18,
+      "text": "And hey, if you also learn something along the way, that's a bonus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 53,
+      "start": 259.18,
+      "end": 263.88,
+      "text": "Which is great news for Israel, one of the most educated countries in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 54,
+      "start": 263.88,
+      "end": 268.28,
+      "text": "About 47% of those over 25 have a college diploma.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 55,
+      "start": 268.28,
+      "end": 276.08,
+      "text": "The Hebrew University of Jerusalem, Tel Aviv University, and the Israel Institute of Technology are all globally competitive schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05746,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 56,
+      "start": 276.08,
+      "end": 283.08,
+      "text": "And because the country is just so small, and its population so highly concentrated in just a few regions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 57,
+      "start": 283.08,
+      "end": 288.98,
+      "text": "it has the same fertile ground for entrepreneurship as a college campus, at a much larger scale.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 58,
+      "start": 288.98,
+      "end": 295.48,
+      "text": "About 92% of Israelis live in urban areas, almost entirely in the northern half of the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 59,
+      "start": 295.48,
+      "end": 301.08,
+      "text": "Startups, therefore, are surrounded by their customers, business partners, and competitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068741,
+      "no_speech_prob": 0.034576
+    },
+    {
+      "index": 60,
+      "start": 301.18,
+      "end": 306.68,
+      "text": "The other aspect of talent that's often overlooked, but just as important, is demographics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 61,
+      "start": 306.68,
+      "end": 310.58,
+      "text": "Not just how big a population is, but also what it's like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 62,
+      "start": 310.58,
+      "end": 318.08,
+      "text": "For example, it's misleading to say only that Japan has 126 million people, and Ethiopia, 98.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 63,
+      "start": 318.08,
+      "end": 321.28,
+      "text": "What those raw numbers hide are their age and background,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060688,
+      "no_speech_prob": 0.020004
+    },
+    {
+      "index": 69,
+      "start": 346.88,
+      "end": 351.38,
+      "text": "Now, Israel's growth is not quite so dramatic, but it is growing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090033,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 70,
+      "start": 351.38,
+      "end": 354.98,
+      "text": "which is more than you can say about the future of most developed countries,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090033,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 71,
+      "start": 354.98,
+      "end": 359.78,
+      "text": "including all of Europe, the US, Canada, Australia, and China.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 72,
+      "start": 359.78,
+      "end": 363.28,
+      "text": "The problem is not that Japan doesn't have working-aged people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 73,
+      "start": 363.28,
+      "end": 368.78,
+      "text": "Even as its population shrinks, there will long be millions and millions of workers,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 74,
+      "start": 368.78,
+      "end": 373.48,
+      "text": "but they'll be busy caring for their parents, not inventing the next big thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 75,
+      "start": 373.48,
+      "end": 379.08,
+      "text": "Israel, meanwhile, has enough people to care for the old and young with plenty left over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 76,
+      "start": 379.08,
+      "end": 382.08,
+      "text": "It also has some extra help, immigration.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063532,
+      "no_speech_prob": 0.003822
+    },
+    {
+      "index": 77,
+      "start": 382.08,
+      "end": 386.88,
+      "text": "The law of return allows any Jew, their spouse, children, grandchildren,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 78,
+      "start": 386.88,
+      "end": 391.18,
+      "text": "and even their non-Jewish spouse to come to Israel and receive citizenship.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 79,
+      "start": 391.18,
+      "end": 395.28,
+      "text": "There are even scholarships to cover your expenses while you learn Hebrew.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 80,
+      "start": 395.28,
+      "end": 400.38,
+      "text": "The result of all this is that there are 140 scientists, technicians, and engineers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 81,
+      "start": 400.38,
+      "end": 405.88,
+      "text": "for every 10,000 Israeli employees, compared to just 85 in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 82,
+      "start": 405.88,
+      "end": 409.08,
+      "text": "The second, much simpler ingredient is capital.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057734,
+      "no_speech_prob": 0.041962
+    },
+    {
+      "index": 83,
+      "start": 409.08,
+      "end": 413.28,
+      "text": "Starting a business is expensive, and someone needs to write the checks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 84,
+      "start": 413.28,
+      "end": 418.68,
+      "text": "The good news is that the only thing Silicon Valley hates more than affordable housing is missing out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 85,
+      "start": 418.68,
+      "end": 425.58,
+      "text": "Investors pour money into companies whose only skill is improving the rate at which they can flush $100 bills down the toilet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 86,
+      "start": 425.58,
+      "end": 429.28,
+      "text": "simply because they don't want the feeling of having lost an opportunity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 87,
+      "start": 429.28,
+      "end": 430.48,
+      "text": "Cough, soft bank.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 88,
+      "start": 430.48,
+      "end": 435.48,
+      "text": "Once word gets out that somewhere, like Israel, is good at producing high-value startups,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 89,
+      "start": 435.48,
+      "end": 438.68,
+      "text": "finding investors became exponentially easier.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096901,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 90,
+      "start": 438.68,
+      "end": 442.48,
+      "text": "The more checks are written, the more venture capital firms pay attention.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 91,
+      "start": 442.48,
+      "end": 449.08,
+      "text": "Israel's government got the ball rolling in the 90s, with big incentives for anyone willing to come invest in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 92,
+      "start": 449.08,
+      "end": 453.98,
+      "text": "Today, 4.5% of its total GDP is spent on research and development,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 93,
+      "start": 453.98,
+      "end": 457.48,
+      "text": "which is just barely less than first place South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 94,
+      "start": 457.48,
+      "end": 462.48,
+      "text": "Now, producing lots of smart young graduates and giving them bundles of cash is cool and all,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057015,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 95,
+      "start": 462.48,
+      "end": 468.78,
+      "text": "unless they take those skills and that capital to California, giving Americans the jobs and tax dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 96,
+      "start": 468.78,
+      "end": 472.58,
+      "text": "The third ingredient is, therefore, a high standard of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 97,
+      "start": 472.58,
+      "end": 475.38,
+      "text": "Israelis have to want to stay in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 98,
+      "start": 475.38,
+      "end": 479.18,
+      "text": "It's a fun fact for South Africa that Elon Musk grew up there,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 99,
+      "start": 479.18,
+      "end": 483.68,
+      "text": "but not much use because Tesla and SpaceX are American companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 100,
+      "start": 483.68,
+      "end": 486.08,
+      "text": "And this is harder than it sounds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 101,
+      "start": 486.08,
+      "end": 492.38,
+      "text": "On one hand, entrepreneurs and employees care about healthcare, crime, public transit, and so on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058213,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 102,
+      "start": 492.38,
+      "end": 493.68,
+      "text": "But it's a balance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 103,
+      "start": 493.68,
+      "end": 499.28,
+      "text": "Because, as salaries rise, companies are less drawn to the lower cost of hiring an Israeli engineer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 104,
+      "start": 499.28,
+      "end": 504.88,
+      "text": "currently $73,000, over, say, a Californian, $114,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 105,
+      "start": 504.88,
+      "end": 508.58,
+      "text": "Salaries are so high in the San Francisco Bay Area, for example,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 106,
+      "start": 508.58,
+      "end": 514.58,
+      "text": "that if you're feeling particularly cheap, you might just buy a $20 million private jet to save money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 107,
+      "start": 514.58,
+      "end": 519.28,
+      "text": "so you can hire employees in less expensive Houston and fly them over for the workday.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089606,
+      "no_speech_prob": 0.001064
+    },
+    {
+      "index": 108,
+      "start": 519.38,
+      "end": 525.18,
+      "text": "Israel has to be attractive enough for people, but not so expensive that businesses look elsewhere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 109,
+      "start": 525.18,
+      "end": 531.08,
+      "text": "Together, these three ingredients go a long way towards making Israel one of the tech capitals of the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 110,
+      "start": 531.08,
+      "end": 536.28,
+      "text": "But there's also another, harder to measure, but no less real factor to consider.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 111,
+      "start": 536.28,
+      "end": 537.18,
+      "text": "Culture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 112,
+      "start": 537.18,
+      "end": 540.98,
+      "text": "If you graduate from Stanford with a degree in computer science on Friday,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 113,
+      "start": 540.98,
+      "end": 545.68,
+      "text": "there's a very real chance you could walk into a Facebook or Microsoft on Monday",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 114,
+      "start": 545.68,
+      "end": 548.98,
+      "text": "and start making $100,000 plus a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074119,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 115,
+      "start": 548.98,
+      "end": 553.88,
+      "text": "Or you could spend your days begging for money with the possibility of losing a lot,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 116,
+      "start": 553.88,
+      "end": 556.38,
+      "text": "only to end up back at square one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 117,
+      "start": 556.38,
+      "end": 560.78,
+      "text": "When the vast majority of new companies fail, starting one is a huge risk,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 118,
+      "start": 560.78,
+      "end": 563.78,
+      "text": "especially considering how lucrative the alternative.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 119,
+      "start": 563.78,
+      "end": 569.28,
+      "text": "It takes a certain kind of personality that's willing to fail, and do so very publicly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 120,
+      "start": 569.28,
+      "end": 575.18,
+      "text": "In many Asian countries, the culture of saving face makes entrepreneurship unthinkable for many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 121,
+      "start": 575.18,
+      "end": 578.68,
+      "text": "The reputational damage of failure is simply too great.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060564,
+      "no_speech_prob": 0.001169
+    },
+    {
+      "index": 122,
+      "start": 578.68,
+      "end": 585.48,
+      "text": "In Israel, however, a spirit of hutzpah, roughly audacity or bravery, has just the opposite effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 123,
+      "start": 585.48,
+      "end": 589.08,
+      "text": "The author of the book, Startup Nation, writes somewhere along the way,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 124,
+      "start": 589.08,
+      "end": 591.58,
+      "text": "either at home, in school, or in the army,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 125,
+      "start": 591.58,
+      "end": 594.18,
+      "text": "Israelis learn that assertiveness is the norm,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 126,
+      "start": 594.18,
+      "end": 597.48,
+      "text": "reticence something that risks your being left behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 127,
+      "start": 597.48,
+      "end": 602.88,
+      "text": "Israel is one of a handful of countries that requires long military service for everyone,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 128,
+      "start": 602.88,
+      "end": 605.68,
+      "text": "three years for men and two for women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114995,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 129,
+      "start": 605.68,
+      "end": 609.48,
+      "text": "During their service, Israelis learn skills that apply to the workplace,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 130,
+      "start": 609.48,
+      "end": 611.88,
+      "text": "make lifelong friends and business partners,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 131,
+      "start": 611.88,
+      "end": 615.38,
+      "text": "and are reminded that their country can't be complacent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 132,
+      "start": 615.38,
+      "end": 620.58,
+      "text": "Ultimately, Israel proves that there is no single factor to economic success.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 133,
+      "start": 620.58,
+      "end": 624.28,
+      "text": "It has high rates of education, lots of government investment,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 134,
+      "start": 624.28,
+      "end": 628.78,
+      "text": "and especially considering its geography, an impressive standard of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 135,
+      "start": 628.78,
+      "end": 632.38,
+      "text": "But it isn't ranked number one in any of those categories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061869,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 136,
+      "start": 632.38,
+      "end": 637.48,
+      "text": "Instead, a combination of all these things, along with factors like American foreign aid,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 137,
+      "start": 637.48,
+      "end": 639.48,
+      "text": "allow the country to prosper.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 138,
+      "start": 639.48,
+      "end": 645.78,
+      "text": "It also shows that top-down government policies are only so effective at encouraging entrepreneurship.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 139,
+      "start": 645.78,
+      "end": 651.38,
+      "text": "Countries can hand out money left and right, but innovation occurs at the level of the individual,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 140,
+      "start": 651.38,
+      "end": 656.58,
+      "text": "his or her ability to take risks, start new projects, and learn new things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 141,
+      "start": 656.58,
+      "end": 660.48,
+      "text": "If that sounds like you, let me recommend these videos on Skillshare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058185,
+      "no_speech_prob": 0.100647
+    },
+    {
+      "index": 142,
+      "start": 660.48,
+      "end": 667.68,
+      "text": "This one is taught by Guy Kawasaki, the guy responsible for marketing Apple's revolutionary 1984 Macintosh.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 143,
+      "start": 667.68,
+      "end": 673.28,
+      "text": "In short, bite-size videos, he answers business questions like how to ask for money from investors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 144,
+      "start": 673.28,
+      "end": 676.18,
+      "text": "how to pitch your idea, and why you should network.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 145,
+      "start": 676.18,
+      "end": 680.88,
+      "text": "If you already have a business idea in mind, there are also lots of specific lessons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 146,
+      "start": 680.88,
+      "end": 685.68,
+      "text": "The head of production at Anchor, for example, has this class on how to start a podcast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069612,
+      "no_speech_prob": 0.255859
+    },
+    {
+      "index": 147,
+      "start": 685.78,
+      "end": 690.28,
+      "text": "Whatever you want to learn, how to draw, take better photos, make YouTube videos,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 148,
+      "start": 690.28,
+      "end": 692.28,
+      "text": "Skillshare probably has it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 149,
+      "start": 692.28,
+      "end": 695.28,
+      "text": "Better yet, for you, it's free, for two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    },
+    {
+      "index": 150,
+      "start": 695.28,
+      "end": 699.08,
+      "text": "Just be one of the first 500 people to use the link in the description.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099168,
+      "no_speech_prob": 0.805664
+    }
+  ],
+  "context_text_chronological": "This video is sponsored by Skillshare, the first 500 to use the link in the description get two months free. You, the brave daredevil you are, open Google Maps, throw your mouse into the air, and land here. There are palm trees, lots of 20-somethings talking into their AirPods, and everywhere you look, a familiar logo. Apple, Amazon, Intel, Yahoo, Microsoft, Google, all within a few blocks of each other. Where are you? Your first guess might be San Jose, maybe Palo Alto, or Mountain View. That is, unless you notice the lack of Teslas, or smell of hummus, or the title of this video. This is Silicon Wadi, a cluster of cities in Israel with one of the highest concentrations of tech companies and startups on Earth. It's home to Waze, Wix, Sodastream, and Fiverr. Files more patents per capita than all but four countries. And is ranked the fourth most startup-friendly nation overall, behind only Canada, the UK, and the US. The difference is, those countries aren't next door to the Syrian Civil War. Thirty members of the UN still don't recognize the existence of Israel, including most of its neighbors. In fact, any evidence of traveling there on any passport prevents you from visiting eight of those countries. Because of this, Israeli Customs stamps not your passport, but a separate piece of paper. But despite all of this, despite the constant threat of terrorism, despite being only slightly bigger than Fiji, and having just two and a half percent the population of the US, Israel creates some of the most successful tech companies and entrepreneurs in the world. Why? As one of the very important world leaders who consult my channel for advice, you want to know how to start your very own Silicon Valley. Well, you're in luck. The recipe is actually quite simple. First, buy some ping-pong tables, throw down a couple of beanbags, and within minutes, a cavalcade of soylent drinking, smartwatch-wearing CS grads will assemble at your door. Even better, why not build some apartments, a grocery store, and while you're at it, a pharmacy? Then they'll never leave. Work life, what? Just kidding, mostly. More than a few countries and cities have tried charming tech companies with tax breaks, grants, free 21-foot cacti, and other totally normal things, but almost as many have failed. On the other side of the Arabian Peninsula, Dubai built what it calls free zones, areas with special incentives to attract certain types of companies, like biotech firms, movie studios, and tech companies. At first glance, Dubai Internet City looks like a great success, and to some degree, that's true. It convinced Microsoft, Cisco, IBM, HP, and Canon to invest millions of dollars in the middle of the desert, at a time when the future of Dubai was much more uncertain. But having beautiful buildings with famous logos on them is not the same as creating an environment of innovation. You'll find plenty of the former in the Cayman Islands, but it's not exactly the first place that comes to mind when you think cutting-edge research. Meanwhile, Silicon Valley is, despite its very high cost of doing business. In other words, tax breaks may bring companies, but not necessarily innovation. Corporations come to Dubai largely for its promise of no income or corporate tax for 50 years, but often only for marketing, support, and sales, while hiring most of their engineers in the US, India, and Israel. So what do those countries have that others don't? There are three basic ingredients to a successful tech scene. The first is talent, one of the best predictors of which is, unsurprisingly, education. In the words of Scott Galloway, find the universities that are gaining the most traction in engineering or STEM, and you're going to find an ecosystem that can produce a unicorn. Basically, put a bunch of smart, ambitious people in a small, contained space, sprinkle in some idealism, ideas will collide, and good things will happen. At the level of a nation, universities are about proximity. And hey, if you also learn something along the way, that's a bonus. Which is great news for Israel, one of the most educated countries in the world. About 47% of those over 25 have a college diploma. The Hebrew University of Jerusalem, Tel Aviv University, and the Israel Institute of Technology are all globally competitive schools. And because the country is just so small, and its population so highly concentrated in just a few regions, it has the same fertile ground for entrepreneurship as a college campus, at a much larger scale. About 92% of Israelis live in urban areas, almost entirely in the northern half of the country. Startups, therefore, are surrounded by their customers, business partners, and competitors. The other aspect of talent that's often overlooked, but just as important, is demographics. Not just how big a population is, but also what it's like. For example, it's misleading to say only that Japan has 126 million people, and Ethiopia, 98. What those raw numbers hide are their age and background, Now, Israel's growth is not quite so dramatic, but it is growing, which is more than you can say about the future of most developed countries, including all of Europe, the US, Canada, Australia, and China. The problem is not that Japan doesn't have working-aged people. Even as its population shrinks, there will long be millions and millions of workers, but they'll be busy caring for their parents, not inventing the next big thing. Israel, meanwhile, has enough people to care for the old and young with plenty left over. It also has some extra help, immigration. The law of return allows any Jew, their spouse, children, grandchildren, and even their non-Jewish spouse to come to Israel and receive citizenship. There are even scholarships to cover your expenses while you learn Hebrew. The result of all this is that there are 140 scientists, technicians, and engineers for every 10,000 Israeli employees, compared to just 85 in the US. The second, much simpler ingredient is capital. Starting a business is expensive, and someone needs to write the checks. The good news is that the only thing Silicon Valley hates more than affordable housing is missing out. Investors pour money into companies whose only skill is improving the rate at which they can flush $100 bills down the toilet, simply because they don't want the feeling of having lost an opportunity. Cough, soft bank. Once word gets out that somewhere, like Israel, is good at producing high-value startups, finding investors became exponentially easier. The more checks are written, the more venture capital firms pay attention. Israel's government got the ball rolling in the 90s, with big incentives for anyone willing to come invest in the country. Today, 4.5% of its total GDP is spent on research and development, which is just barely less than first place South Korea. Now, producing lots of smart young graduates and giving them bundles of cash is cool and all, unless they take those skills and that capital to California, giving Americans the jobs and tax dollars. The third ingredient is, therefore, a high standard of living. Israelis have to want to stay in the country. It's a fun fact for South Africa that Elon Musk grew up there, but not much use because Tesla and SpaceX are American companies. And this is harder than it sounds. On one hand, entrepreneurs and employees care about healthcare, crime, public transit, and so on. But it's a balance. Because, as salaries rise, companies are less drawn to the lower cost of hiring an Israeli engineer, currently $73,000, over, say, a Californian, $114,000. Salaries are so high in the San Francisco Bay Area, for example, that if you're feeling particularly cheap, you might just buy a $20 million private jet to save money, so you can hire employees in less expensive Houston and fly them over for the workday. Israel has to be attractive enough for people, but not so expensive that businesses look elsewhere. Together, these three ingredients go a long way towards making Israel one of the tech capitals of the world. But there's also another, harder to measure, but no less real factor to consider. Culture. If you graduate from Stanford with a degree in computer science on Friday, there's a very real chance you could walk into a Facebook or Microsoft on Monday and start making $100,000 plus a year. Or you could spend your days begging for money with the possibility of losing a lot, only to end up back at square one. When the vast majority of new companies fail, starting one is a huge risk, especially considering how lucrative the alternative. It takes a certain kind of personality that's willing to fail, and do so very publicly. In many Asian countries, the culture of saving face makes entrepreneurship unthinkable for many. The reputational damage of failure is simply too great. In Israel, however, a spirit of hutzpah, roughly audacity or bravery, has just the opposite effect. The author of the book, Startup Nation, writes somewhere along the way, either at home, in school, or in the army, Israelis learn that assertiveness is the norm, reticence something that risks your being left behind. Israel is one of a handful of countries that requires long military service for everyone, three years for men and two for women. During their service, Israelis learn skills that apply to the workplace, make lifelong friends and business partners, and are reminded that their country can't be complacent. Ultimately, Israel proves that there is no single factor to economic success. It has high rates of education, lots of government investment, and especially considering its geography, an impressive standard of living. But it isn't ranked number one in any of those categories. Instead, a combination of all these things, along with factors like American foreign aid, allow the country to prosper. It also shows that top-down government policies are only so effective at encouraging entrepreneurship. Countries can hand out money left and right, but innovation occurs at the level of the individual, his or her ability to take risks, start new projects, and learn new things. If that sounds like you, let me recommend these videos on Skillshare. This one is taught by Guy Kawasaki, the guy responsible for marketing Apple's revolutionary 1984 Macintosh. In short, bite-size videos, he answers business questions like how to ask for money from investors, how to pitch your idea, and why you should network. If you already have a business idea in mind, there are also lots of specific lessons. The head of production at Anchor, for example, has this class on how to start a podcast. Whatever you want to learn, how to draw, take better photos, make YouTube videos, Skillshare probably has it. Better yet, for you, it's free, for two months. Just be one of the first 500 people to use the link in the description.",
+  "target_text_for_audit": "which can either act as a free economic multiplier, or a bleak and costly undoing. Japan's population may be large, but it takes an unfortunate shape. Far too many old people for not enough young. Unless millions of Japanese suddenly change their mind and start having children tomorrow, the land of the rising sun will slowly set, as Africa grows into the next major consumer market.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 4,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "which can either act as a free economic multiplier or a bleak and costly undoing.",
+        "start_source": 321.0,
+        "end_source": 326.5,
+        "matching_cue_ids": [
+          64
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "Japan's population may be large, but it takes an unfortunate shape, far too many old people for not enough young.",
+        "start_source": 326.84,
+        "end_source": 334.14,
+        "matching_cue_ids": [
+          64,
+          65,
+          66
+        ],
+        "text_similarity": 0.7309,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "Unless millions of Japanese suddenly change their mind and start having children tomorrow,",
+        "start_source": 334.62,
+        "end_source": 339.3,
+        "matching_cue_ids": [
+          66,
+          67
+        ],
+        "text_similarity": 0.7982,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "the land of the rising sun will slowly set, as Africa grows into the next major consumer market.",
+        "start_source": 339.86,
+        "end_source": 346.32,
+        "matching_cue_ids": [
+          67,
+          68
+        ],
+        "text_similarity": 0.6763,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\RuPx61911Oo.mp4",
+    "cue_count": 151
+  },
+  "token_estimate_char_div_4": 2723
+}

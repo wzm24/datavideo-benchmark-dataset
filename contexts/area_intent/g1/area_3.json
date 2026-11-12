@@ -1,0 +1,267 @@
+{
+ "clip_id": "area_3",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace battle deaths per year per million people from 1950 through the final data point.",
+ "chart_structure": {
+  "clip_id": "area_3",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Trace battle deaths per year per million people from 1950 through the final data point.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2",
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required area marks are present in the chart: battle deaths.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "battle deaths",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "change",
+   "claim": "Battle deaths per year per million people fell from 180.2 in 1950 to 12.3 at the final data point.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "1950",
+     "point_order": "1",
+     "field": "value",
+     "value": "180.2",
+     "unit": "deaths_per_million",
+     "role": "area"
+    },
+    {
+     "row_id": "r61",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "",
+     "point_order": "61",
+     "field": "value",
+     "value": "12.3",
+     "unit": "deaths_per_million",
+     "role": "area"
+    }
+   ],
+   "computation": "180.2 - 12.3 = 167.9 deaths_per_million decrease",
+   "accept": [
+    "start value 180.2 at 1950",
+    "end value 12.3 at final point",
+    "overall decrease from start to end"
+   ],
+   "reject": [
+    "claiming an increase",
+    "using a different start or end value",
+    "treating the series as flat"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "extremum",
+   "claim": "The highest battle deaths per year per million people in the series is 180.2, occurring at the 1950 start point.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "1950",
+     "point_order": "1",
+     "field": "value",
+     "value": "180.2",
+     "unit": "deaths_per_million",
+     "role": "area"
+    },
+    {
+     "row_id": "r12",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "",
+     "point_order": "12",
+     "field": "value",
+     "value": "9.5",
+     "unit": "deaths_per_million",
+     "role": "area"
+    },
+    {
+     "row_id": "r24",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "",
+     "point_order": "24",
+     "field": "value",
+     "value": "48.6",
+     "unit": "deaths_per_million",
+     "role": "area"
+    },
+    {
+     "row_id": "r35",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "",
+     "point_order": "35",
+     "field": "value",
+     "value": "42.1",
+     "unit": "deaths_per_million",
+     "role": "area"
+    }
+   ],
+   "computation": "max(value) = 180.2 at point_order 1",
+   "accept": [
+    "maximum value 180.2",
+    "maximum occurs at 1950 / first point"
+   ],
+   "reject": [
+    "identifying a later peak as the maximum",
+    "claiming the minimum is the maximum",
+    "using a value other than 180.2 as the maximum"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
+ },
+ "optional_valid": [
+  "The series reaches a local low of 9.5 deaths_per_million at point_order 12 and again at point_order 49.",
+  "A later local peak of 48.6 deaths_per_million occurs at point_order 24.",
+  "The final value is 12.3 deaths_per_million at point_order 61."
+ ],
+ "unsupported_to_avoid": [
+  "Claiming a monotonic decline throughout the entire period.",
+  "Claiming the final value is the minimum of the series.",
+  "Attributing causes or historical events to the changes.",
+  "Stating exact year labels for points where x is blank in the table.",
+  "Comparing battle deaths to another entity or series not present in the table."
+ ],
+ "review_notes": [
+  "Only one series and one panel are present; no cross-series or cross-panel comparison units are needed.",
+  "The intent asks to trace the series over time, so the required units cover the overall start-to-end change and the global maximum.",
+  "Intermediate fluctuations are optional because the intent does not require enumerating every bend."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 61,
+  "table_sha256": "5692a85ea96e1f1ddd74e7d44cd26101630f1bc3010853cd2c0a203be61d6786"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4638,
+   "completion_tokens": 776,
+   "total_tokens": 5414,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4254
+  },
+  {
+   "prompt_tokens": 5463,
+   "completion_tokens": 52,
+   "total_tokens": 5515,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 5463
+  }
+ ],
+ "sec": 4.7
+}

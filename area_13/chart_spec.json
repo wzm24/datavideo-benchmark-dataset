@@ -3,19 +3,32 @@
  "family": "area",
  "sub_type": "overlay_area",
  "orientation": "cartesian",
- "series_count": 2,
+ "series_count": 1,
  "has_reference_line": true,
  "panel_count": 1,
  "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 2,
- "row_count": 196,
+ "row_count": 31,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "axis_ranges": {
+  "x": {
+   "mode": "relative",
+   "min": 0,
+   "max": 1
+  },
+  "y": {
+   "mode": "relative",
+   "min": 0,
+   "max": 100
+  }
+ },
+ "batch_status": "approved"
 }

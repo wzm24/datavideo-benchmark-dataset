@@ -1,0 +1,117 @@
+{
+ "clip": "area_20",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014.",
+ "proposed_intent": "Compare the relative value for average car deaths on one day in 2014 with the relative value for all plane deaths in 2014.",
+ "writer": {
+  "intent": "Compare the relative value for average car deaths on one day in 2014 with the relative value for all plane deaths in 2014.",
+  "entities": [
+   "Average death by car (one day in 2014)",
+   "Death by plane (all of 2014)"
+  ],
+  "measure": "relative value",
+  "scope": "single panel; two proportional-square-area entities for 2014",
+  "comparison": "average car deaths on one day in 2014 versus all plane deaths in 2014",
+  "withheld_answer": "The relative value for average car deaths on one day in 2014 is about twice the relative value for all plane deaths in 2014."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 23,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "2014"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [
+  {
+   "attempt": 1,
+   "rejected_intent": "Compare the relative area for average car deaths on one day in 2014 with the relative area for all plane deaths in 2014.",
+   "audit": {
+    "protocol_compliant": true,
+    "answer_leak": false,
+    "leaked_phrases": [],
+    "scope_complete": true,
+    "scope_issues": [],
+    "supported_by_inputs": true,
+    "natural_request": true,
+    "issues": []
+   },
+   "mechanical": {
+    "word_count": 23,
+    "sentence_count": 1,
+    "starts_with_action_verb": true,
+    "non_year_numbers": [],
+    "allowed_name_numbers": [
+     "2014"
+    ],
+    "answer_pattern_matches": [],
+    "mentions_chart_style": true
+   }
+  }
+ ],
+ "repair_attempts": 1,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1456,
+   "completion_tokens": 152,
+   "total_tokens": 1608,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1328
+  },
+  {
+   "prompt_tokens": 1396,
+   "completion_tokens": 56,
+   "total_tokens": 1452,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1396
+  },
+  {
+   "prompt_tokens": 1641,
+   "completion_tokens": 156,
+   "total_tokens": 1797,
+   "prompt_tokens_details": {
+    "cached_tokens": 1408
+   },
+   "prompt_cache_hit_tokens": 1408,
+   "prompt_cache_miss_tokens": 233
+  },
+  {
+   "prompt_tokens": 1396,
+   "completion_tokens": 56,
+   "total_tokens": 1452,
+   "prompt_tokens_details": {
+    "cached_tokens": 1152
+   },
+   "prompt_cache_hit_tokens": 1152,
+   "prompt_cache_miss_tokens": 244
+  }
+ ],
+ "sec": 4.5
+}

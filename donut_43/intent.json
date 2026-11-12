@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_43",
- "intent_en": "To inform viewers about the positive correlation between owning a cat and holding a graduate degree.",
- "previous_intent": "To highlight the statistical association between cat ownership and the likelihood of possessing a graduate degree.",
+ "intent_en": "Report the graduate-degree rate shown for cat owners.",
  "narration_support": "Cat owners are 17 % more likely to have a graduate degree.",
  "chart_support": "Infographic graphic with a graduation cap icon and text stating the relationship between cat ownership and graduate degrees.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": true
+ "needs_video_escalation": true,
+ "narrative_goal": "Show that cat owners are 17% more likely to have a graduate degree.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the graduate-degree rate shown for cat owners.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

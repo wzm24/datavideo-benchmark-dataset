@@ -1,0 +1,302 @@
+{
+ "clip_id": "area_27",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_27",
+  "family": "area",
+  "sub_type": "distribution_area_with_highlight",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 53,
+  "table_sha256": "2f53445b6c9108a234bf65410388cd23f11e108f739ddc044239ce7cfba2bcdc"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Income distribution",
+    "Average"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Income distribution",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Average",
+      "panel": "",
+      "entity": "Average",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Income distribution | 0.000000",
+    "Income distribution | 0.620000",
+    "Income distribution | 1.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Income distribution | 0.000000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 0.620000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.620000",
+      "point_order": "27",
+      "value": "100.000000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 1.000000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "1.000000",
+      "point_order": "51",
+      "value": "0.000000",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Income distribution density rises from near zero at relative income 0 to a peak near 100 at relative income about 0.62, then declines back toward zero at relative income 1.",
+    "computation": "none",
+    "encoding": "distribution_profile_and_highlighted_region",
+    "axis_condition": {
+     "x_axis": "Income (relative)",
+     "y_axis": "Income distribution density (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "monotonic increase across entire range",
+    "monotonic decrease across entire range",
+    "peak at relative income 0.5"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Income distribution | 0.620000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Income distribution | 0.620000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.620000",
+      "point_order": "27",
+      "value": "100.000000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 0.620000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.620000",
+      "point_order": "27",
+      "value": "0.620000",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The maximum income distribution density is 100 (relative) at relative income approximately 0.62.",
+    "computation": "none",
+    "encoding": "distribution_profile_and_highlighted_region",
+    "axis_condition": {
+     "x_axis": "Income (relative)",
+     "y_axis": "Income distribution density (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "peak density value is not 100",
+    "peak occurs at relative income 0.5"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_or_crossing",
+   "required_marks": [
+    "Average | 0.503774",
+    "Income distribution | 0.510000",
+    "Income distribution | 0.620000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Average | 0.503774",
+      "panel": "",
+      "entity": "Average",
+      "series": "",
+      "x": "0.503774",
+      "point_order": "1",
+      "value": "0.503774",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Income distribution | 0.510000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.510000",
+      "point_order": "17",
+      "value": "0.510000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 0.510000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.510000",
+      "point_order": "17",
+      "value": "69.916667",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 0.620000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.620000",
+      "point_order": "27",
+      "value": "0.620000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Income distribution | 0.620000",
+      "panel": "",
+      "entity": "Income distribution",
+      "series": "",
+      "x": "0.620000",
+      "point_order": "27",
+      "value": "100.000000",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The income distribution density crosses the average reference line (at relative income 0.503774) while rising, and again while falling, with the peak occurring to the right of the average reference.",
+    "computation": "none",
+    "encoding": "distribution_profile_and_highlighted_region",
+    "axis_condition": {
+     "x_axis": "Income (relative)",
+     "y_axis": "Income distribution density (relative)"
+    }
+   },
+   "accepted_routes": [
+    "reference_line_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "density never crosses the average reference",
+    "peak coincides with the average reference",
+    "distribution is symmetric around the average reference"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

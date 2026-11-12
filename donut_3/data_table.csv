@@ -1,4 +1,4 @@
 ﻿panel,series,entity,metric,value,unit,relative_value,label,role,source_type
-,,state 3s,restaurant_failure_rate,90,%,0.9,,state,printed
-,,state 8s,restaurant_failure_rate,30,%,0.3,,state,printed
-,,state last,restaurant_failure_rate,60,%,0.6,,state,printed
+,,myth: restaurants failing in the first year,restaurant_failure_rate,90,%,0.9,90%,state,printed
+,,reality: restaurants failing in the first year,restaurant_failure_rate,30,%,0.3,APPROX. 30%,state,printed
+,,reality: restaurants failing after three years,restaurant_failure_rate,60,%,0.6,APPROX. 60%,state,printed

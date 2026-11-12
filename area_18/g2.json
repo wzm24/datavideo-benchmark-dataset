@@ -1,0 +1,200 @@
+{
+ "clip_id": "area_18",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_18",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 5,
+  "table_sha256": "15701a50e42f08c8b24c58bbc7c5f8b0b2b64af82c5421728c855ee9eaa585f2"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "JUPITER",
+    "NEPTUNE",
+    "EARTH",
+    "MARS",
+    "MOON"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 5,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "JUPITER",
+      "panel": "",
+      "entity": "JUPITER",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "NEPTUNE",
+      "panel": "",
+      "entity": "NEPTUNE",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "EARTH",
+      "panel": "",
+      "entity": "EARTH",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MARS",
+      "panel": "",
+      "entity": "MARS",
+      "series": "",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MOON",
+      "panel": "",
+      "entity": "MOON",
+      "series": "",
+      "role": "proportional_circle"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "circle_diameter_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "ranking",
+   "must_be_visualized": true,
+   "evidence_type": "ranking",
+   "required_marks": [
+    "JUPITER | #1",
+    "NEPTUNE | #1",
+    "EARTH | #1",
+    "MARS | #1",
+    "MOON | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "JUPITER | #1",
+      "panel": "",
+      "entity": "JUPITER",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "1.000000",
+      "unit": "relative",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "NEPTUNE | #1",
+      "panel": "",
+      "entity": "NEPTUNE",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "0.346538",
+      "unit": "relative",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "EARTH | #1",
+      "panel": "",
+      "entity": "EARTH",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "0.089231",
+      "unit": "relative",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MARS | #1",
+      "panel": "",
+      "entity": "MARS",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "0.047308",
+      "unit": "relative",
+      "role": "proportional_circle"
+     },
+     {
+      "mark": "MOON | #1",
+      "panel": "",
+      "entity": "MOON",
+      "series": "",
+      "x": "",
+      "point_order": "1",
+      "value": "0.024231",
+      "unit": "relative",
+      "role": "proportional_circle"
+     }
+    ],
+    "expected_relation": "The relative diameters order from largest to smallest as Jupiter, Neptune, Earth, Mars, and the Moon, with Jupiter's diameter set to 1.0 and each other body's diameter a smaller fraction of that reference.",
+    "computation": "none",
+    "encoding": "circle_diameter",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Diameter (relative)"
+    }
+   },
+   "accepted_routes": [
+    "circle_diameter_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Neptune is larger than or equal to Jupiter in relative diameter.",
+    "Earth is larger than Neptune in relative diameter.",
+    "Mars is larger than Earth in relative diameter.",
+    "The Moon is larger than Mars in relative diameter.",
+    "Any ordering that does not place Jupiter first and the Moon last among the five listed bodies."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

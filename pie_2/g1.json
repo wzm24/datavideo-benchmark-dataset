@@ -1,0 +1,313 @@
+{
+ "clip_id": "pie_2",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the share of total US greenhouse gas emissions across Transportation, Electricity, Industry, Commercial and residential, and Agriculture, and report each category's share.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report each named category's share of total US greenhouse gas emissions",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Transportation",
+     "label": "28%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "Electricity",
+     "label": "23%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Industry",
+     "label": "22%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "series": "",
+     "entity": "Commercial and residential",
+     "label": "12%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "series": "",
+     "entity": "Agriculture",
+     "label": "10%",
+     "role": "slice",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_of_whole",
+   "claim": "Transportation is 28%, Electricity is 23%, Industry is 22%, Commercial and residential is 12%, and Agriculture is 10% of total US greenhouse gas emissions.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Transportation",
+     "metric": "share_of_ghg_emissions",
+     "field": "relative_value",
+     "value": "0.28",
+     "table_value": "28",
+     "table_relative_value": "0.28",
+     "unit": "%",
+     "relative_value": "0.28",
+     "label": "28%",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_ghg_emissions"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "Electricity",
+     "metric": "share_of_ghg_emissions",
+     "field": "relative_value",
+     "value": "0.23",
+     "table_value": "23",
+     "table_relative_value": "0.23",
+     "unit": "%",
+     "relative_value": "0.23",
+     "label": "23%",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_ghg_emissions"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Industry",
+     "metric": "share_of_ghg_emissions",
+     "field": "relative_value",
+     "value": "0.22",
+     "table_value": "22",
+     "table_relative_value": "0.22",
+     "unit": "%",
+     "relative_value": "0.22",
+     "label": "22%",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_ghg_emissions"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "series": "",
+     "entity": "Commercial and residential",
+     "metric": "share_of_ghg_emissions",
+     "field": "relative_value",
+     "value": "0.12",
+     "table_value": "12",
+     "table_relative_value": "0.12",
+     "unit": "%",
+     "relative_value": "0.12",
+     "label": "12%",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_ghg_emissions"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "series": "",
+     "entity": "Agriculture",
+     "metric": "share_of_ghg_emissions",
+     "field": "relative_value",
+     "value": "0.1",
+     "table_value": "10",
+     "table_relative_value": "0.1",
+     "unit": "%",
+     "relative_value": "0.1",
+     "label": "10%",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_ghg_emissions"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Each of the five named categories is shown with its corresponding share of the whole: Transportation 28%, Electricity 23%, Industry 22%, Commercial and residential 12%, Agriculture 10%.",
+    "The pie visually encodes all five category shares as parts of one total US greenhouse gas emissions whole."
+   ],
+   "reject": [
+    "Omits one or more of the five named categories or their shares.",
+    "Shows shares that do not match the data table values.",
+    "Treats the categories as separate totals rather than shares of one whole."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Ordering the slices by share size (Transportation > Electricity > Industry > Commercial and residential > Agriculture).",
+  "Displaying the category labels alongside their percentage values."
+ ],
+ "unsupported_to_avoid": [
+  "Reporting an absolute emissions count or tonnage not present in the table.",
+  "Adding a remainder or 'other' category, since the five shares sum to 95% and no complement is specified.",
+  "Comparing across panels, rings, or countries, as there is only one panel.",
+  "Describing color, layout, or chart decoration."
+ ],
+ "review_notes": [
+  "The five listed shares sum to 95%, not 100%; no inferred remainder unit is created because the intent names only these five categories and does not ask for a complement.",
+  "Single full-pie snapshot with one panel, so all shares are expressed as one share_of_whole unit rather than separate per-slice units."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "Transportation",
+    "metric": "share_of_ghg_emissions",
+    "value": "28",
+    "unit": "%",
+    "relative_value": "0.28",
+    "label": "28%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "Electricity",
+    "metric": "share_of_ghg_emissions",
+    "value": "23",
+    "unit": "%",
+    "relative_value": "0.23",
+    "label": "23%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
+   },
+   {
+    "row_id": "r3",
+    "panel": "",
+    "series": "",
+    "entity": "Industry",
+    "metric": "share_of_ghg_emissions",
+    "value": "22",
+    "unit": "%",
+    "relative_value": "0.22",
+    "label": "22%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
+   },
+   {
+    "row_id": "r4",
+    "panel": "",
+    "series": "",
+    "entity": "Commercial and residential",
+    "metric": "share_of_ghg_emissions",
+    "value": "12",
+    "unit": "%",
+    "relative_value": "0.12",
+    "label": "12%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
+   },
+   {
+    "row_id": "r5",
+    "panel": "",
+    "series": "",
+    "entity": "Agriculture",
+    "metric": "share_of_ghg_emissions",
+    "value": "10",
+    "unit": "%",
+    "relative_value": "0.1",
+    "label": "10%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

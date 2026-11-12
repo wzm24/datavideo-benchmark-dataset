@@ -1,181 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_32",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "722f07005a786526b33e602cf9b7dd3a7421640f557a16293e8e492505389f72",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "07517962f4ef1ad372103ad342deafb7ba056a89a58f5f2e72dfb8e4ebfc1e71",
- "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "1d532dbd37e76781060568556c6dcd84aad0ddeb322a28f0e154fa56049e6339",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": [
-   "U.S. vegan population",
-   "Gender",
-   "Country concentration"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "vegan_population_share"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
-   "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2008)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 0.5,
-   "last_value": 0.5,
-   "min_value": 0.5,
-   "max_value": 0.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
-  },
-  {
-   "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2014)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.5,
-   "last_value": 2.5,
-   "min_value": 2.5,
-   "max_value": 2.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
-  },
-  {
-   "panel": "Gender",
-   "entity": "female share of U.S. vegans",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 79.0,
-   "last_value": 79.0,
-   "min_value": 79.0,
-   "max_value": 79.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_us_vegans_female"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
-  },
-  {
+   "row_id": "r1",
    "panel": "Country concentration",
-   "entity": "Israel vegan population",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 5.0,
-   "last_value": 5.0,
-   "min_value": 5.0,
-   "max_value": 5.0,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "entity": "Israel vegan population",
+   "metric": "vegan_population_share",
+   "value": "5.0",
+   "unit": "%",
+   "relative_value": "0.05",
+   "label": "Israel (5%)",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "Country concentration"
   }
  ],
- "source_type_counts": {
-  "printed": 4
- },
- "role_counts": {
-  "annotation": 3,
-  "gauge": 1
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "Country concentration",
+   "series": "",
+   "whole_scope": "Country concentration",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Israel vegan population"
+   ],
+   "relative_value_sum": 0.05
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Country concentration",
+    "series": "",
     "entity": "Israel vegan population",
-    "series": ""
+    "metric": "vegan_population_share",
+    "value": "5.0",
+    "unit": "%",
+    "relative_value": "0.05",
+    "label": "Israel (5%)",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Country concentration"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

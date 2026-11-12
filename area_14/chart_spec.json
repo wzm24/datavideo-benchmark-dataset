@@ -4,8 +4,8 @@
  "sub_type": "simple_area",
  "orientation": "cartesian",
  "series_count": 1,
- "has_reference_line": false,
- "panel_count": 2,
+ "has_reference_line": true,
+ "panel_count": 1,
  "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
@@ -17,5 +17,18 @@
  ],
  "confidence": "high",
  "needs_review": false,
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "axis_ranges": {
+  "x": {
+   "mode": "relative",
+   "min": 0,
+   "max": 1
+  },
+  "y": {
+   "mode": "relative",
+   "min": 0,
+   "max": 100
+  }
+ },
+ "batch_status": "approved"
 }

@@ -1,0 +1,65 @@
+{
+ "clip_id": "area_27",
+ "family": "area",
+ "version": "g3_area_temporal_policy_v1_2026-11-12",
+ "status": "approved",
+ "narration_source": "model_generated",
+ "policy_status": "approved_rule_pending_g4_calibration",
+ "units": [
+  {
+   "unit_id": "U1",
+   "applies": true,
+   "anchor_mode": "whole_video_completion",
+   "anchor_selector": "last_required_area_mark_visible",
+   "ready_condition": "all required area marks are in completed, identifiable states",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.0,
+   "ordering": "all_required_marks_present_by_anchor",
+   "identity": "entity_and_series_binding_must_remain_stable",
+   "transition": "evaluate_required_mark_set_at_completion"
+  },
+  {
+   "unit_id": "U2",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "the required path or endpoints are sufficiently drawn to support the claimed direction and change",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "identity": "entity_and_series_binding_must_remain_stable",
+   "transition": "ignore_mid_animation_geometry; judge_completed_area_state"
+  },
+  {
+   "unit_id": "U3",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "all compared marks are visible at their completed values and a common scale or readable labels support the relation",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "identity": "entity_and_series_binding_must_remain_stable",
+   "transition": "ignore_mid_animation_geometry; judge_completed_area_state"
+  },
+  {
+   "unit_id": "U4",
+   "applies": true,
+   "anchor_mode": "generated_narration",
+   "anchor_selector": "sentence_that_completes_unit",
+   "ready_condition": "the relevant series and threshold/crossing state are visible at a completed animation state",
+   "window_before_s": 1.0,
+   "window_after_s": 1.5,
+   "dwell_min_s": 0.8,
+   "ordering": "evidence_complete_before_conclusion",
+   "identity": "entity_and_series_binding_must_remain_stable",
+   "transition": "ignore_mid_animation_geometry; judge_completed_area_state"
+  }
+ ],
+ "calibration_note": "Window and dwell values follow the current contract and still require G4 calibration; they are not evidence from the reference video.",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

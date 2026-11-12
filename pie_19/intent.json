@@ -1,7 +1,6 @@
 {
  "clip_id": "pie_19",
- "intent_en": "To explain how the weighting of standardized test scores in the U.S. News college ranking formula allows universities to manipulate their rankings.",
- "previous_intent": "To illustrate how universities can manipulate U.S. News college rankings by strategically managing standardized test score submissions and average scores to exploit the formula's weighting and discount rules.",
+ "intent_en": "Report the share of the U.S. News college ranking formula attributed to SAT/ACT scores as shown in the data.",
  "narration_support": "leaves plenty of room for schools to game the system",
  "chart_support": "Pie chart and list of universities (Stanford, Dartmouth, Yale) visualizing the proportion of SAT/ACT scores in the U.S. News ranking formula",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that SAT/ACT scores account for 7.75% of the U.S. News college ranking formula, a weight that still leaves room for schools to game the system.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the share of the U.S. News college ranking formula attributed to SAT/ACT scores as shown in the data.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

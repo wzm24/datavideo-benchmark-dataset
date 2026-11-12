@@ -1,195 +1,126 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_28",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "29aafd5869cdd0b4869446a9d6286e6fc50c776a226c60ddb42ba9d5fe625803",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "8564553a5060d11c7433901c0be5183b064530bab93f4dad9cca4094eb4b5cad",
- "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "acef13066d59be6de71bd48d58cdd914fb8c1b2f237d722a368ad12f9f0e5416",
+ "row_count": 3,
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_raid_proceeds"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "INVESTORS",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 30.0,
-   "last_value": 30.0,
-   "min_value": 30.0,
-   "max_value": 30.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_raid_proceeds"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "arc"
-   ]
+   "metric": "share_of_raid_proceeds",
+   "value": "30",
+   "unit": "%",
+   "relative_value": "0.3",
+   "label": "30%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "share_of_raid_proceeds"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "PORT 'FEES'",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 10.0,
-   "last_value": 10.0,
-   "min_value": 10.0,
-   "max_value": 10.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_raid_proceeds"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "arc"
-   ]
+   "metric": "share_of_raid_proceeds",
+   "value": "10",
+   "unit": "%",
+   "relative_value": "0.1",
+   "label": "10%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "share_of_raid_proceeds"
   },
   {
+   "row_id": "r3",
    "panel": "",
+   "series": "",
    "entity": "BOUNTIES",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 50.0,
-   "last_value": 50.0,
-   "min_value": 50.0,
-   "max_value": 50.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_raid_proceeds"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "arc"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "(unlabeled)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 10.0,
-   "last_value": 10.0,
-   "min_value": 10.0,
-   "max_value": 10.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_raid_proceeds"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_raid_proceeds",
+   "value": "50",
+   "unit": "%",
+   "relative_value": "0.5",
+   "label": "REST",
+   "role": "arc",
+   "source_type": "estimated",
+   "whole_scope": "share_of_raid_proceeds"
   }
  ],
- "source_type_counts": {
-  "estimated": 2,
-  "printed": 2
- },
- "role_counts": {
-  "arc": 3,
-  "remainder": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_raid_proceeds",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "entities": [
+    "INVESTORS",
+    "PORT 'FEES'",
+    "BOUNTIES"
+   ],
+   "relative_value_sum": 0.9
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "INVESTORS",
-    "series": ""
+    "metric": "share_of_raid_proceeds",
+    "value": "30",
+    "unit": "%",
+    "relative_value": "0.3",
+    "label": "30%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_raid_proceeds"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "PORT 'FEES'",
-    "series": ""
+    "metric": "share_of_raid_proceeds",
+    "value": "10",
+    "unit": "%",
+    "relative_value": "0.1",
+    "label": "10%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_raid_proceeds"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "BOUNTIES",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
+    "metric": "share_of_raid_proceeds",
+    "value": "50",
+    "unit": "%",
+    "relative_value": "0.5",
+    "label": "REST",
+    "role": "arc",
+    "source_type": "estimated",
+    "whole_scope": "share_of_raid_proceeds"
    }
   ],
-  "required_entity_count": 4,
-  "required_row_count": 4,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

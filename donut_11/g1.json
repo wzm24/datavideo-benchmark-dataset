@@ -1,0 +1,237 @@
+{
+ "clip_id": "donut_11",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the AWS and total shares of operating profit in 2018.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report the AWS share of operating profit in 2018 as a partial-ring gauge value.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Bind the partial ring/gauge to the total operating-profit composition identity.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "AWS",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "TOTAL",
+     "label": "TOTAL",
+     "role": "annotation",
+     "field": "label"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "AWS accounts for 58% of operating profit in 2018.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "AWS",
+     "metric": "share_of_operating_profit",
+     "field": "relative_value",
+     "value": "0.58",
+     "table_value": "58",
+     "table_relative_value": "0.58",
+     "unit": "%",
+     "relative_value": "0.58",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "share_of_operating_profit"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "AWS share is shown as 58%",
+    "the partial ring/gauge reports 0.58 for AWS"
+   ],
+   "reject": [
+    "AWS share is shown as 42%",
+    "AWS share is omitted",
+    "AWS share is confused with the total"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "series_identity",
+   "claim": "The partial ring/gauge represents the total operating-profit composition, with AWS as its labeled share.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "TOTAL",
+     "metric": "share_of_operating_profit",
+     "field": "label",
+     "value": "TOTAL",
+     "table_value": "",
+     "table_relative_value": "",
+     "unit": "%",
+     "relative_value": "",
+     "label": "TOTAL",
+     "role": "annotation",
+     "source_type": "printed",
+     "whole_scope": "share_of_operating_profit"
+    },
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "AWS",
+     "metric": "share_of_operating_profit",
+     "field": "entity",
+     "value": "AWS",
+     "table_value": "58",
+     "table_relative_value": "0.58",
+     "unit": "%",
+     "relative_value": "0.58",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "share_of_operating_profit"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "the ring is labeled TOTAL and AWS is identified as the measured share",
+    "the gauge is bound to total operating profit with AWS as the highlighted part"
+   ],
+   "reject": [
+    "the ring is labeled as a different metric or entity",
+    "AWS is presented without the total composition context"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Showing the inferred non-AWS remainder of the total operating-profit composition."
+ ],
+ "unsupported_to_avoid": [
+  "Reporting a numeric total value for TOTAL when the table provides only a label.",
+  "Adding AWS share to an unspecified remainder as if both were separately labeled rows.",
+  "Comparing AWS share across panels, rings, countries, or groups."
+ ],
+ "review_notes": [
+  "The TOTAL row is label-only and supports identity/context, not a numeric share.",
+  "The intent asks to compare AWS and total shares; the total is represented by the full composition identity rather than a separate numeric endpoint."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "AWS",
+    "metric": "share_of_operating_profit",
+    "value": "58",
+    "unit": "%",
+    "relative_value": "0.58",
+    "label": "",
+    "role": "gauge",
+    "source_type": "narration_calibrated",
+    "whole_scope": "share_of_operating_profit"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "TOTAL",
+    "metric": "share_of_operating_profit",
+    "value": "",
+    "unit": "%",
+    "relative_value": "",
+    "label": "TOTAL",
+    "role": "annotation",
+    "source_type": "printed",
+    "whole_scope": "share_of_operating_profit"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_6",
- "intent_en": "To demonstrate the overwhelming public support for universal background checks and introduce the different venues of gun sales (retail stores, private transactions, and gun shows) that are central to the policy debate.",
- "previous_intent": "To illustrate the near-universal public support for universal background checks while introducing the argument that these measures are insufficient to resolve the gun crisis due to unregulated sales channels like private transactions and gun shows.",
+ "intent_en": "Report the share of respondents in favor of universal background checks using the single printed category and its labeled percentage.",
  "narration_support": "Pretty much every American is in favor of this. There's only one problem. Universal background checks won't solve America's gun crisis",
  "chart_support": "Donut chart indicating high public favorability for universal background checks alongside illustrations of gun stores, private sales, and gun shows",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that 96% of respondents favor universal background checks, while noting this support alone does not solve America's gun crisis.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the share of respondents in favor of universal background checks using the single printed category and its labeled percentage.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

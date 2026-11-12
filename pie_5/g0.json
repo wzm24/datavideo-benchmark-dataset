@@ -1,191 +1,156 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_5",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "86681c4b34c96a344539e25c2fb365c4f9c7ff958274a660cead8b5b33e8da71",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "f86227f91beec6536954e19257700d811ede24e026df40c4fe3e93669d274307",
+ "data_table_sha256": "d7d259b214830548be4c3b4e53db9442f0be28b7cdc2c2c878050d98ffe5bea5",
  "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_transit_funding"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Federal",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 6.0,
-   "last_value": 6.0,
-   "min_value": 6.0,
-   "max_value": 6.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_transit_funding"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_transit_funding",
+   "value": "6",
+   "unit": "%",
+   "relative_value": "0.06",
+   "label": "6%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_transit_funding"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "Fares",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 26.0,
-   "last_value": 26.0,
-   "min_value": 26.0,
-   "max_value": 26.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_transit_funding"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_transit_funding",
+   "value": "26",
+   "unit": "%",
+   "relative_value": "0.26",
+   "label": "26%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_transit_funding"
   },
   {
+   "row_id": "r3",
    "panel": "",
+   "series": "",
    "entity": "Local government",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 36.0,
-   "last_value": 36.0,
-   "min_value": 36.0,
-   "max_value": 36.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_transit_funding"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_transit_funding",
+   "value": "36",
+   "unit": "%",
+   "relative_value": "0.36",
+   "label": "36%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_transit_funding"
   },
   {
+   "row_id": "r4",
    "panel": "",
-   "entity": "State",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 21.0,
-   "last_value": 21.0,
-   "min_value": 21.0,
-   "max_value": 21.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_transit_funding"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "State",
+   "metric": "share_of_transit_funding",
+   "value": "21",
+   "unit": "%",
+   "relative_value": "0.21",
+   "label": "21%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_transit_funding"
   }
  ],
- "source_type_counts": {
-  "printed": 4
- },
- "role_counts": {
-  "slice": 4
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_transit_funding",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3",
+    "r4"
+   ],
+   "entities": [
+    "Federal",
+    "Fares",
+    "Local government",
+    "State"
+   ],
+   "relative_value_sum": 0.89
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Federal",
-    "series": ""
+    "metric": "share_of_transit_funding",
+    "value": "6",
+    "unit": "%",
+    "relative_value": "0.06",
+    "label": "6%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_transit_funding"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "Fares",
-    "series": ""
+    "metric": "share_of_transit_funding",
+    "value": "26",
+    "unit": "%",
+    "relative_value": "0.26",
+    "label": "26%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_transit_funding"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "Local government",
-    "series": ""
+    "metric": "share_of_transit_funding",
+    "value": "36",
+    "unit": "%",
+    "relative_value": "0.36",
+    "label": "36%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_transit_funding"
    },
    {
+    "row_id": "r4",
     "panel": "",
+    "series": "",
     "entity": "State",
-    "series": ""
+    "metric": "share_of_transit_funding",
+    "value": "21",
+    "unit": "%",
+    "relative_value": "0.21",
+    "label": "21%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_transit_funding"
    }
   ],
-  "required_entity_count": 4,
-  "required_row_count": 4,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

@@ -1,0 +1,419 @@
+{
+ "clip_id": "area_17",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_17",
+  "family": "area",
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 630,
+  "table_sha256": "1e0418005aab3d0778e595e31eba425e77cc780f157882b40e79b7be7fbc6c9c"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Ice surface",
+    "Bedrock",
+    "Sea level"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 3,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Ice surface",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Sea level",
+      "panel": "",
+      "entity": "Sea level",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Ice surface | 0",
+    "Ice surface | 3000",
+    "Ice surface | #193",
+    "Ice surface | #199",
+    "Ice surface | 5000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Ice surface | 0",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "0.462",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Ice surface | 3000",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "3000",
+      "point_order": "189",
+      "value": "3.787",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Ice surface | #193",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "",
+      "point_order": "193",
+      "value": "3.854",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Ice surface | #199",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "",
+      "point_order": "199",
+      "value": "3.854",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Ice surface | 5000",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "5000",
+      "point_order": "314",
+      "value": "0.525",
+      "unit": "km",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Ice surface elevation rises from 0.462 km at 0 km to a maximum of 3.854 km near 3000 km, then declines to 0.525 km at 5000 km.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Ice surface elevation increases monotonically across the entire transect.",
+    "Ice surface elevation is highest at the start or end of the transect."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Bedrock | 0",
+    "Bedrock | #27",
+    "Bedrock | #40",
+    "Bedrock | #54",
+    "Bedrock | #107",
+    "Bedrock | #120",
+    "Bedrock | 3000",
+    "Bedrock | #241",
+    "Bedrock | #268",
+    "Bedrock | 5000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Bedrock | 0",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "-2.127",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #27",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "27",
+      "value": "0.032",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #40",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "40",
+      "value": "0.596",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #54",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "54",
+      "value": "-0.404",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #107",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "107",
+      "value": "1.224",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #120",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "120",
+      "value": "1.348",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | 3000",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "3000",
+      "point_order": "189",
+      "value": "1.058",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #241",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "241",
+      "value": "1.099",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | #268",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "",
+      "point_order": "268",
+      "value": "1.308",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | 5000",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "5000",
+      "point_order": "314",
+      "value": "-2.297",
+      "unit": "km",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Bedrock elevation fluctuates with distance, starting at -2.127 km, rising above sea level to a maximum of 1.589 km, and ending at -2.297 km.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Bedrock elevation increases monotonically with distance.",
+    "Bedrock elevation remains below sea level throughout the transect."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Ice surface | 0",
+    "Bedrock | 0",
+    "Ice surface | 5000",
+    "Bedrock | 5000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Ice surface | 0",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "0.462",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | 0",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "-2.127",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Ice surface | 5000",
+      "panel": "",
+      "entity": "Ice surface",
+      "series": "",
+      "x": "5000",
+      "point_order": "314",
+      "value": "0.525",
+      "unit": "km",
+      "role": "area"
+     },
+     {
+      "mark": "Bedrock | 5000",
+      "panel": "",
+      "entity": "Bedrock",
+      "series": "",
+      "x": "5000",
+      "point_order": "314",
+      "value": "-2.297",
+      "unit": "km",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "At both the start (0 km) and end (5000 km) of the transect, the Ice surface elevation is higher than the Bedrock elevation.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "The Ice surface is consistently higher than Bedrock across the entire transect.",
+    "Bedrock elevation exceeds Ice surface elevation at the endpoints."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

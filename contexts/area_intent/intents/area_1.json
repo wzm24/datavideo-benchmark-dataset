@@ -1,0 +1,69 @@
+{
+ "clip": "area_1",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that infections peak at 95 while healthcare capacity falls to a low of 33, then infections decline.",
+ "proposed_intent": "Compare the trajectories of Infections and Healthcare capacity over relative time to identify their respective peak and low points.",
+ "writer": {
+  "intent": "Compare the trajectories of Infections and Healthcare capacity over relative time to identify their respective peak and low points.",
+  "entities": [
+   "Infections",
+   "Healthcare capacity"
+  ],
+  "measure": "relative value",
+  "scope": "single panel, relative time from 0 to 0.6",
+  "comparison": "Infections versus Healthcare capacity",
+  "withheld_answer": "Infections peak at 95 while healthcare capacity falls to a low of 33, then infections decline."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 19,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 6714,
+   "completion_tokens": 110,
+   "total_tokens": 6824,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 6586
+  },
+  {
+   "prompt_tokens": 6646,
+   "completion_tokens": 56,
+   "total_tokens": 6702,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 6646
+  }
+ ],
+ "sec": 2.1
+}

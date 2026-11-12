@@ -1,28 +1,103 @@
 {
  "clip_id": "area_46",
- "intent_en": "To demonstrate that Americans hold a negative view of the economy, believing it is hurting their families and favoring the wealthy.",
- "previous_intent": "To demonstrate that Americans generally perceive the economy as failing to work for them, with a significant portion feeling personally negatively impacted by current economic conditions.",
- "narration_support": "roughly half of Americans saying that the economy was hurting themselves and their families. So it sounds like Americans don't think the economy is working.",
- "chart_support": "A waffle chart map of the United States indicating that roughly half of Americans believe economic conditions are hurting them and their families.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly states that Americans feel the economy is hurting them and is not working. The chart visualizes the specific statistic that roughly half (46%) of Americans feel economic conditions are hurting their families, supporting the narration's claim about personal economic impact.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that 46% of U.S. adults said economic conditions were hurting them and their families, while 54% said they were not.",
+ "intent_en": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_46",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Show that 46% of U.S. adults said economic conditions were hurting them and their families, while 54% said they were not.",
+  "proposed_intent": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+  "writer": {
+   "intent": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+   "entities": [
+    "Economic conditions hurting them and their families",
+    "Economic conditions not hurting them and their families (implied complement)"
+   ],
+   "measure": "Share of US adults (%)",
+   "scope": "U.S. adults, survey conducted Sept. 16-29, 2019",
+   "comparison": "Hurting vs. not hurting them and their families",
+   "withheld_answer": "46% hurting, 54% not hurting"
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 19,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [
+    "46"
+   ],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [],
+  "repair_attempts": 0,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {
+    "prompt_tokens": 1422,
+    "completion_tokens": 130,
+    "total_tokens": 1552,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1294
+   },
+   {
+    "prompt_tokens": 1356,
+    "completion_tokens": 56,
+    "total_tokens": 1412,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1356
+   }
+  ],
+  "sec": 2.0
+ }
 }

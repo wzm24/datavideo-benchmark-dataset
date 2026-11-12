@@ -1,0 +1,88 @@
+{
+  "clip_id": "line_90",
+  "family": "line",
+  "video_id": "3WSQI7aVIgo",
+  "source_url": "https://www.youtube.com/watch?v=3WSQI7aVIgo",
+  "source_title": "IRAQ WAR - HOW THE US MILITARY ADAPTED TO THREATS - BBC NEWS",
+  "target_window_source": {
+    "start": 16.0,
+    "end": 28.0
+  },
+  "target_mask_interval": {
+    "start": 14.5,
+    "end": 29.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "empty",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    0
+  ],
+  "masked_cue_ids": [
+    0
+  ],
+  "context_cue_ids": [],
+  "context_before": [],
+  "context_after": [],
+  "all_non_target_cues": [],
+  "context_text_chronological": "",
+  "target_text_for_audit": "The first shots of that war were fired here, just a few kilometers into the Iraqi desert.",
+  "verification": {
+    "status": "pass_empty_context",
+    "threshold": 0.25,
+    "existing_narration_sentences": 3,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "The hammer blows of the American attack started what turned into a decade of insurgency.",
+        "start_source": 17.19,
+        "end_source": 22.93,
+        "matching_cue_ids": [
+          0
+        ],
+        "text_similarity": 0.4138,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "The first shots of that war were fired here,",
+        "start_source": 23.03,
+        "end_source": 25.05,
+        "matching_cue_ids": [
+          0
+        ],
+        "text_similarity": 0.6615,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "just a few kilometers into the Iraqi desert.",
+        "start_source": 25.51,
+        "end_source": 27.71,
+        "matching_cue_ids": [
+          0
+        ],
+        "text_similarity": 0.6615,
+        "time_overlap": true,
+        "passes": true
+      }
+    ],
+    "context_empty_reason": "No non-target ASR cue remains after the padded mask interval; the public context is intentionally the empty string."
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\3WSQI7aVIgo.mp4",
+    "cue_count": 1
+  },
+  "token_estimate_char_div_4": 0
+}

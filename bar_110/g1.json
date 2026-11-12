@@ -125,7 +125,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -202,7 +203,8 @@
     "reordering the income groups",
     "omitting intermediate groups"
    ],
-   "evidence": "The labeled endpoint bars encode the comparison. All nine ordered bars are visible."
+   "evidence": "The labeled endpoint bars encode the comparison. All nine ordered bars are visible.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -237,16 +239,24 @@
  "review_flags": [
   "manual_specific_fix_2026-10-22",
   "state_level_completeness_r1_2026-10-22",
-  "merged_U2_U3_2026_10_27"
+  "merged_U2_U3_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null,
+ "status": "approved",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "sequence_context": "Across this sequence, household income inequality places Dewi's family far above Putri's, translates into unequal access to clean water, and affects a broader low-income population than the poorest decile alone.",
  "related_clips": [
   "bar_110",
   "bar_111",
   "bar_112"
  ],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

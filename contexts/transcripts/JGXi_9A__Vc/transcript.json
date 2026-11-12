@@ -1,0 +1,1035 @@
+{
+  "video_id": "JGXi_9A__Vc",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\JGXi_9A__Vc.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 441.609,
+  "duration_after_vad_seconds": 417.344,
+  "cue_count": 113,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.24,
+      "end": 4.74,
+      "text": "Planet Earth is the home of every life form known to us in the universe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 1,
+      "start": 4.74,
+      "end": 8.74,
+      "text": "Its age is about a third of the age of the universe and,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 2,
+      "start": 8.74,
+      "end": 10.74,
+      "text": "admit it, it is a thing of beauty.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 3,
+      "start": 11.74,
+      "end": 15.74,
+      "text": "A slightly squashed sphere with a heavy metal core and a lighter surface crust",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 4,
+      "start": 15.74,
+      "end": 18.74,
+      "text": "wrapped in a thin sliver of sweet air to breathe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 5,
+      "start": 18.74,
+      "end": 22.74,
+      "text": "With vast oceans, fertile plains, magnificent mountains,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 6,
+      "start": 22.74,
+      "end": 25.74,
+      "text": "freshwater rivers, streams, lakes and aquifers,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 7,
+      "start": 25.74,
+      "end": 29.74,
+      "text": "orbiting a star which warms us and gives us energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.155849,
+      "no_speech_prob": 0.004749
+    },
+    {
+      "index": 8,
+      "start": 30.24,
+      "end": 34.24,
+      "text": "But how did our home come into existence and what's it made of?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 9,
+      "start": 34.24,
+      "end": 45.28,
+      "text": "4.6 billion years ago, Earth was created from the remnants of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 10,
+      "start": 45.28,
+      "end": 49.28,
+      "text": "dead stars that collected in a giant dirty gas cloud.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 11,
+      "start": 49.28,
+      "end": 53.28,
+      "text": "The gas cloud became denser in its center and formed an accretion disk.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 12,
+      "start": 53.28,
+      "end": 58.28,
+      "text": "Small particles started clumping together and building larger and larger objects",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 13,
+      "start": 58.28,
+      "end": 61.28,
+      "text": "until they formed the objects we call planets today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 14,
+      "start": 61.28,
+      "end": 66.28,
+      "text": "This process took 10 to 20 million years and is still not very well understood.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085938,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 15,
+      "start": 66.28,
+      "end": 70.28,
+      "text": "At about this time when the solar system was young and chaotic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 16,
+      "start": 70.28,
+      "end": 74.28,
+      "text": "a giant object about as big as Mars collided with our home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 17,
+      "start": 74.28,
+      "end": 78.28,
+      "text": "The impact was violent and if the object had been more massive,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 18,
+      "start": 78.28,
+      "end": 80.28,
+      "text": "it might have destroyed Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 19,
+      "start": 80.28,
+      "end": 84.28,
+      "text": "Material from Earth was smashed out into orbit and formed the moon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 20,
+      "start": 84.28,
+      "end": 88.28,
+      "text": "which is the biggest satellite in relation to its planet in the solar system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 21,
+      "start": 88.28,
+      "end": 93.28,
+      "text": "At this time, Earth was a hot hell, constantly being hit by asteroids",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 22,
+      "start": 93.28,
+      "end": 95.28,
+      "text": "with seas of lava and a toxic atmosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061591,
+      "no_speech_prob": 0.000301
+    },
+    {
+      "index": 23,
+      "start": 95.28,
+      "end": 98.28,
+      "text": "But something was about to change drastically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 24,
+      "start": 98.28,
+      "end": 100.28,
+      "text": "Earth cooled down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 25,
+      "start": 100.28,
+      "end": 103.28,
+      "text": "Water from the inside of the Earth wandered to the surface",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 26,
+      "start": 103.28,
+      "end": 107.28,
+      "text": "and rained down on Earth only to vaporize again and become clouds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 27,
+      "start": 107.28,
+      "end": 111.28,
+      "text": "Millions of asteroids brought more and more water to our planet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 28,
+      "start": 111.28,
+      "end": 116.28,
+      "text": "All the water on Earth has about this volume compared to Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 29,
+      "start": 116.28,
+      "end": 121.28,
+      "text": "Today, the surface of Earth is 71% water and 29% land.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060938,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 30,
+      "start": 122.28,
+      "end": 127.28,
+      "text": "97.5% is saline water while only 2.5% is freshwater.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 31,
+      "start": 127.28,
+      "end": 133.28,
+      "text": "The freshwater is 69% ice and snow, 30% are ground waters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 32,
+      "start": 133.28,
+      "end": 137.28,
+      "text": "and only about 1% make up the remaining ground waters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 33,
+      "start": 137.28,
+      "end": 140.28,
+      "text": "But even this small part is mostly frozen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 34,
+      "start": 140.28,
+      "end": 143.28,
+      "text": "Only a tiny part of our water is actually lakes and rivers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 35,
+      "start": 143.28,
+      "end": 147.28,
+      "text": "and an even tinier part is bound in living things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072483,
+      "no_speech_prob": 0.028854
+    },
+    {
+      "index": 36,
+      "start": 147.28,
+      "end": 152.28,
+      "text": "So, gradually the Earth cooled down and the surface formed a thin crust.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 37,
+      "start": 152.28,
+      "end": 155.28,
+      "text": "But inside the Earth, hot rock continued to swirl about,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 38,
+      "start": 155.28,
+      "end": 158.28,
+      "text": "moving the crust from below and breaking it apart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 39,
+      "start": 158.28,
+      "end": 163.28,
+      "text": "This process is called plate tectonics and is happening right now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 40,
+      "start": 163.28,
+      "end": 166.28,
+      "text": "We'll make a whole video about it in the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 41,
+      "start": 166.28,
+      "end": 168.28,
+      "text": "For now, let's just say that the crust of Earth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 42,
+      "start": 168.28,
+      "end": 171.28,
+      "text": "consists of separate giant plates that move around.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 43,
+      "start": 171.28,
+      "end": 174.28,
+      "text": "As they meet, they crumble and create mighty mountains.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073054,
+      "no_speech_prob": 0.000386
+    },
+    {
+      "index": 44,
+      "start": 174.28,
+      "end": 179.28,
+      "text": "Or violently plunge back down deeper into Earth, creating deep trenches.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 45,
+      "start": 179.28,
+      "end": 182.28,
+      "text": "That's the way the highest place on Earth was formed, Mount Everest,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 46,
+      "start": 182.28,
+      "end": 185.28,
+      "text": "and the deepest, the Mariana Trench.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 47,
+      "start": 185.28,
+      "end": 189.28,
+      "text": "From our perspective, Earth's mountains and trenches are mighty indeed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 48,
+      "start": 189.28,
+      "end": 192.28,
+      "text": "but when you look at the Earth in cross-section,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 49,
+      "start": 192.28,
+      "end": 194.28,
+      "text": "you can see how tiny they actually are.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 50,
+      "start": 194.28,
+      "end": 198.28,
+      "text": "The part we stand on is the crust, which is about 50 km thick,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 51,
+      "start": 198.28,
+      "end": 201.28,
+      "text": "though it can vary between 5 and 70 km.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088007,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 52,
+      "start": 201.28,
+      "end": 206.28,
+      "text": "By the way, the deepest hole ever drilled by man is 12.262 km deep.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 53,
+      "start": 206.28,
+      "end": 208.28,
+      "text": "After the crust comes the mantle.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 54,
+      "start": 208.28,
+      "end": 213.28,
+      "text": "It's a silicate rocky shell and about 2,900 km thick.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 55,
+      "start": 213.28,
+      "end": 216.28,
+      "text": "The mantle consists of the upper mantle and the lower mantle.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 56,
+      "start": 216.28,
+      "end": 219.28,
+      "text": "The upper mantle has different regions too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 57,
+      "start": 219.28,
+      "end": 223.28,
+      "text": "Its upper part, which is viscous and carries the crust, is called the lithosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 58,
+      "start": 223.28,
+      "end": 226.28,
+      "text": "After that, there comes the esthenosphere,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 59,
+      "start": 226.28,
+      "end": 229.28,
+      "text": "which consists of less mobile, mostly solid material.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060381,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 60,
+      "start": 230.28,
+      "end": 233.28,
+      "text": "The lower mantle reaches deep down to the outer core of Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 61,
+      "start": 233.28,
+      "end": 240.28,
+      "text": "Earth's outer core is a liquid layer of iron and nickel about 2,266 km thick.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 62,
+      "start": 240.28,
+      "end": 245.28,
+      "text": "Temperatures vary from 4,000 °C to 5,700 °C,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 63,
+      "start": 245.28,
+      "end": 248.28,
+      "text": "and in the center is the inner core.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 64,
+      "start": 248.28,
+      "end": 252.28,
+      "text": "It's mostly solid, a ball made of an iron-nickel alloy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 65,
+      "start": 252.28,
+      "end": 255.28,
+      "text": "with a radius of about 1,200 km,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08251,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 66,
+      "start": 255.28,
+      "end": 257.28,
+      "text": "70% the size of the Moon,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 67,
+      "start": 257.28,
+      "end": 260.28,
+      "text": "and about the temperature of the surface of the Sun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 68,
+      "start": 260.28,
+      "end": 265.28,
+      "text": "It is slowly growing at an estimated rate of about 1 mm per year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 69,
+      "start": 265.28,
+      "end": 267.28,
+      "text": "Now for some perspective.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 70,
+      "start": 267.28,
+      "end": 273.28,
+      "text": "This small layer of crystallized milk products of former molten mantle is where we live.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 71,
+      "start": 273.28,
+      "end": 276.28,
+      "text": "Then there's Earth's magnetic field.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 72,
+      "start": 276.28,
+      "end": 279.28,
+      "text": "It's an invisible phenomenon that diverts high-energy particles",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 73,
+      "start": 279.28,
+      "end": 281.28,
+      "text": "coming from the Sun and other sources,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081725,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 74,
+      "start": 281.28,
+      "end": 286.28,
+      "text": "allowing for a stable environment with comparatively little radiation impact on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 75,
+      "start": 286.28,
+      "end": 288.28,
+      "text": "But why is it there?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 76,
+      "start": 288.28,
+      "end": 291.28,
+      "text": "Actually, we don't really know a terrible lot about that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 77,
+      "start": 291.28,
+      "end": 294.28,
+      "text": "We know it has something to do with the core of the Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 78,
+      "start": 294.28,
+      "end": 299.28,
+      "text": "Inside this metal sphere, large electrical currents flow in complicated patterns.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 79,
+      "start": 299.28,
+      "end": 305.28,
+      "text": "They cause a magnetic field that sort of stabilizes itself according to the laws of electrodynamics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 80,
+      "start": 305.28,
+      "end": 308.28,
+      "text": "This entire system is called the dynamo.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038504,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 81,
+      "start": 308.28,
+      "end": 312.28,
+      "text": "But don't let us fool you into thinking we have it all figured out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 82,
+      "start": 312.28,
+      "end": 314.28,
+      "text": "Speaking of breathtaking information,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 83,
+      "start": 314.28,
+      "end": 317.28,
+      "text": "what about the airy stuff that surrounds us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 84,
+      "start": 317.28,
+      "end": 322.28,
+      "text": "By volume, dry air consists mostly of nitrogen, oxygen,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 85,
+      "start": 322.28,
+      "end": 328.28,
+      "text": "argon, carbon, a variable amount of water vapor, and small amounts of other gases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 86,
+      "start": 328.28,
+      "end": 331.28,
+      "text": "Humans are very dependent on the lowest layer of the atmosphere,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 87,
+      "start": 331.28,
+      "end": 334.28,
+      "text": "the troposphere, where the weather is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 88,
+      "start": 334.28,
+      "end": 336.28,
+      "text": "It's 12 km thick on average.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083859,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 89,
+      "start": 336.28,
+      "end": 340.28,
+      "text": "Above that is the stratosphere, which is where the ozone layer protects us",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 90,
+      "start": 340.28,
+      "end": 342.28,
+      "text": "from the Sun's most aggressive type of light.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 91,
+      "start": 342.28,
+      "end": 346.28,
+      "text": "Above that is the mesosphere, the coolest place on Earth,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 92,
+      "start": 346.28,
+      "end": 350.28,
+      "text": "with an average temperature around minus 85 °C.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 93,
+      "start": 350.28,
+      "end": 354.28,
+      "text": "At about 80 km up, the thermosphere starts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 94,
+      "start": 354.28,
+      "end": 357.28,
+      "text": "The transition to space is a fluent one without clear borders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 95,
+      "start": 357.28,
+      "end": 360.28,
+      "text": "but humans decided that space starts here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 96,
+      "start": 360.28,
+      "end": 364.28,
+      "text": "At about 100 km, Earth stops and space begins,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073206,
+      "no_speech_prob": 0.000111
+    },
+    {
+      "index": 97,
+      "start": 364.28,
+      "end": 366.28,
+      "text": "and the atmosphere extends a bit further.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 98,
+      "start": 366.28,
+      "end": 372.28,
+      "text": "In this region we find the ionosphere, the aurora borealis, and the ISS.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 99,
+      "start": 372.28,
+      "end": 378.28,
+      "text": "And the outermost layer is the exosphere, stretching up to 10,000 km.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 100,
+      "start": 378.28,
+      "end": 382.28,
+      "text": "It merges fluently with outer space, where there's no atmosphere at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 101,
+      "start": 382.28,
+      "end": 385.28,
+      "text": "The atoms and molecules in this area are so far apart",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 102,
+      "start": 385.28,
+      "end": 389.28,
+      "text": "that they can travel hundreds of kilometers without colliding with each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078814,
+      "no_speech_prob": 0.001388
+    },
+    {
+      "index": 103,
+      "start": 389.28,
+      "end": 394.28,
+      "text": "OK, humans in their present form have only been around for 200,000 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 104,
+      "start": 394.28,
+      "end": 398.28,
+      "text": "That's 0.004% of Earth's history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 105,
+      "start": 398.28,
+      "end": 400.28,
+      "text": "Not long really.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 106,
+      "start": 400.28,
+      "end": 405.28,
+      "text": "And here we are now, living in a thin moist layer on a small wet rock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 107,
+      "start": 405.28,
+      "end": 407.28,
+      "text": "We call this rock Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 108,
+      "start": 407.28,
+      "end": 410.28,
+      "text": "It is the product of the Universe's deepest workings,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 109,
+      "start": 410.28,
+      "end": 414.28,
+      "text": "the result of a constant process of creation and destruction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 110,
+      "start": 414.28,
+      "end": 417.28,
+      "text": "Happening all over the Universe all the time,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09035,
+      "no_speech_prob": 0.001367
+    },
+    {
+      "index": 111,
+      "start": 417.28,
+      "end": 422.28,
+      "text": "helped by chance, the laws of the Universe, and random events.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107422,
+      "no_speech_prob": 0.084961
+    },
+    {
+      "index": 112,
+      "start": 422.28,
+      "end": 424.28,
+      "text": "We are really lucky.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107422,
+      "no_speech_prob": 0.084961
+    }
+  ],
+  "created_at": "2026-11-12T19:13:24+0800"
+}

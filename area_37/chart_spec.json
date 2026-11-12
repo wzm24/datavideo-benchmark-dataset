@@ -1,11 +1,11 @@
 {
  "clip_id": "area_37",
  "family": "area",
- "sub_type": "bubble",
+ "sub_type": "single_value_callout",
  "orientation": "cartesian",
  "series_count": 1,
  "has_reference_line": false,
- "panel_count": 0,
+ "panel_count": 1,
  "has_axis": false,
  "has_legend": null,
  "has_value_labels": null,
@@ -17,5 +17,9 @@
  ],
  "confidence": "high",
  "needs_review": false,
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "value_label",
+ "entity_count": 1,
+ "batch_status": "approved"
 }

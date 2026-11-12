@@ -1,0 +1,810 @@
+{
+  "clip_id": "area_46",
+  "family": "area",
+  "video_id": "ubKBuoK30j0",
+  "source_url": "https://www.youtube.com/watch?v=ubKBuoK30j0",
+  "source_title": "How do Americans view economic inequality?",
+  "target_window_source": {
+    "start": 86.0,
+    "end": 101.0
+  },
+  "target_mask_interval": {
+    "start": 84.5,
+    "end": 102.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "masked_cue_ids": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 7.6,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 1,
+      "start": 7.6,
+      "end": 9.6,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 2,
+      "start": 9.6,
+      "end": 12.6,
+      "text": "So what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 3,
+      "start": 12.6,
+      "end": 20.6,
+      "text": "In this episode, Ruthie Gielnik and Rakesh Koucher help explain trust in the U.S. economic system and views of income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 4,
+      "start": 20.6,
+      "end": 23.6,
+      "text": "Economic inequality is kind of a complex topic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 5,
+      "start": 23.6,
+      "end": 26.6,
+      "text": "How would you define economic inequality?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 6,
+      "start": 27.1,
+      "end": 35.1,
+      "text": "One way to think of it is as the gap in resources that are available to America's richer and poorer families",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 7,
+      "start": 35.1,
+      "end": 39.6,
+      "text": "and whether or not they have the same opportunity for moving up the economic ladder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 8,
+      "start": 39.6,
+      "end": 45.1,
+      "text": "Suppose that I rank U.S. families by their income from highest to lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 9,
+      "start": 45.1,
+      "end": 50.6,
+      "text": "In 2019, the incomes of families who ranked the 10th highest on this list",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 10,
+      "start": 50.6,
+      "end": 56.1,
+      "text": "was 13 times as much as the income of families who ranked the 10th lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 11,
+      "start": 56.1,
+      "end": 60.6,
+      "text": "This ratio has also been rising steadily since about 1980.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 12,
+      "start": 60.6,
+      "end": 64.6,
+      "text": "This wealth inequality is much more extreme than income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 13,
+      "start": 64.6,
+      "end": 71.6,
+      "text": "And one reason for that is wealth is something you accumulate over time and you pass it on to your descendants.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 14,
+      "start": 71.6,
+      "end": 76.6,
+      "text": "The increase in inequality certainly has not gone unnoticed by many Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 15,
+      "start": 76.6,
+      "end": 81.6,
+      "text": "When we asked about this, most Americans said that there was too much economic inequality in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    }
+  ],
+  "context_after": [
+    {
+      "index": 21,
+      "start": 107.6,
+      "end": 114.6,
+      "text": "About seven in 10 Americans said that they think the economic system is unfair and generally favors powerful special interests.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 22,
+      "start": 114.6,
+      "end": 119.6,
+      "text": "And like many things in our lives today, there's a pretty big partisan divide on this question",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 23,
+      "start": 119.6,
+      "end": 124.6,
+      "text": "with Republicans being more likely than Democrats to say that the system is generally fair.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 24,
+      "start": 124.6,
+      "end": 130.6,
+      "text": "So this level of awareness is interesting because of the factors that contribute to inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 25,
+      "start": 130.6,
+      "end": 136.6,
+      "text": "People may not be aware of the role played by say globalization or technological change,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 26,
+      "start": 136.6,
+      "end": 140.1,
+      "text": "but there are some ground level realities they seem aware of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 27,
+      "start": 140.1,
+      "end": 142.6,
+      "text": "For example, do they have good schooling?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 28,
+      "start": 142.6,
+      "end": 144.6,
+      "text": "What is the state of crime in their neighborhood?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 29,
+      "start": 144.6,
+      "end": 146.1,
+      "text": "Access to health care.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 30,
+      "start": 146.1,
+      "end": 151.1,
+      "text": "All these things affect economic mobility and so does discrimination in the labor market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 31,
+      "start": 151.1,
+      "end": 156.1,
+      "text": "And government policies also matter, especially policies that redistribute resources",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 32,
+      "start": 156.1,
+      "end": 161.1,
+      "text": "from those at the top of the income ladder to those at the bottom of the income ladder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 33,
+      "start": 161.1,
+      "end": 164.6,
+      "text": "We asked Americans who say there's too much economic inequality,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 34,
+      "start": 164.6,
+      "end": 168.6,
+      "text": "how much responsibility different groups should have in reducing economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 35,
+      "start": 168.6,
+      "end": 174.6,
+      "text": "And most people said the federal government and big businesses and corporations should have a lot of responsibility.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 36,
+      "start": 174.6,
+      "end": 181.1,
+      "text": "Yes, most of that group says the federal government should have a lot of responsibility in reducing economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 37,
+      "start": 181.1,
+      "end": 184.1,
+      "text": "But we also know that trust in the federal government is low.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 38,
+      "start": 184.1,
+      "end": 191.6,
+      "text": "We know that Americans are also very divided when it comes to policies that they think would reduce economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 39,
+      "start": 191.6,
+      "end": 195.6,
+      "text": "And with sort of wide and growing polarization in this country,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 40,
+      "start": 195.6,
+      "end": 201.1,
+      "text": "Americans disagree about what the problems are and they disagree about how to solve those problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 41,
+      "start": 201.1,
+      "end": 204.1,
+      "text": "So while there is high distrust in the federal government,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 42,
+      "start": 204.1,
+      "end": 209.6,
+      "text": "there's still an expectation among many Americans that the federal government should help reduce economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 7.6,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 1,
+      "start": 7.6,
+      "end": 9.6,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 2,
+      "start": 9.6,
+      "end": 12.6,
+      "text": "So what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 3,
+      "start": 12.6,
+      "end": 20.6,
+      "text": "In this episode, Ruthie Gielnik and Rakesh Koucher help explain trust in the U.S. economic system and views of income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 4,
+      "start": 20.6,
+      "end": 23.6,
+      "text": "Economic inequality is kind of a complex topic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 5,
+      "start": 23.6,
+      "end": 26.6,
+      "text": "How would you define economic inequality?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.213848,
+      "no_speech_prob": 0.094543
+    },
+    {
+      "index": 6,
+      "start": 27.1,
+      "end": 35.1,
+      "text": "One way to think of it is as the gap in resources that are available to America's richer and poorer families",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 7,
+      "start": 35.1,
+      "end": 39.6,
+      "text": "and whether or not they have the same opportunity for moving up the economic ladder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 8,
+      "start": 39.6,
+      "end": 45.1,
+      "text": "Suppose that I rank U.S. families by their income from highest to lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 9,
+      "start": 45.1,
+      "end": 50.6,
+      "text": "In 2019, the incomes of families who ranked the 10th highest on this list",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 10,
+      "start": 50.6,
+      "end": 56.1,
+      "text": "was 13 times as much as the income of families who ranked the 10th lowest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048633,
+      "no_speech_prob": 0.148315
+    },
+    {
+      "index": 11,
+      "start": 56.1,
+      "end": 60.6,
+      "text": "This ratio has also been rising steadily since about 1980.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 12,
+      "start": 60.6,
+      "end": 64.6,
+      "text": "This wealth inequality is much more extreme than income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 13,
+      "start": 64.6,
+      "end": 71.6,
+      "text": "And one reason for that is wealth is something you accumulate over time and you pass it on to your descendants.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 14,
+      "start": 71.6,
+      "end": 76.6,
+      "text": "The increase in inequality certainly has not gone unnoticed by many Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 15,
+      "start": 76.6,
+      "end": 81.6,
+      "text": "When we asked about this, most Americans said that there was too much economic inequality in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064088,
+      "no_speech_prob": 0.000911
+    },
+    {
+      "index": 21,
+      "start": 107.6,
+      "end": 114.6,
+      "text": "About seven in 10 Americans said that they think the economic system is unfair and generally favors powerful special interests.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 22,
+      "start": 114.6,
+      "end": 119.6,
+      "text": "And like many things in our lives today, there's a pretty big partisan divide on this question",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 23,
+      "start": 119.6,
+      "end": 124.6,
+      "text": "with Republicans being more likely than Democrats to say that the system is generally fair.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 24,
+      "start": 124.6,
+      "end": 130.6,
+      "text": "So this level of awareness is interesting because of the factors that contribute to inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 25,
+      "start": 130.6,
+      "end": 136.6,
+      "text": "People may not be aware of the role played by say globalization or technological change,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067656,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 26,
+      "start": 136.6,
+      "end": 140.1,
+      "text": "but there are some ground level realities they seem aware of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 27,
+      "start": 140.1,
+      "end": 142.6,
+      "text": "For example, do they have good schooling?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 28,
+      "start": 142.6,
+      "end": 144.6,
+      "text": "What is the state of crime in their neighborhood?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 29,
+      "start": 144.6,
+      "end": 146.1,
+      "text": "Access to health care.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 30,
+      "start": 146.1,
+      "end": 151.1,
+      "text": "All these things affect economic mobility and so does discrimination in the labor market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 31,
+      "start": 151.1,
+      "end": 156.1,
+      "text": "And government policies also matter, especially policies that redistribute resources",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 32,
+      "start": 156.1,
+      "end": 161.1,
+      "text": "from those at the top of the income ladder to those at the bottom of the income ladder.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08065,
+      "no_speech_prob": 0.001699
+    },
+    {
+      "index": 33,
+      "start": 161.1,
+      "end": 164.6,
+      "text": "We asked Americans who say there's too much economic inequality,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 34,
+      "start": 164.6,
+      "end": 168.6,
+      "text": "how much responsibility different groups should have in reducing economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 35,
+      "start": 168.6,
+      "end": 174.6,
+      "text": "And most people said the federal government and big businesses and corporations should have a lot of responsibility.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 36,
+      "start": 174.6,
+      "end": 181.1,
+      "text": "Yes, most of that group says the federal government should have a lot of responsibility in reducing economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 37,
+      "start": 181.1,
+      "end": 184.1,
+      "text": "But we also know that trust in the federal government is low.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071146,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 38,
+      "start": 184.1,
+      "end": 191.6,
+      "text": "We know that Americans are also very divided when it comes to policies that they think would reduce economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 39,
+      "start": 191.6,
+      "end": 195.6,
+      "text": "And with sort of wide and growing polarization in this country,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 40,
+      "start": 195.6,
+      "end": 201.1,
+      "text": "Americans disagree about what the problems are and they disagree about how to solve those problems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 41,
+      "start": 201.1,
+      "end": 204.1,
+      "text": "So while there is high distrust in the federal government,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    },
+    {
+      "index": 42,
+      "start": 204.1,
+      "end": 209.6,
+      "text": "there's still an expectation among many Americans that the federal government should help reduce economic inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062157,
+      "no_speech_prob": 0.001187
+    }
+  ],
+  "context_text_chronological": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy. Yet today, trust is declining. So what impact does this have on American society? In this episode, Ruthie Gielnik and Rakesh Koucher help explain trust in the U.S. economic system and views of income inequality. Economic inequality is kind of a complex topic. How would you define economic inequality? One way to think of it is as the gap in resources that are available to America's richer and poorer families and whether or not they have the same opportunity for moving up the economic ladder. Suppose that I rank U.S. families by their income from highest to lowest. In 2019, the incomes of families who ranked the 10th highest on this list was 13 times as much as the income of families who ranked the 10th lowest. This ratio has also been rising steadily since about 1980. This wealth inequality is much more extreme than income inequality. And one reason for that is wealth is something you accumulate over time and you pass it on to your descendants. The increase in inequality certainly has not gone unnoticed by many Americans. When we asked about this, most Americans said that there was too much economic inequality in the country. About seven in 10 Americans said that they think the economic system is unfair and generally favors powerful special interests. And like many things in our lives today, there's a pretty big partisan divide on this question with Republicans being more likely than Democrats to say that the system is generally fair. So this level of awareness is interesting because of the factors that contribute to inequality. People may not be aware of the role played by say globalization or technological change, but there are some ground level realities they seem aware of. For example, do they have good schooling? What is the state of crime in their neighborhood? Access to health care. All these things affect economic mobility and so does discrimination in the labor market. And government policies also matter, especially policies that redistribute resources from those at the top of the income ladder to those at the bottom of the income ladder. We asked Americans who say there's too much economic inequality, how much responsibility different groups should have in reducing economic inequality. And most people said the federal government and big businesses and corporations should have a lot of responsibility. Yes, most of that group says the federal government should have a lot of responsibility in reducing economic inequality. But we also know that trust in the federal government is low. We know that Americans are also very divided when it comes to policies that they think would reduce economic inequality. And with sort of wide and growing polarization in this country, Americans disagree about what the problems are and they disagree about how to solve those problems. So while there is high distrust in the federal government, there's still an expectation among many Americans that the federal government should help reduce economic inequality.",
+  "target_text_for_audit": "We also had about a quarter of Americans saying there was the right amount of economic inequality in the country. But you know, perhaps not surprising, a majority of Americans said that the economy was helping people who are wealthy and hurting people who are poor and in the middle class. And we also had roughly half of Americans saying that the economy was hurting themselves and their families.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "But, you know, perhaps not surprising, a majority of Americans said that the economy was helping people who are wealthy and hurting people who are poor and in the middle class.",
+        "start_source": 86.26,
+        "end_source": 95.02,
+        "matching_cue_ids": [
+          17,
+          18
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "And we also had roughly half of Americans saying that the economy was hurting themselves and their families.",
+        "start_source": 95.56,
+        "end_source": 101.48,
+        "matching_cue_ids": [
+          18,
+          19
+        ],
+        "text_similarity": 0.7926,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\ubKBuoK30j0.mp4",
+    "cue_count": 43
+  },
+  "token_estimate_char_div_4": 774
+}

@@ -1,0 +1,194 @@
+{
+ "clip_id": "area_12",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Trace the battle deaths per year per million people from 1950 through the end of the series to determine the overall change.",
+ "chart_structure": {
+  "clip_id": "area_12",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Trace battle deaths per year per million people from 1950 through the end of the series to determine the overall change.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required area marks are present in the chart: battle deaths.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "battle deaths",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "change",
+   "claim": "Battle deaths per year per million people fell from 194.9 in 1950 to 2.5 at the end of the series, an overall decrease.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "1950",
+     "point_order": "1",
+     "field": "value",
+     "value": "194.9",
+     "unit": "deaths_per_million",
+     "role": "area"
+    },
+    {
+     "row_id": "r65",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people",
+     "entity": "battle deaths",
+     "series": "",
+     "x": "",
+     "point_order": "65",
+     "field": "value",
+     "value": "2.5",
+     "unit": "deaths_per_million",
+     "role": "area"
+    }
+   ],
+   "computation": "end_value - start_value = 2.5 - 194.9 = -192.4 deaths_per_million",
+   "accept": [
+    "Overall decrease from 1950 to the end of the series",
+    "Start value 194.9 deaths per million in 1950",
+    "End value 2.5 deaths per million at the final point"
+   ],
+   "reject": [
+    "Overall increase",
+    "No change",
+    "End value equals start value"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "The series reaches a local peak of 86.9 deaths per million around point_order 25 (printed x 1975 anchor at r26 is 74.3).",
+  "The minimum sampled value is 0.8 deaths per million at r63.",
+  "The series is volatile with multiple rises and falls between 1950 and the end."
+ ],
+ "unsupported_to_avoid": [
+  "Claiming a monotonic decline throughout the entire period.",
+  "Claiming the final value is the minimum of the series.",
+  "Attributing causes or explanations for the decline.",
+  "Stating exact calendar years for rows where x is blank."
+ ],
+ "review_notes": [
+  "Only r1 and r65 are used as basis for the overall change unit; intermediate rows support optional context but are not required for the intent.",
+  "The x field is blank for most rows; avoid asserting specific years beyond the printed anchors 1950, 1975, and 2000."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 65,
+  "table_sha256": "2f618acaab37e1d7d2e859d2f5dea9b00a7d501e21b9e7cbcd3893acab300291"
+ },
+ "status": "approved",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4433,
+   "completion_tokens": 528,
+   "total_tokens": 4961,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4049
+  },
+  {
+   "prompt_tokens": 4677,
+   "completion_tokens": 52,
+   "total_tokens": 4729,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4677
+  }
+ ],
+ "sec": 4.1,
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

@@ -61,7 +61,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -95,7 +96,8 @@
     "reversing the thresholds or rates",
     "treating the 2% and 3% tier rates as total tax rates on all wealth"
    ],
-   "evidence": "A single wealth-scale bar shows the $50 million and $1 billion thresholds with the corresponding 0%, 2%, and 3% rate annotations."
+   "evidence": "A single wealth-scale bar shows the $50 million and $1 billion thresholds with the corresponding 0%, 2%, and 3% rate annotations.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -119,7 +121,8 @@
     "$49 billion or $49 thousand",
     "treating $49 million as the tax rate"
    ],
-   "evidence": "In the final chart state, a white comparison swatch and the text $49 million appear beside the $2 billion scale; narration also states the amount."
+   "evidence": "In the final chart state, a white comparison swatch and the text $49 million appear beside the $2 billion scale; narration also states the amount.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -155,11 +158,19 @@
  "review_flags": [
   "legacy_intent_migrated",
   "custom_threshold_diagram",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "manual_review_draft_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-22",
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

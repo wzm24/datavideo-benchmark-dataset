@@ -1,11 +1,11 @@
 {
  "clip_id": "area_39",
  "family": "area",
- "sub_type": "bubble",
+ "sub_type": "proportional_circle_area",
  "orientation": "cartesian",
  "series_count": 1,
  "has_reference_line": false,
- "panel_count": 0,
+ "panel_count": 1,
  "has_axis": false,
  "has_legend": null,
  "has_value_labels": null,
@@ -17,5 +17,10 @@
  ],
  "confidence": "high",
  "needs_review": false,
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "area",
+ "size_mapping": "circle radius proportional to square root of amount",
+ "entity_count": 3,
+ "batch_status": "approved"
 }

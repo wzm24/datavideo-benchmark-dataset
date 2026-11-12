@@ -1,0 +1,2826 @@
+{
+  "clip_id": "donut_12",
+  "family": "donut",
+  "video_id": "EYPs-ya_GDA",
+  "source_url": "https://www.youtube.com/watch?v=EYPs-ya_GDA",
+  "source_title": "Is Amazon Too Big?",
+  "target_window_source": {
+    "start": 525.0,
+    "end": 531.0
+  },
+  "target_mask_interval": {
+    "start": 523.5,
+    "end": 532.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    89,
+    90
+  ],
+  "masked_cue_ids": [
+    89,
+    90,
+    91
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.84,
+      "text": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20%",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 1,
+      "start": 5.84,
+      "end": 11.68,
+      "text": "off the annual subscription. Elizabeth Warren wants to break up Amazon, Facebook,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 2,
+      "start": 11.68,
+      "end": 18.56,
+      "text": "Google, and Apple. The argument goes roughly like this. Tech companies have gotten really big,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 3,
+      "start": 18.56,
+      "end": 24.72,
+      "text": "really fast, and they've abused that power by favoring their own products over their competitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 4,
+      "start": 24.72,
+      "end": 29.44,
+      "text": "Therefore, once a company reaches a certain size, it shouldn't be allowed to own both the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 5,
+      "start": 29.44,
+      "end": 35.6,
+      "text": "products and the platform on which they're sold. In English, Amazon can't sell the Kindle on its",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 6,
+      "start": 35.6,
+      "end": 43.28,
+      "text": "own website, and Apple has to pick between owning music and iMovie and news or the App Store itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 7,
+      "start": 43.28,
+      "end": 50.32,
+      "text": "Now, whether Warren is 100% serious or mostly just generating publicity for her presidential campaign,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 8,
+      "start": 50.32,
+      "end": 57.2,
+      "text": "she isn't alone. This is only the latest part of a much bigger movement. We're at an inflection",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 9,
+      "start": 57.2,
+      "end": 63.92,
+      "text": "point in history, where new, fast Silicon Valley is crashing into slow, old government.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 10,
+      "start": 63.92,
+      "end": 69.92,
+      "text": "Everywhere, all at once, the power and influence of big tech companies are being questioned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 11,
+      "start": 69.92,
+      "end": 75.76,
+      "text": "Google was recently fined $1.7 billion in Europe for being anti-competitive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 12,
+      "start": 75.76,
+      "end": 82.56,
+      "text": "Sprint is trying to merge with T-Mobile, despite significant pushback. Facebook has, well, continued",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 13,
+      "start": 82.56,
+      "end": 88.64,
+      "text": "to be Facebook, and Spotify has launched an all-out attack against Apple for what it claims",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 14,
+      "start": 88.64,
+      "end": 96.88,
+      "text": "is unfair treatment. So who's right, Apple or Spotify, Google or the EU, Facebook or literally",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 15,
+      "start": 96.88,
+      "end": 102.96,
+      "text": "everyone else? First, we need to understand why these companies have such a huge advantage,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 16,
+      "start": 102.96,
+      "end": 108.96,
+      "text": "and how, in just a few years, Amazon went from being synonymous with cheap, convenient shopping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 17,
+      "start": 109.04,
+      "end": 113.28,
+      "text": "to a scary, political, nebulous, Walmart-like mega-corporation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 18,
+      "start": 116.0,
+      "end": 121.12,
+      "text": "Let's say you want to start a grocery store. Maybe you know a little bit about merchandising.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 19,
+      "start": 121.12,
+      "end": 126.32,
+      "text": "Maybe you come from a long line of grocers, so selling produce is just in your blood.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 20,
+      "start": 126.32,
+      "end": 131.6,
+      "text": "The other kids were playing with fire trucks and trains, but you, you were daydreaming about the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 21,
+      "start": 131.6,
+      "end": 138.64,
+      "text": "retail implications of the angle curve. Anyway, the bad news is that the grocery business sucks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 22,
+      "start": 138.64,
+      "end": 143.76,
+      "text": "Like, famously so. If you're lucky, you might manage a profit margin of 3%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 23,
+      "start": 144.64,
+      "end": 150.24,
+      "text": "Unless you have some revolutionary way of arranging bananas on the shelf, you're just one of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 24,
+      "start": 150.24,
+      "end": 156.16,
+      "text": "thousand stores, which customers have no special loyalty towards. You don't see a lot of proud",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 25,
+      "start": 156.16,
+      "end": 162.32,
+      "text": "mother of a Safeway shopper, bumper stickers. But, there is money to be made at the very,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 26,
+      "start": 162.32,
+      "end": 168.96,
+      "text": "very top. If you can become a Kroger, or a Whole Foods, or a Trader Joe's, well, that's a different",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 27,
+      "start": 168.96,
+      "end": 174.88,
+      "text": "story. The trick is surviving long enough that you sell lots of things. So you can A, turn around to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 28,
+      "start": 174.88,
+      "end": 180.64,
+      "text": "the companies making those things, and say, hey, we like to buy 3,000 stores worth of your bananas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 29,
+      "start": 180.64,
+      "end": 186.56,
+      "text": "Can you make us a deal? And B, cut out the middleman by creating your own generic brand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 30,
+      "start": 186.56,
+      "end": 192.16,
+      "text": "With size comes leverage, which lets you buy cheaper and ultimately make more money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 31,
+      "start": 192.16,
+      "end": 198.64,
+      "text": "But again, the problem is getting there. Competing with established companies in any industry usually",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 32,
+      "start": 198.64,
+      "end": 204.88,
+      "text": "means losing a lot of money for a long time with only the hope of making it back in the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 33,
+      "start": 204.88,
+      "end": 210.72,
+      "text": "But don't give up on your dream quite yet. Here's an idea. Forget groceries for now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 34,
+      "start": 210.72,
+      "end": 215.44,
+      "text": "Let's just find some way of making money. Like, I don't know, selling cloud storage to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 35,
+      "start": 215.44,
+      "end": 220.96,
+      "text": "enterprise customers. It's a good business, no one else is doing it very well, and in a few years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 36,
+      "start": 220.96,
+      "end": 225.52,
+      "text": "you'll have so much money, you can come back to your dream of starting a grocery store.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 37,
+      "start": 225.52,
+      "end": 230.56,
+      "text": "What does cloud storage have to do with selling grapes? Is that really the most exciting thing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 38,
+      "start": 230.56,
+      "end": 237.12,
+      "text": "you could be doing? Pretty much nothing, and probably not. But who cares? Money is money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 39,
+      "start": 237.12,
+      "end": 242.08,
+      "text": "and as long as it makes more than the grocery store loses, you can afford to slowly grow it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 40,
+      "start": 242.08,
+      "end": 247.12,
+      "text": "into an empire, even while it isn't yet profitable. This, if you haven't noticed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 41,
+      "start": 247.12,
+      "end": 253.68,
+      "text": "is my very crude way of describing Amazon. It started as a book company, but Bezos had no",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 42,
+      "start": 253.68,
+      "end": 259.84,
+      "text": "special love for books. That was always just a good way of generating capital for his real dream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 43,
+      "start": 259.84,
+      "end": 266.8,
+      "text": "Today, books are a footnote. The new distraction is called Amazon Web Services, AWS. If you're",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 44,
+      "start": 266.8,
+      "end": 271.28,
+      "text": "already familiar, bear with me for a sec. A few videos back, I said,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 45,
+      "start": 271.28,
+      "end": 277.6,
+      "text": "A thousand downloads doesn't cost any more than one. Scale is nearly unlimited.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 46,
+      "start": 277.6,
+      "end": 282.64,
+      "text": "My point was, it's a whole lot easier to sell a thousand note-taking apps than it is a thousand",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 47,
+      "start": 282.64,
+      "end": 289.04,
+      "text": "actual notebooks, because software is made of bits, and bits don't cost money. Which is mostly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 48,
+      "start": 289.04,
+      "end": 294.96,
+      "text": "true in that context, but not totally accurate in practice. Consider the scale at which some",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 49,
+      "start": 294.96,
+      "end": 300.4,
+      "text": "of these companies operate. Out of all the bandwidth from every phone and every computer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 50,
+      "start": 300.4,
+      "end": 309.2,
+      "text": "in every country, 15% is just people watching Netflix. 15%. Even Uber, which in theory just",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 51,
+      "start": 309.2,
+      "end": 314.8,
+      "text": "connects the nearest driver to the nearest rider, stores over 100 petabytes of data,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 52,
+      "start": 314.8,
+      "end": 321.36,
+      "text": "or 100,000 gigabytes. It also fluctuates dramatically. Every startup dreams of hitting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 53,
+      "start": 321.36,
+      "end": 325.68,
+      "text": "the front page of Reddit, unless you're the engineer, in which case you have a heart attack",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 54,
+      "start": 325.68,
+      "end": 331.44,
+      "text": "trying to keep up with such a huge spike in views. Companies, and especially startups with limited",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 55,
+      "start": 331.44,
+      "end": 337.76,
+      "text": "budgets, have a tough choice. Either buy too much capacity or save money and hope they don't get too",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 56,
+      "start": 337.76,
+      "end": 344.16,
+      "text": "popular. At least until AWS. Amazon realized it could solve this problem with a service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 57,
+      "start": 344.16,
+      "end": 349.84,
+      "text": "only pay for what you actually use. If your business suddenly explodes in popularity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 58,
+      "start": 349.84,
+      "end": 356.0,
+      "text": "no problem, just pay a little more. Turn the handle for more data as you would water or electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 59,
+      "start": 356.0,
+      "end": 361.6,
+      "text": "Amazon takes care of the rest, the same way we outsource building windmills to electric companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 60,
+      "start": 361.6,
+      "end": 367.04,
+      "text": "Now if we look at its total revenue and then divide it by source, it's pretty much what you'd expect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 61,
+      "start": 367.04,
+      "end": 371.92,
+      "text": "Amazon is mostly an online store, and you're probably wondering why we're talking so much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 62,
+      "start": 371.92,
+      "end": 378.48,
+      "text": "about AWS. But what about its income? Where is it actually making a profit? This is where it gets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 63,
+      "start": 378.56,
+      "end": 384.8,
+      "text": "interesting. Now Amazon looks like a cloud storage company with an online retail business on the side.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 64,
+      "start": 384.8,
+      "end": 391.44,
+      "text": "In the fourth quarter of 2018, AWS accounted for 58% of the company's operating income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 65,
+      "start": 391.44,
+      "end": 397.84,
+      "text": "It alone made more money than McDonald's. So yeah, it sells lots of USB cables and bananas,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 66,
+      "start": 397.84,
+      "end": 403.76,
+      "text": "but that's not where the money is. AWS is camouflage. It makes the company look good",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 67,
+      "start": 403.76,
+      "end": 409.44,
+      "text": "overall and conceals how much money it loses. One business subsidizes another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 68,
+      "start": 409.44,
+      "end": 413.6,
+      "text": "And this is where it gets tricky. Because if you're one of the other grocery stores,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 69,
+      "start": 413.6,
+      "end": 417.6,
+      "text": "you're thinking this isn't really fair, how can we compete with someone who doesn't even need to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 70,
+      "start": 417.6,
+      "end": 423.92,
+      "text": "make a profit? Safeway and Publix don't have $25 billion a year cloud storage businesses. When",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 71,
+      "start": 423.92,
+      "end": 429.76,
+      "text": "they sell bananas, they have to like, you know, make money. This is how one after another,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 72,
+      "start": 429.76,
+      "end": 435.84,
+      "text": "Amazon enters and dominates a new industry. It plays by a fundamentally different set of rules.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 73,
+      "start": 435.84,
+      "end": 440.72,
+      "text": "Turns out it's a whole lot easier when you're not super worried about the whole profit thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 74,
+      "start": 440.72,
+      "end": 445.6,
+      "text": "Of course, predatory pricing, when a company lowers its prices to starve out the competition,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 75,
+      "start": 445.6,
+      "end": 450.96,
+      "text": "isn't a new idea. But once they've done so, companies usually raise their prices again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 76,
+      "start": 450.96,
+      "end": 456.8,
+      "text": "That's the whole point. Amazon, on the other hand, has always kept its prices low. It's not",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 77,
+      "start": 456.8,
+      "end": 463.52,
+      "text": "playing the long game. It's playing the long game. Here's its revenue, and here's its profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 78,
+      "start": 463.52,
+      "end": 468.8,
+      "text": "The company touches more money than ever. It just doesn't keep it. Profit has stayed around zero",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 79,
+      "start": 468.8,
+      "end": 474.32,
+      "text": "because it's more interested in growth. That's the loophole. In this essay, researcher Lena Kahn",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 80,
+      "start": 474.32,
+      "end": 479.68,
+      "text": "explains how, since the 70s, antitrust law has used short term prices to determine whether a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 81,
+      "start": 479.68,
+      "end": 485.12,
+      "text": "company is being anti competitive. In other words, sure, Amazon is big, it's dominant, and it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 82,
+      "start": 485.12,
+      "end": 490.56,
+      "text": "killing lots of competitors. But its prices are low, so it flies under the radar. You might be",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 83,
+      "start": 490.56,
+      "end": 496.56,
+      "text": "thinking, so what? If a company uses its size to save you and me money, isn't that a good thing?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 84,
+      "start": 496.56,
+      "end": 501.2,
+      "text": "But when products are subsidized, either by another profitable business like AWS,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 85,
+      "start": 501.2,
+      "end": 505.36,
+      "text": "or venture capitalists burning money for the sake of growth, they don't have to compete",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 86,
+      "start": 505.36,
+      "end": 510.4,
+      "text": "on their own. Products win not because they're the best, but because they're funded by someone,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 87,
+      "start": 510.4,
+      "end": 516.88,
+      "text": "or something unrelated. For example, on iPhone, Apple has the platform advantage. It controls",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069573,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 88,
+      "start": 516.88,
+      "end": 521.28,
+      "text": "which apps are allowed on the App Store and doesn't have to give up 30% of its revenue,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069573,
+      "no_speech_prob": 0.334473
+    }
+  ],
+  "context_after": [
+    {
+      "index": 92,
+      "start": 537.68,
+      "end": 543.12,
+      "text": "Spotify has such tiny margins that giving Apple 30% breaks the entire business model.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 93,
+      "start": 543.12,
+      "end": 546.88,
+      "text": "And even if Apple didn't make a dime from its music or news apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 94,
+      "start": 546.88,
+      "end": 552.32,
+      "text": "it might still offer them just to attract users to the iPhone. Spotify needs to make money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 95,
+      "start": 552.32,
+      "end": 558.0,
+      "text": "but Apple Music just doesn't. Apple's apps, therefore, almost certainly have more users",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 96,
+      "start": 558.0,
+      "end": 562.72,
+      "text": "than they should. Which is not saying they're good or bad, but that some number of people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 97,
+      "start": 562.8,
+      "end": 568.48,
+      "text": "maybe 1, maybe 1 million, use the service only because Apple had an unfair advantage in putting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 98,
+      "start": 568.48,
+      "end": 574.24,
+      "text": "it in front of them. Likewise, Amazon has the platform advantage on its website. At some point,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 99,
+      "start": 574.24,
+      "end": 579.04,
+      "text": "it realized, hey, wait a second, if we have all the data and we control what people see,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 100,
+      "start": 579.04,
+      "end": 584.08,
+      "text": "why on earth are we sending customers to someone else's product? So now it competes with its own",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 101,
+      "start": 584.08,
+      "end": 589.92,
+      "text": "sellers, on everything from batteries to backpacks and keyboards. But wait, how is that different",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 102,
+      "start": 590.0,
+      "end": 594.64,
+      "text": "than any other generic brand? Target has up and up and Walmart great value,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 103,
+      "start": 594.64,
+      "end": 597.6,
+      "text": "but no one's complaining they have an unfair advantage.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 104,
+      "start": 597.6,
+      "end": 602.64,
+      "text": "The difference is lock-in. It's much easier to switch grocery stores than it is between iPhone",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 105,
+      "start": 602.64,
+      "end": 607.84,
+      "text": "and Android. Companies like Facebook will always say, look, you chose to use our service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 106,
+      "start": 607.84,
+      "end": 612.56,
+      "text": "you chose to give us your information, didn't you quit your job, become a lawyer, and read",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 107,
+      "start": 612.56,
+      "end": 618.56,
+      "text": "our 3,000 page terms of service? But that's not really true. We made one unrelated choice,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 108,
+      "start": 618.64,
+      "end": 623.76,
+      "text": "like buying an iPhone or Android, which required that we make a bunch of other choices later on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 109,
+      "start": 623.76,
+      "end": 629.12,
+      "text": "Nobody knows what they're getting into. And this will only happen more as companies get even bigger.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 110,
+      "start": 629.12,
+      "end": 635.76,
+      "text": "Amazon is an extreme example because AWS is really profitable and groceries are really not,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 111,
+      "start": 635.76,
+      "end": 641.92,
+      "text": "but entering new categories with the resources you already have is kind of what a company is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 112,
+      "start": 641.92,
+      "end": 646.96,
+      "text": "You might start by making smartphones, but then use that money to sell refrigerators. Fast forward",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 113,
+      "start": 646.96,
+      "end": 653.04,
+      "text": "a few years and now you sell life insurance and container ships. Samsung is less a brand and more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 114,
+      "start": 653.04,
+      "end": 659.2,
+      "text": "a buy-in-large e-core conglomerate. Like Amazon, it barely makes sense to think of it as a single",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 115,
+      "start": 659.2,
+      "end": 664.88,
+      "text": "unified company. One division sells parts for the iPhone. Another fiercely competes against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 116,
+      "start": 664.88,
+      "end": 670.32,
+      "text": "that very same device. Even Apple is moving in this direction. It may not be in the business",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 117,
+      "start": 670.32,
+      "end": 675.84,
+      "text": "of refrigerators, but you now buy your iPhone with an Apple credit card. Download Apple apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 118,
+      "start": 675.84,
+      "end": 682.0,
+      "text": "back them up on Apple's cloud, and watch Apple branded TV shows. But there's also a benefit",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 119,
+      "start": 682.0,
+      "end": 686.88,
+      "text": "to this integration. One of the best features of the iPhone is that it's all designed by one",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 120,
+      "start": 686.88,
+      "end": 693.92,
+      "text": "company as one coherent product. Because Apple owns both music and iOS, they're easier to use,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 121,
+      "start": 693.92,
+      "end": 699.28,
+      "text": "more convenient, and more powerful together. And because you have no choice but to use Apple's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 122,
+      "start": 699.28,
+      "end": 705.68,
+      "text": "App Store, your phone is more secure and your data more private. Now, of course, you may disagree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 123,
+      "start": 705.68,
+      "end": 710.64,
+      "text": "For some, having more freedom might be worth the trade-off for privacy and security. But that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 124,
+      "start": 710.64,
+      "end": 715.28,
+      "text": "doesn't diminish its value for the rest of us. In other words, breaking up some of these companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 125,
+      "start": 715.28,
+      "end": 720.56,
+      "text": "would actually mean a worse experience for you and me. And if your customer protection proposal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 126,
+      "start": 720.56,
+      "end": 727.68,
+      "text": "makes our lives worse, it's probably a bad one. The EU has shown time and time and time again",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 127,
+      "start": 727.76,
+      "end": 731.92,
+      "text": "that governments can make technology worse simply because they don't understand it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 128,
+      "start": 731.92,
+      "end": 737.52,
+      "text": "even with the best intentions. So, what's the solution? I don't know. If anything,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 129,
+      "start": 737.52,
+      "end": 742.64,
+      "text": "we've learned you should be skeptical of any simple solution to a problem this big. Instead,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 130,
+      "start": 742.64,
+      "end": 747.6,
+      "text": "here are some ideas. First, we need to expand the scope of what qualifies as anti-competitive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 131,
+      "start": 747.6,
+      "end": 752.96,
+      "text": "behavior. Low prices don't mean the customer isn't being harmed. On the other hand, closed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 132,
+      "start": 752.96,
+      "end": 758.08,
+      "text": "lockdown markets like the App Store aren't necessarily always a bad thing. Second, we need",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 133,
+      "start": 758.08,
+      "end": 763.76,
+      "text": "to re-examine some mergers and acquisitions. It happens all the time. An exciting young startup",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 134,
+      "start": 763.76,
+      "end": 769.28,
+      "text": "gains some traction only to just be bought by a Google or an Amazon. Sometimes we never hear from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 135,
+      "start": 769.28,
+      "end": 775.04,
+      "text": "it again. Founders are incentivized to sell their companies to the tune of billions of dollars,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 136,
+      "start": 775.04,
+      "end": 780.48,
+      "text": "but society at large would be better off with more competition. The key is balancing the benefit",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 137,
+      "start": 780.56,
+      "end": 785.04,
+      "text": "we all get from the scale of companies like Amazon with the drawbacks of their immense",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 138,
+      "start": 785.04,
+      "end": 790.96,
+      "text": "political and economic power. Many of these ideas to break up tech companies are designed only to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 139,
+      "start": 790.96,
+      "end": 796.64,
+      "text": "get headlines, but a real solution requires a deeper mathematical understanding of the problem,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 140,
+      "start": 796.64,
+      "end": 801.92,
+      "text": "of the type you can learn on Brilliant.org. Their pitch is simple. Sure, you can spend hours",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 141,
+      "start": 801.92,
+      "end": 807.76,
+      "text": "reading textbooks, but that's not how most of us learn. We need examples, challenges, and pictures.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 142,
+      "start": 807.76,
+      "end": 812.4,
+      "text": "Their courses on science, math, and computer science are interactive, and you can do the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 143,
+      "start": 812.4,
+      "end": 817.12,
+      "text": "problems a few minutes at a time. Even if you're just waiting in line, you can quickly do one of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 144,
+      "start": 817.12,
+      "end": 822.16,
+      "text": "their daily challenges. I just had to take a 17 hour flight, so I was glad to see you can now",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 145,
+      "start": 822.16,
+      "end": 827.2,
+      "text": "download their courses to use offline. Use the link in the description to sign up for free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 146,
+      "start": 827.2,
+      "end": 832.56,
+      "text": "The first 200 people will get 20% off the annual premium subscription, so you can view all the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 147,
+      "start": 832.56,
+      "end": 836.56,
+      "text": "daily challenges, and take all their problem solving courses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.405134,
+      "no_speech_prob": 0.108093
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.84,
+      "text": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20%",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 1,
+      "start": 5.84,
+      "end": 11.68,
+      "text": "off the annual subscription. Elizabeth Warren wants to break up Amazon, Facebook,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 2,
+      "start": 11.68,
+      "end": 18.56,
+      "text": "Google, and Apple. The argument goes roughly like this. Tech companies have gotten really big,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 3,
+      "start": 18.56,
+      "end": 24.72,
+      "text": "really fast, and they've abused that power by favoring their own products over their competitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 4,
+      "start": 24.72,
+      "end": 29.44,
+      "text": "Therefore, once a company reaches a certain size, it shouldn't be allowed to own both the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073017,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 5,
+      "start": 29.44,
+      "end": 35.6,
+      "text": "products and the platform on which they're sold. In English, Amazon can't sell the Kindle on its",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 6,
+      "start": 35.6,
+      "end": 43.28,
+      "text": "own website, and Apple has to pick between owning music and iMovie and news or the App Store itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 7,
+      "start": 43.28,
+      "end": 50.32,
+      "text": "Now, whether Warren is 100% serious or mostly just generating publicity for her presidential campaign,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 8,
+      "start": 50.32,
+      "end": 57.2,
+      "text": "she isn't alone. This is only the latest part of a much bigger movement. We're at an inflection",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076031,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 9,
+      "start": 57.2,
+      "end": 63.92,
+      "text": "point in history, where new, fast Silicon Valley is crashing into slow, old government.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 10,
+      "start": 63.92,
+      "end": 69.92,
+      "text": "Everywhere, all at once, the power and influence of big tech companies are being questioned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 11,
+      "start": 69.92,
+      "end": 75.76,
+      "text": "Google was recently fined $1.7 billion in Europe for being anti-competitive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 12,
+      "start": 75.76,
+      "end": 82.56,
+      "text": "Sprint is trying to merge with T-Mobile, despite significant pushback. Facebook has, well, continued",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109814,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 13,
+      "start": 82.56,
+      "end": 88.64,
+      "text": "to be Facebook, and Spotify has launched an all-out attack against Apple for what it claims",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 14,
+      "start": 88.64,
+      "end": 96.88,
+      "text": "is unfair treatment. So who's right, Apple or Spotify, Google or the EU, Facebook or literally",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 15,
+      "start": 96.88,
+      "end": 102.96,
+      "text": "everyone else? First, we need to understand why these companies have such a huge advantage,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 16,
+      "start": 102.96,
+      "end": 108.96,
+      "text": "and how, in just a few years, Amazon went from being synonymous with cheap, convenient shopping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 17,
+      "start": 109.04,
+      "end": 113.28,
+      "text": "to a scary, political, nebulous, Walmart-like mega-corporation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 18,
+      "start": 116.0,
+      "end": 121.12,
+      "text": "Let's say you want to start a grocery store. Maybe you know a little bit about merchandising.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 19,
+      "start": 121.12,
+      "end": 126.32,
+      "text": "Maybe you come from a long line of grocers, so selling produce is just in your blood.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 20,
+      "start": 126.32,
+      "end": 131.6,
+      "text": "The other kids were playing with fire trucks and trains, but you, you were daydreaming about the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 21,
+      "start": 131.6,
+      "end": 138.64,
+      "text": "retail implications of the angle curve. Anyway, the bad news is that the grocery business sucks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079939,
+      "no_speech_prob": 0.030212
+    },
+    {
+      "index": 22,
+      "start": 138.64,
+      "end": 143.76,
+      "text": "Like, famously so. If you're lucky, you might manage a profit margin of 3%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 23,
+      "start": 144.64,
+      "end": 150.24,
+      "text": "Unless you have some revolutionary way of arranging bananas on the shelf, you're just one of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 24,
+      "start": 150.24,
+      "end": 156.16,
+      "text": "thousand stores, which customers have no special loyalty towards. You don't see a lot of proud",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 25,
+      "start": 156.16,
+      "end": 162.32,
+      "text": "mother of a Safeway shopper, bumper stickers. But, there is money to be made at the very,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087225,
+      "no_speech_prob": 0.009415
+    },
+    {
+      "index": 26,
+      "start": 162.32,
+      "end": 168.96,
+      "text": "very top. If you can become a Kroger, or a Whole Foods, or a Trader Joe's, well, that's a different",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 27,
+      "start": 168.96,
+      "end": 174.88,
+      "text": "story. The trick is surviving long enough that you sell lots of things. So you can A, turn around to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 28,
+      "start": 174.88,
+      "end": 180.64,
+      "text": "the companies making those things, and say, hey, we like to buy 3,000 stores worth of your bananas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 29,
+      "start": 180.64,
+      "end": 186.56,
+      "text": "Can you make us a deal? And B, cut out the middleman by creating your own generic brand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102996,
+      "no_speech_prob": 0.244995
+    },
+    {
+      "index": 30,
+      "start": 186.56,
+      "end": 192.16,
+      "text": "With size comes leverage, which lets you buy cheaper and ultimately make more money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 31,
+      "start": 192.16,
+      "end": 198.64,
+      "text": "But again, the problem is getting there. Competing with established companies in any industry usually",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 32,
+      "start": 198.64,
+      "end": 204.88,
+      "text": "means losing a lot of money for a long time with only the hope of making it back in the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 33,
+      "start": 204.88,
+      "end": 210.72,
+      "text": "But don't give up on your dream quite yet. Here's an idea. Forget groceries for now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 34,
+      "start": 210.72,
+      "end": 215.44,
+      "text": "Let's just find some way of making money. Like, I don't know, selling cloud storage to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077131,
+      "no_speech_prob": 0.017441
+    },
+    {
+      "index": 35,
+      "start": 215.44,
+      "end": 220.96,
+      "text": "enterprise customers. It's a good business, no one else is doing it very well, and in a few years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 36,
+      "start": 220.96,
+      "end": 225.52,
+      "text": "you'll have so much money, you can come back to your dream of starting a grocery store.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 37,
+      "start": 225.52,
+      "end": 230.56,
+      "text": "What does cloud storage have to do with selling grapes? Is that really the most exciting thing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 38,
+      "start": 230.56,
+      "end": 237.12,
+      "text": "you could be doing? Pretty much nothing, and probably not. But who cares? Money is money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 39,
+      "start": 237.12,
+      "end": 242.08,
+      "text": "and as long as it makes more than the grocery store loses, you can afford to slowly grow it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045143,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 40,
+      "start": 242.08,
+      "end": 247.12,
+      "text": "into an empire, even while it isn't yet profitable. This, if you haven't noticed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 41,
+      "start": 247.12,
+      "end": 253.68,
+      "text": "is my very crude way of describing Amazon. It started as a book company, but Bezos had no",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 42,
+      "start": 253.68,
+      "end": 259.84,
+      "text": "special love for books. That was always just a good way of generating capital for his real dream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 43,
+      "start": 259.84,
+      "end": 266.8,
+      "text": "Today, books are a footnote. The new distraction is called Amazon Web Services, AWS. If you're",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062416,
+      "no_speech_prob": 0.046021
+    },
+    {
+      "index": 44,
+      "start": 266.8,
+      "end": 271.28,
+      "text": "already familiar, bear with me for a sec. A few videos back, I said,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 45,
+      "start": 271.28,
+      "end": 277.6,
+      "text": "A thousand downloads doesn't cost any more than one. Scale is nearly unlimited.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 46,
+      "start": 277.6,
+      "end": 282.64,
+      "text": "My point was, it's a whole lot easier to sell a thousand note-taking apps than it is a thousand",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 47,
+      "start": 282.64,
+      "end": 289.04,
+      "text": "actual notebooks, because software is made of bits, and bits don't cost money. Which is mostly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 48,
+      "start": 289.04,
+      "end": 294.96,
+      "text": "true in that context, but not totally accurate in practice. Consider the scale at which some",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080754,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 49,
+      "start": 294.96,
+      "end": 300.4,
+      "text": "of these companies operate. Out of all the bandwidth from every phone and every computer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 50,
+      "start": 300.4,
+      "end": 309.2,
+      "text": "in every country, 15% is just people watching Netflix. 15%. Even Uber, which in theory just",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 51,
+      "start": 309.2,
+      "end": 314.8,
+      "text": "connects the nearest driver to the nearest rider, stores over 100 petabytes of data,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 52,
+      "start": 314.8,
+      "end": 321.36,
+      "text": "or 100,000 gigabytes. It also fluctuates dramatically. Every startup dreams of hitting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063706,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 53,
+      "start": 321.36,
+      "end": 325.68,
+      "text": "the front page of Reddit, unless you're the engineer, in which case you have a heart attack",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 54,
+      "start": 325.68,
+      "end": 331.44,
+      "text": "trying to keep up with such a huge spike in views. Companies, and especially startups with limited",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 55,
+      "start": 331.44,
+      "end": 337.76,
+      "text": "budgets, have a tough choice. Either buy too much capacity or save money and hope they don't get too",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 56,
+      "start": 337.76,
+      "end": 344.16,
+      "text": "popular. At least until AWS. Amazon realized it could solve this problem with a service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 57,
+      "start": 344.16,
+      "end": 349.84,
+      "text": "only pay for what you actually use. If your business suddenly explodes in popularity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070203,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 58,
+      "start": 349.84,
+      "end": 356.0,
+      "text": "no problem, just pay a little more. Turn the handle for more data as you would water or electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 59,
+      "start": 356.0,
+      "end": 361.6,
+      "text": "Amazon takes care of the rest, the same way we outsource building windmills to electric companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 60,
+      "start": 361.6,
+      "end": 367.04,
+      "text": "Now if we look at its total revenue and then divide it by source, it's pretty much what you'd expect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 61,
+      "start": 367.04,
+      "end": 371.92,
+      "text": "Amazon is mostly an online store, and you're probably wondering why we're talking so much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 62,
+      "start": 371.92,
+      "end": 378.48,
+      "text": "about AWS. But what about its income? Where is it actually making a profit? This is where it gets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078125,
+      "no_speech_prob": 0.006489
+    },
+    {
+      "index": 63,
+      "start": 378.56,
+      "end": 384.8,
+      "text": "interesting. Now Amazon looks like a cloud storage company with an online retail business on the side.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 64,
+      "start": 384.8,
+      "end": 391.44,
+      "text": "In the fourth quarter of 2018, AWS accounted for 58% of the company's operating income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 65,
+      "start": 391.44,
+      "end": 397.84,
+      "text": "It alone made more money than McDonald's. So yeah, it sells lots of USB cables and bananas,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 66,
+      "start": 397.84,
+      "end": 403.76,
+      "text": "but that's not where the money is. AWS is camouflage. It makes the company look good",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06574,
+      "no_speech_prob": 0.01033
+    },
+    {
+      "index": 67,
+      "start": 403.76,
+      "end": 409.44,
+      "text": "overall and conceals how much money it loses. One business subsidizes another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 68,
+      "start": 409.44,
+      "end": 413.6,
+      "text": "And this is where it gets tricky. Because if you're one of the other grocery stores,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 69,
+      "start": 413.6,
+      "end": 417.6,
+      "text": "you're thinking this isn't really fair, how can we compete with someone who doesn't even need to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 70,
+      "start": 417.6,
+      "end": 423.92,
+      "text": "make a profit? Safeway and Publix don't have $25 billion a year cloud storage businesses. When",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 71,
+      "start": 423.92,
+      "end": 429.76,
+      "text": "they sell bananas, they have to like, you know, make money. This is how one after another,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08898,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 72,
+      "start": 429.76,
+      "end": 435.84,
+      "text": "Amazon enters and dominates a new industry. It plays by a fundamentally different set of rules.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 73,
+      "start": 435.84,
+      "end": 440.72,
+      "text": "Turns out it's a whole lot easier when you're not super worried about the whole profit thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 74,
+      "start": 440.72,
+      "end": 445.6,
+      "text": "Of course, predatory pricing, when a company lowers its prices to starve out the competition,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 75,
+      "start": 445.6,
+      "end": 450.96,
+      "text": "isn't a new idea. But once they've done so, companies usually raise their prices again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 76,
+      "start": 450.96,
+      "end": 456.8,
+      "text": "That's the whole point. Amazon, on the other hand, has always kept its prices low. It's not",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044628,
+      "no_speech_prob": 0.01133
+    },
+    {
+      "index": 77,
+      "start": 456.8,
+      "end": 463.52,
+      "text": "playing the long game. It's playing the long game. Here's its revenue, and here's its profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 78,
+      "start": 463.52,
+      "end": 468.8,
+      "text": "The company touches more money than ever. It just doesn't keep it. Profit has stayed around zero",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 79,
+      "start": 468.8,
+      "end": 474.32,
+      "text": "because it's more interested in growth. That's the loophole. In this essay, researcher Lena Kahn",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 80,
+      "start": 474.32,
+      "end": 479.68,
+      "text": "explains how, since the 70s, antitrust law has used short term prices to determine whether a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 81,
+      "start": 479.68,
+      "end": 485.12,
+      "text": "company is being anti competitive. In other words, sure, Amazon is big, it's dominant, and it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077485,
+      "no_speech_prob": 0.002115
+    },
+    {
+      "index": 82,
+      "start": 485.12,
+      "end": 490.56,
+      "text": "killing lots of competitors. But its prices are low, so it flies under the radar. You might be",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 83,
+      "start": 490.56,
+      "end": 496.56,
+      "text": "thinking, so what? If a company uses its size to save you and me money, isn't that a good thing?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 84,
+      "start": 496.56,
+      "end": 501.2,
+      "text": "But when products are subsidized, either by another profitable business like AWS,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 85,
+      "start": 501.2,
+      "end": 505.36,
+      "text": "or venture capitalists burning money for the sake of growth, they don't have to compete",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 86,
+      "start": 505.36,
+      "end": 510.4,
+      "text": "on their own. Products win not because they're the best, but because they're funded by someone,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069196,
+      "no_speech_prob": 0.020325
+    },
+    {
+      "index": 87,
+      "start": 510.4,
+      "end": 516.88,
+      "text": "or something unrelated. For example, on iPhone, Apple has the platform advantage. It controls",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069573,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 88,
+      "start": 516.88,
+      "end": 521.28,
+      "text": "which apps are allowed on the App Store and doesn't have to give up 30% of its revenue,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069573,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 92,
+      "start": 537.68,
+      "end": 543.12,
+      "text": "Spotify has such tiny margins that giving Apple 30% breaks the entire business model.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 93,
+      "start": 543.12,
+      "end": 546.88,
+      "text": "And even if Apple didn't make a dime from its music or news apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 94,
+      "start": 546.88,
+      "end": 552.32,
+      "text": "it might still offer them just to attract users to the iPhone. Spotify needs to make money,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 95,
+      "start": 552.32,
+      "end": 558.0,
+      "text": "but Apple Music just doesn't. Apple's apps, therefore, almost certainly have more users",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 96,
+      "start": 558.0,
+      "end": 562.72,
+      "text": "than they should. Which is not saying they're good or bad, but that some number of people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063687,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 97,
+      "start": 562.8,
+      "end": 568.48,
+      "text": "maybe 1, maybe 1 million, use the service only because Apple had an unfair advantage in putting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 98,
+      "start": 568.48,
+      "end": 574.24,
+      "text": "it in front of them. Likewise, Amazon has the platform advantage on its website. At some point,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 99,
+      "start": 574.24,
+      "end": 579.04,
+      "text": "it realized, hey, wait a second, if we have all the data and we control what people see,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 100,
+      "start": 579.04,
+      "end": 584.08,
+      "text": "why on earth are we sending customers to someone else's product? So now it competes with its own",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 101,
+      "start": 584.08,
+      "end": 589.92,
+      "text": "sellers, on everything from batteries to backpacks and keyboards. But wait, how is that different",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085666,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 102,
+      "start": 590.0,
+      "end": 594.64,
+      "text": "than any other generic brand? Target has up and up and Walmart great value,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 103,
+      "start": 594.64,
+      "end": 597.6,
+      "text": "but no one's complaining they have an unfair advantage.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 104,
+      "start": 597.6,
+      "end": 602.64,
+      "text": "The difference is lock-in. It's much easier to switch grocery stores than it is between iPhone",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 105,
+      "start": 602.64,
+      "end": 607.84,
+      "text": "and Android. Companies like Facebook will always say, look, you chose to use our service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 106,
+      "start": 607.84,
+      "end": 612.56,
+      "text": "you chose to give us your information, didn't you quit your job, become a lawyer, and read",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 107,
+      "start": 612.56,
+      "end": 618.56,
+      "text": "our 3,000 page terms of service? But that's not really true. We made one unrelated choice,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077617,
+      "no_speech_prob": 0.217285
+    },
+    {
+      "index": 108,
+      "start": 618.64,
+      "end": 623.76,
+      "text": "like buying an iPhone or Android, which required that we make a bunch of other choices later on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 109,
+      "start": 623.76,
+      "end": 629.12,
+      "text": "Nobody knows what they're getting into. And this will only happen more as companies get even bigger.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 110,
+      "start": 629.12,
+      "end": 635.76,
+      "text": "Amazon is an extreme example because AWS is really profitable and groceries are really not,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 111,
+      "start": 635.76,
+      "end": 641.92,
+      "text": "but entering new categories with the resources you already have is kind of what a company is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 112,
+      "start": 641.92,
+      "end": 646.96,
+      "text": "You might start by making smartphones, but then use that money to sell refrigerators. Fast forward",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072991,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 113,
+      "start": 646.96,
+      "end": 653.04,
+      "text": "a few years and now you sell life insurance and container ships. Samsung is less a brand and more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 114,
+      "start": 653.04,
+      "end": 659.2,
+      "text": "a buy-in-large e-core conglomerate. Like Amazon, it barely makes sense to think of it as a single",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 115,
+      "start": 659.2,
+      "end": 664.88,
+      "text": "unified company. One division sells parts for the iPhone. Another fiercely competes against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 116,
+      "start": 664.88,
+      "end": 670.32,
+      "text": "that very same device. Even Apple is moving in this direction. It may not be in the business",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 117,
+      "start": 670.32,
+      "end": 675.84,
+      "text": "of refrigerators, but you now buy your iPhone with an Apple credit card. Download Apple apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069055,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 118,
+      "start": 675.84,
+      "end": 682.0,
+      "text": "back them up on Apple's cloud, and watch Apple branded TV shows. But there's also a benefit",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 119,
+      "start": 682.0,
+      "end": 686.88,
+      "text": "to this integration. One of the best features of the iPhone is that it's all designed by one",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 120,
+      "start": 686.88,
+      "end": 693.92,
+      "text": "company as one coherent product. Because Apple owns both music and iOS, they're easier to use,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 121,
+      "start": 693.92,
+      "end": 699.28,
+      "text": "more convenient, and more powerful together. And because you have no choice but to use Apple's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061936,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 122,
+      "start": 699.28,
+      "end": 705.68,
+      "text": "App Store, your phone is more secure and your data more private. Now, of course, you may disagree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 123,
+      "start": 705.68,
+      "end": 710.64,
+      "text": "For some, having more freedom might be worth the trade-off for privacy and security. But that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 124,
+      "start": 710.64,
+      "end": 715.28,
+      "text": "doesn't diminish its value for the rest of us. In other words, breaking up some of these companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 125,
+      "start": 715.28,
+      "end": 720.56,
+      "text": "would actually mean a worse experience for you and me. And if your customer protection proposal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 126,
+      "start": 720.56,
+      "end": 727.68,
+      "text": "makes our lives worse, it's probably a bad one. The EU has shown time and time and time again",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073438,
+      "no_speech_prob": 0.242065
+    },
+    {
+      "index": 127,
+      "start": 727.76,
+      "end": 731.92,
+      "text": "that governments can make technology worse simply because they don't understand it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 128,
+      "start": 731.92,
+      "end": 737.52,
+      "text": "even with the best intentions. So, what's the solution? I don't know. If anything,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 129,
+      "start": 737.52,
+      "end": 742.64,
+      "text": "we've learned you should be skeptical of any simple solution to a problem this big. Instead,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 130,
+      "start": 742.64,
+      "end": 747.6,
+      "text": "here are some ideas. First, we need to expand the scope of what qualifies as anti-competitive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 131,
+      "start": 747.6,
+      "end": 752.96,
+      "text": "behavior. Low prices don't mean the customer isn't being harmed. On the other hand, closed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048703,
+      "no_speech_prob": 0.071594
+    },
+    {
+      "index": 132,
+      "start": 752.96,
+      "end": 758.08,
+      "text": "lockdown markets like the App Store aren't necessarily always a bad thing. Second, we need",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 133,
+      "start": 758.08,
+      "end": 763.76,
+      "text": "to re-examine some mergers and acquisitions. It happens all the time. An exciting young startup",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 134,
+      "start": 763.76,
+      "end": 769.28,
+      "text": "gains some traction only to just be bought by a Google or an Amazon. Sometimes we never hear from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 135,
+      "start": 769.28,
+      "end": 775.04,
+      "text": "it again. Founders are incentivized to sell their companies to the tune of billions of dollars,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 136,
+      "start": 775.04,
+      "end": 780.48,
+      "text": "but society at large would be better off with more competition. The key is balancing the benefit",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068217,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 137,
+      "start": 780.56,
+      "end": 785.04,
+      "text": "we all get from the scale of companies like Amazon with the drawbacks of their immense",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 138,
+      "start": 785.04,
+      "end": 790.96,
+      "text": "political and economic power. Many of these ideas to break up tech companies are designed only to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 139,
+      "start": 790.96,
+      "end": 796.64,
+      "text": "get headlines, but a real solution requires a deeper mathematical understanding of the problem,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 140,
+      "start": 796.64,
+      "end": 801.92,
+      "text": "of the type you can learn on Brilliant.org. Their pitch is simple. Sure, you can spend hours",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 141,
+      "start": 801.92,
+      "end": 807.76,
+      "text": "reading textbooks, but that's not how most of us learn. We need examples, challenges, and pictures.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053446,
+      "no_speech_prob": 0.036224
+    },
+    {
+      "index": 142,
+      "start": 807.76,
+      "end": 812.4,
+      "text": "Their courses on science, math, and computer science are interactive, and you can do the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 143,
+      "start": 812.4,
+      "end": 817.12,
+      "text": "problems a few minutes at a time. Even if you're just waiting in line, you can quickly do one of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 144,
+      "start": 817.12,
+      "end": 822.16,
+      "text": "their daily challenges. I just had to take a 17 hour flight, so I was glad to see you can now",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 145,
+      "start": 822.16,
+      "end": 827.2,
+      "text": "download their courses to use offline. Use the link in the description to sign up for free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 146,
+      "start": 827.2,
+      "end": 832.56,
+      "text": "The first 200 people will get 20% off the annual premium subscription, so you can view all the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05034,
+      "no_speech_prob": 0.041443
+    },
+    {
+      "index": 147,
+      "start": 832.56,
+      "end": 836.56,
+      "text": "daily challenges, and take all their problem solving courses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.405134,
+      "no_speech_prob": 0.108093
+    }
+  ],
+  "context_text_chronological": "This video is sponsored by Brilliant. The first 200 to use the link in the description get 20% off the annual subscription. Elizabeth Warren wants to break up Amazon, Facebook, Google, and Apple. The argument goes roughly like this. Tech companies have gotten really big, really fast, and they've abused that power by favoring their own products over their competitors. Therefore, once a company reaches a certain size, it shouldn't be allowed to own both the products and the platform on which they're sold. In English, Amazon can't sell the Kindle on its own website, and Apple has to pick between owning music and iMovie and news or the App Store itself. Now, whether Warren is 100% serious or mostly just generating publicity for her presidential campaign, she isn't alone. This is only the latest part of a much bigger movement. We're at an inflection point in history, where new, fast Silicon Valley is crashing into slow, old government. Everywhere, all at once, the power and influence of big tech companies are being questioned. Google was recently fined $1.7 billion in Europe for being anti-competitive. Sprint is trying to merge with T-Mobile, despite significant pushback. Facebook has, well, continued to be Facebook, and Spotify has launched an all-out attack against Apple for what it claims is unfair treatment. So who's right, Apple or Spotify, Google or the EU, Facebook or literally everyone else? First, we need to understand why these companies have such a huge advantage, and how, in just a few years, Amazon went from being synonymous with cheap, convenient shopping to a scary, political, nebulous, Walmart-like mega-corporation. Let's say you want to start a grocery store. Maybe you know a little bit about merchandising. Maybe you come from a long line of grocers, so selling produce is just in your blood. The other kids were playing with fire trucks and trains, but you, you were daydreaming about the retail implications of the angle curve. Anyway, the bad news is that the grocery business sucks. Like, famously so. If you're lucky, you might manage a profit margin of 3%. Unless you have some revolutionary way of arranging bananas on the shelf, you're just one of a thousand stores, which customers have no special loyalty towards. You don't see a lot of proud mother of a Safeway shopper, bumper stickers. But, there is money to be made at the very, very top. If you can become a Kroger, or a Whole Foods, or a Trader Joe's, well, that's a different story. The trick is surviving long enough that you sell lots of things. So you can A, turn around to the companies making those things, and say, hey, we like to buy 3,000 stores worth of your bananas. Can you make us a deal? And B, cut out the middleman by creating your own generic brand. With size comes leverage, which lets you buy cheaper and ultimately make more money. But again, the problem is getting there. Competing with established companies in any industry usually means losing a lot of money for a long time with only the hope of making it back in the future. But don't give up on your dream quite yet. Here's an idea. Forget groceries for now. Let's just find some way of making money. Like, I don't know, selling cloud storage to enterprise customers. It's a good business, no one else is doing it very well, and in a few years, you'll have so much money, you can come back to your dream of starting a grocery store. What does cloud storage have to do with selling grapes? Is that really the most exciting thing you could be doing? Pretty much nothing, and probably not. But who cares? Money is money, and as long as it makes more than the grocery store loses, you can afford to slowly grow it into an empire, even while it isn't yet profitable. This, if you haven't noticed, is my very crude way of describing Amazon. It started as a book company, but Bezos had no special love for books. That was always just a good way of generating capital for his real dream. Today, books are a footnote. The new distraction is called Amazon Web Services, AWS. If you're already familiar, bear with me for a sec. A few videos back, I said, A thousand downloads doesn't cost any more than one. Scale is nearly unlimited. My point was, it's a whole lot easier to sell a thousand note-taking apps than it is a thousand actual notebooks, because software is made of bits, and bits don't cost money. Which is mostly true in that context, but not totally accurate in practice. Consider the scale at which some of these companies operate. Out of all the bandwidth from every phone and every computer in every country, 15% is just people watching Netflix. 15%. Even Uber, which in theory just connects the nearest driver to the nearest rider, stores over 100 petabytes of data, or 100,000 gigabytes. It also fluctuates dramatically. Every startup dreams of hitting the front page of Reddit, unless you're the engineer, in which case you have a heart attack trying to keep up with such a huge spike in views. Companies, and especially startups with limited budgets, have a tough choice. Either buy too much capacity or save money and hope they don't get too popular. At least until AWS. Amazon realized it could solve this problem with a service, only pay for what you actually use. If your business suddenly explodes in popularity, no problem, just pay a little more. Turn the handle for more data as you would water or electricity. Amazon takes care of the rest, the same way we outsource building windmills to electric companies. Now if we look at its total revenue and then divide it by source, it's pretty much what you'd expect. Amazon is mostly an online store, and you're probably wondering why we're talking so much about AWS. But what about its income? Where is it actually making a profit? This is where it gets interesting. Now Amazon looks like a cloud storage company with an online retail business on the side. In the fourth quarter of 2018, AWS accounted for 58% of the company's operating income. It alone made more money than McDonald's. So yeah, it sells lots of USB cables and bananas, but that's not where the money is. AWS is camouflage. It makes the company look good overall and conceals how much money it loses. One business subsidizes another. And this is where it gets tricky. Because if you're one of the other grocery stores, you're thinking this isn't really fair, how can we compete with someone who doesn't even need to make a profit? Safeway and Publix don't have $25 billion a year cloud storage businesses. When they sell bananas, they have to like, you know, make money. This is how one after another, Amazon enters and dominates a new industry. It plays by a fundamentally different set of rules. Turns out it's a whole lot easier when you're not super worried about the whole profit thing. Of course, predatory pricing, when a company lowers its prices to starve out the competition, isn't a new idea. But once they've done so, companies usually raise their prices again. That's the whole point. Amazon, on the other hand, has always kept its prices low. It's not playing the long game. It's playing the long game. Here's its revenue, and here's its profit. The company touches more money than ever. It just doesn't keep it. Profit has stayed around zero because it's more interested in growth. That's the loophole. In this essay, researcher Lena Kahn explains how, since the 70s, antitrust law has used short term prices to determine whether a company is being anti competitive. In other words, sure, Amazon is big, it's dominant, and it's killing lots of competitors. But its prices are low, so it flies under the radar. You might be thinking, so what? If a company uses its size to save you and me money, isn't that a good thing? But when products are subsidized, either by another profitable business like AWS, or venture capitalists burning money for the sake of growth, they don't have to compete on their own. Products win not because they're the best, but because they're funded by someone, or something unrelated. For example, on iPhone, Apple has the platform advantage. It controls which apps are allowed on the App Store and doesn't have to give up 30% of its revenue, Spotify has such tiny margins that giving Apple 30% breaks the entire business model. And even if Apple didn't make a dime from its music or news apps, it might still offer them just to attract users to the iPhone. Spotify needs to make money, but Apple Music just doesn't. Apple's apps, therefore, almost certainly have more users than they should. Which is not saying they're good or bad, but that some number of people, maybe 1, maybe 1 million, use the service only because Apple had an unfair advantage in putting it in front of them. Likewise, Amazon has the platform advantage on its website. At some point, it realized, hey, wait a second, if we have all the data and we control what people see, why on earth are we sending customers to someone else's product? So now it competes with its own sellers, on everything from batteries to backpacks and keyboards. But wait, how is that different than any other generic brand? Target has up and up and Walmart great value, but no one's complaining they have an unfair advantage. The difference is lock-in. It's much easier to switch grocery stores than it is between iPhone and Android. Companies like Facebook will always say, look, you chose to use our service, you chose to give us your information, didn't you quit your job, become a lawyer, and read our 3,000 page terms of service? But that's not really true. We made one unrelated choice, like buying an iPhone or Android, which required that we make a bunch of other choices later on. Nobody knows what they're getting into. And this will only happen more as companies get even bigger. Amazon is an extreme example because AWS is really profitable and groceries are really not, but entering new categories with the resources you already have is kind of what a company is. You might start by making smartphones, but then use that money to sell refrigerators. Fast forward a few years and now you sell life insurance and container ships. Samsung is less a brand and more a buy-in-large e-core conglomerate. Like Amazon, it barely makes sense to think of it as a single unified company. One division sells parts for the iPhone. Another fiercely competes against that very same device. Even Apple is moving in this direction. It may not be in the business of refrigerators, but you now buy your iPhone with an Apple credit card. Download Apple apps, back them up on Apple's cloud, and watch Apple branded TV shows. But there's also a benefit to this integration. One of the best features of the iPhone is that it's all designed by one company as one coherent product. Because Apple owns both music and iOS, they're easier to use, more convenient, and more powerful together. And because you have no choice but to use Apple's App Store, your phone is more secure and your data more private. Now, of course, you may disagree. For some, having more freedom might be worth the trade-off for privacy and security. But that doesn't diminish its value for the rest of us. In other words, breaking up some of these companies would actually mean a worse experience for you and me. And if your customer protection proposal makes our lives worse, it's probably a bad one. The EU has shown time and time and time again that governments can make technology worse simply because they don't understand it, even with the best intentions. So, what's the solution? I don't know. If anything, we've learned you should be skeptical of any simple solution to a problem this big. Instead, here are some ideas. First, we need to expand the scope of what qualifies as anti-competitive behavior. Low prices don't mean the customer isn't being harmed. On the other hand, closed lockdown markets like the App Store aren't necessarily always a bad thing. Second, we need to re-examine some mergers and acquisitions. It happens all the time. An exciting young startup gains some traction only to just be bought by a Google or an Amazon. Sometimes we never hear from it again. Founders are incentivized to sell their companies to the tune of billions of dollars, but society at large would be better off with more competition. The key is balancing the benefit we all get from the scale of companies like Amazon with the drawbacks of their immense political and economic power. Many of these ideas to break up tech companies are designed only to get headlines, but a real solution requires a deeper mathematical understanding of the problem, of the type you can learn on Brilliant.org. Their pitch is simple. Sure, you can spend hours reading textbooks, but that's not how most of us learn. We need examples, challenges, and pictures. Their courses on science, math, and computer science are interactive, and you can do the problems a few minutes at a time. Even if you're just waiting in line, you can quickly do one of their daily challenges. I just had to take a 17 hour flight, so I was glad to see you can now download their courses to use offline. Use the link in the description to sign up for free. The first 200 people will get 20% off the annual premium subscription, so you can view all the daily challenges, and take all their problem solving courses.",
+  "target_text_for_audit": "or follow the same rules as everyone else. If you're a clash of clans, this may seem like a relatively small price to pay for access to 1.3 billion users. For someone like Spotify,",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "If you're a clash of clans, this may seem like a relatively small price to pay for access to 1 .3 billion users.",
+        "start_source": 524.04,
+        "end_source": 530.42,
+        "matching_cue_ids": [
+          89,
+          90
+        ],
+        "text_similarity": 0.7649,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\EYPs-ya_GDA.mp4",
+    "cue_count": 148
+  },
+  "token_estimate_char_div_4": 3334
+}

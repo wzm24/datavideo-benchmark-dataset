@@ -1,0 +1,1044 @@
+{
+  "video_id": "eBV4GmK4kO4",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\eBV4GmK4kO4.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 440.853,
+  "duration_after_vad_seconds": 440.549,
+  "cue_count": 114,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.3,
+      "end": 4.66,
+      "text": "China and Japan are two countries that have been culturally intertwined from as early",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 1,
+      "start": 4.66,
+      "end": 6.58,
+      "text": "as 400 AD.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 2,
+      "start": 6.58,
+      "end": 10.82,
+      "text": "This relationship led to Japan adopting the Chinese writing system, the religion of Buddhism,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 3,
+      "start": 10.82,
+      "end": 15.78,
+      "text": "similar political systems, as well as developing in matters of food, fashion, law, and more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 4,
+      "start": 15.78,
+      "end": 17.62,
+      "text": "under the influence of China.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 5,
+      "start": 17.62,
+      "end": 20.82,
+      "text": "Although the countries are currently at peace, relations have remained somewhat tense over",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 6,
+      "start": 20.82,
+      "end": 21.82,
+      "text": "the last century.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 7,
+      "start": 21.82,
+      "end": 25.98,
+      "text": "Today, we'll compare the two nations in a hypothetical military match-up in this episode",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 8,
+      "start": 25.98,
+      "end": 28.54,
+      "text": "of the Infographics Show, China vs. Japan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130659,
+      "no_speech_prob": 0.02327
+    },
+    {
+      "index": 9,
+      "start": 28.54,
+      "end": 31.46,
+      "text": "Don't forget to subscribe and click the bell button so that you can be part of our",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 10,
+      "start": 31.46,
+      "end": 33.3,
+      "text": "notification squad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 11,
+      "start": 33.3,
+      "end": 38.1,
+      "text": "The USA has the world's highest GDP of around $18.5 trillion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 12,
+      "start": 38.1,
+      "end": 43.46,
+      "text": "It's followed by China with a nominal GDP of $11.8 trillion, and then Japan with a GDP",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 13,
+      "start": 43.46,
+      "end": 45.86,
+      "text": "of around $4.8 trillion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 14,
+      "start": 45.86,
+      "end": 50.5,
+      "text": "The European Union would take second place, but the EU is a combination of 28 states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 15,
+      "start": 50.5,
+      "end": 55.3,
+      "text": "While China has experienced economic prosperity in recent years, its per capita GDP ranks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135304,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 16,
+      "start": 55.3,
+      "end": 62.38,
+      "text": "low, globally in 70th place, at around $8,000, with Japan's per capita GDP much higher at",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113032,
+      "no_speech_prob": 0.327393
+    },
+    {
+      "index": 17,
+      "start": 62.38,
+      "end": 64.38,
+      "text": "around $39,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113032,
+      "no_speech_prob": 0.327393
+    },
+    {
+      "index": 18,
+      "start": 64.38,
+      "end": 68.5,
+      "text": "There is certainly less money to go around in China as it has the world's largest population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113032,
+      "no_speech_prob": 0.327393
+    },
+    {
+      "index": 19,
+      "start": 68.5,
+      "end": 75.06,
+      "text": "of 1.38 billion people, compared to Japan's 126-plus million population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113032,
+      "no_speech_prob": 0.327393
+    },
+    {
+      "index": 20,
+      "start": 75.06,
+      "end": 79.5,
+      "text": "In terms of military spending, China ranks third behind Russia and the military-minded",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113032,
+      "no_speech_prob": 0.327393
+    },
+    {
+      "index": 21,
+      "start": 79.5,
+      "end": 86.54,
+      "text": "USA, with a defense budget of around $147 billion, which is 2.1% of its GDP.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 22,
+      "start": 86.54,
+      "end": 91.86,
+      "text": "Japan sits in seventh place on this list, with a $43 billion defense budget, which is 0.9%",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 23,
+      "start": 91.86,
+      "end": 92.86,
+      "text": "of its GDP.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 24,
+      "start": 92.86,
+      "end": 97.34,
+      "text": "It's also worth mentioning here that military pundits often state China spends much more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 25,
+      "start": 97.34,
+      "end": 101.66,
+      "text": "on its military than the number that is reported, although China's finance minister denied",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 26,
+      "start": 101.66,
+      "end": 107.18,
+      "text": "this secrecy in 2017, saying, Let me be very clear, there is no such thing as opacity in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 27,
+      "start": 107.18,
+      "end": 108.98,
+      "text": "China's military spending.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102803,
+      "no_speech_prob": 0.821289
+    },
+    {
+      "index": 28,
+      "start": 108.98,
+      "end": 112.78,
+      "text": "While Japan is recorded as being a military powerhouse, its number of military personnel",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 29,
+      "start": 112.78,
+      "end": 118.18,
+      "text": "is actually quite small and very much inferior to the number of personnel the Chinese employ.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 30,
+      "start": 118.18,
+      "end": 124.5,
+      "text": "Japan has around 250,000 active military personnel, with another 57,900 people acting as reserve",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 31,
+      "start": 124.5,
+      "end": 125.5,
+      "text": "personnel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 32,
+      "start": 125.5,
+      "end": 132.66,
+      "text": "China, on the other hand, has a massive 2,335,000 active frontline personnel and 2,300,000 active",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 33,
+      "start": 132.66,
+      "end": 136.1,
+      "text": "reserve personnel and paramilitary forces.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148744,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 34,
+      "start": 136.1,
+      "end": 139.78,
+      "text": "Its personnel numbers may be small, but it's protected with some of the world's best military",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 35,
+      "start": 139.78,
+      "end": 140.78,
+      "text": "equipment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 36,
+      "start": 140.78,
+      "end": 147.58,
+      "text": "This includes 678 tanks, 2,850 armored fighting vehicles, 202 self-propelled guns, 500 towed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 37,
+      "start": 147.58,
+      "end": 150.94,
+      "text": "artillery, and 99 multiple launch rocket systems.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 38,
+      "start": 150.94,
+      "end": 155.1,
+      "text": "Its large fleet of land artillery includes two machines often on the list of the world's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 39,
+      "start": 155.1,
+      "end": 160.58,
+      "text": "most advanced tanks, those being the Japanese-made Type 10 main battle tank and Type 90 main",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 40,
+      "start": 160.58,
+      "end": 161.58,
+      "text": "battle tank.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.159233,
+      "no_speech_prob": 0.664551
+    },
+    {
+      "index": 41,
+      "start": 161.58,
+      "end": 170.58,
+      "text": "China, however, outguns Japan considerably with a total of 9,150 tanks, 4,788 AFVs, 1,710",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128941,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 42,
+      "start": 170.58,
+      "end": 176.74,
+      "text": "SPGs, 6,246 towed artillery, and 177 NLRSs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128941,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 43,
+      "start": 176.74,
+      "end": 180.86,
+      "text": "China's Type 99 main battle tank is also highly rated, while the country also claims",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128941,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 44,
+      "start": 180.86,
+      "end": 185.06,
+      "text": "to have developed the most advanced tank in the world in its VT-4.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128941,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 45,
+      "start": 185.06,
+      "end": 189.06,
+      "text": "China is not alone in making such boastful claims, with the USA and Russia also stating",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128941,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 46,
+      "start": 189.22,
+      "end": 194.54,
+      "text": "they have the best tanks in the M1A2 Abrams and the T-14 Armada respectively.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 47,
+      "start": 194.54,
+      "end": 199.1,
+      "text": "The VT-4 is as much a Chinese war machine as it is a profitable export, with Thailand",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 48,
+      "start": 199.1,
+      "end": 203.66,
+      "text": "placing a big order of the tanks and other countries showing interest in buying.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 49,
+      "start": 203.66,
+      "end": 208.34,
+      "text": "Both countries have strong air forces, with China owning around 2,900 plus aircraft and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 50,
+      "start": 208.34,
+      "end": 210.54,
+      "text": "206 attack helicopters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 51,
+      "start": 210.54,
+      "end": 215.62,
+      "text": "Japan has around 1,590 aircraft and 119 attack helicopters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.132234,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 52,
+      "start": 215.62,
+      "end": 221.3,
+      "text": "In terms of strength, China's aerial piece de resistance is its new Chengdu J-20 stealth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 53,
+      "start": 221.3,
+      "end": 226.3,
+      "text": "fighter, which the Air Force and some aviation experts have stated can match America's highly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 54,
+      "start": 226.3,
+      "end": 230.74,
+      "text": "advanced Lockheed Martin F-22 Raptor and F-35.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 55,
+      "start": 230.74,
+      "end": 234.78,
+      "text": "China is also the only country to have bought the Russian beasts of disguise, the Sukhoi",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 56,
+      "start": 234.78,
+      "end": 237.02,
+      "text": "Su-35 multi-purpose fighter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 57,
+      "start": 237.02,
+      "end": 241.22,
+      "text": "If you've seen our shows on these aircraft, you'll know the Su-35 alone is an impeccable",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 58,
+      "start": 241.22,
+      "end": 242.9,
+      "text": "piece of engineering.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152792,
+      "no_speech_prob": 0.028
+    },
+    {
+      "index": 59,
+      "start": 243.02,
+      "end": 247.22,
+      "text": "Japan would be hard pushed to equal such aerial military might, but the country is no slouch",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 60,
+      "start": 247.22,
+      "end": 248.62,
+      "text": "when it comes to aircraft.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 61,
+      "start": 248.62,
+      "end": 253.22,
+      "text": "Japan is set to have created a veritable equal to China's J-20, having joined the stealth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 62,
+      "start": 253.22,
+      "end": 255.66,
+      "text": "leagues with its own Mitsubishi X-2.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 63,
+      "start": 255.66,
+      "end": 260.62,
+      "text": "Japan has some formidable combat aircraft in its homemade Mitsubishi F-2, as well as",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 64,
+      "start": 260.62,
+      "end": 264.58,
+      "text": "American-made F-4 Phantom IIs and F-15 Eagles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 65,
+      "start": 264.58,
+      "end": 269.18,
+      "text": "The country is also the proud owner of the USA's highly touted F-35 Lightning II.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128322,
+      "no_speech_prob": 0.369629
+    },
+    {
+      "index": 66,
+      "start": 269.18,
+      "end": 273.34,
+      "text": "Japan currently has one of these aircraft, but another 42 have been ordered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 67,
+      "start": 273.34,
+      "end": 276.86,
+      "text": "With this in mind, the two countries seem to be fairly evenly matched in terms of air",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 68,
+      "start": 276.86,
+      "end": 280.14,
+      "text": "force equipment, with Japanese imports being a major factor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 69,
+      "start": 280.14,
+      "end": 284.46,
+      "text": "As far as naval power is concerned, a matter of significance given the history of naval",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 70,
+      "start": 284.46,
+      "end": 288.62,
+      "text": "invasions and the fact that the countries are separated by a stretch of water, both countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 71,
+      "start": 288.62,
+      "end": 293.78,
+      "text": "are credited with having very strong navies, although most analysts rank China above Japan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 72,
+      "start": 293.78,
+      "end": 298.58,
+      "text": "The People's Liberation Army Navy is set to have grown from a fairly weak outfit consisting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074368,
+      "no_speech_prob": 0.009117
+    },
+    {
+      "index": 73,
+      "start": 298.58,
+      "end": 303.42,
+      "text": "of old ships to a formidable foe due to massive injections of money since China's economic",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 74,
+      "start": 303.42,
+      "end": 304.42,
+      "text": "boom.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 75,
+      "start": 304.42,
+      "end": 309.26,
+      "text": "The Navy not only has well over 100,000 personnel, but has a large fleet of ships.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 76,
+      "start": 309.26,
+      "end": 315.94,
+      "text": "This includes one aircraft carrier, 35 destroyers, 51 frigates, 35 corpettes, 31 mine warfare,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 77,
+      "start": 315.94,
+      "end": 320.66,
+      "text": "three amphibious transports, eight nuclear attack submarines, and around 50 conventional",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 78,
+      "start": 320.66,
+      "end": 322.06,
+      "text": "attack submarines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 79,
+      "start": 322.06,
+      "end": 328.54,
+      "text": "By comparison, the Japanese Navy consists of around 114 ships and 45,800 personnel, and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113048,
+      "no_speech_prob": 0.117493
+    },
+    {
+      "index": 80,
+      "start": 328.54,
+      "end": 333.5,
+      "text": "according to nationalinterest.org, its fleet of 17 submarines is as good as any submarine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 81,
+      "start": 333.5,
+      "end": 334.66,
+      "text": "fleet in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 82,
+      "start": 334.66,
+      "end": 339.78,
+      "text": "In total, Japan has three aircraft carriers, 43 destroyers, six coastal defense craft, zero",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 83,
+      "start": 339.78,
+      "end": 343.02,
+      "text": "frigates, zero corpettes, and 25 mine warfare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 84,
+      "start": 343.02,
+      "end": 346.22,
+      "text": "A matter of importance is each country's nuclear capabilities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 85,
+      "start": 346.22,
+      "end": 349.94,
+      "text": "Japan doesn't have any nuclear weapons, although it is protected by the United States under",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 86,
+      "start": 349.94,
+      "end": 351.18,
+      "text": "the nuclear umbrella.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 87,
+      "start": 351.18,
+      "end": 354.9,
+      "text": "The country is well known for its highly advanced industries and technology, and there is no",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123271,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 88,
+      "start": 354.9,
+      "end": 359.34,
+      "text": "doubt that it could develop its own nuclear weapons given its nuclear energy infrastructure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 89,
+      "start": 359.34,
+      "end": 363.78,
+      "text": "This has so far not happened due to a non-nuclear weapons policy, although being positioned",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 90,
+      "start": 363.78,
+      "end": 368.5,
+      "text": "so close to North Korea, many Japanese politicians and military officials have called for a change",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 91,
+      "start": 368.5,
+      "end": 370.5,
+      "text": "in nuclear weapons policy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 92,
+      "start": 370.5,
+      "end": 374.18,
+      "text": "China, on the other hand, is one of nine nations with nuclear weapons with a considerable",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 93,
+      "start": 374.18,
+      "end": 376.86,
+      "text": "arsenal of around 260 warheads.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 94,
+      "start": 376.86,
+      "end": 379.34,
+      "text": "Its first nuclear test was in 1964.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 95,
+      "start": 379.34,
+      "end": 383.02,
+      "text": "The number of weapons, however, and China's development of nuclear weapons, has been a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092875,
+      "no_speech_prob": 0.19165
+    },
+    {
+      "index": 96,
+      "start": 383.02,
+      "end": 384.86,
+      "text": "matter of wide speculation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 97,
+      "start": 384.86,
+      "end": 388.62,
+      "text": "For instance, a Georgetown University study claimed that China's nuclear weapons arsenal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 98,
+      "start": 388.62,
+      "end": 391.7,
+      "text": "is not in the hundreds, but possibly three thousand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 99,
+      "start": 391.7,
+      "end": 394.78,
+      "text": "The study claimed the weapons were hidden in secret underground tunnels.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 100,
+      "start": 394.78,
+      "end": 398.82,
+      "text": "The prospect of any kind of conflict involving these weapons of mass destruction, however,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 101,
+      "start": 398.82,
+      "end": 400.22,
+      "text": "is highly unlikely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 102,
+      "start": 400.22,
+      "end": 404.14,
+      "text": "We cannot forget that almost every single tank, aircraft, or naval unit needs fuel to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 103,
+      "start": 404.14,
+      "end": 405.22,
+      "text": "operate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 104,
+      "start": 405.22,
+      "end": 409.06,
+      "text": "China currently consumes approximately 12 million barrels of oil a day, but it only",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 105,
+      "start": 409.06,
+      "end": 411.82,
+      "text": "produces about 4 million barrels daily.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122812,
+      "no_speech_prob": 0.025955
+    },
+    {
+      "index": 106,
+      "start": 411.82,
+      "end": 415.42,
+      "text": "That said, it does have 25 billion barrels in reserves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 107,
+      "start": 415.42,
+      "end": 420.96,
+      "text": "Japan, on the other hand, consumes 4.15 million barrels of oil a day, but it only produces",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 108,
+      "start": 420.96,
+      "end": 423.86,
+      "text": "a meager 3,900 barrels daily.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 109,
+      "start": 423.86,
+      "end": 427.74,
+      "text": "Worse yet, it only has 44 million barrels of oil in reserves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 110,
+      "start": 427.74,
+      "end": 431.26,
+      "text": "So, who do you think has a stronger military, China or Japan?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 111,
+      "start": 431.26,
+      "end": 435.42,
+      "text": "Let us know why in the comments, and be sure to check out our military comparisons playlist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 112,
+      "start": 435.42,
+      "end": 438.94,
+      "text": "Thanks for watching, and as always, don't forget to like, share, and subscribe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    },
+    {
+      "index": 113,
+      "start": 438.94,
+      "end": 439.54,
+      "text": "See you next time!",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150493,
+      "no_speech_prob": 0.147949
+    }
+  ],
+  "created_at": "2026-11-05T02:16:00+0800"
+}

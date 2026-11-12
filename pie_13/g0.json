@@ -1,135 +1,96 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_13",
  "family": "pie",
  "data_source": "data_table.csv",
  "data_table_sha256": "7abe33663958859bf52a503fecfabd67779f19a413116b9cb69256eaaf3c6a81",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "8ecf3b65d2cee361938715ba2d3351cf299185dde903a059bd3493794859feb4",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_composition"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "He",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 89.6,
-   "last_value": 89.6,
-   "min_value": 89.6,
-   "max_value": 89.6,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_composition"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "He",
+   "metric": "share_of_composition",
+   "value": "89.6",
+   "unit": "%",
+   "relative_value": "0.896",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_composition"
   },
   {
+   "row_id": "r2",
    "panel": "",
-   "entity": "H",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 10.4,
-   "last_value": 10.4,
-   "min_value": 10.4,
-   "max_value": 10.4,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_composition"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "H",
+   "metric": "share_of_composition",
+   "value": "10.4",
+   "unit": "%",
+   "relative_value": "0.104",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_composition"
   }
  ],
- "source_type_counts": {
-  "estimated": 2
- },
- "role_counts": {
-  "slice": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_composition",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "He",
+    "H"
+   ],
+   "relative_value_sum": 1.0
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "He",
-    "series": ""
+    "metric": "share_of_composition",
+    "value": "89.6",
+    "unit": "%",
+    "relative_value": "0.896",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_composition"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "H",
-    "series": ""
+    "metric": "share_of_composition",
+    "value": "10.4",
+    "unit": "%",
+    "relative_value": "0.104",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_composition"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

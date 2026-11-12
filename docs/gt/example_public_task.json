@@ -1,0 +1,64 @@
+{
+  "contract_version": "design-1.0",
+  "sample_id": "demo_growth_001",
+  "synthetic_example": true,
+  "task": "table_and_intent_to_coded_narrated_data_video",
+  "intent": "为普通观众制作约30秒的数据视频，比较A、B在2022到2023年的用户增长。分别量化两者各自的变化，并用定量证据说明哪个增长更快。仅基于提供的数据，不推测原因或未来走势。",
+  "audience": "一般公众",
+  "language": "zh-CN",
+  "duration": {
+    "target_seconds": 30,
+    "acceptable_range_seconds": [27, 33],
+    "status": "示例任务的公开工程容差，不是经过人评验证的普适标准"
+  },
+  "table": {
+    "name": "regional_users",
+    "primary_key": "row_id",
+    "schema": {
+      "row_id": {"type": "string"},
+      "region": {"type": "categorical", "values": ["A", "B"]},
+      "year": {"type": "integer", "semantic_type": "calendar_year"},
+      "users_million": {"type": "number", "unit": "million_people", "nullable": false}
+    },
+    "rows": [
+      {"row_id": "a_2022", "region": "A", "year": 2022, "users_million": 100},
+      {"row_id": "a_2023", "region": "A", "year": 2023, "users_million": 160},
+      {"row_id": "b_2022", "region": "B", "year": 2022, "users_million": 100},
+      {"row_id": "b_2023", "region": "B", "year": 2023, "users_million": 120}
+    ],
+    "provenance": "人为构造的协议演示数据，不是真实地区统计",
+    "missing_value_policy": "本样例无缺失值",
+    "precision_policy": "输入数值按本示例视为精确值；显示时允许合理单位转换和明确的四舍五入"
+  },
+  "constraints": {
+    "content_requirements": [
+      "分别量化A和B从2022到2023年的变化；可以用起终值、绝对增量或相对增长率表达",
+      "清楚说明哪个区域增长更快，并提供与比较口径一致的定量证据",
+      "通过可辨认的数据图形或结构化数值比较提供视觉证据，不得仅逐句字幕化",
+      "最终作品必须有中文旁白；并非每个数值都必须被念出，信息可以由清楚的图形标注补充",
+      "必需信息不得在旁白、字幕与图表之间发生矛盾"
+    ],
+    "evidence_scope": "仅使用所提供表格，禁止无证据的因果解释或确定性预测",
+    "design_freedom": ["chart_type", "layout", "palette", "wording", "scene_order_when_semantically_valid"],
+    "reference_video_required": false,
+    "reference_svg_required": false,
+    "external_network": false,
+    "pre_rendered_complete_video_as_asset": false
+  },
+  "proposed_runtime_contract": {
+    "status": "接口设计示例，尚未提供实现",
+    "rendering": "HTML/CSS/JavaScript with SVG; D3 allowed; no fixed chart template",
+    "width": 1280,
+    "height": 720,
+    "frames_per_second": 30,
+    "api": ["window.benchmark.ready()", "window.benchmark.renderAt(timeSeconds)", "window.benchmark.getDuration()"],
+    "timing": "absolute-time seek; the same t must represent the same visual state",
+    "tts": "统一服务读取模型生成的旁白，返回音频与时间线；此接口及其具体版本需实现时配置"
+  },
+  "submission": {
+    "required": ["executable_code_and_local_assets", "narration_segments", "manifest"],
+    "optional": ["evidence_map", "intermediate_plan"],
+    "coding_requirement": "提交代码须实际定义数据变换、图形和时间编排，不得只是包装预制完整成片；保留资源来源与生成记录",
+    "model_metadata_trusted_as_ground_truth": false
+  }
+}

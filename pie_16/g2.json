@@ -1,99 +1,130 @@
 {
  "clip_id": "pie_16",
  "family": "pie",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "pie_16",
   "family": "pie",
   "sub_type": "full_pie",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
-  "required_data_rows": 5,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1",
-   "U2"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "identity_or_series",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "complete_mark_set",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Residential | share_of_emissions",
-    "Commercial | share_of_emissions",
-    "Industrial | share_of_emissions",
-    "Transportation | share_of_emissions",
-    "Electricity generation | share_of_emissions"
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Transportation",
+    "Electricity generation"
    ],
    "assertion": {
-    "required_data_rows": 5,
-    "mode": "static_all_at_once",
-    "required_states": [],
-    "required_marks_per_state": {},
-    "all_required_marks_must_be_present": true
+    "all_required_marks_present": true,
+    "required_mark_count": 5,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
    "unit_id": "U2",
-   "unit_kind": "share_or_composition",
+   "unit_kind": "share_of_whole",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "share_of_whole",
    "required_marks": [
-    "Electricity generation | share_of_emissions",
-    "Residential | share_of_emissions",
-    "Commercial | share_of_emissions",
-    "Transportation | share_of_emissions"
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Transportation",
+    "Electricity generation"
    ],
    "assertion": {
-    "compositions": [
+    "shares": [
      {
-      "segments": [
-       {
-        "mark": "Electricity generation | share_of_emissions",
-        "value": 28.0
-       },
-       {
-        "mark": "Residential | share_of_emissions",
-        "value": 14.0
-       },
-       {
-        "mark": "Commercial | share_of_emissions",
-        "value": 12.0
-       },
-       {
-        "mark": "Transportation | share_of_emissions",
-        "value": 28.0
-       }
-      ],
-      "total": 82.0
+      "mark": "Residential",
+      "entity": "Residential",
+      "whole_scope": "share_of_emissions",
+      "expected_relative_value": 0.14,
+      "expected_value": 14.0
+     },
+     {
+      "mark": "Commercial",
+      "entity": "Commercial",
+      "whole_scope": "share_of_emissions",
+      "expected_relative_value": 0.12,
+      "expected_value": 12.0
+     },
+     {
+      "mark": "Industrial",
+      "entity": "Industrial",
+      "whole_scope": "share_of_emissions",
+      "expected_relative_value": 0.21,
+      "expected_value": 21.0
+     },
+     {
+      "mark": "Transportation",
+      "entity": "Transportation",
+      "whole_scope": "share_of_emissions",
+      "expected_relative_value": 0.28,
+      "expected_value": 28.0
+     },
+     {
+      "mark": "Electricity generation",
+      "entity": "Electricity generation",
+      "whole_scope": "share_of_emissions",
+      "expected_relative_value": 0.28,
+      "expected_value": 28.0
      }
     ],
-    "tolerance": 0.5,
-    "note": "该单元只声明这四个目标部门的合计；表内另有 Industrial 21%，所以 total 不是 100%。"
+    "expected_relation": "Residential is 14%, Commercial is 12%, Industrial is 21%, Transportation is 28%, and Electricity generation is 28% of US CO2 emissions in 2019."
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "composition_order",
+   "must_be_visualized": true,
+   "evidence_type": "sector_ordering",
+   "required_marks": [
+    "Residential",
+    "Commercial",
+    "Industrial",
+    "Transportation",
+    "Electricity generation"
+   ],
+   "assertion": {
+    "order": [
+     "Transportation",
+     "Electricity generation",
+     "Industrial",
+     "Residential",
+     "Commercial"
+    ],
+    "expected_relation": "Transportation and Electricity generation are the largest shares at 28% each, followed by Industrial at 21%, Residential at 14%, and Commercial at 12%."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   }
  ]

@@ -1,0 +1,74 @@
+{
+ "clip": "area_39",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that larger bubbles represent larger debt amounts, with the $70,000 debt bubble being the largest among the $10,000, $30,000, and $70,000 categories.",
+ "proposed_intent": "Compare the amount owed across the $10,000, $30,000, and $70,000 debt categories to determine how the values differ.",
+ "writer": {
+  "intent": "Compare the amount owed across the $10,000, $30,000, and $70,000 debt categories to determine how the values differ.",
+  "entities": [
+   "Owes $10,000",
+   "Owes $30,000",
+   "Owes $70,000"
+  ],
+  "measure": "Amount owed (USD)",
+  "scope": "Single panel snapshot of three debt categories",
+  "comparison": "Across the $10,000, $30,000, and $70,000 categories",
+  "withheld_answer": "The $70,000 debt category is the largest, with larger bubbles representing larger debt amounts."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 18,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "10,000",
+   "30,000",
+   "70,000"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1779,
+   "completion_tokens": 140,
+   "total_tokens": 1919,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1651
+  },
+  {
+   "prompt_tokens": 1721,
+   "completion_tokens": 56,
+   "total_tokens": 1777,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1721
+  }
+ ],
+ "sec": 2.1
+}

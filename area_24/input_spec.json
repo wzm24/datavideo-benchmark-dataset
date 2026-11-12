@@ -1,6 +1,8 @@
 {
- "clip_id": "area_24",
- "family": "area",
- "sub_type": "bubble",
- "orientation": "cartesian"
+  "clip_id": "area_24",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "special_area_type": true,
+  "encoding": "diameter"
 }

@@ -1,0 +1,809 @@
+{
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "source_count": 85,
+  "status_counts": {
+    "cached": 59,
+    "transcribed": 26
+  },
+  "total_cues": 7575,
+  "seed": {
+    "copied": [],
+    "skipped": [],
+    "legacy_missing": false,
+    "uniform_transcripts": 59
+  },
+  "sources": [
+    {
+      "video_id": "-ZDZtBRTyeI",
+      "url": "https://www.youtube.com/watch?v=-ZDZtBRTyeI",
+      "title": "Why American public transit is so bad | 2020 Election",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\-ZDZtBRTyeI\\transcript.json",
+      "cues": 141,
+      "duration": 579.175
+    },
+    {
+      "video_id": "-bbfFf07WNw",
+      "url": "https://www.youtube.com/watch?v=-bbfFf07WNw",
+      "title": "The Economics of K-Pop",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\-bbfFf07WNw\\transcript.json",
+      "cues": 82,
+      "sec": 17.8,
+      "duration": 640.081
+    },
+    {
+      "video_id": "-dsM8zPGqa0",
+      "url": "https://www.youtube.com/watch?v=-dsM8zPGqa0",
+      "title": "Dubai's Plan to Outlive Oil",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\-dsM8zPGqa0\\transcript.json",
+      "cues": 93,
+      "duration": 564.268
+    },
+    {
+      "video_id": "0fhaEIlGux4",
+      "url": "https://www.youtube.com/watch?v=0fhaEIlGux4",
+      "title": "How Taiwan held off Covid-19, until it didn't",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\0fhaEIlGux4\\transcript.json",
+      "cues": 115,
+      "duration": 580.638
+    },
+    {
+      "video_id": "1rb3bMvDdX4",
+      "url": "https://www.youtube.com/watch?v=1rb3bMvDdX4",
+      "title": "Why the $5 Footlong Failed: How Franchising Works",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\1rb3bMvDdX4\\transcript.json",
+      "cues": 127,
+      "duration": 636.134
+    },
+    {
+      "video_id": "2ty2J0s2W0c",
+      "url": "https://www.youtube.com/watch?v=2ty2J0s2W0c",
+      "title": "How rich countries are making the pandemic last longer",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\2ty2J0s2W0c\\transcript.json",
+      "cues": 141,
+      "duration": 523.331
+    },
+    {
+      "video_id": "2z7o3sRxA5g",
+      "url": "https://www.youtube.com/watch?v=2z7o3sRxA5g",
+      "title": "How highways make traffic worse",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\2z7o3sRxA5g\\transcript.json",
+      "cues": 85,
+      "duration": 364.715
+    },
+    {
+      "video_id": "34oI0yd5YUc",
+      "url": "https://www.youtube.com/watch?v=34oI0yd5YUc",
+      "title": "Can we get rid of Covid-19 forever?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\34oI0yd5YUc\\transcript.json",
+      "cues": 115,
+      "sec": 12.9,
+      "duration": 493.145
+    },
+    {
+      "video_id": "3WSQI7aVIgo",
+      "url": "https://www.youtube.com/watch?v=3WSQI7aVIgo",
+      "title": "IRAQ WAR - HOW THE US MILITARY ADAPTED TO THREATS - BBC NEWS",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\3WSQI7aVIgo\\transcript.json",
+      "cues": 1,
+      "sec": 0.9,
+      "duration": 190.427
+    },
+    {
+      "video_id": "4A89J4zrBw8",
+      "url": "https://www.youtube.com/watch?v=4A89J4zrBw8",
+      "title": "The Biology of Business",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\4A89J4zrBw8\\transcript.json",
+      "cues": 56,
+      "duration": 297.633
+    },
+    {
+      "video_id": "5mhwDSHKEyM",
+      "url": "https://www.youtube.com/watch?v=5mhwDSHKEyM",
+      "title": "Why fixing the US bail system is tricky",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\5mhwDSHKEyM\\transcript.json",
+      "cues": 107,
+      "duration": 381.69
+    },
+    {
+      "video_id": "6Xa9T2OMzmw",
+      "url": "https://www.youtube.com/watch?v=6Xa9T2OMzmw",
+      "title": "How wealth inequality is dangerous for America",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\6Xa9T2OMzmw\\transcript.json",
+      "cues": 39,
+      "sec": 5.0,
+      "duration": 155.759
+    },
+    {
+      "video_id": "9QXjBVC233s",
+      "url": "https://www.youtube.com/watch?v=9QXjBVC233s",
+      "title": "Eisenhower's Warning: Military Industrial Complex's Growing Budget | Think Back | The New York Times",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\9QXjBVC233s\\transcript.json",
+      "cues": 34,
+      "duration": 165.326
+    },
+    {
+      "video_id": "9k0WsU7cmtQ",
+      "url": "https://www.youtube.com/watch?v=9k0WsU7cmtQ",
+      "title": "Political Polarization",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\9k0WsU7cmtQ\\transcript.json",
+      "cues": 22,
+      "sec": 2.5,
+      "duration": 101.1
+    },
+    {
+      "video_id": "AABqfDIbXSI",
+      "url": "https://www.youtube.com/watch?v=AABqfDIbXSI",
+      "title": "How IKEA Became Sweden’s National Brand",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\AABqfDIbXSI\\transcript.json",
+      "cues": 82,
+      "duration": 614.029
+    },
+    {
+      "video_id": "AQPlREDW-Ro",
+      "url": "https://www.youtube.com/watch?v=AQPlREDW-Ro",
+      "title": "Iraq Explained -- ISIS, Syria and War",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\AQPlREDW-Ro\\transcript.json",
+      "cues": 51,
+      "duration": 275.621
+    },
+    {
+      "video_id": "BtN-goy9VOY",
+      "url": "https://www.youtube.com/watch?v=BtN-goy9VOY",
+      "title": "The Coronavirus Explained & What You Should Do",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\BtN-goy9VOY\\transcript.json",
+      "cues": 131,
+      "sec": 15.3,
+      "duration": 514.438
+    },
+    {
+      "video_id": "DBP2LTQxqZ8",
+      "url": "https://www.youtube.com/watch?v=DBP2LTQxqZ8",
+      "title": "Do cyclists think they're above the law, and does it even matter?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\DBP2LTQxqZ8\\transcript.json",
+      "cues": 132,
+      "duration": 427.816
+    },
+    {
+      "video_id": "DCnd8KA-iPk",
+      "url": "https://www.youtube.com/watch?v=DCnd8KA-iPk",
+      "title": "How Ukip normalised far-right politics",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\DCnd8KA-iPk\\transcript.json",
+      "cues": 96,
+      "duration": 530.553
+    },
+    {
+      "video_id": "DwAyUV6hTf8",
+      "url": "https://www.youtube.com/watch?v=DwAyUV6hTf8",
+      "title": "The Most Overvalued Startup in the World?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\DwAyUV6hTf8\\transcript.json",
+      "cues": 107,
+      "duration": 702.984
+    },
+    {
+      "video_id": "DxvVZe2fnvI",
+      "url": "https://www.youtube.com/watch?v=DxvVZe2fnvI",
+      "title": "99% v 1%: The Data Behind the Occupy Movement.",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\DxvVZe2fnvI\\transcript.json",
+      "cues": 69,
+      "duration": 341.856
+    },
+    {
+      "video_id": "EFwa5Owp0-k",
+      "url": "https://www.youtube.com/watch?v=EFwa5Owp0-k",
+      "title": "Not Everyone Should Code",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\EFwa5Owp0-k\\transcript.json",
+      "cues": 124,
+      "sec": 16.7,
+      "duration": 526.861
+    },
+    {
+      "video_id": "ENw2y0ek1Jg",
+      "url": "https://www.youtube.com/watch?v=ENw2y0ek1Jg",
+      "title": "The gun solution we're not talking about",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\ENw2y0ek1Jg\\transcript.json",
+      "cues": 86,
+      "sec": 11.4,
+      "duration": 387.704
+    },
+    {
+      "video_id": "EYPs-ya_GDA",
+      "url": "https://www.youtube.com/watch?v=EYPs-ya_GDA",
+      "title": "Is Amazon Too Big?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\EYPs-ya_GDA\\transcript.json",
+      "cues": 148,
+      "duration": 841.329
+    },
+    {
+      "video_id": "F3QpgXBtDeo",
+      "url": "https://www.youtube.com/watch?v=F3QpgXBtDeo",
+      "title": "How The Stock Exchange Works (For Dummies)",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\F3QpgXBtDeo\\transcript.json",
+      "cues": 45,
+      "sec": 5.4,
+      "duration": 213.879
+    },
+    {
+      "video_id": "H9L37cPVSqo",
+      "url": "https://www.youtube.com/watch?v=H9L37cPVSqo",
+      "title": "In the age of COVID-19, do Americans trust science?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\H9L37cPVSqo\\transcript.json",
+      "cues": 60,
+      "duration": 247.084
+    },
+    {
+      "video_id": "HrWVVCuMbdg",
+      "url": "https://www.youtube.com/watch?v=HrWVVCuMbdg",
+      "title": "Weed: 12 Interesting Facts You Should Know",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\HrWVVCuMbdg\\transcript.json",
+      "cues": 51,
+      "duration": 253.376
+    },
+    {
+      "video_id": "JGXi_9A__Vc",
+      "url": "https://www.youtube.com/watch?v=JGXi_9A__Vc",
+      "title": "Everything You Need to Know About Planet Earth",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\JGXi_9A__Vc\\transcript.json",
+      "cues": 113,
+      "sec": 13.2,
+      "duration": 441.609
+    },
+    {
+      "video_id": "JRa5l_LQ32s",
+      "url": "https://www.youtube.com/watch?v=JRa5l_LQ32s",
+      "title": "Is America More Divided Than Ever?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\JRa5l_LQ32s\\transcript.json",
+      "cues": 245,
+      "duration": 558.417
+    },
+    {
+      "video_id": "Jj9vD7cKUhE",
+      "url": "https://www.youtube.com/watch?v=Jj9vD7cKUhE",
+      "title": "Do Americans trust the police?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Jj9vD7cKUhE\\transcript.json",
+      "cues": 48,
+      "duration": 218.337
+    },
+    {
+      "video_id": "KsF_hdjWJjo",
+      "url": "https://www.youtube.com/watch?v=KsF_hdjWJjo",
+      "title": "The Solar System -- our home in space",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\KsF_hdjWJjo\\transcript.json",
+      "cues": 110,
+      "duration": 440.25
+    },
+    {
+      "video_id": "NMo3nZHVrZ4",
+      "url": "https://www.youtube.com/watch?v=NMo3nZHVrZ4",
+      "title": "Overpopulation & Africa",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\NMo3nZHVrZ4\\transcript.json",
+      "cues": 78,
+      "duration": 462.449
+    },
+    {
+      "video_id": "NXHwelwmQPA",
+      "url": "https://www.youtube.com/watch?v=NXHwelwmQPA",
+      "title": "All student debt in the US, visualized",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\NXHwelwmQPA\\transcript.json",
+      "cues": 77,
+      "duration": 316.349
+    },
+    {
+      "video_id": "NbuUW9i-mHs",
+      "url": "https://www.youtube.com/watch?v=NbuUW9i-mHs",
+      "title": "Is War Over? — A Paradox Explained",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\NbuUW9i-mHs\\transcript.json",
+      "cues": 63,
+      "duration": 345.49
+    },
+    {
+      "video_id": "QAa2O_8wBUQ",
+      "url": "https://www.youtube.com/watch?v=QAa2O_8wBUQ",
+      "title": "What is Dark Matter and Dark Energy?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\QAa2O_8wBUQ\\transcript.json",
+      "cues": 84,
+      "sec": 10.4,
+      "duration": 380.041
+    },
+    {
+      "video_id": "QfAXbGInwno",
+      "url": "https://www.youtube.com/watch?v=QfAXbGInwno",
+      "title": "How America can leave fossil fuels behind, in one chart | 2020 Election",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\QfAXbGInwno\\transcript.json",
+      "cues": 125,
+      "duration": 670.639
+    },
+    {
+      "video_id": "RWhMEkMtLy0",
+      "url": "https://www.youtube.com/watch?v=RWhMEkMtLy0",
+      "title": "Should you wear a bike helmet?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\RWhMEkMtLy0\\transcript.json",
+      "cues": 72,
+      "duration": 372.053
+    },
+    {
+      "video_id": "RuPx61911Oo",
+      "url": "https://www.youtube.com/watch?v=RuPx61911Oo",
+      "title": "Why Israel is a Tech Capital of the World",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\RuPx61911Oo\\transcript.json",
+      "cues": 151,
+      "duration": 704.122
+    },
+    {
+      "video_id": "SZ8HlNGMolw",
+      "url": "https://www.youtube.com/watch?v=SZ8HlNGMolw",
+      "title": "How India ran out of oxygen",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\SZ8HlNGMolw\\transcript.json",
+      "cues": 96,
+      "sec": 16.0,
+      "duration": 659.586
+    },
+    {
+      "video_id": "TLEAY9ih6dM",
+      "url": "https://www.youtube.com/watch?v=TLEAY9ih6dM",
+      "title": "India election 2019: Are women any safer? - BBC News",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\TLEAY9ih6dM\\transcript.json",
+      "cues": 64,
+      "duration": 288.74
+    },
+    {
+      "video_id": "Tqt9hZcWhJM",
+      "url": "https://www.youtube.com/watch?v=Tqt9hZcWhJM",
+      "title": "How Big is the Moon? MM#1",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Tqt9hZcWhJM\\transcript.json",
+      "cues": 26,
+      "duration": 100.055
+    },
+    {
+      "video_id": "UhZSTfJbZXU",
+      "url": "https://www.youtube.com/watch?v=UhZSTfJbZXU",
+      "title": "How polarizing is Donald Trump?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\UhZSTfJbZXU\\transcript.json",
+      "cues": 70,
+      "duration": 168.182
+    },
+    {
+      "video_id": "Uti2niW2BRA",
+      "url": "https://www.youtube.com/watch?v=Uti2niW2BRA",
+      "title": "Fracking explained: opportunity or danger",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Uti2niW2BRA\\transcript.json",
+      "cues": 56,
+      "sec": 7.4,
+      "duration": 303.09
+    },
+    {
+      "video_id": "VCdTyl141bA",
+      "url": "https://www.youtube.com/watch?v=VCdTyl141bA",
+      "title": "Why African-Americans left the south in droves — and what's bringing them back",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\VCdTyl141bA\\transcript.json",
+      "cues": 92,
+      "duration": 382.27
+    },
+    {
+      "video_id": "VWAkhFJm7Q0",
+      "url": "https://www.youtube.com/watch?v=VWAkhFJm7Q0",
+      "title": "All the Medalists: Men's 100-Meter Freestyle",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\VWAkhFJm7Q0\\transcript.json",
+      "cues": 39,
+      "sec": 4.5,
+      "duration": 155.063
+    },
+    {
+      "video_id": "Vuw7cj2PvYQ",
+      "url": "https://www.youtube.com/watch?v=Vuw7cj2PvYQ",
+      "title": "How America's abortion obsession was sparked on a conference call",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Vuw7cj2PvYQ\\transcript.json",
+      "cues": 162,
+      "sec": 16.4,
+      "duration": 570.027
+    },
+    {
+      "video_id": "WSKi8HfcxEk",
+      "url": "https://www.youtube.com/watch?v=WSKi8HfcxEk",
+      "title": "The Rise of the Machines – Why Automation is Different this Time",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\WSKi8HfcxEk\\transcript.json",
+      "cues": 120,
+      "duration": 656.467
+    },
+    {
+      "video_id": "WjVVwMGJ9S8",
+      "url": "https://www.youtube.com/watch?v=WjVVwMGJ9S8",
+      "title": "The problem with America's college entrance exam",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\WjVVwMGJ9S8\\transcript.json",
+      "cues": 129,
+      "duration": 529.508
+    },
+    {
+      "video_id": "XRUxTFWWWdY",
+      "url": "https://www.youtube.com/watch?v=XRUxTFWWWdY",
+      "title": "Why scientists are so worried about this glacier",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\XRUxTFWWWdY\\transcript.json",
+      "cues": 70,
+      "sec": 8.8,
+      "duration": 298.226
+    },
+    {
+      "video_id": "Z3RzNEzJyzo",
+      "url": "https://www.youtube.com/watch?v=Z3RzNEzJyzo",
+      "title": "Simulation of a Nuclear Blast in a Major City",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Z3RzNEzJyzo\\transcript.json",
+      "cues": 64,
+      "duration": 478.656
+    },
+    {
+      "video_id": "Z6rilA4uTlQ",
+      "url": "https://www.youtube.com/watch?v=Z6rilA4uTlQ",
+      "title": "Is Solar Energy Really Better Than Nuclear Energy?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\Z6rilA4uTlQ\\transcript.json",
+      "cues": 86,
+      "sec": 10.4,
+      "duration": 330.048
+    },
+    {
+      "video_id": "ZxXOyYSHcfE",
+      "url": "https://www.youtube.com/watch?v=ZxXOyYSHcfE",
+      "title": "Americans Dodge $660 Billion in Taxes Each Year And It's Probably Getting Worse",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\ZxXOyYSHcfE\\transcript.json",
+      "cues": 35,
+      "duration": 109.157
+    },
+    {
+      "video_id": "_8KlJgaS42U",
+      "url": "https://www.youtube.com/watch?v=_8KlJgaS42U",
+      "title": "Off by Trillions: The Reality of our Pension Problem (Pension Pursuit)",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\_8KlJgaS42U\\transcript.json",
+      "cues": 59,
+      "duration": 263.384
+    },
+    {
+      "video_id": "a0wHffQi4xo",
+      "url": "https://www.youtube.com/watch?v=a0wHffQi4xo",
+      "title": "Dewi and Putri: How Inequality Separates Two Girls from Indonesia",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\a0wHffQi4xo\\transcript.json",
+      "cues": 43,
+      "duration": 211.093
+    },
+    {
+      "video_id": "ajavsMbCapY",
+      "url": "https://www.youtube.com/watch?v=ajavsMbCapY",
+      "title": "The Electoral College, explained",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\ajavsMbCapY\\transcript.json",
+      "cues": 121,
+      "duration": 488.339
+    },
+    {
+      "video_id": "bIAF7kBbGKk",
+      "url": "https://www.youtube.com/watch?v=bIAF7kBbGKk",
+      "title": "Estimating Deaths in a Nuclear War",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\bIAF7kBbGKk\\transcript.json",
+      "cues": 179,
+      "duration": 839.378
+    },
+    {
+      "video_id": "cKQLKf3dS1Y",
+      "url": "https://www.youtube.com/watch?v=cKQLKf3dS1Y",
+      "title": "The End of the SAT?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\cKQLKf3dS1Y\\transcript.json",
+      "cues": 152,
+      "sec": 19.6,
+      "duration": 694.393
+    },
+    {
+      "video_id": "dZh0B8AYxac",
+      "url": "https://www.youtube.com/watch?v=dZh0B8AYxac",
+      "title": "How Somalia’s Pirates Make Money",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\dZh0B8AYxac\\transcript.json",
+      "cues": 128,
+      "duration": 554.423
+    },
+    {
+      "video_id": "dmiqQmjgozo",
+      "url": "https://www.youtube.com/watch?v=dmiqQmjgozo",
+      "title": "Is the number of unauthorized immigrants living in the U.S. declining?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\dmiqQmjgozo\\transcript.json",
+      "cues": 56,
+      "sec": 6.8,
+      "duration": 246.062
+    },
+    {
+      "video_id": "eBV4GmK4kO4",
+      "url": "https://www.youtube.com/watch?v=eBV4GmK4kO4",
+      "title": "China vs Japan - Who Would Win - Army / Military Comparison",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\eBV4GmK4kO4\\transcript.json",
+      "cues": 114,
+      "duration": 440.853
+    },
+    {
+      "video_id": "jHgZzIRhezo",
+      "url": "https://www.youtube.com/watch?v=jHgZzIRhezo",
+      "title": "Can We Still Trust Polls?",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\jHgZzIRhezo\\transcript.json",
+      "cues": 92,
+      "sec": 11.5,
+      "duration": 390.444
+    },
+    {
+      "video_id": "jzFTwBkIC5o",
+      "url": "https://www.youtube.com/watch?v=jzFTwBkIC5o",
+      "title": "The Economics of Uber",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\jzFTwBkIC5o\\transcript.json",
+      "cues": 102,
+      "sec": 17.8,
+      "duration": 581.521
+    },
+    {
+      "video_id": "kXCGbAv8YPw",
+      "url": "https://www.youtube.com/watch?v=kXCGbAv8YPw",
+      "title": "Who pays the lowest taxes in the US?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\kXCGbAv8YPw\\transcript.json",
+      "cues": 82,
+      "duration": 350.993
+    },
+    {
+      "video_id": "lTKuQQegNTs",
+      "url": "https://www.youtube.com/watch?v=lTKuQQegNTs",
+      "title": "Subscription Affliction - Everything is $10/month",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\lTKuQQegNTs\\transcript.json",
+      "cues": 125,
+      "sec": 21.7,
+      "duration": 664.625
+    },
+    {
+      "video_id": "mGgBY3yBpYY",
+      "url": "https://www.youtube.com/watch?v=mGgBY3yBpYY",
+      "title": "The Rise of Online Video",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\mGgBY3yBpYY\\transcript.json",
+      "cues": 20,
+      "duration": 114.962
+    },
+    {
+      "video_id": "n58iQN3MbSU",
+      "url": "https://www.youtube.com/watch?v=n58iQN3MbSU",
+      "title": "Do Americans trust their elections?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\n58iQN3MbSU\\transcript.json",
+      "cues": 55,
+      "duration": 244.576
+    },
+    {
+      "video_id": "oW4hfaiXKG8",
+      "url": "https://www.youtube.com/watch?v=oW4hfaiXKG8",
+      "title": "Does this line predict America??s next recession? | The Economist",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\oW4hfaiXKG8\\transcript.json",
+      "cues": 72,
+      "sec": 8.4,
+      "duration": 255.536
+    },
+    {
+      "video_id": "oakWgLqCwUc",
+      "url": "https://www.youtube.com/watch?v=oakWgLqCwUc",
+      "title": "Milk. White Poison or Healthy Drink?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\oakWgLqCwUc\\transcript.json",
+      "cues": 132,
+      "duration": 554.957
+    },
+    {
+      "video_id": "pN36jVSp1x0",
+      "url": "https://www.youtube.com/watch?v=pN36jVSp1x0",
+      "title": "Should we abolish private schools?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\pN36jVSp1x0\\transcript.json",
+      "cues": 70,
+      "duration": 422.58
+    },
+    {
+      "video_id": "pTwPHuE_HrU",
+      "url": "https://www.youtube.com/watch?v=pTwPHuE_HrU",
+      "title": "A better way to tax the rich",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\pTwPHuE_HrU\\transcript.json",
+      "cues": 44,
+      "duration": 225.535
+    },
+    {
+      "video_id": "pVbLlnmxIbY",
+      "url": "https://www.youtube.com/watch?v=pVbLlnmxIbY",
+      "title": "3 Reasons Why Nuclear Energy Is Awesome! 3/3",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\pVbLlnmxIbY\\transcript.json",
+      "cues": 59,
+      "sec": 6.8,
+      "duration": 226.4
+    },
+    {
+      "video_id": "qXdjt8ZBQbE",
+      "url": "https://www.youtube.com/watch?v=qXdjt8ZBQbE",
+      "title": "Big questions about the Covid booster shot, answered",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\qXdjt8ZBQbE\\transcript.json",
+      "cues": 99,
+      "duration": 469.484
+    },
+    {
+      "video_id": "sAN1J4PY6is",
+      "url": "https://www.youtube.com/watch?v=sAN1J4PY6is",
+      "title": "VEGANS vs MEAT EATERS - Who Will Live Longer? Food / Diet Comparison",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\sAN1J4PY6is\\transcript.json",
+      "cues": 61,
+      "sec": 11.3,
+      "duration": 333.949
+    },
+    {
+      "video_id": "t6V9i8fFADI",
+      "url": "https://www.youtube.com/watch?v=t6V9i8fFADI",
+      "title": "How the rich avoid paying taxes",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\t6V9i8fFADI\\transcript.json",
+      "cues": 104,
+      "duration": 366.922
+    },
+    {
+      "video_id": "td13Zz1z3LA",
+      "url": "https://www.youtube.com/watch?v=td13Zz1z3LA",
+      "title": "Why your memories can't be trusted",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\td13Zz1z3LA\\transcript.json",
+      "cues": 125,
+      "duration": 455.68
+    },
+    {
+      "video_id": "uampTRW4KbQ",
+      "url": "https://www.youtube.com/watch?v=uampTRW4KbQ",
+      "title": "Why the Green New Deal matters",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\uampTRW4KbQ\\transcript.json",
+      "cues": 45,
+      "duration": 365.482
+    },
+    {
+      "video_id": "ubKBuoK30j0",
+      "url": "https://www.youtube.com/watch?v=ubKBuoK30j0",
+      "title": "How do Americans view economic inequality?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\ubKBuoK30j0\\transcript.json",
+      "cues": 43,
+      "duration": 219.452
+    },
+    {
+      "video_id": "v7xmkzVU29Q",
+      "url": "https://www.youtube.com/watch?v=v7xmkzVU29Q",
+      "title": "Why drugs cost more in America",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\v7xmkzVU29Q\\transcript.json",
+      "cues": 108,
+      "duration": 257.429
+    },
+    {
+      "video_id": "vhAXp0xzMFg",
+      "url": "https://www.youtube.com/watch?v=vhAXp0xzMFg",
+      "title": "Why are houses so expensive?",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\vhAXp0xzMFg\\transcript.json",
+      "cues": 77,
+      "duration": 356.589
+    },
+    {
+      "video_id": "w8Il1y1hTFc",
+      "url": "https://www.youtube.com/watch?v=w8Il1y1hTFc",
+      "title": "How to Save the Online Economy",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\w8Il1y1hTFc\\transcript.json",
+      "cues": 182,
+      "duration": 638.967
+    },
+    {
+      "video_id": "wFqQm1541aA",
+      "url": "https://www.youtube.com/watch?v=wFqQm1541aA",
+      "title": "Teaching in the US vs. the rest of the world",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\wFqQm1541aA\\transcript.json",
+      "cues": 39,
+      "duration": 278.268
+    },
+    {
+      "video_id": "xfQBkdLa6fo",
+      "url": "https://www.youtube.com/watch?v=xfQBkdLa6fo",
+      "title": "Why In-N-Out Isn't Coming to a City Near You",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\xfQBkdLa6fo\\transcript.json",
+      "cues": 96,
+      "duration": 660.12
+    },
+    {
+      "video_id": "ylLTMYt24lA",
+      "url": "https://www.youtube.com/watch?v=ylLTMYt24lA",
+      "title": "How American CEOs got so rich",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\ylLTMYt24lA\\transcript.json",
+      "cues": 144,
+      "duration": 607.659
+    },
+    {
+      "video_id": "zIeVmqVB9pQ",
+      "url": "https://www.youtube.com/watch?v=zIeVmqVB9pQ",
+      "title": "Scottish independence referendum 2014 explained | Guardian Animations",
+      "status": "transcribed",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\zIeVmqVB9pQ\\transcript.json",
+      "cues": 91,
+      "sec": 10.6,
+      "duration": 305.131
+    },
+    {
+      "video_id": "zbTdT6wkY8k",
+      "url": "https://www.youtube.com/watch?v=zbTdT6wkY8k",
+      "title": "CIA Spent $20 Million Training Cats To Be Spies - Unbelievable But True Cat Facts",
+      "status": "cached",
+      "path": "D:\\dev\\data_video_dataset_pipeline\\data\\processed\\_full_uniform_whisper_small_20261112\\zbTdT6wkY8k\\transcript.json",
+      "cues": 41,
+      "duration": 168.066
+    }
+  ]
+}

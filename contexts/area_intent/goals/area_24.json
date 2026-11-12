@@ -1,0 +1,436 @@
+{
+ "clip": "area_24",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Compare the Moon's 3,500 km diameter with Ganymede, Titan, Kallisto, Io, and Pluto to show it is larger than Pluto but smaller than the four largest moons.",
+ "core_claim": "The Moon is 3,500 km across, larger than Pluto's 2,300 km but smaller than Ganymede, Titan, Kallisto, and Io.",
+ "chart_role": "relative size comparison",
+ "source_consistency": "corrected_from_old_intent",
+ "issues": [
+  "Narration claims the Moon is the biggest moon relative to its planet and fifth largest overall, but the table shows it as fifth of six listed bodies by diameter, not a relative-to-planet ranking.",
+  "Narration's 'fifth largest Moon' is not directly supported by the six-row diameter table."
+ ],
+ "confidence": 0.8,
+ "old_intent": "To illustrate the relative size of Earth's Moon compared to other large moons and Pluto, emphasizing its substantial size.",
+ "narration": "Our Moon is the biggest in the solar system in relation to its planet, and it's the fifth largest Moon in the solar system, quite a bit bigger than the dwarf planet Pluto.",
+ "svg_text": [
+  "GANYMED",
+  "5300 KM",
+  "TITAN",
+  "5200 KM",
+  "KALLISTO",
+  "4800 KM",
+  "IO",
+  "3600 KM",
+  "MOON",
+  "3500 KM",
+  "PLUTO 2300 KM"
+ ],
+ "chart_spec": {
+  "clip_id": "area_24",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 6,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "GANYMED",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 5300.0,
+    "value_max": 5300.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "GANYMED",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "5300",
+     "unit": "km",
+     "label": "5,300 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "GANYMED",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "5300",
+     "unit": "km",
+     "label": "5,300 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "TITAN",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 5200.0,
+    "value_max": 5200.0,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "TITAN",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "5200",
+     "unit": "km",
+     "label": "5,200 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "TITAN",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "5200",
+     "unit": "km",
+     "label": "5,200 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "KALLISTO",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 4800.0,
+    "value_max": 4800.0,
+    "first": {
+     "_row_id": "r3",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "KALLISTO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "4800",
+     "unit": "km",
+     "label": "4,800 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r3",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "KALLISTO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "4800",
+     "unit": "km",
+     "label": "4,800 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r3"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "IO",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 3600.0,
+    "value_max": 3600.0,
+    "first": {
+     "_row_id": "r4",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "IO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3600",
+     "unit": "km",
+     "label": "3,600 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r4",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "IO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3600",
+     "unit": "km",
+     "label": "3,600 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r4"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "MOON",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 3500.0,
+    "value_max": 3500.0,
+    "first": {
+     "_row_id": "r5",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "MOON",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3500",
+     "unit": "km",
+     "label": "3,500 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r5",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "MOON",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3500",
+     "unit": "km",
+     "label": "3,500 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r5"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "PLUTO",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 2300.0,
+    "value_max": 2300.0,
+    "first": {
+     "_row_id": "r6",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "PLUTO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "2300",
+     "unit": "km",
+     "label": "2,300 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r6",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "PLUTO",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "2300",
+     "unit": "km",
+     "label": "2,300 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r6"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "GANYMED",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "5300",
+    "unit": "km",
+    "label": "5,300 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "TITAN",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "5200",
+    "unit": "km",
+    "label": "5,200 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r3",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "KALLISTO",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "4800",
+    "unit": "km",
+    "label": "4,800 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r4",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "IO",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "3600",
+    "unit": "km",
+    "label": "3,600 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r5",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "MOON",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "3500",
+    "unit": "km",
+    "label": "3,500 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r6",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "PLUTO",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "2300",
+    "unit": "km",
+    "label": "2,300 KM",
+    "role": "proportional_circle"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Compare the Moon's 3,500 km diameter with Ganymede, Titan, Kallisto, Io, and Pluto to show it is larger than Pluto but smaller than the four largest moons.",
+  "corrected_core_claim": "The Moon is 3,500 km across, larger than Pluto's 2,300 km but smaller than Ganymede, Titan, Kallisto, and Io."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 3027,
+   "completion_tokens": 198,
+   "total_tokens": 3225,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 2899
+  },
+  "audit": {
+   "prompt_tokens": 2842,
+   "completion_tokens": 112,
+   "total_tokens": 2954,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 2842
+  }
+ },
+ "sec": 2.6
+}

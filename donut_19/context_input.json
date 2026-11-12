@@ -1,0 +1,2106 @@
+{
+  "clip_id": "donut_19",
+  "family": "donut",
+  "video_id": "KsF_hdjWJjo",
+  "source_url": "https://www.youtube.com/watch?v=KsF_hdjWJjo",
+  "source_title": "The Solar System -- our home in space",
+  "target_window_source": {
+    "start": 247.0,
+    "end": 260.0
+  },
+  "target_mask_interval": {
+    "start": 245.5,
+    "end": 261.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    66,
+    67,
+    68,
+    69
+  ],
+  "masked_cue_ids": [
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 3.73,
+      "end": 5.73,
+      "text": "The Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 1,
+      "start": 5.73,
+      "end": 10.14,
+      "text": "Our home in space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 2,
+      "start": 10.14,
+      "end": 13.14,
+      "text": "We live in a peaceful part of the Milky Way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 3,
+      "start": 13.14,
+      "end": 16.14,
+      "text": "Our home is the Solar System,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 4,
+      "start": 16.14,
+      "end": 18.14,
+      "text": "a four-and-a-half-billion-year-old formation",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 5,
+      "start": 18.14,
+      "end": 20.14,
+      "text": "that races around the galactic centre",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 6,
+      "start": 20.14,
+      "end": 23.14,
+      "text": "at 200,000 km per hour",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 7,
+      "start": 23.14,
+      "end": 29.14,
+      "text": "and circles it once every 250 million years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 8,
+      "start": 29.14,
+      "end": 33.14,
+      "text": "Our star, the Sun, is at the centre of the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 9,
+      "start": 33.14,
+      "end": 36.14,
+      "text": "It's orbited by eight planets,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 10,
+      "start": 36.14,
+      "end": 38.14,
+      "text": "trillions of asteroids and comets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 11,
+      "start": 38.14,
+      "end": 41.14,
+      "text": "and a few dwarf planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 12,
+      "start": 41.14,
+      "end": 44.14,
+      "text": "The eight planets are divided into four planets like ours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 13,
+      "start": 44.14,
+      "end": 47.14,
+      "text": "Mercury, Venus, Earth and Mars",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 14,
+      "start": 47.14,
+      "end": 52.14,
+      "text": "and four gas giants, Jupiter, Saturn, Uranus and Neptune.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 15,
+      "start": 52.14,
+      "end": 56.74,
+      "text": "Mercury is the smallest and lightest of all the planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 16,
+      "start": 56.74,
+      "end": 59.74,
+      "text": "A Mercury year is shorter than a Mercury day",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 17,
+      "start": 59.74,
+      "end": 63.74,
+      "text": "which leads to enormous fluctuations in temperature.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 18,
+      "start": 63.74,
+      "end": 66.74,
+      "text": "Mercury does not have an atmosphere or a moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 19,
+      "start": 66.74,
+      "end": 71.5,
+      "text": "Venus is one of the brightest objects in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 20,
+      "start": 71.5,
+      "end": 73.5,
+      "text": "and by far the hottest planet",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 21,
+      "start": 73.5,
+      "end": 77.5,
+      "text": "with atmospheric pressure that is 92 times higher than on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 22,
+      "start": 77.5,
+      "end": 81.9,
+      "text": "An out-of-control greenhouse effect",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 23,
+      "start": 81.9,
+      "end": 86.9,
+      "text": "means that Venus never cools below 437 degrees Celsius.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 24,
+      "start": 86.9,
+      "end": 90.85,
+      "text": "Venus also doesn't have a moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 25,
+      "start": 90.85,
+      "end": 94.29,
+      "text": "Earth is our home",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 26,
+      "start": 94.29,
+      "end": 97.29,
+      "text": "and the only planet with temperatures that are moderate enough",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 27,
+      "start": 97.29,
+      "end": 100.29,
+      "text": "to allow for a surplus of liquid water.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 28,
+      "start": 100.29,
+      "end": 105.29,
+      "text": "Furthermore, it's so far the only place where life is known to exist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 29,
+      "start": 105.29,
+      "end": 110.02,
+      "text": "The Earth has one moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 30,
+      "start": 110.02,
+      "end": 113.02,
+      "text": "Mars is the second smallest planet in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 31,
+      "start": 113.02,
+      "end": 116.02,
+      "text": "and hardly massive enough to keep a very thin atmosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 32,
+      "start": 116.02,
+      "end": 120.02,
+      "text": "Its Olympus Mons is the largest mountain in the Solar System,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 33,
+      "start": 120.02,
+      "end": 123.02,
+      "text": "more than three times as high as Mount Everest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 34,
+      "start": 123.02,
+      "end": 126.02,
+      "text": "Mars has two small moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 35,
+      "start": 126.02,
+      "end": 132.42,
+      "text": "Jupiter is the largest and most massive planet in the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 36,
+      "start": 132.42,
+      "end": 135.42,
+      "text": "It consists largely of hydrogen and helium",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 37,
+      "start": 135.42,
+      "end": 140.42,
+      "text": "and is the theatre for the largest and most powerful storms we know.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 38,
+      "start": 140.42,
+      "end": 145.42,
+      "text": "Its largest storm, the Great Red Spot, is three times as large as Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 39,
+      "start": 145.42,
+      "end": 149.42,
+      "text": "Jupiter has 67 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 40,
+      "start": 149.42,
+      "end": 151.42,
+      "text": "Saturn is the second largest planet",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 41,
+      "start": 151.42,
+      "end": 155.42,
+      "text": "and possesses the smallest density of all the planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 42,
+      "start": 155.42,
+      "end": 159.42,
+      "text": "If you had a sufficiently large bathtub, Saturn would swim in it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 43,
+      "start": 159.42,
+      "end": 164.42,
+      "text": "Saturn is also known for its extended, very visible ring system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 44,
+      "start": 164.42,
+      "end": 167.42,
+      "text": "It has 62 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 45,
+      "start": 167.42,
+      "end": 171.42,
+      "text": "Uranus is the third largest planet and one of the coldest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 46,
+      "start": 171.42,
+      "end": 175.42,
+      "text": "Of all the gas giants, it's also the smallest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 47,
+      "start": 175.42,
+      "end": 178.42,
+      "text": "The special thing about Uranus is that its axis of rotation",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 48,
+      "start": 178.42,
+      "end": 182.42,
+      "text": "is tilted sideways in contrast to the seven other planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 49,
+      "start": 182.42,
+      "end": 185.42,
+      "text": "It has 27 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 50,
+      "start": 185.42,
+      "end": 188.42,
+      "text": "Neptune is the last planet in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 51,
+      "start": 188.42,
+      "end": 191.42,
+      "text": "and is similar to Uranus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 52,
+      "start": 191.42,
+      "end": 196.42,
+      "text": "It's so far removed from the sun that a Neptune year is 164 Earth years long.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 53,
+      "start": 196.42,
+      "end": 201.92,
+      "text": "The highest wind speed ever measured was in a storm on Neptune",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 54,
+      "start": 201.92,
+      "end": 207.68,
+      "text": "at just under 2,100 km per hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 55,
+      "start": 207.68,
+      "end": 209.68,
+      "text": "Neptune has 14 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 56,
+      "start": 209.68,
+      "end": 214.7,
+      "text": "If we compare the sizes of the planet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 57,
+      "start": 214.7,
+      "end": 217.7,
+      "text": "the differences between them become even clearer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 58,
+      "start": 217.7,
+      "end": 222.7,
+      "text": "Jupiter is the leader in terms of size and weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 59,
+      "start": 222.7,
+      "end": 224.7,
+      "text": "Small Mercury, on the other hand,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 60,
+      "start": 224.7,
+      "end": 228.7,
+      "text": "is even smaller than one of Jupiter's moons, Ganymede.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 61,
+      "start": 228.7,
+      "end": 232.7,
+      "text": "Jupiter is so massive that alone it contains roughly 70%",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 62,
+      "start": 232.7,
+      "end": 234.7,
+      "text": "of the mass of all the other planets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 63,
+      "start": 234.7,
+      "end": 237.7,
+      "text": "and has a massive impact on its surroundings.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 64,
+      "start": 237.7,
+      "end": 239.7,
+      "text": "That's a blessing for Earth,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 65,
+      "start": 239.7,
+      "end": 242.7,
+      "text": "since Jupiter draws most of the dangerously large asteroids",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    }
+  ],
+  "context_after": [
+    {
+      "index": 71,
+      "start": 264.3,
+      "end": 269.3,
+      "text": "Only less than 2% is made up of heavy elements like oxygen or iron.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 72,
+      "start": 269.3,
+      "end": 274.3,
+      "text": "At its core, the Sun fuses 620 million tons of hydrogen each second",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 73,
+      "start": 274.3,
+      "end": 279.3,
+      "text": "and generates enough energy to satisfy mankind's needs for years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 74,
+      "start": 281.93,
+      "end": 284.93,
+      "text": "But not only the eight planets orbit our Sun,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 75,
+      "start": 284.93,
+      "end": 288.93,
+      "text": "trillions of asteroids and comets also circle it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 76,
+      "start": 288.93,
+      "end": 291.93,
+      "text": "Most of them are concentrated into two belts,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 77,
+      "start": 291.93,
+      "end": 294.93,
+      "text": "the asteroid belt between Mars and Jupiter,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 78,
+      "start": 294.93,
+      "end": 298.93,
+      "text": "and the Kuiper belt at the edge of the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 79,
+      "start": 298.93,
+      "end": 300.93,
+      "text": "These belts are home to countless objects,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 80,
+      "start": 300.93,
+      "end": 302.93,
+      "text": "some as large as a dust particle,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 81,
+      "start": 302.93,
+      "end": 305.93,
+      "text": "others the size of dwarf planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 82,
+      "start": 305.93,
+      "end": 309.93,
+      "text": "The most well-known object in the asteroid belt is Ceres.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 83,
+      "start": 309.93,
+      "end": 312.93,
+      "text": "The most well-known objects in the Kuiper belt are Pluto,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 84,
+      "start": 312.93,
+      "end": 315.93,
+      "text": "Makemake and Hermaea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 85,
+      "start": 315.93,
+      "end": 319.93,
+      "text": "Usually, we describe the asteroid belt as a dense collection of bodies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 86,
+      "start": 319.93,
+      "end": 322.93,
+      "text": "that constantly collide.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 87,
+      "start": 322.93,
+      "end": 325.93,
+      "text": "But in fact, the asteroids are distributed across an area",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 88,
+      "start": 325.93,
+      "end": 327.93,
+      "text": "that is so indescribably large",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 89,
+      "start": 327.93,
+      "end": 331.93,
+      "text": "that it's even difficult to see two asteroids at once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 90,
+      "start": 331.93,
+      "end": 334.93,
+      "text": "Despite the billions of objects in them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 91,
+      "start": 334.93,
+      "end": 337.93,
+      "text": "the asteroid belts are fairly empty places.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 92,
+      "start": 337.93,
+      "end": 341.93,
+      "text": "And nonetheless, there are collisions over and over again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 93,
+      "start": 341.93,
+      "end": 344.93,
+      "text": "The mass of both belts is also unimpressive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 94,
+      "start": 344.93,
+      "end": 348.93,
+      "text": "The asteroid belt has a little less than 4% of our Moon's mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 95,
+      "start": 348.93,
+      "end": 353.93,
+      "text": "And the Kuiper belt is only between 1.25 and 1.10th of Earth's mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 96,
+      "start": 353.93,
+      "end": 360.71,
+      "text": "One day, the Solar System will cease to exist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 97,
+      "start": 360.71,
+      "end": 365.71,
+      "text": "The Sun will die, and Mercury, Venus and maybe Earth too will be destroyed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 98,
+      "start": 365.71,
+      "end": 369.71,
+      "text": "In 500 million years, it will become hotter and hotter",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 99,
+      "start": 369.71,
+      "end": 372.71,
+      "text": "until at some point it will melt Earth's crust.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 100,
+      "start": 372.71,
+      "end": 378.34,
+      "text": "Then the Sun will grow and grow and either swallow Earth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 101,
+      "start": 378.34,
+      "end": 381.34,
+      "text": "or at least turn it into a sea of lava.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 102,
+      "start": 381.34,
+      "end": 386.81,
+      "text": "When it has burnt up all its fuel and lost most of its mass,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 103,
+      "start": 386.81,
+      "end": 391.81,
+      "text": "it will shrink to a white dwarf and burn gently for a few billion more years",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 104,
+      "start": 391.81,
+      "end": 395.81,
+      "text": "before it goes out entirely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 105,
+      "start": 395.81,
+      "end": 400.81,
+      "text": "Then, at the latest, life in the Solar System will no longer be possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 106,
+      "start": 400.81,
+      "end": 403.81,
+      "text": "The Milky Way will not even notice it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 107,
+      "start": 403.81,
+      "end": 408.81,
+      "text": "A small part of it in one of its arms will become just a tiny bit darker",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 108,
+      "start": 408.81,
+      "end": 411.81,
+      "text": "and mankind will cease to exist",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 109,
+      "start": 411.81,
+      "end": 416.81,
+      "text": "or leave the Solar System in search of a new home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 3.73,
+      "end": 5.73,
+      "text": "The Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 1,
+      "start": 5.73,
+      "end": 10.14,
+      "text": "Our home in space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 2,
+      "start": 10.14,
+      "end": 13.14,
+      "text": "We live in a peaceful part of the Milky Way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 3,
+      "start": 13.14,
+      "end": 16.14,
+      "text": "Our home is the Solar System,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 4,
+      "start": 16.14,
+      "end": 18.14,
+      "text": "a four-and-a-half-billion-year-old formation",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 5,
+      "start": 18.14,
+      "end": 20.14,
+      "text": "that races around the galactic centre",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 6,
+      "start": 20.14,
+      "end": 23.14,
+      "text": "at 200,000 km per hour",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 7,
+      "start": 23.14,
+      "end": 29.14,
+      "text": "and circles it once every 250 million years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 8,
+      "start": 29.14,
+      "end": 33.14,
+      "text": "Our star, the Sun, is at the centre of the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164687,
+      "no_speech_prob": 0.036163
+    },
+    {
+      "index": 9,
+      "start": 33.14,
+      "end": 36.14,
+      "text": "It's orbited by eight planets,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 10,
+      "start": 36.14,
+      "end": 38.14,
+      "text": "trillions of asteroids and comets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 11,
+      "start": 38.14,
+      "end": 41.14,
+      "text": "and a few dwarf planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 12,
+      "start": 41.14,
+      "end": 44.14,
+      "text": "The eight planets are divided into four planets like ours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 13,
+      "start": 44.14,
+      "end": 47.14,
+      "text": "Mercury, Venus, Earth and Mars",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 14,
+      "start": 47.14,
+      "end": 52.14,
+      "text": "and four gas giants, Jupiter, Saturn, Uranus and Neptune.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 15,
+      "start": 52.14,
+      "end": 56.74,
+      "text": "Mercury is the smallest and lightest of all the planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 16,
+      "start": 56.74,
+      "end": 59.74,
+      "text": "A Mercury year is shorter than a Mercury day",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 17,
+      "start": 59.74,
+      "end": 63.74,
+      "text": "which leads to enormous fluctuations in temperature.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073644,
+      "no_speech_prob": 0.004677
+    },
+    {
+      "index": 18,
+      "start": 63.74,
+      "end": 66.74,
+      "text": "Mercury does not have an atmosphere or a moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 19,
+      "start": 66.74,
+      "end": 71.5,
+      "text": "Venus is one of the brightest objects in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 20,
+      "start": 71.5,
+      "end": 73.5,
+      "text": "and by far the hottest planet",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 21,
+      "start": 73.5,
+      "end": 77.5,
+      "text": "with atmospheric pressure that is 92 times higher than on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 22,
+      "start": 77.5,
+      "end": 81.9,
+      "text": "An out-of-control greenhouse effect",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 23,
+      "start": 81.9,
+      "end": 86.9,
+      "text": "means that Venus never cools below 437 degrees Celsius.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 24,
+      "start": 86.9,
+      "end": 90.85,
+      "text": "Venus also doesn't have a moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 25,
+      "start": 90.85,
+      "end": 94.29,
+      "text": "Earth is our home",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 26,
+      "start": 94.29,
+      "end": 97.29,
+      "text": "and the only planet with temperatures that are moderate enough",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 27,
+      "start": 97.29,
+      "end": 100.29,
+      "text": "to allow for a surplus of liquid water.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052013,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 28,
+      "start": 100.29,
+      "end": 105.29,
+      "text": "Furthermore, it's so far the only place where life is known to exist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 29,
+      "start": 105.29,
+      "end": 110.02,
+      "text": "The Earth has one moon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 30,
+      "start": 110.02,
+      "end": 113.02,
+      "text": "Mars is the second smallest planet in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 31,
+      "start": 113.02,
+      "end": 116.02,
+      "text": "and hardly massive enough to keep a very thin atmosphere.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 32,
+      "start": 116.02,
+      "end": 120.02,
+      "text": "Its Olympus Mons is the largest mountain in the Solar System,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 33,
+      "start": 120.02,
+      "end": 123.02,
+      "text": "more than three times as high as Mount Everest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 34,
+      "start": 123.02,
+      "end": 126.02,
+      "text": "Mars has two small moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 35,
+      "start": 126.02,
+      "end": 132.42,
+      "text": "Jupiter is the largest and most massive planet in the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059645,
+      "no_speech_prob": 0.000335
+    },
+    {
+      "index": 36,
+      "start": 132.42,
+      "end": 135.42,
+      "text": "It consists largely of hydrogen and helium",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 37,
+      "start": 135.42,
+      "end": 140.42,
+      "text": "and is the theatre for the largest and most powerful storms we know.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 38,
+      "start": 140.42,
+      "end": 145.42,
+      "text": "Its largest storm, the Great Red Spot, is three times as large as Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 39,
+      "start": 145.42,
+      "end": 149.42,
+      "text": "Jupiter has 67 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 40,
+      "start": 149.42,
+      "end": 151.42,
+      "text": "Saturn is the second largest planet",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 41,
+      "start": 151.42,
+      "end": 155.42,
+      "text": "and possesses the smallest density of all the planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 42,
+      "start": 155.42,
+      "end": 159.42,
+      "text": "If you had a sufficiently large bathtub, Saturn would swim in it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066276,
+      "no_speech_prob": 0.000261
+    },
+    {
+      "index": 43,
+      "start": 159.42,
+      "end": 164.42,
+      "text": "Saturn is also known for its extended, very visible ring system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 44,
+      "start": 164.42,
+      "end": 167.42,
+      "text": "It has 62 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 45,
+      "start": 167.42,
+      "end": 171.42,
+      "text": "Uranus is the third largest planet and one of the coldest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 46,
+      "start": 171.42,
+      "end": 175.42,
+      "text": "Of all the gas giants, it's also the smallest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 47,
+      "start": 175.42,
+      "end": 178.42,
+      "text": "The special thing about Uranus is that its axis of rotation",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 48,
+      "start": 178.42,
+      "end": 182.42,
+      "text": "is tilted sideways in contrast to the seven other planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 49,
+      "start": 182.42,
+      "end": 185.42,
+      "text": "It has 27 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 50,
+      "start": 185.42,
+      "end": 188.42,
+      "text": "Neptune is the last planet in the Solar System",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057568,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 51,
+      "start": 188.42,
+      "end": 191.42,
+      "text": "and is similar to Uranus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 52,
+      "start": 191.42,
+      "end": 196.42,
+      "text": "It's so far removed from the sun that a Neptune year is 164 Earth years long.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 53,
+      "start": 196.42,
+      "end": 201.92,
+      "text": "The highest wind speed ever measured was in a storm on Neptune",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 54,
+      "start": 201.92,
+      "end": 207.68,
+      "text": "at just under 2,100 km per hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 55,
+      "start": 207.68,
+      "end": 209.68,
+      "text": "Neptune has 14 moons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 56,
+      "start": 209.68,
+      "end": 214.7,
+      "text": "If we compare the sizes of the planet,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 57,
+      "start": 214.7,
+      "end": 217.7,
+      "text": "the differences between them become even clearer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 58,
+      "start": 217.7,
+      "end": 222.7,
+      "text": "Jupiter is the leader in terms of size and weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068182,
+      "no_speech_prob": 0.001265
+    },
+    {
+      "index": 59,
+      "start": 222.7,
+      "end": 224.7,
+      "text": "Small Mercury, on the other hand,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 60,
+      "start": 224.7,
+      "end": 228.7,
+      "text": "is even smaller than one of Jupiter's moons, Ganymede.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 61,
+      "start": 228.7,
+      "end": 232.7,
+      "text": "Jupiter is so massive that alone it contains roughly 70%",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 62,
+      "start": 232.7,
+      "end": 234.7,
+      "text": "of the mass of all the other planets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 63,
+      "start": 234.7,
+      "end": 237.7,
+      "text": "and has a massive impact on its surroundings.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 64,
+      "start": 237.7,
+      "end": 239.7,
+      "text": "That's a blessing for Earth,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 65,
+      "start": 239.7,
+      "end": 242.7,
+      "text": "since Jupiter draws most of the dangerously large asteroids",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059333,
+      "no_speech_prob": 0.000291
+    },
+    {
+      "index": 71,
+      "start": 264.3,
+      "end": 269.3,
+      "text": "Only less than 2% is made up of heavy elements like oxygen or iron.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 72,
+      "start": 269.3,
+      "end": 274.3,
+      "text": "At its core, the Sun fuses 620 million tons of hydrogen each second",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 73,
+      "start": 274.3,
+      "end": 279.3,
+      "text": "and generates enough energy to satisfy mankind's needs for years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053589,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 74,
+      "start": 281.93,
+      "end": 284.93,
+      "text": "But not only the eight planets orbit our Sun,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 75,
+      "start": 284.93,
+      "end": 288.93,
+      "text": "trillions of asteroids and comets also circle it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 76,
+      "start": 288.93,
+      "end": 291.93,
+      "text": "Most of them are concentrated into two belts,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 77,
+      "start": 291.93,
+      "end": 294.93,
+      "text": "the asteroid belt between Mars and Jupiter,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 78,
+      "start": 294.93,
+      "end": 298.93,
+      "text": "and the Kuiper belt at the edge of the Solar System.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 79,
+      "start": 298.93,
+      "end": 300.93,
+      "text": "These belts are home to countless objects,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 80,
+      "start": 300.93,
+      "end": 302.93,
+      "text": "some as large as a dust particle,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 81,
+      "start": 302.93,
+      "end": 305.93,
+      "text": "others the size of dwarf planets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 82,
+      "start": 305.93,
+      "end": 309.93,
+      "text": "The most well-known object in the asteroid belt is Ceres.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082999,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 83,
+      "start": 309.93,
+      "end": 312.93,
+      "text": "The most well-known objects in the Kuiper belt are Pluto,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 84,
+      "start": 312.93,
+      "end": 315.93,
+      "text": "Makemake and Hermaea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 85,
+      "start": 315.93,
+      "end": 319.93,
+      "text": "Usually, we describe the asteroid belt as a dense collection of bodies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 86,
+      "start": 319.93,
+      "end": 322.93,
+      "text": "that constantly collide.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 87,
+      "start": 322.93,
+      "end": 325.93,
+      "text": "But in fact, the asteroids are distributed across an area",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 88,
+      "start": 325.93,
+      "end": 327.93,
+      "text": "that is so indescribably large",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 89,
+      "start": 327.93,
+      "end": 331.93,
+      "text": "that it's even difficult to see two asteroids at once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 90,
+      "start": 331.93,
+      "end": 334.93,
+      "text": "Despite the billions of objects in them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 91,
+      "start": 334.93,
+      "end": 337.93,
+      "text": "the asteroid belts are fairly empty places.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086887,
+      "no_speech_prob": 0.000156
+    },
+    {
+      "index": 92,
+      "start": 337.93,
+      "end": 341.93,
+      "text": "And nonetheless, there are collisions over and over again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 93,
+      "start": 341.93,
+      "end": 344.93,
+      "text": "The mass of both belts is also unimpressive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 94,
+      "start": 344.93,
+      "end": 348.93,
+      "text": "The asteroid belt has a little less than 4% of our Moon's mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 95,
+      "start": 348.93,
+      "end": 353.93,
+      "text": "And the Kuiper belt is only between 1.25 and 1.10th of Earth's mass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 96,
+      "start": 353.93,
+      "end": 360.71,
+      "text": "One day, the Solar System will cease to exist.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 97,
+      "start": 360.71,
+      "end": 365.71,
+      "text": "The Sun will die, and Mercury, Venus and maybe Earth too will be destroyed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 98,
+      "start": 365.71,
+      "end": 369.71,
+      "text": "In 500 million years, it will become hotter and hotter",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097147,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 99,
+      "start": 369.71,
+      "end": 372.71,
+      "text": "until at some point it will melt Earth's crust.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 100,
+      "start": 372.71,
+      "end": 378.34,
+      "text": "Then the Sun will grow and grow and either swallow Earth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 101,
+      "start": 378.34,
+      "end": 381.34,
+      "text": "or at least turn it into a sea of lava.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 102,
+      "start": 381.34,
+      "end": 386.81,
+      "text": "When it has burnt up all its fuel and lost most of its mass,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 103,
+      "start": 386.81,
+      "end": 391.81,
+      "text": "it will shrink to a white dwarf and burn gently for a few billion more years",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 104,
+      "start": 391.81,
+      "end": 395.81,
+      "text": "before it goes out entirely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 105,
+      "start": 395.81,
+      "end": 400.81,
+      "text": "Then, at the latest, life in the Solar System will no longer be possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064396,
+      "no_speech_prob": 0.00573
+    },
+    {
+      "index": 106,
+      "start": 400.81,
+      "end": 403.81,
+      "text": "The Milky Way will not even notice it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 107,
+      "start": 403.81,
+      "end": 408.81,
+      "text": "A small part of it in one of its arms will become just a tiny bit darker",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 108,
+      "start": 408.81,
+      "end": 411.81,
+      "text": "and mankind will cease to exist",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    },
+    {
+      "index": 109,
+      "start": 411.81,
+      "end": 416.81,
+      "text": "or leave the Solar System in search of a new home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058152,
+      "no_speech_prob": 0.009407
+    }
+  ],
+  "context_text_chronological": "The Solar System Our home in space. We live in a peaceful part of the Milky Way. Our home is the Solar System, a four-and-a-half-billion-year-old formation that races around the galactic centre at 200,000 km per hour and circles it once every 250 million years. Our star, the Sun, is at the centre of the Solar System. It's orbited by eight planets, trillions of asteroids and comets and a few dwarf planets. The eight planets are divided into four planets like ours. Mercury, Venus, Earth and Mars and four gas giants, Jupiter, Saturn, Uranus and Neptune. Mercury is the smallest and lightest of all the planets. A Mercury year is shorter than a Mercury day which leads to enormous fluctuations in temperature. Mercury does not have an atmosphere or a moon. Venus is one of the brightest objects in the Solar System and by far the hottest planet with atmospheric pressure that is 92 times higher than on Earth. An out-of-control greenhouse effect means that Venus never cools below 437 degrees Celsius. Venus also doesn't have a moon. Earth is our home and the only planet with temperatures that are moderate enough to allow for a surplus of liquid water. Furthermore, it's so far the only place where life is known to exist. The Earth has one moon. Mars is the second smallest planet in the Solar System and hardly massive enough to keep a very thin atmosphere. Its Olympus Mons is the largest mountain in the Solar System, more than three times as high as Mount Everest. Mars has two small moons. Jupiter is the largest and most massive planet in the Solar System. It consists largely of hydrogen and helium and is the theatre for the largest and most powerful storms we know. Its largest storm, the Great Red Spot, is three times as large as Earth. Jupiter has 67 moons. Saturn is the second largest planet and possesses the smallest density of all the planets. If you had a sufficiently large bathtub, Saturn would swim in it. Saturn is also known for its extended, very visible ring system. It has 62 moons. Uranus is the third largest planet and one of the coldest. Of all the gas giants, it's also the smallest. The special thing about Uranus is that its axis of rotation is tilted sideways in contrast to the seven other planets. It has 27 moons. Neptune is the last planet in the Solar System and is similar to Uranus. It's so far removed from the sun that a Neptune year is 164 Earth years long. The highest wind speed ever measured was in a storm on Neptune at just under 2,100 km per hour. Neptune has 14 moons. If we compare the sizes of the planet, the differences between them become even clearer. Jupiter is the leader in terms of size and weight. Small Mercury, on the other hand, is even smaller than one of Jupiter's moons, Ganymede. Jupiter is so massive that alone it contains roughly 70% of the mass of all the other planets and has a massive impact on its surroundings. That's a blessing for Earth, since Jupiter draws most of the dangerously large asteroids Only less than 2% is made up of heavy elements like oxygen or iron. At its core, the Sun fuses 620 million tons of hydrogen each second and generates enough energy to satisfy mankind's needs for years. But not only the eight planets orbit our Sun, trillions of asteroids and comets also circle it. Most of them are concentrated into two belts, the asteroid belt between Mars and Jupiter, and the Kuiper belt at the edge of the Solar System. These belts are home to countless objects, some as large as a dust particle, others the size of dwarf planets. The most well-known object in the asteroid belt is Ceres. The most well-known objects in the Kuiper belt are Pluto, Makemake and Hermaea. Usually, we describe the asteroid belt as a dense collection of bodies that constantly collide. But in fact, the asteroids are distributed across an area that is so indescribably large that it's even difficult to see two asteroids at once. Despite the billions of objects in them, the asteroid belts are fairly empty places. And nonetheless, there are collisions over and over again. The mass of both belts is also unimpressive. The asteroid belt has a little less than 4% of our Moon's mass. And the Kuiper belt is only between 1.25 and 1.10th of Earth's mass. One day, the Solar System will cease to exist. The Sun will die, and Mercury, Venus and maybe Earth too will be destroyed. In 500 million years, it will become hotter and hotter until at some point it will melt Earth's crust. Then the Sun will grow and grow and either swallow Earth or at least turn it into a sea of lava. When it has burnt up all its fuel and lost most of its mass, it will shrink to a white dwarf and burn gently for a few billion more years before it goes out entirely. Then, at the latest, life in the Solar System will no longer be possible. The Milky Way will not even notice it. A small part of it in one of its arms will become just a tiny bit darker and mankind will cease to exist or leave the Solar System in search of a new home.",
+  "target_text_for_audit": "that could wipe out life on Earth. But even Jupiter is a dwarf in comparison to our star, the Sun. Calling it massive does not do justice to the Sun. It makes up 99.86% of the mass in our Solar System.",
+  "verification": {
+    "status": "needs_review",
+    "threshold": 0.25,
+    "existing_narration_sentences": 4,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "But even Jupiter is a dwarf in comparison to our star,",
+        "start_source": 247.39,
+        "end_source": 250.55,
+        "matching_cue_ids": [
+          67
+        ],
+        "text_similarity": 0.9298,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "the Sun.",
+        "start_source": 251.07,
+        "end_source": 251.47,
+        "matching_cue_ids": [
+          67
+        ],
+        "text_similarity": 0.2059,
+        "time_overlap": true,
+        "passes": false
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Calling it massive does not do justice to the Sun.",
+        "start_source": 252.29,
+        "end_source": 255.07,
+        "matching_cue_ids": [
+          67,
+          68
+        ],
+        "text_similarity": 0.6125,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "It makes up 99 .86 % of the mass in our solar system.",
+        "start_source": 255.77,
+        "end_source": 259.67,
+        "matching_cue_ids": [
+          69
+        ],
+        "text_similarity": 0.9901,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\KsF_hdjWJjo.mp4",
+    "cue_count": 110
+  },
+  "token_estimate_char_div_4": 1248
+}

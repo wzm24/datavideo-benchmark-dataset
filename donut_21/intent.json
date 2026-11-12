@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_21",
- "intent_en": "To illustrate how the high concentration of the population in urban areas creates a dense ecosystem for startups and introduces demographics as a key factor.",
- "previous_intent": "To illustrate the high urbanization rate in Israel and how it creates a dense ecosystem where startups are closely connected to customers, partners, and competitors.",
+ "intent_en": "Report the share of the population living in urban areas for the entity shown.",
  "narration_support": "About 92 % of Israelis live in urban areas",
  "chart_support": "Donut chart with Israeli flag, human icons, and city skyline illustrating the high urban population proportion.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that 92% of Israelis live in urban areas, creating a dense customer and talent ecosystem for startups.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the share of the population living in urban areas for the entity shown.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

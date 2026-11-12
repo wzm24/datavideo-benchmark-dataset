@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coding-based Data Video Benchmark：Ground Truth 与评测方案</title>
+<style>
+:root{color-scheme:light;--ink:#202d38;--muted:#607080;--accent:#245f78;--border:#dde4e9;--surface:#f4f7f9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.85}a{color:var(--accent);text-underline-offset:3px}
+.shell{max-width:1480px;margin:auto;display:grid;grid-template-columns:270px minmax(0,1fr);gap:54px;padding:40px 48px 80px}.sidebar{position:sticky;top:28px;align-self:start;max-height:calc(100vh - 56px);overflow:auto;font-size:13px;line-height:1.65;padding-right:18px}.eyebrow{font-size:12px;letter-spacing:1.2px;color:var(--muted);margin:0 0 20px}.sidebar h2{font-size:14px;font-weight:600;margin:0 0 15px}.toc ul{list-style:none;padding:0;margin:0}.toc li{margin:0 0 10px}.toc a{color:#526370;text-decoration:none}.toc a:hover{color:var(--accent)}main{min-width:0;max-width:1030px}
+h1{font-size:32px;line-height:1.42;letter-spacing:-.5px;margin:0 0 22px;font-weight:650}h2{font-size:25px;line-height:1.5;margin:58px 0 22px;padding-top:8px;border-top:1px solid var(--border);scroll-margin-top:24px}h3{font-size:19px;line-height:1.6;margin:30px 0 12px;scroll-margin-top:24px}p{margin:13px 0}li{margin:6px 0}strong{font-weight:650}blockquote{margin:22px 0;padding:14px 20px;background:#edf5f8;border-left:3px solid #669bb2}blockquote p{margin:0}
+table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.7;margin:22px 0;table-layout:auto}th,td{border:1px solid var(--border);padding:11px 13px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:var(--surface);font-weight:600}td:first-child{min-width:96px}code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--surface);padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}pre{background:var(--surface);border:1px solid var(--border);padding:18px 20px;overflow:auto;border-radius:7px;line-height:1.7}pre code{padding:0;background:none;white-space:pre;overflow-wrap:normal}.note{font-size:12px;color:var(--muted);border-top:1px solid var(--border);margin-top:30px;padding-top:14px}.header-note{color:var(--muted);font-size:13px;margin:0 0 24px}.footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--border);font-size:13px;color:var(--muted)}
+@media(max-width:1000px){.shell{display:block;padding:28px 22px 60px}.sidebar{position:static;max-height:none;margin-bottom:36px;padding:20px;background:var(--surface)}.sidebar .toc ul{columns:2;column-gap:24px}.toc li{break-inside:avoid}h1{font-size:27px}h2{font-size:23px}table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:120px}main{max-width:none}}
+@media(max-width:560px){.sidebar .toc ul{columns:1}body{font-size:15px}.shell{padding:22px 16px 48px}h1{font-size:25px}h2{font-size:21px}}
+@media print{.shell{display:block;padding:0}.sidebar,.header-note{display:none}main{max-width:none}body{font-size:10pt}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid;margin-top:25px}h3{font-size:12pt;break-after:avoid}table{font-size:9pt}pre{white-space:pre-wrap}a{color:inherit;text-decoration:none}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar" aria-label="文档目录"><p class="eyebrow">RESEARCH PROTOCOL · 2026.09</p><h2>方案目录</h2><div class="toc">
+<ul>
+<li><a href="#0">0. 核心决策</a></li>
+<li><a href="#1">1. 任务与公平比较契约</a></li>
+<li><a href="#2-ground-truth">2. Ground truth 的分层结构</a></li>
+<li><a href="#3-table-ground-truth">3. 一个完整样本：从 table 到 ground truth</a></li>
+<li><a href="#4-gt">4. 如何从你们现有素材建立 GT</a></li>
+<li><a href="#5-harness">5. 提交代码与执行 harness</a></li>
+<li><a href="#6-llmvlm">6. 程序、LLM、VLM 和人工如何协同</a></li>
+<li><a href="#7">7. 指标定义与分母政策</a></li>
+<li><a href="#8">8. 示例评分：解释指标为何需要并存</a></li>
+<li><a href="#9">9. 证明评测器有效，而不只是能运行</a></li>
+<li><a href="#10">10. 数据划分、污染与版权</a></li>
+<li><a href="#11_1">11. 基线与实验设计</a></li>
+<li><a href="#12_1">12. 最小实施路线与验收</a></li>
+<li><a href="#13-metric">13. 与旧 metric 清单的对应处理</a></li>
+<li><a href="#14_1">14. 实现时必须明确的边界</a></li>
+<li><a href="#15">15. 已核验的相关工作与证据边界</a></li>
+<li><a href="#16">16. 交付文件与当前未实现项</a></li>
+</ul>
+</div>
+<p class="note">设计稿 1.0<br>构造示例，不含实验结果<br>原始 metric 文件未修改</p></aside>
+<main><p class="header-note">从公开任务到可核验 ground truth，再到代码执行与视听证据</p><h1 id="coding-based-data-video-benchmarkground-truth">Coding-based Data Video Benchmark：Ground Truth 与评测方案</h1>
+<p>版本：设计稿 1.0 · 2026-09-17<br />
+范围：LLM / Agent 根据结构化数据和 intent，通过编写代码生成 narration 与 data video。<br />
+状态：可供标注与实现的协议建议；不是已经实现或验证过的评测系统。本文中的数值案例均为人为构造示例，不是实验结果。</p>
+<h2 id="0">0. 核心决策</h2>
+<p><strong>Ground truth 不应是一份必须复刻的 narration、D3 代码或视频，而应是一组由输入支持的任务要求、可执行事实依据、视觉证据要求与时间关系。</strong></p>
+<ul>
+<li>生成端拿到：table、schema、intent、目标受众、时长约束、公开输出规范。</li>
+<li>评测端持有：必需内容的语义判据、数据查询与计算、合理表达的判定规则、参考视频/SVG 辅助标注。</li>
+<li>模型可自主选择：旁白措辞、图表设计、镜头、配色、分镜和非必要内容。</li>
+<li>评分以最终运行结果为准：正确代码或正确计划不能替代正确画面。</li>
+<li>精确数据计算交给程序；复杂语义、可读性和表达质量交给经人工校准的裁判；不假定任意 D3 都能被完全解析。</li>
+<li>主榜不做风格相似度，不以源码相似度评分，不要求与原视频在相同秒数出现相同元素。</li>
+</ul>
+<p>建议第一版采用 HTML/CSS/JavaScript + SVG 的 coding 赛道，允许 D3，但不强制某种绘图模板。Canvas、WebGL、Manim 等可后续增加适配器；这属于实现收敛建议，并非用户已经选定的限制。仅提交像素生成模型产出的 MP4，不属于本 benchmark。</p>
+<h2 id="1">1. 任务与公平比较契约</h2>
+<h3 id="11">1.1 输入</h3>
+<p>每个样本公开以下字段：</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+<th>约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>table</td>
+<td>一张或多张结构化数据表</td>
+<td>原始数值不由模型猜测；提供稳定行键</td>
+</tr>
+<tr>
+<td>schema</td>
+<td>字段类型、单位、空值、时间粒度、统计口径</td>
+<td>不得把必要口径藏在评测端</td>
+</tr>
+<tr>
+<td>intent</td>
+<td>希望回答的问题与传播目标</td>
+<td>明确范围，不泄露计算答案</td>
+</tr>
+<tr>
+<td>audience</td>
+<td>受众，例如一般公众</td>
+<td>用于解释术语和阅读难度评判</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>目标时长及公开容差</td>
+<td>防止无限加长以覆盖全部内容</td>
+</tr>
+<tr>
+<td>constraints</td>
+<td>必需内容、数据来源限制、语言、画幅等</td>
+<td>可评分的任务义务必须能从这里或 intent 推出</td>
+</tr>
+<tr>
+<td>runtime_contract</td>
+<td>运行环境与提交规范</td>
+<td>对所有模型相同</td>
+</tr>
+</tbody>
+</table>
+<p>主任务建议只允许基于输入表作事实论述，不开放网络检索；否则需要额外定义外部证据来源与事实真值。意图要求因果解释但输入只有描述性数据时，应修改任务或允许明确表述证据不足，不能逼模型编原因。</p>
+<h3 id="12">1.2 输出</h3>
+<p>必交三类产物：</p>
+<ol>
+<li>可执行代码及本地资源：例如 entry.html、JavaScript、样式文件。</li>
+<li>narration 分段文本：用于统一语音生成；最终以实际播放的音轨为评测依据。</li>
+<li>manifest：入口、所需资源、运行时 API、时长等技术信息。</li>
+</ol>
+<p>可选提交 evidence_map：声明图元与数据字段/计算的关联，用于辅助定位。该文件是模型陈述，不是可信证明；缺少它不应在主质量分中直接扣分。模型提供的元素名、data-value、claim ID 都要与实际结果交叉检查。</p>
+<p>中间 plan 可用于诊断，不强制所有系统采用同一叙事规划格式。benchmark 不应通过固定 DVSpec 模板预先替模型解决数据分析、图表编码或动画编排。</p>
+<p>coding 边界必须可审计：禁止用薄层 HTML/JavaScript 播放预制完整成片来满足接口。提交代码须实际定义数据变换、图形呈现与时间编排；允许声明来源的装饰资源，不允许用完整预渲染数据视频替代主体实现。保留生成过程、工具调用与资源来源记录，并抽查代码职责。仅有代码文件并不能证明生成过程符合赛道要求。</p>
+<h3 id="13-tts">1.3 统一 TTS，保留叙事自由</h3>
+<p>推荐首版由模型自行写 narration，使用统一语音服务/版本/音色/语速生成音频。系统可拿到句子或词级时间戳后继续写动画代码，但不得收到隐藏评分反馈。统一的是声音条件，不是旁白内容。</p>
+<ul>
+<li>音频由评测环境按提交文本生成或复现，音轨与动画使用相同时间轴。</li>
+<li>narration 改动会改变时长，系统需重新获取时间线；调用和重试纳入预算。</li>
+<li>语音音色自然度不列为模型生成能力；旁白内容、节奏安排和音画关系仍计分。</li>
+<li>ASR/强制对齐可能犯错。数字读音、同音词等歧义应人工复核，不能自动归咎于生成器。</li>
+</ul>
+<p>若暂时只能让系统自带 TTS，也可运行，但需记录语音配置，并承认跨系统音质与时长存在混杂，不与统一 TTS 赛道混排。</p>
+<h3 id="14">1.4 生成预算</h3>
+<p>固定并记录模型版本、提示词、允许调用数/重试数、token 与执行预算、可用工具、依赖版本、分辨率与帧率。单次生成和多轮调试可设不同配置，不能把无限修复 Agent 与一次性生成混为同一预算。输出格式、时长容差、事实核验政策和评分定义均应公开。</p>
+<h2 id="2-ground-truth">2. Ground truth 的分层结构</h2>
+<h3 id="21-gt-gt">2.1 五层 GT，以及明确不是 GT 的材料</h3>
+<table>
+<thead>
+<tr>
+<th>层</th>
+<th>内容</th>
+<th>作用</th>
+<th>是否给生成模型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G0 数据事实基础</td>
+<td>table、schema、单位、来源质量、可执行查询/计算</td>
+<td>确认陈述是否有据</td>
+<td>table/schema 公开；答案与查询标注留评测端</td>
+</tr>
+<tr>
+<td>G1 任务义务</td>
+<td>必需语义单元、可替代表达、权重与适用条件</td>
+<td>防止少讲刷正确率</td>
+<td>义务公开可推知；具体答案和匹配记录不提供</td>
+</tr>
+<tr>
+<td>G2 视觉证据规范</td>
+<td>每个必需单元需要怎样的可观察证据</td>
+<td>判定真正视觉化，而非只念字幕</td>
+<td>通用规则公开；样本级实例标注留评测端</td>
+</tr>
+<tr>
+<td>G3 时间关系规范</td>
+<td>与生成旁白的对应关系、必要先后、可读时间</td>
+<td>判定在需要时出现正确证据</td>
+<td>规则公开，不提供原视频绝对时间作为答案</td>
+</tr>
+<tr>
+<td>G4 人工验证集</td>
+<td>实际模型输出的事实标签、位置、时间窗、评分与分歧裁决</td>
+<td>校准自动评测器</td>
+<td>开发集公开；测试裁决独立保留</td>
+</tr>
+</tbody>
+</table>
+<p>原视频、参考 narration、抽取 SVG 是 reference assets，用于提出标注候选、定位图元和制作诊断样本。它们不能自动替代 G0–G3，也不保证自身没有错误。G4 需要在获得生成结果后建立，不可能完全从参考视频预先制作出来。</p>
+<h3 id="22">2.2 “隐藏答案”不等于“隐藏要求”</h3>
+<p>禁止根据原视频暗中增加模型不知道的义务。例如 intent 只要求“比较两个区域”，原视频顺便谈了某个异常年份，不能因此规定所有生成视频都必须讲那个年份。</p>
+<p>推荐把 requirements 分成：</p>
+<ul>
+<li>required：由公开 intent/constraints 明确推出，进入覆盖率分母。</li>
+<li>optional_valid：正确且相关的可选内容；不讲不扣分。</li>
+<li>unsupported_or_forbidden：无依据的因果、外推、错误统计口径等；说了要核验并标记。</li>
+</ul>
+<p>如果 intent 是很开放的“挑一个值得讲的发现”，不存在唯一的必讲事实。此类样本应单独作为开放发现子集：可以要求“至少一个有支持的定量发现及其证据”，但不能用原作者的 insight 集合计算封闭 recall。首版主榜建议用范围明确、允许多种表达的 intent，而不是无限开放的故事创作。</p>
+<h3 id="23">2.3 不枚举所有正确答案：用接受条件</h3>
+<p>对于“比较 A 与 B 的增长表现”，可接受：</p>
+<ul>
+<li>直接比较增长率；</li>
+<li>在初值相同的前提下比较增量；</li>
+<li>展示两者起终值，并明确说明哪个增长更快；</li>
+<li>其他能够用表中数据证明且符合意图的表达。</li>
+</ul>
+<p>把这些理解成满足语义条件的多种实现，而不是仅对几个固定字符串做匹配。对于候选表述未列在参考库中，但可被验证且满足原有公开语义条件的，应接受，并留审计记录。不能看到某个模型答案后才悄悄修改任务义务或只给该模型加例外。</p>
+<h2 id="3-table-ground-truth">3. 一个完整样本：从 table 到 ground truth</h2>
+<p>本例仅用于展示协议。样例 JSON 分为 example_public_task.json 和 example_private_gt.json，两者都可分享给你们开发；真实隐藏测试集不能将 private_gt 交给生成器。</p>
+<h3 id="31">3.1 公开数据与意图</h3>
+<table>
+<thead>
+<tr>
+<th>row_id</th>
+<th>region</th>
+<th>year</th>
+<th>users_million</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a_2022</td>
+<td>A</td>
+<td>2022</td>
+<td>100</td>
+</tr>
+<tr>
+<td>a_2023</td>
+<td>A</td>
+<td>2023</td>
+<td>160</td>
+</tr>
+<tr>
+<td>b_2022</td>
+<td>B</td>
+<td>2022</td>
+<td>100</td>
+</tr>
+<tr>
+<td>b_2023</td>
+<td>B</td>
+<td>2023</td>
+<td>120</td>
+</tr>
+</tbody>
+</table>
+<p>单位：百万人。数据为构造示例，与真实地区无关。</p>
+<p>公开 intent：</p>
+<blockquote>
+<p>为普通观众制作约 30 秒的数据视频，比较 A、B 在 2022 到 2023 年的用户增长。分别量化两者各自的变化，并用定量证据说明哪个增长更快。仅基于提供的数据，不推测原因或未来走势。</p>
+</blockquote>
+<p>示例工程设置为 1280×720、30 fps、允许 27–33 秒；这只是该演示任务公开的容差，不是已验证的普适标准。公开约束还明确要求有中文旁白和数据视觉证据，但允许图表标注补充未被念出的数值。</p>
+<p>公开任务已要求两者变化与比较，但没有泄露答案 60%、20%、40 个百分点或 3 倍。</p>
+<h3 id="32-g0">3.2 G0：事实目录与可执行依据</h3>
+<table>
+<thead>
+<tr>
+<th>fact_id</th>
+<th>命题或量</th>
+<th>计算依据</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a_start / a_end</td>
+<td>A 两个年份的用户数</td>
+<td>按 region/year 查询</td>
+<td>100 / 160 百万人</td>
+</tr>
+<tr>
+<td>b_start / b_end</td>
+<td>B 两个年份的用户数</td>
+<td>按 region/year 查询</td>
+<td>100 / 120 百万人</td>
+</tr>
+<tr>
+<td>delta_a / delta_b</td>
+<td>绝对增量</td>
+<td>end − start</td>
+<td>60 / 20 百万人</td>
+</tr>
+<tr>
+<td>rate_a / rate_b</td>
+<td>相对增长率</td>
+<td>(end − start) / start</td>
+<td>0.6 / 0.2，即 60% / 20%</td>
+</tr>
+<tr>
+<td>rate_gap_pp</td>
+<td>增长率差</td>
+<td>100 × (rate_a − rate_b)</td>
+<td>40 个百分点</td>
+</tr>
+<tr>
+<td>rate_ratio</td>
+<td>增长率比</td>
+<td>rate_a / rate_b</td>
+<td>3</td>
+</tr>
+<tr>
+<td>faster_a</td>
+<td>A 增长更快</td>
+<td>rate_a &gt; rate_b</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<p>匹配单位与口径：60 百万人、6000 万人是等价表示；60% 与 0.6 只有在增长率语义下等价；“高 40%”不能自动当成“高 40 个百分点”；“增长到 160%”和“增长 60%”需要检查相对基准。定性“显著”如果暗示统计显著性，不能仅凭两个数值推出。</p>
+<p>程序只执行受限计算表达式，不执行生成模型给出的任意 Python/SQL。对零分母、负基线、缺失值、四舍五入、加权平均和聚合粒度预先定义政策。</p>
+<h3 id="33-g1">3.3 G1：三个必需语义单元</h3>
+<table>
+<thead>
+<tr>
+<th>unit_id</th>
+<th>必需含义</th>
+<th>接受条件</th>
+<th>不接受</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>U1</td>
+<td>A 的变化</td>
+<td>实体与年份清楚；正确表达起终值、绝对增量或增长率之一，并建立变化含义</td>
+<td>只报终值，不说明变化；只说“增长了”而无量化依据</td>
+</tr>
+<tr>
+<td>U2</td>
+<td>B 的变化</td>
+<td>同 U1，针对 B</td>
+<td>只讲 A；把 B 的增长率说成 60%</td>
+</tr>
+<tr>
+<td>U3</td>
+<td>谁更快及其证据</td>
+<td>明确 A 更快，并给出合法的跨区域定量比较；量化证据可在紧密关联的邻接场景中提供</td>
+<td>只宣称 A 更快；比较不同口径；无依据解释原因</td>
+</tr>
+</tbody>
+</table>
+<p>同一组画面可以同时支持多个 unit，不要求重复叙述。每个 unit 最多计一次，近义句和重复数字不能增加分数。</p>
+<p>U1/U2 可由旁白或清晰的图形标注传达；U3 必须明确表达比较结论，可以在旁白或可读的结论标注中出现。最终作品不能有相互矛盾的表述。是否要求某个信息必须被念出来，应由公开任务指定，不能隐藏加分。</p>
+<h3 id="34-g2">3.4 G2：视觉证据不是固定图形</h3>
+<p>U1/U2 的有效视觉证据可以是起终值并列柱、折线端点、编码正确的变化标注，或清楚展示变化量的图形。必须可辨认实体、统计量和时间范围，必要的单位/图例应可用。</p>
+<p>U3 的有效视觉证据包括：</p>
+<ul>
+<li>两区域增长率并列展示，使用共同且标明的尺度；</li>
+<li>两组起终值同时展示，能清楚建立各自变化及跨区域关系；</li>
+<li>跨镜头比较，但前一对象的关键信息在比较发生时仍能通过保留标注/摘要等方式获得；</li>
+<li>其他经人工核验能支持同一比较的视觉表达。</li>
+</ul>
+<p>只把“A 增长更快”写成字幕，不算完成 U3 的数据视觉化。旁白字幕可帮助理解，但不替代数据图形证据。数据卡、数值比较板可以是合法形式，前提是用布局/关系清楚组织数据，而非逐句字幕化；不应机械要求必须画柱子。</p>
+<p>GT 记录可接受证据条件，不固定颜色、像素坐标、SVG 元素 ID、路径数量或原作者使用的箭头。</p>
+<h3 id="35-g3">3.5 G3：时间规范绑定生成旁白</h3>
+<p>若生成旁白在第 8–11 秒讲 A 的变化，U1 的视觉证据应在该语境下充分可见；若另一个系统在第 3–6 秒讲同一内容，则用它自己的时间窗检查。</p>
+<p>标注类型：</p>
+<ul>
+<li>availability：比较发生时，相关对象和必要信息可获得。</li>
+<li>ordering：在解释依赖关系需要时，先建立对象再比较；不是所有叙事都强制先 A 后 B。</li>
+<li>identity：跨帧颜色、位置或标注变化不应造成实体混淆。</li>
+<li>dwell：证据出现时间足够读懂；不要求逐字同步。</li>
+<li>transition：入场动画的中间几何状态不得被当成已完成的数据状态逐帧判错；但若旁白已经断言完成值而长时间未显示，应在对齐/表达中体现。</li>
+</ul>
+<p>不预设 0.5 秒是普适阈值。开发集通过提前、延迟、缩短停留等实验校准容差，并冻结政策。报告连续时间误差与阈值敏感性，不只给一个 pass/fail。</p>
+<h2 id="4-gt">4. 如何从你们现有素材建立 GT</h2>
+<h3 id="41">4.1 数据一致性核查</h3>
+<p>逐条对齐原始 table、原 narration 和原视频：确认单位、时间范围、聚合方式、样本量口径一致。对冲突单独记录。</p>
+<ul>
+<li>确有可信原始数据：以核验后的数据为准，不能为了参考视频改错真值。</li>
+<li>只有从图表反推的数据：标记 reconstructed，记录不确定性和精度；不得与真实原始数据无区别混用。</li>
+<li>参考视频表述错误：修正标注、重写 intent 或排除样本，不能把错误当成 GT。</li>
+<li>难以核实的样本不进入硬事实评测核心集，可作为探索性子集单独报告。</li>
+</ul>
+<h3 id="42">4.2 从参考中抽取候选，再独立于参考复核</h3>
+<ol>
+<li>抽取参考 narration 的 atomic claims、实体、数据操作和时间段。</li>
+<li>从参考 SVG 定位 marks、labels、axes、legends、annotations 与对应数据。</li>
+<li>根据参考故事提出一个用户自然会发出的 intent，去掉答案泄露。</li>
+<li>让另一位标注员只看 table、schema、intent，列出合理的必需内容与多种表达方式。</li>
+<li>对比两份标注：无法从输入推出的“参考特有内容”降为 optional，不计入 required。</li>
+<li>用脚本计算事实目录并测试接受条件。</li>
+</ol>
+<p>反向构建 intent 容易把原作者的选择固化为唯一答案。第 4 步是关键控制；明确 intent 的生成流程，并保留 source-derived / independently-authored 标签。</p>
+<h3 id="43-svg">4.3 SVG 需要补什么，不需要补什么</h3>
+<p>建议标注：元素角色、实体/字段/时间绑定、相对比例/关系、跨帧身份、参考事件窗口、抽取置信度。</p>
+<p>无需为每一个装饰性 path 标完整语义。优先覆盖与 required units 有关的数据图元、轴、标签和强调动作。</p>
+<p>只有关键帧 SVG 时，不能假定已经拥有动画时序 GT。仍需回看视频标事件；无法获取的时序信息保留 missing，不能由帧序推造精确秒数。参考窗口只是理解素材的辅助，不用于要求新视频复刻。</p>
+<h3 id="44">4.4 双人标注和裁决</h3>
+<p>核心测试样本由两人独立标注 required units 与证据条件，再裁决分歧。有限人力可先只做精标核心集，外围样本单人初标加抽检，并分别报告覆盖。</p>
+<p>记录 disagreement types：统计口径、是否必需、等价表达、视觉证据不足、时间窗歧义。对没有唯一合理答案的样本修改公开任务或移入开放子集，不通过增加隐藏规则强行消除分歧。</p>
+<h2 id="5-harness">5. 提交代码与执行 harness</h2>
+<h3 id="51-api">5.1 建议的最小 API</h3>
+<p>以下是待实现的接口设计，不表示当前已有 SDK：</p>
+<pre><code class="language-javascript">window.benchmark = {
+  ready: async () =&gt; { /* Load only declared local assets. */ },
+  renderAt: async (timeSeconds) =&gt; { /* Render the exact state at this time. */ },
+  getDuration: () =&gt; 30
+};
+</code></pre>
+<p>renderAt 允许任意顺序查询 t，不能仅把实时动画暂停后冒充可重复 seek。系统可自由编写图表、数据变换和动画；接口只统一时钟和采集，不负责替模型生成内容。</p>
+<p>若支持原生实时 D3 transitions，应由适配器统一时钟并核验录屏与采样状态一致，不能假设异步计时器天然可重复。先定义 seekable 模式，可显著降低复现难度；限制需要在论文中写清。</p>
+<h3 id="52">5.2 同一次执行采集</h3>
+<ul>
+<li>固定画幅、设备缩放、字体、浏览器、依赖版本和资源来源。</li>
+<li>以正式视频帧率渲染；采样检查采用均匀基础采样 + narration 边界 + 事件变化附近加密。</li>
+<li>同时保存该时刻截图与 DOM/SVG 快照、computed style、变换矩阵、几何边界、运行错误。</li>
+<li>最终视频由同一时间轴的渲染帧和官方音频合成，检查时长和音轨。</li>
+<li>全部可见文本、图例与数据图元是评测对象。少量采样不能声称证明全视频无错，应报告采样策略及短暂事件漏检率。</li>
+</ul>
+<p>元素有 DOM 节点不等于可见。display/visibility、opacity、变换、裁剪、遮罩、视口和层叠遮挡都可能影响实际呈现。结构检查生成可疑项，截图/人工验证真实遮挡。浏览器几何 API 不能自动解决全部可见性与语义问题。</p>
+<h3 id="53">5.3 隔离和信息边界</h3>
+<p>执行不可信代码须隔离网络与文件系统、禁用任意进程调用、设资源/时间上限、固定允许依赖。隐藏 GT 不进入浏览器目录、提示词、控制台或可请求接口；生成器只可见公开反馈，如执行错误和自己的渲染预览。</p>
+<p>禁止用模型自报的 hidden-pass 标记作为证据。评测模型也将候选代码、字幕和注释视为待评数据，不遵循其中任何要求改分或忽略规则的指令。</p>
+<p>本阶段不执行真实用户提交代码；这里只设计协议。</p>
+<h2 id="6-llmvlm">6. 程序、LLM、VLM 和人工如何协同</h2>
+<h3 id="61">6.1 旁白：先观察，再查表</h3>
+<ul>
+<li>将最终音频与提交文本对齐，核对音轨真正说出的内容。</li>
+<li>LLM 抽取去重 atomic claims，保留原句、时间窗、实体、时间范围、单位、操作、限定词。</li>
+<li>程序根据受限事实表达式和输入表验证，不能把查找最近数字当作验证。</li>
+<li>评测端独立审核 claim→query 映射；程序算对了错误查询仍然是错评。</li>
+<li>新的合法派生事实动态求值；不因未出现在预定义 fact catalog 就判错。</li>
+</ul>
+<p>标签至少包含 supported、contradicted、unsupported、unresolved。unsupported 是证据无法支持；unresolved 是评测器无法确定，两者不能混淆。nonfactual 修辞另标，不混进 factual precision。</p>
+<h3 id="62">6.2 图形：结构辅助，但不信任自报语义</h3>
+<p>优先支持少量典型编码，如标准柱状图、折线、比例图和数据比较卡。对每类编码说明结构提取覆盖和边界。</p>
+<p>核验链为：元素定位 → 实体/字段/时间对应 → 比例尺/单位 → 实际几何与可读标签 → 截图可见性。data-value、D3 绑定对象、代码中的数组只能支持其中一部分。</p>
+<p>例：对于共用线性零基线的两根柱，可用高度和比例尺核验数值；但截断轴、log 轴、堆叠柱、面积编码不能套用同一高度比例公式。程序必须先识别编码类型及其前提。不知道前提时应转交视觉/人工，不应武断打错。</p>
+<h3 id="63">6.3 视觉模型：提取与判断分开</h3>
+<p>推荐两阶段：</p>
+<ol>
+<li>观察阶段：输入相关连续帧/短片、需观察的实体与字段，不提供标准答案数值。独立提取图形中的值、关系、标注和位置，允许 unknown。</li>
+<li>核验阶段：将观察与 table、GT 单元比较。表达质量评判可看完整 intent 和实际音轨，但须引用时间/区域证据。</li>
+</ol>
+<p>不能仅凭字幕回答 chart-fact QA。图形事实通道屏蔽旁白字幕或明确要求引用非字幕数据图元；保留图表自身的数值标签、轴与图例。遮字幕也不能遮掉必要图形信息，裁剪/遮罩应被验证。</p>
+<p>对读不清的小数值，不让 VLM 猜一个接近答案的数字。使用 unknown，并进入人工复核或分数区间。把一张图的整套正确数据给 VLM 再问“是否正确”，容易产生答案依赖，应避免作为唯一事实核验。</p>
+<h3 id="64">6.4 时间对齐</h3>
+<p>先匹配生成作品中各单元的所有语义表达位置，再确定语境窗，最后检查正确证据、身份与可读性。口述内容以生成音频为锚点；未被口述但合法通过图形/结论标注表达的单元，以可读语义标注和场景上下文为锚点，不因没有口述窗口而判失败或剔除。</p>
+<p>重复出现的同一单元：先合并同一连续说明过程，再检查所有语义匹配到的出现位置，不允许事后只挑最有利片段。二元 T_u 通过要求所有实际承担该信息表达的出现均无实质错配；另报 occurrence-level 对齐比例用于诊断。泛指背景提及不算新的完整表达，匹配政策在开发集冻结。若重复次数很多，该严格策略的影响需分层报告。</p>
+<p>结构轨迹用于测某个对象何时出现/改变，VLM/人工用于判定变化是否真正支持所讲内容。</p>
+<p>不强制每次提到实体都高亮，也不奖励高亮所有对象。全程静态但清楚、可比较的图形可能在某些单元上完全有效；只有任务确实需要时序揭示、动态过程或连续比较时，才明确要求相应变化。动画有效性另评，不以帧差幅度替代。</p>
+<p>图和旁白一致但共同错误时，同步诊断可通过，事实指标失败；主端到端指标必须同时要求真实性，防止两者互相“作证”。</p>
+<h3 id="65">6.5 人工证据集与裁判提示</h3>
+<p>人工评价的对象是生成作品而非模型名称；随机顺序、可判平局，至少由两名评审对校准子集独立判断。开发和最终测试裁判校准样本隔离。</p>
+<p>每个自动判断返回：unit/claim ID、label、evidence timestamps、区域/元素证据、理由、是否需复核。不要只让裁判输出一个总分。可读性/叙事评分用完整锚点，不能把“画面精美”作为事实正确的证据。</p>
+<h3 id="66">6.6 三个可直接改写为提示词的裁判任务</h3>
+<p><strong>旁白提取器</strong>：只提取实际音轨/转写中的可核验陈述；每条保留原文、时间段、实体、统计量、单位、时间范围、比较对象和限定词。不要补充模型没有说出的内容，不要先看正确答案后补全。输出 claims 和无法确定的片段，不直接给总分。</p>
+<p><strong>图形观察器</strong>：你会收到连续帧/短片及需要定位的实体与字段。请报告实际看见的图元、轴/图例、数值和关系，附时间与位置。旁白字幕不是图形事实证据；不得根据题意猜数值。不可读、遮挡或无法建立绑定时输出 unknown，并指出原因。</p>
+<p><strong>单元裁判</strong>：依据公开任务、单元接受条件、已核验的事实与观察证据，分别判断 C/V/T。新表达只要满足同一语义条件可以通过；不得因不同于参考布局扣分。证据冲突时记录冲突，不使用多数投票掩盖。输出标签、证据引用、理由与需复核标记。</p>
+<p>裁判可以使用不同模型或同一模型的分阶段调用，但分阶段本身不保证独立或无偏。将候选系统身份和自报得分隐藏，固定裁判版本/参数，保留重复评分的一致性测量。</p>
+<h3 id="67">6.7 每个候选作品需要保存的评分证据</h3>
+<p>建议 result record 至少包含：sample_id、system/run_id、input/code/audio hashes、runtime version、生成与基础设施状态、每条 claim 的原句/时间/查询/标签、每个视觉 assertion 的位置/编码前提/标签、每个 unit 的 C/V/T 与证据窗口、人工裁决记录、聚合分数与各列分母。</p>
+<p>这份输出侧记录不是预先 GT，而是该作品被评分的审计轨迹。遇到新合法表达时，只扩展等价表达实现或更正评测器，不能改原任务义务；变更版本并对所有受影响系统重新评分。模型自报 evidence_map 与裁判确认的 evidence record 必须分开存储。</p>
+<h2 id="7">7. 指标定义与分母政策</h2>
+<p>主质量画像使用任务完成、旁白事实、视觉事实、时序表达及人评呈现。以下为建议定义，阈值需在开发集校准后冻结。</p>
+<h3 id="71">7.1 固定分母的任务指标</h3>
+<p>对样本 i，预标注 required units 集合 R_i。每个 unit 有固定权重 w_u，首版默认等权；权重只在看到输出前确定。</p>
+<p>定义四个独立判断：</p>
+<ul>
+<li>C_u：所需信息在最终作品中被正确且明确传达，字幕/旁白/图表标注可按该单元公开通道要求满足；若作品中存在与该核心结论冲突的陈述，不能算通过。</li>
+<li>V_u：实际可见图形独立提供正确、可辨认的数据证据，不仅是旁白字幕。</li>
+<li>T_u：证据与生成叙事的语境对齐，并满足必要顺序、停留与身份条件。</li>
+<li>A_u：该单元是否要求视觉证据，来自预标注。主集建议所有 required units 都是数据视觉叙事单元，即 A_u=1。</li>
+</ul>
+<pre><code>ContentCompletion_i = sum(w_u * C_u) / sum(w_u)
+VisualCompletion_i  = sum(w_u * V_u for A_u=1) / sum(w_u for A_u=1)
+JointCompletion_i   = sum(w_u * C_u * V_u * T_u for A_u=1) / sum(w_u for A_u=1)
+</code></pre>
+<p>如果未来纳入非视觉背景说明，单独报告其内容完成度，不强行把它们放进视觉分母。参考中没有、但语义等价的表达照样可以满足 C/V/T。</p>
+<p>为定位“没画”与“画了但没对时”，另报条件对齐：只在 C_u=V_u=1 的单元上统计 T_u，并同时报可评价单元数。该条件分只能诊断，不能代替固定分母的 JointCompletion。</p>
+<h3 id="72">7.2 事实正确性：覆盖实际输出，包括额外内容</h3>
+<p>对去重后的 narration factual claims 集合 N_i、visual factual assertions 集合 F_i 分别核验 supported / contradicted / unsupported / unresolved。visual assertions 包括可见数值、类别绑定、趋势、排序和明确结论，不限于 required units。</p>
+<pre><code>NarrationFactualPrecision_i = supported(N_i) / size(N_i)
+VisualFactualPrecision_i    = supported(F_i) / size(F_i)
+</code></pre>
+<p>上述点估计仅在全部 claims 已裁决时使用。重复同一正确数字不能重复加分；语义原子化要固定，避免模型把一句话拆很多次影响分母。补充报告每视频事实错误数和 AnyCriticalError：是否存在改变核心结论、实体或关键数量级的错误，由预先定义的严重性规则判定。</p>
+<p>没有 factual claim 的作品，precision=NA，不能记 1；其必需单元完成度仍可能为 0。不用省略内容来换取完美事实分。</p>
+<p>长而密集的图表可能有大量事实。核心集尽量全检；必须抽样时，公开抽样规则、抽样权重与覆盖率，命名为 audited factual precision，不能伪称已检验所有数据。不能只审 required facts 而放过额外编造。</p>
+<h3 id="73">7.3 不确定与执行失败</h3>
+<ul>
+<li>unresolved 表示评测器不确定，不应直接算模型错，也不能从分母剔除后算高分。</li>
+<li>对固定单元分数，令未裁决项取 0 得下界、取 1 得上界；对事实 precision，同样用 supported/n 与 (supported+unresolved)/n 给区间。</li>
+<li>最终核心榜建议人工解决关键 unresolved 后再给点分；未解决的发布区间与覆盖率，不给虚假的精确排名。</li>
+<li>输出缺失、代码失败、音轨缺失等任务失败，RenderSuccess=0，固定分母完成度=0。</li>
+<li>已生成 narration 的局部事实分可作为条件诊断，但不可让失败系统凭局部文本获得整体完成分。</li>
+<li>评测基础设施失败与模型失败分开：前者重跑/标 unavailable，不归零惩罚模型。</li>
+<li>轻微时长偏差按公开容差处理；越界不悄悄截断视频再评分。展示约束符合率，并预先定义哪些违规为无效提交。</li>
+</ul>
+<h3 id="74">7.4 呈现质量与效率</h3>
+<p>人评或校准裁判采用三个 1–5 维度：</p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>1 分</th>
+<th>3 分</th>
+<th>5 分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Narrative clarity</td>
+<td>缺乏可理解的比较/结论</td>
+<td>基本连贯，有明显跳跃或冗余</td>
+<td>结构清楚，信息选择与 intent 一致</td>
+</tr>
+<tr>
+<td>Visual readability</td>
+<td>关键信息不可读/不可辨</td>
+<td>多数可读，有局部遮挡或短暂不足</td>
+<td>关键信息清楚，单位/图例/阅读时间充分</td>
+</tr>
+<tr>
+<td>Animation effectiveness</td>
+<td>动画干扰或关键过程无法表达</td>
+<td>支持部分表达，也有无效动作</td>
+<td>动态变化或有意停留有效支持理解，无无关炫技</td>
+</tr>
+</tbody>
+</table>
+<p>没有必要动画的样本不因静止自动扣分，也不因全静态自动高分；判断依据是是否服务于明确的表达需求。审美可做附加偏好，不纳入数据事实分。</p>
+<p>效率报告总调用/token、墙钟耗时、渲染时间、TTS 次数与重试。金额需使用运行时已核验价格；本方案不预填成本结果。</p>
+<h3 id="75">7.5 汇总</h3>
+<p>主表建议列：RenderSuccess、ContentCompletion、VisualCompletion、JointCompletion、旁白事实 precision、视觉事实 precision、AnyCriticalError、三个人评维度、成本/延迟、Unresolved/Coverage。</p>
+<p>逐列明确汇总集合：</p>
+<table>
+<thead>
+<tr>
+<th>列</th>
+<th>纳入集合与缺失政策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RenderSuccess、固定分母完成度</td>
+<td>纳入全部有效评测尝试，模型生成失败记零；基础设施失败先重跑，仍不可用则标缺失并报数量</td>
+</tr>
+<tr>
+<td>旁白/视觉事实 precision</td>
+<td>非空且可检查该模态的作品上条件汇总，并同时报 n/N；空 claims 为 NA，失败作品不靠局部文本进入整体榜</td>
+</tr>
+<tr>
+<td>AnyCriticalError</td>
+<td>在已检查作品上报错误率及覆盖；不能把未生成或未检查作品当作无错</td>
+</tr>
+<tr>
+<td>条件对齐、人评质量</td>
+<td>明确成功/可评价集合及数量，不将其说成全部任务成功率</td>
+</tr>
+<tr>
+<td>unresolved</td>
+<td>逐样本保留上下界，再分别汇总上下界；不取中点，不悄悄删样本</td>
+</tr>
+</tbody>
+</table>
+<p>按视频先算再宏平均，防止长视频因句子多支配主结果。事实微平均可作补充。共享来源视频/数据表的样本在 bootstrap 中按来源组聚类；比较系统使用配对置信区间。系统间基础设施缺失优先补跑；不能补跑时，在共同可用样本上给配对比较，同时完整报告各系统覆盖和缺失分布，不把该比较冒充完整测试集结果。模型多次生成的不确定性与样本差异分开，报告实际次数。</p>
+<p>不要把不同量纲直接等权平均。JointCompletion 是明确定义的任务完成率，不声称覆盖一切质量；任何综合排序都必须同时公开事实错误和资源成本。没有用户或社区确认的权重，不应伪装成唯一客观总分。</p>
+<h2 id="8">8. 示例评分：解释指标为何需要并存</h2>
+<p>本节为人为构造的离散情形，不是实测结果。为了说明，令 U1/U2/U3 等权。</p>
+<table>
+<thead>
+<tr>
+<th>输出情形</th>
+<th>内容完成</th>
+<th>视觉完成</th>
+<th>联合完成</th>
+<th>解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>只正确讲 A，也只画 A</td>
+<td>1/3</td>
+<td>1/3</td>
+<td>1/3（假设对时）</td>
+<td>事实可全对，但没有完成任务</td>
+</tr>
+<tr>
+<td>旁白三项讲对，但唯一图表清楚地把 A/B 数值对调，否定全部三项</td>
+<td>0/3</td>
+<td>0/3</td>
+<td>0/3</td>
+<td>旁白局部事实可正确，但最终作品跨通道冲突；若绑定尚无法确定则标 unresolved，不直接给满分或零分</td>
+</tr>
+<tr>
+<td>内容与图形都正确，但比较证据在比较结束后才显示</td>
+<td>3/3</td>
+<td>3/3</td>
+<td>U3 不通过</td>
+<td>有内容不等于及时表达</td>
+</tr>
+<tr>
+<td>正确完成三项，但额外声称增长由广告造成</td>
+<td>3/3（未与核心比较冲突）</td>
+<td>3/3</td>
+<td>可为 3/3</td>
+<td>额外 unsupported claim 由事实指标和错误标记反映</td>
+</tr>
+<tr>
+<td>与参考配色、布局完全不同，但正确清楚</td>
+<td>3/3</td>
+<td>3/3</td>
+<td>3/3</td>
+<td>不因自由设计扣分</td>
+</tr>
+</tbody>
+</table>
+<p>这也是不宜只选一个主分数的原因：完成必需任务与不增加额外错误，是两个不同目标。</p>
+<h2 id="9">9. 证明评测器有效，而不只是能运行</h2>
+<h3 id="91">9.1 两类验证数据都要有</h3>
+<ul>
+<li>受控变体：从经核验的参考或生成实现中一次只改变一个因素，建立可诊断错误。</li>
+<li>自然输出：覆盖不同模型、代码风格、图表形式和真实错误，检验受控样本之外是否仍可靠。</li>
+</ul>
+<p>只做受控变体会高估评测器能力；只做人评相关性又难以证明它能抓住小但关键的错误。</p>
+<h3 id="92">9.2 受控变体与预期反应</h3>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>应影响</th>
+<th>不应被误伤</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单个关键数值改错</td>
+<td>事实正确、相应完成单元</td>
+<td>不自动惩罚无关画面美感</td>
+</tr>
+<tr>
+<td>交换实体标签</td>
+<td>实体绑定、相关视觉事实</td>
+<td>不因纯代码改名判错</td>
+</tr>
+<tr>
+<td>删除比较证据</td>
+<td>视觉/联合完成</td>
+<td>仍正确的旁白事实</td>
+</tr>
+<tr>
+<td>延迟证据或过早消失</td>
+<td>时序/联合完成</td>
+<td>静态数值是否正确</td>
+</tr>
+<tr>
+<td>改变不影响识别的配色/字体/布局</td>
+<td>语义分应保持</td>
+<td>不要求像参考</td>
+</tr>
+<tr>
+<td>用另一种合法图表表达相同关系</td>
+<td>语义分应保持</td>
+<td>不要求图元数相同</td>
+</tr>
+<tr>
+<td>加一条无依据因果论断</td>
+<td>额外事实错误</td>
+<td>已完成的合法单元</td>
+</tr>
+<tr>
+<td>加重复正确陈述</td>
+<td>不增加覆盖或事实样本权重</td>
+<td>不因重复数量刷分</td>
+</tr>
+<tr>
+<td>隐藏正确数据图元、只留自报 metadata</td>
+<td>视觉完成应下降</td>
+<td>不能信任 evidence_map</td>
+</tr>
+</tbody>
+</table>
+<p>改变字体/布局只有在仍可读、无新增遮挡时才是语义保持扰动。每个变体需要人工确认实际只改变预期因素。</p>
+<h3 id="93">9.3 校准与冻结</h3>
+<p>在开发集校准事实抽取、时间容差、可读时间及裁判提示。使用独立 held-out 自然输出与变体作最终验证，不可反复据测试错误调指标后仍称其独立验证。</p>
+<p>报告：claim extraction precision/recall、claim→query 映射正确率、错误检测 precision/recall、等价变化误报率、时间偏移检测、自动分与人工分相关性/排序一致性，以及人工间一致性。语义 extraction 漏掉的错误也计入评测器失误，不能只看已抽出 claims 的准确率。</p>
+<p>各类能力阈值需在试验后设定。本方案不预设任意“达到某相关性即可发表”的承诺。若自动评测尚不可靠，核心榜用人工裁决，自动结果标 provisional，并报告人工工作量。</p>
+<h2 id="10">10. 数据划分、污染与版权</h2>
+<p>按原始视频、数据表及近重复故事分组划分，不把同源片段或扰动变体分到 train/dev/test。模板近重复、同一配色并不足以判定内容泄漏，但共享事实与叙事结构需要重点检查。</p>
+<p>建议维护：</p>
+<ul>
+<li>public development：公开数据、任务、GT 和少量完整评分示例，供调试。</li>
+<li>hidden test：生成器仅获输入；GT 和人工裁决不暴露。公开通用评分政策与标注规范。</li>
+<li>evaluator validation：用于验证裁判的独立作品/受控变体，与调提示样本隔离。</li>
+</ul>
+<p>参考视频或 SVG 公开后，隐藏测试答案可能更容易被识别。不能声称隐藏就等于无污染；报告来源是否公开、是否可能出现在训练语料，并辅以新写 intent、新数据或可核验事实变体的独立子集。</p>
+<p>原视频、配音、字幕和 SVG 的再分发应检查许可。抽取为 SVG 不自动消除原素材版权；不明确时发布链接/时间戳与自有标注，不直接打包受限媒体。</p>
+<h2 id="11_1">11. 基线与实验设计</h2>
+<p>建议最小比较：</p>
+<ol>
+<li>单次 coding 生成：同一公开输入直接生成代码与 narration。</li>
+<li>可运行自检 Agent：允许看自己的执行错误和视频再修复，预算固定，不能访问隐藏评分器。</li>
+<li>简单数据忠实基线：有限图表类型、规则计算事实、模板旁白与逐项强调，作为低设计自由度参照，不冒充任何已有论文方法的完整实现。</li>
+<li>经人工核验的参考实现：作为可行性与评测器 sanity check，不默认满分，也不是所有指标的绝对上界。</li>
+</ol>
+<p>在同一模型上比较单次与 Agent 可看重试作用；不同模型之间同时报告预算。不要在没有官方代码和匹配配置的情况下把自建近似实现命名为某个已发表系统。</p>
+<p>能力分层优先按任务负担：数值/比较/趋势/排序/占比、单图与跨图、叙事单元数、数据规模、视频时长。首版不要为了凑图表类别扩大到无法可靠评估的所有可视化。</p>
+<h2 id="12_1">12. 最小实施路线与验收</h2>
+<h3 id="a">阶段 A：先把标注做对</h3>
+<p>选 20–30 个覆盖主要能力的样本试做，不将其当成发表规模承诺。每条完成：公开 intent、表口径、3–6 个左右必需单元（仅为工作量起点）、事实计算、视觉证据条件、歧义记录。</p>
+<p>验收：独立标注员只看输入能理解同一任务义务；不同合理视频能被接受；参考错误不进入 GT。样本难度不由 required units 数量单独决定。</p>
+<h3 id="b-coding">阶段 B：跑通 coding 与证据采集</h3>
+<p>实现统一时钟、音频、视频采集和两三类典型编码的结构检查。先人工完成评分，以确认每项判据确实可执行。</p>
+<p>验收：能重现同一输出；DOM/截图/音轨时间一致；成功与基础设施失败可区分；不读源码注释就能判断最终结果。</p>
+<h3 id="c">阶段 C：自动评测器校准</h3>
+<p>在自然输出与受控变体上测量程序提取和 VLM 判断错误，建立 unknown/复核通道。自动评分不可靠的维度保留人评，不为了全自动而降低科学有效性。</p>
+<p>验收：明确哪些指标可靠、哪些类型覆盖不足、哪些仍需人评；阈值和提示冻结，留独立验证集。</p>
+<h3 id="d">阶段 D：扩量并比较系统</h3>
+<p>按来源、任务能力与时长扩展，确定评测预算和人工抽检策略。发布主分项、错误类型、置信区间、失败与不确定比例。再根据必要性增加图表类型/运行时，不按预设月份承诺“旗舰级”。</p>
+<h2 id="13-metric">13. 与旧 metric 清单的对应处理</h2>
+<ul>
+<li>L1 保留 schema、执行与绑定诊断；删除数值集合命中作为 fidelity 的定义。</li>
+<li>L2 在本 table+intent 任务中保留；用 claim 核验 + required-unit 完成替代旁白相似度主评测，不奖励无证据因果和预测。</li>
+<li>L3 保留实际渲染、可读性与视觉事实；静帧率、图元重叠、运动幅度只作辅助信号。</li>
+<li>L4 升级为以生成音频为基准的视觉证据与时序核验；相同错误不能相互作证。</li>
+<li>L5 保留明确的叙事、可读性与动画有效性评分。理解度实验可选，需 audio-only 对照，避免旁白本身解释全部答题表现。</li>
+<li>L6 保留资源/失败/预算信息；事实改变的扰动必须同步更新 GT，不能要求结果不变。</li>
+<li>L7 电影化风格只作可选风格任务或分层分析，不进入主正确性评价。</li>
+<li>删除未验证的等权复合分、无依据样本比例与“几周即可发表”的承诺。</li>
+</ul>
+<h2 id="14_1">14. 实现时必须明确的边界</h2>
+<ol>
+<li><strong>任务义务能否从输入推出？</strong> 不能把参考视频的所有细节偷偷当标准答案。</li>
+<li><strong>程序真的理解图形吗？</strong> 任意 SVG paths、Canvas 与混合编码不能保证精确自动还原，需要覆盖声明和 fallback。</li>
+<li><strong>GT 能否判新答案？</strong> 参考 fact catalog 不是封闭世界，新的合理事实必须能查询验证。</li>
+<li><strong>评测器是否只看到了答案？</strong> 字幕、源数据、自报 metadata 不能替代实际图形证据。</li>
+<li><strong>是否混淆生成失败与评测失败？</strong> unresolved/infra failure 必须独立记录。</li>
+<li><strong>是否把标准化变成了替模型做任务？</strong> 统一时钟与音色可以，预置完整可视化答案不可以。</li>
+<li><strong>是否只有参考而没有生成结果标注？</strong> 自动评测器的有效性必须用真实候选作品验证。</li>
+</ol>
+<h2 id="15">15. 已核验的相关工作与证据边界</h2>
+<p>本节沿用本次讨论已查阅的原文信息，目的仅是解释设计来源，不构成完整 related-work/新颖性审查。</p>
+<ul>
+<li><a href="https://arxiv.org/html/2604.25220v2">DATAREEL, arXiv:2604.25220v2</a>：输入数据、传播意图、时长和风格参考，代码生成后渲染；已有 HTML 评判及视频级字幕—动画一致性评价。不能把“完全没有跨模态评测”作为差异化。本文建议强化可执行事实与单元级证据核验。</li>
+<li><a href="https://arxiv.org/html/2606.20388v1">DataMagic, arXiv:2606.20388v1</a>：DVSpec 数据绑定、叙事索引触发；评估含执行率及五维质量自动评分与人工校准。数据引用机制不等于“数值出现在原表即可证明正确”。</li>
+<li><a href="https://arxiv.org/html/2311.17982">VBench, arXiv:2311.17982</a>：细分视频质量维度；通用一致性和运动代理不能不加验证地迁移为数据视频正确性标准。</li>
+<li><a href="https://arxiv.org/html/2509.11253v2">VideoAgent / SciVidEval, arXiv:2509.11253v2</a>：科学视频多模态评测和观众问答可作参考，但本任务需额外验证数据事实、图形编码及开放叙事选择。</li>
+</ul>
+<h2 id="16">16. 交付文件与当前未实现项</h2>
+<ul>
+<li>evaluation_protocol.md：本方案的可编辑正文。</li>
+<li>evaluation_protocol.html：同一正文生成的阅读版，不是另一套协议。</li>
+<li>example_public_task.json：一个完整的公开输入样例。</li>
+<li>example_private_gt.json：对应的评测端 GT 示例，包含事实表达式、必需单元及证据条件。</li>
+<li>validate_example.py：只校验样例数据、事实计算和引用完整性；不是视频评分器，也不证明指标有效。</li>
+<li>build_reading.py：由 Markdown 重建阅读版的辅助脚本，需要 Python-Markdown；样例校验本身只需 Python 标准库。</li>
+<li>data_video_evaluation_bundle.zip：打包上述六个文件，便于交给合作者。</li>
+</ul>
+<p>运行 <code>python3 validate_example.py</code> 可核对构造样例的 11 个事实、3 个必需单元、引用关系、公开/评测字段隔离及联合分数例子。校验通过只说明这些样例自洽，不表示自动裁判已经验证。</p>
+<p>当前尚未实现：浏览器执行 harness、D3/SVG 语义解析器、TTS 对齐、自动 claim 抽取、VLM 裁判、人工标注平台。时间容差、视觉数值容差、自动裁判可靠性均需开发集验证。JSON 为数据契约示例，不是已部署 API。</p>
+<p>最关键的结论：<strong>你们需要交付的是“输入支持什么、任务要求什么、画面需证明什么、何时需证明”的 GT 包，而不是一条唯一标准视频。coding 限定让证据更容易采集，但不会自动消除语义与时序判断的难点。</strong></p><p class="footer">此页面由 evaluation_protocol.md 生成。示例 JSON 与校验脚本随方案交付；运行时 harness 和视频裁判尚未实现。</p></main>
+</div>
+</body>
+</html>

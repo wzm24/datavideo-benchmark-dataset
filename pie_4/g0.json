@@ -1,281 +1,246 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_4",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "ebb6d1e21e15ff2bf72a819c4a71cb0ae3c10f606bd9cf85006566406a2028ff",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "fd7f0db256325df362f6d9f36874545bef0c7efc3650a136eda7e062c4d6993b",
+ "data_table_sha256": "7c6edeb7e7221b09f09a3f758b5ed96ab8aa9e24c191eca0cda1616c306d52aa",
  "row_count": 7,
- "sidecar_row_count": 7,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 7,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_commute_modes"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Public transportation",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 5.2,
-   "last_value": 5.2,
-   "min_value": 5.2,
-   "max_value": 5.2,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "5.2",
+   "unit": "%",
+   "relative_value": "0.052",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "Drive alone",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 76.0,
-   "last_value": 76.0,
-   "min_value": 76.0,
-   "max_value": 76.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "76",
+   "unit": "%",
+   "relative_value": "0.76",
+   "label": "76%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r3",
    "panel": "",
+   "series": "",
    "entity": "Taxi, motorcycle, or other",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 1.7,
-   "last_value": 1.7,
-   "min_value": 1.7,
-   "max_value": 1.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "1.7",
+   "unit": "%",
+   "relative_value": "0.017",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r4",
    "panel": "",
+   "series": "",
    "entity": "Work at home",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 5.1,
-   "last_value": 5.1,
-   "min_value": 5.1,
-   "max_value": 5.1,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "5.1",
+   "unit": "%",
+   "relative_value": "0.051",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r5",
    "panel": "",
+   "series": "",
    "entity": "Walk",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.5,
-   "last_value": 2.5,
-   "min_value": 2.5,
-   "max_value": 2.5,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "2.5",
+   "unit": "%",
+   "relative_value": "0.025",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r6",
    "panel": "",
+   "series": "",
    "entity": "Carpool",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 8.2,
-   "last_value": 8.2,
-   "min_value": 8.2,
-   "max_value": 8.2,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_commute_modes",
+   "value": "8.2",
+   "unit": "%",
+   "relative_value": "0.082",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   },
   {
+   "row_id": "r7",
    "panel": "",
-   "entity": "Bicycle",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 1.0,
-   "last_value": 1.0,
-   "min_value": 1.0,
-   "max_value": 1.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_commute_modes"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "Bicycle",
+   "metric": "share_of_commute_modes",
+   "value": "1.0",
+   "unit": "%",
+   "relative_value": "0.01",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_commute_modes"
   }
  ],
- "source_type_counts": {
-  "estimated": 6,
-  "printed": 1
- },
- "role_counts": {
-  "slice": 7
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_commute_modes",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "r5",
+    "r6",
+    "r7"
+   ],
+   "entities": [
+    "Public transportation",
+    "Drive alone",
+    "Taxi, motorcycle, or other",
+    "Work at home",
+    "Walk",
+    "Carpool",
+    "Bicycle"
+   ],
+   "relative_value_sum": 0.997
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Public transportation",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "5.2",
+    "unit": "%",
+    "relative_value": "0.052",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "Drive alone",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "76",
+    "unit": "%",
+    "relative_value": "0.76",
+    "label": "76%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "Taxi, motorcycle, or other",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "1.7",
+    "unit": "%",
+    "relative_value": "0.017",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r4",
     "panel": "",
+    "series": "",
     "entity": "Work at home",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "5.1",
+    "unit": "%",
+    "relative_value": "0.051",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r5",
     "panel": "",
+    "series": "",
     "entity": "Walk",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "2.5",
+    "unit": "%",
+    "relative_value": "0.025",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r6",
     "panel": "",
+    "series": "",
     "entity": "Carpool",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "8.2",
+    "unit": "%",
+    "relative_value": "0.082",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    },
    {
+    "row_id": "r7",
     "panel": "",
+    "series": "",
     "entity": "Bicycle",
-    "series": ""
+    "metric": "share_of_commute_modes",
+    "value": "1.0",
+    "unit": "%",
+    "relative_value": "0.01",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
    }
   ],
-  "required_entity_count": 7,
-  "required_row_count": 7,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

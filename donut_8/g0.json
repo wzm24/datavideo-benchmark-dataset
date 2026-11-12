@@ -1,136 +1,106 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_8",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "ed2618dc881c87f6008e42eb7e854db6da5e028d9ea4db9c97206ab43b03355b",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b4e9486e716dbe051efdb63234dca19e5a1691228c78fb4527d5f9d741e04090",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "multi_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 2,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_voters"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
+  {
+   "row_id": "r1",
+   "panel": "",
+   "series": "Outer ring",
+   "entity": "All American voters",
+   "metric": "share_of_voters",
+   "value": "77",
+   "unit": "%",
+   "relative_value": "0.77",
+   "label": "77%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "Outer ring"
+  },
+  {
+   "row_id": "r2",
+   "panel": "",
+   "series": "Inner ring",
+   "entity": "Live in a house with a gun",
+   "metric": "share_of_voters",
+   "value": "68",
+   "unit": "%",
+   "relative_value": "0.68",
+   "label": "",
+   "role": "arc",
+   "source_type": "estimated",
+   "whole_scope": "Inner ring"
+  }
+ ],
+ "composition_groups": [
   {
    "panel": "",
-   "entity": "All American voters",
    "series": "Outer ring",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Outer ring",
+   "row_ids": [
+    "r1"
    ],
-   "x_anchors": [],
-   "first_value": 77.0,
-   "last_value": 77.0,
-   "min_value": 77.0,
-   "max_value": 77.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_voters"
+   "entities": [
+    "All American voters"
    ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "arc"
-   ]
+   "relative_value_sum": 0.77
   },
   {
    "panel": "",
-   "entity": "Live in a house with a gun",
    "series": "Inner ring",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Inner ring",
+   "row_ids": [
+    "r2"
    ],
-   "x_anchors": [],
-   "first_value": 68.0,
-   "last_value": 68.0,
-   "min_value": 68.0,
-   "max_value": 68.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_voters"
+   "entities": [
+    "Live in a house with a gun"
    ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "arc"
-   ]
+   "relative_value_sum": 0.68
   }
- ],
- "source_type_counts": {
-  "estimated": 1,
-  "printed": 1
- },
- "role_counts": {
-  "arc": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "Outer ring",
     "entity": "All American voters",
-    "series": "Outer ring"
+    "metric": "share_of_voters",
+    "value": "77",
+    "unit": "%",
+    "relative_value": "0.77",
+    "label": "77%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "Outer ring"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "Inner ring",
     "entity": "Live in a house with a gun",
-    "series": "Inner ring"
+    "metric": "share_of_voters",
+    "value": "68",
+    "unit": "%",
+    "relative_value": "0.68",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated",
+    "whole_scope": "Inner ring"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

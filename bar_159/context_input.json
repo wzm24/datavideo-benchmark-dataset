@@ -1,0 +1,808 @@
+{
+  "clip_id": "bar_159",
+  "family": "bar",
+  "video_id": "wFqQm1541aA",
+  "source_url": "https://www.youtube.com/watch?v=wFqQm1541aA",
+  "source_title": "Teaching in the US vs. the rest of the world",
+  "target_window_source": {
+    "start": 133.0,
+    "end": 150.0
+  },
+  "target_mask_interval": {
+    "start": 131.5,
+    "end": 151.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    22,
+    23
+  ],
+  "masked_cue_ids": [
+    22,
+    23
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": "This is Anna. She just graduated from college in the United States, and this is Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 1,
+      "start": 6.64,
+      "end": 9.88,
+      "text": "She also just graduated from college in Finland.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 2,
+      "start": 10.76,
+      "end": 19.28,
+      "text": "Anna and Sophia both want to be middle school teachers, but it turns out there's a good chance their experiences will be very different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 3,
+      "start": 19.8,
+      "end": 26.24,
+      "text": "So different that Anna is twice as likely as Sophia to leave teaching for good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 4,
+      "start": 27.08,
+      "end": 28.64,
+      "text": "That's causing a problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 5,
+      "start": 29.04,
+      "end": 36.88,
+      "text": "The supply of new certified teachers in the United States is shrinking, but the number of public school students keeps growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 6,
+      "start": 37.32,
+      "end": 39.12,
+      "text": "Massive teacher shortages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 7,
+      "start": 39.16,
+      "end": 41.16,
+      "text": "Warnings about teacher turnover.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 8,
+      "start": 41.24,
+      "end": 44.4,
+      "text": "Educators call Colorado's teacher shortage a crisis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 9,
+      "start": 44.76,
+      "end": 48.4,
+      "text": "So what makes Sophia stay and Anna leave?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 10,
+      "start": 48.84,
+      "end": 53.6,
+      "text": "And how can the United States keep more of its teachers in the classroom?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 11,
+      "start": 58.02,
+      "end": 61.98,
+      "text": "In the U.S., teachers work about nine and a quarter hours a day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 12,
+      "start": 62.46,
+      "end": 72.1,
+      "text": "That's an hour and a half longer than the average for teachers in other countries in the Organization for Economic Development, or OECD for short.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 13,
+      "start": 72.14,
+      "end": 77.02,
+      "text": "That's a group of mostly wealthy countries that economists often compare to one another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 14,
+      "start": 77.22,
+      "end": 84.34,
+      "text": "Teachers in the U.S. work more than two and a half hours longer than their colleagues in South Korea, Finland, and Israel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 15,
+      "start": 84.9,
+      "end": 92.66,
+      "text": "There are some countries with similar teacher work hours to the United States, like New Zealand, Singapore, and the UK.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 16,
+      "start": 93.42,
+      "end": 98.9,
+      "text": "Teachers in Japan, for example, work nearly two hours more per day than teachers in the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 17,
+      "start": 99.62,
+      "end": 103.38,
+      "text": "But in all of these countries, teaching hours are much lower.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 18,
+      "start": 104.62,
+      "end": 111.74,
+      "text": "Of the nine and a quarter hours that American teachers work every day, they spend about five and a half of those hours actually teaching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 19,
+      "start": 112.38,
+      "end": 121.06,
+      "text": "That's more than the OECD average and significantly more than teachers in New Zealand, the UK, South Korea, Japan, and Singapore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    },
+    {
+      "index": 20,
+      "start": 121.74,
+      "end": 126.78,
+      "text": "Teachers in these countries get more time for planning, grading, and collaborating with each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    },
+    {
+      "index": 21,
+      "start": 127.3,
+      "end": 131.38,
+      "text": "So do all those extra teaching hours translate to better results?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    }
+  ],
+  "context_after": [
+    {
+      "index": 24,
+      "start": 151.94,
+      "end": 161.18,
+      "text": "If we look inside Anna and Sophia's classrooms in the U.S. and Finland, we'd see Anna teaching an hour and a half more per day than Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143601,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 25,
+      "start": 161.38,
+      "end": 167.7,
+      "text": "Anna also spends more time planning lessons, grading student work, and leading extracurricular activities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 26,
+      "start": 168.3,
+      "end": 172.42,
+      "text": "But those extra hours aren't necessarily reflected in Anna's paycheck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 27,
+      "start": 173.3,
+      "end": 180.58,
+      "text": "If you compare Sophia to other people in Finland with college degrees, she makes about 98 cents for every dollar that they make.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 28,
+      "start": 181.02,
+      "end": 185.94,
+      "text": "That's on par with the pay ratio between teachers and college graduates in similar countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 29,
+      "start": 186.06,
+      "end": 193.66,
+      "text": "But Anna and other American middle school teachers only make about 65 cents for every dollar that their college-educated peers make.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 30,
+      "start": 194.46,
+      "end": 204.98,
+      "text": "Still, as politicians in the U.S. never tire of pointing out, we spend more per student than almost any country, I think, than nearly every other country in the developed world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 31,
+      "start": 205.06,
+      "end": 207.5,
+      "text": "But that figure varies a lot by state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 32,
+      "start": 208.18,
+      "end": 211.26,
+      "text": "New York spends twice as much as California on each student.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 33,
+      "start": 211.7,
+      "end": 214.9,
+      "text": "Mississippi spends less than half as much as Alaska.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 34,
+      "start": 215.62,
+      "end": 223.42,
+      "text": "And American schools generally spend a lot more on security and other non-instructional costs than schools in other countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 35,
+      "start": 223.94,
+      "end": 234.22,
+      "text": "Plus, if you look at the share of its national wealth or GDP that each country spends on education, you can see there are plenty of countries spending a bigger share than the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 36,
+      "start": 235.46,
+      "end": 238.42,
+      "text": "There's one other difference between Anna and Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 37,
+      "start": 239.06,
+      "end": 249.26,
+      "text": "When they're asked whether people in their country value teachers, two out of three Finnish teachers say yes, but just one in three American teachers agree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0903,
+      "no_speech_prob": 0.066406
+    },
+    {
+      "index": 38,
+      "start": 250.5,
+      "end": 260.62,
+      "text": "There are a lot of reasons why teachers like Anna leave the classroom, but if the U.S. wants to keep more of them around, we might want to take a few pages from Finland's book.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0903,
+      "no_speech_prob": 0.066406
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": "This is Anna. She just graduated from college in the United States, and this is Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 1,
+      "start": 6.64,
+      "end": 9.88,
+      "text": "She also just graduated from college in Finland.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 2,
+      "start": 10.76,
+      "end": 19.28,
+      "text": "Anna and Sophia both want to be middle school teachers, but it turns out there's a good chance their experiences will be very different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 3,
+      "start": 19.8,
+      "end": 26.24,
+      "text": "So different that Anna is twice as likely as Sophia to leave teaching for good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.237461,
+      "no_speech_prob": 0.03891
+    },
+    {
+      "index": 4,
+      "start": 27.08,
+      "end": 28.64,
+      "text": "That's causing a problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 5,
+      "start": 29.04,
+      "end": 36.88,
+      "text": "The supply of new certified teachers in the United States is shrinking, but the number of public school students keeps growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 6,
+      "start": 37.32,
+      "end": 39.12,
+      "text": "Massive teacher shortages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 7,
+      "start": 39.16,
+      "end": 41.16,
+      "text": "Warnings about teacher turnover.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 8,
+      "start": 41.24,
+      "end": 44.4,
+      "text": "Educators call Colorado's teacher shortage a crisis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 9,
+      "start": 44.76,
+      "end": 48.4,
+      "text": "So what makes Sophia stay and Anna leave?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 10,
+      "start": 48.84,
+      "end": 53.6,
+      "text": "And how can the United States keep more of its teachers in the classroom?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.184549,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 11,
+      "start": 58.02,
+      "end": 61.98,
+      "text": "In the U.S., teachers work about nine and a quarter hours a day.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 12,
+      "start": 62.46,
+      "end": 72.1,
+      "text": "That's an hour and a half longer than the average for teachers in other countries in the Organization for Economic Development, or OECD for short.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 13,
+      "start": 72.14,
+      "end": 77.02,
+      "text": "That's a group of mostly wealthy countries that economists often compare to one another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 14,
+      "start": 77.22,
+      "end": 84.34,
+      "text": "Teachers in the U.S. work more than two and a half hours longer than their colleagues in South Korea, Finland, and Israel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105662,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 15,
+      "start": 84.9,
+      "end": 92.66,
+      "text": "There are some countries with similar teacher work hours to the United States, like New Zealand, Singapore, and the UK.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 16,
+      "start": 93.42,
+      "end": 98.9,
+      "text": "Teachers in Japan, for example, work nearly two hours more per day than teachers in the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 17,
+      "start": 99.62,
+      "end": 103.38,
+      "text": "But in all of these countries, teaching hours are much lower.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 18,
+      "start": 104.62,
+      "end": 111.74,
+      "text": "Of the nine and a quarter hours that American teachers work every day, they spend about five and a half of those hours actually teaching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106608,
+      "no_speech_prob": 0.003761
+    },
+    {
+      "index": 19,
+      "start": 112.38,
+      "end": 121.06,
+      "text": "That's more than the OECD average and significantly more than teachers in New Zealand, the UK, South Korea, Japan, and Singapore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    },
+    {
+      "index": 20,
+      "start": 121.74,
+      "end": 126.78,
+      "text": "Teachers in these countries get more time for planning, grading, and collaborating with each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    },
+    {
+      "index": 21,
+      "start": 127.3,
+      "end": 131.38,
+      "text": "So do all those extra teaching hours translate to better results?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101504,
+      "no_speech_prob": 0.001366
+    },
+    {
+      "index": 24,
+      "start": 151.94,
+      "end": 161.18,
+      "text": "If we look inside Anna and Sophia's classrooms in the U.S. and Finland, we'd see Anna teaching an hour and a half more per day than Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143601,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 25,
+      "start": 161.38,
+      "end": 167.7,
+      "text": "Anna also spends more time planning lessons, grading student work, and leading extracurricular activities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 26,
+      "start": 168.3,
+      "end": 172.42,
+      "text": "But those extra hours aren't necessarily reflected in Anna's paycheck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 27,
+      "start": 173.3,
+      "end": 180.58,
+      "text": "If you compare Sophia to other people in Finland with college degrees, she makes about 98 cents for every dollar that they make.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 28,
+      "start": 181.02,
+      "end": 185.94,
+      "text": "That's on par with the pay ratio between teachers and college graduates in similar countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113971,
+      "no_speech_prob": 0.000107
+    },
+    {
+      "index": 29,
+      "start": 186.06,
+      "end": 193.66,
+      "text": "But Anna and other American middle school teachers only make about 65 cents for every dollar that their college-educated peers make.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 30,
+      "start": 194.46,
+      "end": 204.98,
+      "text": "Still, as politicians in the U.S. never tire of pointing out, we spend more per student than almost any country, I think, than nearly every other country in the developed world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 31,
+      "start": 205.06,
+      "end": 207.5,
+      "text": "But that figure varies a lot by state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 32,
+      "start": 208.18,
+      "end": 211.26,
+      "text": "New York spends twice as much as California on each student.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 33,
+      "start": 211.7,
+      "end": 214.9,
+      "text": "Mississippi spends less than half as much as Alaska.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149533,
+      "no_speech_prob": 0.003122
+    },
+    {
+      "index": 34,
+      "start": 215.62,
+      "end": 223.42,
+      "text": "And American schools generally spend a lot more on security and other non-instructional costs than schools in other countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 35,
+      "start": 223.94,
+      "end": 234.22,
+      "text": "Plus, if you look at the share of its national wealth or GDP that each country spends on education, you can see there are plenty of countries spending a bigger share than the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 36,
+      "start": 235.46,
+      "end": 238.42,
+      "text": "There's one other difference between Anna and Sophia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089506,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 37,
+      "start": 239.06,
+      "end": 249.26,
+      "text": "When they're asked whether people in their country value teachers, two out of three Finnish teachers say yes, but just one in three American teachers agree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0903,
+      "no_speech_prob": 0.066406
+    },
+    {
+      "index": 38,
+      "start": 250.5,
+      "end": 260.62,
+      "text": "There are a lot of reasons why teachers like Anna leave the classroom, but if the U.S. wants to keep more of them around, we might want to take a few pages from Finland's book.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0903,
+      "no_speech_prob": 0.066406
+    }
+  ],
+  "context_text_chronological": "This is Anna. She just graduated from college in the United States, and this is Sophia. She also just graduated from college in Finland. Anna and Sophia both want to be middle school teachers, but it turns out there's a good chance their experiences will be very different. So different that Anna is twice as likely as Sophia to leave teaching for good. That's causing a problem. The supply of new certified teachers in the United States is shrinking, but the number of public school students keeps growing. Massive teacher shortages. Warnings about teacher turnover. Educators call Colorado's teacher shortage a crisis. So what makes Sophia stay and Anna leave? And how can the United States keep more of its teachers in the classroom? In the U.S., teachers work about nine and a quarter hours a day. That's an hour and a half longer than the average for teachers in other countries in the Organization for Economic Development, or OECD for short. That's a group of mostly wealthy countries that economists often compare to one another. Teachers in the U.S. work more than two and a half hours longer than their colleagues in South Korea, Finland, and Israel. There are some countries with similar teacher work hours to the United States, like New Zealand, Singapore, and the UK. Teachers in Japan, for example, work nearly two hours more per day than teachers in the U.S. But in all of these countries, teaching hours are much lower. Of the nine and a quarter hours that American teachers work every day, they spend about five and a half of those hours actually teaching. That's more than the OECD average and significantly more than teachers in New Zealand, the UK, South Korea, Japan, and Singapore. Teachers in these countries get more time for planning, grading, and collaborating with each other. So do all those extra teaching hours translate to better results? If we look inside Anna and Sophia's classrooms in the U.S. and Finland, we'd see Anna teaching an hour and a half more per day than Sophia. Anna also spends more time planning lessons, grading student work, and leading extracurricular activities. But those extra hours aren't necessarily reflected in Anna's paycheck. If you compare Sophia to other people in Finland with college degrees, she makes about 98 cents for every dollar that they make. That's on par with the pay ratio between teachers and college graduates in similar countries. But Anna and other American middle school teachers only make about 65 cents for every dollar that their college-educated peers make. Still, as politicians in the U.S. never tire of pointing out, we spend more per student than almost any country, I think, than nearly every other country in the developed world. But that figure varies a lot by state. New York spends twice as much as California on each student. Mississippi spends less than half as much as Alaska. And American schools generally spend a lot more on security and other non-instructional costs than schools in other countries. Plus, if you look at the share of its national wealth or GDP that each country spends on education, you can see there are plenty of countries spending a bigger share than the U.S. There's one other difference between Anna and Sophia. When they're asked whether people in their country value teachers, two out of three Finnish teachers say yes, but just one in three American teachers agree. There are a lot of reasons why teachers like Anna leave the classroom, but if the U.S. wants to keep more of them around, we might want to take a few pages from Finland's book.",
+  "target_text_for_audit": "Students in the U.S. score slightly above the OECD average on the PISA exam, which tests 15-year-olds all over the world in reading science and math. But they score lower than students in countries like Finland, South Korea, Japan, and Singapore, where teaching hours are much lower.",
+  "verification": {
+    "status": "needs_review",
+    "threshold": 0.25,
+    "existing_narration_sentences": 4,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Students in the U .S.",
+        "start_source": 132.82,
+        "end_source": 134.34,
+        "matching_cue_ids": [
+          22
+        ],
+        "text_similarity": 0.2303,
+        "time_overlap": true,
+        "passes": false
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "score slightly above the OECD average on the PISA exam,",
+        "start_source": 134.56,
+        "end_source": 138.08,
+        "matching_cue_ids": [
+          22
+        ],
+        "text_similarity": 0.54,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "which tests 15 -year -olds all over the world in reading, science, and math,",
+        "start_source": 138.7,
+        "end_source": 142.58,
+        "matching_cue_ids": [
+          22
+        ],
+        "text_similarity": 0.6544,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "but they score lower than students in countries like Finland, South Korea, Japan, and Singapore, where teaching hours are much lower.",
+        "start_source": 143.14,
+        "end_source": 150.98,
+        "matching_cue_ids": [
+          23
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\wFqQm1541aA.mp4",
+    "cue_count": 39
+  },
+  "token_estimate_char_div_4": 892
+}

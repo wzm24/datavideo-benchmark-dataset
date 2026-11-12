@@ -1,28 +1,104 @@
 {
  "clip_id": "area_23",
- "intent_en": "To illustrate the relative physical size of the Moon compared to Earth, emphasizing that the Moon is unusually large for a satellite.",
- "previous_intent": "To illustrate the substantial relative size of the Moon compared to Earth, highlighting that it is the largest moon in the solar system in proportion to its host planet.",
- "narration_support": "how big is it in relation to Earth? Quite big, actually. Our Moon is the biggest in the solar system in relation to its planet",
- "chart_support": "Side-by-side circles comparing the diameters of Earth and the Moon, visually demonstrating the Moon's substantial size relative to Earth.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly questions the relative size of the Moon and asserts it is the largest relative to its planet. The chart supports this by displaying a visual size comparison of the two bodies with diameter labels, showing the Moon is a significant fraction of Earth's size.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Compare Earth's 12,700 km diameter with the Moon's 3,500 km diameter to show the Moon is relatively large but clearly smaller than Earth.",
+ "intent_en": "Compare the diameters of Earth and the Moon to determine their relative sizes.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_23",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Compare Earth's 12,700 km diameter with the Moon's 3,500 km diameter to show the Moon is relatively large but clearly smaller than Earth.",
+  "proposed_intent": "Compare the diameters of Earth and the Moon to determine their relative sizes.",
+  "writer": {
+   "intent": "Compare the diameters of Earth and the Moon to determine their relative sizes.",
+   "entities": [
+    "Earth",
+    "Moon"
+   ],
+   "measure": "Diameter (km)",
+   "scope": "Snapshot of Earth and Moon diameters",
+   "comparison": "Earth vs Moon",
+   "withheld_answer": "The Moon is relatively large but clearly smaller than Earth."
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 13,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [
+    "12,700",
+    "3500"
+   ],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [],
+  "repair_attempts": 0,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {
+    "prompt_tokens": 1290,
+    "completion_tokens": 81,
+    "total_tokens": 1371,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1162
+   },
+   {
+    "prompt_tokens": 1216,
+    "completion_tokens": 56,
+    "total_tokens": 1272,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1216
+   }
+  ],
+  "sec": 1.9
+ }
 }

@@ -51,7 +51,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -77,7 +78,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The sole data mark/label must encode or clearly correspond to 0.1250 on the relative-value scale."
+   "evidence": "The sole data mark/label must encode or clearly correspond to 0.1250 on the relative-value scale.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -111,12 +113,13 @@
   "legacy_g1_migrated",
   "no_explicit_bar_mark_found",
   "semantic_reaudit_required",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "clip_hardcase": {
   "is_hardcase": true,
   "type": "no_explicit_bar_mark_in_reference_svg",
@@ -130,5 +133,12 @@
    "handling": "Requires human visual inspection before semantic scoring."
   }
  ],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

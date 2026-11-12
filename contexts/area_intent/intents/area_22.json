@@ -1,0 +1,69 @@
+{
+ "clip": "area_22",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the volume of all water on Earth is a tiny fraction of Earth's total volume, with Earth at 1 and all water at about 0.0011 relative.",
+ "proposed_intent": "Compare the relative volume of Earth with the relative volume of all the water on Earth.",
+ "writer": {
+  "intent": "Compare the relative volume of Earth with the relative volume of all the water on Earth.",
+  "entities": [
+   "Earth",
+   "All the water on Earth"
+  ],
+  "measure": "Volume (relative)",
+  "scope": "snapshot; single panel; proportional sphere volume",
+  "comparison": "Earth versus All the water on Earth",
+  "withheld_answer": "All water is a tiny fraction of Earth's volume (about 0.0011 relative to Earth at 1)."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 16,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1349,
+   "completion_tokens": 109,
+   "total_tokens": 1458,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1221
+  },
+  {
+   "prompt_tokens": 1278,
+   "completion_tokens": 56,
+   "total_tokens": 1334,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1278
+  }
+ ],
+ "sec": 1.6
+}

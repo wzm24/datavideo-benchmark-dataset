@@ -1,162 +1,126 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_3",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "069837987fdae6ffcc19e7b7b5ac1e9b0d6679d844a8590d493c9a414692e467",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "e5a7737df40d35b9ceb06b32a8a33430efeb72c574799bb7cb8627736e800fe2",
+ "data_table_sha256": "98285de8d356d33c5b19752246650fe7bc7ac53a4e6f5274f710e3011095fe08",
  "row_count": 3,
- "sidecar_row_count": 3,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
-  "panel_count": 2,
-  "series_count": 3,
-  "time_behavior": "snapshot",
-  "panels": []
+  "panel_count": 1,
+  "ring_count": 1,
+  "time_behavior": "frame"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "restaurant_failure_rate"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "state 3s",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 90.0,
-   "last_value": 90.0,
-   "min_value": 90.0,
-   "max_value": 90.0,
-   "missing_value_count": 0,
-   "metric": [
-    "restaurant_failure_rate"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "state"
-   ]
+   "entity": "myth: restaurants failing in the first year",
+   "metric": "restaurant_failure_rate",
+   "value": "90",
+   "unit": "%",
+   "relative_value": "0.9",
+   "label": "90%",
+   "role": "state",
+   "source_type": "printed",
+   "whole_scope": "myth: restaurants failing in the first year"
   },
   {
+   "row_id": "r2",
    "panel": "",
-   "entity": "state 8s",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 30.0,
-   "last_value": 30.0,
-   "min_value": 30.0,
-   "max_value": 30.0,
-   "missing_value_count": 0,
-   "metric": [
-    "restaurant_failure_rate"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "state"
-   ]
+   "entity": "reality: restaurants failing in the first year",
+   "metric": "restaurant_failure_rate",
+   "value": "30",
+   "unit": "%",
+   "relative_value": "0.3",
+   "label": "APPROX. 30%",
+   "role": "state",
+   "source_type": "printed",
+   "whole_scope": "reality: restaurants failing in the first year"
   },
   {
+   "row_id": "r3",
    "panel": "",
-   "entity": "state last",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 60.0,
-   "last_value": 60.0,
-   "min_value": 60.0,
-   "max_value": 60.0,
-   "missing_value_count": 0,
-   "metric": [
-    "restaurant_failure_rate"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "state"
-   ]
+   "entity": "reality: restaurants failing after three years",
+   "metric": "restaurant_failure_rate",
+   "value": "60",
+   "unit": "%",
+   "relative_value": "0.6",
+   "label": "APPROX. 60%",
+   "role": "state",
+   "source_type": "printed",
+   "whole_scope": "reality: restaurants failing after three years"
   }
  ],
- "source_type_counts": {
-  "printed": 3
- },
- "role_counts": {
-  "state": 3
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "myth: restaurants failing in the first year",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3"
+   ],
+   "entities": [
+    "myth: restaurants failing in the first year",
+    "reality: restaurants failing in the first year",
+    "reality: restaurants failing after three years"
+   ],
+   "relative_value_sum": 1.8
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "state_sequence",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
-    "entity": "state 3s",
-    "series": ""
+    "series": "",
+    "entity": "myth: restaurants failing in the first year",
+    "metric": "restaurant_failure_rate",
+    "value": "90",
+    "unit": "%",
+    "relative_value": "0.9",
+    "label": "90%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "myth: restaurants failing in the first year"
    },
    {
+    "row_id": "r2",
     "panel": "",
-    "entity": "state 8s",
-    "series": ""
+    "series": "",
+    "entity": "reality: restaurants failing in the first year",
+    "metric": "restaurant_failure_rate",
+    "value": "30",
+    "unit": "%",
+    "relative_value": "0.3",
+    "label": "APPROX. 30%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "reality: restaurants failing in the first year"
    },
    {
+    "row_id": "r3",
     "panel": "",
-    "entity": "state last",
-    "series": ""
+    "series": "",
+    "entity": "reality: restaurants failing after three years",
+    "metric": "restaurant_failure_rate",
+    "value": "60",
+    "unit": "%",
+    "relative_value": "0.6",
+    "label": "APPROX. 60%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "reality: restaurants failing after three years"
    }
   ],
-  "required_entity_count": 3,
-  "required_row_count": 3,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

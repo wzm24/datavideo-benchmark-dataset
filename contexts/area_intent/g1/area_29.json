@@ -1,0 +1,198 @@
+{
+ "clip_id": "area_29",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the perceived risk associated with death by car and death by plane.",
+ "chart_structure": {
+  "clip_id": "area_29",
+  "family": "area",
+  "sub_type": "proportional_square_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the perceived risk associated with death by car and death by plane.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in the chart: Death by car, Death by plane.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "Death by car",
+     "series": "",
+     "role": "proportional_square_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "entity": "Death by plane",
+     "series": "",
+     "role": "proportional_square_area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "proportional_comparison",
+   "claim": "The proportional area for death by plane (relative value 1.0) is larger than the proportional area for death by car (relative value 0.081982), indicating that the perceived risk for death by plane is greater than for death by car.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by car",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.081982",
+     "unit": "relative",
+     "role": "proportional_square_area"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by plane",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "1.000000",
+     "unit": "relative",
+     "role": "proportional_square_area"
+    }
+   ],
+   "computation": "compare r2.value (1.0) to r1.value (0.081982); r2 > r1",
+   "accept": [
+    "Death by plane has a larger proportional area than death by car.",
+    "The perceived risk for death by plane is greater than for death by car.",
+    "Death by car has a smaller proportional area than death by plane."
+   ],
+   "reject": [
+    "Death by car has a larger proportional area than death by plane.",
+    "The perceived risk for death by car is greater than for death by plane.",
+    "The two entities have equal proportional areas."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "The relative value for death by car is approximately 0.082.",
+  "The relative value for death by plane is 1.0, serving as the reference or maximum.",
+  "The proportional square area encoding maps the relative values to area sizes."
+ ],
+ "unsupported_to_avoid": [
+  "Death by plane is exactly 12.2 times more risky than death by car (ratio not explicitly required by intent).",
+  "The chart shows actual mortality rates rather than perceived risk.",
+  "Any trend over time, since the chart is a snapshot.",
+  "Any ranking beyond the two entities shown.",
+  "Any threshold crossing or projection."
+ ],
+ "review_notes": [
+  "Single analytical slot covers the intent; no additional units needed.",
+  "Proportional comparison unit captures the part-versus-whole/area encoding relation required by the intent.",
+  "Values are relative, not absolute mortality rates; claim should be framed as perceived risk per intent."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "784ea716cf111fe31710be534218e0c56213094f79ce0163c27a06da5e07a9fe"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1627,
+   "completion_tokens": 555,
+   "total_tokens": 2182,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1243
+  },
+  {
+   "prompt_tokens": 1946,
+   "completion_tokens": 52,
+   "total_tokens": 1998,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1946
+  }
+ ],
+ "sec": 4.2
+}

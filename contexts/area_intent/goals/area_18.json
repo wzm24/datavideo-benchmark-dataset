@@ -1,0 +1,373 @@
+{
+ "clip": "area_18",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show the Moon's diameter relative to Jupiter, Neptune, Earth, and Mars, with Jupiter as the largest and the Moon the smallest.",
+ "core_claim": "The Moon is much smaller in diameter than Jupiter, Neptune, Earth, and Mars.",
+ "chart_role": "relative diameter comparison",
+ "source_consistency": "corrected_from_old_intent",
+ "issues": [
+  "Narration only asks how big the Moon is and does not state the comparison conclusion; the chart and table supply the relative diameter ordering."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To illustrate the relative size of the Moon compared to other planets in the solar system.",
+ "narration": "So how big is the moon? Well, it kind of depends how you define big.",
+ "svg_text": [
+  "JUPITER",
+  "NEPTUNE",
+  "EARTH",
+  "MARS",
+  "MOON"
+ ],
+ "chart_spec": {
+  "clip_id": "area_18",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 5,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "JUPITER",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 1.0,
+    "value_max": 1.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "JUPITER",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "JUPITER",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "JUPITER",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "JUPITER",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "NEPTUNE",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.346538,
+    "value_max": 0.346538,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "NEPTUNE",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.346538",
+     "unit": "relative",
+     "label": "NEPTUNE",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "NEPTUNE",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.346538",
+     "unit": "relative",
+     "label": "NEPTUNE",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "EARTH",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.089231,
+    "value_max": 0.089231,
+    "first": {
+     "_row_id": "r3",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "EARTH",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.089231",
+     "unit": "relative",
+     "label": "EARTH",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r3",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "EARTH",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.089231",
+     "unit": "relative",
+     "label": "EARTH",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r3"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "MARS",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.047308,
+    "value_max": 0.047308,
+    "first": {
+     "_row_id": "r4",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "MARS",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.047308",
+     "unit": "relative",
+     "label": "MARS",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r4",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "MARS",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.047308",
+     "unit": "relative",
+     "label": "MARS",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r4"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "MOON",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.024231,
+    "value_max": 0.024231,
+    "first": {
+     "_row_id": "r5",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "MOON",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.024231",
+     "unit": "relative",
+     "label": "MOON",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r5",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (relative)",
+     "entity": "MOON",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.024231",
+     "unit": "relative",
+     "label": "MOON",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r5"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (relative)",
+    "entity": "JUPITER",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "1.000000",
+    "unit": "relative",
+    "label": "JUPITER",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (relative)",
+    "entity": "NEPTUNE",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.346538",
+    "unit": "relative",
+    "label": "NEPTUNE",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r3",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (relative)",
+    "entity": "EARTH",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.089231",
+    "unit": "relative",
+    "label": "EARTH",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r4",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (relative)",
+    "entity": "MARS",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.047308",
+    "unit": "relative",
+    "label": "MARS",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r5",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (relative)",
+    "entity": "MOON",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.024231",
+    "unit": "relative",
+    "label": "MOON",
+    "role": "proportional_circle"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Show the Moon's diameter relative to Jupiter, Neptune, Earth, and Mars, with Jupiter as the largest and the Moon the smallest.",
+  "corrected_core_claim": "The Moon is much smaller in diameter than Jupiter, Neptune, Earth, and Mars."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 2582,
+   "completion_tokens": 130,
+   "total_tokens": 2712,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 2454
+  },
+  "audit": {
+   "prompt_tokens": 2392,
+   "completion_tokens": 83,
+   "total_tokens": 2475,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 2392
+  }
+ },
+ "sec": 2.4
+}

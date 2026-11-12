@@ -1,0 +1,71 @@
+{
+ "clip": "area_11",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Compare Fast Spread and Slow Spread pandemics to show that a fast, steep rise peaks near 70% infections while a slow rise stays below the 27% reference level.",
+ "proposed_intent": "Compare the Infections trajectories in the Fast Spread and Slow Spread panels over relative time, including the Reference level, to determine how each panel's peak relates to that reference.",
+ "writer": {
+  "intent": "Compare the Infections trajectories in the Fast Spread and Slow Spread panels over relative time, including the Reference level, to determine how each panel's peak relates to that reference.",
+  "entities": [
+   "Fast Spread",
+   "Slow Spread",
+   "Infections",
+   "Reference level"
+  ],
+  "measure": "Infections (relative)",
+  "scope": "Both panels, relative time from 0 to 1, y-axis 0 to 100",
+  "comparison": "Fast Spread versus Slow Spread Infections trajectories relative to the Reference level",
+  "withheld_answer": "Fast Spread peaks near 70% infections while Slow Spread stays below the 27% reference level."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 29,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 10556,
+   "completion_tokens": 144,
+   "total_tokens": 10700,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 10428
+  },
+  {
+   "prompt_tokens": 10501,
+   "completion_tokens": 56,
+   "total_tokens": 10557,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 10501
+  }
+ ],
+ "sec": 2.4
+}

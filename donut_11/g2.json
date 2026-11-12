@@ -1,89 +1,99 @@
 {
  "clip_id": "donut_11",
  "family": "donut",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "donut_11",
   "family": "donut",
   "sub_type": "partial_ring",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
-  "required_data_rows": 2,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1",
-   "U3"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "share_or_composition",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "complete_composition",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "AWS | share_of_operating_profit"
+    "AWS",
+    "TOTAL"
    ],
    "assertion": {
-    "compositions": [
-     {
-      "segments": [
-       {
-        "mark": "AWS | share_of_operating_profit",
-        "value": 58.0
-       }
-      ],
-      "total": 100.0,
-      "note": "single highlighted arc on a 100% ring; the remainder is the track"
-     }
-    ],
-    "tolerance": 0.5
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": true
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "gauge_value",
+   "must_be_visualized": true,
+   "evidence_type": "gauge_value",
+   "required_marks": [
+    "AWS"
+   ],
+   "assertion": {
+    "shares": [
+     {
+      "mark": "AWS",
+      "entity": "AWS",
+      "whole_scope": "share_of_operating_profit",
+      "expected_relative_value": 0.58,
+      "expected_value": 58.0
+     }
+    ],
+    "expected_relation": "AWS accounts for 58% of operating profit in 2018."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   },
   {
    "unit_id": "U3",
-   "unit_kind": "comparison",
+   "unit_kind": "series_identity",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "ring_identity",
    "required_marks": [
-    "AWS | share_of_operating_profit",
-    "total (all other business) | share_of_operating_profit"
+    "TOTAL",
+    "AWS"
    ],
    "assertion": {
-    "greater": "AWS | share_of_operating_profit",
-    "greater_value": 58.0,
-    "lesser": "total (all other business) | share_of_operating_profit",
-    "lesser_value": 42.0,
-    "delta": 16.0,
-    "ratio": 1.380952,
-    "expected_order": [
-     "AWS | share_of_operating_profit",
-     "total (all other business) | share_of_operating_profit"
-    ],
-    "tolerance": 0.02
+    "identities": [
+     {
+      "panel": "",
+      "series": "",
+      "entity": "TOTAL",
+      "label": "TOTAL"
+     },
+     {
+      "panel": "",
+      "series": "",
+      "entity": "AWS",
+      "label": ""
+     }
+    ]
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
+   "needs_review": true
   }
  ]
 }

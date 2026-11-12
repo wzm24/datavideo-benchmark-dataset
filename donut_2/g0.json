@@ -1,165 +1,96 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_2",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "0fb4dab80f553d2affa1eb4f79a41650a74e6e15f47a4bfc40aff4c3aa6d8daf",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b83dfdae7374cb74b17dd98c5e3d64322e3afd251c9237afcaf2f21ba61e68c9",
- "row_count": 3,
- "sidecar_row_count": 3,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "ac97f40dcef944e5843ad61165b56460f1bba3cbf573be674418ca8f3ba98533",
+ "row_count": 2,
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 3,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_music_sales"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Physical",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 75.0,
-   "last_value": 75.0,
-   "min_value": 75.0,
-   "max_value": 75.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "estimated_ring_geometry"
-   ],
-   "role": [
-    "arc"
-   ]
+   "metric": "share_of_music_sales",
+   "value": "75",
+   "unit": "%",
+   "relative_value": "0.75",
+   "label": "",
+   "role": "arc",
+   "source_type": "estimated_ring_geometry",
+   "whole_scope": "share_of_music_sales"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "Digital",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 18.0,
-   "last_value": 18.0,
-   "min_value": 18.0,
-   "max_value": 18.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "estimated_ring_geometry"
-   ],
-   "role": [
-    "arc"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "(unlabeled)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 7.0,
-   "last_value": 7.0,
-   "min_value": 7.0,
-   "max_value": 7.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "estimated_ring_geometry"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_music_sales",
+   "value": "18",
+   "unit": "%",
+   "relative_value": "0.18",
+   "label": "",
+   "role": "arc",
+   "source_type": "estimated_ring_geometry",
+   "whole_scope": "share_of_music_sales"
   }
  ],
- "source_type_counts": {
-  "estimated_ring_geometry": 3
- },
- "role_counts": {
-  "arc": 2,
-  "remainder": 1
- },
- "estimated_or_projected_roles": [
-  "estimated_ring_geometry"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_music_sales",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "Physical",
+    "Digital"
+   ],
+   "relative_value_sum": 0.93
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Physical",
-    "series": ""
+    "metric": "share_of_music_sales",
+    "value": "75",
+    "unit": "%",
+    "relative_value": "0.75",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "share_of_music_sales"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "Digital",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
+    "metric": "share_of_music_sales",
+    "value": "18",
+    "unit": "%",
+    "relative_value": "0.18",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "share_of_music_sales"
    }
   ],
-  "required_entity_count": 3,
-  "required_row_count": 3,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

@@ -1,0 +1,655 @@
+{
+  "clip_id": "bar_125",
+  "family": "bar",
+  "video_id": "9QXjBVC233s",
+  "source_url": "https://www.youtube.com/watch?v=9QXjBVC233s",
+  "source_title": "Eisenhower's Warning: Military Industrial Complex's Growing Budget | Think Back | The New York Times",
+  "target_window_source": {
+    "start": 117.0,
+    "end": 126.0
+  },
+  "target_mask_interval": {
+    "start": 115.5,
+    "end": 127.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    26,
+    27
+  ],
+  "masked_cue_ids": [
+    25,
+    26,
+    27,
+    28
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 11.18,
+      "text": "In the councils of government, we must guard against the acquisition of unwarranted influence,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 1,
+      "start": 11.18,
+      "end": 15.7,
+      "text": "whether sought or unsought, by the military industrial complex.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 2,
+      "start": 15.7,
+      "end": 21.7,
+      "text": "Today, President Dwight Eisenhower's famous warning during his farewell address in 1961",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 3,
+      "start": 21.7,
+      "end": 23.82,
+      "text": "seems prophetic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 4,
+      "start": 23.82,
+      "end": 28.5,
+      "text": "Look at the defense budget since World War II in today's dollars, and the trend in U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 5,
+      "start": 28.5,
+      "end": 31.86,
+      "text": "government spending on the military is clear.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 6,
+      "start": 31.86,
+      "end": 36.5,
+      "text": "And yet it's surprising given how reluctant Americans have been historically to go to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 7,
+      "start": 36.5,
+      "end": 37.5,
+      "text": "war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 8,
+      "start": 37.5,
+      "end": 44.1,
+      "text": "After World War II ended, Harry Truman wanted to wind down military spending, but then fighting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 9,
+      "start": 44.1,
+      "end": 49.38,
+      "text": "broke out in Korea, a proxy conflict in the Cold War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 10,
+      "start": 49.38,
+      "end": 54.66,
+      "text": "Truman's advisors urged him to increase military spending and armaments.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 11,
+      "start": 54.66,
+      "end": 57.14,
+      "text": "That meant building the hydrogen bomb.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 12,
+      "start": 57.14,
+      "end": 63.54,
+      "text": "The H bomb was detonated at Anuetok.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 13,
+      "start": 63.54,
+      "end": 67.66,
+      "text": "This measures increased annual military spending dramatically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 14,
+      "start": 67.66,
+      "end": 75.3,
+      "text": "In 1952, it reached nearly $455 billion in today's dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 15,
+      "start": 75.3,
+      "end": 79.32,
+      "text": "Spending kept growing when American troops were sent to Vietnam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 16,
+      "start": 79.32,
+      "end": 84.1,
+      "text": "One of the big drivers in spending throughout the Cold War, technology.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 17,
+      "start": 84.1,
+      "end": 89.34,
+      "text": "The United States Army, as almost everyone knows, is placing an ever-increasing emphasis",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 18,
+      "start": 89.34,
+      "end": 91.94,
+      "text": "on guided missiles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 19,
+      "start": 91.94,
+      "end": 96.66,
+      "text": "And in military technology peaked under President Reagan, who thought of spending itself as",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 20,
+      "start": 96.66,
+      "end": 97.94,
+      "text": "a weapon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 21,
+      "start": 97.94,
+      "end": 98.94,
+      "text": "The idea?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 22,
+      "start": 98.94,
+      "end": 104.82,
+      "text": "Bankrupt the Soviet Union with massive programs like the Strategic Defense Initiative, better",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 23,
+      "start": 104.82,
+      "end": 106.66,
+      "text": "known as Star Wars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 24,
+      "start": 106.66,
+      "end": 111.62,
+      "text": "At one point, the Defense Department estimated that a rudimentary missile defense system",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    }
+  ],
+  "context_after": [
+    {
+      "index": 29,
+      "start": 133.54,
+      "end": 136.06,
+      "text": "came the attacks of 9-11.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187994,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 30,
+      "start": 136.06,
+      "end": 141.58,
+      "text": "The Bush administration submitted a baseline defense budget, along with a second budget,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187994,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 31,
+      "start": 141.58,
+      "end": 150.54,
+      "text": "to account for the ballooning costs, which reached a combined $747 billion in 2010.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    },
+    {
+      "index": 32,
+      "start": 150.54,
+      "end": 155.7,
+      "text": "Now even with the country wary of war and the growing debt, Congress has increased military",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    },
+    {
+      "index": 33,
+      "start": 155.7,
+      "end": 157.06,
+      "text": "spending yet again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 11.18,
+      "text": "In the councils of government, we must guard against the acquisition of unwarranted influence,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 1,
+      "start": 11.18,
+      "end": 15.7,
+      "text": "whether sought or unsought, by the military industrial complex.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 2,
+      "start": 15.7,
+      "end": 21.7,
+      "text": "Today, President Dwight Eisenhower's famous warning during his farewell address in 1961",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 3,
+      "start": 21.7,
+      "end": 23.82,
+      "text": "seems prophetic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 4,
+      "start": 23.82,
+      "end": 28.5,
+      "text": "Look at the defense budget since World War II in today's dollars, and the trend in U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 5,
+      "start": 28.5,
+      "end": 31.86,
+      "text": "government spending on the military is clear.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.199933,
+      "no_speech_prob": 0.141113
+    },
+    {
+      "index": 6,
+      "start": 31.86,
+      "end": 36.5,
+      "text": "And yet it's surprising given how reluctant Americans have been historically to go to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 7,
+      "start": 36.5,
+      "end": 37.5,
+      "text": "war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 8,
+      "start": 37.5,
+      "end": 44.1,
+      "text": "After World War II ended, Harry Truman wanted to wind down military spending, but then fighting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 9,
+      "start": 44.1,
+      "end": 49.38,
+      "text": "broke out in Korea, a proxy conflict in the Cold War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 10,
+      "start": 49.38,
+      "end": 54.66,
+      "text": "Truman's advisors urged him to increase military spending and armaments.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 11,
+      "start": 54.66,
+      "end": 57.14,
+      "text": "That meant building the hydrogen bomb.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 12,
+      "start": 57.14,
+      "end": 63.54,
+      "text": "The H bomb was detonated at Anuetok.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171712,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 13,
+      "start": 63.54,
+      "end": 67.66,
+      "text": "This measures increased annual military spending dramatically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 14,
+      "start": 67.66,
+      "end": 75.3,
+      "text": "In 1952, it reached nearly $455 billion in today's dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 15,
+      "start": 75.3,
+      "end": 79.32,
+      "text": "Spending kept growing when American troops were sent to Vietnam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 16,
+      "start": 79.32,
+      "end": 84.1,
+      "text": "One of the big drivers in spending throughout the Cold War, technology.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 17,
+      "start": 84.1,
+      "end": 89.34,
+      "text": "The United States Army, as almost everyone knows, is placing an ever-increasing emphasis",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 18,
+      "start": 89.34,
+      "end": 91.94,
+      "text": "on guided missiles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.146911,
+      "no_speech_prob": 0.003483
+    },
+    {
+      "index": 19,
+      "start": 91.94,
+      "end": 96.66,
+      "text": "And in military technology peaked under President Reagan, who thought of spending itself as",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 20,
+      "start": 96.66,
+      "end": 97.94,
+      "text": "a weapon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 21,
+      "start": 97.94,
+      "end": 98.94,
+      "text": "The idea?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 22,
+      "start": 98.94,
+      "end": 104.82,
+      "text": "Bankrupt the Soviet Union with massive programs like the Strategic Defense Initiative, better",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 23,
+      "start": 104.82,
+      "end": 106.66,
+      "text": "known as Star Wars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 24,
+      "start": 106.66,
+      "end": 111.62,
+      "text": "At one point, the Defense Department estimated that a rudimentary missile defense system",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150298,
+      "no_speech_prob": 0.054962
+    },
+    {
+      "index": 29,
+      "start": 133.54,
+      "end": 136.06,
+      "text": "came the attacks of 9-11.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187994,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 30,
+      "start": 136.06,
+      "end": 141.58,
+      "text": "The Bush administration submitted a baseline defense budget, along with a second budget,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.187994,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 31,
+      "start": 141.58,
+      "end": 150.54,
+      "text": "to account for the ballooning costs, which reached a combined $747 billion in 2010.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    },
+    {
+      "index": 32,
+      "start": 150.54,
+      "end": 155.7,
+      "text": "Now even with the country wary of war and the growing debt, Congress has increased military",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    },
+    {
+      "index": 33,
+      "start": 155.7,
+      "end": 157.06,
+      "text": "spending yet again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161486,
+      "no_speech_prob": 0.646973
+    }
+  ],
+  "context_text_chronological": "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military industrial complex. Today, President Dwight Eisenhower's famous warning during his farewell address in 1961 seems prophetic. Look at the defense budget since World War II in today's dollars, and the trend in U.S. government spending on the military is clear. And yet it's surprising given how reluctant Americans have been historically to go to war. After World War II ended, Harry Truman wanted to wind down military spending, but then fighting broke out in Korea, a proxy conflict in the Cold War. Truman's advisors urged him to increase military spending and armaments. That meant building the hydrogen bomb. The H bomb was detonated at Anuetok. This measures increased annual military spending dramatically. In 1952, it reached nearly $455 billion in today's dollars. Spending kept growing when American troops were sent to Vietnam. One of the big drivers in spending throughout the Cold War, technology. The United States Army, as almost everyone knows, is placing an ever-increasing emphasis on guided missiles. And in military technology peaked under President Reagan, who thought of spending itself as a weapon. The idea? Bankrupt the Soviet Union with massive programs like the Strategic Defense Initiative, better known as Star Wars. At one point, the Defense Department estimated that a rudimentary missile defense system came the attacks of 9-11. The Bush administration submitted a baseline defense budget, along with a second budget, to account for the ballooning costs, which reached a combined $747 billion in 2010. Now even with the country wary of war and the growing debt, Congress has increased military spending yet again.",
+  "target_text_for_audit": "As a result, annual military spending reached a new high in 1985 at $559 billion in today's dollars.",
+  "verification": {
+    "status": "needs_review",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "As a result,",
+        "start_source": 116.36,
+        "end_source": 117.42,
+        "matching_cue_ids": [
+          25,
+          26
+        ],
+        "text_similarity": 0.1594,
+        "time_overlap": true,
+        "passes": false
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "annual military spending reached a new high in 1985 at $559 billion in today's dollars.",
+        "start_source": 118.0,
+        "end_source": 125.74,
+        "matching_cue_ids": [
+          26,
+          27
+        ],
+        "text_similarity": 0.9348,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\9QXjBVC233s.webm",
+    "cue_count": 34
+  },
+  "token_estimate_char_div_4": 446
+}

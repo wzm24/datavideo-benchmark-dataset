@@ -1452,7 +1452,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -2872,7 +2873,8 @@
     "describing only the square encoding",
     "claiming female is higher at every age"
    ],
-   "evidence": "The paired male/female square counts encode the age-by-age comparison."
+   "evidence": "The paired male/female square counts encode the age-by-age comparison.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -2947,7 +2949,8 @@
     "claiming a peak in old age",
     "omitting one sex side"
    ],
-   "evidence": "The continuous square-count profile establishes the early peak and old-age decline."
+   "evidence": "The continuous square-count profile establishes the early peak and old-age decline.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -2985,11 +2988,12 @@
   "state_level_completeness_r1_2026-10-22",
   "final_v1_required_units_audited_2026_10_27",
   "complex_chart_hardcase_2026_10_27",
-  "complex_chart_hardcase_2026_10_27"
+  "complex_chart_hardcase_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "optional_units": [],
  "optional_requirements": [],
  "unsupported_or_forbidden": [
@@ -4234,5 +4238,12 @@
   ],
   "chart_sub_type": "population_pyramid",
   "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
- }
+ },
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

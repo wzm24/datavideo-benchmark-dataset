@@ -1,0 +1,1602 @@
+{
+  "clip_id": "donut_1",
+  "family": "donut",
+  "video_id": "-bbfFf07WNw",
+  "source_url": "https://www.youtube.com/watch?v=-bbfFf07WNw",
+  "source_title": "The Economics of K-Pop",
+  "target_window_source": {
+    "start": 60.0,
+    "end": 66.0
+  },
+  "target_mask_interval": {
+    "start": 58.5,
+    "end": 67.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    6,
+    7
+  ],
+  "masked_cue_ids": [
+    6,
+    7
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 8.5,
+      "text": "This video is sponsored by Skillshare. Use the link in the description to watch my class and thousands of others with a free two-month trial.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163157,
+      "no_speech_prob": 0.030014
+    },
+    {
+      "index": 1,
+      "start": 8.5,
+      "end": 19.0,
+      "text": "Visiting Japan feels a bit like taking a trip to the future. Robots serve and deliver your food, vending machines sell everything from umbrellas to puppies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163157,
+      "no_speech_prob": 0.030014
+    },
+    {
+      "index": 2,
+      "start": 19.0,
+      "end": 31.0,
+      "text": "bullet trains whisk you around the island at 320 kilometers an hour, and its median age of 47.3, the second highest in the world, warns of the global aging soon to come.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10404,
+      "no_speech_prob": 0.375488
+    },
+    {
+      "index": 3,
+      "start": 31.0,
+      "end": 43.0,
+      "text": "There's one way, however, where Japan is stuck in the past. Walking around Tokyo or Osaka or Kobe, you might notice something odd, a strangely high number of music stores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10404,
+      "no_speech_prob": 0.375488
+    },
+    {
+      "index": 4,
+      "start": 43.0,
+      "end": 50.0,
+      "text": "Compared to the US, Japan has 40% as many people, but nearly double the number of music shops.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063916,
+      "no_speech_prob": 0.249512
+    },
+    {
+      "index": 5,
+      "start": 50.0,
+      "end": 56.0,
+      "text": "As a whole, the Japanese music market is the second biggest in the world, but unlike almost any other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063916,
+      "no_speech_prob": 0.249512
+    }
+  ],
+  "context_after": [
+    {
+      "index": 8,
+      "start": 73.0,
+      "end": 79.0,
+      "text": "This is due, in part, to the country's stringent copyright laws, licensing restrictions, and rental culture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070588,
+      "no_speech_prob": 0.271484
+    },
+    {
+      "index": 9,
+      "start": 79.0,
+      "end": 85.0,
+      "text": "But there's another reason CDs are still loved in countries like Japan and South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070588,
+      "no_speech_prob": 0.271484
+    },
+    {
+      "index": 10,
+      "start": 86.0,
+      "end": 95.0,
+      "text": "Korean pop groups have offset losses from piracy with glossy, premium, collectible CDs, usually sold to fans who will never play them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 11,
+      "start": 95.0,
+      "end": 105.0,
+      "text": "Instead, CDs are sold as merch, often with different covers to encourage buying several, and sometimes act as lottery tickets for a chance to meet your favorite singer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 12,
+      "start": 105.0,
+      "end": 113.0,
+      "text": "What's so interesting about K-pop as a business is that almost everything from the very beginning is manufactured as a consumer product.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 13,
+      "start": 113.0,
+      "end": 123.0,
+      "text": "Artists aren't found but created, sculpted for maximum reach over many years in a factory system, and their international success is no accident.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0622,
+      "no_speech_prob": 0.074646
+    },
+    {
+      "index": 14,
+      "start": 123.0,
+      "end": 132.0,
+      "text": "K-pop is a deliberate, government-funded project aimed at growing South Korea's global power, making it, in the process, highly political.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0622,
+      "no_speech_prob": 0.074646
+    },
+    {
+      "index": 15,
+      "start": 132.0,
+      "end": 138.5,
+      "text": "The 1988 Summer Olympics was a turning point for South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 16,
+      "start": 138.5,
+      "end": 146.5,
+      "text": "Like Japan's 1964 and China's 2008 games, it was a rare historic opportunity to change the country's image abroad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 17,
+      "start": 146.5,
+      "end": 154.5,
+      "text": "Harsh censorship laws and restrictive TV network monopolies soon opened up, giving way to a new generation of artists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 18,
+      "start": 154.5,
+      "end": 162.5,
+      "text": "Four years later, in 1992, the Korean government's Culture and Tourism Institute began looking for new overseas markets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 19,
+      "start": 162.5,
+      "end": 167.5,
+      "text": "But rather than waiting for demand, Korean entertainment hooked foreign viewers and created it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 20,
+      "start": 167.5,
+      "end": 178.5,
+      "text": "The Institute translated a popular drama called What is Love into Cantonese, which it sent to the Korean Consulate in Hong Kong, where it was offered free to a local TV station.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 21,
+      "start": 178.5,
+      "end": 182.5,
+      "text": "Soon, Hong Kong and its neighbor Guangzhou were asking for more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 22,
+      "start": 182.5,
+      "end": 192.5,
+      "text": "Not long after that, demand spread to Taiwan, Vietnam, Japan, and further into mainland China, which established diplomatic relations with South Korea that same year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 23,
+      "start": 192.5,
+      "end": 197.5,
+      "text": "The media called this mass cultural dispersion How You, or the Korean Wave.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 24,
+      "start": 197.5,
+      "end": 207.5,
+      "text": "The next turning point came after the 1997 Asian financial crisis, when manufacturing industries across South and Southeast Asia saw huge losses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 25,
+      "start": 207.5,
+      "end": 214.5,
+      "text": "In response, President Kim Dae-jung turned to the entertainment sector, hiring a PR firm to launch a new national image.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 26,
+      "start": 214.5,
+      "end": 222.5,
+      "text": "The cultural budget increased 600%, and a new ministry of culture was formed, including an entire K-pop department.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 27,
+      "start": 222.5,
+      "end": 228.5,
+      "text": "The second Korean wave came in 2012 with the explosive viral hit Gangnam Style.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 28,
+      "start": 228.5,
+      "end": 233.5,
+      "text": "Overnight, the whole world became curious about Korean music, dramas, fashion, and language.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 29,
+      "start": 233.5,
+      "end": 245.5,
+      "text": "And while it wasn't truly representative of K-pop as a genre, it was useful for one big thing, proving a song didn't need to be written in English to succeed in the West, later confirmed by hits like Despacito.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 30,
+      "start": 245.5,
+      "end": 255.5,
+      "text": "No one could have predicted the success of Gangnam Style, but the rise of Korean entertainment in some form was inevitable, engineered for, in fact, by the K-pop formula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 31,
+      "start": 255.5,
+      "end": 262.5,
+      "text": "The difference between it and other genres is that K-pop is reverse engineered based on consumer preferences.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 32,
+      "start": 262.5,
+      "end": 275.5,
+      "text": "Where most musicians start off practicing in their parents' garages, driven only by a passion for the art and eventually get discovered by a record label, K-pop groups usually begin, rise, and change directions from a conference room.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 33,
+      "start": 275.5,
+      "end": 281.5,
+      "text": "There are four big labels, YG, SM, JYP, and Big Hit Entertainment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 34,
+      "start": 281.5,
+      "end": 291.5,
+      "text": "Although, again, the word label is slightly deceiving. These companies aren't so much agents as product designers, they create and shape every aspect of their groups.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 35,
+      "start": 291.5,
+      "end": 300.5,
+      "text": "First, they begin with recruitment. Because K-pop singers are as much public idols as musicians, the composition of personalities is very important.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 36,
+      "start": 300.5,
+      "end": 310.5,
+      "text": "Companies look for a set of distinct yet cohesive personalities so as to appeal to as large a fan base as possible, while not generating unnecessary internal conflict.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 37,
+      "start": 310.5,
+      "end": 318.5,
+      "text": "Some labels turn recruitment into a reality TV competition, ideal for creating fan loyalty and dramatizing personalities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 38,
+      "start": 318.5,
+      "end": 326.5,
+      "text": "In 2012, 4% of the entire South Korean population tried out for superstar K, its most popular singing competition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 39,
+      "start": 326.5,
+      "end": 333.5,
+      "text": "Other companies recruit based only on qualities like appearance, because the next component is training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 40,
+      "start": 333.5,
+      "end": 340.5,
+      "text": "Potential stars, sometimes as young as 11 years old, go through roughly 5-10 years of arduous preparation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 41,
+      "start": 340.5,
+      "end": 359.5,
+      "text": "A training schedule might be as follows. 5am, wake up, practice choreography, go to school, get out at 3pm, practice vocals until 6, language lessons until 9, and then exercise until 11, leaving an hour to get home before the train shut down for the night in Seoul, and 5 hours for sleep.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07487,
+      "no_speech_prob": 0.33667
+    },
+    {
+      "index": 42,
+      "start": 359.5,
+      "end": 369.5,
+      "text": "Still, after all that, after sacrificing all other hobbies and dreams, after learning English or Japanese, only about 10% of trainees will ever debut.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07487,
+      "no_speech_prob": 0.33667
+    },
+    {
+      "index": 43,
+      "start": 369.5,
+      "end": 381.5,
+      "text": "K-pop stars complain of long, miserable hours, low pay, and unfair 7-year contracts which include clauses forbidding them from talking publicly about relationships, and or requiring they maintain a certain weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061643,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 44,
+      "start": 381.5,
+      "end": 391.5,
+      "text": "Labels, in turn, argue these stipulations are necessary given the tens of thousands, hundreds of thousands, or even millions of dollars and years they invest in each trainee.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061643,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 45,
+      "start": 391.5,
+      "end": 395.5,
+      "text": "The third ingredient, and perhaps most important, is localization.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 46,
+      "start": 395.5,
+      "end": 404.5,
+      "text": "Because K-pop is so diverse, incorporating everything from pop to techno, rock, and hip-hop, it's hard to define what exactly it is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 47,
+      "start": 404.5,
+      "end": 412.5,
+      "text": "One of the few unifying characteristics which sets it apart from, say, Japanese pop is the way it caters to an international audience.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 48,
+      "start": 412.5,
+      "end": 421.5,
+      "text": "Group names generally consist of a short, easily recognized English word or acronym, twice, BTS, EXO, or AOA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 49,
+      "start": 421.5,
+      "end": 427.5,
+      "text": "Another common strategy is to have at least one Chinese, Japanese, Thai, or Taiwanese group member.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 50,
+      "start": 427.5,
+      "end": 437.5,
+      "text": "Songs and their extravagant music videos are often produced two or three times, in Korean, Japanese, and Mandarin, with English words sprinkled throughout.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 51,
+      "start": 437.5,
+      "end": 445.5,
+      "text": "In addition to being hugely profitable, this international focus provides Seoul with something even more valuable, although intangible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 52,
+      "start": 445.5,
+      "end": 452.5,
+      "text": "While soft power can't be precisely measured, it tells a nation's story in a way no amount of tanks or factories ever can.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 53,
+      "start": 452.5,
+      "end": 456.5,
+      "text": "K-pop is so political because it paints such a vivid national image.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 54,
+      "start": 456.5,
+      "end": 463.5,
+      "text": "Thus, why South Korea brought the girl group Red Velvet to sing for Kim Jong-un and Pyongyang last year?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 55,
+      "start": 463.5,
+      "end": 472.5,
+      "text": "Separately, in 2016, the US began deploying a defense system in South Korea against potential North Korean missiles called the Terminal High Altitude Area Defense.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 56,
+      "start": 472.5,
+      "end": 477.5,
+      "text": "Soon after, South Korean products began disappearing from Chinese shelves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 57,
+      "start": 477.5,
+      "end": 482.5,
+      "text": "Although never explicitly announced, China's government effectively banned K-pop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 58,
+      "start": 482.5,
+      "end": 490.5,
+      "text": "Tour groups were forbidden from traveling to the South, and previously welcomed K-pop groups suddenly found their performances cancelled, or visas denied.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 59,
+      "start": 490.5,
+      "end": 498.5,
+      "text": "Music videos were even blocked from the internet, as groups turned to Hong Kong and Macau concerts until the ban was relaxed in 2017.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 60,
+      "start": 498.5,
+      "end": 505.5,
+      "text": "It's another example of China using its large consumer market as leverage, not unlike the recent NBA controversy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 61,
+      "start": 505.5,
+      "end": 514.5,
+      "text": "Both proving the unwavering fortitude of Chinese patriotism, stronger even than the support of a Kobe Bryant or BTS superfan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 62,
+      "start": 514.5,
+      "end": 519.5,
+      "text": "Finally, the last step is to sell every millimeter of unused space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 63,
+      "start": 519.5,
+      "end": 526.5,
+      "text": "Extreme fan loyalty translates into extremely effective paid endorsements, product placements, and sponsorships.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 64,
+      "start": 526.5,
+      "end": 531.5,
+      "text": "The quintessential example of the formula's success is the seven-member boyband BTS.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 65,
+      "start": 531.5,
+      "end": 536.5,
+      "text": "Their Twitter account generates four times the engagement of President Donald Trump's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 66,
+      "start": 536.5,
+      "end": 545.5,
+      "text": "They appeared on The Ellen Show, gave a speech at the United Nations, and contribute an estimated $3.6 billion a year to the Korean economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 67,
+      "start": 545.5,
+      "end": 550.5,
+      "text": "One study estimates the country gets $5 back for every $1 it spends on K-pop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 68,
+      "start": 550.5,
+      "end": 562.5,
+      "text": "It's now building an entire themed district in the capital, with a concert hall, recording studios, museum, and K-star road, similar to Hong Kong's Avenue of the Stars, or Hollywood's Walk of Fame.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 69,
+      "start": 562.5,
+      "end": 568.5,
+      "text": "Some say K-pop is too commercialized, too scripted, too fake.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 70,
+      "start": 568.5,
+      "end": 574.5,
+      "text": "But while some artists invent touching origin stories, K-pop is honest about its motives, profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 71,
+      "start": 574.5,
+      "end": 580.5,
+      "text": "Like professional wrestling, yes, it's exaggerated and mass-produced, and yes, its fans are aware.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 72,
+      "start": 580.5,
+      "end": 585.5,
+      "text": "But there's something respectably authentic about how transparently manufactured it all is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 73,
+      "start": 585.5,
+      "end": 591.5,
+      "text": "It may be fake, but very real is the joy it brings millions of fans around the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 74,
+      "start": 591.5,
+      "end": 597.5,
+      "text": "Behind every great K-pop idol is an intense motivation and need to learn new skills.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 75,
+      "start": 597.5,
+      "end": 606.5,
+      "text": "If you want to learn how to be more productive, or make videos like these, or SuperMeta, learn how to learn faster, Skillshare is for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 76,
+      "start": 606.5,
+      "end": 611.5,
+      "text": "Personally, my favorite is YouTuber Thomas Frank's course on staying organized and getting things done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 77,
+      "start": 611.5,
+      "end": 616.5,
+      "text": "On his suggestion, I started taking Fridays to review the week and catch up on my to-dos.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 78,
+      "start": 616.5,
+      "end": 621.5,
+      "text": "It's a little thing, but has the big effect of making me feel on top of things for the rest of the week.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 79,
+      "start": 621.5,
+      "end": 627.5,
+      "text": "These are really well-produced, high-quality courses, and they can be all yours for less than $10 a month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    },
+    {
+      "index": 80,
+      "start": 627.5,
+      "end": 632.5,
+      "text": "But if you use my link in the description, you'll get two months to try it yourself, completely free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    },
+    {
+      "index": 81,
+      "start": 632.5,
+      "end": 636.5,
+      "text": "Thanks to Skillshare for sponsoring this video, and to you for watching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 8.5,
+      "text": "This video is sponsored by Skillshare. Use the link in the description to watch my class and thousands of others with a free two-month trial.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163157,
+      "no_speech_prob": 0.030014
+    },
+    {
+      "index": 1,
+      "start": 8.5,
+      "end": 19.0,
+      "text": "Visiting Japan feels a bit like taking a trip to the future. Robots serve and deliver your food, vending machines sell everything from umbrellas to puppies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.163157,
+      "no_speech_prob": 0.030014
+    },
+    {
+      "index": 2,
+      "start": 19.0,
+      "end": 31.0,
+      "text": "bullet trains whisk you around the island at 320 kilometers an hour, and its median age of 47.3, the second highest in the world, warns of the global aging soon to come.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10404,
+      "no_speech_prob": 0.375488
+    },
+    {
+      "index": 3,
+      "start": 31.0,
+      "end": 43.0,
+      "text": "There's one way, however, where Japan is stuck in the past. Walking around Tokyo or Osaka or Kobe, you might notice something odd, a strangely high number of music stores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10404,
+      "no_speech_prob": 0.375488
+    },
+    {
+      "index": 4,
+      "start": 43.0,
+      "end": 50.0,
+      "text": "Compared to the US, Japan has 40% as many people, but nearly double the number of music shops.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063916,
+      "no_speech_prob": 0.249512
+    },
+    {
+      "index": 5,
+      "start": 50.0,
+      "end": 56.0,
+      "text": "As a whole, the Japanese music market is the second biggest in the world, but unlike almost any other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063916,
+      "no_speech_prob": 0.249512
+    },
+    {
+      "index": 8,
+      "start": 73.0,
+      "end": 79.0,
+      "text": "This is due, in part, to the country's stringent copyright laws, licensing restrictions, and rental culture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070588,
+      "no_speech_prob": 0.271484
+    },
+    {
+      "index": 9,
+      "start": 79.0,
+      "end": 85.0,
+      "text": "But there's another reason CDs are still loved in countries like Japan and South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070588,
+      "no_speech_prob": 0.271484
+    },
+    {
+      "index": 10,
+      "start": 86.0,
+      "end": 95.0,
+      "text": "Korean pop groups have offset losses from piracy with glossy, premium, collectible CDs, usually sold to fans who will never play them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 11,
+      "start": 95.0,
+      "end": 105.0,
+      "text": "Instead, CDs are sold as merch, often with different covers to encourage buying several, and sometimes act as lottery tickets for a chance to meet your favorite singer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 12,
+      "start": 105.0,
+      "end": 113.0,
+      "text": "What's so interesting about K-pop as a business is that almost everything from the very beginning is manufactured as a consumer product.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041701,
+      "no_speech_prob": 0.509766
+    },
+    {
+      "index": 13,
+      "start": 113.0,
+      "end": 123.0,
+      "text": "Artists aren't found but created, sculpted for maximum reach over many years in a factory system, and their international success is no accident.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0622,
+      "no_speech_prob": 0.074646
+    },
+    {
+      "index": 14,
+      "start": 123.0,
+      "end": 132.0,
+      "text": "K-pop is a deliberate, government-funded project aimed at growing South Korea's global power, making it, in the process, highly political.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0622,
+      "no_speech_prob": 0.074646
+    },
+    {
+      "index": 15,
+      "start": 132.0,
+      "end": 138.5,
+      "text": "The 1988 Summer Olympics was a turning point for South Korea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 16,
+      "start": 138.5,
+      "end": 146.5,
+      "text": "Like Japan's 1964 and China's 2008 games, it was a rare historic opportunity to change the country's image abroad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 17,
+      "start": 146.5,
+      "end": 154.5,
+      "text": "Harsh censorship laws and restrictive TV network monopolies soon opened up, giving way to a new generation of artists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 18,
+      "start": 154.5,
+      "end": 162.5,
+      "text": "Four years later, in 1992, the Korean government's Culture and Tourism Institute began looking for new overseas markets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044042,
+      "no_speech_prob": 0.110962
+    },
+    {
+      "index": 19,
+      "start": 162.5,
+      "end": 167.5,
+      "text": "But rather than waiting for demand, Korean entertainment hooked foreign viewers and created it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 20,
+      "start": 167.5,
+      "end": 178.5,
+      "text": "The Institute translated a popular drama called What is Love into Cantonese, which it sent to the Korean Consulate in Hong Kong, where it was offered free to a local TV station.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 21,
+      "start": 178.5,
+      "end": 182.5,
+      "text": "Soon, Hong Kong and its neighbor Guangzhou were asking for more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066094,
+      "no_speech_prob": 0.007565
+    },
+    {
+      "index": 22,
+      "start": 182.5,
+      "end": 192.5,
+      "text": "Not long after that, demand spread to Taiwan, Vietnam, Japan, and further into mainland China, which established diplomatic relations with South Korea that same year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 23,
+      "start": 192.5,
+      "end": 197.5,
+      "text": "The media called this mass cultural dispersion How You, or the Korean Wave.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 24,
+      "start": 197.5,
+      "end": 207.5,
+      "text": "The next turning point came after the 1997 Asian financial crisis, when manufacturing industries across South and Southeast Asia saw huge losses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067247,
+      "no_speech_prob": 0.15979
+    },
+    {
+      "index": 25,
+      "start": 207.5,
+      "end": 214.5,
+      "text": "In response, President Kim Dae-jung turned to the entertainment sector, hiring a PR firm to launch a new national image.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 26,
+      "start": 214.5,
+      "end": 222.5,
+      "text": "The cultural budget increased 600%, and a new ministry of culture was formed, including an entire K-pop department.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 27,
+      "start": 222.5,
+      "end": 228.5,
+      "text": "The second Korean wave came in 2012 with the explosive viral hit Gangnam Style.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 28,
+      "start": 228.5,
+      "end": 233.5,
+      "text": "Overnight, the whole world became curious about Korean music, dramas, fashion, and language.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066448,
+      "no_speech_prob": 0.063416
+    },
+    {
+      "index": 29,
+      "start": 233.5,
+      "end": 245.5,
+      "text": "And while it wasn't truly representative of K-pop as a genre, it was useful for one big thing, proving a song didn't need to be written in English to succeed in the West, later confirmed by hits like Despacito.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 30,
+      "start": 245.5,
+      "end": 255.5,
+      "text": "No one could have predicted the success of Gangnam Style, but the rise of Korean entertainment in some form was inevitable, engineered for, in fact, by the K-pop formula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 31,
+      "start": 255.5,
+      "end": 262.5,
+      "text": "The difference between it and other genres is that K-pop is reverse engineered based on consumer preferences.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043551,
+      "no_speech_prob": 0.346924
+    },
+    {
+      "index": 32,
+      "start": 262.5,
+      "end": 275.5,
+      "text": "Where most musicians start off practicing in their parents' garages, driven only by a passion for the art and eventually get discovered by a record label, K-pop groups usually begin, rise, and change directions from a conference room.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 33,
+      "start": 275.5,
+      "end": 281.5,
+      "text": "There are four big labels, YG, SM, JYP, and Big Hit Entertainment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 34,
+      "start": 281.5,
+      "end": 291.5,
+      "text": "Although, again, the word label is slightly deceiving. These companies aren't so much agents as product designers, they create and shape every aspect of their groups.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053848,
+      "no_speech_prob": 0.069275
+    },
+    {
+      "index": 35,
+      "start": 291.5,
+      "end": 300.5,
+      "text": "First, they begin with recruitment. Because K-pop singers are as much public idols as musicians, the composition of personalities is very important.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 36,
+      "start": 300.5,
+      "end": 310.5,
+      "text": "Companies look for a set of distinct yet cohesive personalities so as to appeal to as large a fan base as possible, while not generating unnecessary internal conflict.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 37,
+      "start": 310.5,
+      "end": 318.5,
+      "text": "Some labels turn recruitment into a reality TV competition, ideal for creating fan loyalty and dramatizing personalities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050372,
+      "no_speech_prob": 0.030197
+    },
+    {
+      "index": 38,
+      "start": 318.5,
+      "end": 326.5,
+      "text": "In 2012, 4% of the entire South Korean population tried out for superstar K, its most popular singing competition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 39,
+      "start": 326.5,
+      "end": 333.5,
+      "text": "Other companies recruit based only on qualities like appearance, because the next component is training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 40,
+      "start": 333.5,
+      "end": 340.5,
+      "text": "Potential stars, sometimes as young as 11 years old, go through roughly 5-10 years of arduous preparation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068547,
+      "no_speech_prob": 0.115662
+    },
+    {
+      "index": 41,
+      "start": 340.5,
+      "end": 359.5,
+      "text": "A training schedule might be as follows. 5am, wake up, practice choreography, go to school, get out at 3pm, practice vocals until 6, language lessons until 9, and then exercise until 11, leaving an hour to get home before the train shut down for the night in Seoul, and 5 hours for sleep.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07487,
+      "no_speech_prob": 0.33667
+    },
+    {
+      "index": 42,
+      "start": 359.5,
+      "end": 369.5,
+      "text": "Still, after all that, after sacrificing all other hobbies and dreams, after learning English or Japanese, only about 10% of trainees will ever debut.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07487,
+      "no_speech_prob": 0.33667
+    },
+    {
+      "index": 43,
+      "start": 369.5,
+      "end": 381.5,
+      "text": "K-pop stars complain of long, miserable hours, low pay, and unfair 7-year contracts which include clauses forbidding them from talking publicly about relationships, and or requiring they maintain a certain weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061643,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 44,
+      "start": 381.5,
+      "end": 391.5,
+      "text": "Labels, in turn, argue these stipulations are necessary given the tens of thousands, hundreds of thousands, or even millions of dollars and years they invest in each trainee.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061643,
+      "no_speech_prob": 0.051788
+    },
+    {
+      "index": 45,
+      "start": 391.5,
+      "end": 395.5,
+      "text": "The third ingredient, and perhaps most important, is localization.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 46,
+      "start": 395.5,
+      "end": 404.5,
+      "text": "Because K-pop is so diverse, incorporating everything from pop to techno, rock, and hip-hop, it's hard to define what exactly it is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 47,
+      "start": 404.5,
+      "end": 412.5,
+      "text": "One of the few unifying characteristics which sets it apart from, say, Japanese pop is the way it caters to an international audience.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053675,
+      "no_speech_prob": 0.717285
+    },
+    {
+      "index": 48,
+      "start": 412.5,
+      "end": 421.5,
+      "text": "Group names generally consist of a short, easily recognized English word or acronym, twice, BTS, EXO, or AOA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 49,
+      "start": 421.5,
+      "end": 427.5,
+      "text": "Another common strategy is to have at least one Chinese, Japanese, Thai, or Taiwanese group member.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 50,
+      "start": 427.5,
+      "end": 437.5,
+      "text": "Songs and their extravagant music videos are often produced two or three times, in Korean, Japanese, and Mandarin, with English words sprinkled throughout.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050781,
+      "no_speech_prob": 0.692871
+    },
+    {
+      "index": 51,
+      "start": 437.5,
+      "end": 445.5,
+      "text": "In addition to being hugely profitable, this international focus provides Seoul with something even more valuable, although intangible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 52,
+      "start": 445.5,
+      "end": 452.5,
+      "text": "While soft power can't be precisely measured, it tells a nation's story in a way no amount of tanks or factories ever can.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 53,
+      "start": 452.5,
+      "end": 456.5,
+      "text": "K-pop is so political because it paints such a vivid national image.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 54,
+      "start": 456.5,
+      "end": 463.5,
+      "text": "Thus, why South Korea brought the girl group Red Velvet to sing for Kim Jong-un and Pyongyang last year?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067969,
+      "no_speech_prob": 0.175171
+    },
+    {
+      "index": 55,
+      "start": 463.5,
+      "end": 472.5,
+      "text": "Separately, in 2016, the US began deploying a defense system in South Korea against potential North Korean missiles called the Terminal High Altitude Area Defense.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 56,
+      "start": 472.5,
+      "end": 477.5,
+      "text": "Soon after, South Korean products began disappearing from Chinese shelves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 57,
+      "start": 477.5,
+      "end": 482.5,
+      "text": "Although never explicitly announced, China's government effectively banned K-pop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 58,
+      "start": 482.5,
+      "end": 490.5,
+      "text": "Tour groups were forbidden from traveling to the South, and previously welcomed K-pop groups suddenly found their performances cancelled, or visas denied.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0657,
+      "no_speech_prob": 0.024734
+    },
+    {
+      "index": 59,
+      "start": 490.5,
+      "end": 498.5,
+      "text": "Music videos were even blocked from the internet, as groups turned to Hong Kong and Macau concerts until the ban was relaxed in 2017.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 60,
+      "start": 498.5,
+      "end": 505.5,
+      "text": "It's another example of China using its large consumer market as leverage, not unlike the recent NBA controversy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 61,
+      "start": 505.5,
+      "end": 514.5,
+      "text": "Both proving the unwavering fortitude of Chinese patriotism, stronger even than the support of a Kobe Bryant or BTS superfan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 62,
+      "start": 514.5,
+      "end": 519.5,
+      "text": "Finally, the last step is to sell every millimeter of unused space.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057969,
+      "no_speech_prob": 0.270752
+    },
+    {
+      "index": 63,
+      "start": 519.5,
+      "end": 526.5,
+      "text": "Extreme fan loyalty translates into extremely effective paid endorsements, product placements, and sponsorships.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 64,
+      "start": 526.5,
+      "end": 531.5,
+      "text": "The quintessential example of the formula's success is the seven-member boyband BTS.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 65,
+      "start": 531.5,
+      "end": 536.5,
+      "text": "Their Twitter account generates four times the engagement of President Donald Trump's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 66,
+      "start": 536.5,
+      "end": 545.5,
+      "text": "They appeared on The Ellen Show, gave a speech at the United Nations, and contribute an estimated $3.6 billion a year to the Korean economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06199,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 67,
+      "start": 545.5,
+      "end": 550.5,
+      "text": "One study estimates the country gets $5 back for every $1 it spends on K-pop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 68,
+      "start": 550.5,
+      "end": 562.5,
+      "text": "It's now building an entire themed district in the capital, with a concert hall, recording studios, museum, and K-star road, similar to Hong Kong's Avenue of the Stars, or Hollywood's Walk of Fame.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 69,
+      "start": 562.5,
+      "end": 568.5,
+      "text": "Some say K-pop is too commercialized, too scripted, too fake.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 70,
+      "start": 568.5,
+      "end": 574.5,
+      "text": "But while some artists invent touching origin stories, K-pop is honest about its motives, profit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057059,
+      "no_speech_prob": 0.12915
+    },
+    {
+      "index": 71,
+      "start": 574.5,
+      "end": 580.5,
+      "text": "Like professional wrestling, yes, it's exaggerated and mass-produced, and yes, its fans are aware.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 72,
+      "start": 580.5,
+      "end": 585.5,
+      "text": "But there's something respectably authentic about how transparently manufactured it all is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 73,
+      "start": 585.5,
+      "end": 591.5,
+      "text": "It may be fake, but very real is the joy it brings millions of fans around the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 74,
+      "start": 591.5,
+      "end": 597.5,
+      "text": "Behind every great K-pop idol is an intense motivation and need to learn new skills.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045842,
+      "no_speech_prob": 0.014954
+    },
+    {
+      "index": 75,
+      "start": 597.5,
+      "end": 606.5,
+      "text": "If you want to learn how to be more productive, or make videos like these, or SuperMeta, learn how to learn faster, Skillshare is for you.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 76,
+      "start": 606.5,
+      "end": 611.5,
+      "text": "Personally, my favorite is YouTuber Thomas Frank's course on staying organized and getting things done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 77,
+      "start": 611.5,
+      "end": 616.5,
+      "text": "On his suggestion, I started taking Fridays to review the week and catch up on my to-dos.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 78,
+      "start": 616.5,
+      "end": 621.5,
+      "text": "It's a little thing, but has the big effect of making me feel on top of things for the rest of the week.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0591,
+      "no_speech_prob": 0.836426
+    },
+    {
+      "index": 79,
+      "start": 621.5,
+      "end": 627.5,
+      "text": "These are really well-produced, high-quality courses, and they can be all yours for less than $10 a month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    },
+    {
+      "index": 80,
+      "start": 627.5,
+      "end": 632.5,
+      "text": "But if you use my link in the description, you'll get two months to try it yourself, completely free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    },
+    {
+      "index": 81,
+      "start": 632.5,
+      "end": 636.5,
+      "text": "Thanks to Skillshare for sponsoring this video, and to you for watching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060024,
+      "no_speech_prob": 0.796875
+    }
+  ],
+  "context_text_chronological": "This video is sponsored by Skillshare. Use the link in the description to watch my class and thousands of others with a free two-month trial. Visiting Japan feels a bit like taking a trip to the future. Robots serve and deliver your food, vending machines sell everything from umbrellas to puppies, bullet trains whisk you around the island at 320 kilometers an hour, and its median age of 47.3, the second highest in the world, warns of the global aging soon to come. There's one way, however, where Japan is stuck in the past. Walking around Tokyo or Osaka or Kobe, you might notice something odd, a strangely high number of music stores. Compared to the US, Japan has 40% as many people, but nearly double the number of music shops. As a whole, the Japanese music market is the second biggest in the world, but unlike almost any other. This is due, in part, to the country's stringent copyright laws, licensing restrictions, and rental culture. But there's another reason CDs are still loved in countries like Japan and South Korea. Korean pop groups have offset losses from piracy with glossy, premium, collectible CDs, usually sold to fans who will never play them. Instead, CDs are sold as merch, often with different covers to encourage buying several, and sometimes act as lottery tickets for a chance to meet your favorite singer. What's so interesting about K-pop as a business is that almost everything from the very beginning is manufactured as a consumer product. Artists aren't found but created, sculpted for maximum reach over many years in a factory system, and their international success is no accident. K-pop is a deliberate, government-funded project aimed at growing South Korea's global power, making it, in the process, highly political. The 1988 Summer Olympics was a turning point for South Korea. Like Japan's 1964 and China's 2008 games, it was a rare historic opportunity to change the country's image abroad. Harsh censorship laws and restrictive TV network monopolies soon opened up, giving way to a new generation of artists. Four years later, in 1992, the Korean government's Culture and Tourism Institute began looking for new overseas markets. But rather than waiting for demand, Korean entertainment hooked foreign viewers and created it. The Institute translated a popular drama called What is Love into Cantonese, which it sent to the Korean Consulate in Hong Kong, where it was offered free to a local TV station. Soon, Hong Kong and its neighbor Guangzhou were asking for more. Not long after that, demand spread to Taiwan, Vietnam, Japan, and further into mainland China, which established diplomatic relations with South Korea that same year. The media called this mass cultural dispersion How You, or the Korean Wave. The next turning point came after the 1997 Asian financial crisis, when manufacturing industries across South and Southeast Asia saw huge losses. In response, President Kim Dae-jung turned to the entertainment sector, hiring a PR firm to launch a new national image. The cultural budget increased 600%, and a new ministry of culture was formed, including an entire K-pop department. The second Korean wave came in 2012 with the explosive viral hit Gangnam Style. Overnight, the whole world became curious about Korean music, dramas, fashion, and language. And while it wasn't truly representative of K-pop as a genre, it was useful for one big thing, proving a song didn't need to be written in English to succeed in the West, later confirmed by hits like Despacito. No one could have predicted the success of Gangnam Style, but the rise of Korean entertainment in some form was inevitable, engineered for, in fact, by the K-pop formula. The difference between it and other genres is that K-pop is reverse engineered based on consumer preferences. Where most musicians start off practicing in their parents' garages, driven only by a passion for the art and eventually get discovered by a record label, K-pop groups usually begin, rise, and change directions from a conference room. There are four big labels, YG, SM, JYP, and Big Hit Entertainment. Although, again, the word label is slightly deceiving. These companies aren't so much agents as product designers, they create and shape every aspect of their groups. First, they begin with recruitment. Because K-pop singers are as much public idols as musicians, the composition of personalities is very important. Companies look for a set of distinct yet cohesive personalities so as to appeal to as large a fan base as possible, while not generating unnecessary internal conflict. Some labels turn recruitment into a reality TV competition, ideal for creating fan loyalty and dramatizing personalities. In 2012, 4% of the entire South Korean population tried out for superstar K, its most popular singing competition. Other companies recruit based only on qualities like appearance, because the next component is training. Potential stars, sometimes as young as 11 years old, go through roughly 5-10 years of arduous preparation. A training schedule might be as follows. 5am, wake up, practice choreography, go to school, get out at 3pm, practice vocals until 6, language lessons until 9, and then exercise until 11, leaving an hour to get home before the train shut down for the night in Seoul, and 5 hours for sleep. Still, after all that, after sacrificing all other hobbies and dreams, after learning English or Japanese, only about 10% of trainees will ever debut. K-pop stars complain of long, miserable hours, low pay, and unfair 7-year contracts which include clauses forbidding them from talking publicly about relationships, and or requiring they maintain a certain weight. Labels, in turn, argue these stipulations are necessary given the tens of thousands, hundreds of thousands, or even millions of dollars and years they invest in each trainee. The third ingredient, and perhaps most important, is localization. Because K-pop is so diverse, incorporating everything from pop to techno, rock, and hip-hop, it's hard to define what exactly it is. One of the few unifying characteristics which sets it apart from, say, Japanese pop is the way it caters to an international audience. Group names generally consist of a short, easily recognized English word or acronym, twice, BTS, EXO, or AOA. Another common strategy is to have at least one Chinese, Japanese, Thai, or Taiwanese group member. Songs and their extravagant music videos are often produced two or three times, in Korean, Japanese, and Mandarin, with English words sprinkled throughout. In addition to being hugely profitable, this international focus provides Seoul with something even more valuable, although intangible. While soft power can't be precisely measured, it tells a nation's story in a way no amount of tanks or factories ever can. K-pop is so political because it paints such a vivid national image. Thus, why South Korea brought the girl group Red Velvet to sing for Kim Jong-un and Pyongyang last year? Separately, in 2016, the US began deploying a defense system in South Korea against potential North Korean missiles called the Terminal High Altitude Area Defense. Soon after, South Korean products began disappearing from Chinese shelves. Although never explicitly announced, China's government effectively banned K-pop. Tour groups were forbidden from traveling to the South, and previously welcomed K-pop groups suddenly found their performances cancelled, or visas denied. Music videos were even blocked from the internet, as groups turned to Hong Kong and Macau concerts until the ban was relaxed in 2017. It's another example of China using its large consumer market as leverage, not unlike the recent NBA controversy. Both proving the unwavering fortitude of Chinese patriotism, stronger even than the support of a Kobe Bryant or BTS superfan. Finally, the last step is to sell every millimeter of unused space. Extreme fan loyalty translates into extremely effective paid endorsements, product placements, and sponsorships. The quintessential example of the formula's success is the seven-member boyband BTS. Their Twitter account generates four times the engagement of President Donald Trump's. They appeared on The Ellen Show, gave a speech at the United Nations, and contribute an estimated $3.6 billion a year to the Korean economy. One study estimates the country gets $5 back for every $1 it spends on K-pop. It's now building an entire themed district in the capital, with a concert hall, recording studios, museum, and K-star road, similar to Hong Kong's Avenue of the Stars, or Hollywood's Walk of Fame. Some say K-pop is too commercialized, too scripted, too fake. But while some artists invent touching origin stories, K-pop is honest about its motives, profit. Like professional wrestling, yes, it's exaggerated and mass-produced, and yes, its fans are aware. But there's something respectably authentic about how transparently manufactured it all is. It may be fake, but very real is the joy it brings millions of fans around the world. Behind every great K-pop idol is an intense motivation and need to learn new skills. If you want to learn how to be more productive, or make videos like these, or SuperMeta, learn how to learn faster, Skillshare is for you. Personally, my favorite is YouTuber Thomas Frank's course on staying organized and getting things done. On his suggestion, I started taking Fridays to review the week and catch up on my to-dos. It's a little thing, but has the big effect of making me feel on top of things for the rest of the week. These are really well-produced, high-quality courses, and they can be all yours for less than $10 a month. But if you use my link in the description, you'll get two months to try it yourself, completely free. Thanks to Skillshare for sponsoring this video, and to you for watching.",
+  "target_text_for_audit": "In most parts of the world, streaming has replaced physical sales. In 2015, for example, 66% of US music sales were digital. In Japan, it's nearly the opposite. 75% of sales were physical, and only 18% were digital.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "In 2015, for example, 66 % of US music sales were digital.",
+        "start_source": 60.4,
+        "end_source": 65.02,
+        "matching_cue_ids": [
+          6,
+          7
+        ],
+        "text_similarity": 0.4138,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "In Japan, it's nearly the opposite.",
+        "start_source": 65.68,
+        "end_source": 67.66,
+        "matching_cue_ids": [
+          7
+        ],
+        "text_similarity": 0.5546,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\-bbfFf07WNw.mp4",
+    "cue_count": 82
+  },
+  "token_estimate_char_div_4": 2467
+}

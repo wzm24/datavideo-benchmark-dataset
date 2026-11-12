@@ -1,0 +1,196 @@
+{
+ "clip_id": "donut_35",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Report the revenue attributed to the top artist group and its share of industry revenue.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report the revenue attributed to the top artist group",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Report the top artist group's share of industry revenue",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "top 1% of artists",
+     "label": "$43b",
+     "role": "center_label",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "center_count",
+   "claim": "The top 1% of artists generated $43 billion in music revenue.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "top 1% of artists",
+     "metric": "music_revenue",
+     "field": "value",
+     "value": "43",
+     "table_value": "43",
+     "table_relative_value": "0.3",
+     "unit": "billion USD",
+     "relative_value": "0.3",
+     "label": "$43b",
+     "role": "center_label",
+     "source_type": "printed",
+     "whole_scope": "music_revenue"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Displays or reports $43 billion as the revenue for the top 1% of artists",
+    "Center label reads $43b for the top artist group"
+   ],
+   "reject": [
+    "Reports a different revenue amount for the top artist group",
+    "Omits the absolute revenue value"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "share_of_whole",
+   "claim": "The top 1% of artists account for 30% of industry music revenue.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "top 1% of artists",
+     "metric": "music_revenue",
+     "field": "relative_value",
+     "value": "0.3",
+     "table_value": "43",
+     "table_relative_value": "0.3",
+     "unit": "billion USD",
+     "relative_value": "0.3",
+     "label": "$43b",
+     "role": "center_label",
+     "source_type": "printed",
+     "whole_scope": "music_revenue"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Displays or reports 30% as the share of industry revenue for the top 1% of artists",
+    "Partial ring shows 0.3 of the whole for the top artist group"
+   ],
+   "reject": [
+    "Reports a different share for the top artist group",
+    "Omits the share of industry revenue"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Labeling the ring segment as 'top 1% of artists' to bind the share to its entity"
+ ],
+ "unsupported_to_avoid": [
+  "Deriving or reporting the complement (70%) as a separate required fact",
+  "Adding other artist groups or sectors not present in the table",
+  "Reporting absolute industry revenue total not given in the table"
+ ],
+ "review_notes": [
+  "Single-row partial ring: the center label supplies the absolute revenue (center_count) and the ring arc supplies the share (share_of_whole).",
+  "No complement is required because the intent asks only for the top group's revenue and share."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "top 1% of artists",
+    "metric": "music_revenue",
+    "value": "43",
+    "unit": "billion USD",
+    "relative_value": "0.3",
+    "label": "$43b",
+    "role": "center_label",
+    "source_type": "printed",
+    "whole_scope": "music_revenue"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

@@ -1,77 +1,130 @@
 {
  "clip_id": "donut_1",
  "family": "donut",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "donut_1",
   "family": "donut",
   "sub_type": "full_ring",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "frame"
  },
  "completeness": {
-  "required": false,
-  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
-  "required_data_rows": 3,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1",
-   "U2"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Digital | share_of_music_sales"
+    "United States (2015) | Digital",
+    "United States (2015) | Physical"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Digital | share_of_music_sales",
-      "expected": 66.0
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": false
+   "needs_review": true
   },
   {
    "unit_id": "U2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Physical | share_of_music_sales"
+    "Japan | Physical",
+    "Japan | Digital"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Physical | share_of_music_sales",
-      "expected": 19.0
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "share_of_whole",
+   "must_be_visualized": true,
+   "evidence_type": "share_of_whole",
+   "required_marks": [
+    "United States (2015) | Digital",
+    "United States (2015) | Physical"
+   ],
+   "assertion": {
+    "shares": [
+     {
+      "mark": "United States (2015) | Digital",
+      "entity": "Digital",
+      "whole_scope": "United States (2015)",
+      "expected_relative_value": 0.66,
+      "expected_value": 66.0
+     },
+     {
+      "mark": "United States (2015) | Physical",
+      "entity": "Physical",
+      "whole_scope": "United States (2015)",
+      "expected_relative_value": null,
+      "expected_value": null
+     }
+    ],
+    "expected_relation": "In the United States (2015) panel, Digital occupies 66% of music-sales format share, and Physical is a labeled category in the same whole."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
+   "needs_review": true
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "share_of_whole",
+   "must_be_visualized": true,
+   "evidence_type": "share_of_whole",
+   "required_marks": [
+    "Japan | Physical",
+    "Japan | Digital"
+   ],
+   "assertion": {
+    "shares": [
+     {
+      "mark": "Japan | Physical",
+      "entity": "Physical",
+      "whole_scope": "Japan",
+      "expected_relative_value": 0.75,
+      "expected_value": 75.0
+     },
+     {
+      "mark": "Japan | Digital",
+      "entity": "Digital",
+      "whole_scope": "Japan",
+      "expected_relative_value": 0.18,
+      "expected_value": 18.0
+     }
+    ],
+    "expected_relation": "In the Japan panel, Physical occupies 75% and Digital occupies 18% of music-sales format share, with the remaining share unspecified."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   }
  ]

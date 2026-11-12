@@ -1,0 +1,130 @@
+{
+ "clip_id": "area_12",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_12",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 65,
+  "table_sha256": "2f618acaab37e1d7d2e859d2f5dea9b00a7d501e21b9e7cbcd3893acab300291"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "battle deaths"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "battle deaths",
+      "panel": "",
+      "entity": "battle deaths",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "battle deaths | 1950",
+    "battle deaths | #65"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "battle deaths | 1950",
+      "panel": "",
+      "entity": "battle deaths",
+      "series": "",
+      "x": "1950",
+      "point_order": "1",
+      "value": "194.9",
+      "unit": "deaths_per_million",
+      "role": "area"
+     },
+     {
+      "mark": "battle deaths | #65",
+      "panel": "",
+      "entity": "battle deaths",
+      "series": "",
+      "x": "",
+      "point_order": "65",
+      "value": "2.5",
+      "unit": "deaths_per_million",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Battle deaths per year per million people fell from 194.9 in 1950 to 2.5 at the end of the series, an overall decrease.",
+    "computation": "end_value - start_value = 2.5 - 194.9 = -192.4 deaths_per_million",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Battle deaths per year per million people"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Overall increase",
+    "No change",
+    "End value equals start value"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

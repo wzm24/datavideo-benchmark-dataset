@@ -1,0 +1,69 @@
+{
+ "clip": "area_17",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the Antarctic ice sheet's surface rises from about 0.46 km to a peak near 3.85 km around 3000 km distance, while bedrock varies from about -2.30 km to 1.59 km and lies below sea level in several places.",
+ "proposed_intent": "Compare how the Ice surface and Bedrock elevations vary with distance across the Antarctic ice sheet transect.",
+ "writer": {
+  "intent": "Compare how the Ice surface and Bedrock elevations vary with distance across the Antarctic ice sheet transect.",
+  "entities": [
+   "Ice surface",
+   "Bedrock"
+  ],
+  "measure": "Elevation (km)",
+  "scope": "Distance from 0 to 5000 km along the transect",
+  "comparison": "Ice surface versus Bedrock elevation profiles",
+  "withheld_answer": "Ice surface rises from about 0.46 km to a peak near 3.85 km around 3000 km, while bedrock varies from about -2.30 km to 1.59 km and lies below sea level in several places."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 17,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 8770,
+   "completion_tokens": 140,
+   "total_tokens": 8910,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 8642
+  },
+  {
+   "prompt_tokens": 8702,
+   "completion_tokens": 56,
+   "total_tokens": 8758,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 8702
+  }
+ ],
+ "sec": 2.4
+}

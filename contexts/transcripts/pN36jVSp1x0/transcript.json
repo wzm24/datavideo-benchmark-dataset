@@ -1,0 +1,648 @@
+{
+  "video_id": "pN36jVSp1x0",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\pN36jVSp1x0.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 422.58,
+  "duration_after_vad_seconds": 415.316,
+  "cue_count": 70,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.2,
+      "text": "The thing that is most distorting our education system is the existence of private schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 1,
+      "start": 5.2,
+      "end": 11.36,
+      "text": "State school graduates are still likely to earn thousands of pounds less than those who are privately educated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 2,
+      "start": 11.36,
+      "end": 14.08,
+      "text": "What we're seeing is entrenched privilege.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 3,
+      "start": 14.08,
+      "end": 19.44,
+      "text": "Why are the people at the top, why are they ever going to want people like you or I",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 4,
+      "start": 19.44,
+      "end": 24.16,
+      "text": "taking the jobs that they want to go to their privately educated sons and daughters?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 5,
+      "start": 24.16,
+      "end": 28.48,
+      "text": "We will have an apartheid education system in this country",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152453,
+      "no_speech_prob": 0.04187
+    },
+    {
+      "index": 6,
+      "start": 28.48,
+      "end": 31.12,
+      "text": "unless we do something drastic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19382,
+      "no_speech_prob": 0.000407
+    },
+    {
+      "index": 7,
+      "start": 31.12,
+      "end": 36.0,
+      "text": "There's an endless stream of evidence that private schools help make our country unequal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19382,
+      "no_speech_prob": 0.000407
+    },
+    {
+      "index": 8,
+      "start": 36.0,
+      "end": 42.24,
+      "text": "Only 7% of the UK are privately educated but a disproportionate number occupies some of the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19382,
+      "no_speech_prob": 0.000407
+    },
+    {
+      "index": 9,
+      "start": 42.24,
+      "end": 47.84,
+      "text": "most influential jobs, whether in media, art, law or politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19382,
+      "no_speech_prob": 0.000407
+    },
+    {
+      "index": 10,
+      "start": 47.84,
+      "end": 54.64,
+      "text": "I mean take on new prime minister, the 20th to be educated at one school, Eton.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19382,
+      "no_speech_prob": 0.000407
+    },
+    {
+      "index": 11,
+      "start": 54.72,
+      "end": 60.0,
+      "text": "But now a number of people are asking if this is fair and if they should exist at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 12,
+      "start": 60.0,
+      "end": 63.68,
+      "text": "As a state school teacher why would I not want the absolute best for the young people in front",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 13,
+      "start": 63.68,
+      "end": 68.08,
+      "text": "of me? Why don't they deserve to have small class sizes, luxurious facilities,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 14,
+      "start": 68.08,
+      "end": 72.96,
+      "text": "access to this incredible network of alumni and I think that would make our society much better",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 15,
+      "start": 72.96,
+      "end": 75.6,
+      "text": "and much fairer and abolishing private schools is key to that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 16,
+      "start": 75.6,
+      "end": 80.72,
+      "text": "But before getting to abolition we need to know what private schools are and how they work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083377,
+      "no_speech_prob": 0.011086
+    },
+    {
+      "index": 17,
+      "start": 81.68,
+      "end": 87.52,
+      "text": "Well the origins of Britain's private schools date back into the medieval period, the late medieval",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102159,
+      "no_speech_prob": 0.007175
+    },
+    {
+      "index": 18,
+      "start": 87.52,
+      "end": 97.12,
+      "text": "period, with a series of charitable bequests to educate the children of poor and rising middle",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102159,
+      "no_speech_prob": 0.007175
+    },
+    {
+      "index": 19,
+      "start": 97.12,
+      "end": 101.12,
+      "text": "class families. So they started out as charities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102159,
+      "no_speech_prob": 0.007175
+    },
+    {
+      "index": 20,
+      "start": 101.12,
+      "end": 105.6,
+      "text": "But gradually they expanded in the Victorian era when they became increasingly for the middle",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102159,
+      "no_speech_prob": 0.007175
+    },
+    {
+      "index": 21,
+      "start": 105.6,
+      "end": 112.32,
+      "text": "classes and they cost money. This trend continued into the 20th century and to avoid being labeled",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131793,
+      "no_speech_prob": 0.005848
+    },
+    {
+      "index": 22,
+      "start": 112.32,
+      "end": 120.16,
+      "text": "elitist in the 1960s they rebranded as independent schools. Fast forward to now and how inclusive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131793,
+      "no_speech_prob": 0.005848
+    },
+    {
+      "index": 23,
+      "start": 120.16,
+      "end": 128.64,
+      "text": "are they? So that's 6,000 pupils paying no fees at all out of out of the half million pupils in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131793,
+      "no_speech_prob": 0.005848
+    },
+    {
+      "index": 24,
+      "start": 128.64,
+      "end": 133.44,
+      "text": "independent school council schools. Turns out that means only one percent of people who go to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131793,
+      "no_speech_prob": 0.005848
+    },
+    {
+      "index": 25,
+      "start": 133.44,
+      "end": 139.04,
+      "text": "private school are from the most disadvantaged backgrounds. But most people can't afford to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091529,
+      "no_speech_prob": 0.000449
+    },
+    {
+      "index": 26,
+      "start": 139.04,
+      "end": 144.72,
+      "text": "go private. Rising school fees now amount to 50% of an average earner's wage which is why",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091529,
+      "no_speech_prob": 0.000449
+    },
+    {
+      "index": 27,
+      "start": 144.72,
+      "end": 149.84,
+      "text": "intakes are dominated by the very wealthy. So while funding has been cut to the point that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091529,
+      "no_speech_prob": 0.000449
+    },
+    {
+      "index": 28,
+      "start": 149.84,
+      "end": 155.52,
+      "text": "state schools are having to use crowdfunding and amazon wishlist to pay for basics, a tiny",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091529,
+      "no_speech_prob": 0.000449
+    },
+    {
+      "index": 29,
+      "start": 155.52,
+      "end": 161.44,
+      "text": "proportion of people get access to the excellent support and almost unlimited resources that the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091529,
+      "no_speech_prob": 0.000449
+    },
+    {
+      "index": 30,
+      "start": 161.44,
+      "end": 167.6,
+      "text": "private sector offers. Plus private schools act as a direct route to prestigious universities",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063051,
+      "no_speech_prob": 0.000445
+    },
+    {
+      "index": 31,
+      "start": 167.6,
+      "end": 172.88,
+      "text": "and networks to some of the world's most powerful people. But discussing what to do about private",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063051,
+      "no_speech_prob": 0.000445
+    },
+    {
+      "index": 32,
+      "start": 172.88,
+      "end": 177.52,
+      "text": "schools isn't about attacking the choices that parents make, it's about an elite system that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063051,
+      "no_speech_prob": 0.000445
+    },
+    {
+      "index": 33,
+      "start": 177.52,
+      "end": 186.56,
+      "text": "fast tracks certain children. So what can we do about this? Broadly there's a few options. We could",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063051,
+      "no_speech_prob": 0.000445
+    },
+    {
+      "index": 34,
+      "start": 186.56,
+      "end": 191.92,
+      "text": "do nothing which means there's no point watching this video, we could reform the system to try",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095294,
+      "no_speech_prob": 0.017258
+    },
+    {
+      "index": 35,
+      "start": 191.92,
+      "end": 198.24,
+      "text": "and make it fairer or we could get rid of fee paying schools altogether. Let's look at reform first",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095294,
+      "no_speech_prob": 0.017258
+    },
+    {
+      "index": 36,
+      "start": 198.24,
+      "end": 203.12,
+      "text": "and the main point here is although they mostly educate the well-off, over half of all private",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095294,
+      "no_speech_prob": 0.017258
+    },
+    {
+      "index": 37,
+      "start": 203.12,
+      "end": 212.72,
+      "text": "schools still operate as charities today. Many private schools say they earn their charitable",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095294,
+      "no_speech_prob": 0.017258
+    },
+    {
+      "index": 38,
+      "start": 212.8,
+      "end": 218.96,
+      "text": "status by offering fee reductions or free places in the form of bursaries. So a simple measure",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100029,
+      "no_speech_prob": 0.011261
+    },
+    {
+      "index": 39,
+      "start": 218.96,
+      "end": 223.76,
+      "text": "could be to demand that they offer more. But that would still only be a limited number of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100029,
+      "no_speech_prob": 0.011261
+    },
+    {
+      "index": 40,
+      "start": 224.4,
+      "end": 229.52,
+      "text": "and these bursaries are often used to top up fees of people who are already pretty wealthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100029,
+      "no_speech_prob": 0.011261
+    },
+    {
+      "index": 41,
+      "start": 229.52,
+      "end": 233.84,
+      "text": "We even found one school willing to offer financial help to families so long as they",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100029,
+      "no_speech_prob": 0.011261
+    },
+    {
+      "index": 42,
+      "start": 233.84,
+      "end": 241.36,
+      "text": "earn less than £120,000. Also as charities private schools don't pay full business rates",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100029,
+      "no_speech_prob": 0.011261
+    },
+    {
+      "index": 43,
+      "start": 241.36,
+      "end": 246.08,
+      "text": "so getting them to pay the full whack which is something state schools already have to do",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083363,
+      "no_speech_prob": 7.7e-05
+    },
+    {
+      "index": 44,
+      "start": 246.08,
+      "end": 253.04,
+      "text": "could bring in an extra £105 million per year. Another idea could be to charge VAT on private",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083363,
+      "no_speech_prob": 7.7e-05
+    },
+    {
+      "index": 45,
+      "start": 253.04,
+      "end": 259.68,
+      "text": "school fees since they're currently exempt. That could bring in an extra £1.5 billion to the treasury",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083363,
+      "no_speech_prob": 7.7e-05
+    },
+    {
+      "index": 46,
+      "start": 260.48,
+      "end": 266.4,
+      "text": "or you could just strip them of their charitable status entirely. But what about something even",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.083363,
+      "no_speech_prob": 7.7e-05
+    },
+    {
+      "index": 47,
+      "start": 266.4,
+      "end": 279.84,
+      "text": "bigger like abolition? Look let's not get too dramatic here because the idea of abolition",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07659,
+      "no_speech_prob": 0.003878
+    },
+    {
+      "index": 48,
+      "start": 279.84,
+      "end": 286.0,
+      "text": "isn't about destruction it's about unifying and integrating our education system. That's what they",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07659,
+      "no_speech_prob": 0.003878
+    },
+    {
+      "index": 49,
+      "start": 286.0,
+      "end": 292.08,
+      "text": "did in Finland. Their education system used to be a mix of private, grammar and state schools",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07659,
+      "no_speech_prob": 0.003878
+    },
+    {
+      "index": 50,
+      "start": 292.08,
+      "end": 298.64,
+      "text": "not so different from ours but in the 1970s the government decided to abolish private schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07659,
+      "no_speech_prob": 0.003878
+    },
+    {
+      "index": 51,
+      "start": 298.72,
+      "end": 305.76,
+      "text": "It was actually the Finnish political establishment who decided that their segregated system was",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071364,
+      "no_speech_prob": 0.001173
+    },
+    {
+      "index": 52,
+      "start": 305.76,
+      "end": 313.04,
+      "text": "actually causing too much divisiveness that they needed to establish a common school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071364,
+      "no_speech_prob": 0.001173
+    },
+    {
+      "index": 53,
+      "start": 313.04,
+      "end": 318.0,
+      "text": "We don't see education as an industry we see education as a basic human right for everybody",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071364,
+      "no_speech_prob": 0.001173
+    },
+    {
+      "index": 54,
+      "start": 318.0,
+      "end": 323.68,
+      "text": "that's why all education is free in Finland it's against the law to run a private school or private",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071364,
+      "no_speech_prob": 0.001173
+    },
+    {
+      "index": 55,
+      "start": 323.68,
+      "end": 330.24,
+      "text": "university. With one of the most equal education systems in the world Finland is an example of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050358,
+      "no_speech_prob": 0.007904
+    },
+    {
+      "index": 56,
+      "start": 330.24,
+      "end": 336.56,
+      "text": "what could be possible. The neighborhood school is the best school because all the schools in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050358,
+      "no_speech_prob": 0.007904
+    },
+    {
+      "index": 57,
+      "start": 336.56,
+      "end": 343.6,
+      "text": "Finland they are all equal. And what that means is that by making the rich kids go to school with",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050358,
+      "no_speech_prob": 0.007904
+    },
+    {
+      "index": 58,
+      "start": 343.6,
+      "end": 351.52,
+      "text": "everyone else they grow up with those other kids as friends and when they become wealthy adults",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050358,
+      "no_speech_prob": 0.007904
+    },
+    {
+      "index": 59,
+      "start": 352.48,
+      "end": 359.52,
+      "text": "they have to think twice before they screw them over. Critics say abolition takes away parents'",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096203,
+      "no_speech_prob": 0.00139
+    },
+    {
+      "index": 60,
+      "start": 359.52,
+      "end": 366.32,
+      "text": "right to choose but does everyone get to make that choice? What we have now is is a parentocracy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096203,
+      "no_speech_prob": 0.00139
+    },
+    {
+      "index": 61,
+      "start": 366.32,
+      "end": 373.12,
+      "text": "which is where educational success depends on the wealth and wishes of parents rather than the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096203,
+      "no_speech_prob": 0.00139
+    },
+    {
+      "index": 62,
+      "start": 373.12,
+      "end": 380.32,
+      "text": "ability and effort of actual children. Choices are underpinned by resources and if you're poor",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096203,
+      "no_speech_prob": 0.00139
+    },
+    {
+      "index": 63,
+      "start": 380.4,
+      "end": 386.88,
+      "text": "and disadvantaged you just don't have very many choices. None of this is going to happen overnight",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06803,
+      "no_speech_prob": 0.000487
+    },
+    {
+      "index": 64,
+      "start": 386.88,
+      "end": 392.8,
+      "text": "and there's no magic bullet. Abolition is just one part of a much broader change that's needed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06803,
+      "no_speech_prob": 0.000487
+    },
+    {
+      "index": 65,
+      "start": 392.8,
+      "end": 398.4,
+      "text": "from funding our schools properly to getting rid of all forms of selection. But one thing is pretty",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06803,
+      "no_speech_prob": 0.000487
+    },
+    {
+      "index": 66,
+      "start": 398.4,
+      "end": 406.86,
+      "text": "clear if private schools stay as they are then nothing is going to change. Thank you for watching",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06803,
+      "no_speech_prob": 0.000487
+    },
+    {
+      "index": 67,
+      "start": 406.86,
+      "end": 412.38,
+      "text": "this video. We want to hear what you think about private schools so leave us a comment below and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077133,
+      "no_speech_prob": 0.474609
+    },
+    {
+      "index": 68,
+      "start": 412.38,
+      "end": 417.82,
+      "text": "take part in our poll which should be somewhere above me over here. If you like these videos",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077133,
+      "no_speech_prob": 0.474609
+    },
+    {
+      "index": 69,
+      "start": 417.82,
+      "end": 422.3,
+      "text": "then give us a thumbs up and if you want to see more then click subscribe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077133,
+      "no_speech_prob": 0.474609
+    }
+  ],
+  "created_at": "2026-11-05T02:16:53+0800"
+}

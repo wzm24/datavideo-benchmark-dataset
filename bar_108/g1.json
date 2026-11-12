@@ -124,7 +124,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -167,7 +168,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must display the value 6 months for Pfizer/BioNTech and Moderna on the months-since-last-shot measure. The chart must display the value 2 months for Johnson & Johnson on the months-since-last-shot measure."
+   "evidence": "The chart must display the value 6 months for Pfizer/BioNTech and Moderna on the months-since-last-shot measure. The chart must display the value 2 months for Johnson & Johnson on the months-since-last-shot measure.",
+   "needs_review": false
   },
   {
    "id": "U4",
@@ -214,7 +216,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must display the full-effectiveness wait values: 0.55 months for Pfizer/BioNTech, Moderna, and AstraZeneca, and 0.7 months for Johnson & Johnson."
+   "evidence": "The chart must display the full-effectiveness wait values: 0.55 months for Pfizer/BioNTech, Moderna, and AstraZeneca, and 0.7 months for Johnson & Johnson.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -252,12 +255,13 @@
   "state_level_completeness_r1_2026-10-22",
   "complex_chart_hardcase_2026_10_27",
   "merged_U2_U3_2026_10_27",
-  "complex_chart_hardcase_2026_10_27"
+  "complex_chart_hardcase_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "clip_hardcase": {
   "is_hardcase": true,
   "type": "complex_chart",
@@ -280,5 +284,12 @@
   ],
   "chart_sub_type": "grouped",
   "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
- }
+ },
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

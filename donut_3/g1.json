@@ -1,0 +1,297 @@
+{
+ "clip_id": "donut_3",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the stated first-year restaurant failure rate with the first-year and three-year reality rates to quantify each reported share.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report the stated first-year restaurant failure rate as a share of the whole.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Report the first-year reality restaurant failure rate as a share of the whole.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R4",
+   "question": "Report the three-year reality restaurant failure rate as a share of the whole.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "myth: restaurants failing in the first year",
+     "label": "90%",
+     "role": "state",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "reality: restaurants failing in the first year",
+     "label": "APPROX. 30%",
+     "role": "state",
+     "field": "value"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "reality: restaurants failing after three years",
+     "label": "APPROX. 60%",
+     "role": "state",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_of_whole",
+   "claim": "The stated myth is that 90% of restaurants fail in their first year.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "myth: restaurants failing in the first year",
+     "metric": "restaurant_failure_rate",
+     "field": "relative_value",
+     "value": "0.9",
+     "table_value": "90",
+     "table_relative_value": "0.9",
+     "unit": "%",
+     "relative_value": "0.9",
+     "label": "90%",
+     "role": "state",
+     "source_type": "printed",
+     "whole_scope": "myth: restaurants failing in the first year"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "90%",
+    "0.9",
+    "nine in ten"
+   ],
+   "reject": [
+    "30%",
+    "60%",
+    "approximate"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "share_of_whole",
+   "claim": "In reality, approximately 30% of restaurants fail in their first year.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "reality: restaurants failing in the first year",
+     "metric": "restaurant_failure_rate",
+     "field": "relative_value",
+     "value": "0.3",
+     "table_value": "30",
+     "table_relative_value": "0.3",
+     "unit": "%",
+     "relative_value": "0.3",
+     "label": "APPROX. 30%",
+     "role": "state",
+     "source_type": "printed",
+     "whole_scope": "reality: restaurants failing in the first year"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "30%",
+    "0.3",
+    "approximately 30%"
+   ],
+   "reject": [
+    "90%",
+    "60%",
+    "exactly 30%"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R4",
+   "unit_kind": "share_of_whole",
+   "claim": "In reality, approximately 60% of restaurants fail after three years.",
+   "basis": [
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "reality: restaurants failing after three years",
+     "metric": "restaurant_failure_rate",
+     "field": "relative_value",
+     "value": "0.6",
+     "table_value": "60",
+     "table_relative_value": "0.6",
+     "unit": "%",
+     "relative_value": "0.6",
+     "label": "APPROX. 60%",
+     "role": "state",
+     "source_type": "printed",
+     "whole_scope": "reality: restaurants failing after three years"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "60%",
+    "0.6",
+    "approximately 60%"
+   ],
+   "reject": [
+    "90%",
+    "30%",
+    "exactly 60%"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Visually distinguishing the myth share from the two reality shares.",
+  "Showing the three shares as separate donut states or rings."
+ ],
+ "unsupported_to_avoid": [
+  "Adding the first-year and three-year reality shares together.",
+  "Treating the 90% myth as a reality rate.",
+  "Deriving a complement or remainder not stated in the data.",
+  "Ranking the shares unless the intent explicitly asks for ordering."
+ ],
+ "review_notes": [
+  "The intent asks to compare the stated first-year failure rate with first-year and three-year reality rates, so each reported share is kept as its own required unit.",
+  "No cross-panel or multi-ring structure is present; all rows share the same panel and series scope.",
+  "Labels are approximate for the reality rates, so accept variants that preserve the approximate qualifier."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "state_sequence",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "myth: restaurants failing in the first year",
+    "metric": "restaurant_failure_rate",
+    "value": "90",
+    "unit": "%",
+    "relative_value": "0.9",
+    "label": "90%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "myth: restaurants failing in the first year"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "reality: restaurants failing in the first year",
+    "metric": "restaurant_failure_rate",
+    "value": "30",
+    "unit": "%",
+    "relative_value": "0.3",
+    "label": "APPROX. 30%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "reality: restaurants failing in the first year"
+   },
+   {
+    "row_id": "r3",
+    "panel": "",
+    "series": "",
+    "entity": "reality: restaurants failing after three years",
+    "metric": "restaurant_failure_rate",
+    "value": "60",
+    "unit": "%",
+    "relative_value": "0.6",
+    "label": "APPROX. 60%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "reality: restaurants failing after three years"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

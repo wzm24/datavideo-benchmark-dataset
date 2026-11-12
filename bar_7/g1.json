@@ -66,7 +66,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for state 1975 are visible and identifiable."
+   "evidence": "All G0-required marks for state 1975 are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -93,7 +94,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for state 2019 are visible and identifiable."
+   "evidence": "All G0-required marks for state 2019 are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -130,7 +132,8 @@
      "metric": "contraceptive_use",
      "label": "76%"
     }
-   ]
+   ],
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -144,8 +147,8 @@
   "The cause named in the narration: distribution reaching remote areas"
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-21",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "g0_data_completeness": {
   "required": true,
   "selection": "all data rows (table has no role column)",
@@ -172,8 +175,16 @@
  },
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "hardcases": [],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

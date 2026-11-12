@@ -1,0 +1,639 @@
+{
+  "video_id": "DxvVZe2fnvI",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\DxvVZe2fnvI.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 341.856,
+  "duration_after_vad_seconds": 308.192,
+  "cue_count": 69,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.02,
+      "end": 6.02,
+      "text": "We are the 99 percent. It's the rallying cry of the Occupy Wall Street protesters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143503,
+      "no_speech_prob": 0.099121
+    },
+    {
+      "index": 1,
+      "start": 6.02,
+      "end": 10.02,
+      "text": "They say that a tiny minority controls America's wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143503,
+      "no_speech_prob": 0.099121
+    },
+    {
+      "index": 2,
+      "start": 10.02,
+      "end": 15.02,
+      "text": "So, how rich have the richest got? And how poor are the rest of us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143503,
+      "no_speech_prob": 0.099121
+    },
+    {
+      "index": 3,
+      "start": 15.02,
+      "end": 19.02,
+      "text": "Is it really 99 percent versus 1 percent?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143503,
+      "no_speech_prob": 0.099121
+    },
+    {
+      "index": 4,
+      "start": 19.02,
+      "end": 25.02,
+      "text": "The richest 1 percent of the U.S. population, they own a third of U.S. net worth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143503,
+      "no_speech_prob": 0.099121
+    },
+    {
+      "index": 5,
+      "start": 25.02,
+      "end": 27.02,
+      "text": "So, how did we get here?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 6,
+      "start": 27.02,
+      "end": 30.02,
+      "text": "When times were good, everyone gained.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 7,
+      "start": 30.02,
+      "end": 36.02,
+      "text": "In Bill Clinton's boom of 1993 to 2000, average incomes went up,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 8,
+      "start": 36.02,
+      "end": 41.02,
+      "text": "just as they did during George W. Bush's boom at the beginning of his presidency.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 9,
+      "start": 41.02,
+      "end": 44.02,
+      "text": "But if you were rich, you gained even more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 10,
+      "start": 44.02,
+      "end": 48.02,
+      "text": "That's nearly half of all the growth in the Clinton boom years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 11,
+      "start": 48.02,
+      "end": 52.02,
+      "text": "Under George W. Bush, it was even more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047687,
+      "no_speech_prob": 0.072571
+    },
+    {
+      "index": 12,
+      "start": 52.02,
+      "end": 56.02,
+      "text": "And there are some really rich people in the U.S. today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 13,
+      "start": 56.02,
+      "end": 61.02,
+      "text": "In fact, there are now over 3.1 million millionaires.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 14,
+      "start": 61.02,
+      "end": 63.02,
+      "text": "But these are not the richest of all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 15,
+      "start": 63.02,
+      "end": 69.02,
+      "text": "The U.S. has over 400 billionaires, more than any other country in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 16,
+      "start": 69.02,
+      "end": 72.02,
+      "text": "Who's at the top of that pile?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 17,
+      "start": 72.02,
+      "end": 78.02,
+      "text": "These three have a combined net worth of $131 billion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.042345,
+      "no_speech_prob": 0.003429
+    },
+    {
+      "index": 18,
+      "start": 78.02,
+      "end": 85.02,
+      "text": "That's just over the combined budget shortfall of every state in the U.S. for 2011.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048851,
+      "no_speech_prob": 0.070435
+    },
+    {
+      "index": 19,
+      "start": 85.02,
+      "end": 90.02,
+      "text": "More than the cost of the global war on terror in 2010.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048851,
+      "no_speech_prob": 0.070435
+    },
+    {
+      "index": 20,
+      "start": 90.02,
+      "end": 94.02,
+      "text": "But haven't the rich lost out as well as the poor in the economic crash?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048851,
+      "no_speech_prob": 0.070435
+    },
+    {
+      "index": 21,
+      "start": 94.02,
+      "end": 98.02,
+      "text": "When the economy tanked, everyone suffered.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048851,
+      "no_speech_prob": 0.070435
+    },
+    {
+      "index": 22,
+      "start": 98.02,
+      "end": 104.02,
+      "text": "In 2010, the average American earned $26,487,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048851,
+      "no_speech_prob": 0.070435
+    },
+    {
+      "index": 23,
+      "start": 104.02,
+      "end": 108.02,
+      "text": "down over $2,000 in real terms on 2006.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05639,
+      "no_speech_prob": 0.062683
+    },
+    {
+      "index": 24,
+      "start": 108.02,
+      "end": 112.02,
+      "text": "If you were poor, it's been an even bigger drop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05639,
+      "no_speech_prob": 0.062683
+    },
+    {
+      "index": 25,
+      "start": 112.02,
+      "end": 119.02,
+      "text": "The 24 million least wealthy households in America saw their average income go down by 10%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05639,
+      "no_speech_prob": 0.062683
+    },
+    {
+      "index": 26,
+      "start": 119.02,
+      "end": 123.02,
+      "text": "If you were super rich, it went down too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05639,
+      "no_speech_prob": 0.062683
+    },
+    {
+      "index": 27,
+      "start": 123.02,
+      "end": 129.02,
+      "text": "The 400 wealthiest American households lost around 4%, including inflation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05639,
+      "no_speech_prob": 0.062683
+    },
+    {
+      "index": 28,
+      "start": 129.02,
+      "end": 136.02,
+      "text": "That's down to an average of $270.5 million per household.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05763,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 29,
+      "start": 136.02,
+      "end": 138.02,
+      "text": "So the richest lost 4%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05763,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 30,
+      "start": 138.02,
+      "end": 141.02,
+      "text": "The poorest lost 10%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05763,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 31,
+      "start": 141.02,
+      "end": 147.02,
+      "text": "Part of the reason average Americans have been hit so hard is where their wealth comes from.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05763,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 32,
+      "start": 147.02,
+      "end": 153.02,
+      "text": "Before the crash, middle-class Americans had 65% of their wealth tied up in their house.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05763,
+      "no_speech_prob": 0.001926
+    },
+    {
+      "index": 33,
+      "start": 153.02,
+      "end": 159.02,
+      "text": "But the richest 1% of the population kept most of their wealth in stocks and shares and business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 34,
+      "start": 159.02,
+      "end": 165.02,
+      "text": "So when house prices went south, many Americans found their wealth disappearing too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 35,
+      "start": 165.02,
+      "end": 169.02,
+      "text": "Now, one in every seven Americans lives below the poverty line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 36,
+      "start": 169.02,
+      "end": 173.02,
+      "text": "That's a record 46.2 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 37,
+      "start": 173.02,
+      "end": 177.02,
+      "text": "One in six Americans have no health insurance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 38,
+      "start": 177.02,
+      "end": 179.02,
+      "text": "That's 50 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040634,
+      "no_speech_prob": 0.013008
+    },
+    {
+      "index": 39,
+      "start": 179.02,
+      "end": 187.02,
+      "text": "Of every 17 Americans, at least one will be earning below the minimum wage of $7.25 per hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 40,
+      "start": 187.02,
+      "end": 193.02,
+      "text": "14.5% of American households are defined as food insecure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 41,
+      "start": 193.02,
+      "end": 199.02,
+      "text": "That means for every seven households, one will have trouble putting enough food on the table.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 42,
+      "start": 199.02,
+      "end": 202.02,
+      "text": "But some things are doing very well.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 43,
+      "start": 202.02,
+      "end": 204.02,
+      "text": "Sales of luxury cars are up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 44,
+      "start": 204.02,
+      "end": 208.02,
+      "text": "Big luxury brands have reported their best sales figures in years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.024095,
+      "no_speech_prob": 0.007576
+    },
+    {
+      "index": 45,
+      "start": 208.02,
+      "end": 210.02,
+      "text": "Tiffany Jewelers up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 46,
+      "start": 210.02,
+      "end": 212.02,
+      "text": "Brands like Louis Vuitton and Givenchy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 47,
+      "start": 212.02,
+      "end": 216.02,
+      "text": "Brands like Gucci, Leaf Saint Laurent and Porsche.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 48,
+      "start": 216.02,
+      "end": 220.02,
+      "text": "And America's top executives are paying themselves very well too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 49,
+      "start": 220.02,
+      "end": 222.02,
+      "text": "It is down, but still pretty good.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 50,
+      "start": 222.02,
+      "end": 226.02,
+      "text": "$4.9 million each in the latest figures.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 51,
+      "start": 226.02,
+      "end": 229.02,
+      "text": "And the Washington Post investigation found the following.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 52,
+      "start": 229.02,
+      "end": 236.02,
+      "text": "Since the 1970s, median pay for executives at the nation's largest companies has more than quadrupled,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103999,
+      "no_speech_prob": 0.017624
+    },
+    {
+      "index": 53,
+      "start": 236.02,
+      "end": 239.02,
+      "text": "even after adjusting for inflation according to researchers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 54,
+      "start": 239.02,
+      "end": 246.02,
+      "text": "Over the same period, pay for a typical non-supervisory worker has dropped more than 10%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 55,
+      "start": 246.02,
+      "end": 249.02,
+      "text": "But don't the super rich pay taxes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 56,
+      "start": 249.02,
+      "end": 250.02,
+      "text": "They do.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 57,
+      "start": 250.02,
+      "end": 253.02,
+      "text": "Just not quite so much as the rest of us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 58,
+      "start": 253.02,
+      "end": 260.02,
+      "text": "If you earn between $100,000 and $200,000, you will be paying up to 25% effective tax rate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 59,
+      "start": 260.02,
+      "end": 263.02,
+      "text": "And that's before payroll taxes kick in.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052509,
+      "no_speech_prob": 0.034088
+    },
+    {
+      "index": 60,
+      "start": 263.02,
+      "end": 271.02,
+      "text": "The 400 richest tax returns surveyed by the IRS paid just 18.1% in 2008.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053076,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 61,
+      "start": 271.02,
+      "end": 273.02,
+      "text": "And it's got better for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053076,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 62,
+      "start": 273.02,
+      "end": 279.02,
+      "text": "In 2001, as George W. Bush became president, that rate was 23%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053076,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 63,
+      "start": 279.02,
+      "end": 282.02,
+      "text": "So is it 99% versus 1%?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053076,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 64,
+      "start": 282.02,
+      "end": 287.02,
+      "text": "The richest 1% of the US population own a third of US net worth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053076,
+      "no_speech_prob": 0.017975
+    },
+    {
+      "index": 65,
+      "start": 287.02,
+      "end": 293.02,
+      "text": "But an even smaller group, the 0.01% of the population are at a record high.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.031392,
+      "no_speech_prob": 0.70166
+    },
+    {
+      "index": 66,
+      "start": 293.02,
+      "end": 300.02,
+      "text": "In fact, is it really 99.99% versus 0.01%?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.031392,
+      "no_speech_prob": 0.70166
+    },
+    {
+      "index": 67,
+      "start": 300.02,
+      "end": 302.02,
+      "text": "So where do you fit?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.031392,
+      "no_speech_prob": 0.70166
+    },
+    {
+      "index": 68,
+      "start": 302.02,
+      "end": 308.02,
+      "text": "Are you one of the 99.99% or one of the 0.01%?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.031392,
+      "no_speech_prob": 0.70166
+    }
+  ],
+  "created_at": "2026-11-05T02:10:31+0800"
+}

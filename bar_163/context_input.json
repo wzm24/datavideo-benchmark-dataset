@@ -1,0 +1,3427 @@
+{
+  "clip_id": "bar_163",
+  "family": "bar",
+  "video_id": "bIAF7kBbGKk",
+  "source_url": "https://www.youtube.com/watch?v=bIAF7kBbGKk",
+  "source_title": "Estimating Deaths in a Nuclear War",
+  "target_window_source": {
+    "start": 125.0,
+    "end": 130.0
+  },
+  "target_mask_interval": {
+    "start": 123.5,
+    "end": 131.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    15,
+    16
+  ],
+  "masked_cue_ids": [
+    15,
+    16,
+    17
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 22.83,
+      "end": 28.83,
+      "text": "Every second, on average, 4.6 people are born into the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 1,
+      "start": 28.83,
+      "end": 31.83,
+      "text": "That's 140 million births a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 2,
+      "start": 31.83,
+      "end": 54.52,
+      "text": "There are currently over 7 billion people alive today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 3,
+      "start": 54.52,
+      "end": 65.88,
+      "text": "Humans are dying at less than half the rate we're being born.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 4,
+      "start": 65.88,
+      "end": 69.88,
+      "text": "About 2 die every second, which is 60 million deaths a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 5,
+      "start": 69.88,
+      "end": 77.05,
+      "text": "And the difference between the birth rate and the death rate",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 6,
+      "start": 77.05,
+      "end": 80.05,
+      "text": "tells us how fast the world's population is growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 7,
+      "start": 80.05,
+      "end": 86.97,
+      "text": "We're gaining about 2.5 people per second, or 83 million a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 8,
+      "start": 86.97,
+      "end": 92.46,
+      "text": "And as for those who are no longer living,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 9,
+      "start": 92.46,
+      "end": 96.46,
+      "text": "the Population Reference Bureau came up with 108 billion",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 10,
+      "start": 96.46,
+      "end": 100.46,
+      "text": "for the total number of humans who have ever lived and died on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 11,
+      "start": 100.46,
+      "end": 104.46,
+      "text": "They used 50,000 years ago as the start date for Homo sapiens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 12,
+      "start": 111.12,
+      "end": 115.12,
+      "text": "Now let's arrange the sand into groups of 1 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 13,
+      "start": 115.12,
+      "end": 119.12,
+      "text": "7 billion is 7,000 millions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 14,
+      "start": 119.12,
+      "end": 122.12,
+      "text": "And then arrange the living by their age.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    }
+  ],
+  "context_after": [
+    {
+      "index": 18,
+      "start": 133.69,
+      "end": 139.98,
+      "text": "We'll arrange the dead based on how long ago they died.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 139.98,
+      "end": 144.98,
+      "text": "The spike in deaths during World War II is visible even at this scale.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 20,
+      "start": 144.98,
+      "end": 146.98,
+      "text": "Because it all happened in just 6 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 21,
+      "start": 146.98,
+      "end": 151.98,
+      "text": "no other war we know of could leave such a dramatic scar on our living record.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 22,
+      "start": 153.3,
+      "end": 156.3,
+      "text": "No war so far.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 23,
+      "start": 156.3,
+      "end": 160.3,
+      "text": "A nuclear war, especially one that erupted late in the Cold War,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 24,
+      "start": 160.3,
+      "end": 163.3,
+      "text": "could have been much worse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 25,
+      "start": 163.3,
+      "end": 168.3,
+      "text": "You can pause to explore the stories behind these so-called close calls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 26,
+      "start": 168.3,
+      "end": 171.3,
+      "text": "Some were closer than others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 27,
+      "start": 171.3,
+      "end": 175.3,
+      "text": "But it's hard to know how close we came or how many people would have died.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 28,
+      "start": 175.3,
+      "end": 180.73,
+      "text": "One way to study World War III casualties",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 29,
+      "start": 180.73,
+      "end": 185.73,
+      "text": "is the first look at what atomic weapons did to people in Japan in 1945.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 30,
+      "start": 185.73,
+      "end": 188.73,
+      "text": "And then scale up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 31,
+      "start": 188.73,
+      "end": 195.8,
+      "text": "About a third of the population of both cities were killed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 32,
+      "start": 195.8,
+      "end": 201.18,
+      "text": "90% of deaths occurred within the first three weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 33,
+      "start": 201.18,
+      "end": 204.18,
+      "text": "While long-term effects of radiation, such as cancer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 34,
+      "start": 204.18,
+      "end": 206.18,
+      "text": "killed thousands across decades,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 35,
+      "start": 206.18,
+      "end": 209.18,
+      "text": "it accounted for a small portion of the victims.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 36,
+      "start": 209.18,
+      "end": 212.18,
+      "text": "And on the other end, only a minority of those who died",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 37,
+      "start": 212.18,
+      "end": 215.18,
+      "text": "were killed instantly from the blast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 38,
+      "start": 215.18,
+      "end": 219.18,
+      "text": "Most deaths occurred between the first few hours and the first few weeks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 39,
+      "start": 219.18,
+      "end": 225.18,
+      "text": "due to burns, blast injuries, collapsed structures, and radiation sickness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 40,
+      "start": 225.18,
+      "end": 229.18,
+      "text": "A broad term that describes a whole array of terrible symptoms",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 41,
+      "start": 229.18,
+      "end": 231.18,
+      "text": "and a slow killer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 42,
+      "start": 231.18,
+      "end": 239.3,
+      "text": "Even those with high exposure didn't die for five to six days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 43,
+      "start": 239.3,
+      "end": 247.12,
+      "text": "The bombs dropped on Hiroshima and Nagasaki were small by today's standards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 44,
+      "start": 247.12,
+      "end": 252.12,
+      "text": "The hydrogen bombs developed years later have ten times the radius of destruction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 45,
+      "start": 252.12,
+      "end": 265.19,
+      "text": "But it's not the size of the bombs that makes calculating World War III deaths so daunting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 46,
+      "start": 265.19,
+      "end": 267.19,
+      "text": "It's the number of warheads in play.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 47,
+      "start": 267.19,
+      "end": 334.38,
+      "text": "The death count for the first three weeks of a nuclear war",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 48,
+      "start": 334.38,
+      "end": 337.38,
+      "text": "would depend on how many warheads launched",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 49,
+      "start": 337.38,
+      "end": 341.98,
+      "text": "and how many successfully hit their targets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 50,
+      "start": 341.98,
+      "end": 343.98,
+      "text": "If we went with a round number on the high end,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 51,
+      "start": 343.98,
+      "end": 350.09,
+      "text": "let's look at what half a billion deaths would look like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 52,
+      "start": 350.09,
+      "end": 356.17,
+      "text": "Almost ten World War IIs in three weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 53,
+      "start": 356.17,
+      "end": 359.17,
+      "text": "Then something would have occurred that didn't happen in Japan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 54,
+      "start": 359.17,
+      "end": 362.17,
+      "text": "Because the bombs would have been so much larger",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 55,
+      "start": 362.17,
+      "end": 365.17,
+      "text": "and because many would have targeted underground missile silos,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 56,
+      "start": 365.17,
+      "end": 369.17,
+      "text": "scientists believed the explosions would have propelled enough dust and ash",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 57,
+      "start": 369.17,
+      "end": 373.17,
+      "text": "into the atmosphere to block out much of the Earth's sunlight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 58,
+      "start": 373.17,
+      "end": 377.17,
+      "text": "The radioactive fallout would have been deadly for a week or two,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 59,
+      "start": 377.17,
+      "end": 379.17,
+      "text": "but the darkness and freezing temperatures",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 60,
+      "start": 379.17,
+      "end": 384.17,
+      "text": "could have decimated agriculture and food supplies for many years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 61,
+      "start": 384.17,
+      "end": 388.17,
+      "text": "We won't even see the guess at what a nuclear winter or nuclear famine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 62,
+      "start": 388.17,
+      "end": 390.17,
+      "text": "would have done to the world's population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 63,
+      "start": 390.17,
+      "end": 395.17,
+      "text": "With so much uncertainty, most scientists won't even throw out a number.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 64,
+      "start": 395.17,
+      "end": 401.41,
+      "text": "So we'll have to end our count there at just three weeks into the nightmare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 65,
+      "start": 401.41,
+      "end": 407.41,
+      "text": "Contrary to a popular notion, even a full-scale nuclear war is unlikely to wipe out the human race.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 66,
+      "start": 407.41,
+      "end": 411.78,
+      "text": "As the number of warheads increased during the arms race,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 67,
+      "start": 411.78,
+      "end": 418.7,
+      "text": "so did the death count in a worst-case scenario.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 68,
+      "start": 418.7,
+      "end": 423.7,
+      "text": "Since the Soviet Union collapsed, the number of bombs has been coming down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 69,
+      "start": 423.7,
+      "end": 428.7,
+      "text": "While there isn't a direct relationship between the number of warheads and the number of deaths,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 70,
+      "start": 428.7,
+      "end": 435.7,
+      "text": "nuclear disarmament has reduced the potential human cost of a nuclear war in a very real way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 71,
+      "start": 435.7,
+      "end": 439.7,
+      "text": "But there are still enough bombs today to kill hundreds of millions of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 72,
+      "start": 439.7,
+      "end": 443.7,
+      "text": "and more than enough to create the conditions of a nuclear winter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 73,
+      "start": 443.7,
+      "end": 448.7,
+      "text": "Today, there are nine countries who have nuclear weapons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 74,
+      "start": 448.7,
+      "end": 452.7,
+      "text": "This number has not increased for decades.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 75,
+      "start": 452.7,
+      "end": 456.7,
+      "text": "South Africa is once on the list, but they shut their program down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 76,
+      "start": 456.7,
+      "end": 465.92,
+      "text": "The vast majority of countries in the world have decided not to go nuclear.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 77,
+      "start": 465.92,
+      "end": 475.53,
+      "text": "A possible partial explanation for this is that the United States and other countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 78,
+      "start": 475.53,
+      "end": 478.53,
+      "text": "have worked to keep this number down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 79,
+      "start": 478.53,
+      "end": 486.0,
+      "text": "Countries like North Korea and Iran get a lot of news coverage,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 80,
+      "start": 486.0,
+      "end": 490.0,
+      "text": "but the U.S. has also worked to disincentivize allies from getting the bomb,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 81,
+      "start": 490.0,
+      "end": 495.0,
+      "text": "using such tools as the Nuclear Non-Proliferation Treaty and Nuclear Alliances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 82,
+      "start": 495.0,
+      "end": 500.0,
+      "text": "Under the rules of NATO, for example, the nuclear members provide deterrence for everyone else,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 83,
+      "start": 500.0,
+      "end": 504.0,
+      "text": "which means, in theory, each country doesn't need its own bomb.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 84,
+      "start": 504.0,
+      "end": 507.0,
+      "text": "The United States provides similar protection to allies outside of NATO,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 85,
+      "start": 507.0,
+      "end": 511.31,
+      "text": "including Japan, South Korea, and Australia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 86,
+      "start": 511.31,
+      "end": 514.31,
+      "text": "In addition to disarmament and non-proliferation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 87,
+      "start": 514.31,
+      "end": 518.31,
+      "text": "there are other steps that may further reduce the risk of a nuclear war,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 88,
+      "start": 518.31,
+      "end": 521.31,
+      "text": "such as a no-first strike policy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 89,
+      "start": 521.31,
+      "end": 524.31,
+      "text": "Many of these ideas are controversial, and some may be unwise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 90,
+      "start": 524.31,
+      "end": 529.31,
+      "text": "You can pause to learn more about their pros and cons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 91,
+      "start": 529.31,
+      "end": 531.31,
+      "text": "Even without taking most of these steps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 92,
+      "start": 531.31,
+      "end": 535.31,
+      "text": "many foreign policy experts will say that the risk of a full-scale war is less today",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 93,
+      "start": 535.31,
+      "end": 538.31,
+      "text": "than it was at the height of the Cold War,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 94,
+      "start": 538.31,
+      "end": 541.31,
+      "text": "though it is certainly not at zero.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 95,
+      "start": 541.31,
+      "end": 543.31,
+      "text": "Some believe the risk has grown.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 96,
+      "start": 543.31,
+      "end": 546.31,
+      "text": "It certainly could grow if people become less scared of nuclear war",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 97,
+      "start": 546.31,
+      "end": 549.31,
+      "text": "and less steadfast in efforts to prevent it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 98,
+      "start": 549.31,
+      "end": 553.31,
+      "text": "Experts will also point out that improving relationships between countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 99,
+      "start": 553.31,
+      "end": 558.31,
+      "text": "is just as important, if not more so, than policies specific to nuclear weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 100,
+      "start": 558.31,
+      "end": 572.97,
+      "text": "which is important to consider when assessing something as complicated as NATO.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 101,
+      "start": 572.97,
+      "end": 575.97,
+      "text": "There's no simple answer for achieving peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 102,
+      "start": 575.97,
+      "end": 578.97,
+      "text": "But there is a simple hope.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 103,
+      "start": 578.97,
+      "end": 581.97,
+      "text": "If we're clever enough to design such sophisticated weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 104,
+      "start": 581.97,
+      "end": 587.28,
+      "text": "we might also be clever enough to ensure we never use them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 105,
+      "start": 587.28,
+      "end": 590.28,
+      "text": "Now our weapons are undeniably powerful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 106,
+      "start": 590.28,
+      "end": 595.69,
+      "text": "They dazzle us and remind us of our human potential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 107,
+      "start": 595.69,
+      "end": 598.69,
+      "text": "Instruments for preventing war are usually mundane.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 108,
+      "start": 598.69,
+      "end": 602.69,
+      "text": "And if powerful, they tend to go unnoticed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 109,
+      "start": 602.69,
+      "end": 605.69,
+      "text": "If taking one of these steps prevented a catastrophe,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 110,
+      "start": 605.69,
+      "end": 607.69,
+      "text": "we probably never know it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 111,
+      "start": 607.69,
+      "end": 614.89,
+      "text": "And that's what makes it so hard to prove what works in preventing war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 112,
+      "start": 614.89,
+      "end": 620.39,
+      "text": "But sometimes, when there's enough data available,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 113,
+      "start": 620.39,
+      "end": 623.39,
+      "text": "you can see patterns emerge from the numbers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 114,
+      "start": 623.39,
+      "end": 627.39,
+      "text": "As an example, let's take a rare category of peacemaking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 115,
+      "start": 627.39,
+      "end": 630.39,
+      "text": "that's actually tangible and exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 116,
+      "start": 631.39,
+      "end": 633.39,
+      "text": "Peacekeepers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 117,
+      "start": 633.39,
+      "end": 635.39,
+      "text": "Men and women who go into conflict areas",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 118,
+      "start": 635.39,
+      "end": 639.39,
+      "text": "help prevent war from occurring or reoccurring.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 119,
+      "start": 639.39,
+      "end": 645.39,
+      "text": "During the Cold War, the aim of peacekeepers was primarily to prevent a nuclear war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 120,
+      "start": 645.39,
+      "end": 650.39,
+      "text": "And after 1989, a new era in peacekeeping emerged.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 121,
+      "start": 650.39,
+      "end": 652.39,
+      "text": "Missions became more focused on civil wars",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 122,
+      "start": 652.39,
+      "end": 655.39,
+      "text": "and more directly involved in the peace process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 123,
+      "start": 655.39,
+      "end": 662.16,
+      "text": "But does it work?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 124,
+      "start": 662.16,
+      "end": 665.16,
+      "text": "Page Fortna, a researcher at Columbia University,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 125,
+      "start": 665.16,
+      "end": 668.16,
+      "text": "analyzed 94 cases after 1989,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 126,
+      "start": 668.16,
+      "end": 673.82,
+      "text": "where there's a civil war followed by a spell of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 127,
+      "start": 673.82,
+      "end": 676.82,
+      "text": "Sometimes the fighting ended when one side defeated the other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 128,
+      "start": 676.82,
+      "end": 682.61,
+      "text": "Other ceasefires were more tenuous.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 129,
+      "start": 682.61,
+      "end": 685.61,
+      "text": "And the peace that followed ranged from brief pauses in the fighting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 130,
+      "start": 685.61,
+      "end": 688.61,
+      "text": "to decades of peace still holding today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 131,
+      "start": 688.61,
+      "end": 692.5,
+      "text": "In 36 of these cases,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 132,
+      "start": 692.5,
+      "end": 695.5,
+      "text": "peacekeepers were present during the peaceful period.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 133,
+      "start": 695.5,
+      "end": 697.5,
+      "text": "And they were not always successful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 134,
+      "start": 697.5,
+      "end": 700.5,
+      "text": "Sometimes war returned despite their efforts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 135,
+      "start": 700.5,
+      "end": 702.5,
+      "text": "Opponents point to these failures",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 136,
+      "start": 702.5,
+      "end": 705.5,
+      "text": "as evidence that peacekeeping does not work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 137,
+      "start": 705.5,
+      "end": 708.5,
+      "text": "And at a glance, it's not obvious that it does.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 138,
+      "start": 708.5,
+      "end": 713.26,
+      "text": "Fortna ran statistical analysis to find out",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 139,
+      "start": 713.26,
+      "end": 716.26,
+      "text": "what factors predicted longer spans of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 140,
+      "start": 716.26,
+      "end": 720.26,
+      "text": "First note that our findings on factors outside of peacekeeping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 141,
+      "start": 720.26,
+      "end": 722.26,
+      "text": "were pretty consistent with other studies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 142,
+      "start": 722.26,
+      "end": 728.83,
+      "text": "You can pause to learn more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 143,
+      "start": 728.83,
+      "end": 731.83,
+      "text": "Fortna found that peacekeeping had a significant effect",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 144,
+      "start": 731.83,
+      "end": 734.83,
+      "text": "on the staying power of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 145,
+      "start": 734.83,
+      "end": 737.83,
+      "text": "War was about a quarter as likely to reoccur",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 146,
+      "start": 737.83,
+      "end": 741.43,
+      "text": "when peacekeepers were present.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 147,
+      "start": 741.43,
+      "end": 743.43,
+      "text": "Even with the small sample size,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 148,
+      "start": 743.43,
+      "end": 746.43,
+      "text": "she could claim with confidence that post-Cold War peacekeeping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 149,
+      "start": 746.43,
+      "end": 752.09,
+      "text": "correlated with longer peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 150,
+      "start": 752.09,
+      "end": 754.09,
+      "text": "Despite such findings,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 151,
+      "start": 754.09,
+      "end": 756.09,
+      "text": "many policy makers remain unconvinced,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 152,
+      "start": 756.09,
+      "end": 759.09,
+      "text": "and the general public in the U.S. anyway",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 153,
+      "start": 759.09,
+      "end": 762.09,
+      "text": "shows little enthusiasm for supporting peacekeeping missions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 154,
+      "start": 762.09,
+      "end": 765.09,
+      "text": "While few would ever question the scientific methods",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 155,
+      "start": 765.09,
+      "end": 767.09,
+      "text": "used to develop our weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 156,
+      "start": 767.09,
+      "end": 769.09,
+      "text": "many are skeptical about statistics",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 157,
+      "start": 769.09,
+      "end": 773.09,
+      "text": "and the science of less tangible things like peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 158,
+      "start": 773.09,
+      "end": 776.09,
+      "text": "And such doubts help fuel the argument",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 159,
+      "start": 776.09,
+      "end": 779.09,
+      "text": "that the only real instruments of peace are instruments of war,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 160,
+      "start": 779.09,
+      "end": 782.09,
+      "text": "that peace can only be achieved by fortifying borders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 161,
+      "start": 782.09,
+      "end": 787.09,
+      "text": "strengthening armies, and winning arms races.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 162,
+      "start": 787.09,
+      "end": 789.09,
+      "text": "That nuclear weapons are the reason",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 163,
+      "start": 789.09,
+      "end": 793.5,
+      "text": "there has not been a major war since World War II.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 164,
+      "start": 793.5,
+      "end": 796.5,
+      "text": "There's truth to many such theories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 165,
+      "start": 796.5,
+      "end": 798.5,
+      "text": "But I should tell you up front",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 166,
+      "start": 798.5,
+      "end": 801.5,
+      "text": "that this filmmaker believes in instruments of peace,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 167,
+      "start": 801.5,
+      "end": 803.5,
+      "text": "that they are real,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 168,
+      "start": 803.5,
+      "end": 805.5,
+      "text": "that they are powerful,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 169,
+      "start": 805.5,
+      "end": 807.5,
+      "text": "and that you can see them working",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 170,
+      "start": 807.5,
+      "end": 810.5,
+      "text": "if you're willing to look at the numbers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 171,
+      "start": 810.5,
+      "end": 812.5,
+      "text": "And in this series,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 172,
+      "start": 812.5,
+      "end": 814.5,
+      "text": "we'll aim to bring peacemaking efforts into light",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 173,
+      "start": 814.5,
+      "end": 817.84,
+      "text": "with all the drama they deserve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 174,
+      "start": 817.84,
+      "end": 819.84,
+      "text": "To learn about future episodes",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 175,
+      "start": 819.84,
+      "end": 821.84,
+      "text": "and how you can support this audience-funded series,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 176,
+      "start": 821.84,
+      "end": 823.84,
+      "text": "please visit my Patreon page linked here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 177,
+      "start": 823.84,
+      "end": 826.84,
+      "text": "And be sure to follow and share this series on social media.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059146,
+      "no_speech_prob": 0.012596
+    },
+    {
+      "index": 178,
+      "start": 826.84,
+      "end": 828.84,
+      "text": "Thank you very much.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059146,
+      "no_speech_prob": 0.012596
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 22.83,
+      "end": 28.83,
+      "text": "Every second, on average, 4.6 people are born into the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 1,
+      "start": 28.83,
+      "end": 31.83,
+      "text": "That's 140 million births a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 2,
+      "start": 31.83,
+      "end": 54.52,
+      "text": "There are currently over 7 billion people alive today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 3,
+      "start": 54.52,
+      "end": 65.88,
+      "text": "Humans are dying at less than half the rate we're being born.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 4,
+      "start": 65.88,
+      "end": 69.88,
+      "text": "About 2 die every second, which is 60 million deaths a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 5,
+      "start": 69.88,
+      "end": 77.05,
+      "text": "And the difference between the birth rate and the death rate",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 6,
+      "start": 77.05,
+      "end": 80.05,
+      "text": "tells us how fast the world's population is growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094988,
+      "no_speech_prob": 0.037842
+    },
+    {
+      "index": 7,
+      "start": 80.05,
+      "end": 86.97,
+      "text": "We're gaining about 2.5 people per second, or 83 million a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 8,
+      "start": 86.97,
+      "end": 92.46,
+      "text": "And as for those who are no longer living,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 9,
+      "start": 92.46,
+      "end": 96.46,
+      "text": "the Population Reference Bureau came up with 108 billion",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 10,
+      "start": 96.46,
+      "end": 100.46,
+      "text": "for the total number of humans who have ever lived and died on Earth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 11,
+      "start": 100.46,
+      "end": 104.46,
+      "text": "They used 50,000 years ago as the start date for Homo sapiens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 12,
+      "start": 111.12,
+      "end": 115.12,
+      "text": "Now let's arrange the sand into groups of 1 million people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 13,
+      "start": 115.12,
+      "end": 119.12,
+      "text": "7 billion is 7,000 millions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073635,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 14,
+      "start": 119.12,
+      "end": 122.12,
+      "text": "And then arrange the living by their age.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 18,
+      "start": 133.69,
+      "end": 139.98,
+      "text": "We'll arrange the dead based on how long ago they died.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 19,
+      "start": 139.98,
+      "end": 144.98,
+      "text": "The spike in deaths during World War II is visible even at this scale.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 20,
+      "start": 144.98,
+      "end": 146.98,
+      "text": "Because it all happened in just 6 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 21,
+      "start": 146.98,
+      "end": 151.98,
+      "text": "no other war we know of could leave such a dramatic scar on our living record.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041834,
+      "no_speech_prob": 0.001099
+    },
+    {
+      "index": 22,
+      "start": 153.3,
+      "end": 156.3,
+      "text": "No war so far.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 23,
+      "start": 156.3,
+      "end": 160.3,
+      "text": "A nuclear war, especially one that erupted late in the Cold War,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 24,
+      "start": 160.3,
+      "end": 163.3,
+      "text": "could have been much worse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 25,
+      "start": 163.3,
+      "end": 168.3,
+      "text": "You can pause to explore the stories behind these so-called close calls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 26,
+      "start": 168.3,
+      "end": 171.3,
+      "text": "Some were closer than others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 27,
+      "start": 171.3,
+      "end": 175.3,
+      "text": "But it's hard to know how close we came or how many people would have died.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 28,
+      "start": 175.3,
+      "end": 180.73,
+      "text": "One way to study World War III casualties",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062237,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 29,
+      "start": 180.73,
+      "end": 185.73,
+      "text": "is the first look at what atomic weapons did to people in Japan in 1945.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 30,
+      "start": 185.73,
+      "end": 188.73,
+      "text": "And then scale up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 31,
+      "start": 188.73,
+      "end": 195.8,
+      "text": "About a third of the population of both cities were killed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 32,
+      "start": 195.8,
+      "end": 201.18,
+      "text": "90% of deaths occurred within the first three weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 33,
+      "start": 201.18,
+      "end": 204.18,
+      "text": "While long-term effects of radiation, such as cancer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 34,
+      "start": 204.18,
+      "end": 206.18,
+      "text": "killed thousands across decades,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 35,
+      "start": 206.18,
+      "end": 209.18,
+      "text": "it accounted for a small portion of the victims.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 36,
+      "start": 209.18,
+      "end": 212.18,
+      "text": "And on the other end, only a minority of those who died",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062653,
+      "no_speech_prob": 0.019653
+    },
+    {
+      "index": 37,
+      "start": 212.18,
+      "end": 215.18,
+      "text": "were killed instantly from the blast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 38,
+      "start": 215.18,
+      "end": 219.18,
+      "text": "Most deaths occurred between the first few hours and the first few weeks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 39,
+      "start": 219.18,
+      "end": 225.18,
+      "text": "due to burns, blast injuries, collapsed structures, and radiation sickness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 40,
+      "start": 225.18,
+      "end": 229.18,
+      "text": "A broad term that describes a whole array of terrible symptoms",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 41,
+      "start": 229.18,
+      "end": 231.18,
+      "text": "and a slow killer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 42,
+      "start": 231.18,
+      "end": 239.3,
+      "text": "Even those with high exposure didn't die for five to six days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 43,
+      "start": 239.3,
+      "end": 247.12,
+      "text": "The bombs dropped on Hiroshima and Nagasaki were small by today's standards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059692,
+      "no_speech_prob": 0.007061
+    },
+    {
+      "index": 44,
+      "start": 247.12,
+      "end": 252.12,
+      "text": "The hydrogen bombs developed years later have ten times the radius of destruction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 45,
+      "start": 252.12,
+      "end": 265.19,
+      "text": "But it's not the size of the bombs that makes calculating World War III deaths so daunting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 46,
+      "start": 265.19,
+      "end": 267.19,
+      "text": "It's the number of warheads in play.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 47,
+      "start": 267.19,
+      "end": 334.38,
+      "text": "The death count for the first three weeks of a nuclear war",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 48,
+      "start": 334.38,
+      "end": 337.38,
+      "text": "would depend on how many warheads launched",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 49,
+      "start": 337.38,
+      "end": 341.98,
+      "text": "and how many successfully hit their targets.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 50,
+      "start": 341.98,
+      "end": 343.98,
+      "text": "If we went with a round number on the high end,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 51,
+      "start": 343.98,
+      "end": 350.09,
+      "text": "let's look at what half a billion deaths would look like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053385,
+      "no_speech_prob": 0.000404
+    },
+    {
+      "index": 52,
+      "start": 350.09,
+      "end": 356.17,
+      "text": "Almost ten World War IIs in three weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 53,
+      "start": 356.17,
+      "end": 359.17,
+      "text": "Then something would have occurred that didn't happen in Japan.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 54,
+      "start": 359.17,
+      "end": 362.17,
+      "text": "Because the bombs would have been so much larger",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 55,
+      "start": 362.17,
+      "end": 365.17,
+      "text": "and because many would have targeted underground missile silos,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 56,
+      "start": 365.17,
+      "end": 369.17,
+      "text": "scientists believed the explosions would have propelled enough dust and ash",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 57,
+      "start": 369.17,
+      "end": 373.17,
+      "text": "into the atmosphere to block out much of the Earth's sunlight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 58,
+      "start": 373.17,
+      "end": 377.17,
+      "text": "The radioactive fallout would have been deadly for a week or two,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 59,
+      "start": 377.17,
+      "end": 379.17,
+      "text": "but the darkness and freezing temperatures",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066895,
+      "no_speech_prob": 0.004063
+    },
+    {
+      "index": 60,
+      "start": 379.17,
+      "end": 384.17,
+      "text": "could have decimated agriculture and food supplies for many years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 61,
+      "start": 384.17,
+      "end": 388.17,
+      "text": "We won't even see the guess at what a nuclear winter or nuclear famine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 62,
+      "start": 388.17,
+      "end": 390.17,
+      "text": "would have done to the world's population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 63,
+      "start": 390.17,
+      "end": 395.17,
+      "text": "With so much uncertainty, most scientists won't even throw out a number.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 64,
+      "start": 395.17,
+      "end": 401.41,
+      "text": "So we'll have to end our count there at just three weeks into the nightmare.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 65,
+      "start": 401.41,
+      "end": 407.41,
+      "text": "Contrary to a popular notion, even a full-scale nuclear war is unlikely to wipe out the human race.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 66,
+      "start": 407.41,
+      "end": 411.78,
+      "text": "As the number of warheads increased during the arms race,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063411,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 67,
+      "start": 411.78,
+      "end": 418.7,
+      "text": "so did the death count in a worst-case scenario.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 68,
+      "start": 418.7,
+      "end": 423.7,
+      "text": "Since the Soviet Union collapsed, the number of bombs has been coming down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 69,
+      "start": 423.7,
+      "end": 428.7,
+      "text": "While there isn't a direct relationship between the number of warheads and the number of deaths,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 70,
+      "start": 428.7,
+      "end": 435.7,
+      "text": "nuclear disarmament has reduced the potential human cost of a nuclear war in a very real way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 71,
+      "start": 435.7,
+      "end": 439.7,
+      "text": "But there are still enough bombs today to kill hundreds of millions of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 72,
+      "start": 439.7,
+      "end": 443.7,
+      "text": "and more than enough to create the conditions of a nuclear winter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038077,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 73,
+      "start": 443.7,
+      "end": 448.7,
+      "text": "Today, there are nine countries who have nuclear weapons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 74,
+      "start": 448.7,
+      "end": 452.7,
+      "text": "This number has not increased for decades.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 75,
+      "start": 452.7,
+      "end": 456.7,
+      "text": "South Africa is once on the list, but they shut their program down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 76,
+      "start": 456.7,
+      "end": 465.92,
+      "text": "The vast majority of countries in the world have decided not to go nuclear.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 77,
+      "start": 465.92,
+      "end": 475.53,
+      "text": "A possible partial explanation for this is that the United States and other countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 78,
+      "start": 475.53,
+      "end": 478.53,
+      "text": "have worked to keep this number down.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047243,
+      "no_speech_prob": 0.00205
+    },
+    {
+      "index": 79,
+      "start": 478.53,
+      "end": 486.0,
+      "text": "Countries like North Korea and Iran get a lot of news coverage,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 80,
+      "start": 486.0,
+      "end": 490.0,
+      "text": "but the U.S. has also worked to disincentivize allies from getting the bomb,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 81,
+      "start": 490.0,
+      "end": 495.0,
+      "text": "using such tools as the Nuclear Non-Proliferation Treaty and Nuclear Alliances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 82,
+      "start": 495.0,
+      "end": 500.0,
+      "text": "Under the rules of NATO, for example, the nuclear members provide deterrence for everyone else,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 83,
+      "start": 500.0,
+      "end": 504.0,
+      "text": "which means, in theory, each country doesn't need its own bomb.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08235,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 84,
+      "start": 504.0,
+      "end": 507.0,
+      "text": "The United States provides similar protection to allies outside of NATO,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 85,
+      "start": 507.0,
+      "end": 511.31,
+      "text": "including Japan, South Korea, and Australia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 86,
+      "start": 511.31,
+      "end": 514.31,
+      "text": "In addition to disarmament and non-proliferation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 87,
+      "start": 514.31,
+      "end": 518.31,
+      "text": "there are other steps that may further reduce the risk of a nuclear war,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 88,
+      "start": 518.31,
+      "end": 521.31,
+      "text": "such as a no-first strike policy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 89,
+      "start": 521.31,
+      "end": 524.31,
+      "text": "Many of these ideas are controversial, and some may be unwise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 90,
+      "start": 524.31,
+      "end": 529.31,
+      "text": "You can pause to learn more about their pros and cons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 91,
+      "start": 529.31,
+      "end": 531.31,
+      "text": "Even without taking most of these steps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09929,
+      "no_speech_prob": 0.196411
+    },
+    {
+      "index": 92,
+      "start": 531.31,
+      "end": 535.31,
+      "text": "many foreign policy experts will say that the risk of a full-scale war is less today",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 93,
+      "start": 535.31,
+      "end": 538.31,
+      "text": "than it was at the height of the Cold War,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 94,
+      "start": 538.31,
+      "end": 541.31,
+      "text": "though it is certainly not at zero.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 95,
+      "start": 541.31,
+      "end": 543.31,
+      "text": "Some believe the risk has grown.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 96,
+      "start": 543.31,
+      "end": 546.31,
+      "text": "It certainly could grow if people become less scared of nuclear war",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 97,
+      "start": 546.31,
+      "end": 549.31,
+      "text": "and less steadfast in efforts to prevent it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 98,
+      "start": 549.31,
+      "end": 553.31,
+      "text": "Experts will also point out that improving relationships between countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 99,
+      "start": 553.31,
+      "end": 558.31,
+      "text": "is just as important, if not more so, than policies specific to nuclear weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05542,
+      "no_speech_prob": 0.06366
+    },
+    {
+      "index": 100,
+      "start": 558.31,
+      "end": 572.97,
+      "text": "which is important to consider when assessing something as complicated as NATO.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 101,
+      "start": 572.97,
+      "end": 575.97,
+      "text": "There's no simple answer for achieving peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 102,
+      "start": 575.97,
+      "end": 578.97,
+      "text": "But there is a simple hope.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 103,
+      "start": 578.97,
+      "end": 581.97,
+      "text": "If we're clever enough to design such sophisticated weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 104,
+      "start": 581.97,
+      "end": 587.28,
+      "text": "we might also be clever enough to ensure we never use them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 105,
+      "start": 587.28,
+      "end": 590.28,
+      "text": "Now our weapons are undeniably powerful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 106,
+      "start": 590.28,
+      "end": 595.69,
+      "text": "They dazzle us and remind us of our human potential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 107,
+      "start": 595.69,
+      "end": 598.69,
+      "text": "Instruments for preventing war are usually mundane.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049505,
+      "no_speech_prob": 0.014046
+    },
+    {
+      "index": 108,
+      "start": 598.69,
+      "end": 602.69,
+      "text": "And if powerful, they tend to go unnoticed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 109,
+      "start": 602.69,
+      "end": 605.69,
+      "text": "If taking one of these steps prevented a catastrophe,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 110,
+      "start": 605.69,
+      "end": 607.69,
+      "text": "we probably never know it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 111,
+      "start": 607.69,
+      "end": 614.89,
+      "text": "And that's what makes it so hard to prove what works in preventing war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 112,
+      "start": 614.89,
+      "end": 620.39,
+      "text": "But sometimes, when there's enough data available,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 113,
+      "start": 620.39,
+      "end": 623.39,
+      "text": "you can see patterns emerge from the numbers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 114,
+      "start": 623.39,
+      "end": 627.39,
+      "text": "As an example, let's take a rare category of peacemaking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 115,
+      "start": 627.39,
+      "end": 630.39,
+      "text": "that's actually tangible and exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052122,
+      "no_speech_prob": 0.000699
+    },
+    {
+      "index": 116,
+      "start": 631.39,
+      "end": 633.39,
+      "text": "Peacekeepers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 117,
+      "start": 633.39,
+      "end": 635.39,
+      "text": "Men and women who go into conflict areas",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 118,
+      "start": 635.39,
+      "end": 639.39,
+      "text": "help prevent war from occurring or reoccurring.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 119,
+      "start": 639.39,
+      "end": 645.39,
+      "text": "During the Cold War, the aim of peacekeepers was primarily to prevent a nuclear war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 120,
+      "start": 645.39,
+      "end": 650.39,
+      "text": "And after 1989, a new era in peacekeeping emerged.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 121,
+      "start": 650.39,
+      "end": 652.39,
+      "text": "Missions became more focused on civil wars",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 122,
+      "start": 652.39,
+      "end": 655.39,
+      "text": "and more directly involved in the peace process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 123,
+      "start": 655.39,
+      "end": 662.16,
+      "text": "But does it work?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073539,
+      "no_speech_prob": 0.004005
+    },
+    {
+      "index": 124,
+      "start": 662.16,
+      "end": 665.16,
+      "text": "Page Fortna, a researcher at Columbia University,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 125,
+      "start": 665.16,
+      "end": 668.16,
+      "text": "analyzed 94 cases after 1989,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 126,
+      "start": 668.16,
+      "end": 673.82,
+      "text": "where there's a civil war followed by a spell of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 127,
+      "start": 673.82,
+      "end": 676.82,
+      "text": "Sometimes the fighting ended when one side defeated the other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 128,
+      "start": 676.82,
+      "end": 682.61,
+      "text": "Other ceasefires were more tenuous.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 129,
+      "start": 682.61,
+      "end": 685.61,
+      "text": "And the peace that followed ranged from brief pauses in the fighting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 130,
+      "start": 685.61,
+      "end": 688.61,
+      "text": "to decades of peace still holding today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 131,
+      "start": 688.61,
+      "end": 692.5,
+      "text": "In 36 of these cases,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 132,
+      "start": 692.5,
+      "end": 695.5,
+      "text": "peacekeepers were present during the peaceful period.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 133,
+      "start": 695.5,
+      "end": 697.5,
+      "text": "And they were not always successful.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075429,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 134,
+      "start": 697.5,
+      "end": 700.5,
+      "text": "Sometimes war returned despite their efforts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 135,
+      "start": 700.5,
+      "end": 702.5,
+      "text": "Opponents point to these failures",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 136,
+      "start": 702.5,
+      "end": 705.5,
+      "text": "as evidence that peacekeeping does not work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 137,
+      "start": 705.5,
+      "end": 708.5,
+      "text": "And at a glance, it's not obvious that it does.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 138,
+      "start": 708.5,
+      "end": 713.26,
+      "text": "Fortna ran statistical analysis to find out",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 139,
+      "start": 713.26,
+      "end": 716.26,
+      "text": "what factors predicted longer spans of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 140,
+      "start": 716.26,
+      "end": 720.26,
+      "text": "First note that our findings on factors outside of peacekeeping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 141,
+      "start": 720.26,
+      "end": 722.26,
+      "text": "were pretty consistent with other studies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 142,
+      "start": 722.26,
+      "end": 728.83,
+      "text": "You can pause to learn more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 143,
+      "start": 728.83,
+      "end": 731.83,
+      "text": "Fortna found that peacekeeping had a significant effect",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.000883
+    },
+    {
+      "index": 144,
+      "start": 731.83,
+      "end": 734.83,
+      "text": "on the staying power of peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 145,
+      "start": 734.83,
+      "end": 737.83,
+      "text": "War was about a quarter as likely to reoccur",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 146,
+      "start": 737.83,
+      "end": 741.43,
+      "text": "when peacekeepers were present.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 147,
+      "start": 741.43,
+      "end": 743.43,
+      "text": "Even with the small sample size,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 148,
+      "start": 743.43,
+      "end": 746.43,
+      "text": "she could claim with confidence that post-Cold War peacekeeping",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 149,
+      "start": 746.43,
+      "end": 752.09,
+      "text": "correlated with longer peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 150,
+      "start": 752.09,
+      "end": 754.09,
+      "text": "Despite such findings,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 151,
+      "start": 754.09,
+      "end": 756.09,
+      "text": "many policy makers remain unconvinced,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 152,
+      "start": 756.09,
+      "end": 759.09,
+      "text": "and the general public in the U.S. anyway",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 153,
+      "start": 759.09,
+      "end": 762.09,
+      "text": "shows little enthusiasm for supporting peacekeeping missions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 154,
+      "start": 762.09,
+      "end": 765.09,
+      "text": "While few would ever question the scientific methods",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073562,
+      "no_speech_prob": 0.008705
+    },
+    {
+      "index": 155,
+      "start": 765.09,
+      "end": 767.09,
+      "text": "used to develop our weapons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 156,
+      "start": 767.09,
+      "end": 769.09,
+      "text": "many are skeptical about statistics",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 157,
+      "start": 769.09,
+      "end": 773.09,
+      "text": "and the science of less tangible things like peace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 158,
+      "start": 773.09,
+      "end": 776.09,
+      "text": "And such doubts help fuel the argument",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 159,
+      "start": 776.09,
+      "end": 779.09,
+      "text": "that the only real instruments of peace are instruments of war,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 160,
+      "start": 779.09,
+      "end": 782.09,
+      "text": "that peace can only be achieved by fortifying borders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 161,
+      "start": 782.09,
+      "end": 787.09,
+      "text": "strengthening armies, and winning arms races.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 162,
+      "start": 787.09,
+      "end": 789.09,
+      "text": "That nuclear weapons are the reason",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 163,
+      "start": 789.09,
+      "end": 793.5,
+      "text": "there has not been a major war since World War II.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06693,
+      "no_speech_prob": 0.005905
+    },
+    {
+      "index": 164,
+      "start": 793.5,
+      "end": 796.5,
+      "text": "There's truth to many such theories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 165,
+      "start": 796.5,
+      "end": 798.5,
+      "text": "But I should tell you up front",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 166,
+      "start": 798.5,
+      "end": 801.5,
+      "text": "that this filmmaker believes in instruments of peace,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 167,
+      "start": 801.5,
+      "end": 803.5,
+      "text": "that they are real,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 168,
+      "start": 803.5,
+      "end": 805.5,
+      "text": "that they are powerful,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 169,
+      "start": 805.5,
+      "end": 807.5,
+      "text": "and that you can see them working",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 170,
+      "start": 807.5,
+      "end": 810.5,
+      "text": "if you're willing to look at the numbers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 171,
+      "start": 810.5,
+      "end": 812.5,
+      "text": "And in this series,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 172,
+      "start": 812.5,
+      "end": 814.5,
+      "text": "we'll aim to bring peacemaking efforts into light",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 173,
+      "start": 814.5,
+      "end": 817.84,
+      "text": "with all the drama they deserve.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 174,
+      "start": 817.84,
+      "end": 819.84,
+      "text": "To learn about future episodes",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 175,
+      "start": 819.84,
+      "end": 821.84,
+      "text": "and how you can support this audience-funded series,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 176,
+      "start": 821.84,
+      "end": 823.84,
+      "text": "please visit my Patreon page linked here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0594,
+      "no_speech_prob": 0.055725
+    },
+    {
+      "index": 177,
+      "start": 823.84,
+      "end": 826.84,
+      "text": "And be sure to follow and share this series on social media.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059146,
+      "no_speech_prob": 0.012596
+    },
+    {
+      "index": 178,
+      "start": 826.84,
+      "end": 828.84,
+      "text": "Thank you very much.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059146,
+      "no_speech_prob": 0.012596
+    }
+  ],
+  "context_text_chronological": "Every second, on average, 4.6 people are born into the world. That's 140 million births a year. There are currently over 7 billion people alive today. Humans are dying at less than half the rate we're being born. About 2 die every second, which is 60 million deaths a year. And the difference between the birth rate and the death rate tells us how fast the world's population is growing. We're gaining about 2.5 people per second, or 83 million a year. And as for those who are no longer living, the Population Reference Bureau came up with 108 billion for the total number of humans who have ever lived and died on Earth. They used 50,000 years ago as the start date for Homo sapiens. Now let's arrange the sand into groups of 1 million people. 7 billion is 7,000 millions. And then arrange the living by their age. We'll arrange the dead based on how long ago they died. The spike in deaths during World War II is visible even at this scale. Because it all happened in just 6 years, no other war we know of could leave such a dramatic scar on our living record. No war so far. A nuclear war, especially one that erupted late in the Cold War, could have been much worse. You can pause to explore the stories behind these so-called close calls. Some were closer than others. But it's hard to know how close we came or how many people would have died. One way to study World War III casualties is the first look at what atomic weapons did to people in Japan in 1945. And then scale up. About a third of the population of both cities were killed. 90% of deaths occurred within the first three weeks. While long-term effects of radiation, such as cancer, killed thousands across decades, it accounted for a small portion of the victims. And on the other end, only a minority of those who died were killed instantly from the blast. Most deaths occurred between the first few hours and the first few weeks due to burns, blast injuries, collapsed structures, and radiation sickness. A broad term that describes a whole array of terrible symptoms and a slow killer. Even those with high exposure didn't die for five to six days. The bombs dropped on Hiroshima and Nagasaki were small by today's standards. The hydrogen bombs developed years later have ten times the radius of destruction. But it's not the size of the bombs that makes calculating World War III deaths so daunting. It's the number of warheads in play. The death count for the first three weeks of a nuclear war would depend on how many warheads launched and how many successfully hit their targets. If we went with a round number on the high end, let's look at what half a billion deaths would look like. Almost ten World War IIs in three weeks. Then something would have occurred that didn't happen in Japan. Because the bombs would have been so much larger and because many would have targeted underground missile silos, scientists believed the explosions would have propelled enough dust and ash into the atmosphere to block out much of the Earth's sunlight. The radioactive fallout would have been deadly for a week or two, but the darkness and freezing temperatures could have decimated agriculture and food supplies for many years. We won't even see the guess at what a nuclear winter or nuclear famine would have done to the world's population. With so much uncertainty, most scientists won't even throw out a number. So we'll have to end our count there at just three weeks into the nightmare. Contrary to a popular notion, even a full-scale nuclear war is unlikely to wipe out the human race. As the number of warheads increased during the arms race, so did the death count in a worst-case scenario. Since the Soviet Union collapsed, the number of bombs has been coming down. While there isn't a direct relationship between the number of warheads and the number of deaths, nuclear disarmament has reduced the potential human cost of a nuclear war in a very real way. But there are still enough bombs today to kill hundreds of millions of people and more than enough to create the conditions of a nuclear winter. Today, there are nine countries who have nuclear weapons. This number has not increased for decades. South Africa is once on the list, but they shut their program down. The vast majority of countries in the world have decided not to go nuclear. A possible partial explanation for this is that the United States and other countries have worked to keep this number down. Countries like North Korea and Iran get a lot of news coverage, but the U.S. has also worked to disincentivize allies from getting the bomb, using such tools as the Nuclear Non-Proliferation Treaty and Nuclear Alliances. Under the rules of NATO, for example, the nuclear members provide deterrence for everyone else, which means, in theory, each country doesn't need its own bomb. The United States provides similar protection to allies outside of NATO, including Japan, South Korea, and Australia. In addition to disarmament and non-proliferation, there are other steps that may further reduce the risk of a nuclear war, such as a no-first strike policy. Many of these ideas are controversial, and some may be unwise. You can pause to learn more about their pros and cons. Even without taking most of these steps, many foreign policy experts will say that the risk of a full-scale war is less today than it was at the height of the Cold War, though it is certainly not at zero. Some believe the risk has grown. It certainly could grow if people become less scared of nuclear war and less steadfast in efforts to prevent it. Experts will also point out that improving relationships between countries is just as important, if not more so, than policies specific to nuclear weapons, which is important to consider when assessing something as complicated as NATO. There's no simple answer for achieving peace. But there is a simple hope. If we're clever enough to design such sophisticated weapons, we might also be clever enough to ensure we never use them. Now our weapons are undeniably powerful. They dazzle us and remind us of our human potential. Instruments for preventing war are usually mundane. And if powerful, they tend to go unnoticed. If taking one of these steps prevented a catastrophe, we probably never know it. And that's what makes it so hard to prove what works in preventing war. But sometimes, when there's enough data available, you can see patterns emerge from the numbers. As an example, let's take a rare category of peacemaking that's actually tangible and exciting. Peacekeepers. Men and women who go into conflict areas help prevent war from occurring or reoccurring. During the Cold War, the aim of peacekeepers was primarily to prevent a nuclear war. And after 1989, a new era in peacekeeping emerged. Missions became more focused on civil wars and more directly involved in the peace process. But does it work? Page Fortna, a researcher at Columbia University, analyzed 94 cases after 1989, where there's a civil war followed by a spell of peace. Sometimes the fighting ended when one side defeated the other. Other ceasefires were more tenuous. And the peace that followed ranged from brief pauses in the fighting to decades of peace still holding today. In 36 of these cases, peacekeepers were present during the peaceful period. And they were not always successful. Sometimes war returned despite their efforts. Opponents point to these failures as evidence that peacekeeping does not work. And at a glance, it's not obvious that it does. Fortna ran statistical analysis to find out what factors predicted longer spans of peace. First note that our findings on factors outside of peacekeeping were pretty consistent with other studies. You can pause to learn more. Fortna found that peacekeeping had a significant effect on the staying power of peace. War was about a quarter as likely to reoccur when peacekeepers were present. Even with the small sample size, she could claim with confidence that post-Cold War peacekeeping correlated with longer peace. Despite such findings, many policy makers remain unconvinced, and the general public in the U.S. anyway shows little enthusiasm for supporting peacekeeping missions. While few would ever question the scientific methods used to develop our weapons, many are skeptical about statistics and the science of less tangible things like peace. And such doubts help fuel the argument that the only real instruments of peace are instruments of war, that peace can only be achieved by fortifying borders, strengthening armies, and winning arms races. That nuclear weapons are the reason there has not been a major war since World War II. There's truth to many such theories. But I should tell you up front that this filmmaker believes in instruments of peace, that they are real, that they are powerful, and that you can see them working if you're willing to look at the numbers. And in this series, we'll aim to bring peacemaking efforts into light with all the drama they deserve. To learn about future episodes and how you can support this audience-funded series, please visit my Patreon page linked here. And be sure to follow and share this series on social media. Thank you very much.",
+  "target_text_for_audit": "Doing so creates what's called a population pyramid, though it's usually shown the other way around and separated by gender.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Doing so creates what's called a population pyramid,",
+        "start_source": 123.99,
+        "end_source": 126.79,
+        "matching_cue_ids": [
+          15,
+          16
+        ],
+        "text_similarity": 0.5896,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "though it's usually shown the other way around and separated by gender.",
+        "start_source": 127.27,
+        "end_source": 129.97,
+        "matching_cue_ids": [
+          16
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\bIAF7kBbGKk.mp4",
+    "cue_count": 179
+  },
+  "token_estimate_char_div_4": 2304
+}

@@ -1,14 +1,14 @@
 {
  "clip_id": "area_18",
  "family": "area",
- "sub_type": "bubble",
+ "sub_type": "proportional_circle_size",
  "orientation": "cartesian",
- "series_count": 5,
+ "series_count": 1,
  "has_reference_line": false,
- "panel_count": 0,
+ "panel_count": 1,
  "has_axis": false,
  "has_legend": null,
- "has_value_labels": null,
+ "has_value_labels": false,
  "text_count": 5,
  "row_count": 5,
  "derived_from": [
@@ -16,6 +16,11 @@
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "diameter",
+ "entity_count": 5,
+ "notes": "Circle radius encodes celestial-body diameter. Values are relative diameters normalized to Jupiter; no unlabeled km values are asserted in the public table.",
+ "batch_status": "approved"
 }

@@ -1,7 +1,7 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_24,GANYMED,ganymede,165,5300,1.0000,km_diameter,printed
-area_24,TITAN,titan,448.6,5200,0.9811,km_diameter,printed
-area_24,KALLISTO,callisto,720.5,4800,0.9057,km_diameter,printed
-area_24,IO,io,954.6,3600,0.6792,km_diameter,printed
-area_24,MOON,moon,1158.1,3500,0.6604,km_diameter,printed
-area_24,PLUTO,pluto,1158,2300,0.4340,km_diameter,printed
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,,Diameter (km),GANYMED,,,1,5300,km,"5,300 KM",proportional_circle
+,,Diameter (km),TITAN,,,1,5200,km,"5,200 KM",proportional_circle
+,,Diameter (km),KALLISTO,,,1,4800,km,"4,800 KM",proportional_circle
+,,Diameter (km),IO,,,1,3600,km,"3,600 KM",proportional_circle
+,,Diameter (km),MOON,,,1,3500,km,"3,500 KM",proportional_circle
+,,Diameter (km),PLUTO,,,1,2300,km,"2,300 KM",proportional_circle

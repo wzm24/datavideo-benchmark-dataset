@@ -1,0 +1,2304 @@
+{
+  "clip_id": "bar_61",
+  "family": "bar",
+  "video_id": "WSKi8HfcxEk",
+  "source_url": "https://www.youtube.com/watch?v=WSKi8HfcxEk",
+  "source_title": "The Rise of the Machines – Why Automation is Different this Time",
+  "target_window_source": {
+    "start": 483.0,
+    "end": 488.0
+  },
+  "target_mask_interval": {
+    "start": 481.5,
+    "end": 489.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    92
+  ],
+  "masked_cue_ids": [
+    91,
+    92,
+    93
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.42,
+      "end": 5.86,
+      "text": "How long do you think it will take before machines do your job better than you do?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 1,
+      "start": 7.06,
+      "end": 11.3,
+      "text": "Automation used to mean big stupid machines doing repetitive work in factories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 2,
+      "start": 11.78,
+      "end": 15.62,
+      "text": "Today they can land aircraft, diagnose cancer and trade stocks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 3,
+      "start": 16.18,
+      "end": 20.62,
+      "text": "We are entering a new age of automation unlike anything that's come before.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 4,
+      "start": 21.3,
+      "end": 27.74,
+      "text": "According to a 2013 study almost half of all jobs in the US could potentially be automated in the next two decades.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 5,
+      "start": 28.22,
+      "end": 31.22,
+      "text": "But wait, hasn't automation been around for decades?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 6,
+      "start": 31.86,
+      "end": 33.22,
+      "text": "What's different this time?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 7,
+      "start": 46.86,
+      "end": 48.34,
+      "text": "Things used to be simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 8,
+      "start": 48.9,
+      "end": 52.34,
+      "text": "Innovation made human work easier and productivity rose,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 9,
+      "start": 52.54,
+      "end": 57.94,
+      "text": "which means that more staff or services could be produced per hour using the same amount of human workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 10,
+      "start": 58.78,
+      "end": 62.82,
+      "text": "This eliminated many jobs but also created other jobs that were better,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 11,
+      "start": 63.06,
+      "end": 66.26,
+      "text": "which was important because the growing population needed work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 12,
+      "start": 66.82,
+      "end": 70.42,
+      "text": "So in a nutshell, innovation, higher productivity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 13,
+      "start": 70.74,
+      "end": 74.42,
+      "text": "fewer old jobs and many new and often better jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 14,
+      "start": 75.18,
+      "end": 79.9,
+      "text": "Overall, this worked well for a majority of people and living standards improved.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 15,
+      "start": 81.06,
+      "end": 84.38,
+      "text": "There's a clear progression in terms of what humans did for a living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 16,
+      "start": 84.78,
+      "end": 86.98,
+      "text": "For the longest time, we worked in agriculture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 17,
+      "start": 87.54,
+      "end": 90.78,
+      "text": "With the Industrial Revolution, this shifted to production jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 18,
+      "start": 91.3,
+      "end": 96.06,
+      "text": "And as automation became more widespread, humans shifted into service jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 19,
+      "start": 97.06,
+      "end": 101.18,
+      "text": "And then, only a few moments ago in human history, the information age happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 20,
+      "start": 101.82,
+      "end": 103.62,
+      "text": "Suddenly, the rules were different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 21,
+      "start": 104.22,
+      "end": 108.62,
+      "text": "Our jobs are now being taken over by machines much faster than they were in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 22,
+      "start": 109.3,
+      "end": 113.3,
+      "text": "That's worrying, of course, but innovation will clearly save us, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 23,
+      "start": 114.26,
+      "end": 119.82,
+      "text": "While new information age industries are booming, they are creating fewer and fewer new jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 24,
+      "start": 120.78,
+      "end": 125.02,
+      "text": "In 1979, General Motors employed more than 800,000 workers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 25,
+      "start": 125.14,
+      "end": 127.38,
+      "text": "and made about 11 billion US dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 26,
+      "start": 128.22,
+      "end": 134.1,
+      "text": "In 2012, Google made about 14 billion US dollars while employing 58,000 people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 27,
+      "start": 135.34,
+      "end": 140.1,
+      "text": "You may not like this comparison, but Google is an example of what created new jobs in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 28,
+      "start": 140.7,
+      "end": 142.18,
+      "text": "Innovative new industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 29,
+      "start": 143.06,
+      "end": 145.66,
+      "text": "Old innovative industries are running out of steam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 30,
+      "start": 145.98,
+      "end": 146.98,
+      "text": "Just look at cars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 31,
+      "start": 147.74,
+      "end": 151.82,
+      "text": "When they became a thing 100 years ago, they created huge industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 32,
+      "start": 152.5,
+      "end": 156.58,
+      "text": "Cars transformed our way of life, our infrastructure and our cities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 33,
+      "start": 157.26,
+      "end": 160.82,
+      "text": "Millions of people found jobs either directly or indirectly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 34,
+      "start": 161.54,
+      "end": 164.06,
+      "text": "Decades of investment kept this momentum going.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 35,
+      "start": 164.78,
+      "end": 166.98,
+      "text": "Today, this process is largely complete.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 36,
+      "start": 167.3,
+      "end": 171.3,
+      "text": "Innovation in the car industry does not create as many jobs as it used to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 37,
+      "start": 172.18,
+      "end": 176.5,
+      "text": "While electric cars are great and all, they won't create millions of new jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 38,
+      "start": 177.7,
+      "end": 179.34,
+      "text": "But wait, what about the internet?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 39,
+      "start": 180.06,
+      "end": 185.9,
+      "text": "Some technologists argue that the internet is an innovation on a par with the introduction of electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 40,
+      "start": 186.7,
+      "end": 190.94,
+      "text": "If we go with this comparison, we see how our modern innovation differs from the old one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 41,
+      "start": 191.54,
+      "end": 196.98,
+      "text": "The internet created new industries, but they're not creating enough jobs to keep up with population growth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 42,
+      "start": 197.14,
+      "end": 200.1,
+      "text": "or to compensate for the industries the internet is killing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 43,
+      "start": 200.46,
+      "end": 207.46,
+      "text": "At its peak in 2004, Blockbuster had 84,000 employees and made US$6 billion in revenue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 44,
+      "start": 208.14,
+      "end": 214.1,
+      "text": "In 2016, Netflix had 4,500 employees and made US$9 billion in revenue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 45,
+      "start": 214.94,
+      "end": 216.1,
+      "text": "Or take us, for example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 46,
+      "start": 216.54,
+      "end": 221.3,
+      "text": "With a full-time team of just 12 people, Kotzgesagt reaches millions of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 47,
+      "start": 221.66,
+      "end": 225.3,
+      "text": "A TV station with the same amount of viewers needs way more employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 48,
+      "start": 226.3,
+      "end": 230.62,
+      "text": "Innovation in the information age doesn't equate to the creation of enough new jobs,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 49,
+      "start": 230.82,
+      "end": 238.58,
+      "text": "which would be bad enough on its own, but now a new wave of automation and a new generation of machines is slowly taking over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 50,
+      "start": 243.62,
+      "end": 247.18,
+      "text": "To understand this, we need to understand ourselves first.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 51,
+      "start": 247.86,
+      "end": 250.22,
+      "text": "Human progress is based on the division of labour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 52,
+      "start": 250.7,
+      "end": 255.22,
+      "text": "As we advanced over thousands of years, our jobs became more and more specialised.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 53,
+      "start": 256.22,
+      "end": 260.06,
+      "text": "While even our smartest machines are bad at doing complicated jobs,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 54,
+      "start": 260.26,
+      "end": 264.82,
+      "text": "they are extremely good at doing narrowly defined and predictable tasks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 55,
+      "start": 265.42,
+      "end": 267.5,
+      "text": "This is what destroyed factory jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 56,
+      "start": 268.26,
+      "end": 276.42,
+      "text": "But look at a complex job long and hard enough and you'll find that it's really just many narrowly defined and predictable tasks one after another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 57,
+      "start": 277.42,
+      "end": 282.58,
+      "text": "Machines are on the brink of becoming so good at breaking down complex jobs into many predictable ones",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 58,
+      "start": 282.78,
+      "end": 286.22,
+      "text": "that for a lot of people, there will be no further room to specialise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 59,
+      "start": 286.9,
+      "end": 289.66,
+      "text": "We are on the verge of being out-competed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 60,
+      "start": 291.18,
+      "end": 297.42,
+      "text": "Digital machines do this via machine learning, which enables them to acquire information and skills by analysing data.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 61,
+      "start": 298.34,
+      "end": 301.78,
+      "text": "This makes them become better at something through the relationships they discover.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 62,
+      "start": 302.06,
+      "end": 303.66,
+      "text": "Machines teach themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 63,
+      "start": 304.5,
+      "end": 309.46,
+      "text": "We make this possible by giving a computer a lot of data about the thing we wanted to become better at.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 64,
+      "start": 310.18,
+      "end": 317.22,
+      "text": "Show a machine all the things you bought online and it will slowly learn what to recommend to you, so you buy more things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 65,
+      "start": 318.14,
+      "end": 325.02,
+      "text": "Machine learning is now meeting more of its potential because in recent years, humans have started to gather data about everything.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 66,
+      "start": 326.7,
+      "end": 335.7,
+      "text": "Behaviour, weather patterns, medical records, communication systems, travel data and of course, data about what we do at work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 67,
+      "start": 336.7,
+      "end": 344.3,
+      "text": "What we've created by accident is a huge library machines can use to learn how humans do things and learn to do them better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 68,
+      "start": 345.1,
+      "end": 348.1,
+      "text": "These digital machines might be the biggest job killer of all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 69,
+      "start": 348.5,
+      "end": 351.1,
+      "text": "They can be replicated instantly and for free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 70,
+      "start": 352.1,
+      "end": 357.3,
+      "text": "When they improve, you don't need to invest in big metal things, you can just use the new code.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 71,
+      "start": 358.1,
+      "end": 360.5,
+      "text": "And they have the ability to get better fast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 72,
+      "start": 361.3,
+      "end": 362.1,
+      "text": "How fast?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 73,
+      "start": 363.1,
+      "end": 370.5,
+      "text": "If your work involves complex work on a computer today, you might be out of work even sooner than the people who still have jobs in factories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 74,
+      "start": 371.3,
+      "end": 375.9,
+      "text": "There are actual real-world examples of how this transition might be happening.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 75,
+      "start": 376.9,
+      "end": 383.7,
+      "text": "A San Francisco company offers a project management software for big corporations which is supposed to eliminate middle management positions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 76,
+      "start": 384.7,
+      "end": 392.7,
+      "text": "When it's hired for a new project, the software first decides which jobs can be automated and precisely where it needs actual professional humans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 77,
+      "start": 393.7,
+      "end": 396.7,
+      "text": "It then helps assemble a team of freelancers over the internet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 78,
+      "start": 397.7,
+      "end": 405.7,
+      "text": "The software then distributes tasks to the humans and controls the quality of the work, tracking individual performance until the project is complete.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 79,
+      "start": 406.7,
+      "end": 408.3,
+      "text": "Okay, this doesn't sound too bad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 80,
+      "start": 408.7,
+      "end": 412.7,
+      "text": "While this machine is killing one job, it creates jobs for freelancers, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 81,
+      "start": 413.7,
+      "end": 422.7,
+      "text": "Well, as the freelancers complete their tasks, learning algorithms track them and gather data about their work and which tasks it consists of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 82,
+      "start": 423.7,
+      "end": 427.7,
+      "text": "So what's actually happening is that the freelancers are teaching a machine how to replace them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 83,
+      "start": 428.7,
+      "end": 435.7,
+      "text": "On average, this software reduces costs by about 50% in the first year and by another 25% in the second year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 84,
+      "start": 436.7,
+      "end": 438.7,
+      "text": "This is only one example of many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 85,
+      "start": 438.7,
+      "end": 452.7,
+      "text": "There are machines and programs getting as good or better than humans in all kinds of fields, from pharmacists to analysts, journalists to radiologists, cashiers, bank tellers or the unskilled worker flipping burgers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 86,
+      "start": 453.7,
+      "end": 458.7,
+      "text": "All of these jobs won't disappear overnight, but fewer and fewer humans will be doing them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 87,
+      "start": 459.7,
+      "end": 461.7,
+      "text": "We'll discuss a few cases in a follow-up video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 88,
+      "start": 462.7,
+      "end": 465.7,
+      "text": "But while jobs disappearing is bad, it's only half of the story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 89,
+      "start": 466.7,
+      "end": 474.66,
+      "text": "It's not enough to substitute old jobs with new ones.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.047394
+    },
+    {
+      "index": 90,
+      "start": 475.66,
+      "end": 479.66,
+      "text": "We need to be generating new jobs constantly because the world population is growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.047394
+    }
+  ],
+  "context_after": [
+    {
+      "index": 94,
+      "start": 496.66,
+      "end": 504.66,
+      "text": "In a country that needs to create up to 150,000 new jobs per month, just to keep up with population growth, this is bad news.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 95,
+      "start": 505.66,
+      "end": 508.66,
+      "text": "This is also starting to affect standards of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 96,
+      "start": 509.66,
+      "end": 515.66,
+      "text": "In the past, it was seen as obvious that with rising productivity, more and better jobs would be created.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 97,
+      "start": 516.66,
+      "end": 517.66,
+      "text": "But the numbers tell a different story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 98,
+      "start": 518.66,
+      "end": 523.66,
+      "text": "In 1998, US workers worked a total of 194 billion hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 99,
+      "start": 524.66,
+      "end": 529.66,
+      "text": "Over the course of the next 15 years, their output increased by 42%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 100,
+      "start": 530.66,
+      "end": 536.66,
+      "text": "But in 2013, the amount of hours worked by US workers was still 194 billion hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 101,
+      "start": 537.66,
+      "end": 546.66,
+      "text": "What this means is that despite productivity growing drastically, thousands of new businesses opening up and the US population growing by over 40 million,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 102,
+      "start": 547.66,
+      "end": 550.66,
+      "text": "there was no growth at all in the number of hours worked in 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 103,
+      "start": 550.66,
+      "end": 562.66,
+      "text": "At the same time, wages for new university graduates in the US have been declining for the past decade, while up to 40% of new graduates are forced to take on jobs that don't require a degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 104,
+      "start": 563.66,
+      "end": 571.94,
+      "text": "Productivity is separating from human labor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 105,
+      "start": 572.94,
+      "end": 576.94,
+      "text": "The nature of innovation and the information age is different from everything we encountered before.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 106,
+      "start": 577.94,
+      "end": 581.94,
+      "text": "This process started years ago and is already well underway.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 107,
+      "start": 581.94,
+      "end": 590.94,
+      "text": "Even without new disruptions, like self-driving cars or robot accountants, it looks like automation is different this time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 108,
+      "start": 591.94,
+      "end": 594.94,
+      "text": "This time, the machines might really take our jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 109,
+      "start": 595.94,
+      "end": 597.94,
+      "text": "Our economies are based on the premise that people consume.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 110,
+      "start": 598.94,
+      "end": 602.94,
+      "text": "But if fewer and fewer people have decent work, who will be doing all the consuming?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 111,
+      "start": 603.94,
+      "end": 610.94,
+      "text": "Are we producing ever more cheaply only to arrive at a point where too few people can actually buy all our stuff and services?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 112,
+      "start": 611.94,
+      "end": 617.94,
+      "text": "Or will the future see a tiny minority of the super-rich who own the machines dominating the rest of us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 113,
+      "start": 618.94,
+      "end": 620.94,
+      "text": "And does our future really have to be that grim?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 114,
+      "start": 621.94,
+      "end": 626.94,
+      "text": "While we were fairly dark in this video, it's far from certain that things will turn out negatively.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 115,
+      "start": 627.94,
+      "end": 634.94,
+      "text": "The information age and modern automation could be a huge opportunity to change human society and reduce poverty and inequality drastically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 116,
+      "start": 635.94,
+      "end": 637.94,
+      "text": "It could be a seminal moment in human history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 117,
+      "start": 637.94,
+      "end": 644.94,
+      "text": "We'll talk about this potential and possible solutions like a universal basic income in part two of this video series.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    },
+    {
+      "index": 118,
+      "start": 645.94,
+      "end": 647.94,
+      "text": "We need to think big and fast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    },
+    {
+      "index": 119,
+      "start": 648.94,
+      "end": 653.94,
+      "text": "Because one thing's for sure, the machines are not coming. They are already here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.42,
+      "end": 5.86,
+      "text": "How long do you think it will take before machines do your job better than you do?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 1,
+      "start": 7.06,
+      "end": 11.3,
+      "text": "Automation used to mean big stupid machines doing repetitive work in factories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 2,
+      "start": 11.78,
+      "end": 15.62,
+      "text": "Today they can land aircraft, diagnose cancer and trade stocks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 3,
+      "start": 16.18,
+      "end": 20.62,
+      "text": "We are entering a new age of automation unlike anything that's come before.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 4,
+      "start": 21.3,
+      "end": 27.74,
+      "text": "According to a 2013 study almost half of all jobs in the US could potentially be automated in the next two decades.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 5,
+      "start": 28.22,
+      "end": 31.22,
+      "text": "But wait, hasn't automation been around for decades?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19546,
+      "no_speech_prob": 0.003944
+    },
+    {
+      "index": 6,
+      "start": 31.86,
+      "end": 33.22,
+      "text": "What's different this time?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 7,
+      "start": 46.86,
+      "end": 48.34,
+      "text": "Things used to be simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 8,
+      "start": 48.9,
+      "end": 52.34,
+      "text": "Innovation made human work easier and productivity rose,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 9,
+      "start": 52.54,
+      "end": 57.94,
+      "text": "which means that more staff or services could be produced per hour using the same amount of human workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 10,
+      "start": 58.78,
+      "end": 62.82,
+      "text": "This eliminated many jobs but also created other jobs that were better,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 11,
+      "start": 63.06,
+      "end": 66.26,
+      "text": "which was important because the growing population needed work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 12,
+      "start": 66.82,
+      "end": 70.42,
+      "text": "So in a nutshell, innovation, higher productivity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235417,
+      "no_speech_prob": 0.000656
+    },
+    {
+      "index": 13,
+      "start": 70.74,
+      "end": 74.42,
+      "text": "fewer old jobs and many new and often better jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 14,
+      "start": 75.18,
+      "end": 79.9,
+      "text": "Overall, this worked well for a majority of people and living standards improved.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 15,
+      "start": 81.06,
+      "end": 84.38,
+      "text": "There's a clear progression in terms of what humans did for a living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 16,
+      "start": 84.78,
+      "end": 86.98,
+      "text": "For the longest time, we worked in agriculture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 17,
+      "start": 87.54,
+      "end": 90.78,
+      "text": "With the Industrial Revolution, this shifted to production jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 18,
+      "start": 91.3,
+      "end": 96.06,
+      "text": "And as automation became more widespread, humans shifted into service jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.171524,
+      "no_speech_prob": 0.003536
+    },
+    {
+      "index": 19,
+      "start": 97.06,
+      "end": 101.18,
+      "text": "And then, only a few moments ago in human history, the information age happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 20,
+      "start": 101.82,
+      "end": 103.62,
+      "text": "Suddenly, the rules were different.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 21,
+      "start": 104.22,
+      "end": 108.62,
+      "text": "Our jobs are now being taken over by machines much faster than they were in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 22,
+      "start": 109.3,
+      "end": 113.3,
+      "text": "That's worrying, of course, but innovation will clearly save us, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 23,
+      "start": 114.26,
+      "end": 119.82,
+      "text": "While new information age industries are booming, they are creating fewer and fewer new jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151401,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 24,
+      "start": 120.78,
+      "end": 125.02,
+      "text": "In 1979, General Motors employed more than 800,000 workers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 25,
+      "start": 125.14,
+      "end": 127.38,
+      "text": "and made about 11 billion US dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 26,
+      "start": 128.22,
+      "end": 134.1,
+      "text": "In 2012, Google made about 14 billion US dollars while employing 58,000 people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 27,
+      "start": 135.34,
+      "end": 140.1,
+      "text": "You may not like this comparison, but Google is an example of what created new jobs in the past.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 28,
+      "start": 140.7,
+      "end": 142.18,
+      "text": "Innovative new industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 29,
+      "start": 143.06,
+      "end": 145.66,
+      "text": "Old innovative industries are running out of steam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 30,
+      "start": 145.98,
+      "end": 146.98,
+      "text": "Just look at cars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19764,
+      "no_speech_prob": 0.004265
+    },
+    {
+      "index": 31,
+      "start": 147.74,
+      "end": 151.82,
+      "text": "When they became a thing 100 years ago, they created huge industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 32,
+      "start": 152.5,
+      "end": 156.58,
+      "text": "Cars transformed our way of life, our infrastructure and our cities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 33,
+      "start": 157.26,
+      "end": 160.82,
+      "text": "Millions of people found jobs either directly or indirectly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 34,
+      "start": 161.54,
+      "end": 164.06,
+      "text": "Decades of investment kept this momentum going.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 35,
+      "start": 164.78,
+      "end": 166.98,
+      "text": "Today, this process is largely complete.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 36,
+      "start": 167.3,
+      "end": 171.3,
+      "text": "Innovation in the car industry does not create as many jobs as it used to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 37,
+      "start": 172.18,
+      "end": 176.5,
+      "text": "While electric cars are great and all, they won't create millions of new jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123559,
+      "no_speech_prob": 0.000458
+    },
+    {
+      "index": 38,
+      "start": 177.7,
+      "end": 179.34,
+      "text": "But wait, what about the internet?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 39,
+      "start": 180.06,
+      "end": 185.9,
+      "text": "Some technologists argue that the internet is an innovation on a par with the introduction of electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 40,
+      "start": 186.7,
+      "end": 190.94,
+      "text": "If we go with this comparison, we see how our modern innovation differs from the old one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 41,
+      "start": 191.54,
+      "end": 196.98,
+      "text": "The internet created new industries, but they're not creating enough jobs to keep up with population growth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 42,
+      "start": 197.14,
+      "end": 200.1,
+      "text": "or to compensate for the industries the internet is killing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.154563,
+      "no_speech_prob": 0.000287
+    },
+    {
+      "index": 43,
+      "start": 200.46,
+      "end": 207.46,
+      "text": "At its peak in 2004, Blockbuster had 84,000 employees and made US$6 billion in revenue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 44,
+      "start": 208.14,
+      "end": 214.1,
+      "text": "In 2016, Netflix had 4,500 employees and made US$9 billion in revenue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 45,
+      "start": 214.94,
+      "end": 216.1,
+      "text": "Or take us, for example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 46,
+      "start": 216.54,
+      "end": 221.3,
+      "text": "With a full-time team of just 12 people, Kotzgesagt reaches millions of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 47,
+      "start": 221.66,
+      "end": 225.3,
+      "text": "A TV station with the same amount of viewers needs way more employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193716,
+      "no_speech_prob": 0.48291
+    },
+    {
+      "index": 48,
+      "start": 226.3,
+      "end": 230.62,
+      "text": "Innovation in the information age doesn't equate to the creation of enough new jobs,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 49,
+      "start": 230.82,
+      "end": 238.58,
+      "text": "which would be bad enough on its own, but now a new wave of automation and a new generation of machines is slowly taking over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 50,
+      "start": 243.62,
+      "end": 247.18,
+      "text": "To understand this, we need to understand ourselves first.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 51,
+      "start": 247.86,
+      "end": 250.22,
+      "text": "Human progress is based on the division of labour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 52,
+      "start": 250.7,
+      "end": 255.22,
+      "text": "As we advanced over thousands of years, our jobs became more and more specialised.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.151762,
+      "no_speech_prob": 0.001477
+    },
+    {
+      "index": 53,
+      "start": 256.22,
+      "end": 260.06,
+      "text": "While even our smartest machines are bad at doing complicated jobs,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 54,
+      "start": 260.26,
+      "end": 264.82,
+      "text": "they are extremely good at doing narrowly defined and predictable tasks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 55,
+      "start": 265.42,
+      "end": 267.5,
+      "text": "This is what destroyed factory jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 56,
+      "start": 268.26,
+      "end": 276.42,
+      "text": "But look at a complex job long and hard enough and you'll find that it's really just many narrowly defined and predictable tasks one after another.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 57,
+      "start": 277.42,
+      "end": 282.58,
+      "text": "Machines are on the brink of becoming so good at breaking down complex jobs into many predictable ones",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1875,
+      "no_speech_prob": 0.011154
+    },
+    {
+      "index": 58,
+      "start": 282.78,
+      "end": 286.22,
+      "text": "that for a lot of people, there will be no further room to specialise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 59,
+      "start": 286.9,
+      "end": 289.66,
+      "text": "We are on the verge of being out-competed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 60,
+      "start": 291.18,
+      "end": 297.42,
+      "text": "Digital machines do this via machine learning, which enables them to acquire information and skills by analysing data.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 61,
+      "start": 298.34,
+      "end": 301.78,
+      "text": "This makes them become better at something through the relationships they discover.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 62,
+      "start": 302.06,
+      "end": 303.66,
+      "text": "Machines teach themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 63,
+      "start": 304.5,
+      "end": 309.46,
+      "text": "We make this possible by giving a computer a lot of data about the thing we wanted to become better at.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15506,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 64,
+      "start": 310.18,
+      "end": 317.22,
+      "text": "Show a machine all the things you bought online and it will slowly learn what to recommend to you, so you buy more things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 65,
+      "start": 318.14,
+      "end": 325.02,
+      "text": "Machine learning is now meeting more of its potential because in recent years, humans have started to gather data about everything.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 66,
+      "start": 326.7,
+      "end": 335.7,
+      "text": "Behaviour, weather patterns, medical records, communication systems, travel data and of course, data about what we do at work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157645,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 67,
+      "start": 336.7,
+      "end": 344.3,
+      "text": "What we've created by accident is a huge library machines can use to learn how humans do things and learn to do them better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 68,
+      "start": 345.1,
+      "end": 348.1,
+      "text": "These digital machines might be the biggest job killer of all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 69,
+      "start": 348.5,
+      "end": 351.1,
+      "text": "They can be replicated instantly and for free.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 70,
+      "start": 352.1,
+      "end": 357.3,
+      "text": "When they improve, you don't need to invest in big metal things, you can just use the new code.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 71,
+      "start": 358.1,
+      "end": 360.5,
+      "text": "And they have the ability to get better fast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 72,
+      "start": 361.3,
+      "end": 362.1,
+      "text": "How fast?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.191366,
+      "no_speech_prob": 0.001016
+    },
+    {
+      "index": 73,
+      "start": 363.1,
+      "end": 370.5,
+      "text": "If your work involves complex work on a computer today, you might be out of work even sooner than the people who still have jobs in factories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 74,
+      "start": 371.3,
+      "end": 375.9,
+      "text": "There are actual real-world examples of how this transition might be happening.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 75,
+      "start": 376.9,
+      "end": 383.7,
+      "text": "A San Francisco company offers a project management software for big corporations which is supposed to eliminate middle management positions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090914,
+      "no_speech_prob": 0.005299
+    },
+    {
+      "index": 76,
+      "start": 384.7,
+      "end": 392.7,
+      "text": "When it's hired for a new project, the software first decides which jobs can be automated and precisely where it needs actual professional humans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 77,
+      "start": 393.7,
+      "end": 396.7,
+      "text": "It then helps assemble a team of freelancers over the internet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 78,
+      "start": 397.7,
+      "end": 405.7,
+      "text": "The software then distributes tasks to the humans and controls the quality of the work, tracking individual performance until the project is complete.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 79,
+      "start": 406.7,
+      "end": 408.3,
+      "text": "Okay, this doesn't sound too bad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 80,
+      "start": 408.7,
+      "end": 412.7,
+      "text": "While this machine is killing one job, it creates jobs for freelancers, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106696,
+      "no_speech_prob": 0.008987
+    },
+    {
+      "index": 81,
+      "start": 413.7,
+      "end": 422.7,
+      "text": "Well, as the freelancers complete their tasks, learning algorithms track them and gather data about their work and which tasks it consists of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 82,
+      "start": 423.7,
+      "end": 427.7,
+      "text": "So what's actually happening is that the freelancers are teaching a machine how to replace them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 83,
+      "start": 428.7,
+      "end": 435.7,
+      "text": "On average, this software reduces costs by about 50% in the first year and by another 25% in the second year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 84,
+      "start": 436.7,
+      "end": 438.7,
+      "text": "This is only one example of many.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061641,
+      "no_speech_prob": 0.000315
+    },
+    {
+      "index": 85,
+      "start": 438.7,
+      "end": 452.7,
+      "text": "There are machines and programs getting as good or better than humans in all kinds of fields, from pharmacists to analysts, journalists to radiologists, cashiers, bank tellers or the unskilled worker flipping burgers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 86,
+      "start": 453.7,
+      "end": 458.7,
+      "text": "All of these jobs won't disappear overnight, but fewer and fewer humans will be doing them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 87,
+      "start": 459.7,
+      "end": 461.7,
+      "text": "We'll discuss a few cases in a follow-up video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 88,
+      "start": 462.7,
+      "end": 465.7,
+      "text": "But while jobs disappearing is bad, it's only half of the story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072478,
+      "no_speech_prob": 0.024414
+    },
+    {
+      "index": 89,
+      "start": 466.7,
+      "end": 474.66,
+      "text": "It's not enough to substitute old jobs with new ones.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.047394
+    },
+    {
+      "index": 90,
+      "start": 475.66,
+      "end": 479.66,
+      "text": "We need to be generating new jobs constantly because the world population is growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.047394
+    },
+    {
+      "index": 94,
+      "start": 496.66,
+      "end": 504.66,
+      "text": "In a country that needs to create up to 150,000 new jobs per month, just to keep up with population growth, this is bad news.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 95,
+      "start": 505.66,
+      "end": 508.66,
+      "text": "This is also starting to affect standards of living.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 96,
+      "start": 509.66,
+      "end": 515.66,
+      "text": "In the past, it was seen as obvious that with rising productivity, more and better jobs would be created.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 97,
+      "start": 516.66,
+      "end": 517.66,
+      "text": "But the numbers tell a different story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 98,
+      "start": 518.66,
+      "end": 523.66,
+      "text": "In 1998, US workers worked a total of 194 billion hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049054,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 99,
+      "start": 524.66,
+      "end": 529.66,
+      "text": "Over the course of the next 15 years, their output increased by 42%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 100,
+      "start": 530.66,
+      "end": 536.66,
+      "text": "But in 2013, the amount of hours worked by US workers was still 194 billion hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 101,
+      "start": 537.66,
+      "end": 546.66,
+      "text": "What this means is that despite productivity growing drastically, thousands of new businesses opening up and the US population growing by over 40 million,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 102,
+      "start": 547.66,
+      "end": 550.66,
+      "text": "there was no growth at all in the number of hours worked in 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054182,
+      "no_speech_prob": 0.005138
+    },
+    {
+      "index": 103,
+      "start": 550.66,
+      "end": 562.66,
+      "text": "At the same time, wages for new university graduates in the US have been declining for the past decade, while up to 40% of new graduates are forced to take on jobs that don't require a degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 104,
+      "start": 563.66,
+      "end": 571.94,
+      "text": "Productivity is separating from human labor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 105,
+      "start": 572.94,
+      "end": 576.94,
+      "text": "The nature of innovation and the information age is different from everything we encountered before.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 106,
+      "start": 577.94,
+      "end": 581.94,
+      "text": "This process started years ago and is already well underway.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067798,
+      "no_speech_prob": 0.015419
+    },
+    {
+      "index": 107,
+      "start": 581.94,
+      "end": 590.94,
+      "text": "Even without new disruptions, like self-driving cars or robot accountants, it looks like automation is different this time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 108,
+      "start": 591.94,
+      "end": 594.94,
+      "text": "This time, the machines might really take our jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 109,
+      "start": 595.94,
+      "end": 597.94,
+      "text": "Our economies are based on the premise that people consume.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 110,
+      "start": 598.94,
+      "end": 602.94,
+      "text": "But if fewer and fewer people have decent work, who will be doing all the consuming?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 111,
+      "start": 603.94,
+      "end": 610.94,
+      "text": "Are we producing ever more cheaply only to arrive at a point where too few people can actually buy all our stuff and services?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056219,
+      "no_speech_prob": 0.025162
+    },
+    {
+      "index": 112,
+      "start": 611.94,
+      "end": 617.94,
+      "text": "Or will the future see a tiny minority of the super-rich who own the machines dominating the rest of us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 113,
+      "start": 618.94,
+      "end": 620.94,
+      "text": "And does our future really have to be that grim?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 114,
+      "start": 621.94,
+      "end": 626.94,
+      "text": "While we were fairly dark in this video, it's far from certain that things will turn out negatively.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 115,
+      "start": 627.94,
+      "end": 634.94,
+      "text": "The information age and modern automation could be a huge opportunity to change human society and reduce poverty and inequality drastically.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 116,
+      "start": 635.94,
+      "end": 637.94,
+      "text": "It could be a seminal moment in human history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038301,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 117,
+      "start": 637.94,
+      "end": 644.94,
+      "text": "We'll talk about this potential and possible solutions like a universal basic income in part two of this video series.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    },
+    {
+      "index": 118,
+      "start": 645.94,
+      "end": 647.94,
+      "text": "We need to think big and fast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    },
+    {
+      "index": 119,
+      "start": 648.94,
+      "end": 653.94,
+      "text": "Because one thing's for sure, the machines are not coming. They are already here.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108949,
+      "no_speech_prob": 0.499023
+    }
+  ],
+  "context_text_chronological": "How long do you think it will take before machines do your job better than you do? Automation used to mean big stupid machines doing repetitive work in factories. Today they can land aircraft, diagnose cancer and trade stocks. We are entering a new age of automation unlike anything that's come before. According to a 2013 study almost half of all jobs in the US could potentially be automated in the next two decades. But wait, hasn't automation been around for decades? What's different this time? Things used to be simple. Innovation made human work easier and productivity rose, which means that more staff or services could be produced per hour using the same amount of human workers. This eliminated many jobs but also created other jobs that were better, which was important because the growing population needed work. So in a nutshell, innovation, higher productivity, fewer old jobs and many new and often better jobs. Overall, this worked well for a majority of people and living standards improved. There's a clear progression in terms of what humans did for a living. For the longest time, we worked in agriculture. With the Industrial Revolution, this shifted to production jobs. And as automation became more widespread, humans shifted into service jobs. And then, only a few moments ago in human history, the information age happened. Suddenly, the rules were different. Our jobs are now being taken over by machines much faster than they were in the past. That's worrying, of course, but innovation will clearly save us, right? While new information age industries are booming, they are creating fewer and fewer new jobs. In 1979, General Motors employed more than 800,000 workers and made about 11 billion US dollars. In 2012, Google made about 14 billion US dollars while employing 58,000 people. You may not like this comparison, but Google is an example of what created new jobs in the past. Innovative new industries. Old innovative industries are running out of steam. Just look at cars. When they became a thing 100 years ago, they created huge industries. Cars transformed our way of life, our infrastructure and our cities. Millions of people found jobs either directly or indirectly. Decades of investment kept this momentum going. Today, this process is largely complete. Innovation in the car industry does not create as many jobs as it used to. While electric cars are great and all, they won't create millions of new jobs. But wait, what about the internet? Some technologists argue that the internet is an innovation on a par with the introduction of electricity. If we go with this comparison, we see how our modern innovation differs from the old one. The internet created new industries, but they're not creating enough jobs to keep up with population growth or to compensate for the industries the internet is killing. At its peak in 2004, Blockbuster had 84,000 employees and made US$6 billion in revenue. In 2016, Netflix had 4,500 employees and made US$9 billion in revenue. Or take us, for example. With a full-time team of just 12 people, Kotzgesagt reaches millions of people. A TV station with the same amount of viewers needs way more employees. Innovation in the information age doesn't equate to the creation of enough new jobs, which would be bad enough on its own, but now a new wave of automation and a new generation of machines is slowly taking over. To understand this, we need to understand ourselves first. Human progress is based on the division of labour. As we advanced over thousands of years, our jobs became more and more specialised. While even our smartest machines are bad at doing complicated jobs, they are extremely good at doing narrowly defined and predictable tasks. This is what destroyed factory jobs. But look at a complex job long and hard enough and you'll find that it's really just many narrowly defined and predictable tasks one after another. Machines are on the brink of becoming so good at breaking down complex jobs into many predictable ones that for a lot of people, there will be no further room to specialise. We are on the verge of being out-competed. Digital machines do this via machine learning, which enables them to acquire information and skills by analysing data. This makes them become better at something through the relationships they discover. Machines teach themselves. We make this possible by giving a computer a lot of data about the thing we wanted to become better at. Show a machine all the things you bought online and it will slowly learn what to recommend to you, so you buy more things. Machine learning is now meeting more of its potential because in recent years, humans have started to gather data about everything. Behaviour, weather patterns, medical records, communication systems, travel data and of course, data about what we do at work. What we've created by accident is a huge library machines can use to learn how humans do things and learn to do them better. These digital machines might be the biggest job killer of all. They can be replicated instantly and for free. When they improve, you don't need to invest in big metal things, you can just use the new code. And they have the ability to get better fast. How fast? If your work involves complex work on a computer today, you might be out of work even sooner than the people who still have jobs in factories. There are actual real-world examples of how this transition might be happening. A San Francisco company offers a project management software for big corporations which is supposed to eliminate middle management positions. When it's hired for a new project, the software first decides which jobs can be automated and precisely where it needs actual professional humans. It then helps assemble a team of freelancers over the internet. The software then distributes tasks to the humans and controls the quality of the work, tracking individual performance until the project is complete. Okay, this doesn't sound too bad. While this machine is killing one job, it creates jobs for freelancers, right? Well, as the freelancers complete their tasks, learning algorithms track them and gather data about their work and which tasks it consists of. So what's actually happening is that the freelancers are teaching a machine how to replace them. On average, this software reduces costs by about 50% in the first year and by another 25% in the second year. This is only one example of many. There are machines and programs getting as good or better than humans in all kinds of fields, from pharmacists to analysts, journalists to radiologists, cashiers, bank tellers or the unskilled worker flipping burgers. All of these jobs won't disappear overnight, but fewer and fewer humans will be doing them. We'll discuss a few cases in a follow-up video. But while jobs disappearing is bad, it's only half of the story. It's not enough to substitute old jobs with new ones. We need to be generating new jobs constantly because the world population is growing. In a country that needs to create up to 150,000 new jobs per month, just to keep up with population growth, this is bad news. This is also starting to affect standards of living. In the past, it was seen as obvious that with rising productivity, more and better jobs would be created. But the numbers tell a different story. In 1998, US workers worked a total of 194 billion hours. Over the course of the next 15 years, their output increased by 42%. But in 2013, the amount of hours worked by US workers was still 194 billion hours. What this means is that despite productivity growing drastically, thousands of new businesses opening up and the US population growing by over 40 million, there was no growth at all in the number of hours worked in 15 years. At the same time, wages for new university graduates in the US have been declining for the past decade, while up to 40% of new graduates are forced to take on jobs that don't require a degree. Productivity is separating from human labor. The nature of innovation and the information age is different from everything we encountered before. This process started years ago and is already well underway. Even without new disruptions, like self-driving cars or robot accountants, it looks like automation is different this time. This time, the machines might really take our jobs. Our economies are based on the premise that people consume. But if fewer and fewer people have decent work, who will be doing all the consuming? Are we producing ever more cheaply only to arrive at a point where too few people can actually buy all our stuff and services? Or will the future see a tiny minority of the super-rich who own the machines dominating the rest of us? And does our future really have to be that grim? While we were fairly dark in this video, it's far from certain that things will turn out negatively. The information age and modern automation could be a huge opportunity to change human society and reduce poverty and inequality drastically. It could be a seminal moment in human history. We'll talk about this potential and possible solutions like a universal basic income in part two of this video series. We need to think big and fast. Because one thing's for sure, the machines are not coming. They are already here.",
+  "target_text_for_audit": "But since 1973, the generation of new jobs in the US has begun to shrink.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "But since 1973,",
+        "start_source": 483.58,
+        "end_source": 484.74,
+        "matching_cue_ids": [
+          92
+        ],
+        "text_similarity": 0.3294,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "the generation of new jobs in the US has begun to shrink.",
+        "start_source": 485.22,
+        "end_source": 488.22,
+        "matching_cue_ids": [
+          92
+        ],
+        "text_similarity": 0.8819,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\WSKi8HfcxEk.webm",
+    "cue_count": 120
+  },
+  "token_estimate_char_div_4": 2327
+}

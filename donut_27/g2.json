@@ -1,103 +1,147 @@
 {
  "clip_id": "donut_27",
  "family": "donut",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "donut_27",
   "family": "donut",
   "sub_type": "partial_ring",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
-  "required_data_rows": 2,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1",
-   "U2",
-   "U3"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Without professional negotiation | fatality_risk"
+    "Panel 1 | Without professional negotiation"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Without professional negotiation | fatality_risk",
-      "expected": 9.0
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
    "unit_id": "U2",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "With professional negotiation | fatality_risk"
+    "Panel 2 | With professional negotiation"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "With professional negotiation | fatality_risk",
-      "expected": 2.0
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
    "unit_id": "U3",
-   "unit_kind": "change_or_rate",
+   "unit_kind": "gauge_value",
    "must_be_visualized": true,
-   "evidence_type": "endpoint_change",
+   "evidence_type": "gauge_value",
    "required_marks": [
-    "With professional negotiation | fatality_risk",
-    "Without professional negotiation | fatality_risk"
+    "Panel 1 | Without professional negotiation"
    ],
    "assertion": {
-    "low": "With professional negotiation | fatality_risk",
-    "low_value": 2.0,
-    "high": "Without professional negotiation | fatality_risk",
-    "high_value": 9.0,
-    "delta": 7.0,
-    "ratio": 4.5,
-    "tolerance": 0.02
+    "shares": [
+     {
+      "mark": "Panel 1 | Without professional negotiation",
+      "entity": "Without professional negotiation",
+      "whole_scope": "Panel 1",
+      "expected_relative_value": 0.09,
+      "expected_value": 9.0
+     }
+    ],
+    "expected_relation": "The fatality risk for 'Without professional negotiation' is 9%."
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "gauge_value",
+   "must_be_visualized": true,
+   "evidence_type": "gauge_value",
+   "required_marks": [
+    "Panel 2 | With professional negotiation"
+   ],
+   "assertion": {
+    "shares": [
+     {
+      "mark": "Panel 2 | With professional negotiation",
+      "entity": "With professional negotiation",
+      "whole_scope": "Panel 2",
+      "expected_relative_value": 0.02,
+      "expected_value": 2.0
+     }
+    ],
+    "expected_relation": "The fatality risk for 'With professional negotiation' is 2%."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "cross_panel_compare",
+   "must_be_visualized": true,
+   "evidence_type": "cross_scope_comparison",
+   "required_marks": [
+    "Panel 1 | Without professional negotiation",
+    "Panel 2 | With professional negotiation"
+   ],
+   "assertion": {
+    "scopes": [
+     {
+      "panel": "Panel 1",
+      "series": "",
+      "entity": "Without professional negotiation",
+      "relative_value": 0.09,
+      "value": 9.0
+     },
+     {
+      "panel": "Panel 2",
+      "series": "",
+      "entity": "With professional negotiation",
+      "relative_value": 0.02,
+      "value": 2.0
+     }
+    ],
+    "expected_relation": "The fatality risk is higher without professional negotiation (9%) than with professional negotiation (2%)."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   }
  ]

@@ -4,18 +4,22 @@
  "sub_type": "overlay_area",
  "orientation": "cartesian",
  "series_count": 2,
- "has_reference_line": false,
+ "has_reference_line": true,
  "panel_count": 1,
  "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 22,
- "row_count": 628,
+ "row_count": 630,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "reference_lines": [
+  "Sea level at elevation 0 km"
+ ],
+ "batch_status": "approved"
 }

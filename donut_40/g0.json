@@ -1,104 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_40",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "a30a9a39a54b7853a0c013baadffc7ce41e8af0727630502580337612c325a17",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "b6f45e10154280b0e974909b67a77d7640c1f2ccd5566715c2d58368f587d8be",
  "row_count": 1,
- "sidecar_row_count": 1,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 1,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_cats"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "spayed or neutered",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 84.0,
-   "last_value": 84.0,
-   "min_value": 84.0,
-   "max_value": 84.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_cats"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "entity": "spayed or neutered",
+   "metric": "share_of_cats",
+   "value": "84",
+   "unit": "%",
+   "relative_value": "0.84",
+   "label": "",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "share_of_cats"
   }
  ],
- "source_type_counts": {
-  "printed": 1
- },
- "role_counts": {
-  "gauge": 1
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_cats",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "spayed or neutered"
+   ],
+   "relative_value_sum": 0.84
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "spayed or neutered",
-    "series": ""
+    "metric": "share_of_cats",
+    "value": "84",
+    "unit": "%",
+    "relative_value": "0.84",
+    "label": "",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "share_of_cats"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

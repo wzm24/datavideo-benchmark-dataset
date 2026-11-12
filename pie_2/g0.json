@@ -1,222 +1,186 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_2",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "9d253ff4f00e484b0302172ba9fa3cfc9c47607e1b663d50bd17841399a789a0",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "84f48cacbc646cff5214633ff80c206d91dd11bc613a3bc30059abd5f5bd1405",
+ "data_table_sha256": "f93f0106cadbb91bfcd7d5fd044c6ff0aba18d382b465e7a9311d2bcc2cf0f20",
  "row_count": 5,
- "sidecar_row_count": 5,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 5,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_ghg_emissions"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Transportation",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 28.0,
-   "last_value": 28.0,
-   "min_value": 28.0,
-   "max_value": 28.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "28",
+   "unit": "%",
+   "relative_value": "0.28",
+   "label": "28%",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "Electricity",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 23.0,
-   "last_value": 23.0,
-   "min_value": 23.0,
-   "max_value": 23.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "23",
+   "unit": "%",
+   "relative_value": "0.23",
+   "label": "23%",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r3",
    "panel": "",
+   "series": "",
    "entity": "Industry",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 22.0,
-   "last_value": 22.0,
-   "min_value": 22.0,
-   "max_value": 22.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "22",
+   "unit": "%",
+   "relative_value": "0.22",
+   "label": "22%",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r4",
    "panel": "",
+   "series": "",
    "entity": "Commercial and residential",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 12.0,
-   "last_value": 12.0,
-   "min_value": 12.0,
-   "max_value": 12.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "12",
+   "unit": "%",
+   "relative_value": "0.12",
+   "label": "12%",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r5",
    "panel": "",
-   "entity": "Agriculture",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 10.0,
-   "last_value": 10.0,
-   "min_value": 10.0,
-   "max_value": 10.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "Agriculture",
+   "metric": "share_of_ghg_emissions",
+   "value": "10",
+   "unit": "%",
+   "relative_value": "0.1",
+   "label": "10%",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_ghg_emissions"
   }
  ],
- "source_type_counts": {
-  "estimated": 5
- },
- "role_counts": {
-  "slice": 5
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_ghg_emissions",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "r5"
+   ],
+   "entities": [
+    "Transportation",
+    "Electricity",
+    "Industry",
+    "Commercial and residential",
+    "Agriculture"
+   ],
+   "relative_value_sum": 0.95
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Transportation",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "28",
+    "unit": "%",
+    "relative_value": "0.28",
+    "label": "28%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "Electricity",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "23",
+    "unit": "%",
+    "relative_value": "0.23",
+    "label": "23%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "Industry",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "22",
+    "unit": "%",
+    "relative_value": "0.22",
+    "label": "22%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r4",
     "panel": "",
+    "series": "",
     "entity": "Commercial and residential",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "12",
+    "unit": "%",
+    "relative_value": "0.12",
+    "label": "12%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r5",
     "panel": "",
+    "series": "",
     "entity": "Agriculture",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "10",
+    "unit": "%",
+    "relative_value": "0.1",
+    "label": "10%",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_ghg_emissions"
    }
   ],
-  "required_entity_count": 5,
-  "required_row_count": 5,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

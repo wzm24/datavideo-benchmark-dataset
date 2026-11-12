@@ -1,0 +1,194 @@
+{
+ "clip_id": "donut_7",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the share of assessment takers who passed with the remaining share of assessment takers.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the share of assessment takers who passed with the remaining share of assessment takers.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2",
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "passed",
+     "label": "97%",
+     "role": "arc",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_of_whole",
+   "claim": "The passed share of assessment takers is 97% of the whole.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "passed",
+     "metric": "share_of_assessment_takers",
+     "field": "relative_value",
+     "value": "0.97",
+     "table_value": "97",
+     "table_relative_value": "0.97",
+     "unit": "%",
+     "relative_value": "0.97",
+     "label": "97%",
+     "role": "arc",
+     "source_type": "printed",
+     "whole_scope": "share_of_assessment_takers"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "97%",
+    "0.97",
+    "97 percent"
+   ],
+   "reject": [
+    "3%",
+    "0.03",
+    "remaining share"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "inferred_remainder",
+   "claim": "The remaining share of assessment takers is 3%, the complement of the 97% passed share.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "passed",
+     "metric": "share_of_assessment_takers",
+     "field": "relative_value",
+     "value": "0.97",
+     "table_value": "97",
+     "table_relative_value": "0.97",
+     "unit": "%",
+     "relative_value": "0.97",
+     "label": "97%",
+     "role": "arc",
+     "source_type": "printed",
+     "whole_scope": "share_of_assessment_takers"
+    }
+   ],
+   "computation": "1 - 0.97 = 0.03",
+   "accept": [
+    "3%",
+    "0.03",
+    "3 percent"
+   ],
+   "reject": [
+    "97%",
+    "0.97",
+    "passed share"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Labeling the passed arc as 'passed' or '97%'.",
+  "Labeling the remainder arc as 'remaining' or '3%'."
+ ],
+ "unsupported_to_avoid": [
+  "Adding other sectors or categories not present in the data table.",
+  "Reporting an absolute count of assessment takers.",
+  "Comparing across panels, rings, countries, or groups.",
+  "Describing colors, layout, chart type, decoration, or file format."
+ ],
+ "review_notes": [
+  "Only one printed row exists; the remainder is derived as the complement of a full composition.",
+  "The intent explicitly asks to compare the passed share with the remaining share, so both the stated share and inferred remainder are required."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "passed",
+    "metric": "share_of_assessment_takers",
+    "value": "97",
+    "unit": "%",
+    "relative_value": "0.97",
+    "label": "97%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_assessment_takers"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

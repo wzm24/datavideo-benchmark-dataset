@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_14",
- "intent_en": "To illustrate the substantial proportion of cannabis cultivation that takes place indoors in the United States.",
- "previous_intent": "To highlight that a significant portion of marijuana cultivation in the United States takes place indoors.",
+ "intent_en": "Quantify indoor cultivation's share of U.S. cannabis cultivation.",
  "narration_support": "An estimated one -third of America's weed has grown indoors.",
  "chart_support": "A graphic featuring a house icon labeled 'indoor' with a circular progress indicator partially filled, visually representing a fraction of the total.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": true
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that indoor cultivation accounts for an estimated one-third of America's cannabis cultivation.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Quantify indoor cultivation's share of U.S. cannabis cultivation.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

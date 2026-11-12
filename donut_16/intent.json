@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_16",
- "intent_en": "To demonstrate that public support for marijuana legalization exceeds opposition among Americans.",
- "previous_intent": "To illustrate the rapid shift in American public opinion where support for marijuana legalization is now outpacing opposition.",
+ "intent_en": "Compare the share of respondents supporting legalization with the share opposing it across the inner and outer arcs.",
  "narration_support": "Support for marijuana legalization is rapidly outpacing opposition.",
  "chart_support": "A radial chart with a US map background showing a longer green arc (representing support) compared to a shorter pink arc (representing opposition), visually indicating a majority favoring legalization.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": true
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that 52% of Americans support marijuana legalization versus 45% who oppose it.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Compare the share of respondents supporting legalization with the share opposing it across the inner and outer arcs.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

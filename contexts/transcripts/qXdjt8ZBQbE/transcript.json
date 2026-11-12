@@ -1,0 +1,909 @@
+{
+  "video_id": "qXdjt8ZBQbE",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\qXdjt8ZBQbE.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 469.484,
+  "duration_after_vad_seconds": 450.88,
+  "cue_count": 99,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.27,
+      "end": 6.27,
+      "text": "In September 2021, the CDC recommended COVID-19 booster shots,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 1,
+      "start": 6.27,
+      "end": 12.27,
+      "text": "an additional vaccine dose for the elderly and those at high risk in the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 2,
+      "start": 12.27,
+      "end": 18.27,
+      "text": "That echoed the booster shot rollout in places like the U.K. and Singapore.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 3,
+      "start": 18.27,
+      "end": 22.27,
+      "text": "But in November, the CDC announced a new recommendation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 4,
+      "start": 22.27,
+      "end": 24.27,
+      "text": "All adults could get a booster shot.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 5,
+      "start": 24.27,
+      "end": 29.27,
+      "text": "And that idea had been a contentious question among scientists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118586,
+      "no_speech_prob": 0.015411
+    },
+    {
+      "index": 6,
+      "start": 29.27,
+      "end": 33.27,
+      "text": "I do believe that all of us are going to need another shot at some point.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 7,
+      "start": 33.27,
+      "end": 37.27,
+      "text": "It's much more of a gray area for younger people, particularly on the 50s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 8,
+      "start": 37.27,
+      "end": 41.27,
+      "text": "I don't think we should get hung up on should-may, just go out and get boosted.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 9,
+      "start": 41.27,
+      "end": 48.27,
+      "text": "FDA's Dr. Marion Gruber and Dr. Phil Krause say there's currently no need for boosters for the general population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 10,
+      "start": 48.27,
+      "end": 51.27,
+      "text": "Dr. Celine Gounder was one of those scientists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 11,
+      "start": 51.27,
+      "end": 57.27,
+      "text": "She wasn't convinced that we all needed more shots, up until recently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0965,
+      "no_speech_prob": 0.004906
+    },
+    {
+      "index": 12,
+      "start": 57.27,
+      "end": 61.27,
+      "text": "So to help me figure out what's going on with boosters, I called her up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043278,
+      "no_speech_prob": 0.005383
+    },
+    {
+      "index": 13,
+      "start": 61.27,
+      "end": 67.27,
+      "text": "I had not planned to get boosted and yesterday scheduled a third dose.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043278,
+      "no_speech_prob": 0.005383
+    },
+    {
+      "index": 14,
+      "start": 67.27,
+      "end": 71.27,
+      "text": "And that's really a decision that was made based on the emergence of Omicron.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043278,
+      "no_speech_prob": 0.005383
+    },
+    {
+      "index": 15,
+      "start": 71.27,
+      "end": 79.67,
+      "text": "To start us off, can you sort of just walk us through what the science of needing boosters is?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043278,
+      "no_speech_prob": 0.005383
+    },
+    {
+      "index": 16,
+      "start": 79.67,
+      "end": 84.67,
+      "text": "When you get vaccinated, you're stimulating different branches of your immune system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043278,
+      "no_speech_prob": 0.005383
+    },
+    {
+      "index": 17,
+      "start": 84.67,
+      "end": 89.67,
+      "text": "You're stimulating B cells, T cells, antibody levels.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059105,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 18,
+      "start": 89.67,
+      "end": 99.67,
+      "text": "Those antibody levels are what protect you robustly against infection, particularly soon after vaccination.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059105,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 19,
+      "start": 99.67,
+      "end": 102.67,
+      "text": "But those antibody levels wane.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059105,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 20,
+      "start": 102.67,
+      "end": 107.67,
+      "text": "What we saw is from the data in Israel as well as other countries like the U.S.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059105,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 21,
+      "start": 107.67,
+      "end": 112.67,
+      "text": "is you saw waning in antibody levels at six months after the second dose.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059105,
+      "no_speech_prob": 0.060059
+    },
+    {
+      "index": 22,
+      "start": 112.67,
+      "end": 117.67,
+      "text": "But Dr. Gounder emphasized that charts like this shouldn't alarm us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 23,
+      "start": 117.67,
+      "end": 122.67,
+      "text": "Once those antibodies fade away, the B cells are still there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 24,
+      "start": 122.67,
+      "end": 125.67,
+      "text": "B cells are these little factories to make antibodies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 25,
+      "start": 125.67,
+      "end": 131.67,
+      "text": "So when you get re-exposed to the virus, the B cells recognize the virus",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 26,
+      "start": 131.67,
+      "end": 135.67,
+      "text": "and kick back into gear and produce antibodies all over again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 27,
+      "start": 135.67,
+      "end": 138.67,
+      "text": "You're not fully protected against all infection,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052437,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 28,
+      "start": 138.67,
+      "end": 143.67,
+      "text": "but you still have very strong, very long-lived memory B cell responses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048806,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 29,
+      "start": 143.67,
+      "end": 149.67,
+      "text": "that are still there to protect you from severe disease, hospitalization, and death.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048806,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 30,
+      "start": 149.67,
+      "end": 157.67,
+      "text": "So if we still have that protection from severe cases, why do we need more antibodies from a booster?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048806,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 31,
+      "start": 157.67,
+      "end": 161.67,
+      "text": "There are certain groups in which we do see a reduction in protection",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048806,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 32,
+      "start": 161.67,
+      "end": 164.67,
+      "text": "against even some of those more severe outcomes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048806,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 33,
+      "start": 164.67,
+      "end": 166.67,
+      "text": "And those are specifically older people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 34,
+      "start": 166.67,
+      "end": 170.67,
+      "text": "In addition, people who are highly immunocompromised also do benefit",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 35,
+      "start": 170.67,
+      "end": 173.67,
+      "text": "from getting additional doses of vaccine.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 36,
+      "start": 173.67,
+      "end": 177.67,
+      "text": "That was the reasoning behind initially limiting boosters to the vulnerable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 37,
+      "start": 177.67,
+      "end": 181.67,
+      "text": "That while boosters for all adults in general could help replenish antibodies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 38,
+      "start": 181.67,
+      "end": 187.67,
+      "text": "to prevent any infections, they weren't necessary for preventing severe cases,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 39,
+      "start": 187.67,
+      "end": 191.67,
+      "text": "which vaccines continue to do effectively for most people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047729,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 40,
+      "start": 191.67,
+      "end": 195.67,
+      "text": "But many scientists like Dr. Gounder have changed their mind on that stance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043984,
+      "no_speech_prob": 0.000197
+    },
+    {
+      "index": 41,
+      "start": 195.67,
+      "end": 200.67,
+      "text": "based on the information available about the Omicron variant at the time of this video.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043984,
+      "no_speech_prob": 0.000197
+    },
+    {
+      "index": 42,
+      "start": 200.67,
+      "end": 206.67,
+      "text": "Now that you've had the rise of the Omicron variant, it's a different conversation about boosters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043984,
+      "no_speech_prob": 0.000197
+    },
+    {
+      "index": 43,
+      "start": 206.67,
+      "end": 213.67,
+      "text": "The concern about the Omicron variant is that our vaccines may not fully protect against this variant,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043984,
+      "no_speech_prob": 0.000197
+    },
+    {
+      "index": 44,
+      "start": 213.67,
+      "end": 217.67,
+      "text": "which has more than 30 mutations in the spike protein.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043984,
+      "no_speech_prob": 0.000197
+    },
+    {
+      "index": 45,
+      "start": 217.67,
+      "end": 223.67,
+      "text": "B-cells that would have recognized earlier strains of the virus may not recognize Omicron.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.029811,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 46,
+      "start": 223.67,
+      "end": 229.67,
+      "text": "It has changed so much that your memory immune responses don't recognize it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.029811,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 47,
+      "start": 229.67,
+      "end": 232.67,
+      "text": "But that's a prediction based on looking at the genetic sequence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.029811,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 48,
+      "start": 232.67,
+      "end": 244.99,
+      "text": "By giving additional doses of vaccine, you can override that relative immune evasion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.029811,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 49,
+      "start": 244.99,
+      "end": 248.99,
+      "text": "It's not clear yet whether or not we'll need a new vaccine for the new variant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.029811,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 50,
+      "start": 248.99,
+      "end": 252.99,
+      "text": "That was actually a question companies like Pfizer had with the other variants too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 51,
+      "start": 252.99,
+      "end": 258.99,
+      "text": "We built one for Delta that we didn't know to use because the current vaccine is very effective against Delta",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 52,
+      "start": 258.99,
+      "end": 262.99,
+      "text": "and we built one for Beta, which also we didn't have to use.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 53,
+      "start": 262.99,
+      "end": 265.99,
+      "text": "So even though there are still a lot of unknowns about Omicron,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 54,
+      "start": 265.99,
+      "end": 269.99,
+      "text": "experts like Dr. Gounder say boosters may be a good tool against it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 55,
+      "start": 269.99,
+      "end": 273.99,
+      "text": "especially if it turns out to be as bad as some fear.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077358,
+      "no_speech_prob": 0.000561
+    },
+    {
+      "index": 56,
+      "start": 273.99,
+      "end": 279.99,
+      "text": "So at what point after our first round of vaccinations should we get boosted?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05596,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 57,
+      "start": 279.99,
+      "end": 283.99,
+      "text": "So you should wait six months after your second dose of COVID vaccine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05596,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 58,
+      "start": 283.99,
+      "end": 287.99,
+      "text": "if you got the Pfizer or Moderna vaccine before getting a boost",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05596,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 59,
+      "start": 287.99,
+      "end": 293.99,
+      "text": "and you should wait two months after getting the Johnson & Johnson vaccine before getting a boost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05596,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 60,
+      "start": 293.99,
+      "end": 299.99,
+      "text": "To really get to peak antibody levels, you really want to wait about two weeks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05596,
+      "no_speech_prob": 0.02594
+    },
+    {
+      "index": 61,
+      "start": 299.99,
+      "end": 303.99,
+      "text": "So if you're, say, planning to go visit family over the holidays,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 62,
+      "start": 303.99,
+      "end": 307.99,
+      "text": "I would recommend getting that additional dose of vaccine, that booster dose,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 63,
+      "start": 307.99,
+      "end": 309.99,
+      "text": "about two weeks prior to travel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 64,
+      "start": 309.99,
+      "end": 313.99,
+      "text": "And that booster doesn't have to be the same one you originally got.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 65,
+      "start": 313.99,
+      "end": 319.99,
+      "text": "The NIH conducted a study looking at do you start with Johnson & Johnson, Pfizer or Moderna,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 66,
+      "start": 319.99,
+      "end": 323.99,
+      "text": "and then do you boost with Johnson & Johnson, Pfizer or Moderna?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 67,
+      "start": 323.99,
+      "end": 328.99,
+      "text": "The study found that not only is mixing vaccines safe, all combinations work.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040916,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 68,
+      "start": 328.99,
+      "end": 335.99,
+      "text": "In the U.S., if you got initial doses of an mRNA vaccine, you can get either one as a third shot.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 69,
+      "start": 335.99,
+      "end": 338.99,
+      "text": "But it's recommended that if you got Johnson & Johnson first,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 70,
+      "start": 338.99,
+      "end": 342.99,
+      "text": "it's most effective to get boosted with an mRNA vaccine.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 71,
+      "start": 342.99,
+      "end": 345.99,
+      "text": "Similarly, in countries like Germany and Korea,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 72,
+      "start": 345.99,
+      "end": 349.99,
+      "text": "most people who got AstraZeneca will be offered an mRNA vaccine.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 73,
+      "start": 349.99,
+      "end": 356.99,
+      "text": "There is some thought that the different vaccine technologies teach the immune system",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040135,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 74,
+      "start": 356.99,
+      "end": 359.99,
+      "text": "to recognize the spike protein in slightly different ways,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 75,
+      "start": 359.99,
+      "end": 364.99,
+      "text": "and that as a result, the immune system, you could say, remembers better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 76,
+      "start": 364.99,
+      "end": 368.99,
+      "text": "Considering that the vaccines have been so unequally distributed around the world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 77,
+      "start": 368.99,
+      "end": 372.99,
+      "text": "should we be concerned about the ethics of getting a third shot",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 78,
+      "start": 372.99,
+      "end": 375.99,
+      "text": "when so many people haven't even had their first?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 79,
+      "start": 375.99,
+      "end": 381.99,
+      "text": "I think we should be worried about that at a policy level, at a macro level.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 80,
+      "start": 381.99,
+      "end": 385.99,
+      "text": "But whether you yourself as the individual choose to get a booster dose or not",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048451,
+      "no_speech_prob": 0.001648
+    },
+    {
+      "index": 81,
+      "start": 385.99,
+      "end": 389.99,
+      "text": "is really not going to have an impact on global vaccines applied",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 82,
+      "start": 389.99,
+      "end": 395.99,
+      "text": "because those decisions are being made far upstream from you going into your local drugstore",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 83,
+      "start": 395.99,
+      "end": 397.99,
+      "text": "and getting a vaccination.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 84,
+      "start": 397.99,
+      "end": 402.99,
+      "text": "As for whether we'll all need boosters for years, it's really too soon to tell.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 85,
+      "start": 402.99,
+      "end": 405.99,
+      "text": "It depends on how much COVID is spreading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 86,
+      "start": 405.99,
+      "end": 407.99,
+      "text": "Look, boosters are not going to end the pandemic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 87,
+      "start": 407.99,
+      "end": 411.99,
+      "text": "What is going to end the pandemic is vaccinating people who are not vaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059441,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 88,
+      "start": 411.99,
+      "end": 418.99,
+      "text": "Your risk of infection is proportional to how much virus is circulating in the community,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 89,
+      "start": 418.99,
+      "end": 420.99,
+      "text": "even if you've been boosted.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 90,
+      "start": 420.99,
+      "end": 425.99,
+      "text": "We still have a long way to go to vaccinate the unvaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 91,
+      "start": 425.99,
+      "end": 430.99,
+      "text": "But Dr. Gounder also emphasized that we can do two things at once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 92,
+      "start": 430.99,
+      "end": 433.99,
+      "text": "We can continue to vaccinate the unvaccinated",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 93,
+      "start": 433.99,
+      "end": 438.99,
+      "text": "while also strengthening the defenses of the vaccinated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056033,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 94,
+      "start": 438.99,
+      "end": 441.99,
+      "text": "Boosters do provide another layer of protection,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050052,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 95,
+      "start": 441.99,
+      "end": 444.99,
+      "text": "especially with the rise of the Omicron variant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050052,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 96,
+      "start": 444.99,
+      "end": 448.99,
+      "text": "I think there is broader consensus now among doctors and scientists",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050052,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 97,
+      "start": 448.99,
+      "end": 453.99,
+      "text": "that everyone 18 and up in the United States who can get a booster should get a booster.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050052,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 98,
+      "start": 453.99,
+      "end": 457.99,
+      "text": "That boost won't last forever, but it does buy you time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050052,
+      "no_speech_prob": 0.021606
+    }
+  ],
+  "created_at": "2026-11-05T02:17:17+0800"
+}

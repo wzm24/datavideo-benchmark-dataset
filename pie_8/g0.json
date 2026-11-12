@@ -1,135 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_8",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "883e2ba0a95b4833ddbb35a39fb9b6a112b5573eb96e3091fe7719cab79a05fb",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "a4a29b4bc49800803bbb4d60d32a7a2eaf5bff2706d7bf7fc7bc25d23aef4a48",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "224fd5e281a565b9ef95b551e5d17e55ea0593d9dfe7d9a2bc280c045abf9a2c",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_population"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Expats",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 83.3,
-   "last_value": 83.3,
-   "min_value": 83.3,
-   "max_value": 83.3,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_population"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Native citizens",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 16.7,
-   "last_value": 16.7,
-   "min_value": 16.7,
-   "max_value": 16.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_population"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_population",
+   "value": "83.3",
+   "unit": "%",
+   "relative_value": "0.833",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "share_of_population"
   }
  ],
- "source_type_counts": {
-  "estimated": 2
- },
- "role_counts": {
-  "slice": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_population",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Expats"
+   ],
+   "relative_value_sum": 0.833
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Expats",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Native citizens",
-    "series": ""
+    "metric": "share_of_population",
+    "value": "83.3",
+    "unit": "%",
+    "relative_value": "0.833",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_population"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

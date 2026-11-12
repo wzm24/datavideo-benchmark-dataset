@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_36",
- "intent_en": "To explain the company's business model, clarifying that while the majority of restaurants are franchised, the company retains ownership of the real estate.",
- "previous_intent": "To explain that the company owns the real estate for almost all its locations, even though the majority of its restaurants are franchised.",
+ "intent_en": "Report McDonald's company-owned restaurant share and identify the labeled franchised category.",
  "narration_support": "While the company only owns and operates 15 % of its restaurants and the rest are franchised, it owns almost all of their buildings and the land beneath them.",
  "chart_support": "A stylized graphic featuring the McDonald's logo and a large arc labeled 'FRANCHISED', visually representing the majority of locations being operated by franchisees.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that McDonald's owns and operates only 15% of its restaurants while franchising the rest, yet owns almost all of their buildings and land.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report McDonald's company-owned restaurant share and identify the labeled franchised category.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

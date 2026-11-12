@@ -1,4 +1,4 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_39,student debt,debt_0,,10000,,usd,real
-area_39,student debt,debt_1,,30000,,usd,real
-area_39,student debt,debt_2,,70000,,usd,real
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,,Amount owed (USD),"Owes $10,000",,,1,10000,usd,"$10,000",proportional_circle_area
+,,Amount owed (USD),"Owes $30,000",,,1,30000,usd,"$30,000",proportional_circle_area
+,,Amount owed (USD),"Owes $70,000",,,1,70000,usd,"$70,000",proportional_circle_area

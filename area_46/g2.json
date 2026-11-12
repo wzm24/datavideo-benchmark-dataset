@@ -1,0 +1,143 @@
+{
+ "clip_id": "area_46",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_46",
+  "family": "area",
+  "sub_type": "area_tile_map",
+  "orientation": "tile_map",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "eb0b9727b0b50a0dbb5aa1a1826c6c4fd59c4f0f540078f19912a2824d9f65ea"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Economic conditions hurting them and their families",
+    "Economic conditions not hurting them and their families (implied complement)"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Economic conditions hurting them and their families",
+      "panel": "",
+      "entity": "Economic conditions hurting them and their families",
+      "series": "Survey response",
+      "role": "area_tile_segment"
+     },
+     {
+      "mark": "Economic conditions not hurting them and their families (implied complement)",
+      "panel": "",
+      "entity": "Economic conditions not hurting them and their families (implied complement)",
+      "series": "Survey response",
+      "role": "area_tile_segment"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "tile_count",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Economic conditions hurting them and their families | #1",
+    "Economic conditions not hurting them and their families (implied complement) | #1"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Economic conditions hurting them and their families | #1",
+      "panel": "",
+      "entity": "Economic conditions hurting them and their families",
+      "series": "Survey response",
+      "x": "",
+      "point_order": "1",
+      "value": "46",
+      "unit": "percent",
+      "role": "area_tile_segment"
+     },
+     {
+      "mark": "Economic conditions not hurting them and their families (implied complement) | #1",
+      "panel": "",
+      "entity": "Economic conditions not hurting them and their families (implied complement)",
+      "series": "Survey response",
+      "x": "",
+      "point_order": "1",
+      "value": "54",
+      "unit": "percent",
+      "role": "area_tile_segment"
+     }
+    ],
+    "expected_relation": "Among U.S. adults, a smaller share reported that economic conditions were hurting them and their families (46%) than reported that conditions were not hurting them (54%).",
+    "computation": "none",
+    "encoding": "tile_count_share",
+    "axis_condition": {
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)"
+    },
+    "tile_counts": {
+     "hurting": 23,
+     "not_hurting": 28
+    },
+    "total_tiles": 51
+   },
+   "accepted_routes": [
+    "tile_count",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "hurting share exceeds not hurting share",
+    "both shares are equal",
+    "the comparison uses a different population or unit"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

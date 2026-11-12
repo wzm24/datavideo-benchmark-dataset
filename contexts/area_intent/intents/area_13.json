@@ -1,0 +1,69 @@
+{
+ "clip": "area_13",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that Infections rise to a peak of about 31.8 relative units, staying below the Healthcare capacity reference of 33.5, so the outbreak does not exceed capacity.",
+ "proposed_intent": "Compare the Infections series against the Healthcare capacity reference across the relative time window to determine whether Infections remains below capacity.",
+ "writer": {
+  "intent": "Compare the Infections series against the Healthcare capacity reference across the relative time window to determine whether Infections remains below capacity.",
+  "entities": [
+   "Infections",
+   "Healthcare capacity"
+  ],
+  "measure": "Outbreak (relative)",
+  "scope": "Relative time from 0 to 1, single panel",
+  "comparison": "Infections versus Healthcare capacity reference",
+  "withheld_answer": "Infections peak at about 31.8 relative units, staying below the Healthcare capacity reference of 33.5, so the outbreak does not exceed capacity."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 21,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4642,
+   "completion_tokens": 124,
+   "total_tokens": 4766,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 4514
+  },
+  {
+   "prompt_tokens": 4576,
+   "completion_tokens": 56,
+   "total_tokens": 4632,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4576
+  }
+ ],
+ "sec": 2.1
+}

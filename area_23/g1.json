@@ -1,0 +1,201 @@
+{
+ "clip_id": "area_23",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the diameters of Earth and the Moon to determine their relative sizes.",
+ "chart_structure": {
+  "clip_id": "area_23",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the diameters of Earth and the Moon to determine their relative sizes.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in the chart: Earth, Moon.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "Earth",
+     "series": "",
+     "role": "proportional_circle",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "entity": "Moon",
+     "series": "",
+     "role": "proportional_circle",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "Earth's diameter (12,700 km) is larger than the Moon's diameter (3,500 km), showing Earth is the larger body.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "12700",
+     "unit": "km",
+     "role": "proportional_circle"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Moon",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "3500",
+     "unit": "km",
+     "role": "proportional_circle"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Earth's diameter is greater than the Moon's diameter",
+    "Earth is larger than the Moon by diameter",
+    "The Moon's diameter is smaller than Earth's"
+   ],
+   "reject": [
+    "The Moon is larger than Earth",
+    "Earth and the Moon have equal diameters",
+    "Earth's diameter is 3,500 km"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Earth's diameter is approximately 3.6 times the Moon's diameter (12,700 / 3,500).",
+  "The proportional circle areas encode the diameter comparison."
+ ],
+ "unsupported_to_avoid": [
+  "Earth's diameter is exactly 3.63 times the Moon's diameter.",
+  "The circles' areas are to scale with the stated diameters.",
+  "Any claim about volume, mass, or distance between Earth and the Moon."
+ ],
+ "review_notes": [
+  "Single comparison unit covers the intent; no separate extremum or ranking unit needed for two entities.",
+  "Proportional circle encoding is noted but the required fact is the diameter comparison."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "65d809ecf56361ef866b369685465a04dfeb916bf96cc06f0a9b80454d9c94d9"
+ },
+ "status": "approved",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1587,
+   "completion_tokens": 427,
+   "total_tokens": 2014,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1203
+  },
+  {
+   "prompt_tokens": 1816,
+   "completion_tokens": 52,
+   "total_tokens": 1868,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1816
+  }
+ ],
+ "sec": 3.2,
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

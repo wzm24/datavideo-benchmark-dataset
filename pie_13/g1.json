@@ -1,0 +1,194 @@
+{
+ "clip_id": "pie_13",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the shares of helium and hydrogen in the Sun's atmosphere.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the shares of helium and hydrogen in the Sun's atmosphere.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "He",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "H",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "composition_order",
+   "claim": "Helium (89.6%) occupies a larger share of the Sun's atmospheric composition than hydrogen (10.4%).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "He",
+     "metric": "share_of_composition",
+     "field": "relative_value",
+     "value": "0.896",
+     "table_value": "89.6",
+     "table_relative_value": "0.896",
+     "unit": "%",
+     "relative_value": "0.896",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_composition"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "H",
+     "metric": "share_of_composition",
+     "field": "relative_value",
+     "value": "0.104",
+     "table_value": "10.4",
+     "table_relative_value": "0.104",
+     "unit": "%",
+     "relative_value": "0.104",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_composition"
+    }
+   ],
+   "computation": "compare r1.relative_value (0.896) vs r2.relative_value (0.104); helium > hydrogen",
+   "accept": [
+    "Helium share is shown as larger than hydrogen share",
+    "Helium ≈ 89.6% and hydrogen ≈ 10.4% are both represented",
+    "The comparison correctly identifies helium as the majority share"
+   ],
+   "reject": [
+    "Hydrogen is shown as larger than helium",
+    "Only one of the two shares is shown",
+    "Shares are summed or combined into a single value without comparison"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "Displaying exact percentage labels for helium and hydrogen",
+  "Showing the pie as a full composition summing to 100%"
+ ],
+ "unsupported_to_avoid": [
+  "Deriving an unspecified remainder (both shares are specified)",
+  "Cross-panel or multi-ring comparison (single full pie)",
+  "Reporting an absolute count at the center",
+  "State change or animation tracing (snapshot clip)"
+ ],
+ "review_notes": [
+  "Intent asks for a comparison of two named shares, so a single composition_order unit captures the required analytical fact.",
+  "Both rows are slices of the same whole; no panel or series scope needed."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "He",
+    "metric": "share_of_composition",
+    "value": "89.6",
+    "unit": "%",
+    "relative_value": "0.896",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_composition"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "H",
+    "metric": "share_of_composition",
+    "value": "10.4",
+    "unit": "%",
+    "relative_value": "0.104",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_composition"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

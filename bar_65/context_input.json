@@ -1,0 +1,2757 @@
+{
+  "clip_id": "bar_65",
+  "family": "bar",
+  "video_id": "ylLTMYt24lA",
+  "source_url": "https://www.youtube.com/watch?v=ylLTMYt24lA",
+  "source_title": "How American CEOs got so rich",
+  "target_window_source": {
+    "start": 284.0,
+    "end": 298.0
+  },
+  "target_mask_interval": {
+    "start": 282.5,
+    "end": 299.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    68,
+    69,
+    70
+  ],
+  "masked_cue_ids": [
+    67,
+    68,
+    69,
+    70
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.56,
+      "text": "On October 24th, 1929, the American stock market crashed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 1,
+      "start": 4.56,
+      "end": 6.96,
+      "text": "The York Stock Exchange is in a panic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 2,
+      "start": 6.96,
+      "end": 10.48,
+      "text": "Frantic investors have scrambled to unload their stocks at any price.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 3,
+      "start": 10.48,
+      "end": 15.12,
+      "text": "Fortunes disappeared overnight and the value of American companies tanked.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 4,
+      "start": 16.16,
+      "end": 19.28,
+      "text": "But the people in charge of those companies had an idea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 5,
+      "start": 20.56,
+      "end": 24.88,
+      "text": "They started buying shares of their own company stock from investors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 6,
+      "start": 25.68,
+      "end": 29.84,
+      "text": "which meant that there were fewer stocks out there for other people to buy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 7,
+      "start": 30.4,
+      "end": 33.52,
+      "text": "And when there's less of something, the price goes up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 8,
+      "start": 34.56,
+      "end": 38.8,
+      "text": "Normally, to raise their stock prices, these companies would have had to do something to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 9,
+      "start": 38.8,
+      "end": 43.28,
+      "text": "get investors excited and then to new product or a different way of doing things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 10,
+      "start": 43.92,
+      "end": 48.56,
+      "text": "But with this, corporations had discovered a kind of magic trick.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 11,
+      "start": 48.56,
+      "end": 52.8,
+      "text": "They could jack up their stock price without really doing anything.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 12,
+      "start": 53.52,
+      "end": 59.68,
+      "text": "This is a stock buyback, an attempt by the owners of America's biggest corporations",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 13,
+      "start": 59.76,
+      "end": 64.16,
+      "text": "to hang onto their wealth while the rest of the country suffered the worst depression ever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 14,
+      "start": 66.16,
+      "end": 72.48,
+      "text": "This practice helped fundamentally reshape the American economy and it set the stage",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 15,
+      "start": 72.48,
+      "end": 75.76,
+      "text": "for a century-long fight we're still having.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 16,
+      "start": 75.76,
+      "end": 77.92,
+      "text": "It was a choice and it was about greed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 17,
+      "start": 77.92,
+      "end": 80.08,
+      "text": "Someone has forgotten about the human element.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 18,
+      "start": 80.08,
+      "end": 85.12,
+      "text": "A fight about where American wealth comes from and who should get to keep it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 19,
+      "start": 85.84,
+      "end": 90.24,
+      "text": "You could have saved these jobs, but you chose not to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 20,
+      "start": 96.14,
+      "end": 102.7,
+      "text": "In 1932, The New York Times reported on the many abuses that were alleged among companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 21,
+      "start": 102.7,
+      "end": 104.94,
+      "text": "doing this new stock buyback thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 22,
+      "start": 104.94,
+      "end": 109.9,
+      "text": "Abuses like using the corporation's funds to buy shares from directors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 23,
+      "start": 109.9,
+      "end": 115.66,
+      "text": "officers, and other persons friendly to the management, also known as insider trading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 24,
+      "start": 116.22,
+      "end": 119.18,
+      "text": "The president signed a new law to make them stop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 25,
+      "start": 119.18,
+      "end": 122.06,
+      "text": "The Securities and Exchange Act of 1934.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 26,
+      "start": 122.62,
+      "end": 125.9,
+      "text": "It cracked down on manipulation and insider trading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 27,
+      "start": 125.9,
+      "end": 129.74,
+      "text": "And corporations took this to mean that their buyback days were over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 28,
+      "start": 129.74,
+      "end": 131.18,
+      "text": "They pretty much stopped doing them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 29,
+      "start": 132.94,
+      "end": 138.3,
+      "text": "And without buybacks for an option, corporations basically had three choices for what to do with",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 30,
+      "start": 138.3,
+      "end": 139.02,
+      "text": "their profits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 31,
+      "start": 139.82,
+      "end": 144.94,
+      "text": "Option one, reinvest them back in the company, build new factories, create new products.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 32,
+      "start": 145.74,
+      "end": 148.14,
+      "text": "Option two, raise wages for employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 33,
+      "start": 149.26,
+      "end": 153.02,
+      "text": "Option three, issue a dividend and hand the profits over to investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 34,
+      "start": 154.46,
+      "end": 158.94,
+      "text": "Most American companies did a mix of all three, with the bulk of profits going towards",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 35,
+      "start": 158.94,
+      "end": 160.3,
+      "text": "reinvestment and wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 36,
+      "start": 161.66,
+      "end": 165.26,
+      "text": "Over time, technology improved and workers made more stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 37,
+      "start": 165.98,
+      "end": 171.34,
+      "text": "The productivity of American workers nearly doubled in the 30 years after World War II,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 38,
+      "start": 171.34,
+      "end": 172.78,
+      "text": "and so did hourly wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 39,
+      "start": 173.34,
+      "end": 175.66,
+      "text": "This helped build the American middle class.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 40,
+      "start": 176.38,
+      "end": 177.74,
+      "text": "But things didn't stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 41,
+      "start": 178.46,
+      "end": 181.34,
+      "text": "Productivity kept rising, but wages flatlined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 42,
+      "start": 182.46,
+      "end": 186.22,
+      "text": "A new political and economic philosophy had taken hold.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 43,
+      "start": 187.58,
+      "end": 190.14,
+      "text": "Government is not the solution to our problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 44,
+      "start": 191.02,
+      "end": 192.7,
+      "text": "Government is the problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 45,
+      "start": 192.7,
+      "end": 197.02,
+      "text": "When Ronald Reagan was elected, the Securities and Exchange Act had successfully been",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 46,
+      "start": 197.02,
+      "end": 200.3,
+      "text": "scaring companies away from doing buybacks for 50 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 47,
+      "start": 200.94,
+      "end": 205.66,
+      "text": "But that changed after Reagan appointed a former investment banker named John Shad",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 48,
+      "start": 205.66,
+      "end": 207.02,
+      "text": "to the top enforcement job.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 49,
+      "start": 207.82,
+      "end": 212.06,
+      "text": "He wanted companies to put less of their profits into reinvestment and wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 50,
+      "start": 212.06,
+      "end": 214.14,
+      "text": "He thought more should go to investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 51,
+      "start": 214.14,
+      "end": 217.1,
+      "text": "So in 1982, he changed the rules.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 52,
+      "start": 217.1,
+      "end": 222.14,
+      "text": "For the first time since the 1930s, companies could buyback shares of their own stock from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 53,
+      "start": 222.14,
+      "end": 223.1,
+      "text": "investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 54,
+      "start": 223.1,
+      "end": 226.14,
+      "text": "And they didn't have to worry about the government coming after them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 55,
+      "start": 226.86,
+      "end": 228.3,
+      "text": "Buybacks were back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 56,
+      "start": 229.82,
+      "end": 232.78,
+      "text": "It was a really good time to be an investor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 57,
+      "start": 233.58,
+      "end": 236.06,
+      "text": "Investors wanted to keep that money flowing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 58,
+      "start": 236.14,
+      "end": 238.86,
+      "text": "So they changed the way that CEOs got paid.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 59,
+      "start": 238.86,
+      "end": 244.54,
+      "text": "Instead of just earning a salary, CEOs could get a bonus if the company's stock price went up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 60,
+      "start": 245.26,
+      "end": 248.7,
+      "text": "The quickest way to raise the stock price was to do a buyback.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 61,
+      "start": 249.58,
+      "end": 252.7,
+      "text": "So CEOs started doing them all the time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 62,
+      "start": 253.82,
+      "end": 259.9,
+      "text": "1982, the biggest American companies spent less than 1% of their profits on stock buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 63,
+      "start": 259.9,
+      "end": 264.86,
+      "text": "By 2008, just before the recession, that share had jumped to 77%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 64,
+      "start": 266.06,
+      "end": 267.42,
+      "text": "Fast forward to today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 65,
+      "start": 267.42,
+      "end": 272.46,
+      "text": "And companies are spending 65% of their profits buying back shares of their own stock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 66,
+      "start": 273.18,
+      "end": 281.82,
+      "text": "The pay gap between American CEOs and their workers has grown from 15 to 1 to 220 to 1",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    }
+  ],
+  "context_after": [
+    {
+      "index": 71,
+      "start": 302.7,
+      "end": 305.26,
+      "text": "these three companies spend on buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 72,
+      "start": 305.9,
+      "end": 308.86,
+      "text": "Volkswagen hasn't done any since 2012.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 73,
+      "start": 309.5,
+      "end": 314.46,
+      "text": "And Toyota's biggest buyback years are roughly the size of GM's smallest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 74,
+      "start": 315.1,
+      "end": 318.94,
+      "text": "The more of their profits GM gave to executives and shareholders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 75,
+      "start": 318.94,
+      "end": 322.06,
+      "text": "the less was left over for reinvestment and for workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 76,
+      "start": 324.88,
+      "end": 329.44,
+      "text": "In 2000, GM had the largest market share of any automaker in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 77,
+      "start": 330.08,
+      "end": 333.52,
+      "text": "By 2017, it had fallen to number four.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 78,
+      "start": 333.52,
+      "end": 338.08,
+      "text": "And as its market share shrank, GM shuttered plants across the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 79,
+      "start": 338.08,
+      "end": 341.04,
+      "text": "and tens of thousands of workers lost their jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 80,
+      "start": 342.0,
+      "end": 347.76,
+      "text": "For decades, this General Motors plant in Lordstown, Ohio was the biggest employer in the county.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 81,
+      "start": 348.4,
+      "end": 353.2,
+      "text": "It opened in the 1960s and started out making big stands and muscle cars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 82,
+      "start": 353.2,
+      "end": 357.6,
+      "text": "But when people's preferences changed or one model was discontinued,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 83,
+      "start": 357.6,
+      "end": 360.64,
+      "text": "GM would retool the plant to make a different kind of car.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 84,
+      "start": 361.28,
+      "end": 366.16,
+      "text": "But in 2015, GM promised investors another massive stock buyback.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 85,
+      "start": 366.88,
+      "end": 370.72,
+      "text": "To cut costs, they started eliminating shifts at the Lordstown plant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 86,
+      "start": 371.36,
+      "end": 374.88,
+      "text": "Another cutback, the second shift, will be dropped in two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 87,
+      "start": 374.88,
+      "end": 377.6,
+      "text": "Where am I going to go? Everybody's going to find a place now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 88,
+      "start": 378.32,
+      "end": 382.72,
+      "text": "It is the end of the line for the General Motors plant in Lordstown, Ohio.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 89,
+      "start": 382.72,
+      "end": 389.12,
+      "text": "The cuts come as the automaker is reporting a near record $12 billion profit last year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 90,
+      "start": 390.08,
+      "end": 392.64,
+      "text": "A few months after the GM plant closed down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 91,
+      "start": 392.64,
+      "end": 395.84,
+      "text": "the local supplier that built the rear suspensions went out of business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 92,
+      "start": 396.56,
+      "end": 398.72,
+      "text": "Same with the local factory that built the seats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 93,
+      "start": 399.68,
+      "end": 402.88,
+      "text": "Plans for a new hospital building in town were put on hold.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 94,
+      "start": 402.88,
+      "end": 406.08,
+      "text": "As paychecks dried up, a local restaurant closed its doors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 95,
+      "start": 406.88,
+      "end": 409.68,
+      "text": "Economists call it the multiplier effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 96,
+      "start": 409.68,
+      "end": 414.24,
+      "text": "One study predicted that every four jobs lost at GM's Lordstown plant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 97,
+      "start": 414.24,
+      "end": 418.56,
+      "text": "would trigger three more job losses among suppliers and other local businesses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 98,
+      "start": 419.44,
+      "end": 422.96,
+      "text": "That's why laid-off auto workers aren't the only ones in Lordstown",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 99,
+      "start": 422.96,
+      "end": 425.28,
+      "text": "who understand the effects of GM's choices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 100,
+      "start": 425.92,
+      "end": 427.28,
+      "text": "So do teachers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 101,
+      "start": 427.28,
+      "end": 430.24,
+      "text": "There were some students who just changed tremendously.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 102,
+      "start": 430.24,
+      "end": 433.52,
+      "text": "This is all tremendous upheaval for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 103,
+      "start": 433.6,
+      "end": 436.88,
+      "text": "When you look around, you drive around our town, there's a lot of farming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 104,
+      "start": 436.88,
+      "end": 439.92,
+      "text": "But General Motors is pretty much the town.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 105,
+      "start": 439.92,
+      "end": 443.68,
+      "text": "There was a time where the budget was made up mostly of General Motors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 106,
+      "start": 443.68,
+      "end": 445.52,
+      "text": "We lose that revenue from General Motors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 107,
+      "start": 445.52,
+      "end": 447.36,
+      "text": "That's going to be really tough for us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 108,
+      "start": 447.36,
+      "end": 450.32,
+      "text": "I hesitate to use the word traumatic, but it is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 109,
+      "start": 450.32,
+      "end": 455.2,
+      "text": "Because when something like this sudden happens, it rocks your world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 110,
+      "start": 455.92,
+      "end": 458.72,
+      "text": "A year before GM shut down the Lordstown plant,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 111,
+      "start": 458.72,
+      "end": 462.4,
+      "text": "President Trump and Republicans in Congress lowered the corporate tax rate",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 112,
+      "start": 462.4,
+      "end": 464.96,
+      "text": "from 37 percent to 21 percent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 113,
+      "start": 465.52,
+      "end": 470.64,
+      "text": "Those who supported the cuts predicted that corporations would reinvest those tax savings",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 114,
+      "start": 470.64,
+      "end": 472.72,
+      "text": "and that workers would benefit the most.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 115,
+      "start": 473.44,
+      "end": 476.64,
+      "text": "The vast majority of businesses are going to do just what we say,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 116,
+      "start": 476.64,
+      "end": 481.52,
+      "text": "reinvest in their workers, reinvest in their factories, pay people more money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 117,
+      "start": 481.52,
+      "end": 486.96,
+      "text": "When our businesses pay less in taxes, they reinvest that money into their companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 118,
+      "start": 486.96,
+      "end": 490.16,
+      "text": "But according to the Nonpartisan Congressional Research Service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 119,
+      "start": 490.72,
+      "end": 491.76,
+      "text": "that's not what happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 120,
+      "start": 492.64,
+      "end": 497.68,
+      "text": "The CRS studied the effects of the new tax law a year and a half after it passed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 121,
+      "start": 497.68,
+      "end": 502.08,
+      "text": "and they found very little growth in wage rates among ordinary workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 122,
+      "start": 502.96,
+      "end": 507.84,
+      "text": "What they did find was evidence for a record-breaking amount of stock buybacks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 123,
+      "start": 507.84,
+      "end": 511.76,
+      "text": "with $1 trillion announced by the end of 2018.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 124,
+      "start": 513.36,
+      "end": 518.56,
+      "text": "For decades, stock buybacks have been secretly reshaping the American economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 125,
+      "start": 518.56,
+      "end": 521.04,
+      "text": "And now, politicians are taking notice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 126,
+      "start": 521.6,
+      "end": 525.84,
+      "text": "Republican Senator Marco Rubio has suggested giving extra tax breaks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 127,
+      "start": 525.84,
+      "end": 529.52,
+      "text": "to companies that reinvest their profits instead of doing buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 128,
+      "start": 530.32,
+      "end": 534.64,
+      "text": "Democratic Senators Elizabeth Warren and Bernie Sanders have called for getting rid",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 129,
+      "start": 534.64,
+      "end": 538.48,
+      "text": "of the Reagan-era rule that protects companies when they do buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 130,
+      "start": 538.48,
+      "end": 541.68,
+      "text": "They want to make it easier for the SEC to investigate them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 131,
+      "start": 541.68,
+      "end": 546.0,
+      "text": "in the hopes that these companies will once again be too scared to do buybacks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 132,
+      "start": 546.0,
+      "end": 547.84,
+      "text": "just like they were in the 1930s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 133,
+      "start": 548.96,
+      "end": 554.32,
+      "text": "Warren is also calling for a new rule that would give workers mandatory seats on corporate boards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 134,
+      "start": 554.88,
+      "end": 558.96,
+      "text": "That way, they'd have a chance to vote on those big bonuses that CEOs get",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 135,
+      "start": 558.96,
+      "end": 560.56,
+      "text": "when a company's stock price goes up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 136,
+      "start": 561.12,
+      "end": 564.08,
+      "text": "That's how German companies have done things for decades,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 137,
+      "start": 564.08,
+      "end": 566.08,
+      "text": "and buybacks there are way less common.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 138,
+      "start": 566.88,
+      "end": 569.2,
+      "text": "But in America, they have a long history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 139,
+      "start": 569.76,
+      "end": 574.56,
+      "text": "Buybacks began in an era when less than 1% of America's population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 140,
+      "start": 574.56,
+      "end": 576.88,
+      "text": "held nearly a quarter of its wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 141,
+      "start": 578.8,
+      "end": 582.56,
+      "text": "Today, buybacks are back, and the American economy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 142,
+      "start": 582.56,
+      "end": 585.04,
+      "text": "looks a lot like it did in the 1920s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 143,
+      "start": 585.68,
+      "end": 589.52,
+      "text": "The question now is whether we want it to stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.56,
+      "text": "On October 24th, 1929, the American stock market crashed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 1,
+      "start": 4.56,
+      "end": 6.96,
+      "text": "The York Stock Exchange is in a panic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 2,
+      "start": 6.96,
+      "end": 10.48,
+      "text": "Frantic investors have scrambled to unload their stocks at any price.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 3,
+      "start": 10.48,
+      "end": 15.12,
+      "text": "Fortunes disappeared overnight and the value of American companies tanked.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 4,
+      "start": 16.16,
+      "end": 19.28,
+      "text": "But the people in charge of those companies had an idea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 5,
+      "start": 20.56,
+      "end": 24.88,
+      "text": "They started buying shares of their own company stock from investors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 6,
+      "start": 25.68,
+      "end": 29.84,
+      "text": "which meant that there were fewer stocks out there for other people to buy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.143254,
+      "no_speech_prob": 0.002396
+    },
+    {
+      "index": 7,
+      "start": 30.4,
+      "end": 33.52,
+      "text": "And when there's less of something, the price goes up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 8,
+      "start": 34.56,
+      "end": 38.8,
+      "text": "Normally, to raise their stock prices, these companies would have had to do something to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 9,
+      "start": 38.8,
+      "end": 43.28,
+      "text": "get investors excited and then to new product or a different way of doing things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 10,
+      "start": 43.92,
+      "end": 48.56,
+      "text": "But with this, corporations had discovered a kind of magic trick.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 11,
+      "start": 48.56,
+      "end": 52.8,
+      "text": "They could jack up their stock price without really doing anything.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 12,
+      "start": 53.52,
+      "end": 59.68,
+      "text": "This is a stock buyback, an attempt by the owners of America's biggest corporations",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081036,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 13,
+      "start": 59.76,
+      "end": 64.16,
+      "text": "to hang onto their wealth while the rest of the country suffered the worst depression ever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 14,
+      "start": 66.16,
+      "end": 72.48,
+      "text": "This practice helped fundamentally reshape the American economy and it set the stage",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 15,
+      "start": 72.48,
+      "end": 75.76,
+      "text": "for a century-long fight we're still having.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 16,
+      "start": 75.76,
+      "end": 77.92,
+      "text": "It was a choice and it was about greed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 17,
+      "start": 77.92,
+      "end": 80.08,
+      "text": "Someone has forgotten about the human element.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 18,
+      "start": 80.08,
+      "end": 85.12,
+      "text": "A fight about where American wealth comes from and who should get to keep it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094878,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 19,
+      "start": 85.84,
+      "end": 90.24,
+      "text": "You could have saved these jobs, but you chose not to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 20,
+      "start": 96.14,
+      "end": 102.7,
+      "text": "In 1932, The New York Times reported on the many abuses that were alleged among companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 21,
+      "start": 102.7,
+      "end": 104.94,
+      "text": "doing this new stock buyback thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 22,
+      "start": 104.94,
+      "end": 109.9,
+      "text": "Abuses like using the corporation's funds to buy shares from directors,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 23,
+      "start": 109.9,
+      "end": 115.66,
+      "text": "officers, and other persons friendly to the management, also known as insider trading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 24,
+      "start": 116.22,
+      "end": 119.18,
+      "text": "The president signed a new law to make them stop.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090509,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 25,
+      "start": 119.18,
+      "end": 122.06,
+      "text": "The Securities and Exchange Act of 1934.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 26,
+      "start": 122.62,
+      "end": 125.9,
+      "text": "It cracked down on manipulation and insider trading.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 27,
+      "start": 125.9,
+      "end": 129.74,
+      "text": "And corporations took this to mean that their buyback days were over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 28,
+      "start": 129.74,
+      "end": 131.18,
+      "text": "They pretty much stopped doing them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 29,
+      "start": 132.94,
+      "end": 138.3,
+      "text": "And without buybacks for an option, corporations basically had three choices for what to do with",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 30,
+      "start": 138.3,
+      "end": 139.02,
+      "text": "their profits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 31,
+      "start": 139.82,
+      "end": 144.94,
+      "text": "Option one, reinvest them back in the company, build new factories, create new products.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 32,
+      "start": 145.74,
+      "end": 148.14,
+      "text": "Option two, raise wages for employees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092634,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 33,
+      "start": 149.26,
+      "end": 153.02,
+      "text": "Option three, issue a dividend and hand the profits over to investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 34,
+      "start": 154.46,
+      "end": 158.94,
+      "text": "Most American companies did a mix of all three, with the bulk of profits going towards",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 35,
+      "start": 158.94,
+      "end": 160.3,
+      "text": "reinvestment and wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 36,
+      "start": 161.66,
+      "end": 165.26,
+      "text": "Over time, technology improved and workers made more stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 37,
+      "start": 165.98,
+      "end": 171.34,
+      "text": "The productivity of American workers nearly doubled in the 30 years after World War II,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 38,
+      "start": 171.34,
+      "end": 172.78,
+      "text": "and so did hourly wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 39,
+      "start": 173.34,
+      "end": 175.66,
+      "text": "This helped build the American middle class.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 40,
+      "start": 176.38,
+      "end": 177.74,
+      "text": "But things didn't stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101938,
+      "no_speech_prob": 0.000166
+    },
+    {
+      "index": 41,
+      "start": 178.46,
+      "end": 181.34,
+      "text": "Productivity kept rising, but wages flatlined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 42,
+      "start": 182.46,
+      "end": 186.22,
+      "text": "A new political and economic philosophy had taken hold.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 43,
+      "start": 187.58,
+      "end": 190.14,
+      "text": "Government is not the solution to our problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 44,
+      "start": 191.02,
+      "end": 192.7,
+      "text": "Government is the problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 45,
+      "start": 192.7,
+      "end": 197.02,
+      "text": "When Ronald Reagan was elected, the Securities and Exchange Act had successfully been",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 46,
+      "start": 197.02,
+      "end": 200.3,
+      "text": "scaring companies away from doing buybacks for 50 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 47,
+      "start": 200.94,
+      "end": 205.66,
+      "text": "But that changed after Reagan appointed a former investment banker named John Shad",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 48,
+      "start": 205.66,
+      "end": 207.02,
+      "text": "to the top enforcement job.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074976,
+      "no_speech_prob": 0.000473
+    },
+    {
+      "index": 49,
+      "start": 207.82,
+      "end": 212.06,
+      "text": "He wanted companies to put less of their profits into reinvestment and wages.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 50,
+      "start": 212.06,
+      "end": 214.14,
+      "text": "He thought more should go to investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 51,
+      "start": 214.14,
+      "end": 217.1,
+      "text": "So in 1982, he changed the rules.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 52,
+      "start": 217.1,
+      "end": 222.14,
+      "text": "For the first time since the 1930s, companies could buyback shares of their own stock from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 53,
+      "start": 222.14,
+      "end": 223.1,
+      "text": "investors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 54,
+      "start": 223.1,
+      "end": 226.14,
+      "text": "And they didn't have to worry about the government coming after them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 55,
+      "start": 226.86,
+      "end": 228.3,
+      "text": "Buybacks were back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 56,
+      "start": 229.82,
+      "end": 232.78,
+      "text": "It was a really good time to be an investor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 57,
+      "start": 233.58,
+      "end": 236.06,
+      "text": "Investors wanted to keep that money flowing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080061,
+      "no_speech_prob": 0.000116
+    },
+    {
+      "index": 58,
+      "start": 236.14,
+      "end": 238.86,
+      "text": "So they changed the way that CEOs got paid.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 59,
+      "start": 238.86,
+      "end": 244.54,
+      "text": "Instead of just earning a salary, CEOs could get a bonus if the company's stock price went up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 60,
+      "start": 245.26,
+      "end": 248.7,
+      "text": "The quickest way to raise the stock price was to do a buyback.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 61,
+      "start": 249.58,
+      "end": 252.7,
+      "text": "So CEOs started doing them all the time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 62,
+      "start": 253.82,
+      "end": 259.9,
+      "text": "1982, the biggest American companies spent less than 1% of their profits on stock buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 63,
+      "start": 259.9,
+      "end": 264.86,
+      "text": "By 2008, just before the recession, that share had jumped to 77%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07981,
+      "no_speech_prob": 5.5e-05
+    },
+    {
+      "index": 64,
+      "start": 266.06,
+      "end": 267.42,
+      "text": "Fast forward to today.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 65,
+      "start": 267.42,
+      "end": 272.46,
+      "text": "And companies are spending 65% of their profits buying back shares of their own stock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 66,
+      "start": 273.18,
+      "end": 281.82,
+      "text": "The pay gap between American CEOs and their workers has grown from 15 to 1 to 220 to 1",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104749,
+      "no_speech_prob": 0.000357
+    },
+    {
+      "index": 71,
+      "start": 302.7,
+      "end": 305.26,
+      "text": "these three companies spend on buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 72,
+      "start": 305.9,
+      "end": 308.86,
+      "text": "Volkswagen hasn't done any since 2012.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 73,
+      "start": 309.5,
+      "end": 314.46,
+      "text": "And Toyota's biggest buyback years are roughly the size of GM's smallest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 74,
+      "start": 315.1,
+      "end": 318.94,
+      "text": "The more of their profits GM gave to executives and shareholders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057544,
+      "no_speech_prob": 0.092529
+    },
+    {
+      "index": 75,
+      "start": 318.94,
+      "end": 322.06,
+      "text": "the less was left over for reinvestment and for workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 76,
+      "start": 324.88,
+      "end": 329.44,
+      "text": "In 2000, GM had the largest market share of any automaker in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 77,
+      "start": 330.08,
+      "end": 333.52,
+      "text": "By 2017, it had fallen to number four.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 78,
+      "start": 333.52,
+      "end": 338.08,
+      "text": "And as its market share shrank, GM shuttered plants across the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 79,
+      "start": 338.08,
+      "end": 341.04,
+      "text": "and tens of thousands of workers lost their jobs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 80,
+      "start": 342.0,
+      "end": 347.76,
+      "text": "For decades, this General Motors plant in Lordstown, Ohio was the biggest employer in the county.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081406,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 81,
+      "start": 348.4,
+      "end": 353.2,
+      "text": "It opened in the 1960s and started out making big stands and muscle cars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 82,
+      "start": 353.2,
+      "end": 357.6,
+      "text": "But when people's preferences changed or one model was discontinued,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 83,
+      "start": 357.6,
+      "end": 360.64,
+      "text": "GM would retool the plant to make a different kind of car.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 84,
+      "start": 361.28,
+      "end": 366.16,
+      "text": "But in 2015, GM promised investors another massive stock buyback.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 85,
+      "start": 366.88,
+      "end": 370.72,
+      "text": "To cut costs, they started eliminating shifts at the Lordstown plant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 86,
+      "start": 371.36,
+      "end": 374.88,
+      "text": "Another cutback, the second shift, will be dropped in two months.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 87,
+      "start": 374.88,
+      "end": 377.6,
+      "text": "Where am I going to go? Everybody's going to find a place now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096465,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 88,
+      "start": 378.32,
+      "end": 382.72,
+      "text": "It is the end of the line for the General Motors plant in Lordstown, Ohio.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 89,
+      "start": 382.72,
+      "end": 389.12,
+      "text": "The cuts come as the automaker is reporting a near record $12 billion profit last year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 90,
+      "start": 390.08,
+      "end": 392.64,
+      "text": "A few months after the GM plant closed down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 91,
+      "start": 392.64,
+      "end": 395.84,
+      "text": "the local supplier that built the rear suspensions went out of business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 92,
+      "start": 396.56,
+      "end": 398.72,
+      "text": "Same with the local factory that built the seats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 93,
+      "start": 399.68,
+      "end": 402.88,
+      "text": "Plans for a new hospital building in town were put on hold.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 94,
+      "start": 402.88,
+      "end": 406.08,
+      "text": "As paychecks dried up, a local restaurant closed its doors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054822,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 95,
+      "start": 406.88,
+      "end": 409.68,
+      "text": "Economists call it the multiplier effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 96,
+      "start": 409.68,
+      "end": 414.24,
+      "text": "One study predicted that every four jobs lost at GM's Lordstown plant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 97,
+      "start": 414.24,
+      "end": 418.56,
+      "text": "would trigger three more job losses among suppliers and other local businesses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 98,
+      "start": 419.44,
+      "end": 422.96,
+      "text": "That's why laid-off auto workers aren't the only ones in Lordstown",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 99,
+      "start": 422.96,
+      "end": 425.28,
+      "text": "who understand the effects of GM's choices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 100,
+      "start": 425.92,
+      "end": 427.28,
+      "text": "So do teachers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 101,
+      "start": 427.28,
+      "end": 430.24,
+      "text": "There were some students who just changed tremendously.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 102,
+      "start": 430.24,
+      "end": 433.52,
+      "text": "This is all tremendous upheaval for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056546,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 103,
+      "start": 433.6,
+      "end": 436.88,
+      "text": "When you look around, you drive around our town, there's a lot of farming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 104,
+      "start": 436.88,
+      "end": 439.92,
+      "text": "But General Motors is pretty much the town.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 105,
+      "start": 439.92,
+      "end": 443.68,
+      "text": "There was a time where the budget was made up mostly of General Motors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 106,
+      "start": 443.68,
+      "end": 445.52,
+      "text": "We lose that revenue from General Motors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 107,
+      "start": 445.52,
+      "end": 447.36,
+      "text": "That's going to be really tough for us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 108,
+      "start": 447.36,
+      "end": 450.32,
+      "text": "I hesitate to use the word traumatic, but it is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 109,
+      "start": 450.32,
+      "end": 455.2,
+      "text": "Because when something like this sudden happens, it rocks your world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 110,
+      "start": 455.92,
+      "end": 458.72,
+      "text": "A year before GM shut down the Lordstown plant,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 111,
+      "start": 458.72,
+      "end": 462.4,
+      "text": "President Trump and Republicans in Congress lowered the corporate tax rate",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065552,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 112,
+      "start": 462.4,
+      "end": 464.96,
+      "text": "from 37 percent to 21 percent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 113,
+      "start": 465.52,
+      "end": 470.64,
+      "text": "Those who supported the cuts predicted that corporations would reinvest those tax savings",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 114,
+      "start": 470.64,
+      "end": 472.72,
+      "text": "and that workers would benefit the most.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 115,
+      "start": 473.44,
+      "end": 476.64,
+      "text": "The vast majority of businesses are going to do just what we say,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 116,
+      "start": 476.64,
+      "end": 481.52,
+      "text": "reinvest in their workers, reinvest in their factories, pay people more money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 117,
+      "start": 481.52,
+      "end": 486.96,
+      "text": "When our businesses pay less in taxes, they reinvest that money into their companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 118,
+      "start": 486.96,
+      "end": 490.16,
+      "text": "But according to the Nonpartisan Congressional Research Service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.104092,
+      "no_speech_prob": 0.000144
+    },
+    {
+      "index": 119,
+      "start": 490.72,
+      "end": 491.76,
+      "text": "that's not what happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 120,
+      "start": 492.64,
+      "end": 497.68,
+      "text": "The CRS studied the effects of the new tax law a year and a half after it passed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 121,
+      "start": 497.68,
+      "end": 502.08,
+      "text": "and they found very little growth in wage rates among ordinary workers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 122,
+      "start": 502.96,
+      "end": 507.84,
+      "text": "What they did find was evidence for a record-breaking amount of stock buybacks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 123,
+      "start": 507.84,
+      "end": 511.76,
+      "text": "with $1 trillion announced by the end of 2018.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 124,
+      "start": 513.36,
+      "end": 518.56,
+      "text": "For decades, stock buybacks have been secretly reshaping the American economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059072,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 125,
+      "start": 518.56,
+      "end": 521.04,
+      "text": "And now, politicians are taking notice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 126,
+      "start": 521.6,
+      "end": 525.84,
+      "text": "Republican Senator Marco Rubio has suggested giving extra tax breaks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 127,
+      "start": 525.84,
+      "end": 529.52,
+      "text": "to companies that reinvest their profits instead of doing buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 128,
+      "start": 530.32,
+      "end": 534.64,
+      "text": "Democratic Senators Elizabeth Warren and Bernie Sanders have called for getting rid",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 129,
+      "start": 534.64,
+      "end": 538.48,
+      "text": "of the Reagan-era rule that protects companies when they do buybacks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 130,
+      "start": 538.48,
+      "end": 541.68,
+      "text": "They want to make it easier for the SEC to investigate them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 131,
+      "start": 541.68,
+      "end": 546.0,
+      "text": "in the hopes that these companies will once again be too scared to do buybacks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 132,
+      "start": 546.0,
+      "end": 547.84,
+      "text": "just like they were in the 1930s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086746,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 133,
+      "start": 548.96,
+      "end": 554.32,
+      "text": "Warren is also calling for a new rule that would give workers mandatory seats on corporate boards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 134,
+      "start": 554.88,
+      "end": 558.96,
+      "text": "That way, they'd have a chance to vote on those big bonuses that CEOs get",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 135,
+      "start": 558.96,
+      "end": 560.56,
+      "text": "when a company's stock price goes up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 136,
+      "start": 561.12,
+      "end": 564.08,
+      "text": "That's how German companies have done things for decades,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 137,
+      "start": 564.08,
+      "end": 566.08,
+      "text": "and buybacks there are way less common.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 138,
+      "start": 566.88,
+      "end": 569.2,
+      "text": "But in America, they have a long history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 139,
+      "start": 569.76,
+      "end": 574.56,
+      "text": "Buybacks began in an era when less than 1% of America's population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 140,
+      "start": 574.56,
+      "end": 576.88,
+      "text": "held nearly a quarter of its wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065481,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 141,
+      "start": 578.8,
+      "end": 582.56,
+      "text": "Today, buybacks are back, and the American economy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 142,
+      "start": 582.56,
+      "end": 585.04,
+      "text": "looks a lot like it did in the 1920s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 143,
+      "start": 585.68,
+      "end": 589.52,
+      "text": "The question now is whether we want it to stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134766,
+      "no_speech_prob": 0.000213
+    }
+  ],
+  "context_text_chronological": "On October 24th, 1929, the American stock market crashed. The York Stock Exchange is in a panic. Frantic investors have scrambled to unload their stocks at any price. Fortunes disappeared overnight and the value of American companies tanked. But the people in charge of those companies had an idea. They started buying shares of their own company stock from investors, which meant that there were fewer stocks out there for other people to buy. And when there's less of something, the price goes up. Normally, to raise their stock prices, these companies would have had to do something to get investors excited and then to new product or a different way of doing things. But with this, corporations had discovered a kind of magic trick. They could jack up their stock price without really doing anything. This is a stock buyback, an attempt by the owners of America's biggest corporations to hang onto their wealth while the rest of the country suffered the worst depression ever. This practice helped fundamentally reshape the American economy and it set the stage for a century-long fight we're still having. It was a choice and it was about greed. Someone has forgotten about the human element. A fight about where American wealth comes from and who should get to keep it. You could have saved these jobs, but you chose not to. In 1932, The New York Times reported on the many abuses that were alleged among companies doing this new stock buyback thing. Abuses like using the corporation's funds to buy shares from directors, officers, and other persons friendly to the management, also known as insider trading. The president signed a new law to make them stop. The Securities and Exchange Act of 1934. It cracked down on manipulation and insider trading. And corporations took this to mean that their buyback days were over. They pretty much stopped doing them. And without buybacks for an option, corporations basically had three choices for what to do with their profits. Option one, reinvest them back in the company, build new factories, create new products. Option two, raise wages for employees. Option three, issue a dividend and hand the profits over to investors. Most American companies did a mix of all three, with the bulk of profits going towards reinvestment and wages. Over time, technology improved and workers made more stuff. The productivity of American workers nearly doubled in the 30 years after World War II, and so did hourly wages. This helped build the American middle class. But things didn't stay that way. Productivity kept rising, but wages flatlined. A new political and economic philosophy had taken hold. Government is not the solution to our problem. Government is the problem. When Ronald Reagan was elected, the Securities and Exchange Act had successfully been scaring companies away from doing buybacks for 50 years. But that changed after Reagan appointed a former investment banker named John Shad to the top enforcement job. He wanted companies to put less of their profits into reinvestment and wages. He thought more should go to investors. So in 1982, he changed the rules. For the first time since the 1930s, companies could buyback shares of their own stock from investors. And they didn't have to worry about the government coming after them. Buybacks were back. It was a really good time to be an investor. Investors wanted to keep that money flowing. So they changed the way that CEOs got paid. Instead of just earning a salary, CEOs could get a bonus if the company's stock price went up. The quickest way to raise the stock price was to do a buyback. So CEOs started doing them all the time. 1982, the biggest American companies spent less than 1% of their profits on stock buybacks. By 2008, just before the recession, that share had jumped to 77%. Fast forward to today. And companies are spending 65% of their profits buying back shares of their own stock. The pay gap between American CEOs and their workers has grown from 15 to 1 to 220 to 1 these three companies spend on buybacks. Volkswagen hasn't done any since 2012. And Toyota's biggest buyback years are roughly the size of GM's smallest. The more of their profits GM gave to executives and shareholders, the less was left over for reinvestment and for workers. In 2000, GM had the largest market share of any automaker in the world. By 2017, it had fallen to number four. And as its market share shrank, GM shuttered plants across the US and tens of thousands of workers lost their jobs. For decades, this General Motors plant in Lordstown, Ohio was the biggest employer in the county. It opened in the 1960s and started out making big stands and muscle cars. But when people's preferences changed or one model was discontinued, GM would retool the plant to make a different kind of car. But in 2015, GM promised investors another massive stock buyback. To cut costs, they started eliminating shifts at the Lordstown plant. Another cutback, the second shift, will be dropped in two months. Where am I going to go? Everybody's going to find a place now. It is the end of the line for the General Motors plant in Lordstown, Ohio. The cuts come as the automaker is reporting a near record $12 billion profit last year. A few months after the GM plant closed down, the local supplier that built the rear suspensions went out of business. Same with the local factory that built the seats. Plans for a new hospital building in town were put on hold. As paychecks dried up, a local restaurant closed its doors. Economists call it the multiplier effect. One study predicted that every four jobs lost at GM's Lordstown plant would trigger three more job losses among suppliers and other local businesses. That's why laid-off auto workers aren't the only ones in Lordstown who understand the effects of GM's choices. So do teachers. There were some students who just changed tremendously. This is all tremendous upheaval for them. When you look around, you drive around our town, there's a lot of farming. But General Motors is pretty much the town. There was a time where the budget was made up mostly of General Motors. We lose that revenue from General Motors. That's going to be really tough for us. I hesitate to use the word traumatic, but it is. Because when something like this sudden happens, it rocks your world. A year before GM shut down the Lordstown plant, President Trump and Republicans in Congress lowered the corporate tax rate from 37 percent to 21 percent. Those who supported the cuts predicted that corporations would reinvest those tax savings and that workers would benefit the most. The vast majority of businesses are going to do just what we say, reinvest in their workers, reinvest in their factories, pay people more money. When our businesses pay less in taxes, they reinvest that money into their companies. But according to the Nonpartisan Congressional Research Service, that's not what happened. The CRS studied the effects of the new tax law a year and a half after it passed, and they found very little growth in wage rates among ordinary workers. What they did find was evidence for a record-breaking amount of stock buybacks, with $1 trillion announced by the end of 2018. For decades, stock buybacks have been secretly reshaping the American economy. And now, politicians are taking notice. Republican Senator Marco Rubio has suggested giving extra tax breaks to companies that reinvest their profits instead of doing buybacks. Democratic Senators Elizabeth Warren and Bernie Sanders have called for getting rid of the Reagan-era rule that protects companies when they do buybacks. They want to make it easier for the SEC to investigate them, in the hopes that these companies will once again be too scared to do buybacks, just like they were in the 1930s. Warren is also calling for a new rule that would give workers mandatory seats on corporate boards. That way, they'd have a chance to vote on those big bonuses that CEOs get when a company's stock price goes up. That's how German companies have done things for decades, and buybacks there are way less common. But in America, they have a long history. Buybacks began in an era when less than 1% of America's population held nearly a quarter of its wealth. Today, buybacks are back, and the American economy looks a lot like it did in the 1920s. The question now is whether we want it to stay that way.",
+  "target_text_for_audit": "You can see what a uniquely American phenomenon this is when you compare the compensation for General Motors CEO with her counterparts at Volkswagen in Germany and Toyota in Japan. And you can see part of the reason for this gap when you look at how much of their profits",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 3,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "You can see what a uniquely American phenomenon this is when you compare the compensation for General Motors CEO",
+        "start_source": 284.62,
+        "end_source": 291.5,
+        "matching_cue_ids": [
+          68,
+          69
+        ],
+        "text_similarity": 0.7698,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "with her counterparts at Volkswagen in Germany and Toyota in Japan.",
+        "start_source": 292.09,
+        "end_source": 296.74,
+        "matching_cue_ids": [
+          69
+        ],
+        "text_similarity": 0.8742,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "And you can see part of the reason for this gap when you look at how much of their profits these people have earned.",
+        "start_source": 297.38,
+        "end_source": 303.0,
+        "matching_cue_ids": [
+          70
+        ],
+        "text_similarity": 0.878,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\ylLTMYt24lA.webm",
+    "cue_count": 144
+  },
+  "token_estimate_char_div_4": 2101
+}

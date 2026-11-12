@@ -1,6 +1,11 @@
 {
- "clip_id": "area_46",
- "family": "area",
- "sub_type": "two_panel_area",
- "orientation": "cartesian"
+  "clip_id": "area_46",
+  "family": "area",
+  "sub_type": "area_tile_map",
+  "orientation": "tile_map",
+  "total_tiles": 51,
+  "axis_semantics": {
+    "x": "",
+    "y": "Share of US adults (%)"
+  }
 }

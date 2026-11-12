@@ -1,21 +1,50 @@
 {
  "clip_id": "area_7",
  "family": "area",
- "sub_type": "two_panel_area",
- "orientation": "cartesian",
- "series_count": 2,
+ "sub_type": "mirrored_age_distribution_panels",
+ "orientation": "horizontal",
+ "series_count": 1,
  "has_reference_line": false,
  "panel_count": 2,
- "has_axis": false,
+ "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 14,
- "row_count": 161,
+ "row_count": 159,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "semantic_structure": "Two independent age-distribution panels. Population is encoded by relative horizontal width; age is encoded by vertical position.",
+ "sex_encoding": "not established by the source narration or visible labels",
+ "panel_ranges": {
+  "Population in 1972": {
+   "age_min": 0.0,
+   "age_max": 74.0,
+   "rows": 75,
+   "relative_width_max": 1.0
+  },
+  "Population in 2019": {
+   "age_min": 0.0,
+   "age_max": 83.0,
+   "rows": 84,
+   "relative_width_max": 1.0
+  }
+ },
+ "axis_ranges": {
+  "x": {
+   "mode": "relative",
+   "min": 0,
+   "max": 1
+  },
+  "y": {
+   "mode": "linear",
+   "min": 0,
+   "max": 100
+  }
+ },
+ "batch_status": "approved"
 }

@@ -1,11 +1,11 @@
 {
  "clip_id": "area_22",
  "family": "area",
- "sub_type": "bubble",
+ "sub_type": "proportional_sphere_volume",
  "orientation": "cartesian",
- "series_count": 2,
+ "series_count": 1,
  "has_reference_line": false,
- "panel_count": 0,
+ "panel_count": 1,
  "has_axis": false,
  "has_legend": null,
  "has_value_labels": null,
@@ -16,6 +16,11 @@
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "volume",
+ "size_mapping": "radius proportional to cube root of volume",
+ "entity_count": 2,
+ "batch_status": "approved"
 }

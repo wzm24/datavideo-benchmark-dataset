@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DataVideo Benchmark 评测契约 v2</title>
+<style>
+body{font-family:"Microsoft YaHei","Noto Sans SC",Segoe UI,sans-serif;max-width:1200px;margin:32px auto;padding:0 28px;line-height:1.7;color:#20242b;background:#fff}
+h1{font-size:30px;border-bottom:2px solid #263238;padding-bottom:12px}
+h2{margin-top:34px;border-bottom:1px solid #d9dde5;padding-bottom:7px}
+h3{margin-top:24px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px}
+th,td{border:1px solid #d9dde5;padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f0f3f7}
+code{background:#eef1f5;padding:2px 5px;border-radius:4px}
+pre{background:#f5f7fa;border:1px solid #e1e5eb;padding:14px;overflow:auto;border-radius:8px}
+blockquote{border-left:4px solid #59748a;margin-left:0;padding-left:16px;color:#4d5964;background:#f7f9fb}
+</style></head><body>
+<h1>数据视频基准评测契约 v2</h1>
+<p>日期：2026-11-05<br />
+适用范围：V1–V4 data-video generation 实验<br />
+状态：本轮实验的有效契约。与旧版协议冲突处，以本文件为准；旧版保留为历史设计记录。</p>
+<h2>1. 任务定义</h2>
+<p>模型根据公开输入生成：</p>
+<ol>
+<li>目标时间段的 narration；</li>
+<li>可执行的 HTML/SVG 动画；</li>
+<li>最终可播放视频。</li>
+</ol>
+<p>评测对象是最终运行结果，不是模型声称的计划、metadata 或代码注释。</p>
+<p>公开任务只允许使用输入中给出的数据。除 <code>table</code> 明确提供的事实外，不得把原视频 narration、原视频字幕或外部知识当成事实真值。</p>
+<h2>2. 输入契约</h2>
+<p>四档共同包含：</p>
+<ul>
+<li><code>intent</code></li>
+<li><code>data_table</code></li>
+<li><code>input_spec</code></li>
+</ul>
+<p>两档额外包含目标片段前后的源视频 narration context；该 context 中，目标时间段的原文必须完全遮住。</p>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th style="text-align: right;">intent + table + spec</th>
+<th style="text-align: right;">narrative context（目标遮罩）</th>
+<th style="text-align: right;">reference SVG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>V2</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>V3</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">✓</td>
+</tr>
+<tr>
+<td>V4</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;">✓</td>
+<td style="text-align: right;">✓</td>
+</tr>
+</tbody>
+</table>
+<h3>2.1 Context 定义</h3>
+<p>上下文必须来自<strong>同一个源视频</strong>，而不是按 clip 名猜测的来源。</p>
+<p>每个 clip 的 context 记录：</p>
+<ul>
+<li><code>video_id</code></li>
+<li><code>source_url</code></li>
+<li><code>target_window</code>（源视频绝对时间）</li>
+<li><code>target_cue_ids</code>（被遮罩的 transcript 单元）</li>
+<li><code>context_before</code></li>
+<li><code>context_after</code></li>
+<li><code>verification</code>（目标窗口与现有 narration 的时间/文本核对）</li>
+</ul>
+<p>目标遮罩规则：</p>
+<ol>
+<li>按完整句子/cue 边界遮罩；</li>
+<li>与目标窗口重叠的句段不得部分保留；</li>
+<li>目标遮罩向两侧最多扩 1.5 秒，防止边界泄露；</li>
+<li>context 中可以出现与目标事实相关的背景，但不得直接提供目标句的完整文本。</li>
+</ol>
+<p>全量 context 用于 <code>context_full</code> 实验臂；<code>context20</code> 实验臂从 153 条 bar clip 中按固定种子随机抽取 20 条，被抽中的每条仍使用完整且目标遮罩后的 context。两个臂均使用相同 target 遮罩。</p>
+<p>源视频完整转写统一使用同一个 ASR 模型、版本、语言和 VAD 配置。不得把 YouTube 字幕、不同 Whisper 模型或其他转写来源混入同一实验结果。源视频公开且可能出现在模型训练语料中，因此上下文污染作为已知混杂因素报告，但目标时间段的转写必须遮罩。</p>
+<h2>3. GT 分层</h2>
+<table>
+<thead>
+<tr>
+<th>层</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G0</td>
+<td>数据事实、单位、口径、允许推断、禁止推断</td>
+</tr>
+<tr>
+<td>G1</td>
+<td>相对 intent 的必需语义单元；四档共同使用 intent + table 派生</td>
+</tr>
+<tr>
+<td>G2</td>
+<td>每个 G1 unit 所需的可观察视觉证据</td>
+</tr>
+<tr>
+<td>G3</td>
+<td>视觉证据与生成 narration 的时间关系</td>
+</tr>
+<tr>
+<td>G4</td>
+<td>实际生成结果的人工验证、叙事质量和呈现质量评分</td>
+</tr>
+<tr>
+<td>S</td>
+<td>仅 V3/V4：对参考 SVG 的结构、编码和风格遵守度</td>
+</tr>
+</tbody>
+</table>
+<p>G1 不从目标原 narration 派生。原 narration 仅用于：</p>
+<ul>
+<li>构造 narrative context；</li>
+<li>作为评测参考路径；</li>
+<li>辅助发现目标窗口边界。</li>
+</ul>
+<p>原 narration 不是叙事金标准，也不能覆盖 table 的事实约束。</p>
+<h2>4. 信</h2>
+<h3>4.1 Claim 标签</h3>
+<p>分别抽取并去重：</p>
+<ul>
+<li>narration factual claims；</li>
+<li>visual factual assertions。</li>
+</ul>
+<p>每个 claim 标为：</p>
+<ul>
+<li><code>supported</code></li>
+<li><code>contradicted</code></li>
+<li><code>unsupported</code></li>
+<li><code>unresolved</code></li>
+</ul>
+<h3>4.2 推断规则</h3>
+<p>允许：</p>
+<ul>
+<li>同一实体、同一单位、同一口径内的加减、差值、比例；</li>
+<li>明确整体时的补集；</li>
+<li>轴/刻度可读时的估读，误差不超过声明容差；</li>
+<li>明确标为约数、near、over、under 的近似表达。</li>
+</ul>
+<p>不允许：</p>
+<ul>
+<li>把多个分组统计量重新平均成总体平均；</li>
+<li>从相关关系外推因果；</li>
+<li>编造未提供的外部基准；</li>
+<li>跨实体、跨时间或跨口径无依据推断；</li>
+<li>为视觉效果改变数值、比例或坐标编码。</li>
+</ul>
+<h3>4.3 错误分级</h3>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>定义</th>
+<th>处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Critical</td>
+<td>改变 intent 核心结论、实体、方向、数量级或关键数据；图表编码明显歪曲事实</td>
+<td><code>Faithfulness=0</code></td>
+</tr>
+<tr>
+<td>Major</td>
+<td>新增未被输入支持的非核心事实、口径或因果</td>
+<td>计入 unsupported/contradicted</td>
+</tr>
+<tr>
+<td>Minor</td>
+<td>在公开容差内的舍入、估读、措辞近似</td>
+<td>不扣事实通过，记录误差</td>
+</tr>
+</tbody>
+</table>
+<h3>4.4 Faithfulness</h3>
+<pre><code class="language-text">NarrationFactuality = supported narration claims / all adjudicated narration claims
+VisualFactuality = supported visual assertions / all adjudicated visual assertions
+</code></pre>
+<pre><code class="language-text">if CriticalError:
+    Faithfulness = 0
+else:
+    Faithfulness = harmonic_mean(NarrationFactuality, VisualFactuality)
+</code></pre>
+<p><code>unresolved</code> 同时报告下界和上界，不直接删除样本。</p>
+<h2>5. 达</h2>
+<h3>5.1 G1</h3>
+<p>沿用协议 §2.4：</p>
+<ul>
+<li>一个 intent 槽对应一个 unit；</li>
+<li>unit 必须可由 table 判定；</li>
+<li>删除该 unit 后 intent 无法完成，才进入 required；</li>
+<li>同一槽的端点、差值、比值和排序视为同一条 unit 的不同 accepted routes。</li>
+</ul>
+<h3>5.2 G2</h3>
+<p>每个 unit 声明：</p>
+<ul>
+<li>必需 marks；</li>
+<li>实体和 series identity；</li>
+<li>轴、图例和标签条件；</li>
+<li>可接受证据路线；</li>
+<li>reject 条件。</li>
+</ul>
+<h3>5.3 G3</h3>
+<p>对每个 required visual unit：</p>
+<ul>
+<li>anchor 为实际完成的 narration sentence；</li>
+<li>默认检查窗口：句末前 1.0 秒到后 1.5 秒；</li>
+<li>dwell 最小值是草稿，待 G4 校准；</li>
+<li>比较和变化类必须看到完成状态，不能用半程动画代替。</li>
+</ul>
+<h3>5.4 完成度</h3>
+<pre><code class="language-text">ContentCompletion = Σ(w_u × C_u) / Σw_u
+VisualCompletion = Σ(w_u × V_u) / Σw_u
+Adequacy = JointCompletion
+         = Σ(w_u × C_u × V_u × T_u) / Σw_u
+</code></pre>
+<p>首版 unit 等权。渲染失败时 <code>Adequacy=0</code>。</p>
+<h2>6. 雅</h2>
+<p><code>雅</code> 只有两个一级维度：</p>
+<pre><code class="language-text">Elegance = mean(NarrativeQuality, PresentationQuality)
+</code></pre>
+<h3>6.1 NarrativeQuality</h3>
+<p>各主观项采用 1–5 分，并转换到 <code>[0,1]</code>：</p>
+<pre><code class="language-text">normalized(s) = (s - 1) / 4
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>核心问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Framing</td>
+<td>观众是否知道问题、对象、范围和这一段为什么存在</td>
+</tr>
+<tr>
+<td>Information selection</td>
+<td>是否选取服务 intent 的关键事实，避免过度复述</td>
+</tr>
+<tr>
+<td>Insight</td>
+<td>是否形成有数据支持的比较、趋势、异常、阈值或结论</td>
+</tr>
+<tr>
+<td>Coherence / context</td>
+<td>句子和视觉状态是否连贯；V2/V4 是否合理承接前后文而非照抄</td>
+</tr>
+<tr>
+<td>Closure / handoff</td>
+<td>是否完成 intent 或为下一段留下自然入口</td>
+</tr>
+<tr>
+<td>Narration comprehension</td>
+<td>仅看生成 audio 或 transcript，回答预先冻结的问题</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-text">NarrativeQuality = mean(
+  Framing,
+  InformationSelection,
+  Insight,
+  CoherenceContext,
+  ClosureHandoff,
+  NarrationComprehension
+)
+</code></pre>
+<h3>6.2 PresentationQuality</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>核心问题</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visual readability</td>
+<td>轴、图例、标签和 panel 是否清晰可读</td>
+</tr>
+<tr>
+<td>Animation effectiveness</td>
+<td>动画是否帮助理解变化、比较、顺序和重点</td>
+</tr>
+<tr>
+<td>Transition coherence</td>
+<td>场景转换是否保留对象身份、比较基准和叙事关系</td>
+</tr>
+<tr>
+<td>Pacing</td>
+<td>出现、停留和切换是否有足够阅读时间</td>
+</tr>
+<tr>
+<td>Aesthetic coherence</td>
+<td>色彩、字体、构图、层级和装饰是否统一</td>
+</tr>
+<tr>
+<td>Visual comprehension</td>
+<td>只看 muted video，回答预先冻结的图表问题</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-text">PresentationQuality = mean(
+  VisualReadability,
+  AnimationEffectiveness,
+  TransitionCoherence,
+  Pacing,
+  AestheticCoherence,
+  VisualComprehension
+)
+</code></pre>
+<p>Full-video comprehension 单独记录，用于诊断两种模态的结合效果。</p>
+<h3>6.3 Comprehension QA</h3>
+<p>每个 bar clip 至少生成三条四选一问题：</p>
+<ol>
+<li><code>main_takeaway</code>：视频想传达的主要判断；</li>
+<li><code>relation</code>：比较、趋势、排序、变化或占比；</li>
+<li><code>evidence_check</code>：哪项说法被数据支持/不受支持。</li>
+</ol>
+<p>约束：</p>
+<ul>
+<li>问题在模型输出前冻结；</li>
+<li>不直接复制参考 narration；</li>
+<li>每题只有一个正确答案；</li>
+<li>干扰项必须合理，但不能与正确答案同时成立；</li>
+<li>答案可由 table + G1 唯一确定；</li>
+<li>保存所绑定的 <code>unit_ids</code> 和证据；</li>
+<li>由独立于生成器的裁判模型在 <code>reasoning=enabled</code> 下出题并记录 usage；</li>
+<li>在冻结题库前对选项使用固定种子随机化，报告正确答案位置分布，避免位置偏差；</li>
+<li>四选一正确率进行 chance correction：</li>
+</ul>
+<pre><code class="language-text">Comprehension = max(0, (accuracy - 0.25) / 0.75)
+</code></pre>
+<h2>7. V3/V4 的 SVG 约束 S</h2>
+<p>单独报告，不混入 <code>Elegance</code>：</p>
+<pre><code class="language-text">StructureAdherence ∈ {0, 1}
+StyleSimilarity ∈ [0, 1]
+</code></pre>
+<p>硬结构包括：</p>
+<ul>
+<li>chart type / subtype；</li>
+<li>panel 和 series 数量；</li>
+<li>实体、标签、图例；</li>
+<li>轴方向与可见尺度；</li>
+<li>必需 mark 是否存在。</li>
+</ul>
+<p>软风格包括：</p>
+<ul>
+<li>颜色角色映射；</li>
+<li>字体层级；</li>
+<li>间距、布局和装饰密度；</li>
+<li>视觉层级与整体一致性。</li>
+</ul>
+<p><code>StructureAdherence=0</code> 时标记 contract failure，保留质量诊断分，但不进入正式排名。</p>
+<h2>8. 总分</h2>
+<pre><code class="language-text">Overall = 100 × mean(Faithfulness, Adequacy, Elegance)
+</code></pre>
+<p><code>Overall</code> 仅用于直观展示。主表必须同时报告：</p>
+<ul>
+<li>Faithfulness</li>
+<li>Adequacy</li>
+<li>Elegance</li>
+<li>NarrativeQuality</li>
+<li>PresentationQuality</li>
+<li>critical errors</li>
+<li>unresolved count</li>
+<li>RenderSuccess</li>
+<li>duration compliance</li>
+<li>StyleAdherence（V3/V4）</li>
+</ul>
+<h2>9. 评分者</h2>
+<ul>
+<li>生成模型不得给自己评分。</li>
+<li>Program 评测：运行、时长、音频、SVG 结构、G2/G3 和可读性几何。</li>
+<li>独立 VLM/LLM 裁判：NarrativeQuality、PresentationQuality 和理解题。</li>
+<li>人工评审：建立 20–30 条校准集，校准模型裁判，并裁决分差 ≥1 的样本。</li>
+<li>所有候选使用相同裁判模型、版本、提示、reasoning 配置和预算。</li>
+<li>叙事评分优先采用 blind pairwise；绝对 1–5 分只作为分解报告。</li>
+</ul>
+<h2>10. 本轮实验阶段</h2>
+<ol>
+<li>统一上下文来源和 ASR。</li>
+<li>为全部 bar clip 生成 Ya comprehension questions。</li>
+<li>使用 V4 契约，以 Qwen3.8 Flash 在关闭 reasoning 下运行：
+   - <code>context_full</code>：全部 153 条 bar clip，每条使用完整源视频 context；
+   - <code>context20</code>：固定种子随机 20 条 bar clip，每条仍使用完整源视频 context。</li>
+<li>生成模型做一次 fresh narration call 和一次 fresh HTML call。</li>
+<li>使用独立 DeepSeek 视觉裁判开启 reasoning，对全部有效结果评分。</li>
+<li>unresolved 和基础设施失败单独保留，不静默转为零分。</li>
+</ol>
+</body></html>

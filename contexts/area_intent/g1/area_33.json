@@ -1,0 +1,324 @@
+{
+ "clip_id": "area_33",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how coal-plant-equivalent capacity changes for the USA and China from 2000 to 2040.",
+ "chart_structure": {
+  "clip_id": "area_33",
+  "family": "area",
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare how coal-plant-equivalent capacity changes for the USA and China from 2000 to 2040.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2",
+    "U3",
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in the chart: USA, CHINA.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "USA",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r42",
+     "panel": "",
+     "entity": "CHINA",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "change",
+   "claim": "USA coal-plant-equivalent capacity rises from 434.8 in 2000 to 534.8 in 2040 (an increase of 100.0).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "USA",
+     "series": "",
+     "x": "2000",
+     "point_order": "1",
+     "field": "value",
+     "value": "434.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    },
+    {
+     "row_id": "r41",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "USA",
+     "series": "",
+     "x": "2040",
+     "point_order": "41",
+     "field": "value",
+     "value": "534.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    }
+   ],
+   "computation": "534.8 - 434.8 = 100.0",
+   "accept": [
+    "USA increases from 434.8 to 534.8",
+    "USA gains 100.0 600-MW power plant equivalents over 2000-2040"
+   ],
+   "reject": [
+    "USA decreases over the period",
+    "USA ends below its 2000 value"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "change",
+   "claim": "China coal-plant-equivalent capacity rises from 434.8 in 2000 to 2034.8 in 2040 (an increase of 1600.0).",
+   "basis": [
+    {
+     "row_id": "r42",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "CHINA",
+     "series": "",
+     "x": "2000",
+     "point_order": "1",
+     "field": "value",
+     "value": "434.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    },
+    {
+     "row_id": "r82",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "CHINA",
+     "series": "",
+     "x": "2040",
+     "point_order": "41",
+     "field": "value",
+     "value": "2034.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    }
+   ],
+   "computation": "2034.8 - 434.8 = 1600.0",
+   "accept": [
+    "China increases from 434.8 to 2034.8",
+    "China gains 1600.0 600-MW power plant equivalents over 2000-2040"
+   ],
+   "reject": [
+    "China decreases over the period",
+    "China ends below its 2000 value"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "China's capacity increase (1600.0) is much larger than the USA's increase (100.0) over 2000-2040, and China ends far above the USA in 2040 (2034.8 vs 534.8).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "USA",
+     "series": "",
+     "x": "2000",
+     "point_order": "1",
+     "field": "value",
+     "value": "434.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    },
+    {
+     "row_id": "r41",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "USA",
+     "series": "",
+     "x": "2040",
+     "point_order": "41",
+     "field": "value",
+     "value": "534.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    },
+    {
+     "row_id": "r42",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "CHINA",
+     "series": "",
+     "x": "2000",
+     "point_order": "1",
+     "field": "value",
+     "value": "434.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    },
+    {
+     "row_id": "r82",
+     "panel": "",
+     "x_axis": "Year",
+     "y_axis": "600-MW power plant equivalents",
+     "entity": "CHINA",
+     "series": "",
+     "x": "2040",
+     "point_order": "41",
+     "field": "value",
+     "value": "2034.8",
+     "unit": "600-MW power plant equivalents",
+     "role": "area"
+    }
+   ],
+   "computation": "China change 1600.0 vs USA change 100.0; 2040 values 2034.8 vs 534.8",
+   "accept": [
+    "China grows much more than the USA",
+    "China ends much higher than the USA in 2040",
+    "Both increase but China's increase dominates"
+   ],
+   "reject": [
+    "USA grows more than China",
+    "USA ends above China in 2040",
+    "The two series have similar growth"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Both series start at the same value of 434.8 in 2000.",
+  "USA reaches a local minimum of 414.8 around point_order 16 before rising.",
+  "China's capacity exceeds 1000 by point_order 16 and 2000 by point_order 40.",
+  "USA's 2040 value (534.8) is close to China's 2010 value (720.0) but still lower."
+ ],
+ "unsupported_to_avoid": [
+  "Claiming the chart shows actual historical data versus projections without explicit labeling.",
+  "Claiming China's capacity is exactly 4.68 times the USA's in 2040 without computing from the table.",
+  "Claiming any causal reason for the changes.",
+  "Claiming values for years not present in the sampled rows.",
+  "Claiming the areas represent shares of a total."
+ ],
+ "review_notes": [
+  "The intent asks to compare changes for two entities over time; three units capture each entity's change and the cross-entity comparison.",
+  "No separate trend unit is needed because the change units already imply the direction and magnitude.",
+  "The chart is an overlay area chart with two series; no stacking or share relation is implied."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 82,
+  "table_sha256": "a2f36c31bd4d44d315144af4362c2ad88743cab692333b9652d8c617ce3e2f16"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 8211,
+   "completion_tokens": 1086,
+   "total_tokens": 9297,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 7827
+  },
+  {
+   "prompt_tokens": 9547,
+   "completion_tokens": 52,
+   "total_tokens": 9599,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 9547
+  }
+ ],
+ "sec": 6.0
+}

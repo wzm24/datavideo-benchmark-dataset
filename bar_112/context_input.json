@@ -1,0 +1,842 @@
+{
+  "clip_id": "bar_112",
+  "family": "bar",
+  "video_id": "a0wHffQi4xo",
+  "source_url": "https://www.youtube.com/watch?v=a0wHffQi4xo",
+  "source_title": "Dewi and Putri: How Inequality Separates Two Girls from Indonesia",
+  "target_window_source": {
+    "start": 141.0,
+    "end": 150.0
+  },
+  "target_mask_interval": {
+    "start": 139.5,
+    "end": 151.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    28,
+    29
+  ],
+  "masked_cue_ids": [
+    27,
+    28,
+    29
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.78,
+      "end": 5.58,
+      "text": "Meet Dewey and Putri, two girls from Indonesia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 1,
+      "start": 5.58,
+      "end": 11.82,
+      "text": "Dewey's family is rich and belongs to the top 10% of households in terms of income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 2,
+      "start": 11.82,
+      "end": 14.86,
+      "text": "Putri's family is not as fortunate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 3,
+      "start": 14.86,
+      "end": 22.26,
+      "text": "They are in the bottom 10% of households, part of the 28 million people who live below the poverty line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 4,
+      "start": 22.26,
+      "end": 26.42,
+      "text": "Inequality divided these girls even before they were born.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 5,
+      "start": 26.66,
+      "end": 32.9,
+      "text": "Putri's mother did not visit a formal health facility while she was pregnant and did not get the right nutrition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 6,
+      "start": 32.9,
+      "end": 36.74,
+      "text": "Because of this, Putri was born under weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 7,
+      "start": 36.74,
+      "end": 45.38,
+      "text": "Dewey's mother, on the other hand, was able to visit her doctor regularly and get the right nutrition so that Dewey was born with a healthy weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 8,
+      "start": 45.38,
+      "end": 52.66,
+      "text": "During her first two years, Putri did not receive her full vaccinations and didn't get the right nutrition either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 9,
+      "start": 52.66,
+      "end": 60.66,
+      "text": "So, rather than catching up to Dewey, who continued to grow tall and healthy, Putri fell even further behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 10,
+      "start": 60.66,
+      "end": 64.82,
+      "text": "Dewey grew up in a house with clean running water and a toilet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 11,
+      "start": 64.82,
+      "end": 67.46,
+      "text": "Putri's family couldn't afford a toilet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 12,
+      "start": 67.46,
+      "end": 72.18,
+      "text": "Because she had to defecate in the open, she got diarrhea frequently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 13,
+      "start": 72.18,
+      "end": 79.14,
+      "text": "This made her growth even more stunted, while Dewey, who almost never had diarrhea, grew tall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 14,
+      "start": 79.14,
+      "end": 82.98,
+      "text": "Inequality deepened when the girls were old enough to start school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 15,
+      "start": 82.98,
+      "end": 88.9,
+      "text": "Dewey got a head start by attending early childhood education classes, which taught her how to learn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 16,
+      "start": 88.9,
+      "end": 92.26,
+      "text": "Putri, meanwhile, stayed at home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 17,
+      "start": 92.26,
+      "end": 98.26,
+      "text": "Dewey made it all the way to her high school graduation and then continued on to university.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 18,
+      "start": 98.26,
+      "end": 102.02,
+      "text": "Putri started school too and finished grade six.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 19,
+      "start": 102.02,
+      "end": 106.98,
+      "text": "But because the extra cost for books, uniforms, and travel were too high,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 20,
+      "start": 106.98,
+      "end": 109.86,
+      "text": "her family could not afford to keep her in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 21,
+      "start": 109.86,
+      "end": 114.5,
+      "text": "Instead, they needed her to earn extra income for the household.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 22,
+      "start": 114.5,
+      "end": 118.98,
+      "text": "With her education, Dewey found a job with good pay and benefits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 23,
+      "start": 118.98,
+      "end": 121.46,
+      "text": "Putri wasn't as fortunate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 24,
+      "start": 121.46,
+      "end": 128.66,
+      "text": "She had to settle for a job in the informal sector with less pay, less security, and fewer benefits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 25,
+      "start": 128.66,
+      "end": 132.42,
+      "text": "Without a good job, Putri won't be able to afford health care",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    },
+    {
+      "index": 26,
+      "start": 132.42,
+      "end": 135.3,
+      "text": "or make sure that her children stay in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    }
+  ],
+  "context_after": [
+    {
+      "index": 30,
+      "start": 154.02,
+      "end": 156.82,
+      "text": "It doesn't take much for them to slip into poverty.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    },
+    {
+      "index": 31,
+      "start": 156.82,
+      "end": 160.82,
+      "text": "A bad harvest, a lost job, and unexpected illness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 32,
+      "start": 161.7,
+      "end": 163.38,
+      "text": "But it doesn't have to be this way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 33,
+      "start": 164.26,
+      "end": 165.54,
+      "text": "Let's step back for a minute.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 34,
+      "start": 166.26,
+      "end": 169.86,
+      "text": "What if Putri's mother got the prenatal care and nutrition that she needed?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 35,
+      "start": 170.58,
+      "end": 173.3,
+      "text": "What if Putri had received all her vaccinations?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 36,
+      "start": 174.02,
+      "end": 176.18,
+      "text": "What if her home had clean water in a toilet?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 37,
+      "start": 177.06,
+      "end": 182.1,
+      "text": "What if Putri started school in kindergarten and could stay in school until she graduated from high school?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 38,
+      "start": 182.9,
+      "end": 187.06,
+      "text": "What if she had the chance to build her skills and find a job with a decent wage?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 39,
+      "start": 188.02,
+      "end": 193.14,
+      "text": "This would help not only Putri, but also her family and the generations that come after her.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 40,
+      "start": 193.78,
+      "end": 198.42,
+      "text": "And if other girls like Putri did the same, this could change their communities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 41,
+      "start": 198.42,
+      "end": 202.74,
+      "text": "And, add it all together, this could change Indonesia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 42,
+      "start": 202.74,
+      "end": 208.82,
+      "text": "But it all starts with giving Putri and Dewey and other kids like them an equal chance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.78,
+      "end": 5.58,
+      "text": "Meet Dewey and Putri, two girls from Indonesia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 1,
+      "start": 5.58,
+      "end": 11.82,
+      "text": "Dewey's family is rich and belongs to the top 10% of households in terms of income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 2,
+      "start": 11.82,
+      "end": 14.86,
+      "text": "Putri's family is not as fortunate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 3,
+      "start": 14.86,
+      "end": 22.26,
+      "text": "They are in the bottom 10% of households, part of the 28 million people who live below the poverty line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 4,
+      "start": 22.26,
+      "end": 26.42,
+      "text": "Inequality divided these girls even before they were born.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.219097,
+      "no_speech_prob": 0.104919
+    },
+    {
+      "index": 5,
+      "start": 26.66,
+      "end": 32.9,
+      "text": "Putri's mother did not visit a formal health facility while she was pregnant and did not get the right nutrition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 6,
+      "start": 32.9,
+      "end": 36.74,
+      "text": "Because of this, Putri was born under weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 7,
+      "start": 36.74,
+      "end": 45.38,
+      "text": "Dewey's mother, on the other hand, was able to visit her doctor regularly and get the right nutrition so that Dewey was born with a healthy weight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 8,
+      "start": 45.38,
+      "end": 52.66,
+      "text": "During her first two years, Putri did not receive her full vaccinations and didn't get the right nutrition either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113358,
+      "no_speech_prob": 0.016068
+    },
+    {
+      "index": 9,
+      "start": 52.66,
+      "end": 60.66,
+      "text": "So, rather than catching up to Dewey, who continued to grow tall and healthy, Putri fell even further behind.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 10,
+      "start": 60.66,
+      "end": 64.82,
+      "text": "Dewey grew up in a house with clean running water and a toilet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 11,
+      "start": 64.82,
+      "end": 67.46,
+      "text": "Putri's family couldn't afford a toilet.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 12,
+      "start": 67.46,
+      "end": 72.18,
+      "text": "Because she had to defecate in the open, she got diarrhea frequently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 13,
+      "start": 72.18,
+      "end": 79.14,
+      "text": "This made her growth even more stunted, while Dewey, who almost never had diarrhea, grew tall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10801,
+      "no_speech_prob": 0.00342
+    },
+    {
+      "index": 14,
+      "start": 79.14,
+      "end": 82.98,
+      "text": "Inequality deepened when the girls were old enough to start school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 15,
+      "start": 82.98,
+      "end": 88.9,
+      "text": "Dewey got a head start by attending early childhood education classes, which taught her how to learn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 16,
+      "start": 88.9,
+      "end": 92.26,
+      "text": "Putri, meanwhile, stayed at home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 17,
+      "start": 92.26,
+      "end": 98.26,
+      "text": "Dewey made it all the way to her high school graduation and then continued on to university.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 18,
+      "start": 98.26,
+      "end": 102.02,
+      "text": "Putri started school too and finished grade six.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095007,
+      "no_speech_prob": 0.004261
+    },
+    {
+      "index": 19,
+      "start": 102.02,
+      "end": 106.98,
+      "text": "But because the extra cost for books, uniforms, and travel were too high,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 20,
+      "start": 106.98,
+      "end": 109.86,
+      "text": "her family could not afford to keep her in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 21,
+      "start": 109.86,
+      "end": 114.5,
+      "text": "Instead, they needed her to earn extra income for the household.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 22,
+      "start": 114.5,
+      "end": 118.98,
+      "text": "With her education, Dewey found a job with good pay and benefits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 23,
+      "start": 118.98,
+      "end": 121.46,
+      "text": "Putri wasn't as fortunate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 24,
+      "start": 121.46,
+      "end": 128.66,
+      "text": "She had to settle for a job in the informal sector with less pay, less security, and fewer benefits.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071654,
+      "no_speech_prob": 0.074707
+    },
+    {
+      "index": 25,
+      "start": 128.66,
+      "end": 132.42,
+      "text": "Without a good job, Putri won't be able to afford health care",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    },
+    {
+      "index": 26,
+      "start": 132.42,
+      "end": 135.3,
+      "text": "or make sure that her children stay in school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    },
+    {
+      "index": 30,
+      "start": 154.02,
+      "end": 156.82,
+      "text": "It doesn't take much for them to slip into poverty.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.100967,
+      "no_speech_prob": 0.020615
+    },
+    {
+      "index": 31,
+      "start": 156.82,
+      "end": 160.82,
+      "text": "A bad harvest, a lost job, and unexpected illness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 32,
+      "start": 161.7,
+      "end": 163.38,
+      "text": "But it doesn't have to be this way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 33,
+      "start": 164.26,
+      "end": 165.54,
+      "text": "Let's step back for a minute.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 34,
+      "start": 166.26,
+      "end": 169.86,
+      "text": "What if Putri's mother got the prenatal care and nutrition that she needed?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 35,
+      "start": 170.58,
+      "end": 173.3,
+      "text": "What if Putri had received all her vaccinations?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 36,
+      "start": 174.02,
+      "end": 176.18,
+      "text": "What if her home had clean water in a toilet?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 37,
+      "start": 177.06,
+      "end": 182.1,
+      "text": "What if Putri started school in kindergarten and could stay in school until she graduated from high school?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087054,
+      "no_speech_prob": 0.002886
+    },
+    {
+      "index": 38,
+      "start": 182.9,
+      "end": 187.06,
+      "text": "What if she had the chance to build her skills and find a job with a decent wage?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 39,
+      "start": 188.02,
+      "end": 193.14,
+      "text": "This would help not only Putri, but also her family and the generations that come after her.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 40,
+      "start": 193.78,
+      "end": 198.42,
+      "text": "And if other girls like Putri did the same, this could change their communities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 41,
+      "start": 198.42,
+      "end": 202.74,
+      "text": "And, add it all together, this could change Indonesia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    },
+    {
+      "index": 42,
+      "start": 202.74,
+      "end": 208.82,
+      "text": "But it all starts with giving Putri and Dewey and other kids like them an equal chance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.092031,
+      "no_speech_prob": 0.008011
+    }
+  ],
+  "context_text_chronological": "Meet Dewey and Putri, two girls from Indonesia. Dewey's family is rich and belongs to the top 10% of households in terms of income. Putri's family is not as fortunate. They are in the bottom 10% of households, part of the 28 million people who live below the poverty line. Inequality divided these girls even before they were born. Putri's mother did not visit a formal health facility while she was pregnant and did not get the right nutrition. Because of this, Putri was born under weight. Dewey's mother, on the other hand, was able to visit her doctor regularly and get the right nutrition so that Dewey was born with a healthy weight. During her first two years, Putri did not receive her full vaccinations and didn't get the right nutrition either. So, rather than catching up to Dewey, who continued to grow tall and healthy, Putri fell even further behind. Dewey grew up in a house with clean running water and a toilet. Putri's family couldn't afford a toilet. Because she had to defecate in the open, she got diarrhea frequently. This made her growth even more stunted, while Dewey, who almost never had diarrhea, grew tall. Inequality deepened when the girls were old enough to start school. Dewey got a head start by attending early childhood education classes, which taught her how to learn. Putri, meanwhile, stayed at home. Dewey made it all the way to her high school graduation and then continued on to university. Putri started school too and finished grade six. But because the extra cost for books, uniforms, and travel were too high, her family could not afford to keep her in school. Instead, they needed her to earn extra income for the household. With her education, Dewey found a job with good pay and benefits. Putri wasn't as fortunate. She had to settle for a job in the informal sector with less pay, less security, and fewer benefits. Without a good job, Putri won't be able to afford health care or make sure that her children stay in school. It doesn't take much for them to slip into poverty. A bad harvest, a lost job, and unexpected illness. But it doesn't have to be this way. Let's step back for a minute. What if Putri's mother got the prenatal care and nutrition that she needed? What if Putri had received all her vaccinations? What if her home had clean water in a toilet? What if Putri started school in kindergarten and could stay in school until she graduated from high school? What if she had the chance to build her skills and find a job with a decent wage? This would help not only Putri, but also her family and the generations that come after her. And if other girls like Putri did the same, this could change their communities. And, add it all together, this could change Indonesia. But it all starts with giving Putri and Dewey and other kids like them an equal chance.",
+  "target_text_for_audit": "Now, what if we told you that Putri's story doesn't only apply to the bottom 10 percent? Another 68 million Indonesians in the bottom 40 percent of households are not much better off.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Now, what if we told you that Putri's story doesn't only apply to the bottom 10 %?",
+        "start_source": 141.56,
+        "end_source": 146.72,
+        "matching_cue_ids": [
+          28
+        ],
+        "text_similarity": 0.9518,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "Another 68 million Indonesians in the bottom 40 % of households are not much better off.",
+        "start_source": 147.8,
+        "end_source": 153.3,
+        "matching_cue_ids": [
+          29
+        ],
+        "text_similarity": 0.9556,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\a0wHffQi4xo.mp4",
+    "cue_count": 43
+  },
+  "token_estimate_char_div_4": 705
+}

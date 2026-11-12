@@ -1,133 +1,96 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_18",
  "family": "pie",
  "data_source": "data_table.csv",
  "data_table_sha256": "3b2c1ba58edd73a9093a968fa7f442d0b806ff3a25c4e2c62984c18b8324817b",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "993d6f09506bb2de645591dc0db12da12899630be07d98720785f848e7fd3080",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_taxes"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
-   "entity": "NOT PAID",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 18.3,
-   "last_value": 18.3,
-   "min_value": 18.3,
-   "max_value": 18.3,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_taxes"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "NOT PAID",
+   "metric": "share_of_taxes",
+   "value": "18.3",
+   "unit": "%",
+   "relative_value": "0.183",
+   "label": "18.3%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_taxes"
   },
   {
+   "row_id": "r2",
    "panel": "",
-   "entity": "TAXES PAID",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 81.7,
-   "last_value": 81.7,
-   "min_value": 81.7,
-   "max_value": 81.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_taxes"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "TAXES PAID",
+   "metric": "share_of_taxes",
+   "value": "81.7",
+   "unit": "%",
+   "relative_value": "0.817",
+   "label": "81.7%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_taxes"
   }
  ],
- "source_type_counts": {
-  "printed": 2
- },
- "role_counts": {
-  "slice": 2
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_taxes",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "NOT PAID",
+    "TAXES PAID"
+   ],
+   "relative_value_sum": 1.0
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "NOT PAID",
-    "series": ""
+    "metric": "share_of_taxes",
+    "value": "18.3",
+    "unit": "%",
+    "relative_value": "0.183",
+    "label": "18.3%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_taxes"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "TAXES PAID",
-    "series": ""
+    "metric": "share_of_taxes",
+    "value": "81.7",
+    "unit": "%",
+    "relative_value": "0.817",
+    "label": "81.7%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_taxes"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

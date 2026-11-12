@@ -1,169 +1,136 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_11",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "edebe3a041dbcdd692608fb0f16c22a312e521f18b82d907b33cf5bec6b3c8b0",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "7b10184fc76533cddeb41b11de7f8d9c352c95516aa22863769f00628e19bfe9",
+ "data_table_sha256": "632c75a52621ddde9b09fc7464cb5e9d5e233aad02a9a0dddfbebe347d5b95b3",
  "row_count": 3,
- "sidecar_row_count": 3,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "multi_pie",
   "orientation": "radial",
   "panel_count": 2,
-  "series_count": 3,
-  "time_behavior": "snapshot",
-  "panels": [
-   "Clock",
-   "Pie"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_purchases"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "Clock",
+   "series": "",
    "entity": "gauge arc",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 12.5,
-   "last_value": 12.5,
-   "min_value": 12.5,
-   "max_value": 12.5,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_purchases"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "metric": "share_of_purchases",
+   "value": "12.5",
+   "unit": "%",
+   "relative_value": "0.125",
+   "label": "",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "Clock"
   },
   {
+   "row_id": "r2",
    "panel": "Pie",
+   "series": "",
    "entity": "pieslice-yellow",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 58.3,
-   "last_value": 58.3,
-   "min_value": 58.3,
-   "max_value": 58.3,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_purchases"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_purchases",
+   "value": "58.3",
+   "unit": "%",
+   "relative_value": "0.583",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Pie"
   },
   {
+   "row_id": "r3",
    "panel": "Pie",
-   "entity": "pieslice-white",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 41.7,
-   "last_value": 41.7,
-   "min_value": 41.7,
-   "max_value": 41.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_purchases"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "pieslice-white",
+   "metric": "share_of_purchases",
+   "value": "41.7",
+   "unit": "%",
+   "relative_value": "0.417",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Pie"
   }
  ],
- "source_type_counts": {
-  "estimated": 2,
-  "printed": 1
- },
- "role_counts": {
-  "gauge": 1,
-  "slice": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "Clock",
+   "series": "",
+   "whole_scope": "Clock",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "gauge arc"
+   ],
+   "relative_value_sum": 0.125
+  },
+  {
+   "panel": "Pie",
+   "series": "",
+   "whole_scope": "Pie",
+   "row_ids": [
+    "r2",
+    "r3"
+   ],
+   "entities": [
+    "pieslice-yellow",
+    "pieslice-white"
+   ],
+   "relative_value_sum": 1.0
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Clock",
+    "series": "",
     "entity": "gauge arc",
-    "series": "Clock"
+    "metric": "share_of_purchases",
+    "value": "12.5",
+    "unit": "%",
+    "relative_value": "0.125",
+    "label": "",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Clock"
    },
    {
-    "panel": "",
+    "row_id": "r2",
+    "panel": "Pie",
+    "series": "",
     "entity": "pieslice-yellow",
-    "series": "Pie"
+    "metric": "share_of_purchases",
+    "value": "58.3",
+    "unit": "%",
+    "relative_value": "0.583",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Pie"
    },
    {
-    "panel": "",
+    "row_id": "r3",
+    "panel": "Pie",
+    "series": "",
     "entity": "pieslice-white",
-    "series": "Pie"
+    "metric": "share_of_purchases",
+    "value": "41.7",
+    "unit": "%",
+    "relative_value": "0.417",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Pie"
    }
   ],
-  "required_entity_count": 3,
-  "required_row_count": 3,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

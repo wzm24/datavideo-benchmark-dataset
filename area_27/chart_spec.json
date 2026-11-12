@@ -1,21 +1,30 @@
 {
  "clip_id": "area_27",
  "family": "area",
- "sub_type": "overlay_area",
+ "sub_type": "distribution_area_with_highlight",
  "orientation": "cartesian",
- "series_count": 2,
+ "series_count": 1,
  "has_reference_line": true,
  "panel_count": 1,
  "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 2,
- "row_count": 200,
+ "row_count": 53,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "highlight": {
+  "label": "<10%",
+  "x_start": 0.0,
+  "x_end": 0.453962264,
+  "cumulative_share": 0.100813404
+ },
+ "average_line_x": 0.503773585,
+ "batch_status": "approved"
 }

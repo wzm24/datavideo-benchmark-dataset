@@ -1,0 +1,433 @@
+{
+  "clip_id": "line_99",
+  "family": "line",
+  "video_id": "9k0WsU7cmtQ",
+  "source_url": "https://www.youtube.com/watch?v=9k0WsU7cmtQ",
+  "source_title": "Political Polarization",
+  "target_window_source": {
+    "start": 75.0,
+    "end": 79.0
+  },
+  "target_mask_interval": {
+    "start": 73.5,
+    "end": 80.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    16,
+    17,
+    18
+  ],
+  "masked_cue_ids": [
+    16,
+    17,
+    18
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    19,
+    20,
+    21
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 3.25,
+      "end": 7.25,
+      "text": "We are frequently told that American politics are polarized.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 1,
+      "start": 7.25,
+      "end": 11.25,
+      "text": "On the right, Republicans work together with other Republicans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 2,
+      "start": 11.25,
+      "end": 15.25,
+      "text": "And on the left, Democrats work with other Democrats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 3,
+      "start": 15.25,
+      "end": 19.25,
+      "text": "But Republicans and Democrats don't usually work with each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 4,
+      "start": 19.25,
+      "end": 23.25,
+      "text": "Polarization means that politics is us and them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 5,
+      "start": 23.25,
+      "end": 28.25,
+      "text": "To understand how bad it actually is, a professor at Michigan State University",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 6,
+      "start": 28.25,
+      "end": 33.25,
+      "text": "looked at the networks of every U.S. Senator and Representative since 1973.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 7,
+      "start": 33.25,
+      "end": 38.25,
+      "text": "In the 1970s and 80s, the Democrats mostly worked together,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 8,
+      "start": 38.25,
+      "end": 40.25,
+      "text": "and the Republicans mostly worked together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 9,
+      "start": 40.25,
+      "end": 45.25,
+      "text": "But they still sometimes worked across the aisle to pass important legislation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 10,
+      "start": 45.25,
+      "end": 47.25,
+      "text": "Here's what it looks like now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 11,
+      "start": 47.25,
+      "end": 51.25,
+      "text": "The Democrats and Republicans almost never worked together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 12,
+      "start": 51.25,
+      "end": 57.25,
+      "text": "We've been moving towards this kind of polarization in both the Senate and the House since the 1970s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 13,
+      "start": 57.25,
+      "end": 62.25,
+      "text": "But polarization can be even stronger when Republicans and Democrats",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    },
+    {
+      "index": 14,
+      "start": 62.25,
+      "end": 65.25,
+      "text": "actually try to undermine and attack each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    },
+    {
+      "index": 15,
+      "start": 65.25,
+      "end": 70.25,
+      "text": "When this happens, polarization becomes us versus them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    }
+  ],
+  "context_after": [
+    {
+      "index": 19,
+      "start": 82.25,
+      "end": 89.25,
+      "text": "American politics have grown more polarized under both Republican and Democratic-controlled Congresses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    },
+    {
+      "index": 20,
+      "start": 89.25,
+      "end": 92.25,
+      "text": "It's time for a change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    },
+    {
+      "index": 21,
+      "start": 92.25,
+      "end": 95.25,
+      "text": "To learn more about this research, check it out online.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 3.25,
+      "end": 7.25,
+      "text": "We are frequently told that American politics are polarized.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 1,
+      "start": 7.25,
+      "end": 11.25,
+      "text": "On the right, Republicans work together with other Republicans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 2,
+      "start": 11.25,
+      "end": 15.25,
+      "text": "And on the left, Democrats work with other Democrats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 3,
+      "start": 15.25,
+      "end": 19.25,
+      "text": "But Republicans and Democrats don't usually work with each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 4,
+      "start": 19.25,
+      "end": 23.25,
+      "text": "Polarization means that politics is us and them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 5,
+      "start": 23.25,
+      "end": 28.25,
+      "text": "To understand how bad it actually is, a professor at Michigan State University",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115776,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 6,
+      "start": 28.25,
+      "end": 33.25,
+      "text": "looked at the networks of every U.S. Senator and Representative since 1973.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 7,
+      "start": 33.25,
+      "end": 38.25,
+      "text": "In the 1970s and 80s, the Democrats mostly worked together,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 8,
+      "start": 38.25,
+      "end": 40.25,
+      "text": "and the Republicans mostly worked together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 9,
+      "start": 40.25,
+      "end": 45.25,
+      "text": "But they still sometimes worked across the aisle to pass important legislation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 10,
+      "start": 45.25,
+      "end": 47.25,
+      "text": "Here's what it looks like now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 11,
+      "start": 47.25,
+      "end": 51.25,
+      "text": "The Democrats and Republicans almost never worked together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 12,
+      "start": 51.25,
+      "end": 57.25,
+      "text": "We've been moving towards this kind of polarization in both the Senate and the House since the 1970s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069899,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 13,
+      "start": 57.25,
+      "end": 62.25,
+      "text": "But polarization can be even stronger when Republicans and Democrats",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    },
+    {
+      "index": 14,
+      "start": 62.25,
+      "end": 65.25,
+      "text": "actually try to undermine and attack each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    },
+    {
+      "index": 15,
+      "start": 65.25,
+      "end": 70.25,
+      "text": "When this happens, polarization becomes us versus them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05004,
+      "no_speech_prob": 0.001838
+    },
+    {
+      "index": 19,
+      "start": 82.25,
+      "end": 89.25,
+      "text": "American politics have grown more polarized under both Republican and Democratic-controlled Congresses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    },
+    {
+      "index": 20,
+      "start": 89.25,
+      "end": 92.25,
+      "text": "It's time for a change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    },
+    {
+      "index": 21,
+      "start": 92.25,
+      "end": 95.25,
+      "text": "To learn more about this research, check it out online.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093192,
+      "no_speech_prob": 0.541992
+    }
+  ],
+  "context_text_chronological": "We are frequently told that American politics are polarized. On the right, Republicans work together with other Republicans. And on the left, Democrats work with other Democrats. But Republicans and Democrats don't usually work with each other. Polarization means that politics is us and them. To understand how bad it actually is, a professor at Michigan State University looked at the networks of every U.S. Senator and Representative since 1973. In the 1970s and 80s, the Democrats mostly worked together, and the Republicans mostly worked together. But they still sometimes worked across the aisle to pass important legislation. Here's what it looks like now. The Democrats and Republicans almost never worked together. We've been moving towards this kind of polarization in both the Senate and the House since the 1970s. But polarization can be even stronger when Republicans and Democrats actually try to undermine and attack each other. When this happens, polarization becomes us versus them. American politics have grown more polarized under both Republican and Democratic-controlled Congresses. It's time for a change. To learn more about this research, check it out online.",
+  "target_text_for_audit": "This research shows that even the stronger us versus them polarization has gotten much worse over the past 40 years. It's also shown that it doesn't matter which party is in control.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "This research shows that even the stronger us versus them polarization has gotten much worse over the past 40 years.",
+        "start_source": 70.94,
+        "end_source": 78.14,
+        "matching_cue_ids": [
+          16,
+          17
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\9k0WsU7cmtQ.mp4",
+    "cue_count": 22
+  },
+  "token_estimate_char_div_4": 296
+}

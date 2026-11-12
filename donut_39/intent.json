@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_39",
- "intent_en": "To inform viewers about the prevalence of cat ownership among American households.",
- "previous_intent": "To illustrate the prevalence of cat ownership in American households and the widespread practice of spaying or neutering these pets.",
+ "intent_en": "Report the cat ownership rate among American households from the data table.",
  "narration_support": "30 .4 % of American households own a cat",
  "chart_support": "Infographic graphic displaying the statistic that 30.4% of American households own a cat",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": true
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that 30.4% of American households own a cat.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the cat ownership rate among American households from the data table.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

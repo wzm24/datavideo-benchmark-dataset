@@ -1,0 +1,120 @@
+{
+  "contract_version": "design-1.0",
+  "sample_id": "demo_growth_001",
+  "synthetic_example": true,
+  "visibility": "evaluator_only_in_real_tests; this demo is intentionally shareable",
+  "public_input_file": "example_public_task.json",
+  "ground_truth_type": "constraint_and_executable_fact_package_not_a_unique_video",
+  "expression_language": {
+    "status": "本样例的受限表达式，仅供数据契约与计算校验",
+    "allowed_ops": ["cell", "ref", "const", "sub", "div", "mul", "gt"],
+    "arbitrary_code_execution": false
+  },
+  "facts": [
+    {"id": "a_start", "expr": {"op": "cell", "row_id": "a_2022", "field": "users_million"}, "expected": 100, "unit": "million_people"},
+    {"id": "a_end", "expr": {"op": "cell", "row_id": "a_2023", "field": "users_million"}, "expected": 160, "unit": "million_people"},
+    {"id": "b_start", "expr": {"op": "cell", "row_id": "b_2022", "field": "users_million"}, "expected": 100, "unit": "million_people"},
+    {"id": "b_end", "expr": {"op": "cell", "row_id": "b_2023", "field": "users_million"}, "expected": 120, "unit": "million_people"},
+    {"id": "delta_a", "expr": {"op": "sub", "args": [{"op": "ref", "id": "a_end"}, {"op": "ref", "id": "a_start"}]}, "expected": 60, "unit": "million_people"},
+    {"id": "delta_b", "expr": {"op": "sub", "args": [{"op": "ref", "id": "b_end"}, {"op": "ref", "id": "b_start"}]}, "expected": 20, "unit": "million_people"},
+    {"id": "rate_a", "expr": {"op": "div", "args": [{"op": "ref", "id": "delta_a"}, {"op": "ref", "id": "a_start"}]}, "expected": 0.6, "unit": "fraction"},
+    {"id": "rate_b", "expr": {"op": "div", "args": [{"op": "ref", "id": "delta_b"}, {"op": "ref", "id": "b_start"}]}, "expected": 0.2, "unit": "fraction"},
+    {"id": "rate_gap_pp", "expr": {"op": "mul", "args": [{"op": "const", "value": 100}, {"op": "sub", "args": [{"op": "ref", "id": "rate_a"}, {"op": "ref", "id": "rate_b"}]}]}, "expected": 40, "unit": "percentage_point"},
+    {"id": "rate_ratio", "expr": {"op": "div", "args": [{"op": "ref", "id": "rate_a"}, {"op": "ref", "id": "rate_b"}]}, "expected": 3, "unit": "dimensionless_ratio"},
+    {"id": "faster_a", "expr": {"op": "gt", "args": [{"op": "ref", "id": "rate_a"}, {"op": "ref", "id": "rate_b"}]}, "expected": true, "unit": "boolean"}
+  ],
+  "fact_policy": {
+    "catalog_is_exhaustive": false,
+    "new_claims": "Validate against the input table with an independently checked bounded query; do not reject merely because absent from the catalog.",
+    "numeric_matching": "Verify entity, year, field, unit, operation, baseline and rounding; never nearest-number matching.",
+    "percentage_points_are_not_percent_change": true,
+    "zero_denominator": "undefined; do not fabricate a ratio",
+    "display_tolerance": "Use declared display precision and validated encoding-specific measurement tolerance; no universal 1-percent tolerance.",
+    "no_data_support": ["causal attribution to advertising", "certain extrapolation into future years"],
+    "labels": ["supported", "contradicted", "unsupported", "unresolved", "nonfactual"]
+  },
+  "required_units": [
+    {
+      "id": "U1",
+      "weight": 1,
+      "public_requirement_index": 0,
+      "meaning": "量化A从2022到2023年的用户变化",
+      "must_be_visualized": true,
+      "allowed_content_channels": ["spoken_narration", "readable_chart_annotation", "combined"],
+      "accepted_routes": [
+        {"fact_ids": ["a_start", "a_end"], "semantic_condition": "Clearly establish the before-after change for A"},
+        {"fact_ids": ["delta_a"], "semantic_condition": "Identify A, time range and absolute increase with correct units"},
+        {"fact_ids": ["rate_a"], "semantic_condition": "Identify A, time range, baseline and relative growth"}
+      ],
+      "routes_are_examples_not_exhaustive": true,
+      "visual_evidence_rule": "A的变化由编码正确、可辨认的数据图形或结构化数值比较支持；不是仅旁白字幕",
+      "temporal_policy_id": "generated_context_windows"
+    },
+    {
+      "id": "U2",
+      "weight": 1,
+      "public_requirement_index": 0,
+      "meaning": "量化B从2022到2023年的用户变化",
+      "must_be_visualized": true,
+      "allowed_content_channels": ["spoken_narration", "readable_chart_annotation", "combined"],
+      "accepted_routes": [
+        {"fact_ids": ["b_start", "b_end"], "semantic_condition": "Clearly establish the before-after change for B"},
+        {"fact_ids": ["delta_b"], "semantic_condition": "Identify B, time range and absolute increase with correct units"},
+        {"fact_ids": ["rate_b"], "semantic_condition": "Identify B, time range, baseline and relative growth"}
+      ],
+      "routes_are_examples_not_exhaustive": true,
+      "visual_evidence_rule": "B的变化由编码正确、可辨认的数据图形或结构化数值比较支持；不是仅旁白字幕",
+      "temporal_policy_id": "generated_context_windows"
+    },
+    {
+      "id": "U3",
+      "weight": 1,
+      "public_requirement_index": 1,
+      "meaning": "明确A增长更快并提供口径一致的量化比较证据",
+      "must_be_visualized": true,
+      "allowed_content_channels": ["spoken_narration", "readable_chart_annotation", "combined"],
+      "accepted_routes": [
+        {"fact_ids": ["faster_a", "rate_a", "rate_b"], "semantic_condition": "Explicit correct comparison of relative growth rates"},
+        {"fact_ids": ["faster_a", "rate_ratio"], "semantic_condition": "Correctly identify the ratio as a ratio of growth rates"},
+        {"fact_ids": ["faster_a", "rate_gap_pp"], "semantic_condition": "Correctly express the gap in percentage points"},
+        {"fact_ids": ["faster_a", "a_start", "b_start", "delta_a", "delta_b"], "semantic_condition": "Establish equal starting values and compare absolute increases"}
+      ],
+      "routes_are_examples_not_exhaustive": true,
+      "visual_evidence_rule": "跨区域证据可比较：共同或明确可换算的尺度与统计口径；比较发生时关键信息可获得；不能仅写A更快",
+      "temporal_policy_id": "generated_context_windows"
+    }
+  ],
+  "temporal_policies": [
+    {
+      "id": "generated_context_windows",
+      "anchor": "Generated audio claims; use readable semantic annotations and scene context for unspoken units",
+      "reference_video_absolute_timestamps_are_targets": false,
+      "matching_happens_before_timing_scoring": true,
+      "repeat_policy": "After merging one continuous exposition, inspect every semantically matched occurrence; a substantive mistimed/conflicting repetition prevents binary T pass. Report occurrence-level diagnostics separately.",
+      "requirements": ["correct evidence is available", "entity identity is understandable", "necessary order holds", "sufficient readable dwell", "normal entry-transition frames are not treated as settled numeric claims"],
+      "tolerances": "Calibrate on development data and freeze before test; no numeric threshold is asserted here."
+    }
+  ],
+  "scoring_policy": {
+    "unit_labels": ["pass", "fail", "unresolved"],
+    "unit_axes": ["C_content_correctly_conveyed", "V_correct_visual_evidence", "T_evidence_in_context"],
+    "weighting": "equal over the three required units",
+    "core_conflict_rule": "An explicit contradictory statement in any visible/audible channel fails the affected C unit after adjudication.",
+    "duplicate_units": "count once",
+    "extra_claims": "audit separately; correct new insights allowed; unsupported new claims penalized by factuality metrics",
+    "empty_claim_precision": "NA, never 1",
+    "unresolved": "report lower and upper bounds until adjudicated; do not silently drop",
+    "generation_failure": "fixed-denominator completion scores are zero",
+    "infrastructure_failure": "rerun or unavailable, not a model failure",
+    "quality_judgment": "separate calibrated narrative clarity, readability and animation effectiveness"
+  },
+  "reference_assets": {
+    "present_for_demo": false,
+    "actual_dataset_roles": ["annotation assistance", "semantic element binding", "controlled evaluator validation variants"],
+    "exact_layout_matching": false,
+    "exact_code_matching": false,
+    "exact_transcript_matching": false,
+    "note": "本构造样例没有对应真实原视频或SVG，不虚构参考文件"
+  },
+  "annotation_status": "设计示例，未声称有人工标注一致性或评测器验证结果"
+}

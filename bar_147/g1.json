@@ -79,7 +79,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -128,7 +129,8 @@
     "reversing the values",
     "using fabricated values"
    ],
-   "evidence": "The selected keyframe and plotted data encode this relation."
+   "evidence": "The selected keyframe and plotted data encode this relation.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -162,10 +164,18 @@
  "hardcases": [],
  "review_flags": [
   "manual_specific_fix_2026-10-22",
-  "state_level_completeness_r1_2026-10-22"
+  "state_level_completeness_r1_2026-10-22",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
- "status": "agent_draft_pending_human_review",
- "approved_by": null,
- "approved_at": null,
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "status": "approved",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

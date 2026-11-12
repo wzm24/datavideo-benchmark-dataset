@@ -1,0 +1,762 @@
+{
+ "clip_id": "area_43",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+ "chart_structure": {
+  "clip_id": "area_43",
+  "family": "area",
+  "sub_type": "stacked_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 11,
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare annual CO2 emissions across all listed entities over the period",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Trace how each entity's emissions change over time",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 11 required area marks are present in the chart: EU-28, Europe (excl. EU-28), United States, North America (excl. US), South America, Africa, India, China, Asia (excl. China/India), Oceania, International transport.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "EU-28",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "entity": "Europe (excl. EU-28)",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "entity": "United States",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "entity": "North America (excl. US)",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "entity": "South America",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r6",
+     "panel": "",
+     "entity": "Africa",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r7",
+     "panel": "",
+     "entity": "India",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r8",
+     "panel": "",
+     "entity": "China",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r9",
+     "panel": "",
+     "entity": "Asia (excl. China/India)",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r10",
+     "panel": "",
+     "entity": "Oceania",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r11",
+     "panel": "",
+     "entity": "International transport",
+     "series": "",
+     "role": "stacked_area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "At the end of the period, China has the highest annual CO2 emissions (10.10 Gt), followed by Asia (excl. China/India) (8.20 Gt) and the United States (5.40 Gt); all other listed entities are below 3.5 Gt.",
+   "basis": [
+    {
+     "row_id": "r2967",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "China",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "10.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2968",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Asia (excl. China/India)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "8.20",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2962",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "United States",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "5.40",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2960",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "EU-28",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "3.30",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2966",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "India",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "2.65",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2961",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Europe (excl. EU-28)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.40",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2965",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Africa",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.35",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2963",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "North America (excl. US)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2964",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "South America",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2970",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "International transport",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.25",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2969",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Oceania",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "0.45",
+     "unit": "Gt",
+     "role": "stacked_area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "China is the largest emitter at the end of the period",
+    "Asia (excl. China/India) is the second largest at the end of the period",
+    "United States is the third largest at the end of the period",
+    "All other entities are below 3.5 Gt at the end of the period"
+   ],
+   "reject": [
+    "United States is the largest emitter at the end of the period",
+    "EU-28 is the largest emitter at the end of the period",
+    "Asia (excl. China/India) is the largest emitter at the end of the period"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "change",
+   "claim": "Every listed entity has higher annual CO2 emissions at the end of the period than in 1750, and China shows the largest absolute increase (from 0.00 Gt to 10.10 Gt).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "EU-28",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2960",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "EU-28",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "3.30",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Europe (excl. EU-28)",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2961",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Europe (excl. EU-28)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.40",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "United States",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2962",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "United States",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "5.40",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "North America (excl. US)",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2963",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "North America (excl. US)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "South America",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2964",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "South America",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r6",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Africa",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2965",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Africa",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.35",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r7",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "India",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2966",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "India",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "2.65",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r8",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "China",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2967",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "China",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "10.10",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r9",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Asia (excl. China/India)",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2968",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Asia (excl. China/India)",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "8.20",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r10",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Oceania",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2969",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "Oceania",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "0.45",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r11",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "International transport",
+     "series": "",
+     "x": "1750",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.00",
+     "unit": "Gt",
+     "role": "stacked_area"
+    },
+    {
+     "row_id": "r2970",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)",
+     "entity": "International transport",
+     "series": "",
+     "x": "",
+     "point_order": "270",
+     "field": "value",
+     "value": "1.25",
+     "unit": "Gt",
+     "role": "stacked_area"
+    }
+   ],
+   "computation": "end_value - start_value for each entity; compare absolute increases",
+   "accept": [
+    "All listed entities have higher emissions at the end of the period than in 1750",
+    "China has the largest absolute increase in annual CO2 emissions over the period"
+   ],
+   "reject": [
+    "Any listed entity has lower or equal emissions at the end of the period compared to 1750",
+    "An entity other than China has the largest absolute increase"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.3333333333,
+  "U2": 0.3333333333,
+  "U3": 0.3333333333
+ },
+ "optional_valid": [
+  "At 1750, all entities have near-zero emissions (0.00 Gt).",
+  "EU-28 peaks around 3.60 Gt at point_order 241 before slightly declining to 3.30 Gt at the end.",
+  "United States peaks at 5.70 Gt at 2000 (point_order 251) before declining to 5.40 Gt at the end.",
+  "China surpasses the United States in emissions after 2000.",
+  "Asia (excl. China/India) surpasses the United States after 2000."
+ ],
+ "unsupported_to_avoid": [
+  "Claiming that any entity's emissions are exactly zero throughout the period.",
+  "Stating that China had the highest emissions for the entire period.",
+  "Inferring causes or policy effects from the trends.",
+  "Claiming that the stacked areas represent shares of a global total without explicit intent.",
+  "Using unlisted rows or interpolated values as basis."
+ ],
+ "review_notes": [
+  "The intent asks to compare all listed entities and trace changes over time; two units cover ranking at the end and overall trend.",
+  "The chart is a stacked area, but the intent does not ask for share or composition, so no share unit is created.",
+  "The time behavior is listed as snapshot, but the data spans 1750 to end with many points; trend is appropriate for tracing change over time."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2970,
+  "table_sha256": "bba6da718752a87cb54e22c528ea79813b8e1303d213b140b7117ccd1188ba40"
+ },
+ "status": "approved",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 43067,
+   "completion_tokens": 1517,
+   "total_tokens": 44584,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 42683
+  },
+  {
+   "prompt_tokens": 47516,
+   "completion_tokens": 279,
+   "total_tokens": 47795,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 47516
+  },
+  {
+   "prompt_tokens": 43380,
+   "completion_tokens": 1345,
+   "total_tokens": 44725,
+   "prompt_tokens_details": {
+    "cached_tokens": 43008
+   },
+   "prompt_cache_hit_tokens": 43008,
+   "prompt_cache_miss_tokens": 372
+  },
+  {
+   "prompt_tokens": 47417,
+   "completion_tokens": 52,
+   "total_tokens": 47469,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 47289
+  }
+ ],
+ "sec": 16.9,
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

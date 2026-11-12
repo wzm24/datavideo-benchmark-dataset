@@ -1,7 +1,6 @@
 {
  "clip_id": "pie_13",
- "intent_en": "To illustrate the elemental composition of a celestial body, demonstrating that it is predominantly made of hydrogen and helium.",
- "previous_intent": "To illustrate the elemental composition of the Sun, highlighting that it is primarily made of hydrogen and helium with only trace amounts of heavier elements.",
+ "intent_en": "Compare the shares of helium and hydrogen in the Sun's atmosphere.",
  "narration_support": "For the most part, it consists of hydrogen and helium.",
  "chart_support": "Pie chart displaying a large majority for Hydrogen (H) and a smaller portion for Helium (He), representing the primary components.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that helium accounts for 89.6% and hydrogen 10.4% of the Sun's atmosphere, together making up nearly all of its composition.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Compare the shares of helium and hydrogen in the Sun's atmosphere.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

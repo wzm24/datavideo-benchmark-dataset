@@ -1,28 +1,87 @@
 {
  "clip_id": "area_43",
- "intent_en": "To demonstrate the United States' significant historical contribution to global carbon dioxide emissions, thereby justifying its responsibility to lead decarbonization efforts.",
- "previous_intent": "To demonstrate the United States' significant historical contribution to global carbon dioxide emissions and justify its critical role in decarbonization efforts.",
- "narration_support": "The U.S. doesn't currently emit the most carbon dioxide of any country, but as one of the oldest industrial powers, it's emitted more carbon dioxide in total than any other country or region. So America has a big role to play in decarbonizing.",
- "chart_support": "Stacked area chart showing global carbon dioxide emissions from 1750 to 2000, illustrating the United States' substantial historical emission volume relative to other regions.",
- "supported_by_narration": true,
- "supported_by_chart": true,
- "dual_source_verified": true,
- "multi_chart_in_clip": false,
- "narration_sparse": false,
- "contains_answer_values": false,
- "confidence": 0.95,
- "evidence_note": "The narration explicitly states the US has emitted more CO2 in total and has a big role to play in decarbonizing. The chart visualizes this historical accumulation (1750-2000) with the US band showing significant volume, supporting the claim of historical responsibility.",
- "gate_failed": "",
- "intent_official": "en",
- "intent_source": [
-  "narration",
-  "keyframe"
- ],
- "draft_by": "agent:qwen3.7-flash-2026-07-15",
- "confirmed_by": null,
- "regen_batch": "2026-09-23b",
+ "narrative_goal": "Show that China ends the period as the largest annual CO2 emitter among the entities shown, overtaking the United States.",
+ "intent_en": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+ "intent_language": "en",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "intent_role": "neutral_public_generation_input",
+ "public_input_field": "intent_en",
+ "narrative_goal_review_status": "approved",
+ "intent_review_status": "approved",
+ "protocol_intent_status": "protocol_compliant",
  "leak_check": {
-  "contains_answer_values": false
+  "contains_answer_values": false,
+  "non_year_numbers": [],
+  "answer_pattern_matches": [],
+  "scope_complete": true,
+  "supported_by_inputs": true
  },
- "needs_video_escalation": false
+ "narrative_goal_evidence": [
+  "narration",
+  "semantic_svg",
+  "data_table"
+ ],
+ "intent_source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg"
+ ],
+ "schema_version": "area_intent_v1_2026-11-12",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "candidate_record": {
+  "clip": "area_43",
+  "family": "area",
+  "status": "pass",
+  "narrative_goal": "Show that China ends the period as the largest annual CO2 emitter among the entities shown, overtaking the United States.",
+  "proposed_intent": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+  "writer": {
+   "intent": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+   "manual_override": true
+  },
+  "protocol_audit": {
+   "protocol_compliant": true,
+   "answer_leak": false,
+   "leaked_phrases": [],
+   "scope_complete": true,
+   "scope_issues": [],
+   "supported_by_inputs": true,
+   "natural_request": true,
+   "issues": []
+  },
+  "mechanical_checks": {
+   "word_count": 18,
+   "sentence_count": 1,
+   "starts_with_action_verb": true,
+   "non_year_numbers": [],
+   "allowed_name_numbers": [
+    "28"
+   ],
+   "answer_pattern_matches": [],
+   "mentions_chart_style": false
+  },
+  "repairs": [],
+  "repair_attempts": 0,
+  "source": [
+   "narrative_goal",
+   "data_table",
+   "semantic_svg",
+   "chart_spec"
+  ],
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "usage": [
+   {},
+   {
+    "prompt_tokens": 42807,
+    "completion_tokens": 64,
+    "total_tokens": 42871,
+    "prompt_tokens_details": {
+     "cached_tokens": 42624
+    },
+    "prompt_cache_hit_tokens": 42624,
+    "prompt_cache_miss_tokens": 183
+   }
+  ],
+  "sec": 1.1
+ }
 }

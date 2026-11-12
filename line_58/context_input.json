@@ -1,0 +1,1741 @@
+{
+  "clip_id": "line_58",
+  "family": "line",
+  "video_id": "jHgZzIRhezo",
+  "source_url": "https://www.youtube.com/watch?v=jHgZzIRhezo",
+  "source_title": "Can We Still Trust Polls?",
+  "target_window_source": {
+    "start": 95.0,
+    "end": 106.0
+  },
+  "target_mask_interval": {
+    "start": 93.5,
+    "end": 107.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    25,
+    26,
+    27
+  ],
+  "masked_cue_ids": [
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.0,
+      "text": "Can we still trust polls?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 1,
+      "start": 3.0,
+      "end": 7.58,
+      "text": "After the 2016 US presidential election, a common reaction from across the political",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 2,
+      "start": 7.58,
+      "end": 11.32,
+      "text": "spectrum was that polling must be broken.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 3,
+      "start": 11.32,
+      "end": 16.04,
+      "text": "Now that researchers have had time to dig into what happened in 2016 and in polling",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 4,
+      "start": 16.04,
+      "end": 19.48,
+      "text": "more generally, we can bring a lot of data to bear on this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 5,
+      "start": 19.48,
+      "end": 21.08,
+      "text": "Here are the basics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 6,
+      "start": 21.08,
+      "end": 25.48,
+      "text": "Some people who were surprised by the outcome of the 2016 election still can't get past",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 7,
+      "start": 25.48,
+      "end": 28.12,
+      "text": "the feeling that they were led astray by the polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 8,
+      "start": 28.12,
+      "end": 33.04,
+      "text": "Well the fact of the matter is, the national polls in 2016 were very accurate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 9,
+      "start": 33.04,
+      "end": 37.64,
+      "text": "On average the national polls indicated Hillary Clinton would win the popular vote by about",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 10,
+      "start": 37.64,
+      "end": 40.52,
+      "text": "three percentage points and she won by two points.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 11,
+      "start": 40.52,
+      "end": 44.8,
+      "text": "When a commission got down to the data and looked at what happened in the 2016 election,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 12,
+      "start": 44.8,
+      "end": 48.6,
+      "text": "they found most of the problems were actually at the state level, where there are folks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 13,
+      "start": 48.6,
+      "end": 52.52,
+      "text": "who are trying to do this kind of polling with not the resources that you might have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 14,
+      "start": 52.52,
+      "end": 54.08,
+      "text": "at the national level.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 15,
+      "start": 54.08,
+      "end": 57.2,
+      "text": "What happened with some of those polls was they were out of the field and missed a late",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 16,
+      "start": 57.2,
+      "end": 60.76,
+      "text": "swing among those undecided voters toward Donald Trump.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 17,
+      "start": 60.76,
+      "end": 66.88,
+      "text": "Or another issue they had was under-representing people who didn't have college educations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 18,
+      "start": 66.88,
+      "end": 70.72,
+      "text": "And all of those led to big surprises in the Midwest on election night.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 19,
+      "start": 70.72,
+      "end": 75.64,
+      "text": "Another common criticism is that pollsters favor a particular political party.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 20,
+      "start": 75.64,
+      "end": 79.32,
+      "text": "But a look at the direction of polling misses in the U.S. over time shows that whether the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 21,
+      "start": 79.32,
+      "end": 83.86,
+      "text": "polls tend to miss in the Republican direction or the Democratic direction is pretty much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 22,
+      "start": 83.86,
+      "end": 86.16,
+      "text": "just a coin flip.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 23,
+      "start": 86.16,
+      "end": 91.48,
+      "text": "Some of the best evidence about the performance of election polling comes from rigorous analyses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125551,
+      "no_speech_prob": 0.002472
+    }
+  ],
+  "context_after": [
+    {
+      "index": 29,
+      "start": 110.96,
+      "end": 116.16,
+      "text": "And an even broader look at polling in 45 countries around the world over the past 75",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 30,
+      "start": 116.16,
+      "end": 120.8,
+      "text": "years, done by Will Jennings and Christopher Wilesian, found a similar result.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 31,
+      "start": 120.8,
+      "end": 125.24,
+      "text": "Election polls worldwide have a good record of accuracy, and despite some forecasting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 32,
+      "start": 125.24,
+      "end": 131.0,
+      "text": "misses of the past few years, the average level of accuracy has not declined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 33,
+      "start": 131.0,
+      "end": 135.28,
+      "text": "While those overall trends are reassuring, unexpected election outcomes still rattle",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 34,
+      "start": 135.28,
+      "end": 137.24,
+      "text": "the public confidence in polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 35,
+      "start": 137.24,
+      "end": 139.36,
+      "text": "A good example of this is Brexit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 36,
+      "start": 139.36,
+      "end": 142.8,
+      "text": "Whether it or not, Brexit was not a massive polling failure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 37,
+      "start": 142.8,
+      "end": 146.8,
+      "text": "While the betting markets in Britain did strongly suggest that Britons would vote to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 38,
+      "start": 146.8,
+      "end": 151.24,
+      "text": "remain in the European Union, the polls were actually showing a close race, and for most",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 39,
+      "start": 151.24,
+      "end": 155.08,
+      "text": "of the final month, the polling showed leave ahead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 40,
+      "start": 155.08,
+      "end": 159.32,
+      "text": "So while Brexit was certainly not a shining moment in the history of polling, it also",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 41,
+      "start": 159.32,
+      "end": 162.6,
+      "text": "wasn't an instance where the polls were wildly off.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 42,
+      "start": 162.6,
+      "end": 169.76,
+      "text": "Look, the fixation on election polls is totally understandable and probably unavoidable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 43,
+      "start": 169.76,
+      "end": 173.68,
+      "text": "But they're just not the best barometer for how good a job polling is doing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 44,
+      "start": 173.68,
+      "end": 177.64,
+      "text": "And that's because election polls have to do something that other polls measuring policies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 45,
+      "start": 177.64,
+      "end": 179.4,
+      "text": "or attitudes don't have to do.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 46,
+      "start": 179.4,
+      "end": 183.24,
+      "text": "They have to figure out of the people they're talking to on the phone who is actually going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 47,
+      "start": 183.24,
+      "end": 188.12,
+      "text": "to go out and vote in some day in the future, and then how are they going to vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 48,
+      "start": 188.12,
+      "end": 192.56,
+      "text": "And for those of you who have studied human behavior, even if it's just in your friends",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 49,
+      "start": 192.56,
+      "end": 196.04,
+      "text": "and family, you know that those kind of predictions are really hard.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 50,
+      "start": 196.04,
+      "end": 200.48,
+      "text": "While polls may not always be able to call the winner in very close elections, they remain",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 51,
+      "start": 200.48,
+      "end": 206.64,
+      "text": "very well equipped for reliably tracking the contours of social attitudes, measuring people's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 52,
+      "start": 206.64,
+      "end": 211.08,
+      "text": "values, their preferences, priorities, and concerns.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 53,
+      "start": 211.08,
+      "end": 215.28,
+      "text": "Take the trend over time and attitudes towards same-sex marriage.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 54,
+      "start": 215.28,
+      "end": 220.56,
+      "text": "This is an example of polling not from an election where real-world events arguably validated",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 55,
+      "start": 220.56,
+      "end": 224.48,
+      "text": "the ability of polls to track real movement in public opinion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 56,
+      "start": 224.48,
+      "end": 228.48,
+      "text": "You had different polling organizations using different questions to measure support for",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 57,
+      "start": 228.48,
+      "end": 233.72,
+      "text": "a legal right for gays and lesbians to marry, but all of them told the same story over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 58,
+      "start": 233.72,
+      "end": 238.24,
+      "text": "Majority opposition in the 90s and early 2000s followed by gradual gains in support through",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 59,
+      "start": 238.24,
+      "end": 242.88,
+      "text": "the last decade and the emergence of majority support in recent years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 60,
+      "start": 242.88,
+      "end": 246.8,
+      "text": "And these trends were corroborated to some extent, while the fact that supporters of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 61,
+      "start": 246.8,
+      "end": 252.6,
+      "text": "same-sex marriage began winning statewide referenda on the issue about the time majority",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 62,
+      "start": 252.6,
+      "end": 255.0,
+      "text": "support emerged in the polling.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 63,
+      "start": 255.0,
+      "end": 258.8,
+      "text": "Another way to evaluate the performance of polls is called benchmarking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 64,
+      "start": 258.8,
+      "end": 263.48,
+      "text": "We take some questions asked in large federally funded studies with high response rates and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 65,
+      "start": 263.48,
+      "end": 266.48,
+      "text": "ask those same questions in our regular polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 66,
+      "start": 266.48,
+      "end": 271.16,
+      "text": "The difference between our poll numbers and the numbers from the benchmark surveys gives",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 67,
+      "start": 271.16,
+      "end": 274.24,
+      "text": "us some sense as to our accuracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 68,
+      "start": 274.24,
+      "end": 279.0,
+      "text": "We recently benchmarked our telephone surveys against some high-profile federal surveys",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 69,
+      "start": 279.0,
+      "end": 283.76,
+      "text": "and found our polls get very similar numbers on issues like what share of Americans identify",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 70,
+      "start": 283.76,
+      "end": 286.56,
+      "text": "as Republicans versus Democrats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 71,
+      "start": 286.56,
+      "end": 291.12,
+      "text": "And the same goes for what share of Americans identify as Protestant, Catholic, another",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 72,
+      "start": 291.12,
+      "end": 293.68,
+      "text": "religion, or no religious affiliation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 73,
+      "start": 293.68,
+      "end": 297.68,
+      "text": "And these analyses, the fact that the trends from the polls line up very closely with the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 74,
+      "start": 297.68,
+      "end": 302.76,
+      "text": "trends from the benchmark surveys, is evidence that the polls remain quite accurate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 75,
+      "start": 302.76,
+      "end": 305.8,
+      "text": "During the timeline shown, the response rate was declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 76,
+      "start": 305.8,
+      "end": 310.8,
+      "text": "But despite what some people claim, the accuracy of these polls basically held steady.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 77,
+      "start": 310.8,
+      "end": 314.76,
+      "text": "Pew Research Center takes the accuracy of polling very seriously because we believe",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 78,
+      "start": 314.76,
+      "end": 318.8,
+      "text": "that polls have a very important role to play in a democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 79,
+      "start": 318.8,
+      "end": 324.4,
+      "text": "They're designed to give every citizen, whether rich or poor, well-educated or less-educated,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 80,
+      "start": 324.4,
+      "end": 326.04,
+      "text": "an equal voice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 81,
+      "start": 326.04,
+      "end": 330.68,
+      "text": "They also served as a check on politicians on both sides of the aisle who could otherwise",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 82,
+      "start": 330.68,
+      "end": 335.04,
+      "text": "just claim to know what the public thinks or why they voted the way they did.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 83,
+      "start": 335.04,
+      "end": 340.0,
+      "text": "Now, that doesn't mean that people in government should be slaves to poll numbers or that all",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 84,
+      "start": 340.0,
+      "end": 341.4,
+      "text": "polls are trustworthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 85,
+      "start": 341.4,
+      "end": 346.12,
+      "text": "But polls do perform a valuable function as a reality check on how the public is thinking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 86,
+      "start": 346.12,
+      "end": 350.56,
+      "text": "about major issues and what's going well or going poorly in people's lives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 87,
+      "start": 350.56,
+      "end": 354.36,
+      "text": "And even though some recent elections have put a spotlight on the limits to just how",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 88,
+      "start": 354.36,
+      "end": 358.24,
+      "text": "accurate polls can be, there is a lot of research showing that well-designed polls",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 89,
+      "start": 358.24,
+      "end": 361.36,
+      "text": "still work and still provide useful information.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 90,
+      "start": 361.36,
+      "end": 363.76,
+      "text": "So bottom line, can polls be trusted?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 91,
+      "start": 363.76,
+      "end": 368.2,
+      "text": "As long as we're realistic about the precision that polls can actually provide, yes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.0,
+      "text": "Can we still trust polls?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 1,
+      "start": 3.0,
+      "end": 7.58,
+      "text": "After the 2016 US presidential election, a common reaction from across the political",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 2,
+      "start": 7.58,
+      "end": 11.32,
+      "text": "spectrum was that polling must be broken.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 3,
+      "start": 11.32,
+      "end": 16.04,
+      "text": "Now that researchers have had time to dig into what happened in 2016 and in polling",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 4,
+      "start": 16.04,
+      "end": 19.48,
+      "text": "more generally, we can bring a lot of data to bear on this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 5,
+      "start": 19.48,
+      "end": 21.08,
+      "text": "Here are the basics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 6,
+      "start": 21.08,
+      "end": 25.48,
+      "text": "Some people who were surprised by the outcome of the 2016 election still can't get past",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 7,
+      "start": 25.48,
+      "end": 28.12,
+      "text": "the feeling that they were led astray by the polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.164696,
+      "no_speech_prob": 0.030655
+    },
+    {
+      "index": 8,
+      "start": 28.12,
+      "end": 33.04,
+      "text": "Well the fact of the matter is, the national polls in 2016 were very accurate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 9,
+      "start": 33.04,
+      "end": 37.64,
+      "text": "On average the national polls indicated Hillary Clinton would win the popular vote by about",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 10,
+      "start": 37.64,
+      "end": 40.52,
+      "text": "three percentage points and she won by two points.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 11,
+      "start": 40.52,
+      "end": 44.8,
+      "text": "When a commission got down to the data and looked at what happened in the 2016 election,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 12,
+      "start": 44.8,
+      "end": 48.6,
+      "text": "they found most of the problems were actually at the state level, where there are folks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 13,
+      "start": 48.6,
+      "end": 52.52,
+      "text": "who are trying to do this kind of polling with not the resources that you might have",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 14,
+      "start": 52.52,
+      "end": 54.08,
+      "text": "at the national level.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 15,
+      "start": 54.08,
+      "end": 57.2,
+      "text": "What happened with some of those polls was they were out of the field and missed a late",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116435,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 16,
+      "start": 57.2,
+      "end": 60.76,
+      "text": "swing among those undecided voters toward Donald Trump.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 17,
+      "start": 60.76,
+      "end": 66.88,
+      "text": "Or another issue they had was under-representing people who didn't have college educations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 18,
+      "start": 66.88,
+      "end": 70.72,
+      "text": "And all of those led to big surprises in the Midwest on election night.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 19,
+      "start": 70.72,
+      "end": 75.64,
+      "text": "Another common criticism is that pollsters favor a particular political party.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 20,
+      "start": 75.64,
+      "end": 79.32,
+      "text": "But a look at the direction of polling misses in the U.S. over time shows that whether the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 21,
+      "start": 79.32,
+      "end": 83.86,
+      "text": "polls tend to miss in the Republican direction or the Democratic direction is pretty much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 22,
+      "start": 83.86,
+      "end": 86.16,
+      "text": "just a coin flip.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121633,
+      "no_speech_prob": 0.001501
+    },
+    {
+      "index": 23,
+      "start": 86.16,
+      "end": 91.48,
+      "text": "Some of the best evidence about the performance of election polling comes from rigorous analyses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.125551,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 29,
+      "start": 110.96,
+      "end": 116.16,
+      "text": "And an even broader look at polling in 45 countries around the world over the past 75",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 30,
+      "start": 116.16,
+      "end": 120.8,
+      "text": "years, done by Will Jennings and Christopher Wilesian, found a similar result.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 31,
+      "start": 120.8,
+      "end": 125.24,
+      "text": "Election polls worldwide have a good record of accuracy, and despite some forecasting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 32,
+      "start": 125.24,
+      "end": 131.0,
+      "text": "misses of the past few years, the average level of accuracy has not declined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 33,
+      "start": 131.0,
+      "end": 135.28,
+      "text": "While those overall trends are reassuring, unexpected election outcomes still rattle",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 34,
+      "start": 135.28,
+      "end": 137.24,
+      "text": "the public confidence in polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 35,
+      "start": 137.24,
+      "end": 139.36,
+      "text": "A good example of this is Brexit.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166428,
+      "no_speech_prob": 0.00094
+    },
+    {
+      "index": 36,
+      "start": 139.36,
+      "end": 142.8,
+      "text": "Whether it or not, Brexit was not a massive polling failure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 37,
+      "start": 142.8,
+      "end": 146.8,
+      "text": "While the betting markets in Britain did strongly suggest that Britons would vote to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 38,
+      "start": 146.8,
+      "end": 151.24,
+      "text": "remain in the European Union, the polls were actually showing a close race, and for most",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 39,
+      "start": 151.24,
+      "end": 155.08,
+      "text": "of the final month, the polling showed leave ahead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 40,
+      "start": 155.08,
+      "end": 159.32,
+      "text": "So while Brexit was certainly not a shining moment in the history of polling, it also",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 41,
+      "start": 159.32,
+      "end": 162.6,
+      "text": "wasn't an instance where the polls were wildly off.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152225,
+      "no_speech_prob": 0.115906
+    },
+    {
+      "index": 42,
+      "start": 162.6,
+      "end": 169.76,
+      "text": "Look, the fixation on election polls is totally understandable and probably unavoidable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 43,
+      "start": 169.76,
+      "end": 173.68,
+      "text": "But they're just not the best barometer for how good a job polling is doing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 44,
+      "start": 173.68,
+      "end": 177.64,
+      "text": "And that's because election polls have to do something that other polls measuring policies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 45,
+      "start": 177.64,
+      "end": 179.4,
+      "text": "or attitudes don't have to do.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 46,
+      "start": 179.4,
+      "end": 183.24,
+      "text": "They have to figure out of the people they're talking to on the phone who is actually going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 47,
+      "start": 183.24,
+      "end": 188.12,
+      "text": "to go out and vote in some day in the future, and then how are they going to vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11656,
+      "no_speech_prob": 0.618164
+    },
+    {
+      "index": 48,
+      "start": 188.12,
+      "end": 192.56,
+      "text": "And for those of you who have studied human behavior, even if it's just in your friends",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 49,
+      "start": 192.56,
+      "end": 196.04,
+      "text": "and family, you know that those kind of predictions are really hard.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 50,
+      "start": 196.04,
+      "end": 200.48,
+      "text": "While polls may not always be able to call the winner in very close elections, they remain",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 51,
+      "start": 200.48,
+      "end": 206.64,
+      "text": "very well equipped for reliably tracking the contours of social attitudes, measuring people's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 52,
+      "start": 206.64,
+      "end": 211.08,
+      "text": "values, their preferences, priorities, and concerns.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 53,
+      "start": 211.08,
+      "end": 215.28,
+      "text": "Take the trend over time and attitudes towards same-sex marriage.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113131,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 54,
+      "start": 215.28,
+      "end": 220.56,
+      "text": "This is an example of polling not from an election where real-world events arguably validated",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 55,
+      "start": 220.56,
+      "end": 224.48,
+      "text": "the ability of polls to track real movement in public opinion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 56,
+      "start": 224.48,
+      "end": 228.48,
+      "text": "You had different polling organizations using different questions to measure support for",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 57,
+      "start": 228.48,
+      "end": 233.72,
+      "text": "a legal right for gays and lesbians to marry, but all of them told the same story over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 58,
+      "start": 233.72,
+      "end": 238.24,
+      "text": "Majority opposition in the 90s and early 2000s followed by gradual gains in support through",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 59,
+      "start": 238.24,
+      "end": 242.88,
+      "text": "the last decade and the emergence of majority support in recent years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.120739,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 60,
+      "start": 242.88,
+      "end": 246.8,
+      "text": "And these trends were corroborated to some extent, while the fact that supporters of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 61,
+      "start": 246.8,
+      "end": 252.6,
+      "text": "same-sex marriage began winning statewide referenda on the issue about the time majority",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 62,
+      "start": 252.6,
+      "end": 255.0,
+      "text": "support emerged in the polling.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 63,
+      "start": 255.0,
+      "end": 258.8,
+      "text": "Another way to evaluate the performance of polls is called benchmarking.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 64,
+      "start": 258.8,
+      "end": 263.48,
+      "text": "We take some questions asked in large federally funded studies with high response rates and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 65,
+      "start": 263.48,
+      "end": 266.48,
+      "text": "ask those same questions in our regular polls.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 66,
+      "start": 266.48,
+      "end": 271.16,
+      "text": "The difference between our poll numbers and the numbers from the benchmark surveys gives",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091268,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 67,
+      "start": 271.16,
+      "end": 274.24,
+      "text": "us some sense as to our accuracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 68,
+      "start": 274.24,
+      "end": 279.0,
+      "text": "We recently benchmarked our telephone surveys against some high-profile federal surveys",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 69,
+      "start": 279.0,
+      "end": 283.76,
+      "text": "and found our polls get very similar numbers on issues like what share of Americans identify",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 70,
+      "start": 283.76,
+      "end": 286.56,
+      "text": "as Republicans versus Democrats.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 71,
+      "start": 286.56,
+      "end": 291.12,
+      "text": "And the same goes for what share of Americans identify as Protestant, Catholic, another",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 72,
+      "start": 291.12,
+      "end": 293.68,
+      "text": "religion, or no religious affiliation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 73,
+      "start": 293.68,
+      "end": 297.68,
+      "text": "And these analyses, the fact that the trends from the polls line up very closely with the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134881,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 74,
+      "start": 297.68,
+      "end": 302.76,
+      "text": "trends from the benchmark surveys, is evidence that the polls remain quite accurate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 75,
+      "start": 302.76,
+      "end": 305.8,
+      "text": "During the timeline shown, the response rate was declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 76,
+      "start": 305.8,
+      "end": 310.8,
+      "text": "But despite what some people claim, the accuracy of these polls basically held steady.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 77,
+      "start": 310.8,
+      "end": 314.76,
+      "text": "Pew Research Center takes the accuracy of polling very seriously because we believe",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 78,
+      "start": 314.76,
+      "end": 318.8,
+      "text": "that polls have a very important role to play in a democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 79,
+      "start": 318.8,
+      "end": 324.4,
+      "text": "They're designed to give every citizen, whether rich or poor, well-educated or less-educated,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 80,
+      "start": 324.4,
+      "end": 326.04,
+      "text": "an equal voice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153153,
+      "no_speech_prob": 0.000553
+    },
+    {
+      "index": 81,
+      "start": 326.04,
+      "end": 330.68,
+      "text": "They also served as a check on politicians on both sides of the aisle who could otherwise",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 82,
+      "start": 330.68,
+      "end": 335.04,
+      "text": "just claim to know what the public thinks or why they voted the way they did.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 83,
+      "start": 335.04,
+      "end": 340.0,
+      "text": "Now, that doesn't mean that people in government should be slaves to poll numbers or that all",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 84,
+      "start": 340.0,
+      "end": 341.4,
+      "text": "polls are trustworthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 85,
+      "start": 341.4,
+      "end": 346.12,
+      "text": "But polls do perform a valuable function as a reality check on how the public is thinking",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 86,
+      "start": 346.12,
+      "end": 350.56,
+      "text": "about major issues and what's going well or going poorly in people's lives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 87,
+      "start": 350.56,
+      "end": 354.36,
+      "text": "And even though some recent elections have put a spotlight on the limits to just how",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090484,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 88,
+      "start": 354.36,
+      "end": 358.24,
+      "text": "accurate polls can be, there is a lot of research showing that well-designed polls",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 89,
+      "start": 358.24,
+      "end": 361.36,
+      "text": "still work and still provide useful information.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 90,
+      "start": 361.36,
+      "end": 363.76,
+      "text": "So bottom line, can polls be trusted?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    },
+    {
+      "index": 91,
+      "start": 363.76,
+      "end": 368.2,
+      "text": "As long as we're realistic about the precision that polls can actually provide, yes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.165343,
+      "no_speech_prob": 0.584473
+    }
+  ],
+  "context_text_chronological": "Can we still trust polls? After the 2016 US presidential election, a common reaction from across the political spectrum was that polling must be broken. Now that researchers have had time to dig into what happened in 2016 and in polling more generally, we can bring a lot of data to bear on this. Here are the basics. Some people who were surprised by the outcome of the 2016 election still can't get past the feeling that they were led astray by the polls. Well the fact of the matter is, the national polls in 2016 were very accurate. On average the national polls indicated Hillary Clinton would win the popular vote by about three percentage points and she won by two points. When a commission got down to the data and looked at what happened in the 2016 election, they found most of the problems were actually at the state level, where there are folks who are trying to do this kind of polling with not the resources that you might have at the national level. What happened with some of those polls was they were out of the field and missed a late swing among those undecided voters toward Donald Trump. Or another issue they had was under-representing people who didn't have college educations. And all of those led to big surprises in the Midwest on election night. Another common criticism is that pollsters favor a particular political party. But a look at the direction of polling misses in the U.S. over time shows that whether the polls tend to miss in the Republican direction or the Democratic direction is pretty much just a coin flip. Some of the best evidence about the performance of election polling comes from rigorous analyses And an even broader look at polling in 45 countries around the world over the past 75 years, done by Will Jennings and Christopher Wilesian, found a similar result. Election polls worldwide have a good record of accuracy, and despite some forecasting misses of the past few years, the average level of accuracy has not declined. While those overall trends are reassuring, unexpected election outcomes still rattle the public confidence in polls. A good example of this is Brexit. Whether it or not, Brexit was not a massive polling failure. While the betting markets in Britain did strongly suggest that Britons would vote to remain in the European Union, the polls were actually showing a close race, and for most of the final month, the polling showed leave ahead. So while Brexit was certainly not a shining moment in the history of polling, it also wasn't an instance where the polls were wildly off. Look, the fixation on election polls is totally understandable and probably unavoidable. But they're just not the best barometer for how good a job polling is doing. And that's because election polls have to do something that other polls measuring policies or attitudes don't have to do. They have to figure out of the people they're talking to on the phone who is actually going to go out and vote in some day in the future, and then how are they going to vote. And for those of you who have studied human behavior, even if it's just in your friends and family, you know that those kind of predictions are really hard. While polls may not always be able to call the winner in very close elections, they remain very well equipped for reliably tracking the contours of social attitudes, measuring people's values, their preferences, priorities, and concerns. Take the trend over time and attitudes towards same-sex marriage. This is an example of polling not from an election where real-world events arguably validated the ability of polls to track real movement in public opinion. You had different polling organizations using different questions to measure support for a legal right for gays and lesbians to marry, but all of them told the same story over time. Majority opposition in the 90s and early 2000s followed by gradual gains in support through the last decade and the emergence of majority support in recent years. And these trends were corroborated to some extent, while the fact that supporters of same-sex marriage began winning statewide referenda on the issue about the time majority support emerged in the polling. Another way to evaluate the performance of polls is called benchmarking. We take some questions asked in large federally funded studies with high response rates and ask those same questions in our regular polls. The difference between our poll numbers and the numbers from the benchmark surveys gives us some sense as to our accuracy. We recently benchmarked our telephone surveys against some high-profile federal surveys and found our polls get very similar numbers on issues like what share of Americans identify as Republicans versus Democrats. And the same goes for what share of Americans identify as Protestant, Catholic, another religion, or no religious affiliation. And these analyses, the fact that the trends from the polls line up very closely with the trends from the benchmark surveys, is evidence that the polls remain quite accurate. During the timeline shown, the response rate was declining. But despite what some people claim, the accuracy of these polls basically held steady. Pew Research Center takes the accuracy of polling very seriously because we believe that polls have a very important role to play in a democracy. They're designed to give every citizen, whether rich or poor, well-educated or less-educated, an equal voice. They also served as a check on politicians on both sides of the aisle who could otherwise just claim to know what the public thinks or why they voted the way they did. Now, that doesn't mean that people in government should be slaves to poll numbers or that all polls are trustworthy. But polls do perform a valuable function as a reality check on how the public is thinking about major issues and what's going well or going poorly in people's lives. And even though some recent elections have put a spotlight on the limits to just how accurate polls can be, there is a lot of research showing that well-designed polls still work and still provide useful information. So bottom line, can polls be trusted? As long as we're realistic about the precision that polls can actually provide, yes.",
+  "target_text_for_audit": "If anything, national polling in presidential elections is more accurate now than it was a few decades ago. Since 2000, the average absolute error in national presidential polls has been around",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "national polling in presidential elections is more accurate now than it was a few decades ago.",
+        "start_source": 95.36,
+        "end_source": 100.34,
+        "matching_cue_ids": [
+          25,
+          26
+        ],
+        "text_similarity": 0.9394,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Since 2000, the average absolute error in national presidential polls has been around two or three percentage points,",
+        "start_source": 100.94,
+        "end_source": 107.8,
+        "matching_cue_ids": [
+          26,
+          27,
+          28
+        ],
+        "text_similarity": 0.7744,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\jHgZzIRhezo.mp4",
+    "cue_count": 92
+  },
+  "token_estimate_char_div_4": 1557
+}

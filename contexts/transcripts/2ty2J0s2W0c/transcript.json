@@ -1,0 +1,1287 @@
+{
+  "video_id": "2ty2J0s2W0c",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\2ty2J0s2W0c.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 523.331,
+  "duration_after_vad_seconds": 498.32,
+  "cue_count": 141,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "In May of 2020, the United States government struck a deal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 1,
+      "start": 5.0,
+      "end": 9.0,
+      "text": "$1.2 billion would go to the British drugmaker AstraZeneca",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 2,
+      "start": 9.0,
+      "end": 12.0,
+      "text": "to speed up their COVID-19 vaccine research.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 3,
+      "start": 12.0,
+      "end": 16.0,
+      "text": "In exchange, AstraZeneca promised the U.S. 300 million doses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 4,
+      "start": 16.0,
+      "end": 20.0,
+      "text": "if the vaccine made it through safety and efficacy trials.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 5,
+      "start": 20.0,
+      "end": 23.0,
+      "text": "Earlier that month, the United Kingdom signed a similar deal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 6,
+      "start": 23.0,
+      "end": 26.0,
+      "text": "with the same company to secure 90 million doses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 7,
+      "start": 26.0,
+      "end": 29.0,
+      "text": "These types of transactions where a country makes a deal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095824,
+      "no_speech_prob": 0.007
+    },
+    {
+      "index": 8,
+      "start": 29.0,
+      "end": 32.0,
+      "text": "directly with a company are called bilateral deals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 9,
+      "start": 32.0,
+      "end": 36.0,
+      "text": "And in 2020, rich countries made a lot of them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 10,
+      "start": 36.0,
+      "end": 40.95,
+      "text": "Those billions of dollars helped fund research",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 11,
+      "start": 40.95,
+      "end": 44.95,
+      "text": "that brought us the world's leading COVID vaccines in record time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 12,
+      "start": 44.95,
+      "end": 48.95,
+      "text": "But that money also determined where those vaccines would go.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 13,
+      "start": 49.95,
+      "end": 54.95,
+      "text": "By January 2021, 96% of the Pfizer-BioNTech vaccine doses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 14,
+      "start": 54.95,
+      "end": 57.95,
+      "text": "that were scheduled to be produced by the end of the year",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052368,
+      "no_speech_prob": 0.003271
+    },
+    {
+      "index": 15,
+      "start": 57.95,
+      "end": 61.95,
+      "text": "had already been bought and 100% of Moderna's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 16,
+      "start": 61.95,
+      "end": 64.95,
+      "text": "Countries representing 16% of the global population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 17,
+      "start": 64.95,
+      "end": 66.95,
+      "text": "held over half of the doses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 18,
+      "start": 66.95,
+      "end": 69.95,
+      "text": "from the most promising vaccine developers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 19,
+      "start": 69.95,
+      "end": 72.95,
+      "text": "Basically, rich countries got vaccines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 20,
+      "start": 72.95,
+      "end": 75.95,
+      "text": "Poor countries didn't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 21,
+      "start": 75.95,
+      "end": 79.95,
+      "text": "In Brazil and India, health systems are being pushed to the limits",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 22,
+      "start": 79.95,
+      "end": 84.95,
+      "text": "at the same time that the U.S. is quickly opening up vaccinations for anyone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 23,
+      "start": 84.95,
+      "end": 86.95,
+      "text": "That's making the pandemic last longer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087574,
+      "no_speech_prob": 0.005135
+    },
+    {
+      "index": 24,
+      "start": 86.95,
+      "end": 90.95,
+      "text": "It's allowing infections to rage and new variants to arise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 25,
+      "start": 90.95,
+      "end": 93.95,
+      "text": "And at the end of the day, more people are dying than need to be.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 26,
+      "start": 93.95,
+      "end": 96.95,
+      "text": "The same deals that helped develop vaccines",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 27,
+      "start": 96.95,
+      "end": 99.95,
+      "text": "are making it harder to get them around the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 28,
+      "start": 99.95,
+      "end": 105.76,
+      "text": "Now what?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 29,
+      "start": 105.76,
+      "end": 108.76,
+      "text": "What's happening now with the COVID-19 vaccine inequality",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 30,
+      "start": 108.76,
+      "end": 110.76,
+      "text": "isn't at all unprecedented.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 31,
+      "start": 110.76,
+      "end": 114.76,
+      "text": "In 2009, the World Health Organization declared swine flu a pandemic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 32,
+      "start": 114.76,
+      "end": 117.76,
+      "text": "We are all in this together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 33,
+      "start": 117.76,
+      "end": 119.76,
+      "text": "After securing their own vaccine deals,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055055,
+      "no_speech_prob": 0.00022
+    },
+    {
+      "index": 34,
+      "start": 119.76,
+      "end": 123.76,
+      "text": "these nine higher-income countries pledged 120 million doses",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 35,
+      "start": 123.76,
+      "end": 126.76,
+      "text": "to the WHO for lower-income countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 36,
+      "start": 126.76,
+      "end": 128.76,
+      "text": "But they only started sending those donations",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 37,
+      "start": 128.76,
+      "end": 131.76,
+      "text": "after they realized the outbreak wasn't as serious",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 38,
+      "start": 131.76,
+      "end": 133.76,
+      "text": "as everyone initially thought.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 39,
+      "start": 133.76,
+      "end": 136.76,
+      "text": "For years, we've seen health technologies rolled out in rich countries,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 40,
+      "start": 136.76,
+      "end": 140.76,
+      "text": "and it takes decades for them to trickle down to poor countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 41,
+      "start": 140.76,
+      "end": 144.76,
+      "text": "The problem starts with the vaccine market itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 42,
+      "start": 144.76,
+      "end": 147.76,
+      "text": "Getting a vaccine from development to manufacturing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057999,
+      "no_speech_prob": 0.001925
+    },
+    {
+      "index": 43,
+      "start": 147.76,
+      "end": 150.76,
+      "text": "to distribution is a multi-step process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 44,
+      "start": 150.76,
+      "end": 154.76,
+      "text": "By making bilateral deals with developers and suppliers early on,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 45,
+      "start": 154.76,
+      "end": 158.76,
+      "text": "rich countries got in line here at manufacturing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 46,
+      "start": 158.76,
+      "end": 162.76,
+      "text": "But there was no guarantee that any given vaccine would work",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 47,
+      "start": 162.76,
+      "end": 165.76,
+      "text": "or get past regulators to reach the market.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 48,
+      "start": 165.76,
+      "end": 168.76,
+      "text": "If a vaccine fails shortly after funding,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 49,
+      "start": 168.76,
+      "end": 172.76,
+      "text": "those billion-dollar investments are lost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 50,
+      "start": 172.76,
+      "end": 174.76,
+      "text": "So to offset that risk,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04806,
+      "no_speech_prob": 0.005817
+    },
+    {
+      "index": 51,
+      "start": 174.76,
+      "end": 177.76,
+      "text": "countries invested in multiple options and suppliers,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 52,
+      "start": 177.76,
+      "end": 182.76,
+      "text": "often securing enough doses to cover their populations several times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 53,
+      "start": 182.76,
+      "end": 187.76,
+      "text": "As of March 2021, Canada had secured over 300 million doses,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 54,
+      "start": 187.76,
+      "end": 191.76,
+      "text": "enough to cover their population five times over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 55,
+      "start": 191.76,
+      "end": 195.76,
+      "text": "And the deals the U.S. made were enough to cover its population at least twice,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 56,
+      "start": 195.76,
+      "end": 197.76,
+      "text": "which worked out for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 57,
+      "start": 197.76,
+      "end": 201.76,
+      "text": "Because even though they secured 300 million doses of AstraZeneca a year ago,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054329,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 58,
+      "start": 201.76,
+      "end": 205.76,
+      "text": "as of April, it still hasn't been approved for use in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 59,
+      "start": 205.76,
+      "end": 208.76,
+      "text": "But the Pfizer and Moderna doses that the government pre-purchased",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 60,
+      "start": 208.76,
+      "end": 212.76,
+      "text": "are still enough to cover most of the population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 61,
+      "start": 212.76,
+      "end": 217.76,
+      "text": "Most countries can't afford to make multiple high-risk investments early on,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 62,
+      "start": 217.76,
+      "end": 221.76,
+      "text": "so they wait until the vaccine is further along in the approval process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 63,
+      "start": 221.76,
+      "end": 226.76,
+      "text": "And by then, they're already at the back of a very long line.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 64,
+      "start": 226.76,
+      "end": 229.76,
+      "text": "Peru, for example, made a bilateral deal with AstraZeneca,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028607,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 65,
+      "start": 229.76,
+      "end": 232.76,
+      "text": "but won't see those doses until at least September.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 66,
+      "start": 232.76,
+      "end": 235.76,
+      "text": "Those that purchased first or made the biggest orders",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 67,
+      "start": 235.76,
+      "end": 238.76,
+      "text": "or invested into the research and development",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 68,
+      "start": 238.76,
+      "end": 240.76,
+      "text": "are standing at the front of the line,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 69,
+      "start": 240.76,
+      "end": 246.76,
+      "text": "which is why the U.S. has gotten 240 million doses of vaccine so far, at least,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 70,
+      "start": 246.76,
+      "end": 252.76,
+      "text": "and most of the poor countries in the world don't have 240 million doses combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 71,
+      "start": 252.76,
+      "end": 255.76,
+      "text": "So is there a way to get a lot of money here",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 72,
+      "start": 255.76,
+      "end": 258.76,
+      "text": "without creating a priority line over here?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059152,
+      "no_speech_prob": 0.002182
+    },
+    {
+      "index": 73,
+      "start": 259.76,
+      "end": 260.76,
+      "text": "Maybe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 74,
+      "start": 260.76,
+      "end": 265.36,
+      "text": "One program underway is designed to work as a sort of middleman",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 75,
+      "start": 265.36,
+      "end": 269.36,
+      "text": "between countries and the drug companies making vaccines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 76,
+      "start": 269.36,
+      "end": 271.36,
+      "text": "It's called COVAX.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 77,
+      "start": 271.36,
+      "end": 273.36,
+      "text": "It's an initiative formed by three global health groups,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 78,
+      "start": 273.36,
+      "end": 276.36,
+      "text": "including the World Health Organization.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 79,
+      "start": 276.36,
+      "end": 280.36,
+      "text": "And its main objective is to provide vaccines to 92 middle and low-income countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 80,
+      "start": 280.36,
+      "end": 282.36,
+      "text": "that were shut out for making their own deals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 81,
+      "start": 282.36,
+      "end": 286.36,
+      "text": "COVAX is kind of like the Paris climate agreement of the vaccine world,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080966,
+      "no_speech_prob": 0.002707
+    },
+    {
+      "index": 82,
+      "start": 286.36,
+      "end": 290.36,
+      "text": "so it's this multilateral effort with almost 200 countries that have joined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 83,
+      "start": 290.36,
+      "end": 295.36,
+      "text": "And the idea is that, you know, everyone has access to COVID-19 vaccines",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 84,
+      "start": 295.36,
+      "end": 297.36,
+      "text": "regardless of the country's GDP.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 85,
+      "start": 297.36,
+      "end": 300.36,
+      "text": "It does this using a two-part system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 86,
+      "start": 300.36,
+      "end": 303.36,
+      "text": "The first part allows high-income countries to buy into",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 87,
+      "start": 303.36,
+      "end": 305.36,
+      "text": "and access multiple vaccines at once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 88,
+      "start": 305.36,
+      "end": 310.36,
+      "text": "So instead of one country giving $2 billion directly to AstraZeneca,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 89,
+      "start": 310.36,
+      "end": 312.36,
+      "text": "they'd give the money to COVAX,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 90,
+      "start": 312.36,
+      "end": 315.36,
+      "text": "which would use it to fund several different vaccines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053919,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 91,
+      "start": 315.36,
+      "end": 320.36,
+      "text": "This way, if one or two of them failed early on, it wouldn't be a total loss.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 92,
+      "start": 320.36,
+      "end": 323.36,
+      "text": "The other vaccines in the portfolio would make up for it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 93,
+      "start": 323.36,
+      "end": 329.36,
+      "text": "It's a multilateral system that's much lower risk for those countries than a bilateral one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 94,
+      "start": 329.36,
+      "end": 333.36,
+      "text": "The idea is that COVAX could use that larger purchasing power",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 95,
+      "start": 333.36,
+      "end": 337.36,
+      "text": "to negotiate deals with manufacturers and developers on a global scale,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 96,
+      "start": 337.36,
+      "end": 341.36,
+      "text": "which would drive the costs down and fund vaccine development.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 97,
+      "start": 341.36,
+      "end": 345.74,
+      "text": "The second part buys vaccines for lower-income countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041882,
+      "no_speech_prob": 0.000519
+    },
+    {
+      "index": 98,
+      "start": 345.74,
+      "end": 349.74,
+      "text": "It's funded by donations from wealthier governments and charities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 99,
+      "start": 349.74,
+      "end": 353.74,
+      "text": "The U.S. alone has pledged $4 billion to this fund.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 100,
+      "start": 353.74,
+      "end": 357.74,
+      "text": "As vaccines become available, COVAX hands them out to every country at once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 101,
+      "start": 357.74,
+      "end": 361.74,
+      "text": "So rich countries and poor countries all get a fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 102,
+      "start": 361.74,
+      "end": 364.74,
+      "text": "At least, that's the idea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 103,
+      "start": 364.74,
+      "end": 369.74,
+      "text": "The biggest problem with COVAX is these bilateral deals we talked about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 104,
+      "start": 369.74,
+      "end": 374.74,
+      "text": "For COVAX to work as intended, it needs most countries to be using its multilateral system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048377,
+      "no_speech_prob": 0.001284
+    },
+    {
+      "index": 105,
+      "start": 375.74,
+      "end": 378.74,
+      "text": "But COVAX was formed a month into the pandemic",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 106,
+      "start": 378.74,
+      "end": 382.74,
+      "text": "when many countries had already invested in bilateral deals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 107,
+      "start": 382.74,
+      "end": 386.74,
+      "text": "So the incentive for rich countries to join COVAX was low.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 108,
+      "start": 386.74,
+      "end": 389.74,
+      "text": "But without them, COVAX might be underfunded.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 109,
+      "start": 389.74,
+      "end": 392.74,
+      "text": "So it let them have it both ways.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 110,
+      "start": 392.74,
+      "end": 396.74,
+      "text": "Rich countries could join COVAX and keep their bilateral deals",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 111,
+      "start": 396.74,
+      "end": 399.74,
+      "text": "that would get them more vaccines faster.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048658,
+      "no_speech_prob": 0.001727
+    },
+    {
+      "index": 112,
+      "start": 399.74,
+      "end": 404.74,
+      "text": "And those basically undermined COVAX because they put themselves at the front of the line",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 113,
+      "start": 404.74,
+      "end": 408.74,
+      "text": "ahead of the access that countries will get through this collective agreement.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 114,
+      "start": 408.74,
+      "end": 411.74,
+      "text": "The U.S., for example, has donated the most money to COVAX",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 115,
+      "start": 411.74,
+      "end": 416.74,
+      "text": "but is also still at the front of the manufacturing lines waiting for its own doses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 116,
+      "start": 416.74,
+      "end": 422.02,
+      "text": "The U.S. and U.K. have both promised to donate some surplus doses to COVAX",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 117,
+      "start": 422.02,
+      "end": 425.02,
+      "text": "but neither country has said when.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 118,
+      "start": 425.02,
+      "end": 429.02,
+      "text": "This means rich countries like the U.S. decide who gets what when",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058875,
+      "no_speech_prob": 0.00263
+    },
+    {
+      "index": 119,
+      "start": 429.02,
+      "end": 434.02,
+      "text": "instead of some global collaborative process of vaccine allocation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 120,
+      "start": 434.02,
+      "end": 437.02,
+      "text": "Experts are skeptical COVAX will meet its original goal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 121,
+      "start": 437.02,
+      "end": 441.02,
+      "text": "of delivering 2 billion vaccine doses by the end of 2021.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 122,
+      "start": 441.02,
+      "end": 445.02,
+      "text": "As of April, they've only purchased around half that amount",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 123,
+      "start": 445.02,
+      "end": 447.02,
+      "text": "and delivered 45 million doses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 124,
+      "start": 447.02,
+      "end": 450.02,
+      "text": "So they've reached a huge number of countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 125,
+      "start": 450.02,
+      "end": 454.02,
+      "text": "but nowhere near enough to cover even frontline health workers",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 126,
+      "start": 454.02,
+      "end": 458.02,
+      "text": "or other essential workers in most of the countries that these vaccines are going to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052493,
+      "no_speech_prob": 0.000579
+    },
+    {
+      "index": 127,
+      "start": 458.02,
+      "end": 465.02,
+      "text": "Meanwhile, as of April, the U.S. has already administered over 200 million doses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 128,
+      "start": 465.02,
+      "end": 469.02,
+      "text": "What COVAX is setting out to do is hugely challenging.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 129,
+      "start": 469.02,
+      "end": 472.02,
+      "text": "They probably won't meet their own first targets",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 130,
+      "start": 472.02,
+      "end": 474.02,
+      "text": "but they are getting vaccines into countries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 131,
+      "start": 474.02,
+      "end": 477.02,
+      "text": "and they probably wouldn't otherwise have them this quickly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 132,
+      "start": 477.02,
+      "end": 481.02,
+      "text": "Vaccine inequality is bigger than just bilateral deals.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 133,
+      "start": 481.02,
+      "end": 483.02,
+      "text": "It's in every step of the process,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 134,
+      "start": 483.02,
+      "end": 487.02,
+      "text": "from limited manufacturing to cold chain distribution.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0628,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 135,
+      "start": 487.02,
+      "end": 491.02,
+      "text": "Even debates around the intellectual property of vaccines.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    },
+    {
+      "index": 136,
+      "start": 491.02,
+      "end": 495.02,
+      "text": "Our current system is not a well-oiled machine at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    },
+    {
+      "index": 137,
+      "start": 495.02,
+      "end": 500.02,
+      "text": "And there's a lot of work to do if we want to be better prepared for the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    },
+    {
+      "index": 138,
+      "start": 500.02,
+      "end": 503.02,
+      "text": "One of the things that we learned about pandemic preparedness",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    },
+    {
+      "index": 139,
+      "start": 503.02,
+      "end": 506.02,
+      "text": "is you can't really build it after the fact",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    },
+    {
+      "index": 140,
+      "start": 506.02,
+      "end": 508.02,
+      "text": "and that's still what we're doing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043336,
+      "no_speech_prob": 0.00679
+    }
+  ],
+  "created_at": "2026-11-05T02:08:22+0800"
+}

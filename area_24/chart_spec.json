@@ -1,12 +1,12 @@
 {
  "clip_id": "area_24",
  "family": "area",
- "sub_type": "bubble",
+ "sub_type": "proportional_circle_size",
  "orientation": "cartesian",
- "series_count": 6,
+ "series_count": 1,
  "has_reference_line": false,
- "panel_count": 10,
- "has_axis": true,
+ "panel_count": 1,
+ "has_axis": false,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 11,
@@ -16,6 +16,10 @@
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "diameter",
+ "entity_count": 6,
+ "batch_status": "approved"
 }

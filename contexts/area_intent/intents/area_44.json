@@ -1,0 +1,71 @@
+{
+ "clip": "area_44",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show how Berkshire Hathaway's BRK-A stock price grew from $19 in 1965 to $421,000 by 2021.",
+ "proposed_intent": "Trace the BRK-A stock price in USD from 1965 through 2021 to report its trajectory over the period.",
+ "writer": {
+  "intent": "Trace the BRK-A stock price in USD from 1965 through 2021 to report its trajectory over the period.",
+  "entities": [
+   "BRK-A stock price"
+  ],
+  "measure": "Stock price (USD)",
+  "scope": "Annual observations from 1965 to 2021",
+  "comparison": "None",
+  "withheld_answer": "The stock price grew from $19 in 1965 to $421,000 by 2021."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 18,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "19",
+   "421,000"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4820,
+   "completion_tokens": 106,
+   "total_tokens": 4926,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 4692
+  },
+  {
+   "prompt_tokens": 4757,
+   "completion_tokens": 56,
+   "total_tokens": 4813,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4757
+  }
+ ],
+ "sec": 2.3
+}

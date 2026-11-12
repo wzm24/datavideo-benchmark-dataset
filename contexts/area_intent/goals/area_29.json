@@ -1,0 +1,220 @@
+{
+ "clip": "area_29",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that in a chart labeled 'WHAT IT FEELS LIKE,' the relative area for death by plane is much larger than for death by car.",
+ "core_claim": "The plane area is about 12 times the car area in this relative-area chart.",
+ "chart_role": "relative-area comparison",
+ "source_consistency": "corrected_from_old_intent",
+ "issues": [
+  "Narration mentions coal and oil, but the chart only compares car and plane deaths.",
+  "The chart's relative area values (car 0.082, plane 1.0) do not directly encode real-world death frequencies, so the 'silent killer' frequency claim is not supported by the table.",
+  "The table shows relative area values (car = 0.081982, plane = 1.0) but does not establish perception, feeling, or risk perception.",
+  "The visible label 'WHAT IT FEELS LIKE' suggests a subjective framing, but no evidence quantifies perceived risk or supports 'far larger risk' as a perception claim.",
+  "The table does not state that car deaths are more common or more frequent; it only gives relative area values.",
+  "The phrase 'silent killer' is not supported by any table value or visible label.",
+  "The goal imports claims about frequency and perception that are not directly supported by the supplied evidence."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To illustrate how catastrophic events are perceived as much larger risks than frequent causes of death, highlighting a cognitive bias in risk perception.",
+ "narration": "Single catastrophic events burn into our memory while coal and oil kill silently.",
+ "svg_text": [
+  "WHAT IT FEELS LIKE",
+  "DEATH BY CAR",
+  "DEATH BY PLANE"
+ ],
+ "chart_spec": {
+  "clip_id": "area_29",
+  "family": "area",
+  "sub_type": "proportional_square_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 2,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Death by car",
+    "series": "",
+    "role": "proportional_square_area",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.081982,
+    "value_max": 0.081982,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by car",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.081982",
+     "unit": "relative",
+     "label": "DEATH BY CAR",
+     "role": "proportional_square_area"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by car",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.081982",
+     "unit": "relative",
+     "label": "DEATH BY CAR",
+     "role": "proportional_square_area"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "Death by plane",
+    "series": "",
+    "role": "proportional_square_area",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 1.0,
+    "value_max": 1.0,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by plane",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "DEATH BY PLANE",
+     "role": "proportional_square_area"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by plane",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "DEATH BY PLANE",
+     "role": "proportional_square_area"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Area (relative)",
+    "entity": "Death by car",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.081982",
+    "unit": "relative",
+    "label": "DEATH BY CAR",
+    "role": "proportional_square_area"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Area (relative)",
+    "entity": "Death by plane",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "1.000000",
+    "unit": "relative",
+    "label": "DEATH BY PLANE",
+    "role": "proportional_square_area"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": false,
+  "unsupported_claims": [
+   "Death by plane is perceived as a far larger risk than death by car.",
+   "Car deaths are the more common silent killer.",
+   "Plane deaths feel catastrophic and loom larger in perception.",
+   "Car deaths are more frequent."
+  ],
+  "issues": [
+   "The table shows relative area values (car = 0.081982, plane = 1.0) but does not establish perception, feeling, or risk perception.",
+   "The visible label 'WHAT IT FEELS LIKE' suggests a subjective framing, but no evidence quantifies perceived risk or supports 'far larger risk' as a perception claim.",
+   "The table does not state that car deaths are more common or more frequent; it only gives relative area values.",
+   "The phrase 'silent killer' is not supported by any table value or visible label.",
+   "The goal imports claims about frequency and perception that are not directly supported by the supplied evidence."
+  ],
+  "corrected_goal": "Show that the relative area for death by plane is much larger than for death by car in a chart labeled 'WHAT IT FEELS LIKE'.",
+  "corrected_core_claim": "The plane area is about 12 times the car area in this relative-area chart."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1440,
+   "completion_tokens": 167,
+   "total_tokens": 1607,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1312
+  },
+  "audit": {
+   "prompt_tokens": 1248,
+   "completion_tokens": 274,
+   "total_tokens": 1522,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1248
+  }
+ },
+ "sec": 5.0
+}

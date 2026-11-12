@@ -1,0 +1,1089 @@
+{
+  "clip_id": "bar_121",
+  "family": "bar",
+  "video_id": "n58iQN3MbSU",
+  "source_url": "https://www.youtube.com/watch?v=n58iQN3MbSU",
+  "source_title": "Do Americans trust their elections?",
+  "target_window_source": {
+    "start": 103.0,
+    "end": 107.0
+  },
+  "target_mask_interval": {
+    "start": 101.5,
+    "end": 108.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    23,
+    24
+  ],
+  "masked_cue_ids": [
+    23,
+    24
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 6.38,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 1,
+      "start": 6.38,
+      "end": 7.38,
+      "text": "U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 2,
+      "start": 7.38,
+      "end": 10.1,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 3,
+      "start": 10.1,
+      "end": 12.98,
+      "text": "To what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 4,
+      "start": 12.98,
+      "end": 17.14,
+      "text": "In this episode, Hannah Hardig and Bradley Jones help explain trust in elections and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 5,
+      "start": 17.14,
+      "end": 20.7,
+      "text": "views of the U.S. electoral system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 6,
+      "start": 20.7,
+      "end": 25.74,
+      "text": "On January 6, 2021, a deadly riot broke out at the U.S. Capitol over the certification",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 7,
+      "start": 25.74,
+      "end": 28.7,
+      "text": "of the 2020 presidential election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 8,
+      "start": 28.7,
+      "end": 32.98,
+      "text": "A group of Trump supporters stormed the building over what they thought was a stolen election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 9,
+      "start": 32.98,
+      "end": 38.78,
+      "text": "This event was a flashpoint for Americans and the American political system, and it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 10,
+      "start": 38.78,
+      "end": 43.9,
+      "text": "a culmination of a question we've been thinking about for the last several years, which is,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 11,
+      "start": 43.9,
+      "end": 46.26,
+      "text": "do Americans trust their elections?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 12,
+      "start": 46.26,
+      "end": 50.7,
+      "text": "Right, and one of the key things I understand about the U.S. system is just how varied it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 13,
+      "start": 50.7,
+      "end": 56.42,
+      "text": "is across the country, and even within states, because elections are run and administered",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 14,
+      "start": 56.42,
+      "end": 61.62,
+      "text": "at a very local level, usually the county level, and that means that voters, even living",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 15,
+      "start": 61.62,
+      "end": 66.58,
+      "text": "in the same state, can experience elections in very different ways.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 16,
+      "start": 66.58,
+      "end": 73.42,
+      "text": "One consistent pattern that we've seen is that Americans have more trust in their local",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 17,
+      "start": 73.42,
+      "end": 79.22,
+      "text": "system that they're familiar with, and contributing to that is surely the complexity of the overall",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 18,
+      "start": 79.22,
+      "end": 81.7,
+      "text": "system when you piece it all together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 19,
+      "start": 81.7,
+      "end": 87.06,
+      "text": "Another way that this dynamic happens in American elections is through vote method.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 20,
+      "start": 87.06,
+      "end": 92.06,
+      "text": "So whether a person cast their ballot in person or by mail, and that was certainly something",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 21,
+      "start": 92.06,
+      "end": 94.74,
+      "text": "that we saw in 2020 as well.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 22,
+      "start": 94.74,
+      "end": 99.1,
+      "text": "Typically Americans go to polling places and cast their ballot in person, but some states",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    }
+  ],
+  "context_after": [
+    {
+      "index": 25,
+      "start": 108.74,
+      "end": 110.02,
+      "text": "method of voting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 26,
+      "start": 110.02,
+      "end": 115.1,
+      "text": "People had slightly less confidence that votes cast by mail would be counted accurately.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 27,
+      "start": 115.1,
+      "end": 119.34,
+      "text": "And another thing that we see is the winning and losing effect on elections.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 28,
+      "start": 119.34,
+      "end": 123.3,
+      "text": "So what we mean by this is that we ask people whether they expect elections will be run",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 29,
+      "start": 123.3,
+      "end": 129.1,
+      "text": "and administered well, whether votes will be counted as cast, and we see that voters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 30,
+      "start": 129.1,
+      "end": 134.3,
+      "text": "who supported the losing candidate in a particular election become less likely to say that elections",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 31,
+      "start": 134.3,
+      "end": 139.42,
+      "text": "were run well or that votes were counted accurately, and you see the opposite among voters who",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 32,
+      "start": 139.42,
+      "end": 140.98,
+      "text": "supported the winning candidate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 33,
+      "start": 140.98,
+      "end": 145.82,
+      "text": "So this is probably most clear when we look at the 2016 and 2020 elections and we look",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 34,
+      "start": 145.82,
+      "end": 147.46,
+      "text": "at Trump voters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 35,
+      "start": 147.46,
+      "end": 152.98,
+      "text": "So ahead of the 2016 election, much like the 2020 election, there was a lot of messaging",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 36,
+      "start": 152.98,
+      "end": 156.62,
+      "text": "coming out of the Trump campaign that there were likely going to be problems with the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 37,
+      "start": 156.62,
+      "end": 162.26,
+      "text": "vote and that he wouldn't concede the election because it must have been crud if he lost",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 38,
+      "start": 162.26,
+      "end": 163.26,
+      "text": "it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 39,
+      "start": 163.26,
+      "end": 167.58,
+      "text": "And so we saw ahead of both of those elections that Trump supporters compared to supporters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 40,
+      "start": 167.58,
+      "end": 172.98,
+      "text": "of the Democratic candidate were substantially less confident in the process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 41,
+      "start": 172.98,
+      "end": 178.1,
+      "text": "When Trump won the 2016 election, his voters suddenly become much more confident in the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 42,
+      "start": 178.1,
+      "end": 182.9,
+      "text": "process and say that the election was run well and compared to what it looked like in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 43,
+      "start": 182.9,
+      "end": 185.62,
+      "text": "2020 when he lost the election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 44,
+      "start": 185.62,
+      "end": 190.22,
+      "text": "So now partisans evaluate their elections, pull in different directions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 45,
+      "start": 190.22,
+      "end": 194.34,
+      "text": "Democrats think that there are hurdles to the voting process and election rules that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 46,
+      "start": 194.34,
+      "end": 197.26,
+      "text": "make it more difficult for people to cast their ballots.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 47,
+      "start": 197.26,
+      "end": 202.46,
+      "text": "Republicans think that expanding these rules and making it easier to vote would make elections",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 48,
+      "start": 202.46,
+      "end": 203.78,
+      "text": "less secure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 49,
+      "start": 203.78,
+      "end": 207.7,
+      "text": "So those things are naturally at tension with one another and likely why we're not going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 50,
+      "start": 207.7,
+      "end": 212.62,
+      "text": "to see the polarizing aspect of American elections go away anytime soon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 51,
+      "start": 212.62,
+      "end": 217.42,
+      "text": "A lot of ways these election rules can seem kind of dry, but they've really become the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 52,
+      "start": 217.42,
+      "end": 221.26,
+      "text": "focus of partisan conflict in the last few years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 53,
+      "start": 221.26,
+      "end": 228.18,
+      "text": "Elections are the primary way that we connect politicians to the public and if faith in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.192408,
+      "no_speech_prob": 0.965332
+    },
+    {
+      "index": 54,
+      "start": 228.18,
+      "end": 234.78,
+      "text": "the electoral system is eroded, it has incredibly important implications for the overall system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.192408,
+      "no_speech_prob": 0.965332
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.1,
+      "end": 6.38,
+      "text": "Trust in America, in institutions, and each other is essential to the functioning of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 1,
+      "start": 6.38,
+      "end": 7.38,
+      "text": "U.S. democracy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 2,
+      "start": 7.38,
+      "end": 10.1,
+      "text": "Yet today, trust is declining.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 3,
+      "start": 10.1,
+      "end": 12.98,
+      "text": "To what impact does this have on American society?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 4,
+      "start": 12.98,
+      "end": 17.14,
+      "text": "In this episode, Hannah Hardig and Bradley Jones help explain trust in elections and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 5,
+      "start": 17.14,
+      "end": 20.7,
+      "text": "views of the U.S. electoral system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 6,
+      "start": 20.7,
+      "end": 25.74,
+      "text": "On January 6, 2021, a deadly riot broke out at the U.S. Capitol over the certification",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 7,
+      "start": 25.74,
+      "end": 28.7,
+      "text": "of the 2020 presidential election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23267,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 8,
+      "start": 28.7,
+      "end": 32.98,
+      "text": "A group of Trump supporters stormed the building over what they thought was a stolen election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 9,
+      "start": 32.98,
+      "end": 38.78,
+      "text": "This event was a flashpoint for Americans and the American political system, and it's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 10,
+      "start": 38.78,
+      "end": 43.9,
+      "text": "a culmination of a question we've been thinking about for the last several years, which is,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 11,
+      "start": 43.9,
+      "end": 46.26,
+      "text": "do Americans trust their elections?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 12,
+      "start": 46.26,
+      "end": 50.7,
+      "text": "Right, and one of the key things I understand about the U.S. system is just how varied it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 13,
+      "start": 50.7,
+      "end": 56.42,
+      "text": "is across the country, and even within states, because elections are run and administered",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.176853,
+      "no_speech_prob": 0.015884
+    },
+    {
+      "index": 14,
+      "start": 56.42,
+      "end": 61.62,
+      "text": "at a very local level, usually the county level, and that means that voters, even living",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 15,
+      "start": 61.62,
+      "end": 66.58,
+      "text": "in the same state, can experience elections in very different ways.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 16,
+      "start": 66.58,
+      "end": 73.42,
+      "text": "One consistent pattern that we've seen is that Americans have more trust in their local",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 17,
+      "start": 73.42,
+      "end": 79.22,
+      "text": "system that they're familiar with, and contributing to that is surely the complexity of the overall",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 18,
+      "start": 79.22,
+      "end": 81.7,
+      "text": "system when you piece it all together.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105923,
+      "no_speech_prob": 0.011681
+    },
+    {
+      "index": 19,
+      "start": 81.7,
+      "end": 87.06,
+      "text": "Another way that this dynamic happens in American elections is through vote method.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 20,
+      "start": 87.06,
+      "end": 92.06,
+      "text": "So whether a person cast their ballot in person or by mail, and that was certainly something",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 21,
+      "start": 92.06,
+      "end": 94.74,
+      "text": "that we saw in 2020 as well.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 22,
+      "start": 94.74,
+      "end": 99.1,
+      "text": "Typically Americans go to polling places and cast their ballot in person, but some states",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 25,
+      "start": 108.74,
+      "end": 110.02,
+      "text": "method of voting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.137777,
+      "no_speech_prob": 0.476074
+    },
+    {
+      "index": 26,
+      "start": 110.02,
+      "end": 115.1,
+      "text": "People had slightly less confidence that votes cast by mail would be counted accurately.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 27,
+      "start": 115.1,
+      "end": 119.34,
+      "text": "And another thing that we see is the winning and losing effect on elections.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 28,
+      "start": 119.34,
+      "end": 123.3,
+      "text": "So what we mean by this is that we ask people whether they expect elections will be run",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 29,
+      "start": 123.3,
+      "end": 129.1,
+      "text": "and administered well, whether votes will be counted as cast, and we see that voters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 30,
+      "start": 129.1,
+      "end": 134.3,
+      "text": "who supported the losing candidate in a particular election become less likely to say that elections",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 31,
+      "start": 134.3,
+      "end": 139.42,
+      "text": "were run well or that votes were counted accurately, and you see the opposite among voters who",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117671,
+      "no_speech_prob": 0.11908
+    },
+    {
+      "index": 32,
+      "start": 139.42,
+      "end": 140.98,
+      "text": "supported the winning candidate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 33,
+      "start": 140.98,
+      "end": 145.82,
+      "text": "So this is probably most clear when we look at the 2016 and 2020 elections and we look",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 34,
+      "start": 145.82,
+      "end": 147.46,
+      "text": "at Trump voters.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 35,
+      "start": 147.46,
+      "end": 152.98,
+      "text": "So ahead of the 2016 election, much like the 2020 election, there was a lot of messaging",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 36,
+      "start": 152.98,
+      "end": 156.62,
+      "text": "coming out of the Trump campaign that there were likely going to be problems with the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 37,
+      "start": 156.62,
+      "end": 162.26,
+      "text": "vote and that he wouldn't concede the election because it must have been crud if he lost",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 38,
+      "start": 162.26,
+      "end": 163.26,
+      "text": "it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 39,
+      "start": 163.26,
+      "end": 167.58,
+      "text": "And so we saw ahead of both of those elections that Trump supporters compared to supporters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0913,
+      "no_speech_prob": 0.069458
+    },
+    {
+      "index": 40,
+      "start": 167.58,
+      "end": 172.98,
+      "text": "of the Democratic candidate were substantially less confident in the process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 41,
+      "start": 172.98,
+      "end": 178.1,
+      "text": "When Trump won the 2016 election, his voters suddenly become much more confident in the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 42,
+      "start": 178.1,
+      "end": 182.9,
+      "text": "process and say that the election was run well and compared to what it looked like in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 43,
+      "start": 182.9,
+      "end": 185.62,
+      "text": "2020 when he lost the election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 44,
+      "start": 185.62,
+      "end": 190.22,
+      "text": "So now partisans evaluate their elections, pull in different directions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 45,
+      "start": 190.22,
+      "end": 194.34,
+      "text": "Democrats think that there are hurdles to the voting process and election rules that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 46,
+      "start": 194.34,
+      "end": 197.26,
+      "text": "make it more difficult for people to cast their ballots.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15168,
+      "no_speech_prob": 0.001206
+    },
+    {
+      "index": 47,
+      "start": 197.26,
+      "end": 202.46,
+      "text": "Republicans think that expanding these rules and making it easier to vote would make elections",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 48,
+      "start": 202.46,
+      "end": 203.78,
+      "text": "less secure.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 49,
+      "start": 203.78,
+      "end": 207.7,
+      "text": "So those things are naturally at tension with one another and likely why we're not going",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 50,
+      "start": 207.7,
+      "end": 212.62,
+      "text": "to see the polarizing aspect of American elections go away anytime soon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 51,
+      "start": 212.62,
+      "end": 217.42,
+      "text": "A lot of ways these election rules can seem kind of dry, but they've really become the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 52,
+      "start": 217.42,
+      "end": 221.26,
+      "text": "focus of partisan conflict in the last few years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149711,
+      "no_speech_prob": 0.012047
+    },
+    {
+      "index": 53,
+      "start": 221.26,
+      "end": 228.18,
+      "text": "Elections are the primary way that we connect politicians to the public and if faith in",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.192408,
+      "no_speech_prob": 0.965332
+    },
+    {
+      "index": 54,
+      "start": 228.18,
+      "end": 234.78,
+      "text": "the electoral system is eroded, it has incredibly important implications for the overall system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.192408,
+      "no_speech_prob": 0.965332
+    }
+  ],
+  "context_text_chronological": "Trust in America, in institutions, and each other is essential to the functioning of U.S. democracy. Yet today, trust is declining. To what impact does this have on American society? In this episode, Hannah Hardig and Bradley Jones help explain trust in elections and views of the U.S. electoral system. On January 6, 2021, a deadly riot broke out at the U.S. Capitol over the certification of the 2020 presidential election. A group of Trump supporters stormed the building over what they thought was a stolen election. This event was a flashpoint for Americans and the American political system, and it's a culmination of a question we've been thinking about for the last several years, which is, do Americans trust their elections? Right, and one of the key things I understand about the U.S. system is just how varied it is across the country, and even within states, because elections are run and administered at a very local level, usually the county level, and that means that voters, even living in the same state, can experience elections in very different ways. One consistent pattern that we've seen is that Americans have more trust in their local system that they're familiar with, and contributing to that is surely the complexity of the overall system when you piece it all together. Another way that this dynamic happens in American elections is through vote method. So whether a person cast their ballot in person or by mail, and that was certainly something that we saw in 2020 as well. Typically Americans go to polling places and cast their ballot in person, but some states method of voting. People had slightly less confidence that votes cast by mail would be counted accurately. And another thing that we see is the winning and losing effect on elections. So what we mean by this is that we ask people whether they expect elections will be run and administered well, whether votes will be counted as cast, and we see that voters who supported the losing candidate in a particular election become less likely to say that elections were run well or that votes were counted accurately, and you see the opposite among voters who supported the winning candidate. So this is probably most clear when we look at the 2016 and 2020 elections and we look at Trump voters. So ahead of the 2016 election, much like the 2020 election, there was a lot of messaging coming out of the Trump campaign that there were likely going to be problems with the vote and that he wouldn't concede the election because it must have been crud if he lost it. And so we saw ahead of both of those elections that Trump supporters compared to supporters of the Democratic candidate were substantially less confident in the process. When Trump won the 2016 election, his voters suddenly become much more confident in the process and say that the election was run well and compared to what it looked like in 2020 when he lost the election. So now partisans evaluate their elections, pull in different directions. Democrats think that there are hurdles to the voting process and election rules that make it more difficult for people to cast their ballots. Republicans think that expanding these rules and making it easier to vote would make elections less secure. So those things are naturally at tension with one another and likely why we're not going to see the polarizing aspect of American elections go away anytime soon. A lot of ways these election rules can seem kind of dry, but they've really become the focus of partisan conflict in the last few years. Elections are the primary way that we connect politicians to the public and if faith in the electoral system is eroded, it has incredibly important implications for the overall system.",
+  "target_text_for_audit": "expanded access to that vote by mail option in light of the global pandemic. And what you saw was that some Americans weren't necessarily experienced or familiar with that",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "but some states expanded access to that vote by mail option in light of the global pandemic.",
+        "start_source": 98.0,
+        "end_source": 103.3,
+        "matching_cue_ids": [
+          23
+        ],
+        "text_similarity": 0.9036,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "And what you saw was that some Americans weren't necessarily experienced or familiar with that method of voting.",
+        "start_source": 103.82,
+        "end_source": 109.6,
+        "matching_cue_ids": [
+          23,
+          24
+        ],
+        "text_similarity": 0.669,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\n58iQN3MbSU.mp4",
+    "cue_count": 55
+  },
+  "token_estimate_char_div_4": 934
+}

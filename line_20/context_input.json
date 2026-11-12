@@ -1,0 +1,843 @@
+{
+  "clip_id": "line_20",
+  "family": "line",
+  "video_id": "F3QpgXBtDeo",
+  "source_url": "https://www.youtube.com/watch?v=F3QpgXBtDeo",
+  "source_title": "How The Stock Exchange Works (For Dummies)",
+  "target_window_source": {
+    "start": 59.0,
+    "end": 74.0
+  },
+  "target_mask_interval": {
+    "start": 57.5,
+    "end": 75.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "masked_cue_ids": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.08,
+      "end": 2.52,
+      "text": "What is the stock exchange and how does it work?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 1,
+      "start": 3.68,
+      "end": 9.2,
+      "text": "The stock exchange is nothing more than a giant globally networked and organized marketplace",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 2,
+      "start": 9.4,
+      "end": 13.48,
+      "text": "where everyday huge sums of money are moved back and forth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 3,
+      "start": 14.84,
+      "end": 17.76,
+      "text": "In total over 60 trillion euros a year are traded",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 4,
+      "start": 18.84,
+      "end": 23.04,
+      "text": "more than the value of all goods and services of the entire world economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 5,
+      "start": 24.56,
+      "end": 29.56,
+      "text": "However, it's not apples or second-hand toothbrushes that are traded on this marketplace",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 6,
+      "start": 30.16,
+      "end": 32.08,
+      "text": "but predominantly securities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 7,
+      "start": 32.76,
+      "end": 36.36,
+      "text": "Securities are rights to assets mostly in the form of shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 8,
+      "start": 37.04,
+      "end": 39.24,
+      "text": "A share stands for a share in a company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 9,
+      "start": 40.36,
+      "end": 42.4,
+      "text": "But why are shares traded at all?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 10,
+      "start": 43.2,
+      "end": 47.4,
+      "text": "Well, first and foremost the value of a share relates to the company behind it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 11,
+      "start": 48.08,
+      "end": 50.76,
+      "text": "If you think of the value of the company in terms of a pizza",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 12,
+      "start": 50.96,
+      "end": 54.44,
+      "text": "the bigger the overall size of the pizza the bigger every piece is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    }
+  ],
+  "context_after": [
+    {
+      "index": 19,
+      "start": 79.4,
+      "end": 81.08,
+      "text": "But what does Facebook gain from this?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19396,
+      "no_speech_prob": 0.000163
+    },
+    {
+      "index": 20,
+      "start": 81.68,
+      "end": 86.2,
+      "text": "The company can raise funds by setting the shares and invest or expand its business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19396,
+      "no_speech_prob": 0.000163
+    },
+    {
+      "index": 21,
+      "start": 87.2,
+      "end": 92.2,
+      "text": "Facebook for example has earned 16 billion dollars from its listing on the stock exchange.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 22,
+      "start": 92.6,
+      "end": 95.6,
+      "text": "The trading of shares though is frequently a game of chance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 23,
+      "start": 96.2,
+      "end": 99.2,
+      "text": "No one can say which company will perform well and which will not.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 24,
+      "start": 100.2,
+      "end": 103.2,
+      "text": "If a company has a good reputation investors will back it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 25,
+      "start": 104.2,
+      "end": 108.2,
+      "text": "A company with a poor reputation or poor performance will have difficulty selling its shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 26,
+      "start": 110.48,
+      "end": 113.48,
+      "text": "Unlike a normal market in which goods can be touched and taken home",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 27,
+      "start": 113.68,
+      "end": 116.48,
+      "text": "on the stock exchange only virtual goods are available.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 28,
+      "start": 118.48,
+      "end": 121.48,
+      "text": "They appear in the form of share prices and tables on monitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 29,
+      "start": 122.48,
+      "end": 124.48,
+      "text": "Such share prices can rise or fall within seconds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 30,
+      "start": 125.48,
+      "end": 129.48,
+      "text": "Shareholders therefore have to act quickly in order not to miss an opportunity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 31,
+      "start": 130.48,
+      "end": 135.48,
+      "text": "Even a simple rumour can result in the demand for a share falling fast regardless of the real value of the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 32,
+      "start": 138.21,
+      "end": 140.21,
+      "text": "Of course the opposite is also possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 33,
+      "start": 140.21,
+      "end": 143.21,
+      "text": "If a particularly large number of people buy weak shares",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 34,
+      "start": 143.21,
+      "end": 148.21,
+      "text": "because they see for example great potential behind an idea their value will rise as a result.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 35,
+      "start": 148.21,
+      "end": 150.21,
+      "text": "In particular young companies can benefit from this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 36,
+      "start": 151.21,
+      "end": 156.21,
+      "text": "Even though their sales might be falling they can generate cash by placing their shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 37,
+      "start": 157.21,
+      "end": 161.21,
+      "text": "In the best case scenario this will result in their idea being turned into reality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 38,
+      "start": 162.21,
+      "end": 167.21,
+      "text": "In the worst case scenario this will result in a speculative bubble with nothing more than hot air.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 39,
+      "start": 168.21,
+      "end": 171.21,
+      "text": "And as in the case with bubbles at some point they will burst.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 40,
+      "start": 172.21,
+      "end": 176.21,
+      "text": "The value of Germany's biggest 30 companies is summarised in what's known as the DAX share index.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 41,
+      "start": 177.21,
+      "end": 181.84,
+      "text": "The DAX curve shows how well or poorly these major companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 42,
+      "start": 181.84,
+      "end": 185.84,
+      "text": "and thereby the economy as a whole are performing at the present time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 43,
+      "start": 188.18,
+      "end": 191.18,
+      "text": "Stock exchanges in other countries also have their own indices",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 44,
+      "start": 191.18,
+      "end": 196.18,
+      "text": "and all of these markets together create a globally networked marketplace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.08,
+      "end": 2.52,
+      "text": "What is the stock exchange and how does it work?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 1,
+      "start": 3.68,
+      "end": 9.2,
+      "text": "The stock exchange is nothing more than a giant globally networked and organized marketplace",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 2,
+      "start": 9.4,
+      "end": 13.48,
+      "text": "where everyday huge sums of money are moved back and forth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 3,
+      "start": 14.84,
+      "end": 17.76,
+      "text": "In total over 60 trillion euros a year are traded",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 4,
+      "start": 18.84,
+      "end": 23.04,
+      "text": "more than the value of all goods and services of the entire world economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 5,
+      "start": 24.56,
+      "end": 29.56,
+      "text": "However, it's not apples or second-hand toothbrushes that are traded on this marketplace",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.23504,
+      "no_speech_prob": 0.011147
+    },
+    {
+      "index": 6,
+      "start": 30.16,
+      "end": 32.08,
+      "text": "but predominantly securities.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 7,
+      "start": 32.76,
+      "end": 36.36,
+      "text": "Securities are rights to assets mostly in the form of shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 8,
+      "start": 37.04,
+      "end": 39.24,
+      "text": "A share stands for a share in a company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 9,
+      "start": 40.36,
+      "end": 42.4,
+      "text": "But why are shares traded at all?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 10,
+      "start": 43.2,
+      "end": 47.4,
+      "text": "Well, first and foremost the value of a share relates to the company behind it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 11,
+      "start": 48.08,
+      "end": 50.76,
+      "text": "If you think of the value of the company in terms of a pizza",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 12,
+      "start": 50.96,
+      "end": 54.44,
+      "text": "the bigger the overall size of the pizza the bigger every piece is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.194137,
+      "no_speech_prob": 0.000667
+    },
+    {
+      "index": 19,
+      "start": 79.4,
+      "end": 81.08,
+      "text": "But what does Facebook gain from this?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19396,
+      "no_speech_prob": 0.000163
+    },
+    {
+      "index": 20,
+      "start": 81.68,
+      "end": 86.2,
+      "text": "The company can raise funds by setting the shares and invest or expand its business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19396,
+      "no_speech_prob": 0.000163
+    },
+    {
+      "index": 21,
+      "start": 87.2,
+      "end": 92.2,
+      "text": "Facebook for example has earned 16 billion dollars from its listing on the stock exchange.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 22,
+      "start": 92.6,
+      "end": 95.6,
+      "text": "The trading of shares though is frequently a game of chance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 23,
+      "start": 96.2,
+      "end": 99.2,
+      "text": "No one can say which company will perform well and which will not.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 24,
+      "start": 100.2,
+      "end": 103.2,
+      "text": "If a company has a good reputation investors will back it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 25,
+      "start": 104.2,
+      "end": 108.2,
+      "text": "A company with a poor reputation or poor performance will have difficulty selling its shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 26,
+      "start": 110.48,
+      "end": 113.48,
+      "text": "Unlike a normal market in which goods can be touched and taken home",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 27,
+      "start": 113.68,
+      "end": 116.48,
+      "text": "on the stock exchange only virtual goods are available.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.153067,
+      "no_speech_prob": 0.000536
+    },
+    {
+      "index": 28,
+      "start": 118.48,
+      "end": 121.48,
+      "text": "They appear in the form of share prices and tables on monitors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 29,
+      "start": 122.48,
+      "end": 124.48,
+      "text": "Such share prices can rise or fall within seconds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 30,
+      "start": 125.48,
+      "end": 129.48,
+      "text": "Shareholders therefore have to act quickly in order not to miss an opportunity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 31,
+      "start": 130.48,
+      "end": 135.48,
+      "text": "Even a simple rumour can result in the demand for a share falling fast regardless of the real value of the company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 32,
+      "start": 138.21,
+      "end": 140.21,
+      "text": "Of course the opposite is also possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 33,
+      "start": 140.21,
+      "end": 143.21,
+      "text": "If a particularly large number of people buy weak shares",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 34,
+      "start": 143.21,
+      "end": 148.21,
+      "text": "because they see for example great potential behind an idea their value will rise as a result.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074424,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 35,
+      "start": 148.21,
+      "end": 150.21,
+      "text": "In particular young companies can benefit from this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 36,
+      "start": 151.21,
+      "end": 156.21,
+      "text": "Even though their sales might be falling they can generate cash by placing their shares.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 37,
+      "start": 157.21,
+      "end": 161.21,
+      "text": "In the best case scenario this will result in their idea being turned into reality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 38,
+      "start": 162.21,
+      "end": 167.21,
+      "text": "In the worst case scenario this will result in a speculative bubble with nothing more than hot air.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 39,
+      "start": 168.21,
+      "end": 171.21,
+      "text": "And as in the case with bubbles at some point they will burst.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 40,
+      "start": 172.21,
+      "end": 176.21,
+      "text": "The value of Germany's biggest 30 companies is summarised in what's known as the DAX share index.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054865,
+      "no_speech_prob": 0.000305
+    },
+    {
+      "index": 41,
+      "start": 177.21,
+      "end": 181.84,
+      "text": "The DAX curve shows how well or poorly these major companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 42,
+      "start": 181.84,
+      "end": 185.84,
+      "text": "and thereby the economy as a whole are performing at the present time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 43,
+      "start": 188.18,
+      "end": 191.18,
+      "text": "Stock exchanges in other countries also have their own indices",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    },
+    {
+      "index": 44,
+      "start": 191.18,
+      "end": 196.18,
+      "text": "and all of these markets together create a globally networked marketplace.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051825,
+      "no_speech_prob": 0.216553
+    }
+  ],
+  "context_text_chronological": "What is the stock exchange and how does it work? The stock exchange is nothing more than a giant globally networked and organized marketplace where everyday huge sums of money are moved back and forth. In total over 60 trillion euros a year are traded more than the value of all goods and services of the entire world economy. However, it's not apples or second-hand toothbrushes that are traded on this marketplace but predominantly securities. Securities are rights to assets mostly in the form of shares. A share stands for a share in a company. But why are shares traded at all? Well, first and foremost the value of a share relates to the company behind it. If you think of the value of the company in terms of a pizza the bigger the overall size of the pizza the bigger every piece is. But what does Facebook gain from this? The company can raise funds by setting the shares and invest or expand its business. Facebook for example has earned 16 billion dollars from its listing on the stock exchange. The trading of shares though is frequently a game of chance. No one can say which company will perform well and which will not. If a company has a good reputation investors will back it. A company with a poor reputation or poor performance will have difficulty selling its shares. Unlike a normal market in which goods can be touched and taken home on the stock exchange only virtual goods are available. They appear in the form of share prices and tables on monitors. Such share prices can rise or fall within seconds. Shareholders therefore have to act quickly in order not to miss an opportunity. Even a simple rumour can result in the demand for a share falling fast regardless of the real value of the company. Of course the opposite is also possible. If a particularly large number of people buy weak shares because they see for example great potential behind an idea their value will rise as a result. In particular young companies can benefit from this. Even though their sales might be falling they can generate cash by placing their shares. In the best case scenario this will result in their idea being turned into reality. In the worst case scenario this will result in a speculative bubble with nothing more than hot air. And as in the case with bubbles at some point they will burst. The value of Germany's biggest 30 companies is summarised in what's known as the DAX share index. The DAX curve shows how well or poorly these major companies and thereby the economy as a whole are performing at the present time. Stock exchanges in other countries also have their own indices and all of these markets together create a globally networked marketplace.",
+  "target_text_for_audit": "If for example Facebook is able to greatly increase its profits with a new business model the size of the company's pizza will also increase and as a result so will the value of its shares. This is of course great for the shareholders. A share which perhaps used to be worth 38 euros could now be worth a whole 50 euros.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 3,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "Facebook is able to greatly increase its profits with a new business model, the size of the company's pizza will also increase, and as a result, so will the value of its shares.",
+        "start_source": 56.66,
+        "end_source": 65.26,
+        "matching_cue_ids": [
+          13,
+          14,
+          15
+        ],
+        "text_similarity": 0.9584,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "This is of course great for the shareholders.",
+        "start_source": 66.28,
+        "end_source": 67.94,
+        "matching_cue_ids": [
+          16
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "A share which perhaps used to be worth 38 euros could now be worth a whole 50 euros.",
+        "start_source": 69.18,
+        "end_source": 73.54,
+        "matching_cue_ids": [
+          17
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\F3QpgXBtDeo.mp4",
+    "cue_count": 45
+  },
+  "token_estimate_char_div_4": 668
+}

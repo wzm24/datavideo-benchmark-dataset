@@ -1,0 +1,1179 @@
+{
+  "video_id": "WjVVwMGJ9S8",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\WjVVwMGJ9S8.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 529.508,
+  "duration_after_vad_seconds": 503.808,
+  "cue_count": 129,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.78,
+      "end": 7.82,
+      "text": "These 50 cards represent every person who took the SAT college entrance exam in 2017.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 1,
+      "start": 7.82,
+      "end": 13.1,
+      "text": "In America, this score, this ranking of students, is hugely important.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 2,
+      "start": 13.1,
+      "end": 17.22,
+      "text": "Elite schools like Yale or Harvard select a large majority of students from this pile,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 3,
+      "start": 17.22,
+      "end": 19.5,
+      "text": "the top 1% of test takers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 4,
+      "start": 19.5,
+      "end": 23.26,
+      "text": "And it's not just super elite schools, a flagship state school like the University",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 5,
+      "start": 23.26,
+      "end": 26.78,
+      "text": "of Georgia admits most of its students from this pile.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.149807,
+      "no_speech_prob": 0.014717
+    },
+    {
+      "index": 6,
+      "start": 26.78,
+      "end": 31.02,
+      "text": "And even a less selective school like Wichita State University admits most of its students",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 7,
+      "start": 31.02,
+      "end": 32.66,
+      "text": "from this pile.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 8,
+      "start": 32.66,
+      "end": 36.18,
+      "text": "All three of these ranges are higher than the average score.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 9,
+      "start": 36.18,
+      "end": 39.62,
+      "text": "This is why people paid lots of money to train for the test with companies like Princeton",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 10,
+      "start": 39.62,
+      "end": 41.9,
+      "text": "Review, Kaplan, and Prep Scholar.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 11,
+      "start": 41.9,
+      "end": 45.3,
+      "text": "A slightly higher score can make a big difference.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 12,
+      "start": 45.3,
+      "end": 48.86,
+      "text": "That's also why some really rich people got caught paying lots of money to help their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 13,
+      "start": 48.86,
+      "end": 50.38,
+      "text": "kids cheat on the test.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168637,
+      "no_speech_prob": 0.01001
+    },
+    {
+      "index": 14,
+      "start": 50.38,
+      "end": 69.1,
+      "text": "Your place in this ranking can have a huge impact on what opportunities come your way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.174202,
+      "no_speech_prob": 0.032104
+    },
+    {
+      "index": 15,
+      "start": 69.1,
+      "end": 73.7,
+      "text": "So it's worth asking, what exactly does the SAT measure?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.174202,
+      "no_speech_prob": 0.032104
+    },
+    {
+      "index": 16,
+      "start": 73.7,
+      "end": 78.43,
+      "text": "What does this score actually say about you?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.174202,
+      "no_speech_prob": 0.032104
+    },
+    {
+      "index": 17,
+      "start": 78.43,
+      "end": 82.99,
+      "text": "To answer this question, we have to start with this man, Carl Brigham.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 18,
+      "start": 82.99,
+      "end": 88.47,
+      "text": "He was a young psychologist during World War I who was obsessed with measuring human intelligence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 19,
+      "start": 88.47,
+      "end": 92.51,
+      "text": "He would devise puzzles for soldiers that supposedly measured their intelligence by testing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 20,
+      "start": 92.51,
+      "end": 98.35,
+      "text": "whether they could decode symbols, draw missing parts of a picture, or even complete a maze.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 21,
+      "start": 98.35,
+      "end": 102.51,
+      "text": "He concluded that white people of English, Scottish, and Dutch descent were smartest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 22,
+      "start": 102.51,
+      "end": 108.03,
+      "text": "At the very bottom were black people and recent immigrants from Poland and Italy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115406,
+      "no_speech_prob": 0.772949
+    },
+    {
+      "index": 23,
+      "start": 108.03,
+      "end": 111.87,
+      "text": "He ignored the fact that some test-takers didn't speak English, so answering a question",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 24,
+      "start": 111.87,
+      "end": 116.67,
+      "text": "like, how many are 60 guns and 5 guns could be difficult.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 25,
+      "start": 116.67,
+      "end": 120.59,
+      "text": "He ignored how some people were barred from receiving an adequate education, which meant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 26,
+      "start": 120.59,
+      "end": 123.87,
+      "text": "some puzzles like this one could be quite challenging.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 27,
+      "start": 123.87,
+      "end": 127.79,
+      "text": "He just assumed the scores reflected the innate intelligence of different races.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 28,
+      "start": 127.79,
+      "end": 132.63,
+      "text": "And because of this, he wrote that black people were so much less intelligent that America",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111878,
+      "no_speech_prob": 0.065552
+    },
+    {
+      "index": 29,
+      "start": 132.63,
+      "end": 137.35,
+      "text": "should worry about racial admixture, which would incorporate the Negro into a racial",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 30,
+      "start": 137.35,
+      "end": 141.23,
+      "text": "stock and taint the population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 31,
+      "start": 141.23,
+      "end": 145.27,
+      "text": "After World War I, he wrote a new test to measure the intelligence of prospective college",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 32,
+      "start": 145.27,
+      "end": 146.27,
+      "text": "students.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 33,
+      "start": 146.27,
+      "end": 151.15,
+      "text": "He included word and number puzzles, like, pick the three words below that are most related.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 34,
+      "start": 151.15,
+      "end": 155.95,
+      "text": "Chops, liver, round, forequarter, rump, sirloin.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 35,
+      "start": 155.95,
+      "end": 158.79,
+      "text": "Yeah, I don't know either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.245098,
+      "no_speech_prob": 0.080322
+    },
+    {
+      "index": 36,
+      "start": 159.11,
+      "end": 163.91,
+      "text": "Anyway, Brigham's exam was called the Scholastic Aptitude Test.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 37,
+      "start": 163.91,
+      "end": 167.88,
+      "text": "The SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 38,
+      "start": 167.88,
+      "end": 170.34,
+      "text": "The SAT wasn't very popular at first.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 39,
+      "start": 170.34,
+      "end": 173.46,
+      "text": "In 1941, just 10,000 people took the exam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 40,
+      "start": 173.46,
+      "end": 176.14,
+      "text": "That was just 1% of high school seniors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 41,
+      "start": 176.14,
+      "end": 178.46,
+      "text": "Most colleges just didn't need it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 42,
+      "start": 178.46,
+      "end": 182.18,
+      "text": "They didn't have that many applicants, partially because less than 10% of Americans went to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 43,
+      "start": 182.18,
+      "end": 186.78,
+      "text": "college, so they could spend more time with each application, and many elite schools administer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 44,
+      "start": 186.78,
+      "end": 188.94,
+      "text": "their own entrance exams.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.197873,
+      "no_speech_prob": 0.0159
+    },
+    {
+      "index": 45,
+      "start": 189.14,
+      "end": 191.5,
+      "text": "Then, World War II ended.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 46,
+      "start": 191.5,
+      "end": 196.46,
+      "text": "The crowds cheered at boys home from Chateau, Thierry, and Bellow Wood.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 47,
+      "start": 196.46,
+      "end": 200.74,
+      "text": "Millions of troops returned to the US, and there was a new benefit white veterans could",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 48,
+      "start": 200.74,
+      "end": 206.14,
+      "text": "take advantage of, the GI Bill, which helped them pay for college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 49,
+      "start": 206.14,
+      "end": 209.38,
+      "text": "College enrollments skyrocketed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 50,
+      "start": 209.38,
+      "end": 213.62,
+      "text": "All of a sudden, colleges had way more applications to sort through, and they needed a tool to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 51,
+      "start": 213.62,
+      "end": 215.82,
+      "text": "help them figure out who to accept.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 52,
+      "start": 215.82,
+      "end": 220.06,
+      "text": "So they started requiring the SAT, which gave them some numerical way to rank applicants.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.229485,
+      "no_speech_prob": 0.000346
+    },
+    {
+      "index": 53,
+      "start": 220.06,
+      "end": 224.5,
+      "text": "Meanwhile, the College Board started saying their exam measured college preparedness,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 54,
+      "start": 224.5,
+      "end": 226.46,
+      "text": "and every few years they proved it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 55,
+      "start": 226.46,
+      "end": 229.9,
+      "text": "By saying their exam along with high school grades, we're a good predictor of how",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 56,
+      "start": 229.9,
+      "end": 231.7,
+      "text": "well students do in college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 57,
+      "start": 231.7,
+      "end": 232.9,
+      "text": "They still do this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 58,
+      "start": 232.9,
+      "end": 235.26,
+      "text": "For example, here's that analysis from this year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 59,
+      "start": 235.26,
+      "end": 240.14,
+      "text": "It shows that high school GPA alone gets us about halfway to predicting college GPA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 60,
+      "start": 240.14,
+      "end": 242.9,
+      "text": "But the College Board sold schools on this next part.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 61,
+      "start": 242.9,
+      "end": 248.02,
+      "text": "If we consider SAT scores along with high school GPA, this prediction can get a bit better.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.15502,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 62,
+      "start": 248.02,
+      "end": 251.78,
+      "text": "And colleges bought into this rebranding and started asking for SAT scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 63,
+      "start": 251.78,
+      "end": 255.02,
+      "text": "In 1941, just 10,000 students took the SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 64,
+      "start": 255.02,
+      "end": 258.18,
+      "text": "By 1950, 80,000 students took the exam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 65,
+      "start": 258.18,
+      "end": 262.7,
+      "text": "By 1960, 800,000 students took the SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 66,
+      "start": 262.7,
+      "end": 266.02,
+      "text": "By the next decade, it rose to a million.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 67,
+      "start": 266.02,
+      "end": 270.26,
+      "text": "And now, more than 2 million students take the exam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 68,
+      "start": 270.26,
+      "end": 274.26,
+      "text": "And as the competition for college ramped up, the applications got stronger.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.136681,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 69,
+      "start": 274.26,
+      "end": 279.02,
+      "text": "In 1982, the average high school graduate completed Algebra, or maybe Algebra II.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 70,
+      "start": 279.02,
+      "end": 282.66,
+      "text": "By 2004, the average student was closer to trigonometry.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 71,
+      "start": 282.66,
+      "end": 286.38,
+      "text": "Also, more students had extracurriculars on their applications.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 72,
+      "start": 286.38,
+      "end": 291.66,
+      "text": "In 1992, just 19% of high school students were leaders in an extracurricular activity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 73,
+      "start": 291.66,
+      "end": 295.54,
+      "text": "Just 12 years later, in 2004, that number doubled.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 74,
+      "start": 295.54,
+      "end": 299.54,
+      "text": "And as competition got stiffer, students started applying to way more schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131044,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 75,
+      "start": 299.54,
+      "end": 304.22,
+      "text": "In 1967, about 40% of students applied to two or more schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 76,
+      "start": 304.22,
+      "end": 307.22,
+      "text": "Now, it's more than 80% of students.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 77,
+      "start": 307.22,
+      "end": 310.42,
+      "text": "And a decent chunk of them applied to more than six schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 78,
+      "start": 310.42,
+      "end": 316.18,
+      "text": "All of this overwhelmed college admissions offices, so they started to rely even more on the SATs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 79,
+      "start": 316.18,
+      "end": 321.66,
+      "text": "In 1993, 46% of schools gave considerable importance to SAT scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 80,
+      "start": 321.66,
+      "end": 326.14,
+      "text": "By 2005, it was 59%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138132,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 81,
+      "start": 326.14,
+      "end": 332.14,
+      "text": "But looming over the increasing weight of this number, what's this other thing the SAT seemed to measure?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 82,
+      "start": 332.14,
+      "end": 333.46,
+      "text": "Wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 83,
+      "start": 333.46,
+      "end": 334.7,
+      "text": "It's apparent in the data.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 84,
+      "start": 334.7,
+      "end": 337.7,
+      "text": "Here's a chart of the average SAT scores by family income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 85,
+      "start": 337.7,
+      "end": 343.3,
+      "text": "Students whose families earn less than $20,000 score around $890, way below average.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 86,
+      "start": 343.3,
+      "end": 347.1,
+      "text": "And as we move up the income brackets, students score higher and higher.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 87,
+      "start": 347.1,
+      "end": 353.06,
+      "text": "The wealthiest students whose parents earn more than $200,000 score an average of $1150.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.139022,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 88,
+      "start": 353.06,
+      "end": 357.06,
+      "text": "Now, defenders of the SAT have often said there's nothing wrong with the test itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 89,
+      "start": 357.06,
+      "end": 360.58,
+      "text": "They say this score is just reflecting the inequality in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 90,
+      "start": 360.58,
+      "end": 361.58,
+      "text": "And that's not wrong.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 91,
+      "start": 361.58,
+      "end": 364.3,
+      "text": "We can follow that logic up the chain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 92,
+      "start": 364.3,
+      "end": 367.98,
+      "text": "We can start with America's highly unequal neighborhoods.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 93,
+      "start": 367.98,
+      "end": 371.9,
+      "text": "Schools in poor neighborhoods are more likely to be under resourced.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 94,
+      "start": 371.9,
+      "end": 376.78,
+      "text": "And students from more affluent neighborhoods and schools tend to score higher on the SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 95,
+      "start": 376.78,
+      "end": 381.54,
+      "text": "In turn, students with better SAT scores go to more selective colleges.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090927,
+      "no_speech_prob": 0.003075
+    },
+    {
+      "index": 96,
+      "start": 381.54,
+      "end": 383.82,
+      "text": "And this system is a cycle.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 97,
+      "start": 383.82,
+      "end": 388.06,
+      "text": "When Stanford researcher Raj Chetty and his colleagues tracked people born in the early 1980s,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 98,
+      "start": 388.06,
+      "end": 392.3,
+      "text": "he found that these people, who went to the most selective colleges, had parents who earned",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 99,
+      "start": 392.3,
+      "end": 396.26,
+      "text": "on average $171,000 a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 100,
+      "start": 396.26,
+      "end": 401.22,
+      "text": "Parents of these people who went to selective public colleges earned $87,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 101,
+      "start": 401.22,
+      "end": 406.42,
+      "text": "And those who attended community college had parents who earned $67,000 a year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 102,
+      "start": 406.42,
+      "end": 410.18,
+      "text": "And through this system, that wealth was passed on.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.129978,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 103,
+      "start": 410.18,
+      "end": 414.38,
+      "text": "Chetty and his colleagues found that students who graduated from these elite colleges earned",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 104,
+      "start": 414.38,
+      "end": 419.62,
+      "text": "on average $82,500 a year by their early 30s.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 105,
+      "start": 419.62,
+      "end": 424.1,
+      "text": "Those who went to selective public college earned half that, $41,600.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 106,
+      "start": 424.1,
+      "end": 428.22,
+      "text": "And those who went to a community college were at about $30,000.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 107,
+      "start": 428.22,
+      "end": 432.14,
+      "text": "But Chetty and his colleagues found that if low income students get the opportunity to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 108,
+      "start": 432.14,
+      "end": 436.26,
+      "text": "attend a more selective school, they're able to graduate and earn just as much money as",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 109,
+      "start": 436.26,
+      "end": 440.07,
+      "text": "their classmates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.121985,
+      "no_speech_prob": 0.00083
+    },
+    {
+      "index": 110,
+      "start": 440.07,
+      "end": 443.35,
+      "text": "In 2016, the College Board redesigned the SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 111,
+      "start": 443.35,
+      "end": 445.99,
+      "text": "The old test tried to trip up test takers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 112,
+      "start": 445.99,
+      "end": 450.15,
+      "text": "For example, asking about the meaning of obscure words, like acrimonious.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 113,
+      "start": 450.15,
+      "end": 454.19,
+      "text": "The new one tries to test what you've learned in school to try to make it less of an intelligence",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 114,
+      "start": 454.19,
+      "end": 455.19,
+      "text": "test.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 115,
+      "start": 455.19,
+      "end": 459.27,
+      "text": "For example, it'll show you a sentence like, the jungle has an intense clustering of bugs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 116,
+      "start": 459.27,
+      "end": 462.43,
+      "text": "And then ask, what does intense most nearly mean?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 117,
+      "start": 462.43,
+      "end": 465.51,
+      "text": "Emotional, concentrated, brilliant, determined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.182206,
+      "no_speech_prob": 0.233521
+    },
+    {
+      "index": 118,
+      "start": 467.44,
+      "end": 472.08,
+      "text": "Still, your SAT score measures how well you'll do in college to a degree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 119,
+      "start": 472.08,
+      "end": 475.92,
+      "text": "It also measures where you grew up and what opportunities you had.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 120,
+      "start": 475.92,
+      "end": 480.84,
+      "text": "But it's also a tool that keeps this inequality machine going.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 121,
+      "start": 480.84,
+      "end": 483.32,
+      "text": "College Board President David Coleman sees this happening.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 122,
+      "start": 483.32,
+      "end": 487.6,
+      "text": "He recently wrote, we need a far humbler view of the SAT.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 123,
+      "start": 487.6,
+      "end": 491.48,
+      "text": "They should never be more than one factor in an admissions decision.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 124,
+      "start": 491.48,
+      "end": 495.8,
+      "text": "Low scores should never be a veto on a student's life.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140057,
+      "no_speech_prob": 0.061859
+    },
+    {
+      "index": 125,
+      "start": 495.8,
+      "end": 501.2,
+      "text": "The SAT was created in pursuit of precision, an effort to measure what we're capable of,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13902,
+      "no_speech_prob": 0.046692
+    },
+    {
+      "index": 126,
+      "start": 501.2,
+      "end": 505.28,
+      "text": "to predict what we can do, what we might do.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13902,
+      "no_speech_prob": 0.046692
+    },
+    {
+      "index": 127,
+      "start": 505.28,
+      "end": 510.56,
+      "text": "What we've forgotten is that often, that can't be untangled from where we've been,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13902,
+      "no_speech_prob": 0.046692
+    },
+    {
+      "index": 128,
+      "start": 510.56,
+      "end": 513.64,
+      "text": "what we've been through, and what we've been given.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.13902,
+      "no_speech_prob": 0.046692
+    }
+  ],
+  "created_at": "2026-11-05T02:14:22+0800"
+}

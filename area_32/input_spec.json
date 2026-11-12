@@ -1,6 +1,15 @@
 {
- "clip_id": "area_32",
- "family": "area",
- "sub_type": "simple_area",
- "orientation": "cartesian"
+  "clip_id": "area_32",
+  "family": "area",
+  "sub_type": "normalized_timeline_area",
+  "orientation": "cartesian",
+  "axis_semantics": {
+    "x": "Cosmic time, normalized from Big Bang (0) to the chart's future edge (1); Today is at approximately 0.42",
+    "y": "Scale of the universe, normalized to [0,1]"
+  },
+  "x_anchors": {
+    "Big Bang": 0.0,
+    "Today": 0.420388,
+    "future chart edge": 1.0
+  }
 }

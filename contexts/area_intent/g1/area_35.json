@@ -1,0 +1,351 @@
+{
+ "clip_id": "area_35",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the value trends of YouTube and Television over relative time using the provided data.",
+ "chart_structure": {
+  "clip_id": "area_35",
+  "family": "area",
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": false
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "panels": [
+     "YouTube",
+     "Television"
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the value trends of YouTube and Television over relative time",
+   "relation": "all_of",
+   "unit_ids": [
+    "U3",
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required area marks are present in YouTube: YouTube.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "YouTube",
+     "entity": "YouTube",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 1 required area marks are present in Television: Television.",
+   "basis": [
+    {
+     "row_id": "r11",
+     "panel": "Television",
+     "entity": "Television",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "YouTube's value generally increases over relative time, rising from 0 € at the start to 120 € at the end, with a brief dip around x≈0.51.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "YouTube",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "YouTube",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.000000",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r2",
+     "panel": "YouTube",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "YouTube",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "2",
+     "field": "value",
+     "value": "24.705882",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r3",
+     "panel": "YouTube",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "YouTube",
+     "series": "",
+     "x": "0.135135",
+     "point_order": "3",
+     "field": "value",
+     "value": "17.647059",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r6",
+     "panel": "YouTube",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "YouTube",
+     "series": "",
+     "x": "0.513514",
+     "point_order": "6",
+     "field": "value",
+     "value": "42.352941",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r10",
+     "panel": "YouTube",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "YouTube",
+     "series": "",
+     "x": "1.000000",
+     "point_order": "10",
+     "field": "value",
+     "value": "120.000000",
+     "unit": "euro",
+     "role": "area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "YouTube value rises overall from 0 to 120 €",
+    "YouTube shows an upward trend with a small dip near the middle"
+   ],
+   "reject": [
+    "YouTube value decreases overall",
+    "YouTube ends lower than it starts"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "Television's value generally decreases over relative time, falling from a peak of 198.4 € near the start to 32 € at the end, with a local rise around x≈0.38.",
+   "basis": [
+    {
+     "row_id": "r11",
+     "panel": "Television",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "Television",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.000000",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r12",
+     "panel": "Television",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "Television",
+     "series": "",
+     "x": "0.000000",
+     "point_order": "2",
+     "field": "value",
+     "value": "198.400000",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r14",
+     "panel": "Television",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "Television",
+     "series": "",
+     "x": "0.243243",
+     "point_order": "4",
+     "field": "value",
+     "value": "121.600000",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r15",
+     "panel": "Television",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "Television",
+     "series": "",
+     "x": "0.378378",
+     "point_order": "5",
+     "field": "value",
+     "value": "147.200000",
+     "unit": "euro",
+     "role": "area"
+    },
+    {
+     "row_id": "r20",
+     "panel": "Television",
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)",
+     "entity": "Television",
+     "series": "",
+     "x": "1.000000",
+     "point_order": "10",
+     "field": "value",
+     "value": "32.000000",
+     "unit": "euro",
+     "role": "area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Television value falls overall from about 198 € to 32 €",
+    "Television shows a downward trend with a local bump near x≈0.38"
+   ],
+   "reject": [
+    "Television value increases overall",
+    "Television ends higher than it starts"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "YouTube and Television both start at 0 € at x=0.",
+  "YouTube's maximum value is 120 € at the final time point.",
+  "Television's maximum value is 198.4 € at the second time point.",
+  "Television's final value (32 €) is lower than YouTube's final value (120 €)."
+ ],
+ "unsupported_to_avoid": [
+  "YouTube and Television are plotted on the same panel or share a common y-axis scale.",
+  "The areas are stacked or represent parts of a whole.",
+  "The values are projections or include uncertainty intervals.",
+  "The relative time axis corresponds to specific calendar dates.",
+  "One series crosses the other within a shared coordinate space."
+ ],
+ "review_notes": [
+  "The chart specification indicates two panels with one series each, so trend units are kept per panel rather than a single cross-series comparison.",
+  "The intent asks to compare value trends; separate trend units for each entity satisfy this without adding a ranking or crossing unit that the two-panel layout does not support."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1",
+   "U2"
+  ],
+  "row_count": 20,
+  "table_sha256": "8ca4aac75cc5701e99e5e6d8e5f58b4bcb53cb61341492ae91d8feed45651740"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 3731,
+   "completion_tokens": 797,
+   "total_tokens": 4528,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 3219
+  },
+  {
+   "prompt_tokens": 5159,
+   "completion_tokens": 52,
+   "total_tokens": 5211,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 5031
+  }
+ ],
+ "sec": 5.0
+}

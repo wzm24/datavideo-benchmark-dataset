@@ -1,7 +1,6 @@
 {
  "clip_id": "pie_10",
- "intent_en": "To illustrate the disproportionate share of national income captured by the highest earners before taxes.",
- "previous_intent": "To illustrate the significant share of pre-tax national income held by the top earners.",
+ "intent_en": "Report the share of national income before taxes attributed to the top percentile category within the whole scope.",
  "narration_support": "Before taxes, a top 1 % take home about 22 .5 % of the national income.",
  "chart_support": "Pie chart showing the proportion of national income attributed to the top 1%.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that the top 1% take home 22.5% of national income before taxes.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the share of national income before taxes attributed to the top percentile category within the whole scope.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

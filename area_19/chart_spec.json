@@ -1,21 +1,26 @@
 {
  "clip_id": "area_19",
  "family": "area",
- "sub_type": "overlay_area",
+ "sub_type": "historical_projection_area",
  "orientation": "cartesian",
- "series_count": 2,
- "has_reference_line": true,
+ "series_count": 3,
+ "has_reference_line": false,
  "panel_count": 1,
  "has_axis": true,
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 13,
- "row_count": 302,
+ "row_count": 234,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "projection_band": true,
+ "projection_start": 2019,
+ "semantic_structure": "Historical area through 2019; lower projection area after 2019; upper projection curve bounds the shaded forecast band. The 2019 boundary is inferred from the series start and is not a table row.",
+ "batch_status": "approved"
 }

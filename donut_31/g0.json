@@ -1,155 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_31",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "5554877e17054fc28ac1a27d85602ff51ddb8de7de0d6abb248caa00e223933b",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "977dbcec5dfb2a9a069e3d31cd6bac810c6a41a45319264c3816e8ae60d57ca3",
- "row_count": 3,
- "sidecar_row_count": 3,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "6fc656de0cbf1c96c004fcd93d20d8787587e7e869dbb5afcce4a387fbafc8f0",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 3,
-  "time_behavior": "snapshot",
-  "panels": [
-   "U.S. vegan population",
-   "Gender"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_vegans_female"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
-   "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2008)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 0.5,
-   "last_value": 0.5,
-   "min_value": 0.5,
-   "max_value": 0.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
-  },
-  {
-   "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2014)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.5,
-   "last_value": 2.5,
-   "min_value": 2.5,
-   "max_value": 2.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
-  },
-  {
+   "row_id": "r1",
    "panel": "Gender",
-   "entity": "female share of U.S. vegans",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 79.0,
-   "last_value": 79.0,
-   "min_value": 79.0,
-   "max_value": 79.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_us_vegans_female"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
+   "entity": "female share of U.S. vegans",
+   "metric": "share_of_us_vegans_female",
+   "value": "79",
+   "unit": "%",
+   "relative_value": "0.79",
+   "label": "79%",
+   "role": "gauge",
+   "source_type": "printed",
+   "whole_scope": "Gender"
   }
  ],
- "source_type_counts": {
-  "printed": 3
- },
- "role_counts": {
-  "annotation": 3
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "Gender",
+   "series": "",
+   "whole_scope": "Gender",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "female share of U.S. vegans"
+   ],
+   "relative_value_sum": 0.79
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Gender",
+    "series": "",
     "entity": "female share of U.S. vegans",
-    "series": ""
+    "metric": "share_of_us_vegans_female",
+    "value": "79",
+    "unit": "%",
+    "relative_value": "0.79",
+    "label": "79%",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Gender"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

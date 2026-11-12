@@ -1,0 +1,203 @@
+{
+ "clip_id": "area_22",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the relative volume of Earth with the relative volume of all the water on Earth.",
+ "chart_structure": {
+  "clip_id": "area_22",
+  "family": "area",
+  "sub_type": "proportional_sphere_volume",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the relative volume of Earth with the relative volume of all the water on Earth.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in the chart: Earth, All the water on Earth.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "Earth",
+     "series": "",
+     "role": "proportional_sphere_volume",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "entity": "All the water on Earth",
+     "series": "",
+     "role": "proportional_sphere_volume",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "proportional_comparison",
+   "claim": "Earth's relative volume (1.0) is vastly larger than the relative volume of all water on Earth (0.001111015), indicating Earth's volume is about 900 times the water volume.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "1.000000000",
+     "unit": "relative",
+     "role": "proportional_sphere_volume"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Volume (relative)",
+     "entity": "All the water on Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.001111015",
+     "unit": "relative",
+     "role": "proportional_sphere_volume"
+    }
+   ],
+   "computation": "ratio = r1.value / r2.value ≈ 900",
+   "accept": [
+    "Earth's relative volume is much greater than all water's relative volume",
+    "Earth's volume is about 900 times the water volume",
+    "all water's relative volume is a tiny fraction of Earth's volume"
+   ],
+   "reject": [
+    "Earth and water have similar relative volumes",
+    "all water's relative volume is larger than Earth's",
+    "the ratio is exactly 900 without rounding"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "The chart uses proportional sphere volumes to encode relative volume.",
+  "Earth's relative volume is set to 1.0 as a reference.",
+  "All water on Earth has a relative volume of approximately 0.001111015."
+ ],
+ "unsupported_to_avoid": [
+  "The exact ratio is 900 (it is approximately 900.08).",
+  "The chart shows absolute volumes in cubic kilometers.",
+  "The water volume includes only liquid surface water.",
+  "The spheres are drawn to exact scale in the visual."
+ ],
+ "review_notes": [
+  "The intent asks for a comparison of relative volumes, so a single proportional_comparison unit suffices.",
+  "The ratio computation is optional but supports the comparison; accept/reject phrases reflect approximate ratio."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "bccf0a007f130cd61bd7e3df8df59a2f753c37633b73a0c8a8a52cdccafb4dbe"
+ },
+ "status": "approved",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1644,
+   "completion_tokens": 490,
+   "total_tokens": 2134,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1260
+  },
+  {
+   "prompt_tokens": 1940,
+   "completion_tokens": 52,
+   "total_tokens": 1992,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1940
+  }
+ ],
+ "sec": 3.9,
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

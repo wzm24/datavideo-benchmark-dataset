@@ -1,0 +1,216 @@
+{
+ "clip": "area_20",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that the relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014.",
+ "core_claim": "The relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014.",
+ "chart_role": "proportional area comparison",
+ "source_consistency": "corrected_from_old_intent",
+ "issues": [
+  "Narration only references a death-rate analogy and does not state the actual comparison or values.",
+  "The chart compares a one-day car average to a full-year plane total, so it does not directly represent a like-for-like death rate.",
+  "The goal misstates the comparison: the table shows the car value is 1.000000 and the plane value is 0.485767, so the car relative area is about 2.06 times the plane relative area, not 'about twice the relative area of all plane deaths' in the sense of average daily car deaths being twice the relative area.",
+  "The core claim says average daily car deaths exceed annual plane deaths, but the evidence only supports a relative-area comparison, not a direct count comparison of deaths.",
+  "The goal imports an interpretation ('average daily car deaths') that is not directly a metric in the table; the table entity is 'Average death by car (one day in 2014)' with unit 'relative'."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To illustrate the disparity in mortality risks between driving and flying by comparing daily car fatalities to annual plane fatalities.",
+ "narration": "It's like the death rate of flying versus driving.",
+ "svg_text": [
+  "REALITY",
+  "AVERAGE DEATH BY CAR",
+  "ON ONE DAY IN 2014",
+  "DEATH BY PLANE",
+  "ALL OF 2014"
+ ],
+ "chart_spec": {
+  "clip_id": "area_20",
+  "family": "area",
+  "sub_type": "proportional_square_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 2,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Average death by car (one day in 2014)",
+    "series": "",
+    "role": "proportional_square_area",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 1.0,
+    "value_max": 1.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Average death by car (one day in 2014)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "AVERAGE DEATH BY CAR ON ONE DAY IN 2014",
+     "role": "proportional_square_area"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Average death by car (one day in 2014)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "1.000000",
+     "unit": "relative",
+     "label": "AVERAGE DEATH BY CAR ON ONE DAY IN 2014",
+     "role": "proportional_square_area"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "Death by plane (all of 2014)",
+    "series": "",
+    "role": "proportional_square_area",
+    "row_count": 1,
+    "unit": "relative",
+    "printed_x": [],
+    "value_min": 0.485767,
+    "value_max": 0.485767,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by plane (all of 2014)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.485767",
+     "unit": "relative",
+     "label": "DEATH BY PLANE ALL OF 2014",
+     "role": "proportional_square_area"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Area (relative)",
+     "entity": "Death by plane (all of 2014)",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "0.485767",
+     "unit": "relative",
+     "label": "DEATH BY PLANE ALL OF 2014",
+     "role": "proportional_square_area"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Area (relative)",
+    "entity": "Average death by car (one day in 2014)",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "1.000000",
+    "unit": "relative",
+    "label": "AVERAGE DEATH BY CAR ON ONE DAY IN 2014",
+    "role": "proportional_square_area"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Area (relative)",
+    "entity": "Death by plane (all of 2014)",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "0.485767",
+    "unit": "relative",
+    "label": "DEATH BY PLANE ALL OF 2014",
+    "role": "proportional_square_area"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": false,
+  "unsupported_claims": [
+   "average daily car deaths in 2014 were about twice the relative area of all plane deaths for the entire year",
+   "Average daily car deaths exceed annual plane deaths in the displayed relative-area comparison"
+  ],
+  "issues": [
+   "The goal misstates the comparison: the table shows the car value is 1.000000 and the plane value is 0.485767, so the car relative area is about 2.06 times the plane relative area, not 'about twice the relative area of all plane deaths' in the sense of average daily car deaths being twice the relative area.",
+   "The core claim says average daily car deaths exceed annual plane deaths, but the evidence only supports a relative-area comparison, not a direct count comparison of deaths.",
+   "The goal imports an interpretation ('average daily car deaths') that is not directly a metric in the table; the table entity is 'Average death by car (one day in 2014)' with unit 'relative'."
+  ],
+  "corrected_goal": "Show that the relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014.",
+  "corrected_core_claim": "The relative area for average car deaths on one day in 2014 is about twice the relative area for all plane deaths in 2014."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1551,
+   "completion_tokens": 151,
+   "total_tokens": 1702,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1423
+  },
+  "audit": {
+   "prompt_tokens": 1360,
+   "completion_tokens": 299,
+   "total_tokens": 1659,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1360
+  }
+ },
+ "sec": 5.6
+}

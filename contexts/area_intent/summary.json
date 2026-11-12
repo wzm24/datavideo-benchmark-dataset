@@ -1,0 +1,42 @@
+{
+  "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+  "clips": 34,
+  "goal_status": {
+    "candidate_needs_review": 34
+  },
+  "intent_status": {
+    "pass": 34
+  },
+  "g1_status": {
+    "candidate_pending_review": 34
+  },
+  "g1_closure": {
+    "True": 34
+  },
+  "unit_counts": {
+    "5": 2,
+    "3": 10,
+    "2": 16,
+    "4": 6
+  },
+  "semantic_unit_counts": {
+    "4": 1,
+    "2": 11,
+    "1": 17,
+    "3": 5
+  },
+  "needs_attention": [],
+  "errors": {
+    "goals": [],
+    "intents": [],
+    "g1": []
+  },
+  "outputs": {
+    "goals": "D:\\dev\\data_video_dataset_pipeline\\benchmark_draft\\area_intent\\goals",
+    "intents": "D:\\dev\\data_video_dataset_pipeline\\benchmark_draft\\area_intent\\intents",
+    "g1": "D:\\dev\\data_video_dataset_pipeline\\benchmark_draft\\area_intent\\g1",
+    "review": "D:\\dev\\data_video_dataset_pipeline\\benchmark_draft\\area_intent\\review\\review.html"
+  },
+  "candidate_files_written_to_dataset": true,
+  "existing_dataset_files_overwritten": false
+}

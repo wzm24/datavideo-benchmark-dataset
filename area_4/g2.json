@@ -1,0 +1,202 @@
+{
+ "clip_id": "area_4",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_4",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 51,
+  "table_sha256": "dfb3b097f9ac200e0580248383c7f8453da0384e029a3de3ab41f51a7a49b167"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "democracy share"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "democracy share",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "democracy share | 1900",
+    "democracy share | #19",
+    "democracy share | 2000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "democracy share | 1900",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "x": "1900",
+      "point_order": "1",
+      "value": "14.7",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "democracy share | #19",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "x": "",
+      "point_order": "19",
+      "value": "13.2",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "democracy share | 2000",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "x": "2000",
+      "point_order": "51",
+      "value": "97.1",
+      "unit": "percent",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The democracy share rises overall from 14.7% in 1900 to 97.1% in 2000, with intermittent dips along the way.",
+    "computation": "none",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Democracy share (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Monotonic increase with no declines",
+    "Flat or decreasing overall trend",
+    "Endpoints other than 14.7% and 97.1%"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "democracy share | 1900",
+    "democracy share | 2000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "democracy share | 1900",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "x": "1900",
+      "point_order": "1",
+      "value": "14.7",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "democracy share | 2000",
+      "panel": "",
+      "entity": "democracy share",
+      "series": "",
+      "x": "2000",
+      "point_order": "51",
+      "value": "97.1",
+      "unit": "percent",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The democracy share increases by 82.4 percentage points from 1900 to 2000 (97.1% minus 14.7%).",
+    "computation": "97.1 - 14.7 = 82.4 percentage points",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Democracy share (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Change of 82.4% as a relative percent rather than percentage points",
+    "Any endpoint values other than 14.7 and 97.1",
+    "Negative or zero overall change"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

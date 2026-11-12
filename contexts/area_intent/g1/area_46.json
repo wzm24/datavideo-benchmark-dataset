@@ -1,0 +1,196 @@
+{
+ "clip_id": "area_46",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+ "chart_structure": {
+  "clip_id": "area_46",
+  "family": "area",
+  "sub_type": "area_tile_map",
+  "orientation": "tile_map",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": true,
+  "total_tiles": 51
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 2 required area marks are present in the chart: Economic conditions hurting them and their families, Economic conditions not hurting them and their families (implied complement).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "Economic conditions hurting them and their families",
+     "series": "Survey response",
+     "role": "area_tile_segment",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "entity": "Economic conditions not hurting them and their families (implied complement)",
+     "series": "Survey response",
+     "role": "area_tile_segment",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "Among U.S. adults, a smaller share reported that economic conditions were hurting them and their families (46%) than reported that conditions were not hurting them (54%).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions hurting them and their families",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "46",
+     "unit": "percent",
+     "role": "area_tile_segment"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions not hurting them and their families (implied complement)",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "field": "value",
+     "value": "54",
+     "unit": "percent",
+     "role": "area_tile_segment"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "46% hurting vs 54% not hurting",
+    "not hurting share exceeds hurting share by 8 percentage points",
+    "hurting share is lower than not hurting share"
+   ],
+   "reject": [
+    "hurting share exceeds not hurting share",
+    "both shares are equal",
+    "the comparison uses a different population or unit"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.5,
+  "U2": 0.5
+ },
+ "optional_valid": [
+  "The two shares sum to 100% because the not-hurting category is the implied complement.",
+  "The chart is a snapshot with no time trend."
+ ],
+ "unsupported_to_avoid": [
+  "Claiming a temporal change or trend in the shares.",
+  "Claiming geographic variation across states from the tile map.",
+  "Claiming a causal relationship between economic conditions and survey responses.",
+  "Treating the implied complement as an independently surveyed category rather than a derived complement."
+ ],
+ "review_notes": [
+  "Only one analytical slot is required: the hurting-versus-not-hurting share comparison.",
+  "The not-hurting value is an implied complement (100 - 46 = 54), so the comparison is supported by both listed rows."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2,
+  "table_sha256": "eb0b9727b0b50a0dbb5aa1a1826c6c4fd59c4f0f540078f19912a2824d9f65ea"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1687,
+   "completion_tokens": 458,
+   "total_tokens": 2145,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1303
+  },
+  {
+   "prompt_tokens": 1990,
+   "completion_tokens": 52,
+   "total_tokens": 2042,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1990
+  }
+ ],
+ "sec": 3.6
+}

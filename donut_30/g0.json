@@ -1,130 +1,96 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_30",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "f6f86e60cb7a2fa8b8b95642252e77f086e9b1a7b34a1478c7c98ac6ca638290",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "88db000986e3e3eda1091dfbd197c9a9784c5974c5d8b32fc8b964587ace041b",
+ "data_table_sha256": "8abaebe71efb4c2a4d7d559180454002d2040e7a3be65e9bd10e9fd73aa9d661",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": [
-   "U.S. vegan population"
-  ]
+  "ring_count": 1,
+  "time_behavior": "frame"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "vegan_population_share"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2008)",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 0.5,
-   "last_value": 0.5,
-   "min_value": 0.5,
-   "max_value": 0.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
+   "entity": "U.S. vegan population (2008)",
+   "metric": "vegan_population_share",
+   "value": "0.5",
+   "unit": "%",
+   "relative_value": "0.005",
+   "label": "0.5%",
+   "role": "state",
+   "source_type": "printed",
+   "whole_scope": "U.S. vegan population (2008)"
   },
   {
+   "row_id": "r2",
    "panel": "U.S. vegan population",
-   "entity": "U.S. vegan population (2014)",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.5,
-   "last_value": 2.5,
-   "min_value": 2.5,
-   "max_value": 2.5,
-   "missing_value_count": 0,
-   "metric": [
-    "vegan_population_share"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "annotation"
-   ]
+   "entity": "U.S. vegan population (2014)",
+   "metric": "vegan_population_share",
+   "value": "2.5",
+   "unit": "%",
+   "relative_value": "0.025",
+   "label": "2.5%",
+   "role": "state",
+   "source_type": "printed",
+   "whole_scope": "U.S. vegan population (2014)"
   }
  ],
- "source_type_counts": {
-  "printed": 2
- },
- "role_counts": {
-  "annotation": 2
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "U.S. vegan population",
+   "series": "",
+   "whole_scope": "U.S. vegan population (2008)",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "U.S. vegan population (2008)",
+    "U.S. vegan population (2014)"
+   ],
+   "relative_value_sum": 0.03
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "state_sequence",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "U.S. vegan population",
+    "series": "",
+    "entity": "U.S. vegan population (2008)",
+    "metric": "vegan_population_share",
+    "value": "0.5",
+    "unit": "%",
+    "relative_value": "0.005",
+    "label": "0.5%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "U.S. vegan population (2008)"
+   },
+   {
+    "row_id": "r2",
+    "panel": "U.S. vegan population",
+    "series": "",
     "entity": "U.S. vegan population (2014)",
-    "series": ""
+    "metric": "vegan_population_share",
+    "value": "2.5",
+    "unit": "%",
+    "relative_value": "0.025",
+    "label": "2.5%",
+    "role": "state",
+    "source_type": "printed",
+    "whole_scope": "U.S. vegan population (2014)"
    }
   ],
-  "required_entity_count": 1,
-  "required_row_count": 1,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

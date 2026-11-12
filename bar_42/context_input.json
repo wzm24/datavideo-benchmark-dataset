@@ -1,0 +1,885 @@
+{
+  "clip_id": "bar_42",
+  "family": "bar",
+  "video_id": "uampTRW4KbQ",
+  "source_url": "https://www.youtube.com/watch?v=uampTRW4KbQ",
+  "source_title": "Why the Green New Deal matters",
+  "target_window_source": {
+    "start": 86.0,
+    "end": 91.0
+  },
+  "target_mask_interval": {
+    "start": 84.5,
+    "end": 92.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    7
+  ],
+  "masked_cue_ids": [
+    7,
+    8
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.08,
+      "end": 10.08,
+      "text": "You've probably heard a lot of talk about something called the Green New Deal, from some Democrats in the US, the Labour Party in the UK, and school strikers around the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 1,
+      "start": 10.08,
+      "end": 14.84,
+      "text": "But what exactly is it, and why does it matter?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 2,
+      "start": 14.84,
+      "end": 24.84,
+      "text": "In the simplest terms, in America, the Green New Deal is a proposed plan by some Democrats that sets out many of the steps the US needs to take to avoid climate catastrophe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 3,
+      "start": 24.84,
+      "end": 42.84,
+      "text": "In the UK, the Green New Deal, also known as a Green Industrial Revolution, is a similar plan but refers to a collection of thoughts and policy ideas that have been proposed by environmental activists and economists to tackle climate breakdown, ideas that have now made their way into politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090063,
+      "no_speech_prob": 0.085571
+    },
+    {
+      "index": 4,
+      "start": 42.84,
+      "end": 50.84,
+      "text": "At its heart, the Green New Deal is a term that encapsulates thinking on how we tackle climate breakdown and make our society fairer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090063,
+      "no_speech_prob": 0.085571
+    },
+    {
+      "index": 5,
+      "start": 51.84,
+      "end": 64.84,
+      "text": "It's a programme to try and decarbonise the economy at pace, but to try and do it in a way that raises living standards, creates thousands and thousands of jobs, and tries to change the economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059872,
+      "no_speech_prob": 0.090332
+    },
+    {
+      "index": 6,
+      "start": 64.84,
+      "end": 79.84,
+      "text": "And the thing that's really powerful about it is that, you know, the environmental crisis and the economic crisis that we're facing are often seen as two separate things, but they're fundamentally related because they come back to an economy that isn't working for people, that isn't working for the environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059872,
+      "no_speech_prob": 0.090332
+    }
+  ],
+  "context_after": [
+    {
+      "index": 9,
+      "start": 95.84,
+      "end": 100.84,
+      "text": "And on top of that, how the economy works is bad for our environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053077,
+      "no_speech_prob": 0.002758
+    },
+    {
+      "index": 10,
+      "start": 100.84,
+      "end": 108.84,
+      "text": "We're consuming more, we're producing more, one and a half times, our ability to regenerate. The earth can only sustain so much.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053077,
+      "no_speech_prob": 0.002758
+    },
+    {
+      "index": 11,
+      "start": 112.98,
+      "end": 117.98,
+      "text": "Although we've been hearing a lot about it recently, the Green New Deal has been around for over a decade.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 12,
+      "start": 117.98,
+      "end": 129.98,
+      "text": "As the financial crisis hit, a group of environmentalists and economists, drawing inspiration from Roosevelt's New Deal, came up with an initial plan to transform the economy in a way that would deal with climate breakdown.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 13,
+      "start": 129.98,
+      "end": 138.98,
+      "text": "It's a mix of policies across sectors. Some transformative, and others, so needed, might seem a little less exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 14,
+      "start": 138.98,
+      "end": 146.98,
+      "text": "For example, one plan is simply to make our homes and buildings more energy efficient by installing insulation and double glazing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 15,
+      "start": 146.98,
+      "end": 156.98,
+      "text": "But one of the major ideas is massive investment in renewables, so we stop using fossil fuels in our day-to-day lives, including in how we generate our electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 16,
+      "start": 156.98,
+      "end": 161.98,
+      "text": "Transport is another area supporters of the Green New Deal say they want to reshape.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 17,
+      "start": 161.98,
+      "end": 170.98,
+      "text": "Calling for green, cheaper or even free public transport, way less car use, and levies for frequent flyers to discourage excess air travel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 18,
+      "start": 170.98,
+      "end": 180.98,
+      "text": "Green New Deal supporters say this will mean thousands or even millions of decent, rewarding jobs being created, offsetting the ones lost to declining fossil fuel industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 19,
+      "start": 180.98,
+      "end": 189.25,
+      "text": "The Green New Deal is also about how to make these changes in the best, fairest way possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 20,
+      "start": 189.25,
+      "end": 192.25,
+      "text": "This is what people call a just transition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 21,
+      "start": 192.25,
+      "end": 198.25,
+      "text": "People's jobs will have to change in the way they work will have to change, and it's including them in the conversation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 22,
+      "start": 198.25,
+      "end": 208.25,
+      "text": "and also recognizing that they are the best people to listen to and who will have a better understanding of how we can make that change, because they're the ones impacted by it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 23,
+      "start": 208.25,
+      "end": 218.25,
+      "text": "It also gives us an opportunity just to have a conversation with people who are often left behind, right, and are usually the victims of policy change,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 24,
+      "start": 218.25,
+      "end": 223.25,
+      "text": "and saying, no, you don't have to be the victims of policy change. You can help create the policy that creates a better life for you,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 25,
+      "start": 223.25,
+      "end": 228.25,
+      "text": "but also helps us solve this existential crisis that we're facing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 26,
+      "start": 228.25,
+      "end": 238.25,
+      "text": "And crucially, a just transition means listening to people globally, including some of those least responsible for the climate crisis, but who are being impacted the most.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 27,
+      "start": 238.25,
+      "end": 245.25,
+      "text": "For example, some say the UK Green New Deal shouldn't continue the destructive extraction of minerals abroad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 28,
+      "start": 245.25,
+      "end": 254.25,
+      "text": "The UK has a historic responsibility for decarbonizing really quickly, because this is the nation that birthed the Industrial Revolution,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 29,
+      "start": 254.25,
+      "end": 260.25,
+      "text": "and colonized large parts of the world, and used its resources to build the modern society that we live in right now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 30,
+      "start": 260.25,
+      "end": 265.25,
+      "text": "However, there's still one big question. Can we afford it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 31,
+      "start": 265.25,
+      "end": 269.25,
+      "text": "We can afford it. It's a question of political choices and political will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 32,
+      "start": 269.25,
+      "end": 273.25,
+      "text": "There's money out there that we're already using, and we're just using it poorly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 33,
+      "start": 273.25,
+      "end": 283.25,
+      "text": "Some economists say it could be financed through shifting where subsidies currently go, borrowing to invest, a windfall tax on oil and gas companies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 34,
+      "start": 283.25,
+      "end": 292.25,
+      "text": "and new jobs, which will create more income and tax revenues. But there's an even bigger question here. Can we afford not to do it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 35,
+      "start": 292.25,
+      "end": 302.25,
+      "text": "If you think about the logical conclusion of climate change, right, you think about the chaos in the system, extreme weather conditions, hurricanes, floods,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 36,
+      "start": 302.25,
+      "end": 308.25,
+      "text": "and the human but also the financial cost of responding to that. So for me, it's not can we afford it? It's a choice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 37,
+      "start": 308.25,
+      "end": 314.25,
+      "text": "We either are sensible now, and we make decisions now and say, OK, well, this is the cost of trying to manage this thing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 38,
+      "start": 314.25,
+      "end": 318.25,
+      "text": "or we sleepwalk into the crisis. The science tells us it's coming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 39,
+      "start": 318.25,
+      "end": 329.77,
+      "text": "The Green New Deal would mean major change on a scale that can be hard to imagine, but climate breakdown is already happening,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 40,
+      "start": 329.77,
+      "end": 332.77,
+      "text": "and the scale of the problem is huge.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 41,
+      "start": 332.77,
+      "end": 343.77,
+      "text": "However, we have all of these ideas in the Green New Deal that would mean a real chance to do something about it and do something about it in a fair and just way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 42,
+      "start": 343.77,
+      "end": 354.62,
+      "text": "Thank you for watching this video. One of the most interesting things I found while doing the research for it was that some of the thinking around the Green New Deal has been around for quite a while.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 43,
+      "start": 354.62,
+      "end": 359.62,
+      "text": "So we know some of the solutions. It just takes the political will to implement them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 44,
+      "start": 359.62,
+      "end": 365.62,
+      "text": "If you like these videos, please like and subscribe and click here to support The Guardian.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118304,
+      "no_speech_prob": 0.893066
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.08,
+      "end": 10.08,
+      "text": "You've probably heard a lot of talk about something called the Green New Deal, from some Democrats in the US, the Labour Party in the UK, and school strikers around the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 1,
+      "start": 10.08,
+      "end": 14.84,
+      "text": "But what exactly is it, and why does it matter?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 2,
+      "start": 14.84,
+      "end": 24.84,
+      "text": "In the simplest terms, in America, the Green New Deal is a proposed plan by some Democrats that sets out many of the steps the US needs to take to avoid climate catastrophe.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134558,
+      "no_speech_prob": 0.052185
+    },
+    {
+      "index": 3,
+      "start": 24.84,
+      "end": 42.84,
+      "text": "In the UK, the Green New Deal, also known as a Green Industrial Revolution, is a similar plan but refers to a collection of thoughts and policy ideas that have been proposed by environmental activists and economists to tackle climate breakdown, ideas that have now made their way into politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090063,
+      "no_speech_prob": 0.085571
+    },
+    {
+      "index": 4,
+      "start": 42.84,
+      "end": 50.84,
+      "text": "At its heart, the Green New Deal is a term that encapsulates thinking on how we tackle climate breakdown and make our society fairer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090063,
+      "no_speech_prob": 0.085571
+    },
+    {
+      "index": 5,
+      "start": 51.84,
+      "end": 64.84,
+      "text": "It's a programme to try and decarbonise the economy at pace, but to try and do it in a way that raises living standards, creates thousands and thousands of jobs, and tries to change the economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059872,
+      "no_speech_prob": 0.090332
+    },
+    {
+      "index": 6,
+      "start": 64.84,
+      "end": 79.84,
+      "text": "And the thing that's really powerful about it is that, you know, the environmental crisis and the economic crisis that we're facing are often seen as two separate things, but they're fundamentally related because they come back to an economy that isn't working for people, that isn't working for the environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059872,
+      "no_speech_prob": 0.090332
+    },
+    {
+      "index": 9,
+      "start": 95.84,
+      "end": 100.84,
+      "text": "And on top of that, how the economy works is bad for our environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053077,
+      "no_speech_prob": 0.002758
+    },
+    {
+      "index": 10,
+      "start": 100.84,
+      "end": 108.84,
+      "text": "We're consuming more, we're producing more, one and a half times, our ability to regenerate. The earth can only sustain so much.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.053077,
+      "no_speech_prob": 0.002758
+    },
+    {
+      "index": 11,
+      "start": 112.98,
+      "end": 117.98,
+      "text": "Although we've been hearing a lot about it recently, the Green New Deal has been around for over a decade.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 12,
+      "start": 117.98,
+      "end": 129.98,
+      "text": "As the financial crisis hit, a group of environmentalists and economists, drawing inspiration from Roosevelt's New Deal, came up with an initial plan to transform the economy in a way that would deal with climate breakdown.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 13,
+      "start": 129.98,
+      "end": 138.98,
+      "text": "It's a mix of policies across sectors. Some transformative, and others, so needed, might seem a little less exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048748,
+      "no_speech_prob": 0.004765
+    },
+    {
+      "index": 14,
+      "start": 138.98,
+      "end": 146.98,
+      "text": "For example, one plan is simply to make our homes and buildings more energy efficient by installing insulation and double glazing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 15,
+      "start": 146.98,
+      "end": 156.98,
+      "text": "But one of the major ideas is massive investment in renewables, so we stop using fossil fuels in our day-to-day lives, including in how we generate our electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 16,
+      "start": 156.98,
+      "end": 161.98,
+      "text": "Transport is another area supporters of the Green New Deal say they want to reshape.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04954,
+      "no_speech_prob": 0.001633
+    },
+    {
+      "index": 17,
+      "start": 161.98,
+      "end": 170.98,
+      "text": "Calling for green, cheaper or even free public transport, way less car use, and levies for frequent flyers to discourage excess air travel.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 18,
+      "start": 170.98,
+      "end": 180.98,
+      "text": "Green New Deal supporters say this will mean thousands or even millions of decent, rewarding jobs being created, offsetting the ones lost to declining fossil fuel industries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 19,
+      "start": 180.98,
+      "end": 189.25,
+      "text": "The Green New Deal is also about how to make these changes in the best, fairest way possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.054905,
+      "no_speech_prob": 0.02739
+    },
+    {
+      "index": 20,
+      "start": 189.25,
+      "end": 192.25,
+      "text": "This is what people call a just transition.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 21,
+      "start": 192.25,
+      "end": 198.25,
+      "text": "People's jobs will have to change in the way they work will have to change, and it's including them in the conversation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 22,
+      "start": 198.25,
+      "end": 208.25,
+      "text": "and also recognizing that they are the best people to listen to and who will have a better understanding of how we can make that change, because they're the ones impacted by it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 23,
+      "start": 208.25,
+      "end": 218.25,
+      "text": "It also gives us an opportunity just to have a conversation with people who are often left behind, right, and are usually the victims of policy change,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093117,
+      "no_speech_prob": 0.401611
+    },
+    {
+      "index": 24,
+      "start": 218.25,
+      "end": 223.25,
+      "text": "and saying, no, you don't have to be the victims of policy change. You can help create the policy that creates a better life for you,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 25,
+      "start": 223.25,
+      "end": 228.25,
+      "text": "but also helps us solve this existential crisis that we're facing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 26,
+      "start": 228.25,
+      "end": 238.25,
+      "text": "And crucially, a just transition means listening to people globally, including some of those least responsible for the climate crisis, but who are being impacted the most.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 27,
+      "start": 238.25,
+      "end": 245.25,
+      "text": "For example, some say the UK Green New Deal shouldn't continue the destructive extraction of minerals abroad.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064453,
+      "no_speech_prob": 0.004593
+    },
+    {
+      "index": 28,
+      "start": 245.25,
+      "end": 254.25,
+      "text": "The UK has a historic responsibility for decarbonizing really quickly, because this is the nation that birthed the Industrial Revolution,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 29,
+      "start": 254.25,
+      "end": 260.25,
+      "text": "and colonized large parts of the world, and used its resources to build the modern society that we live in right now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 30,
+      "start": 260.25,
+      "end": 265.25,
+      "text": "However, there's still one big question. Can we afford it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 31,
+      "start": 265.25,
+      "end": 269.25,
+      "text": "We can afford it. It's a question of political choices and political will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 32,
+      "start": 269.25,
+      "end": 273.25,
+      "text": "There's money out there that we're already using, and we're just using it poorly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064488,
+      "no_speech_prob": 0.027847
+    },
+    {
+      "index": 33,
+      "start": 273.25,
+      "end": 283.25,
+      "text": "Some economists say it could be financed through shifting where subsidies currently go, borrowing to invest, a windfall tax on oil and gas companies,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 34,
+      "start": 283.25,
+      "end": 292.25,
+      "text": "and new jobs, which will create more income and tax revenues. But there's an even bigger question here. Can we afford not to do it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 35,
+      "start": 292.25,
+      "end": 302.25,
+      "text": "If you think about the logical conclusion of climate change, right, you think about the chaos in the system, extreme weather conditions, hurricanes, floods,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058473,
+      "no_speech_prob": 0.006927
+    },
+    {
+      "index": 36,
+      "start": 302.25,
+      "end": 308.25,
+      "text": "and the human but also the financial cost of responding to that. So for me, it's not can we afford it? It's a choice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 37,
+      "start": 308.25,
+      "end": 314.25,
+      "text": "We either are sensible now, and we make decisions now and say, OK, well, this is the cost of trying to manage this thing,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 38,
+      "start": 314.25,
+      "end": 318.25,
+      "text": "or we sleepwalk into the crisis. The science tells us it's coming.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 39,
+      "start": 318.25,
+      "end": 329.77,
+      "text": "The Green New Deal would mean major change on a scale that can be hard to imagine, but climate breakdown is already happening,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 40,
+      "start": 329.77,
+      "end": 332.77,
+      "text": "and the scale of the problem is huge.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.109569,
+      "no_speech_prob": 0.001784
+    },
+    {
+      "index": 41,
+      "start": 332.77,
+      "end": 343.77,
+      "text": "However, we have all of these ideas in the Green New Deal that would mean a real chance to do something about it and do something about it in a fair and just way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 42,
+      "start": 343.77,
+      "end": 354.62,
+      "text": "Thank you for watching this video. One of the most interesting things I found while doing the research for it was that some of the thinking around the Green New Deal has been around for quite a while.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 43,
+      "start": 354.62,
+      "end": 359.62,
+      "text": "So we know some of the solutions. It just takes the political will to implement them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046645,
+      "no_speech_prob": 0.07135
+    },
+    {
+      "index": 44,
+      "start": 359.62,
+      "end": 365.62,
+      "text": "If you like these videos, please like and subscribe and click here to support The Guardian.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118304,
+      "no_speech_prob": 0.893066
+    }
+  ],
+  "context_text_chronological": "You've probably heard a lot of talk about something called the Green New Deal, from some Democrats in the US, the Labour Party in the UK, and school strikers around the world. But what exactly is it, and why does it matter? In the simplest terms, in America, the Green New Deal is a proposed plan by some Democrats that sets out many of the steps the US needs to take to avoid climate catastrophe. In the UK, the Green New Deal, also known as a Green Industrial Revolution, is a similar plan but refers to a collection of thoughts and policy ideas that have been proposed by environmental activists and economists to tackle climate breakdown, ideas that have now made their way into politics. At its heart, the Green New Deal is a term that encapsulates thinking on how we tackle climate breakdown and make our society fairer. It's a programme to try and decarbonise the economy at pace, but to try and do it in a way that raises living standards, creates thousands and thousands of jobs, and tries to change the economy. And the thing that's really powerful about it is that, you know, the environmental crisis and the economic crisis that we're facing are often seen as two separate things, but they're fundamentally related because they come back to an economy that isn't working for people, that isn't working for the environment. And on top of that, how the economy works is bad for our environment. We're consuming more, we're producing more, one and a half times, our ability to regenerate. The earth can only sustain so much. Although we've been hearing a lot about it recently, the Green New Deal has been around for over a decade. As the financial crisis hit, a group of environmentalists and economists, drawing inspiration from Roosevelt's New Deal, came up with an initial plan to transform the economy in a way that would deal with climate breakdown. It's a mix of policies across sectors. Some transformative, and others, so needed, might seem a little less exciting. For example, one plan is simply to make our homes and buildings more energy efficient by installing insulation and double glazing. But one of the major ideas is massive investment in renewables, so we stop using fossil fuels in our day-to-day lives, including in how we generate our electricity. Transport is another area supporters of the Green New Deal say they want to reshape. Calling for green, cheaper or even free public transport, way less car use, and levies for frequent flyers to discourage excess air travel. Green New Deal supporters say this will mean thousands or even millions of decent, rewarding jobs being created, offsetting the ones lost to declining fossil fuel industries. The Green New Deal is also about how to make these changes in the best, fairest way possible. This is what people call a just transition. People's jobs will have to change in the way they work will have to change, and it's including them in the conversation, and also recognizing that they are the best people to listen to and who will have a better understanding of how we can make that change, because they're the ones impacted by it. It also gives us an opportunity just to have a conversation with people who are often left behind, right, and are usually the victims of policy change, and saying, no, you don't have to be the victims of policy change. You can help create the policy that creates a better life for you, but also helps us solve this existential crisis that we're facing. And crucially, a just transition means listening to people globally, including some of those least responsible for the climate crisis, but who are being impacted the most. For example, some say the UK Green New Deal shouldn't continue the destructive extraction of minerals abroad. The UK has a historic responsibility for decarbonizing really quickly, because this is the nation that birthed the Industrial Revolution, and colonized large parts of the world, and used its resources to build the modern society that we live in right now. However, there's still one big question. Can we afford it? We can afford it. It's a question of political choices and political will. There's money out there that we're already using, and we're just using it poorly. Some economists say it could be financed through shifting where subsidies currently go, borrowing to invest, a windfall tax on oil and gas companies, and new jobs, which will create more income and tax revenues. But there's an even bigger question here. Can we afford not to do it? If you think about the logical conclusion of climate change, right, you think about the chaos in the system, extreme weather conditions, hurricanes, floods, and the human but also the financial cost of responding to that. So for me, it's not can we afford it? It's a choice. We either are sensible now, and we make decisions now and say, OK, well, this is the cost of trying to manage this thing, or we sleepwalk into the crisis. The science tells us it's coming. The Green New Deal would mean major change on a scale that can be hard to imagine, but climate breakdown is already happening, and the scale of the problem is huge. However, we have all of these ideas in the Green New Deal that would mean a real chance to do something about it and do something about it in a fair and just way. Thank you for watching this video. One of the most interesting things I found while doing the research for it was that some of the thinking around the Green New Deal has been around for quite a while. So we know some of the solutions. It just takes the political will to implement them. If you like these videos, please like and subscribe and click here to support The Guardian.",
+  "target_text_for_audit": "Governments all over the world are failing on the climate crisis. For example, the UK government has been giving subsidies to fossil fuel companies for years.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 1,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "For example, the UK government has been giving subsidies to fossil fuel companies for years.",
+        "start_source": 86.68,
+        "end_source": 91.72,
+        "matching_cue_ids": [
+          7
+        ],
+        "text_similarity": 0.7347,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\uampTRW4KbQ.webm",
+    "cue_count": 45
+  },
+  "token_estimate_char_div_4": 1419
+}

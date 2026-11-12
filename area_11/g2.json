@@ -1,0 +1,339 @@
+{
+ "clip_id": "area_11",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_11",
+  "family": "area",
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1",
+   "U2"
+  ],
+  "row_count": 219,
+  "table_sha256": "9ec43e998759c71339743fa7a2371e2b8fac3c12ba8a77446a2eec00ea7c2b6f"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Fast Spread | Infections",
+    "Fast Spread | Reference level"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "Fast Spread | Infections",
+      "panel": "Fast Spread",
+      "entity": "Infections",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Fast Spread | Reference level",
+      "panel": "Fast Spread",
+      "entity": "Reference level",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Slow Spread | Infections",
+    "Slow Spread | Reference level"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "Slow Spread | Infections",
+      "panel": "Slow Spread",
+      "entity": "Infections",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | Reference level",
+      "panel": "Slow Spread",
+      "entity": "Reference level",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Fast Spread | Infections | 0.300851",
+    "Slow Spread | Infections | 0.460213"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Fast Spread | Infections | 0.300851",
+      "panel": "Fast Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.300851",
+      "point_order": "56",
+      "value": "70.370370",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | Infections | 0.460213",
+      "panel": "Slow Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.460213",
+      "point_order": "47",
+      "value": "25.102881",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Fast Spread | Infections | 0.300851",
+      "panel": "Fast Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.300851",
+      "point_order": "56",
+      "value": "0.300851",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | Infections | 0.460213",
+      "panel": "Slow Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.460213",
+      "point_order": "47",
+      "value": "0.460213",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The Fast Spread Infections trajectory rises much higher and peaks much earlier in relative time than the Slow Spread trajectory, which peaks lower and later.",
+    "computation": "compare peak values and peak x positions across panels",
+    "encoding": "filled_area_boundary_height_per_panel",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Slow Spread peaks higher than Fast Spread",
+    "Both panels peak at the same relative time",
+    "Fast Spread peak occurs after Slow Spread peak"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_or_crossing",
+   "required_marks": [
+    "Fast Spread | Infections | 0.110851",
+    "Fast Spread | Infections | 0.300851",
+    "Fast Spread | Reference level | 0.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Fast Spread | Infections | 0.110851",
+      "panel": "Fast Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.110851",
+      "point_order": "20",
+      "value": "27.942387",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Fast Spread | Infections | 0.300851",
+      "panel": "Fast Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.300851",
+      "point_order": "56",
+      "value": "70.370370",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Fast Spread | Reference level | 0.000000",
+      "panel": "Fast Spread",
+      "entity": "Reference level",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "27.160494",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "In the Fast Spread panel, the Infections trajectory crosses above the Reference level (27.16) and its peak (about 70.37) is well above that reference.",
+    "computation": "compare peak value to reference value; identify crossing from below to above",
+    "encoding": "filled_area_boundary_height_per_panel",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Fast Spread peak is below the Reference level",
+    "Fast Spread never exceeds the Reference level"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_or_crossing",
+   "required_marks": [
+    "Slow Spread | Infections | 0.460213",
+    "Slow Spread | Reference level | 0.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Slow Spread | Infections | 0.460213",
+      "panel": "Slow Spread",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.460213",
+      "point_order": "47",
+      "value": "25.102881",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Slow Spread | Reference level | 0.000000",
+      "panel": "Slow Spread",
+      "entity": "Reference level",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "27.160494",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "In the Slow Spread panel, the Infections trajectory remains below the Reference level (27.16) throughout; its peak (about 25.10) does not reach that reference.",
+    "computation": "compare peak value to reference value",
+    "encoding": "filled_area_boundary_height_per_panel",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Infections (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Slow Spread peak exceeds the Reference level",
+    "Slow Spread crosses above the Reference level"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

@@ -1,0 +1,246 @@
+{
+ "clip_id": "area_14",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_14",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 41,
+  "table_sha256": "b07af983f6e870e0d159be603b40ddbf0a034af5e9d919437f8da24cbe8b90fb"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Infections",
+    "Capacity of Healthcare System"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Infections",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Capacity of Healthcare System",
+      "panel": "",
+      "entity": "Capacity of Healthcare System",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "threshold_or_crossing",
+   "must_be_visualized": true,
+   "evidence_type": "threshold_or_crossing",
+   "required_marks": [
+    "Infections | 0.000000",
+    "Infections | 0.131556",
+    "Infections | 0.190556",
+    "Infections | 0.441556",
+    "Infections | 0.500556",
+    "Capacity of Healthcare System | 0.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Infections | 0.000000",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.131556",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.131556",
+      "point_order": "10",
+      "value": "34.087137",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.190556",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.190556",
+      "point_order": "11",
+      "value": "60.352697",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.441556",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.441556",
+      "point_order": "29",
+      "value": "55.124481",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.500556",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.500556",
+      "point_order": "30",
+      "value": "28.858921",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Capacity of Healthcare System | 0.000000",
+      "panel": "",
+      "entity": "Capacity of Healthcare System",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "48.755187",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "The Infections series rises from 0 at x=0, crosses above the constant Capacity of Healthcare System level of 48.755187 between x=0.131556 (value 34.087137) and x=0.190556 (value 60.352697), and later falls back below that level between x=0.441556 (value 55.124481) and x=0.500556 (value 28.858921).",
+    "computation": "Infections crosses the constant reference level 48.755187 upward between r10 (34.087137) and r11 (60.352697), and downward between r29 (55.124481) and r30 (28.858921).",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Infections is always below the capacity level.",
+    "Infections is always above the capacity level.",
+    "The crossing occurs at x=0.25 or at the peak."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Infections | 0.318000",
+    "Capacity of Healthcare System | 0.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Infections | 0.318000",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.318000",
+      "point_order": "21",
+      "value": "89.066390",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Capacity of Healthcare System | 0.000000",
+      "panel": "",
+      "entity": "Capacity of Healthcare System",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "48.755187",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "The Infections series reaches its maximum of about 89.07 relative units near x=0.318, which is well above the constant Capacity of Healthcare System level of 48.755187.",
+    "computation": "Maximum Infections value among sampled rows is 89.066390 at r21; compare to reference level 48.755187 at r40.",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak (relative)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "The peak Infections value is 48.755187.",
+    "The peak occurs at x=0.62.",
+    "The peak is below the capacity level."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

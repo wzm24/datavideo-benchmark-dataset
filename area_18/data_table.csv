@@ -1,6 +1,6 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_18,JUPITER,jupiter,0,142984,1.00000,km_diameter,real
-area_18,NEPTUNE,neptune,0,49528,0.34639,km_diameter,real
-area_18,EARTH,earth,0,12742,0.08911,km_diameter,real
-area_18,MARS,mars,0,6779,0.04741,km_diameter,real
-area_18,MOON,moon,0,3474,0.02430,km_diameter,real
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,,Diameter (relative),JUPITER,,,1,1.000000,relative,JUPITER,proportional_circle
+,,Diameter (relative),NEPTUNE,,,1,0.346538,relative,NEPTUNE,proportional_circle
+,,Diameter (relative),EARTH,,,1,0.089231,relative,EARTH,proportional_circle
+,,Diameter (relative),MARS,,,1,0.047308,relative,MARS,proportional_circle
+,,Diameter (relative),MOON,,,1,0.024231,relative,MOON,proportional_circle

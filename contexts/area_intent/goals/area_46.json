@@ -1,0 +1,211 @@
+{
+ "clip": "area_46",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that 46% of U.S. adults said economic conditions were hurting them and their families, while 54% said they were not.",
+ "core_claim": "Roughly half of Americans reported the economy was hurting them and their families.",
+ "chart_role": "single-segment survey share",
+ "source_consistency": "partial",
+ "issues": [
+  "Narration's claim about the economy helping the wealthy and hurting the poor/middle class is not supported by the compact table or visible labels.",
+  "The 54% complement is implied from the table, not printed on the chart."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To demonstrate that Americans hold a negative view of the economy, believing it is hurting their families and favoring the wealthy.",
+ "narration": "But, you know, perhaps not surprising, a majority of Americans said that the economy was helping people who are wealthy and hurting people who are poor and in the middle class. And we also had roughly half of Americans saying that the economy was hurting themselves and their families.",
+ "svg_text": [
+  "Roughly half",
+  "of Americans say economic conditions are",
+  "hurting them and their families",
+  "46%",
+  "Source: Survey of U.S. adults conducted Sept. 16-29, 2019.",
+  "PEW RESEARCH CENTER"
+ ],
+ "chart_spec": {
+  "clip_id": "area_46",
+  "family": "area",
+  "sub_type": "area_tile_map",
+  "orientation": "tile_map",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": true,
+  "total_tiles": 51
+ },
+ "table_summary": {
+  "row_count": 2,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Economic conditions hurting them and their families",
+    "series": "Survey response",
+    "role": "area_tile_segment",
+    "row_count": 1,
+    "unit": "percent",
+    "printed_x": [],
+    "value_min": 46.0,
+    "value_max": 46.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions hurting them and their families",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "value": "46",
+     "unit": "percent",
+     "label": "46%",
+     "role": "area_tile_segment"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions hurting them and their families",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "value": "46",
+     "unit": "percent",
+     "label": "46%",
+     "role": "area_tile_segment"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "Economic conditions not hurting them and their families (implied complement)",
+    "series": "Survey response",
+    "role": "area_tile_segment",
+    "row_count": 1,
+    "unit": "percent",
+    "printed_x": [],
+    "value_min": 54.0,
+    "value_max": 54.0,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions not hurting them and their families (implied complement)",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "value": "54",
+     "unit": "percent",
+     "label": "",
+     "role": "area_tile_segment"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Share of US adults (%)",
+     "entity": "Economic conditions not hurting them and their families (implied complement)",
+     "series": "Survey response",
+     "x": "",
+     "point_order": "1",
+     "value": "54",
+     "unit": "percent",
+     "label": "",
+     "role": "area_tile_segment"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Share of US adults (%)",
+    "entity": "Economic conditions hurting them and their families",
+    "series": "Survey response",
+    "x": "",
+    "point_order": "1",
+    "value": "46",
+    "unit": "percent",
+    "label": "46%",
+    "role": "area_tile_segment"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Share of US adults (%)",
+    "entity": "Economic conditions not hurting them and their families (implied complement)",
+    "series": "Survey response",
+    "x": "",
+    "point_order": "1",
+    "value": "54",
+    "unit": "percent",
+    "label": "",
+    "role": "area_tile_segment"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [
+   "The 54% complement is present in the corrected table but has no visible label; the goal's '54% said they were not' is supported by the table's implied complement row, not by a visible chart label.",
+   "The goal is somewhat inventory-like, restating both percentages rather than emphasizing the takeaway."
+  ],
+  "corrected_goal": "Roughly half of U.S. adults (46%) said economic conditions were hurting them and their families, while the implied complement (54%) said they were not.",
+  "corrected_core_claim": "Roughly half of Americans reported the economy was hurting them and their families."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1564,
+   "completion_tokens": 150,
+   "total_tokens": 1714,
+   "prompt_tokens_details": {
+    "cached_tokens": 1408
+   },
+   "prompt_cache_hit_tokens": 1408,
+   "prompt_cache_miss_tokens": 156
+  },
+  "audit": {
+   "prompt_tokens": 1333,
+   "completion_tokens": 158,
+   "total_tokens": 1491,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1333
+  }
+ },
+ "sec": 2.9
+}

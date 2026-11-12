@@ -1,6 +1,9 @@
 {
- "clip_id": "area_19",
- "family": "area",
- "sub_type": "overlay_area",
- "orientation": "cartesian"
+  "clip_id": "area_19",
+  "family": "area",
+  "sub_type": "historical_projection_area",
+  "orientation": "cartesian",
+  "special_area_type": true,
+  "projection_band": true,
+  "projection_start": 2019
 }

@@ -1,0 +1,2084 @@
+{
+  "clip_id": "bar_79",
+  "family": "bar",
+  "video_id": "DwAyUV6hTf8",
+  "source_url": "https://www.youtube.com/watch?v=DwAyUV6hTf8",
+  "source_title": "The Most Overvalued Startup in the World?",
+  "target_window_source": {
+    "start": 342.0,
+    "end": 354.0
+  },
+  "target_mask_interval": {
+    "start": 340.5,
+    "end": 355.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    51,
+    52,
+    53
+  ],
+  "masked_cue_ids": [
+    51,
+    52,
+    53
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": "This video was sponsored by Dashlane, conveniently store your passwords and get 10% off for the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 1,
+      "start": 6.48,
+      "end": 14.64,
+      "text": "first 200 people to use the link in the description. It's now 2019, and everything is getting old.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 2,
+      "start": 14.64,
+      "end": 21.76,
+      "text": "Ellen DeGeneres is now 60. Comments on why I'm wrong about Florida's flag are getting ancient,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 3,
+      "start": 21.76,
+      "end": 27.2,
+      "text": "not that I read those or anything. And millennials are now officially full-grown",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 4,
+      "start": 28.16,
+      "end": 34.24,
+      "text": "The youngest are graduating college and entering the job market. The oldest are well into their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 5,
+      "start": 34.24,
+      "end": 39.52,
+      "text": "careers. And while some companies are busy complaining about millennials killing their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 6,
+      "start": 39.52,
+      "end": 46.96,
+      "text": "business, others are realizing, hey, this generation might not be exactly the same as their parents",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 7,
+      "start": 46.96,
+      "end": 53.6,
+      "text": "and are adapting. Imagine that. Hence, lots of bright colors, artsy fonts, emojis,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 8,
+      "start": 53.6,
+      "end": 59.44,
+      "text": "and manufactured authenticity. Probably not a great time to announce the new polymatter branding.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 9,
+      "start": 59.44,
+      "end": 65.76,
+      "text": "One of the most successful of these companies is called WeWork. In case you're not a 20 to 35",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 10,
+      "start": 65.76,
+      "end": 72.08,
+      "text": "year old who lives here and likes to work from a beanbag, no judgment, here's the idea. Instead",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 11,
+      "start": 72.08,
+      "end": 77.84,
+      "text": "of leasing an office for a whole year or trying to write a script about this hot new startup",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 12,
+      "start": 77.84,
+      "end": 84.64,
+      "text": "called WeWork in a Starbucks while the barista yells Karen for the seventh time in two minutes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 13,
+      "start": 84.64,
+      "end": 91.2,
+      "text": "you can rent a space in one of WeWork's 500 buildings in 97 cities. For somewhere between",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 14,
+      "start": 91.2,
+      "end": 97.68,
+      "text": "two and eight hundred dollars a month, you get a private office, a desk, or the opportunity of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 15,
+      "start": 97.68,
+      "end": 104.24,
+      "text": "desk. They provide the Wi-Fi, furniture, printers, and cleaning. It's got all the ingredients of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 16,
+      "start": 104.24,
+      "end": 110.88,
+      "text": "fun, exciting, young startup. Craft beer, pictures of people doing yoga, and chairs that don't look",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 17,
+      "start": 110.88,
+      "end": 116.64,
+      "text": "like chairs. It may not sound revolutionary, but it's perfectly timed with the rise of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 18,
+      "start": 116.64,
+      "end": 123.84,
+      "text": "independent, remote, and freelance workers, who there are now 68 million of in the US alone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 19,
+      "start": 123.84,
+      "end": 130.56,
+      "text": "There's just one problem. Or a few billion, actually. WeWork is the fourth highest valued",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 20,
+      "start": 130.56,
+      "end": 137.2,
+      "text": "startup in the world, just behind Uber and its Chinese competitor. Many have called it massively",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 21,
+      "start": 137.2,
+      "end": 144.4,
+      "text": "overvalued, even the most overvalued. Meanwhile, it's starting a school called WeGrow, a gym called",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 22,
+      "start": 144.4,
+      "end": 152.48,
+      "text": "Rise by We, and renting apartments called WeLive, which all sounds a wee bit scattershot. So what's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 23,
+      "start": 152.48,
+      "end": 157.92,
+      "text": "the deal? The answer is just as interesting as what it says about our whole economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 24,
+      "start": 160.32,
+      "end": 166.88,
+      "text": "The way WeWork makes money, or tries to, is actually pretty simple. It is starting to buy a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 25,
+      "start": 166.88,
+      "end": 172.96,
+      "text": "few of its own buildings, but for the most part, here's how it works. First, it finds big,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 26,
+      "start": 172.96,
+      "end": 179.04,
+      "text": "centrally located buildings in young, densely populated areas, and signs a five,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 27,
+      "start": 179.04,
+      "end": 186.4,
+      "text": "ten, even fifteen year lease. Which makes the landlord really happy, at least for now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 28,
+      "start": 186.4,
+      "end": 193.6,
+      "text": "And then, they turn around and sublease to you and I, on a monthly basis. Pretty simple, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 29,
+      "start": 193.6,
+      "end": 200.0,
+      "text": "A little too simple, you might be thinking. If WeWork can make money appear out of thin air",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 30,
+      "start": 200.0,
+      "end": 206.48,
+      "text": "by splitting a big lease into a bunch of tiny ones, why doesn't the building just do that itself?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 31,
+      "start": 206.48,
+      "end": 212.32,
+      "text": "Isn't WeWork just an inefficient middleman? Instead of paying one landlord, now we're",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 32,
+      "start": 212.32,
+      "end": 218.64,
+      "text": "essentially paying two. And that's true, nothing stops the owner of a building from creating its",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 33,
+      "start": 218.64,
+      "end": 226.96,
+      "text": "own shared offices. Some do. But it's not so simple, for two reasons. First, WeWork and the owner",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 34,
+      "start": 226.96,
+      "end": 235.04,
+      "text": "are really playing two very different games. At its core, WeWork is one giant 47 billion dollar",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 35,
+      "start": 235.04,
+      "end": 241.28,
+      "text": "bet that its real estate will increase in value. Because if you and I pay more every month for a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 36,
+      "start": 241.28,
+      "end": 248.8,
+      "text": "desk, WeWork still pays the same ten, fifteen, whatever year lease, and they pocket the difference.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 37,
+      "start": 248.8,
+      "end": 255.04,
+      "text": "On the other hand, if, can I say, when property values fall, they have to pay the difference.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 38,
+      "start": 255.04,
+      "end": 260.08,
+      "text": "Now, each lease is under a different subsidiary, so if it can't afford to make payments,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 39,
+      "start": 260.08,
+      "end": 266.08,
+      "text": "the company, as a whole, is somewhat protected. But if a bunch of them fail at the same time,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 40,
+      "start": 266.08,
+      "end": 272.48,
+      "text": "like during a recession, it could be really, really bad. And remember that most of WeWork's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 41,
+      "start": 272.48,
+      "end": 278.4,
+      "text": "customers are small startups and freelancers. You know, the business is most likely to fail",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 42,
+      "start": 278.4,
+      "end": 285.2,
+      "text": "during a recession. Oops. The owner, on the other hand, gets a consistent, arguably lower risk",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 43,
+      "start": 285.2,
+      "end": 291.84,
+      "text": "paycheck and makes its building more valuable in the meantime. The second reason is that WeWork has",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 44,
+      "start": 291.84,
+      "end": 299.44,
+      "text": "an unfair advantage. Unlike the property owner, it can set prices unreasonably low, attracting far",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 45,
+      "start": 299.44,
+      "end": 306.24,
+      "text": "more customers. The secret is that WeWork is always on sale. You just don't know it. How can it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 46,
+      "start": 306.24,
+      "end": 312.24,
+      "text": "sell a service for less than what it costs? The answer is a little, actually remarkably not so",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 47,
+      "start": 312.24,
+      "end": 318.16,
+      "text": "little company, called SoftBank. You've never heard of it because it's a multinational holding",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 48,
+      "start": 318.24,
+      "end": 324.32,
+      "text": "conglomerate. In English, a company that owns companies. A big pile of money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    },
+    {
+      "index": 49,
+      "start": 324.32,
+      "end": 332.24,
+      "text": "SoftBank's vision fund is nearly $100 billion, provided by Saudi Arabia, the United Arab Emirates,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    },
+    {
+      "index": 50,
+      "start": 332.24,
+      "end": 338.08,
+      "text": "and companies like Apple and Qualcomm. Best friends I hear. To put that in perspective,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    }
+  ],
+  "context_after": [
+    {
+      "index": 54,
+      "start": 358.08,
+      "end": 364.88,
+      "text": "anything that remotely looks like one. Basically add big data or blockchain to your name and then",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085852,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 55,
+      "start": 364.88,
+      "end": 371.52,
+      "text": "buy a bigger wallet, because SoftBank wants all of it. Just a few weeks ago, it poured another",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085852,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 56,
+      "start": 371.6,
+      "end": 378.72,
+      "text": "$2 billion into WeWork. And if you think that's a lot, which it is, it was originally going to be",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 57,
+      "start": 378.72,
+      "end": 385.12,
+      "text": "$16 billion. So SoftBank, in a roundabout way, is paying for part of your office and hopes that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 58,
+      "start": 385.12,
+      "end": 392.4,
+      "text": "the company will grow and one day make a profit. Which is all too common. Enjoy those $1 scooters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 59,
+      "start": 392.4,
+      "end": 399.2,
+      "text": "and cheap Uber rides because some venture capitalist somewhere is paying for them. It won't last forever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 60,
+      "start": 399.2,
+      "end": 405.12,
+      "text": "Just ask anyone with MoviePass how that turned out. But hang on, why does SoftBank,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 61,
+      "start": 405.12,
+      "end": 410.88,
+      "text": "who likes tech companies like Uber and ByteDance, invest in WeWork, who leases real estate?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 62,
+      "start": 410.88,
+      "end": 416.8,
+      "text": "Well, that's the question. Is WeWork a tech company? Or does it just really want to be?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 63,
+      "start": 416.8,
+      "end": 422.8,
+      "text": "Because if it's just a middleman between property owners and renters, and Uber just a platform",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 64,
+      "start": 422.8,
+      "end": 429.68,
+      "text": "connecting drivers and riders, both of which use technology but suffer the economics of a non-tech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 65,
+      "start": 429.68,
+      "end": 435.84,
+      "text": "company, then they're a lot less exciting. If that's true, a lot of investors are spending",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 66,
+      "start": 435.84,
+      "end": 441.52,
+      "text": "a lot more than they should. And when they realize this, things are going to get ugly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 67,
+      "start": 441.52,
+      "end": 447.68,
+      "text": "Think about it this way. A tech company can potentially have 7 billion users instantly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 68,
+      "start": 447.76,
+      "end": 454.8,
+      "text": "A thousand downloads doesn't cost any more than one. Scale is nearly unlimited. And therefore,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 69,
+      "start": 454.8,
+      "end": 462.08,
+      "text": "so are valuations. WeWork, however, will always have to buy or lease more space as more people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 70,
+      "start": 462.08,
+      "end": 468.08,
+      "text": "join. It scales, but not in the same way. To put it in perspective, there's this other,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 71,
+      "start": 468.08,
+      "end": 475.52,
+      "text": "less exciting co-working company called Regis. This is its total square feet. And this is WeWorks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 72,
+      "start": 475.52,
+      "end": 483.12,
+      "text": "Again, with a valuation of 47 billion. So what's Regis valued at? 4 billion. That's not with a zero.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 73,
+      "start": 484.96,
+      "end": 493.12,
+      "text": "Oh yeah, and fun fact, Regis actually makes a profit. I know, right? Who does that? So old-fashioned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 74,
+      "start": 493.12,
+      "end": 499.84,
+      "text": "The question is, what makes WeWork worth that extra 43 billion? Why is it valued like a tech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 75,
+      "start": 499.84,
+      "end": 505.92,
+      "text": "company? And Regis, based on, you know, how much money it can make. Now, it's tempting to stop",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 76,
+      "start": 505.92,
+      "end": 513.6,
+      "text": "here. To say WeWork is just a real estate company. And yes, it's overvalued. But that's not totally",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 77,
+      "start": 513.6,
+      "end": 519.6,
+      "text": "fair. There's a reason WeWork is so much more successful. And it's not just that SoftBank",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 78,
+      "start": 519.6,
+      "end": 525.6,
+      "text": "thinks its money is a hot potato. It's because WeWork has mastered the art of telling a story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 79,
+      "start": 525.6,
+      "end": 531.12,
+      "text": "Regis has nice professional photos and advertises with generic phrases like,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 80,
+      "start": 531.12,
+      "end": 537.92,
+      "text": "stay productive. But WeWork understands the millennial. Big art pieces, craft beer, and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 81,
+      "start": 537.92,
+      "end": 542.88,
+      "text": "so many mentions of the word community that I'm afraid to control if their website for fear of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 82,
+      "start": 542.88,
+      "end": 548.56,
+      "text": "crashing my browser. Quote, WeWork is a state of consciousness, a generation of interconnected,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 83,
+      "start": 548.56,
+      "end": 554.96,
+      "text": "emotionally intelligent entrepreneurs. Roll your eyes all you want. And trust me, I have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 84,
+      "start": 554.96,
+      "end": 561.6,
+      "text": "But it works. And it does have useful data on where people work, when they're most productive,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 85,
+      "start": 561.6,
+      "end": 567.76,
+      "text": "and so on, which they can use to redesign and optimize buildings. That's valuable information.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 86,
+      "start": 567.76,
+      "end": 573.44,
+      "text": "It has to decide, for example, how many conference rooms to build based on how much they'll be used.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 87,
+      "start": 573.44,
+      "end": 578.48,
+      "text": "That's worth thousands of dollars a month. Because if it builds even one too many rooms,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 88,
+      "start": 578.48,
+      "end": 584.16,
+      "text": "it's wasting space that could have been a desk and made more money. So is it a real estate or",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 89,
+      "start": 584.24,
+      "end": 592.08,
+      "text": "tech company? Yes. But make no mistake, its core business fundamentally relies on property values.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 90,
+      "start": 592.08,
+      "end": 598.0,
+      "text": "That's true no matter how hard it tries to distract us. Hey, look over here, we're not just a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 91,
+      "start": 598.0,
+      "end": 604.48,
+      "text": "real estate company. We're building a high-end gym in New York. We bought a wave pool company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 92,
+      "start": 604.48,
+      "end": 609.76,
+      "text": "Seriously though, why? And we're starting an elementary school. Which, by the way,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 93,
+      "start": 609.76,
+      "end": 618.4,
+      "text": "costs up to $42,000 a year, a total of $388,000 from age 2 to 11. Although to be fair,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 94,
+      "start": 618.4,
+      "end": 624.56,
+      "text": "it's no ordinary school. Quote, a field of super elliptic objects forms a learning landscape",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 95,
+      "start": 624.56,
+      "end": 630.72,
+      "text": "that's dense and rational, yet free and fluid. Whatever that means, it's not enough to save",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 96,
+      "start": 630.72,
+      "end": 637.28,
+      "text": "the company from the fate of Regis, who after the dot-com crash filed for bankruptcy. To survive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 97,
+      "start": 637.28,
+      "end": 644.08,
+      "text": "its first recession, we work will have to change its strategy or significantly diversify its income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 98,
+      "start": 644.08,
+      "end": 649.68,
+      "text": "Economic downturns are inevitable. You have to protect yourself by spreading your eggs across",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 99,
+      "start": 649.68,
+      "end": 655.84,
+      "text": "multiple baskets. Likewise, it's only a matter of time before the next big hack. And when it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 100,
+      "start": 655.84,
+      "end": 661.68,
+      "text": "happens, you don't want to be the guy with the same or similar passwords across all your accounts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 101,
+      "start": 661.68,
+      "end": 667.2,
+      "text": "Dashlane can conveniently store and fill those passwords so you don't have to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 102,
+      "start": 667.2,
+      "end": 672.8,
+      "text": "And since you're not remembering them, you can make them ridiculously long and hard to guess.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 103,
+      "start": 672.8,
+      "end": 680.08,
+      "text": "There's even a built-in VPN. Whether you use Windows, Android, iOS, or Mac, you can easily",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 104,
+      "start": 680.08,
+      "end": 685.36,
+      "text": "download their app and start using it for free. If you're like me, you'll be glad you have it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 105,
+      "start": 685.36,
+      "end": 691.36,
+      "text": "every time you log in or create an account or buy something online. You can sign up completely",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 106,
+      "start": 691.36,
+      "end": 698.24,
+      "text": "free with a link in the description, and the first 200 people will also get 10% off premium.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.259928,
+      "no_speech_prob": 0.440918
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.48,
+      "text": "This video was sponsored by Dashlane, conveniently store your passwords and get 10% off for the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 1,
+      "start": 6.48,
+      "end": 14.64,
+      "text": "first 200 people to use the link in the description. It's now 2019, and everything is getting old.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 2,
+      "start": 14.64,
+      "end": 21.76,
+      "text": "Ellen DeGeneres is now 60. Comments on why I'm wrong about Florida's flag are getting ancient,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 3,
+      "start": 21.76,
+      "end": 27.2,
+      "text": "not that I read those or anything. And millennials are now officially full-grown",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089372,
+      "no_speech_prob": 0.009705
+    },
+    {
+      "index": 4,
+      "start": 28.16,
+      "end": 34.24,
+      "text": "The youngest are graduating college and entering the job market. The oldest are well into their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 5,
+      "start": 34.24,
+      "end": 39.52,
+      "text": "careers. And while some companies are busy complaining about millennials killing their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 6,
+      "start": 39.52,
+      "end": 46.96,
+      "text": "business, others are realizing, hey, this generation might not be exactly the same as their parents",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 7,
+      "start": 46.96,
+      "end": 53.6,
+      "text": "and are adapting. Imagine that. Hence, lots of bright colors, artsy fonts, emojis,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087842,
+      "no_speech_prob": 0.160156
+    },
+    {
+      "index": 8,
+      "start": 53.6,
+      "end": 59.44,
+      "text": "and manufactured authenticity. Probably not a great time to announce the new polymatter branding.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 9,
+      "start": 59.44,
+      "end": 65.76,
+      "text": "One of the most successful of these companies is called WeWork. In case you're not a 20 to 35",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 10,
+      "start": 65.76,
+      "end": 72.08,
+      "text": "year old who lives here and likes to work from a beanbag, no judgment, here's the idea. Instead",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 11,
+      "start": 72.08,
+      "end": 77.84,
+      "text": "of leasing an office for a whole year or trying to write a script about this hot new startup",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08997,
+      "no_speech_prob": 0.048859
+    },
+    {
+      "index": 12,
+      "start": 77.84,
+      "end": 84.64,
+      "text": "called WeWork in a Starbucks while the barista yells Karen for the seventh time in two minutes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 13,
+      "start": 84.64,
+      "end": 91.2,
+      "text": "you can rent a space in one of WeWork's 500 buildings in 97 cities. For somewhere between",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 14,
+      "start": 91.2,
+      "end": 97.68,
+      "text": "two and eight hundred dollars a month, you get a private office, a desk, or the opportunity of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 15,
+      "start": 97.68,
+      "end": 104.24,
+      "text": "desk. They provide the Wi-Fi, furniture, printers, and cleaning. It's got all the ingredients of a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.091553,
+      "no_speech_prob": 0.222656
+    },
+    {
+      "index": 16,
+      "start": 104.24,
+      "end": 110.88,
+      "text": "fun, exciting, young startup. Craft beer, pictures of people doing yoga, and chairs that don't look",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 17,
+      "start": 110.88,
+      "end": 116.64,
+      "text": "like chairs. It may not sound revolutionary, but it's perfectly timed with the rise of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 18,
+      "start": 116.64,
+      "end": 123.84,
+      "text": "independent, remote, and freelance workers, who there are now 68 million of in the US alone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 19,
+      "start": 123.84,
+      "end": 130.56,
+      "text": "There's just one problem. Or a few billion, actually. WeWork is the fourth highest valued",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094358,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 20,
+      "start": 130.56,
+      "end": 137.2,
+      "text": "startup in the world, just behind Uber and its Chinese competitor. Many have called it massively",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 21,
+      "start": 137.2,
+      "end": 144.4,
+      "text": "overvalued, even the most overvalued. Meanwhile, it's starting a school called WeGrow, a gym called",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 22,
+      "start": 144.4,
+      "end": 152.48,
+      "text": "Rise by We, and renting apartments called WeLive, which all sounds a wee bit scattershot. So what's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 23,
+      "start": 152.48,
+      "end": 157.92,
+      "text": "the deal? The answer is just as interesting as what it says about our whole economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081421,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 24,
+      "start": 160.32,
+      "end": 166.88,
+      "text": "The way WeWork makes money, or tries to, is actually pretty simple. It is starting to buy a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 25,
+      "start": 166.88,
+      "end": 172.96,
+      "text": "few of its own buildings, but for the most part, here's how it works. First, it finds big,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 26,
+      "start": 172.96,
+      "end": 179.04,
+      "text": "centrally located buildings in young, densely populated areas, and signs a five,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 27,
+      "start": 179.04,
+      "end": 186.4,
+      "text": "ten, even fifteen year lease. Which makes the landlord really happy, at least for now.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.090608,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 28,
+      "start": 186.4,
+      "end": 193.6,
+      "text": "And then, they turn around and sublease to you and I, on a monthly basis. Pretty simple, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 29,
+      "start": 193.6,
+      "end": 200.0,
+      "text": "A little too simple, you might be thinking. If WeWork can make money appear out of thin air",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 30,
+      "start": 200.0,
+      "end": 206.48,
+      "text": "by splitting a big lease into a bunch of tiny ones, why doesn't the building just do that itself?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 31,
+      "start": 206.48,
+      "end": 212.32,
+      "text": "Isn't WeWork just an inefficient middleman? Instead of paying one landlord, now we're",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065762,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 32,
+      "start": 212.32,
+      "end": 218.64,
+      "text": "essentially paying two. And that's true, nothing stops the owner of a building from creating its",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 33,
+      "start": 218.64,
+      "end": 226.96,
+      "text": "own shared offices. Some do. But it's not so simple, for two reasons. First, WeWork and the owner",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 34,
+      "start": 226.96,
+      "end": 235.04,
+      "text": "are really playing two very different games. At its core, WeWork is one giant 47 billion dollar",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 35,
+      "start": 235.04,
+      "end": 241.28,
+      "text": "bet that its real estate will increase in value. Because if you and I pay more every month for a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081743,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 36,
+      "start": 241.28,
+      "end": 248.8,
+      "text": "desk, WeWork still pays the same ten, fifteen, whatever year lease, and they pocket the difference.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 37,
+      "start": 248.8,
+      "end": 255.04,
+      "text": "On the other hand, if, can I say, when property values fall, they have to pay the difference.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 38,
+      "start": 255.04,
+      "end": 260.08,
+      "text": "Now, each lease is under a different subsidiary, so if it can't afford to make payments,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 39,
+      "start": 260.08,
+      "end": 266.08,
+      "text": "the company, as a whole, is somewhat protected. But if a bunch of them fail at the same time,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076665,
+      "no_speech_prob": 0.007122
+    },
+    {
+      "index": 40,
+      "start": 266.08,
+      "end": 272.48,
+      "text": "like during a recession, it could be really, really bad. And remember that most of WeWork's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 41,
+      "start": 272.48,
+      "end": 278.4,
+      "text": "customers are small startups and freelancers. You know, the business is most likely to fail",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 42,
+      "start": 278.4,
+      "end": 285.2,
+      "text": "during a recession. Oops. The owner, on the other hand, gets a consistent, arguably lower risk",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 43,
+      "start": 285.2,
+      "end": 291.84,
+      "text": "paycheck and makes its building more valuable in the meantime. The second reason is that WeWork has",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077604,
+      "no_speech_prob": 0.063721
+    },
+    {
+      "index": 44,
+      "start": 291.84,
+      "end": 299.44,
+      "text": "an unfair advantage. Unlike the property owner, it can set prices unreasonably low, attracting far",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 45,
+      "start": 299.44,
+      "end": 306.24,
+      "text": "more customers. The secret is that WeWork is always on sale. You just don't know it. How can it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 46,
+      "start": 306.24,
+      "end": 312.24,
+      "text": "sell a service for less than what it costs? The answer is a little, actually remarkably not so",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 47,
+      "start": 312.24,
+      "end": 318.16,
+      "text": "little company, called SoftBank. You've never heard of it because it's a multinational holding",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.08088,
+      "no_speech_prob": 0.092651
+    },
+    {
+      "index": 48,
+      "start": 318.24,
+      "end": 324.32,
+      "text": "conglomerate. In English, a company that owns companies. A big pile of money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    },
+    {
+      "index": 49,
+      "start": 324.32,
+      "end": 332.24,
+      "text": "SoftBank's vision fund is nearly $100 billion, provided by Saudi Arabia, the United Arab Emirates,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    },
+    {
+      "index": 50,
+      "start": 332.24,
+      "end": 338.08,
+      "text": "and companies like Apple and Qualcomm. Best friends I hear. To put that in perspective,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.098264,
+      "no_speech_prob": 0.095337
+    },
+    {
+      "index": 54,
+      "start": 358.08,
+      "end": 364.88,
+      "text": "anything that remotely looks like one. Basically add big data or blockchain to your name and then",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085852,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 55,
+      "start": 364.88,
+      "end": 371.52,
+      "text": "buy a bigger wallet, because SoftBank wants all of it. Just a few weeks ago, it poured another",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085852,
+      "no_speech_prob": 0.027588
+    },
+    {
+      "index": 56,
+      "start": 371.6,
+      "end": 378.72,
+      "text": "$2 billion into WeWork. And if you think that's a lot, which it is, it was originally going to be",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 57,
+      "start": 378.72,
+      "end": 385.12,
+      "text": "$16 billion. So SoftBank, in a roundabout way, is paying for part of your office and hopes that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 58,
+      "start": 385.12,
+      "end": 392.4,
+      "text": "the company will grow and one day make a profit. Which is all too common. Enjoy those $1 scooters",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 59,
+      "start": 392.4,
+      "end": 399.2,
+      "text": "and cheap Uber rides because some venture capitalist somewhere is paying for them. It won't last forever.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077674,
+      "no_speech_prob": 0.106689
+    },
+    {
+      "index": 60,
+      "start": 399.2,
+      "end": 405.12,
+      "text": "Just ask anyone with MoviePass how that turned out. But hang on, why does SoftBank,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 61,
+      "start": 405.12,
+      "end": 410.88,
+      "text": "who likes tech companies like Uber and ByteDance, invest in WeWork, who leases real estate?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 62,
+      "start": 410.88,
+      "end": 416.8,
+      "text": "Well, that's the question. Is WeWork a tech company? Or does it just really want to be?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 63,
+      "start": 416.8,
+      "end": 422.8,
+      "text": "Because if it's just a middleman between property owners and renters, and Uber just a platform",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087146,
+      "no_speech_prob": 0.00629
+    },
+    {
+      "index": 64,
+      "start": 422.8,
+      "end": 429.68,
+      "text": "connecting drivers and riders, both of which use technology but suffer the economics of a non-tech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 65,
+      "start": 429.68,
+      "end": 435.84,
+      "text": "company, then they're a lot less exciting. If that's true, a lot of investors are spending",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 66,
+      "start": 435.84,
+      "end": 441.52,
+      "text": "a lot more than they should. And when they realize this, things are going to get ugly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 67,
+      "start": 441.52,
+      "end": 447.68,
+      "text": "Think about it this way. A tech company can potentially have 7 billion users instantly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055316,
+      "no_speech_prob": 0.136597
+    },
+    {
+      "index": 68,
+      "start": 447.76,
+      "end": 454.8,
+      "text": "A thousand downloads doesn't cost any more than one. Scale is nearly unlimited. And therefore,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 69,
+      "start": 454.8,
+      "end": 462.08,
+      "text": "so are valuations. WeWork, however, will always have to buy or lease more space as more people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 70,
+      "start": 462.08,
+      "end": 468.08,
+      "text": "join. It scales, but not in the same way. To put it in perspective, there's this other,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 71,
+      "start": 468.08,
+      "end": 475.52,
+      "text": "less exciting co-working company called Regis. This is its total square feet. And this is WeWorks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.086894,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 72,
+      "start": 475.52,
+      "end": 483.12,
+      "text": "Again, with a valuation of 47 billion. So what's Regis valued at? 4 billion. That's not with a zero.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 73,
+      "start": 484.96,
+      "end": 493.12,
+      "text": "Oh yeah, and fun fact, Regis actually makes a profit. I know, right? Who does that? So old-fashioned.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 74,
+      "start": 493.12,
+      "end": 499.84,
+      "text": "The question is, what makes WeWork worth that extra 43 billion? Why is it valued like a tech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.10026,
+      "no_speech_prob": 0.002253
+    },
+    {
+      "index": 75,
+      "start": 499.84,
+      "end": 505.92,
+      "text": "company? And Regis, based on, you know, how much money it can make. Now, it's tempting to stop",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 76,
+      "start": 505.92,
+      "end": 513.6,
+      "text": "here. To say WeWork is just a real estate company. And yes, it's overvalued. But that's not totally",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 77,
+      "start": 513.6,
+      "end": 519.6,
+      "text": "fair. There's a reason WeWork is so much more successful. And it's not just that SoftBank",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 78,
+      "start": 519.6,
+      "end": 525.6,
+      "text": "thinks its money is a hot potato. It's because WeWork has mastered the art of telling a story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076968,
+      "no_speech_prob": 0.060089
+    },
+    {
+      "index": 79,
+      "start": 525.6,
+      "end": 531.12,
+      "text": "Regis has nice professional photos and advertises with generic phrases like,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 80,
+      "start": 531.12,
+      "end": 537.92,
+      "text": "stay productive. But WeWork understands the millennial. Big art pieces, craft beer, and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 81,
+      "start": 537.92,
+      "end": 542.88,
+      "text": "so many mentions of the word community that I'm afraid to control if their website for fear of",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 82,
+      "start": 542.88,
+      "end": 548.56,
+      "text": "crashing my browser. Quote, WeWork is a state of consciousness, a generation of interconnected,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 83,
+      "start": 548.56,
+      "end": 554.96,
+      "text": "emotionally intelligent entrepreneurs. Roll your eyes all you want. And trust me, I have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101409,
+      "no_speech_prob": 0.010651
+    },
+    {
+      "index": 84,
+      "start": 554.96,
+      "end": 561.6,
+      "text": "But it works. And it does have useful data on where people work, when they're most productive,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 85,
+      "start": 561.6,
+      "end": 567.76,
+      "text": "and so on, which they can use to redesign and optimize buildings. That's valuable information.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 86,
+      "start": 567.76,
+      "end": 573.44,
+      "text": "It has to decide, for example, how many conference rooms to build based on how much they'll be used.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 87,
+      "start": 573.44,
+      "end": 578.48,
+      "text": "That's worth thousands of dollars a month. Because if it builds even one too many rooms,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 88,
+      "start": 578.48,
+      "end": 584.16,
+      "text": "it's wasting space that could have been a desk and made more money. So is it a real estate or",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046471,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 89,
+      "start": 584.24,
+      "end": 592.08,
+      "text": "tech company? Yes. But make no mistake, its core business fundamentally relies on property values.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 90,
+      "start": 592.08,
+      "end": 598.0,
+      "text": "That's true no matter how hard it tries to distract us. Hey, look over here, we're not just a",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 91,
+      "start": 598.0,
+      "end": 604.48,
+      "text": "real estate company. We're building a high-end gym in New York. We bought a wave pool company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 92,
+      "start": 604.48,
+      "end": 609.76,
+      "text": "Seriously though, why? And we're starting an elementary school. Which, by the way,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.111595,
+      "no_speech_prob": 0.013222
+    },
+    {
+      "index": 93,
+      "start": 609.76,
+      "end": 618.4,
+      "text": "costs up to $42,000 a year, a total of $388,000 from age 2 to 11. Although to be fair,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 94,
+      "start": 618.4,
+      "end": 624.56,
+      "text": "it's no ordinary school. Quote, a field of super elliptic objects forms a learning landscape",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 95,
+      "start": 624.56,
+      "end": 630.72,
+      "text": "that's dense and rational, yet free and fluid. Whatever that means, it's not enough to save",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 96,
+      "start": 630.72,
+      "end": 637.28,
+      "text": "the company from the fate of Regis, who after the dot-com crash filed for bankruptcy. To survive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095419,
+      "no_speech_prob": 0.173218
+    },
+    {
+      "index": 97,
+      "start": 637.28,
+      "end": 644.08,
+      "text": "its first recession, we work will have to change its strategy or significantly diversify its income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 98,
+      "start": 644.08,
+      "end": 649.68,
+      "text": "Economic downturns are inevitable. You have to protect yourself by spreading your eggs across",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 99,
+      "start": 649.68,
+      "end": 655.84,
+      "text": "multiple baskets. Likewise, it's only a matter of time before the next big hack. And when it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 100,
+      "start": 655.84,
+      "end": 661.68,
+      "text": "happens, you don't want to be the guy with the same or similar passwords across all your accounts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044944,
+      "no_speech_prob": 0.140259
+    },
+    {
+      "index": 101,
+      "start": 661.68,
+      "end": 667.2,
+      "text": "Dashlane can conveniently store and fill those passwords so you don't have to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 102,
+      "start": 667.2,
+      "end": 672.8,
+      "text": "And since you're not remembering them, you can make them ridiculously long and hard to guess.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 103,
+      "start": 672.8,
+      "end": 680.08,
+      "text": "There's even a built-in VPN. Whether you use Windows, Android, iOS, or Mac, you can easily",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 104,
+      "start": 680.08,
+      "end": 685.36,
+      "text": "download their app and start using it for free. If you're like me, you'll be glad you have it",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 105,
+      "start": 685.36,
+      "end": 691.36,
+      "text": "every time you log in or create an account or buy something online. You can sign up completely",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.056969,
+      "no_speech_prob": 0.098083
+    },
+    {
+      "index": 106,
+      "start": 691.36,
+      "end": 698.24,
+      "text": "free with a link in the description, and the first 200 people will also get 10% off premium.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.259928,
+      "no_speech_prob": 0.440918
+    }
+  ],
+  "context_text_chronological": "This video was sponsored by Dashlane, conveniently store your passwords and get 10% off for the first 200 people to use the link in the description. It's now 2019, and everything is getting old. Ellen DeGeneres is now 60. Comments on why I'm wrong about Florida's flag are getting ancient, not that I read those or anything. And millennials are now officially full-grown The youngest are graduating college and entering the job market. The oldest are well into their careers. And while some companies are busy complaining about millennials killing their business, others are realizing, hey, this generation might not be exactly the same as their parents and are adapting. Imagine that. Hence, lots of bright colors, artsy fonts, emojis, and manufactured authenticity. Probably not a great time to announce the new polymatter branding. One of the most successful of these companies is called WeWork. In case you're not a 20 to 35 year old who lives here and likes to work from a beanbag, no judgment, here's the idea. Instead of leasing an office for a whole year or trying to write a script about this hot new startup called WeWork in a Starbucks while the barista yells Karen for the seventh time in two minutes, you can rent a space in one of WeWork's 500 buildings in 97 cities. For somewhere between two and eight hundred dollars a month, you get a private office, a desk, or the opportunity of a desk. They provide the Wi-Fi, furniture, printers, and cleaning. It's got all the ingredients of a fun, exciting, young startup. Craft beer, pictures of people doing yoga, and chairs that don't look like chairs. It may not sound revolutionary, but it's perfectly timed with the rise of independent, remote, and freelance workers, who there are now 68 million of in the US alone. There's just one problem. Or a few billion, actually. WeWork is the fourth highest valued startup in the world, just behind Uber and its Chinese competitor. Many have called it massively overvalued, even the most overvalued. Meanwhile, it's starting a school called WeGrow, a gym called Rise by We, and renting apartments called WeLive, which all sounds a wee bit scattershot. So what's the deal? The answer is just as interesting as what it says about our whole economy. The way WeWork makes money, or tries to, is actually pretty simple. It is starting to buy a few of its own buildings, but for the most part, here's how it works. First, it finds big, centrally located buildings in young, densely populated areas, and signs a five, ten, even fifteen year lease. Which makes the landlord really happy, at least for now. And then, they turn around and sublease to you and I, on a monthly basis. Pretty simple, right? A little too simple, you might be thinking. If WeWork can make money appear out of thin air by splitting a big lease into a bunch of tiny ones, why doesn't the building just do that itself? Isn't WeWork just an inefficient middleman? Instead of paying one landlord, now we're essentially paying two. And that's true, nothing stops the owner of a building from creating its own shared offices. Some do. But it's not so simple, for two reasons. First, WeWork and the owner are really playing two very different games. At its core, WeWork is one giant 47 billion dollar bet that its real estate will increase in value. Because if you and I pay more every month for a desk, WeWork still pays the same ten, fifteen, whatever year lease, and they pocket the difference. On the other hand, if, can I say, when property values fall, they have to pay the difference. Now, each lease is under a different subsidiary, so if it can't afford to make payments, the company, as a whole, is somewhat protected. But if a bunch of them fail at the same time, like during a recession, it could be really, really bad. And remember that most of WeWork's customers are small startups and freelancers. You know, the business is most likely to fail during a recession. Oops. The owner, on the other hand, gets a consistent, arguably lower risk paycheck and makes its building more valuable in the meantime. The second reason is that WeWork has an unfair advantage. Unlike the property owner, it can set prices unreasonably low, attracting far more customers. The secret is that WeWork is always on sale. You just don't know it. How can it sell a service for less than what it costs? The answer is a little, actually remarkably not so little company, called SoftBank. You've never heard of it because it's a multinational holding conglomerate. In English, a company that owns companies. A big pile of money. SoftBank's vision fund is nearly $100 billion, provided by Saudi Arabia, the United Arab Emirates, and companies like Apple and Qualcomm. Best friends I hear. To put that in perspective, anything that remotely looks like one. Basically add big data or blockchain to your name and then buy a bigger wallet, because SoftBank wants all of it. Just a few weeks ago, it poured another $2 billion into WeWork. And if you think that's a lot, which it is, it was originally going to be $16 billion. So SoftBank, in a roundabout way, is paying for part of your office and hopes that the company will grow and one day make a profit. Which is all too common. Enjoy those $1 scooters and cheap Uber rides because some venture capitalist somewhere is paying for them. It won't last forever. Just ask anyone with MoviePass how that turned out. But hang on, why does SoftBank, who likes tech companies like Uber and ByteDance, invest in WeWork, who leases real estate? Well, that's the question. Is WeWork a tech company? Or does it just really want to be? Because if it's just a middleman between property owners and renters, and Uber just a platform connecting drivers and riders, both of which use technology but suffer the economics of a non-tech company, then they're a lot less exciting. If that's true, a lot of investors are spending a lot more than they should. And when they realize this, things are going to get ugly. Think about it this way. A tech company can potentially have 7 billion users instantly. A thousand downloads doesn't cost any more than one. Scale is nearly unlimited. And therefore, so are valuations. WeWork, however, will always have to buy or lease more space as more people join. It scales, but not in the same way. To put it in perspective, there's this other, less exciting co-working company called Regis. This is its total square feet. And this is WeWorks. Again, with a valuation of 47 billion. So what's Regis valued at? 4 billion. That's not with a zero. Oh yeah, and fun fact, Regis actually makes a profit. I know, right? Who does that? So old-fashioned. The question is, what makes WeWork worth that extra 43 billion? Why is it valued like a tech company? And Regis, based on, you know, how much money it can make. Now, it's tempting to stop here. To say WeWork is just a real estate company. And yes, it's overvalued. But that's not totally fair. There's a reason WeWork is so much more successful. And it's not just that SoftBank thinks its money is a hot potato. It's because WeWork has mastered the art of telling a story. Regis has nice professional photos and advertises with generic phrases like, stay productive. But WeWork understands the millennial. Big art pieces, craft beer, and so many mentions of the word community that I'm afraid to control if their website for fear of crashing my browser. Quote, WeWork is a state of consciousness, a generation of interconnected, emotionally intelligent entrepreneurs. Roll your eyes all you want. And trust me, I have. But it works. And it does have useful data on where people work, when they're most productive, and so on, which they can use to redesign and optimize buildings. That's valuable information. It has to decide, for example, how many conference rooms to build based on how much they'll be used. That's worth thousands of dollars a month. Because if it builds even one too many rooms, it's wasting space that could have been a desk and made more money. So is it a real estate or tech company? Yes. But make no mistake, its core business fundamentally relies on property values. That's true no matter how hard it tries to distract us. Hey, look over here, we're not just a real estate company. We're building a high-end gym in New York. We bought a wave pool company. Seriously though, why? And we're starting an elementary school. Which, by the way, costs up to $42,000 a year, a total of $388,000 from age 2 to 11. Although to be fair, it's no ordinary school. Quote, a field of super elliptic objects forms a learning landscape that's dense and rational, yet free and fluid. Whatever that means, it's not enough to save the company from the fate of Regis, who after the dot-com crash filed for bankruptcy. To survive its first recession, we work will have to change its strategy or significantly diversify its income. Economic downturns are inevitable. You have to protect yourself by spreading your eggs across multiple baskets. Likewise, it's only a matter of time before the next big hack. And when it happens, you don't want to be the guy with the same or similar passwords across all your accounts. Dashlane can conveniently store and fill those passwords so you don't have to. And since you're not remembering them, you can make them ridiculously long and hard to guess. There's even a built-in VPN. Whether you use Windows, Android, iOS, or Mac, you can easily download their app and start using it for free. If you're like me, you'll be glad you have it every time you log in or create an account or buy something online. You can sign up completely free with a link in the description, and the first 200 people will also get 10% off premium.",
+  "target_text_for_audit": "because frankly anything over like 6 zeros tends to look the same, these are the other biggest venture capital firms. The vision fund makes even Goldman Sachs look more bronze than gold. So what does it do with all that money? Mostly invest in tech companies. And when those run out,",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 4,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "put that in perspective because frankly anything over like 6 zeros tends to look the same, these are the other biggest venture capital firms.",
+        "start_source": 337.0,
+        "end_source": 345.54,
+        "matching_cue_ids": [
+          51,
+          52
+        ],
+        "text_similarity": 0.7143,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "The Vision Fund makes even Goldman Sachs look more bronze than gold.",
+        "start_source": 346.02,
+        "end_source": 350.96,
+        "matching_cue_ids": [
+          52
+        ],
+        "text_similarity": 0.859,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "So what does it do with all that money?",
+        "start_source": 351.5,
+        "end_source": 353.48,
+        "matching_cue_ids": [
+          53
+        ],
+        "text_similarity": 0.5802,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Mostly invest in tech companies.",
+        "start_source": 353.96,
+        "end_source": 355.98,
+        "matching_cue_ids": [
+          53
+        ],
+        "text_similarity": 0.5,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\DwAyUV6hTf8.mp4",
+    "cue_count": 107
+  },
+  "token_estimate_char_div_4": 2432
+}

@@ -1,0 +1,242 @@
+{
+ "clip_id": "area_7",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_7",
+  "family": "area",
+  "sub_type": "mirrored_age_distribution_panels",
+  "orientation": "horizontal",
+  "panel_count": 2,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1",
+   "U2"
+  ],
+  "row_count": 159,
+  "table_sha256": "110ac8616a9869db8914992f4cea93b9e79203daa2c1662ebaeac75382965d72"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Population in 1972 | Population"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "Population in 1972 | Population",
+      "panel": "Population in 1972",
+      "entity": "",
+      "series": "Population",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Population in 2019 | Population"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "Population in 2019 | Population",
+      "panel": "Population in 2019",
+      "entity": "",
+      "series": "Population",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Population in 1972 | Population | 1.000000",
+    "Population in 1972 | Population | 0.473684",
+    "Population in 1972 | Population | 0.263158",
+    "Population in 1972 | Population | 0.028708",
+    "Population in 2019 | Population | 1.000000",
+    "Population in 2019 | Population | 0.721739",
+    "Population in 2019 | Population | 0.043478"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Population in 1972 | Population | 1.000000",
+      "panel": "Population in 1972",
+      "entity": "",
+      "series": "Population",
+      "x": "1.000000",
+      "point_order": "1",
+      "value": "1.000000",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 1972 | Population | 0.473684",
+      "panel": "Population in 1972",
+      "entity": "",
+      "series": "Population",
+      "x": "0.473684",
+      "point_order": "20",
+      "value": "0.473684",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 1972 | Population | 0.263158",
+      "panel": "Population in 1972",
+      "entity": "",
+      "series": "Population",
+      "x": "0.263158",
+      "point_order": "41",
+      "value": "0.263158",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 1972 | Population | 0.028708",
+      "panel": "Population in 1972",
+      "entity": "",
+      "series": "Population",
+      "x": "0.028708",
+      "point_order": "75",
+      "value": "0.028708",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 2019 | Population | 1.000000",
+      "panel": "Population in 2019",
+      "entity": "",
+      "series": "Population",
+      "x": "1.000000",
+      "point_order": "1",
+      "value": "1.000000",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 2019 | Population | 1.000000",
+      "panel": "Population in 2019",
+      "entity": "",
+      "series": "Population",
+      "x": "1.000000",
+      "point_order": "20",
+      "value": "1.000000",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 2019 | Population | 0.721739",
+      "panel": "Population in 2019",
+      "entity": "",
+      "series": "Population",
+      "x": "0.721739",
+      "point_order": "41",
+      "value": "0.721739",
+      "unit": "years",
+      "role": "area"
+     },
+     {
+      "mark": "Population in 2019 | Population | 0.043478",
+      "panel": "Population in 2019",
+      "entity": "",
+      "series": "Population",
+      "x": "0.043478",
+      "point_order": "84",
+      "value": "0.043478",
+      "unit": "years",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The age distribution of the population differs between 1972 and 2019: in 1972 the relative population width is highest at the youngest ages and declines with age, while in 2019 the relative width remains near 1 through young adult ages and then declines at older ages.",
+    "computation": "none",
+    "encoding": "horizontal_profile_width_by_age",
+    "axis_condition": {
+     "x_axis": "Population (relative width)",
+     "y_axis": "Age (years)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Claims exact population counts or percentages without normalization.",
+    "Claims a specific crossover age or exact equality point not supported by the table.",
+    "Describes only one panel without comparing the two years."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

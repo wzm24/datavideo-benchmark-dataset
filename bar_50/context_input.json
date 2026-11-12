@@ -1,0 +1,1567 @@
+{
+  "clip_id": "bar_50",
+  "family": "bar",
+  "video_id": "kXCGbAv8YPw",
+  "source_url": "https://www.youtube.com/watch?v=kXCGbAv8YPw",
+  "source_title": "Who pays the lowest taxes in the US?",
+  "target_window_source": {
+    "start": 191.0,
+    "end": 196.0
+  },
+  "target_mask_interval": {
+    "start": 189.5,
+    "end": 197.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    46,
+    47,
+    48
+  ],
+  "masked_cue_ids": [
+    46,
+    47,
+    48,
+    49
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.55,
+      "end": 4.55,
+      "text": "These 10 people represent everyone in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 1,
+      "start": 4.55,
+      "end": 9.55,
+      "text": "This person on the left, she represents the poorest 10% of Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 2,
+      "start": 9.55,
+      "end": 12.55,
+      "text": "And on the right, he is the very richest 10%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 3,
+      "start": 12.55,
+      "end": 15.55,
+      "text": "So let's ask this group a simple question.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 4,
+      "start": 15.55,
+      "end": 18.55,
+      "text": "What percentage of your income gets taxed?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 5,
+      "start": 18.55,
+      "end": 21.55,
+      "text": "Most Americans pay multiple income taxes to the federal government",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 6,
+      "start": 21.55,
+      "end": 24.55,
+      "text": "and state governments and local governments.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 7,
+      "start": 24.55,
+      "end": 28.55,
+      "text": "But a recent analysis by two economists added up all the income taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 8,
+      "start": 28.55,
+      "end": 33.55,
+      "text": "And when you do that, the data shows that poor people pay a very small part of their income to the government.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 9,
+      "start": 33.55,
+      "end": 35.55,
+      "text": "And rich people pay more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 10,
+      "start": 35.55,
+      "end": 39.55,
+      "text": "This concept of taxing the poor at a lower rate and taxing the rich more,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 11,
+      "start": 39.55,
+      "end": 41.55,
+      "text": "this is called progressive taxation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 12,
+      "start": 41.55,
+      "end": 43.55,
+      "text": "It's how taxes work in most countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 13,
+      "start": 43.55,
+      "end": 48.55,
+      "text": "But it's also why some critics question whether these people are getting away without paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 14,
+      "start": 48.55,
+      "end": 53.55,
+      "text": "The middle class and the poor that pay, if anything, a lot less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 15,
+      "start": 53.55,
+      "end": 59.55,
+      "text": "What is it that 45% of the population of this country is not contributing back to the rest?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 16,
+      "start": 59.55,
+      "end": 62.55,
+      "text": "But now let's add one more guy to this group of 10.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 17,
+      "start": 62.55,
+      "end": 63.55,
+      "text": "This guy?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 18,
+      "start": 63.55,
+      "end": 67.55,
+      "text": "He represents the 400 richest Americans, billionaires.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 19,
+      "start": 67.55,
+      "end": 70.55,
+      "text": "Billionaires don't make most of their money through typical income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 20,
+      "start": 70.55,
+      "end": 74.55,
+      "text": "So their income actually gets taxed at lower rates than these less rich people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 21,
+      "start": 74.55,
+      "end": 78.55,
+      "text": "Now you might be thinking, don't billionaires pay taxes in other ways?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 22,
+      "start": 78.55,
+      "end": 79.55,
+      "text": "And the answer is yes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 23,
+      "start": 79.55,
+      "end": 83.55,
+      "text": "This is just the income tax, and there are lots of other kinds of taxes in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 24,
+      "start": 83.55,
+      "end": 88.55,
+      "text": "And this analysis, where this data came from, it looked at all those taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 25,
+      "start": 88.55,
+      "end": 95.55,
+      "text": "And it shows that when we add them all up, there actually is someone in this group who might not be paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 26,
+      "start": 95.55,
+      "end": 103.2,
+      "text": "Let's go back to our first chart with these 11 people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 27,
+      "start": 103.2,
+      "end": 105.2,
+      "text": "Remember, this is just the income tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 28,
+      "start": 105.2,
+      "end": 108.2,
+      "text": "What happens when we add in all the other taxes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 29,
+      "start": 108.2,
+      "end": 112.2,
+      "text": "Well, let's look at another kind of tax, corporate and property taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 30,
+      "start": 112.2,
+      "end": 117.2,
+      "text": "One of the taxes we pay on things we own, usually businesses and property, and the money we make on them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 31,
+      "start": 117.2,
+      "end": 123.2,
+      "text": "Usually rich people own more things, so these corporate and property taxes hit them the hardest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 32,
+      "start": 123.2,
+      "end": 130.2,
+      "text": "Rich people also tend to be from rich families, and when they inherit a lot of money, the government taxes them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 33,
+      "start": 130.2,
+      "end": 132.2,
+      "text": "This is called an estate tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 34,
+      "start": 132.2,
+      "end": 138.2,
+      "text": "Put these taxes together, and it's clear that they place a much heavier burden on the rich, including billionaires.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 35,
+      "start": 138.2,
+      "end": 144.2,
+      "text": "Add these back onto the income taxes, and it looks like the rich really do pay way more than the poor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 36,
+      "start": 144.2,
+      "end": 147.2,
+      "text": "But now let's talk about another tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 37,
+      "start": 147.2,
+      "end": 149.2,
+      "text": "This one's buried in your pay stub.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 38,
+      "start": 149.2,
+      "end": 153.2,
+      "text": "Look closely and you'll see something called a Medicare tax and a Social Security tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 39,
+      "start": 153.2,
+      "end": 155.2,
+      "text": "Sometimes paystubs call them FICA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 40,
+      "start": 155.2,
+      "end": 158.2,
+      "text": "Anyway, combined, these are called payroll taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 41,
+      "start": 158.2,
+      "end": 161.2,
+      "text": "Medicare and Social Security are two really important programs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 42,
+      "start": 161.2,
+      "end": 164.2,
+      "text": "They provide healthcare and a modest income for when we get old and retire.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 43,
+      "start": 164.2,
+      "end": 170.2,
+      "text": "But they're also expensive, which is why we have these payroll taxes separate from the income tax to pay for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    },
+    {
+      "index": 44,
+      "start": 170.2,
+      "end": 179.2,
+      "text": "So on your paycheck, you'll notice that your tax is 7.65% in payroll taxes, and your company is supposed to pay another 7.65% on your behalf.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    },
+    {
+      "index": 45,
+      "start": 179.2,
+      "end": 186.2,
+      "text": "But economists have found that in practice, the way companies pay their part of the payroll tax is by just paying workers less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    }
+  ],
+  "context_after": [
+    {
+      "index": 50,
+      "start": 204.2,
+      "end": 206.2,
+      "text": "It's capped.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 51,
+      "start": 206.2,
+      "end": 210.2,
+      "text": "That means the rich pay a really small portion of their income toward payroll taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 52,
+      "start": 210.2,
+      "end": 213.2,
+      "text": "And poor people in the middle class pay way more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 53,
+      "start": 213.2,
+      "end": 218.2,
+      "text": "Add payroll taxes onto this chart, and it starts to flatten out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 54,
+      "start": 218.2,
+      "end": 224.86,
+      "text": "The last type of taxes we're going to look at are the taxes we pay when we buy stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 55,
+      "start": 224.86,
+      "end": 226.86,
+      "text": "For example, let's say you're looking to buy a t-shirt.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 56,
+      "start": 226.86,
+      "end": 230.86,
+      "text": "When you check out, you pay a sales tax, which is a percentage of its cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 57,
+      "start": 230.86,
+      "end": 233.86,
+      "text": "And sales taxes apply to most things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 58,
+      "start": 233.86,
+      "end": 236.86,
+      "text": "Furniture, toilet paper, laundry detergent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 59,
+      "start": 236.86,
+      "end": 244.86,
+      "text": "For some items like beer and gasoline, there are additional taxes that get incorporated into the price tag before you even get to the store.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 60,
+      "start": 244.86,
+      "end": 246.86,
+      "text": "These are called consumption taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 61,
+      "start": 246.86,
+      "end": 250.86,
+      "text": "And we all pay the same rate on the things we buy, regardless of how rich we are.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 62,
+      "start": 250.86,
+      "end": 254.86,
+      "text": "Now, you might think that since rich people usually buy more things and more expensive things,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 63,
+      "start": 254.86,
+      "end": 258.86,
+      "text": "they pay a larger percentage of their income toward these taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 64,
+      "start": 258.86,
+      "end": 263.86,
+      "text": "But relative to how much money they have, the stuff they buy and the taxes they pay on that stuff,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 65,
+      "start": 263.86,
+      "end": 266.86,
+      "text": "take up a relatively small portion of their income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 66,
+      "start": 266.86,
+      "end": 271.86,
+      "text": "Meanwhile, everyone, even people with almost no money, needs to buy certain basic things to survive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 67,
+      "start": 271.86,
+      "end": 278.86,
+      "text": "And for poor people, those basic things and the taxes that come with them cost them almost everything they earn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 68,
+      "start": 278.86,
+      "end": 282.86,
+      "text": "So if we chart how much of their income each of these people pays in consumption taxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 69,
+      "start": 282.86,
+      "end": 286.86,
+      "text": "we can see that poor people pay a much larger portion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 70,
+      "start": 286.86,
+      "end": 294.36,
+      "text": "When we put these taxes together, suddenly we see a big change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 71,
+      "start": 294.36,
+      "end": 300.31,
+      "text": "The chart shows us that this line from before is a lie.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 72,
+      "start": 300.31,
+      "end": 304.31,
+      "text": "That America's tax system as a whole isn't very progressive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 73,
+      "start": 304.31,
+      "end": 306.31,
+      "text": "Instead, it's mostly flat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 74,
+      "start": 306.31,
+      "end": 311.31,
+      "text": "Poor people pay about the same portion of their income in taxes as rich people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 75,
+      "start": 311.31,
+      "end": 316.31,
+      "text": "And this guy, this billionaire, is paying a smaller portion than everyone else, even the poorest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 76,
+      "start": 316.31,
+      "end": 320.56,
+      "text": "If you just look at certain types of taxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 77,
+      "start": 320.56,
+      "end": 324.56,
+      "text": "it's natural to assume that rich people pay a bigger tax burden in the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 78,
+      "start": 324.56,
+      "end": 328.56,
+      "text": "and that poor people aren't exactly paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 79,
+      "start": 328.56,
+      "end": 331.56,
+      "text": "But a more complete look at the bigger picture challenges that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 80,
+      "start": 331.56,
+      "end": 335.56,
+      "text": "And it suggests that if we're looking for a group that isn't paying their fair share,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075462,
+      "no_speech_prob": 0.594727
+    },
+    {
+      "index": 81,
+      "start": 335.56,
+      "end": 338.56,
+      "text": "we might be looking on the wrong end.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075462,
+      "no_speech_prob": 0.594727
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.55,
+      "end": 4.55,
+      "text": "These 10 people represent everyone in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 1,
+      "start": 4.55,
+      "end": 9.55,
+      "text": "This person on the left, she represents the poorest 10% of Americans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 2,
+      "start": 9.55,
+      "end": 12.55,
+      "text": "And on the right, he is the very richest 10%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 3,
+      "start": 12.55,
+      "end": 15.55,
+      "text": "So let's ask this group a simple question.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 4,
+      "start": 15.55,
+      "end": 18.55,
+      "text": "What percentage of your income gets taxed?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 5,
+      "start": 18.55,
+      "end": 21.55,
+      "text": "Most Americans pay multiple income taxes to the federal government",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 6,
+      "start": 21.55,
+      "end": 24.55,
+      "text": "and state governments and local governments.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 7,
+      "start": 24.55,
+      "end": 28.55,
+      "text": "But a recent analysis by two economists added up all the income taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127124,
+      "no_speech_prob": 0.079041
+    },
+    {
+      "index": 8,
+      "start": 28.55,
+      "end": 33.55,
+      "text": "And when you do that, the data shows that poor people pay a very small part of their income to the government.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 9,
+      "start": 33.55,
+      "end": 35.55,
+      "text": "And rich people pay more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 10,
+      "start": 35.55,
+      "end": 39.55,
+      "text": "This concept of taxing the poor at a lower rate and taxing the rich more,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 11,
+      "start": 39.55,
+      "end": 41.55,
+      "text": "this is called progressive taxation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 12,
+      "start": 41.55,
+      "end": 43.55,
+      "text": "It's how taxes work in most countries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 13,
+      "start": 43.55,
+      "end": 48.55,
+      "text": "But it's also why some critics question whether these people are getting away without paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 14,
+      "start": 48.55,
+      "end": 53.55,
+      "text": "The middle class and the poor that pay, if anything, a lot less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045618,
+      "no_speech_prob": 0.006287
+    },
+    {
+      "index": 15,
+      "start": 53.55,
+      "end": 59.55,
+      "text": "What is it that 45% of the population of this country is not contributing back to the rest?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 16,
+      "start": 59.55,
+      "end": 62.55,
+      "text": "But now let's add one more guy to this group of 10.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 17,
+      "start": 62.55,
+      "end": 63.55,
+      "text": "This guy?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 18,
+      "start": 63.55,
+      "end": 67.55,
+      "text": "He represents the 400 richest Americans, billionaires.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 19,
+      "start": 67.55,
+      "end": 70.55,
+      "text": "Billionaires don't make most of their money through typical income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 20,
+      "start": 70.55,
+      "end": 74.55,
+      "text": "So their income actually gets taxed at lower rates than these less rich people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 21,
+      "start": 74.55,
+      "end": 78.55,
+      "text": "Now you might be thinking, don't billionaires pay taxes in other ways?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 22,
+      "start": 78.55,
+      "end": 79.55,
+      "text": "And the answer is yes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085804,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 23,
+      "start": 79.55,
+      "end": 83.55,
+      "text": "This is just the income tax, and there are lots of other kinds of taxes in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 24,
+      "start": 83.55,
+      "end": 88.55,
+      "text": "And this analysis, where this data came from, it looked at all those taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 25,
+      "start": 88.55,
+      "end": 95.55,
+      "text": "And it shows that when we add them all up, there actually is someone in this group who might not be paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 26,
+      "start": 95.55,
+      "end": 103.2,
+      "text": "Let's go back to our first chart with these 11 people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 27,
+      "start": 103.2,
+      "end": 105.2,
+      "text": "Remember, this is just the income tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 28,
+      "start": 105.2,
+      "end": 108.2,
+      "text": "What happens when we add in all the other taxes?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 29,
+      "start": 108.2,
+      "end": 112.2,
+      "text": "Well, let's look at another kind of tax, corporate and property taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048035,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 30,
+      "start": 112.2,
+      "end": 117.2,
+      "text": "One of the taxes we pay on things we own, usually businesses and property, and the money we make on them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 31,
+      "start": 117.2,
+      "end": 123.2,
+      "text": "Usually rich people own more things, so these corporate and property taxes hit them the hardest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 32,
+      "start": 123.2,
+      "end": 130.2,
+      "text": "Rich people also tend to be from rich families, and when they inherit a lot of money, the government taxes them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 33,
+      "start": 130.2,
+      "end": 132.2,
+      "text": "This is called an estate tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 34,
+      "start": 132.2,
+      "end": 138.2,
+      "text": "Put these taxes together, and it's clear that they place a much heavier burden on the rich, including billionaires.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07877,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 35,
+      "start": 138.2,
+      "end": 144.2,
+      "text": "Add these back onto the income taxes, and it looks like the rich really do pay way more than the poor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 36,
+      "start": 144.2,
+      "end": 147.2,
+      "text": "But now let's talk about another tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 37,
+      "start": 147.2,
+      "end": 149.2,
+      "text": "This one's buried in your pay stub.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 38,
+      "start": 149.2,
+      "end": 153.2,
+      "text": "Look closely and you'll see something called a Medicare tax and a Social Security tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 39,
+      "start": 153.2,
+      "end": 155.2,
+      "text": "Sometimes paystubs call them FICA.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 40,
+      "start": 155.2,
+      "end": 158.2,
+      "text": "Anyway, combined, these are called payroll taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 41,
+      "start": 158.2,
+      "end": 161.2,
+      "text": "Medicare and Social Security are two really important programs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 42,
+      "start": 161.2,
+      "end": 164.2,
+      "text": "They provide healthcare and a modest income for when we get old and retire.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069271,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 43,
+      "start": 164.2,
+      "end": 170.2,
+      "text": "But they're also expensive, which is why we have these payroll taxes separate from the income tax to pay for them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    },
+    {
+      "index": 44,
+      "start": 170.2,
+      "end": 179.2,
+      "text": "So on your paycheck, you'll notice that your tax is 7.65% in payroll taxes, and your company is supposed to pay another 7.65% on your behalf.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    },
+    {
+      "index": 45,
+      "start": 179.2,
+      "end": 186.2,
+      "text": "But economists have found that in practice, the way companies pay their part of the payroll tax is by just paying workers less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.063053,
+      "no_speech_prob": 0.136475
+    },
+    {
+      "index": 50,
+      "start": 204.2,
+      "end": 206.2,
+      "text": "It's capped.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 51,
+      "start": 206.2,
+      "end": 210.2,
+      "text": "That means the rich pay a really small portion of their income toward payroll taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 52,
+      "start": 210.2,
+      "end": 213.2,
+      "text": "And poor people in the middle class pay way more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 53,
+      "start": 213.2,
+      "end": 218.2,
+      "text": "Add payroll taxes onto this chart, and it starts to flatten out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.051813,
+      "no_speech_prob": 0.00255
+    },
+    {
+      "index": 54,
+      "start": 218.2,
+      "end": 224.86,
+      "text": "The last type of taxes we're going to look at are the taxes we pay when we buy stuff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 55,
+      "start": 224.86,
+      "end": 226.86,
+      "text": "For example, let's say you're looking to buy a t-shirt.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 56,
+      "start": 226.86,
+      "end": 230.86,
+      "text": "When you check out, you pay a sales tax, which is a percentage of its cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 57,
+      "start": 230.86,
+      "end": 233.86,
+      "text": "And sales taxes apply to most things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 58,
+      "start": 233.86,
+      "end": 236.86,
+      "text": "Furniture, toilet paper, laundry detergent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 59,
+      "start": 236.86,
+      "end": 244.86,
+      "text": "For some items like beer and gasoline, there are additional taxes that get incorporated into the price tag before you even get to the store.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048727,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 60,
+      "start": 244.86,
+      "end": 246.86,
+      "text": "These are called consumption taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 61,
+      "start": 246.86,
+      "end": 250.86,
+      "text": "And we all pay the same rate on the things we buy, regardless of how rich we are.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 62,
+      "start": 250.86,
+      "end": 254.86,
+      "text": "Now, you might think that since rich people usually buy more things and more expensive things,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 63,
+      "start": 254.86,
+      "end": 258.86,
+      "text": "they pay a larger percentage of their income toward these taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 64,
+      "start": 258.86,
+      "end": 263.86,
+      "text": "But relative to how much money they have, the stuff they buy and the taxes they pay on that stuff,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 65,
+      "start": 263.86,
+      "end": 266.86,
+      "text": "take up a relatively small portion of their income.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 66,
+      "start": 266.86,
+      "end": 271.86,
+      "text": "Meanwhile, everyone, even people with almost no money, needs to buy certain basic things to survive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.04174,
+      "no_speech_prob": 0.035126
+    },
+    {
+      "index": 67,
+      "start": 271.86,
+      "end": 278.86,
+      "text": "And for poor people, those basic things and the taxes that come with them cost them almost everything they earn.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 68,
+      "start": 278.86,
+      "end": 282.86,
+      "text": "So if we chart how much of their income each of these people pays in consumption taxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 69,
+      "start": 282.86,
+      "end": 286.86,
+      "text": "we can see that poor people pay a much larger portion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 70,
+      "start": 286.86,
+      "end": 294.36,
+      "text": "When we put these taxes together, suddenly we see a big change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 71,
+      "start": 294.36,
+      "end": 300.31,
+      "text": "The chart shows us that this line from before is a lie.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 72,
+      "start": 300.31,
+      "end": 304.31,
+      "text": "That America's tax system as a whole isn't very progressive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.032245,
+      "no_speech_prob": 0.00433
+    },
+    {
+      "index": 73,
+      "start": 304.31,
+      "end": 306.31,
+      "text": "Instead, it's mostly flat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 74,
+      "start": 306.31,
+      "end": 311.31,
+      "text": "Poor people pay about the same portion of their income in taxes as rich people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 75,
+      "start": 311.31,
+      "end": 316.31,
+      "text": "And this guy, this billionaire, is paying a smaller portion than everyone else, even the poorest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 76,
+      "start": 316.31,
+      "end": 320.56,
+      "text": "If you just look at certain types of taxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 77,
+      "start": 320.56,
+      "end": 324.56,
+      "text": "it's natural to assume that rich people pay a bigger tax burden in the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 78,
+      "start": 324.56,
+      "end": 328.56,
+      "text": "and that poor people aren't exactly paying their fair share.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 79,
+      "start": 328.56,
+      "end": 331.56,
+      "text": "But a more complete look at the bigger picture challenges that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.0501,
+      "no_speech_prob": 0.001133
+    },
+    {
+      "index": 80,
+      "start": 331.56,
+      "end": 335.56,
+      "text": "And it suggests that if we're looking for a group that isn't paying their fair share,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075462,
+      "no_speech_prob": 0.594727
+    },
+    {
+      "index": 81,
+      "start": 335.56,
+      "end": 338.56,
+      "text": "we might be looking on the wrong end.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075462,
+      "no_speech_prob": 0.594727
+    }
+  ],
+  "context_text_chronological": "These 10 people represent everyone in America. This person on the left, she represents the poorest 10% of Americans. And on the right, he is the very richest 10%. So let's ask this group a simple question. What percentage of your income gets taxed? Most Americans pay multiple income taxes to the federal government and state governments and local governments. But a recent analysis by two economists added up all the income taxes. And when you do that, the data shows that poor people pay a very small part of their income to the government. And rich people pay more. This concept of taxing the poor at a lower rate and taxing the rich more, this is called progressive taxation. It's how taxes work in most countries. But it's also why some critics question whether these people are getting away without paying their fair share. The middle class and the poor that pay, if anything, a lot less. What is it that 45% of the population of this country is not contributing back to the rest? But now let's add one more guy to this group of 10. This guy? He represents the 400 richest Americans, billionaires. Billionaires don't make most of their money through typical income. So their income actually gets taxed at lower rates than these less rich people. Now you might be thinking, don't billionaires pay taxes in other ways? And the answer is yes. This is just the income tax, and there are lots of other kinds of taxes in America. And this analysis, where this data came from, it looked at all those taxes. And it shows that when we add them all up, there actually is someone in this group who might not be paying their fair share. Let's go back to our first chart with these 11 people. Remember, this is just the income tax. What happens when we add in all the other taxes? Well, let's look at another kind of tax, corporate and property taxes. One of the taxes we pay on things we own, usually businesses and property, and the money we make on them. Usually rich people own more things, so these corporate and property taxes hit them the hardest. Rich people also tend to be from rich families, and when they inherit a lot of money, the government taxes them. This is called an estate tax. Put these taxes together, and it's clear that they place a much heavier burden on the rich, including billionaires. Add these back onto the income taxes, and it looks like the rich really do pay way more than the poor. But now let's talk about another tax. This one's buried in your pay stub. Look closely and you'll see something called a Medicare tax and a Social Security tax. Sometimes paystubs call them FICA. Anyway, combined, these are called payroll taxes. Medicare and Social Security are two really important programs. They provide healthcare and a modest income for when we get old and retire. But they're also expensive, which is why we have these payroll taxes separate from the income tax to pay for them. So on your paycheck, you'll notice that your tax is 7.65% in payroll taxes, and your company is supposed to pay another 7.65% on your behalf. But economists have found that in practice, the way companies pay their part of the payroll tax is by just paying workers less. It's capped. That means the rich pay a really small portion of their income toward payroll taxes. And poor people in the middle class pay way more. Add payroll taxes onto this chart, and it starts to flatten out. The last type of taxes we're going to look at are the taxes we pay when we buy stuff. For example, let's say you're looking to buy a t-shirt. When you check out, you pay a sales tax, which is a percentage of its cost. And sales taxes apply to most things. Furniture, toilet paper, laundry detergent. For some items like beer and gasoline, there are additional taxes that get incorporated into the price tag before you even get to the store. These are called consumption taxes. And we all pay the same rate on the things we buy, regardless of how rich we are. Now, you might think that since rich people usually buy more things and more expensive things, they pay a larger percentage of their income toward these taxes. But relative to how much money they have, the stuff they buy and the taxes they pay on that stuff, take up a relatively small portion of their income. Meanwhile, everyone, even people with almost no money, needs to buy certain basic things to survive. And for poor people, those basic things and the taxes that come with them cost them almost everything they earn. So if we chart how much of their income each of these people pays in consumption taxes, we can see that poor people pay a much larger portion. When we put these taxes together, suddenly we see a big change. The chart shows us that this line from before is a lie. That America's tax system as a whole isn't very progressive. Instead, it's mostly flat. Poor people pay about the same portion of their income in taxes as rich people. And this guy, this billionaire, is paying a smaller portion than everyone else, even the poorest. If you just look at certain types of taxes, it's natural to assume that rich people pay a bigger tax burden in the US and that poor people aren't exactly paying their fair share. But a more complete look at the bigger picture challenges that. And it suggests that if we're looking for a group that isn't paying their fair share, we might be looking on the wrong end.",
+  "target_text_for_audit": "So in reality, many workers pay nearly the full 15.3% toward this tax. And everyone is on the hook for the same percentage. But they're wealthy?",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "and everyone is on the hook for the same percentage.",
+        "start_source": 191.16,
+        "end_source": 193.58,
+        "matching_cue_ids": [
+          46,
+          47
+        ],
+        "text_similarity": 0.5965,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "But the wealthy?",
+        "start_source": 195.0,
+        "end_source": 195.86,
+        "matching_cue_ids": [
+          48
+        ],
+        "text_similarity": 0.8824,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\kXCGbAv8YPw.webm",
+    "cue_count": 82
+  },
+  "token_estimate_char_div_4": 1343
+}

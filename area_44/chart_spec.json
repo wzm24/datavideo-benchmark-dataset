@@ -1,7 +1,7 @@
 {
  "clip_id": "area_44",
  "family": "area",
- "sub_type": "simple_area",
+ "sub_type": "annual_area",
  "orientation": "cartesian",
  "series_count": 1,
  "has_reference_line": false,
@@ -10,12 +10,29 @@
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 21,
- "row_count": 461,
+ "row_count": 57,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "high",
  "needs_review": false,
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "x_sampling": "annual interpolation from confirmed SVG",
+ "x_anchors": [
+  1965,
+  1975,
+  1985,
+  1995,
+  2005,
+  2015,
+  2020,
+  2021
+ ],
+ "printed_endpoints": {
+  "1965": 19,
+  "2021-07-01": 421000
+ },
+ "dataset_uncertainty": "The SVG vertical axis implies roughly 434k at the line endpoint, while the printed endpoint is $421,000. Printed labels are authoritative; intermediate prices are shape estimates.",
+ "batch_status": "approved"
 }

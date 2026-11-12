@@ -1,0 +1,222 @@
+{
+ "clip_id": "donut_36",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Report McDonald's company-owned restaurant share and identify the labeled franchised category.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report McDonald's company-owned restaurant share as a percentage of the whole.",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Identify the labeled franchised category in the chart.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "company-owned restaurants",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "franchised restaurants",
+     "label": "FRANCHISED",
+     "role": "annotation",
+     "field": "label"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "Company-owned restaurants account for 15% of McDonald's restaurants.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "company-owned restaurants",
+     "metric": "share_of_restaurants",
+     "field": "relative_value",
+     "value": "0.15",
+     "table_value": "15",
+     "table_relative_value": "0.15",
+     "unit": "%",
+     "relative_value": "0.15",
+     "label": "",
+     "role": "gauge",
+     "source_type": "narration_calibrated",
+     "whole_scope": "share_of_restaurants"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "15%",
+    "0.15",
+    "15 percent"
+   ],
+   "reject": [
+    "85%",
+    "franchised share",
+    "absolute count"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "series_identity",
+   "claim": "The labeled category is 'FRANCHISED', identifying the franchised restaurants portion of the donut.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "franchised restaurants",
+     "metric": "share_of_restaurants",
+     "field": "label",
+     "value": "FRANCHISED",
+     "table_value": "",
+     "table_relative_value": "",
+     "unit": "%",
+     "relative_value": "",
+     "label": "FRANCHISED",
+     "role": "annotation",
+     "source_type": "printed",
+     "whole_scope": "share_of_restaurants"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "FRANCHISED",
+    "franchised restaurants label present"
+   ],
+   "reject": [
+    "company-owned label",
+    "unlabeled category",
+    "different label text"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Deriving the franchised complement as 85% is optional and not required by the intent."
+ ],
+ "unsupported_to_avoid": [
+  "Reporting an absolute restaurant count",
+  "Adding company-owned and franchised shares together",
+  "Treating the franchised label as a numeric share"
+ ],
+ "review_notes": [
+  "The intent asks for the company-owned share and identification of the labeled franchised category; the franchised complement is not required.",
+  "Row r2 is label-only and supports identity presence, not a numeric share."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "company-owned restaurants",
+    "metric": "share_of_restaurants",
+    "value": "15",
+    "unit": "%",
+    "relative_value": "0.15",
+    "label": "",
+    "role": "gauge",
+    "source_type": "narration_calibrated",
+    "whole_scope": "share_of_restaurants"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "franchised restaurants",
+    "metric": "share_of_restaurants",
+    "value": "",
+    "unit": "%",
+    "relative_value": "",
+    "label": "FRANCHISED",
+    "role": "annotation",
+    "source_type": "printed",
+    "whole_scope": "share_of_restaurants"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

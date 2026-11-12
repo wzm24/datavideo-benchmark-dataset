@@ -1,0 +1,237 @@
+{
+ "clip_id": "area_2",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_2",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 6,
+  "table_sha256": "50cebca7cbf847ff31b50869d86fb34be91ca706df648f244c50d023a90485fe"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "contraceptive use"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "contraceptive use",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "contraceptive use | 1990",
+    "contraceptive use | 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "contraceptive use | 1990",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "1990",
+      "point_order": "1",
+      "value": "16",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | 2014",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "2014",
+      "point_order": "6",
+      "value": "30",
+      "unit": "percent",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Contraceptive use among women of reproductive age increased from 16% in 1990 to 30% in 2014.",
+    "computation": "30 - 16 = 14 percentage points",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Contraceptive use (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "starts at any value other than 16%",
+    "ends at any value other than 30%",
+    "claims a decrease"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "contraceptive use | 1990",
+    "contraceptive use | #2",
+    "contraceptive use | 2000",
+    "contraceptive use | #4",
+    "contraceptive use | #5",
+    "contraceptive use | 2014"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "contraceptive use | 1990",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "1990",
+      "point_order": "1",
+      "value": "16",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | #2",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "",
+      "point_order": "2",
+      "value": "19",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | 2000",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "2000",
+      "point_order": "3",
+      "value": "22",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | #4",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "",
+      "point_order": "4",
+      "value": "23.5",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | #5",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "",
+      "point_order": "5",
+      "value": "27.5",
+      "unit": "percent",
+      "role": "area"
+     },
+     {
+      "mark": "contraceptive use | 2014",
+      "panel": "",
+      "entity": "contraceptive use",
+      "series": "",
+      "x": "2014",
+      "point_order": "6",
+      "value": "30",
+      "unit": "percent",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Contraceptive use rose steadily across the period, with each successive sampled point higher than the previous one.",
+    "computation": "monotonic increase: 16 < 19 < 22 < 23.5 < 27.5 < 30",
+    "encoding": "filled_area_boundary_height",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Contraceptive use (%)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "any decline between consecutive sampled points",
+    "flat or decreasing overall trend"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

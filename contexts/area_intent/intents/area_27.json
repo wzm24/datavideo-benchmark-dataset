@@ -1,0 +1,114 @@
+{
+ "clip": "area_27",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the income distribution density peaks to the right of the average reference line, with a visible '<10%' label near the lower tail.",
+ "proposed_intent": "Trace the income distribution density across the relative income range and report its shape relative to the average reference.",
+ "writer": {
+  "intent": "Trace the income distribution density across the relative income range and report its shape relative to the average reference.",
+  "entities": [
+   "Income distribution",
+   "Average"
+  ],
+  "measure": "Income distribution density (relative)",
+  "scope": "Relative income from 0 to 1, single panel",
+  "comparison": "Income distribution density versus the Average reference line",
+  "withheld_answer": "Whether the density peak lies to the right of the average and the presence of a '<10%' label near the lower tail"
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 19,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [
+  {
+   "attempt": 1,
+   "rejected_intent": "Compare where the income-distribution density is concentrated relative to the average and identify the labeled lower-income segment.",
+   "audit": {
+    "protocol_compliant": false,
+    "answer_leak": true,
+    "leaked_phrases": [
+     "where the income-distribution density is concentrated relative to the average"
+    ],
+    "scope_complete": false,
+    "scope_issues": [
+     "Intent asks to compare concentration relative to average, implying a direction/ranking comparison not permitted",
+     "Intent references a labeled lower-income segment, which is a complement/positional hint"
+    ],
+    "supported_by_inputs": true,
+    "natural_request": true,
+    "issues": [
+     "Not one imperative sentence starting with an action verb",
+     "Exceeds 32 words",
+     "Contains comparison/direction leakage",
+     "References label '<10%' indirectly"
+    ]
+   },
+   "mechanical": {
+    "word_count": 17,
+    "sentence_count": 1,
+    "starts_with_action_verb": true,
+    "non_year_numbers": [],
+    "allowed_name_numbers": [],
+    "answer_pattern_matches": [],
+    "mentions_chart_style": false
+   }
+  }
+ ],
+ "repair_attempts": 1,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {},
+  {
+   "prompt_tokens": 5252,
+   "completion_tokens": 138,
+   "total_tokens": 5390,
+   "prompt_tokens_details": {
+    "cached_tokens": 4992
+   },
+   "prompt_cache_hit_tokens": 4992,
+   "prompt_cache_miss_tokens": 260
+  },
+  {
+   "prompt_tokens": 5586,
+   "completion_tokens": 115,
+   "total_tokens": 5701,
+   "prompt_tokens_details": {
+    "cached_tokens": 5248
+   },
+   "prompt_cache_hit_tokens": 5248,
+   "prompt_cache_miss_tokens": 338
+  },
+  {
+   "prompt_tokens": 5251,
+   "completion_tokens": 56,
+   "total_tokens": 5307,
+   "prompt_tokens_details": {
+    "cached_tokens": 4992
+   },
+   "prompt_cache_hit_tokens": 4992,
+   "prompt_cache_miss_tokens": 259
+  }
+ ],
+ "sec": 3.2
+}

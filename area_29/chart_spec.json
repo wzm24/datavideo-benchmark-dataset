@@ -1,7 +1,7 @@
 {
  "clip_id": "area_29",
  "family": "area",
- "sub_type": "pictograph_blocks",
+ "sub_type": "proportional_square_area",
  "orientation": "cartesian",
  "series_count": 1,
  "has_reference_line": false,
@@ -10,7 +10,7 @@
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 3,
- "row_count": 4,
+ "row_count": 2,
  "derived_from": [
   "manual_review",
   "semantic.svg"
@@ -18,5 +18,9 @@
  "confidence": "high",
  "needs_review": false,
  "note": "two solid blocks, perceived risk",
- "time_behavior": "snapshot"
+ "time_behavior": "snapshot",
+ "special_area_type": true,
+ "chart_encoding": "area",
+ "entity_count": 2,
+ "batch_status": "approved"
 }

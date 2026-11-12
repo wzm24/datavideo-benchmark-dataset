@@ -1,0 +1,792 @@
+{
+  "video_id": "ENw2y0ek1Jg",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\ENw2y0ek1Jg.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 387.704,
+  "duration_after_vad_seconds": 372.912,
+  "cue_count": 86,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Every time there's another mass shooting in America, politicians have the same idea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 1,
+      "start": 6.0,
+      "end": 10.0,
+      "text": "It's time to require a background check for anyone who wants to buy a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 2,
+      "start": 10.0,
+      "end": 13.0,
+      "text": "I'm one of the Republicans who does believe there should be background checks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 3,
+      "start": 13.0,
+      "end": 17.0,
+      "text": "It is an open secret that the existing background check system is broken.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 4,
+      "start": 17.0,
+      "end": 21.0,
+      "text": "Well, I have an appetite for background checks. We're going to be doing background checks.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 5,
+      "start": 21.0,
+      "end": 23.0,
+      "text": "Here's what they want to change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 6,
+      "start": 23.0,
+      "end": 28.0,
+      "text": "Right now, gun buyers in the U.S. only have to go through a background check at a gun store.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.107316,
+      "no_speech_prob": 0.048828
+    },
+    {
+      "index": 7,
+      "start": 28.0,
+      "end": 32.0,
+      "text": "But they don't have to go through one if they buy a gun from an unlicensed dealer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 8,
+      "start": 32.0,
+      "end": 34.0,
+      "text": "like at a gun show or a private sale.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 9,
+      "start": 34.0,
+      "end": 39.0,
+      "text": "But with universal background checks, everyone who buys a gun would have to go through one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 10,
+      "start": 39.0,
+      "end": 44.0,
+      "text": "Pretty much every American is in favor of this. There's only one problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 11,
+      "start": 44.0,
+      "end": 50.0,
+      "text": "Universal background checks won't solve America's gun crisis, but there's something else that might.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 12,
+      "start": 50.0,
+      "end": 57.0,
+      "text": "To understand how background checks work, it helps to imagine two very different people who both want to buy a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041387,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 13,
+      "start": 57.0,
+      "end": 62.0,
+      "text": "The first person is dangerous. Maybe he has a history of domestic violence or mental illness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 14,
+      "start": 62.0,
+      "end": 65.0,
+      "text": "And most importantly, he has a record.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 15,
+      "start": 65.0,
+      "end": 67.0,
+      "text": "And the second one is not dangerous.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 16,
+      "start": 67.0,
+      "end": 72.0,
+      "text": "He just wants a gun for protection or to go hunting or because shooting guns is kind of fun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 17,
+      "start": 72.0,
+      "end": 78.0,
+      "text": "Before either one can buy a gun, they first have to go through an FBI instant background check.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 18,
+      "start": 78.0,
+      "end": 84.0,
+      "text": "And I mean instant. It only takes an average of 108 seconds to get a response from the FBI's database.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055629,
+      "no_speech_prob": 0.002472
+    },
+    {
+      "index": 19,
+      "start": 84.0,
+      "end": 88.0,
+      "text": "That database is made up of records sent in by state police and other agencies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 20,
+      "start": 88.0,
+      "end": 93.0,
+      "text": "And it's checked to see if the buyer has things like a criminal record, addiction, a restraining order,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 21,
+      "start": 93.0,
+      "end": 95.0,
+      "text": "or has been hospitalized for a mental illness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 22,
+      "start": 95.0,
+      "end": 101.0,
+      "text": "Under a universal background check system, anyone buying a gun, whether in a gun store or through a private sale,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 23,
+      "start": 101.0,
+      "end": 103.0,
+      "text": "would have to be checked through that database.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 24,
+      "start": 103.0,
+      "end": 106.0,
+      "text": "That means our second person walks out with a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 25,
+      "start": 106.0,
+      "end": 109.0,
+      "text": "And our first person with a criminal record doesn't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 26,
+      "start": 109.0,
+      "end": 111.0,
+      "text": "Or at least he shouldn't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 27,
+      "start": 111.0,
+      "end": 113.0,
+      "text": "I've done a lot of reporting on this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.043812,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 28,
+      "start": 113.0,
+      "end": 118.0,
+      "text": "We have just seen time and time again that background checks do not stop people who we don't want having guns",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 29,
+      "start": 118.0,
+      "end": 120.0,
+      "text": "from actually getting the weapons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 30,
+      "start": 120.0,
+      "end": 123.0,
+      "text": "There are a couple problems with the background check system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 31,
+      "start": 123.0,
+      "end": 127.0,
+      "text": "One is that the FBI database is about as outdated as its logo.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 32,
+      "start": 127.0,
+      "end": 129.0,
+      "text": "It's missing millions of records.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 33,
+      "start": 129.0,
+      "end": 134.0,
+      "text": "That's why the Charleston church shooter was able to buy a gun, despite having a record.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 34,
+      "start": 134.0,
+      "end": 139.0,
+      "text": "Or why the man who killed 26 Texan churchgoers was also able to pass a background check",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.028337,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 35,
+      "start": 139.0,
+      "end": 143.0,
+      "text": "after the Air Force failed to send his domestic abuse convictions to the FBI.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 36,
+      "start": 143.0,
+      "end": 149.0,
+      "text": "So even with a background check for every type of sale, there's still a chance this guy gets a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 37,
+      "start": 149.0,
+      "end": 155.0,
+      "text": "That's partly why study after study has found that while background checks prevent or make substantially more difficult",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 38,
+      "start": 155.0,
+      "end": 157.0,
+      "text": "the criminal acquisition of firearms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 39,
+      "start": 157.0,
+      "end": 162.0,
+      "text": "Making them universal doesn't have any effect on the actual gun crisis in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 40,
+      "start": 162.0,
+      "end": 163.0,
+      "text": "Gun deaths.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049886,
+      "no_speech_prob": 0.006096
+    },
+    {
+      "index": 41,
+      "start": 163.0,
+      "end": 169.0,
+      "text": "A Johns Hopkins study of California where comprehensive background checks were implemented in 1991",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 42,
+      "start": 169.0,
+      "end": 174.0,
+      "text": "found that the law was not associated with changes in firearm suicide or homicide",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 43,
+      "start": 174.0,
+      "end": 177.0,
+      "text": "thanks in part to those incomplete and missing records.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 44,
+      "start": 177.0,
+      "end": 183.0,
+      "text": "The other problem with background checks is that they only look at good people and already bad people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 45,
+      "start": 183.0,
+      "end": 185.0,
+      "text": "But there is an in-between.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 46,
+      "start": 185.0,
+      "end": 190.0,
+      "text": "The background checks are supposed to catch people who have a record already.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.041457,
+      "no_speech_prob": 0.001285
+    },
+    {
+      "index": 47,
+      "start": 190.0,
+      "end": 197.0,
+      "text": "It just misses all the people who haven't done anything bad yet but might do something bad in the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057769,
+      "no_speech_prob": 9.3e-05
+    },
+    {
+      "index": 48,
+      "start": 197.0,
+      "end": 201.0,
+      "text": "Herman is not advocating for a minority report situation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057769,
+      "no_speech_prob": 9.3e-05
+    },
+    {
+      "index": 49,
+      "start": 201.0,
+      "end": 206.0,
+      "text": "He's talking about someone like this guy who's also dangerous but who doesn't have a record.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057769,
+      "no_speech_prob": 9.3e-05
+    },
+    {
+      "index": 50,
+      "start": 206.0,
+      "end": 212.0,
+      "text": "Under a universal background check system, he could get a gun in 108 seconds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057769,
+      "no_speech_prob": 9.3e-05
+    },
+    {
+      "index": 51,
+      "start": 212.0,
+      "end": 215.0,
+      "text": "But there's another system that could prevent this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057769,
+      "no_speech_prob": 9.3e-05
+    },
+    {
+      "index": 52,
+      "start": 215.0,
+      "end": 220.0,
+      "text": "12 states in DC have gone one step further and established a licensing system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 53,
+      "start": 220.0,
+      "end": 221.0,
+      "text": "How's it different?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 54,
+      "start": 221.0,
+      "end": 223.0,
+      "text": "Well, here's how it works in Massachusetts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 55,
+      "start": 223.0,
+      "end": 228.0,
+      "text": "Before you ever go to a gun store, you first have to take a firearm safety course.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 56,
+      "start": 228.0,
+      "end": 232.0,
+      "text": "Then you have to go to the police department and submit an application,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 57,
+      "start": 232.0,
+      "end": 235.0,
+      "text": "give references and give your fingerprints for a background check.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 58,
+      "start": 235.0,
+      "end": 240.0,
+      "text": "Then not only is the FBI database checked but all local law enforcement agencies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058631,
+      "no_speech_prob": 0.014503
+    },
+    {
+      "index": 59,
+      "start": 240.0,
+      "end": 245.0,
+      "text": "wherever you've lived are directly contacted along with the Department of Mental Health.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 60,
+      "start": 245.0,
+      "end": 249.0,
+      "text": "That entire process in Massachusetts usually takes about three weeks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 61,
+      "start": 249.0,
+      "end": 253.0,
+      "text": "and most people about 97% pass.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 62,
+      "start": 253.0,
+      "end": 261.0,
+      "text": "Nothing about a licensing system will prevent a law-abiding citizen from going through the process and obtaining a firearm.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 63,
+      "start": 261.0,
+      "end": 263.0,
+      "text": "That's Dr. Cassandra Carfasi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 64,
+      "start": 263.0,
+      "end": 268.0,
+      "text": "She researches health policy at Johns Hopkins and she's one of the authors from the studies earlier.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085859,
+      "no_speech_prob": 0.023682
+    },
+    {
+      "index": 65,
+      "start": 268.0,
+      "end": 274.0,
+      "text": "She says the reason licensing works is that it's designed to do both of the big things background checks fail at.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045149,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 66,
+      "start": 274.0,
+      "end": 279.0,
+      "text": "A, to properly identify and screen out people who shouldn't have guns",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045149,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 67,
+      "start": 279.0,
+      "end": 285.0,
+      "text": "and B, create a system to reduce impulsive gun purchases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045149,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 68,
+      "start": 285.0,
+      "end": 290.0,
+      "text": "The licensing system is more comprehensive than the one database background check system,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045149,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 69,
+      "start": 290.0,
+      "end": 293.0,
+      "text": "so our criminal will be reliably denied a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045149,
+      "no_speech_prob": 0.000269
+    },
+    {
+      "index": 70,
+      "start": 293.0,
+      "end": 299.0,
+      "text": "But because it's so meticulous, it also stands a chance of keeping our third guy without a record from getting a gun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062934,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 71,
+      "start": 299.0,
+      "end": 305.0,
+      "text": "There are people who may want to impulsively acquire a firearm, for example, to harm themselves or others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062934,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 72,
+      "start": 305.0,
+      "end": 313.0,
+      "text": "And the process of obtaining a license can at least delay that person during that time of crisis",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062934,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 73,
+      "start": 313.0,
+      "end": 317.0,
+      "text": "or maybe deter them from getting that firearm at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062934,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 74,
+      "start": 317.0,
+      "end": 321.0,
+      "text": "In 1995, Connecticut implemented a licensing system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062934,
+      "no_speech_prob": 0.000149
+    },
+    {
+      "index": 75,
+      "start": 321.0,
+      "end": 326.0,
+      "text": "Over the next 10 years, they saw a drop in gun homicides and gun suicides.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 76,
+      "start": 326.0,
+      "end": 332.0,
+      "text": "Compare that to Missouri, which once had a licensing system but got rid of it in 2007.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 77,
+      "start": 332.0,
+      "end": 337.0,
+      "text": "Over the next decade, they had a huge spike in gun homicides and gun suicides.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 78,
+      "start": 337.0,
+      "end": 343.0,
+      "text": "In both states, there were lots of factors involved, but researchers say this shows that licensing works.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 79,
+      "start": 343.0,
+      "end": 345.0,
+      "text": "It's also pretty popular.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 80,
+      "start": 345.0,
+      "end": 350.0,
+      "text": "Among voters who live in a house with a gun, more than two-thirds think that it's a good idea.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046488,
+      "no_speech_prob": 0.007343
+    },
+    {
+      "index": 81,
+      "start": 350.0,
+      "end": 353.0,
+      "text": "Ask all Americans and more than three-quarters support it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062119,
+      "no_speech_prob": 0.004539
+    },
+    {
+      "index": 82,
+      "start": 353.0,
+      "end": 358.0,
+      "text": "Background checks are supposed to stop bad people from getting guns, but they often don't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062119,
+      "no_speech_prob": 0.004539
+    },
+    {
+      "index": 83,
+      "start": 358.0,
+      "end": 361.0,
+      "text": "Licensing picks up that slack.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062119,
+      "no_speech_prob": 0.004539
+    },
+    {
+      "index": 84,
+      "start": 361.0,
+      "end": 366.0,
+      "text": "By making sure that people are crossing these hurdles,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062119,
+      "no_speech_prob": 0.004539
+    },
+    {
+      "index": 85,
+      "start": 366.0,
+      "end": 373.0,
+      "text": "we just make sure in a much better, stronger way that people are not getting firearms when they shouldn't have them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062119,
+      "no_speech_prob": 0.004539
+    }
+  ],
+  "created_at": "2026-11-12T19:13:05+0800"
+}

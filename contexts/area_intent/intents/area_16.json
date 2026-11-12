@@ -1,0 +1,165 @@
+{
+ "clip": "area_16",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that child mortality in Ethiopia fell steadily from 20% in 1990 to 7% in 2019.",
+ "proposed_intent": "Trace the child mortality percentage in Ethiopia from 1990 to 2019 to determine the overall trend.",
+ "writer": {
+  "intent": "Trace the child mortality percentage in Ethiopia from 1990 to 2019 to determine the overall trend.",
+  "entities": [
+   "Ethiopia",
+   "child mortality"
+  ],
+  "measure": "child mortality percentage",
+  "scope": "Ethiopia, 1990 to 2019",
+  "comparison": "overall trend across the time window",
+  "withheld_answer": "steady decline from 20% to 7%"
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 16,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [
+  {
+   "attempt": 1,
+   "rejected_intent": "Trace the child mortality percentage in Ethiopia from 1990 to 2019 to determine the overall trend.",
+   "audit": {
+    "protocol_compliant": true,
+    "answer_leak": false,
+    "leaked_phrases": [],
+    "scope_complete": false,
+    "scope_issues": [
+     "Missing Ethiopia as entity/population in proposed intent; hidden goal specifies Ethiopia but proposed intent omits it."
+    ],
+    "supported_by_inputs": false,
+    "natural_request": true,
+    "issues": [
+     "Proposed intent does not mention Ethiopia, which is required to match hidden goal's entity/population.",
+     "The chart specification and data table do not include Ethiopia as an entity; only 'child mortality' is listed, so the intent is not fully supported by inputs."
+    ]
+   },
+   "mechanical": {
+    "word_count": 16,
+    "sentence_count": 1,
+    "starts_with_action_verb": true,
+    "non_year_numbers": [],
+    "allowed_name_numbers": [],
+    "answer_pattern_matches": [],
+    "mentions_chart_style": false
+   }
+  },
+  {
+   "attempt": 2,
+   "rejected_intent": "Trace the child mortality percentage from 1990 to 2019 to determine the overall trend.",
+   "audit": {
+    "protocol_compliant": true,
+    "answer_leak": false,
+    "leaked_phrases": [],
+    "scope_complete": false,
+    "scope_issues": [
+     "Missing entity 'Ethiopia' from hidden goal; proposed intent does not specify the population/country."
+    ],
+    "supported_by_inputs": true,
+    "natural_request": true,
+    "issues": [
+     "The hidden goal specifies child mortality in Ethiopia, but the proposed intent omits Ethiopia, so the entity/population scope is incomplete."
+    ]
+   },
+   "mechanical": {
+    "word_count": 14,
+    "sentence_count": 1,
+    "starts_with_action_verb": true,
+    "non_year_numbers": [],
+    "allowed_name_numbers": [],
+    "answer_pattern_matches": [],
+    "mentions_chart_style": false
+   }
+  }
+ ],
+ "repair_attempts": 2,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 3798,
+   "completion_tokens": 98,
+   "total_tokens": 3896,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 3670
+  },
+  {
+   "prompt_tokens": 3731,
+   "completion_tokens": 134,
+   "total_tokens": 3865,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 3731
+  },
+  {
+   "prompt_tokens": 4053,
+   "completion_tokens": 88,
+   "total_tokens": 4141,
+   "prompt_tokens_details": {
+    "cached_tokens": 3712
+   },
+   "prompt_cache_hit_tokens": 3712,
+   "prompt_cache_miss_tokens": 341
+  },
+  {
+   "prompt_tokens": 3729,
+   "completion_tokens": 115,
+   "total_tokens": 3844,
+   "prompt_tokens_details": {
+    "cached_tokens": 3456
+   },
+   "prompt_cache_hit_tokens": 3456,
+   "prompt_cache_miss_tokens": 273
+  },
+  {
+   "prompt_tokens": 4023,
+   "completion_tokens": 100,
+   "total_tokens": 4123,
+   "prompt_tokens_details": {
+    "cached_tokens": 3712
+   },
+   "prompt_cache_hit_tokens": 3712,
+   "prompt_cache_miss_tokens": 311
+  },
+  {
+   "prompt_tokens": 3731,
+   "completion_tokens": 56,
+   "total_tokens": 3787,
+   "prompt_tokens_details": {
+    "cached_tokens": 3584
+   },
+   "prompt_cache_hit_tokens": 3584,
+   "prompt_cache_miss_tokens": 147
+  }
+ ],
+ "sec": 7.1
+}

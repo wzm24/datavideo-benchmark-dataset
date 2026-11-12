@@ -1,192 +1,156 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_15",
  "family": "pie",
  "data_source": "data_table.csv",
  "data_table_sha256": "3d328f0ee3f3133a1a07fdd3e313b195f2cde61cc13df599c4ec233c3d52b2e4",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "043517f9fcaf2478d9640002db964c6a74314aef54db4329aaf61d0ec247d380",
  "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_ghg_emissions"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Carbon dioxide",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 76.0,
-   "last_value": 76.0,
-   "min_value": 76.0,
-   "max_value": 76.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "76",
+   "unit": "%",
+   "relative_value": "0.76",
+   "label": "76%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r2",
    "panel": "",
+   "series": "",
    "entity": "Methane",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 16.0,
-   "last_value": 16.0,
-   "min_value": 16.0,
-   "max_value": 16.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "16",
+   "unit": "%",
+   "relative_value": "0.16",
+   "label": "16%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r3",
    "panel": "",
+   "series": "",
    "entity": "Nitrous oxide",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 6.0,
-   "last_value": 6.0,
-   "min_value": 6.0,
-   "max_value": 6.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_ghg_emissions",
+   "value": "6",
+   "unit": "%",
+   "relative_value": "0.06",
+   "label": "6%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_ghg_emissions"
   },
   {
+   "row_id": "r4",
    "panel": "",
-   "entity": "Other",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 2.0,
-   "last_value": 2.0,
-   "min_value": 2.0,
-   "max_value": 2.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_ghg_emissions"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "entity": "Other",
+   "metric": "share_of_ghg_emissions",
+   "value": "2",
+   "unit": "%",
+   "relative_value": "0.02",
+   "label": "2%",
+   "role": "remainder",
+   "source_type": "printed",
+   "whole_scope": "share_of_ghg_emissions"
   }
  ],
- "source_type_counts": {
-  "printed": 4
- },
- "role_counts": {
-  "remainder": 1,
-  "slice": 3
- },
- "estimated_or_projected_roles": [],
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_ghg_emissions",
+   "row_ids": [
+    "r1",
+    "r2",
+    "r3",
+    "r4"
+   ],
+   "entities": [
+    "Carbon dioxide",
+    "Methane",
+    "Nitrous oxide",
+    "Other"
+   ],
+   "relative_value_sum": 1.0
+  }
+ ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Carbon dioxide",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "76",
+    "unit": "%",
+    "relative_value": "0.76",
+    "label": "76%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r2",
     "panel": "",
+    "series": "",
     "entity": "Methane",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "16",
+    "unit": "%",
+    "relative_value": "0.16",
+    "label": "16%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r3",
     "panel": "",
+    "series": "",
     "entity": "Nitrous oxide",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "6",
+    "unit": "%",
+    "relative_value": "0.06",
+    "label": "6%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_ghg_emissions"
    },
    {
+    "row_id": "r4",
     "panel": "",
+    "series": "",
     "entity": "Other",
-    "series": ""
+    "metric": "share_of_ghg_emissions",
+    "value": "2",
+    "unit": "%",
+    "relative_value": "0.02",
+    "label": "2%",
+    "role": "remainder",
+    "source_type": "printed",
+    "whole_scope": "share_of_ghg_emissions"
    }
   ],
-  "required_entity_count": 4,
-  "required_row_count": 4,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

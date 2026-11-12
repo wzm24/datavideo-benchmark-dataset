@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_1",
- "intent_en": "To illustrate the contrast in music sales formats between the United States and Japan.",
- "previous_intent": "To illustrate the contrasting trends in music sales formats between the United States and Japan in 2015, with digital sales dominating the US market and physical sales being more common in Japan.",
+ "intent_en": "Report the music-sales format shares for the United States in 2015 and Japan, preserving labeled categories without numeric values.",
  "narration_support": "In 2015, for example, 66 % of US music sales were digital. In Japan, it's nearly the opposite.",
  "chart_support": "A graphic featuring a US flag with a circular diagram labeled 'DIGITAL' and 'PHYSICAL', visualizing the breakdown of sales types for the US market.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that in 2015 digital made up 66% of US music sales while Japan was nearly the opposite, with physical at 75% and digital at 18%.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the music-sales format shares for the United States in 2015 and Japan, preserving labeled categories without numeric values.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

@@ -1,0 +1,990 @@
+{
+  "video_id": "v7xmkzVU29Q",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\v7xmkzVU29Q.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 257.429,
+  "duration_after_vad_seconds": 257.349,
+  "cue_count": 108,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.08,
+      "end": 1.64,
+      "text": "This is an EpiPen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 1,
+      "start": 1.64,
+      "end": 3.6,
+      "text": "It's a device that injects you with adrenaline",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 2,
+      "start": 3.6,
+      "end": 6.36,
+      "text": "if you're having a possibly deadly allergic reaction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 3,
+      "start": 6.36,
+      "end": 9.48,
+      "text": "If you have severe allergies, you basically need it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 4,
+      "start": 9.48,
+      "end": 10.92,
+      "text": "And if you live in the UK,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 5,
+      "start": 10.92,
+      "end": 14.48,
+      "text": "an EpiPen will cost you the equivalent of $38 US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 6,
+      "start": 14.48,
+      "end": 18.16,
+      "text": "But if you live in the US, it'll cost you $300.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 7,
+      "start": 18.16,
+      "end": 19.76,
+      "text": "And it's not just the EpiPen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 8,
+      "start": 19.76,
+      "end": 22.72,
+      "text": "Let's look at five of the top-selling prescription drugs in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 9,
+      "start": 22.72,
+      "end": 26.32,
+      "text": "AdVare, a brand name Asman-Haylor, more expensive in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 10,
+      "start": 26.32,
+      "end": 29.56,
+      "text": "Lantis, a type of insulin, more expensive in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.227623,
+      "no_speech_prob": 0.032562
+    },
+    {
+      "index": 11,
+      "start": 29.68,
+      "end": 33.2,
+      "text": "Sevaldi for hepatitis C, yep, costs more in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 12,
+      "start": 33.2,
+      "end": 35.04,
+      "text": "Humera for arthritis.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 13,
+      "start": 35.04,
+      "end": 38.72,
+      "text": "Crestor for cholesterol, more expensive in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 14,
+      "start": 38.72,
+      "end": 40.84,
+      "text": "So here's an unsurprising chart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 15,
+      "start": 40.84,
+      "end": 42.88,
+      "text": "Americans spend more on prescription drugs",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 16,
+      "start": 42.88,
+      "end": 44.92,
+      "text": "than anyone else in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 17,
+      "start": 44.92,
+      "end": 45.76,
+      "text": "Why?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 18,
+      "start": 47.0,
+      "end": 49.52,
+      "text": "The first thing you have to understand is that in the US,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 19,
+      "start": 49.52,
+      "end": 52.84,
+      "text": "drugs get to patients differently than almost everywhere else.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 20,
+      "start": 52.84,
+      "end": 55.72,
+      "text": "Let's look at that popular hepatitis C drug, Sevaldi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 21,
+      "start": 55.72,
+      "end": 58.28,
+      "text": "In 2014, Sevaldi became the first drug",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141231,
+      "no_speech_prob": 9e-05
+    },
+    {
+      "index": 22,
+      "start": 58.28,
+      "end": 60.4,
+      "text": "to completely cure hepatitis C.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 23,
+      "start": 61.4,
+      "end": 64.52,
+      "text": "Here's how it got to market in, for example, the UK.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 24,
+      "start": 64.52,
+      "end": 66.4,
+      "text": "First, a government agency had to decide",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 25,
+      "start": 66.4,
+      "end": 69.32,
+      "text": "that Sevaldi was safe and that it actually worked.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 26,
+      "start": 69.32,
+      "end": 71.72,
+      "text": "Then it was evaluated by a regulatory agency",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 27,
+      "start": 71.72,
+      "end": 73.2,
+      "text": "to see if it was worthwhile.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 28,
+      "start": 73.2,
+      "end": 74.64,
+      "text": "Are there too many side effects?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 29,
+      "start": 74.64,
+      "end": 76.36,
+      "text": "Is there already a similar drug?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 30,
+      "start": 76.36,
+      "end": 77.84,
+      "text": "Is there a cheaper option?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 31,
+      "start": 77.84,
+      "end": 79.96,
+      "text": "Sevaldi was deemed worthwhile.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 32,
+      "start": 79.96,
+      "end": 81.96,
+      "text": "Next, they negotiated the price.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 33,
+      "start": 81.96,
+      "end": 84.48,
+      "text": "In the UK, the government buys the stock of medicine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 34,
+      "start": 84.48,
+      "end": 85.56,
+      "text": "for the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 35,
+      "start": 85.56,
+      "end": 87.84,
+      "text": "That means they're usually able to get a lower rate,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073691,
+      "no_speech_prob": 0.000488
+    },
+    {
+      "index": 36,
+      "start": 87.84,
+      "end": 89.56,
+      "text": "kind of like a bulk discount,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 37,
+      "start": 89.56,
+      "end": 92.84,
+      "text": "which keeps prescription drugs cheaper for UK citizens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 38,
+      "start": 92.84,
+      "end": 95.92,
+      "text": "In almost every developed country besides the US,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 39,
+      "start": 95.92,
+      "end": 97.68,
+      "text": "this is what the system looks like.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 40,
+      "start": 97.68,
+      "end": 100.68,
+      "text": "Safety evaluation, assessment of whether the country needs it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 41,
+      "start": 100.68,
+      "end": 103.56,
+      "text": "price negotiations sold to patients.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 42,
+      "start": 103.56,
+      "end": 106.24,
+      "text": "Now let's look at the system in the United States.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 43,
+      "start": 106.24,
+      "end": 109.32,
+      "text": "First, the drug is evaluated for safety, but that's it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 44,
+      "start": 109.32,
+      "end": 111.8,
+      "text": "If it's safe, they can sell it, end of story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 45,
+      "start": 111.8,
+      "end": 114.2,
+      "text": "Drugs are sold by the drug companies to patients,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 46,
+      "start": 114.2,
+      "end": 115.84,
+      "text": "usually through insurance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075824,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 47,
+      "start": 115.84,
+      "end": 118.68,
+      "text": "And since the US system lets them sell it for any price,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 48,
+      "start": 118.68,
+      "end": 120.56,
+      "text": "Gilead, the company that makes Sevaldi,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 49,
+      "start": 120.56,
+      "end": 122.32,
+      "text": "charged Americans more for it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 50,
+      "start": 122.32,
+      "end": 123.52,
+      "text": "When it first came to market,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 51,
+      "start": 123.52,
+      "end": 127.24,
+      "text": "the entire treatment cost $84,000 in the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 52,
+      "start": 127.24,
+      "end": 130.76,
+      "text": "In the UK, just about $58,000 US dollars.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 53,
+      "start": 130.76,
+      "end": 134.6,
+      "text": "That's still a lot of money, but it's a full 30% less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 54,
+      "start": 134.6,
+      "end": 137.6,
+      "text": "So it seems like the UK has the better system, right?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 55,
+      "start": 137.6,
+      "end": 139.76,
+      "text": "Well, it's complicated.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 56,
+      "start": 139.76,
+      "end": 141.6,
+      "text": "These photos are from protests in the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 57,
+      "start": 141.6,
+      "end": 144.0,
+      "text": "against the high price of EpiPens.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060949,
+      "no_speech_prob": 0.000296
+    },
+    {
+      "index": 58,
+      "start": 144.0,
+      "end": 146.48,
+      "text": "And these are photos from protests in the UK",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 59,
+      "start": 146.48,
+      "end": 149.4,
+      "text": "over the lack of access to a cystic fibrosis drug",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 60,
+      "start": 149.4,
+      "end": 151.2,
+      "text": "called Orkambi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 61,
+      "start": 151.2,
+      "end": 152.56,
+      "text": "That's because when there's a committee",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 62,
+      "start": 152.56,
+      "end": 155.08,
+      "text": "that determines whether a new drug is worthwhile,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 63,
+      "start": 155.08,
+      "end": 156.76,
+      "text": "sometimes they say no.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 64,
+      "start": 156.76,
+      "end": 158.48,
+      "text": "And when they negotiate the price,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 65,
+      "start": 158.48,
+      "end": 160.16,
+      "text": "sometimes they don't come to an agreement",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 66,
+      "start": 160.16,
+      "end": 161.28,
+      "text": "and hit a standoff.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 67,
+      "start": 161.28,
+      "end": 163.76,
+      "text": "That's what's happening with Orkambi.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 68,
+      "start": 163.76,
+      "end": 165.88,
+      "text": "Both systems require trade-offs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 69,
+      "start": 165.88,
+      "end": 168.76,
+      "text": "Regulated drug markets tend to make drugs more affordable,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 70,
+      "start": 168.76,
+      "end": 171.4,
+      "text": "but some drugs are completely unavailable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078412,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 71,
+      "start": 171.4,
+      "end": 174.04,
+      "text": "And while the US has more drugs technically available,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 72,
+      "start": 174.04,
+      "end": 177.12,
+      "text": "they're often too expensive to actually afford.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 73,
+      "start": 177.12,
+      "end": 179.56,
+      "text": "Americans without insurance are the most likely",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 74,
+      "start": 179.56,
+      "end": 182.0,
+      "text": "to skip medication because of the cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 75,
+      "start": 182.0,
+      "end": 184.48,
+      "text": "Even Americans with insurance are second.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 76,
+      "start": 185.52,
+      "end": 187.88,
+      "text": "But the commonality between these two systems",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 77,
+      "start": 187.88,
+      "end": 189.44,
+      "text": "is the drug companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 78,
+      "start": 189.44,
+      "end": 191.76,
+      "text": "Developing new drug products isn't cheap,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 79,
+      "start": 191.76,
+      "end": 193.92,
+      "text": "and they're for-profit businesses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 80,
+      "start": 193.92,
+      "end": 195.76,
+      "text": "If Gilead didn't think that researching",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 81,
+      "start": 195.76,
+      "end": 197.72,
+      "text": "and developing a hepatitis C cure",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 82,
+      "start": 197.72,
+      "end": 201.0,
+      "text": "would make them money in the end, they might not have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062004,
+      "no_speech_prob": 0.000123
+    },
+    {
+      "index": 83,
+      "start": 201.0,
+      "end": 203.68,
+      "text": "And with these regulated markets keeping costs down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 84,
+      "start": 203.68,
+      "end": 206.56,
+      "text": "the only place drug companies can really make their money is,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 85,
+      "start": 206.56,
+      "end": 208.48,
+      "text": "you guessed it, the US.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 86,
+      "start": 208.48,
+      "end": 211.16,
+      "text": "Americans are essentially subsidizing the cost of drugs",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 87,
+      "start": 211.16,
+      "end": 212.8,
+      "text": "for the rest of the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 88,
+      "start": 212.8,
+      "end": 215.28,
+      "text": "In other words, a big part of why prescription drugs",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 89,
+      "start": 215.28,
+      "end": 217.0,
+      "text": "are more expensive in the US",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 90,
+      "start": 217.0,
+      "end": 219.32,
+      "text": "is because they're cheaper everywhere else.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 91,
+      "start": 221.0,
+      "end": 223.12,
+      "text": "If you'd like to continue exploring the importance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 92,
+      "start": 223.12,
+      "end": 225.44,
+      "text": "of easier access to medicine and vaccines,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 93,
+      "start": 225.44,
+      "end": 227.08,
+      "text": "then I highly recommend a documentary",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 94,
+      "start": 227.08,
+      "end": 229.32,
+      "text": "called Viruses, Destruction and Creation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.064345,
+      "no_speech_prob": 0.000174
+    },
+    {
+      "index": 95,
+      "start": 229.32,
+      "end": 231.44,
+      "text": "available now on CuriosityStream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 96,
+      "start": 231.44,
+      "end": 233.36,
+      "text": "CuriosityStream is a subscription service",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 97,
+      "start": 233.36,
+      "end": 235.8,
+      "text": "that offers more than 2,400 documentaries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 98,
+      "start": 235.8,
+      "end": 237.28,
+      "text": "and non-fiction titles",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 99,
+      "start": 237.28,
+      "end": 239.48,
+      "text": "from some of the world's best filmmakers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 100,
+      "start": 239.48,
+      "end": 242.8,
+      "text": "You can get unlimited access starting at $2.99 a month,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 101,
+      "start": 242.8,
+      "end": 244.24,
+      "text": "and because you're a Vox fan,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 102,
+      "start": 244.24,
+      "end": 245.76,
+      "text": "the first 31 days are free",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 103,
+      "start": 245.76,
+      "end": 249.36,
+      "text": "if you sign up at curiositystream.com slash Vox",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 104,
+      "start": 249.36,
+      "end": 251.76,
+      "text": "and use the promo code Vox.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 105,
+      "start": 251.76,
+      "end": 254.48,
+      "text": "CuriosityStream doesn't directly impact our editorial,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 106,
+      "start": 254.48,
+      "end": 256.56,
+      "text": "but their support makes videos like this one possible,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 107,
+      "start": 256.56,
+      "end": 257.88,
+      "text": "so go check them out.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096785,
+      "no_speech_prob": 0.042084
+    }
+  ],
+  "created_at": "2026-11-05T02:18:17+0800"
+}

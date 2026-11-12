@@ -1,0 +1,543 @@
+{
+ "clip_id": "pie_3",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the share of each commute mode among all American workers, including drive alone, public transportation, carpool, work at home, walk, taxi/motorcycle/other, and bicycle.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Show the share of each named commute mode within the whole of all American workers",
+   "relation": "single",
+   "unit_ids": [
+    "U2"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Order or compare the named commute-mode shares within the same whole",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in single composition.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Public transportation",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "Drive alone",
+     "label": "76%",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Taxi, motorcycle, or other",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "series": "",
+     "entity": "Work at home",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "series": "",
+     "entity": "Walk",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r6",
+     "panel": "",
+     "series": "",
+     "entity": "Carpool",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    },
+    {
+     "row_id": "r7",
+     "panel": "",
+     "series": "",
+     "entity": "Bicycle",
+     "label": "",
+     "role": "slice",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "share_of_whole",
+   "claim": "Each named commute mode occupies its stated percentage share of all American workers: drive alone 76%, carpool 8.2%, public transportation 5.2%, work at home 5.1%, walk 2.5%, taxi/motorcycle/other 1.7%, bicycle 1.0%.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "Drive alone",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.76",
+     "table_value": "76",
+     "table_relative_value": "0.76",
+     "unit": "%",
+     "relative_value": "0.76",
+     "label": "76%",
+     "role": "slice",
+     "source_type": "printed",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r6",
+     "panel": "",
+     "series": "",
+     "entity": "Carpool",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.082",
+     "table_value": "8.2",
+     "table_relative_value": "0.082",
+     "unit": "%",
+     "relative_value": "0.082",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Public transportation",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.052",
+     "table_value": "5.2",
+     "table_relative_value": "0.052",
+     "unit": "%",
+     "relative_value": "0.052",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "series": "",
+     "entity": "Work at home",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.051",
+     "table_value": "5.1",
+     "table_relative_value": "0.051",
+     "unit": "%",
+     "relative_value": "0.051",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "series": "",
+     "entity": "Walk",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.025",
+     "table_value": "2.5",
+     "table_relative_value": "0.025",
+     "unit": "%",
+     "relative_value": "0.025",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Taxi, motorcycle, or other",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.017",
+     "table_value": "1.7",
+     "table_relative_value": "0.017",
+     "unit": "%",
+     "relative_value": "0.017",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r7",
+     "panel": "",
+     "series": "",
+     "entity": "Bicycle",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.01",
+     "table_value": "1.0",
+     "table_relative_value": "0.01",
+     "unit": "%",
+     "relative_value": "0.01",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Pie slices sized proportionally to the listed shares",
+    "Drive alone shown as the dominant slice at 76%",
+    "All seven named modes represented with their stated shares"
+   ],
+   "reject": [
+    "Omitting one or more named commute modes",
+    "Treating shares as absolute counts rather than parts of the whole",
+    "Slices sized equally or not proportional to the stated values"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R3",
+   "unit_kind": "composition_order",
+   "claim": "Within the same whole, drive alone is the largest share, followed by carpool, public transportation, work at home, walk, taxi/motorcycle/other, and bicycle as the smallest.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "",
+     "series": "",
+     "entity": "Drive alone",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.76",
+     "table_value": "76",
+     "table_relative_value": "0.76",
+     "unit": "%",
+     "relative_value": "0.76",
+     "label": "76%",
+     "role": "slice",
+     "source_type": "printed",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r6",
+     "panel": "",
+     "series": "",
+     "entity": "Carpool",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.082",
+     "table_value": "8.2",
+     "table_relative_value": "0.082",
+     "unit": "%",
+     "relative_value": "0.082",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r1",
+     "panel": "",
+     "series": "",
+     "entity": "Public transportation",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.052",
+     "table_value": "5.2",
+     "table_relative_value": "0.052",
+     "unit": "%",
+     "relative_value": "0.052",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r4",
+     "panel": "",
+     "series": "",
+     "entity": "Work at home",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.051",
+     "table_value": "5.1",
+     "table_relative_value": "0.051",
+     "unit": "%",
+     "relative_value": "0.051",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r5",
+     "panel": "",
+     "series": "",
+     "entity": "Walk",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.025",
+     "table_value": "2.5",
+     "table_relative_value": "0.025",
+     "unit": "%",
+     "relative_value": "0.025",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r3",
+     "panel": "",
+     "series": "",
+     "entity": "Taxi, motorcycle, or other",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.017",
+     "table_value": "1.7",
+     "table_relative_value": "0.017",
+     "unit": "%",
+     "relative_value": "0.017",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    },
+    {
+     "row_id": "r7",
+     "panel": "",
+     "series": "",
+     "entity": "Bicycle",
+     "metric": "share_of_commute_modes",
+     "field": "relative_value",
+     "value": "0.01",
+     "table_value": "1.0",
+     "table_relative_value": "0.01",
+     "unit": "%",
+     "relative_value": "0.01",
+     "label": "",
+     "role": "slice",
+     "source_type": "estimated",
+     "whole_scope": "share_of_commute_modes"
+    }
+   ],
+   "computation": "rank relative_value descending across r2, r6, r1, r4, r5, r3, r7",
+   "accept": [
+    "Visual ordering or labeling that makes drive alone largest and bicycle smallest",
+    "Relative slice sizes consistent with the stated ranking"
+   ],
+   "reject": [
+    "Ordering that places a smaller share above a larger one",
+    "Implying carpool is larger than drive alone",
+    "Implying bicycle is larger than any other named mode"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Displaying the 76% label on the drive-alone slice",
+  "Showing a legend binding each slice to its commute-mode name"
+ ],
+ "unsupported_to_avoid": [
+  "Deriving or displaying an unlabeled remainder as a separate category",
+  "Comparing shares across panels or rings (none exist)",
+  "Reporting absolute worker counts",
+  "Adding different mode shares together as if they were separate wholes"
+ ],
+ "review_notes": [
+  "The seven listed shares sum to 99.7%, not 100%; no inferred remainder unit is required because the intent asks to compare the named modes, not to complete the whole.",
+  "U1 and U2 are kept separate because share representation and ordering are distinct analytical obligations, though both draw on the same rows."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "",
+    "series": "",
+    "entity": "Public transportation",
+    "metric": "share_of_commute_modes",
+    "value": "5.2",
+    "unit": "%",
+    "relative_value": "0.052",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r2",
+    "panel": "",
+    "series": "",
+    "entity": "Drive alone",
+    "metric": "share_of_commute_modes",
+    "value": "76",
+    "unit": "%",
+    "relative_value": "0.76",
+    "label": "76%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r3",
+    "panel": "",
+    "series": "",
+    "entity": "Taxi, motorcycle, or other",
+    "metric": "share_of_commute_modes",
+    "value": "1.7",
+    "unit": "%",
+    "relative_value": "0.017",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r4",
+    "panel": "",
+    "series": "",
+    "entity": "Work at home",
+    "metric": "share_of_commute_modes",
+    "value": "5.1",
+    "unit": "%",
+    "relative_value": "0.051",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r5",
+    "panel": "",
+    "series": "",
+    "entity": "Walk",
+    "metric": "share_of_commute_modes",
+    "value": "2.5",
+    "unit": "%",
+    "relative_value": "0.025",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r6",
+    "panel": "",
+    "series": "",
+    "entity": "Carpool",
+    "metric": "share_of_commute_modes",
+    "value": "8.2",
+    "unit": "%",
+    "relative_value": "0.082",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   },
+   {
+    "row_id": "r7",
+    "panel": "",
+    "series": "",
+    "entity": "Bicycle",
+    "metric": "share_of_commute_modes",
+    "value": "1.0",
+    "unit": "%",
+    "relative_value": "0.01",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "share_of_commute_modes"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

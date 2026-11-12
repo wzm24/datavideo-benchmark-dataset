@@ -1,0 +1,70 @@
+{
+ "clip": "area_37",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the average person with student debt owes about $30,000, highlighting the typical individual student debt burden.",
+ "proposed_intent": "Report the student debt value for the average person with student debt.",
+ "writer": {
+  "intent": "Report the student debt value for the average person with student debt.",
+  "entities": [
+   "Average person with student debt"
+  ],
+  "measure": "Student debt (USD)",
+  "scope": "Single snapshot value callout",
+  "comparison": "None",
+  "withheld_answer": "$30,000"
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 12,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "30,000"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 921,
+   "completion_tokens": 72,
+   "total_tokens": 993,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 793
+  },
+  {
+   "prompt_tokens": 846,
+   "completion_tokens": 64,
+   "total_tokens": 910,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 846
+  }
+ ],
+ "sec": 2.1
+}

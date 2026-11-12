@@ -1,0 +1,333 @@
+{
+  "video_id": "ZxXOyYSHcfE",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\ZxXOyYSHcfE.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 109.157,
+  "duration_after_vad_seconds": 105.392,
+  "cue_count": 35,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "text": "This is how much the United States collects in taxes each year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 1,
+      "start": 5.0,
+      "end": 8.0,
+      "text": "But the IRS found that from 2008 to 2010,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 2,
+      "start": 8.0,
+      "end": 13.0,
+      "text": "Americans paid only 81.7% of the taxes they really owed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 3,
+      "start": 13.0,
+      "end": 15.0,
+      "text": "Assuming that rate is the same today,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 4,
+      "start": 15.0,
+      "end": 20.0,
+      "text": "that's about $660 billion in tax dodging each year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 5,
+      "start": 20.0,
+      "end": 21.0,
+      "text": "Here's the thing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 6,
+      "start": 21.0,
+      "end": 23.0,
+      "text": "The IRS is crumbling.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 7,
+      "start": 23.0,
+      "end": 26.0,
+      "text": "Republicans won the House of Representatives in 2010",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 8,
+      "start": 26.0,
+      "end": 29.0,
+      "text": "and began aggressively cutting the agency's budget.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105324,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 9,
+      "start": 29.0,
+      "end": 33.0,
+      "text": "The number of auditors on staff has decreased by nearly 35%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 10,
+      "start": 33.0,
+      "end": 36.0,
+      "text": "And the IRS is also performing way fewer audits than it used to.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 11,
+      "start": 36.0,
+      "end": 40.0,
+      "text": "We deliberately lowered the IRS funding to a level",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 12,
+      "start": 40.0,
+      "end": 43.0,
+      "text": "to make them think twice about what they are doing",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 13,
+      "start": 43.0,
+      "end": 45.0,
+      "text": "and why they are doing it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 14,
+      "start": 45.0,
+      "end": 48.0,
+      "text": "But the budget cuts haven't treated all taxpayers equally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 15,
+      "start": 48.0,
+      "end": 51.0,
+      "text": "Audits of the rich have dropped dramatically,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 16,
+      "start": 51.0,
+      "end": 55.0,
+      "text": "but audits of the poorest Americans have stayed almost the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.044308,
+      "no_speech_prob": 0.000185
+    },
+    {
+      "index": 17,
+      "start": 55.0,
+      "end": 59.0,
+      "text": "Fewer audits literally means less enforcement of our tax laws.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 18,
+      "start": 59.0,
+      "end": 63.0,
+      "text": "Experts told us if people think they won't get caught cheating on their taxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 19,
+      "start": 63.0,
+      "end": 65.0,
+      "text": "they're more likely to cheat.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 20,
+      "start": 65.0,
+      "end": 67.0,
+      "text": "Here's how much money we're talking about",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 21,
+      "start": 67.0,
+      "end": 70.0,
+      "text": "even if people only cheat one percentage point more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 22,
+      "start": 70.0,
+      "end": 72.0,
+      "text": "Or two percentage points.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 23,
+      "start": 72.0,
+      "end": 74.0,
+      "text": "Or three percentage points.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 24,
+      "start": 74.0,
+      "end": 76.0,
+      "text": "Or four percentage points,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 25,
+      "start": 76.0,
+      "end": 78.0,
+      "text": "as experts told us was totally possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 26,
+      "start": 78.0,
+      "end": 80.0,
+      "text": "Putting that into perspective,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 27,
+      "start": 80.0,
+      "end": 83.0,
+      "text": "the money lost with four percentage points more cheating",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049212,
+      "no_speech_prob": 0.001987
+    },
+    {
+      "index": 28,
+      "start": 83.0,
+      "end": 87.0,
+      "text": "is triple the Department of Education's budget for 2018.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 29,
+      "start": 87.0,
+      "end": 91.0,
+      "text": "Hey, I'm Lucas Waldron and I make videos here at ProPublica.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 30,
+      "start": 91.0,
+      "end": 95.0,
+      "text": "When our reporters went to the IRS to ask them about these cuts,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 31,
+      "start": 95.0,
+      "end": 98.0,
+      "text": "the agency told them that they still have substantial resources",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 32,
+      "start": 98.0,
+      "end": 101.0,
+      "text": "to stop people from dodging their taxes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 33,
+      "start": 101.0,
+      "end": 104.0,
+      "text": "If you like our investigative reporting and you want more of it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    },
+    {
+      "index": 34,
+      "start": 104.0,
+      "end": 106.0,
+      "text": "follow us on YouTube.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066488,
+      "no_speech_prob": 0.037872
+    }
+  ],
+  "created_at": "2026-11-05T02:14:36+0800"
+}

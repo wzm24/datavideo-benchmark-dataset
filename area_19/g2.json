@@ -1,0 +1,230 @@
+{
+ "clip_id": "area_19",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_19",
+  "family": "area",
+  "sub_type": "historical_projection_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 3,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 234,
+  "table_sha256": "7ba8dcc3b909db23601889e617976354c1234224c458765773056ec197e5e4c1"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Historical population",
+    "Projection lower",
+    "Projection upper"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 3,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Historical population",
+      "panel": "",
+      "entity": "Historical population",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Projection lower",
+      "panel": "",
+      "entity": "Projection lower",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Projection upper",
+      "panel": "",
+      "entity": "Projection upper",
+      "series": "",
+      "role": "band_upper"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Historical population | 1950",
+    "Historical population | 2019"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Historical population | 1950",
+      "panel": "",
+      "entity": "Historical population",
+      "series": "",
+      "x": "1950",
+      "point_order": "1",
+      "value": "0.100000",
+      "unit": "billions",
+      "role": "area"
+     },
+     {
+      "mark": "Historical population | 2019",
+      "panel": "",
+      "entity": "Historical population",
+      "series": "",
+      "x": "2019",
+      "point_order": "70",
+      "value": "1.100000",
+      "unit": "billions",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "The historical population of Sub-Saharan Africa increased monotonically from 0.1 billion in 1950 to 1.1 billion in 2019.",
+    "computation": "none",
+    "encoding": "historical_area_and_projection_band",
+    "axis_condition": {
+     "x_axis": "Year",
+     "y_axis": "Population (billions)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Historical population decreases at any point.",
+    "The 1950 value is not 0.1 billion.",
+    "The 2019 value is not 1.1 billion."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "projection_or_range",
+   "must_be_visualized": true,
+   "evidence_type": "projection_or_range",
+   "required_marks": [
+    "Projection lower | 2019",
+    "Projection upper | 2019",
+    "Projection lower | 2100",
+    "Projection upper | 2100"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Projection lower | 2019",
+      "panel": "",
+      "entity": "Projection lower",
+      "series": "",
+      "x": "2019",
+      "point_order": "1",
+      "value": "1.100000",
+      "unit": "billions",
+      "role": "area"
+     },
+     {
+      "mark": "Projection upper | 2019",
+      "panel": "",
+      "entity": "Projection upper",
+      "series": "",
+      "x": "2019",
+      "point_order": "1",
+      "value": "1.250000",
+      "unit": "billions",
+      "role": "band_upper"
+     },
+     {
+      "mark": "Projection lower | 2100",
+      "panel": "",
+      "entity": "Projection lower",
+      "series": "",
+      "x": "2100",
+      "point_order": "82",
+      "value": "2.700000",
+      "unit": "billions",
+      "role": "area"
+     },
+     {
+      "mark": "Projection upper | 2100",
+      "panel": "",
+      "entity": "Projection upper",
+      "series": "",
+      "x": "2100",
+      "point_order": "82",
+      "value": "5.000000",
+      "unit": "billions",
+      "role": "band_upper"
+     }
+    ],
+    "expected_relation": "The projected population range widens from 1.1–1.25 billion in 2019 to 2.7–5.0 billion in 2100.",
+    "computation": "none",
+    "encoding": "historical_area_and_projection_band",
+    "axis_condition": {
+     "x_axis": "Year",
+     "y_axis": "Population (billions)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "The lower bound in 2100 is not 2.7 billion.",
+    "The upper bound in 2100 is not 5.0 billion.",
+    "The projection range narrows over time."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

@@ -1,0 +1,792 @@
+{
+  "video_id": "Z6rilA4uTlQ",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\Z6rilA4uTlQ.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 330.048,
+  "duration_after_vad_seconds": 327.36,
+  "cue_count": 86,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.4,
+      "end": 4.96,
+      "text": "With fossil fuels diminishing and climate change on the rise, the world is looking for",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 1,
+      "start": 4.96,
+      "end": 9.28,
+      "text": "more environmentally clean energy sources to be the new champions of our global energy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 2,
+      "start": 9.28,
+      "end": 10.28,
+      "text": "war.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 3,
+      "start": 10.28,
+      "end": 14.1,
+      "text": "Stepping from the ashes of the coal giants and the other fossil fuels, the great warriors",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 4,
+      "start": 14.1,
+      "end": 16.32,
+      "text": "of nuclear and solar energy emerge.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 5,
+      "start": 16.32,
+      "end": 21.44,
+      "text": "Let's explore these two titans of power in this episode of the Infographics Show, Nuclear",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 6,
+      "start": 21.44,
+      "end": 24.88,
+      "text": "Energy vs. Solar Energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 7,
+      "start": 24.88,
+      "end": 28.64,
+      "text": "Nuclear energy is the energy stored in the nucleus of an atom.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.156524,
+      "no_speech_prob": 0.122253
+    },
+    {
+      "index": 8,
+      "start": 28.64,
+      "end": 32.8,
+      "text": "Using this energy from the atom is what gives way to usable nuclear energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 9,
+      "start": 32.8,
+      "end": 35.76,
+      "text": "The main way this is done is through nuclear fission.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 10,
+      "start": 35.76,
+      "end": 40.4,
+      "text": "Nuclear power plants use nuclear fission to split apart atoms to form smaller atoms, which",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 11,
+      "start": 40.4,
+      "end": 46.48,
+      "text": "in turn releases energy and generates heat that typically turns a turbine.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 12,
+      "start": 46.48,
+      "end": 49.92,
+      "text": "Solar energy on the other hand, harnesses power from the sun.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 13,
+      "start": 49.92,
+      "end": 55.16,
+      "text": "We can take radiation in the form of light from the sun and convert it into electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124697,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 14,
+      "start": 55.16,
+      "end": 60.04,
+      "text": "This is typically done through photovoltaic or PV cells, which are made of semi-conductive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 15,
+      "start": 60.04,
+      "end": 62.2,
+      "text": "materials like silicon.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 16,
+      "start": 62.2,
+      "end": 67.6,
+      "text": "When sunlight is absorbed by PV cells, photons of light transfer that energy to electrons,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 17,
+      "start": 67.6,
+      "end": 72.24,
+      "text": "which in turn creates energy in the form of an electric current as the electrons flow",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 18,
+      "start": 72.24,
+      "end": 74.1,
+      "text": "through the material.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 19,
+      "start": 74.1,
+      "end": 79.04,
+      "text": "As such, solar energy is classified as a renewable energy source, since it is a source of energy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 20,
+      "start": 79.04,
+      "end": 83.28,
+      "text": "that can theoretically regenerate and replenish itself indefinitely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088281,
+      "no_speech_prob": 0.000223
+    },
+    {
+      "index": 21,
+      "start": 83.28,
+      "end": 87.72,
+      "text": "While some argue that nuclear energy should also be classified as renewable, most agree",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 22,
+      "start": 87.72,
+      "end": 92.06,
+      "text": "that it is, more accurately, a sustainable energy source.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 23,
+      "start": 92.06,
+      "end": 97.64,
+      "text": "This means that while nuclear power may not be seen as infinite, the rate that it is consumed",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 24,
+      "start": 97.64,
+      "end": 100.48,
+      "text": "is insignificant compared to the amount of the supply.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 25,
+      "start": 100.48,
+      "end": 103.36,
+      "text": "It's like the kale of energy sources.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 26,
+      "start": 103.36,
+      "end": 107.08,
+      "text": "There is only a finite amount of the stuff, but who would ever eat so much of it that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 27,
+      "start": 107.08,
+      "end": 109.24,
+      "text": "the world would run out?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 28,
+      "start": 109.24,
+      "end": 111.68,
+      "text": "So how did nuclear energy all get started?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.138771,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 29,
+      "start": 111.68,
+      "end": 116.72,
+      "text": "In 1954, the Russian installation APS-1 was the world's first nuclear power plant that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 30,
+      "start": 116.72,
+      "end": 119.12,
+      "text": "generated electricity for commercial use.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 31,
+      "start": 119.12,
+      "end": 122.88,
+      "text": "Today, there are around 450 nuclear power plants worldwide.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 32,
+      "start": 122.88,
+      "end": 128.12,
+      "text": "The United States is home to 99 of those power plants, which is more than Russia, China,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 33,
+      "start": 128.12,
+      "end": 130.36,
+      "text": "and India combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 34,
+      "start": 130.36,
+      "end": 133.6,
+      "text": "In 1941, the first solar cell was invented.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 35,
+      "start": 133.6,
+      "end": 138.68,
+      "text": "Today, there are over 75 solar thermal power stations around the world that have a combined",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157008,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 36,
+      "start": 138.68,
+      "end": 144.92,
+      "text": "capacity of over 4,810 megawatts, enough to power more than 1.7 million homes during peak",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 37,
+      "start": 144.92,
+      "end": 146.32,
+      "text": "hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 38,
+      "start": 146.32,
+      "end": 150.64,
+      "text": "Nuclear power generates around 10.6% of the electricity used around the world, while",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 39,
+      "start": 150.64,
+      "end": 153.72,
+      "text": "solar energy supplies less than 6.3%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 40,
+      "start": 153.72,
+      "end": 157.12,
+      "text": "In this regard, nuclear energy is the clear winner.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 41,
+      "start": 157.12,
+      "end": 161.44,
+      "text": "But when looking at horrific accidents like the disaster in Chernobyl, nuclear energy's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 42,
+      "start": 161.44,
+      "end": 165.4,
+      "text": "reputation takes a turn for the worse, making it seem like an extremely dangerous form",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 43,
+      "start": 165.4,
+      "end": 166.4,
+      "text": "of energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105367,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 44,
+      "start": 166.48,
+      "end": 170.9,
+      "text": "With the fear of harmful radiation, radioactive waste, and the possible threats of nuclear",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 45,
+      "start": 170.9,
+      "end": 174.88,
+      "text": "reactor meltdowns, many people want to move away from nuclear energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 46,
+      "start": 174.88,
+      "end": 180.36,
+      "text": "In reality, however, very few deaths actually occur directly or indirectly from nuclear power",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 47,
+      "start": 180.36,
+      "end": 181.96,
+      "text": "plants.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 48,
+      "start": 181.96,
+      "end": 186.44,
+      "text": "While the power of nuclear energy should not be underestimated, it might actually be safer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 49,
+      "start": 186.44,
+      "end": 188.12,
+      "text": "than solar energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 50,
+      "start": 188.12,
+      "end": 193.0,
+      "text": "Based off of recent findings, solar energy appears to have a death rate of 0.44 deaths",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 51,
+      "start": 193.0,
+      "end": 194.92,
+      "text": "per terawatt hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134472,
+      "no_speech_prob": 0.000607
+    },
+    {
+      "index": 52,
+      "start": 194.92,
+      "end": 199.28,
+      "text": "More research would be helpful to further these findings, but if nuclear truly is safer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 53,
+      "start": 199.28,
+      "end": 203.68,
+      "text": "then this is made even more significant by the fact that nuclear power supplies a far",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 54,
+      "start": 203.68,
+      "end": 207.28,
+      "text": "greater amount of the world's total energy than solar power does.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 55,
+      "start": 207.28,
+      "end": 211.28,
+      "text": "So nuclear energy seems to cost less lives, but does it cost less money?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 56,
+      "start": 211.28,
+      "end": 216.08,
+      "text": "In the United States, solar energy costs 12 cents per kilowatt hour, while nuclear energy",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 57,
+      "start": 216.08,
+      "end": 218.72,
+      "text": "costs around 2 cents per kilowatt hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 58,
+      "start": 218.72,
+      "end": 222.36,
+      "text": "Not only does it cost less, but it also costs more than 2 cents per kilowatt hour.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.35075,
+      "no_speech_prob": 0.02298
+    },
+    {
+      "index": 59,
+      "start": 222.48,
+      "end": 229.16,
+      "text": "Not only is nuclear energy far cheaper in terms of operating costs at around a sixth",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118643,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 60,
+      "start": 229.16,
+      "end": 234.0,
+      "text": "of the price of solar, but it also doesn't require large amounts of land, either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118643,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 61,
+      "start": 234.0,
+      "end": 239.28,
+      "text": "It would take around 45 square miles of solar photovoltaic panels to be able to produce",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118643,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 62,
+      "start": 239.28,
+      "end": 244.6,
+      "text": "the same amount of electricity as that of a single multi-reactor nuclear power plant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118643,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 63,
+      "start": 244.6,
+      "end": 248.4,
+      "text": "In all fairness, with solar panels having the ability to go on the roofs of homes and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118643,
+      "no_speech_prob": 0.042084
+    },
+    {
+      "index": 64,
+      "start": 248.4,
+      "end": 252.32,
+      "text": "buildings, it might not take up that much extra space, but the difference between their",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 65,
+      "start": 252.32,
+      "end": 255.0,
+      "text": "spatial needs is still staggering.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 66,
+      "start": 255.0,
+      "end": 259.08,
+      "text": "France is a big fan of nuclear energy, with over 75% of their electricity coming from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 67,
+      "start": 259.08,
+      "end": 260.8,
+      "text": "nuclear power plants.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 68,
+      "start": 260.8,
+      "end": 264.52,
+      "text": "Our friends in France make nuclear energy look very enticing since they are the world's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 69,
+      "start": 264.52,
+      "end": 267.08,
+      "text": "largest net exporter of electricity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 70,
+      "start": 267.08,
+      "end": 272.92,
+      "text": "They also rank second in total nuclear power generation at 419 billion kilowatt hours,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 71,
+      "start": 272.92,
+      "end": 277.64,
+      "text": "with the United States in the lead at 798 billion kilowatt hours.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140756,
+      "no_speech_prob": 0.043365
+    },
+    {
+      "index": 72,
+      "start": 277.64,
+      "end": 281.96,
+      "text": "Contrarily, Germany and China have paved the way in solar energy production with over",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 73,
+      "start": 281.96,
+      "end": 286.0,
+      "text": "80,000 megawatts of installed photovoltaic power between them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 74,
+      "start": 286.0,
+      "end": 290.36,
+      "text": "The United States, however, doesn't seem to be as big of a supporter of solar power.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 75,
+      "start": 290.36,
+      "end": 295.24,
+      "text": "America has around 25,000 megawatts of installed photovoltaic power.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 76,
+      "start": 295.24,
+      "end": 299.28,
+      "text": "Both nuclear and solar energy have great potential as power sources of the future.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 77,
+      "start": 299.28,
+      "end": 302.68,
+      "text": "If there's one thing for certain, the world can always use better advancements in our",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 78,
+      "start": 302.68,
+      "end": 307.24,
+      "text": "energy production so that we can continue to fuel our ever-advancing society.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.114832,
+      "no_speech_prob": 0.008316
+    },
+    {
+      "index": 79,
+      "start": 307.24,
+      "end": 310.26,
+      "text": "We hope you enjoyed this battle of nuclear and solar energy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 80,
+      "start": 310.26,
+      "end": 312.68,
+      "text": "Which energy source do you think reigns supreme?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 81,
+      "start": 312.68,
+      "end": 315.52,
+      "text": "What other video topics would you like us to do in the future?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 82,
+      "start": 315.52,
+      "end": 318.96,
+      "text": "Let us know in the comments below, and if you like our videos and want to help us continue",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 83,
+      "start": 318.96,
+      "end": 322.8,
+      "text": "to make more of them, please head on over to our Patreon and show us some love.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 84,
+      "start": 322.8,
+      "end": 326.32,
+      "text": "As always, don't forget to give this video a like, and make sure to subscribe so you",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    },
+    {
+      "index": 85,
+      "start": 326.32,
+      "end": 327.28,
+      "text": "can keep up with the show.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.105369,
+      "no_speech_prob": 0.799805
+    }
+  ],
+  "created_at": "2026-11-12T19:14:38+0800"
+}

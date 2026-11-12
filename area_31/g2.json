@@ -1,0 +1,253 @@
+{
+ "clip_id": "area_31",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_31",
+  "family": "area",
+  "sub_type": "two_panel_area",
+  "orientation": "cartesian",
+  "panel_count": 2,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": false
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1",
+   "U2"
+  ],
+  "row_count": 20,
+  "table_sha256": "b5bab8f5c6a28d3876b028fa50f357210fbc76dddac97f01787e03819e3d6480"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "YouTube | YouTube"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "YouTube | YouTube",
+      "panel": "YouTube",
+      "entity": "YouTube",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Television | Television"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "panel_scoped": true,
+    "required_marks": [
+     {
+      "mark": "Television | Television",
+      "panel": "Television",
+      "entity": "Television",
+      "series": "",
+      "role": "area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "YouTube | YouTube | 0.000000",
+    "YouTube | YouTube | 0.513514",
+    "YouTube | YouTube | 1.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "YouTube | YouTube | 0.000000",
+      "panel": "YouTube",
+      "entity": "YouTube",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "1",
+      "value": "0.000000",
+      "unit": "euro",
+      "role": "area"
+     },
+     {
+      "mark": "YouTube | YouTube | 0.513514",
+      "panel": "YouTube",
+      "entity": "YouTube",
+      "series": "",
+      "x": "0.513514",
+      "point_order": "6",
+      "value": "42.352941",
+      "unit": "euro",
+      "role": "area"
+     },
+     {
+      "mark": "YouTube | YouTube | 1.000000",
+      "panel": "YouTube",
+      "entity": "YouTube",
+      "series": "",
+      "x": "1.000000",
+      "point_order": "10",
+      "value": "120.000000",
+      "unit": "euro",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "YouTube's value generally increases over relative time, rising from 0 € at the start to 120 € at the end, with a minor dip around x≈0.51.",
+    "computation": "none",
+    "encoding": "filled_area_boundary_height_per_panel",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "YouTube value decreases overall",
+    "YouTube is flat over time"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "trend",
+   "must_be_visualized": true,
+   "evidence_type": "trend",
+   "required_marks": [
+    "Television | Television | 0.000000",
+    "Television | Television | 0.378378",
+    "Television | Television | 1.000000"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Television | Television | 0.000000",
+      "panel": "Television",
+      "entity": "Television",
+      "series": "",
+      "x": "0.000000",
+      "point_order": "2",
+      "value": "353.400000",
+      "unit": "euro",
+      "role": "area"
+     },
+     {
+      "mark": "Television | Television | 0.378378",
+      "panel": "Television",
+      "entity": "Television",
+      "series": "",
+      "x": "0.378378",
+      "point_order": "5",
+      "value": "262.200000",
+      "unit": "euro",
+      "role": "area"
+     },
+     {
+      "mark": "Television | Television | 1.000000",
+      "panel": "Television",
+      "entity": "Television",
+      "series": "",
+      "x": "1.000000",
+      "point_order": "10",
+      "value": "57.000000",
+      "unit": "euro",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Television's value generally decreases over relative time, falling from a peak of 353.4 € near the start to 57 € at the end, with a brief rebound around x≈0.38.",
+    "computation": "none",
+    "encoding": "filled_area_boundary_height_per_panel",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Value (EUR)"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Television value increases overall",
+    "Television is flat over time"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

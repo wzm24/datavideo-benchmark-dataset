@@ -1,0 +1,232 @@
+{
+ "clip": "area_2",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that contraceptive use among women of reproductive age in sub-Saharan Africa rose from 16% in 1990 to 30% in 2014.",
+ "core_claim": "Contraceptive use in sub-Saharan Africa increased from 16% in 1990 to 30% in 2014.",
+ "chart_role": "trend over time",
+ "source_consistency": "partial",
+ "issues": [
+  "Narration mentions education improving slower than other regions, but the chart and table only show contraceptive use; no education data is present.",
+  "Narration says contraceptive use doubled since 1990; table shows 16% to 30%, which is less than double."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To illustrate the increase in contraceptive use in sub-Saharan Africa from 1990 to 2000, contrasting it with slower educational improvements.",
+ "narration": "But especially in sub -Saharan Africa, education has improved slower than in other parts of the world. And while in total contraceptive use has doubled in the region since 1990,",
+ "svg_text": [
+  "Contraceptive Use",
+  "% of women of reproductive age using any contraceptive method",
+  "16%",
+  "22%",
+  "30%",
+  "1990",
+  "2000",
+  "2014",
+  "Source: Worldbank, 2018 | Guttmacher, 2018"
+ ],
+ "chart_spec": {
+  "clip_id": "area_2",
+  "family": "area",
+  "sub_type": "simple_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot"
+ },
+ "table_summary": {
+  "row_count": 6,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "contraceptive use",
+    "series": "",
+    "role": "area",
+    "row_count": 6,
+    "unit": "percent",
+    "printed_x": [
+     "1990",
+     "2000",
+     "2014"
+    ],
+    "value_min": 16.0,
+    "value_max": 30.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Contraceptive use (%)",
+     "entity": "contraceptive use",
+     "series": "",
+     "x": "1990",
+     "point_order": "1",
+     "value": "16",
+     "unit": "percent",
+     "label": "",
+     "role": "area"
+    },
+    "last": {
+     "_row_id": "r6",
+     "panel": "",
+     "x_axis": "Time",
+     "y_axis": "Contraceptive use (%)",
+     "entity": "contraceptive use",
+     "series": "",
+     "x": "2014",
+     "point_order": "6",
+     "value": "30",
+     "unit": "percent",
+     "label": "",
+     "role": "area"
+    },
+    "sampled_row_ids": [
+     "r1",
+     "r2",
+     "r3",
+     "r4",
+     "r5",
+     "r6"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "1990",
+    "point_order": "1",
+    "value": "16",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "",
+    "point_order": "2",
+    "value": "19",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   },
+   {
+    "_row_id": "r3",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "2000",
+    "point_order": "3",
+    "value": "22",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   },
+   {
+    "_row_id": "r4",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "",
+    "point_order": "4",
+    "value": "23.5",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   },
+   {
+    "_row_id": "r5",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "",
+    "point_order": "5",
+    "value": "27.5",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   },
+   {
+    "_row_id": "r6",
+    "panel": "",
+    "x_axis": "Time",
+    "y_axis": "Contraceptive use (%)",
+    "entity": "contraceptive use",
+    "series": "",
+    "x": "2014",
+    "point_order": "6",
+    "value": "30",
+    "unit": "percent",
+    "label": "",
+    "role": "area"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Show that contraceptive use among women of reproductive age in sub-Saharan Africa rose from 16% in 1990 to 30% in 2014.",
+  "corrected_core_claim": "Contraceptive use in sub-Saharan Africa increased from 16% in 1990 to 30% in 2014."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1598,
+   "completion_tokens": 169,
+   "total_tokens": 1767,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1470
+  },
+  "audit": {
+   "prompt_tokens": 1392,
+   "completion_tokens": 96,
+   "total_tokens": 1488,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1392
+  }
+ },
+ "sec": 2.4
+}

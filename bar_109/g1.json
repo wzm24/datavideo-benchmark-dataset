@@ -188,7 +188,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -235,7 +236,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must make the booster relative values for High-income countries, Upper-middle income, Lower-middle income, and Low-income countries visible or labeled so the high-income concentration is apparent."
+   "evidence": "The chart must make the booster relative values for High-income countries, Upper-middle income, Lower-middle income, and Low-income countries visible or labeled so the high-income concentration is apparent.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -282,7 +284,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must show the fully vaccinated relative values for Upper-middle income, Lower-middle income, and Low-income countries on a common scale so the low-income minimum and upper-middle maximum are apparent."
+   "evidence": "The chart must show the fully vaccinated relative values for Upper-middle income, Lower-middle income, and Low-income countries on a common scale so the low-income minimum and upper-middle maximum are apparent.",
+   "needs_review": false
   },
   {
    "id": "U4",
@@ -329,7 +332,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must show the Not vaccinated relative values for Low-income countries and Upper-middle income so the low-income high value is apparent."
+   "evidence": "The chart must show the Not vaccinated relative values for Low-income countries and Upper-middle income so the low-income high value is apparent.",
+   "needs_review": false
   },
   {
    "id": "U5",
@@ -369,7 +373,8 @@
     "omitting the required fact",
     "reversing the direction or values"
    ],
-   "evidence": "The chart must show High-income countries' booster relative and Low-income countries' fully/partially vaccinated relative in a comparable way, so the high-income booster value visibly exceeds the low-income initial-dose values."
+   "evidence": "The chart must show High-income countries' booster relative and Low-income countries' fully/partially vaccinated relative in a comparable way, so the high-income booster value visibly exceeds the low-income initial-dose values.",
+   "needs_review": false
   },
   {
    "id": "U6",
@@ -415,7 +420,8 @@
     "omitting an income group",
     "confusing partial vaccination with boosters"
    ],
-   "evidence": "The purple partial-vaccination segments encode all four groups."
+   "evidence": "The purple partial-vaccination segments encode all four groups.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -456,12 +462,13 @@
   "state_level_completeness_r1_2026-10-22",
   "complex_chart_hardcase_2026_10_27",
   "complex_chart_hardcase_2026_10_27",
-  "complex_chart_hardcase_2026_10_27"
+  "complex_chart_hardcase_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-22",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "clip_hardcase": {
   "is_hardcase": true,
   "type": "complex_chart",
@@ -484,5 +491,12 @@
   ],
   "chart_sub_type": "grouped",
   "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
- }
+ },
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

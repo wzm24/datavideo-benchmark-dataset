@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_35",
- "intent_en": "To illustrate how a tiny elite segment of the music industry disproportionately skews aggregate revenue statistics, masking the reality for the broader market.",
- "previous_intent": "To illustrate how the music industry's aggregate financial health is misleadingly inflated by the massive earnings of the top fraction of participants.",
+ "intent_en": "Report the revenue attributed to the top artist group and its share of industry revenue.",
  "narration_support": "The industry may look healthy and aggregate, but it's mostly the top 1 % inflating the average.",
  "chart_support": "A donut chart visualizing the 'TOP 1%' of the music industry (indicated by a music note icon) associated with a large monetary value.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that the top 1% of artists account for $43 billion in music revenue, demonstrating that a tiny elite segment inflates the industry's aggregate average.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Report the revenue attributed to the top artist group and its share of industry revenue.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

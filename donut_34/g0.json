@@ -1,136 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_34",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "8424490c91c7f5f04fb1bd9716dbbe6fb8cc1253e406faa4efd3419bb24f37e3",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "ae9665542117e050bfc9a26a0255809c79242e06a8a987b765f506cf17fd59ce",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "07293ab0da9453b5b58ae76b19a6cfbe81ed53a4d156394556e44da3a1b764d3",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
-  "panel_count": 2,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "panel_count": 1,
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_respondents"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Americans bothered wealthy people do not pay fair share",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 80.0,
-   "last_value": 80.0,
-   "min_value": 80.0,
-   "max_value": 80.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "arc"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Other Americans",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 20.0,
-   "last_value": 20.0,
-   "min_value": 20.0,
-   "max_value": 20.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_respondents"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_respondents",
+   "value": "80",
+   "unit": "%",
+   "relative_value": "0.8",
+   "label": "80%",
+   "role": "arc",
+   "source_type": "printed",
+   "whole_scope": "share_of_respondents"
   }
  ],
- "source_type_counts": {
-  "estimated": 2
- },
- "role_counts": {
-  "arc": 1,
-  "remainder": 1
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_respondents",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Americans bothered wealthy people do not pay fair share"
+   ],
+   "relative_value_sum": 0.8
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
-    "entity": "80%",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
+    "series": "",
+    "entity": "Americans bothered wealthy people do not pay fair share",
+    "metric": "share_of_respondents",
+    "value": "80",
+    "unit": "%",
+    "relative_value": "0.8",
+    "label": "80%",
+    "role": "arc",
+    "source_type": "printed",
+    "whole_scope": "share_of_respondents"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

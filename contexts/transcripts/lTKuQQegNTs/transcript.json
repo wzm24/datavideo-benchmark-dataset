@@ -1,0 +1,1143 @@
+{
+  "video_id": "lTKuQQegNTs",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\lTKuQQegNTs.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 664.625,
+  "duration_after_vad_seconds": 652.784,
+  "cue_count": 125,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.16,
+      "text": "If you watch movies, listen to music, or own a phone, you're probably familiar with subscriptions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094313,
+      "no_speech_prob": 0.028824
+    },
+    {
+      "index": 1,
+      "start": 6.16,
+      "end": 11.76,
+      "text": "At least, your wallet is. Which, for companies, are pure gold. Or green, I guess.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094313,
+      "no_speech_prob": 0.028824
+    },
+    {
+      "index": 2,
+      "start": 11.76,
+      "end": 16.8,
+      "text": "Instead of selling you today and tomorrow and next week, they only need to convince you once,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094313,
+      "no_speech_prob": 0.028824
+    },
+    {
+      "index": 3,
+      "start": 16.8,
+      "end": 22.24,
+      "text": "and the money keeps coming. A steady, predictable stream of revenue. Because each customer is so",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094313,
+      "no_speech_prob": 0.028824
+    },
+    {
+      "index": 4,
+      "start": 22.24,
+      "end": 27.76,
+      "text": "valuable, they can focus more on keeping them than doing anything and everything to get more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094313,
+      "no_speech_prob": 0.028824
+    },
+    {
+      "index": 5,
+      "start": 27.76,
+      "end": 32.72,
+      "text": "But it's no longer just newspapers and magazines. Now, it's everything. Music,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115216,
+      "no_speech_prob": 0.028427
+    },
+    {
+      "index": 6,
+      "start": 32.72,
+      "end": 37.12,
+      "text": "movies, food, game, storage, clothes, razors, makeup, software, cars, animal, bones?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115216,
+      "no_speech_prob": 0.028427
+    },
+    {
+      "index": 7,
+      "start": 37.12,
+      "end": 41.36,
+      "text": "Seriously, Bonebox includes various osteological specimens, such as skulls,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115216,
+      "no_speech_prob": 0.028427
+    },
+    {
+      "index": 8,
+      "start": 41.36,
+      "end": 48.32,
+      "text": "claws, and teeth, for just $24.99 a month. Okay? Why does every business need to be a subscription?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115216,
+      "no_speech_prob": 0.028427
+    },
+    {
+      "index": 9,
+      "start": 48.32,
+      "end": 54.4,
+      "text": "Where does it end? Let's divide subscriptions into two categories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.115216,
+      "no_speech_prob": 0.028427
+    },
+    {
+      "index": 10,
+      "start": 54.4,
+      "end": 59.84,
+      "text": "Services, like Netflix, Prime, Lootcrate, and Spotify, kind of have to be subscriptions. Sure,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097391,
+      "no_speech_prob": 0.075867
+    },
+    {
+      "index": 11,
+      "start": 59.84,
+      "end": 65.28,
+      "text": "you can buy music and movies individually, but here, you get everything. 40 million songs on",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097391,
+      "no_speech_prob": 0.075867
+    },
+    {
+      "index": 12,
+      "start": 65.28,
+      "end": 72.56,
+      "text": "Apple Music times the usual $1.29 would be 51 million dollars. So, yeah. Subscription boxes,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097391,
+      "no_speech_prob": 0.075867
+    },
+    {
+      "index": 13,
+      "start": 72.56,
+      "end": 77.04,
+      "text": "which send you new things in the mail every month, are services because they're more about fun and",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097391,
+      "no_speech_prob": 0.075867
+    },
+    {
+      "index": 14,
+      "start": 77.04,
+      "end": 82.64,
+      "text": "surprise than the stuff itself. And then there are products. Things that could be sold, but here",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.097391,
+      "no_speech_prob": 0.075867
+    },
+    {
+      "index": 15,
+      "start": 82.64,
+      "end": 87.68,
+      "text": "are rented. And this is where things get hairy. You don't have to be a master Googler, or binger,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093613,
+      "no_speech_prob": 0.253662
+    },
+    {
+      "index": 16,
+      "start": 87.68,
+      "end": 92.32,
+      "text": "or duck-duck-goer, but boy, do those sound awkward, to find a million and a half people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093613,
+      "no_speech_prob": 0.253662
+    },
+    {
+      "index": 17,
+      "start": 92.32,
+      "end": 96.96,
+      "text": "criticizing this business model. But it's not actually subscriptions they're angry about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093613,
+      "no_speech_prob": 0.253662
+    },
+    {
+      "index": 18,
+      "start": 96.96,
+      "end": 102.16,
+      "text": "Nobody's complaining about Netflix or Spotify. It's really this second category, especially",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093613,
+      "no_speech_prob": 0.253662
+    },
+    {
+      "index": 19,
+      "start": 102.16,
+      "end": 107.36,
+      "text": "software. When companies want to reach in your wallet every month until you die, for what could",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093613,
+      "no_speech_prob": 0.253662
+    },
+    {
+      "index": 20,
+      "start": 107.36,
+      "end": 113.84,
+      "text": "be a simple, one-time purchase, it feels a lot like a cash grab. And sometimes, it totally is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061658,
+      "no_speech_prob": 0.313965
+    },
+    {
+      "index": 21,
+      "start": 113.84,
+      "end": 119.28,
+      "text": "Adobe switched to a monthly fee precisely to increase profit. But it's not always so simple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061658,
+      "no_speech_prob": 0.313965
+    },
+    {
+      "index": 22,
+      "start": 119.28,
+      "end": 125.12,
+      "text": "Even when they seem unnecessary, subscriptions can be good for everyone, including you and I.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061658,
+      "no_speech_prob": 0.313965
+    },
+    {
+      "index": 23,
+      "start": 125.12,
+      "end": 130.08,
+      "text": "Companies usually don't explain why. And when they do, it's easy to see as just an excuse to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061658,
+      "no_speech_prob": 0.313965
+    },
+    {
+      "index": 24,
+      "start": 130.08,
+      "end": 135.92,
+      "text": "make more money. But there is a why. And since my thing is taking complicated, controversial topics",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061658,
+      "no_speech_prob": 0.313965
+    },
+    {
+      "index": 25,
+      "start": 135.92,
+      "end": 139.12,
+      "text": "and trying to explain them in too little time, let's get to it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069283,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 26,
+      "start": 142.56,
+      "end": 148.4,
+      "text": "The idea of a rental is nothing new. We rent apartments and cars, and if you live in Alaska",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069283,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 27,
+      "start": 148.4,
+      "end": 153.44,
+      "text": "where there are still six blockbusters, movies. Hashtag someone tell Alaska about Netflix.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069283,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 28,
+      "start": 153.44,
+      "end": 158.16,
+      "text": "But nobody wants to rent, say, their lamp. When you don't have to, why would you?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069283,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 29,
+      "start": 158.16,
+      "end": 164.24,
+      "text": "Owning is just simpler and usually cheaper. Losing what we already own is especially frustrating.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069283,
+      "no_speech_prob": 0.011688
+    },
+    {
+      "index": 30,
+      "start": 164.24,
+      "end": 169.68,
+      "text": "Apps like Ulysses and Autodesk were a one-time purchase, then one day you get an email. I know",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116994,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 31,
+      "start": 169.68,
+      "end": 174.64,
+      "text": "you already bought this, but if you want to keep getting updates, now it costs $5 a month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116994,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 32,
+      "start": 174.64,
+      "end": 180.32,
+      "text": "Okay, thanks, bye. Ulysses was absolutely flooded with one-star reviews. Probably the most life the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116994,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 33,
+      "start": 180.32,
+      "end": 185.68,
+      "text": "Mac App Store has ever seen. And 50,000 people signed a Change.org petition against Adobe,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116994,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 34,
+      "start": 185.68,
+      "end": 189.68,
+      "text": "which, as we know, is very effective at spamming your email.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.116994,
+      "no_speech_prob": 0.026749
+    },
+    {
+      "index": 35,
+      "start": 189.68,
+      "end": 194.48,
+      "text": "But here's the problem. The way most people think about software just isn't realistic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 36,
+      "start": 194.48,
+      "end": 199.04,
+      "text": "Remember that lamp? What if every year you got this pop-up? Hey, you need to update to a new",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 37,
+      "start": 199.04,
+      "end": 204.16,
+      "text": "version of your house. If you don't, it'll be vulnerable to burglars. Sometimes it goes smoothly,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 38,
+      "start": 204.16,
+      "end": 209.04,
+      "text": "sometimes it permanently changes your wall sockets. Maybe to these cute little ones from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 39,
+      "start": 209.04,
+      "end": 213.76,
+      "text": "Denmark. And you think, what the heck, I bought that lamp, and now it's suddenly incompatible",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 40,
+      "start": 213.76,
+      "end": 218.64,
+      "text": "with my house for reasons completely beyond my control? The house is your operating system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.077493,
+      "no_speech_prob": 0.422119
+    },
+    {
+      "index": 41,
+      "start": 218.64,
+      "end": 223.76,
+      "text": "The lamp? Your software. Programming may seem like build once collect profit forever,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084186,
+      "no_speech_prob": 0.039642
+    },
+    {
+      "index": 42,
+      "start": 223.76,
+      "end": 228.88,
+      "text": "but if an app isn't updated, it dies. Technology just moves way too fast.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084186,
+      "no_speech_prob": 0.039642
+    },
+    {
+      "index": 43,
+      "start": 228.88,
+      "end": 234.48,
+      "text": "Knowing this, do you really want to own that lamp? Truly owning software means owning all its bugs",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084186,
+      "no_speech_prob": 0.039642
+    },
+    {
+      "index": 44,
+      "start": 234.48,
+      "end": 240.32,
+      "text": "and future incompatibility. Maybe your answer is yes, we'll get to that later. But me, if I really",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084186,
+      "no_speech_prob": 0.039642
+    },
+    {
+      "index": 45,
+      "start": 240.32,
+      "end": 244.56,
+      "text": "depend on something, and there's a chance it'll break in a year? Well, I'd rather rent it from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084186,
+      "no_speech_prob": 0.039642
+    },
+    {
+      "index": 46,
+      "start": 244.56,
+      "end": 249.28,
+      "text": "someone who maintains it. Fixing bugs is like Sisyphus endlessly pushing his boulder of the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070043,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 47,
+      "start": 249.28,
+      "end": 253.92,
+      "text": "mountain only for it to fall back down. You can't expect developers to do that forever,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070043,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 48,
+      "start": 253.92,
+      "end": 259.28,
+      "text": "just because you gave them 99 cents 3 years ago. You might say, obviously these apps don't need",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070043,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 49,
+      "start": 259.28,
+      "end": 264.72,
+      "text": "subscriptions because they did just fine before, but the truth is, they mostly didn't. Big companies",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070043,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 50,
+      "start": 264.72,
+      "end": 270.72,
+      "text": "always find a way to earn a profit. Adobe has the power and prominence to ask $53 a month,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070043,
+      "no_speech_prob": 0.334473
+    },
+    {
+      "index": 51,
+      "start": 270.72,
+      "end": 276.0,
+      "text": "and make billions doing it. But many apps, some of the best apps, are made by a single person,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09142,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 52,
+      "start": 276.0,
+      "end": 281.2,
+      "text": "or a small team of them. They compete with 2-3 million others, and a feeling that if you can't",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09142,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 53,
+      "start": 281.2,
+      "end": 286.24,
+      "text": "hold something, it shouldn't cost anything. So unless you trademark the word candy, seriously",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09142,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 54,
+      "start": 286.24,
+      "end": 291.36,
+      "text": "that actually happened, or spend millions advertising, your sales look like this. A huge",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09142,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 55,
+      "start": 291.36,
+      "end": 296.48,
+      "text": "spike in the beginning may be some seasonal bumps, and then almost nothing. You might make half your",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.09142,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 56,
+      "start": 296.48,
+      "end": 302.32,
+      "text": "salary on the first day, but by the 20th or 50th, things don't look so good. So you have a few",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07614,
+      "no_speech_prob": 0.429932
+    },
+    {
+      "index": 57,
+      "start": 302.32,
+      "end": 307.6,
+      "text": "options. You can get more customers, do some marketing, keep updating the app, and cross your",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07614,
+      "no_speech_prob": 0.429932
+    },
+    {
+      "index": 58,
+      "start": 307.6,
+      "end": 312.96,
+      "text": "fingers. Or more accurately, pray to the App Store gods. Sometimes this can work, but the App Store",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07614,
+      "no_speech_prob": 0.429932
+    },
+    {
+      "index": 59,
+      "start": 312.96,
+      "end": 319.12,
+      "text": "isn't like YouTube, doing everything it can to bring audiences to your videos. Right, YouTube?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07614,
+      "no_speech_prob": 0.429932
+    },
+    {
+      "index": 60,
+      "start": 319.12,
+      "end": 324.64,
+      "text": "Even a great app can get stuck in a corner and never be found. And eventually, everyone who needs",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07614,
+      "no_speech_prob": 0.429932
+    },
+    {
+      "index": 61,
+      "start": 324.64,
+      "end": 330.32,
+      "text": "your app will already have it. Plenty of happy customers, and no more income for you. Or if",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049994,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 62,
+      "start": 330.32,
+      "end": 335.6,
+      "text": "sales are so good at the beginning, just release as many paid updates as possible. Again, sometimes",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049994,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 63,
+      "start": 335.6,
+      "end": 340.96,
+      "text": "it works, but it can also be a dangerous trap, because the incentive is to release as many paid",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049994,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 64,
+      "start": 340.96,
+      "end": 346.08,
+      "text": "updates as you can. Just enough new features to make people pay, but not so many that you can't",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049994,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 65,
+      "start": 346.08,
+      "end": 352.0,
+      "text": "do it again in a few months. And sooner or later, it'll be good enough for 99% of us. But hey,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049994,
+      "no_speech_prob": 0.132935
+    },
+    {
+      "index": 66,
+      "start": 352.0,
+      "end": 356.16,
+      "text": "gotta keep making money, so you'll keep cramming in new unnecessary features.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106008,
+      "no_speech_prob": 0.522949
+    },
+    {
+      "index": 67,
+      "start": 356.16,
+      "end": 361.44,
+      "text": "That was Microsoft Office. What I ask from Ward is pretty basic. When I press a key on my keyboard,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106008,
+      "no_speech_prob": 0.522949
+    },
+    {
+      "index": 68,
+      "start": 361.44,
+      "end": 366.64,
+      "text": "I want that same letter to show on my screen. Take Note's MacBook Pro keyboard. And I guess",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106008,
+      "no_speech_prob": 0.522949
+    },
+    {
+      "index": 69,
+      "start": 366.64,
+      "end": 372.8,
+      "text": "fonts and tables and images are cool too. But I have absolutely zero need for 3D pie charts,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106008,
+      "no_speech_prob": 0.522949
+    },
+    {
+      "index": 70,
+      "start": 372.8,
+      "end": 377.76,
+      "text": "or smart tags, or research tools, or talking paperclip. Actually, I take that last one back,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.106008,
+      "no_speech_prob": 0.522949
+    },
+    {
+      "index": 71,
+      "start": 378.16,
+      "end": 382.48,
+      "text": "Office was so profitable, Microsoft just kept adding and adding and adding,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 72,
+      "start": 382.48,
+      "end": 386.48,
+      "text": "until it forgot Word is just, you know, a place to write stuff. At this point,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 73,
+      "start": 386.48,
+      "end": 390.8,
+      "text": "I'll just use Google Docs, where I actually know what the buttons do. For many apps,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 74,
+      "start": 390.8,
+      "end": 395.6,
+      "text": "neither option is sustainable. And even if you feel zero sympathy for developers,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 75,
+      "start": 395.6,
+      "end": 401.12,
+      "text": "it's in your best interest to find a solution. Because if you rely on an app for your business,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 76,
+      "start": 401.12,
+      "end": 406.8,
+      "text": "or hobby, or security, you want to incentivize its developer to care just as much as you do.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076416,
+      "no_speech_prob": 0.199219
+    },
+    {
+      "index": 77,
+      "start": 406.8,
+      "end": 411.76,
+      "text": "We can say companies should update their apps forever, and always answer support tickets,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079861,
+      "no_speech_prob": 0.019119
+    },
+    {
+      "index": 78,
+      "start": 411.76,
+      "end": 416.64,
+      "text": "or we can design a system where they actually want to. For many apps, that's a subscription,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079861,
+      "no_speech_prob": 0.019119
+    },
+    {
+      "index": 79,
+      "start": 416.64,
+      "end": 421.2,
+      "text": "taking what you would have paid upfront, and handing it out over time. If developers want to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079861,
+      "no_speech_prob": 0.019119
+    },
+    {
+      "index": 80,
+      "start": 421.2,
+      "end": 426.48,
+      "text": "keep getting paid, they want to keep you happy. Over time, subscriptions cost more. But for that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079861,
+      "no_speech_prob": 0.019119
+    },
+    {
+      "index": 81,
+      "start": 426.48,
+      "end": 431.44,
+      "text": "you're guaranteed updates, and support, and compatibility. Plus, it rewards the apps you",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079861,
+      "no_speech_prob": 0.019119
+    },
+    {
+      "index": 82,
+      "start": 431.52,
+      "end": 436.96,
+      "text": "use the longest. In some industries, these better incentives are even more desperately needed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093817,
+      "no_speech_prob": 0.644043
+    },
+    {
+      "index": 83,
+      "start": 436.96,
+      "end": 443.12,
+      "text": "For news companies, the goal is more clicks, more views, more ads, usually the worst kinds of ads.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093817,
+      "no_speech_prob": 0.644043
+    },
+    {
+      "index": 84,
+      "start": 443.12,
+      "end": 448.08,
+      "text": "Clickbait only stops if clicks stop being profitable, which is the promise of subscriptions",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093817,
+      "no_speech_prob": 0.644043
+    },
+    {
+      "index": 85,
+      "start": 448.08,
+      "end": 453.68,
+      "text": "like Blendl and Inkel, one price for all the articles you want, or a small micropayment per",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093817,
+      "no_speech_prob": 0.644043
+    },
+    {
+      "index": 86,
+      "start": 453.68,
+      "end": 458.72,
+      "text": "article, refunded if it turns out to be clickbait. The goal is no longer to deceive you, but keep",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093817,
+      "no_speech_prob": 0.644043
+    },
+    {
+      "index": 87,
+      "start": 458.72,
+      "end": 464.16,
+      "text": "you subscribed. Subscriptions give sites like above Avalon, Kotke, and Mac Stories freedom to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085558,
+      "no_speech_prob": 0.464355
+    },
+    {
+      "index": 88,
+      "start": 464.16,
+      "end": 469.44,
+      "text": "make quality content on really specific topics, instead of whatever it takes to attract huge",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085558,
+      "no_speech_prob": 0.464355
+    },
+    {
+      "index": 89,
+      "start": 469.44,
+      "end": 474.64,
+      "text": "audiences. It also lets you and I try things out. Maybe you only need a service occasionally,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085558,
+      "no_speech_prob": 0.464355
+    },
+    {
+      "index": 90,
+      "start": 474.64,
+      "end": 479.12,
+      "text": "in which case you can subscribe only when you actually need it. But because people think only",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085558,
+      "no_speech_prob": 0.464355
+    },
+    {
+      "index": 91,
+      "start": 479.12,
+      "end": 483.92,
+      "text": "of services as subscriptions, products often try to argue they're actually a service,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.085558,
+      "no_speech_prob": 0.464355
+    },
+    {
+      "index": 92,
+      "start": 483.92,
+      "end": 489.36,
+      "text": "something like we store and sync your data which costs us money. But not very much. All this does",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094024,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 93,
+      "start": 489.36,
+      "end": 494.4,
+      "text": "is create distrust. Developers should be upfront. What you're really paying for is longevity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094024,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 94,
+      "start": 494.4,
+      "end": 503.25,
+      "text": "which is in everyone's best interest. But there is a catch. One movie ticket is an entire month",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094024,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 95,
+      "start": 503.25,
+      "end": 508.53,
+      "text": "of Netflix, and then some factor in popcorn savings and make it a lifetime. You could own",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094024,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 96,
+      "start": 508.53,
+      "end": 514.45,
+      "text": "one single album or every noise ever made on planet earth for the price of a few cups of coffee.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094024,
+      "no_speech_prob": 0.164429
+    },
+    {
+      "index": 97,
+      "start": 514.45,
+      "end": 519.57,
+      "text": "But when everything is the price of one or two cups of coffee, you can very quickly end up buying",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079997,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 98,
+      "start": 519.57,
+      "end": 525.49,
+      "text": "a whole Starbucks. Set you subscribe to Netflix, Amazon Prime, Spotify, Dropbox, and Blue Apron.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079997,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 99,
+      "start": 525.49,
+      "end": 530.69,
+      "text": "That's over $100 a month. Add Creative Cloud, YouTube TV, and The New York Times,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079997,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 100,
+      "start": 530.69,
+      "end": 535.81,
+      "text": "and it's another hundred. And this is just the beginning. Apple takes 30% of an app's revenue,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079997,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 101,
+      "start": 535.81,
+      "end": 541.65,
+      "text": "but for long term subscriptions, now only 15, so more and more businesses are going to make use.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079997,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 102,
+      "start": 541.65,
+      "end": 547.97,
+      "text": "For movies alone, there's already Netflix, Amazon, Hulu, HBO, Showtime, and soon Disney and Apple.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079928,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 103,
+      "start": 547.97,
+      "end": 553.73,
+      "text": "So not everything can or should be a subscription. Things you use only occasionally and don't rely",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079928,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 104,
+      "start": 553.73,
+      "end": 558.45,
+      "text": "on have no reason to be, or should at least have another option for people who fall into that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079928,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 105,
+      "start": 558.45,
+      "end": 563.89,
+      "text": "category. The app's sketch finds a good balance. One upfront price with one year of updates. You",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079928,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 106,
+      "start": 563.89,
+      "end": 569.17,
+      "text": "can treat it like a subscription, or you cannot. Another solution is bundles. One price from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079928,
+      "no_speech_prob": 0.056641
+    },
+    {
+      "index": 107,
+      "start": 569.17,
+      "end": 573.65,
+      "text": "multiple subscriptions. Setup, for example, does this with Mac applications, and more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 108,
+      "start": 573.65,
+      "end": 578.53,
+      "text": "companies will follow. Apple could have one for Apple Music, Streaming Video, iCloud Storage,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 109,
+      "start": 578.53,
+      "end": 583.49,
+      "text": "maybe some other things. Amazon Prime has shown how well this strategy can work. Students get",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 110,
+      "start": 583.49,
+      "end": 588.45,
+      "text": "Spotify and Hulu together for less than either separately. Or, how about a subscription to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 111,
+      "start": 588.45,
+      "end": 593.49,
+      "text": "be a great student, on topics like physics, computer science, and problem solving. Brilliant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 112,
+      "start": 593.49,
+      "end": 598.13,
+      "text": "helps you learn new things in a way that you actually understand, not just memorize for the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087462,
+      "no_speech_prob": 0.206787
+    },
+    {
+      "index": 113,
+      "start": 598.13,
+      "end": 603.49,
+      "text": "next test. Last term, I took a math class covering some differential equations. All pretty vague",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 114,
+      "start": 603.49,
+      "end": 608.29,
+      "text": "and theoretical. But after looking at the lesson on Brilliant, I really wish I had known about it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 115,
+      "start": 608.29,
+      "end": 612.85,
+      "text": "It starts by explaining why the concept actually matters, and what it's all about,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 116,
+      "start": 612.85,
+      "end": 618.05,
+      "text": "with visuals and questions to give you instant feedback. If you answer incorrectly, Brilliant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 117,
+      "start": 618.05,
+      "end": 622.61,
+      "text": "doesn't just mark your answer red and move on. It helps you understand how to get it right.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 118,
+      "start": 622.61,
+      "end": 627.97,
+      "text": "If you're a student or like learning new things, find a topic that peaks your interest and dive in.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065144,
+      "no_speech_prob": 0.018539
+    },
+    {
+      "index": 119,
+      "start": 627.97,
+      "end": 632.77,
+      "text": "I recommend computer science algorithms. It's pretty interesting, and gives you a peek at how",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095271,
+      "no_speech_prob": 0.036194
+    },
+    {
+      "index": 120,
+      "start": 632.77,
+      "end": 638.85,
+      "text": "our technology works. And speaking of subscriptions, it's really the ideal. Premium is one low price,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095271,
+      "no_speech_prob": 0.036194
+    },
+    {
+      "index": 121,
+      "start": 638.85,
+      "end": 643.09,
+      "text": "they keep adding new topics all the time, and you have the freedom to jump around to learn",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095271,
+      "no_speech_prob": 0.036194
+    },
+    {
+      "index": 122,
+      "start": 643.09,
+      "end": 647.65,
+      "text": "exactly what interests you the most. You can support Polymatter by going to the link in the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095271,
+      "no_speech_prob": 0.036194
+    },
+    {
+      "index": 123,
+      "start": 647.65,
+      "end": 654.05,
+      "text": "description, Brilliant.org slash Polymatter. And the first 200 people to use that will get 20% off",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095271,
+      "no_speech_prob": 0.036194
+    },
+    {
+      "index": 124,
+      "start": 654.05,
+      "end": 659.65,
+      "text": "the annual Premium subscription. Thanks to Brilliant and to everyone who gives it a try.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.243945,
+      "no_speech_prob": 0.534668
+    }
+  ],
+  "created_at": "2026-11-12T19:15:55+0800"
+}

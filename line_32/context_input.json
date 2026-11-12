@@ -1,0 +1,766 @@
+{
+  "clip_id": "line_32",
+  "family": "line",
+  "video_id": "6Xa9T2OMzmw",
+  "source_url": "https://www.youtube.com/watch?v=6Xa9T2OMzmw",
+  "source_title": "How wealth inequality is dangerous for America",
+  "target_window_source": {
+    "start": 21.0,
+    "end": 25.0
+  },
+  "target_mask_interval": {
+    "start": 19.5,
+    "end": 26.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    4,
+    5
+  ],
+  "masked_cue_ids": [
+    4,
+    5,
+    6
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.33,
+      "end": 5.33,
+      "text": "We hold these truths to be self-evident that all men and women are clearly equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 1,
+      "start": 5.33,
+      "end": 8.33,
+      "text": "Just kidding. Sorry. No.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 2,
+      "start": 8.33,
+      "end": 13.33,
+      "text": "We're not all equal. Inequality, in fact, gets a ton of attention these days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 3,
+      "start": 13.33,
+      "end": 17.33,
+      "text": "President Obama called it, quote, the defining challenge of our time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    }
+  ],
+  "context_after": [
+    {
+      "index": 7,
+      "start": 29.33,
+      "end": 31.33,
+      "text": "Really think about that for a second.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 8,
+      "start": 31.33,
+      "end": 37.33,
+      "text": "For every dollar paid in income in the US, almost a quarter of it goes to the top 1%, a quarter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 9,
+      "start": 37.33,
+      "end": 42.33,
+      "text": "But income inequality is actually less dangerous than its cousin, wealth inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 10,
+      "start": 42.33,
+      "end": 45.33,
+      "text": "The top 1% hold closer to 40% of the national wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 11,
+      "start": 45.33,
+      "end": 49.33,
+      "text": "So for every dollar in American assets, that's home, stock, savings, all that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 12,
+      "start": 49.33,
+      "end": 52.33,
+      "text": "40 cents of it belongs to the top 1%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 13,
+      "start": 52.33,
+      "end": 58.33,
+      "text": "The top 1% holds more wealth in America than the bottom 90% of the country combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 14,
+      "start": 58.33,
+      "end": 61.33,
+      "text": "And a lot of that money gets passed on to their children, or their children's children.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 15,
+      "start": 61.33,
+      "end": 64.33,
+      "text": "Take the heirs of Sam Walden, founder of Walmart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 16,
+      "start": 64.33,
+      "end": 67.33,
+      "text": "None of them founded Walmart. None of them were created equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 17,
+      "start": 67.33,
+      "end": 70.33,
+      "text": "Either the six of them have more than $140 billion in wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 18,
+      "start": 70.33,
+      "end": 75.33,
+      "text": "That makes those six people wealthier than the bottom 40% of Americans combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 19,
+      "start": 75.33,
+      "end": 78.33,
+      "text": "Now, there's an upside to income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 20,
+      "start": 78.33,
+      "end": 82.33,
+      "text": "That income is a reward for people who start their businesses and do great things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 21,
+      "start": 82.33,
+      "end": 86.33,
+      "text": "You can like income inequality, you can hate it, but at least it is money they earned in this lifetime,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 22,
+      "start": 86.33,
+      "end": 90.33,
+      "text": "usually through talent or risk or hard work, with a little bit of luck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 23,
+      "start": 90.33,
+      "end": 92.33,
+      "text": "But wealth inequality isn't like that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 24,
+      "start": 92.33,
+      "end": 95.33,
+      "text": "That money is often a reward for people who are born in a bright family,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 25,
+      "start": 95.33,
+      "end": 97.33,
+      "text": "and it's money that keeps growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 26,
+      "start": 97.33,
+      "end": 101.33,
+      "text": "That's a big point economist Thomas Piketty makes in his new book, Capital.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 27,
+      "start": 101.33,
+      "end": 107.33,
+      "text": "The rate of the return on capital or wealth is higher than the growth rate of the overall economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 28,
+      "start": 107.33,
+      "end": 111.33,
+      "text": "So people who have a lot of wealth, they tend to get wealthier and wealthier and wealthier",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 29,
+      "start": 111.33,
+      "end": 114.33,
+      "text": "unless something like a war or attacks intervenes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 30,
+      "start": 114.33,
+      "end": 117.33,
+      "text": "One way they get wealthier, by the way, is politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 31,
+      "start": 117.33,
+      "end": 119.33,
+      "text": "A lot of money can buy you a lot of political speech,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 32,
+      "start": 119.33,
+      "end": 124.33,
+      "text": "particularly now that the Supreme Court is systematically dismantling the limits on buying political speech.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 33,
+      "start": 124.33,
+      "end": 126.33,
+      "text": "This is a doom loop of oligarchy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 34,
+      "start": 126.33,
+      "end": 129.33,
+      "text": "Wealth buys power, power buys more wealth, more wealth means more power,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 35,
+      "start": 129.33,
+      "end": 133.33,
+      "text": "more power means more wealth, and on and on and on we go until a very small fraction of the population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 36,
+      "start": 133.33,
+      "end": 136.33,
+      "text": "has a whole lot of the power and a whole lot of the money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 37,
+      "start": 136.33,
+      "end": 139.33,
+      "text": "So no, all men and women aren't born equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 38,
+      "start": 139.33,
+      "end": 142.33,
+      "text": "Some are born really, really wealthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.33,
+      "end": 5.33,
+      "text": "We hold these truths to be self-evident that all men and women are clearly equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 1,
+      "start": 5.33,
+      "end": 8.33,
+      "text": "Just kidding. Sorry. No.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 2,
+      "start": 8.33,
+      "end": 13.33,
+      "text": "We're not all equal. Inequality, in fact, gets a ton of attention these days.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 3,
+      "start": 13.33,
+      "end": 17.33,
+      "text": "President Obama called it, quote, the defining challenge of our time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.150174,
+      "no_speech_prob": 0.046631
+    },
+    {
+      "index": 7,
+      "start": 29.33,
+      "end": 31.33,
+      "text": "Really think about that for a second.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 8,
+      "start": 31.33,
+      "end": 37.33,
+      "text": "For every dollar paid in income in the US, almost a quarter of it goes to the top 1%, a quarter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 9,
+      "start": 37.33,
+      "end": 42.33,
+      "text": "But income inequality is actually less dangerous than its cousin, wealth inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 10,
+      "start": 42.33,
+      "end": 45.33,
+      "text": "The top 1% hold closer to 40% of the national wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 11,
+      "start": 45.33,
+      "end": 49.33,
+      "text": "So for every dollar in American assets, that's home, stock, savings, all that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 12,
+      "start": 49.33,
+      "end": 52.33,
+      "text": "40 cents of it belongs to the top 1%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 13,
+      "start": 52.33,
+      "end": 58.33,
+      "text": "The top 1% holds more wealth in America than the bottom 90% of the country combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068989,
+      "no_speech_prob": 0.016907
+    },
+    {
+      "index": 14,
+      "start": 58.33,
+      "end": 61.33,
+      "text": "And a lot of that money gets passed on to their children, or their children's children.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 15,
+      "start": 61.33,
+      "end": 64.33,
+      "text": "Take the heirs of Sam Walden, founder of Walmart.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 16,
+      "start": 64.33,
+      "end": 67.33,
+      "text": "None of them founded Walmart. None of them were created equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 17,
+      "start": 67.33,
+      "end": 70.33,
+      "text": "Either the six of them have more than $140 billion in wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 18,
+      "start": 70.33,
+      "end": 75.33,
+      "text": "That makes those six people wealthier than the bottom 40% of Americans combined.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 19,
+      "start": 75.33,
+      "end": 78.33,
+      "text": "Now, there's an upside to income inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 20,
+      "start": 78.33,
+      "end": 82.33,
+      "text": "That income is a reward for people who start their businesses and do great things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 21,
+      "start": 82.33,
+      "end": 86.33,
+      "text": "You can like income inequality, you can hate it, but at least it is money they earned in this lifetime,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.074439,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 22,
+      "start": 86.33,
+      "end": 90.33,
+      "text": "usually through talent or risk or hard work, with a little bit of luck.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 23,
+      "start": 90.33,
+      "end": 92.33,
+      "text": "But wealth inequality isn't like that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 24,
+      "start": 92.33,
+      "end": 95.33,
+      "text": "That money is often a reward for people who are born in a bright family,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 25,
+      "start": 95.33,
+      "end": 97.33,
+      "text": "and it's money that keeps growing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 26,
+      "start": 97.33,
+      "end": 101.33,
+      "text": "That's a big point economist Thomas Piketty makes in his new book, Capital.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 27,
+      "start": 101.33,
+      "end": 107.33,
+      "text": "The rate of the return on capital or wealth is higher than the growth rate of the overall economy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 28,
+      "start": 107.33,
+      "end": 111.33,
+      "text": "So people who have a lot of wealth, they tend to get wealthier and wealthier and wealthier",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 29,
+      "start": 111.33,
+      "end": 114.33,
+      "text": "unless something like a war or attacks intervenes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.088561,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 30,
+      "start": 114.33,
+      "end": 117.33,
+      "text": "One way they get wealthier, by the way, is politics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 31,
+      "start": 117.33,
+      "end": 119.33,
+      "text": "A lot of money can buy you a lot of political speech,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 32,
+      "start": 119.33,
+      "end": 124.33,
+      "text": "particularly now that the Supreme Court is systematically dismantling the limits on buying political speech.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 33,
+      "start": 124.33,
+      "end": 126.33,
+      "text": "This is a doom loop of oligarchy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 34,
+      "start": 126.33,
+      "end": 129.33,
+      "text": "Wealth buys power, power buys more wealth, more wealth means more power,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 35,
+      "start": 129.33,
+      "end": 133.33,
+      "text": "more power means more wealth, and on and on and on we go until a very small fraction of the population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 36,
+      "start": 133.33,
+      "end": 136.33,
+      "text": "has a whole lot of the power and a whole lot of the money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 37,
+      "start": 136.33,
+      "end": 139.33,
+      "text": "So no, all men and women aren't born equal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    },
+    {
+      "index": 38,
+      "start": 139.33,
+      "end": 142.33,
+      "text": "Some are born really, really wealthy.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.073363,
+      "no_speech_prob": 0.003765
+    }
+  ],
+  "context_text_chronological": "We hold these truths to be self-evident that all men and women are clearly equal. Just kidding. Sorry. No. We're not all equal. Inequality, in fact, gets a ton of attention these days. President Obama called it, quote, the defining challenge of our time. Really think about that for a second. For every dollar paid in income in the US, almost a quarter of it goes to the top 1%, a quarter. But income inequality is actually less dangerous than its cousin, wealth inequality. The top 1% hold closer to 40% of the national wealth. So for every dollar in American assets, that's home, stock, savings, all that, 40 cents of it belongs to the top 1%. The top 1% holds more wealth in America than the bottom 90% of the country combined. And a lot of that money gets passed on to their children, or their children's children. Take the heirs of Sam Walden, founder of Walmart. None of them founded Walmart. None of them were created equal. Either the six of them have more than $140 billion in wealth. That makes those six people wealthier than the bottom 40% of Americans combined. Now, there's an upside to income inequality. That income is a reward for people who start their businesses and do great things. You can like income inequality, you can hate it, but at least it is money they earned in this lifetime, usually through talent or risk or hard work, with a little bit of luck. But wealth inequality isn't like that. That money is often a reward for people who are born in a bright family, and it's money that keeps growing. That's a big point economist Thomas Piketty makes in his new book, Capital. The rate of the return on capital or wealth is higher than the growth rate of the overall economy. So people who have a lot of wealth, they tend to get wealthier and wealthier and wealthier unless something like a war or attacks intervenes. One way they get wealthier, by the way, is politics. A lot of money can buy you a lot of political speech, particularly now that the Supreme Court is systematically dismantling the limits on buying political speech. This is a doom loop of oligarchy. Wealth buys power, power buys more wealth, more wealth means more power, more power means more wealth, and on and on and on we go until a very small fraction of the population has a whole lot of the power and a whole lot of the money. So no, all men and women aren't born equal. Some are born really, really wealthy.",
+  "target_text_for_audit": "But usually, when people are talking about inequality, they're talking about income inequality. And income inequality is at its highest level since the Great Depression.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 2,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "But usually, when people are talking about inequality, they're talking about income inequality.",
+        "start_source": 17.04,
+        "end_source": 21.28,
+        "matching_cue_ids": [
+          4
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "And income inequality is at its highest level since the Great Depression.",
+        "start_source": 21.7,
+        "end_source": 24.62,
+        "matching_cue_ids": [
+          5
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\6Xa9T2OMzmw.mp4",
+    "cue_count": 39
+  },
+  "token_estimate_char_div_4": 602
+}

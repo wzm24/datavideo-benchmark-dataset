@@ -1,7 +1,7 @@
 {
  "clip_id": "area_45",
  "family": "area",
- "sub_type": "stacked_area",
+ "sub_type": "multi_area_overlay",
  "orientation": "cartesian",
  "series_count": 3,
  "has_reference_line": false,
@@ -10,12 +10,43 @@
  "has_legend": null,
  "has_value_labels": null,
  "text_count": 15,
- "row_count": 105,
+ "row_count": 411,
  "derived_from": [
   "data_table",
   "semantic.svg"
  ],
  "confidence": "medium",
- "needs_review": true,
- "time_behavior": "snapshot"
+ "needs_review": false,
+ "time_behavior": "snapshot",
+ "stacked": false,
+ "fill_under": true,
+ "x_axis_ticks": [
+  1980,
+  1990,
+  2000,
+  2010
+ ],
+ "axis_ranges": {
+  "x": {
+   "mode": "year",
+   "ticks": [
+    1980,
+    1990,
+    2000,
+    2010
+   ]
+  },
+  "y": {
+   "mode": "linear",
+   "min": -10,
+   "max": 430,
+   "unit": "percent_growth"
+  }
+ },
+ "final_values": {
+  "Top 0.01%": 420.0,
+  "Middle 40%": 50.0,
+  "Bottom 50%": 15.0
+ },
+ "batch_status": "approved"
 }

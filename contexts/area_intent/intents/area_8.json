@@ -1,0 +1,68 @@
+{
+ "clip": "area_8",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that world population rose from 1.02 billion in 1800 to 8.00 billion in 2014.",
+ "proposed_intent": "Trace the change in world population from 1800 to 2014 using the provided data.",
+ "writer": {
+  "intent": "Trace the change in world population from 1800 to 2014 using the provided data.",
+  "entities": [
+   "world population"
+  ],
+  "measure": "World population (billions)",
+  "scope": "1800 to 2014",
+  "comparison": "Change over time from 1800 to 2014",
+  "withheld_answer": "World population rose from 1.02 billion in 1800 to 8.00 billion in 2014."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 14,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4215,
+   "completion_tokens": 107,
+   "total_tokens": 4322,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 4087
+  },
+  {
+   "prompt_tokens": 4146,
+   "completion_tokens": 56,
+   "total_tokens": 4202,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4146
+  }
+ ],
+ "sec": 2.1
+}

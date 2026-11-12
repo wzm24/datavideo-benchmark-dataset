@@ -1,0 +1,216 @@
+{
+ "clip_id": "donut_23",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the share of electricity generated from nuclear power with the share from solar energy across both panels.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "Panel 1",
+      "series": ""
+     },
+     {
+      "panel": "Panel 2",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the nuclear share in Panel 1 with the solar share in Panel 2",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Panel 1.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Panel 1",
+     "series": "",
+     "entity": "Nuclear",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Panel 2.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "Panel 2",
+     "series": "",
+     "entity": "Solar",
+     "label": "",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "cross_panel_compare",
+   "claim": "Nuclear accounts for 10.6% of electricity generated in Panel 1, while solar accounts for 6.3% in Panel 2; the nuclear share is larger.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Panel 1",
+     "series": "",
+     "entity": "Nuclear",
+     "metric": "share_of_electricity_generated",
+     "field": "relative_value",
+     "value": "0.106",
+     "table_value": "10.6",
+     "table_relative_value": "0.106",
+     "unit": "%",
+     "relative_value": "0.106",
+     "label": "",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Panel 1"
+    },
+    {
+     "row_id": "r2",
+     "panel": "Panel 2",
+     "series": "",
+     "entity": "Solar",
+     "metric": "share_of_electricity_generated",
+     "field": "relative_value",
+     "value": "0.063",
+     "table_value": "6.3",
+     "table_relative_value": "0.063",
+     "unit": "%",
+     "relative_value": "0.063",
+     "label": "",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Panel 2"
+    }
+   ],
+   "computation": "compare 0.106 vs 0.063",
+   "accept": [
+    "Nuclear share (10.6%) is greater than solar share (6.3%) across the two panels",
+    "Panel 1 nuclear is 10.6% and Panel 2 solar is 6.3%, with nuclear higher"
+   ],
+   "reject": [
+    "Nuclear and solar shares are equal",
+    "Solar share is greater than nuclear share",
+    "Only one panel's share is shown without the other"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.33333333,
+  "U2": 0.33333333,
+  "U3": 0.33333333
+ },
+ "optional_valid": [
+  "Showing each partial ring/gauge filled to its respective percentage"
+ ],
+ "unsupported_to_avoid": [
+  "Adding nuclear and solar shares together",
+  "Treating the two panels as parts of one whole",
+  "Inferring a remainder or total electricity mix not stated in the data"
+ ],
+ "review_notes": [
+  "The intent is a cross-panel comparison of two named shares, not a within-panel composition ranking.",
+  "Each panel has a single labeled gauge value; no complement is specified."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "Panel 1",
+    "series": "",
+    "entity": "Nuclear",
+    "metric": "share_of_electricity_generated",
+    "value": "10.6",
+    "unit": "%",
+    "relative_value": "0.106",
+    "label": "",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Panel 1"
+   },
+   {
+    "row_id": "r2",
+    "panel": "Panel 2",
+    "series": "",
+    "entity": "Solar",
+    "metric": "share_of_electricity_generated",
+    "value": "6.3",
+    "unit": "%",
+    "relative_value": "0.063",
+    "label": "",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Panel 2"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

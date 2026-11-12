@@ -1,105 +1,152 @@
 {
  "clip_id": "pie_4",
  "family": "pie",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "pie_4",
   "family": "pie",
   "sub_type": "full_pie",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
-  "required_data_rows": 7,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1",
-   "U2",
-   "U3"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Public transportation | share_of_commute_modes"
+    "Public transportation",
+    "Drive alone",
+    "Taxi, motorcycle, or other",
+    "Work at home",
+    "Walk",
+    "Carpool",
+    "Bicycle"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "Public transportation | share_of_commute_modes",
-      "expected": 5.2
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 7,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
    "unit_id": "U2",
-   "unit_kind": "key_value_extreme",
+   "unit_kind": "share_of_whole",
    "must_be_visualized": true,
-   "evidence_type": "extremum_mark",
+   "evidence_type": "share_of_whole",
    "required_marks": [
-    "Drive alone | share_of_commute_modes"
+    "Public transportation",
+    "Drive alone",
+    "Taxi, motorcycle, or other",
+    "Work at home",
+    "Walk",
+    "Carpool",
+    "Bicycle"
    ],
    "assertion": {
-    "mark": "Drive alone | share_of_commute_modes",
-    "extreme": "max",
-    "expected": 76.0,
-    "compared_set": "all numeric rows in the same composition",
-    "tolerance": 0.02
+    "shares": [
+     {
+      "mark": "Public transportation",
+      "entity": "Public transportation",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.052,
+      "expected_value": 5.2
+     },
+     {
+      "mark": "Drive alone",
+      "entity": "Drive alone",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.76,
+      "expected_value": 76.0
+     },
+     {
+      "mark": "Taxi, motorcycle, or other",
+      "entity": "Taxi, motorcycle, or other",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.017,
+      "expected_value": 1.7
+     },
+     {
+      "mark": "Work at home",
+      "entity": "Work at home",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.051,
+      "expected_value": 5.1
+     },
+     {
+      "mark": "Walk",
+      "entity": "Walk",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.025,
+      "expected_value": 2.5
+     },
+     {
+      "mark": "Carpool",
+      "entity": "Carpool",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.082,
+      "expected_value": 8.2
+     },
+     {
+      "mark": "Bicycle",
+      "entity": "Bicycle",
+      "whole_scope": "share_of_commute_modes",
+      "expected_relative_value": 0.01,
+      "expected_value": 1.0
+     }
+    ],
+    "expected_relation": "Each named commute mode occupies its listed percentage share of the whole commute-mode composition: Public transportation 5.2%, Drive alone 76%, Taxi/motorcycle/other 1.7%, Work at home 5.1%, Walk 2.5%, Carpool 8.2%, Bicycle 1.0%."
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
    "unit_id": "U3",
-   "unit_kind": "comparison",
+   "unit_kind": "composition_order",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "sector_ordering",
    "required_marks": [
-    "Drive alone | share_of_commute_modes",
-    "Public transportation | share_of_commute_modes"
+    "Drive alone",
+    "Carpool",
+    "Public transportation",
+    "Work at home",
+    "Walk",
+    "Taxi, motorcycle, or other",
+    "Bicycle"
    ],
    "assertion": {
-    "greater": "Drive alone | share_of_commute_modes",
-    "greater_value": 76.0,
-    "lesser": "Public transportation | share_of_commute_modes",
-    "lesser_value": 5.2,
-    "delta": 70.8,
-    "ratio": 14.615385,
-    "expected_order": [
-     "Drive alone | share_of_commute_modes",
-     "Public transportation | share_of_commute_modes"
+    "order": [
+     "Drive alone",
+     "Carpool",
+     "Public transportation",
+     "Work at home",
+     "Walk",
+     "Taxi, motorcycle, or other",
+     "Bicycle"
     ],
-    "tolerance": 0.02
+    "expected_relation": "Within the same whole, Drive alone is the largest share, followed by Carpool, then Public transportation and Work at home (nearly equal), then Walk, then Taxi/motorcycle/other, then Bicycle as the smallest."
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   }
  ]

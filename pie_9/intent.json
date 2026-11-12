@@ -1,7 +1,6 @@
 {
  "clip_id": "pie_9",
- "intent_en": "To illustrate Dubai's economic transition from a near-total reliance on the pearl industry to a diversified economy following the discovery of oil, highlighting the lesson of not depending on a single resource.",
- "previous_intent": "To illustrate Dubai's economic diversification from a pearl-dependent industry to oil and infrastructure development following the discovery of oil in 1966.",
+ "intent_en": "Identify the pearl industry's share of Gulf exports before the rise of cultured pearls.",
  "narration_support": "never rely on just one resource",
  "chart_support": "Pie chart with a UAE flag showing a large dominant segment (representing the historical dominance of the pearl industry) flanked by a blue shell with a wrench (symbolizing industrial development/infrastructure) and a pink shell with a pearl (symbolizing the pearl industry)",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that the pearl industry accounted for 95% of the Gulf's exports before Japanese cultured pearls devastated Dubai's income.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Identify the pearl industry's share of Gulf exports before the rise of cultured pearls.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

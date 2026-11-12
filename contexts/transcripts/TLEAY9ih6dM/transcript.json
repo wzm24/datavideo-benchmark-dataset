@@ -1,0 +1,594 @@
+{
+  "video_id": "TLEAY9ih6dM",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\TLEAY9ih6dM.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 288.74,
+  "duration_after_vad_seconds": 284.128,
+  "cue_count": 64,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.14,
+      "end": 4.86,
+      "text": "It can be dangerous to be a woman in India.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161728,
+      "no_speech_prob": 0.255127
+    },
+    {
+      "index": 1,
+      "start": 4.86,
+      "end": 10.58,
+      "text": "The brutal gang rape and subsequent death of a female student in Delhi in 2012 put the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161728,
+      "no_speech_prob": 0.255127
+    },
+    {
+      "index": 2,
+      "start": 10.58,
+      "end": 15.38,
+      "text": "global spotlight on the problem of gender-based violence in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161728,
+      "no_speech_prob": 0.255127
+    },
+    {
+      "index": 3,
+      "start": 15.38,
+      "end": 21.54,
+      "text": "Years later, the topic is also an emotive issue in the Indian general election campaign.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161728,
+      "no_speech_prob": 0.255127
+    },
+    {
+      "index": 4,
+      "start": 21.54,
+      "end": 26.86,
+      "text": "The opposition congress party says that India is not able to protect its women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.161728,
+      "no_speech_prob": 0.255127
+    },
+    {
+      "index": 5,
+      "start": 26.86,
+      "end": 33.7,
+      "text": "The BJP government, which took power in 2014, says it's enacted tough laws to combat violence",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 6,
+      "start": 33.7,
+      "end": 36.1,
+      "text": "against women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 7,
+      "start": 36.1,
+      "end": 39.74,
+      "text": "So are women in India any safer?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 8,
+      "start": 39.74,
+      "end": 44.86,
+      "text": "Violence against women can take many different forms and a lack of data can make it difficult",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 9,
+      "start": 44.86,
+      "end": 47.74,
+      "text": "to track changes over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 10,
+      "start": 47.74,
+      "end": 53.9,
+      "text": "Looking at just one aspect of violence against women, rape, helps illustrate this problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.162224,
+      "no_speech_prob": 0.044312
+    },
+    {
+      "index": 11,
+      "start": 53.9,
+      "end": 58.3,
+      "text": "Human government figures show that the number of rape cases being reported to the police",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 12,
+      "start": 58.3,
+      "end": 60.86,
+      "text": "has been increasing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 13,
+      "start": 60.86,
+      "end": 63.34,
+      "text": "Greater awareness may be behind this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 14,
+      "start": 63.34,
+      "end": 68.58,
+      "text": "There is also evidence that having more female police officers has had an effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 15,
+      "start": 68.58,
+      "end": 74.38,
+      "text": "And in 2013, the legal definition of rape was extended to include sexual acts involving",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 16,
+      "start": 74.38,
+      "end": 76.38,
+      "text": "any part of the body.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 17,
+      "start": 76.38,
+      "end": 80.74,
+      "text": "But the rise in cases being reported doesn't tell the whole story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135081,
+      "no_speech_prob": 0.140381
+    },
+    {
+      "index": 18,
+      "start": 80.74,
+      "end": 86.3,
+      "text": "Under Indian law, it is not considered rape if a husband has sex with his wife against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 19,
+      "start": 86.3,
+      "end": 90.38,
+      "text": "her will, unless she's under 16 years of age.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 20,
+      "start": 90.38,
+      "end": 95.18,
+      "text": "This means that a large number of rapes are not included in the official figures to begin",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 21,
+      "start": 95.18,
+      "end": 96.62,
+      "text": "with.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 22,
+      "start": 96.62,
+      "end": 101.58,
+      "text": "Of those women who have experienced sexual violence by someone other than their husband,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 23,
+      "start": 101.58,
+      "end": 107.14,
+      "text": "it's estimated that the vast majority do not report the crime to the police either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.127604,
+      "no_speech_prob": 0.365234
+    },
+    {
+      "index": 24,
+      "start": 107.14,
+      "end": 112.66,
+      "text": "But even when sexual violence is being reported, do women in India stand any better chance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 25,
+      "start": 112.66,
+      "end": 115.22,
+      "text": "of getting justice?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 26,
+      "start": 115.22,
+      "end": 120.42,
+      "text": "Government figures show that around a quarter of rape cases resulted in conviction.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 27,
+      "start": 120.42,
+      "end": 123.86,
+      "text": "It can be dangerous to be a woman in India.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 28,
+      "start": 123.86,
+      "end": 129.58,
+      "text": "The brutal gang rape and subsequent death of a female student in Delhi in 2012 put the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 29,
+      "start": 129.58,
+      "end": 134.7,
+      "text": "global spotlight on the problem of gender-based violence in the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130065,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 30,
+      "start": 134.7,
+      "end": 140.54,
+      "text": "Years later, the topic is also an emotive issue in the Indian general election campaign.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 31,
+      "start": 140.54,
+      "end": 145.86,
+      "text": "The opposition congress party says that India is not able to protect its women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 32,
+      "start": 145.86,
+      "end": 152.18,
+      "text": "But the BJP government, which took power in 2014, says it's enacted tough laws to combat",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 33,
+      "start": 152.18,
+      "end": 155.1,
+      "text": "violence against women.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 34,
+      "start": 155.1,
+      "end": 158.7,
+      "text": "So are women in India any safer?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 35,
+      "start": 158.7,
+      "end": 163.82,
+      "text": "Violence against women can take many different forms and a lack of data can make it difficult",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.128255,
+      "no_speech_prob": 0.437744
+    },
+    {
+      "index": 36,
+      "start": 163.82,
+      "end": 166.46,
+      "text": "to track changes over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 37,
+      "start": 166.46,
+      "end": 172.62,
+      "text": "Looking at just one aspect of violence against women, rape, helps illustrate this problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 38,
+      "start": 172.62,
+      "end": 177.3,
+      "text": "Indian government figures show that the number of rape cases being reported to the police",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 39,
+      "start": 177.3,
+      "end": 179.58,
+      "text": "has been increasing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 40,
+      "start": 179.58,
+      "end": 182.22,
+      "text": "Greater awareness may be behind this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 41,
+      "start": 182.22,
+      "end": 187.38,
+      "text": "There is also evidence that having more female police officers has had an effect.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 42,
+      "start": 187.38,
+      "end": 193.38,
+      "text": "And in 2013, the legal definition of rape was extended to include sexual acts involving",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.140625,
+      "no_speech_prob": 0.023468
+    },
+    {
+      "index": 43,
+      "start": 193.38,
+      "end": 195.38,
+      "text": "any part of the body.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 44,
+      "start": 195.38,
+      "end": 199.74,
+      "text": "But the rise in cases being reported doesn't tell the whole story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 45,
+      "start": 199.74,
+      "end": 205.3,
+      "text": "Under Indian law, it is not considered rape if a husband has sex with his wife against",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 46,
+      "start": 205.3,
+      "end": 209.38,
+      "text": "her will, unless she's under 16 years of age.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 47,
+      "start": 209.38,
+      "end": 214.18,
+      "text": "This means that a large number of rapes are not included in the official figures to begin",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 48,
+      "start": 214.18,
+      "end": 215.58,
+      "text": "with.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 49,
+      "start": 215.58,
+      "end": 220.54,
+      "text": "Of those women who have experienced sexual violence by someone other than their husband,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.135365,
+      "no_speech_prob": 0.078735
+    },
+    {
+      "index": 50,
+      "start": 220.54,
+      "end": 226.1,
+      "text": "it's estimated that the vast majority do not report the crime to the police either.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 51,
+      "start": 226.1,
+      "end": 231.62,
+      "text": "But even when sexual violence is being reported, do women in India stand any better chance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 52,
+      "start": 231.62,
+      "end": 234.18,
+      "text": "of getting justice?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 53,
+      "start": 234.18,
+      "end": 238.66,
+      "text": "Government figures show that around a quarter of rape cases resulted in convictions during",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 54,
+      "start": 238.66,
+      "end": 243.46,
+      "text": "the Congress-led government from 2009 to 2014.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 55,
+      "start": 243.46,
+      "end": 247.74,
+      "text": "Under the first three years of the current BJP government, there has not been a significant",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 56,
+      "start": 247.74,
+      "end": 249.3,
+      "text": "change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.122688,
+      "no_speech_prob": 0.054993
+    },
+    {
+      "index": 57,
+      "start": 249.3,
+      "end": 254.02,
+      "text": "This conviction rate is only for those cases that reached a conclusion, with one study",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118963,
+      "no_speech_prob": 0.149902
+    },
+    {
+      "index": 58,
+      "start": 254.02,
+      "end": 263.1,
+      "text": "suggesting that only 12-20% of rape trials between 2005 and 2016 have been completed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118963,
+      "no_speech_prob": 0.149902
+    },
+    {
+      "index": 59,
+      "start": 263.1,
+      "end": 266.1,
+      "text": "Cases can take a very long time to come to trial.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118963,
+      "no_speech_prob": 0.149902
+    },
+    {
+      "index": 60,
+      "start": 266.1,
+      "end": 271.14,
+      "text": "So last year, the government said it was setting up more than 1,000 fast-track courts to deal",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118963,
+      "no_speech_prob": 0.149902
+    },
+    {
+      "index": 61,
+      "start": 271.14,
+      "end": 274.18,
+      "text": "with the backlog of rape cases.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.118963,
+      "no_speech_prob": 0.149902
+    },
+    {
+      "index": 62,
+      "start": 274.18,
+      "end": 280.62,
+      "text": "And so, it is clear that women in India still face significant obstacles not only to reporting",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186908,
+      "no_speech_prob": 0.854004
+    },
+    {
+      "index": 63,
+      "start": 280.62,
+      "end": 283.78,
+      "text": "rape crimes, but also to seeing justice done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.186908,
+      "no_speech_prob": 0.854004
+    }
+  ],
+  "created_at": "2026-11-05T02:13:23+0800"
+}

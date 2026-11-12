@@ -1,0 +1,70 @@
+{
+ "clip": "area_19",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that Sub-Saharan Africa's population grew from 0.1 billion in 1950 to 1.1 billion in 2019 and is projected to reach between 2.7 billion and 5 billion by 2100.",
+ "proposed_intent": "Trace the population of Sub-Saharan Africa from 1950 through 2019 and its projected range to 2100.",
+ "writer": {
+  "intent": "Trace the population of Sub-Saharan Africa from 1950 through 2019 and its projected range to 2100.",
+  "entities": [
+   "Historical population",
+   "Projection lower",
+   "Projection upper"
+  ],
+  "measure": "Population (billions)",
+  "scope": "Sub-Saharan Africa, 1950 to 2100",
+  "comparison": "Historical population versus projection lower and projection upper",
+  "withheld_answer": "Population grew from 0.1 billion in 1950 to 1.1 billion in 2019 and is projected to reach between 2.7 billion and 5 billion by 2100."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 16,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 11758,
+   "completion_tokens": 141,
+   "total_tokens": 11899,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 11630
+  },
+  {
+   "prompt_tokens": 11694,
+   "completion_tokens": 56,
+   "total_tokens": 11750,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 11694
+  }
+ ],
+ "sec": 2.3
+}

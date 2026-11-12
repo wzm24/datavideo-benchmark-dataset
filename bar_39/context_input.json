@@ -1,0 +1,857 @@
+{
+  "clip_id": "bar_39",
+  "family": "bar",
+  "video_id": "pTwPHuE_HrU",
+  "source_url": "https://www.youtube.com/watch?v=pTwPHuE_HrU",
+  "source_title": "A better way to tax the rich",
+  "target_window_source": {
+    "start": 142.0,
+    "end": 163.0
+  },
+  "target_mask_interval": {
+    "start": 140.5,
+    "end": 164.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    30,
+    31,
+    32,
+    33
+  ],
+  "masked_cue_ids": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "text": "This is a chart of the wealth of every single American household.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 1,
+      "start": 5.0,
+      "end": 14.1,
+      "text": "That includes cars, houses, yachts, jewelry, and even cold hard cash.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 2,
+      "start": 14.1,
+      "end": 18.1,
+      "text": "It also includes things we owe other people, like student loans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 3,
+      "start": 18.1,
+      "end": 23.77,
+      "text": "So let's take a quick tour of American household wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 4,
+      "start": 23.77,
+      "end": 27.77,
+      "text": "We can start over here, where we see people who owe way more than they have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 5,
+      "start": 27.77,
+      "end": 32.77,
+      "text": "As we move further right, we can see, oh, that's me.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 6,
+      "start": 32.77,
+      "end": 37.77,
+      "text": "And there's my doctor, who owns an expensive home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 7,
+      "start": 37.77,
+      "end": 40.77,
+      "text": "And there's four more heavyweight boxer Mike Tyson.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 8,
+      "start": 40.77,
+      "end": 45.77,
+      "text": "But when we get to the very richest people in the world, oh hey, it's Beyonce.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 9,
+      "start": 45.77,
+      "end": 51.77,
+      "text": "We can zoom out so far that this chart looks like a stick, and we still can't see the top of their wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 10,
+      "start": 51.77,
+      "end": 56.77,
+      "text": "Because these people are so much wealthier than the rest of us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 11,
+      "start": 56.77,
+      "end": 59.77,
+      "text": "In other words, this chart doesn't just show wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 12,
+      "start": 59.77,
+      "end": 63.77,
+      "text": "It shows the staggering wealth inequality we have in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 13,
+      "start": 63.77,
+      "end": 70.77,
+      "text": "But recently, politicians have been talking about an idea that's never been done before in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 14,
+      "start": 70.77,
+      "end": 78.7,
+      "text": "To even out wealth, we should tax it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 15,
+      "start": 78.7,
+      "end": 82.7,
+      "text": "In January, Senator Elizabeth Warren proposed something called a wealth tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 16,
+      "start": 82.7,
+      "end": 84.7,
+      "text": "This was a big deal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 17,
+      "start": 84.7,
+      "end": 89.7,
+      "text": "Because this doesn't typically get taxed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 18,
+      "start": 89.7,
+      "end": 93.7,
+      "text": "Most of the taxes we pay only happen when money changes hands.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 19,
+      "start": 93.7,
+      "end": 97.7,
+      "text": "Like when we earn money, or spend money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 20,
+      "start": 97.7,
+      "end": 101.7,
+      "text": "But according to Warren, here's the problem with that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 21,
+      "start": 101.7,
+      "end": 105.7,
+      "text": "This bar represents my wealth, and this is my friend's wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 22,
+      "start": 105.7,
+      "end": 106.7,
+      "text": "I think he owns a yacht.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 23,
+      "start": 106.7,
+      "end": 112.7,
+      "text": "But because both of us have the same job and earn about the same amount of money, our income gets taxed about the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 24,
+      "start": 112.7,
+      "end": 119.7,
+      "text": "Two people who may have the same income, but are in wildly different economic circumstances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 25,
+      "start": 119.7,
+      "end": 124.7,
+      "text": "So to fix it, Warren wants to tax the actual wealth people have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 26,
+      "start": 124.7,
+      "end": 127.7,
+      "text": "But only for the very, very rich.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 27,
+      "start": 127.7,
+      "end": 129.7,
+      "text": "Here's your proposal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 28,
+      "start": 129.7,
+      "end": 136.7,
+      "text": "All the wealth above this line, $50 million, would be taxed at 2% each year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    }
+  ],
+  "context_after": [
+    {
+      "index": 35,
+      "start": 167.7,
+      "end": 171.7,
+      "text": "Well, only the richest 0.05% of Americans would pay this tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075592,
+      "no_speech_prob": 0.004753
+    },
+    {
+      "index": 36,
+      "start": 171.7,
+      "end": 176.7,
+      "text": "But in 2016, the government could have raised about $200 billion from it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 37,
+      "start": 176.7,
+      "end": 181.7,
+      "text": "That could pay for a plan that makes public college tuition free three times over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 38,
+      "start": 181.7,
+      "end": 187.7,
+      "text": "It could pay for all federal food assistance programs like food stamps two times over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 39,
+      "start": 187.7,
+      "end": 191.7,
+      "text": "It could get close to cutting child poverty by 60%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 40,
+      "start": 191.7,
+      "end": 195.7,
+      "text": "These are massive programs that would help millions of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 41,
+      "start": 195.7,
+      "end": 200.7,
+      "text": "And what makes that possible is the huge amount of wealth stuck here",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 42,
+      "start": 200.7,
+      "end": 204.7,
+      "text": "at the very, very top with the ultra-rich.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101863,
+      "no_speech_prob": 0.063599
+    },
+    {
+      "index": 43,
+      "start": 204.7,
+      "end": 210.48,
+      "text": "A wealth tax hones in on that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101863,
+      "no_speech_prob": 0.063599
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "text": "This is a chart of the wealth of every single American household.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 1,
+      "start": 5.0,
+      "end": 14.1,
+      "text": "That includes cars, houses, yachts, jewelry, and even cold hard cash.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 2,
+      "start": 14.1,
+      "end": 18.1,
+      "text": "It also includes things we owe other people, like student loans.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 3,
+      "start": 18.1,
+      "end": 23.77,
+      "text": "So let's take a quick tour of American household wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 4,
+      "start": 23.77,
+      "end": 27.77,
+      "text": "We can start over here, where we see people who owe way more than they have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 5,
+      "start": 27.77,
+      "end": 32.77,
+      "text": "As we move further right, we can see, oh, that's me.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.108389,
+      "no_speech_prob": 0.065491
+    },
+    {
+      "index": 6,
+      "start": 32.77,
+      "end": 37.77,
+      "text": "And there's my doctor, who owns an expensive home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 7,
+      "start": 37.77,
+      "end": 40.77,
+      "text": "And there's four more heavyweight boxer Mike Tyson.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 8,
+      "start": 40.77,
+      "end": 45.77,
+      "text": "But when we get to the very richest people in the world, oh hey, it's Beyonce.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 9,
+      "start": 45.77,
+      "end": 51.77,
+      "text": "We can zoom out so far that this chart looks like a stick, and we still can't see the top of their wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 10,
+      "start": 51.77,
+      "end": 56.77,
+      "text": "Because these people are so much wealthier than the rest of us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 11,
+      "start": 56.77,
+      "end": 59.77,
+      "text": "In other words, this chart doesn't just show wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.07963,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 12,
+      "start": 59.77,
+      "end": 63.77,
+      "text": "It shows the staggering wealth inequality we have in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 13,
+      "start": 63.77,
+      "end": 70.77,
+      "text": "But recently, politicians have been talking about an idea that's never been done before in America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 14,
+      "start": 70.77,
+      "end": 78.7,
+      "text": "To even out wealth, we should tax it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 15,
+      "start": 78.7,
+      "end": 82.7,
+      "text": "In January, Senator Elizabeth Warren proposed something called a wealth tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 16,
+      "start": 82.7,
+      "end": 84.7,
+      "text": "This was a big deal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 17,
+      "start": 84.7,
+      "end": 89.7,
+      "text": "Because this doesn't typically get taxed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 18,
+      "start": 89.7,
+      "end": 93.7,
+      "text": "Most of the taxes we pay only happen when money changes hands.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050379,
+      "no_speech_prob": 0.003824
+    },
+    {
+      "index": 19,
+      "start": 93.7,
+      "end": 97.7,
+      "text": "Like when we earn money, or spend money.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 20,
+      "start": 97.7,
+      "end": 101.7,
+      "text": "But according to Warren, here's the problem with that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 21,
+      "start": 101.7,
+      "end": 105.7,
+      "text": "This bar represents my wealth, and this is my friend's wealth.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 22,
+      "start": 105.7,
+      "end": 106.7,
+      "text": "I think he owns a yacht.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 23,
+      "start": 106.7,
+      "end": 112.7,
+      "text": "But because both of us have the same job and earn about the same amount of money, our income gets taxed about the same.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 24,
+      "start": 112.7,
+      "end": 119.7,
+      "text": "Two people who may have the same income, but are in wildly different economic circumstances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.070699,
+      "no_speech_prob": 0.005554
+    },
+    {
+      "index": 25,
+      "start": 119.7,
+      "end": 124.7,
+      "text": "So to fix it, Warren wants to tax the actual wealth people have.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 26,
+      "start": 124.7,
+      "end": 127.7,
+      "text": "But only for the very, very rich.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 27,
+      "start": 127.7,
+      "end": 129.7,
+      "text": "Here's your proposal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 28,
+      "start": 129.7,
+      "end": 136.7,
+      "text": "All the wealth above this line, $50 million, would be taxed at 2% each year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.087911,
+      "no_speech_prob": 0.058319
+    },
+    {
+      "index": 35,
+      "start": 167.7,
+      "end": 171.7,
+      "text": "Well, only the richest 0.05% of Americans would pay this tax.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075592,
+      "no_speech_prob": 0.004753
+    },
+    {
+      "index": 36,
+      "start": 171.7,
+      "end": 176.7,
+      "text": "But in 2016, the government could have raised about $200 billion from it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 37,
+      "start": 176.7,
+      "end": 181.7,
+      "text": "That could pay for a plan that makes public college tuition free three times over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 38,
+      "start": 181.7,
+      "end": 187.7,
+      "text": "It could pay for all federal food assistance programs like food stamps two times over.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 39,
+      "start": 187.7,
+      "end": 191.7,
+      "text": "It could get close to cutting child poverty by 60%.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 40,
+      "start": 191.7,
+      "end": 195.7,
+      "text": "These are massive programs that would help millions of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 41,
+      "start": 195.7,
+      "end": 200.7,
+      "text": "And what makes that possible is the huge amount of wealth stuck here",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058513,
+      "no_speech_prob": 0.069519
+    },
+    {
+      "index": 42,
+      "start": 200.7,
+      "end": 204.7,
+      "text": "at the very, very top with the ultra-rich.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101863,
+      "no_speech_prob": 0.063599
+    },
+    {
+      "index": 43,
+      "start": 204.7,
+      "end": 210.48,
+      "text": "A wealth tax hones in on that.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.101863,
+      "no_speech_prob": 0.063599
+    }
+  ],
+  "context_text_chronological": "This is a chart of the wealth of every single American household. That includes cars, houses, yachts, jewelry, and even cold hard cash. It also includes things we owe other people, like student loans. So let's take a quick tour of American household wealth. We can start over here, where we see people who owe way more than they have. As we move further right, we can see, oh, that's me. And there's my doctor, who owns an expensive home. And there's four more heavyweight boxer Mike Tyson. But when we get to the very richest people in the world, oh hey, it's Beyonce. We can zoom out so far that this chart looks like a stick, and we still can't see the top of their wealth. Because these people are so much wealthier than the rest of us. In other words, this chart doesn't just show wealth. It shows the staggering wealth inequality we have in America. But recently, politicians have been talking about an idea that's never been done before in America. To even out wealth, we should tax it. In January, Senator Elizabeth Warren proposed something called a wealth tax. This was a big deal. Because this doesn't typically get taxed. Most of the taxes we pay only happen when money changes hands. Like when we earn money, or spend money. But according to Warren, here's the problem with that. This bar represents my wealth, and this is my friend's wealth. I think he owns a yacht. But because both of us have the same job and earn about the same amount of money, our income gets taxed about the same. Two people who may have the same income, but are in wildly different economic circumstances. So to fix it, Warren wants to tax the actual wealth people have. But only for the very, very rich. Here's your proposal. All the wealth above this line, $50 million, would be taxed at 2% each year. Well, only the richest 0.05% of Americans would pay this tax. But in 2016, the government could have raised about $200 billion from it. That could pay for a plan that makes public college tuition free three times over. It could pay for all federal food assistance programs like food stamps two times over. It could get close to cutting child poverty by 60%. These are massive programs that would help millions of people. And what makes that possible is the huge amount of wealth stuck here at the very, very top with the ultra-rich. A wealth tax hones in on that.",
+  "target_text_for_audit": "So if you have $40 million, you'd pay nothing. If you have $60 million, you'd pay nothing on your first $50 million, but 2% on the $10 million after that. Or $200,000. And if you have $2 billion, you'd pay about $49 million.",
+  "verification": {
+    "status": "needs_review",
+    "threshold": 0.25,
+    "existing_narration_sentences": 6,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "So if you have forty million dollars, you'd pay nothing.",
+        "start_source": 142.92,
+        "end_source": 145.5,
+        "matching_cue_ids": [
+          30
+        ],
+        "text_similarity": 0.8367,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "If you have sixty million dollars,",
+        "start_source": 145.82,
+        "end_source": 148.08,
+        "matching_cue_ids": [
+          31
+        ],
+        "text_similarity": 0.3942,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "you'd pay nothing on your first fifty million, but two percent on the ten million after that,",
+        "start_source": 148.62,
+        "end_source": 154.32,
+        "matching_cue_ids": [
+          31
+        ],
+        "text_similarity": 0.7385,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "or two hundred thousand dollars.",
+        "start_source": 154.82,
+        "end_source": 156.44,
+        "matching_cue_ids": [
+          32
+        ],
+        "text_similarity": 0.1905,
+        "time_overlap": true,
+        "passes": false
+      },
+      {
+        "sentence_id": "sent_005",
+        "text": "And if you have two billion dollars,",
+        "start_source": 157.26,
+        "end_source": 159.38,
+        "matching_cue_ids": [
+          33
+        ],
+        "text_similarity": 0.6517,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_006",
+        "text": "you'd pay about forty nine million dollars.",
+        "start_source": 160.04,
+        "end_source": 163.52,
+        "matching_cue_ids": [
+          33
+        ],
+        "text_similarity": 0.5,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\pTwPHuE_HrU.mp4",
+    "cue_count": 44
+  },
+  "token_estimate_char_div_4": 589
+}

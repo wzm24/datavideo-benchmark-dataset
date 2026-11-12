@@ -1,0 +1,2867 @@
+{
+  "clip_id": "line_9",
+  "family": "line",
+  "video_id": "cKQLKf3dS1Y",
+  "source_url": "https://www.youtube.com/watch?v=cKQLKf3dS1Y",
+  "source_title": "The End of the SAT?",
+  "target_window_source": {
+    "start": 294.0,
+    "end": 316.0
+  },
+  "target_mask_interval": {
+    "start": 292.5,
+    "end": 317.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "masked_cue_ids": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.96,
+      "text": "This video is sponsored by CuriosityStream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 1,
+      "start": 2.96,
+      "end": 6.4,
+      "text": "Use the link in the description to watch thousands of documentaries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 2,
+      "start": 6.4,
+      "end": 12.0,
+      "text": "and for the same price, exclusive and ad-free videos from your favorite creators on Nebula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 3,
+      "start": 12.72,
+      "end": 18.96,
+      "text": "Of the countless companies, industries, and facets of life affected by the coronavirus pandemic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 4,
+      "start": 18.96,
+      "end": 23.36,
+      "text": "one stands out in particular, college admissions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 5,
+      "start": 23.36,
+      "end": 27.52,
+      "text": "While airlines can be bailed out, workplaces can adapt,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 6,
+      "start": 27.52,
+      "end": 31.44,
+      "text": "and the unemployed can expect some degree of emergency support.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 7,
+      "start": 31.44,
+      "end": 37.44,
+      "text": "For high school juniors and seniors, 2020 represents not just one year of lost",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 8,
+      "start": 37.44,
+      "end": 41.12,
+      "text": "income or hardship, but potentially a lifetime.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 9,
+      "start": 41.76,
+      "end": 48.4,
+      "text": "This and next year's graduating class have a lot to gain or lose from changes in college admissions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 10,
+      "start": 48.4,
+      "end": 52.16,
+      "text": "and we're therefore watching closely to see how they would respond.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 11,
+      "start": 52.96,
+      "end": 56.88,
+      "text": "First, the college board announced AP tests would go online.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 12,
+      "start": 57.52,
+      "end": 60.56,
+      "text": "After preparing all year for the very specific,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 13,
+      "start": 60.56,
+      "end": 65.76,
+      "text": "approximately three-hour format consisting of both multiple choice and free responses,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 14,
+      "start": 65.76,
+      "end": 72.64,
+      "text": "the test would be shortened to 45 minutes, include only the written section, and also be sent to teachers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 15,
+      "start": 73.36,
+      "end": 78.72,
+      "text": "While some praised the college board for adapting to the circumstances in just eight weeks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 16,
+      "start": 78.72,
+      "end": 80.88,
+      "text": "others raised concerns of fairness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 17,
+      "start": 81.52,
+      "end": 86.24,
+      "text": "This year, to prevent cheating, every student took their exams at the same time,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 18,
+      "start": 86.24,
+      "end": 91.12,
+      "text": "meaning, for example, a student in California would begin their computer science test at the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 19,
+      "start": 91.12,
+      "end": 96.64,
+      "text": "convenient time of 11 a.m., while someone in Tokyo would have to start at 3 a.m.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 20,
+      "start": 97.28,
+      "end": 103.84,
+      "text": "Not all students, of course, have the same access to technology or a calm, quiet testing environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 21,
+      "start": 103.84,
+      "end": 110.32,
+      "text": "Some simply got unlucky, their Wi-Fi stopped working or their phones froze and had to retake it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 22,
+      "start": 110.96,
+      "end": 113.52,
+      "text": "The SAT was in even worse shape.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 23,
+      "start": 114.16,
+      "end": 120.48,
+      "text": "In March, as new coronavirus cases exploded in the US, many testing centers were forced to close,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 24,
+      "start": 120.48,
+      "end": 122.56,
+      "text": "sometimes on short or no notice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 25,
+      "start": 123.2,
+      "end": 129.04,
+      "text": "The May and then June SATs were cancelled, and preparations are now being made for fall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 26,
+      "start": 129.84,
+      "end": 135.28,
+      "text": "After first announcing it would also go online, the college board has now reversed that decision,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 27,
+      "start": 135.28,
+      "end": 140.96,
+      "text": "saying it plans on holding one test a month from August through the end of the year, all in person.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 28,
+      "start": 141.68,
+      "end": 147.28,
+      "text": "Knowing these circumstances, a number of schools began dropping their SAT and ACT requirements.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 29,
+      "start": 147.84,
+      "end": 154.16,
+      "text": "Dartmouth, Harvard, Princeton, Yale, Stanford, Cornell, all UC schools, and hundreds of others",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 30,
+      "start": 154.16,
+      "end": 157.6,
+      "text": "have announced they're becoming test optional for at least the next year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 31,
+      "start": 158.24,
+      "end": 164.08,
+      "text": "But rather than delaying the course of history, the coronavirus seems to be propelling it forward,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 32,
+      "start": 164.64,
+      "end": 166.4,
+      "text": "5, 10, or even 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 33,
+      "start": 166.96,
+      "end": 172.88,
+      "text": "What was before unthinkable, not going to the movies, working from home, and learning from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 34,
+      "start": 172.88,
+      "end": 179.76,
+      "text": "your laptop, is now being forced upon us, setting a precedent that may extend far beyond the virus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 35,
+      "start": 179.76,
+      "end": 184.96,
+      "text": "If employees can work just as effectively from home without the cost of running an office,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 36,
+      "start": 184.96,
+      "end": 186.8,
+      "text": "why not keep doing so?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 37,
+      "start": 186.8,
+      "end": 191.2,
+      "text": "And if this batch of students can skip the SAT, why can't all?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 38,
+      "start": 192.16,
+      "end": 196.4,
+      "text": "The first thing to note is that test optional may not mean what you think it does.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 39,
+      "start": 196.96,
+      "end": 202.16,
+      "text": "Many schools require scores from all applicants, but on the other end of the spectrum,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 40,
+      "start": 202.16,
+      "end": 207.12,
+      "text": "only a very small number are test blind, meaning even if students submit them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 41,
+      "start": 207.12,
+      "end": 211.12,
+      "text": "they'll only be used for things like financial aid, not admissions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 42,
+      "start": 211.76,
+      "end": 214.0,
+      "text": "Most are somewhere in between.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 43,
+      "start": 214.0,
+      "end": 219.68,
+      "text": "Some schools forgo test scores for students who meet a certain threshold, GPA, or class rank.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 44,
+      "start": 219.76,
+      "end": 226.08,
+      "text": "Others vary based on major, and finally, about 700 allow students to decide themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 45,
+      "start": 226.72,
+      "end": 230.56,
+      "text": "Test optional doesn't necessarily mean scores aren't important,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 46,
+      "start": 230.56,
+      "end": 233.84,
+      "text": "make admissions easier, or that you shouldn't submit them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 47,
+      "start": 234.4,
+      "end": 238.88,
+      "text": "It does mean that if you don't submit them, you'll need other strong qualifications to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 48,
+      "start": 238.88,
+      "end": 239.84,
+      "text": "stay competitive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 49,
+      "start": 240.56,
+      "end": 242.88,
+      "text": "And here lies the puzzle.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 50,
+      "start": 242.88,
+      "end": 247.36,
+      "text": "If a school believes standardized tests to be a strong predictor of college success,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 51,
+      "start": 247.36,
+      "end": 249.92,
+      "text": "one would expect them to be mandatory.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 52,
+      "start": 249.92,
+      "end": 254.32,
+      "text": "On the other hand, if they don't, you'd expect schools to not even consider them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 53,
+      "start": 254.96,
+      "end": 259.84,
+      "text": "Why would so many schools allow students to decide how much information to give them?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 54,
+      "start": 260.48,
+      "end": 264.88,
+      "text": "Information which could affect their graduation rate, academic performance,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 55,
+      "start": 264.88,
+      "end": 266.64,
+      "text": "and, eventually, endowment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 56,
+      "start": 267.36,
+      "end": 269.92,
+      "text": "A few clues may help answer this question.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 57,
+      "start": 270.48,
+      "end": 274.96,
+      "text": "Research shows a few things usually happen when schools go test optional.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 58,
+      "start": 275.52,
+      "end": 277.36,
+      "text": "First, more students apply.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 59,
+      "start": 278.0,
+      "end": 282.96,
+      "text": "Naturally, when universities make it easier to do so, whether by using the common application",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 60,
+      "start": 282.96,
+      "end": 286.96,
+      "text": "or removing requirements like test scores, more will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 61,
+      "start": 286.96,
+      "end": 289.92,
+      "text": "Of course, schools aren't accepting more applicants,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    }
+  ],
+  "context_after": [
+    {
+      "index": 70,
+      "start": 318.0,
+      "end": 322.88,
+      "text": "The College Board explicitly states that SAT scores should not be used to compare schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 71,
+      "start": 323.44,
+      "end": 324.56,
+      "text": "And yet, they are.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 72,
+      "start": 325.2,
+      "end": 329.6,
+      "text": "By going test optional, schools may improve on college rankings,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 73,
+      "start": 329.6,
+      "end": 332.88,
+      "text": "even if their true average scores actually decreased.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 74,
+      "start": 333.44,
+      "end": 341.84,
+      "text": "7.75% of the U.S. News College Ranking Formula, for example, is based on SAT and ACT scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 75,
+      "start": 341.84,
+      "end": 346.96,
+      "text": "Although this number is discounted by 15%, if fewer than three-quarters of new students",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 76,
+      "start": 346.96,
+      "end": 351.76,
+      "text": "in a particular year don't submit scores, it still leaves plenty of room for schools to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 77,
+      "start": 351.76,
+      "end": 352.96,
+      "text": "game the system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 78,
+      "start": 352.96,
+      "end": 356.88,
+      "text": "Either by ensuring 75.1% of students submit,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 79,
+      "start": 356.88,
+      "end": 360.72,
+      "text": "or by making up for the discount with extremely high average scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 80,
+      "start": 361.36,
+      "end": 366.32,
+      "text": "Bond rating agencies also use average scores to assess a school student demand,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 81,
+      "start": 366.32,
+      "end": 368.48,
+      "text": "and from it determine creditworthiness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 82,
+      "start": 369.36,
+      "end": 373.36,
+      "text": "Finally, a third effect of going test optional is disputed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 83,
+      "start": 373.36,
+      "end": 375.36,
+      "text": "It may increase diversity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 84,
+      "start": 375.92,
+      "end": 381.68,
+      "text": "The question is, do standardized tests help alleviate or amplify inequality?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 85,
+      "start": 382.24,
+      "end": 386.32,
+      "text": "Some studies suggest the former, while others come to the latter conclusion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 86,
+      "start": 386.96,
+      "end": 392.56,
+      "text": "In general, admissions officers agree that the number one best predictors of college success",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 87,
+      "start": 392.56,
+      "end": 397.44,
+      "text": "are similar high school classes, like AP, IB, and honors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 88,
+      "start": 397.44,
+      "end": 402.48,
+      "text": "It's no surprise that arduous semester or year-long courses would better prepare students",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 89,
+      "start": 402.48,
+      "end": 408.72,
+      "text": "for arduous semester or year-long courses than, say, a three-hour exam by itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 90,
+      "start": 409.28,
+      "end": 414.32,
+      "text": "The difficulty is that every teacher and every high school and every city, county, and state",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 91,
+      "start": 414.32,
+      "end": 416.32,
+      "text": "teaches and grades differently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 92,
+      "start": 416.32,
+      "end": 419.84,
+      "text": "It's also been observed that grades are inflating over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 93,
+      "start": 419.84,
+      "end": 426.4,
+      "text": "There are far fewer C's and D's and far more A's and B's today than there were 10 years ago.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 94,
+      "start": 427.04,
+      "end": 432.64,
+      "text": "Thus, admissions officers can and should treat high school GPA as the most important metric,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 95,
+      "start": 432.64,
+      "end": 438.56,
+      "text": "the College Board argues, but combined with national standardized SAT scores to compare",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 96,
+      "start": 438.56,
+      "end": 440.88,
+      "text": "and confirm these numbers between schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 97,
+      "start": 441.68,
+      "end": 446.24,
+      "text": "How much the SAT adds in predictive power, researchers disagree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 98,
+      "start": 446.24,
+      "end": 450.48,
+      "text": "But admissions officers tend to agree that high grades and low test scores",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 99,
+      "start": 450.48,
+      "end": 451.76,
+      "text": "are better than the reverse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 100,
+      "start": 452.4,
+      "end": 456.88,
+      "text": "And it's these students who stand to benefit from test optional policies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 101,
+      "start": 456.88,
+      "end": 462.48,
+      "text": "They're disproportionately first generation to college, women, low income, and speak a second",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 102,
+      "start": 462.48,
+      "end": 463.44,
+      "text": "language at home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 103,
+      "start": 464.0,
+      "end": 469.68,
+      "text": "While the SAT may confirm high GPAs for most students, it may make someone in this group",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 104,
+      "start": 469.68,
+      "end": 471.84,
+      "text": "look worse for no good reason.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 105,
+      "start": 471.84,
+      "end": 476.56,
+      "text": "For example, they may not have access to test prep or have the free time to take the exam",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 106,
+      "start": 476.56,
+      "end": 477.36,
+      "text": "several times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 107,
+      "start": 478.0,
+      "end": 483.04,
+      "text": "It's widely known that household income is strongly correlated with test performance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 108,
+      "start": 483.04,
+      "end": 484.48,
+      "text": "and for obvious reasons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 109,
+      "start": 485.04,
+      "end": 490.24,
+      "text": "Test fees, while insignificant for high income households, can be prohibitive for the poor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 110,
+      "start": 490.88,
+      "end": 497.12,
+      "text": "Many low income students are given two free SAT exams, but wealthy students are still more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 111,
+      "start": 497.12,
+      "end": 499.84,
+      "text": "likely to have taken the SAT multiple times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 112,
+      "start": 500.48,
+      "end": 506.08,
+      "text": "Schools in wealthier areas also provide greater assistance with the SAT and college admissions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 113,
+      "start": 506.08,
+      "end": 507.68,
+      "text": "not to mention private help.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 114,
+      "start": 508.24,
+      "end": 514.32,
+      "text": "Many studies suggest test prep leads to an overall 20 to 30 point increase on the SAT,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 115,
+      "start": 514.32,
+      "end": 518.88,
+      "text": "sometimes only by teaching test taking strategies, rather than actual material.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 116,
+      "start": 519.44,
+      "end": 524.8,
+      "text": "Test coaches, another branch of the SAT economy, sometimes help their clients apply for learning",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 117,
+      "start": 524.8,
+      "end": 527.76,
+      "text": "disabilities in order to obtain more time on the exam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 118,
+      "start": 528.4,
+      "end": 532.96,
+      "text": "On the other hand, test optional policies place greater emphasis on things like high",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 119,
+      "start": 532.96,
+      "end": 538.72,
+      "text": "school curriculum and extracurricular activities, both of which are less accessible in some areas",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 120,
+      "start": 538.72,
+      "end": 540.8,
+      "text": "and for some socioeconomic groups.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 121,
+      "start": 541.36,
+      "end": 546.56,
+      "text": "Avoiding the SAT, in other words, may simply introduce a new form of inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 122,
+      "start": 547.2,
+      "end": 552.96,
+      "text": "But while not requiring the SAT and ACT may or may not help increase diversity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 123,
+      "start": 552.96,
+      "end": 556.64,
+      "text": "it definitely helps strengthen other metrics like acceptance rate,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 124,
+      "start": 556.72,
+      "end": 559.2,
+      "text": "which makes schools look more selective.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 125,
+      "start": 559.2,
+      "end": 563.84,
+      "text": "It's impossible to know which of these reasons truly motivate schools to try test",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 126,
+      "start": 563.84,
+      "end": 568.88,
+      "text": "optional policies, but it does strongly suggest why they stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 127,
+      "start": 569.52,
+      "end": 574.24,
+      "text": "Schools now say they're adjusting this and next year's requirements to help ease the hardships",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 128,
+      "start": 574.24,
+      "end": 579.04,
+      "text": "faced by students, which should come as no surprise at a time when they expect fewer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 129,
+      "start": 579.04,
+      "end": 581.52,
+      "text": "applicants and greater financial difficulties.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 130,
+      "start": 582.16,
+      "end": 586.96,
+      "text": "This year, the University of California Schools President made headlines for announcing that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 131,
+      "start": 586.96,
+      "end": 593.92,
+      "text": "all UC schools will be test optional for the next two years, then test blind for two more after that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 132,
+      "start": 593.92,
+      "end": 597.2,
+      "text": "and then phase out the SAT and ACT completely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 133,
+      "start": 597.76,
+      "end": 602.64,
+      "text": "Critics have praised the decision for making higher education more fair and diverse,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 134,
+      "start": 602.64,
+      "end": 609.76,
+      "text": "except the UC system isn't abandoning standardized testing, but creating its own test to use instead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 135,
+      "start": 609.76,
+      "end": 615.2,
+      "text": "In many ways, it's reminiscent of 2001, when the then UC President delivered a speech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 136,
+      "start": 615.2,
+      "end": 620.8,
+      "text": "recommending its schools abandon the SAT, which prompted the College Board to redesign the test.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 137,
+      "start": 621.44,
+      "end": 628.0,
+      "text": "Whether intentional or not, these are negotiations, not so subtle reminders to the College Board",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 138,
+      "start": 628.0,
+      "end": 633.36,
+      "text": "that its true customers aren't students, but schools, and that if it can't create the test",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 139,
+      "start": 633.36,
+      "end": 636.48,
+      "text": "schools want, they can make it themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 140,
+      "start": 637.44,
+      "end": 642.24,
+      "text": "If you're a student, you've probably realized that learning from home is tough.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 141,
+      "start": 642.24,
+      "end": 646.48,
+      "text": "It requires more self-discipline, motivation, and study skills.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 142,
+      "start": 646.48,
+      "end": 652.0,
+      "text": "While lucky for you, it just so happens I and a bunch of other YouTubers have created Nebula,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 143,
+      "start": 652.0,
+      "end": 657.36,
+      "text": "a new streaming service for the best educational videos, so you can learn new study habits,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 144,
+      "start": 657.36,
+      "end": 662.32,
+      "text": "expand your knowledge, and take a break with exclusive high-quality originals,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 145,
+      "start": 662.32,
+      "end": 664.72,
+      "text": "ad-free, and on all your devices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 146,
+      "start": 664.72,
+      "end": 668.88,
+      "text": "We've partnered with CuriosityStream so that when you sign up for their collection",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 147,
+      "start": 668.88,
+      "end": 673.2,
+      "text": "of thousands of high-quality history, science, and nature documentaries,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 148,
+      "start": 673.2,
+      "end": 676.88,
+      "text": "you also get access to Nebula at no extra cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 149,
+      "start": 677.52,
+      "end": 683.04,
+      "text": "Right now, it's on sale for just $15 a year, or just under $1.25 a month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 150,
+      "start": 683.6,
+      "end": 688.64,
+      "text": "This is a fantastic deal and all you have to do is use my link in the description,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 151,
+      "start": 688.64,
+      "end": 692.24,
+      "text": "after which you'll get an email with access to Nebula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.241455,
+      "no_speech_prob": 0.072571
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.96,
+      "text": "This video is sponsored by CuriosityStream.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 1,
+      "start": 2.96,
+      "end": 6.4,
+      "text": "Use the link in the description to watch thousands of documentaries",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 2,
+      "start": 6.4,
+      "end": 12.0,
+      "text": "and for the same price, exclusive and ad-free videos from your favorite creators on Nebula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 3,
+      "start": 12.72,
+      "end": 18.96,
+      "text": "Of the countless companies, industries, and facets of life affected by the coronavirus pandemic,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 4,
+      "start": 18.96,
+      "end": 23.36,
+      "text": "one stands out in particular, college admissions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 5,
+      "start": 23.36,
+      "end": 27.52,
+      "text": "While airlines can be bailed out, workplaces can adapt,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.179099,
+      "no_speech_prob": 0.050995
+    },
+    {
+      "index": 6,
+      "start": 27.52,
+      "end": 31.44,
+      "text": "and the unemployed can expect some degree of emergency support.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 7,
+      "start": 31.44,
+      "end": 37.44,
+      "text": "For high school juniors and seniors, 2020 represents not just one year of lost",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 8,
+      "start": 37.44,
+      "end": 41.12,
+      "text": "income or hardship, but potentially a lifetime.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 9,
+      "start": 41.76,
+      "end": 48.4,
+      "text": "This and next year's graduating class have a lot to gain or lose from changes in college admissions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 10,
+      "start": 48.4,
+      "end": 52.16,
+      "text": "and we're therefore watching closely to see how they would respond.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 11,
+      "start": 52.96,
+      "end": 56.88,
+      "text": "First, the college board announced AP tests would go online.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096991,
+      "no_speech_prob": 0.021606
+    },
+    {
+      "index": 12,
+      "start": 57.52,
+      "end": 60.56,
+      "text": "After preparing all year for the very specific,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 13,
+      "start": 60.56,
+      "end": 65.76,
+      "text": "approximately three-hour format consisting of both multiple choice and free responses,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 14,
+      "start": 65.76,
+      "end": 72.64,
+      "text": "the test would be shortened to 45 minutes, include only the written section, and also be sent to teachers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 15,
+      "start": 73.36,
+      "end": 78.72,
+      "text": "While some praised the college board for adapting to the circumstances in just eight weeks,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 16,
+      "start": 78.72,
+      "end": 80.88,
+      "text": "others raised concerns of fairness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 17,
+      "start": 81.52,
+      "end": 86.24,
+      "text": "This year, to prevent cheating, every student took their exams at the same time,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082031,
+      "no_speech_prob": 0.000444
+    },
+    {
+      "index": 18,
+      "start": 86.24,
+      "end": 91.12,
+      "text": "meaning, for example, a student in California would begin their computer science test at the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 19,
+      "start": 91.12,
+      "end": 96.64,
+      "text": "convenient time of 11 a.m., while someone in Tokyo would have to start at 3 a.m.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 20,
+      "start": 97.28,
+      "end": 103.84,
+      "text": "Not all students, of course, have the same access to technology or a calm, quiet testing environment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 21,
+      "start": 103.84,
+      "end": 110.32,
+      "text": "Some simply got unlucky, their Wi-Fi stopped working or their phones froze and had to retake it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 22,
+      "start": 110.96,
+      "end": 113.52,
+      "text": "The SAT was in even worse shape.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.094746,
+      "no_speech_prob": 0.00021
+    },
+    {
+      "index": 23,
+      "start": 114.16,
+      "end": 120.48,
+      "text": "In March, as new coronavirus cases exploded in the US, many testing centers were forced to close,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 24,
+      "start": 120.48,
+      "end": 122.56,
+      "text": "sometimes on short or no notice.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 25,
+      "start": 123.2,
+      "end": 129.04,
+      "text": "The May and then June SATs were cancelled, and preparations are now being made for fall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 26,
+      "start": 129.84,
+      "end": 135.28,
+      "text": "After first announcing it would also go online, the college board has now reversed that decision,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 27,
+      "start": 135.28,
+      "end": 140.96,
+      "text": "saying it plans on holding one test a month from August through the end of the year, all in person.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075694,
+      "no_speech_prob": 0.003376
+    },
+    {
+      "index": 28,
+      "start": 141.68,
+      "end": 147.28,
+      "text": "Knowing these circumstances, a number of schools began dropping their SAT and ACT requirements.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 29,
+      "start": 147.84,
+      "end": 154.16,
+      "text": "Dartmouth, Harvard, Princeton, Yale, Stanford, Cornell, all UC schools, and hundreds of others",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 30,
+      "start": 154.16,
+      "end": 157.6,
+      "text": "have announced they're becoming test optional for at least the next year.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 31,
+      "start": 158.24,
+      "end": 164.08,
+      "text": "But rather than delaying the course of history, the coronavirus seems to be propelling it forward,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093262,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 32,
+      "start": 164.64,
+      "end": 166.4,
+      "text": "5, 10, or even 15 years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 33,
+      "start": 166.96,
+      "end": 172.88,
+      "text": "What was before unthinkable, not going to the movies, working from home, and learning from",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 34,
+      "start": 172.88,
+      "end": 179.76,
+      "text": "your laptop, is now being forced upon us, setting a precedent that may extend far beyond the virus.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 35,
+      "start": 179.76,
+      "end": 184.96,
+      "text": "If employees can work just as effectively from home without the cost of running an office,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 36,
+      "start": 184.96,
+      "end": 186.8,
+      "text": "why not keep doing so?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 37,
+      "start": 186.8,
+      "end": 191.2,
+      "text": "And if this batch of students can skip the SAT, why can't all?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089123,
+      "no_speech_prob": 0.262695
+    },
+    {
+      "index": 38,
+      "start": 192.16,
+      "end": 196.4,
+      "text": "The first thing to note is that test optional may not mean what you think it does.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 39,
+      "start": 196.96,
+      "end": 202.16,
+      "text": "Many schools require scores from all applicants, but on the other end of the spectrum,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 40,
+      "start": 202.16,
+      "end": 207.12,
+      "text": "only a very small number are test blind, meaning even if students submit them,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 41,
+      "start": 207.12,
+      "end": 211.12,
+      "text": "they'll only be used for things like financial aid, not admissions.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 42,
+      "start": 211.76,
+      "end": 214.0,
+      "text": "Most are somewhere in between.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 43,
+      "start": 214.0,
+      "end": 219.68,
+      "text": "Some schools forgo test scores for students who meet a certain threshold, GPA, or class rank.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058966,
+      "no_speech_prob": 0.0042
+    },
+    {
+      "index": 44,
+      "start": 219.76,
+      "end": 226.08,
+      "text": "Others vary based on major, and finally, about 700 allow students to decide themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 45,
+      "start": 226.72,
+      "end": 230.56,
+      "text": "Test optional doesn't necessarily mean scores aren't important,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 46,
+      "start": 230.56,
+      "end": 233.84,
+      "text": "make admissions easier, or that you shouldn't submit them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 47,
+      "start": 234.4,
+      "end": 238.88,
+      "text": "It does mean that if you don't submit them, you'll need other strong qualifications to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 48,
+      "start": 238.88,
+      "end": 239.84,
+      "text": "stay competitive.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 49,
+      "start": 240.56,
+      "end": 242.88,
+      "text": "And here lies the puzzle.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 50,
+      "start": 242.88,
+      "end": 247.36,
+      "text": "If a school believes standardized tests to be a strong predictor of college success,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069957,
+      "no_speech_prob": 0.001597
+    },
+    {
+      "index": 51,
+      "start": 247.36,
+      "end": 249.92,
+      "text": "one would expect them to be mandatory.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 52,
+      "start": 249.92,
+      "end": 254.32,
+      "text": "On the other hand, if they don't, you'd expect schools to not even consider them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 53,
+      "start": 254.96,
+      "end": 259.84,
+      "text": "Why would so many schools allow students to decide how much information to give them?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 54,
+      "start": 260.48,
+      "end": 264.88,
+      "text": "Information which could affect their graduation rate, academic performance,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 55,
+      "start": 264.88,
+      "end": 266.64,
+      "text": "and, eventually, endowment.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 56,
+      "start": 267.36,
+      "end": 269.92,
+      "text": "A few clues may help answer this question.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 57,
+      "start": 270.48,
+      "end": 274.96,
+      "text": "Research shows a few things usually happen when schools go test optional.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060586,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 58,
+      "start": 275.52,
+      "end": 277.36,
+      "text": "First, more students apply.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 59,
+      "start": 278.0,
+      "end": 282.96,
+      "text": "Naturally, when universities make it easier to do so, whether by using the common application",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 60,
+      "start": 282.96,
+      "end": 286.96,
+      "text": "or removing requirements like test scores, more will.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 61,
+      "start": 286.96,
+      "end": 289.92,
+      "text": "Of course, schools aren't accepting more applicants,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081913,
+      "no_speech_prob": 0.005219
+    },
+    {
+      "index": 70,
+      "start": 318.0,
+      "end": 322.88,
+      "text": "The College Board explicitly states that SAT scores should not be used to compare schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 71,
+      "start": 323.44,
+      "end": 324.56,
+      "text": "And yet, they are.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 72,
+      "start": 325.2,
+      "end": 329.6,
+      "text": "By going test optional, schools may improve on college rankings,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.080325,
+      "no_speech_prob": 0.002981
+    },
+    {
+      "index": 73,
+      "start": 329.6,
+      "end": 332.88,
+      "text": "even if their true average scores actually decreased.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 74,
+      "start": 333.44,
+      "end": 341.84,
+      "text": "7.75% of the U.S. News College Ranking Formula, for example, is based on SAT and ACT scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 75,
+      "start": 341.84,
+      "end": 346.96,
+      "text": "Although this number is discounted by 15%, if fewer than three-quarters of new students",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 76,
+      "start": 346.96,
+      "end": 351.76,
+      "text": "in a particular year don't submit scores, it still leaves plenty of room for schools to",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 77,
+      "start": 351.76,
+      "end": 352.96,
+      "text": "game the system.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 78,
+      "start": 352.96,
+      "end": 356.88,
+      "text": "Either by ensuring 75.1% of students submit,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099861,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 79,
+      "start": 356.88,
+      "end": 360.72,
+      "text": "or by making up for the discount with extremely high average scores.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 80,
+      "start": 361.36,
+      "end": 366.32,
+      "text": "Bond rating agencies also use average scores to assess a school student demand,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 81,
+      "start": 366.32,
+      "end": 368.48,
+      "text": "and from it determine creditworthiness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 82,
+      "start": 369.36,
+      "end": 373.36,
+      "text": "Finally, a third effect of going test optional is disputed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 83,
+      "start": 373.36,
+      "end": 375.36,
+      "text": "It may increase diversity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 84,
+      "start": 375.92,
+      "end": 381.68,
+      "text": "The question is, do standardized tests help alleviate or amplify inequality?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 85,
+      "start": 382.24,
+      "end": 386.32,
+      "text": "Some studies suggest the former, while others come to the latter conclusion.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075699,
+      "no_speech_prob": 0.000688
+    },
+    {
+      "index": 86,
+      "start": 386.96,
+      "end": 392.56,
+      "text": "In general, admissions officers agree that the number one best predictors of college success",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 87,
+      "start": 392.56,
+      "end": 397.44,
+      "text": "are similar high school classes, like AP, IB, and honors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 88,
+      "start": 397.44,
+      "end": 402.48,
+      "text": "It's no surprise that arduous semester or year-long courses would better prepare students",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 89,
+      "start": 402.48,
+      "end": 408.72,
+      "text": "for arduous semester or year-long courses than, say, a three-hour exam by itself.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 90,
+      "start": 409.28,
+      "end": 414.32,
+      "text": "The difficulty is that every teacher and every high school and every city, county, and state",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 91,
+      "start": 414.32,
+      "end": 416.32,
+      "text": "teaches and grades differently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084477,
+      "no_speech_prob": 0.000588
+    },
+    {
+      "index": 92,
+      "start": 416.32,
+      "end": 419.84,
+      "text": "It's also been observed that grades are inflating over time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 93,
+      "start": 419.84,
+      "end": 426.4,
+      "text": "There are far fewer C's and D's and far more A's and B's today than there were 10 years ago.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 94,
+      "start": 427.04,
+      "end": 432.64,
+      "text": "Thus, admissions officers can and should treat high school GPA as the most important metric,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 95,
+      "start": 432.64,
+      "end": 438.56,
+      "text": "the College Board argues, but combined with national standardized SAT scores to compare",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 96,
+      "start": 438.56,
+      "end": 440.88,
+      "text": "and confirm these numbers between schools.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 97,
+      "start": 441.68,
+      "end": 446.24,
+      "text": "How much the SAT adds in predictive power, researchers disagree.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.093597,
+      "no_speech_prob": 0.00038
+    },
+    {
+      "index": 98,
+      "start": 446.24,
+      "end": 450.48,
+      "text": "But admissions officers tend to agree that high grades and low test scores",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 99,
+      "start": 450.48,
+      "end": 451.76,
+      "text": "are better than the reverse.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 100,
+      "start": 452.4,
+      "end": 456.88,
+      "text": "And it's these students who stand to benefit from test optional policies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 101,
+      "start": 456.88,
+      "end": 462.48,
+      "text": "They're disproportionately first generation to college, women, low income, and speak a second",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 102,
+      "start": 462.48,
+      "end": 463.44,
+      "text": "language at home.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 103,
+      "start": 464.0,
+      "end": 469.68,
+      "text": "While the SAT may confirm high GPAs for most students, it may make someone in this group",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 104,
+      "start": 469.68,
+      "end": 471.84,
+      "text": "look worse for no good reason.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.095378,
+      "no_speech_prob": 0.000191
+    },
+    {
+      "index": 105,
+      "start": 471.84,
+      "end": 476.56,
+      "text": "For example, they may not have access to test prep or have the free time to take the exam",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 106,
+      "start": 476.56,
+      "end": 477.36,
+      "text": "several times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 107,
+      "start": 478.0,
+      "end": 483.04,
+      "text": "It's widely known that household income is strongly correlated with test performance",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 108,
+      "start": 483.04,
+      "end": 484.48,
+      "text": "and for obvious reasons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 109,
+      "start": 485.04,
+      "end": 490.24,
+      "text": "Test fees, while insignificant for high income households, can be prohibitive for the poor.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 110,
+      "start": 490.88,
+      "end": 497.12,
+      "text": "Many low income students are given two free SAT exams, but wealthy students are still more",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 111,
+      "start": 497.12,
+      "end": 499.84,
+      "text": "likely to have taken the SAT multiple times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068533,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 112,
+      "start": 500.48,
+      "end": 506.08,
+      "text": "Schools in wealthier areas also provide greater assistance with the SAT and college admissions,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 113,
+      "start": 506.08,
+      "end": 507.68,
+      "text": "not to mention private help.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 114,
+      "start": 508.24,
+      "end": 514.32,
+      "text": "Many studies suggest test prep leads to an overall 20 to 30 point increase on the SAT,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 115,
+      "start": 514.32,
+      "end": 518.88,
+      "text": "sometimes only by teaching test taking strategies, rather than actual material.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 116,
+      "start": 519.44,
+      "end": 524.8,
+      "text": "Test coaches, another branch of the SAT economy, sometimes help their clients apply for learning",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 117,
+      "start": 524.8,
+      "end": 527.76,
+      "text": "disabilities in order to obtain more time on the exam.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066776,
+      "no_speech_prob": 0.003172
+    },
+    {
+      "index": 118,
+      "start": 528.4,
+      "end": 532.96,
+      "text": "On the other hand, test optional policies place greater emphasis on things like high",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 119,
+      "start": 532.96,
+      "end": 538.72,
+      "text": "school curriculum and extracurricular activities, both of which are less accessible in some areas",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 120,
+      "start": 538.72,
+      "end": 540.8,
+      "text": "and for some socioeconomic groups.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 121,
+      "start": 541.36,
+      "end": 546.56,
+      "text": "Avoiding the SAT, in other words, may simply introduce a new form of inequality.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 122,
+      "start": 547.2,
+      "end": 552.96,
+      "text": "But while not requiring the SAT and ACT may or may not help increase diversity,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 123,
+      "start": 552.96,
+      "end": 556.64,
+      "text": "it definitely helps strengthen other metrics like acceptance rate,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.071468,
+      "no_speech_prob": 0.007812
+    },
+    {
+      "index": 124,
+      "start": 556.72,
+      "end": 559.2,
+      "text": "which makes schools look more selective.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 125,
+      "start": 559.2,
+      "end": 563.84,
+      "text": "It's impossible to know which of these reasons truly motivate schools to try test",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 126,
+      "start": 563.84,
+      "end": 568.88,
+      "text": "optional policies, but it does strongly suggest why they stay that way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 127,
+      "start": 569.52,
+      "end": 574.24,
+      "text": "Schools now say they're adjusting this and next year's requirements to help ease the hardships",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 128,
+      "start": 574.24,
+      "end": 579.04,
+      "text": "faced by students, which should come as no surprise at a time when they expect fewer",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 129,
+      "start": 579.04,
+      "end": 581.52,
+      "text": "applicants and greater financial difficulties.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06901,
+      "no_speech_prob": 0.004467
+    },
+    {
+      "index": 130,
+      "start": 582.16,
+      "end": 586.96,
+      "text": "This year, the University of California Schools President made headlines for announcing that",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 131,
+      "start": 586.96,
+      "end": 593.92,
+      "text": "all UC schools will be test optional for the next two years, then test blind for two more after that,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 132,
+      "start": 593.92,
+      "end": 597.2,
+      "text": "and then phase out the SAT and ACT completely.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 133,
+      "start": 597.76,
+      "end": 602.64,
+      "text": "Critics have praised the decision for making higher education more fair and diverse,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 134,
+      "start": 602.64,
+      "end": 609.76,
+      "text": "except the UC system isn't abandoning standardized testing, but creating its own test to use instead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.089802,
+      "no_speech_prob": 0.020966
+    },
+    {
+      "index": 135,
+      "start": 609.76,
+      "end": 615.2,
+      "text": "In many ways, it's reminiscent of 2001, when the then UC President delivered a speech",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 136,
+      "start": 615.2,
+      "end": 620.8,
+      "text": "recommending its schools abandon the SAT, which prompted the College Board to redesign the test.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 137,
+      "start": 621.44,
+      "end": 628.0,
+      "text": "Whether intentional or not, these are negotiations, not so subtle reminders to the College Board",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 138,
+      "start": 628.0,
+      "end": 633.36,
+      "text": "that its true customers aren't students, but schools, and that if it can't create the test",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 139,
+      "start": 633.36,
+      "end": 636.48,
+      "text": "schools want, they can make it themselves.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096438,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 140,
+      "start": 637.44,
+      "end": 642.24,
+      "text": "If you're a student, you've probably realized that learning from home is tough.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 141,
+      "start": 642.24,
+      "end": 646.48,
+      "text": "It requires more self-discipline, motivation, and study skills.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 142,
+      "start": 646.48,
+      "end": 652.0,
+      "text": "While lucky for you, it just so happens I and a bunch of other YouTubers have created Nebula,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 143,
+      "start": 652.0,
+      "end": 657.36,
+      "text": "a new streaming service for the best educational videos, so you can learn new study habits,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 144,
+      "start": 657.36,
+      "end": 662.32,
+      "text": "expand your knowledge, and take a break with exclusive high-quality originals,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 145,
+      "start": 662.32,
+      "end": 664.72,
+      "text": "ad-free, and on all your devices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.096073,
+      "no_speech_prob": 0.201782
+    },
+    {
+      "index": 146,
+      "start": 664.72,
+      "end": 668.88,
+      "text": "We've partnered with CuriosityStream so that when you sign up for their collection",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 147,
+      "start": 668.88,
+      "end": 673.2,
+      "text": "of thousands of high-quality history, science, and nature documentaries,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 148,
+      "start": 673.2,
+      "end": 676.88,
+      "text": "you also get access to Nebula at no extra cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 149,
+      "start": 677.52,
+      "end": 683.04,
+      "text": "Right now, it's on sale for just $15 a year, or just under $1.25 a month.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 150,
+      "start": 683.6,
+      "end": 688.64,
+      "text": "This is a fantastic deal and all you have to do is use my link in the description,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.069467,
+      "no_speech_prob": 0.020645
+    },
+    {
+      "index": 151,
+      "start": 688.64,
+      "end": 692.24,
+      "text": "after which you'll get an email with access to Nebula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.241455,
+      "no_speech_prob": 0.072571
+    }
+  ],
+  "context_text_chronological": "This video is sponsored by CuriosityStream. Use the link in the description to watch thousands of documentaries and for the same price, exclusive and ad-free videos from your favorite creators on Nebula. Of the countless companies, industries, and facets of life affected by the coronavirus pandemic, one stands out in particular, college admissions. While airlines can be bailed out, workplaces can adapt, and the unemployed can expect some degree of emergency support. For high school juniors and seniors, 2020 represents not just one year of lost income or hardship, but potentially a lifetime. This and next year's graduating class have a lot to gain or lose from changes in college admissions, and we're therefore watching closely to see how they would respond. First, the college board announced AP tests would go online. After preparing all year for the very specific, approximately three-hour format consisting of both multiple choice and free responses, the test would be shortened to 45 minutes, include only the written section, and also be sent to teachers. While some praised the college board for adapting to the circumstances in just eight weeks, others raised concerns of fairness. This year, to prevent cheating, every student took their exams at the same time, meaning, for example, a student in California would begin their computer science test at the convenient time of 11 a.m., while someone in Tokyo would have to start at 3 a.m. Not all students, of course, have the same access to technology or a calm, quiet testing environment. Some simply got unlucky, their Wi-Fi stopped working or their phones froze and had to retake it. The SAT was in even worse shape. In March, as new coronavirus cases exploded in the US, many testing centers were forced to close, sometimes on short or no notice. The May and then June SATs were cancelled, and preparations are now being made for fall. After first announcing it would also go online, the college board has now reversed that decision, saying it plans on holding one test a month from August through the end of the year, all in person. Knowing these circumstances, a number of schools began dropping their SAT and ACT requirements. Dartmouth, Harvard, Princeton, Yale, Stanford, Cornell, all UC schools, and hundreds of others have announced they're becoming test optional for at least the next year. But rather than delaying the course of history, the coronavirus seems to be propelling it forward, 5, 10, or even 15 years. What was before unthinkable, not going to the movies, working from home, and learning from your laptop, is now being forced upon us, setting a precedent that may extend far beyond the virus. If employees can work just as effectively from home without the cost of running an office, why not keep doing so? And if this batch of students can skip the SAT, why can't all? The first thing to note is that test optional may not mean what you think it does. Many schools require scores from all applicants, but on the other end of the spectrum, only a very small number are test blind, meaning even if students submit them, they'll only be used for things like financial aid, not admissions. Most are somewhere in between. Some schools forgo test scores for students who meet a certain threshold, GPA, or class rank. Others vary based on major, and finally, about 700 allow students to decide themselves. Test optional doesn't necessarily mean scores aren't important, make admissions easier, or that you shouldn't submit them. It does mean that if you don't submit them, you'll need other strong qualifications to stay competitive. And here lies the puzzle. If a school believes standardized tests to be a strong predictor of college success, one would expect them to be mandatory. On the other hand, if they don't, you'd expect schools to not even consider them. Why would so many schools allow students to decide how much information to give them? Information which could affect their graduation rate, academic performance, and, eventually, endowment. A few clues may help answer this question. Research shows a few things usually happen when schools go test optional. First, more students apply. Naturally, when universities make it easier to do so, whether by using the common application or removing requirements like test scores, more will. Of course, schools aren't accepting more applicants, The College Board explicitly states that SAT scores should not be used to compare schools. And yet, they are. By going test optional, schools may improve on college rankings, even if their true average scores actually decreased. 7.75% of the U.S. News College Ranking Formula, for example, is based on SAT and ACT scores. Although this number is discounted by 15%, if fewer than three-quarters of new students in a particular year don't submit scores, it still leaves plenty of room for schools to game the system. Either by ensuring 75.1% of students submit, or by making up for the discount with extremely high average scores. Bond rating agencies also use average scores to assess a school student demand, and from it determine creditworthiness. Finally, a third effect of going test optional is disputed. It may increase diversity. The question is, do standardized tests help alleviate or amplify inequality? Some studies suggest the former, while others come to the latter conclusion. In general, admissions officers agree that the number one best predictors of college success are similar high school classes, like AP, IB, and honors. It's no surprise that arduous semester or year-long courses would better prepare students for arduous semester or year-long courses than, say, a three-hour exam by itself. The difficulty is that every teacher and every high school and every city, county, and state teaches and grades differently. It's also been observed that grades are inflating over time. There are far fewer C's and D's and far more A's and B's today than there were 10 years ago. Thus, admissions officers can and should treat high school GPA as the most important metric, the College Board argues, but combined with national standardized SAT scores to compare and confirm these numbers between schools. How much the SAT adds in predictive power, researchers disagree. But admissions officers tend to agree that high grades and low test scores are better than the reverse. And it's these students who stand to benefit from test optional policies. They're disproportionately first generation to college, women, low income, and speak a second language at home. While the SAT may confirm high GPAs for most students, it may make someone in this group look worse for no good reason. For example, they may not have access to test prep or have the free time to take the exam several times. It's widely known that household income is strongly correlated with test performance and for obvious reasons. Test fees, while insignificant for high income households, can be prohibitive for the poor. Many low income students are given two free SAT exams, but wealthy students are still more likely to have taken the SAT multiple times. Schools in wealthier areas also provide greater assistance with the SAT and college admissions, not to mention private help. Many studies suggest test prep leads to an overall 20 to 30 point increase on the SAT, sometimes only by teaching test taking strategies, rather than actual material. Test coaches, another branch of the SAT economy, sometimes help their clients apply for learning disabilities in order to obtain more time on the exam. On the other hand, test optional policies place greater emphasis on things like high school curriculum and extracurricular activities, both of which are less accessible in some areas and for some socioeconomic groups. Avoiding the SAT, in other words, may simply introduce a new form of inequality. But while not requiring the SAT and ACT may or may not help increase diversity, it definitely helps strengthen other metrics like acceptance rate, which makes schools look more selective. It's impossible to know which of these reasons truly motivate schools to try test optional policies, but it does strongly suggest why they stay that way. Schools now say they're adjusting this and next year's requirements to help ease the hardships faced by students, which should come as no surprise at a time when they expect fewer applicants and greater financial difficulties. This year, the University of California Schools President made headlines for announcing that all UC schools will be test optional for the next two years, then test blind for two more after that, and then phase out the SAT and ACT completely. Critics have praised the decision for making higher education more fair and diverse, except the UC system isn't abandoning standardized testing, but creating its own test to use instead. In many ways, it's reminiscent of 2001, when the then UC President delivered a speech recommending its schools abandon the SAT, which prompted the College Board to redesign the test. Whether intentional or not, these are negotiations, not so subtle reminders to the College Board that its true customers aren't students, but schools, and that if it can't create the test schools want, they can make it themselves. If you're a student, you've probably realized that learning from home is tough. It requires more self-discipline, motivation, and study skills. While lucky for you, it just so happens I and a bunch of other YouTubers have created Nebula, a new streaming service for the best educational videos, so you can learn new study habits, expand your knowledge, and take a break with exclusive high-quality originals, ad-free, and on all your devices. We've partnered with CuriosityStream so that when you sign up for their collection of thousands of high-quality history, science, and nature documentaries, you also get access to Nebula at no extra cost. Right now, it's on sale for just $15 a year, or just under $1.25 a month. This is a fantastic deal and all you have to do is use my link in the description, after which you'll get an email with access to Nebula.",
+  "target_text_for_audit": "which means their acceptance rates go down, and they appear more selective. Second, their average test scores are higher. Each student knows all of his or her scores, and individually decides whether to submit them based on whether or not they'll increase their odds of getting admitted. Students with higher scores will choose to submit them, while those with lower ones will more likely not, inflating their accepted school's average statistics.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 5,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "Second, their average test scores are higher.",
+        "start_source": 294.8,
+        "end_source": 297.28,
+        "matching_cue_ids": [
+          63
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Each student knows all of his or her scores and individually decides whether to submit them based on whether or not they'll increase their odds of getting admitted.",
+        "start_source": 297.96,
+        "end_source": 305.92,
+        "matching_cue_ids": [
+          64,
+          65
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "Students with higher scores will choose to submit them, while those with lower ones will more likely not,",
+        "start_source": 306.54,
+        "end_source": 312.2,
+        "matching_cue_ids": [
+          66,
+          67
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_005",
+        "text": "inflating their accepted school's average statistics.",
+        "start_source": 312.68,
+        "end_source": 315.3,
+        "matching_cue_ids": [
+          68
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_006",
+        "text": "In theory, this shouldn't matter.",
+        "start_source": 315.3,
+        "end_source": 317.64,
+        "matching_cue_ids": [
+          68,
+          69
+        ],
+        "text_similarity": 0.5391,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\cKQLKf3dS1Y.mp4",
+    "cue_count": 152
+  },
+  "token_estimate_char_div_4": 2533
+}

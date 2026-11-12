@@ -1,0 +1,147 @@
+{
+ "clip": "area_37",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Show that the average person with student debt owes about $30,000, highlighting the typical individual student debt burden.",
+ "core_claim": "The average person with student debt owes approximately $30,000.",
+ "chart_role": "single value callout",
+ "source_consistency": "consistent",
+ "issues": [
+  "Narration's second sentence about combining all student debt is incomplete and unsupported by the chart."
+ ],
+ "confidence": 0.95,
+ "old_intent": "To illustrate the average student debt burden faced by individuals upon completing a bachelor's degree.",
+ "narration": "the average person with debt owes about $30 ,000 when they get their bachelor's degree. If we combine all the student debt Americans currently owe.",
+ "svg_text": [
+  "Average person with student debt",
+  "$30,000",
+  "Vox"
+ ],
+ "chart_spec": {
+  "clip_id": "area_37",
+  "family": "area",
+  "sub_type": "single_value_callout",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 1,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Average person with student debt",
+    "series": "",
+    "role": "value_callout",
+    "row_count": 1,
+    "unit": "usd",
+    "printed_x": [],
+    "value_min": 30000.0,
+    "value_max": 30000.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Student debt (USD)",
+     "entity": "Average person with student debt",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "30000",
+     "unit": "usd",
+     "label": "$30,000",
+     "role": "value_callout"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Student debt (USD)",
+     "entity": "Average person with student debt",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "30000",
+     "unit": "usd",
+     "label": "$30,000",
+     "role": "value_callout"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Student debt (USD)",
+    "entity": "Average person with student debt",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "30000",
+    "unit": "usd",
+    "label": "$30,000",
+    "role": "value_callout"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Show that the average person with student debt owes $30,000.",
+  "corrected_core_claim": "The average person with student debt owes $30,000."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1039,
+   "completion_tokens": 112,
+   "total_tokens": 1151,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 911
+  },
+  "audit": {
+   "prompt_tokens": 829,
+   "completion_tokens": 65,
+   "total_tokens": 894,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 829
+  }
+ },
+ "sec": 1.9
+}

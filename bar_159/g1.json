@@ -100,7 +100,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -168,7 +169,8 @@
     "adding teaching hours absent from the table",
     "placing the US above non-OECD comparators"
    ],
-   "evidence": "The ordered score bars establish the full ranking and the US position."
+   "evidence": "The ordered score bars establish the full ranking and the US position.",
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -198,7 +200,8 @@
     "reversing the comparison",
     "using another baseline"
    ],
-   "evidence": "The USA and OECD bars establish the 20-point gap."
+   "evidence": "The USA and OECD bars establish the 20-point gap.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -235,11 +238,12 @@
   "manual_specific_fix_2026-10-22",
   "state_level_completeness_r1_2026-10-22",
   "final_v1_required_units_audited_2026_10_27",
-  "final_v1_required_units_audited_2026_10_27"
+  "final_v1_required_units_audited_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "optional_units": [],
  "optional_requirements": [],
  "unsupported_or_forbidden": [
@@ -323,5 +327,12 @@
    "reason": "Replaced by the approved V1-only semantic units."
   }
  ],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

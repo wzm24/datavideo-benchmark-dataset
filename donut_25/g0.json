@@ -1,139 +1,106 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_25",
  "family": "donut",
  "data_source": "data_table.csv",
  "data_table_sha256": "6a11609a567f9d16f02407be870388208a8c6ba44095f022dd61434573a4d25c",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "ed3f2030dadd006aee65aef010a941c257a2ba6e68bbecc086431a46fd4f65b8",
  "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "partial_ring",
   "orientation": "radial",
   "panel_count": 2,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": [
-   "Panel 1",
-   "Panel 2"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "profit_margin"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
+  {
+   "row_id": "r1",
+   "panel": "Panel 1",
+   "series": "",
+   "entity": "skull and crossbones",
+   "metric": "profit_margin",
+   "value": "30",
+   "unit": "%",
+   "relative_value": "0.3",
+   "label": "",
+   "role": "gauge",
+   "source_type": "narration_calibrated",
+   "whole_scope": "Panel 1"
+  },
+  {
+   "row_id": "r2",
+   "panel": "Panel 2",
+   "series": "",
+   "entity": "Apple",
+   "metric": "profit_margin",
+   "value": "8",
+   "unit": "%",
+   "relative_value": "0.08",
+   "label": "",
+   "role": "gauge",
+   "source_type": "estimated",
+   "whole_scope": "Panel 2"
+  }
+ ],
+ "composition_groups": [
   {
    "panel": "Panel 1",
-   "entity": "skull and crossbones",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Panel 1",
+   "row_ids": [
+    "r1"
    ],
-   "x_anchors": [],
-   "first_value": 30.0,
-   "last_value": 30.0,
-   "min_value": 30.0,
-   "max_value": 30.0,
-   "missing_value_count": 0,
-   "metric": [
-    "profit_margin"
+   "entities": [
+    "skull and crossbones"
    ],
-   "source_type": [
-    "narration_calibrated"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "relative_value_sum": 0.3
   },
   {
    "panel": "Panel 2",
-   "entity": "Apple",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
+   "whole_scope": "Panel 2",
+   "row_ids": [
+    "r2"
    ],
-   "x_anchors": [],
-   "first_value": 8.0,
-   "last_value": 8.0,
-   "min_value": 8.0,
-   "max_value": 8.0,
-   "missing_value_count": 0,
-   "metric": [
-    "profit_margin"
+   "entities": [
+    "Apple"
    ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "gauge"
-   ]
+   "relative_value_sum": 0.08
   }
- ],
- "source_type_counts": {
-  "estimated": 1,
-  "narration_calibrated": 1
- },
- "role_counts": {
-  "gauge": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Panel 1",
+    "series": "",
     "entity": "skull and crossbones",
-    "series": ""
+    "metric": "profit_margin",
+    "value": "30",
+    "unit": "%",
+    "relative_value": "0.3",
+    "label": "",
+    "role": "gauge",
+    "source_type": "narration_calibrated",
+    "whole_scope": "Panel 1"
    },
    {
-    "panel": "",
+    "row_id": "r2",
+    "panel": "Panel 2",
+    "series": "",
     "entity": "Apple",
-    "series": ""
+    "metric": "profit_margin",
+    "value": "8",
+    "unit": "%",
+    "relative_value": "0.08",
+    "label": "",
+    "role": "gauge",
+    "source_type": "estimated",
+    "whole_scope": "Panel 2"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

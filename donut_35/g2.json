@@ -1,52 +1,90 @@
 {
  "clip_id": "donut_35",
  "family": "donut",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "donut_35",
   "family": "donut",
   "sub_type": "partial_ring",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "donut family has no g0_data_completeness gate; completeness is checked inside share_or_composition units",
-  "required_data_rows": 1,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U1"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
    "unit_id": "U1",
-   "unit_kind": "key_value_endpoint",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "mark_value",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "top 1% of artists | music_revenue"
+    "top 1% of artists"
    ],
    "assertion": {
-    "marks": [
-     {
-      "mark": "top 1% of artists | music_revenue",
-      "expected": 43.0
-     }
-    ],
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 1,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "center_count",
+   "must_be_visualized": true,
+   "evidence_type": "center_value",
+   "required_marks": [
+    "top 1% of artists"
+   ],
+   "assertion": {
+    "center_values": [
+     {
+      "mark": "top 1% of artists",
+      "value": "43",
+      "unit": "billion USD"
+     }
+    ],
+    "must_not_be_plotted_as_share": true
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "share_of_whole",
+   "must_be_visualized": true,
+   "evidence_type": "share_of_whole",
+   "required_marks": [
+    "top 1% of artists"
+   ],
+   "assertion": {
+    "shares": [
+     {
+      "mark": "top 1% of artists",
+      "entity": "top 1% of artists",
+      "whole_scope": "music_revenue",
+      "expected_relative_value": 0.3,
+      "expected_value": 43.0
+     }
+    ],
+    "expected_relation": "The top 1% of artists account for 30% of industry music revenue."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   }
  ]

@@ -1,0 +1,2319 @@
+{
+  "clip_id": "line_36",
+  "family": "line",
+  "video_id": "ajavsMbCapY",
+  "source_url": "https://www.youtube.com/watch?v=ajavsMbCapY",
+  "source_title": "The Electoral College, explained",
+  "target_window_source": {
+    "start": 54.0,
+    "end": 63.0
+  },
+  "target_mask_interval": {
+    "start": 52.5,
+    "end": 64.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    18,
+    19,
+    20
+  ],
+  "masked_cue_ids": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "If you watch the news during a presidential election, you'll hear a lot of this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 1,
+      "start": 4.0,
+      "end": 6.0,
+      "text": "What do the national polls look like?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 2,
+      "start": 6.0,
+      "end": 7.0,
+      "text": "Hillary Clinton's nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 3,
+      "start": 7.0,
+      "end": 8.0,
+      "text": "Nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 4,
+      "start": 8.0,
+      "end": 9.0,
+      "text": "Joe Biden is currently ahead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 5,
+      "start": 9.0,
+      "end": 13.0,
+      "text": "But these national polls don't actually tell you who's going to win.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 6,
+      "start": 13.0,
+      "end": 15.0,
+      "text": "Throw the national polls out the window.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 7,
+      "start": 15.0,
+      "end": 17.0,
+      "text": "They don't matter at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 8,
+      "start": 17.0,
+      "end": 19.0,
+      "text": "What matters are those swing states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 9,
+      "start": 19.0,
+      "end": 21.0,
+      "text": "Ah yes, the swing states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 10,
+      "start": 21.0,
+      "end": 25.0,
+      "text": "Most democracies around the world elect their head of state with a popular vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 11,
+      "start": 25.0,
+      "end": 28.0,
+      "text": "so whoever gets the most votes wins.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 12,
+      "start": 28.0,
+      "end": 31.0,
+      "text": "But in America, we do it a little differently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 13,
+      "start": 31.0,
+      "end": 36.0,
+      "text": "The U.S. is the only country that picks its president using something called the Electoral College.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 14,
+      "start": 36.0,
+      "end": 39.0,
+      "text": "It's made up of delegates from each U.S. state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 15,
+      "start": 39.0,
+      "end": 45.0,
+      "text": "When Americans vote for president, what they're actually voting for is who their state will vote for.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 16,
+      "start": 45.0,
+      "end": 50.0,
+      "text": "This is why, every so often, someone wins the presidency without winning the popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    }
+  ],
+  "context_after": [
+    {
+      "index": 21,
+      "start": 66.0,
+      "end": 72.14,
+      "text": "And who actually benefits from it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 22,
+      "start": 72.14,
+      "end": 76.14,
+      "text": "The Electoral College is based on how people are represented in Congress,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 23,
+      "start": 76.14,
+      "end": 80.14,
+      "text": "where each state has a number of representatives based on its population,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 24,
+      "start": 80.14,
+      "end": 83.14,
+      "text": "and every state also gets two senators.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 25,
+      "start": 83.14,
+      "end": 87.14,
+      "text": "So, for example, let's look at Texas, which has a huge population,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 26,
+      "start": 87.14,
+      "end": 89.14,
+      "text": "and Vermont, which has a really small one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 27,
+      "start": 89.14,
+      "end": 92.14,
+      "text": "Texas has 36 representatives in Congress.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 28,
+      "start": 92.14,
+      "end": 94.14,
+      "text": "Vermont only gets one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 29,
+      "start": 94.14,
+      "end": 99.14,
+      "text": "Representatives in both states each represent roughly the same number of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 30,
+      "start": 99.14,
+      "end": 104.14,
+      "text": "In the Electoral College, a state gets the same number of delegates as their congressional representatives,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 31,
+      "start": 104.14,
+      "end": 106.14,
+      "text": "plus two for each senator.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 32,
+      "start": 106.14,
+      "end": 110.14,
+      "text": "So Texas has 38 electoral votes, Vermont has three.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 33,
+      "start": 110.14,
+      "end": 116.14,
+      "text": "But this combination makes the number of people each delegate represents way different between states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 34,
+      "start": 116.14,
+      "end": 123.14,
+      "text": "In Texas, one electoral delegate represents three times the amount of people as one in Vermont.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 35,
+      "start": 123.14,
+      "end": 128.14,
+      "text": "And that makes each individual person's vote in Vermont a lot more influential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 36,
+      "start": 128.14,
+      "end": 133.14,
+      "text": "The Electoral College creates discrepancies like this all over the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 37,
+      "start": 133.14,
+      "end": 138.14,
+      "text": "A voter in Wyoming is worth three and a half times as much as a voter in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 38,
+      "start": 138.14,
+      "end": 145.14,
+      "text": "And the winner of the presidential election is the candidate who gets 270 or more of these Electoral College votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 39,
+      "start": 145.14,
+      "end": 150.38,
+      "text": "These are the results of the 2016 election by state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 40,
+      "start": 150.38,
+      "end": 156.38,
+      "text": "You're probably more familiar with this version of it, a map of red states and blue states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 41,
+      "start": 156.38,
+      "end": 158.38,
+      "text": "But this chart tells a different story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 42,
+      "start": 158.38,
+      "end": 162.38,
+      "text": "You can see that no state is actually all red or all blue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 43,
+      "start": 162.38,
+      "end": 166.38,
+      "text": "But almost every state awards its electoral votes the same way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 44,
+      "start": 166.38,
+      "end": 171.38,
+      "text": "The candidate who gets the most votes in a state gets all its electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 45,
+      "start": 171.38,
+      "end": 176.38,
+      "text": "If they win the state by 1%, they win 100% of the electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 46,
+      "start": 176.38,
+      "end": 181.38,
+      "text": "In 2016, more than 4 million people voted for Donald Trump in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 47,
+      "start": 181.38,
+      "end": 186.38,
+      "text": "In fact, more people voted for him there than in any other state except for two.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 48,
+      "start": 186.38,
+      "end": 187.38,
+      "text": "But it didn't matter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 49,
+      "start": 187.38,
+      "end": 192.38,
+      "text": "Hillary Clinton got more votes there, so she got all 55 of its electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 50,
+      "start": 193.38,
+      "end": 195.38,
+      "text": "Clinton never even campaigned in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 51,
+      "start": 195.38,
+      "end": 198.38,
+      "text": "Polling showed she'd easily win the state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 52,
+      "start": 198.38,
+      "end": 200.38,
+      "text": "Trump only visited Texas once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 53,
+      "start": 200.38,
+      "end": 203.38,
+      "text": "He knew he'd basically had that state's electoral votes locked.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 54,
+      "start": 203.38,
+      "end": 207.38,
+      "text": "But they both visited Florida 35 or more times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 55,
+      "start": 207.38,
+      "end": 210.38,
+      "text": "That's because Florida is usually a swing state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 56,
+      "start": 210.38,
+      "end": 215.38,
+      "text": "Polls show that the vote there could swing to one party or another nearly every election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 57,
+      "start": 215.38,
+      "end": 221.38,
+      "text": "Trump only won it in 2016 by 100,000 votes, out of more than 9 million.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 58,
+      "start": 221.38,
+      "end": 226.38,
+      "text": "Swing seats have changed over time thanks to shifting demographics and political views.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 59,
+      "start": 226.38,
+      "end": 231.38,
+      "text": "And it's states like these where presidential candidates spend most of their time campaigning.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 60,
+      "start": 231.38,
+      "end": 237.38,
+      "text": "It also means these states have way more influence over the election than these ones.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 61,
+      "start": 237.38,
+      "end": 244.38,
+      "text": "A study found that voters in Michigan had 51 times the amount of influence on the 2016 election",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 62,
+      "start": 244.38,
+      "end": 246.38,
+      "text": "as someone from a state like Utah.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 63,
+      "start": 246.38,
+      "end": 251.38,
+      "text": "Voters in states like California or Missouri mattered very little.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 64,
+      "start": 251.38,
+      "end": 254.38,
+      "text": "Swing seats are where the election actually takes place.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 65,
+      "start": 254.38,
+      "end": 259.38,
+      "text": "They get the attention and the influence, and they only exist because of the electoral college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 66,
+      "start": 259.38,
+      "end": 267.38,
+      "text": "It doesn't seem very fair, but the electoral college has always shifted power away from some people and towards others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 67,
+      "start": 267.38,
+      "end": 269.38,
+      "text": "It was how it was designed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 68,
+      "start": 269.38,
+      "end": 275.38,
+      "text": "Back when there were just a few states, not 50, they had to get all the states to agree on the Constitution.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 69,
+      "start": 275.38,
+      "end": 277.38,
+      "text": "One problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 70,
+      "start": 277.38,
+      "end": 282.38,
+      "text": "The northern states, which were largely anti-slavery, wanted only free people to count in the population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 71,
+      "start": 282.38,
+      "end": 285.38,
+      "text": "towards electoral votes, which they had more of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 72,
+      "start": 285.38,
+      "end": 290.38,
+      "text": "The proslavery southern states were worried that they would be constantly outvoted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 73,
+      "start": 290.38,
+      "end": 294.38,
+      "text": "and wanted enslaved people to count in determining the population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 74,
+      "start": 294.38,
+      "end": 299.38,
+      "text": "As a compromise, they settled on something called the three-fist clause.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 75,
+      "start": 299.38,
+      "end": 304.38,
+      "text": "It established that an enslaved person would only count as three-fists of a person.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 76,
+      "start": 305.38,
+      "end": 309.38,
+      "text": "In 1800, Pennsylvania, a northern state, and Virginia, a southern one,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 77,
+      "start": 309.38,
+      "end": 312.38,
+      "text": "had about the same number of free people living there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 78,
+      "start": 312.38,
+      "end": 316.38,
+      "text": "But Virginia was also home to hundreds of thousands of enslaved people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 79,
+      "start": 316.38,
+      "end": 319.38,
+      "text": "who had no freedom, let alone a vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 80,
+      "start": 319.38,
+      "end": 323.38,
+      "text": "and ended up with more votes in the electoral college than Pennsylvania.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 81,
+      "start": 323.38,
+      "end": 329.38,
+      "text": "That year, those extra electoral votes gave the candidate from Virginia just enough to win.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 82,
+      "start": 330.38,
+      "end": 336.38,
+      "text": "Even after the U.S. finally abolished slavery and eventually gave black Americans the right to vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 83,
+      "start": 336.38,
+      "end": 339.38,
+      "text": "white southern leaders found ways to keep them from voting,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 84,
+      "start": 339.38,
+      "end": 344.38,
+      "text": "like with discriminating laws like poll taxes and acts of violence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 85,
+      "start": 344.38,
+      "end": 349.38,
+      "text": "This meant they continued to have overrepresentation in the electoral college",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 86,
+      "start": 349.38,
+      "end": 352.38,
+      "text": "on behalf of a large population that couldn't vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 87,
+      "start": 352.38,
+      "end": 357.38,
+      "text": "The first time Congress attempted to replace the electoral college with a simple popular vote",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 88,
+      "start": 357.38,
+      "end": 362.38,
+      "text": "was back in 1816, but senators from southern states blocked it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 89,
+      "start": 362.38,
+      "end": 365.38,
+      "text": "saying it would be deeply injurious to them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 90,
+      "start": 365.38,
+      "end": 368.38,
+      "text": "In 1969, Congress came even closer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 91,
+      "start": 368.38,
+      "end": 374.38,
+      "text": "Replacing the electoral college had support in both parties and even passed the House,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 92,
+      "start": 374.38,
+      "end": 377.38,
+      "text": "but it was blocked again by southern senators.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 93,
+      "start": 377.38,
+      "end": 379.38,
+      "text": "A senator from Alabama wrote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 94,
+      "start": 379.38,
+      "end": 383.38,
+      "text": "the electoral college is one of the South's few remaining political safeguards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 95,
+      "start": 383.38,
+      "end": 384.38,
+      "text": "Let's keep it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 96,
+      "start": 384.38,
+      "end": 389.38,
+      "text": "Why change a system that historically had and still was benefiting white southerners?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 97,
+      "start": 389.38,
+      "end": 393.38,
+      "text": "Today, the states that the electoral college benefits have changed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 98,
+      "start": 393.38,
+      "end": 397.38,
+      "text": "but it's still making some voters more powerful than others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 99,
+      "start": 397.38,
+      "end": 401.38,
+      "text": "If we look at the states with a lot of electoral votes for not a lot of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 100,
+      "start": 401.38,
+      "end": 404.38,
+      "text": "and the states with a little electoral votes for a lot of people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 101,
+      "start": 404.38,
+      "end": 409.38,
+      "text": "these states are a lot wider and less diverse than the rest of America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 102,
+      "start": 409.38,
+      "end": 412.38,
+      "text": "And many of these states are Republican strongholds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 103,
+      "start": 412.38,
+      "end": 415.38,
+      "text": "These tend to vote Democratic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 104,
+      "start": 415.38,
+      "end": 418.38,
+      "text": "That's one reason the two most recent Republican presidents",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 105,
+      "start": 418.38,
+      "end": 422.38,
+      "text": "have won the electoral college without winning the popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 106,
+      "start": 422.38,
+      "end": 427.38,
+      "text": "And since it's currently Democrats that are primarily disadvantaged by the electoral college,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 107,
+      "start": 427.38,
+      "end": 430.38,
+      "text": "they're the ones leading the charge to replace it with a popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 108,
+      "start": 430.38,
+      "end": 433.38,
+      "text": "Get rid of the electoral college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 109,
+      "start": 433.38,
+      "end": 440.56,
+      "text": "But as politics have changed, the people most critical of the electoral college have too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 110,
+      "start": 440.56,
+      "end": 445.56,
+      "text": "In the 1948 presidential election, New York ended up being the major swing state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 111,
+      "start": 445.56,
+      "end": 447.56,
+      "text": "A congressman from Texas said,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 112,
+      "start": 447.56,
+      "end": 450.56,
+      "text": "I have no objection to the Negro and Harlem voting,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 113,
+      "start": 450.56,
+      "end": 454.56,
+      "text": "but I do resent the fact that his vote is worth a hundred times as much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 114,
+      "start": 454.56,
+      "end": 457.56,
+      "text": "as the vote of a white man in Texas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 115,
+      "start": 457.56,
+      "end": 459.56,
+      "text": "Swing states change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 116,
+      "start": 459.56,
+      "end": 464.56,
+      "text": "What doesn't is that the electoral college gives certain people more power to pick the president.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 117,
+      "start": 464.56,
+      "end": 469.56,
+      "text": "And its biggest defenders have always been those who benefit the most from it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 118,
+      "start": 469.56,
+      "end": 480.55,
+      "text": "Thanks to Absolute, who sponsored this video to remind all Americans to make the time to vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    },
+    {
+      "index": 119,
+      "start": 480.55,
+      "end": 484.55,
+      "text": "Absolute doesn't influence our editorial, but they do make videos like this possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    },
+    {
+      "index": 120,
+      "start": 484.55,
+      "end": 487.55,
+      "text": "So drink responsibly and vote responsibly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "If you watch the news during a presidential election, you'll hear a lot of this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 1,
+      "start": 4.0,
+      "end": 6.0,
+      "text": "What do the national polls look like?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 2,
+      "start": 6.0,
+      "end": 7.0,
+      "text": "Hillary Clinton's nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 3,
+      "start": 7.0,
+      "end": 8.0,
+      "text": "Nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 4,
+      "start": 8.0,
+      "end": 9.0,
+      "text": "Joe Biden is currently ahead.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 5,
+      "start": 9.0,
+      "end": 13.0,
+      "text": "But these national polls don't actually tell you who's going to win.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 6,
+      "start": 13.0,
+      "end": 15.0,
+      "text": "Throw the national polls out the window.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 7,
+      "start": 15.0,
+      "end": 17.0,
+      "text": "They don't matter at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 8,
+      "start": 17.0,
+      "end": 19.0,
+      "text": "What matters are those swing states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 9,
+      "start": 19.0,
+      "end": 21.0,
+      "text": "Ah yes, the swing states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 10,
+      "start": 21.0,
+      "end": 25.0,
+      "text": "Most democracies around the world elect their head of state with a popular vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 11,
+      "start": 25.0,
+      "end": 28.0,
+      "text": "so whoever gets the most votes wins.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.123134,
+      "no_speech_prob": 0.024384
+    },
+    {
+      "index": 12,
+      "start": 28.0,
+      "end": 31.0,
+      "text": "But in America, we do it a little differently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 13,
+      "start": 31.0,
+      "end": 36.0,
+      "text": "The U.S. is the only country that picks its president using something called the Electoral College.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 14,
+      "start": 36.0,
+      "end": 39.0,
+      "text": "It's made up of delegates from each U.S. state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 15,
+      "start": 39.0,
+      "end": 45.0,
+      "text": "When Americans vote for president, what they're actually voting for is who their state will vote for.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 16,
+      "start": 45.0,
+      "end": 50.0,
+      "text": "This is why, every so often, someone wins the presidency without winning the popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.06078,
+      "no_speech_prob": 0.001867
+    },
+    {
+      "index": 21,
+      "start": 66.0,
+      "end": 72.14,
+      "text": "And who actually benefits from it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 22,
+      "start": 72.14,
+      "end": 76.14,
+      "text": "The Electoral College is based on how people are represented in Congress,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 23,
+      "start": 76.14,
+      "end": 80.14,
+      "text": "where each state has a number of representatives based on its population,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 24,
+      "start": 80.14,
+      "end": 83.14,
+      "text": "and every state also gets two senators.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.040326,
+      "no_speech_prob": 0.001549
+    },
+    {
+      "index": 25,
+      "start": 83.14,
+      "end": 87.14,
+      "text": "So, for example, let's look at Texas, which has a huge population,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 26,
+      "start": 87.14,
+      "end": 89.14,
+      "text": "and Vermont, which has a really small one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 27,
+      "start": 89.14,
+      "end": 92.14,
+      "text": "Texas has 36 representatives in Congress.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 28,
+      "start": 92.14,
+      "end": 94.14,
+      "text": "Vermont only gets one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 29,
+      "start": 94.14,
+      "end": 99.14,
+      "text": "Representatives in both states each represent roughly the same number of people.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 30,
+      "start": 99.14,
+      "end": 104.14,
+      "text": "In the Electoral College, a state gets the same number of delegates as their congressional representatives,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 31,
+      "start": 104.14,
+      "end": 106.14,
+      "text": "plus two for each senator.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 32,
+      "start": 106.14,
+      "end": 110.14,
+      "text": "So Texas has 38 electoral votes, Vermont has three.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.052992,
+      "no_speech_prob": 0.00057
+    },
+    {
+      "index": 33,
+      "start": 110.14,
+      "end": 116.14,
+      "text": "But this combination makes the number of people each delegate represents way different between states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 34,
+      "start": 116.14,
+      "end": 123.14,
+      "text": "In Texas, one electoral delegate represents three times the amount of people as one in Vermont.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 35,
+      "start": 123.14,
+      "end": 128.14,
+      "text": "And that makes each individual person's vote in Vermont a lot more influential.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 36,
+      "start": 128.14,
+      "end": 133.14,
+      "text": "The Electoral College creates discrepancies like this all over the country.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 37,
+      "start": 133.14,
+      "end": 138.14,
+      "text": "A voter in Wyoming is worth three and a half times as much as a voter in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046053,
+      "no_speech_prob": 0.000856
+    },
+    {
+      "index": 38,
+      "start": 138.14,
+      "end": 145.14,
+      "text": "And the winner of the presidential election is the candidate who gets 270 or more of these Electoral College votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 39,
+      "start": 145.14,
+      "end": 150.38,
+      "text": "These are the results of the 2016 election by state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 40,
+      "start": 150.38,
+      "end": 156.38,
+      "text": "You're probably more familiar with this version of it, a map of red states and blue states.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 41,
+      "start": 156.38,
+      "end": 158.38,
+      "text": "But this chart tells a different story.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 42,
+      "start": 158.38,
+      "end": 162.38,
+      "text": "You can see that no state is actually all red or all blue.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 43,
+      "start": 162.38,
+      "end": 166.38,
+      "text": "But almost every state awards its electoral votes the same way.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.046604,
+      "no_speech_prob": 0.00407
+    },
+    {
+      "index": 44,
+      "start": 166.38,
+      "end": 171.38,
+      "text": "The candidate who gets the most votes in a state gets all its electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 45,
+      "start": 171.38,
+      "end": 176.38,
+      "text": "If they win the state by 1%, they win 100% of the electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 46,
+      "start": 176.38,
+      "end": 181.38,
+      "text": "In 2016, more than 4 million people voted for Donald Trump in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 47,
+      "start": 181.38,
+      "end": 186.38,
+      "text": "In fact, more people voted for him there than in any other state except for two.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 48,
+      "start": 186.38,
+      "end": 187.38,
+      "text": "But it didn't matter.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 49,
+      "start": 187.38,
+      "end": 192.38,
+      "text": "Hillary Clinton got more votes there, so she got all 55 of its electoral votes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047103,
+      "no_speech_prob": 0.009125
+    },
+    {
+      "index": 50,
+      "start": 193.38,
+      "end": 195.38,
+      "text": "Clinton never even campaigned in California.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 51,
+      "start": 195.38,
+      "end": 198.38,
+      "text": "Polling showed she'd easily win the state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 52,
+      "start": 198.38,
+      "end": 200.38,
+      "text": "Trump only visited Texas once.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 53,
+      "start": 200.38,
+      "end": 203.38,
+      "text": "He knew he'd basically had that state's electoral votes locked.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 54,
+      "start": 203.38,
+      "end": 207.38,
+      "text": "But they both visited Florida 35 or more times.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 55,
+      "start": 207.38,
+      "end": 210.38,
+      "text": "That's because Florida is usually a swing state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 56,
+      "start": 210.38,
+      "end": 215.38,
+      "text": "Polls show that the vote there could swing to one party or another nearly every election.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 57,
+      "start": 215.38,
+      "end": 221.38,
+      "text": "Trump only won it in 2016 by 100,000 votes, out of more than 9 million.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050991,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 58,
+      "start": 221.38,
+      "end": 226.38,
+      "text": "Swing seats have changed over time thanks to shifting demographics and political views.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 59,
+      "start": 226.38,
+      "end": 231.38,
+      "text": "And it's states like these where presidential candidates spend most of their time campaigning.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 60,
+      "start": 231.38,
+      "end": 237.38,
+      "text": "It also means these states have way more influence over the election than these ones.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 61,
+      "start": 237.38,
+      "end": 244.38,
+      "text": "A study found that voters in Michigan had 51 times the amount of influence on the 2016 election",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 62,
+      "start": 244.38,
+      "end": 246.38,
+      "text": "as someone from a state like Utah.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.05337,
+      "no_speech_prob": 0.0017
+    },
+    {
+      "index": 63,
+      "start": 246.38,
+      "end": 251.38,
+      "text": "Voters in states like California or Missouri mattered very little.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 64,
+      "start": 251.38,
+      "end": 254.38,
+      "text": "Swing seats are where the election actually takes place.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 65,
+      "start": 254.38,
+      "end": 259.38,
+      "text": "They get the attention and the influence, and they only exist because of the electoral college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 66,
+      "start": 259.38,
+      "end": 267.38,
+      "text": "It doesn't seem very fair, but the electoral college has always shifted power away from some people and towards others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 67,
+      "start": 267.38,
+      "end": 269.38,
+      "text": "It was how it was designed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 68,
+      "start": 269.38,
+      "end": 275.38,
+      "text": "Back when there were just a few states, not 50, they had to get all the states to agree on the Constitution.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.055708,
+      "no_speech_prob": 0.006905
+    },
+    {
+      "index": 69,
+      "start": 275.38,
+      "end": 277.38,
+      "text": "One problem.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 70,
+      "start": 277.38,
+      "end": 282.38,
+      "text": "The northern states, which were largely anti-slavery, wanted only free people to count in the population",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 71,
+      "start": 282.38,
+      "end": 285.38,
+      "text": "towards electoral votes, which they had more of.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 72,
+      "start": 285.38,
+      "end": 290.38,
+      "text": "The proslavery southern states were worried that they would be constantly outvoted",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 73,
+      "start": 290.38,
+      "end": 294.38,
+      "text": "and wanted enslaved people to count in determining the population.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 74,
+      "start": 294.38,
+      "end": 299.38,
+      "text": "As a compromise, they settled on something called the three-fist clause.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 75,
+      "start": 299.38,
+      "end": 304.38,
+      "text": "It established that an enslaved person would only count as three-fists of a person.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.082589,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 76,
+      "start": 305.38,
+      "end": 309.38,
+      "text": "In 1800, Pennsylvania, a northern state, and Virginia, a southern one,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 77,
+      "start": 309.38,
+      "end": 312.38,
+      "text": "had about the same number of free people living there.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 78,
+      "start": 312.38,
+      "end": 316.38,
+      "text": "But Virginia was also home to hundreds of thousands of enslaved people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 79,
+      "start": 316.38,
+      "end": 319.38,
+      "text": "who had no freedom, let alone a vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 80,
+      "start": 319.38,
+      "end": 323.38,
+      "text": "and ended up with more votes in the electoral college than Pennsylvania.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 81,
+      "start": 323.38,
+      "end": 329.38,
+      "text": "That year, those extra electoral votes gave the candidate from Virginia just enough to win.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.062332,
+      "no_speech_prob": 0.002632
+    },
+    {
+      "index": 82,
+      "start": 330.38,
+      "end": 336.38,
+      "text": "Even after the U.S. finally abolished slavery and eventually gave black Americans the right to vote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 83,
+      "start": 336.38,
+      "end": 339.38,
+      "text": "white southern leaders found ways to keep them from voting,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 84,
+      "start": 339.38,
+      "end": 344.38,
+      "text": "like with discriminating laws like poll taxes and acts of violence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 85,
+      "start": 344.38,
+      "end": 349.38,
+      "text": "This meant they continued to have overrepresentation in the electoral college",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 86,
+      "start": 349.38,
+      "end": 352.38,
+      "text": "on behalf of a large population that couldn't vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 87,
+      "start": 352.38,
+      "end": 357.38,
+      "text": "The first time Congress attempted to replace the electoral college with a simple popular vote",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.050663,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 88,
+      "start": 357.38,
+      "end": 362.38,
+      "text": "was back in 1816, but senators from southern states blocked it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 89,
+      "start": 362.38,
+      "end": 365.38,
+      "text": "saying it would be deeply injurious to them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 90,
+      "start": 365.38,
+      "end": 368.38,
+      "text": "In 1969, Congress came even closer.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 91,
+      "start": 368.38,
+      "end": 374.38,
+      "text": "Replacing the electoral college had support in both parties and even passed the House,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 92,
+      "start": 374.38,
+      "end": 377.38,
+      "text": "but it was blocked again by southern senators.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 93,
+      "start": 377.38,
+      "end": 379.38,
+      "text": "A senator from Alabama wrote,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 94,
+      "start": 379.38,
+      "end": 383.38,
+      "text": "the electoral college is one of the South's few remaining political safeguards.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 95,
+      "start": 383.38,
+      "end": 384.38,
+      "text": "Let's keep it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.068474,
+      "no_speech_prob": 0.003593
+    },
+    {
+      "index": 96,
+      "start": 384.38,
+      "end": 389.38,
+      "text": "Why change a system that historically had and still was benefiting white southerners?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 97,
+      "start": 389.38,
+      "end": 393.38,
+      "text": "Today, the states that the electoral college benefits have changed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 98,
+      "start": 393.38,
+      "end": 397.38,
+      "text": "but it's still making some voters more powerful than others.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 99,
+      "start": 397.38,
+      "end": 401.38,
+      "text": "If we look at the states with a lot of electoral votes for not a lot of people",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 100,
+      "start": 401.38,
+      "end": 404.38,
+      "text": "and the states with a little electoral votes for a lot of people,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 101,
+      "start": 404.38,
+      "end": 409.38,
+      "text": "these states are a lot wider and less diverse than the rest of America.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 102,
+      "start": 409.38,
+      "end": 412.38,
+      "text": "And many of these states are Republican strongholds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.038823,
+      "no_speech_prob": 0.002323
+    },
+    {
+      "index": 103,
+      "start": 412.38,
+      "end": 415.38,
+      "text": "These tend to vote Democratic.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 104,
+      "start": 415.38,
+      "end": 418.38,
+      "text": "That's one reason the two most recent Republican presidents",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 105,
+      "start": 418.38,
+      "end": 422.38,
+      "text": "have won the electoral college without winning the popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 106,
+      "start": 422.38,
+      "end": 427.38,
+      "text": "And since it's currently Democrats that are primarily disadvantaged by the electoral college,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 107,
+      "start": 427.38,
+      "end": 430.38,
+      "text": "they're the ones leading the charge to replace it with a popular vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 108,
+      "start": 430.38,
+      "end": 433.38,
+      "text": "Get rid of the electoral college.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 109,
+      "start": 433.38,
+      "end": 440.56,
+      "text": "But as politics have changed, the people most critical of the electoral college have too.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057345,
+      "no_speech_prob": 0.000417
+    },
+    {
+      "index": 110,
+      "start": 440.56,
+      "end": 445.56,
+      "text": "In the 1948 presidential election, New York ended up being the major swing state.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 111,
+      "start": 445.56,
+      "end": 447.56,
+      "text": "A congressman from Texas said,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 112,
+      "start": 447.56,
+      "end": 450.56,
+      "text": "I have no objection to the Negro and Harlem voting,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 113,
+      "start": 450.56,
+      "end": 454.56,
+      "text": "but I do resent the fact that his vote is worth a hundred times as much",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 114,
+      "start": 454.56,
+      "end": 457.56,
+      "text": "as the vote of a white man in Texas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 115,
+      "start": 457.56,
+      "end": 459.56,
+      "text": "Swing states change.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 116,
+      "start": 459.56,
+      "end": 464.56,
+      "text": "What doesn't is that the electoral college gives certain people more power to pick the president.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 117,
+      "start": 464.56,
+      "end": 469.56,
+      "text": "And its biggest defenders have always been those who benefit the most from it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.045797,
+      "no_speech_prob": 0.010323
+    },
+    {
+      "index": 118,
+      "start": 469.56,
+      "end": 480.55,
+      "text": "Thanks to Absolute, who sponsored this video to remind all Americans to make the time to vote.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    },
+    {
+      "index": 119,
+      "start": 480.55,
+      "end": 484.55,
+      "text": "Absolute doesn't influence our editorial, but they do make videos like this possible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    },
+    {
+      "index": 120,
+      "start": 484.55,
+      "end": 487.55,
+      "text": "So drink responsibly and vote responsibly.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.057562,
+      "no_speech_prob": 0.417969
+    }
+  ],
+  "context_text_chronological": "If you watch the news during a presidential election, you'll hear a lot of this. What do the national polls look like? Hillary Clinton's nationally. Nationally. Joe Biden is currently ahead. But these national polls don't actually tell you who's going to win. Throw the national polls out the window. They don't matter at all. What matters are those swing states. Ah yes, the swing states. Most democracies around the world elect their head of state with a popular vote, so whoever gets the most votes wins. But in America, we do it a little differently. The U.S. is the only country that picks its president using something called the Electoral College. It's made up of delegates from each U.S. state. When Americans vote for president, what they're actually voting for is who their state will vote for. This is why, every so often, someone wins the presidency without winning the popular vote. And who actually benefits from it? The Electoral College is based on how people are represented in Congress, where each state has a number of representatives based on its population, and every state also gets two senators. So, for example, let's look at Texas, which has a huge population, and Vermont, which has a really small one. Texas has 36 representatives in Congress. Vermont only gets one. Representatives in both states each represent roughly the same number of people. In the Electoral College, a state gets the same number of delegates as their congressional representatives, plus two for each senator. So Texas has 38 electoral votes, Vermont has three. But this combination makes the number of people each delegate represents way different between states. In Texas, one electoral delegate represents three times the amount of people as one in Vermont. And that makes each individual person's vote in Vermont a lot more influential. The Electoral College creates discrepancies like this all over the country. A voter in Wyoming is worth three and a half times as much as a voter in California. And the winner of the presidential election is the candidate who gets 270 or more of these Electoral College votes. These are the results of the 2016 election by state. You're probably more familiar with this version of it, a map of red states and blue states. But this chart tells a different story. You can see that no state is actually all red or all blue. But almost every state awards its electoral votes the same way. The candidate who gets the most votes in a state gets all its electoral votes. If they win the state by 1%, they win 100% of the electoral votes. In 2016, more than 4 million people voted for Donald Trump in California. In fact, more people voted for him there than in any other state except for two. But it didn't matter. Hillary Clinton got more votes there, so she got all 55 of its electoral votes. Clinton never even campaigned in California. Polling showed she'd easily win the state. Trump only visited Texas once. He knew he'd basically had that state's electoral votes locked. But they both visited Florida 35 or more times. That's because Florida is usually a swing state. Polls show that the vote there could swing to one party or another nearly every election. Trump only won it in 2016 by 100,000 votes, out of more than 9 million. Swing seats have changed over time thanks to shifting demographics and political views. And it's states like these where presidential candidates spend most of their time campaigning. It also means these states have way more influence over the election than these ones. A study found that voters in Michigan had 51 times the amount of influence on the 2016 election as someone from a state like Utah. Voters in states like California or Missouri mattered very little. Swing seats are where the election actually takes place. They get the attention and the influence, and they only exist because of the electoral college. It doesn't seem very fair, but the electoral college has always shifted power away from some people and towards others. It was how it was designed. Back when there were just a few states, not 50, they had to get all the states to agree on the Constitution. One problem. The northern states, which were largely anti-slavery, wanted only free people to count in the population towards electoral votes, which they had more of. The proslavery southern states were worried that they would be constantly outvoted and wanted enslaved people to count in determining the population. As a compromise, they settled on something called the three-fist clause. It established that an enslaved person would only count as three-fists of a person. In 1800, Pennsylvania, a northern state, and Virginia, a southern one, had about the same number of free people living there. But Virginia was also home to hundreds of thousands of enslaved people who had no freedom, let alone a vote, and ended up with more votes in the electoral college than Pennsylvania. That year, those extra electoral votes gave the candidate from Virginia just enough to win. Even after the U.S. finally abolished slavery and eventually gave black Americans the right to vote, white southern leaders found ways to keep them from voting, like with discriminating laws like poll taxes and acts of violence. This meant they continued to have overrepresentation in the electoral college on behalf of a large population that couldn't vote. The first time Congress attempted to replace the electoral college with a simple popular vote was back in 1816, but senators from southern states blocked it, saying it would be deeply injurious to them. In 1969, Congress came even closer. Replacing the electoral college had support in both parties and even passed the House, but it was blocked again by southern senators. A senator from Alabama wrote, the electoral college is one of the South's few remaining political safeguards. Let's keep it. Why change a system that historically had and still was benefiting white southerners? Today, the states that the electoral college benefits have changed, but it's still making some voters more powerful than others. If we look at the states with a lot of electoral votes for not a lot of people and the states with a little electoral votes for a lot of people, these states are a lot wider and less diverse than the rest of America. And many of these states are Republican strongholds. These tend to vote Democratic. That's one reason the two most recent Republican presidents have won the electoral college without winning the popular vote. And since it's currently Democrats that are primarily disadvantaged by the electoral college, they're the ones leading the charge to replace it with a popular vote. Get rid of the electoral college. But as politics have changed, the people most critical of the electoral college have too. In the 1948 presidential election, New York ended up being the major swing state. A congressman from Texas said, I have no objection to the Negro and Harlem voting, but I do resent the fact that his vote is worth a hundred times as much as the vote of a white man in Texas. Swing states change. What doesn't is that the electoral college gives certain people more power to pick the president. And its biggest defenders have always been those who benefit the most from it. Thanks to Absolute, who sponsored this video to remind all Americans to make the time to vote. Absolute doesn't influence our editorial, but they do make videos like this possible. So drink responsibly and vote responsibly.",
+  "target_text_for_audit": "The majority of Americans do not like the system and haven't for a long time. Both political parties have made attempts to get rid of it. So why does the U.S. still use the Electoral College?",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 3,
+    "sentences": [
+      {
+        "sentence_id": "sent_002",
+        "text": "The majority of Americans do not like the system, and haven't for a long time.",
+        "start_source": 54.16,
+        "end_source": 58.9,
+        "matching_cue_ids": [
+          18
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Both political parties have made attempts to get rid of it.",
+        "start_source": 59.42,
+        "end_source": 62.0,
+        "matching_cue_ids": [
+          19
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "So why does the U .S.",
+        "start_source": 62.5,
+        "end_source": 63.84,
+        "matching_cue_ids": [
+          20
+        ],
+        "text_similarity": 0.5429,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\ajavsMbCapY.mp4",
+    "cue_count": 121
+  },
+  "token_estimate_char_div_4": 1876
+}

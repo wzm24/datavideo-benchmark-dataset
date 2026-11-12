@@ -1,0 +1,1502 @@
+{
+  "clip_id": "line_44",
+  "family": "line",
+  "video_id": "vhAXp0xzMFg",
+  "source_url": "https://www.youtube.com/watch?v=vhAXp0xzMFg",
+  "source_title": "Why are houses so expensive?",
+  "target_window_source": {
+    "start": 328.0,
+    "end": 338.0
+  },
+  "target_mask_interval": {
+    "start": 326.5,
+    "end": 339.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    73,
+    74,
+    75
+  ],
+  "masked_cue_ids": [
+    73,
+    74,
+    75
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    76
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 1.71,
+      "end": 5.31,
+      "text": "Since the 90s, house prices have boomed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 1,
+      "start": 5.31,
+      "end": 10.93,
+      "text": "They've gone from under four times average income up to nearly eight, but they cost roughly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 2,
+      "start": 10.93,
+      "end": 12.83,
+      "text": "half that to build.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 3,
+      "start": 12.83,
+      "end": 17.39,
+      "text": "So how did houses get so expensive?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 4,
+      "start": 17.39,
+      "end": 21.75,
+      "text": "Let's use England between 1991 and 2016 as an example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 5,
+      "start": 21.75,
+      "end": 26.03,
+      "text": "The data is good and prices really took off.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 6,
+      "start": 26.03,
+      "end": 33.73,
+      "text": "Maybe the demand for homes has outpaced supply.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 7,
+      "start": 33.73,
+      "end": 36.13,
+      "text": "This is England nearly 30 years ago.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 8,
+      "start": 36.13,
+      "end": 40.37,
+      "text": "There are 47 million people and 20 million homes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 9,
+      "start": 40.37,
+      "end": 44.81,
+      "text": "Jump forward 25 years, the population has increased.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 10,
+      "start": 44.81,
+      "end": 48.89,
+      "text": "But the supply of homes has increased even more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 11,
+      "start": 48.89,
+      "end": 54.37,
+      "text": "With more homes now per person, higher prices are surprising.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 12,
+      "start": 54.37,
+      "end": 57.73,
+      "text": "Maybe how people live has pushed up the demand for homes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 13,
+      "start": 57.73,
+      "end": 62.81,
+      "text": "If there's a trend towards living in smaller groups, there'll be a greater demand for housing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 14,
+      "start": 62.81,
+      "end": 67.53,
+      "text": "We know that over time, people are coupling later, having smaller families, and towards",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 15,
+      "start": 67.53,
+      "end": 71.21,
+      "text": "the end of their lives, living longer on their own.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 16,
+      "start": 71.21,
+      "end": 76.93,
+      "text": "But even when viewed through this lens, supply and demand have remained broadly steady.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 17,
+      "start": 76.93,
+      "end": 82.21,
+      "text": "So if there's little change here, where else might we find some answers?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 18,
+      "start": 82.21,
+      "end": 84.97,
+      "text": "There's a load of other factors that you hear about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 19,
+      "start": 84.97,
+      "end": 91.5,
+      "text": "Let's check out those.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 20,
+      "start": 91.5,
+      "end": 94.18,
+      "text": "About a million homes are empty at any one time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 21,
+      "start": 94.18,
+      "end": 99.1,
+      "text": "Sometimes, the reasons are understandable, like the owner has died, is moving, or the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 22,
+      "start": 99.1,
+      "end": 101.38,
+      "text": "house is undergoing renovations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 23,
+      "start": 101.38,
+      "end": 106.46,
+      "text": "Occupying empty homes would help lower prices, but we're interested in why they're expensive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 24,
+      "start": 106.46,
+      "end": 107.7,
+      "text": "to start with.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 25,
+      "start": 107.7,
+      "end": 112.82,
+      "text": "And as this share hasn't changed much over time, they're probably not a big reason.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 26,
+      "start": 112.82,
+      "end": 116.06,
+      "text": "Second homes account for about 2% of the housing stock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 27,
+      "start": 116.06,
+      "end": 122.14,
+      "text": "They're undoubtedly a factor in holiday hotspots, but probably not a big factor nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 28,
+      "start": 122.14,
+      "end": 126.42,
+      "text": "But there's another type of additional property that has had a big impact.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 29,
+      "start": 126.42,
+      "end": 128.22,
+      "text": "Buy to less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 30,
+      "start": 128.22,
+      "end": 131.7,
+      "text": "Since 1991, the number has more than doubled.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 31,
+      "start": 131.7,
+      "end": 138.98,
+      "text": "This big increase in well-financed buyers has added a fair amount of extra demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 32,
+      "start": 138.98,
+      "end": 143.82,
+      "text": "Government schemes like Help to Buy encourage developers to build and boost an individual's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 33,
+      "start": 143.82,
+      "end": 144.82,
+      "text": "finances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 34,
+      "start": 144.82,
+      "end": 148.82,
+      "text": "But, perversely, they've kept prices high overall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 35,
+      "start": 148.82,
+      "end": 154.1,
+      "text": "One free-market think tank said that the scheme was like throwing petrol onto a bonfire.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 36,
+      "start": 154.1,
+      "end": 157.74,
+      "text": "What about building more to ease prices?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 37,
+      "start": 157.74,
+      "end": 163.9,
+      "text": "Well, general consensus has been that we need to build around 300,000 new homes a year,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 38,
+      "start": 163.9,
+      "end": 167.42,
+      "text": "but we've consistently not hit this target.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 39,
+      "start": 167.42,
+      "end": 170.62,
+      "text": "So perhaps we just have to live with a messy answer then.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 40,
+      "start": 170.62,
+      "end": 174.38,
+      "text": "Houses are expensive for a load of reasons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 41,
+      "start": 174.38,
+      "end": 178.26,
+      "text": "But hold on, surely one of these things must stand out?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 42,
+      "start": 178.26,
+      "end": 180.94,
+      "text": "Well, there is a factor we haven't talked about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 43,
+      "start": 180.94,
+      "end": 185.18,
+      "text": "It's a big one, and it's largely underreported.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 44,
+      "start": 185.18,
+      "end": 187.34,
+      "text": "Let's look at another graph.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 45,
+      "start": 187.34,
+      "end": 195.95,
+      "text": "How exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 46,
+      "start": 195.95,
+      "end": 197.91,
+      "text": "What does this show?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 47,
+      "start": 197.91,
+      "end": 201.07,
+      "text": "Ultra-low interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 48,
+      "start": 201.07,
+      "end": 206.39,
+      "text": "That's the Bank of England base rate, and that's an average mortgage rate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 49,
+      "start": 206.39,
+      "end": 209.83,
+      "text": "Those are historically low levels.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 50,
+      "start": 209.83,
+      "end": 212.83,
+      "text": "Ultra-low interest rates mean two things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 51,
+      "start": 212.91,
+      "end": 215.95,
+      "text": "Firstly, very cheap borrowing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 52,
+      "start": 215.95,
+      "end": 221.15,
+      "text": "10% rates versus 2% roughly doubles the size of the mortgage you'd get.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 53,
+      "start": 221.15,
+      "end": 225.99,
+      "text": "Loaning everyone more money just gives everyone more to outbid each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 54,
+      "start": 225.99,
+      "end": 231.79,
+      "text": "Secondly, falling interest rates mean safe investments, like a savings account for instance,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 55,
+      "start": 231.79,
+      "end": 234.59,
+      "text": "make very little interest for the saver.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 56,
+      "start": 234.59,
+      "end": 241.03,
+      "text": "This causes people to move money into things which, though a little riskier, are still earning interest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 57,
+      "start": 241.03,
+      "end": 244.79,
+      "text": "Things like, you guessed it, property.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 58,
+      "start": 244.79,
+      "end": 248.51,
+      "text": "This partly explains that boom in Bytele earlier.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 59,
+      "start": 248.51,
+      "end": 255.27,
+      "text": "These two effects mean ultra-low interest rates are a much bigger factor than many realise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 60,
+      "start": 255.27,
+      "end": 263.15,
+      "text": "In fact, some economists, including ones at that little-known institution, the Bank of England,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 61,
+      "start": 263.15,
+      "end": 269.19,
+      "text": "say that the decline in interest rates can account for all of the rise in house prices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 62,
+      "start": 269.19,
+      "end": 273.31,
+      "text": "So for one group of economists, the answer is simple then.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 63,
+      "start": 273.31,
+      "end": 274.87,
+      "text": "It's this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 64,
+      "start": 274.87,
+      "end": 280.99,
+      "text": "Houses are expensive because of continually falling interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 65,
+      "start": 280.99,
+      "end": 288.68,
+      "text": "So, where does this leave us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 66,
+      "start": 288.68,
+      "end": 292.88,
+      "text": "As we saw before, not everyone is totally convinced.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 67,
+      "start": 292.88,
+      "end": 297.52,
+      "text": "While there's more and more appreciation of the role of ultra-low interest rates,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 68,
+      "start": 297.52,
+      "end": 301.72,
+      "text": "most still point to this bunch of other factors all playing a role,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 69,
+      "start": 301.72,
+      "end": 304.4,
+      "text": "and it would seem the government agrees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 70,
+      "start": 304.4,
+      "end": 310.28,
+      "text": "With polls now showing only 7% think it'd be good for Britain if prices keep rising,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    },
+    {
+      "index": 71,
+      "start": 310.28,
+      "end": 317.24,
+      "text": "in recent years, the government has introduced policies that start to address several of these factors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    },
+    {
+      "index": 72,
+      "start": 317.24,
+      "end": 323.88,
+      "text": "As for interest rates, the coronavirus pandemic has brought on fears of another major economic shock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    }
+  ],
+  "context_after": [
+    {
+      "index": 76,
+      "start": 340.54,
+      "end": 344.1,
+      "text": "What this means for house prices remains to be seen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.234375,
+      "no_speech_prob": 0.005207
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 1.71,
+      "end": 5.31,
+      "text": "Since the 90s, house prices have boomed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 1,
+      "start": 5.31,
+      "end": 10.93,
+      "text": "They've gone from under four times average income up to nearly eight, but they cost roughly",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 2,
+      "start": 10.93,
+      "end": 12.83,
+      "text": "half that to build.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 3,
+      "start": 12.83,
+      "end": 17.39,
+      "text": "So how did houses get so expensive?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 4,
+      "start": 17.39,
+      "end": 21.75,
+      "text": "Let's use England between 1991 and 2016 as an example.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 5,
+      "start": 21.75,
+      "end": 26.03,
+      "text": "The data is good and prices really took off.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 6,
+      "start": 26.03,
+      "end": 33.73,
+      "text": "Maybe the demand for homes has outpaced supply.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 7,
+      "start": 33.73,
+      "end": 36.13,
+      "text": "This is England nearly 30 years ago.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.235938,
+      "no_speech_prob": 0.021255
+    },
+    {
+      "index": 8,
+      "start": 36.13,
+      "end": 40.37,
+      "text": "There are 47 million people and 20 million homes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 9,
+      "start": 40.37,
+      "end": 44.81,
+      "text": "Jump forward 25 years, the population has increased.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 10,
+      "start": 44.81,
+      "end": 48.89,
+      "text": "But the supply of homes has increased even more.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 11,
+      "start": 48.89,
+      "end": 54.37,
+      "text": "With more homes now per person, higher prices are surprising.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 12,
+      "start": 54.37,
+      "end": 57.73,
+      "text": "Maybe how people live has pushed up the demand for homes.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 13,
+      "start": 57.73,
+      "end": 62.81,
+      "text": "If there's a trend towards living in smaller groups, there'll be a greater demand for housing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.185902,
+      "no_speech_prob": 0.000698
+    },
+    {
+      "index": 14,
+      "start": 62.81,
+      "end": 67.53,
+      "text": "We know that over time, people are coupling later, having smaller families, and towards",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 15,
+      "start": 67.53,
+      "end": 71.21,
+      "text": "the end of their lives, living longer on their own.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 16,
+      "start": 71.21,
+      "end": 76.93,
+      "text": "But even when viewed through this lens, supply and demand have remained broadly steady.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 17,
+      "start": 76.93,
+      "end": 82.21,
+      "text": "So if there's little change here, where else might we find some answers?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 18,
+      "start": 82.21,
+      "end": 84.97,
+      "text": "There's a load of other factors that you hear about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 19,
+      "start": 84.97,
+      "end": 91.5,
+      "text": "Let's check out those.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 20,
+      "start": 91.5,
+      "end": 94.18,
+      "text": "About a million homes are empty at any one time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.168042,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 21,
+      "start": 94.18,
+      "end": 99.1,
+      "text": "Sometimes, the reasons are understandable, like the owner has died, is moving, or the",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 22,
+      "start": 99.1,
+      "end": 101.38,
+      "text": "house is undergoing renovations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 23,
+      "start": 101.38,
+      "end": 106.46,
+      "text": "Occupying empty homes would help lower prices, but we're interested in why they're expensive",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 24,
+      "start": 106.46,
+      "end": 107.7,
+      "text": "to start with.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 25,
+      "start": 107.7,
+      "end": 112.82,
+      "text": "And as this share hasn't changed much over time, they're probably not a big reason.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 26,
+      "start": 112.82,
+      "end": 116.06,
+      "text": "Second homes account for about 2% of the housing stock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 27,
+      "start": 116.06,
+      "end": 122.14,
+      "text": "They're undoubtedly a factor in holiday hotspots, but probably not a big factor nationally.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.148921,
+      "no_speech_prob": 0.026718
+    },
+    {
+      "index": 28,
+      "start": 122.14,
+      "end": 126.42,
+      "text": "But there's another type of additional property that has had a big impact.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 29,
+      "start": 126.42,
+      "end": 128.22,
+      "text": "Buy to less.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 30,
+      "start": 128.22,
+      "end": 131.7,
+      "text": "Since 1991, the number has more than doubled.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 31,
+      "start": 131.7,
+      "end": 138.98,
+      "text": "This big increase in well-financed buyers has added a fair amount of extra demand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 32,
+      "start": 138.98,
+      "end": 143.82,
+      "text": "Government schemes like Help to Buy encourage developers to build and boost an individual's",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 33,
+      "start": 143.82,
+      "end": 144.82,
+      "text": "finances.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 34,
+      "start": 144.82,
+      "end": 148.82,
+      "text": "But, perversely, they've kept prices high overall.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.166163,
+      "no_speech_prob": 0.077942
+    },
+    {
+      "index": 35,
+      "start": 148.82,
+      "end": 154.1,
+      "text": "One free-market think tank said that the scheme was like throwing petrol onto a bonfire.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 36,
+      "start": 154.1,
+      "end": 157.74,
+      "text": "What about building more to ease prices?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 37,
+      "start": 157.74,
+      "end": 163.9,
+      "text": "Well, general consensus has been that we need to build around 300,000 new homes a year,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 38,
+      "start": 163.9,
+      "end": 167.42,
+      "text": "but we've consistently not hit this target.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 39,
+      "start": 167.42,
+      "end": 170.62,
+      "text": "So perhaps we just have to live with a messy answer then.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 40,
+      "start": 170.62,
+      "end": 174.38,
+      "text": "Houses are expensive for a load of reasons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 41,
+      "start": 174.38,
+      "end": 178.26,
+      "text": "But hold on, surely one of these things must stand out?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216435,
+      "no_speech_prob": 0.076782
+    },
+    {
+      "index": 42,
+      "start": 178.26,
+      "end": 180.94,
+      "text": "Well, there is a factor we haven't talked about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 43,
+      "start": 180.94,
+      "end": 185.18,
+      "text": "It's a big one, and it's largely underreported.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 44,
+      "start": 185.18,
+      "end": 187.34,
+      "text": "Let's look at another graph.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 45,
+      "start": 187.34,
+      "end": 195.95,
+      "text": "How exciting.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 46,
+      "start": 195.95,
+      "end": 197.91,
+      "text": "What does this show?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 47,
+      "start": 197.91,
+      "end": 201.07,
+      "text": "Ultra-low interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 48,
+      "start": 201.07,
+      "end": 206.39,
+      "text": "That's the Bank of England base rate, and that's an average mortgage rate.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 49,
+      "start": 206.39,
+      "end": 209.83,
+      "text": "Those are historically low levels.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 50,
+      "start": 209.83,
+      "end": 212.83,
+      "text": "Ultra-low interest rates mean two things.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.270312,
+      "no_speech_prob": 0.015175
+    },
+    {
+      "index": 51,
+      "start": 212.91,
+      "end": 215.95,
+      "text": "Firstly, very cheap borrowing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 52,
+      "start": 215.95,
+      "end": 221.15,
+      "text": "10% rates versus 2% roughly doubles the size of the mortgage you'd get.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 53,
+      "start": 221.15,
+      "end": 225.99,
+      "text": "Loaning everyone more money just gives everyone more to outbid each other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 54,
+      "start": 225.99,
+      "end": 231.79,
+      "text": "Secondly, falling interest rates mean safe investments, like a savings account for instance,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 55,
+      "start": 231.79,
+      "end": 234.59,
+      "text": "make very little interest for the saver.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 56,
+      "start": 234.59,
+      "end": 241.03,
+      "text": "This causes people to move money into things which, though a little riskier, are still earning interest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.1381,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 57,
+      "start": 241.03,
+      "end": 244.79,
+      "text": "Things like, you guessed it, property.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 58,
+      "start": 244.79,
+      "end": 248.51,
+      "text": "This partly explains that boom in Bytele earlier.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 59,
+      "start": 248.51,
+      "end": 255.27,
+      "text": "These two effects mean ultra-low interest rates are a much bigger factor than many realise.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 60,
+      "start": 255.27,
+      "end": 263.15,
+      "text": "In fact, some economists, including ones at that little-known institution, the Bank of England,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 61,
+      "start": 263.15,
+      "end": 269.19,
+      "text": "say that the decline in interest rates can account for all of the rise in house prices.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.160689,
+      "no_speech_prob": 0.000855
+    },
+    {
+      "index": 62,
+      "start": 269.19,
+      "end": 273.31,
+      "text": "So for one group of economists, the answer is simple then.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 63,
+      "start": 273.31,
+      "end": 274.87,
+      "text": "It's this.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 64,
+      "start": 274.87,
+      "end": 280.99,
+      "text": "Houses are expensive because of continually falling interest rates.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 65,
+      "start": 280.99,
+      "end": 288.68,
+      "text": "So, where does this leave us?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 66,
+      "start": 288.68,
+      "end": 292.88,
+      "text": "As we saw before, not everyone is totally convinced.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 67,
+      "start": 292.88,
+      "end": 297.52,
+      "text": "While there's more and more appreciation of the role of ultra-low interest rates,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 68,
+      "start": 297.52,
+      "end": 301.72,
+      "text": "most still point to this bunch of other factors all playing a role,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 69,
+      "start": 301.72,
+      "end": 304.4,
+      "text": "and it would seem the government agrees.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.141902,
+      "no_speech_prob": 0.000392
+    },
+    {
+      "index": 70,
+      "start": 304.4,
+      "end": 310.28,
+      "text": "With polls now showing only 7% think it'd be good for Britain if prices keep rising,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    },
+    {
+      "index": 71,
+      "start": 310.28,
+      "end": 317.24,
+      "text": "in recent years, the government has introduced policies that start to address several of these factors.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    },
+    {
+      "index": 72,
+      "start": 317.24,
+      "end": 323.88,
+      "text": "As for interest rates, the coronavirus pandemic has brought on fears of another major economic shock.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103308,
+      "no_speech_prob": 0.000842
+    },
+    {
+      "index": 76,
+      "start": 340.54,
+      "end": 344.1,
+      "text": "What this means for house prices remains to be seen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.234375,
+      "no_speech_prob": 0.005207
+    }
+  ],
+  "context_text_chronological": "Since the 90s, house prices have boomed. They've gone from under four times average income up to nearly eight, but they cost roughly half that to build. So how did houses get so expensive? Let's use England between 1991 and 2016 as an example. The data is good and prices really took off. Maybe the demand for homes has outpaced supply. This is England nearly 30 years ago. There are 47 million people and 20 million homes. Jump forward 25 years, the population has increased. But the supply of homes has increased even more. With more homes now per person, higher prices are surprising. Maybe how people live has pushed up the demand for homes. If there's a trend towards living in smaller groups, there'll be a greater demand for housing. We know that over time, people are coupling later, having smaller families, and towards the end of their lives, living longer on their own. But even when viewed through this lens, supply and demand have remained broadly steady. So if there's little change here, where else might we find some answers? There's a load of other factors that you hear about. Let's check out those. About a million homes are empty at any one time. Sometimes, the reasons are understandable, like the owner has died, is moving, or the house is undergoing renovations. Occupying empty homes would help lower prices, but we're interested in why they're expensive to start with. And as this share hasn't changed much over time, they're probably not a big reason. Second homes account for about 2% of the housing stock. They're undoubtedly a factor in holiday hotspots, but probably not a big factor nationally. But there's another type of additional property that has had a big impact. Buy to less. Since 1991, the number has more than doubled. This big increase in well-financed buyers has added a fair amount of extra demand. Government schemes like Help to Buy encourage developers to build and boost an individual's finances. But, perversely, they've kept prices high overall. One free-market think tank said that the scheme was like throwing petrol onto a bonfire. What about building more to ease prices? Well, general consensus has been that we need to build around 300,000 new homes a year, but we've consistently not hit this target. So perhaps we just have to live with a messy answer then. Houses are expensive for a load of reasons. But hold on, surely one of these things must stand out? Well, there is a factor we haven't talked about. It's a big one, and it's largely underreported. Let's look at another graph. How exciting. What does this show? Ultra-low interest rates. That's the Bank of England base rate, and that's an average mortgage rate. Those are historically low levels. Ultra-low interest rates mean two things. Firstly, very cheap borrowing. 10% rates versus 2% roughly doubles the size of the mortgage you'd get. Loaning everyone more money just gives everyone more to outbid each other. Secondly, falling interest rates mean safe investments, like a savings account for instance, make very little interest for the saver. This causes people to move money into things which, though a little riskier, are still earning interest. Things like, you guessed it, property. This partly explains that boom in Bytele earlier. These two effects mean ultra-low interest rates are a much bigger factor than many realise. In fact, some economists, including ones at that little-known institution, the Bank of England, say that the decline in interest rates can account for all of the rise in house prices. So for one group of economists, the answer is simple then. It's this. Houses are expensive because of continually falling interest rates. So, where does this leave us? As we saw before, not everyone is totally convinced. While there's more and more appreciation of the role of ultra-low interest rates, most still point to this bunch of other factors all playing a role, and it would seem the government agrees. With polls now showing only 7% think it'd be good for Britain if prices keep rising, in recent years, the government has introduced policies that start to address several of these factors. As for interest rates, the coronavirus pandemic has brought on fears of another major economic shock. What this means for house prices remains to be seen.",
+  "target_text_for_audit": "And lowering interest rates is a big way central banks try to get the economy moving. It's why they dropped so sharply in 2008. So, incredibly, they've managed to drop even further.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 3,
+    "sentences": [
+      {
+        "sentence_id": "sent_000",
+        "text": "and lowering interest rates is a big way central banks try to get the economy moving.",
+        "start_source": 323.0,
+        "end_source": 328.28,
+        "matching_cue_ids": [
+          73
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_001",
+        "text": "It's why they dropped so sharply in 2008.",
+        "start_source": 328.98,
+        "end_source": 331.58,
+        "matching_cue_ids": [
+          73,
+          74
+        ],
+        "text_similarity": 0.4848,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "So incredibly they've managed to drop even further.",
+        "start_source": 333.06,
+        "end_source": 336.9,
+        "matching_cue_ids": [
+          75
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\vhAXp0xzMFg.mp4",
+    "cue_count": 77
+  },
+  "token_estimate_char_div_4": 1073
+}

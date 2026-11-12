@@ -1,32 +1,220 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_11,fast spread infections,fast,7,0.029,0.0292,relative,estimated
-area_11,fast spread infections,fast,8,0.099,0.0994,relative,estimated
-area_11,fast spread infections,fast,9,0.404,0.4035,relative,estimated
-area_11,fast spread infections,fast,10,0.637,0.6374,relative,estimated
-area_11,fast spread infections,fast,11,0.895,0.8947,relative,estimated
-area_11,fast spread infections,fast,12,0.977,0.9766,relative,estimated
-area_11,fast spread infections,fast,13,0.988,0.9883,relative,estimated
-area_11,fast spread infections,fast,14,0.930,0.9298,relative,estimated
-area_11,fast spread infections,fast,15,0.708,0.7076,relative,estimated
-area_11,fast spread infections,fast,16,0.474,0.4737,relative,estimated
-area_11,fast spread infections,fast,17,0.146,0.1462,relative,estimated
-area_11,fast spread infections,fast,18,0.029,0.0292,relative,estimated
-area_11,slow spread infections,slow,7,0.000,0.0000,relative,estimated
-area_11,slow spread infections,slow,8,0.049,0.0492,relative,estimated
-area_11,slow spread infections,slow,9,0.180,0.1803,relative,estimated
-area_11,slow spread infections,slow,10,0.279,0.2787,relative,estimated
-area_11,slow spread infections,slow,11,0.492,0.4918,relative,estimated
-area_11,slow spread infections,slow,12,0.639,0.6393,relative,estimated
-area_11,slow spread infections,slow,13,0.803,0.8033,relative,estimated
-area_11,slow spread infections,slow,14,0.902,0.9016,relative,estimated
-area_11,slow spread infections,slow,15,0.967,0.9672,relative,estimated
-area_11,slow spread infections,slow,16,1.000,1.0000,relative,estimated
-area_11,slow spread infections,slow,17,0.967,0.9672,relative,estimated
-area_11,slow spread infections,slow,18,0.934,0.9344,relative,estimated
-area_11,slow spread infections,slow,19,0.803,0.8033,relative,estimated
-area_11,slow spread infections,slow,20,0.672,0.6721,relative,estimated
-area_11,slow spread infections,slow,21,0.492,0.4918,relative,estimated
-area_11,slow spread infections,slow,22,0.344,0.3443,relative,estimated
-area_11,slow spread infections,slow,23,0.180,0.1803,relative,estimated
-area_11,slow spread infections,slow,24,0.082,0.0820,relative,estimated
-area_11,slow spread infections,slow,25,0.000,0.0000,relative,estimated
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+Fast Spread,Time (relative),Infections (relative),Infections,,0.000000,1,0.000000,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.008723,2,1.584362,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.017021,3,2.304527,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.021702,4,3.456790,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.027872,5,3.950617,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.032766,6,5.102881,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.038936,7,5.596708,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.043830,8,6.748971,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.048085,9,7.037037,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.055532,10,9.979424,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.060426,11,10.514403,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.066596,12,12.530864,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.070851,13,12.942387,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.077660,14,16.481481,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.082553,15,17.181070,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.088723,16,19.855967,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.093617,17,20.473251,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.099787,18,23.148148,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.104681,19,23.909465,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.110851,20,27.942387,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.115745,21,28.786008,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.122553,22,32.325103,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.126809,23,32.901235,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.132979,24,36.234568,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.137872,25,37.016461,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.144043,26,40.349794,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.149574,27,41.378601,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.154255,28,44.218107,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.160638,29,45.493827,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.165319,30,48.333333,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.171702,31,49.485597,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.176383,32,51.748971,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.182766,33,52.777778,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.187447,34,55.041152,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.192979,35,55.864198,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.199149,36,58.539095,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.204681,37,59.094650,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.209574,38,60.246914,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.215106,39,60.720165,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.221277,40,62.736626,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.227660,41,63.436214,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.232979,42,65.020576,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.242766,43,66.131687,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.247660,44,66.337449,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.255106,45,67.818930,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.260000,46,68.024691,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.264894,47,68.600823,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.271064,48,68.847737,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.275106,49,69.362140,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.279362,50,69.547325,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.282128,51,69.156379,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.287660,52,67.304527,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.290426,53,67.078189,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.292553,54,67.386831,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.297234,55,69.588477,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.300851,56,70.370370,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.304255,57,70.185185,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.313830,58,68.189300,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.316596,59,67.921811,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.324894,60,67.674897,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.331064,61,69.218107,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.334681,62,69.547325,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.342128,63,68.847737,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.348511,64,68.600823,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.353191,65,68.024691,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.360213,66,67.716049,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.364255,67,67.201646,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.368511,68,67.057613,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.375319,69,65.679012,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.381489,70,65.185185,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.386383,71,64.032922,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.392553,72,63.539095,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.398085,73,62.222222,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.402340,74,61.687243,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.409149,75,59.115226,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.414043,76,58.621399,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.420213,77,56.604938,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.425106,78,56.069959,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.431277,79,53.333333,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.436170,80,52.469136,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.442340,81,50.061728,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.447234,82,49.403292,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.451915,83,46.646091,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.454043,84,45.864198,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.458298,85,45.288066,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.465106,86,41.748971,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.469362,87,41.172840,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.475532,88,37.839506,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.481064,89,36.810700,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.485745,90,33.971193,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.492128,91,32.695473,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.496809,92,29.855967,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.503191,93,28.580247,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.507872,94,25.699588,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.514255,95,24.156379,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.518936,96,21.563786,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.524468,97,20.596708,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.530638,98,17.201646,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.535532,99,16.255144,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.541702,100,13.847737,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.546596,101,13.271605,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.552766,102,10.596708,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.557660,103,10.061728,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.563830,104,8.045267,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.569362,105,7.572016,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.574255,106,6.419753,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.579787,107,5.946502,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.585957,108,3.930041,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.591489,109,3.456790,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.597660,110,2.139918,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.602553,111,1.934156,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.607447,112,1.358025,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.611489,113,1.213992,relative,,area
+Fast Spread,Time (relative),Infections (relative),Infections,,0.613191,114,0.823045,relative,,area
+Fast Spread,Time (relative),Infections (relative),Reference level,,0.000000,1,27.160494,relative,,reference_line
+Fast Spread,Time (relative),Infections (relative),Reference level,,1.000000,2,27.160494,relative,,reference_line
+Slow Spread,Time (relative),Infections (relative),Infections,,0.000000,1,0.000000,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.007234,2,0.411523,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.026596,3,0.452675,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.033404,4,1.152263,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.048723,5,1.275720,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.057660,6,2.057613,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.070851,7,2.098765,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.077021,8,2.757202,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.083191,9,2.942387,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.093617,10,3.641975,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.105319,11,3.827160,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.109362,12,4.341564,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.116383,13,4.650206,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.121277,14,5.226337,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.127447,15,5.411523,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.135745,16,5.987654,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.144681,17,6.954733,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.158511,18,7.016461,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.168085,19,8.415638,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.181915,20,9.403292,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.192340,21,9.506173,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.198511,22,10.164609,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.202766,23,10.308642,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.211702,24,11.913580,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.216596,25,12.037037,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.237234,26,13.518519,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.246809,27,13.600823,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.255106,28,15.144033,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.260000,29,15.349794,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.264894,30,15.925926,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.271064,31,16.172840,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.275957,32,16.748971,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.282128,33,16.934156,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.290426,34,17.510288,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.298085,35,18.395062,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.306383,36,18.703704,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.325532,37,20.102881,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.335957,38,20.205761,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.342128,39,20.864198,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.348511,40,21.049383,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.364255,41,22.160494,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.381489,42,22.695473,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.391915,43,23.395062,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.413404,44,23.497942,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.422340,45,24.279835,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.445745,46,24.279835,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.460213,47,25.102881,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.534255,48,25.102881,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.554255,49,24.279835,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.572766,50,24.279835,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.586596,51,23.477366,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.601277,52,23.415638,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.608723,53,22.674897,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.619149,54,22.572016,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.628723,55,21.913580,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.635745,56,21.687243,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.641915,57,21.028807,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.652340,58,20.925926,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.662553,59,20.226337,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.668936,60,20.041152,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.673617,61,19.465021,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.680000,62,19.218107,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.684681,63,18.641975,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.691702,64,18.333333,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.695745,65,17.818930,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.700638,66,17.654321,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.706809,67,16.995885,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.713830,68,16.687243,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.717872,69,16.172840,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.724894,70,15.946502,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.731064,71,15.514403,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.740000,72,14.526749,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.746170,73,14.341564,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.753191,74,13.868313,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.762128,75,12.880658,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.768298,76,12.695473,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.776596,77,12.119342,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.783404,78,11.296296,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.790426,79,10.987654,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.794468,80,10.473251,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.801489,81,10.164609,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.805532,82,9.650206,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.812553,83,9.403292,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.820851,84,8.827160,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.828298,85,7.942387,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.834681,86,7.695473,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.839362,87,7.119342,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.845745,88,6.872428,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.850426,89,6.296296,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.857447,90,5.987654,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.862128,91,5.432099,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.874043,92,5.246914,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.892553,93,3.888889,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.900851,94,3.580247,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.907021,95,2.921811,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.917447,96,2.818930,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.927872,97,2.119342,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.974043,98,0.411523,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.981702,99,0.411523,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,0.990638,100,0.000000,relative,,area
+Slow Spread,Time (relative),Infections (relative),Infections,,1.000000,101,0.000000,relative,,area
+Slow Spread,Time (relative),Infections (relative),Reference level,,0.000000,1,27.160494,relative,,reference_line
+Slow Spread,Time (relative),Infections (relative),Reference level,,1.000000,2,27.160494,relative,,reference_line

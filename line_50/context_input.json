@@ -1,0 +1,758 @@
+{
+  "clip_id": "line_50",
+  "family": "line",
+  "video_id": "VWAkhFJm7Q0",
+  "source_url": "https://www.youtube.com/watch?v=VWAkhFJm7Q0",
+  "source_title": "All the Medalists: Men's 100-Meter Freestyle",
+  "target_window_source": {
+    "start": 12.0,
+    "end": 30.0
+  },
+  "target_mask_interval": {
+    "start": 10.5,
+    "end": 31.5,
+    "padding_seconds": 1.5
+  },
+  "target_masked": true,
+  "context_availability": "available",
+  "included_in_context_arms": true,
+  "contract_eligibility": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true
+  },
+  "original_target_cue_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "masked_cue_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "context_cue_ids": [
+    0,
+    1,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "context_before": [
+    {
+      "index": 0,
+      "start": 0.82,
+      "end": 6.82,
+      "text": "Nathan Adrian's 100 meter freestyle was fast, one of the fastest in Olympic history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19192,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 1,
+      "start": 7.82,
+      "end": 9.82,
+      "text": "But how fast is that?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19192,
+      "no_speech_prob": 0.033051
+    }
+  ],
+  "context_after": [
+    {
+      "index": 7,
+      "start": 41.05,
+      "end": 46.54,
+      "text": "And it takes us all the way back to Athens in 1896,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 8,
+      "start": 46.54,
+      "end": 50.54,
+      "text": "when a Hungarian named Alfred Hiosch won in a minute 22.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 9,
+      "start": 51.54,
+      "end": 53.54,
+      "text": "Here we've placed him in a modern pool,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 10,
+      "start": 53.54,
+      "end": 56.54,
+      "text": "but he actually swam in the cold waters of the Mediterranean Sea,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 11,
+      "start": 56.54,
+      "end": 59.54,
+      "text": "with hallowed out pumpkins for lane markers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 12,
+      "start": 59.54,
+      "end": 60.54,
+      "text": "Seriously.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 13,
+      "start": 60.54,
+      "end": 64.54,
+      "text": "Back then, Hiosch was one of the fastest swimmers in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 14,
+      "start": 64.54,
+      "end": 67.54,
+      "text": "But in a modern, down and back race,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 15,
+      "start": 67.54,
+      "end": 69.54,
+      "text": "when today's winner is wrapping up,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 16,
+      "start": 69.54,
+      "end": 73.54,
+      "text": "Alfred's more than 42 meters back, just over halfway done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 17,
+      "start": 73.54,
+      "end": 78.54,
+      "text": "In 1924, Johnny Weissmuller was the first swimmer to break a minute.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 18,
+      "start": 78.54,
+      "end": 80.54,
+      "text": "Four years later, he won again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 19,
+      "start": 80.54,
+      "end": 83.54,
+      "text": "But in this pool, they're still 20 meters back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 20,
+      "start": 83.54,
+      "end": 86.54,
+      "text": "Why are these early athletes so far behind?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 21,
+      "start": 86.54,
+      "end": 91.11,
+      "text": "It's partly because of advances in technology and training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 22,
+      "start": 91.11,
+      "end": 94.11,
+      "text": "Many of which came about during the Cold War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 23,
+      "start": 94.11,
+      "end": 100.11,
+      "text": "Starting in 1956, swimmers set records in eight of the next nine Olympics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 24,
+      "start": 100.11,
+      "end": 104.11,
+      "text": "The 55-second barrier fell in Tokyo in 64.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 25,
+      "start": 104.11,
+      "end": 108.11,
+      "text": "Twelve years later, James Montgomery swam it in less than 50.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 26,
+      "start": 109.11,
+      "end": 112.11,
+      "text": "And today's athletes are right around 47 seconds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 27,
+      "start": 112.11,
+      "end": 114.11,
+      "text": "They're chipping away at that next barrier,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 28,
+      "start": 114.11,
+      "end": 117.11,
+      "text": "the 45-second mark that seems impossible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 29,
+      "start": 117.11,
+      "end": 119.11,
+      "text": "But is it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 30,
+      "start": 119.11,
+      "end": 121.11,
+      "text": "Here's one way to think about it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 31,
+      "start": 121.11,
+      "end": 127.11,
+      "text": "Since the 1950s, these Olympians have gotten about one second faster every eight years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 32,
+      "start": 127.11,
+      "end": 130.11,
+      "text": "If they continue at that rate, man, that's a big if.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 33,
+      "start": 130.11,
+      "end": 134.11,
+      "text": "A 45-second finish might happen in about 12 or 16 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 34,
+      "start": 134.11,
+      "end": 136.11,
+      "text": "say the games of 2024.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 35,
+      "start": 136.11,
+      "end": 139.11,
+      "text": "Obviously, it's impossible to know.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 36,
+      "start": 139.11,
+      "end": 141.11,
+      "text": "But if that barrier is ever broken,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 37,
+      "start": 141.11,
+      "end": 144.11,
+      "text": "today's athletes would be about five meters back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 38,
+      "start": 144.11,
+      "end": 148.11,
+      "text": "No longer the best ever, just the best of their time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    }
+  ],
+  "all_non_target_cues": [
+    {
+      "index": 0,
+      "start": 0.82,
+      "end": 6.82,
+      "text": "Nathan Adrian's 100 meter freestyle was fast, one of the fastest in Olympic history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19192,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 1,
+      "start": 7.82,
+      "end": 9.82,
+      "text": "But how fast is that?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.19192,
+      "no_speech_prob": 0.033051
+    },
+    {
+      "index": 7,
+      "start": 41.05,
+      "end": 46.54,
+      "text": "And it takes us all the way back to Athens in 1896,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 8,
+      "start": 46.54,
+      "end": 50.54,
+      "text": "when a Hungarian named Alfred Hiosch won in a minute 22.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 9,
+      "start": 51.54,
+      "end": 53.54,
+      "text": "Here we've placed him in a modern pool,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 10,
+      "start": 53.54,
+      "end": 56.54,
+      "text": "but he actually swam in the cold waters of the Mediterranean Sea,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 11,
+      "start": 56.54,
+      "end": 59.54,
+      "text": "with hallowed out pumpkins for lane markers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 12,
+      "start": 59.54,
+      "end": 60.54,
+      "text": "Seriously.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.131637,
+      "no_speech_prob": 0.012428
+    },
+    {
+      "index": 13,
+      "start": 60.54,
+      "end": 64.54,
+      "text": "Back then, Hiosch was one of the fastest swimmers in the world.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 14,
+      "start": 64.54,
+      "end": 67.54,
+      "text": "But in a modern, down and back race,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 15,
+      "start": 67.54,
+      "end": 69.54,
+      "text": "when today's winner is wrapping up,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 16,
+      "start": 69.54,
+      "end": 73.54,
+      "text": "Alfred's more than 42 meters back, just over halfway done.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 17,
+      "start": 73.54,
+      "end": 78.54,
+      "text": "In 1924, Johnny Weissmuller was the first swimmer to break a minute.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 18,
+      "start": 78.54,
+      "end": 80.54,
+      "text": "Four years later, he won again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 19,
+      "start": 80.54,
+      "end": 83.54,
+      "text": "But in this pool, they're still 20 meters back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 20,
+      "start": 83.54,
+      "end": 86.54,
+      "text": "Why are these early athletes so far behind?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 21,
+      "start": 86.54,
+      "end": 91.11,
+      "text": "It's partly because of advances in technology and training.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.075745,
+      "no_speech_prob": 0.00141
+    },
+    {
+      "index": 22,
+      "start": 91.11,
+      "end": 94.11,
+      "text": "Many of which came about during the Cold War.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 23,
+      "start": 94.11,
+      "end": 100.11,
+      "text": "Starting in 1956, swimmers set records in eight of the next nine Olympics.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 24,
+      "start": 100.11,
+      "end": 104.11,
+      "text": "The 55-second barrier fell in Tokyo in 64.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 25,
+      "start": 104.11,
+      "end": 108.11,
+      "text": "Twelve years later, James Montgomery swam it in less than 50.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 26,
+      "start": 109.11,
+      "end": 112.11,
+      "text": "And today's athletes are right around 47 seconds.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 27,
+      "start": 112.11,
+      "end": 114.11,
+      "text": "They're chipping away at that next barrier,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 28,
+      "start": 114.11,
+      "end": 117.11,
+      "text": "the 45-second mark that seems impossible.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 29,
+      "start": 117.11,
+      "end": 119.11,
+      "text": "But is it?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.081495,
+      "no_speech_prob": 0.001245
+    },
+    {
+      "index": 30,
+      "start": 119.11,
+      "end": 121.11,
+      "text": "Here's one way to think about it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 31,
+      "start": 121.11,
+      "end": 127.11,
+      "text": "Since the 1950s, these Olympians have gotten about one second faster every eight years.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 32,
+      "start": 127.11,
+      "end": 130.11,
+      "text": "If they continue at that rate, man, that's a big if.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 33,
+      "start": 130.11,
+      "end": 134.11,
+      "text": "A 45-second finish might happen in about 12 or 16 years,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 34,
+      "start": 134.11,
+      "end": 136.11,
+      "text": "say the games of 2024.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 35,
+      "start": 136.11,
+      "end": 139.11,
+      "text": "Obviously, it's impossible to know.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 36,
+      "start": 139.11,
+      "end": 141.11,
+      "text": "But if that barrier is ever broken,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 37,
+      "start": 141.11,
+      "end": 144.11,
+      "text": "today's athletes would be about five meters back.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    },
+    {
+      "index": 38,
+      "start": 144.11,
+      "end": 148.11,
+      "text": "No longer the best ever, just the best of their time.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.072656,
+      "no_speech_prob": 0.000216
+    }
+  ],
+  "context_text_chronological": "Nathan Adrian's 100 meter freestyle was fast, one of the fastest in Olympic history. But how fast is that? And it takes us all the way back to Athens in 1896, when a Hungarian named Alfred Hiosch won in a minute 22. Here we've placed him in a modern pool, but he actually swam in the cold waters of the Mediterranean Sea, with hallowed out pumpkins for lane markers. Seriously. Back then, Hiosch was one of the fastest swimmers in the world. But in a modern, down and back race, when today's winner is wrapping up, Alfred's more than 42 meters back, just over halfway done. In 1924, Johnny Weissmuller was the first swimmer to break a minute. Four years later, he won again. But in this pool, they're still 20 meters back. Why are these early athletes so far behind? It's partly because of advances in technology and training. Many of which came about during the Cold War. Starting in 1956, swimmers set records in eight of the next nine Olympics. The 55-second barrier fell in Tokyo in 64. Twelve years later, James Montgomery swam it in less than 50. And today's athletes are right around 47 seconds. They're chipping away at that next barrier, the 45-second mark that seems impossible. But is it? Here's one way to think about it. Since the 1950s, these Olympians have gotten about one second faster every eight years. If they continue at that rate, man, that's a big if. A 45-second finish might happen in about 12 or 16 years, say the games of 2024. Obviously, it's impossible to know. But if that barrier is ever broken, today's athletes would be about five meters back. No longer the best ever, just the best of their time.",
+  "target_text_for_audit": "What if we were swimming not just against the other swimmers in London, but against every Olympic medalist ever in 100 meter freestyle? Here, we're gliding over 116 years of Olympic history. This enormous, historical pool contains some of swimming's biggest names, from Ian Thorpe, to Mark Spitz, to Johnny Weissmuller.",
+  "verification": {
+    "status": "pass",
+    "threshold": 0.25,
+    "existing_narration_sentences": 4,
+    "sentences": [
+      {
+        "sentence_id": "sent_001",
+        "text": "What if we were swimming not just against the other swimmers in London,",
+        "start_source": 10.2,
+        "end_source": 13.46,
+        "matching_cue_ids": [
+          2
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_002",
+        "text": "but against every Olympic medalist ever in a 100 meter freestyle?",
+        "start_source": 14.02,
+        "end_source": 18.26,
+        "matching_cue_ids": [
+          3
+        ],
+        "text_similarity": 0.9841,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_003",
+        "text": "Here we're gliding over 116 years of Olympic history.",
+        "start_source": 19.56,
+        "end_source": 23.28,
+        "matching_cue_ids": [
+          4
+        ],
+        "text_similarity": 1.0,
+        "time_overlap": true,
+        "passes": true
+      },
+      {
+        "sentence_id": "sent_004",
+        "text": "This enormous historical pool contains some of swimming's biggest names from",
+        "start_source": 24.44,
+        "end_source": 29.46,
+        "matching_cue_ids": [
+          5,
+          6
+        ],
+        "text_similarity": 0.7638,
+        "time_overlap": true,
+        "passes": true
+      }
+    ]
+  },
+  "transcript": {
+    "asr_model": "faster_whisper_small",
+    "model_path": "D:\\dev\\models\\faster-whisper-small",
+    "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\VWAkhFJm7Q0.mp4",
+    "cue_count": 39
+  },
+  "token_estimate_char_div_4": 408
+}

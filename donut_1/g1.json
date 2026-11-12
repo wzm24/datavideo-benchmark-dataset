@@ -1,0 +1,330 @@
+{
+ "clip_id": "donut_1",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Report the music-sales format shares for the United States in 2015 and Japan, preserving labeled categories without numeric values.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "United States (2015)",
+      "series": ""
+     },
+     {
+      "panel": "Japan",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Report the labeled music-sales format shares for the United States in 2015, preserving labeled categories without numeric values.",
+   "relation": "single",
+   "unit_ids": [
+    "U3"
+   ],
+   "scope": {}
+  },
+  {
+   "id": "R3",
+   "question": "Report the music-sales format shares for Japan, preserving labeled categories without numeric values.",
+   "relation": "single",
+   "unit_ids": [
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in United States (2015).",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "United States (2015)",
+     "series": "",
+     "entity": "Digital",
+     "label": "",
+     "role": "arc",
+     "field": "value"
+    },
+    {
+     "row_id": "r2",
+     "panel": "United States (2015)",
+     "series": "",
+     "entity": "Physical",
+     "label": "PHYSICAL",
+     "role": "annotation",
+     "field": "label"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Japan.",
+   "basis": [
+    {
+     "row_id": "r3",
+     "panel": "Japan",
+     "series": "",
+     "entity": "Physical",
+     "label": "",
+     "role": "arc",
+     "field": "value"
+    },
+    {
+     "row_id": "r4",
+     "panel": "Japan",
+     "series": "",
+     "entity": "Digital",
+     "label": "",
+     "role": "arc",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "share_of_whole",
+   "claim": "In the United States (2015) panel, Digital occupies 66% of music-sales format share, and Physical is a labeled category in the same whole.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "United States (2015)",
+     "series": "",
+     "entity": "Digital",
+     "metric": "share_of_music_sales",
+     "field": "relative_value",
+     "value": "0.66",
+     "table_value": "66",
+     "table_relative_value": "0.66",
+     "unit": "%",
+     "relative_value": "0.66",
+     "label": "",
+     "role": "arc",
+     "source_type": "narration_printed",
+     "whole_scope": "United States (2015)"
+    },
+    {
+     "row_id": "r2",
+     "panel": "United States (2015)",
+     "series": "",
+     "entity": "Physical",
+     "metric": "share_of_music_sales",
+     "field": "label",
+     "value": "PHYSICAL",
+     "table_value": "",
+     "table_relative_value": "",
+     "unit": "%",
+     "relative_value": "",
+     "label": "PHYSICAL",
+     "role": "annotation",
+     "source_type": "printed",
+     "whole_scope": "United States (2015)"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Digital shown as 66% of the United States (2015) music-sales format whole",
+    "Physical shown as a labeled category in the United States (2015) panel without a numeric value"
+   ],
+   "reject": [
+    "Digital share omitted or misstated for the United States (2015) panel",
+    "Physical numeric value invented or displayed for the United States (2015) panel",
+    "United States and Japan shares combined into one whole"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R3",
+   "unit_kind": "share_of_whole",
+   "claim": "In the Japan panel, Physical occupies 75% and Digital occupies 18% of music-sales format share, with the remaining share unspecified.",
+   "basis": [
+    {
+     "row_id": "r3",
+     "panel": "Japan",
+     "series": "",
+     "entity": "Physical",
+     "metric": "share_of_music_sales",
+     "field": "relative_value",
+     "value": "0.75",
+     "table_value": "75",
+     "table_relative_value": "0.75",
+     "unit": "%",
+     "relative_value": "0.75",
+     "label": "",
+     "role": "arc",
+     "source_type": "estimated_ring_geometry",
+     "whole_scope": "Japan"
+    },
+    {
+     "row_id": "r4",
+     "panel": "Japan",
+     "series": "",
+     "entity": "Digital",
+     "metric": "share_of_music_sales",
+     "field": "relative_value",
+     "value": "0.18",
+     "table_value": "18",
+     "table_relative_value": "0.18",
+     "unit": "%",
+     "relative_value": "0.18",
+     "label": "",
+     "role": "arc",
+     "source_type": "estimated_ring_geometry",
+     "whole_scope": "Japan"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Physical shown as 75% of the Japan music-sales format whole",
+    "Digital shown as 18% of the Japan music-sales format whole",
+    "Remaining Japan share left unspecified or shown as complement without inventing a labeled category"
+   ],
+   "reject": [
+    "Physical or Digital share omitted or misstated for the Japan panel",
+    "Japan shares added to United States shares",
+    "Unspecified remainder assigned to a named category not present in the data"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "Showing the Japan remainder as an unlabeled complement arc",
+  "Visually distinguishing the United States and Japan panels as separate wholes"
+ ],
+ "unsupported_to_avoid": [
+  "Inventing a numeric value for the United States Physical category",
+  "Assigning the Japan unspecified remainder to a named format category",
+  "Combining United States and Japan shares into a single composition",
+  "Reporting a total music-sales count or currency value"
+ ],
+ "review_notes": [
+  "The United States Physical row is label-only and supports category presence, not a numeric share.",
+  "Japan shares sum to 93%, so the complement is unspecified and should not be labeled with an invented category.",
+  "Each panel is a separate whole; cross-panel addition is invalid."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "state_sequence",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "United States (2015)",
+    "series": "",
+    "entity": "Digital",
+    "metric": "share_of_music_sales",
+    "value": "66",
+    "unit": "%",
+    "relative_value": "0.66",
+    "label": "",
+    "role": "arc",
+    "source_type": "narration_printed",
+    "whole_scope": "United States (2015)"
+   },
+   {
+    "row_id": "r2",
+    "panel": "United States (2015)",
+    "series": "",
+    "entity": "Physical",
+    "metric": "share_of_music_sales",
+    "value": "",
+    "unit": "%",
+    "relative_value": "",
+    "label": "PHYSICAL",
+    "role": "annotation",
+    "source_type": "printed",
+    "whole_scope": "United States (2015)"
+   },
+   {
+    "row_id": "r3",
+    "panel": "Japan",
+    "series": "",
+    "entity": "Physical",
+    "metric": "share_of_music_sales",
+    "value": "75",
+    "unit": "%",
+    "relative_value": "0.75",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "Japan"
+   },
+   {
+    "row_id": "r4",
+    "panel": "Japan",
+    "series": "",
+    "entity": "Digital",
+    "metric": "share_of_music_sales",
+    "value": "18",
+    "unit": "%",
+    "relative_value": "0.18",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "Japan"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

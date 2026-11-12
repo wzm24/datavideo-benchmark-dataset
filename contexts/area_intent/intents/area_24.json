@@ -1,0 +1,80 @@
+{
+ "clip": "area_24",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Compare the Moon's 3,500 km diameter with Ganymede, Titan, Kallisto, Io, and Pluto to show it is larger than Pluto but smaller than the four largest moons.",
+ "proposed_intent": "Compare the Moon's diameter with Ganymede, Titan, Kallisto, Io, and Pluto to determine where the Moon falls in the size ordering.",
+ "writer": {
+  "intent": "Compare the Moon's diameter with Ganymede, Titan, Kallisto, Io, and Pluto to determine where the Moon falls in the size ordering.",
+  "entities": [
+   "MOON",
+   "GANYMED",
+   "TITAN",
+   "KALLISTO",
+   "IO",
+   "PLUTO"
+  ],
+  "measure": "Diameter (km)",
+  "scope": "All six celestial bodies in the snapshot",
+  "comparison": "Moon versus Ganymede, Titan, Kallisto, Io, and Pluto",
+  "withheld_answer": "The Moon is larger than Pluto but smaller than the four largest moons."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 21,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "2,300",
+   "3,500",
+   "3,600",
+   "4,800",
+   "5,200",
+   "5,300"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 2913,
+   "completion_tokens": 134,
+   "total_tokens": 3047,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 2785
+  },
+  {
+   "prompt_tokens": 2855,
+   "completion_tokens": 56,
+   "total_tokens": 2911,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 2855
+  }
+ ],
+ "sec": 1.7
+}

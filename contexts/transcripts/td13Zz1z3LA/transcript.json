@@ -1,0 +1,1143 @@
+{
+  "video_id": "td13Zz1z3LA",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_audio\\td13Zz1z3LA.webm",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 455.68,
+  "duration_after_vad_seconds": 432.384,
+  "cue_count": 125,
+  "cues": [
+    {
+      "index": 0,
+      "start": 2.61,
+      "end": 5.89,
+      "text": "Think back to your first day at primary school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 1,
+      "start": 5.89,
+      "end": 9.73,
+      "text": "For many of us, it's one of our clearest childhood memories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 2,
+      "start": 9.73,
+      "end": 13.33,
+      "text": "Oh, that's me waving goodbye to my proud mum.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 3,
+      "start": 13.33,
+      "end": 18.29,
+      "text": "But the fact is we really can't trust our childhood memories.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 4,
+      "start": 18.29,
+      "end": 20.85,
+      "text": "Because for these early memories,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 5,
+      "start": 20.85,
+      "end": 24.97,
+      "text": "gaps appear and our brains fill in the details.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 6,
+      "start": 24.97,
+      "end": 28.97,
+      "text": "Before long, memories can become a mishmash of your memories,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 7,
+      "start": 28.97,
+      "end": 30.81,
+      "text": "those of your friends and family,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.232017,
+      "no_speech_prob": 0.003681
+    },
+    {
+      "index": 8,
+      "start": 31.09,
+      "end": 33.53,
+      "text": "and photos or home videos.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 9,
+      "start": 34.65,
+      "end": 37.37,
+      "text": "So what you think happened can be quite different",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 10,
+      "start": 37.37,
+      "end": 39.73,
+      "text": "from the reality you actually lived through.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 11,
+      "start": 41.41,
+      "end": 44.17,
+      "text": "To understand why you can't trust your memories,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 12,
+      "start": 44.17,
+      "end": 47.37,
+      "text": "we need to ask what a memory actually is.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 13,
+      "start": 47.37,
+      "end": 50.41,
+      "text": "So people often think that memories are sort of these physical structures",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 14,
+      "start": 50.41,
+      "end": 53.17,
+      "text": "that live in the brain, almost like something in a computer,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 15,
+      "start": 53.17,
+      "end": 56.09,
+      "text": "like a file that you can go and open and find.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 16,
+      "start": 56.09,
+      "end": 59.81,
+      "text": "Instead, the memories actually live as networks",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.193866,
+      "no_speech_prob": 0.000286
+    },
+    {
+      "index": 17,
+      "start": 59.81,
+      "end": 61.93,
+      "text": "that are distributed across the brain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 18,
+      "start": 61.93,
+      "end": 65.49,
+      "text": "And so when you're especially reliving a memory of your life,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 19,
+      "start": 65.49,
+      "end": 68.77,
+      "text": "you are accessing often lots of different parts of your brain,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 20,
+      "start": 68.77,
+      "end": 71.89,
+      "text": "which all lead you to be able to have a full,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 21,
+      "start": 71.89,
+      "end": 75.01,
+      "text": "complex representation of what happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 22,
+      "start": 75.01,
+      "end": 76.97,
+      "text": "So some of the brain cells that were activated",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 23,
+      "start": 76.97,
+      "end": 81.53,
+      "text": "during my actual experience are reactivated when I remember it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 24,
+      "start": 82.81,
+      "end": 86.25,
+      "text": "Clusters of brain cells that form a memory are linked up.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.200721,
+      "no_speech_prob": 5e-05
+    },
+    {
+      "index": 25,
+      "start": 86.29,
+      "end": 90.25,
+      "text": "And each time we remember, these links become stronger.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 26,
+      "start": 90.25,
+      "end": 93.33,
+      "text": "But strong doesn't always mean stable.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 27,
+      "start": 93.33,
+      "end": 98.13,
+      "text": "For a long time, people thought that if you stored something",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 28,
+      "start": 98.13,
+      "end": 103.65,
+      "text": "in your long-term memory, it was pretty much there permanently.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 29,
+      "start": 103.65,
+      "end": 107.81,
+      "text": "But that pretty much got shattered when it became clear",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 30,
+      "start": 107.81,
+      "end": 112.93,
+      "text": "that there wasn't very good evidence for the permanence of memory in the first place.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 31,
+      "start": 112.93,
+      "end": 116.3,
+      "text": "Four years of piano lessons.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 32,
+      "start": 116.3,
+      "end": 117.34,
+      "text": "Yeah, it looks pretty faded.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.152419,
+      "no_speech_prob": 0.000213
+    },
+    {
+      "index": 33,
+      "start": 117.34,
+      "end": 121.22,
+      "text": "You know what? Save chopsticks and heart and soul, get rid of the rest.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 34,
+      "start": 121.22,
+      "end": 124.82,
+      "text": "So our memories aren't fixed or permanent.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 35,
+      "start": 124.82,
+      "end": 127.58,
+      "text": "And in fact, they're always changing.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 36,
+      "start": 127.58,
+      "end": 131.74,
+      "text": "We're essentially reconstructing our narrative rather than reliving it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 37,
+      "start": 131.74,
+      "end": 133.66,
+      "text": "This we refer to as reconciliation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 38,
+      "start": 133.66,
+      "end": 138.22,
+      "text": "and we refer to as pulling up this memory network, accessing it,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 39,
+      "start": 138.22,
+      "end": 140.62,
+      "text": "and actually laying it down again.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 40,
+      "start": 140.62,
+      "end": 144.86,
+      "text": "And every time you reconcile it, every time you put this network back down,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 41,
+      "start": 144.86,
+      "end": 147.06,
+      "text": "you're actually able to change it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.147005,
+      "no_speech_prob": 0.000121
+    },
+    {
+      "index": 42,
+      "start": 147.1,
+      "end": 151.5,
+      "text": "And this tendency for memories to change is hugely important.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 43,
+      "start": 151.5,
+      "end": 153.46,
+      "text": "And it's totally natural.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 44,
+      "start": 153.46,
+      "end": 155.58,
+      "text": "It happens to everyone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 45,
+      "start": 155.58,
+      "end": 159.3,
+      "text": "But it's possible to manipulate this process.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 46,
+      "start": 159.3,
+      "end": 166.38,
+      "text": "You can supply people with misinformation that can change their memory.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 47,
+      "start": 166.38,
+      "end": 169.66,
+      "text": "You can ask them leading or suggestive questions",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 48,
+      "start": 169.66,
+      "end": 174.62,
+      "text": "that insinuate that there were details present, that there weren't.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.133189,
+      "no_speech_prob": 0.000249
+    },
+    {
+      "index": 49,
+      "start": 174.62,
+      "end": 178.26,
+      "text": "Out there in the real world, people are exposed to media coverage",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 50,
+      "start": 178.26,
+      "end": 182.86,
+      "text": "where they get ideas about an event, maybe a high publicity event",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 51,
+      "start": 182.86,
+      "end": 185.02,
+      "text": "that they themselves have witnessed.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 52,
+      "start": 185.02,
+      "end": 189.54,
+      "text": "This was the largest audience to ever witness an inauguration, period.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 53,
+      "start": 189.54,
+      "end": 195.06,
+      "text": "All of these are ways in which new information can enter somebody's memory",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 54,
+      "start": 195.06,
+      "end": 199.86,
+      "text": "and cause a transformation, an alteration, a contamination",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 55,
+      "start": 199.86,
+      "end": 203.42,
+      "text": "in that original person's memory.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.117354,
+      "no_speech_prob": 0.00259
+    },
+    {
+      "index": 56,
+      "start": 203.42,
+      "end": 207.69,
+      "text": "Those aren't your memories, they're somebody else's.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 57,
+      "start": 207.69,
+      "end": 212.69,
+      "text": "Using these insights, researchers wanted to see if they could go one step further.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 58,
+      "start": 212.69,
+      "end": 215.69,
+      "text": "What you can do is you can get people to come into the lab.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 59,
+      "start": 215.69,
+      "end": 220.89,
+      "text": "You can tell them that they experienced something that never actually happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 60,
+      "start": 220.89,
+      "end": 223.37,
+      "text": "When you're 14 years old, you initiated a physical fight",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 61,
+      "start": 223.37,
+      "end": 225.37,
+      "text": "under the force of your parents.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 62,
+      "start": 225.37,
+      "end": 229.65,
+      "text": "That's, I don't feel like I've ever been in a fight.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 63,
+      "start": 229.65,
+      "end": 231.57,
+      "text": "I was so confused.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.216694,
+      "no_speech_prob": 0.000368
+    },
+    {
+      "index": 64,
+      "start": 231.57,
+      "end": 235.81,
+      "text": "Over the course of three interviews, you get them to repeatedly imagine",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 65,
+      "start": 235.81,
+      "end": 238.53,
+      "text": "what could have happened and what could have happened",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 66,
+      "start": 238.53,
+      "end": 243.29,
+      "text": "starts to turn into what would have happened, which turns into what did happen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 67,
+      "start": 243.29,
+      "end": 253.22,
+      "text": "Remember, like a verbal fight and maybe I seem so unlike,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 68,
+      "start": 253.22,
+      "end": 255.78,
+      "text": "but maybe I pushed for something.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 69,
+      "start": 255.78,
+      "end": 256.98,
+      "text": "Good, okay.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 70,
+      "start": 256.98,
+      "end": 259.9,
+      "text": "And so what you're doing is you're activating their imagination",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 71,
+      "start": 259.9,
+      "end": 262.74,
+      "text": "and you're activating real fragments of memories,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.201578,
+      "no_speech_prob": 0.000646
+    },
+    {
+      "index": 72,
+      "start": 262.78,
+      "end": 267.14,
+      "text": "of things that they can remember, like their best friends, their family members.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 73,
+      "start": 267.14,
+      "end": 270.94,
+      "text": "And in the end, what you've done is you've created a whole fictional representation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 74,
+      "start": 270.94,
+      "end": 273.78,
+      "text": "a whole memory of something that never actually happened.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 75,
+      "start": 273.78,
+      "end": 277.18,
+      "text": "You can see how this can have major consequences.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 76,
+      "start": 277.18,
+      "end": 280.1,
+      "text": "It doesn't really matter what happened on my first day of school.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 77,
+      "start": 280.1,
+      "end": 282.78,
+      "text": "No one is really interested except me.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 78,
+      "start": 282.78,
+      "end": 287.98,
+      "text": "But if memory is this unstable, can it be relied upon when it's really needed,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 79,
+      "start": 287.98,
+      "end": 290.5,
+      "text": "like in a court of law?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.130121,
+      "no_speech_prob": 0.000227
+    },
+    {
+      "index": 80,
+      "start": 290.5,
+      "end": 293.3,
+      "text": "We're going to be able to prove to you in this case",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 81,
+      "start": 293.3,
+      "end": 298.18,
+      "text": "things the public didn't know, things the police didn't know",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 82,
+      "start": 298.18,
+      "end": 302.54,
+      "text": "were provided by a young man who was at the scene.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 83,
+      "start": 302.54,
+      "end": 305.34,
+      "text": "Someone who's been a memory expert in courtrooms.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 84,
+      "start": 305.34,
+      "end": 311.14,
+      "text": "It's a fascinating thing to watch, how slippery and unreliable memories can be",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 85,
+      "start": 311.14,
+      "end": 315.94,
+      "text": "and how really the criminal justice system is deeply affected",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 86,
+      "start": 315.94,
+      "end": 319.46,
+      "text": "by police interviews, by therapists.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.144334,
+      "no_speech_prob": 0.00034
+    },
+    {
+      "index": 87,
+      "start": 319.46,
+      "end": 321.78,
+      "text": "Come on, buddy, let's get this out, OK?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 88,
+      "start": 321.78,
+      "end": 323.42,
+      "text": "Take us through it.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 89,
+      "start": 323.42,
+      "end": 326.02,
+      "text": "It's the video in your head, play it for us.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 90,
+      "start": 326.02,
+      "end": 330.02,
+      "text": "And so it's really important that people who are evaluating this evidence",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 91,
+      "start": 330.02,
+      "end": 333.86,
+      "text": "understand all the different things that can go wrong.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 92,
+      "start": 333.86,
+      "end": 338.94,
+      "text": "Advanced DNA testing showing that Mr. Halsey, despite his conviction in the late 80s,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 93,
+      "start": 338.94,
+      "end": 342.34,
+      "text": "did not brutally murder two young children.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 94,
+      "start": 342.34,
+      "end": 347.18,
+      "text": "Over 70% of DNA exonerations in the US have been shown to involve",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.172826,
+      "no_speech_prob": 0.014946
+    },
+    {
+      "index": 95,
+      "start": 347.26,
+      "end": 349.74,
+      "text": "inaccurate eyewitness testimony,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 96,
+      "start": 349.74,
+      "end": 355.62,
+      "text": "which highlights just how much is at stake when it comes to justice and memory.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 97,
+      "start": 355.62,
+      "end": 357.18,
+      "text": "But it's not all dark.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 98,
+      "start": 357.18,
+      "end": 359.98,
+      "text": "False memories can help people as well.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 99,
+      "start": 359.98,
+      "end": 362.66,
+      "text": "Understanding false memories allows us to also",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 100,
+      "start": 362.66,
+      "end": 366.38,
+      "text": "therapeutically intervene when someone has experienced something",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 101,
+      "start": 366.38,
+      "end": 370.18,
+      "text": "or is remembering something that is negatively influencing their lives,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 102,
+      "start": 370.18,
+      "end": 372.34,
+      "text": "both in terms of just regular talk therapy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 103,
+      "start": 372.34,
+      "end": 375.78,
+      "text": "but also in terms of deeper medical approaches",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.134219,
+      "no_speech_prob": 0.002979
+    },
+    {
+      "index": 104,
+      "start": 375.78,
+      "end": 377.58,
+      "text": "to making those memories more flexible,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 105,
+      "start": 377.58,
+      "end": 381.82,
+      "text": "being able to change them and ultimately improve people's lives.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 106,
+      "start": 381.82,
+      "end": 384.74,
+      "text": "These kinds of insights into the nature of memory",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 107,
+      "start": 384.74,
+      "end": 387.54,
+      "text": "are a great tool for therapists treating depression",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 108,
+      "start": 387.54,
+      "end": 391.74,
+      "text": "or tackling phobias like fear of flying or spiders,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 109,
+      "start": 391.74,
+      "end": 398.16,
+      "text": "all the way up to dealing with conditions like PTSD.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 110,
+      "start": 398.16,
+      "end": 401.88,
+      "text": "So we know that memories are a huge part of who we are,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 111,
+      "start": 401.88,
+      "end": 405.6,
+      "text": "but we also know that they are constantly changing, updating",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 112,
+      "start": 405.6,
+      "end": 408.44,
+      "text": "and reshaping to fit our needs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.113555,
+      "no_speech_prob": 0.000109
+    },
+    {
+      "index": 113,
+      "start": 408.44,
+      "end": 411.84,
+      "text": "And sometimes they are completely false.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 114,
+      "start": 411.84,
+      "end": 414.96,
+      "text": "When you look at this process, what you're seeing is creativity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 115,
+      "start": 414.96,
+      "end": 416.56,
+      "text": "You're seeing imagination.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 116,
+      "start": 416.56,
+      "end": 418.4,
+      "text": "You're seeing problem solving.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 117,
+      "start": 418.4,
+      "end": 419.56,
+      "text": "You're seeing intelligence.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 118,
+      "start": 419.56,
+      "end": 424.08,
+      "text": "I mean, what you're really seeing when you look at the capability",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 119,
+      "start": 424.08,
+      "end": 428.0,
+      "text": "of creating false memories is we see the capability to be human.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 120,
+      "start": 428.0,
+      "end": 431.28,
+      "text": "And so I think that false memories in and of themselves",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 121,
+      "start": 431.28,
+      "end": 433.64,
+      "text": "are part of the human experience",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 122,
+      "start": 433.64,
+      "end": 439.35,
+      "text": "and we just need to better understand them rather than to be afraid of them.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.124475,
+      "no_speech_prob": 0.00048
+    },
+    {
+      "index": 123,
+      "start": 439.39,
+      "end": 440.67,
+      "text": "Thanks for watching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.305707,
+      "no_speech_prob": 0.353027
+    },
+    {
+      "index": 124,
+      "start": 440.67,
+      "end": 445.31,
+      "text": "Leave your comments below and subscribe to watch more videos in this series.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.305707,
+      "no_speech_prob": 0.353027
+    }
+  ],
+  "created_at": "2026-11-05T02:17:46+0800"
+}

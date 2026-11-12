@@ -1,197 +1,166 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_20",
  "family": "pie",
  "data_source": "data_table.csv",
  "data_table_sha256": "d75f43480541e51d3207a4aa120faef8f3ebd6ba93deb42b7468ef95e2bd2ceb",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "3e85df37ddb0c4a76632466f7046868d512724eafd6d91722a9b34780c604147",
  "row_count": 4,
- "sidecar_row_count": 4,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
  "chart_structure": {
   "sub_type": "multi_pie",
   "orientation": "radial",
   "panel_count": 2,
-  "series_count": 4,
-  "time_behavior": "snapshot",
-  "panels": [
-   "Minimum wage",
-   "Other income status"
-  ]
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_drivers_below_min_wage",
-   "share_of_drivers_with_other_income"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "Minimum wage",
+   "series": "",
    "entity": "< minimum wage",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 54.2,
-   "last_value": 54.2,
-   "min_value": 54.2,
-   "max_value": 54.2,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_drivers_below_min_wage"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_drivers_below_min_wage",
+   "value": "54.2",
+   "unit": "%",
+   "relative_value": "0.542",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Minimum wage"
   },
   {
+   "row_id": "r2",
    "panel": "Minimum wage",
+   "series": "",
    "entity": "at or above minimum wage",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 45.8,
-   "last_value": 45.8,
-   "min_value": 45.8,
-   "max_value": 45.8,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_drivers_below_min_wage"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_drivers_below_min_wage",
+   "value": "45.8",
+   "unit": "%",
+   "relative_value": "0.458",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Minimum wage"
   },
   {
+   "row_id": "r3",
    "panel": "Other income status",
+   "series": "",
    "entity": "Other income",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 60.4,
-   "last_value": 60.4,
-   "min_value": 60.4,
-   "max_value": 60.4,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_drivers_with_other_income"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_drivers_with_other_income",
+   "value": "60.4",
+   "unit": "%",
+   "relative_value": "0.604",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Other income status"
   },
   {
+   "row_id": "r4",
    "panel": "Other income status",
-   "entity": "No other income",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 39.6,
-   "last_value": 39.6,
-   "min_value": 39.6,
-   "max_value": 39.6,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_drivers_with_other_income"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "entity": "No other income",
+   "metric": "share_of_drivers_with_other_income",
+   "value": "39.6",
+   "unit": "%",
+   "relative_value": "0.396",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated",
+   "whole_scope": "Other income status"
   }
  ],
- "source_type_counts": {
-  "estimated": 4
- },
- "role_counts": {
-  "slice": 4
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "Minimum wage",
+   "series": "",
+   "whole_scope": "Minimum wage",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "< minimum wage",
+    "at or above minimum wage"
+   ],
+   "relative_value_sum": 1.0
+  },
+  {
+   "panel": "Other income status",
+   "series": "",
+   "whole_scope": "Other income status",
+   "row_ids": [
+    "r3",
+    "r4"
+   ],
+   "entities": [
+    "Other income",
+    "No other income"
+   ],
+   "relative_value_sum": 1.0
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "Minimum wage",
+    "series": "",
     "entity": "< minimum wage",
-    "series": "Minimum wage"
+    "metric": "share_of_drivers_below_min_wage",
+    "value": "54.2",
+    "unit": "%",
+    "relative_value": "0.542",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Minimum wage"
    },
    {
-    "panel": "",
+    "row_id": "r2",
+    "panel": "Minimum wage",
+    "series": "",
     "entity": "at or above minimum wage",
-    "series": "Minimum wage"
+    "metric": "share_of_drivers_below_min_wage",
+    "value": "45.8",
+    "unit": "%",
+    "relative_value": "0.458",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Minimum wage"
    },
    {
-    "panel": "",
+    "row_id": "r3",
+    "panel": "Other income status",
+    "series": "",
     "entity": "Other income",
-    "series": "Other income"
+    "metric": "share_of_drivers_with_other_income",
+    "value": "60.4",
+    "unit": "%",
+    "relative_value": "0.604",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Other income status"
    },
    {
-    "panel": "",
+    "row_id": "r4",
+    "panel": "Other income status",
+    "series": "",
     "entity": "No other income",
-    "series": "Other income"
+    "metric": "share_of_drivers_with_other_income",
+    "value": "39.6",
+    "unit": "%",
+    "relative_value": "0.396",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated",
+    "whole_scope": "Other income status"
    }
   ],
-  "required_entity_count": 4,
-  "required_row_count": 4,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

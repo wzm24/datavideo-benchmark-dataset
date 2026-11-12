@@ -1,0 +1,756 @@
+{
+  "video_id": "AABqfDIbXSI",
+  "source_media": "D:\\dev\\data_video_dataset_pipeline\\data\\raw\\videos\\_full_720p\\AABqfDIbXSI.mp4",
+  "asr_model": "faster_whisper_small",
+  "model_path": "D:\\dev\\models\\faster-whisper-small",
+  "device": "cuda",
+  "compute_type": "float16",
+  "language": "en",
+  "beam_size": 5,
+  "vad_filter": true,
+  "condition_on_previous_text": true,
+  "duration_seconds": 614.029,
+  "duration_after_vad_seconds": 610.192,
+  "cue_count": 82,
+  "cues": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 11.0,
+      "text": "This video is sponsored by CuriosityStream, use the link in the description to watch thousands of documentaries and get access to our new streaming service, Nebula, at no extra cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157495,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 1,
+      "start": 11.0,
+      "end": 20.5,
+      "text": "In 2017, over 20 million people visited the most popular theme park in the world, Magic Kingdom at Walt Disney World in Florida.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.157495,
+      "no_speech_prob": 0.034546
+    },
+    {
+      "index": 2,
+      "start": 20.5,
+      "end": 31.5,
+      "text": "Together, Disney parks, including Disneyland Anaheim, Tokyo, Paris, and Hong Kong attract 150 million annual visitors, more than any other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11157,
+      "no_speech_prob": 0.078003
+    },
+    {
+      "index": 3,
+      "start": 31.5,
+      "end": 39.5,
+      "text": "One could argue, however, and I will, there's one even more popular, Ikea, with 460 million.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11157,
+      "no_speech_prob": 0.078003
+    },
+    {
+      "index": 4,
+      "start": 39.5,
+      "end": 41.0,
+      "text": "Let me explain.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11157,
+      "no_speech_prob": 0.078003
+    },
+    {
+      "index": 5,
+      "start": 41.0,
+      "end": 47.5,
+      "text": "We in the biz know there are many definitions of theme park, the academic definition, my definition,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.11157,
+      "no_speech_prob": 0.078003
+    },
+    {
+      "index": 6,
+      "start": 47.5,
+      "end": 52.0,
+      "text": "and when you're ready to really dive deep in the literature, you turn to the experts.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103936,
+      "no_speech_prob": 0.149658
+    },
+    {
+      "index": 7,
+      "start": 52.0,
+      "end": 65.5,
+      "text": "The International Association of Amusement Parks and Attractions, who define theme park as an amusement park that has themed attractions, be it food, costumes, entertainment, retail stores, and or rides.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103936,
+      "no_speech_prob": 0.149658
+    },
+    {
+      "index": 8,
+      "start": 65.5,
+      "end": 69.0,
+      "text": "Check, close enough, check, check, and check.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.103936,
+      "no_speech_prob": 0.149658
+    },
+    {
+      "index": 9,
+      "start": 69.0,
+      "end": 81.0,
+      "text": "Shopping at Ikea is a full day activity. You hop in the family van, drive outside the city, drop your kids in the play area, max out your credit cards, and then top it off with some Swedish meatballs.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067243,
+      "no_speech_prob": 0.114197
+    },
+    {
+      "index": 10,
+      "start": 81.0,
+      "end": 87.0,
+      "text": "The Ikea brand is as iconic and loved as Disney, Six Flags, and Universal.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067243,
+      "no_speech_prob": 0.114197
+    },
+    {
+      "index": 11,
+      "start": 87.0,
+      "end": 97.5,
+      "text": "The only slight problem is with the S in rides. Ikea has just one, the unidirectional pathway which guides you through the store, into the warehouse, and the restaurant.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.067243,
+      "no_speech_prob": 0.114197
+    },
+    {
+      "index": 12,
+      "start": 98.0,
+      "end": 102.5,
+      "text": "The ride might be called Capitalism, the theme of the park, Sweden.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102679,
+      "no_speech_prob": 0.014061
+    },
+    {
+      "index": 13,
+      "start": 102.5,
+      "end": 111.0,
+      "text": "Although, despite its colors, names, and advertised philosophy, Ikea is not, strictly speaking, actually Swedish.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102679,
+      "no_speech_prob": 0.014061
+    },
+    {
+      "index": 14,
+      "start": 111.0,
+      "end": 114.0,
+      "text": "Or, technically, a company at all.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102679,
+      "no_speech_prob": 0.014061
+    },
+    {
+      "index": 15,
+      "start": 114.0,
+      "end": 120.86,
+      "text": "What are the secrets behind Ikea's enormous global success?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.102679,
+      "no_speech_prob": 0.014061
+    },
+    {
+      "index": 16,
+      "start": 121.36,
+      "end": 132.36,
+      "text": "Although not nearly the same company it is today, Ingvar Komprad founded Ikea in 1943 as a traveling salesman, selling staples like matches, pencils, and watches.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079917,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 17,
+      "start": 132.36,
+      "end": 135.36,
+      "text": "Seven years later, he began selling furniture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079917,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 18,
+      "start": 135.36,
+      "end": 145.36,
+      "text": "Seeing the logistical difficulty of shipping large items far away, Ingvar decided to flat pack the furniture, which also reduced the chance of damage during transport.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079917,
+      "no_speech_prob": 0.002714
+    },
+    {
+      "index": 19,
+      "start": 145.36,
+      "end": 150.86,
+      "text": "The company created a catalog that customers could browse through and order with from afar.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059976,
+      "no_speech_prob": 0.002844
+    },
+    {
+      "index": 20,
+      "start": 150.86,
+      "end": 160.86,
+      "text": "The first showroom was built in 1953 in the same small town, followed by the first of the company's iconic giant warehouses in 1965.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059976,
+      "no_speech_prob": 0.002844
+    },
+    {
+      "index": 21,
+      "start": 160.86,
+      "end": 164.86,
+      "text": "The business model has more or less remained consistent ever since.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.059976,
+      "no_speech_prob": 0.002844
+    },
+    {
+      "index": 22,
+      "start": 165.36,
+      "end": 177.36,
+      "text": "Rather than try to compete with department stores and city centers, Ikea has always preferred large multi-storey buildings away from the bustle, with only a few exceptions like in cramped Hong Kong.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066691,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 23,
+      "start": 177.36,
+      "end": 182.36,
+      "text": "With this far cheaper real estate, the company can build equally giant attached parking lots.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066691,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 24,
+      "start": 182.36,
+      "end": 192.36,
+      "text": "The average size of a store is around 35,000 square meters, or 370,000 square feet, with over 8,000 unique items.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066691,
+      "no_speech_prob": 0.125854
+    },
+    {
+      "index": 25,
+      "start": 192.36,
+      "end": 195.86,
+      "text": "Inside, the experience is unlike any other.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049947,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 26,
+      "start": 195.86,
+      "end": 205.36,
+      "text": "Customers are guided through the store by a one-way path, which begins in the showroom, flows into the market hall where small items can be picked up instantly,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049947,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 27,
+      "start": 205.36,
+      "end": 212.36,
+      "text": "and ends in the warehouse, where previously selected items can be picked off the shelves and then paid for at the register.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049947,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 28,
+      "start": 212.36,
+      "end": 220.36,
+      "text": "Most retailers design their stores to maximize the time you spend inside, spreading out staples like bread, milk, and bananas.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.049947,
+      "no_speech_prob": 0.003273
+    },
+    {
+      "index": 29,
+      "start": 220.86,
+      "end": 223.86,
+      "text": "Ikea takes this approach to the extreme.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084438,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 30,
+      "start": 223.86,
+      "end": 232.36,
+      "text": "By arranging its stores like a transit line, the company has total control over the shopping experience and forces you to look through all its departments.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084438,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 31,
+      "start": 232.36,
+      "end": 238.86,
+      "text": "Place towards the beginning of the journey are usually its largest drivers of profit, bedroom and kitchen.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084438,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 32,
+      "start": 238.86,
+      "end": 248.86,
+      "text": "The restaurant and kids' play area not only keep customers inside longer, but also communicate low prices and value, which spill over onto the brand as a whole.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.084438,
+      "no_speech_prob": 0.00289
+    },
+    {
+      "index": 33,
+      "start": 248.86,
+      "end": 257.86,
+      "text": "The average visit lasts a whole hour and a half at many of its stores, and by one estimate, 60% of items purchased at Ikea are unplanned,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060359,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 34,
+      "start": 257.86,
+      "end": 261.36,
+      "text": "nudged towards, in other words, by the store's psychology.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060359,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 35,
+      "start": 261.36,
+      "end": 270.36,
+      "text": "Research also suggests we attach more value to the things we help make ourselves, turning Ikea's self-assembly from a flaw to a feature.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060359,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 36,
+      "start": 270.36,
+      "end": 276.86,
+      "text": "It also helps reduce manufacturing and shipping costs, another ingredient in the Ikea formula.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.060359,
+      "no_speech_prob": 0.000779
+    },
+    {
+      "index": 37,
+      "start": 276.86,
+      "end": 282.36,
+      "text": "Low prices are its self-proclaimed mission to, quote, democratize furniture.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.03692,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 38,
+      "start": 282.36,
+      "end": 287.86,
+      "text": "Whatever its true motivation, Ikea has remained inexpensive despite its ubiquity.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.03692,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 39,
+      "start": 287.86,
+      "end": 294.86,
+      "text": "The price of its most popular chair, for example, has gone down dramatically over time, adjusted for inflation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.03692,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 40,
+      "start": 294.86,
+      "end": 303.86,
+      "text": "The company reportedly sets a target price for a product before sending it off to its small team of around 20 designers who work within those constraints.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.03692,
+      "no_speech_prob": 0.000755
+    },
+    {
+      "index": 41,
+      "start": 303.86,
+      "end": 310.36,
+      "text": "Finally, the warehouse design eliminates the need for a large staff, which greatly reduces operating expenses.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047734,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 42,
+      "start": 310.36,
+      "end": 318.36,
+      "text": "This low-cost image is so important that, before he died in 2018, the founder and CEO claimed only to fly economy,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047734,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 43,
+      "start": 318.36,
+      "end": 323.86,
+      "text": "never stay in luxury hotels, and use public transit, staying true to the company's values.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047734,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 44,
+      "start": 323.86,
+      "end": 332.36,
+      "text": "But perhaps even more important than its psychology, warehouse design, or low prices is Ikea's impenetrable brand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047734,
+      "no_speech_prob": 0.001065
+    },
+    {
+      "index": 45,
+      "start": 332.86,
+      "end": 342.86,
+      "text": "As it began expanding internationally, first in Switzerland in 1973, then throughout Europe for the next few decades, it greatly emphasized its Swedishness.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061555,
+      "no_speech_prob": 0.008057
+    },
+    {
+      "index": 46,
+      "start": 342.86,
+      "end": 352.86,
+      "text": "From 2000 until 2009, the company opened 150 stores, more than it had in the past 50 years, many in North America and Asia.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.061555,
+      "no_speech_prob": 0.008057
+    },
+    {
+      "index": 47,
+      "start": 352.86,
+      "end": 364.36,
+      "text": "Today, with over 200,000 employees and 433 stores, Ikea is not only the largest retailer of furniture, but also the world's largest consumer of wood, period.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047951,
+      "no_speech_prob": 0.019699
+    },
+    {
+      "index": 48,
+      "start": 364.36,
+      "end": 371.86,
+      "text": "Its strategy has been to enter many different markets, each with only a small number of stores at the most optimal locations.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047951,
+      "no_speech_prob": 0.019699
+    },
+    {
+      "index": 49,
+      "start": 371.86,
+      "end": 381.86,
+      "text": "The US, for example, is its second largest market by number of stores, despite having only 50, and 17 countries or territories have only one.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.047951,
+      "no_speech_prob": 0.019699
+    },
+    {
+      "index": 50,
+      "start": 381.86,
+      "end": 386.36,
+      "text": "The success of this approach is proof of Ikea's global brand.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.037302,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 51,
+      "start": 386.36,
+      "end": 396.36,
+      "text": "While many companies enter a new market by localizing their message and product, Ikea has succeeded by doing just the opposite, embracing its Swedish origins.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.037302,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 52,
+      "start": 396.36,
+      "end": 405.36,
+      "text": "The Ikea image is so strong around the world that it can open a single store in an entire country and still be instantly recognized and loved.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.037302,
+      "no_speech_prob": 0.000829
+    },
+    {
+      "index": 53,
+      "start": 405.86,
+      "end": 413.86,
+      "text": "From the minimal functional design of its furniture to their famously hard-to-pronounce names, Ikea is unmistakably Swedish.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066732,
+      "no_speech_prob": 0.161987
+    },
+    {
+      "index": 54,
+      "start": 413.86,
+      "end": 418.36,
+      "text": "Its bright blue and yellow stores announce its heritage from afar.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066732,
+      "no_speech_prob": 0.161987
+    },
+    {
+      "index": 55,
+      "start": 418.36,
+      "end": 423.86,
+      "text": "Beyond its visual design, Ikea also exports Scandinavian egalitarianism.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066732,
+      "no_speech_prob": 0.161987
+    },
+    {
+      "index": 56,
+      "start": 423.86,
+      "end": 429.86,
+      "text": "Employees at all levels are encouraged to address one another by first names and not titles.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.066732,
+      "no_speech_prob": 0.161987
+    },
+    {
+      "index": 57,
+      "start": 430.36,
+      "end": 440.36,
+      "text": "Corporate executives are asked to participate in so-called anti-bureaucratic weeks, where they work on store floors to experience daily operations and empathize with their colleagues.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048437,
+      "no_speech_prob": 0.114075
+    },
+    {
+      "index": 58,
+      "start": 440.36,
+      "end": 450.86,
+      "text": "Not only is this association with its home country good for the company, but it's also good for Sweden, who has encouraged and greatly benefited from Ikea's positive reputation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048437,
+      "no_speech_prob": 0.114075
+    },
+    {
+      "index": 59,
+      "start": 450.86,
+      "end": 458.36,
+      "text": "Swedish embassies, for example, actively participate in new store openings and have even sponsored them financially.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.048437,
+      "no_speech_prob": 0.114075
+    },
+    {
+      "index": 60,
+      "start": 458.36,
+      "end": 463.86,
+      "text": "Ironically, despite all this, Ikea is legally more Dutch than Swedish.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078965,
+      "no_speech_prob": 0.004902
+    },
+    {
+      "index": 61,
+      "start": 463.86,
+      "end": 471.86,
+      "text": "The company is actually owned by a Dutch holding company whose profits end up in a tax-exempt non-profit also Dutch foundation,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078965,
+      "no_speech_prob": 0.004902
+    },
+    {
+      "index": 62,
+      "start": 471.86,
+      "end": 476.86,
+      "text": "who indirectly channels the money through another Dutch foundation with nearly the same name.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078965,
+      "no_speech_prob": 0.004902
+    },
+    {
+      "index": 63,
+      "start": 476.86,
+      "end": 484.36,
+      "text": "Its intellectual property, meanwhile, is owned by a holding company called InterIkea, this time registered in Luxembourg,",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.078965,
+      "no_speech_prob": 0.004902
+    },
+    {
+      "index": 64,
+      "start": 484.86,
+      "end": 492.86,
+      "text": "which, in turn, is owned by a company of the exact same name in the Netherlands, Antilles, who, yes, is also owned by a trust company.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079119,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 65,
+      "start": 492.86,
+      "end": 495.86,
+      "text": "And that's a simplified explanation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079119,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 66,
+      "start": 495.86,
+      "end": 503.86,
+      "text": "All this legal fine print makes Ikea the third largest charity in the world, only 30% smaller than the Bill and Melinda Gates Foundation.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079119,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 67,
+      "start": 503.86,
+      "end": 513.86,
+      "text": "Ikea is certainly not unique in its complicated legal structure, but in registering as a charitable foundation, it goes beyond the norms of most global companies.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.079119,
+      "no_speech_prob": 0.014496
+    },
+    {
+      "index": 68,
+      "start": 514.36,
+      "end": 522.36,
+      "text": "All this, it claims, is designed to protect control of the company from outside parties, including, in fairness, the founder's own family.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065616,
+      "no_speech_prob": 0.010803
+    },
+    {
+      "index": 69,
+      "start": 522.36,
+      "end": 528.36,
+      "text": "Critics, though, argue control is only a secondary benefit after tax avoidance.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065616,
+      "no_speech_prob": 0.010803
+    },
+    {
+      "index": 70,
+      "start": 528.36,
+      "end": 535.36,
+      "text": "Legally, physically, and financially, Ikea is today more global than Swedish.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065616,
+      "no_speech_prob": 0.010803
+    },
+    {
+      "index": 71,
+      "start": 535.36,
+      "end": 540.36,
+      "text": "And yet, it has one of the strongest, most resilient brands in history.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.065616,
+      "no_speech_prob": 0.010803
+    },
+    {
+      "index": 72,
+      "start": 540.36,
+      "end": 545.86,
+      "text": "Ikea has come to embody a certain, rare kind of friendly capitalism.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058379,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 73,
+      "start": 545.86,
+      "end": 551.36,
+      "text": "After all, despite its size and controversies, who could hate a theme park?",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058379,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 74,
+      "start": 551.36,
+      "end": 560.36,
+      "text": "In its embrace of capitalism and likeness to an amusement park, Ikea is slightly reminiscent of another unique place on earth I'm making a documentary about.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058379,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 75,
+      "start": 560.36,
+      "end": 565.86,
+      "text": "Coming soon to Nebula, our new streaming platform created by some of your favorite YouTubers.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.058379,
+      "no_speech_prob": 0.005909
+    },
+    {
+      "index": 76,
+      "start": 565.86,
+      "end": 570.36,
+      "text": "From CGP Grey to Wendover Productions, Relive Floor, and Tier Zoo.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099651,
+      "no_speech_prob": 0.439941
+    },
+    {
+      "index": 77,
+      "start": 570.36,
+      "end": 579.86,
+      "text": "To make it affordable, we've teamed up with CuriosityStream, where you can watch thousands of documentaries about nature, science, technology, even business.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099651,
+      "no_speech_prob": 0.439941
+    },
+    {
+      "index": 78,
+      "start": 579.86,
+      "end": 590.36,
+      "text": "When you sign up for CuriosityStream with my link in the description for just $19.99 a year, you also get access to Nebula at no extra cost.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.099651,
+      "no_speech_prob": 0.439941
+    },
+    {
+      "index": 79,
+      "start": 590.86,
+      "end": 599.86,
+      "text": "You'll not only get to watch many of our videos ad-free, but also exclusives, and CuriosityStream's entire catalog of documentaries.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076172,
+      "no_speech_prob": 0.433105
+    },
+    {
+      "index": 80,
+      "start": 599.86,
+      "end": 606.36,
+      "text": "And you'll be supporting your favorite creators, all for the same cost of CuriosityStream alone.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076172,
+      "no_speech_prob": 0.433105
+    },
+    {
+      "index": 81,
+      "start": 606.36,
+      "end": 611.86,
+      "text": "Thanks to CuriosityStream for sponsoring this video, and as always, to you for watching.",
+      "source": "faster_whisper_small",
+      "avg_logprob": -0.076172,
+      "no_speech_prob": 0.433105
+    }
+  ],
+  "created_at": "2026-11-05T02:09:17+0800"
+}

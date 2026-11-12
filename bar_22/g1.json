@@ -106,7 +106,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -175,7 +176,8 @@
      "metric": "net_worth",
      "label": "Net worth: $110,000"
     }
-   ]
+   ],
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -204,7 +206,8 @@
      "metric": "net_worth",
      "label": "net worth far beyond the displayed axis"
     }
-   ]
+   ],
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -225,8 +228,8 @@
   }
  ],
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-21",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "g0_data_completeness": {
   "required": true,
   "selection": "all role=bar rows",
@@ -247,7 +250,8 @@
  "review_flags": [
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22",
-  "u4_downgraded_to_optional_valid_2026_10_27"
+  "u4_downgraded_to_optional_valid_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "optional_units": [
   {
@@ -299,5 +303,12 @@
    }
   }
  ],
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

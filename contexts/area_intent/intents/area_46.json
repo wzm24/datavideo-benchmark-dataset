@@ -1,0 +1,71 @@
+{
+ "clip": "area_46",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that 46% of U.S. adults said economic conditions were hurting them and their families, while 54% said they were not.",
+ "proposed_intent": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+ "writer": {
+  "intent": "Compare the shares of U.S. adults reporting that economic conditions were hurting versus not hurting them and their families.",
+  "entities": [
+   "Economic conditions hurting them and their families",
+   "Economic conditions not hurting them and their families (implied complement)"
+  ],
+  "measure": "Share of US adults (%)",
+  "scope": "U.S. adults, survey conducted Sept. 16-29, 2019",
+  "comparison": "Hurting vs. not hurting them and their families",
+  "withheld_answer": "46% hurting, 54% not hurting"
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 19,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "46"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 1422,
+   "completion_tokens": 130,
+   "total_tokens": 1552,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1294
+  },
+  {
+   "prompt_tokens": 1356,
+   "completion_tokens": 56,
+   "total_tokens": 1412,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1356
+  }
+ ],
+ "sec": 2.0
+}

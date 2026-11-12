@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_15",
- "intent_en": "To illustrate the proportion of electricity consumption in California attributed to indoor marijuana cultivation relative to total household usage.",
- "previous_intent": "To illustrate the significant proportion of household electricity consumption in California attributed to indoor marijuana cultivation.",
+ "intent_en": "Identify indoor marijuana cultivation's share of household electricity use in California.",
  "narration_support": "In California, indoor marijuana grow modules account for about 9 % of household electricity use.",
  "chart_support": "Map of California with house icons representing households and a partial arc visualizing a small percentage share.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that indoor marijuana cultivation accounts for about 9% of household electricity use in California.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Identify indoor marijuana cultivation's share of household electricity use in California.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

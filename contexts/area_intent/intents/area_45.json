@@ -1,0 +1,74 @@
+{
+ "clip": "area_45",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that from 1980 to the 2010s, after-tax income growth for the Top 0.01% far outpaced the Middle 40% and Bottom 50%, widening income disparity.",
+ "proposed_intent": "Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.",
+ "writer": {
+  "intent": "Compare the after-tax income growth trajectories of the Top 0.01%, Middle 40%, and Bottom 50% from 1980 through the 2010s.",
+  "entities": [
+   "Top 0.01%",
+   "Middle 40%",
+   "Bottom 50%"
+  ],
+  "measure": "After-tax income growth (%)",
+  "scope": "1980 through the 2010s, all three income groups",
+  "comparison": "Top 0.01% vs Middle 40% vs Bottom 50%",
+  "withheld_answer": "Top 0.01% growth far outpaced the other groups, widening income disparity."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 20,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "0.01",
+   "40",
+   "50"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 11958,
+   "completion_tokens": 145,
+   "total_tokens": 12103,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 11830
+  },
+  {
+   "prompt_tokens": 11905,
+   "completion_tokens": 56,
+   "total_tokens": 11961,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 11905
+  }
+ ],
+ "sec": 2.9
+}

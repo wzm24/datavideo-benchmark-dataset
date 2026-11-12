@@ -1,135 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_6",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "7a87e533f2dbc6f599bc9c1dfa68365cd24a33433b2ee3368bbd273d4ca5f6ff",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "907b43874170fc29678e93fdc4c733c257b4ec5cf5928088066e8b901c286f4f",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "a4180e52b78242286bc82c96bcf18be121584fef8fdb7620610a529e893c4f8c",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_gdp"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Oil",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 0.3,
-   "last_value": 0.3,
-   "min_value": 0.3,
-   "max_value": 0.3,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_gdp"
-   ],
-   "source_type": [
-    "estimated_ring_geometry"
-   ],
-   "role": [
-    "slice"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Rest of GDP (non-oil)",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 99.7,
-   "last_value": 99.7,
-   "min_value": 99.7,
-   "max_value": 99.7,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_gdp"
-   ],
-   "source_type": [
-    "estimated_ring_geometry"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_gdp",
+   "value": "0.3",
+   "unit": "%",
+   "relative_value": "0.003",
+   "label": "",
+   "role": "slice",
+   "source_type": "estimated_ring_geometry",
+   "whole_scope": "share_of_gdp"
   }
  ],
- "source_type_counts": {
-  "estimated_ring_geometry": 2
- },
- "role_counts": {
-  "slice": 2
- },
- "estimated_or_projected_roles": [
-  "estimated_ring_geometry"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_gdp",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Oil"
+   ],
+   "relative_value_sum": 0.003
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Oil",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Rest of GDP (non-oil)",
-    "series": ""
+    "metric": "share_of_gdp",
+    "value": "0.3",
+    "unit": "%",
+    "relative_value": "0.003",
+    "label": "",
+    "role": "slice",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "share_of_gdp"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

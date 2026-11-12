@@ -1,0 +1,72 @@
+{
+ "clip": "area_31",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Compare YouTube and Television value trends over relative time, showing YouTube rising to 120 € while Television falls from a 353.4 € peak to 57 €.",
+ "proposed_intent": "Compare the value trends of YouTube and Television over relative time using the provided data.",
+ "writer": {
+  "intent": "Compare the value trends of YouTube and Television over relative time using the provided data.",
+  "entities": [
+   "YouTube",
+   "Television"
+  ],
+  "measure": "Value (EUR)",
+  "scope": "Two-panel area chart with relative time on the x-axis and value in euros on the y-axis",
+  "comparison": "YouTube versus Television value trends over relative time",
+  "withheld_answer": "YouTube rises to 120 € while Television falls from a 353.4 € peak to 57 €"
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 15,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "120",
+   "57"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 3430,
+   "completion_tokens": 114,
+   "total_tokens": 3544,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 3302
+  },
+  {
+   "prompt_tokens": 3358,
+   "completion_tokens": 56,
+   "total_tokens": 3414,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 3358
+  }
+ ],
+ "sec": 2.1
+}

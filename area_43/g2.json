@@ -1,0 +1,617 @@
+{
+ "clip_id": "area_43",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_43",
+  "family": "area",
+  "sub_type": "stacked_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 11,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 2970,
+  "table_sha256": "bba6da718752a87cb54e22c528ea79813b8e1303d213b140b7117ccd1188ba40"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "EU-28",
+    "Europe (excl. EU-28)",
+    "United States",
+    "North America (excl. US)",
+    "South America",
+    "Africa",
+    "India",
+    "China",
+    "Asia (excl. China/India)",
+    "Oceania",
+    "International transport"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 11,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "EU-28",
+      "panel": "",
+      "entity": "EU-28",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Europe (excl. EU-28)",
+      "panel": "",
+      "entity": "Europe (excl. EU-28)",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "United States",
+      "panel": "",
+      "entity": "United States",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "North America (excl. US)",
+      "panel": "",
+      "entity": "North America (excl. US)",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "South America",
+      "panel": "",
+      "entity": "South America",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Africa",
+      "panel": "",
+      "entity": "Africa",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "India",
+      "panel": "",
+      "entity": "India",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "China",
+      "panel": "",
+      "entity": "China",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Asia (excl. China/India)",
+      "panel": "",
+      "entity": "Asia (excl. China/India)",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Oceania",
+      "panel": "",
+      "entity": "Oceania",
+      "series": "",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "International transport",
+      "panel": "",
+      "entity": "International transport",
+      "series": "",
+      "role": "stacked_area"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "stacked_band_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "China | #270",
+    "Asia (excl. China/India) | #270",
+    "United States | #270",
+    "EU-28 | #270",
+    "India | #270",
+    "Europe (excl. EU-28) | #270",
+    "Africa | #270",
+    "North America (excl. US) | #270",
+    "South America | #270",
+    "International transport | #270",
+    "Oceania | #270"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "China | #270",
+      "panel": "",
+      "entity": "China",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "10.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Asia (excl. China/India) | #270",
+      "panel": "",
+      "entity": "Asia (excl. China/India)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "8.20",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "United States | #270",
+      "panel": "",
+      "entity": "United States",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "5.40",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "EU-28 | #270",
+      "panel": "",
+      "entity": "EU-28",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "3.30",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "India | #270",
+      "panel": "",
+      "entity": "India",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "2.65",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Europe (excl. EU-28) | #270",
+      "panel": "",
+      "entity": "Europe (excl. EU-28)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.40",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Africa | #270",
+      "panel": "",
+      "entity": "Africa",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.35",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "North America (excl. US) | #270",
+      "panel": "",
+      "entity": "North America (excl. US)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "South America | #270",
+      "panel": "",
+      "entity": "South America",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "International transport | #270",
+      "panel": "",
+      "entity": "International transport",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.25",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Oceania | #270",
+      "panel": "",
+      "entity": "Oceania",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "0.45",
+      "unit": "Gt",
+      "role": "stacked_area"
+     }
+    ],
+    "expected_relation": "At the end of the period, China has the highest annual CO2 emissions (10.10 Gt), followed by Asia (excl. China/India) (8.20 Gt) and the United States (5.40 Gt); all other listed entities are below 3.5 Gt.",
+    "computation": "none",
+    "encoding": "stacked_band_thickness",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)"
+    }
+   },
+   "accepted_routes": [
+    "stacked_band_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "United States is the largest emitter at the end of the period",
+    "EU-28 is the largest emitter at the end of the period",
+    "Asia (excl. China/India) is the largest emitter at the end of the period"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "change",
+   "must_be_visualized": true,
+   "evidence_type": "change",
+   "required_marks": [
+    "EU-28 | 1750",
+    "EU-28 | #270",
+    "Europe (excl. EU-28) | 1750",
+    "Europe (excl. EU-28) | #270",
+    "United States | 1750",
+    "United States | #270",
+    "North America (excl. US) | 1750",
+    "North America (excl. US) | #270",
+    "South America | 1750",
+    "South America | #270",
+    "Africa | 1750",
+    "Africa | #270",
+    "India | 1750",
+    "India | #270",
+    "China | 1750",
+    "China | #270",
+    "Asia (excl. China/India) | 1750",
+    "Asia (excl. China/India) | #270",
+    "Oceania | 1750",
+    "Oceania | #270",
+    "International transport | 1750",
+    "International transport | #270"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "EU-28 | 1750",
+      "panel": "",
+      "entity": "EU-28",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "EU-28 | #270",
+      "panel": "",
+      "entity": "EU-28",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "3.30",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Europe (excl. EU-28) | 1750",
+      "panel": "",
+      "entity": "Europe (excl. EU-28)",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Europe (excl. EU-28) | #270",
+      "panel": "",
+      "entity": "Europe (excl. EU-28)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.40",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "United States | 1750",
+      "panel": "",
+      "entity": "United States",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "United States | #270",
+      "panel": "",
+      "entity": "United States",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "5.40",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "North America (excl. US) | 1750",
+      "panel": "",
+      "entity": "North America (excl. US)",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "North America (excl. US) | #270",
+      "panel": "",
+      "entity": "North America (excl. US)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "South America | 1750",
+      "panel": "",
+      "entity": "South America",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "South America | #270",
+      "panel": "",
+      "entity": "South America",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Africa | 1750",
+      "panel": "",
+      "entity": "Africa",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Africa | #270",
+      "panel": "",
+      "entity": "Africa",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.35",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "India | 1750",
+      "panel": "",
+      "entity": "India",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "India | #270",
+      "panel": "",
+      "entity": "India",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "2.65",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "China | 1750",
+      "panel": "",
+      "entity": "China",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "China | #270",
+      "panel": "",
+      "entity": "China",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "10.10",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Asia (excl. China/India) | 1750",
+      "panel": "",
+      "entity": "Asia (excl. China/India)",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Asia (excl. China/India) | #270",
+      "panel": "",
+      "entity": "Asia (excl. China/India)",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "8.20",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Oceania | 1750",
+      "panel": "",
+      "entity": "Oceania",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "Oceania | #270",
+      "panel": "",
+      "entity": "Oceania",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "0.45",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "International transport | 1750",
+      "panel": "",
+      "entity": "International transport",
+      "series": "",
+      "x": "1750",
+      "point_order": "1",
+      "value": "0.00",
+      "unit": "Gt",
+      "role": "stacked_area"
+     },
+     {
+      "mark": "International transport | #270",
+      "panel": "",
+      "entity": "International transport",
+      "series": "",
+      "x": "",
+      "point_order": "270",
+      "value": "1.25",
+      "unit": "Gt",
+      "role": "stacked_area"
+     }
+    ],
+    "expected_relation": "Every listed entity has higher annual CO2 emissions at the end of the period than in 1750, and China shows the largest absolute increase (from 0.00 Gt to 10.10 Gt).",
+    "computation": "end_value - start_value for each entity; compare absolute increases",
+    "encoding": "stacked_band_thickness",
+    "axis_condition": {
+     "x_axis": "Time",
+     "y_axis": "Global CO2 emissions (Gt)"
+    }
+   },
+   "accepted_routes": [
+    "stacked_band_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Any listed entity has lower or equal emissions at the end of the period compared to 1750",
+    "An entity other than China has the largest absolute increase"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

@@ -352,7 +352,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -428,7 +429,8 @@
     "treating USA and Russia as separate unrelated findings",
     "claiming human casualties are in the table"
    ],
-   "evidence": "The four-segment composition in 1990 and 2015 encodes the same shift from two angles."
+   "evidence": "The four-segment composition in 1990 and 2015 encodes the same shift from two angles.",
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -462,12 +464,13 @@
   "final_v1_required_units_audited_2026_10_27",
   "final_v1_required_units_audited_2026_10_27",
   "complex_chart_hardcase_2026_10_27",
-  "complex_chart_hardcase_2026_10_27"
+  "complex_chart_hardcase_2026_10_27",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "draft_source": "legacy_g1_draft_b2_migrated_2026-10-22",
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-27",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "clip_hardcase": {
   "is_hardcase": true,
   "type": "complex_chart",
@@ -574,5 +577,12 @@
   ],
   "chart_sub_type": "grouped",
   "reason": "Complex chart: completeness depends on every category, series, segment, paired mark, or state exposed by the table."
- }
+ },
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

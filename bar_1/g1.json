@@ -79,7 +79,8 @@
     "showing only selected endpoint bars",
     "replacing missing marks with a summary total or subtitle"
    ],
-   "evidence": "All G0-required marks for the final chart state are visible and identifiable."
+   "evidence": "All G0-required marks for the final chart state are visible and identifiable.",
+   "needs_review": false
   },
   {
    "id": "U2",
@@ -103,7 +104,8 @@
      "metric": "travel_days",
      "label": "a lot of time"
     }
-   ]
+   ],
+   "needs_review": false
   },
   {
    "id": "U3",
@@ -128,7 +130,8 @@
      "metric": "travel_days",
      "label": "28 days"
     }
-   ]
+   ],
+   "needs_review": false
   },
   {
    "id": "U4",
@@ -153,7 +156,8 @@
      "metric": "travel_days",
      "label": "two full days"
     }
-   ]
+   ],
+   "needs_review": false
   }
  ],
  "weight_mode": "uniform_over_units",
@@ -164,8 +168,8 @@
   "U4": 0.25
  },
  "status": "approved",
- "approved_by": "human",
- "approved_at": "2026-10-20",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
  "g0_data_completeness": {
   "required": true,
   "selection": "all data rows (table has no role column)",
@@ -187,7 +191,8 @@
   "human_confirmed_semantics_auto_format_backfill_2026-10-22",
   "state_level_completeness_r1_2026-10-22",
   "v1_order_downgraded_to_optional_valid_2026-10-27",
-  "car_value_is_qualitative_a_lot_of_time"
+  "car_value_is_qualitative_a_lot_of_time",
+  "g1_batch_approved_after_human_sampling_2026_11_12"
  ],
  "hardcases": [],
  "optional_units": [
@@ -261,5 +266,12 @@
   }
  ],
  "revision_note_2026_10_27": "U5 is optional for V1. The data table has no numeric CAR travel time, so the complete three-way ordering is not derivable from the public V1 input. Reporting each available duration remains required.",
- "unit_kind_schema": "protocol_v1_2026_10_27"
+ "unit_kind_schema": "protocol_v1_2026_10_27",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ]
 }

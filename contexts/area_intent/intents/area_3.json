@@ -1,0 +1,118 @@
+{
+ "clip": "area_3",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that battle deaths per year per million people fell from 180.2 in 1950 to 12.3 at the final data point, with substantial fluctuations in between.",
+ "proposed_intent": "Trace battle deaths per year per million people from 1950 through the final data point.",
+ "writer": {
+  "intent": "Trace battle deaths per year per million people from 1950 through the final data point.",
+  "entities": [
+   "battle deaths"
+  ],
+  "measure": "battle deaths per year per million people",
+  "scope": "1950 through the final data point",
+  "comparison": "none",
+  "withheld_answer": "The series fell from 180.2 in 1950 to 12.3 at the final data point, with substantial fluctuations in between."
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 15,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [
+  {
+   "attempt": 1,
+   "rejected_intent": "Trace the battle deaths per year per million people from 1950 through the final data point, reporting the overall change and any fluctuations.",
+   "audit": {
+    "protocol_compliant": false,
+    "answer_leak": true,
+    "leaked_phrases": [
+     "overall change",
+     "fluctuations"
+    ],
+    "scope_complete": true,
+    "scope_issues": [],
+    "supported_by_inputs": true,
+    "natural_request": true,
+    "issues": [
+     "Intent asks to report overall change and fluctuations, which leaks direction and pattern from the hidden goal.",
+     "Not a single imperative sentence starting with an action verb; it is a fragment."
+    ]
+   },
+   "mechanical": {
+    "word_count": 23,
+    "sentence_count": 1,
+    "starts_with_action_verb": true,
+    "non_year_numbers": [],
+    "allowed_name_numbers": [],
+    "answer_pattern_matches": [],
+    "mentions_chart_style": false
+   }
+  }
+ ],
+ "repair_attempts": 1,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 4365,
+   "completion_tokens": 119,
+   "total_tokens": 4484,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 4237
+  },
+  {
+   "prompt_tokens": 4304,
+   "completion_tokens": 102,
+   "total_tokens": 4406,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 4304
+  },
+  {
+   "prompt_tokens": 4596,
+   "completion_tokens": 106,
+   "total_tokens": 4702,
+   "prompt_tokens_details": {
+    "cached_tokens": 4352
+   },
+   "prompt_cache_hit_tokens": 4352,
+   "prompt_cache_miss_tokens": 244
+  },
+  {
+   "prompt_tokens": 4295,
+   "completion_tokens": 56,
+   "total_tokens": 4351,
+   "prompt_tokens_details": {
+    "cached_tokens": 4096
+   },
+   "prompt_cache_hit_tokens": 4096,
+   "prompt_cache_miss_tokens": 199
+  }
+ ],
+ "sec": 4.6
+}

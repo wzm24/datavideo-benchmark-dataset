@@ -1,0 +1,53 @@
+{
+ "clip": "area_32",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that the relative scale of the universe rises from 0 at the Big Bang to 1 at the end of the relative cosmic-time axis.",
+ "proposed_intent": "Trace the relative change in the scale of the universe from the Big Bang to the present.",
+ "writer": {
+  "intent": "Trace the relative change in the scale of the universe from the Big Bang to the present.",
+  "manual_override": true
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 17,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {},
+  {
+   "prompt_tokens": 5147,
+   "completion_tokens": 56,
+   "total_tokens": 5203,
+   "prompt_tokens_details": {
+    "cached_tokens": 4992
+   },
+   "prompt_cache_hit_tokens": 4992,
+   "prompt_cache_miss_tokens": 155
+  }
+ ],
+ "sec": 0.7
+}

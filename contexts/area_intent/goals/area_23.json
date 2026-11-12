@@ -1,0 +1,202 @@
+{
+ "clip": "area_23",
+ "family": "area",
+ "status": "candidate_needs_review",
+ "narrative_goal": "Compare Earth's 12,700 km diameter with the Moon's 3,500 km diameter to show the Moon is relatively large but clearly smaller than Earth.",
+ "core_claim": "The Moon's diameter is about 3,500 km versus Earth's 12,700 km, making it large relative to Earth but still much smaller.",
+ "chart_role": "proportional size comparison",
+ "source_consistency": "partial",
+ "issues": [
+  "Narration's claim that the Moon is the biggest moon relative to its planet and fifth largest in the solar system is not supported by the two-row table or visible labels."
+ ],
+ "confidence": 0.9,
+ "old_intent": "To illustrate the relative physical size of the Moon compared to Earth, emphasizing that the Moon is unusually large for a satellite.",
+ "narration": "Weight -wise, the Moon is only about 181th of the mass of Earth, but how big is it in relation to Earth? Quite big, actually. Our Moon is the biggest in the solar system in relation to its planet, and it's the fifth largest Moon in the solar system, quite a bit bigger.",
+ "svg_text": [
+  "12,700 KM",
+  "3500 KM"
+ ],
+ "chart_spec": {
+  "clip_id": "area_23",
+  "family": "area",
+  "sub_type": "proportional_circle_size",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 1,
+  "time_behavior": "snapshot",
+  "special_area_type": true
+ },
+ "table_summary": {
+  "row_count": 2,
+  "columns": [
+   "panel",
+   "x_axis",
+   "y_axis",
+   "entity",
+   "series",
+   "x",
+   "point_order",
+   "value",
+   "unit",
+   "label",
+   "role",
+   "_row_id"
+  ],
+  "groups": [
+   {
+    "panel": "",
+    "entity": "Earth",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 12700.0,
+    "value_max": 12700.0,
+    "first": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "12700",
+     "unit": "km",
+     "label": "12,700 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r1",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Earth",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "12700",
+     "unit": "km",
+     "label": "12,700 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r1"
+    ]
+   },
+   {
+    "panel": "",
+    "entity": "Moon",
+    "series": "",
+    "role": "proportional_circle",
+    "row_count": 1,
+    "unit": "km",
+    "printed_x": [],
+    "value_min": 3500.0,
+    "value_max": 3500.0,
+    "first": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Moon",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3500",
+     "unit": "km",
+     "label": "3500 KM",
+     "role": "proportional_circle"
+    },
+    "last": {
+     "_row_id": "r2",
+     "panel": "",
+     "x_axis": "",
+     "y_axis": "Diameter (km)",
+     "entity": "Moon",
+     "series": "",
+     "x": "",
+     "point_order": "1",
+     "value": "3500",
+     "unit": "km",
+     "label": "3500 KM",
+     "role": "proportional_circle"
+    },
+    "sampled_row_ids": [
+     "r2"
+    ]
+   }
+  ],
+  "sampled_rows": [
+   {
+    "_row_id": "r1",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "Earth",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "12700",
+    "unit": "km",
+    "label": "12,700 KM",
+    "role": "proportional_circle"
+   },
+   {
+    "_row_id": "r2",
+    "panel": "",
+    "x_axis": "",
+    "y_axis": "Diameter (km)",
+    "entity": "Moon",
+    "series": "",
+    "x": "",
+    "point_order": "1",
+    "value": "3500",
+    "unit": "km",
+    "label": "3500 KM",
+    "role": "proportional_circle"
+   }
+  ],
+  "instruction": "The sampled rows preserve endpoints, printed x anchors, extrema, bends, and evenly spaced coverage. Use only a listed _row_id as G1 basis."
+ },
+ "source": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_spec",
+  "old_intent_context"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "model": "deepseek-flash",
+ "goal_audit": {
+  "supported": true,
+  "unsupported_claims": [],
+  "issues": [],
+  "corrected_goal": "Compare Earth's 12,700 km diameter with the Moon's 3,500 km diameter to show the Moon is relatively large but clearly smaller than Earth.",
+  "corrected_core_claim": "The Moon's diameter is about 3,500 km versus Earth's 12,700 km, making it large relative to Earth but still much smaller."
+ },
+ "usage": {
+  "goal": {
+   "prompt_tokens": 1441,
+   "completion_tokens": 154,
+   "total_tokens": 1595,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 1313
+  },
+  "audit": {
+   "prompt_tokens": 1216,
+   "completion_tokens": 102,
+   "total_tokens": 1318,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1216
+  }
+ },
+ "sec": 2.5
+}

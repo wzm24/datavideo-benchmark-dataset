@@ -1,7 +1,6 @@
 {
  "clip_id": "donut_8",
- "intent_en": "To demonstrate the broad popularity of a gun licensing system among American voters, including those who live in households with firearms.",
- "previous_intent": "To illustrate the widespread support for a gun licensing system among American voters, including a strong majority of those living in households with firearms.",
+ "intent_en": "Compare support for a licensing system among all American voters with support among voters in gun-owning households.",
  "narration_support": "It's also pretty popular.",
  "chart_support": "Donut chart titled 'American voters who support a licensing system' displaying support levels for 'All American voters' and those who 'Live in a house with a gun'.",
  "supported_by_narration": true,
@@ -24,5 +23,22 @@
  "leak_check": {
   "contains_answer_values": false
  },
- "needs_video_escalation": false
+ "needs_video_escalation": false,
+ "narrative_goal": "Show that support for a gun licensing system is broad, with 77% of all American voters and 68% of voters in gun-owning households in favor.",
+ "narrative_goal_source": "donut_pie_narrative_goal_v3_2026-10-29",
+ "narrative_goal_evidence": [
+  "narration",
+  "data_table",
+  "semantic_svg",
+  "chart_metadata",
+  "keyframe_state_summary"
+ ],
+ "narrative_goal_review_status": "approved_as_narrative_goal",
+ "narrative_goal_role": "answer_bearing_internal_story_goal",
+ "public_input_field": "intent_en",
+ "current_model_input": "Compare support for a licensing system among all American voters with support among voters in gun-owning households.",
+ "current_model_input_role": "model_generation_input",
+ "protocol_intent_status": "closure_passed",
+ "protocol_intent_closure_source": "donut_pie_g1_closure_v1_2026-10-29",
+ "intent_schema_version": "donut_pie_intent_v1_2026-10-29"
 }

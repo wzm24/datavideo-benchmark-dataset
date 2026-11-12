@@ -1,83 +1,70 @@
-clip_id,entity,entity_id,x_px,value,relative_value,unit,source_type
-area_15,Fast Spread,fast,0.0,0.0,,relative,estimated
-area_15,Fast Spread,fast,1.6,0.6,,relative,estimated
-area_15,Fast Spread,fast,3.1,2.4,,relative,estimated
-area_15,Fast Spread,fast,4.6,5.4,,relative,estimated
-area_15,Fast Spread,fast,6.2,9.5,,relative,estimated
-area_15,Fast Spread,fast,7.8,14.6,,relative,estimated
-area_15,Fast Spread,fast,9.3,20.6,,relative,estimated
-area_15,Fast Spread,fast,10.8,27.3,,relative,estimated
-area_15,Fast Spread,fast,12.4,34.5,,relative,estimated
-area_15,Fast Spread,fast,14.0,42.2,,relative,estimated
-area_15,Fast Spread,fast,15.5,50.0,,relative,estimated
-area_15,Fast Spread,fast,17.1,57.8,,relative,estimated
-area_15,Fast Spread,fast,18.6,65.5,,relative,estimated
-area_15,Fast Spread,fast,20.2,72.7,,relative,estimated
-area_15,Fast Spread,fast,21.7,79.4,,relative,estimated
-area_15,Fast Spread,fast,23.2,85.4,,relative,estimated
-area_15,Fast Spread,fast,24.8,90.5,,relative,estimated
-area_15,Fast Spread,fast,26.3,94.6,,relative,estimated
-area_15,Fast Spread,fast,27.9,97.6,,relative,estimated
-area_15,Fast Spread,fast,29.4,99.4,,relative,estimated
-area_15,Fast Spread,fast,31.0,100.0,,relative,estimated
-area_15,Fast Spread,fast,32.6,99.4,,relative,estimated
-area_15,Fast Spread,fast,34.1,97.6,,relative,estimated
-area_15,Fast Spread,fast,35.6,94.6,,relative,estimated
-area_15,Fast Spread,fast,37.2,90.5,,relative,estimated
-area_15,Fast Spread,fast,38.8,85.4,,relative,estimated
-area_15,Fast Spread,fast,40.3,79.4,,relative,estimated
-area_15,Fast Spread,fast,41.9,72.7,,relative,estimated
-area_15,Fast Spread,fast,43.4,65.5,,relative,estimated
-area_15,Fast Spread,fast,44.9,57.8,,relative,estimated
-area_15,Fast Spread,fast,46.5,50.0,,relative,estimated
-area_15,Fast Spread,fast,48.1,42.2,,relative,estimated
-area_15,Fast Spread,fast,49.6,34.5,,relative,estimated
-area_15,Fast Spread,fast,51.1,27.3,,relative,estimated
-area_15,Fast Spread,fast,52.7,20.6,,relative,estimated
-area_15,Fast Spread,fast,54.2,14.6,,relative,estimated
-area_15,Fast Spread,fast,55.8,9.5,,relative,estimated
-area_15,Fast Spread,fast,57.4,5.4,,relative,estimated
-area_15,Fast Spread,fast,58.9,2.4,,relative,estimated
-area_15,Fast Spread,fast,60.4,0.6,,relative,estimated
-area_15,Fast Spread,fast,62.0,0.0,,relative,estimated
-area_15,Slow Spread,slow,0.0,0.0,,relative,estimated
-area_15,Slow Spread,slow,2.5,0.2,,relative,estimated
-area_15,Slow Spread,slow,5.0,1.0,,relative,estimated
-area_15,Slow Spread,slow,7.5,2.2,,relative,estimated
-area_15,Slow Spread,slow,10.0,3.8,,relative,estimated
-area_15,Slow Spread,slow,12.5,5.9,,relative,estimated
-area_15,Slow Spread,slow,15.0,8.2,,relative,estimated
-area_15,Slow Spread,slow,17.5,10.9,,relative,estimated
-area_15,Slow Spread,slow,20.0,13.8,,relative,estimated
-area_15,Slow Spread,slow,22.5,16.9,,relative,estimated
-area_15,Slow Spread,slow,25.0,20.0,,relative,estimated
-area_15,Slow Spread,slow,27.5,23.1,,relative,estimated
-area_15,Slow Spread,slow,30.0,26.2,,relative,estimated
-area_15,Slow Spread,slow,32.5,29.1,,relative,estimated
-area_15,Slow Spread,slow,35.0,31.8,,relative,estimated
-area_15,Slow Spread,slow,37.5,34.1,,relative,estimated
-area_15,Slow Spread,slow,40.0,36.2,,relative,estimated
-area_15,Slow Spread,slow,42.5,37.8,,relative,estimated
-area_15,Slow Spread,slow,45.0,39.0,,relative,estimated
-area_15,Slow Spread,slow,47.5,39.8,,relative,estimated
-area_15,Slow Spread,slow,50.0,40.0,,relative,estimated
-area_15,Slow Spread,slow,52.5,39.8,,relative,estimated
-area_15,Slow Spread,slow,55.0,39.0,,relative,estimated
-area_15,Slow Spread,slow,57.5,37.8,,relative,estimated
-area_15,Slow Spread,slow,60.0,36.2,,relative,estimated
-area_15,Slow Spread,slow,62.5,34.1,,relative,estimated
-area_15,Slow Spread,slow,65.0,31.8,,relative,estimated
-area_15,Slow Spread,slow,67.5,29.1,,relative,estimated
-area_15,Slow Spread,slow,70.0,26.2,,relative,estimated
-area_15,Slow Spread,slow,72.5,23.1,,relative,estimated
-area_15,Slow Spread,slow,75.0,20.0,,relative,estimated
-area_15,Slow Spread,slow,77.5,16.9,,relative,estimated
-area_15,Slow Spread,slow,80.0,13.8,,relative,estimated
-area_15,Slow Spread,slow,82.5,10.9,,relative,estimated
-area_15,Slow Spread,slow,85.0,8.2,,relative,estimated
-area_15,Slow Spread,slow,87.5,5.9,,relative,estimated
-area_15,Slow Spread,slow,90.0,3.8,,relative,estimated
-area_15,Slow Spread,slow,92.5,2.2,,relative,estimated
-area_15,Slow Spread,slow,95.0,1.0,,relative,estimated
-area_15,Slow Spread,slow,97.5,0.2,,relative,estimated
-area_15,Slow Spread,slow,100.0,0.0,,relative,estimated
+﻿panel,x_axis,y_axis,entity,series,x,point_order,value,unit,label,role
+,Time (relative),Outbreak (relative),Fast Spread,,0.000000,1,0.000000,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.009891,2,0.205761,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.017717,3,0.658436,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.025435,4,1.358025,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.034674,5,2.510288,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.051630,6,5.493827,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.067609,7,9.279835,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.085543,8,14.506173,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.107826,9,22.201646,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.130109,10,30.864198,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.193478,11,56.810700,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.213804,12,64.259259,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.229783,13,69.444444,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.249674,14,74.855967,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.258370,15,76.810700,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.270978,16,79.135802,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.281630,17,80.617284,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.292283,18,81.646091,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.300109,19,82.098765,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.309239,20,82.304527,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.317065,21,82.201646,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.326196,22,81.748971,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.333043,23,81.193416,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.342717,24,80.061728,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.350978,25,78.806584,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.361630,26,76.810700,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.377609,27,73.024691,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.395543,28,67.798354,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.417826,29,60.102881,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.440109,30,51.440329,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.503478,31,25.493827,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.523804,32,18.045267,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.539783,33,12.860082,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.559674,34,7.448560,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.568370,35,5.493827,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.580978,36,3.168724,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.591630,37,1.687243,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.602283,38,0.658436,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.610109,39,0.205761,relative,,area
+,Time (relative),Outbreak (relative),Fast Spread,,0.620000,40,0.000000,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.000000,1,0.000000,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.025435,2,0.205761,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.051957,3,0.864198,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.079348,4,1.995885,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.109022,5,3.703704,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.141848,6,6.111111,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.171522,7,8.662551,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.204348,8,11.790123,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.311304,9,22.654321,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.340217,10,25.308642,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.373043,11,27.962963,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.404348,12,30.041152,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.436304,13,31.625514,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.466848,14,32.572016,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.495652,15,32.921811,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.521522,16,32.777778,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.551957,17,32.057613,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.579348,18,30.925926,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.609022,19,29.218107,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.641848,20,26.810700,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.671522,21,24.259259,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.704348,22,21.131687,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.811304,23,10.267490,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.840217,24,7.613169,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.873043,25,4.958848,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.909022,26,2.613169,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.940978,27,1.111111,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,0.969891,28,0.288066,relative,,area
+,Time (relative),Outbreak (relative),Slow Spread,,1.000000,29,0.000000,relative,,area

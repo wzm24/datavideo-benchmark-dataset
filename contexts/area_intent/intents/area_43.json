@@ -1,0 +1,55 @@
+{
+ "clip": "area_43",
+ "family": "area",
+ "status": "pass",
+ "narrative_goal": "Show that China ends the period as the largest annual CO2 emitter among the entities shown, overtaking the United States.",
+ "proposed_intent": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+ "writer": {
+  "intent": "Compare annual CO2 emissions for all listed entities across the period and trace how each changes over time.",
+  "manual_override": true
+ },
+ "protocol_audit": {
+  "protocol_compliant": true,
+  "answer_leak": false,
+  "leaked_phrases": [],
+  "scope_complete": true,
+  "scope_issues": [],
+  "supported_by_inputs": true,
+  "natural_request": true,
+  "issues": []
+ },
+ "mechanical_checks": {
+  "word_count": 18,
+  "sentence_count": 1,
+  "starts_with_action_verb": true,
+  "non_year_numbers": [],
+  "allowed_name_numbers": [
+   "28"
+  ],
+  "answer_pattern_matches": [],
+  "mentions_chart_style": false
+ },
+ "repairs": [],
+ "repair_attempts": 0,
+ "source": [
+  "narrative_goal",
+  "data_table",
+  "semantic_svg",
+  "chart_spec"
+ ],
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {},
+  {
+   "prompt_tokens": 42807,
+   "completion_tokens": 64,
+   "total_tokens": 42871,
+   "prompt_tokens_details": {
+    "cached_tokens": 42624
+   },
+   "prompt_cache_hit_tokens": 42624,
+   "prompt_cache_miss_tokens": 183
+  }
+ ],
+ "sec": 1.1
+}

@@ -1,0 +1,385 @@
+{
+ "clip_id": "area_1",
+ "family": "area",
+ "version": "g2_area_visual_evidence_v1_2026-11-12",
+ "status": "approved",
+ "source_g1": "g1.json",
+ "chart_input": {
+  "clip_id": "area_1",
+  "family": "area",
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot",
+  "special_area_type": null
+ },
+ "completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 52,
+  "table_sha256": "a66db8b2fd9e5ab2d01b5da6229c0c69214a026f835138a7960928f513e7b973"
+ },
+ "unit_evidence": [
+  {
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "evidence_type": "complete_area_mark_set",
+   "required_marks": [
+    "Infections",
+    "Healthcare capacity"
+   ],
+   "assertion": {
+    "all_required_marks_present": true,
+    "required_mark_count": 2,
+    "panel_scoped": false,
+    "required_marks": [
+     {
+      "mark": "Infections",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "role": "area"
+     },
+     {
+      "mark": "Healthcare capacity",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "role": "reference_line"
+     }
+    ]
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": "G1_R1",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U2",
+   "unit_kind": "comparison",
+   "must_be_visualized": true,
+   "evidence_type": "comparison",
+   "required_marks": [
+    "Infections | 0.005",
+    "Infections | 0.25",
+    "Infections | 0.5",
+    "Healthcare capacity | 0",
+    "Healthcare capacity | 0.250682",
+    "Healthcare capacity | 0.6"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Infections | 0.005",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.005",
+      "point_order": "1",
+      "value": "2.98",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.25",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.25",
+      "point_order": "15",
+      "value": "95",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.5",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.5",
+      "point_order": "29",
+      "value": "0",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Healthcare capacity | 0",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "45",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Healthcare capacity | 0.250682",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0.250682",
+      "point_order": "12",
+      "value": "33",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Healthcare capacity | 0.6",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0.6",
+      "point_order": "23",
+      "value": "45",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "Infections rise from near zero to a peak near 95 and then fall back to zero, while Healthcare capacity starts at 45, dips to a low of 33, and returns to 45; the two trajectories diverge and then reconverge.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Infections and Healthcare capacity follow the same trajectory.",
+    "Healthcare capacity peaks at the same time as Infections.",
+    "Infections remain above Healthcare capacity for the entire time range."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Infections | 0.25"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Infections | 0.25",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.25",
+      "point_order": "15",
+      "value": "95",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.25",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.25",
+      "point_order": "15",
+      "value": "0.25",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Infections reach their maximum value of 95 at relative time 0.25.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Infections peak at 100.",
+    "Infections peak at relative time 0.5."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U4",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Infections | 0.5"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Infections | 0.5",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.5",
+      "point_order": "29",
+      "value": "0",
+      "unit": "relative",
+      "role": "area"
+     },
+     {
+      "mark": "Infections | 0.5",
+      "panel": "",
+      "entity": "Infections",
+      "series": "",
+      "x": "0.5",
+      "point_order": "29",
+      "value": "0.5",
+      "unit": "relative",
+      "role": "area"
+     }
+    ],
+    "expected_relation": "Infections reach their minimum value of 0 at relative time 0.5.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak"
+    }
+   },
+   "accepted_routes": [
+    "area_boundary_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Infections never reach zero.",
+    "The minimum of Infections occurs at relative time 0.005."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  },
+  {
+   "unit_id": "U5",
+   "unit_kind": "extremum",
+   "must_be_visualized": true,
+   "evidence_type": "extremum",
+   "required_marks": [
+    "Healthcare capacity | 0",
+    "Healthcare capacity | 0.250682",
+    "Healthcare capacity | 0.6"
+   ],
+   "assertion": {
+    "marks": [
+     {
+      "mark": "Healthcare capacity | 0",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0",
+      "point_order": "1",
+      "value": "45",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Healthcare capacity | 0.250682",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0.250682",
+      "point_order": "12",
+      "value": "33",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Healthcare capacity | 0.250682",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0.250682",
+      "point_order": "12",
+      "value": "0.250682",
+      "unit": "relative",
+      "role": "reference_line"
+     },
+     {
+      "mark": "Healthcare capacity | 0.6",
+      "panel": "",
+      "entity": "Healthcare capacity",
+      "series": "",
+      "x": "0.6",
+      "point_order": "23",
+      "value": "45",
+      "unit": "relative",
+      "role": "reference_line"
+     }
+    ],
+    "expected_relation": "Healthcare capacity has a maximum of 45 at the start and end of the plotted range, and a minimum of 33 at relative time 0.250682.",
+    "computation": "none",
+    "encoding": "independent_filled_area_boundaries",
+    "axis_condition": {
+     "x_axis": "Time (relative)",
+     "y_axis": "Outbreak"
+    }
+   },
+   "accepted_routes": [
+    "reference_line_geometry",
+    "readable_label",
+    "explicit_annotation"
+   ],
+   "reject": [
+    "Healthcare capacity peaks at 33.",
+    "Healthcare capacity's minimum is 45.",
+    "Healthcare capacity has no variation over time."
+   ],
+   "tolerance": {
+    "printed_value_relative": 0.02,
+    "geometry_relative": 0.05,
+    "label_text": "normalized_exact_or_semantically_equivalent"
+   },
+   "completeness_ref": null,
+   "needs_review": false
+  }
+ ],
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12"
+}

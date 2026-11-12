@@ -1,0 +1,502 @@
+{
+ "clip_id": "area_17",
+ "version": "g1_area_r_u_v1_2026-11-12",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "chart_spec.json"
+ ],
+ "intent": "Compare how the Ice surface and Bedrock elevations vary with distance across the Antarctic ice sheet transect.",
+ "chart_structure": {
+  "clip_id": "area_17",
+  "family": "area",
+  "sub_type": "overlay_area",
+  "orientation": "cartesian",
+  "panel_count": 1,
+  "series_count": 2,
+  "time_behavior": "snapshot"
+ },
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "How does the video present the required area marks in this chart?",
+   "relation": "single",
+   "unit_ids": [
+    "U1"
+   ],
+   "scope": {
+    "panels": [
+     ""
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare how Ice surface and Bedrock elevations vary with distance across the transect",
+   "relation": "all_of",
+   "unit_ids": [
+    "U2",
+    "U3",
+    "U4"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "must_be_visualized": true,
+   "claim": "All 3 required area marks are present in the chart: Ice surface, Bedrock, Sea level.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "entity": "Ice surface",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r315",
+     "panel": "",
+     "entity": "Bedrock",
+     "series": "",
+     "role": "area",
+     "field": "series_presence"
+    },
+    {
+     "row_id": "r629",
+     "panel": "",
+     "entity": "Sea level",
+     "series": "",
+     "role": "reference_line",
+     "field": "series_presence"
+    }
+   ],
+   "accept": [
+    "every listed area, reference mark, segment, or category is visible",
+    "each mark is correctly bound to its entity or series identity"
+   ],
+   "reject": [
+    "missing any required area, reference mark, segment, or category",
+    "assigning a mark to the wrong entity, panel, or series",
+    "replacing a required mark with narration text alone"
+   ]
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The Ice surface elevation rises from 0.462 km at 0 km to a maximum of 3.854 km near 3000 km, then declines to 0.525 km at 5000 km.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "0",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.462",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r189",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "3000",
+     "point_order": "189",
+     "field": "value",
+     "value": "3.787",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r193",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "",
+     "point_order": "193",
+     "field": "value",
+     "value": "3.854",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r199",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "",
+     "point_order": "199",
+     "field": "value",
+     "value": "3.854",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r314",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "5000",
+     "point_order": "314",
+     "field": "value",
+     "value": "0.525",
+     "unit": "km",
+     "role": "area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Ice surface elevation increases from 0.462 km at the start to a peak of 3.854 km near 3000 km, then decreases to 0.525 km at the end.",
+    "The Ice surface profile shows a rise to a maximum around 3000 km followed by a decline."
+   ],
+   "reject": [
+    "Ice surface elevation increases monotonically across the entire transect.",
+    "Ice surface elevation is highest at the start or end of the transect."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "trend",
+   "claim": "The Bedrock elevation fluctuates with distance, starting at -2.127 km, rising above sea level to a maximum of 1.589 km, and ending at -2.297 km.",
+   "basis": [
+    {
+     "row_id": "r315",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "0",
+     "point_order": "1",
+     "field": "value",
+     "value": "-2.127",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r341",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "27",
+     "field": "value",
+     "value": "0.032",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r354",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "40",
+     "field": "value",
+     "value": "0.596",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r368",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "54",
+     "field": "value",
+     "value": "-0.404",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r421",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "107",
+     "field": "value",
+     "value": "1.224",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r434",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "120",
+     "field": "value",
+     "value": "1.348",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r503",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "3000",
+     "point_order": "189",
+     "field": "value",
+     "value": "1.058",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r555",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "241",
+     "field": "value",
+     "value": "1.099",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r582",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "",
+     "point_order": "268",
+     "field": "value",
+     "value": "1.308",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r628",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "5000",
+     "point_order": "314",
+     "field": "value",
+     "value": "-2.297",
+     "unit": "km",
+     "role": "area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Bedrock elevation starts below sea level, rises to positive values with a maximum of 1.589 km, and ends below sea level.",
+    "The Bedrock profile is non-monotonic, with multiple rises and falls across the transect."
+   ],
+   "reject": [
+    "Bedrock elevation increases monotonically with distance.",
+    "Bedrock elevation remains below sea level throughout the transect."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "comparison",
+   "claim": "At both the start (0 km) and end (5000 km) of the transect, the Ice surface elevation is higher than the Bedrock elevation.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "0",
+     "point_order": "1",
+     "field": "value",
+     "value": "0.462",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r315",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "0",
+     "point_order": "1",
+     "field": "value",
+     "value": "-2.127",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r314",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Ice surface",
+     "series": "",
+     "x": "5000",
+     "point_order": "314",
+     "field": "value",
+     "value": "0.525",
+     "unit": "km",
+     "role": "area"
+    },
+    {
+     "row_id": "r628",
+     "panel": "",
+     "x_axis": "Distance (km)",
+     "y_axis": "Elevation (km)",
+     "entity": "Bedrock",
+     "series": "",
+     "x": "5000",
+     "point_order": "314",
+     "field": "value",
+     "value": "-2.297",
+     "unit": "km",
+     "role": "area"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "At 0 km, Ice surface (0.462 km) is above Bedrock (-2.127 km); at 5000 km, Ice surface (0.525 km) is above Bedrock (-2.297 km).",
+    "The Ice surface is higher than Bedrock at both endpoints of the transect."
+   ],
+   "reject": [
+    "The Ice surface is consistently higher than Bedrock across the entire transect.",
+    "Bedrock elevation exceeds Ice surface elevation at the endpoints."
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.25,
+  "U2": 0.25,
+  "U3": 0.25,
+  "U4": 0.25
+ },
+ "optional_valid": [
+  "The sea level reference line at 0 km elevation is shown for context.",
+  "The Ice surface reaches its maximum elevation of 3.854 km near 3000 km.",
+  "The Bedrock reaches its maximum elevation of 1.589 km somewhere along the transect."
+ ],
+ "unsupported_to_avoid": [
+  "The Ice surface elevation is always increasing with distance.",
+  "The Bedrock elevation is always below sea level.",
+  "The Ice surface and Bedrock elevations cross each other.",
+  "The transect covers the entire Antarctic ice sheet.",
+  "The data represent a time series rather than a spatial transect."
+ ],
+ "review_notes": [
+  "The intent asks to compare how Ice surface and Bedrock elevations vary with distance, so separate trend units for each series and one comparison unit for their relationship are sufficient.",
+  "The sea level reference line is not required by the intent and is placed in optional_valid."
+ ],
+ "closure_review": {
+  "closed": true,
+  "missing_slots": [],
+  "duplicate_units": [],
+  "unsupported_units": [],
+  "unnecessary_units": [],
+  "issues": [],
+  "recommended_fix": ""
+ },
+ "local_checks": {
+  "warnings": []
+ },
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "area_mark_set_per_panel",
+  "required_units": [
+   "U1"
+  ],
+  "row_count": 630,
+  "table_sha256": "1e0418005aab3d0778e595e31eba425e77cc780f157882b40e79b7be7fbc6c9c"
+ },
+ "status": "candidate_pending_review",
+ "prompt_version": "area_goal_intent_g1_v1_2026-11-12",
+ "usage": [
+  {
+   "prompt_tokens": 8970,
+   "completion_tokens": 1119,
+   "total_tokens": 10089,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 8586
+  },
+  {
+   "prompt_tokens": 10516,
+   "completion_tokens": 232,
+   "total_tokens": 10748,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 10516
+  },
+  {
+   "prompt_tokens": 9215,
+   "completion_tokens": 1240,
+   "total_tokens": 10455,
+   "prompt_tokens_details": {
+    "cached_tokens": 8960
+   },
+   "prompt_cache_hit_tokens": 8960,
+   "prompt_cache_miss_tokens": 255
+  },
+  {
+   "prompt_tokens": 11412,
+   "completion_tokens": 52,
+   "total_tokens": 11464,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 11284
+  }
+ ],
+ "sec": 14.6
+}

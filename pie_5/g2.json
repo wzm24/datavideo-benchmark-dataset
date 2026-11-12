@@ -1,135 +1,119 @@
 {
  "clip_id": "pie_5",
  "family": "pie",
- "version": "g2_visual_evidence_v1",
- "source": "auto-derived from g1_draft_b2.json + data_table.csv",
+ "version": "g2_donut_pie_visual_evidence_v1",
  "chart_input": {
   "clip_id": "pie_5",
   "family": "pie",
   "sub_type": "full_pie",
-  "orientation": "radial"
+  "orientation": "radial",
+  "time_behavior": "snapshot"
  },
  "completeness": {
-  "required": false,
-  "selection": "pie family has no g0_data_completeness gate; whole-pie completeness is checked inside share_or_composition units",
-  "required_data_rows": 4,
-  "evaluated_in": "G2_complete_composition",
-  "missing_any_fails_visual_completeness": false,
-  "mode": "static_all_at_once",
-  "required_states": [],
-  "required_marks_per_state": {},
-  "check_full_timeline": false,
-  "final_frame_only_sufficient": true,
-  "g1_unit_ids": [
-   "U2",
-   "U4",
-   "U5"
-  ]
+  "required": true,
+  "mode": "required_composition_marks",
+  "defined_in": "R1"
  },
  "unit_evidence": [
   {
-   "unit_id": "U2",
-   "unit_kind": "key_value_extreme",
+   "unit_id": "U1",
+   "unit_kind": "visual_completeness",
    "must_be_visualized": true,
-   "evidence_type": "extremum_mark",
+   "evidence_type": "complete_composition_set",
    "required_marks": [
-    "Federal | share_of_transit_funding",
-    "Fares | share_of_transit_funding",
-    "Local government | share_of_transit_funding",
-    "State | share_of_transit_funding"
+    "Federal",
+    "Fares",
+    "Local government",
+    "State"
    ],
    "assertion": {
-    "mark": "Local government | share_of_transit_funding",
-    "extreme": "max",
-    "expected": 36.0,
-    "compared_set": "all numeric rows in the same composition",
-    "tolerance": 0.02
+    "all_required_marks_present": true,
+    "required_mark_count": 4,
+    "multi_scope": false
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
    "needs_review": false
   },
   {
-   "unit_id": "U4",
-   "unit_kind": "share_or_composition",
+   "unit_id": "U2",
+   "unit_kind": "share_of_whole",
    "must_be_visualized": true,
-   "evidence_type": "pair_comparison",
+   "evidence_type": "share_of_whole",
    "required_marks": [
-    "Local government | share_of_transit_funding",
-    "State | share_of_transit_funding",
-    "Fares | share_of_transit_funding",
-    "Federal | share_of_transit_funding"
+    "Federal",
+    "Fares",
+    "Local government",
+    "State"
    ],
    "assertion": {
-    "greater": "Local government + State",
-    "greater_value": 57.0,
-    "lesser": "Fares + Federal",
-    "lesser_value": 32.0,
-    "delta": 25.0,
-    "ratio": 1.78125,
-    "expected_order": [
-     "Local government + State",
-     "Fares + Federal"
-    ],
-    "member_marks": {
-     "Local government + State": [
-      "Local government | share_of_transit_funding",
-      "State | share_of_transit_funding"
-     ],
-     "Fares + Federal": [
-      "Fares | share_of_transit_funding",
-      "Federal | share_of_transit_funding"
-     ]
-    },
-    "tolerance": 0.5
-   },
-   "accepted_routes": [
-    "geometry",
-    "readable_label"
-   ],
-   "completeness_ref": "g0_data_completeness",
-   "needs_review": true
-  },
-  {
-   "unit_id": "U5",
-   "unit_kind": "trend_or_order",
-   "must_be_visualized": true,
-   "evidence_type": "monotonic_order",
-   "required_marks": [
-    "State | share_of_transit_funding",
-    "Fares | share_of_transit_funding",
-    "Local government | share_of_transit_funding"
-   ],
-   "assertion": {
-    "sequence": [
+    "shares": [
      {
-      "mark": "State | share_of_transit_funding",
-      "value": 21.0
+      "mark": "Federal",
+      "entity": "Federal",
+      "whole_scope": "share_of_transit_funding",
+      "expected_relative_value": 0.06,
+      "expected_value": 6.0
      },
      {
-      "mark": "Fares | share_of_transit_funding",
-      "value": 26.0
+      "mark": "Fares",
+      "entity": "Fares",
+      "whole_scope": "share_of_transit_funding",
+      "expected_relative_value": 0.26,
+      "expected_value": 26.0
      },
      {
-      "mark": "Local government | share_of_transit_funding",
-      "value": 36.0
+      "mark": "Local government",
+      "entity": "Local government",
+      "whole_scope": "share_of_transit_funding",
+      "expected_relative_value": 0.36,
+      "expected_value": 36.0
+     },
+     {
+      "mark": "State",
+      "entity": "State",
+      "whole_scope": "share_of_transit_funding",
+      "expected_relative_value": 0.21,
+      "expected_value": 21.0
      }
     ],
-    "direction": "increasing",
-    "start_value": 21.0,
-    "end_value": 36.0,
-    "delta": 15.0,
-    "ratio": 1.714286,
-    "tolerance": 0.02
+    "expected_relation": "Federal contributes 6%, Fares 26%, Local government 36%, and State 21% of public transit funding."
    },
    "accepted_routes": [
-    "geometry",
-    "readable_label"
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
    ],
-   "completeness_ref": "g0_data_completeness",
+   "needs_review": false
+  },
+  {
+   "unit_id": "U3",
+   "unit_kind": "composition_order",
+   "must_be_visualized": true,
+   "evidence_type": "sector_ordering",
+   "required_marks": [
+    "Federal",
+    "Fares",
+    "Local government",
+    "State"
+   ],
+   "assertion": {
+    "order": [
+     "Local government",
+     "Fares",
+     "State",
+     "Federal"
+    ],
+    "expected_relation": "Local government is the largest named source at 36%, followed by Fares at 26%, State at 21%, and Federal at 6%."
+   },
+   "accepted_routes": [
+    "arc_geometry",
+    "readable_value_or_label",
+    "explicit_annotation"
+   ],
    "needs_review": false
   }
  ]

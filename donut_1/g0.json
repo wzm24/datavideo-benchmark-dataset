@@ -1,167 +1,166 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "donut_1",
  "family": "donut",
  "data_source": "data_table.csv",
- "data_table_sha256": "b8bd1404a13901fee684d58a3f41f5811d24d5c8dbc670165052c7f3b6d7ecea",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "0ae5189594d8acc388db613513e99b8fa21dccf04bea886c02d6f7a4879ad057",
- "row_count": 3,
- "sidecar_row_count": 3,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "7d0009bdc4ba2f5f6ee5164a3a21adc25d11983fffd07ba93cc7054a1b9528bc",
+ "row_count": 4,
  "chart_structure": {
   "sub_type": "full_ring",
   "orientation": "radial",
-  "panel_count": 1,
-  "series_count": 3,
-  "time_behavior": "snapshot",
-  "panels": []
+  "panel_count": 2,
+  "ring_count": 1,
+  "time_behavior": "frame"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_music_sales"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
-   "panel": "",
+   "row_id": "r1",
+   "panel": "United States (2015)",
+   "series": "",
    "entity": "Digital",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 66.0,
-   "last_value": 66.0,
-   "min_value": 66.0,
-   "max_value": 66.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "narration_printed"
-   ],
-   "role": [
-    "arc"
-   ]
+   "metric": "share_of_music_sales",
+   "value": "66",
+   "unit": "%",
+   "relative_value": "0.66",
+   "label": "",
+   "role": "arc",
+   "source_type": "narration_printed",
+   "whole_scope": "United States (2015)"
   },
   {
-   "panel": "",
+   "row_id": "r2",
+   "panel": "United States (2015)",
+   "series": "",
    "entity": "Physical",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 19.0,
-   "last_value": 19.0,
-   "min_value": 19.0,
-   "max_value": 19.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "derived_complement"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "metric": "share_of_music_sales",
+   "value": "",
+   "unit": "%",
+   "relative_value": "",
+   "label": "PHYSICAL",
+   "role": "annotation",
+   "source_type": "printed",
+   "whole_scope": "United States (2015)"
   },
   {
-   "panel": "",
-   "entity": "(unlabeled)",
+   "row_id": "r3",
+   "panel": "Japan",
    "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 15.0,
-   "last_value": 15.0,
-   "min_value": 15.0,
-   "max_value": 15.0,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_music_sales"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "remainder"
-   ]
+   "entity": "Physical",
+   "metric": "share_of_music_sales",
+   "value": "75",
+   "unit": "%",
+   "relative_value": "0.75",
+   "label": "",
+   "role": "arc",
+   "source_type": "estimated_ring_geometry",
+   "whole_scope": "Japan"
+  },
+  {
+   "row_id": "r4",
+   "panel": "Japan",
+   "series": "",
+   "entity": "Digital",
+   "metric": "share_of_music_sales",
+   "value": "18",
+   "unit": "%",
+   "relative_value": "0.18",
+   "label": "",
+   "role": "arc",
+   "source_type": "estimated_ring_geometry",
+   "whole_scope": "Japan"
   }
  ],
- "source_type_counts": {
-  "derived_complement": 1,
-  "estimated": 1,
-  "narration_printed": 1
- },
- "role_counts": {
-  "arc": 1,
-  "remainder": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "United States (2015)",
+   "series": "",
+   "whole_scope": "United States (2015)",
+   "row_ids": [
+    "r1",
+    "r2"
+   ],
+   "entities": [
+    "Digital",
+    "Physical"
+   ],
+   "relative_value_sum": 0.66
+  },
+  {
+   "panel": "Japan",
+   "series": "",
+   "whole_scope": "Japan",
+   "row_ids": [
+    "r3",
+    "r4"
+   ],
+   "entities": [
+    "Physical",
+    "Digital"
+   ],
+   "relative_value_sum": 0.93
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "state_sequence",
+  "required_rows": [
    {
-    "panel": "",
+    "row_id": "r1",
+    "panel": "United States (2015)",
+    "series": "",
     "entity": "Digital",
-    "series": ""
+    "metric": "share_of_music_sales",
+    "value": "66",
+    "unit": "%",
+    "relative_value": "0.66",
+    "label": "",
+    "role": "arc",
+    "source_type": "narration_printed",
+    "whole_scope": "United States (2015)"
    },
    {
-    "panel": "",
+    "row_id": "r2",
+    "panel": "United States (2015)",
+    "series": "",
     "entity": "Physical",
-    "series": ""
+    "metric": "share_of_music_sales",
+    "value": "",
+    "unit": "%",
+    "relative_value": "",
+    "label": "PHYSICAL",
+    "role": "annotation",
+    "source_type": "printed",
+    "whole_scope": "United States (2015)"
    },
    {
-    "panel": "",
-    "entity": "(unlabeled)",
-    "series": ""
+    "row_id": "r3",
+    "panel": "Japan",
+    "series": "",
+    "entity": "Physical",
+    "metric": "share_of_music_sales",
+    "value": "75",
+    "unit": "%",
+    "relative_value": "0.75",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "Japan"
+   },
+   {
+    "row_id": "r4",
+    "panel": "Japan",
+    "series": "",
+    "entity": "Digital",
+    "metric": "share_of_music_sales",
+    "value": "18",
+    "unit": "%",
+    "relative_value": "0.18",
+    "label": "",
+    "role": "arc",
+    "source_type": "estimated_ring_geometry",
+    "whole_scope": "Japan"
    }
   ],
-  "required_entity_count": 3,
-  "required_row_count": 3,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

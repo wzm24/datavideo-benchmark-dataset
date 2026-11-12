@@ -1,136 +1,66 @@
 {
- "version": "g0_fact_base_v1_2026-10-29",
+ "version": "donut_pie_g0_v1_2026-10-29",
  "clip_id": "pie_10",
  "family": "pie",
  "data_source": "data_table.csv",
- "data_table_sha256": "235f319f5fa401a8bc391f74ca0a6b82eda484080eda9b9151f8ab60ac61d6ae",
- "sidecar_source": "data_table.sidecar.csv",
- "sidecar_sha256": "74ad6daf5529ae1185968bf1a27601a71d9f6fdc464b5e73c5e0f28d664d8609",
- "row_count": 2,
- "sidecar_row_count": 2,
- "columns": [
-  "panel",
-  "series",
-  "entity",
-  "metric",
-  "value",
-  "unit",
-  "relative_value",
-  "label",
-  "role",
-  "source_type"
- ],
- "sidecar_columns": [
-  "clip_id",
-  "entity_id",
-  "x_px",
-  "x_value",
-  "geometry_relative_value",
-  "color",
-  "note"
- ],
+ "data_table_sha256": "9082a830d4b2e484467c1357a12ea2781206a04d479ced7f789efc2124e78c49",
+ "row_count": 1,
  "chart_structure": {
   "sub_type": "full_pie",
   "orientation": "radial",
   "panel_count": 1,
-  "series_count": 2,
-  "time_behavior": "snapshot",
-  "panels": []
+  "ring_count": 1,
+  "time_behavior": "snapshot"
  },
- "axis_semantics": {
-  "x_axes": [],
-  "y_axes": [
-   "share_of_national_income"
-  ],
-  "x_fields": [],
-  "x_mode": "categorical",
-  "x_anchors": []
- },
- "entity_inventory": [
+ "row_facts": [
   {
+   "row_id": "r1",
    "panel": "",
+   "series": "",
    "entity": "Top 1%",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 22.5,
-   "last_value": 22.5,
-   "min_value": 22.5,
-   "max_value": 22.5,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_national_income"
-   ],
-   "source_type": [
-    "printed"
-   ],
-   "role": [
-    "slice"
-   ]
-  },
-  {
-   "panel": "",
-   "entity": "Bottom 99%",
-   "series": "",
-   "row_count": 1,
-   "unit": [
-    "%"
-   ],
-   "x_anchors": [],
-   "first_value": 77.5,
-   "last_value": 77.5,
-   "min_value": 77.5,
-   "max_value": 77.5,
-   "missing_value_count": 0,
-   "metric": [
-    "share_of_national_income"
-   ],
-   "source_type": [
-    "estimated"
-   ],
-   "role": [
-    "slice"
-   ]
+   "metric": "share_of_national_income",
+   "value": "22.5",
+   "unit": "%",
+   "relative_value": "0.225",
+   "label": "22.5%",
+   "role": "slice",
+   "source_type": "printed",
+   "whole_scope": "share_of_national_income"
   }
  ],
- "source_type_counts": {
-  "estimated": 1,
-  "printed": 1
- },
- "role_counts": {
-  "slice": 2
- },
- "estimated_or_projected_roles": [
-  "estimated"
+ "composition_groups": [
+  {
+   "panel": "",
+   "series": "",
+   "whole_scope": "share_of_national_income",
+   "row_ids": [
+    "r1"
+   ],
+   "entities": [
+    "Top 1%"
+   ],
+   "relative_value_sum": 0.225
+  }
  ],
  "completeness": {
   "required": true,
-  "mode": "entity_set_per_panel",
-  "panels": [],
-  "required_entities": [
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
    {
+    "row_id": "r1",
     "panel": "",
+    "series": "",
     "entity": "Top 1%",
-    "series": ""
-   },
-   {
-    "panel": "",
-    "entity": "Bottom 99%",
-    "series": ""
+    "metric": "share_of_national_income",
+    "value": "22.5",
+    "unit": "%",
+    "relative_value": "0.225",
+    "label": "22.5%",
+    "role": "slice",
+    "source_type": "printed",
+    "whole_scope": "share_of_national_income"
    }
   ],
-  "required_entity_count": 2,
-  "required_row_count": 2,
-  "all_required_entities_must_appear": true,
-  "evaluated_in": "G1_R1_completeness_units_and_G2_mark_presence"
- },
- "derived_from": [
-  "data_table.csv",
-  "chart_spec.json",
-  "input_spec.json",
-  "data_table.sidecar.csv"
- ]
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ }
 }

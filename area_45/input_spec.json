@@ -1,6 +1,11 @@
 {
- "clip_id": "area_45",
- "family": "area",
- "sub_type": "stacked_area",
- "orientation": "cartesian"
+  "clip_id": "area_45",
+  "family": "area",
+  "sub_type": "multi_area_overlay",
+  "orientation": "cartesian",
+  "stacked": false,
+  "axis_semantics": {
+    "x": "Year",
+    "y": "After-tax income growth relative to the starting year (%)"
+  }
 }

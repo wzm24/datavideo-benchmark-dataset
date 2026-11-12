@@ -1,0 +1,293 @@
+{
+ "clip_id": "donut_13",
+ "version": "g1_donut_pie_r_u_v1",
+ "input_contract": "V1",
+ "input_materials": [
+  "intent_en",
+  "data_table.csv",
+  "input_spec.json"
+ ],
+ "intent": "Compare the marijuana usage rate between the US and the Netherlands across both panels for the reported survey period.",
+ "requirements": [
+  {
+   "id": "R1",
+   "question": "Are all required composition entities, rings, and states represented?",
+   "relation": "all_of",
+   "unit_ids": [
+    "U1",
+    "U2"
+   ],
+   "scope": {
+    "groups": [
+     {
+      "panel": "Left panel",
+      "series": ""
+     },
+     {
+      "panel": "Right panel",
+      "series": ""
+     }
+    ]
+   }
+  },
+  {
+   "id": "R2",
+   "question": "Compare the marijuana usage rate between the US and the Netherlands across both panels for the reported survey period.",
+   "relation": "all_of",
+   "unit_ids": [
+    "U3",
+    "U4",
+    "U5"
+   ],
+   "scope": {}
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Left panel.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Left panel",
+     "series": "",
+     "entity": "US",
+     "label": "42%",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U2",
+   "requirement_id": "R1",
+   "unit_kind": "visual_completeness",
+   "claim": "All required composition entities appear in Right panel.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "Right panel",
+     "series": "",
+     "entity": "Netherlands",
+     "label": "20%",
+     "role": "gauge",
+     "field": "value"
+    }
+   ],
+   "accept": [
+    "all required labels or sectors are visible",
+    "each entity is correctly bound to its arc, center label, or annotation"
+   ],
+   "reject": [
+    "missing required entity",
+    "fabricated label for an unnamed remainder",
+    "entity assigned to the wrong panel or ring"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U3",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "The US marijuana usage rate is 42% in the left panel.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Left panel",
+     "series": "",
+     "entity": "US",
+     "metric": "marijuana_usage_rate",
+     "field": "relative_value",
+     "value": "0.42",
+     "table_value": "42",
+     "table_relative_value": "0.42",
+     "unit": "%",
+     "relative_value": "0.42",
+     "label": "42%",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Left panel"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "US gauge shows 42%",
+    "left panel value is 0.42"
+   ],
+   "reject": [
+    "US value shown as 20%",
+    "US value omitted"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U4",
+   "requirement_id": "R2",
+   "unit_kind": "gauge_value",
+   "claim": "The Netherlands marijuana usage rate is 20% in the right panel.",
+   "basis": [
+    {
+     "row_id": "r2",
+     "panel": "Right panel",
+     "series": "",
+     "entity": "Netherlands",
+     "metric": "marijuana_usage_rate",
+     "field": "relative_value",
+     "value": "0.2",
+     "table_value": "20",
+     "table_relative_value": "0.2",
+     "unit": "%",
+     "relative_value": "0.2",
+     "label": "20%",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Right panel"
+    }
+   ],
+   "computation": "none",
+   "accept": [
+    "Netherlands gauge shows 20%",
+    "right panel value is 0.20"
+   ],
+   "reject": [
+    "Netherlands value shown as 42%",
+    "Netherlands value omitted"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  },
+  {
+   "id": "U5",
+   "requirement_id": "R2",
+   "unit_kind": "cross_panel_compare",
+   "claim": "The US marijuana usage rate (42%) is higher than the Netherlands rate (20%) across the two panels.",
+   "basis": [
+    {
+     "row_id": "r1",
+     "panel": "Left panel",
+     "series": "",
+     "entity": "US",
+     "metric": "marijuana_usage_rate",
+     "field": "relative_value",
+     "value": "0.42",
+     "table_value": "42",
+     "table_relative_value": "0.42",
+     "unit": "%",
+     "relative_value": "0.42",
+     "label": "42%",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Left panel"
+    },
+    {
+     "row_id": "r2",
+     "panel": "Right panel",
+     "series": "",
+     "entity": "Netherlands",
+     "metric": "marijuana_usage_rate",
+     "field": "relative_value",
+     "value": "0.2",
+     "table_value": "20",
+     "table_relative_value": "0.2",
+     "unit": "%",
+     "relative_value": "0.2",
+     "label": "20%",
+     "role": "gauge",
+     "source_type": "printed",
+     "whole_scope": "Right panel"
+    }
+   ],
+   "computation": "compare r1.relative_value vs r2.relative_value",
+   "accept": [
+    "US rate exceeds Netherlands rate",
+    "42% > 20%"
+   ],
+   "reject": [
+    "Netherlands rate exceeds US rate",
+    "rates shown as equal"
+   ],
+   "must_be_visualized": true,
+   "needs_review": false
+  }
+ ],
+ "weight_mode": "uniform_over_units",
+ "unit_weights": {
+  "U1": 0.2,
+  "U2": 0.2,
+  "U3": 0.2,
+  "U4": 0.2,
+  "U5": 0.2
+ },
+ "optional_valid": [
+  "Label presence for US and Netherlands gauges",
+  "Panel identity binding (left panel = US, right panel = Netherlands)"
+ ],
+ "unsupported_to_avoid": [
+  "Adding US and Netherlands shares together",
+  "Inferring a remainder or complement for a partial ring",
+  "Reporting absolute counts not present in the data",
+  "Comparing colors, layout, or chart type"
+ ],
+ "review_notes": [
+  "Both panels are partial rings/gauge values, so gauge_value units capture each endpoint; cross_panel_compare captures the intent's comparison.",
+  "No full-composition remainder is derivable because each gauge is a partial ring with a single printed share."
+ ],
+ "g0_data_completeness": {
+  "required": true,
+  "mode": "composition_set_per_panel_ring",
+  "required_rows": [
+   {
+    "row_id": "r1",
+    "panel": "Left panel",
+    "series": "",
+    "entity": "US",
+    "metric": "marijuana_usage_rate",
+    "value": "42",
+    "unit": "%",
+    "relative_value": "0.42",
+    "label": "42%",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Left panel"
+   },
+   {
+    "row_id": "r2",
+    "panel": "Right panel",
+    "series": "",
+    "entity": "Netherlands",
+    "metric": "marijuana_usage_rate",
+    "value": "20",
+    "unit": "%",
+    "relative_value": "0.2",
+    "label": "20%",
+    "role": "gauge",
+    "source_type": "printed",
+    "whole_scope": "Right panel"
+   }
+  ],
+  "evaluated_in": "G1_R1_completeness_units_and_G2_visual_completeness"
+ },
+ "status": "approved",
+ "unit_kind_schema": "donut_pie_protocol_v1_2026-10-29",
+ "approved_by": "human_sampling_approval_2026-11-12",
+ "approved_at": "2026-11-12",
+ "approval_basis": "Human sampling review completed; remaining items approved as a batch.",
+ "review_flags": [
+  "g1_batch_approved_after_human_sampling_2026_11_12"
+ ]
+}

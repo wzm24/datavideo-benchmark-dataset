@@ -1,6 +1,12 @@
 {
- "clip_id": "area_27",
- "family": "area",
- "sub_type": "overlay_area",
- "orientation": "cartesian"
+  "clip_id": "area_27",
+  "family": "area",
+  "sub_type": "distribution_area_with_highlight",
+  "orientation": "cartesian",
+  "special_area_type": true,
+  "annotation": {
+    "average_line_x": 0.503773585,
+    "left_tail_share": 0.100813404,
+    "left_tail_x_end": 0.453962264
+  }
 }
